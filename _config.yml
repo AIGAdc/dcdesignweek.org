@@ -1,6 +1,7 @@
 ---
 title: Dcdw
 timezone: UTC
+
 collections:
   posts:
     title: Posts
@@ -8,3 +9,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+exclude: [ package.json, gulpfile.js, node_modules, README.md, Gemfile, Gemfile.lock, DesignInsperation.txt ]
+
+sass:
+  sass_dir: _sass
+  style: compressed
