@@ -1,5 +1,5 @@
 # ignore site builds
-_site
+_site/**/*
 
 # ignore design inspiration txt file
 DesignInsperation.txt
