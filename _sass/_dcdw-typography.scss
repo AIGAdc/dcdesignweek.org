@@ -1,0 +1,33 @@
+// Variables
+
+// font sizes
+$text-xx-small: 0.5em;
+$text-x-small: 0.75em;
+$text-small: 1em;
+$text-default: 1.25em;
+$text-medium: 1.5em;
+$text-x-medium: 1.75em;
+$text-xx-medium: 2em;
+$text-large: 2.25em;
+$text-x-large: 2.5em;
+$text-xx-large: 2.75em;
+
+// text transforms
+$uppercase: uppercase;
+$lowercase: lowercase;
+
+/* DCDW Typography */
+
+.text-xx-small { font-size: $text-xx-small };
+.text-x-small { font-size: $text-x-small };
+.text-small { font-size: $text-small };
+.text-default { font-size: $text-default };
+.text-medium { font-size: $text-medium };
+.text-x-medium { font-size: $text-x-medium };
+.text-xx-medium { font-size: $text-xx-medium };
+.text-large { font-size: $text-large };
+.text-x-large { font-size: $text-x-large };
+.text-xx-large { font-size: $text-xx-large };
+
+.text-uppercase { text-transform: $uppercase };
+.text-lowercase { text-transform: $lowercase };
