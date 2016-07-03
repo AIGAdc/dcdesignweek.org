@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  aiga-members:
+    title: aiga-members
+    output: true
 exclude:
 - package.json
 - gulpfile.js
