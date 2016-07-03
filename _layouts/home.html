@@ -1,6 +1,8 @@
 {% include global/head-open.html %}
 
 <main class="">
+
+
   <header class="hero border">
     <div class="container clearfix p3">
       <h1 class="center">header/hero</h1>
@@ -27,29 +29,20 @@
 
   <section class="about border">
     <div class="container clearfix p3">
-      <ul class="love__tweets">
-        {% assign members = site.aiga-members | sort:'position' %}
-        {% for member in members limit:6 %}
-          <li class="love__tweet">
-            <div class="love__tweet__card">
-              <a href="{{ tweet.link }}">
-                <div class="love__tweet__header">
-                  <div class="aiga-member-headshot">
-                    <img src="{{ aiga-member.image }}" />
-                  </div>
-                  <div class="aiga-member-details">
-                    <h5 class="aiga-member-name">{{ aiga-member.name }}</h5>
-                    <h6 class="aiga-member-position">{{ aiga-member.position }}</h6>
-                    <h6 class="aiga-member-bio">{{ aiga-member.bio }}</h6>
-                  </div>
-                </div>
-              </a>
+      {% for post in site.aiga-members %}
+        <div class="sm-col sm-col-12 md-col-4 p3 border">
+          <div class="aiga-member">
+            <div class="aiga-member-headshot">
+              <img class="circle" src="{{ post.aiga-member.headshot-image }}" />
             </div>
-          </li>
-        {% endfor %}
-      </ul>
-
-
+            <div class="aiga-member-details">
+              <h2 class="m0 aiga-member-name">{{ post.aiga-member.name }}</h2>
+              <h4 class="m0 aiga-member-position">{{ post.aiga-member.position }}</h4>
+              <p class="m0 aiga-member-bio">{{ post.aiga-member.bio }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </section>
 
