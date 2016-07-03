@@ -19,6 +19,18 @@
     <section class="events border">
       <div class="container clearfix p3">
         <h1 class="center">events</h1>
+        <div class="sm-col sm-col-12 md-col-4">
+          {{ page.events-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 md-col-8">
+          {% for post in site.events %}
+          <div class="">
+            <div class="sm-col sm-col-12 md-col-6 rounded p3 border" style="background-color: {{ post.event-bg-color }};">
+              {% include post.html post=post is_excerpt=true %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </section>
 
