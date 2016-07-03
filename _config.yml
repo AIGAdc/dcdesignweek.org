@@ -1,6 +1,6 @@
 ---
 title: Dcdw
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -14,6 +14,7 @@ collections:
   sponsors:
     title: sponsors
     output: true
+    test: test
 exclude:
 - package.json
 - gulpfile.js
