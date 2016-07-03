@@ -5,6 +5,6 @@ aiga-member:
   headshot-image: "/uploads/diane-headshot.png"
   name: Diane Holton
   position: Continuum and Mentorship Director
-  bio: 
+  bio: test, test
 ---
 
