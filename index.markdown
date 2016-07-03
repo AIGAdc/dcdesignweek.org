@@ -7,6 +7,7 @@ contact-text: This is the contact field. Simply fill this box out with the conta
   text for this section, and it will display here.
 contact-cta-text: Paste button text here
 contact-cta-color: "#36deee"
+footer-text: Copyright 2016 AIGA DC.
 layout: home
 ---
 
