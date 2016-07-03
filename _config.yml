@@ -11,6 +11,9 @@ collections:
   aiga-members:
     title: aiga-members
     output: true
+  sponsors:
+    title: sponsors
+    output: true
 exclude:
 - package.json
 - gulpfile.js
