@@ -14,6 +14,7 @@ collections:
   sponsors:
     title: sponsors
     output: true
+    Field name: test
 exclude:
 - package.json
 - gulpfile.js
