@@ -9,9 +9,12 @@
     </div>
   </header>
 
-  <section class="intro border">
+  <section class="intro border py4">
     <div class="container clearfix p3">
-      <h1 class="center">introduction</h1>
+      <h1 class="m0 center">introduction</h1>
+      <div class="sm-col sm-col-12 border center p3">
+        {{ page.introduction-text | markdownify }}
+      </div>
     </div>
   </section>
 
@@ -32,12 +35,12 @@
       {% for post in site.aiga-members %}
         <div class="sm-col sm-col-12 md-col-4 p3 border">
           <div class="aiga-member">
-            <div class="aiga-member-headshot">
+            <div class="aiga-member-headshot center">
               <img class="circle" src="{{ post.aiga-member.headshot-image }}" />
             </div>
-            <div class="aiga-member-details">
-              <h2 class="m0 aiga-member-name">{{ post.aiga-member.name }}</h2>
-              <h4 class="m0 aiga-member-position">{{ post.aiga-member.position }}</h4>
+            <div class="aiga-member-details center py2">
+              <h3 class="m0 aiga-member-name bold">{{ post.aiga-member.name }}</h3>
+              <h6 class="m0 mb1 aiga-member-position">{{ post.aiga-member.position }}</h6>
               <p class="m0 aiga-member-bio">{{ post.aiga-member.bio }}</p>
             </div>
           </div>

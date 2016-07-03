@@ -20,7 +20,6 @@ exclude:
 - Gemfile.lock
 - DesignInsperation.txt
 - ".jekyll-metadata"
-- _aiga-members
 sass:
   sass_dir: _sass
   style: compressed
