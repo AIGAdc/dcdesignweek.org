@@ -10,3 +10,6 @@ DesignInsperation.txt
 node_modules
 
 .jekyll-metadata
+
+# ignore sass-cache
+.sass-cache
