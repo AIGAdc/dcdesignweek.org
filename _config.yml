@@ -27,7 +27,7 @@ exclude:
 - Gemfile.lock
 - DesignInsperation.txt
 - ".jekyll-metadata"
-- .sass-cache
+- ".sass-cache"
 sass:
   sass_dir: _sass
   style: compressed
