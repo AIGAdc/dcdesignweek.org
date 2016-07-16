@@ -1,16 +1,24 @@
 ---
 title: index
 date: 2016-07-02 23:42:00 -04:00
-introduction-text: "Design is a driving force in DC. Whether supporting the nation’s
+header-title-text: |-
+  DC is Design
+  October 21-28
+header-cta-text: Test
+header-cta-link-text: Test
+header-cta-color: "#f75454"
+introduction-title-text: About DCDW
+introduction-body-text: "Design is a driving force in DC. Whether supporting the nation’s
   leading nonprofits, engineering the next startup, or solving problems with real
   impact through our government, design is at the core of this city. We’re makers
   and disruptors, artisans and tech geeks, and this October we’re coming together
   to celebrate. \n\nJoin us for DC Design Week. This year we’re going bigger than
   ever with new partners, new venues, new event formats, and new ways to interact
   with DC’s unique design community. You won’t want to miss this. "
-events-text: 'We pack the week with events that connect, inspire, and showcase DC
-  designers, thinkers, and creatives. '
-about-title-text: "# About AIGA"
+events-title-text: DCDW Events
+events-body-text: 'We pack the week with events that connect, inspire, and showcase
+  DC designers, thinkers, and creatives. '
+about-title-text: About AIGA
 about-body-text: DC Design Week is produced by AIGA SF, the professional association
   for design, is the oldest and largest membership association for professionals engaged
   in the discipline, practice and culture of designing.
