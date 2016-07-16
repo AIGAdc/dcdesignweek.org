@@ -9,9 +9,11 @@
 
     <section class="intro border py4">
       <div class="container clearfix p3">
-        <h1 class="m0 center">introduction</h1>
         <div class="sm-col sm-col-12 border center p3">
-          {{ page.introduction-text | markdownify }}
+          {{ page.introduction-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 border center p3">
+          {{ page.introduction-body-text | markdownify }}
         </div>
       </div>
     </section>
@@ -20,7 +22,7 @@
       <div class="container clearfix p3">
         <h1 class="center">events</h1>
         <div class="sm-col sm-col-12 md-col-4">
-          {{ page.events-text | markdownify }}
+          {{ page.events-body-text | markdownify }}
         </div>
         <div class="sm-col sm-col-12 md-col-8">
           {% for post in site.events %}
