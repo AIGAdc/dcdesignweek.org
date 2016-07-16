@@ -20,14 +20,16 @@
 
     <section class="events border">
       <div class="container clearfix p3">
-        <h1 class="center">events</h1>
-        <div class="sm-col sm-col-12 md-col-4">
+        <div class="sm-col sm-col-12 border center p3">
+          {{ page.events-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 md-col-4 p1">
           {{ page.events-body-text | markdownify }}
         </div>
-        <div class="sm-col sm-col-12 md-col-8">
+        <div class="sm-col sm-col-12 md-col-8 p1">
           {% for post in site.events %}
           <div class="">
-            <div class="sm-col sm-col-12 md-col-6 rounded p3 border" style="background-color: {{ post.event-bg-color }};">
+            <div class="sm-col sm-col-12 md-col-6 p3" style="background-color: {{ post.event-bg-color }};">
               {% include post.html post=post is_excerpt=true %}
             </div>
           </div>
@@ -38,10 +40,10 @@
 
     <section class="sponsors border">
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 center">
+        <div class="sm-col sm-col-12 border center p3">
           {{ page.sponsors-title-text | markdownify }}
         </div>
-        <div class="sm-col sm-col-12 center">
+        <div class="sm-col sm-col-12 border center p3">
           {{ page.sponsors-body-text | markdownify }}
         </div>
         <div class="sm-col sm-col-12 center">
@@ -54,10 +56,10 @@
 
     <section class="about border">
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 center">
+        <div class="sm-col sm-col-12 border center p3">
           {{ page.about-title-text | markdownify }}
         </div>
-        <div class="sm-col sm-col-12 center">
+        <div class="sm-col sm-col-12 border center p3">
           {{ page.about-body-text | markdownify }}
         </div>
         {% for post in site.aiga-members %}
@@ -84,9 +86,11 @@
 
     <section class="contact border py4">
       <div class="container clearfix p3">
-        <h1 class="m0 mb2 center">contact</h1>
-        <div class="sm-col sm-col-12 border center mb2 p3">
-          {{ page.contact-text | markdownify }}
+        <div class="sm-col sm-col-12 border center p3">
+          {{ page.contact-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 border center p3">
+          {{ page.contact-body-text | markdownify }}
         </div>
         <div class="sm-col sm-col-12 center">
           <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="#">
