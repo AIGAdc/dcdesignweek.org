@@ -1,0 +1,12 @@
+// Color Variables
+
+$pure-white: #fff;
+$pure-black: #000;
+
+///////////////////////////////////////////////////////////////////////////////
+
+.pure-white { color: $pure-white; }
+.pure-black { color: $pure-black; }
+
+.bg-pure-white { background-color: $pure-white; }
+.bg-pure-black { background-color: $pure-black; }
