@@ -42,6 +42,12 @@
 
     <section class="about border">
       <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 center">
+          {{ page.about-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 center">
+          {{ page.about-body-text | markdownify }}
+        </div>
         {% for post in site.aiga-members %}
           <div class="sm-col sm-col-12 md-col-4 p3 border">
             <div class="aiga-member">
@@ -56,6 +62,11 @@
             </div>
           </div>
         {% endfor %}
+        <div class="sm-col sm-col-12 center">
+          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="{{ page.about-cta-link-text | markdownify | strip_html }}" target="_blank">
+            {{ page.about-cta-text | markdownify }}
+          </a>
+        </div>
       </div>
     </section>
 

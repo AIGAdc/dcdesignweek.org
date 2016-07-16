@@ -1,10 +1,11 @@
-$default-radius: 10px;
+$default-radius: 5px;
 
 a.button {
   border: none;
   display: inline-block;
   border-radius: $default-radius;
   padding: 0.75em 2em;
-  color: #fff;
+  color: $pure-white;
+  font-size: $text-small;
   font-weight: 900;
 }
