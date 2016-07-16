@@ -6,6 +6,6 @@ aiga-member:
   headshot-image: "/uploads/dan-headshot.png"
   name: Dan Rader
   position: Programming Coordinator
-  bio: Test, test
+  bio: 
 ---
 
