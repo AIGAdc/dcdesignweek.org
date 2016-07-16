@@ -8,13 +8,13 @@ header-cta-text: Test
 header-cta-link-text: Test
 header-cta-color: "#f75454"
 introduction-title-text: About DCDW
-introduction-body-text: 'Design is a driving force in DC. Whether supporting the nation’s
+introduction-body-text: "Design is a driving force in DC. Whether supporting the nation’s
   leading nonprofits, engineering the next startup, or solving problems with real
   impact through our government, design is at the core of this city. We’re makers
   and disruptors, artisans and tech geeks, and this October we’re coming together
-  to celebrate. Join us for DC Design Week. This year we’re going bigger than ever
-  with new partners, new venues, new event formats, and new ways to interact with
-  DC’s unique design community. You won’t want to miss this. '
+  to celebrate. \n\nJoin us for DC Design Week. This year we’re going bigger than
+  ever with new partners, new venues, new event formats, and new ways to interact
+  with DC’s unique design community. You won’t want to miss this. "
 events-title-text: DCDW Events
 events-body-text: 'We pack the week with events that connect, inspire, and showcase
   DC designers, thinkers, and creatives. '
@@ -32,7 +32,8 @@ sponsors-body-text: DC Design Week is produced by a 501(3)c non-profit and there
 sponsors-cta-text: Become a Partner
 sponsors-cta-link-text: dcdw@aigadc.org
 sponsors-cta-color: "#92db7c"
-contact-text: This is the contact field. Simply fill this box out with the contact
+contact-title-text: Contact Us
+contact-body-text: This is the contact field. Simply fill this box out with the contact
   text for this section, and it will display here.
 contact-cta-text: Paste button text here
 contact-cta-color: "#6ad0c7"
