@@ -12,7 +12,7 @@ introduction-body-text: "Design is a driving force in DC. Whether supporting the
   leading nonprofits, engineering the next startup, or solving problems with real
   impact through our government, design is at the core of this city. We’re makers
   and disruptors, artisans and tech geeks, and this October we’re coming together
-  to celebrate. \n\nJoin us for DC Design Week. This year we’re going bigger than
+  to celebrate. Join us for DC Design Week. This year we’re going bigger than
   ever with new partners, new venues, new event formats, and new ways to interact
   with DC’s unique design community. You won’t want to miss this. "
 events-title-text: DCDW Events
@@ -38,4 +38,3 @@ contact-cta-text: Paste button text here
 contact-cta-color: "#6ad0c7"
 layout: home
 ---
-

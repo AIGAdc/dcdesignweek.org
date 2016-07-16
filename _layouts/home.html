@@ -3,11 +3,18 @@
 
     <header class="hero border">
       <div class="container clearfix p3">
-        <h1 class="center">header/hero</h1>
+        <div class="sm-col sm-col-12 border center p3">
+          {{ page.header-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 center">
+          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="{{ page.about-cta-link-text | markdownify | strip_html }}" target="_blank">
+            {{ page.about-cta-text | markdownify }}
+          </a>
+        </div>
       </div>
     </header>
 
-    <section class="intro border py4">
+    <section class="introduction border py4">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 border center p3">
           {{ page.introduction-title-text | markdownify }}
@@ -84,21 +91,7 @@
       </div>
     </section>
 
-    <section class="contact border py4">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.contact-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.contact-body-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="#">
-            {{ page.contact-cta-text | markdownify }}
-          </a>
-        </div>
-      </div>
-    </section>
+    
 
     {% include footer.html %}
   </main>
