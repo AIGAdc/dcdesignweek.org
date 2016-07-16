@@ -10,6 +10,12 @@ introduction-text: "Design is a driving force in DC. Whether supporting the nati
   with DC’s unique design community. You won’t want to miss this. "
 events-text: 'We pack the week with events that connect, inspire, and showcase DC
   designers, thinkers, and creatives. '
+about-title-text: "# About AIGA"
+about-body-text: DC Design Week is produced by AIGA SF, the professional association
+  for design, is the oldest and largest membership association for professionals engaged
+  in the discipline, practice and culture of designing.
+about-cta-text: Visit AIGA DC
+about-cta-link-text: http://dc.aiga.org/
 contact-text: This is the contact field. Simply fill this box out with the contact
   text for this section, and it will display here.
 contact-cta-text: Paste button text here
