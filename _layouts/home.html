@@ -43,7 +43,7 @@
           {{ page.sponsors-body-text | markdownify }}
         </div>
         <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.sponsors-cta-color }};" href="{{ page.sponsors-cta-link-text | markdownify | strip_html }}" target="_blank">
+          <a class="button inline-block" style="background-color: {{ page.sponsors-cta-color }};" href="mailto:{{ page.sponsors-cta-link-text | markdownify | strip_html }}?Subject=Sponsorship" target="_top">
             {{ page.sponsors-cta-text | markdownify }}
           </a>
         </div>
