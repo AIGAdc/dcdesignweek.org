@@ -36,7 +36,17 @@
 
     <section class="sponsors border">
       <div class="container clearfix p3">
-        <h1 class="center">sponsors</h1>
+        <div class="sm-col sm-col-12 center">
+          {{ page.sponsors-title-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 center">
+          {{ page.sponsors-body-text | markdownify }}
+        </div>
+        <div class="sm-col sm-col-12 center">
+          <a class="button inline-block" style="background-color: {{ page.sponsors-cta-color }};" href="{{ page.sponsors-cta-link-text | markdownify | strip_html }}" target="_blank">
+            {{ page.sponsors-cta-text | markdownify }}
+          </a>
+        </div>
       </div>
     </section>
 
