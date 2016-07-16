@@ -1,6 +1,7 @@
 ---
 title: TJ Cichecki
-date: 2016-07-03 04:20:00 Z
+date: 2016-07-03 00:20:00 -04:00
+position: 2
 aiga-member:
   headshot-image: "/uploads/tj-headshot.png"
   name: TJ Cichecki

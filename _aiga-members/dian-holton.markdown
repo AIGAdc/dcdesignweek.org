@@ -1,6 +1,7 @@
 ---
 title: Dian Holton
-date: 2016-07-03 05:02:00 Z
+date: 2016-07-03 01:02:00 -04:00
+position: 3
 aiga-member:
   headshot-image: "/uploads/diane-headshot.png"
   name: Diane Holton
