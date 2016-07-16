@@ -16,11 +16,18 @@ about-body-text: DC Design Week is produced by AIGA SF, the professional associa
   in the discipline, practice and culture of designing.
 about-cta-text: Visit AIGA DC
 about-cta-link-text: http://dc.aiga.org/
+sponsors-title-text: Join Our Growing List of Partners
+sponsors-body-text: DC Design Week is produced by a 501(3)c non-profit and therefore
+  relies on the goodness of others. Major thanks to the following partners for supporting
+  us so that we can continue to deliver this event year after year to the DC design
+  community!
+sponsors-cta-text: Become a Partner
+sponsors-cta-link-text: dcdw@aigadc.org
+sponsors-cta-color: "#92db7c"
 contact-text: This is the contact field. Simply fill this box out with the contact
   text for this section, and it will display here.
 contact-cta-text: Paste button text here
-contact-cta-color: "#000"
-footer-text: Copyright 2016 AIGA DC.
+contact-cta-color: "#6ad0c7"
 layout: home
 ---
 
