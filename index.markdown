@@ -1,9 +1,8 @@
 ---
 title: index
 date: 2016-07-02 23:42:00 -04:00
-header-title-text: |-
-  DC is Design
-  October 21-28
+header-title-text: DC is Design
+header-date-text: October 21-28
 header-cta-text: Test
 header-cta-link-text: Test
 header-cta-color: "#f75454"
@@ -18,12 +17,6 @@ introduction-body-text: "Design is a driving force in DC. Whether supporting the
 events-title-text: DCDW Events
 events-body-text: 'We pack the week with events that connect, inspire, and showcase
   DC designers, thinkers, and creatives. '
-about-title-text: About AIGA
-about-body-text: DC Design Week is produced by AIGA SF, the professional association
-  for design, is the oldest and largest membership association for professionals engaged
-  in the discipline, practice and culture of designing.
-about-cta-text: Visit AIGA DC
-about-cta-link-text: http://dc.aiga.org/
 sponsors-title-text: Join Our Growing List of Partners
 sponsors-body-text: DC Design Week is produced by a 501(3)c non-profit and therefore
   relies on the goodness of others. Major thanks to the following partners for supporting
@@ -32,6 +25,12 @@ sponsors-body-text: DC Design Week is produced by a 501(3)c non-profit and there
 sponsors-cta-text: Become a Partner
 sponsors-cta-link-text: dcdw@aigadc.org
 sponsors-cta-color: "#92db7c"
+about-title-text: About AIGA
+about-body-text: DC Design Week is produced by AIGA SF, the professional association
+  for design, is the oldest and largest membership association for professionals engaged
+  in the discipline, practice and culture of designing.
+about-cta-text: Visit AIGA DC
+about-cta-link-text: http://dc.aiga.org/
 contact-title-text: Contact Us
 contact-body-text: This is the contact field. Simply fill this box out with the contact
   text for this section, and it will display here.
