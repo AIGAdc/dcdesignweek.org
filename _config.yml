@@ -21,14 +21,13 @@ collections:
   sponsors-row-2:
     title: sponsors-row-2
     output: true
-logo-file: "/uploads/dcdw-logo.svg"
 defaults:
-  -
-    scope:
-      path: ""
-      type: "events"
-    values:
-      layout: "event"
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: event
+logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
 - gulpfile.js
