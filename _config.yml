@@ -18,6 +18,7 @@ collections:
     title: sponsors
     output: true
     test: test
+logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
 - gulpfile.js
@@ -31,4 +32,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-logo-file: "/uploads/dcdw-logo.svg"
