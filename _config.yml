@@ -21,6 +21,9 @@ collections:
     title: sponsors-row-1
     output: false
     test: test
+  sponsors-row-2:
+    title: sponsors-row-2
+    output: true
 logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
