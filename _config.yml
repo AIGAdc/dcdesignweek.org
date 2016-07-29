@@ -18,8 +18,8 @@ collections:
     title: events-row-2
     output: true
   sponsors:
-    title: sponsors
-    output: true
+    title: sponsors-row-1
+    output: false
     test: test
 logo-file: "/uploads/dcdw-logo.svg"
 exclude:
