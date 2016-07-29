@@ -1,5 +1,130 @@
 {% include global/head-open.html %}
   <main class="">
+    <header class="nav-bar px3 py2 border relative bg-white">
+      <div class="logo-wrapper relative">
+        <img class="absolute" src="/uploads/dcdw-logo.svg">
+      </div>
+      <div class="">
+        <a href="#">Test</a>
+      </div>
+    </header>
+
+    <section class="introduction py4 border bg-white" style="border-bottom: 10px solid #000;">
+      <div class="container clearfix px3">
+        <div class="text-wrap relative">
+    			<h1 class="text-xx-large text-bold" style="color: blue;">
+    				DC</br>
+    				Design</br>
+    				Week.
+    			</h1>
+    			<span class="absolute text-default text-bold" style="top: 100px; left: 150px; ">October</br class="m0">21-29th</span>
+    		</div>
+      </div>
+    </section>
+
+    <section class="dc-design border bg-white relative">
+      <div class="container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+      	<div class="sm-col sm-col-12 md-col-3 px1">
+  				<h1>DC is Design</h1>
+  				<hr>
+  				<p class="m0 courier" style="text-align: justify;">
+  				Design is a driving force in DC. Whether supporting the nation’s leading nonprofits, engineering the next startup, or solving problems with real impact through our government, design is at the core of this city. We’re makers and disruptors, artisans and tech geeks, and this
+  				</p>
+  			</div>
+      </div>
+      <div class="container clearfix px3 relative" style="top: -160px;">
+        <div class="sm-col sm-col-12 md-col-4 px2 py1"></div>
+      	<div class="sm-col sm-col-12 md-col-3 px1">
+  				<p class="m0 courier" style="text-align: justify;">
+            October we’re coming together to celebrate. Join us for DC Design Week. This year we’re going bigger than ever with new partners, new venues, new event formats, and new ways to interact with DC’s unique design community. You won’t want to miss this.
+  				</p>
+  			</div>
+      </div>
+    </section>
+
+    <section class="events border py3">
+      <div class="container clearfix px3">
+      	<div class="sm-col sm-col-12 md-col-4 px1">
+  				<h1>Events</h1>
+  				<hr>
+  				<p class="m0 courier text-small">
+  				Connect, inspire, &amp; celabrate
+  				</p>
+  			</div>
+      </div>
+      <div class="container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for post in site.events-row-1 limit:3 %}
+          <div class="px1">
+            <div class="sm-col sm-col-12 md-col-4 px2">
+              <div class="card relative">
+            		<span class="card-day absolute text-x-small p1 bg-black white">Fri-Sat</span>
+            		<span class="card-date absolute text-x-small p1 bg-black white">Oct 21-22</span>
+            		<div class="card-image">
+            			<img src="http://placekitten.com/g/200">
+            		</div>
+            		<div class="card-details p3">
+            			<h1 class="m0">{{ post.title }}</h1>
+            			<span class="divider-wrapper"><hr class="card-divider"></span>
+            			<p class="m0 courier">9am - 10pm</p>
+            			<p class="m0 courier">Smithsonian</p>
+            		</div>
+            	</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for post in site.events-row-2 %}
+          <div class="px1">
+            <div class="sm-col sm-col-12 md-col-4 px2">
+              <div class="card relative">
+            		<span class="card-day absolute text-x-small p1 bg-black white">Fri-Sat</span>
+            		<span class="card-date absolute text-x-small p1 bg-black white">Oct 21-22</span>
+            		<div class="card-image">
+            			<img src="http://placekitten.com/g/200">
+            		</div>
+            		<div class="card-details p3">
+            			<h1 class="m0">{{ post.title }}</h1>
+            			<span class="divider-wrapper"><hr class="card-divider"></span>
+            			<p class="m0 courier">9am - 10pm</p>
+            			<p class="m0 courier">Smithsonian</p>
+            		</div>
+            	</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11 px2">
+          <a href="#" class="schedule-link m0 text-medium courier">
+            View the full schedule
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners border bg-white relative py4">
+      <div class="container clearfix px3">
+        <div class="sm-col sm-col-12 md-col-6 px1">
+          <h1 class="m0">Partners</h1>
+          <hr>
+          <p class="m0 courier" style="text-align: justify;">
+          DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
 
     <header class="hero border">
       <div class="container clearfix p3">
