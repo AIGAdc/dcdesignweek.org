@@ -111,9 +111,9 @@
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
-          {% for posts in site.sponsors limit:8 %}
-            <div class="sm-col sm-col-12 md-col-2 px2">
-              {{ content }}
+          {% for post in site.sponsors limit:8 %}
+            <div class="sm-col sm-col-12 md-col-3 px2">
+              <img src="{{ post.content | strip_html }}">"
             </div>
           {% endfor %}
           </ul>
