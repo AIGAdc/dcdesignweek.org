@@ -77,8 +77,8 @@
                 {% endif %}
               		<span class="card-day absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%A"}}</span>
               		<span class="card-date absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%B %d"}}</span>
-              		<div class="card-image">
-              			<img src="http://placecorgi.com/250">
+              		<div class="card-image bg-cover bg-center" style="min-height: 200px; background-image: url('{{ posts.event-bg-image }}')">
+
               		</div>
               		<div class="card-details p3">
               			<h1 class="m0 black">{{ posts.title }}</h1>
