@@ -11,6 +11,9 @@ collections:
   aiga-members:
     title: aiga-members
     output: true
+  events:
+    title: events
+    output: true
   events-row-1:
     title: events-row-1
     output: true
