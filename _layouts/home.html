@@ -56,10 +56,14 @@
       <div class="events-row-1 container clearfix px3 py3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          {% for posts in site.events-row-1 limit:3 %}
-          <div class="px1">
+          <ul>
+          {% for posts in site.events-row-1 limit:6 %}
             <div class="sm-col sm-col-12 md-col-4 px2">
-              <div class="card relative">
+              {% if page.is-2nd-row == 'True' %}
+                <li class="featured-event-card card-2nd-row relative">
+              {% else %}
+                <li class="featured-event-card card relative">
+              {% endif %}
             		<span class="card-day absolute text-x-small p1 bg-black white">Fri-Sat</span>
             		<span class="card-date absolute text-x-small p1 bg-black white">Oct 21-22</span>
             		<div class="card-image">
@@ -71,10 +75,10 @@
             			<p class="m0 courier">9am - 10pm</p>
             			<p class="m0 courier">Smithsonian</p>
             		</div>
-            	</div>
+            	</li>
             </div>
-          </div>
           {% endfor %}
+          </ul>
         </div>
       </div>
       <div class="events-row-2 container clearfix px3 py3 relative" style="right: -75px;">
