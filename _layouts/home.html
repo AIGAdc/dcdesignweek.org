@@ -57,7 +57,7 @@
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
-          {% for posts in site.events-row-1 limit:6 %}
+          {% for posts in site.events limit:6 %}
             <div class="sm-col sm-col-12 md-col-4 px2">
               {% if posts.is-2nd-row == true %}
                 <li class="featured-event-card card card-2nd-row relative">
@@ -79,30 +79,6 @@
             </div>
           {% endfor %}
           </ul>
-        </div>
-      </div>
-      <div class="events-row-2 container clearfix px3 py3 relative" style="right: -75px;">
-        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
-        <div class="sm-col sm-col-12 md-col-11">
-          {% for posts in site.events-row-2 %}
-          <div class="px1">
-            <div class="sm-col sm-col-12 md-col-4 px2">
-              <div class="card relative">
-            		<span class="card-day absolute text-x-small p1 bg-black white">Fri-Sat</span>
-            		<span class="card-date absolute text-x-small p1 bg-black white">Oct 21-22</span>
-            		<div class="card-image">
-            			<img src="http://placekitten.com/g/200">
-            		</div>
-            		<div class="card-details p3">
-            			<h1 class="m0">{{ posts.title }}</h1>
-            			<span class="divider-wrapper"><hr class="card-divider"></span>
-            			<p class="m0 courier">9am - 10pm</p>
-            			<p class="m0 courier">Smithsonian</p>
-            		</div>
-            	</div>
-            </div>
-          </div>
-          {% endfor %}
         </div>
       </div>
       <div class="container clearfix px3 py3">
