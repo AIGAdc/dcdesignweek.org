@@ -27,6 +27,8 @@ defaults:
     type: events
   values:
     layout: event
+    event-bg-image:
+    is-2nd-row:
 logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
