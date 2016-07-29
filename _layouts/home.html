@@ -112,9 +112,9 @@
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
           {% for post in site.sponsors limit:8 %}
-            <div class="sm-col sm-col-12 md-col-3 px2">
-              <img src="{{ post.content | strip_html }}">"
-            </div>
+            <li class="sm-col sm-col-12 md-col-3 px2">
+              <img src="{{ post.sponsor-image}}">
+            </li>
           {% endfor %}
           </ul>
         </div>
