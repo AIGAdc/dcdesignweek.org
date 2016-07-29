@@ -12,12 +12,19 @@ collections:
     title: aiga-members
     output: true
   events:
-    title: events
+    title: events-row-1
+    output: true
+  events-row-2:
+    title: events-row-2
     output: true
   sponsors:
-    title: sponsors
-    output: true
+    title: sponsors-row-1
+    output: false
     test: test
+  sponsors-row-2:
+    title: sponsors-row-2
+    output: true
+logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
 - gulpfile.js
@@ -31,4 +38,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-logo-file: /uploads/dcdw-logo.svg
