@@ -14,9 +14,6 @@ collections:
   events-row-1:
     title: events-row-1
     output: true
-  events-row-2:
-    title: events-row-2
-    output: true
   sponsors:
     title: sponsors-row-1
     output: false
