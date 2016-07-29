@@ -30,3 +30,18 @@ li {
     transform: translate(0, 25px);
   }
 }
+
+.top-illustration {
+  right: 600px;
+  z-index: 9999;
+}
+
+.right-illustration {
+  right: 500px;
+  top: 225px;
+}
+
+.left-illustration {
+  left: 875px;
+  top: 75px;
+}
