@@ -17,14 +17,8 @@
       </div>
     </section>
 
-    <section class="dc-design border bg-white relative">
-      <div class="container clearfix px3 py3">
-        <div class="left-illustration absolute">
-          <img src="/uploads/screen-shot-2016-07-28-at-82030-pm-copy.svg">
-        </div>
-        <div class="right-illustration absolute">
-          <img src="/uploads/earthswatch.svg">
-        </div>
+    <section class="dc-design border bg-white">
+      <div class="container clearfix px3 py3 relative">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
       	<div class="sm-col sm-col-12 md-col-3 px1">
   				<h1>DC is Design</h1>
@@ -34,12 +28,22 @@
   				</p>
   			</div>
         <div class="sm-col sm-col-12 md-col-8">
-          <div class="top-illustration relative">
+          <div class="top-illustration absolute">
             <img src="/uploads/earthswatch-2.svg">
           </div>
         </div>
+        <div class="sm-col sm-col-12 md-col-8">
+          <div class="left-illustration absolute">
+            <img src="/uploads/screen-shot-2016-07-28-at-82030-pm-copy.svg">
+          </div>
+        </div>
+        <div class="sm-col sm-col-12 md-col-8">
+          <div class="right-illustration absolute">
+            <img src="/uploads/earthswatch.svg">
+          </div>
+        </div>
       </div>
-      <div class="container clearfix px3 relative" style="top: -160px;">
+      <div class="container clearfix px3 relative" style="top: -104px;">
         <div class="sm-col sm-col-12 md-col-4 px2 py1"></div>
       	<div class="sm-col sm-col-12 md-col-3 px1">
   				<p class="m0 courier" style="text-align: justify;">
@@ -110,122 +114,26 @@
       <div class="events-row-1 container clearfix px3 py3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          <ul>
+          <div class="overflow-auto">
+          <div class="table">
           {% for post in site.sponsors limit:8 %}
-            <li class="sm-col sm-col-12 md-col-3 px2">
-              <img src="{{ post.sponsor-image}}">
-            </li>
+            <div class="table-cell sm-col sm-col-2 md-col-3 align-middle px2">
+              <div class="clearfix">
+                <img src="{{ post.sponsor-image}}">
+              </div>
+            </div>
           {% endfor %}
-          </ul>
+        </div>
+      </div>
         </div>
       </div>
     </section>
 
     {% include footer.html %}
 
-
-    <header class="hero border">
+    <!--
+    <section class="">
       <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.header-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.header-date-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="{{ page.about-cta-link-text | markdownify | strip_html }}" target="_blank">
-            {{ page.about-cta-text | markdownify }}
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <section class="introduction border py4">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.introduction-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.introduction-body-text | markdownify }}
-        </div>
-      </div>
-    </section>
-
-    <section class="events border">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.events-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 md-col-4 p1">
-          {{ page.events-body-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 md-col-8 p1">
-          {% for post in site.events %}
-          <div class="">
-            <div class="sm-col sm-col-12 md-col-6 p3" style="background-color: {{ post.event-bg-color }};">
-              {% include post.html post=post is_excerpt=true %}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-
-    <section class="sponsors border">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.sponsors-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.sponsors-body-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.sponsors-cta-color }};" href="mailto:{{ page.sponsors-cta-link-text | markdownify | strip_html }}?Subject=Sponsorship" target="_top">
-            {{ page.sponsors-cta-text | markdownify }}
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="about border">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.about-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.about-body-text | markdownify }}
-        </div>
-        {% for post in site.aiga-members %}
-          <div class="sm-col sm-col-12 md-col-4 p3 border">
-            <div class="aiga-member">
-              <div class="aiga-member-headshot center">
-                <img class="circle" src="{{ post.aiga-member.headshot-image }}" />
-              </div>
-              <div class="aiga-member-details center py2">
-                <h3 class="m0 aiga-member-name bold">{{ post.aiga-member.name }}</h3>
-                <h6 class="m0 mb1 aiga-member-position">{{ post.aiga-member.position }}</h6>
-                <p class="m0 aiga-member-bio">{{ post.aiga-member.bio }}</p>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-        <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="{{ page.about-cta-link-text | markdownify | strip_html }}" target="_blank">
-            {{ page.about-cta-text | markdownify }}
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact border py4">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.contact-title-text | markdownify }}
-        </div>
-        <div class="sm-col sm-col-12 border center p3">
-          {{ page.contact-body-text | markdownify }}
-        </div>
         <div class="sm-col sm-col-12 center">
           <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="#">
             {{ page.contact-cta-text | markdownify }}
@@ -233,7 +141,7 @@
         </div>
       </div>
     </section>
+    -->
 
-    {% include footer.html %}
   </main>
 {% include global/head-closed.html %}
