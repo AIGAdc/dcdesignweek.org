@@ -17,9 +17,6 @@ collections:
   sponsors:
     title: sponsors
     output: false
-  sponsors-row-2:
-    title: sponsors-row-2
-    output: true
 defaults:
 - scope:
     path: ''
