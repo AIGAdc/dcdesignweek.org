@@ -1,7 +1,17 @@
 {% include global/head-open.html %}
 {% include header.html %}
 
-hi
+<header class="border bg-cover bg-center" style="background-image: url('{{ page.event-bg-image }}');">
+  <div class="container clearfix px3 py4">
+    <h1 class="m0 py4">Test</h1>
+  </div>
+</header>
+
+<article>
+  <div class="container clearfix p3">
+    {{ content }}
+  </div>
+</article>
 
 {% include footer.html %}
 {% include global/head-closed.html %}
