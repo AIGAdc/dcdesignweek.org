@@ -59,7 +59,7 @@
   				</p>
   			</div>
       </div>
-      <div class="events-row-1 container clearfix px3 py3">
+      <div class="events container clearfix px3 py3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
@@ -105,6 +105,18 @@
           <p class="m0 courier" style="text-align: justify;">
           DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
           </p>
+        </div>
+      </div>
+      <div class="events-row-1 container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <ul>
+          {% for posts in site.sponsors limit:8 %}
+            <div class="sm-col sm-col-12 md-col-2 px2">
+              {{ content }}
+            </div>
+          {% endfor %}
+          </ul>
         </div>
       </div>
     </section>
@@ -172,6 +184,7 @@
             {{ page.sponsors-cta-text | markdownify }}
           </a>
         </div>
+
       </div>
     </section>
 
