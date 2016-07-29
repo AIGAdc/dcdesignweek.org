@@ -1,6 +1,6 @@
 {% include global/head-open.html %}
   <main class="">
-    <header class="nav-bar px3 py2 border relative bg-white">
+    <header class="nav-bar px3 py2 border relative bg-white header-shadow">
       <div class="logo-wrapper relative">
         <img class="absolute" src="/uploads/dcdw-logo.svg">
       </div>
@@ -53,10 +53,10 @@
   				</p>
   			</div>
       </div>
-      <div class="container clearfix px3 py3">
+      <div class="events-row-1 container clearfix px3 py3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          {% for post in site.events-row-1 limit:3 %}
+          {% for posts in site.events-row-1 limit:3 %}
           <div class="px1">
             <div class="sm-col sm-col-12 md-col-4 px2">
               <div class="card relative">
@@ -66,7 +66,7 @@
             			<img src="http://placekitten.com/g/200">
             		</div>
             		<div class="card-details p3">
-            			<h1 class="m0">{{ post.title }}</h1>
+            			<h1 class="m0">{{ posts.title }}</h1>
             			<span class="divider-wrapper"><hr class="card-divider"></span>
             			<p class="m0 courier">9am - 10pm</p>
             			<p class="m0 courier">Smithsonian</p>
@@ -77,10 +77,10 @@
           {% endfor %}
         </div>
       </div>
-      <div class="container clearfix px3 py3">
+      <div class="events-row-2 container clearfix px3 py3 relative" style="right: -75px;">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          {% for post in site.events-row-2 %}
+          {% for posts in site.events-row-2 %}
           <div class="px1">
             <div class="sm-col sm-col-12 md-col-4 px2">
               <div class="card relative">
@@ -90,7 +90,7 @@
             			<img src="http://placekitten.com/g/200">
             		</div>
             		<div class="card-details p3">
-            			<h1 class="m0">{{ post.title }}</h1>
+            			<h1 class="m0">{{ posts.title }}</h1>
             			<span class="divider-wrapper"><hr class="card-divider"></span>
             			<p class="m0 courier">9am - 10pm</p>
             			<p class="m0 courier">Smithsonian</p>

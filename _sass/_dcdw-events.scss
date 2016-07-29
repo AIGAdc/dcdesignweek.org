@@ -1,0 +1,42 @@
+.card {
+	border: solid 5px #000;
+	max-width: 350px;
+	margin: 1em auto;
+}
+
+.card:hover {
+
+}
+
+span.card-day {
+  left: -20px;
+  top: 15px;
+	border-right: solid 5px blue;
+	border-bottom: solid 5px blue;
+}
+
+span.card-date {
+  left: -15px;
+  top: 45px;
+	border-right: solid 5px blue;
+	border-bottom: solid 5px blue;
+}
+
+.card-image {
+	border-bottom: solid 5px #000;
+}
+
+.card-image img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.card-divider {
+	max-width: 40px;
+	text-align: left;
+}
+
+a.schedule-link {
+  border-bottom: 10px solid blue;
+  color: blue;
+}
