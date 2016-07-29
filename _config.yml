@@ -15,12 +15,8 @@ collections:
     title: events
     output: true
   sponsors:
-    title: sponsors-row-1
+    title: sponsors
     output: false
-    test: test
-  sponsors-row-2:
-    title: sponsors-row-2
-    output: true
 defaults:
 - scope:
     path: ''

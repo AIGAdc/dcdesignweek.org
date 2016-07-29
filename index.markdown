@@ -36,6 +36,15 @@ contact-body-text: This is the contact field. Simply fill this box out with the 
   text for this section, and it will display here.
 contact-cta-text: Paste button text here
 contact-cta-color: "#6ad0c7"
+sponsors:
+- sponsor-image: "/uploads/deloitte-logo-2.svg"
+- sponsor-image: "/uploads/adobe.svg"
+- sponsor-image: "/uploads/hugelogo-c-msite.svg"
+- sponsor-image: "/uploads/caponelogotry.svg"
+- sponsor-image: "/uploads/f-h-logo.svg"
+- sponsor-image: "/uploads/&pizza.svg"
+- sponsor-image: "/uploads/static-1-squarespace.svg"
+- sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
 layout: home
 ---
 
