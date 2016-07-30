@@ -2,14 +2,14 @@
   <main class="">
     {% include header.html %}
 
-    <section class="introduction py2 border bg-white overflow-hidden" style="border-bottom: 10px solid #000;">
+    <section class="introduction bg-white" style="border-bottom: 10px solid #000; max-height: 475px;">
       <div class="container clearfix px3">
-        <div class="sm-col sm-col-12 md-col-4 lg-col-4">
-          <div class="design-week-wrapper relative">
-            <img class="left-0 bottom-0 right-0" src="/uploads/dc-design-week.svg">
+        <div class="sm-col sm-col-12 md-col-5 lg-col-4 relative" style="bottom: -225px;">
+          <div class="design-week-wrapper">
+            <img src="/uploads/dc-design-week.svg">
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-8 lg-col-8 relative mb3">
+        <div class="sm-col sm-col-12 md-col-7 lg-col-8 relative" style="bottom: 100px;">
           <div class="image-wrapper">
             <img class="homepage-header" src="/uploads/group-7.svg">
           </div>
@@ -17,7 +17,7 @@
       </div>
     </section>
 
-    <section class="dc-design border bg-white overflow-hidden">
+    <section class="dc-design bg-white z4">
       <div class="container clearfix px3 py3 relative">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
       	<div class="sm-col sm-col-12 md-col-3 px1">
@@ -53,9 +53,9 @@
       </div>
     </section>
 
-    <section class="events border py3">
+    <section class="events sm-show">
       <div class="container clearfix px3">
-      	<div class="sm-col sm-col-12 md-col-4 px1">
+      	<div class="sm-col sm-col-12 md-col-4">
   				<h1>Events</h1>
   				<hr>
   				<p class="m0 courier text-small">
@@ -64,16 +64,16 @@
   			</div>
       </div>
       <div class="events container clearfix px3 py3">
-        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-1 py1 sm-show"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
           {% for posts in site.events limit:6 %}
             <a href="{{ posts.url }}" class="card-link">
-              <div class="sm-col sm-col-12 md-col-4 px2">
+              <div class="sm-col sm-col-6 md-col-4 px2">
                 {% if posts.is-2nd-row == true %}
-                  <li class="featured-event-card card card-2nd-row relative">
+                  <li class="featured-event-card card card-2nd-row relative" style="min-height: 340px;">
                 {% else %}
-                  <li class="featured-event-card card relative">
+                  <li class="featured-event-card card relative" style="min-height: 340px;">
                 {% endif %}
               		<span class="card-day absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%A"}}</span>
               		<span class="card-date absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%B %d"}}</span>
@@ -94,16 +94,16 @@
         </div>
       </div>
       <div class="container clearfix px3 py3">
-        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-1 px2 py1 sm-show"></div>
         <div class="sm-col sm-col-12 md-col-11 px2">
-          <a href="#" class="schedule-link m0 text-medium courier">
+          <a href="#" class="schedule-link m0 text-default courier">
             View the full schedule
           </a>
         </div>
       </div>
     </section>
 
-    <section class="partners border bg-white relative py4">
+    <section class="partners bg-white relative py4">
       <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-6 px1">
           <h1 class="m0">Partners</h1>

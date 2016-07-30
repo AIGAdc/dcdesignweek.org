@@ -44,3 +44,13 @@ a.schedule-link {
 .card-2nd-row {
   right: -100px;
 }
+
+ul {
+	-webkit-padding-start: 0 !important;
+}
+
+@media screen and (max-width: 1280px ) {
+	.card-2nd-row {
+		right: 0;
+	}
+}
