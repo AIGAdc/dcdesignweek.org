@@ -1,3 +1,4 @@
+/* Events Homepage */
 .card {
 	border: solid 5px #000;
 	max-width: 350px;
@@ -11,15 +12,15 @@
 span.card-day {
   left: -30px;
   top: 15px;
-	border-right: solid 5px blue;
-	border-bottom: solid 5px blue;
+	border-right: solid 5px $dcdw-blue;
+	border-bottom: solid 5px $dcdw-blue;
 }
 
 span.card-date {
   left: -18px;
   top: 49px;
-	border-right: solid 5px blue;
-	border-bottom: solid 5px blue;
+	border-right: solid 5px $dcdw-blue;
+	border-bottom: solid 5px $dcdw-blue;
 }
 
 .card-image {
@@ -37,20 +38,32 @@ span.card-date {
 }
 
 a.schedule-link {
-  border-bottom: 10px solid blue;
-  color: blue;
+  border-bottom: 10px solid $dcdw-blue;
+  color: $dcdw-blue;
 }
 
 .card-2nd-row {
   right: -100px;
 }
 
-ul {
-	-webkit-padding-start: 0 !important;
-}
-
+/* removes the negative right padding applies to events in the 2nd row */
 @media screen and (max-width: 1280px ) {
 	.card-2nd-row {
 		right: 0;
 	}
+}
+
+/* Events Page & Layout */
+span.event-title-header {
+	min-width: 125%;
+}
+
+@media screen and (max-width: 480px) {
+	span.event-title-header {
+		min-width: 100%;
+	}
+}
+
+.article-events p {
+	line-height: 1.5em;
 }
