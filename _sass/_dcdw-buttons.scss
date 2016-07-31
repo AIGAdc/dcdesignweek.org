@@ -12,3 +12,17 @@ a.button {
   font-size: $text-small;
   font-weight: 900;
 }
+
+button {
+  padding: 1.5em;
+  border-top: none;
+  border-right: solid 3px #000;
+  border-bottom: solid 3px #000;
+  border-left: none;
+  cursor: pointer;
+  color: blue;
+
+  &.button-white {
+    background: white;
+  }
+}
