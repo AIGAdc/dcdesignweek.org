@@ -64,6 +64,57 @@ span.event-title-header {
 	}
 }
 
+.article-events h1 {
+	font-size: $text-xx-large;
+}
+
 .article-events p {
 	line-height: 1.5em;
+}
+
+.article-events hr,
+hr.title-divider {
+  width: 100%;
+  max-width: 100px;
+  border: solid 2px #000000;
+	margin: 0.5em 0 1em 0;
+}
+
+.title-divider {
+
+}
+/* speakers list */
+/*
+ * ==== Losange
+ */
+
+.diamond-border {
+	transform: rotate(45deg) translateY(25px);
+	width: 90px;
+	height: 90px;
+ }
+
+.diamond {
+	transform-origin: 50% 50%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(0deg) translateX(5px) translateY(-15px);
+}
+
+.los1:after {
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	outline: 2px solid #000;
+	outline-offset: 5px;
+}
+
+.diamond .los1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-45deg) translateY(-150px);
+}
+.diamond .los1 img {
+  width: 100%;
+  height: auto;
 }
