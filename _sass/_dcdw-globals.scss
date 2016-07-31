@@ -1,49 +1,39 @@
 .container {
-  width: 100%;
-  max-width: 72em;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 72em;
+    margin: 0 auto;
 }
-
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
 li {
-  list-style: none;
+    list-style: none;
 }
-
 .header-shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
-
 .design-week-wrapper {
-  top: 350px;
+    top: 350px;
 }
-
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
 .homepage-header {
-  animation: float 6000ms ease-in-out infinite;
+    animation: float 5000ms ease-in-out infinite;
 }
-
 @keyframes float {
-  50% {
-    transform: translate(0, 25px);
-  }
+    50% {
+        transform: translate(0, 25px);
+    }
 }
-
 .top-illustration {
-  left: 300px;
-  top: -90px;
-  z-index: 9999;
+    left: 300px;
+    top: -90px;
+    z-index: 9999;
 }
-
 .right-illustration {
-  left: 300px;
-  top: 50px;
+    left: 300px;
+    top: 50px;
 }
-
 .left-illustration {
-  left: 40px;
-  top: -50px;
-
+    left: 40px;
+    top: -50px;
 }
