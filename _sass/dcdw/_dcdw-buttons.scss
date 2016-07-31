@@ -13,6 +13,7 @@ a.button {
   font-weight: 900;
 }
 
+/* global button + additional colors */
 button {
   padding: 1.5em;
   border-top: none;
@@ -20,9 +21,14 @@ button {
   border-bottom: solid 3px #000;
   border-left: none;
   cursor: pointer;
-  color: blue;
 
   &.button-white {
     background: white;
+    color: blue;
+  }
+
+  &.button-blue {
+    background: blue;
+    color: white;
   }
 }
