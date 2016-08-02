@@ -4,5 +4,12 @@
   </div>
   <div class="">
     <a href="#">Test</a>
+    <ul class="header__items relative right">
+     {% for page in site.pages %}
+       <li class="header__item inline-block">
+         <a href="{{ site.pages }}" class="inline-block">{{ page.title }}</a>
+       </li>
+      {% endfor %}
+     </ul>
   </div>
 </header>
