@@ -3,6 +3,7 @@
 
 $default-radius: 5px;
 
+/*
 a.button {
   border: none;
   display: inline-block;
@@ -12,10 +13,10 @@ a.button {
   font-size: $text-small;
   font-weight: 900;
 }
+*/
 
 /* global button + additional colors */
-button {
-  padding: 1.5em;
+a.button {
   border-top: none;
   border-right: solid 3px #000;
   border-bottom: solid 3px #000;
