@@ -5,9 +5,9 @@
   <div class="">
     <a href="#">Test</a>
     <ul class="header__items relative right">
-     {% for page in site.pages %}
+      {% for page in site.pages | strip_html %}
        <li class="header__item inline-block">
-         <a href="{{ site.pages }}" class="inline-block">{{ page.title }}</a>
+         <a href="{{ page.permalink }}" class="inline-block">{{ page.title }}</a>
        </li>
       {% endfor %}
      </ul>
