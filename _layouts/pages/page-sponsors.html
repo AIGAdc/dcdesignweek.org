@@ -2,6 +2,60 @@
   <main class="overflow-hidden">
     {% include header.html %}
 
+    <section class="partners bg-white relative py4" style="top: 120px;">
+      <div class="container clearfix px3 pb4">
+        <div class="sm-col sm-col-12 md-col-6 px1">
+          <h1 class="page-header m0">Sponsors</h1>
+        </div>
+      </div>
+      <div class="events-row-1 container clearfix px3 py4">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="page-sub-header m0 pb4">Tier One Sponsors</h1>
+          {% for post in site.sponsors limit:8 %}
+            <div class="sm-col sm-col-2 md-col-3 inline-block px2">
+              <div class="">
+                <img src="{{ post.sponsor-image}}">
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="events-row-1 container clearfix px3 py4">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="page-sub-header m0 pb4">Tier Two Sponsors</h1>
+          {% for post in site.sponsors limit:8 %}
+            <div class="sm-col sm-col-2 md-col-3 inline-block px2">
+              <div class="">
+                <img src="{{ post.sponsor-image}}">
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="events-row-1 container clearfix px3 py4">
+        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="page-sub-header m0 pb4">Tier Three Sponsors</h1>
+          {% for post in site.sponsors limit:8 %}
+            <div class="sm-col sm-col-2 md-col-3 inline-block px2">
+              <div class="">
+                <img src="{{ post.sponsor-image}}">
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix px3 py3">
+        <div class="sm-col sm-col-12 md-col-1 mxn3 py1 sm-show"></div>
+        <div class="sm-col sm-col-12 md-col-11 px2">
+          <a href="#" class="button button-blue p1 m0 text-default courier">
+            Become a Design Week Sponsor
+          </a>
+        </div>
+      </div>
+    </section>
 
     {% include footer.html %}
   </main>

@@ -12,65 +12,53 @@
  */
 
 /* Reset */
-@import "basscss_reset";
+@import "basscss/basscss_reset";
 
 /* Basscss */
-@import "basscss_all";
-@import "basscss_background-colors";
-@import "basscss_background-images";
-@import "basscss_border-colors";
-@import "basscss_btn";
-@import "basscss_btn-outline";
-@import "basscss_btn-primary";
-@import "basscss_colors";
-@import "basscss_darken";
-@import "basscss_forms";
-@import "basscss_highlight-dark";
-@import "basscss_highlight";
-@import "basscss_input-range";
-@import "basscss_lighten";
-@import "basscss_media-object";
-@import "basscss_progress";
-@import "basscss_responsive-margin";
-@import "basscss_responsive-padding";
-
-@import "basscss_type-scale";
-@import "basscss_typography";
-@import "basscss_layout";
-@import "basscss_align";
-@import "basscss_margin";
-@import "basscss_padding";
-@import "basscss_grid";
-@import "basscss_flexbox";
-@import "basscss_position";
-@import "basscss_border";
-@import "basscss_hide";
+@import "basscss/basscss_all";
+@import "basscss/basscss_background-colors";
+@import "basscss/basscss_background-images";
+@import "basscss/basscss_border-colors";
+@import "basscss/basscss_btn";
+@import "basscss/basscss_btn-outline";
+@import "basscss/basscss_btn-primary";
+@import "basscss/basscss_colors";
+@import "basscss/basscss_darken";
+@import "basscss/basscss_forms";
+@import "basscss/basscss_highlight-dark";
+@import "basscss/basscss_highlight";
+@import "basscss/basscss_input-range";
+@import "basscss/basscss_lighten";
+@import "basscss/basscss_media-object";
+@import "basscss/basscss_progress";
+@import "basscss/basscss_responsive-margin";
+@import "basscss/basscss_responsive-padding";
+@import "basscss/basscss_type-scale";
+@import "basscss/basscss_typography";
+@import "basscss/basscss_layout";
+@import "basscss/basscss_align";
+@import "basscss/basscss_margin";
+@import "basscss/basscss_padding";
+@import "basscss/basscss_grid";
+@import "basscss/basscss_flexbox";
+@import "basscss/basscss_position";
+@import "basscss/basscss_border";
+@import "basscss/basscss_hide";
 
 /* DCDW Modules */
-@import "dcdw/dcdw-buttons";
-@import "dcdw/dcdw-colors";
-@import "dcdw/dcdw-events";
-@import "dcdw/dcdw-globals";
-@import "dcdw/dcdw-typography";
-@import "dcdw/dcdw-homepage";
+@import "dcdw-components/buttons";
 
-/* ===
-Pages
-===*/
+@import "dcdw-globals/colors";
+@import "dcdw-globals/globals";
+@import "dcdw-globals/typography";
 
-/*===
-Components
-===*/
-
-/*===
-Global Styles
-===*/
+@import "dcdw-pages/events";
+@import "dcdw-pages/homepage";
 
 /*===
 Media Queries
 ===*/
 @custom-media --phone-small (max-width: 29.9375em); /* 479px */
-
 
 /* Optional Modules (not included in Basscss by default) */
 /*
@@ -90,14 +78,12 @@ Media Queries
 @import 'basscss-addons/modules/lighten';
 */
 
-
 /* Custom media queries */
 /*
 @custom-media --breakpoint-sm (min-width: 40em);
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
 */
-
 
 /* Custom properties */
 /*

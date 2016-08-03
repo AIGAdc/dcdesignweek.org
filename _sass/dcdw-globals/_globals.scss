@@ -1,3 +1,5 @@
+@import "typography";
+
 .container {
   max-width: 72em !important;
   margin: 0 auto;
@@ -34,4 +36,15 @@ ul {
 
 .main-nav {
   top: 20px;
+}
+
+/* used on all the top level links */
+.page-header {
+  font-size: 128px;
+  font-family: $courier;
+}
+
+.page-sub-header {
+  font-size: 38px;
+  font-family: $courier;
 }
