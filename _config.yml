@@ -23,28 +23,18 @@ defaults:
     type: events
   values:
     layout: event
-    event-bg-image: 
-    is-featured: 
-    is-even: 
-    event-date: 
-    event-location: 
+    event-bg-image:
+    is-featured:
+    is-even:
+    event-date:
+    event-location:
 - scope:
     path: ''
     type: sponsors
   values:
     layout: sponsor
-    sponsor-image: 
-    is-2nd-row: 
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-    event-bg-image: 
-    is-featured: 
-    is-2nd-row: 
-    event-date: 
-    event-location: 
+    sponsor-image:
+    is-2nd-row:  
 logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
