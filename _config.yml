@@ -25,7 +25,7 @@ defaults:
     layout: event
     event-bg-image:
     is-featured:
-    is-2nd-row:
+    is-even:
     event-date:
     event-location:
 - scope:

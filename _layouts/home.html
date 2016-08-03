@@ -69,7 +69,7 @@
           {% for posts in site.events limit:6 %}
             <a href="{{ posts.url }}" class="card-link">
               <div class="sm-col sm-col-6 md-col-4 px2">
-                {% if posts.is-2nd-row == true %}
+                {% if posts.is-even == true %}
                   <li class="featured-event-card card card-2nd-row relative">
                 {% else %}
                   <li class="featured-event-card card relative">
