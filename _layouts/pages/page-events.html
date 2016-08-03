@@ -1,7 +1,46 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden">
     {% include header.html %}
-
+    <section class="events">
+      <div class="container clearfix px3">
+      	<div class="sm-col sm-col-12 md-col-4">
+  				<h1 class="m0 text-xx-large courier">Events</h1>
+  				<hr class="title-divider">
+  				<p class="m0 courier text-small">
+  				Connect, inspire, &amp; celabrate
+  				</p>
+  			</div>
+      </div>
+      <div class="container clearfix py3">
+        <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <ul>
+          {% for posts in site.events limit:6 %}
+            <a href="{{ posts.url }}" class="card-link">
+              <div class="sm-col sm-col-6 md-col-4 px2">
+                {% if posts.is-2nd-row == true %}
+                  <li class="featured-event-card card card-2nd-row relative">
+                {% else %}
+                  <li class="featured-event-card card relative">
+                {% endif %}
+              		<span class="card-day absolute text-x-small p1 bg-black white courier m0">{{ posts.event-date | date: "%A"}}</span>
+              		<span class="card-date absolute text-x-small p1 bg-black white courier m0">{{ posts.event-date | date: "%B %d"}}</span>
+              		<div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
+              		</div>
+              		<div class="card-details p3">
+              			<h1 class="m0 black courier">{{ posts.title }}</h1>
+              	    <hr class="title-divider">
+              			<p class="m0 black courier">{{ posts.event-date | date: "%I, %p"}}</p>
+              			<a href="{{ posts.event-location | strip_html }}" class="m0 courier">Smithsonian</a>
+              		</div>
+              	</li>
+              </div>
+            </a>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
 
     {% include footer.html %}
   </main>
