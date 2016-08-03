@@ -46,6 +46,6 @@ sponsors:
 - sponsor-image: "/uploads/&pizza.svg"
 - sponsor-image: "/uploads/static-1-squarespace.svg"
 - sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
-layout: home
+layout: pages/page-home
 ---
 
