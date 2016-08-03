@@ -1,7 +1,10 @@
 .container {
-    width: 100%;
-    max-width: 72em;
-    margin: 0 auto;
+  max-width: 72em !important;
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1.5em;
 }
 
 a {
@@ -17,31 +20,18 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
+.global-header {
+    height: 60px;
+}
+
 .header-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
-.design-week-wrapper {
-    top: 350px;
+
+.logo-wrapper {
+  top: 15px;
 }
-/* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
-.homepage-header {
-    animation: float 5000ms ease-in-out infinite;
-}
-@keyframes float {
-    50% {
-        transform: translate(0, 25px);
-    }
-}
-.top-illustration {
-    left: 300px;
-    top: -90px;
-    z-index: 9999;
-}
-.right-illustration {
-    left: 300px;
-    top: 50px;
-}
-.left-illustration {
-    left: 40px;
-    top: -50px;
+
+.main-nav {
+  top: 20px;
 }

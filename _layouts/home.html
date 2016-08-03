@@ -1,51 +1,50 @@
 {% include global/head-open.html %}
-  <main class="">
+  <main class="overflow-hidden">
     {% include header.html %}
 
-    <section class="introduction bg-white" style="border-bottom: 10px solid #000; max-height: 475px;">
+    <section class="introduction bg-white">
       <div class="container clearfix px3">
-        <div class="sm-col sm-col-12 md-col-5 lg-col-4 relative" style="bottom: -225px;">
-          <div class="design-week-wrapper">
-            <img src="/uploads/dc-design-week.svg">
-          </div>
+        <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4">
+          <img class="design-week" src="/uploads/dc-design-week.svg">
         </div>
-        <div class="sm-col sm-col-12 md-col-7 lg-col-8 relative" style="bottom: 100px;">
-          <div class="image-wrapper">
-            <img class="homepage-header" src="/uploads/group-7.svg">
-          </div>
+        <div class="introduction-illustration-wrapper relative sm-col sm-col-12 md-col-7 lg-col-8 xs-hide">
+          <img class="introduction-illustration" src="/uploads/group-7.svg">
         </div>
       </div>
     </section>
 
-    <section class="dc-design bg-white z4">
-      <div class="container clearfix px3 py3 relative">
-        <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
-      	<div class="sm-col sm-col-12 md-col-3 px1">
-  				<h1>DC is Design</h1>
-  				<hr>
+    <section class="dc-design bg-white py4 z4">
+      <div class="container clearfix px3 pt4">
+        <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+      	<div class="paragraph-1 sm-col sm-col-12 md-col-3 px1 pt4">
+  				<h1 class="m0 text-x-medium courier pt4">DC is Design</h1>
+  				<hr class="title-divider">
   				<p class="m0 courier" style="text-align: justify;">
   				Design is a driving force in DC. Whether supporting the nation’s leading nonprofits, engineering the next startup, or solving problems with real impact through our government, design is at the core of this city. We’re makers and disruptors, artisans and tech geeks, and this
   				</p>
   			</div>
-        <div class="sm-col sm-col-12 md-col-8 rellax xs-hide" data-rellax-speed="-1">
+        <div class="sm-col sm-col-12 md-col-8 rellax xs-hide sm-hide" data-rellax-speed="-1">
           <div class="top-illustration absolute">
             <img src="/uploads/earthswatch-2.svg">
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-8 rellax xs-hide" data-rellax-speed="-1">
+        <div class="sm-col sm-col-12 md-col-8 rellax xs-hide sm-hide" data-rellax-speed="-1">
           <div class="left-illustration absolute">
             <img src="/uploads/screen-shot-2016-07-28-at-82030-pm-copy.svg">
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-8 rellax" data-rellax-speed="-1">
+        <div class="sm-col sm-col-12 md-col-8 rellax xs-hide sm-hide" data-rellax-speed="-1">
           <div class="right-illustration absolute">
             <img src="/uploads/earthswatch.svg">
           </div>
         </div>
       </div>
-      <div class="paragraph-2 container clearfix px3 relative" style="top: -104px;">
-        <div class="sm-col sm-col-12 md-col-4 px2 py1"></div>
-      	<div class="sm-col sm-col-12 md-col-3 px1">
+
+      </br class="xs-show">
+
+      <div class="container clearfix px3">
+        <div class="sm-col sm-col-12 md-col-4 py1 xs-hide"></div>
+      	<div class="paragraph-2 sm-col sm-col-12 md-col-3 px1 mb4 relative">
   				<p class="m0 courier" style="text-align: justify;">
             October we’re coming together to celebrate. Join us for DC Design Week. This year we’re going bigger than ever with new partners, new venues, new event formats, and new ways to interact with DC’s unique design community. You won’t want to miss this.
   				</p>
@@ -53,17 +52,17 @@
       </div>
     </section>
 
-    <section class="events relative" style="top: -60px;">
+    <section class="events">
       <div class="container clearfix px3">
       	<div class="sm-col sm-col-12 md-col-4">
-  				<h1>Events</h1>
-  				<hr>
+  				<h1 class="m0 text-x-medium courier">Events</h1>
+  				<hr class="title-divider">
   				<p class="m0 courier text-small">
   				Connect, inspire, &amp; celabrate
   				</p>
   			</div>
       </div>
-      <div class="events container clearfix py3">
+      <div class="container clearfix py3">
         <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
@@ -71,18 +70,17 @@
             <a href="{{ posts.url }}" class="card-link">
               <div class="sm-col sm-col-6 md-col-4 px2">
                 {% if posts.is-2nd-row == true %}
-                  <li class="featured-event-card card card-2nd-row relative" style="min-height: 340px;">
+                  <li class="featured-event-card card card-2nd-row relative">
                 {% else %}
-                  <li class="featured-event-card card relative" style="min-height: 340px;">
+                  <li class="featured-event-card card relative">
                 {% endif %}
-              		<span class="card-day absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%A"}}</span>
-              		<span class="card-date absolute text-x-small p1 bg-black white">{{ posts.event-date | date: "%B %d"}}</span>
-              		<div class="card-image bg-cover bg-center" style="min-height: 200px; background-image: url('{{ posts.event-bg-image }}')">
-
+              		<span class="card-day absolute text-x-small p1 bg-black white courier m0">{{ posts.event-date | date: "%A"}}</span>
+              		<span class="card-date absolute text-x-small p1 bg-black white courier m0">{{ posts.event-date | date: "%B %d"}}</span>
+              		<div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
               		</div>
               		<div class="card-details p3">
-              			<h1 class="m0 black">{{ posts.title }}</h1>
-              			<span class="divider-wrapper"><hr class="card-divider"></span>
+              			<h1 class="m0 black courier">{{ posts.title }}</h1>
+              	    <hr class="title-divider">
               			<p class="m0 black courier">{{ posts.event-date | date: "%I, %p"}}</p>
               			<a href="{{ posts.event-location | strip_html }}" class="m0 courier">Smithsonian</a>
               		</div>
@@ -93,6 +91,7 @@
           </ul>
         </div>
       </div>
+
       <div class="container clearfix px3 py3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1 sm-show"></div>
         <div class="sm-col sm-col-12 md-col-11 px2">
@@ -106,27 +105,23 @@
     <section class="partners bg-white relative py4">
       <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-6 px1">
-          <h1 class="m0">Partners</h1>
-          <hr>
+          <h1 class="m0 text-x-medium courier">Partners</h1>
+          <hr class="title-divider">
           <p class="m0 courier" style="text-align: justify;">
           DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
           </p>
         </div>
       </div>
-      <div class="events-row-1 container clearfix px3 py3">
+      <div class="events-row-1 container clearfix px3 py4">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          <div class="overflow-auto">
-          <div class="table">
           {% for post in site.sponsors limit:8 %}
-            <div class="table-cell sm-col sm-col-2 md-col-3 align-middle px2">
-              <div class="clearfix">
+            <div class="sm-col sm-col-2 md-col-3 inline-block px2">
+              <div class="">
                 <img src="{{ post.sponsor-image}}">
               </div>
             </div>
           {% endfor %}
-        </div>
-      </div>
         </div>
       </div>
     </section>

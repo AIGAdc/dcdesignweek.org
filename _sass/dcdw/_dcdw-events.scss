@@ -2,11 +2,11 @@
 .card {
 	border: solid 5px #000;
 	max-width: 350px;
+	min-height: 340px;
 	margin: 1em auto;
 }
 
 .card:hover {
-
 }
 
 span.card-day {
@@ -25,6 +25,7 @@ span.card-date {
 
 .card-image {
 	border-bottom: solid 5px #000;
+	min-height: 200px;
 }
 
 .card-image img {
@@ -50,6 +51,34 @@ a.schedule-link {
 @media screen and (max-width: 1280px ) {
 	.card-2nd-row {
 		right: 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.card {
+		min-height: 150px;
+		margin: 3em auto;
+	}
+
+	.card-image {
+		min-height: 150px;
+    min-width: 125px;
+		border-right: solid 5px #000;
+	}
+
+	.card-image,
+	.card-details {
+    float: left;
+	}
+
+	span.card-day {
+    left: 15px;
+    top: -30px;
+	}
+	
+	span.card-date {
+    left: 45px;
+    top: -3px;
 	}
 }
 
