@@ -8,7 +8,7 @@ get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
 layout: pages/page-shops-galleries
 ---
 
-Shop & Galleries
+# Shop & Galleries
 
 ---
 
