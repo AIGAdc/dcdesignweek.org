@@ -75,7 +75,7 @@ a.schedule-link {
     left: 15px;
     top: -30px;
 	}
-	
+
 	span.card-date {
     left: 45px;
     top: -3px;
@@ -83,6 +83,10 @@ a.schedule-link {
 }
 
 /* Events Page & Layout */
+.events {
+	margin-top: 60px;
+}
+
 span.event-title-header {
 	min-width: 125%;
 }
