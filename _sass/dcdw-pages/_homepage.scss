@@ -7,7 +7,14 @@ DCDW Homepage
 .introduction {
   height: 525px;
   max-height: 525px;
-  border-bottom: 10px solid $black;
+  border-bottom: 5px solid #000;
+  margin-top: 60px;
+}
+
+img.introduction-illustration,
+img.design-week {
+  min-width: 100%;
+  vertical-align: middle;
 }
 
 .design-week-wrapper {
@@ -15,11 +22,12 @@ DCDW Homepage
 }
 
 .introduction-illustration-wrapper {
-  top: -30px;
+  top: -75px;
 }
 
 .paragraph-2 {
   top: -120px;
+  margin-bottom: -100px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,8 +73,9 @@ DCDW Homepage
     padding: 0;
   }
 
-
-
+  .paragraph-2 {
+    margin-bottom: 3em;
+  }
 }
 
 /* DC is Design */
