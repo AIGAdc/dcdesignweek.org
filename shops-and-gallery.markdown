@@ -5,6 +5,7 @@ permalink: "/shops-and-galleries/"
 position: 2
 pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
 get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
+you-are-voting-image: "/uploads/dcdw-you-are-voting.png"
 layout: pages/page-shops-galleries
 ---
 
