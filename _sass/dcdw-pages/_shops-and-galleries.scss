@@ -70,3 +70,8 @@
     top: 0;
   }
 }
+
+article h1:after {
+    content: url('/uploads/dc-design-week.svg');
+    position: absolute;
+}
