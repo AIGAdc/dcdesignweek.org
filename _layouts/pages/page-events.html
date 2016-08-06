@@ -1,14 +1,16 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden">
     {% include header.html %}
-    <section class="events relative">
-      <div class="container clearfix px3 pb4">
-      	<div class="sm-col sm-col-12 md-col-4">
-  				<h1 class="m0 text-x-large courier">Events</h1>
-  				<hr class="title-divider">
-  			</div>
-      </div>
 
+    <article class="events relative mb4">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-10">
+          {{ page.content }}
+        </div>
+      </div>
+    </article>
+
+    <section class="events relative">
       <!-- event-calendar: time of day -->
       <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
