@@ -2,7 +2,7 @@
 title: volunteer
 date: 2016-08-01 21:34:00 -04:00
 permalink: "/volunteers/"
-position: 2
+position: 3
 layout: pages/page-volunteer
 ---
 
