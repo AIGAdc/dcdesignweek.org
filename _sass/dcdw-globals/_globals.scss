@@ -1,12 +1,25 @@
+/*=============================================>>>>>
+= DCDW Global Variables =
+===============================================>>>>>*/
+
 @import "typography";
 
+/*= End of DCDW Global Variables =*/
+/*=============================================<<<<<*/
+
+/*=============================================>>>>>
+= DCDW Global Classes & Styles =
+===============================================>>>>>*/
+
+/* sets the max width of the container for the site */
 .container {
   max-width: 72em !important;
   margin: 0 auto;
 }
 
 body {
-  line-height: 1.5em;
+  font-size: 100%;
+  line-height: 1.6em;
 }
 
 a {
@@ -22,12 +35,13 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
+/* fixed top bar that contains the nav links */
 .global-header {
-    height: 60px;
+  height: 60px;
 }
 
 .header-shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
 
 .logo-wrapper {
@@ -38,21 +52,49 @@ ul {
   top: 20px;
 }
 
-/* used on all the top level links */
+article {
+  margin-top: 160px;
+}
+
 article h1 {
-  font-size: 128px;
-  line-height: 1.2em;
+  font-size: $text-xx-large;
+  line-height: 1em;
   font-family: $courier;
+  margin: 0;
 }
 
 article p {
-  font-size: 18px;
+  font-size: $text-default;
   font-family: $courier;
+  text-align: $align-justify;
+  letter-spacing: -0.625px;
 }
 
 article hr {
   width: 100%;
   max-width: 100px;
-  border: solid 2px #000000;
+  border: solid 2px $black;
 	margin: 2em 0 3.5em 0;
 }
+
+@media screen and (max-width: 831px ) {
+  /* removes the fixed positioning on smaller tablets/mobile devices */
+  .global-header {
+    position: relative;
+  }
+
+  article {
+    margin-top: 60px;
+  }
+
+  article h1 {
+    font-size:$text-x-large;
+  }
+
+  article hr {
+  	margin: 2em 0 2.5em 0;
+  }
+}
+
+/*= End of DCDW Global Classes & Styles =*/
+/*=============================================<<<<<*/

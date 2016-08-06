@@ -14,8 +14,8 @@ $text-medium: 1.5em;
 $text-x-medium: 1.75em;
 $text-xx-medium: 2em;
 $text-large: 2.25em;
-$text-x-large: 2.5em;
-$text-xx-large: 3.875em;
+$text-x-large: 4em; // used for page headers
+$text-xx-large: 8em; //used for page headers
 
 // text transforms
 $uppercase: uppercase;
@@ -28,6 +28,12 @@ $text-regular: 400;
 $text-medium: 500;
 $text-bold: 700;
 $text-black: 900;
+
+// text alignments
+$align-left: left;
+$align-right: right;
+$align-center: center;
+$align-justify: justify;
 
 /*= End of DCDW Typography Variables =*/
 /*=============================================<<<<<*/
@@ -64,9 +70,10 @@ $text-black: 900;
 .text-black { font-weight: $text-black; }
 
 /* text alignment */
-.text-right { text-align: right; }
-.text-left { text-align: left; }
-.text-center { text-align: center; }
+.text-right { text-align: $align-right; }
+.text-left { text-align: $align-left; }
+.text-center { text-align: $align-center; }
+.text-justify { text-align: $align-justify; }
 
 /*= End of DCDW Typography Classes =*/
 /*=============================================<<<<<*/
