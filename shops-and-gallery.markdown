@@ -8,7 +8,7 @@ get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
 layout: pages/page-shops-galleries
 ---
 
-# Shop & Galleries[dc-design-week.svg](/uploads/dc-design-week.svg)
+# Shop & Galleries [dc-design-week.svg](/uploads/dc-design-week.svg)
 
 ---
 
