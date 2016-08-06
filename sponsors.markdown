@@ -6,3 +6,8 @@ position: 3
 layout: pages/page-sponsors
 ---
 
+# Sponsors
+
+---
+
+DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
