@@ -1,6 +1,7 @@
 ---
 title: index
 date: 2016-07-02 23:42:00 -04:00
+published: false
 position: 0
 header-title-text: DC is Design
 header-date-text: October 21-28
