@@ -1,6 +1,6 @@
 /* Events Homepage */
 .card {
-	border: solid 5px #000;
+	border: solid 5px $black;
 	max-width: 350px;
 	min-height: 340px;
 	margin: 1em auto;
@@ -24,7 +24,7 @@ span.card-date {
 }
 
 .card-image {
-	border-bottom: solid 5px #000;
+	border-bottom: solid 5px $black;
 	min-height: 200px;
 }
 
@@ -63,7 +63,7 @@ a.schedule-link {
 	.card-image {
 		min-height: 150px;
     min-width: 125px;
-		border-right: solid 5px #000;
+		border-right: solid 5px $black;
 	}
 
 	.card-image,
@@ -97,25 +97,6 @@ span.event-title-header {
 	}
 }
 
-.article-events h1 {
-	font-size: $text-xx-large;
-}
-
-.article-events p {
-	line-height: 1.5em;
-}
-
-.article-events hr,
-hr.title-divider {
-  width: 100%;
-  max-width: 100px;
-  border: solid 2px #000000;
-	margin: 0.5em 0 1em 0;
-}
-
-.title-divider {
-
-}
 /* speakers list */
 /*
  * ==== Losange
@@ -139,7 +120,7 @@ hr.title-divider {
 	position: absolute;
 	height: 100px;
 	width: 200px;
-	outline: 2px solid #000;
+	outline: 2px solid $black;
 	outline-offset: 5px;
 }
 
@@ -148,6 +129,7 @@ hr.title-divider {
   height: 300px;
   transform: rotate(-45deg) translateY(-150px);
 }
+
 .diamond .los1 img {
   width: 100%;
   height: auto;

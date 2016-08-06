@@ -39,12 +39,20 @@ ul {
 }
 
 /* used on all the top level links */
-.page-header {
+article h1 {
   font-size: 128px;
+  line-height: 1.2em;
   font-family: $courier;
 }
 
-.page-sub-header {
-  font-size: 38px;
+article p {
+  font-size: 18px;
   font-family: $courier;
+}
+
+article hr {
+  width: 100%;
+  max-width: 100px;
+  border: solid 2px #000000;
+	margin: 2em 0 3.5em 0;
 }
