@@ -63,6 +63,12 @@ article h1 {
   margin: 0;
 }
 
+/* adds the dcdw block after the page title */
+article h1:after {
+  content: url('/uploads/dc-design-week-snippet.png');
+  position: absolute;
+}
+
 article p {
   font-size: $text-default;
   font-family: $courier;
@@ -70,11 +76,26 @@ article p {
   letter-spacing: -0.625px;
 }
 
-article hr {
+article hr,
+.title-divider {
   width: 100%;
   max-width: 100px;
   border: solid 2px $black;
+}
+
+article hr {
 	margin: 2em 0 3.5em 0;
+}
+
+.title-divider {
+	margin: 2em 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* removes the dcdw block after the page title */
+  article h1:after {
+    content: '';
+  }
 }
 
 @media screen and (max-width: 831px ) {
