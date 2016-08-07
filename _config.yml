@@ -2,6 +2,9 @@
 title: DCDW
 timezone: America/New_York
 collections:
+  events:
+    title: Events
+    output: true
   posts:
     title: Posts
     output: true
@@ -13,9 +16,6 @@ collections:
     output: true
   aiga-members:
     title: aiga-members
-    output: true
-  events:
-    title: events
     output: true
 defaults:
 - scope:
