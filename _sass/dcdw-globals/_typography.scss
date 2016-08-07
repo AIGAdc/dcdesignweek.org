@@ -9,12 +9,12 @@ $courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter",
 $text-xx-small: 0.5em;
 $text-x-small: 0.75em;
 $text-small: 1em;
-$text-default: 1.25em;
+$text-default: 1.125em; // 18px: Used for body copy, card components
 $text-medium: 1.5em;
 $text-x-medium: 1.75em;
 $text-xx-medium: 2em;
 $text-large: 2.25em;
-$text-x-large: 4em; // used for page headers
+$text-x-large: 4em; // used for page headers on smaller devices
 $text-xx-large: 8em; //used for page headers
 
 // text transforms

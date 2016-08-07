@@ -13,16 +13,16 @@
       </div>
     </section>
 
-    <section class="dc-design bg-white py4 z4">
-      <div class="container clearfix px3 pt4">
+    <section class="dc-design bg-white pb4 z4">
+      <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
       	<div class="paragraph-1 sm-col sm-col-12 md-col-4 lg-col-3 px1 pt4">
-  				<h1 class="m0 text-x-medium courier pt4">
-            {{ page.dc-design-header-text | markdownify }}
+  				<h1 class="m0 text-large courier">
+            {{ page.dc-design-header-text }}
           </h1>
   				<hr class="title-divider">
-  				<p class="m0 courier" style="text-align: justify;">
-  				Design is a driving force in DC. Whether supporting the nation’s leading nonprofits, engineering the next startup, or solving problems with real impact through our government, design is at the core of this city. We’re makers and disruptors, artisans and tech geeks, and this
+  				<p class="m0 courier text-justify text-default">
+  				  {{ page.dc-design-paragraph-1-text }}
   				</p>
   			</div>
         <div class="sm-col sm-col-12 md-col-7 rellax xs-hide sm-hide" data-rellax-speed="-1">
@@ -47,8 +47,8 @@
       <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-5  lg-col-4 py1 xs-hide"></div>
       	<div class="paragraph-2 sm-col sm-col-12 md-col-4 lg-col-3 px1 mb4 relative">
-  				<p class="m0 courier" style="text-align: justify;">
-            October we’re coming together to celebrate. Join us for DC Design Week. This year we’re going bigger than ever with new partners, new venues, new event formats, and new ways to interact with DC’s unique design community. You won’t want to miss this.
+  				<p class="m0 courier text-justify text-default">
+            {{ page.dc-design-paragraph-2-text }}
   				</p>
   			</div>
       </div>
@@ -57,9 +57,9 @@
     <section class="events">
       <div class="container clearfix px3">
       	<div class="sm-col sm-col-12 md-col-4">
-  				<h1 class="m0 text-x-medium courier">Events</h1>
+  				<h1 class="m0 text-large courier">Events</h1>
   				<hr class="title-divider">
-  				<p class="m0 courier text-small">
+  				<p class="m0 courier text-medium">
   				Connect, inspire, &amp; celabrate
   				</p>
   			</div>
@@ -81,9 +81,9 @@
               		<div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
               		</div>
               		<div class="card-details p3">
-              			<h1 class="m0 black courier">{{ posts.title }}</h1>
+              			<h1 class="m0 black text-medium courier">{{ posts.title }}</h1>
               	    <hr class="title-divider">
-              			<p class="m0 black courier">{{ posts.event-date | date: "%I, %p"}}</p>
+              			<p class="m0 black courier text-default">{{ posts.event-date | date: "%I, %p"}}</p>
               			<a href="{{ posts.event-location | strip_html }}" class="m0 courier">Smithsonian</a>
               		</div>
               	</li>
@@ -107,9 +107,9 @@
     <section class="partners bg-white relative py4">
       <div class="container clearfix px3">
         <div class="sm-col sm-col-12 md-col-6 px1">
-          <h1 class="m0 text-x-medium courier">Partners</h1>
+          <h1 class="m0 text-large courier">Partners</h1>
           <hr class="title-divider">
-          <p class="m0 courier" style="text-align: justify;">
+          <p class="m0 courier text-default" style="text-align: justify;">
           DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
           </p>
         </div>
