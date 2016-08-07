@@ -23,6 +23,11 @@ dc-design-paragraph-2-text: October we’re coming together to celebrate. Join u
 home-events-header-text: Events
 home-events-sub-header-text: Connect, inspire, & celebrate
 home-events-button-text: View Full Schedule
+home-partners-header-text: Partners
+home-partners-sub-header-text: DC Design Week is produced by a 501(3)c non-profit
+  and therefore relies on the goodness of others. Major thanks to the following partners
+  for supporting us so that we can continue to deliver this event year after year
+  to the DC design community!
 layout: pages/page-home
 ---
 
