@@ -49,3 +49,4 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
