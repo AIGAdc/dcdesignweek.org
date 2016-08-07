@@ -11,6 +11,7 @@ sponsors:
 - sponsor-image: "/uploads/&pizza.svg"
 - sponsor-image: "/uploads/static-1-squarespace.svg"
 - sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
+dc-design-header-text: DC is Design
 layout: pages/page-home
 ---
 
