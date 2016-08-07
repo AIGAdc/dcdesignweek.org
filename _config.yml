@@ -23,18 +23,18 @@ defaults:
     type: events
   values:
     layout: singles/event
-    event-bg-image:
-    event-date:
-    event-location:
-    is-featured:
-    is-even:
+    event-bg-image: 
+    event-date: 
+    event-location: 
+    is-featured: 
+    is-even: 
 - scope:
     path: ''
     type: sponsors
   values:
     layout: sponsor
-    sponsor-image:
-    is-2nd-row:
+    sponsor-image: 
+    is-2nd-row: 
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 logo-file: "/uploads/dcdw-logo.svg"
 contact-email: dcdw@aigadc.org
