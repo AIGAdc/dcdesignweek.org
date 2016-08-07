@@ -2,21 +2,21 @@
 title: DCDW
 timezone: America/New_York
 collections:
+  aiga-members:
+    title: AIGA Members
+    output: true
+  events:
+    title: Events
+    output: true
   posts:
     title: Posts
     output: true
+  sponsors:
+    title: Sponsors
+    output: false
   uploads:
     title: Uploads
     output: true
-  aiga-members:
-    title: aiga-members
-    output: true
-  events:
-    title: events
-    output: true
-  sponsors:
-    title: sponsors
-    output: false
 defaults:
 - scope:
     path: ''
