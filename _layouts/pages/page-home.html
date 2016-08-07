@@ -131,9 +131,9 @@
       </div>
     </section>
 
-    <section class="home-partners relative py4">
-      <div class="container clearfix px3">
-        <div class="sm-col sm-col-12 md-col-6 px1">
+    <section class="home-partners relative">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-6">
           <h1 class="m0 text-large courier">
             {{page.home-partners-header-text}}
           </h1>
@@ -143,13 +143,15 @@
           </p>
         </div>
       </div>
-      <div class="events-row-1 container clearfix px3 py4">
+      <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
+          <!-- For every sponsor located within site.sponsors, a sponsor will be printed onto the homepage. Using the limit filter, I've limited the amount of sponsors to 8. -->
           {% for post in site.sponsors limit:8 %}
-            <div class="sm-col sm-col-2 md-col-3 inline-block px2">
-              <div class="">
-                <img src="{{post.sponsor-image}}">
+            <div class="sm-col sm-col-6 md-col-3 px2">
+              <div class="sponsor-card center">
+                <!-- Sponsor Logo -->
+                <img src="{{ post.sponsor-image }}">
               </div>
             </div>
           {% endfor %}
