@@ -50,3 +50,4 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+Copyright: "© AIGA DC | 2016 All Rights Reserved."
