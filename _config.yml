@@ -19,6 +19,18 @@ collections:
     output: true
 defaults:
 - scope:
+    path: '/Sponsors/'
+    type: page
+  values:
+    layout: pages/page-sponsors
+    event-bg-image:
+    event-date:
+    event-venue-directions:
+    event-venue-name:
+    is-featured-on-home-page:
+    is-even-on-home-page:
+    is-even-on-events-page:
+- scope:
     path: ''
     type: events
   values:
@@ -37,18 +49,12 @@ defaults:
     sponsor-image:
     is-even-on-home-page:
     is-1st-tier:
-    1st-tier-header-text:
-    1st-tier-sub-header-text:
     1st-tier-cta-link:
     1st-tier-cta-text:
     is-2nd-tier:
-    2nd-tier-header-text:
-    2nd-tier-sub-header-text:
     2nd-tier-cta-link:
     2nd-tier-cta-text:
     is-3rd-tier:
-    3rd-tier-header-text:
-    3rd-tier-sub-header-text:
     3rd-tier-cta-link:
     3rd-tier-cta-text:
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
