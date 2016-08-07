@@ -3,6 +3,7 @@ title: Sponsors
 date: 2016-08-01 21:34:00 -04:00
 permalink: "/sponsors/"
 position: 3
+1st-tier-header-text: Tier One Sponsors
 layout: pages/page-sponsors
 ---
 
