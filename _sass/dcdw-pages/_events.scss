@@ -54,15 +54,29 @@ a.schedule-link {
 	}
 }
 
+@media screen and (max-width: 831px) {
+	span.card-day {
+    left: -15px;
+    top: -15px;
+	}
+
+	span.card-date {
+		left: 5px;
+    top: 12px;
+	}
+}
+
 @media screen and (max-width: 640px) {
 	.card {
-		min-height: 150px;
+		min-height: 200px;
+		height: auto;
 		margin: 3em auto;
+		max-width: 100%;
 	}
 
 	.card-image {
-		min-height: 150px;
-    min-width: 125px;
+		min-height: 200px;
+    min-width: 175px;
 		border-right: solid 5px $black;
 	}
 
@@ -79,6 +93,32 @@ a.schedule-link {
 	span.card-date {
     left: 45px;
     top: -3px;
+	}
+}
+
+@media screen and (max-width: 523px) {
+	.card-image {
+		min-width: 125px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.card {
+		min-height: 250px;
+	}
+
+	.card-image {
+		display: none;
+	}
+
+	.card-details {
+		margin-top: 2.5em;
+	}
+
+	span.card-day {
+		top: 0;
+		right: 0;
+		left: 0;
 	}
 }
 
