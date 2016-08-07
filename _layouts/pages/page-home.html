@@ -58,11 +58,11 @@
       <div class="container clearfix px3">
       	<div class="sm-col sm-col-12 md-col-4">
   				<h1 class="m0 text-large courier">
-            {{ home-events-header-text }}
+            {{ page.home-events-header-text }}
           </h1>
   				<hr class="title-divider">
-  				<p class="m0 courier text-medium">
-    				{{ home-events-sub-header-text }}
+  				<p class="m0 courier text-default">
+    				{{ page.home-events-sub-header-text }}
   				</p>
   			</div>
       </div>
@@ -71,6 +71,7 @@
         <div class="sm-col sm-col-12 md-col-11">
           <ul>
           {% for posts in site.events limit:6 %}
+            {% if post.is-featured == true %}
             <a href="{{ posts.url }}" class="card-link">
               <div class="sm-col sm-col-6 md-col-4 px2">
                 {% if posts.is-even == true %}
@@ -91,6 +92,7 @@
               	</li>
               </div>
             </a>
+            {% endfor %}
           {% endfor %}
           </ul>
         </div>
