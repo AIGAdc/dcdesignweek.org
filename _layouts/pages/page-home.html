@@ -17,7 +17,9 @@
       <div class="container clearfix px3 pt4">
         <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
       	<div class="paragraph-1 sm-col sm-col-12 md-col-4 lg-col-3 px1 pt4">
-  				<h1 class="m0 text-x-medium courier pt4">DC is Design</h1>
+  				<h1 class="m0 text-x-medium courier pt4">
+            {{ page.dc-is-design-text | markdownify }}
+          </h1>
   				<hr class="title-divider">
   				<p class="m0 courier" style="text-align: justify;">
   				Design is a driving force in DC. Whether supporting the nation’s leading nonprofits, engineering the next startup, or solving problems with real impact through our government, design is at the core of this city. We’re makers and disruptors, artisans and tech geeks, and this
@@ -127,18 +129,6 @@
     </section>
 
     {% include footer.html %}
-
-    <!--
-    <section class="">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 center">
-          <a class="button inline-block" style="background-color: {{ page.contact-cta-color }};" href="#">
-            {{ page.contact-cta-text | markdownify }}
-          </a>
-        </div>
-      </div>
-    </section>
-    -->
 
   </main>
 {% include global/head-closed.html %}
