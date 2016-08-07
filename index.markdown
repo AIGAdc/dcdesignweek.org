@@ -20,6 +20,8 @@ dc-design-paragraph-2-text: October we’re coming together to celebrate. Join u
   DC Design Week. This year we’re going bigger than ever with new partners, new venues,
   new event formats, and new ways to interact with DC’s unique design community. You
   won’t want to miss this.
+home-events-header-text: Events
+home-events-sub-header-text: Connect, inspire, & celabrate
 layout: pages/page-home
 ---
 
