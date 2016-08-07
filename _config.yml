@@ -35,6 +35,7 @@ defaults:
     layout: sponsor
     sponsor-image: 
     is-2nd-row: 
+ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 logo-file: "/uploads/dcdw-logo.svg"
 exclude:
 - package.json
@@ -49,4 +50,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
