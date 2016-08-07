@@ -10,6 +10,55 @@
       </div>
     </article>
 
+    <ul>
+    <!--
+
+    For every event located within site.events, an event will be printed onto the homepage. Using the limit filter, I've limited the amount of events to 6.
+
+    There is also a boolean in place to display events on the homepage if their 'is-featured' checkbox is set to true. If this checkbox is false, the event will display as intended elsewhere on the site.
+
+    In addition to the boolean above, there is a boolean in place to add a class of 'card-even' which will apply 'right: -100px;' to events that have that checkbox set to true to stagger the events.
+
+    -->
+    {% for posts in site.events limit:1 %}
+      <!-- Event Link to Single Page -->
+      <a href="{{ posts.url }}" class="card-link">
+        {% if posts.is-featured-on-home-page == true %}
+        <div class="sm-col sm-col-6 md-col-4 px2">
+          {% if posts.is-even-on-home-page == true %}
+
+          {% else %}
+
+          {% endif %}
+
+        {% endif %}
+      </a>
+    {% endfor %}
+    </ul>
+
+    <div>
+    {% for posts in site.sponsors %}
+      <div class="sm-col sm-col-6 md-col-3">
+        {% if post.is-1st-tier == true limit:8 %}
+        <div class="sponsor-card">
+          <!-- Sponsor Logo -->
+          <img src="{{ posts.sponsor-image }}">
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+
+      {% if posts.is-1st-tier == true %}
+        <div class="sm-col sm-col-6 md-col-3">
+          <div class="sponsor-card">
+            <!-- Sponsor Logo -->
+            <img src="{{ post.sponsor-image }}">
+          </div>
+        </div>
+      {% endif %}
+
+
     <section class="tiered-sponsors relative">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
@@ -32,12 +81,16 @@
 
         -->
           {% for post in site.sponsors limit:8 %}
-            <div class="sm-col sm-col-6 md-col-3">
-              <div class="sponsor-card">
-                <!-- Sponsor Logo -->
-                <img src="{{ post.sponsor-image }}">
+
+              <div class="sm-col sm-col-6 md-col-3">
+                {{% if posts.is-1st-tier == true %}}
+                <div class="sponsor-card">
+                  <!-- Sponsor Logo -->
+                  <img src="{{ post.sponsor-image }}">
+                </div>
+                {{% endif %}}
               </div>
-            </div>
+
           {% endfor %}
         </div>
       </div>
