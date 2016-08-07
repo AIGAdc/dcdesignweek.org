@@ -80,17 +80,17 @@
                 {% else %}
                   <li class="featured-event-card card relative">
                 {% endif %}
-                  <!-- Event Day of Week: Mobile -->
+                  <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
                   <span class="card-day absolute text-x-small p1 bg-black white courier m0 xs-show sm-hide md-hide lg-hide">
                     {{ posts.event-date | date: "%A, %B %d"}}
                   </span>
-                  <!-- Event Day of Week -->
+                  <!-- Event Day of Week | ex: Friday -->
               		<span class="card-day absolute text-x-small p1 bg-black white courier m0 xs-hide">
                     {{ posts.event-date | date: "%A"}}
                   </span>
-                  <!-- Event Date -->
+                  <!-- Event Date | ex: October, 21 -->
               		<span class="card-date absolute text-x-small p1 bg-black white courier m0 xs-hide">
-                    {{ posts.event-date | date: "%B %d"}}
+                    {{ posts.event-date | date: "%B, %d"}}
                   </span>
                   <!-- Event BG Image -->
                   <div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
@@ -101,12 +101,12 @@
                       {{ posts.title }}
                     </h1>
               	    <hr class="title-divider">
-                    <!-- Event Time -->
+                    <!-- Event Time | ex: 06 PM -->
               			<p class="m0 black courier text-default">
                       <i class="icon ion-clock mr1 dcdw-blue"></i>
-                      {{ posts.event-date | date: "%I, %p"}}
+                      {{ posts.event-date | date: "%I %p"}}
                     </p>
-                    <!-- Event Venue -->
+                    <!-- Event Venue  -->
               			<a href="{{ posts.event-venue-directions | strip_html }}" class="m0 courier black text-default">
                       <i class="icon ion-map mr1 dcdw-blue"></i>
                       {{posts.event-venue-name}}
