@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  sponsors:
+    title: Sponsors
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -14,9 +17,6 @@ collections:
   events:
     title: events
     output: true
-  sponsors:
-    title: sponsors
-    output: false
 defaults:
 - scope:
     path: ''
