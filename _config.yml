@@ -23,33 +23,33 @@ defaults:
     type: page
   values:
     layout: pages/page-sponsors
-    event-bg-image:
-    event-date:
-    event-venue-directions:
-    event-venue-name:
-    is-featured-on-home-page:
-    is-even-on-home-page:
-    is-even-on-events-page:
+    event-bg-image: 
+    event-date: 
+    event-venue-directions: 
+    event-venue-name: 
+    is-featured-on-home-page: 
+    is-even-on-home-page: 
+    is-even-on-events-page: 
 - scope:
     path: ''
     type: events
   values:
     layout: singles/event
-    event-bg-image:
-    event-date:
-    event-venue-directions:
-    event-venue-name:
-    is-featured-on-home-page:
-    is-even-on-home-page:
-    is-even-on-events-page:
+    event-bg-image: 
+    event-date: 
+    event-venue-directions: 
+    event-venue-name: 
+    is-featured-on-home-page: 
+    is-even-on-home-page: 
+    is-even-on-events-page: 
 - scope:
     path: ''
     type: sponsors
   values:
-    sponsor-image:
-    is-even-on-home-page:
-    is-first-tier:
-    is-second-tier:
+    sponsor-image: 
+    is-even-on-home-page: 
+    is-first-tier: 
+    is-second-tier: 
     is-third-tier: 
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 logo-file: "/uploads/dcdw-logo.svg"
