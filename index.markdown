@@ -1,5 +1,5 @@
 ---
-title: index
+title: Home
 date: 2016-07-02 23:42:00 -04:00
 position: 0
 sponsors:
@@ -22,6 +22,7 @@ dc-design-paragraph-2-text: October we’re coming together to celebrate. Join u
   won’t want to miss this.
 home-events-header-text: Events
 home-events-sub-header-text: Connect, inspire, & celabrate
+home-events-button-text: View Full Schedule
 layout: pages/page-home
 ---
 
