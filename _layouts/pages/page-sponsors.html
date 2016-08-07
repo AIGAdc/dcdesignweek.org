@@ -10,16 +10,16 @@
       </div>
     </article>
 
-    <section class="1st-tier py4">
+    <section class="first-tier py4">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <h1 class="m0 text-large courier">
-            {{page.1st-tier-header-text}}
+            {{page.first-tier-header-text}}
           </h1>
           <hr class="title-divider">
           <p class="m0 courier text-default" style="text-align: justify;">
-            {{page.1st-tier-sub-header-text}}
+            {{page.first-tier-sub-header-text}}
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           {% for posts in site.sponsors limit:8 %}
-            {% if posts.is-1st-tier == true %}
+            {% if posts.is-first-tier == true %}
               <div class="sm-col sm-col-6 md-col-3">
                 <div class="sponsor-card">
                   <!-- Sponsor Logo -->
@@ -41,23 +41,23 @@
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          <a href="{{page.1st-tier-button-link}}" class="courier text-default">
-            {{page.1st-tier-button-text}}
+          <a href="{{page.first-tier-button-link}}" class="courier text-default">
+            {{page.first-tier-button-text}}
           </a>
         </div>
       </div>
     </section>
 
-    <section class="2nd-tier py4" style="background-color: #fafafa;">
+    <section class="second-tier py4" style="background-color: {{page.second-tier-bg-color}}">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <h1 class="m0 text-large courier">
-            {{page.2nd-tier-header-text}}
+            {{page.second-tier-header-text}}
           </h1>
           <hr class="title-divider">
           <p class="m0 courier text-default" style="text-align: justify;">
-            {{page.2nd-tier-sub-header-text}}
+            {{page.second-tier-sub-header-text}}
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           {% for posts in site.sponsors limit:8 %}
-            {% if posts.is-1st-tier == true %}
+            {% if posts.is-second-tier == true %}
               <div class="sm-col sm-col-6 md-col-3">
                 <div class="sponsor-card">
                   <!-- Sponsor Logo -->
@@ -79,23 +79,23 @@
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          <a href="{{page.2nd-tier-button-link}}" class="courier text-default">
-            {{page.2nd-tier-button-text}}
+          <a href="{{page.second-tier-button-link}}" class="courier text-default">
+            {{page.second-tier-button-text}}
           </a>
         </div>
       </div>
     </section>
 
-    <section class="3rd-tier py4">
+    <section class="third-tier py4">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           <h1 class="m0 text-large courier">
-            {{page.3rd-tier-header-text}}
+            {{page.third-tier-header-text}}
           </h1>
           <hr class="title-divider">
           <p class="m0 courier text-default" style="text-align: justify;">
-            {{page.3rd-tier-sub-header-text}}
+            {{page.third-tier-sub-header-text}}
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
           {% for posts in site.sponsors limit:8 %}
-            {% if posts.is-1st-tier == true %}
+            {% if posts.is-third-tier == true %}
               <div class="sm-col sm-col-6 md-col-3">
                 <div class="sponsor-card">
                   <!-- Sponsor Logo -->
@@ -117,8 +117,8 @@
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-1 py1"></div>
         <div class="sm-col sm-col-12 md-col-11">
-          <a href="{{page.3rd-tier-button-link}}" class="courier text-default">
-            {{page.3rd-tier-button-text}}
+          <a href="{{page.third-tier-button-link}}" class="courier text-default">
+            {{page.third-tier-button-text}}
           </a>
         </div>
       </div>
