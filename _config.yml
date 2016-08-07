@@ -37,6 +37,7 @@ defaults:
     is-2nd-row: 
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 logo-file: "/uploads/dcdw-logo.svg"
+copyright: "© AIGA DC | 2016 All Rights Reserved."
 exclude:
 - package.json
 - gulpfile.js
@@ -50,4 +51,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-Copyright: "© AIGA DC | 2016 All Rights Reserved."
