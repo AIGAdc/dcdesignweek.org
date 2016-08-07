@@ -87,7 +87,7 @@
               			<h1 class="m0 black text-medium courier">{{ posts.title }}</h1>
               	    <hr class="title-divider">
               			<p class="m0 black courier text-default"><i class="icon ion-clock mr1 dcdw-blue"></i>{{ posts.event-date | date: "%I, %p"}}</p>
-              			<a href="{{ posts.event-location | strip_html }}" class="m0 courier black text-default"><i class="icon ion-map mr1 dcdw-blue"></i>Smithsonian</a>
+              			<a href="{{ posts.event-venue-directions | strip_html }}" class="m0 courier black text-default"><i class="icon ion-map mr1 dcdw-blue"></i>{{posts.event-venue-name}}</a>
               		</div>
               	</li>
               </div>
