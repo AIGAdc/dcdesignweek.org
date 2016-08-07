@@ -21,7 +21,7 @@ dc-design-paragraph-2-text: October we’re coming together to celebrate. Join u
   new event formats, and new ways to interact with DC’s unique design community. You
   won’t want to miss this.
 home-events-header-text: Events
-home-events-sub-header-text: Connect, inspire, & celabrate
+home-events-sub-header-text: Connect, inspire, & celebrate
 home-events-button-text: View Full Schedule
 layout: pages/page-home
 ---
