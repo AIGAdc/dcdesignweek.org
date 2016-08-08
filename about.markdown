@@ -4,6 +4,7 @@ date: 2016-08-01 21:33:00 -04:00
 permalink: "/about/"
 position: 4
 about-image: "/uploads/dcdw-about.png"
+dcdw-committee-header-text: "‘16 DCDW Committee "
 layout: pages/page-about
 ---
 

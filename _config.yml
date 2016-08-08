@@ -2,9 +2,9 @@
 title: DCDW
 timezone: America/New_York
 collections:
-  aiga-members:
-    title: AIGA Members
-    output: true
+  dcdw-committee-members:
+    title: DCDW-Committee-Members
+    output: false
   events:
     title: Events
     output: true
