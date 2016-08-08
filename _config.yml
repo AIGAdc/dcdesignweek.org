@@ -55,7 +55,7 @@ defaults:
     path: ''
     type: dcdw-committee-members
   values:
-    committee-member-headshot:
+    committee-member-headshot-image:
     committee-member-name:
     committee-member-title:
     committee-member-email:
