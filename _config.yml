@@ -4,7 +4,7 @@ timezone: America/New_York
 collections:
   dcdw-committee-members:
     title: DCDW-Committee-Members
-    output: false
+    output: true
   events:
     title: Events
     output: true
