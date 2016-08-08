@@ -37,7 +37,9 @@
       <div class="container clearfix relative p3">
         <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
         <div class="sm-col sm-col-12 md-col-10 p3 courier text-medium">
-          <h1 class="m0 text-large">{{page.dcdw-committee-header-text}}</h1>
+          <h1 class="m0 text-large">
+            {{page.dcdw-committee-header-text}}
+          </h1>
           <hr class="title-divider">
 
           <!--
@@ -45,33 +47,16 @@
           For every sponsor located within site.sponsors, a sponsor will be printed onto the homepage. Using the limit filter, I've limited the amount of sponsors to 8.
 
         -->
-          {% for post in site.dcdw-committee-members limit:8 %}
+          {% for post in site.dcdw-committee-members %}
             <div class="sm-col sm-col-6 md-col-3 px2">
               <div class="sponsor-card center">
                 <!-- Sponsor Logo -->
-                <img src="{{ post.committee-member-headshot-image }}">
+                <img src="{{ posts.committee-member-headshot-image }}">
               </div>
             </div>
           {% endfor %}
 
-          {% for post in site.dcdw-committee-members %}
-          <div class="event-speaker-wrapper clearfix py3">
-            <div class="sm-col sm-col-12 md-col-2">
-              <div class="diamond-border" style="border: solid 4px #000;">
-                <div class="diamond m0 overflow-hidden relative">
-                 <div class="los1">
-                   <img src="{{posts.committee-member-headshot-image}}" />
-                 </div>
-                </div>
-              </div>
-            </div>
-            <div class="sm-col sm-col-12 md-col-10">
-              <h3 class="m0 mb1 ml2">Speaker Name</h3>
-              <h6 class="m0 mb2 text-x-small text-uppercase ml2">Speaker Title</h6>
-              <p class="m0 ml2 text-x-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
-            </div>
-          </div>
-          {% endfor %}
+
           <div class="event-speaker-wrapper clearfix py3">
             <div class="sm-col sm-col-12 md-col-2">
               <div class="diamond-border" style="border: solid 4px #000;">
