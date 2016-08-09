@@ -91,7 +91,7 @@
 
           -->
           <ul class="py2">
-            {% for posts in site.dcdw-committee-members %}
+            {% for posts in site.dcdw-creative-team %}
               <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
               <div class="sm-col sm-col-12 md-col-3 p1">
                 <li class="committee-member inline-block" style="min-height: 200px;">
@@ -99,20 +99,20 @@
                     <div class="committee-diamond-border">
                       <div class="committee-diamond m0 overflow-hidden relative">
                        <div class="committee-los1">
-                         <img src="{{ posts.committee-member-headshot-image }}" />
+                         <img src="{{ posts.creatve-team-member-headshot-image }}" />
                        </div>
                       </div>
                     </div>
                   </div>
                   <div class="committee-member-details-wrapper left">
                     <h3 class="m0 text-small">
-                      {{ posts.committee-member-name }}
+                      {{ posts.creative-team-member-name }}
                     </h3>
                     <h6 class="m0 mb2 text-x-small">
-                      {{ posts.committee-member-title }}
+                      {{ posts.creative-team-member-title }}
                     </h6>
                     <p class="m0 text-x-small courier dcdw-blue">
-                      {{ posts.committee-member-email }}
+                      {{ posts.creative-team-member-email }}
                     </p>
                   </div>
                 </li>
