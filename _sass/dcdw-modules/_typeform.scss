@@ -1,0 +1,20 @@
+iframe#typeform-full {
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  border:0;
+}
+
+#typeform-full input[type="text"] {
+  border-color: $dcdw-blue !important;
+}
+
+div#background {
+  background: $dcdw-blue !important;
+}
+
+.question {
+  font-family: "courier" !important;
+}
