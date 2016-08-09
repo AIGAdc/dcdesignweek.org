@@ -1,10 +1,10 @@
 ---
 title: Austin Breed
 date: 2016-08-08 21:20:00 -04:00
-creatve-team-member-headshot-image: "/uploads/test%20image.jpeg"
-creatve-team-member-name: Austin Breed
-creatve-team-member-title: Illustrator
-creatve-team-member-portfolio: austinbreed.com
+creative-team-member-headshot-image: "/uploads/test%20image.jpeg"
+creative-team-member-name: Austin Breed
+creative-team-member-title: Illustrator
+creative-team-member-portfolio: austinbreed.com
 ---
 
 Creative Director, from KC, now DC. Has worked in comics and games. Loves sad novels, good coffee, and weird roleplaying games.
