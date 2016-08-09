@@ -68,8 +68,7 @@ defaults:
   values:
     creatve-team-member-headshot-image:
     creatve-team-member-name:
-    creatve-team-member-title:
-    creatve-team-member-bio:  
+    creatve-team-member-title:  
     creatve-team-member-email:
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 logo-file: "/uploads/dcdw-logo.svg"
