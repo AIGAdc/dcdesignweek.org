@@ -7,3 +7,4 @@ creatve-team-member-title: Illustrator
 creatve-team-member-portfolio: austinbreed.com
 ---
 
+Creative Director, from KC, now DC. Has worked in comics and games. Loves sad novels, good coffee, and weird roleplaying games.
