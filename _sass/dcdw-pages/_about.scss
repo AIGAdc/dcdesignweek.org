@@ -63,6 +63,15 @@
 
 /* DCDW Committee */
 
+li.committee-member {
+    width: 100%;
+    min-height: 150px;
+}
+
+.committee-member-details-wrapper {
+    width: 100%;
+}
+
 .committee-diamond-border {
 	transform: rotate(45deg);
 	width: 75px;
