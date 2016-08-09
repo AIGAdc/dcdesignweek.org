@@ -5,6 +5,9 @@ collections:
   dcdw-committee-members:
     title: DCDW-Committee-Members
     output: true
+  dcdw-creative-team:
+    title: DCDW-Creative-Team
+    output: true
   events:
     title: Events
     output: true
