@@ -22,30 +22,6 @@ collections:
     output: true
 defaults:
 - scope:
-    path: "/About/"
-    type: page
-  values:
-    layout: pages/page-about
-    event-bg-image:
-    event-date:
-    event-venue-directions:
-    event-venue-name:
-    is-featured-on-home-page:
-    is-even-on-home-page:
-    is-even-on-events-page:
-- scope:
-    path: "/Sponsors/"
-    type: page
-  values:
-    layout: pages/page-sponsors
-    event-bg-image:
-    event-date:
-    event-venue-directions:
-    event-venue-name:
-    is-featured-on-home-page:
-    is-even-on-home-page:
-    is-even-on-events-page:
-- scope:
     path: ''
     type: events
   values:
