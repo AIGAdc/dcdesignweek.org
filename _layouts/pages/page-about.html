@@ -10,7 +10,7 @@
       </div>
     </article>
 
-    <section class="dcdw-about py3 relative overflow-hidden">
+    <section class="dcdw-about py4 relative overflow-hidden">
       <div class="container clearfix p3">
         <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
       	<div class="sm-col sm-col-12 md-col-8 lg-col-6 p3 z4 bg-white" style="border: solid 3px blue;">
@@ -34,22 +34,22 @@
     </section>
 
     <section class="dcdw-committee-members">
-      <div class="container clearfix relative">
-        <div class="sm-col sm-col-12 md-col-11 p3 courier text-medium">
+      <div class="container clearfix relative p3">
+        <div class="sm-col sm-col-12 md-col-11 courier text-medium">
           <h1 class="m0 text-large">
             {{page.dcdw-committee-header-text}}
           </h1>
           <hr class="title-divider">
           <!--
 
-          For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page.
+          For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page. Max of 6.
 
           -->
-          <ul class="">
-            {% for posts in site.dcdw-committee-members %}
+          <ul class="mt4">
+            {% for posts in site.dcdw-committee-members limit:6 %}
               <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-              <div class="sm-col sm-col-12 md-col-3 p1">
-                <li class="committee-member inline-block" style="min-height: 200px;">
+              <div class="sm-col sm-col-12 md-col-3">
+                <li class="committee-member inline-block">
                   <div class="commitee-diamond-wrapper relative left">
                     <div class="committee-diamond-border">
                       <div class="committee-diamond m0 overflow-hidden relative">
@@ -59,7 +59,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="committee-member-details-wrapper left">
+                  <div class="committee-member-details-wrapper">
                     <h3 class="m0 text-small">
                       {{ posts.committee-member-name }}
                     </h3>
@@ -78,23 +78,23 @@
       </div>
     </section>
 
-    <section class="dcdw-creative-team">
-      <div class="container clearfix relative">
-        <div class="sm-col sm-col-12 md-col-11  p3 courier text-medium">
+    <section class="dcdw-creative-team py4">
+      <div class="container clearfix relative p3">
+        <div class="sm-col sm-col-12 md-col-11 courier text-medium">
           <h1 class="m0 text-large">
-            {{page.dcdw-committee-header-text}}
+            '16 Creative Team
           </h1>
           <hr class="title-divider">
           <!--
 
-          For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page.
+          For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. Max of 3.
 
           -->
-          <ul class="">
-            {% for posts in site.dcdw-creative-team %}
+          <ul class="mt4">
+            {% for posts in site.dcdw-creative-team limit:3 %}
               <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-              <div class="sm-col sm-col-12 md-col-3 p1">
-                <li class="committee-member inline-block" style="min-height: 200px;">
+              <div class="sm-col sm-col-12 md-col-3">
+                <li class="committee-member inline-block">
                   <div class="commitee-diamond-wrapper mb4">
                     <div class="committee-diamond-border">
                       <div class="committee-diamond m0 overflow-hidden relative">
@@ -104,13 +104,16 @@
                       </div>
                     </div>
                   </div>
-                  <div class="committee-member-details-wrapper left">
+                  <div class="committee-member-details-wrapper">
                     <h3 class="m0 text-small">
                       {{ posts.creative-team-member-name }}
                     </h3>
                     <h6 class="m0 mb2 text-x-small">
                       {{ posts.creative-team-member-title }}
                     </h6>
+                    <!--
+                    uses the primary wysiwyg field of the creative team member page
+                    -->
                     <p class="m0 mb2 courier text-x-small">
                       {{ posts.content }}
                     </p>

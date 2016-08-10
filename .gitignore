@@ -9,6 +9,7 @@ DesignInsperation.txt
 
 node_modules
 
+#ignore metadata
 .jekyll-metadata
 
 # ignore sass-cache

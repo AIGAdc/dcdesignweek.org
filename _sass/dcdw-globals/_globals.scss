@@ -117,5 +117,17 @@ article hr {
   }
 }
 
+/* Home Partners */
+.sponsor-card {
+  min-height: 150px;
+}
+
+@media screen and (max-width:831px) {
+  .sponsor-card {
+    text-align: center;
+  }
+}
+
+
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/
