@@ -5,6 +5,8 @@
 // font families
 $courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
+$bbroller: 'BBRollerMono-Headline', helvetica, sans-serif;
+
 // font sizes
 $text-xx-small: 0.5em;
 $text-x-small: 0.75em;
@@ -42,8 +44,38 @@ $align-justify: justify;
 = DCDW Typography Classes =
 ===============================================>>>>>*/
 
+/*
+Font: 		BB Roller Mono
+Style: 		Headline
+URL: 		https://www.youworkforthem.com/font/T5988/bb-roller-mono
+Foundry: 	Studio BB
+Foundry: 	https://www.youworkforthem.com/designer/541/studio-bb
+Copyright:	Copyright © 2015 by Ben Bold. All rights reserved.
+Version: 	17
+Created:	September 13, 2015
+License: 	https://www.youworkforthem.com/font-license
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted
+			from using the WebFonts(s) listed without a purchased license.
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: $bbroller;
+	src: url('../../uploads/bb-roller-mono-headline.eot');
+	src: url('../../uploads/bb-roller-mono-headline.eot?#iefix') format('embedded-opentype'),
+             url('../../uploads/bb-roller-mono-headline.woff2') format('woff2'),
+	     url('../../uploads/bb-roller-mono-headline.woff') format('woff'),
+	     url('../../uploads/bb-roller-mono-headline.ttf') format('truetype'),
+	     url('../../uploads/bb-roller-mono-headline.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /* font families */
 .courier { font-family: $courier; }
+.bbroller { font-family: $bbroller; }
 
 /* font sizes */
 .text-xx-small { font-size: $text-xx-small; }
