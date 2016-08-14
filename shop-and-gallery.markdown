@@ -1,5 +1,5 @@
 ---
-title: Shops & Galleries
+title: Shop & Gallery
 date: 2016-08-01 21:33:00 -04:00
 permalink: "/shops-and-galleries/"
 position: 2
@@ -10,7 +10,7 @@ you-are-voting-image: "/uploads/dcdw-you-are-voting.png"
 layout: pages/page-shops-galleries
 ---
 
-# Shop & Galleries
+# Shop & Gallery
 
 ---
 
