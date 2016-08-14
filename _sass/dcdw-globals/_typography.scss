@@ -4,6 +4,7 @@
 
 // font families
 $courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$sans: 'Work Sans', sans-serif;
 
 // font sizes
 $text-xx-small: 0.5em;
@@ -44,6 +45,7 @@ $align-justify: justify;
 
 /* font families */
 .courier { font-family: $courier; }
+.sans { font-family: $sans; }
 
 /* font sizes */
 .text-xx-small { font-size: $text-xx-small; }

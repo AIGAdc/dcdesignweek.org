@@ -13,10 +13,10 @@ a.button {
 /* global button + additional colors */
 a.button {
   border-top: none;
-  border-right: solid 3px #000;
-  border-bottom: solid 3px #000;
+  box-shadow: 10px 10px $black;
   border-left: none;
   cursor: pointer;
+  padding: 1em;
 
   &.button-white {
     background: white;
@@ -27,4 +27,11 @@ a.button {
     background: blue;
     color: white;
   }
+}
+
+/* underline button */
+a.blue-underline {
+  border-bottom: 5px solid blue;
+  color: blue;
+  padding: 0.5em 0;
 }
