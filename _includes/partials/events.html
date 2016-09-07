@@ -1,0 +1,85 @@
+<section class="home-events relative py4">
+  <div class="container clearfix px3">
+    <div class="sm-col sm-col-12 md-col-4">
+      <h1 class="m0 text-large">
+        {{ page.home-events-header-text }}
+      </h1>
+      <hr class="title-divider">
+      <p class="m0 text-default">
+        {{ page.home-events-sub-header-text }}
+      </p>
+    </div>
+  </div>
+  <div class="container clearfix py3">
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-11">
+      <ul>
+      <!--
+
+      For every event located within site.events, an event will be printed onto the homepage. Using the limit filter, I've limited the amount of events to 6.
+
+      There is also a boolean in place to display events on the homepage if their 'is-featured' checkbox is set to true. If this checkbox is false, the event will display as intended elsewhere on the site.
+
+      In addition to the boolean above, there is a boolean in place to add a class of 'card-even' which will apply 'right: -100px;' to events that have that checkbox set to true to stagger the events.
+
+      -->
+      {% for posts in site.events limit:6 %}
+        <!-- Event Link to Single Page -->
+        <a href="{{ posts.url }}" class="card-link">
+          {% if posts.is-featured-on-home-page == true %}
+          <div class="sm-col sm-col-6 md-col-4 px2">
+            {% if posts.is-even-on-home-page == true %}
+              <li class="featured-event-card card card-2nd-row relative">
+            {% else %}
+              <li class="featured-event-card card relative">
+            {% endif %}
+              <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
+              <span class="card-day absolute text-x-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+                {{ posts.event-date | date: "%A, %B %d"}}
+              </span>
+              <!-- Event Day of Week | ex: Friday -->
+              <span class="card-day absolute text-x-small p1 bg-black white m0 xs-hide">
+                {{ posts.event-date | date: "%A"}}
+              </span>
+              <!-- Event Date | ex: October, 21 -->
+              <span class="card-date absolute text-x-small p1 bg-black white m0 xs-hide">
+                {{ posts.event-date | date: "%B, %d"}}
+              </span>
+              <!-- Event BG Image -->
+              <div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
+              </div>
+              <div class="card-details p3">
+                <!-- Event Title -->
+                <h1 class="m0 black text-default">
+                  {{ posts.title }}
+                </h1>
+                <hr class="title-divider">
+                <!-- Event Time | ex: 06 PM -->
+                <p class="m0 black text-default">
+                  <i class="icon ion-clock mr1 dcdw-blue"></i>
+                  {{ posts.event-date | date: "%I %p"}}
+                </p>
+                <!-- Event Venue  -->
+                <a href="{{ posts.event-venue-directions | strip_html }}" class="m0 black text-default">
+                  <i class="icon ion-map mr1 dcdw-blue"></i>
+                  {{posts.event-venue-name}}
+                </a>
+              </div>
+            </li>
+          </div>
+          {% endif %}
+        </a>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container clearfix px3 py3">
+    <div class="sm-col sm-col-12 md-col-1 px2 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-11 px2">
+      <a href="#" class="schedule-link m0 text-default">
+        {{page.home-events-button-text}}
+      </a>
+    </div>
+  </div>
+</section>
