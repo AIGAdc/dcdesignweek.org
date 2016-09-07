@@ -27,7 +27,7 @@
         <!-- Event Link to Single Page -->
         <a href="{{ posts.url }}" class="card-link">
           {% if posts.is-featured-on-home-page == true %}
-          <div class="sm-col sm-col-6 md-col-4 px2">
+          <div class="sm-col sm-col-6 md-col-4 pr4">
             {% if posts.is-even-on-home-page == true %}
               <li class="featured-event-card card card-2nd-row relative">
             {% else %}
@@ -48,7 +48,7 @@
               <!-- Event BG Image -->
               <div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
               </div>
-              <div class="card-details p3">
+              <div class="card-details bg-white p3">
                 <!-- Event Title -->
                 <h1 class="m0 black text-default">
                   {{ posts.title }}
@@ -61,7 +61,6 @@
                 </p>
                 <!-- Event Venue  -->
                 <a href="{{ posts.event-venue-directions | strip_html }}" class="m0 black text-default">
-                  <i class="icon ion-map mr1 dcdw-blue"></i>
                   {{posts.event-venue-name}}
                 </a>
               </div>
