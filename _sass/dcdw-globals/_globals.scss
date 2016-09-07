@@ -71,9 +71,10 @@ article h1:after {
 
 article p {
   font-size: $text-default;
-  font-family: $courier;
+  font-family: $sans;
   text-align: $align-justify;
-  letter-spacing: -0.625px;
+  font-weight: $text-light;
+  line-height: 1.75em;
 }
 
 article hr,
@@ -128,6 +129,33 @@ article hr {
   }
 }
 
+/* wrapper for the underlying grid */
+.grid {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* gives ever column a left border that spans 100% of the viewport height */
+.grid-line {
+	min-height: 100vh;
+	border-left: solid 0.01px #eaeaea;
+}
+
+/* adds a right border to the last column in the grid */
+.grid-line:last-child {
+	border-right: solid 0.01px #eaeaea;
+}
+
+.blue-shadow {
+  box-shadow: 15px 20px blue;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-line:nth-child(6) {
+  	border-right: solid 0.01px #eaeaea;
+  }
+}
 
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/

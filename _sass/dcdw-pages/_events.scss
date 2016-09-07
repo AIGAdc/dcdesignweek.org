@@ -1,7 +1,7 @@
 /* Events Homepage */
 .card {
-	border: solid 5px $black;
-	max-width: 375px;
+	border: solid 3px $black;
+	max-width: 300px;
 	min-height: 440px;
 	margin: 1em auto;
 }
@@ -12,19 +12,20 @@
 span.card-day {
   left: -30px;
   top: 15px;
-	border-right: solid 5px $dcdw-blue;
-	border-bottom: solid 5px $dcdw-blue;
 }
 
 span.card-date {
   left: -18px;
   top: 49px;
-	border-right: solid 5px $dcdw-blue;
-	border-bottom: solid 5px $dcdw-blue;
+}
+
+span.card-day,
+span.card-date {
+	box-shadow: 5px 5px $dcdw-blue;
 }
 
 .card-image {
-	border-bottom: solid 5px $black;
+	border-bottom: solid 3px $black;
 	min-height: 200px;
 }
 
