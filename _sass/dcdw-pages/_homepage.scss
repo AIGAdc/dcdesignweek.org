@@ -21,16 +21,16 @@ img.design-week {
 }
 
 .illustration-1 {
-    left: 800px !important;
-    top: 100px !important;
+  right: 200px !important;
+  top: 100px !important;
 }
 
 .illustration-2 {
-  left: 615px !important;
+  right: 390px !important;
 }
 
 .illustration-3 {
-  left: 423px !important;
+  right: 583px !important;
 }
 
 .illustration-1,
@@ -39,20 +39,13 @@ img.design-week {
   width: 800px !important;
 }
 
-
-
-/* DC is Design */
-
-
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
 .introduction-illustration {
   animation: float 5000ms ease-in-out infinite;
 }
 
 @keyframes float {
-  50% {
-    transform: translate(0, 25px);
-  }
+  50% { transform: translate(0, 25px); }
 }
 
 /* positioning for homepage illustrations until line 35 */

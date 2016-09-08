@@ -2,10 +2,13 @@
 .card {
 	border: solid 3px $black;
 	max-width: 300px;
-	min-height: 440px;
+	min-height: 400px;
 	margin: 1em auto;
 }
 
+.card-details {
+	min-height: 175px;
+}
 .card:hover {
 }
 
@@ -26,7 +29,7 @@ span.card-date {
 
 .card-image {
 	border-bottom: solid 3px $black;
-	min-height: 200px;
+	min-height: 175px;
 }
 
 .card-image img {
