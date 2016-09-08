@@ -5,9 +5,8 @@ DCDW Homepage
 /* Introduction Header */
 
 .introduction {
-  height: 525px;
-  max-height: 525px;
-  border-bottom: 5px solid #000;
+  min-height: 600px;
+  max-height: 600px;
   margin-top: 60px;
 }
 
@@ -21,47 +20,26 @@ img.design-week {
   top: 300px;
 }
 
-.introduction-illustration-wrapper {
-  top: -75px;
+.illustration-1 {
+    left: 800px !important;
+    top: 100px !important;
 }
 
-@media screen and (min-width: 1024px) {
-  .introduction-illustration-wrapper {
-    top: 25px;
-    right: 25px;
-  }
-
-  img.introduction-illustration {
-    max-width: 600px;
-  }
-
-  img.design-week {
-    max-width: 350px;
-  }
+.illustration-2 {
+  left: 615px !important;
 }
 
-@media screen and (min-width: 831px) {
-  .introduction {
-    height: 400px;
-  }
-
-  .design-week-wrapper {
-    top: 140px;
-  }
-
-  img.introduction-illustration {
-    max-width: 375px;
-  }
-
-  .introduction-illustration-wrapper {
-    top: -150px;
-    right: -400px;
-  }
-
-  .dc-design {
-    padding: 0;
-  }
+.illustration-3 {
+  left: 423px !important;
 }
+
+.illustration-1,
+.illustration-2,
+.illustration-3 {
+  width: 800px !important;
+}
+
+
 
 /* DC is Design */
 

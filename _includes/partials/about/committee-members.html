@@ -1,0 +1,44 @@
+<section class="dcdw-committee-members">
+  <div class="container clearfix relative p3">
+    <div class="sm-col sm-col-12 md-col-11 text-medium">
+      <h1 class="m0 text-large">
+        {{page.dcdw-committee-header-text}}
+      </h1>
+      <hr class="title-divider">
+      <!--
+
+      For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page. Max of 6.
+
+      -->
+      <ul class="mt4">
+        {% for posts in site.dcdw-committee-members limit:6 %}
+          <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+          <div class="sm-col sm-col-12 md-col-3">
+            <li class="committee-member inline-block">
+              <div class="commitee-diamond-wrapper relative left">
+                <div class="committee-diamond-border">
+                  <div class="committee-diamond m0 overflow-hidden relative">
+                   <div class="committee-los1">
+                     <img src="{{ posts.committee-member-headshot-image }}" />
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="committee-member-details-wrapper">
+                <h3 class="m0 text-small">
+                  {{ posts.committee-member-name }}
+                </h3>
+                <h6 class="m0 mb2 text-x-small">
+                  {{ posts.committee-member-title }}
+                </h6>
+                <p class="m0 text-x-small dcdw-blue">
+                  {{ posts.committee-member-email }}
+                </p>
+              </div>
+            </li>
+          </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -2,18 +2,21 @@
   <main class="overflow-hidden">
     {% include header.html %}
 
-    <section class="introduction bg-white">
+    <section class="introduction">
       <div class="container clearfix px3">
         <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4 px1">
           <img class="design-week" src="/uploads/dc-design-week.svg">
         </div>
-        <div class="introduction-illustration-wrapper relative sm-col sm-col-12 md-col-7 lg-col-8 px1 xs-hide">
-          <img class="introduction-illustration" src="/uploads/group-7.svg">
-        </div>
       </div>
     </section>
 
-    <section class="home-intro pb4 z4 border bg-white">
+    <section style="">
+      <div class="illustration-1 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
+        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
+      </div>
+    </section>
+
+    <section class="home-intro relative bg-white" style="opacity: 0.8;">
       <div class="container clearfix p3">
       	<div class="paragraph-1 sm-col sm-col-12 md-col-4 lg-col-3">
   				<h1 class="m0 text-large">
@@ -36,7 +39,19 @@
       </div>
     </section>
 
+    <section>
+      <div class="illustration-2 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
+        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
+      </div>
+    </section>
     {% include partials/events.html %}
+
+    <section style="">
+      <div class="illustration-3 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
+        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
+      </div>
+    </section>
+
     {% include partials/partners.html %}
 
 

@@ -6,7 +6,7 @@
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
          <li class="inline-block m0">
-           <a href="/events/" class="sans text-x-small text-regular black mr2 text-uppercase text-bold m0">&larr; Back to Events</a>
+           <a href="/events/" class="text-x-small text-regular black mr2 text-uppercase text-bold m0">&larr; Back to Events</a>
          </li>
        </ul>
     </nav>
@@ -22,7 +22,7 @@
         {% assign sorted_pages = site.pages | sort:"position" %}
         {% for page in sorted_pages %}
          <li class="inline-block m0">
-           <a href="{{ page.permalink }}" class="sans text-x-small text-regular black mr2 text-uppercase text-bold m0">{{ page.title }}</a>
+           <a href="{{ page.permalink }}" class="text-x-small text-regular black mr2 text-uppercase text-bold m0">{{ page.title }}</a>
          </li>
         {% endfor %}
        </ul>
