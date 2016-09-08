@@ -1,14 +1,7 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden">
     {% include header.html %}
-
-    <article class="relative mb4">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 md-col-10">
-          {{ page.content }}
-        </div>
-      </div>
-    </article>
+      {% include partials/introduction.html %}
 
     <section class="events relative">
       <!-- event-calendar: time of day -->
@@ -212,7 +205,7 @@
           <ul>
             {% for posts in site.events %}
             <a href="{{ posts.url }}" class="card-link">
-              <div class="sm-col sm-col-6 md-col-4 px2">
+              <div class="sm-col sm-col-6 md-col-4 pr4">
                 {% if posts.is-even == true %}
                   <li class="featured-event-card card card-2nd-row relative">
                 {% else %}
@@ -222,7 +215,7 @@
                     <span class="card-day absolute text-x-small p1 bg-black white courier m0 xs-show sm-hide md-hide lg-hide">
                       {{ posts.event-date | date: "%A, %B %d"}}
                     </span>
-                    <!-- Event Day of Week | ex: Friday -->
+                    <!-- Event Day of Week: Desktop | ex: Friday -->
                     <span class="card-day absolute text-x-small p1 bg-black white courier m0 xs-hide">
                       {{ posts.event-date | date: "%A"}}
                     </span>
@@ -232,7 +225,7 @@
                     </span>
                 		<div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')">
                 		</div>
-                		<div class="card-details p3">
+                		<div class="card-details bg-white p3">
                 			<h1 class="m0 black courier">{{ posts.title }}</h1>
                 	    <hr class="title-divider">
                 			<p class="m0 black courier">{{ posts.event-date | date: "%I, %p"}}</p>
@@ -246,7 +239,6 @@
           </div>
         </div>
       </section>
-
     {% include footer.html %}
   </main>
 {% include global/head-closed.html %}

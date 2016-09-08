@@ -1,22 +1,8 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden">
     {% include header.html %}
-
-    <article class="volunteer relative">
-      <div class="container clearfix p3">
-        <div class="sm-col sm-col-12 md-col-10">
-          {{ page.content }}
-        </div>
-      </div>
-    </article>
-
-    <section class="volunteer-form">
-      <div class="container clearfix p3">
-        <iframe id="typeform" height="500px;" frameborder="0" src="https://dan503.typeform.com/to/CCazUK"></iframe>
-        <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js"></script>
-      </div>
-    </section>
-
+      {% include partials/introduction.html %}
+      {% include partials/volunteer-form.html %}
     {% include footer.html %}
   </main>
 {% include global/head-closed.html %}

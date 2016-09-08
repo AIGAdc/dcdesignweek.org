@@ -1,31 +1,60 @@
-<section class="home-partners relative bg-white margin-large-top" style="opacity: 0.9;">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-6">
-      <h1 class="m0 text-large">
-        {{page.home-partners-header-text}}
-      </h1>
-      <hr class="title-divider">
-      <p class="m0 text-default" style="text-align: justify;">
-        {{page.home-partners-sub-header-text}}
-      </p>
+{% if page.url == "/" %}
+  <section class="home-partners relative bg-white margin-large-top" style="opacity: 0.9;">
+    <div class="container clearfix p3">
+      <div class="sm-col sm-col-12 md-col-6">
+        <h1 class="m0 text-large">
+          {{page.home-partners-header-text}}
+        </h1>
+        <hr class="title-divider">
+        <p class="m0 text-default" style="text-align: justify;">
+          {{page.home-partners-sub-header-text}}
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
-    <div class="sm-col sm-col-12 md-col-11">
-      <!--
+    <div class="container clearfix p3">
+      <div class="sm-col sm-col-12 md-col-1 px2 py1"></div>
+      <div class="sm-col sm-col-12 md-col-11">
+        <!--
 
-      For every sponsor located within site.sponsors, a sponsor will be printed onto the homepage. Using the limit filter, I've limited the amount of sponsors to 8.
+        For every sponsor located within site.sponsors, a sponsor will be printed onto the homepage. Using the limit filter, I've limited the amount of sponsors to 8.
 
-    -->
-      {% for post in site.sponsors limit:8 %}
-        <div class="sm-col sm-col-6 md-col-3 px2">
-          <div class="sponsor-card center">
-            <!-- Sponsor Logo -->
-            <img src="{{ post.sponsor-image }}">
+      -->
+        {% for post in site.sponsors limit:8 %}
+          <div class="sm-col sm-col-6 md-col-3 px2">
+            <div class="sponsor-card center">
+              <!-- Sponsor Logo -->
+              <img src="{{ post.sponsor-image }}">
+            </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+{% elsif page.url == "/shops-and-galleries/" %}
+  <section class="shops-partners py4 relative">
+    <div class="container clearfix p3">
+      <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
+      <div class="sm-col sm-col-12 md-col-10">
+        <h1 class="m0 text-x-medium ">
+          Partners
+        </h1>
+        <hr class="title-divider">
+      </div>
+    </div>
+    <div class="container clearfix p3">
+      <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
+      <div class="sm-col sm-col-12 md-col-11">
+        {% for post in site.sponsors limit:3 %}
+          <div class="sm-col sm-col-12 md-col-4 inline-block">
+            <div class="sponsor-card">
+              <img src="{{ post.sponsor-image}}">
+            </div>
+          </div>
+        {% endfor %}
+        <a href="#" class="blue-underline m0 text-default ">
+          Sponsor this event
+        </a>
+      </div>
+    </div>
+  </section>
+{% endif %}

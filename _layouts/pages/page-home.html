@@ -16,34 +16,14 @@
       </div>
     </section>
 
-    <section class="home-intro relative bg-white" style="opacity: 0.8;">
-      <div class="container clearfix p3">
-      	<div class="paragraph-1 sm-col sm-col-12 md-col-4 lg-col-3">
-  				<h1 class="m0 text-large">
-            {{ page.dc-design-header-text }}
-          </h1>
-  				<hr class="title-divider">
-  			</div>
-        <div class="sm-col sm-col-12">
-          <div class="sm-col sm-col-12 md-col-6 pr2">
-            <p class="m0 text-default">
-              {{ page.dc-design-paragraph-1-text }}
-            </p>
-    			</div>
-          <div class="sm-col sm-col-12 md-col-6">
-    				<p class="m0 text-default">
-              {{ page.dc-design-paragraph-2-text }}
-    				</p>
-    			</div>
-        </div>
-      </div>
-    </section>
+    {% include partials/home/dc-is-design.html %}
 
     <section>
       <div class="illustration-2 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
         <img class="introduction-illustration" src="/uploads/grid-block_A.png">
       </div>
     </section>
+
     {% include partials/events.html %}
 
     <section style="">
@@ -53,9 +33,6 @@
     </section>
 
     {% include partials/partners.html %}
-
-
     {% include footer.html %}
-
   </main>
 {% include global/head-closed.html %}
