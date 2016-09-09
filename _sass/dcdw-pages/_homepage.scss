@@ -30,11 +30,11 @@ img.design-week {
 }
 
 .illustration-2 {
-  right: 390px !important;
+  right: 80px !important;
 }
 
 .illustration-3 {
-  right: 583px !important;
+  right: 285px !important;
 }
 
 .illustration-1,
@@ -44,11 +44,11 @@ img.design-week {
 }
 
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
-.float {
-  animation: float 5000ms ease-in-out infinite;
+.floaty {
+  animation: floaty 5000ms ease-in-out infinite;
 }
 
-@keyframes float {
+@keyframes floaty {
   50% { transform: translate(0, 25px); }
 }
 
