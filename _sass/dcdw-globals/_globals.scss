@@ -71,11 +71,26 @@ ul {
 }
 
 .logo-wrapper {
+  top: 17.5px;
+}
+
+.logo-wrapper img {
+  max-width: 200px;
+  width: 100%;
+}
+
+
+.logo-wrapper-mobile {
   top: 15px;
 }
 
+.logo-wrapper-mobile img {
+  max-width: 100px;
+  width: 100%;
+}
+
 .main-nav {
-  top: 20px;
+  top: 15px;
 }
 
 article {

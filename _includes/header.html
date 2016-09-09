@@ -1,7 +1,7 @@
 {% if page.layout == 'event' %}
-  <header class="global-header px3 border relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
+  <header class="global-header px3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
     <div class="logo-wrapper relative left">
-      <a href="/"><img src="/uploads/dcdw-logo.svg"></a>
+      <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
     </div>
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
@@ -12,9 +12,14 @@
     </nav>
   </header>
 {% else %}
-  <header class="global-header px3 border relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
-    <div class="logo-wrapper relative left">
-      <a href="/"><img src="/uploads/dcdw-logo.svg"></a>
+  <header class="global-header px3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
+    <!-- desktop logo -->
+    <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
+      <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
+    </div>
+    <!--  mobile logo -->
+    <div class="logo-wrapper-mobile relative left xs-show sm-show md-show lg-hide">
+      <a href="/"><img src="/uploads/dcdw-logo-mobile.svg"></a>
     </div>
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
