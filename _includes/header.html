@@ -6,31 +6,33 @@
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
          <li class="inline-block m0">
-           <a href="/events/" class="text-small text-light black mr2 text-uppercase text-bold m0">&larr; Back to Events</a>
+           <a href="/events/" class="text-small text-regular black mr2 text-uppercase m0">&larr; Back to Events</a>
          </li>
        </ul>
     </nav>
   </header>
 {% else %}
   <header class="global-header px3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
-    <!-- desktop logo -->
-    <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
-      <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
+    <div class="header-container clearfix">
+      <!-- desktop logo -->
+      <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
+        <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
+      </div>
+      <!--  mobile logo -->
+      <div class="logo-wrapper-mobile relative left xs-show sm-show md-show lg-hide">
+        <a href="/"><img src="/uploads/dcdw-logo-mobile.svg"></a>
+      </div>
+      <nav class="main-nav relative right xs-hide sm-hide">
+        <ul>
+          <!-- instructing the navigation to print every page of the site as list items -->
+          {% assign sorted_pages = site.pages | sort:"position" %}
+          {% for page in sorted_pages %}
+           <li class="inline-block m0">
+             <a href="{{ page.permalink }}" class="text-small text-regular black mr2 text-uppercase m0">{{ page.title }}</a>
+           </li>
+          {% endfor %}
+         </ul>
+      </nav>
     </div>
-    <!--  mobile logo -->
-    <div class="logo-wrapper-mobile relative left xs-show sm-show md-show lg-hide">
-      <a href="/"><img src="/uploads/dcdw-logo-mobile.svg"></a>
-    </div>
-    <nav class="main-nav relative right xs-hide sm-hide">
-      <ul>
-        <!-- instructing the navigation to print every page of the site as list items -->
-        {% assign sorted_pages = site.pages | sort:"position" %}
-        {% for page in sorted_pages %}
-         <li class="inline-block m0">
-           <a href="{{ page.permalink }}" class="text-small text-light black mr2 text-uppercase text-bold m0">{{ page.title }}</a>
-         </li>
-        {% endfor %}
-       </ul>
-    </nav>
   </header>
 {% endif %}
