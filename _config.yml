@@ -59,7 +59,8 @@ defaults:
     creative-team-member-title: 
     creative-team-member-portfolio: 
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
-logo-file: "/uploads/dcdw-logo.svg"
+desktop-logo-image: "/uploads/dcdw-logo-desktop.svg"
+mobile-logo-image: "/uploads/dcdw-logo-mobile.svg"
 contact-email: dcdw@aigadc.org
 copyright: "© AIGA DC | 2016 All Rights Reserved."
 exclude:
