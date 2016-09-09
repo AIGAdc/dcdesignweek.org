@@ -20,9 +20,13 @@ img.design-week {
   top: 300px;
 }
 
+.illustration-1-wrapper {
+    top: -575px !important;
+    right: -275px !important;
+}
+
 .illustration-1 {
-  right: 200px !important;
-  top: 100px !important;
+  right: 150px !important;
 }
 
 .illustration-2 {
@@ -36,11 +40,11 @@ img.design-week {
 .illustration-1,
 .illustration-2,
 .illustration-3 {
-  width: 800px !important;
+  width: 850px !important;
 }
 
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
-.introduction-illustration {
+.float {
   animation: float 5000ms ease-in-out infinite;
 }
 

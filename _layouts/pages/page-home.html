@@ -2,37 +2,30 @@
   <main class="overflow-hidden relative">
     {% include header.html %}
 
-    <section class="introduction">
-      <div class="container clearfix px3">
-        <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4 px1">
-          <img class="design-week" src="/uploads/dc-design-week.svg">
+      <section class="introduction">
+        <div class="container clearfix px3">
+          <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4 px1">
+            <img class="design-week" src="/uploads/dc-design-week.svg">
+          </div>
         </div>
+      </section>
+
+      <div class="illustration-1-wrapper container clearfix relative float">
+        <img class="illustration-1 absolute" src="/uploads/grid-block_A.png">
       </div>
-    </section>
 
-    <section>
-      <div class="illustration-1 introduction-illustration-wrapper absolute sm-col sm-col-6 xs-hide">
-        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
+      {% include partials/home/dc-is-design.html %}
+
+      <div class="illustration-2-wrapper container clearfix relative float">
+        <img class="illustration-2 absolute" src="/uploads/grid-block_A.png">
       </div>
-    </section>
 
-    {% include partials/home/dc-is-design.html %}
+      {% include partials/events.html %}
 
-    <section>
-      <div class="illustration-2 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
-        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
+      <div class="illustration-3-wrapper container clearfix relative float">
+        <img class="illustration-3 absolute" src="/uploads/grid-block_A.png">
       </div>
-    </section>
-
-    {% include partials/events.html %}
-
-    <section>
-      <div class="illustration-3 introduction-illustration-wrapper absolute sm-col sm-col-12 md-col-6 xs-hide">
-        <img class="introduction-illustration" src="/uploads/grid-block_A.png">
-      </div>
-    </section>
-
-    {% include partials/partners.html %}
+      {% include partials/partners.html %}
     {% include footer.html %}
   </main>
 {% include global/head-closed.html %}
