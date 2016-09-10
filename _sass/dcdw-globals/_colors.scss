@@ -1,5 +1,6 @@
 // Color Variables
 
+$opaque-white: rgba(255,255,255,0.95);
 $white: #fff;
 $black: #000;
 
@@ -12,5 +13,6 @@ $dcdw-blue: #0000ff;
 
 .dcdw-blue { color: $dcdw-blue; }
 
+.bg-opaque-white { background-color: $opaque-white; }
 .bg-white { background-color: $white; }
 .bg-black { background-color: $black; }
