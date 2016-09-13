@@ -1,17 +1,18 @@
 <section class="dcdw-about py4 relative overflow-hidden">
   <div class="container clearfix p3 relative">
     <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
-    <div class="dcdw-about-content sm-col sm-col-12 md-col-8 lg-col-6 p3 z4 bg-white"w>
-      <h1 class="m0 text-x-medium">
-        {{ page.dcdw-about-context-title }}
-      </h1>
-      <hr class="title-divider">
-      <p class="m0 text-default text-justify pb3">
-        {{ page.dcdw-about-context-text }}
+    <div class="dcdw-about-content sm-col sm-col-12 md-col-8 lg-col-5 p3 z4 bg-white"w>
+      <div class="dcdw-about-content-image-wrapper pb3">
+        <img src="{{ page.dcdw-about-content-image }}">
+      </div>
+      <p class="m0 text-default">
+        {{ page.dcdw-about-content-body-text | markdownify }}
       </p>
-      <a href="#" class="schedule-link m0 text-default">
-        {{ page.dcdw-about-content-button-text }}
-      </a>
+      <div class="pt3">
+        <a href="#" class="schedule-link m0 text-default">
+          {{ page.dcdw-about-content-button-text }}
+        </a>
+      </div>
     </div>
     <div class="dcdw-about-bg-wrapper absolute" style="z-index: -9999;">
       <img src="{{ page.about-image }}">
