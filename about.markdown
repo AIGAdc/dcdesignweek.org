@@ -6,10 +6,14 @@ position: 4
 about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘16 DCDW Committee "
 dcdw-about-content-title-text: AIGA DC
-dcdw-about-content-body-text: |-
-  DC Design Week is produced by AIGA DC, the professional association for design. AIGA is the oldest and largest membership association for professionals engaged in the discipline, practice and culture of designing.
-
-  The Washington DC chapter of AIGA is one of the biggest and most active in the country. Run a volunteer board of directors, the organization celebrates design and provides unparalleled opportunities for networking within the local design community and a variety of resources to advance professionalism and broaden knowledge. AIGA DC’s events stimulate discourse and enrich the collective experience of design.
+dcdw-about-content-body-text: "DC Design Week is produced by AIGA DC, the professional
+  association for design. AIGA is the oldest and largest membership association for
+  professionals engaged in the discipline, practice and culture of designing.\n\nThe
+  Washington DC chapter of AIGA is one of the biggest and most active in the country.
+  Run a volunteer board of directors, the organization celebrates design and provides
+  unparalleled opportunities for networking within the local design community and
+  a variety of resources to advance professionalism and broaden knowledge. AIGA DC’s
+  events stimulate discourse and enrich the collective experience of design. "
 dcdw-about-content-button-text: Visit aigadc.org
 layout: pages/page-about
 ---
