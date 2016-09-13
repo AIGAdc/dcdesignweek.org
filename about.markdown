@@ -5,7 +5,7 @@ permalink: "/about/"
 position: 4
 about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘16 DCDW Committee "
-dcdw-about-content-title-text: AIGA DC
+dcdw-about-content-image: "/uploads/aigadc.png"
 dcdw-about-content-body-text: "DC Design Week is produced by AIGA DC, the professional
   association for design. AIGA is the oldest and largest membership association for
   professionals engaged in the discipline, practice and culture of designing.\n\nThe
