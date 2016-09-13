@@ -4,9 +4,22 @@
 
 .dcdw-about-bg-wrapper {
   top: -10px;
-  right: 275px;
+  left: -100px;
 }
 
+@media screen and (min-width: 1024px) {
+  .dcdw-about-bg-wrapper {
+    left: 110px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .dcdw-about-bg-wrapper {
+    left: 127px;
+  }
+}
+
+/*
 @media screen and (max-width: 1440px) {
   .dcdw-about-bg-wrapper {
     right: 100px;
@@ -60,6 +73,7 @@
     top: 0;
   }
 }
+*/
 
 /* DCDW Committee */
 
@@ -70,6 +84,7 @@ li.committee-member {
 
 .committee-member-details-wrapper {
     width: 100%;
+    left: 75px;
 }
 
 .committee-diamond-border {
@@ -107,9 +122,9 @@ li.committee-member {
 }
 
 .commitee-diamond-wrapper {
-  min-height: 75px;
-  min-width: 75px;
-  left: -45px;
+    min-height: 75px;
+    min-width: 75px;
+    left: 25px;
 }
 
 @media screen and (max-width: 1180px) {
@@ -133,5 +148,6 @@ li.committee-member {
     display: block;
     width: 100%;
     margin: 0 auto;
+    left: 0;
   }
 }

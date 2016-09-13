@@ -13,7 +13,7 @@
       <ul class="mt4">
         {% for posts in site.dcdw-committee-members limit:6 %}
           <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-          <div class="sm-col sm-col-12 md-col-3">
+          <div class="sm-col sm-col-12 md-col-3 py2">
             <li class="committee-member inline-block">
               <div class="commitee-diamond-wrapper relative left">
                 <div class="committee-diamond-border">
@@ -24,14 +24,14 @@
                   </div>
                 </div>
               </div>
-              <div class="committee-member-details-wrapper">
-                <h3 class="m0 text-small">
+              <div class="committee-member-details-wrapper relative">
+                <h3 class="m0 text-default text-bold">
                   {{ posts.committee-member-name }}
                 </h3>
-                <h6 class="m0 mb2 text-x-small">
+                <h6 class="m0 mb2 text-small">
                   {{ posts.committee-member-title }}
                 </h6>
-                <p class="m0 text-x-small dcdw-blue">
+                <p class="m0 text-small dcdw-blue">
                   {{ posts.committee-member-email }}
                 </p>
               </div>
