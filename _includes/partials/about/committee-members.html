@@ -8,30 +8,22 @@
       {% comment %}
       For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page. Max of 6.
       {% endcomment %}
-      <ul class="mt4">
+      <ul class="pt4">
         {% for posts in site.dcdw-committee-members limit:6 %}
           <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
           <div class="sm-col sm-col-12 md-col-3 py3">
-            <li class="committee-member inline-block">
-              <div class="commitee-diamond-wrapper mb4">
-                <div class="committee-diamond-border">
-                  <div class="committee-diamond m0 overflow-hidden relative">
-                   <div class="committee-los1">
-                     <img src="{{ posts.committee-member-headshot-image }}" />
-                   </div>
-                  </div>
+            <li class="team-member inline-block">
+              <div class="diamond-image-border mt4">
+                <div class="diamond overflow-hidden">
+                 <div class="diamond-los1">
+                   <img src="{{ posts.committee-member-headshot-image }}" />
+                 </div>
                 </div>
               </div>
-              <div class="committee-member-details-wrapper relative">
-                <h3 class="bbroller m0 text-default text-bold">
-                  {{ posts.committee-member-name }}
-                </h3>
-                <h6 class="m0 mb2 text-small">
-                  {{ posts.committee-member-title }}
-                </h6>
-                <p class="m0 text-small dcdw-blue">
-                  {{ posts.committee-member-email }}
-                </p>
+              <div class="team-member-details-wrapper mt4">
+                <h2 class="bbroller m0">{{ posts.committee-member-name }}</h2>
+                <h6 class="m0 mb2">{{ posts.committee-member-title }}</h6>
+                <a class="m0" href="#">{{ posts.committee-member-email }}</a>
               </div>
             </li>
           </div>

@@ -1,6 +1,6 @@
 <section class="dcdw-creative-team py4">
   <div class="container clearfix relative p3">
-    <div class="sm-col sm-col-12 md-col-11 text-medium">
+    <div class="sm-col sm-col-12 md-col-11">
       <h1 class="bbroller m0 text-large">
         '16 Creative Team
       </h1>
@@ -8,36 +8,23 @@
       {% comment %}
       For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. Max of 3.
       {% endcomment %}
-      <ul class="mt4">
+      <ul class="pt4">
         {% for posts in site.dcdw-creative-team limit:3 %}
           <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-          <div class="sm-col sm-col-12 md-col-3 py2">
-            <li class="committee-member inline-block">
-              <div class="commitee-diamond-wrapper mb4">
-                <div class="committee-diamond-border">
-                  <div class="committee-diamond m0 overflow-hidden relative">
-                   <div class="committee-los1">
-                     <img src="{{posts.creative-team-member-headshot-image}}" />
-                   </div>
-                  </div>
+          <div class="sm-col sm-col-12 md-col-3 py3">
+            <li class="team-member inline-block">
+              <div class="diamond-image-border mt4">
+                <div class="diamond overflow-hidden">
+                 <div class="diamond-los1">
+                   <img src="{{posts.creative-team-member-headshot-image}}" />
+                 </div>
                 </div>
               </div>
-              <div class="committee-member-details-wrapper">
-                <h3 class="bbroller m0 text-default text-bold">
-                  {{ posts.creative-team-member-name }}
-                </h3>
-                <h6 class="m0 mb2 text-small">
-                  {{ posts.creative-team-member-title }}
-                </h6>
-                <!--
-                uses the primary wysiwyg field of the creative team member page
-                -->
-                <p class="m0 mb2 text-small">
-                  {{ posts.content }}
-                </p>
-                <p class="m0 text-small dcdw-blue">
-                  {{ posts.creative-team-member-portfolio }}
-                </p>
+              <div class="team-member-details-wrapper mt4">
+                <h2 class="bbroller m0">{{ posts.creative-team-member-name }}</h2>
+                <h6 class="m0 mb2">{{ posts.creative-team-member-title }}</h6>
+                <p class="m0 mb2">{{ posts.content }}</p>
+                <a class="m0" href="#">{{ posts.creative-team-member-portfolio }}</a>
               </div>
             </li>
           </div>

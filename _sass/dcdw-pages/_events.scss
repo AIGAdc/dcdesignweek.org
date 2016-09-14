@@ -140,53 +140,17 @@ a.schedule-link {
 
 /* Events Page & Layout */
 
-span.event-title-header {
-	min-width: 125%;
-}
-
-/*
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 831px) {
+	.single-event-header {
+		margin-top: 5em;
+	}
 	span.event-title-header {
-		min-width: 100%;
+		min-width: 125%;
 	}
 }
-*/
 
-/* speakers list */
-/*
- * ==== Losange
- */
-
-.diamond-border {
-	transform: rotate(45deg) translateY(25px);
-	width: 90px;
-	height: 90px;
-	margin-left: 1.5em;
-	border: solid 4px #000;
- }
-
-.diamond {
-	transform-origin: 50% 50%;
-	width: 100px;
-	height: 100px;
-	transform: rotate(0deg) translateX(5px) translateY(-15px);
-}
-
-.los1:after {
-	position: absolute;
-	height: 100px;
-	width: 200px;
-	outline: 2px solid $black;
-	outline-offset: 5px;
-}
-
-.diamond .los1 {
-  width: 300px;
-  height: 300px;
-  transform: rotate(-45deg) translateY(-150px);
-}
-
-.diamond .los1 img {
-  width: 100%;
-  height: auto;
+@media screen and (min-width: 1680px) {
+	span.event-title-header {
+		min-width: 175%;
+	}
 }

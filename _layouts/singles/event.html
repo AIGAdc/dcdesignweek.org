@@ -1,44 +1,43 @@
 {% include global/head-open.html %}
 {% include header.html %}
 
-<header class="border bg-cover bg-center py4 overflow-hidden" style="background-image: url('{{ page.event-bg-image }}');">
+<section class="single-event-header border bg-cover bg-center py4 overflow-hidden" style="background-image: url('{{ page.event-bg-image }}');">
   <div class="container clearfix relative py4">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide"></div>
     <div class="sm-col sm-col-12 md-col-11 relative">
-      <span class="event-title-header bg-white py4 px2 block relative">
+      <span class="event-title-header bg-white p3 py4 block relative">
         <h2 class="bbroller m0 text-xx-large">
           {{ page.title }}
-          <span class="dcdw-logo absolute ml2 xs-hide" style="top: 22.5px;"><img src="/uploads/dc-design-week.svg" style="max-width:75px; max-height: 75px;"></span>
+          <span class="dcdw-logo absolute ml2 xs-hide" style="top: 42.5px;"><img src="/uploads/dc-design-week.svg" style="max-width:115px; max-height: 115px;"></span>
         </h2>
       </span>
-      <span class="p2 block relative mb4">
-        <h2 class="m0 page-sub-header white">Friday-Saturday / October 21-22</h2>
+      <span class="p3 block relative mb4">
+        <h2 class="bbroller m0 text-large page-sub-header white">Friday-Saturday / October 21-22</h2>
       </span>
-      <a href="#" class="m0 ml4 px3 py1 button button-white text-default courier">
+      <a href="#" class="m0 ml3 px3 py1 button button-white text-default ">
         Grab Your Ticket
       </a>
     </div>
   </div>
-</header>
+</section>
 
-<article class="article-events pt3">
-  <div class="container clearfix relative">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-10 p3 courier text-medium">
+<article class="article-events py4">
+  <div class="container clearfix relative p3">
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide"></div>
+    <div class="sm-col sm-col-12 md-col-10 text-medium">
       {{ content }}
     </div>
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide"></div>
   </div>
 </article>
 
-<section class="event-details-pane py3">
-  <div class="container clearfix relative">
+<section class="event-details-pane">
+  <div class="container clearfix relative p3">
     <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-8 p3 courier text-medium">
-      <h1 class="m0 text-large">Details</h1>
+    <div class="sm-col sm-col-12 md-col-8 text-medium">
+      <h1 class="bbroller m0 text-large">Details</h1>
       <hr class="title-divider">
       <div class="sm-col sm-col-12 md-col-3">
-        <h4 class="m0 text-uppercase text-xx-small py2">
+        <h4 class="bbroller m0 text-uppercase text-small py2">
           Time
         </h4>
         <p class="m0">
@@ -46,7 +45,7 @@
         </p>
       </div>
       <div class="sm-col sm-col-12 md-col-6">
-        <h4 class="m0 text-uppercase text-xx-small py2">
+        <h4 class="bbroller m0 text-uppercase text-small py2">
           Venue
         </h4>
         <p class="m0">
@@ -54,7 +53,7 @@
         </p>
       </div>
       <div class="sm-col sm-col-12 md-col-3">
-        <h4 class="m0 text-uppercase text-xx-small py2">
+        <h4 class="bbroller m0 text-uppercase text-small py2">
           Price
         </h4>
         <p class="m0">
@@ -66,11 +65,11 @@
   </div>
 </section>
 
-<section class="event-speakers-pane pb3">
-  <div class="container clearfix relative">
+<section class="event-speakers-pane py4">
+  <div class="container clearfix relative p3">
     <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-10 p3 courier text-medium">
-      <h1 class="m0 text-large">Speakers</h1>
+    <div class="sm-col sm-col-12 md-col-10 text-medium">
+      <h1 class="bbroller m0 text-large">Speakers</h1>
       <hr class="title-divider">
       <div class="event-speaker-wrapper clearfix py3">
         <div class="sm-col sm-col-12 md-col-2">
@@ -83,9 +82,9 @@
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-10">
-          <h3 class="m0 mb1 ml2">Speaker Name</h3>
-          <h6 class="m0 mb2 text-x-small text-uppercase ml2">Speaker Title</h6>
-          <p class="m0 ml2 text-x-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
+          <h3 class="bbroller text-default m0 mb1 ml2">Speaker Name</h3>
+          <h6 class="m0 mb2 text-small text-uppercase ml2">Speaker Title</h6>
+          <p class="m0 ml2 text-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
         </div>
       </div>
       <div class="event-speaker-wrapper clearfix py3">
@@ -99,9 +98,9 @@
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-10">
-          <h3 class="m0 mb1 ml2">Speaker Name</h3>
-          <h6 class="m0 mb2 text-x-small text-uppercase ml2">Speaker Title</h6>
-          <p class="m0 ml2 text-x-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
+          <h3 class="bbroller text-default m0 mb1 ml2">Speaker Name</h3>
+          <h6 class="m0 mb2 text-small text-uppercase ml2">Speaker Title</h6>
+          <p class="m0 ml2 text-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
         </div>
       </div>
       <div class="event-speaker-wrapper clearfix py3">
@@ -115,26 +114,16 @@
           </div>
         </div>
         <div class="sm-col sm-col-12 md-col-10">
-          <h3 class="m0 mb1 ml2">Speaker Name</h3>
-          <h6 class="m0 mb2 text-x-small text-uppercase ml2">Speaker Title</h6>
-          <p class="m0 ml2 text-x-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
+          <h3 class="bbroller text-default m0 mb1 ml2">Speaker Name</h3>
+          <h6 class="m0 mb2 text-small text-uppercase ml2">Speaker Title</h6>
+          <p class="m0 ml2 text-small">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
         </div>
       </div>
     </div>
     <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
   </div>
 </section>
-
-<section class="event-sponsors-pane pb3">
-  <div class="container clearfix relative">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-10 p3 courier text-medium">
-      <h1 class="m0 text-large">Partners</h1>
-      <hr class="title-divider">
-    </div>
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-  </div>
-</section>
+  {% include partials/partners.html %}
 
 
 {% include footer.html %}

@@ -89,10 +89,6 @@ ul {
   max-width: 100px;
 }
 
-article {
-  margin-top: 160px;
-}
-
 article h1 {
   font-size: $text-xx-large;
   line-height: 1em;
@@ -142,12 +138,8 @@ article hr {
     position: relative;
   }
 
-  article {
-    margin-top: 60px;
-  }
-
   article h1 {
-    font-size:$text-x-large;
+    font-size:$text-large;
   }
 
   article hr {

@@ -1,0 +1,118 @@
+/* speakers list */
+/*
+ * ==== Losange
+ */
+
+.diamond-border {
+	transform: rotate(45deg) translateY(25px);
+	width: 90px;
+	height: 90px;
+	margin-left: 1.5em;
+	border: solid 4px #000;
+ }
+
+.diamond {
+	transform-origin: 50% 50%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(0deg) translateX(5px) translateY(-15px);
+}
+
+.los1:after {
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	outline: 2px solid $black;
+	outline-offset: 5px;
+}
+
+.diamond .los1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-45deg) translateY(-150px);
+}
+
+.diamond .los1 img {
+  width: 100%;
+  height: auto;
+}
+
+/* DCDW Committee */
+
+.diamond-image-border {
+  transform: rotate(45deg);
+  width: 150px;
+  height: 150px;
+  border: solid 5px #000;
+	margin: 0 auto;
+}
+
+.diamond {
+  transform-origin: 50% 50%;
+  width: 145px;
+  height: 145px;
+  transform: rotate(0deg) translateX(15px) translateY(-15px);
+  transition: transform 100ms ease-in-out;
+}
+
+.diamond:hover {
+  transform: rotate(0deg) translateX(2px) translateY(2px);
+}
+
+.diamond .diamond-los1 {
+  width: 150px;
+  height: 150px;
+  transform: rotate(-45deg) translateY(-150px);
+}
+
+.diamond .diamond-los1 img {
+  width: 150%;
+  vertical-align: middle;
+  position: relative;
+  top: 100px;
+  left: -40px;
+}
+
+.team-member {
+  width: 100%;
+}
+
+.diamond-image-border {
+  margin: 0 auto;
+ }
+
+.team-member-details-wrapper {
+  text-align: center;
+}
+
+@media screen and (min-width: 831px) {
+/*
+	.diamond-image-border {
+    width: 130px;
+    height: 130px;
+  }
+
+  .diamond {
+    width: 135px;
+    height: 135px;
+  }
+
+  .diamond .diamond-los1 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .diamond .diamond-los1 img {
+    width: 160%;
+    top: 115px;
+    left: -45px;
+  }
+
+  .commitee-diamond-wrapper {
+    margin: 3em auto;
+  }*/
+}
+
+@media screen and (min-width: 1280px) {
+
+}

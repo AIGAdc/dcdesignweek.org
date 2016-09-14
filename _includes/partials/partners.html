@@ -57,4 +57,31 @@
       </div>
     </div>
   </section>
+  {% else %}
+    <section class="shops-partners mb4 relative">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
+        <div class="sm-col sm-col-12 md-col-10">
+          <h1 class="bbroller m0 text-x-medium ">
+            Partners
+          </h1>
+          <hr class="title-divider">
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for post in site.sponsors limit:3 %}
+            <div class="sm-col sm-col-12 md-col-4 inline-block">
+              <div class="sponsor-card">
+                <img src="{{ post.sponsor-image}}">
+              </div>
+            </div>
+          {% endfor %}
+          <a href="#" class="bbroller blue-underline m0 text-default ">
+            Sponsor this event
+          </a>
+        </div>
+      </div>
+    </section>
 {% endif %}
