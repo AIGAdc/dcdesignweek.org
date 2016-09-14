@@ -89,6 +89,16 @@ ul {
   max-width: 100px;
 }
 
+article.page-introduction {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 831px) {
+  article.page-introduction {
+    margin-top: 175px;
+  }
+}
+
 article h1 {
   font-size: $text-xx-large;
   line-height: 1em;
