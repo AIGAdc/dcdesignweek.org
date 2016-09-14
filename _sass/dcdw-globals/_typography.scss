@@ -61,13 +61,13 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 */
 
 @font-face {
-	font-family: $bbroller;
-	src: url('../../uploads/bb-roller-mono-headline.eot');
-	src: url('../../uploads/bb-roller-mono-headline.eot?#iefix') format('embedded-opentype'),
-             url('../../uploads/bb-roller-mono-headline.woff2') format('woff2'),
-	     url('../../uploads/bb-roller-mono-headline.woff') format('woff'),
-	     url('../../uploads/bb-roller-mono-headline.ttf') format('truetype'),
-	     url('../../uploads/bb-roller-mono-headline.svg#youworkforthem') format('svg');
+	font-family: 'BBRollerMono-Headline';
+	src: url('/uploads/bb-roller-mono-headline.eot');
+	src: url('/uploads/bb-roller-mono-headline.eot?#iefix') format('embedded-opentype'),
+             url('/uploads/bb-roller-mono-headline.woff2') format('woff2'),
+	     url('/uploads/bb-roller-mono-headline.woff') format('woff'),
+	     url('/uploads/bb-roller-mono-headline.ttf') format('truetype'),
+	     url('/uploads/bb-roller-mono-headline.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

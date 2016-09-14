@@ -2,7 +2,7 @@
   {% if page.url == "/"%}
   <div class="container clearfix px3">
     <div class="sm-col sm-col-12 md-col-4">
-      <h1 class="m0 text-large">
+      <h1 class="bbroller m0 text-large">
         {{ page.home-events-header-text }}
       </h1>
       <hr class="title-divider">
@@ -39,15 +39,15 @@
               <!-- Event BG Image -->
               <a href="{{ posts.url }}" class="card-link block">
                 <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-                <span class="card-day absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+                <span class="bbroller card-day absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
                   {{ posts.event-date | date: "%A, %B %d"}}
                 </span>
                 <!-- Event Day of Week | ex: Friday -->
-                <span class="card-day absolute text-small p1 bg-black white m0 xs-hide">
+                <span class="bbroller card-day absolute text-small p1 bg-black white m0 xs-hide">
                   {{ posts.event-date | date: "%A"}}
                 </span>
                 <!-- Event Date | ex: October, 21 -->
-                <span class="card-date absolute text-small p1 bg-black white m0 xs-hide">
+                <span class="bbroller card-date absolute text-small p1 bg-black white m0 xs-hide">
                   {{ posts.event-date | date: "%B, %d"}}
                 </span>
 
@@ -55,12 +55,12 @@
 
                 <div class="card-details bg-white p2">
                   <!-- Event Title -->
-                  <h1 class="m0 black text-default">
+                  <h1 class="bbroller m0 black text-default">
                     {{ posts.title }}
                   </h1>
                   <hr class="title-divider">
                   <!-- Event Time | ex: 06 PM -->
-                  <p class="m0 black text-default">
+                  <p class="bbroller m0 black text-default">
                     {{ posts.event-date | date: "%I %p"}}
                   </p>
                   <!-- Event Venue  -->
