@@ -5,11 +5,9 @@
         '16 Creative Team
       </h1>
       <hr class="title-divider">
-      <!--
-
+      {% comment %}
       For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. Max of 3.
-
-      -->
+      {% endcomment %}
       <ul class="mt4">
         {% for posts in site.dcdw-creative-team limit:3 %}
           <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
