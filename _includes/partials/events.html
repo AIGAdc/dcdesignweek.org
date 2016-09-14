@@ -14,9 +14,9 @@
   {% endif %}
 
   <div class="container clearfix py3">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
     <div class="sm-col sm-col-12 md-col-11">
-      <ul>
+      <ul class="">
       <!--
 
       For every event located within site.events, an event will be printed onto the homepage. Using the limit filter, I've limited the amount of events to 6.
@@ -29,7 +29,7 @@
       {% for posts in site.events limit:6 %}
         <!-- Event Link to Single Page -->
         {% if posts.is-featured-on-home-page == true %}
-          <div class="sm-col sm-col-6 md-col-4 pr4">
+          <div class="sm-col sm-col-6 md-col-4 py2 pr4">
             {% if posts.is-even-on-home-page == true %}
               <li class="featured-event-card card card-2nd-row relative">
             {% else %}
@@ -39,21 +39,21 @@
               <!-- Event BG Image -->
               <a href="{{ posts.url }}" class="card-link block">
                 <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-                <span class="card-day absolute text-x-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+                <span class="card-day absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
                   {{ posts.event-date | date: "%A, %B %d"}}
                 </span>
                 <!-- Event Day of Week | ex: Friday -->
-                <span class="card-day absolute text-x-small p1 bg-black white m0 xs-hide">
+                <span class="card-day absolute text-small p1 bg-black white m0 xs-hide">
                   {{ posts.event-date | date: "%A"}}
                 </span>
                 <!-- Event Date | ex: October, 21 -->
-                <span class="card-date absolute text-x-small p1 bg-black white m0 xs-hide">
+                <span class="card-date absolute text-small p1 bg-black white m0 xs-hide">
                   {{ posts.event-date | date: "%B, %d"}}
                 </span>
 
                 <div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')"></div>
 
-                <div class="card-details bg-white p3">
+                <div class="card-details bg-white p2">
                   <!-- Event Title -->
                   <h1 class="m0 black text-default">
                     {{ posts.title }}
@@ -61,7 +61,6 @@
                   <hr class="title-divider">
                   <!-- Event Time | ex: 06 PM -->
                   <p class="m0 black text-default">
-                    <i class="icon ion-clock mr1 dcdw-blue"></i>
                     {{ posts.event-date | date: "%I %p"}}
                   </p>
                   <!-- Event Venue  -->

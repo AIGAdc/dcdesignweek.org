@@ -1,25 +1,22 @@
 /* Events Homepage */
 .card {
 	border: solid 3px $black;
-	max-width: 300px;
-	min-height: 400px;
-	margin: 1em auto;
+	width: 100%;
+	min-width: 300px;
+	margin: 2em auto;
 }
 
 .card-details {
 	min-height: 175px;
 }
-.card:hover {
-}
 
 span.card-day {
-  left: -30px;
-  top: 15px;
+  top: -25px;
+	left: -3px;
 }
 
 span.card-date {
-  left: -18px;
-  top: 49px;
+  top: 0px;
 }
 
 span.card-day,
@@ -28,11 +25,11 @@ span.card-date {
 }
 
 .card-image {
-	border-bottom: solid 3px $black;
-	min-height: 175px;
+	height: 250px;
 }
 
 .card-image img {
+	max-width: 150px;
 	width: 100%;
 	vertical-align: middle;
 }
@@ -47,11 +44,25 @@ a.schedule-link {
   color: $dcdw-blue;
 }
 
+@media screen and (min-width: 640px) {
+	span.card-day {
+	  left: -30px;
+	  top: 15px;
+	}
+
+	span.card-date {
+	  left: -18px;
+	  top: 49px;
+	}
+}
+/*
 .card-2nd-row {
   right: -100px;
 }
+*/
 
 /* removes the negative right padding applies to events in the 2nd row */
+/*
 @media screen and (max-width: 1280px ) {
 	.card-2nd-row {
 		right: 0;
@@ -125,6 +136,7 @@ a.schedule-link {
 		left: 0;
 	}
 }
+*/
 
 /* Events Page & Layout */
 
@@ -132,11 +144,13 @@ span.event-title-header {
 	min-width: 125%;
 }
 
+/*
 @media screen and (max-width: 480px) {
 	span.event-title-header {
 		min-width: 100%;
 	}
 }
+*/
 
 /* speakers list */
 /*
