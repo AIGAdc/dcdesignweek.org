@@ -1,13 +1,49 @@
 /* styling for the two main shops */
 .pop-up-shop-bg-wrapper {
-  top: -150px;
+  top: -200px;
   right: -140px;
 }
 
 .get-out-the-vote-bg-wrapper {
   top: -150px;
-  left: -250px;
+  left: -50px;
 }
+
+.dcdw-pop-up-shop-content,
+.dcdw-get-out-the-vote-content,
+.dcdw-about-content {
+  border: solid 3px blue;
+  box-shadow: 15px 20px blue;
+  transition: box-shadow 100ms ease-in-out;
+}
+
+.dcdw-pop-up-shop-content:hover,
+.dcdw-get-out-the-vote-content:hover,
+.dcdw-about-content:hover {
+  border: solid 3px blue;
+  box-shadow: 0px 0px blue;
+}
+
+@media screen and (min-width: 960px) {
+  .pop-up-shop-bg-wrapper {
+    right: -100px;
+  }
+  .get-out-the-vote-bg-wrapper {
+    left: -25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pop-up-shop-bg-wrapper {
+    right: -140px;
+    top: -275px;
+  }
+  .get-out-the-vote-bg-wrapper {
+    left: -60px;
+    top: -250px;
+  }
+}
+
 
 /*
 @media screen and (max-width: 1440px) {

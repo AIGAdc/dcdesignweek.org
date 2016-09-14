@@ -1,7 +1,7 @@
 ---
 title: Greg Fisk
 date: 2016-08-08 21:22:00 -04:00
-creative-team-member-headshot-image: "/uploads/test%20image.jpeg"
+creative-team-member-headshot-image: "/uploads/gregfisk.jpeg"
 creative-team-member-name: Greg Fisk
 creative-team-member-title: Designer/b-boy
 creative-team-member-portfolio: nicegreg.com

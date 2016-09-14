@@ -1,18 +1,18 @@
 {% if page.layout == 'event' %}
-  <header class="global-header px3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
+  <header class="global-header px3 py3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
     <div class="logo-wrapper relative left">
       <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
     </div>
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
          <li class="inline-block m0">
-           <a href="/events/" class="text-small text-regular black mr2 text-uppercase m0">&larr; Back to Events</a>
+           <a href="/events/" class="text-default text-bold black mr2 text-uppercase m0">&larr; Back to Events</a>
          </li>
        </ul>
     </nav>
   </header>
 {% else %}
-  <header class="global-header px3 relative bg-opaque-white header-shadow z4 fixed top-0 left-0 right-0">
+  <header class="global-header px3 py3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
     <div class="container clearfix">
       <!-- desktop logo -->
       <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
@@ -28,7 +28,7 @@
           {% assign sorted_pages = site.pages | sort:"position" %}
           {% for page in sorted_pages %}
            <li class="inline-block m0">
-             <a href="{{ page.permalink }}" class="text-small text-regular black mr2 text-uppercase m0">{{ page.title }}</a>
+             <a href="{{ page.permalink }}" class="text-default text-bold black ml3 text-uppercase m0">{{ page.title }}</a>
            </li>
           {% endfor %}
          </ul>

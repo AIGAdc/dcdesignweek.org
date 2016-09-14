@@ -68,34 +68,25 @@ ul {
 
 /* fixed top bar that contains the nav links */
 .global-header {
-  height: 60px;
+
 }
 
 .header-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
 
-.logo-wrapper {
-  top: 17.5px;
+.logo-wrapper img,
+.logo-wrapper-mobile img {
+  width: 100%;
+  vertical-align: middle;
 }
 
 .logo-wrapper img {
   max-width: 200px;
-  width: 100%;
-}
-
-
-.logo-wrapper-mobile {
-  top: 15px;
 }
 
 .logo-wrapper-mobile img {
   max-width: 100px;
-  width: 100%;
-}
-
-.main-nav {
-  top: 17.5px;
 }
 
 article {
