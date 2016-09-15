@@ -86,6 +86,19 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-headline { font-size: $text-headline; }
 .text-billboard { font-size: $text-billboard; }
 
+/*
+.text-small,
+.text-default,
+.text-medium,
+.text-x-medium,
+.text-large,
+.text-x-large,
+.text-headline,
+.text-billboard {
+	line-height: normal;
+}
+*/
+
 /* text transforms */
 .text-uppercase { text-transform: $uppercase; }
 .text-lowercase { text-transform: $lowercase; }

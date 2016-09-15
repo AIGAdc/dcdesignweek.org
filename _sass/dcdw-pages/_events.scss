@@ -140,10 +140,22 @@ a.schedule-link {
 
 /* Events Page & Layout */
 
+/* overlay of color used on the single events page */
+.overlay {
+	background-color: RGBA(0, 0, 255, 0.50);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
 @media screen and (min-width: 831px) {
 	.single-event-header {
 		margin-top: 5em;
 	}
+	
 	span.event-title-header {
 		min-width: 125%;
 	}

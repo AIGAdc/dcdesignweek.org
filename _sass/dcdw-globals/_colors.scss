@@ -4,7 +4,7 @@ $opaque-white: rgba(255,255,255,0.95);
 $white: #fff;
 $black: #000;
 
-$dcdw-blue: #0000ff;
+$dcdw-blue: RGBA(22, 0, 250, 1.00);
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -13,6 +13,7 @@ $dcdw-blue: #0000ff;
 
 .dcdw-blue { color: $dcdw-blue; }
 
+.bg-dcdw-blue { background-color: $dcdw-blue; }
 .bg-opaque-white { background-color: $opaque-white; }
 .bg-white { background-color: $white; }
 .bg-black { background-color: $black; }

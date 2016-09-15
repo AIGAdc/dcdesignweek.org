@@ -99,6 +99,8 @@ article.page-introduction {
   }
 }
 
+article { padding-bottom: 4em; }
+
 article h1 {
   font-size: $text-headline;
   font-family: $bbroller;
@@ -119,18 +121,11 @@ article hr,
   border: solid 2.5px $black;
 }
 
-article hr {
-	margin: 3.5em 0;
-}
-
-.title-divider {
-	margin: 2em 0;
-}
+article hr { margin: 3.5em 0; }
+.title-divider { margin: 2em 0; }
 
 @media screen and (min-width: 831px) {
-  article h1 {
-    font-size: $text-billboard;
-  }
+  article h1 { font-size: $text-billboard; }
 
   /* adds the dcdw block after the page title */
   article h1:after {
@@ -138,24 +133,16 @@ article hr {
     position: absolute;
   }
 
-  article p {
-    font-size: $text-medium;
-  }
-
-  .global-header {
-    position: fixed;
-  }
-}
-
-@media screen and (max-width: 831px ) {
-
+  article p { font-size: $text-medium; }
+  .global-header { position: fixed; }
 }
 
 /* Home Partners */
 .sponsor-logo {
-  min-height: 175px;
+  min-height: 110px;
   width: 100%;
   text-align: center;
+  margin: 2em 0;
 }
 
 @media screen and (min-width:640px) {
@@ -165,7 +152,7 @@ article hr {
   }
 }
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:831px) {
   .sponsor-logo {
     width: 25%;
     text-align: left;
@@ -186,19 +173,14 @@ article hr {
 }
 
 /* adds a right border to the last column in the grid */
-.grid-line:last-child {
-	border-right: solid 0.01px #eaeaea;
-}
-
-.blue-shadow {
-  box-shadow: 15px 20px blue;
-}
+.grid-line:last-child { border-right: solid 0.01px #eaeaea; }
 
 @media screen and (max-width: 1024px) {
   .grid-line:nth-child(6) {
   	border-right: solid 0.01px #eaeaea;
   }
 }
+
 
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/
