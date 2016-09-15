@@ -22,7 +22,11 @@
 
       -->
       {% for posts in site.events limit:6 %}
+        {% if posts.is-even-on-home-page == true %}
+        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
+        {% else %}
         <li class="event-card relative sm-col sm-col-6 lg-col-4">
+        {% endif %}
           <a href="{{posts.url}}" class="event-link block">
             <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
             <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
@@ -90,7 +94,11 @@
 
       -->
       {% for posts in site.events %}
+        {% if posts.is-even-on-events-page == true %}
+        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
+        {% else %}
         <li class="event-card relative sm-col sm-col-6 lg-col-4">
+        {% endif %}
           <a href="{{posts.url}}" class="event-link block">
             <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
             <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
@@ -130,15 +138,6 @@
         </li>
       {% endfor %}
       </ul>
-    </div>
-  </div>
-
-  <div class="container clearfix px3 py3">
-    <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-10">
-      <a href="#" class="schedule-link m0 text-default">
-        {{page.home-events-button-text}}
-      </a>
     </div>
   </div>
 </section>
