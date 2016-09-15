@@ -100,23 +100,15 @@ article.page-introduction {
 }
 
 article h1 {
-  font-size: $text-xx-large;
-  line-height: 1em;
+  font-size: $text-headline;
   font-family: $bbroller;
+  line-height: normal;
   margin: 0;
-}
-
-/* adds the dcdw block after the page title */
-article h1:after {
-  content: url('/uploads/dc-design-week-snippet.png');
-  position: absolute;
 }
 
 article p {
   font-size: $text-default;
   font-family: $sans;
-  text-align: $align-justify;
-  font-weight: $text-light;
   line-height: 1.75em;
 }
 
@@ -124,37 +116,39 @@ article hr,
 .title-divider {
   width: 100%;
   max-width: 100px;
-  border: solid 2px $black;
+  border: solid 2.5px $black;
 }
 
 article hr {
-	margin: 2em 0 3.5em 0;
+	margin: 3.5em 0;
 }
 
 .title-divider {
 	margin: 2em 0;
 }
 
-@media screen and (max-width: 1024px) {
-  /* removes the dcdw block after the page title */
+@media screen and (min-width: 831px) {
+  article h1 {
+    font-size: $text-billboard;
+  }
+
+  /* adds the dcdw block after the page title */
   article h1:after {
-    content: '';
+    content: url('/uploads/dc-design-week-snippet.png');
+    position: absolute;
+  }
+
+  article p {
+    font-size: $text-medium;
+  }
+
+  .global-header {
+    position: fixed;
   }
 }
 
 @media screen and (max-width: 831px ) {
-  /* removes the fixed positioning on smaller tablets/mobile devices */
-  .global-header {
-    position: relative;
-  }
 
-  article h1 {
-    font-size:$text-large;
-  }
-
-  article hr {
-  	margin: 2em 0 2.5em 0;
-  }
 }
 
 /* Home Partners */
