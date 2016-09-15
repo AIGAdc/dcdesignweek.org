@@ -158,13 +158,23 @@ article hr {
 }
 
 /* Home Partners */
-.sponsor-card {
-  min-height: 150px;
+.sponsor-logo {
+  min-height: 175px;
+  width: 100%;
+  text-align: center;
 }
 
-@media screen and (max-width:831px) {
-  .sponsor-card {
-    text-align: center;
+@media screen and (min-width:640px) {
+  .sponsor-logo {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width:640px) {
+  .sponsor-logo {
+    width: 25%;
+    text-align: left;
   }
 }
 
