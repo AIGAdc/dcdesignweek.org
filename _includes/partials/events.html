@@ -1,21 +1,16 @@
+{% if page.layout == 'pages/page-home' %}
 <section class="home-events relative mt4 padding-large-top z3">
-  {% if page.url == "/"%}
   <div class="container clearfix px3">
-    <div class="sm-col sm-col-12 md-col-4">
-      <h1 class="bbroller m0 text-headline">
-        {{ page.home-events-header-text }}
-      </h1>
+    <div class="sm-col sm-col-12">
+      <h1 class="bbroller m0 text-x-large">{{ page.home-events-header-text }}</h1>
       <hr class="title-divider">
-      <p class="m0 text-default">
-        {{ page.home-events-sub-header-text }}
-      </p>
+      <p class="m0 text-default">{{ page.home-events-sub-header-text }}</p>
     </div>
   </div>
-  {% endif %}
 
   <div class="container clearfix py3">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="sm-col sm-col-12 md-col-11">
+    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
+    <div class="event-list-wrapper p3 sm-col sm-col-11">
       <ul class="">
       <!--
 
@@ -27,51 +22,52 @@
 
       -->
       {% for posts in site.events limit:6 %}
-        <!-- Event Link to Single Page -->
-        {% if posts.is-featured-on-home-page == true %}
-          <div class="sm-col sm-col-6 md-col-4 py2 pr4">
-            {% if posts.is-even-on-home-page == true %}
-              <li class="featured-event-card card card-2nd-row relative">
-            {% else %}
-              <li class="featured-event-card card relative">
-            {% endif %}
+        <li class="event-card relative sm-col sm-col-6 lg-col-4">
+          <a href="{{posts.url}}" class="event-link block">
+            <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
+            <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+              {{ posts.event-date | date: "%A, %B %d"}}
+            </span>
 
-              <!-- Event BG Image -->
-              <a href="{{ posts.url }}" class="card-link block">
-                <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-                <span class="bbroller card-day absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
-                  {{ posts.event-date | date: "%A, %B %d"}}
-                </span>
-                <!-- Event Day of Week | ex: Friday -->
-                <span class="bbroller card-day absolute text-small p1 bg-black white m0 xs-hide">
-                  {{ posts.event-date | date: "%A"}}
-                </span>
-                <!-- Event Date | ex: October, 21 -->
-                <span class="bbroller card-date absolute text-small p1 bg-black white m0 xs-hide">
-                  {{ posts.event-date | date: "%B, %d"}}
-                </span>
+            <!-- Event Day of Week | ex: Friday -->
+            <span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">
+              {{ posts.event-date | date: "%A"}}
+            </span>
 
-                <div class="card-image bg-cover bg-center" style="background-image: url('{{ posts.event-bg-image }}')"></div>
+            <!-- Event Date | ex: October, 21 -->
+            <span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">
+              {{ posts.event-date | date: "%B, %d"}}
+            </span>
 
-                <div class="card-details bg-white p2">
-                  <!-- Event Title -->
-                  <h1 class="bbroller m0 black text-default">
-                    {{ posts.title }}
-                  </h1>
-                  <hr class="title-divider">
-                  <!-- Event Time | ex: 06 PM -->
-                  <p class="bbroller m0 black text-default">
-                    {{ posts.event-date | date: "%I %p"}}
-                  </p>
-                  <!-- Event Venue  -->
-                  <a href="{{ posts.event-venue-directions | strip_html }}" class="m0 black text-default">
-                    {{posts.event-venue-name}}
-                  </a>
-                </div>
+            <div class="event-image overflow-hidden">
+              <img src="{{ posts.event-bg-image }}">
+            </div>
+
+            <div class="event-details bg-white p2">
+              <!-- Event Title -->
+              <h1 class="bbroller m0 black text-medium">
+                {{ posts.title }}
+              </h1>
+              <hr class="title-divider">
+              <!-- Event Time | ex: 06 PM -->
+              <p class="bbroller m0 black text-default">
+                {{ posts.event-date | date: "%I %p"}}
+              </p>
+              <!-- Event Venue  -->
+              <a href="{{ posts.event-venue-directions | strip_html }}" class="m0 black text-default">
+                {{posts.event-venue-name}}
               </a>
-            </li>
-          </div>
-          {% endif %}
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+
+      {% for posts in site.events limit:6 %}
+        {% if posts.is-even-on-home-page == true %}
+
+        {% else %}
+
+        {% endif %}
       {% endfor %}
       </ul>
     </div>
@@ -86,3 +82,4 @@
     </div>
   </div>
 </section>
+{% endif %}

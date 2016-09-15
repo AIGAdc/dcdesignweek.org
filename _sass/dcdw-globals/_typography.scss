@@ -16,6 +16,11 @@ $text-x-large: 2.125em;
 $text-headline: 2.375em;
 $text-billboard: 4.375em;
 
+// line-heights
+$lh-normal: normal;
+$lh-tight: 1.4em;
+$lh-loose: 2em;
+
 // text transforms
 $uppercase: uppercase;
 $lowercase: lowercase;
@@ -86,18 +91,10 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-headline { font-size: $text-headline; }
 .text-billboard { font-size: $text-billboard; }
 
-/*
-.text-small,
-.text-default,
-.text-medium,
-.text-x-medium,
-.text-large,
-.text-x-large,
-.text-headline,
-.text-billboard {
-	line-height: normal;
-}
-*/
+/* line heights */
+.lh-normal { line-height: $lh-normal; }
+.lh-loose { line-height: $lh-loose; }
+.lh-tight { line-height: $lh-tight; }
 
 /* text transforms */
 .text-uppercase { text-transform: $uppercase; }
