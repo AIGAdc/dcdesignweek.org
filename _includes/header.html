@@ -1,14 +1,19 @@
-<header class="global-header px3 py3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0" style="z-index: 9999;">
+<header class="global-header px3 py3 fixed bg-white z4 fixed top-4 left-0 right-0">
   <div class="container clearfix">
     <!-- desktop logo -->
     <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
       <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
     </div>
     <!--  mobile logo -->
-    <div class="logo-wrapper-mobile relative left xs-show sm-show md-show lg-hide">
-      <a href="/"><img src="/uploads/dcdw-logo-mobile.svg"></a>
+    <div class="logo-wrapper-mobile relative xs-show sm-show md-show lg-hide text-center">
+      <a class="inline-block" href="/">
+        <img src="/uploads/dcdw-logo-mobile.svg">
+      </a>
+      <div class="inline-block">
+        <div class="menu-btn">&#9776; Menu</div>
+      </div>
     </div>
-    <nav class="main-nav relative right xs-hide sm-hide">
+    <nav class="main-nav relative right xs-hide sm-hide md-hide">
       <ul>
         <!-- instructing the navigation to print every page of the site as list items -->
         {% assign sorted_pages = site.pages | sort:"position" %}
