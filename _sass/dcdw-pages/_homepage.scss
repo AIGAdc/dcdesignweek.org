@@ -17,11 +17,27 @@
 }
 
 .design-week-wrapper {
-  bottom: 50px;
+  bottom: 30px;
 }
 
 .design-week-wrapper img {
   max-width: 300px;
+}
+
+.white-bar {
+  min-width: 200%;
+}
+
+@media screen and (min-width: 640px) {
+  .white-bar {
+    left: -300px;
+  }
+}
+
+@media screen and (min-width: 831px) {
+  .white-bar {
+    left: 0px;
+  }
 }
 
 img.introduction-illustration {
@@ -35,6 +51,12 @@ img.introduction-illustration {
 
 .paragraph-2 {
   top: 125px;
+}
+
+.illustration-1,
+.illustration-2,
+.illustration-3 {
+  right: 20px !important;
 }
 
 .illustration-1,
