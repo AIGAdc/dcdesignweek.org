@@ -1,41 +1,65 @@
 /* Introduction Header */
 .introduction {
-  min-height: 600px;
-  max-height: 600px;
-  margin-top: 60px;
+  height: 400px;
+  margin-top: 92px;
 }
 
-img.introduction-illustration,
-img.design-week {
+@media screen and (min-width: 640px) {
+  .introduction {
+    height: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .introduction {
+    height: 640px;
+  }
+}
+
+.design-week-wrapper {
+  bottom: 75px;
+}
+
+.design-week-wrapper img {
+  max-width: 300px;
+}
+
+img.introduction-illustration {
   min-width: 100%;
   vertical-align: middle;
 }
 
-.design-week-wrapper { top: 300px; }
-
-.illustration-1-wrapper {
-  top: -575px !important;
-  right: -275px !important;
+.dc-is-design {
+  padding-top: 250px;
 }
 
-.illustration-1 { right: 150px !important; }
-.illustration-2 { right: 80px !important; }
-.illustration-3 { right: 215px !important; }
+.paragraph-2 {
+  top: 125px;
+}
 
 .illustration-1,
 .illustration-2 {
-  width: 850px !important;
+  width: 750px !important;
 }
+
 /* This illustration was slightly smaller than the other two, which is why it has it's own width set */
-.illustration-3 { width: 925px !important; }
+.illustration-3 {
+  width: 925px !important;
+}
 
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
-.floaty { animation: floaty 5000ms ease-in-out infinite; }
+.floaty {
+  animation: floaty 5000ms ease-in-out infinite;
+}
+
 @keyframes floaty {
   50% { transform: translate(0, 25px); }
 }
 
-.reverse-floaty { animation: reverse-floaty 5000ms ease-in-out infinite; }
+.reverse-floaty {
+  animation: reverse-floaty 5000ms ease-in-out infinite;
+}
+
 @keyframes reverse-floaty {
   50% { transform: translate(0, -25px); }
 }

@@ -12,15 +12,23 @@
         <div class="menu-btn">&#9776; Menu</div>
       </div>
     </div>
-    <nav class="main-nav relative right xs-hide sm-hide md-hide">
+    <nav class="main-nav relative right xs-hide sm-hide md-hide ">
       <ul>
-        <!-- instructing the navigation to print every page of the site as list items -->
-        {% assign sorted_pages = site.pages | sort:"position" %}
-        {% for page in sorted_pages %}
-         <li class="inline-block m0">
-           <a href="{{ page.permalink }}" class="text-default fw-black black ml3 text-uppercase m0">{{ page.title }}</a>
-         </li>
-        {% endfor %}
+        <li class="inline-block">
+          <a href="/events/" class="header-link text-default fw-black black px1 text-uppercase">Events</a>
+        </li>
+        <li class="inline-block">
+          <a href="/shops-and-galleries/" class="header-link text-default fw-black black px1 text-uppercase">Shop &amp; Gallery</a>
+        </li>
+        <li class="inline-block">
+          <a href="/sponsors/" class="header-link text-default fw-black black px1 text-uppercase">Sponsors</a>
+        </li>
+        <li class="inline-block">
+          <a href="/about/" class="header-link text-default fw-black black px1 text-uppercase">About</a>
+        </li>
+        <li class="inline-block">
+          <a href="/volunteers/" class="header-link text-default fw-black black px1 text-uppercase">Volunteer</a>
+        </li>
        </ul>
     </nav>
 </header>

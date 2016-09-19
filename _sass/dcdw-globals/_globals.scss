@@ -52,6 +52,7 @@ html, body{
 .margin-large-bottom {
   margin-bottom: 500px;
 }
+
 body {
   font-size: 100%;
   line-height: 1.6em;
@@ -71,9 +72,15 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
-/* fixed top bar that contains the nav links */
-.global-header {
+a.header-link {
+  letter-spacing: 2px;
+  transition: all 100ms ease-in-out;
+}
 
+a.header-link:hover {
+  background-color: $dcdw-blue;
+  padding: 0.5em 1em;
+  color: $white;
 }
 
 .header-shadow {

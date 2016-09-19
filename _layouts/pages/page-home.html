@@ -1,18 +1,16 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden relative">
-    <section class="introduction bg-center" style="background-image: url('{{ page.homepage-hero-image }}')">
+    <section class="introduction relative bg-center" style="background-image: url('{{ page.homepage-hero-image }}')">
       <div class="container clearfix px3">
-        <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4 px1">
+        <div class="design-week-wrapper absolute sm-col sm-col-12 md-col-5 lg-col-4 px1">
           <img class="design-week" src="/uploads/dc-design-week.svg">
         </div>
       </div>
     </section>
 
-      <!--
       <div class="illustration-1-wrapper container clearfix relative">
         <img class="illustration-1 absolute floaty" src="/uploads/1-MonumentPiece.png">
       </div>
-    -->
 
       {% include partials/home/dc-is-design.html %}
 
@@ -25,7 +23,9 @@
       <div class="illustration-3-wrapper container clearfix relative">
         <img class="illustration-3 absolute floaty" src="/uploads/3-MetroPiece.png">
       </div>
+      
       {% include partials/partners.html %}
+
     {% include footer.html %}
   </main>
 {% include global/head-closed.html %}
