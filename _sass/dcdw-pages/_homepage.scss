@@ -1,23 +1,23 @@
 /* Introduction Header */
 .introduction {
-  height: 400px;
-  margin-top: 92px;
+  height: 300px;
+  margin-top: 90px;
 }
 
 @media screen and (min-width: 640px) {
   .introduction {
-    height: 580px;
+    height: 400px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .introduction {
-    height: 640px;
+    height: 500px;
   }
 }
 
 .design-week-wrapper {
-  bottom: 75px;
+  bottom: 50px;
 }
 
 .design-week-wrapper img {
