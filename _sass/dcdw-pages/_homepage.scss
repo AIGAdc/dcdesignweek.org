@@ -59,22 +59,19 @@ img.introduction-illustration {
   top: 125px;
 }
 
-
-.illustration-1-wrapper {
-    top: -575px;
-    right: -275px;
-}
-
 .illustration-1 {
-  right: 150px;
+  right: -75px;
+  top: 50px;
 }
 
 .illustration-2 {
-  right: 80px;
+  top: 100px;
+  right: 130px;
 }
 
 .illustration-3 {
-  right: 215px;
+  top: 125px;
+  left: -52px;
 }
 
 .illustration-1,
@@ -86,6 +83,14 @@ img.introduction-illustration {
   width: 925px;
 }
 
+.homepage-events {
+  padding-top: 600px;
+}
+
+.homepage-partners {
+  padding-top: 800px;
+  padding-bottom: 1000px;
+}
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
 .floaty {
   animation: floaty 5000ms ease-in-out infinite;
