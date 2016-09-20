@@ -1,12 +1,12 @@
 /* Introduction Header */
 .introduction {
-  height: 320px;
+  height: 75vh;
   margin-top: 0px;
 }
 
 @media screen and (min-width: 640px) {
   .introduction {
-    height: 420px;
+
   }
 }
 
@@ -18,44 +18,52 @@
 
 @media screen and (min-width: 1280px) {
   .introduction {
-    height:480px;
+
   }
 }
 
 .design-week-wrapper {
-  bottom: 30px;
+  bottom: 20px;
 }
 
-.design-week-wrapper img {
-  max-width: 300px;
+.white-bar img {
+  max-width: 275px;
 }
 
 span.white-bar {
   width: 600px;
-  top: 140px;
-  left: -390px;
-}
-
-.white-bar img {
-  max-height: 100px;
+  bottom: -600px;
+  left: -290px;
 }
 
 @media screen and (min-width: 640px) {
   span.white-bar {
-    top: 170px;
-    left: -310px;
+    left: -165px;
   }
 
   .white-bar img {
-    max-height: 140px;
+    max-width: 400px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 640px) {
   span.white-bar {
-    width: 1000px;
-    left: -750px;
-    top: 250px;
+    left: -125px;
+  }
+
+  .white-bar img {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  span.white-bar {
+    width: 1200px;
+    left: -730px;
+  }
+
+  .white-bar img {
+    max-width: 750px;
   }
 }
 
@@ -146,13 +154,6 @@ img.introduction-illustration {
 
   .homepage-partners {
     margin-top: 800px;
-    margin-bottom: 0px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .homepage-partners {
-    margin-bottom: 750px;
   }
 }
 
