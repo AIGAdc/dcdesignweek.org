@@ -30,19 +30,32 @@
   max-width: 300px;
 }
 
-.white-bar {
-  min-width: 200%;
+span.white-bar {
+  width: 600px;
+  top: 140px;
+  left: -390px;
+}
+
+.white-bar img {
+  max-height: 100px;
 }
 
 @media screen and (min-width: 640px) {
-  .white-bar {
-    left: -300px;
+  span.white-bar {
+    top: 170px;
+    left: -310px;
+  }
+
+  .white-bar img {
+    max-height: 140px;
   }
 }
 
-@media screen and (min-width: 831px) {
-  .white-bar {
-    left: 0px;
+@media screen and (min-width: 1280px) {
+  span.white-bar {
+    width: 700px;
+    left: -450px;
+    top: 250px;
   }
 }
 
