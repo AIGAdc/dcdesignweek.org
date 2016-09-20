@@ -58,7 +58,9 @@ defaults:
     creative-team-member-name: 
     creative-team-member-title: 
     creative-team-member-portfolio: 
+favicon-image: 
 ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
+google-analytics: 
 desktop-logo-image: "/uploads/dcdw-logo-desktop.svg"
 mobile-logo-image: "/uploads/dcdw-logo-mobile.svg"
 contact-email: dcdw@aigadc.org
