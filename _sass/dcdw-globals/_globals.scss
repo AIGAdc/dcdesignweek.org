@@ -18,32 +18,6 @@
   margin: 0 auto;
 }
 
-.padding-large-y {
-  padding-top: 500px;
-  padding-bottom: 500px;
-}
-
-.padding-large-top {
-  padding-top: 500px;
-}
-
-.padding-large-bottom {
-  padding-bottom: 500px;
-}
-
-.margin-large-y {
-  margin-top: 500px;
-  margin-bottom: 500px;
-}
-
-.margin-large-top {
-  margin-top: 500px;
-}
-
-.margin-large-bottom {
-  margin-bottom: 500px;
-}
-
 body {
   font-size: 100%;
   line-height: 1.6em;
@@ -88,13 +62,22 @@ a.header-link:hover {
   max-width: 100px;
 }
 
+.menu-btn {
+  cursor: pointer;
+}
+
+.py2-half {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 article.page-introduction {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 @media screen and (min-width: 831px) {
   article.page-introduction {
-    margin-top: 175px;
+    margin-top: 125px;
   }
 }
 
