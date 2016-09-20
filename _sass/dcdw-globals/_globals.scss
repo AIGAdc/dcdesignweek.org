@@ -140,6 +140,18 @@ article hr { margin: 3.5em 0; }
   }
 }
 
+span.made-in-dc-heart {
+  top: 7.5px;
+}
+
+.social-footer-links {
+  transition: opacity 100ms ease-in-out;
+}
+
+.social-footer-links:hover {
+  opacity: 0.8;
+}
+
 /* wrapper for the underlying grid */
 .grid {
 	max-width: 1440px;
