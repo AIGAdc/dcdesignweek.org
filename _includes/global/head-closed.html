@@ -4,19 +4,19 @@
 <!-- scripts -->
 <script type="text/javascript" src="/assets/js/app.js"></script>
 
-<script>
+<script type="text/javascript">
 $(document).ready(function() {
   $('.illustration-1').scrollToFixed({
-    marginTop: $('.introduction').outerHeight() + 10,
-    zIndex: -9999
+    marginTop: $('.global-header').outerHeight() + 100,
+    zIndex: 999,
   });
   $('.illustration-2').scrollToFixed({
-    marginTop: $('.introduction').outerHeight() + 40,
-    zIndex: -9999
+    marginTop: $('.global-header').outerHeight() + 100,
+    zIndex: 999,
   });
-  $('.illustration-3').scrollToFixed({
-    marginTop: $('.introduction').outerHeight() + 80,
-    zIndex: -9999
+  $('#summary-3').scrollToFixed({
+    marginTop: $('.global-header').outerHeight() + 100,
+    zIndex: 999,
   });
 });
 </script>

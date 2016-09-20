@@ -22,11 +22,6 @@ html, body{
   margin: 0 auto;
 }
 
-.header-container {
-  max-width: 84em !important;
-  margin: 0 auto;
-}
-
 .padding-large-y {
   padding-top: 500px;
   padding-bottom: 500px;
@@ -81,10 +76,6 @@ a.header-link:hover {
   background-color: $dcdw-blue;
   padding: 0.5em 1em;
   color: $white;
-}
-
-.header-shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
 
 .logo-wrapper img,
@@ -146,7 +137,6 @@ article hr { margin: 3.5em 0; }
   }
 
   article p { font-size: $text-medium; }
-  .global-header { position: fixed; }
 }
 
 /* Home Partners */
@@ -192,7 +182,6 @@ article hr { margin: 3.5em 0; }
   	border-right: solid 0.01px #eaeaea;
   }
 }
-
 
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/

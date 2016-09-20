@@ -1,18 +1,24 @@
 /* Introduction Header */
 .introduction {
-  height: 300px;
-  margin-top: 90px;
+  height: 320px;
+  margin-top: 0px;
 }
 
 @media screen and (min-width: 640px) {
   .introduction {
-    height: 400px;
+    height: 420px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .introduction {
+    margin-top: 28px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .introduction {
-    height: 500px;
+    height:480px;
   }
 }
 
@@ -53,20 +59,31 @@ img.introduction-illustration {
   top: 125px;
 }
 
-.illustration-1,
-.illustration-2,
+
+.illustration-1-wrapper {
+    top: -575px;
+    right: -275px;
+}
+
+.illustration-1 {
+  right: 150px;
+}
+
+.illustration-2 {
+  right: 80px;
+}
+
 .illustration-3 {
-  right: 20px !important;
+  right: 215px;
 }
 
 .illustration-1,
 .illustration-2 {
-  width: 750px !important;
+  width: 850px;
 }
 
-/* This illustration was slightly smaller than the other two, which is why it has it's own width set */
 .illustration-3 {
-  width: 925px !important;
+  width: 925px;
 }
 
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
