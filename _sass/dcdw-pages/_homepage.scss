@@ -32,8 +32,14 @@
 
 span.white-bar {
   width: 600px;
-  top: 450px;
+  bottom: -600px;
   left: -290px;
+}
+
+@media screen and (min-height: 361px) {
+  span.white-bar{
+    bottom: -425px;
+  }
 }
 
 @media screen and (min-width: 640px) {
