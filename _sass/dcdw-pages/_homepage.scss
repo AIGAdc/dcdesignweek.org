@@ -36,7 +36,7 @@ span.white-bar {
   left: -290px;
 }
 
-@media screen and (min-height: 361px) {
+@media screen and (max-height: 361px) {
   span.white-bar{
     bottom: -425px;
   }
