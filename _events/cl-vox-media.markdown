@@ -11,6 +11,7 @@ event-venue-directions: Nearest Metro stops are Dupont Circle and Farragut North
   Limited street parking. There are some spots in paid garages in the area.
 is-featured-on-home-page: false
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
