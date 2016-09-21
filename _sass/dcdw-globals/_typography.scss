@@ -12,8 +12,8 @@ $text-default: 1.125em;
 $text-medium: 1.375em;
 $text-x-medium: 1.625em;
 $text-large: 1.875em;
-$text-x-large: 2.125em;
-$text-headline: 2.375em;
+$text-x-large: 2.25em;
+$text-headline: 3.0625em;
 $text-billboard: 7.375em;
 
 // line-heights
@@ -87,8 +87,13 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-medium { font-size: $text-medium; }
 .text-x-medium { font-size: $text-x-medium; }
 .text-large { font-size: $text-large; }
-.text-x-large { font-size: $text-x-large; }
-.text-headline { font-size: $text-headline; }
+.text-x-large {
+	font-size: $text-x-large;
+}
+.text-headline {
+	font-size: $text-headline;
+	line-height: 56px;
+}
 .text-billboard { font-size: $text-billboard; }
 
 /* line heights */
