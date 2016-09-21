@@ -19,7 +19,6 @@ speakers:
   speaker-name: Test
   speaker-title: Test
   speaker-bio: Test
-event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 ---
 
 ## Event Description
