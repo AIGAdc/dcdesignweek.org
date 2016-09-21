@@ -1,14 +1,14 @@
 {% include global/head-open.html %}
 {% include header.html %}
 
-<section class="single-event-header bg-cover bg-center py4 overflow-hidden" style="background-image: url('{{ page.event-bg-image }}');">
+<section class="single-event-header bg-cover bg-center py4 overflow-hidden" style="background-image: url('{{ page.single-event-header-image }}');">
   <div class="single-event-header-container clearfix relative py4">
     <div class="sm-col sm-col-12 md-col-11 relative">
       <span class="event-title-header bg-white px3 py2-half block relative">
         <h1 class="bbroller m0 text-headline">{{ page.title }}</h1>
       </span>
       <span class="p3 block relative mb1">
-        <h2 class="bbroller m0 text-x-large white lh-tight">Friday-Saturday / October 21-22 / 10PM</h2>
+        <h2 class="bbroller m0 text-x-large white lh-tight">{{ page.event-date | date: "%A, %B %d, %I %p"}}</h2>
       </span>
       <a href="#" class="bbroller m0 ml3 px3 py1 button button-white">
         Grab Your Ticket
