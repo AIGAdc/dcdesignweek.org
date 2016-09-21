@@ -3,7 +3,7 @@ title: Sponsors
 date: 2016-08-01 21:34:00 -04:00
 permalink: "/sponsors/"
 position: 3
-first-tier-header-text: Tier One Sponsors
+first-tier-header-text: AIGA DC Sustaining Sponsors
 first-tier-sub-header-text: Maecenas vestibulum mollis diam. Phasellus consectetuer
   vestibulum elit. Curabitur a felis in nunc fringilla tristique. Pellentesque commodo
   eros a enim. Nulla porta dolor.
