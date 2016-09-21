@@ -37,6 +37,10 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
+.global-header {
+  z-index: 9999;
+}
+
 a.header-link {
   letter-spacing: 2px;
   transition: all 100ms ease-in-out;
