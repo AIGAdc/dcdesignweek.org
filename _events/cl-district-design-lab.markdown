@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: District Design Lab'
 date: 2016-08-02 22:13:00 -04:00
-event-date: 2016-09-23 00:00:00 -04:00
+single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-date: 2016-09-23 12:00:00 -04:00
 event-venue-name: "District Design Lab \nMonroe St Market NE, Studio 17 \nWashington,
   DC "
 event-venue-directions: 'Nearest Metro is Brookland-CUA. The studio is located on
