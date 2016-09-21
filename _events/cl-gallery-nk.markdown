@@ -5,7 +5,7 @@ single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s
 event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-even-on-events-page: true
 speakers:
 - speaker-headshot-image: 
