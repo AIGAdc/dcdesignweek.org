@@ -8,7 +8,7 @@ event-venue-directions: Nearest Metro stop is East Falls Church and requires a s
   taxi to the office. If driving, there is free parking in George Mason Square parking
   garage located at 103 W. Broad St.  Once you are in the building, take the elevator
   to 5th floor.
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-even-on-events-page: true
 Field name: 
 layout: singles/event
