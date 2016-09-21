@@ -6,6 +6,15 @@ event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: true
+speakers:
+- speaker-headshot-image: 
+  speaker-name: Valerie
+  speaker-title: Former Development Director, The Black Fashion Museum
+  speaker-bio: 
+- speaker-headshot-image: 
+  speaker-name: Dennis
+  speaker-title: Former Curator The Black Fashion Museum
+  speaker-bio: 
 event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 ---
 
