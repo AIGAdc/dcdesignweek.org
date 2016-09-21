@@ -175,3 +175,17 @@ img.introduction-illustration {
 @keyframes reverse-floaty {
   50% { transform: translate(0, -25px); }
 }
+
+@media screen and (min-width: 831px) {
+  ul.social-icons {
+    padding: 0;
+  }
+
+  a.aiga-email {
+    text-align: left;
+  }
+
+  p.aiga-copyright {
+    text-align: right;
+  }
+}
