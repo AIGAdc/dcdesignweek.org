@@ -108,13 +108,6 @@ article hr { margin: 3.5em 0; }
 
 @media screen and (min-width: 831px) {
   article h1 { font-size: $text-billboard; }
-
-  /* adds the dcdw block after the page title */
-  article h1:after {
-    content: url('/uploads/dc-design-week-snippet.png');
-    position: absolute;
-  }
-
   article p { font-size: $text-medium; }
 }
 
