@@ -2,15 +2,7 @@
 title: Home
 date: 2016-07-02 23:42:00 -04:00
 position: 0
-sponsors:
-- sponsor-image: "/uploads/deloitte-logo-2.svg"
-- sponsor-image: "/uploads/adobe.svg"
-- sponsor-image: "/uploads/hugelogo-c-msite.svg"
-- sponsor-image: "/uploads/caponelogotry.svg"
-- sponsor-image: "/uploads/f-h-logo.svg"
-- sponsor-image: "/uploads/&pizza.svg"
-- sponsor-image: "/uploads/static-1-squarespace.svg"
-- sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
+homepage-hero-image: "/uploads/dcdw-pattern-38c20d.jpg"
 dc-design-header-text: DC is Design
 dc-design-paragraph-1-text: Design is a driving force in DC. Whether supporting the
   nation’s leading nonprofits, engineering the next startup, or solving problems with
@@ -28,7 +20,15 @@ home-partners-sub-header-text: DC Design Week is produced by a 501(3)c non-profi
   and therefore relies on the goodness of others. Major thanks to the following partners
   for supporting us so that we can continue to deliver this event year after year
   to the DC design community!
-homepage-hero-image: "/uploads/dcdw-pattern-38c20d.jpg"
+sponsors:
+- sponsor-image: "/uploads/deloitte-logo-2.svg"
+- sponsor-image: "/uploads/adobe.svg"
+- sponsor-image: "/uploads/hugelogo-c-msite.svg"
+- sponsor-image: "/uploads/caponelogotry.svg"
+- sponsor-image: "/uploads/f-h-logo.svg"
+- sponsor-image: "/uploads/&pizza.svg"
+- sponsor-image: "/uploads/static-1-squarespace.svg"
+- sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
 layout: pages/page-home
 ---
 
