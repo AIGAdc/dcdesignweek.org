@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Vox Media'
 date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
-event-date: 2016-10-25 12:01:00 -04:00
+event-date: 2016-10-25 12:00:00 -04:00
 event-venue-name: |-
   Vox Media
   1201 Connecticut Ave NW, 11th Floor
