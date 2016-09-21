@@ -11,6 +11,7 @@ event-venue-directions: Nearest Metro stop is Clarendon. There is metered street
   a few paid parking lots around the area, and a parking lot behind the building on
   Fillmore Street with some open parking spaces for $5.
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
