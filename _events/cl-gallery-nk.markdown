@@ -7,19 +7,7 @@ event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: false
 is-even-on-events-page: true
-speakers:
-- speaker-headshot-image: 
-  speaker-name: 
-  speaker-title: 
-  speaker-bio: 
-- speaker-headshot-image: 
-  speaker-name: 
-  speaker-title: 
-  speaker-bio: 
-- speaker-headshot-image: 
-  speaker-name: 
-  speaker-title: 
-  speaker-bio: 
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 ---
 
 ## Event Description
