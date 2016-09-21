@@ -10,6 +10,7 @@ event-venue-name: |-
 event-venue-directions: Nearest Metro is Farragut North. Limited street parking is
   available.
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
