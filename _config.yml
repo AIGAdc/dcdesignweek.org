@@ -33,8 +33,8 @@ defaults:
     is-featured-on-home-page:
     is-even-on-home-page:
     is-even-on-events-page:
-    speaker:
-      speaker-headshot-image:
+    speakers:
+    - speaker-headshot-image:
       speaker-name:
       speaker-title:
       speaker-bio:
