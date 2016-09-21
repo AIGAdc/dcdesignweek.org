@@ -10,7 +10,7 @@ event-venue-directions: Nearest Metro stop is East Falls Church and requires a s
   to 5th floor.
 is-featured-on-home-page: false
 is-even-on-events-page: true
-Field name: 
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
