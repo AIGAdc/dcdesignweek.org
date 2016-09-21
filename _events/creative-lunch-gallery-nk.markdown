@@ -25,6 +25,8 @@ Valerie Chisholm, former Development Director and Dennis McBride, former Curator
 
 ## About Gallery NK 
 
+---
+
 Gallery NK is the creation of Turkish-born artist Nihal Kececi. She found an old warehouse in the alley off K Street Northeast and turned it into a chic and modern gallery that doubles as her residence. Kececi showcases different artists from around the world each month, by appointment only. 
 
 ## Directions
