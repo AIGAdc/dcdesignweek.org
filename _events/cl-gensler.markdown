@@ -7,6 +7,7 @@ event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: "Gensler DC\nK Street Center for Graduate Education, \n2020 K St
   NW\nWashington, DC 20006"
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
