@@ -36,9 +36,17 @@ span.white-bar {
   left: -290px;
 }
 
+/* targets the height of a 13" mbp */
 @media screen and (max-height: 361px) {
   span.white-bar{
     bottom: -425px;
+  }
+}
+
+/* targets the height of a 15" mbp */
+@media screen and (max-height: 803px) {
+  span.white-bar{
+    bottom: -555px;
   }
 }
 
