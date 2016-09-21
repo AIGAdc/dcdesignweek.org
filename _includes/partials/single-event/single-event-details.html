@@ -1,0 +1,26 @@
+<section class="single-event-details">
+  <div class="container clearfix relative p3">
+    <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-8 text-medium">
+      <h3 class="bbroller m0 text-large">Details</h3>
+      <hr class="title-divider">
+      <div class="sm-col sm-col-12 md-col-6">
+        <h4 class="bbroller m0 text-lowercase text-small fw-extrabold py2">
+          Date &amp; Time
+        </h4>
+        <p class="m0 text-small">
+          {{ page.event-date | date: "%A / %B %d / %I %p"}}
+        </p>
+      </div>
+      <div class="sm-col sm-col-12 md-col-6">
+        <h4 class="bbroller m0 text-lowercase text-small py2">
+          Venue
+        </h4>
+        <p class="m0 text-small">
+          <a href="#">{{ page.event-venue-name }}</a>
+        </p>
+      </div>
+    </div>
+    <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+<section class="single-event-speakers pt4">
+  <div class="container clearfix relative p3">
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+    <div class="sm-col sm-col-12 md-col-10 text-medium">
+      <h1 class="bbroller m0 text-large">Speakers</h1>
+      <hr class="title-divider">
+      {% for speaker in page.speakers %}
+        <div class="event-speaker-wrapper clearfix py3">
+          <div class="sm-col sm-col-12 md-col-3 py3">
+            <div class="diamond-image-border mt4">
+              <div class="diamond overflow-hidden">
+               <div class="diamond-los1">
+                 <img src="{{ speaker.speaker-headshot-image }}" />
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="sm-col sm-col-12 md-col-9 text-center px3 py3">
+            <h3 class="bbroller m0 text-x-medium mb1 ml2">
+              {{ speaker.speaker-name }}
+            </h3>
+            <h6 class="m0 mb2 text-small text-uppercase ml2">
+              {{ speaker.speaker-title }}
+            </h6>
+            <p class="m0 ml2 text-default">
+              {{ speaker.speaker-bio }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+  </div>
+</section>

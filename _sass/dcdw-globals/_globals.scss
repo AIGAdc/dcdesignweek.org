@@ -90,7 +90,9 @@ article.page-introduction {
   }
 }
 
-article { padding-bottom: 4em; }
+article {
+  padding-bottom: 2.5em; 
+}
 
 article h1 {
   font-size: $text-headline;
@@ -99,10 +101,11 @@ article h1 {
   margin: 0;
 }
 
-article.single-event h2 {
+article h2 {
   font-size: $text-x-large;
   font-family: $bbroller;
   line-height: normal;
+  padding-bottom: 0.5em;
   margin: 0;
 }
 
@@ -110,7 +113,7 @@ article p {
   font-size: $text-default;
   font-family: $sans;
   line-height: 1.75em;
-  padding-bottom: 1.25em;
+  padding-bottom: 1.75em;
 }
 
 article hr,
