@@ -14,9 +14,6 @@ collections:
   posts:
     title: Posts
     output: true
-  speakers:
-    title: Speakers
-    output: true
   sponsors:
     title: Sponsors
     output: false
