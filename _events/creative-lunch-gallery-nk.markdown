@@ -3,8 +3,9 @@ title: 'Creative Lunch: Gallery NK'
 date: 2016-09-20 21:42:00 -04:00
 event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 event-date: 2016-10-24 12:00:00 -04:00
-event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
+event-venue-name: Gallery NK
+is-featured-on-home-page: true
 ---
 
 ## Event Description
