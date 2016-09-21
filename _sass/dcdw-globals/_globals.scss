@@ -99,6 +99,13 @@ article h1 {
   margin: 0;
 }
 
+article.single-event h1 {
+  font-size: $text-x-large;
+  font-family: $bbroller;
+  line-height: normal;
+  margin: 0;
+}
+
 article p {
   font-size: $text-default;
   font-family: $sans;
