@@ -99,7 +99,7 @@ article h1 {
   margin: 0;
 }
 
-article.single-event h1 {
+article.single-event h2 {
   font-size: $text-x-large;
   font-family: $bbroller;
   line-height: normal;
@@ -110,6 +110,7 @@ article p {
   font-size: $text-default;
   font-family: $sans;
   line-height: 1.75em;
+  padding-bottom: 12px;
 }
 
 article hr,
@@ -119,12 +120,22 @@ article hr,
   border: solid 2.5px $black;
 }
 
-article hr { margin: 3.5em 0; }
-.title-divider { margin: 2em 0; }
+article hr {
+  margin: 2.5em 0;
+}
+
+.title-divider {
+  margin: 2em 0;
+}
 
 @media screen and (min-width: 831px) {
-  article h1 { font-size: $text-billboard; }
-  article p { font-size: $text-medium; }
+  article h1 {
+    font-size: $text-billboard;
+  }
+
+  article p {
+    font-size: $text-medium;
+  }
 }
 
 /* Home Partners */
@@ -175,7 +186,9 @@ span.made-in-dc-heart {
 }
 
 /* adds a right border to the last column in the grid */
-.grid-line:last-child { border-right: solid 0.01px #eaeaea; }
+.grid-line:last-child {
+  border-right: solid 0.01px #eaeaea;
+}
 
 @media screen and (max-width: 1024px) {
   .grid-line:nth-child(6) {

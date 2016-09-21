@@ -7,8 +7,8 @@ $sans: 'Work Sans', sans-serif;
 $bbroller: 'BBRollerMono-Headline', courier, sans-serif;
 
 // font sizes
-$text-small: 0.875em;
-$text-default: 1.125em;
+$text-small: 1.125em;
+$text-default: 1.3125em;
 $text-medium: 1.375em;
 $text-x-medium: 1.625em;
 $text-large: 1.875em;
@@ -89,6 +89,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-large { font-size: $text-large; }
 .text-x-large {
 	font-size: $text-x-large;
+	line-height: 48px;
 }
 .text-headline {
 	font-size: $text-headline;
