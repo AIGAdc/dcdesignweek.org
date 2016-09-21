@@ -8,18 +8,18 @@ event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: true
 is-even-on-events-page: true
 speakers:
-- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
-  speaker-name: Valerie
-  speaker-title: Former Development Director, The Black Fashion Museum
-  speaker-bio: Test
-- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
-  speaker-name: Dennis
-  speaker-title: Former Curator The Black Fashion Museum
-  speaker-bio: Test Test
-- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
-  speaker-name: Test
-  speaker-title: Test
-  speaker-bio: Test
+- speaker-headshot-image: 
+  speaker-name: 
+  speaker-title: 
+  speaker-bio: 
+- speaker-headshot-image: 
+  speaker-name: 
+  speaker-title: 
+  speaker-bio: 
+- speaker-headshot-image: 
+  speaker-name: 
+  speaker-title: 
+  speaker-bio: 
 ---
 
 ## Event Description
