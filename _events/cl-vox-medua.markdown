@@ -8,6 +8,8 @@ event-venue-name: |-
   Washington, DC 20036
 event-venue-directions: Nearest Metro stops are Dupont Circle and Farragut North.
   Limited street parking. There are some spots in paid garages in the area.
+is-featured-on-home-page: true
+is-even-on-events-page: true
 layout: singles/event
 ---
 
