@@ -1,24 +1,46 @@
 ---
-title: 'Creative Lunch: Gallery NK'
+title: 'Creative Lunch: Viget'
 date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli%20-%20sonka%CC%81s%20szendvics.JPG"
-event-date: 2016-10-24 12:01:00 -04:00
-event-venue-name: 'Gallery NK '
-event-venue-directions: 'Nearest Metro stops are Union Station and NoMa-Gallaudet.
-  Gallery NK is located in an alley. '
+event-date: 2016-10-24 13:00:00 -04:00
+event-venue-name: Viget
+event-venue-directions: Nearest Metro stop is East Falls Church and requires a short
+  taxi to the office. If driving, there is free parking in George Mason Square parking
+  garage located at 103 W. Broad St.  Once you are in the building, take the elevator
+  to 5th floor.
+is-featured-on-home-page: true
 is-even-on-events-page: true
 Field name: 
 layout: singles/event
 ---
 
-Gallery NK is opening its doors during DC Design Week to welcome AIGA DC and Valerie Chisholm, former Development Director and Dennis McBride, former Curator of The Black Fashion Museum who will give a presentation on the essence of fashion design, featuring illustrations, couture and ready-wear apparel inspired by the fashion design icon Ann Cole Lowe. The BFM collection will showcase its artifacts as part of the National Museum of African American History and Culture (NMAAHC) on September 24, 2016. 
+## Creative Lunch: Viget 
 
-**Lunch is included.** Registration is $10, limited to 20 attendees and is open to **AIGA members first!**
+Location
+Viget
+105 West Broad Street, 5th Floor, 
+Falls Church, VA 22046
 
-Please plan to arrive at Gallery NK 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
+Date & Time:
+Monday, October 24
+1pm - 2pm
 
-## About the Speakers 
-Valerie Chisholm, former Development Director and Dennis McBride, former Curator, of The Black Fashion Museum (1997-2006) produced the traveling tour, “A Stitch in Time: 1800-2000” (2001-2004). The first tour venue (Tubman Museum in Macon, Georgia) was shipped on the historic September 11, 2001. The following venues included: African American Museum at Fair Park (Dallas, Texas); Diggs Gallery (Winston-Salem, North Carolina) and Riverside Church (New York, New York) to celebrate its 25th Anniversary. 
+##Event Description
+Viget has a 16-year history of making award-winning digital products, experiences, and tools that inspire customers, extend capabilities, and advance business. Join the team for lunch as they walk through some recent work and share insights to their approach.
 
-##About Gallery NK 
-Gallery NK is the creation of Turkish-born artist Nihal Kececi. She found an old warehouse in the alley off K Street Northeast and turned it into a chic and modern gallery that doubles as her residence. Kececi showcases different artists from around the world each month, by appointment only. 
+**Lunch is included. ** Registration is $10, limited to 35 attendees and is open to **AIGA members first!**
+
+Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at 1.
+
+##Other Creative Lunches
+PETAL at Gallery NK 
+Viget 
+Vox Media 
+Pivot Point 
+Beth Singer Design
+Human Rights Campaign 
+Grafik 
+Blue State Digital 
+Streetsense 
+District Design Lab 
+Gensler
