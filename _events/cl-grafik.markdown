@@ -18,6 +18,7 @@ event-venue-directions: 'Nearest Metros are Braddock Road or King St. Old Town. 
   so you know, there is also three-hour street parking on Pendleton but there is no
   guarantee that spots will be available.     '
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
