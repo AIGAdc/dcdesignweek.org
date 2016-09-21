@@ -120,6 +120,18 @@ a.schedule-link {
 	}
 
 	span.event-title-header {
+		min-width: 105%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	span.event-title-header {
+		min-width: 110%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	span.event-title-header {
 		min-width: 125%;
 	}
 }
