@@ -4,22 +4,18 @@ date: 2016-08-01 21:34:00 -04:00
 permalink: "/sponsors/"
 position: 3
 first-tier-header-text: AIGA DC Sustaining Sponsors
-first-tier-sub-header-text: Maecenas vestibulum mollis diam. Phasellus consectetuer
-  vestibulum elit. Curabitur a felis in nunc fringilla tristique. Pellentesque commodo
-  eros a enim. Nulla porta dolor.
+first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
+  enabling us to stay true to our mission: to advance designing as a professional
+  craft, strategic tool and vital cultural force.'
 first-tier-button-text: Join The List
 first-tier-button-link: dcdw@aiga.org
-second-tier-header-text: Tier Two Sponsors
-second-tier-sub-header-text: Maecenas vestibulum mollis diam. Phasellus consectetuer
-  vestibulum elit. Curabitur a felis in nunc fringilla tristique. Pellentesque commodo
-  eros a enim. Nulla porta dolor.
+second-tier-header-text: 'DCDW Partner Organizations '
+second-tier-sub-header-text: 
 second-tier-button-text: Join The List
 second-tier-button-link: dcdw@aiga.org
 second-tier-bg-color: "#fafafa"
-third-tier-header-text: Tier Three Sponsors
-third-tier-sub-header-text: Maecenas vestibulum mollis diam. Phasellus consectetuer
-  vestibulum elit. Curabitur a felis in nunc fringilla tristique. Pellentesque commodo
-  eros a enim. Nulla porta dolor.
+third-tier-header-text: Event-Specific Sponsors and In-Kind Donors
+third-tier-sub-header-text: 
 third-tier-button-text: Join The List
 third-tier-button-link: dcdw@aiga.org
 layout: pages/page-sponsors
