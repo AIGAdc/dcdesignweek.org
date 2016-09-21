@@ -31,16 +31,3 @@ Viget has a 16-year history of making award-winning digital products, experience
 **Lunch is included. ** Registration is $10, limited to 35 attendees and is open to **AIGA members first!**
 
 Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at 1.
-
-##Other Creative Lunches
-PETAL at Gallery NK 
-Viget 
-Vox Media 
-Pivot Point 
-Beth Singer Design
-Human Rights Campaign 
-Grafik 
-Blue State Digital 
-Streetsense 
-District Design Lab 
-Gensler
