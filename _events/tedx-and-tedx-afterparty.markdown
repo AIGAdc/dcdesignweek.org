@@ -2,7 +2,7 @@
 title: TEDx + TEDx Afterparty
 date: 2016-07-03 09:51:00 -04:00
 position: 8
-event-bg-image: "/uploads/test%20image.jpeg"
+single-event-header-image: "/uploads/test%20image.jpeg"
 event-date: 2016-10-21 18:00:00 -04:00
 event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
 event-venue-name: Smithsonian
