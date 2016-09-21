@@ -15,6 +15,10 @@ speakers:
   speaker-name: Dennis
   speaker-title: Former Curator The Black Fashion Museum
   speaker-bio: Test Test
+- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
+  speaker-name: Test
+  speaker-title: Test
+  speaker-bio: Test
 event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 ---
 
