@@ -59,23 +59,24 @@
       <div class="sm-col sm-col-12 md-col-10 text-medium">
         <h1 class="bbroller m0 text-large">Speakers</h1>
         <hr class="title-divider">
-        
-        <div class="event-speaker-wrapper clearfix py3">
-          <div class="sm-col sm-col-12 md-col-3">
-            <div class="diamond-image-border mt4">
-              <div class="diamond overflow-hidden">
-               <div class="diamond-los1">
-                 <img src="http://placecorgi.com/250" />
-               </div>
+        {% for speaker in page.speakers %}
+          <div class="event-speaker-wrapper clearfix py3">
+            <div class="sm-col sm-col-12 md-col-3">
+              <div class="diamond-image-border mt4">
+                <div class="diamond overflow-hidden">
+                 <div class="diamond-los1">
+                   <img src="http://placecorgi.com/250" />
+                 </div>
+                </div>
               </div>
             </div>
+            <div class="sm-col sm-col-12 md-col-9 px3">
+              <h3 class="bbroller m0 mb1 ml2">{{ speaker.speaker-name }}</h3>
+              <h6 class="m0 mb2 text-uppercase ml2">{{ speaker.speaker-title }}</h6>
+              <p class="m0 ml2">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
+            </div>
           </div>
-          <div class="sm-col sm-col-12 md-col-9 px3">
-            <h3 class="bbroller m0 mb1 ml2">Speaker Name</h3>
-            <h6 class="m0 mb2 text-uppercase ml2">Speaker Title</h6>
-            <p class="m0 ml2">est. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerbest. Body copy blerb</p>
-          </div>
-        </div>
+        {% endfor %}
       </div>
       <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
     </div>
