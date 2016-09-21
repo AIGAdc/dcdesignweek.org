@@ -6,7 +6,6 @@ event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: true
-speakers: Valerie Chisholm
 event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 ---
 
