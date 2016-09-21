@@ -7,14 +7,14 @@ event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: true
 speakers:
-- speaker-headshot-image: 
+- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
   speaker-name: Valerie
   speaker-title: Former Development Director, The Black Fashion Museum
-  speaker-bio: 
-- speaker-headshot-image: 
+  speaker-bio: Test
+- speaker-headshot-image: "/uploads/dcdw-footer-bg.jpg"
   speaker-name: Dennis
   speaker-title: Former Curator The Black Fashion Museum
-  speaker-bio: 
+  speaker-bio: Test Test
 event-bg-image: "/uploads/dcdw-footer-bg.jpg"
 ---
 
