@@ -1,12 +1,13 @@
 ---
-title: test 14
+title: 'Creative Lunch: Gallery NK'
 date: 2016-08-02 22:14:00 -04:00
-single-event-header-image: 'Creative Lunch: Gallery NK'
+single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 event-date: 2016-10-24 12:01:00 -04:00
 event-venue-name: 'Gallery NK '
 event-venue-directions: 'Nearest Metro stops are Union Station and NoMa-Gallaudet.
   Gallery NK is located in an alley. '
 is-even-on-events-page: true
+Field name: 
 layout: singles/event
 ---
 
