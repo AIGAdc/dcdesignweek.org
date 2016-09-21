@@ -9,6 +9,7 @@ event-venue-name: |-
   Washington, DC 20036
 event-venue-directions: Nearest Metro is Farragut North. Limited street parking is
   available.
+is-even-on-events-page: true
 layout: singles/event
 ---
 
