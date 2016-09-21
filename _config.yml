@@ -36,12 +36,7 @@ defaults:
     is-featured-on-home-page:
     is-even-on-home-page:
     is-even-on-events-page:
-    speaker-list:
-      -speaker:
-      speaker-headshot-image:
-      speaker-name:
-      speaker-title:
-      speaker-bio:
+    speaker: ["speaker-headshot-image", "speaker-name", "speaker-title", "speaker-bio"]
 - scope:
     path: ''
     type: sponsors
