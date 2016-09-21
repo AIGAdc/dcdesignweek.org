@@ -38,6 +38,9 @@ defaults:
       speaker-name:
       speaker-title:
       speaker-bio:
+    screenshots:
+    - image:
+      text:
 - scope:
     path: ''
     type: sponsors
