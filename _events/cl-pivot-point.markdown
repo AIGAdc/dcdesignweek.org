@@ -8,6 +8,7 @@ event-venue-name: |-
   2221 S Clark St
   Arlington, VA 22202
 is-even-on-events-page: true
+event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
 layout: singles/event
 ---
 
