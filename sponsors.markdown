@@ -7,8 +7,7 @@ first-tier-header-text: AIGA DC Sustaining Partners
 first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
   enabling us to stay true to our mission: to advance designing as a professional
   craft, strategic tool and vital cultural force.'
-first-tier-button-text: Interested in joining the list? We'd love to hear from you.
-  Reach out to [Rica Rosario](mailto:rica@aigadc.org) to start the conversation.
+first-tier-button-text: Join The List
 first-tier-button-link: rica@aigadc.org
 second-tier-header-text: 'DCDW Partner Organizations '
 second-tier-sub-header-text: High fives and fist bumps to our DC Design Week partner
