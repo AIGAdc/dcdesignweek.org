@@ -3,12 +3,8 @@ title: 'Creative Lunch: Vox Media'
 date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/cl-vox.jpg"
 event-date: 2016-10-25 12:00:00 -04:00
-event-venue-name: |-
-  Vox Media
-  1201 Connecticut Ave NW, 11th Floor
-  Washington, DC 20036
-event-venue-directions: Nearest Metro stops are Dupont Circle and Farragut North.
-  Limited street parking. There are some spots in paid garages in the area.
+event-venue-name: Vox Media
+event-venue-directions: https://www.google.com/maps/place/Vox+Media/@38.9060648,-77.0429348,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b897bb5b1f:0x59d140372f8bdd77!8m2!3d38.9060648!4d-77.0407461
 is-featured-on-home-page: false
 is-even-on-events-page: false
 event-bg-image: "/uploads/cl-vox.jpg"
@@ -22,3 +18,5 @@ The Verge, Vox, SB Nation, Eater, Polygon, Racked, Curbed, and Recode—Vox Medi
 **Lunch is included.** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
 
 Please plan to arrive at Vox Media 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
+
+Nearest Metro stops are Dupont Circle and Farragut North. Limited street parking. There are some spots in paid garages in the area.
