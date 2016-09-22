@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Grafik'
 date: 2016-08-02 22:14:00 -04:00
-single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+single-event-header-image: "/uploads/cl-grafik.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: |-
   Grafik
@@ -18,16 +18,16 @@ event-venue-directions: 'Nearest Metros are Braddock Road or King St. Old Town. 
   so you know, there is also three-hour street parking on Pendleton but there is no
   guarantee that spots will be available.     '
 is-even-on-events-page: true
-event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-bg-image: "/uploads/cl-grafik.jpg"
 layout: singles/event
 ---
 
-##What’s behind the best brand identities? 
+## What’s behind the best brand identities?
 Grafik believes every branding engagement must start with a solid strategy that clearly informs a powerful creative approach. Join Grafik for lunch and learn how DC’s go-to branding firm translates charts, graphs, and positioning statements into authentic brand identities that can be expressed across every experience and every channel. Meet the designers and strategists who ensure our clients always land on The Right Idea.
 
-**Lunch will be provided. ** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
+**Lunch will be provided.** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
 
 Please plan to arrive at Grafik 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
-  
-##About Grafik
+
+## About Grafik
 For more than 35 years, Grafik has been partnering with start-ups, best-kept secrets, and industry leaders to help them strengthen relationships with customers, embrace new opportunities, and make a unique and indelible mark on the landscape. Our branding experts include designers, developers, illustrators, technologists and strategists who focus on delivering the most creative solutions for clients’ business challenges.
