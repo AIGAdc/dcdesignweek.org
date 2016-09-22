@@ -10,7 +10,7 @@ event-venue-name: |-
 event-venue-directions: Nearest Metro stops are Dupont Circle and Farragut North.
   Limited street parking. There are some spots in paid garages in the area.
 is-featured-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-vox.jpg"
 layout: singles/event
 ---
