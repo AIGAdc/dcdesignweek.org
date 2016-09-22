@@ -84,7 +84,7 @@ google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject'
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
 desktop-logo-image: "/uploads/dcdw-logo-desktop.svg"
 mobile-logo-image: "/uploads/dcdw-logo-mobile.svg"
-contact-email: dcdw@aigadc.org
+contact-email: dan@aigadc.org
 copyright: "© AIGA DC | 2016 All Rights Reserved."
 exclude:
 - package.json
