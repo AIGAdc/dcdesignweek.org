@@ -10,7 +10,7 @@ event-venue-name: |-
   Washington, DC 20036
 is-featured-on-home-page: true
 is-even-on-events-page: true
-event-bg-image: "/uploads/grace-boney.jpg"
+event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
 ---
 
