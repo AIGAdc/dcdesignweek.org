@@ -9,7 +9,7 @@ event-venue-directions: 'Chief is located on Massachusetts Ave NW, directly off 
   Metro station south entrance. Parking is available on the street and in a garage
   under the building, accessible from 18th St, NW. '
 is-featured-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/design-dev.jpg"
 ---
 
