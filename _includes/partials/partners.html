@@ -41,10 +41,12 @@
       <div class="sm-col sm-col-12 md-col-1 py1 xs-hide sm-hide md-hide"></div>
       <div class="sm-col sm-col-12 md-col-11">
         <ul class="overflow-hidden">
-          {% for post in site.sponsors limit:3 %}
-            <li class="sponsor-logo sm-col sm-col-12 md-col-3 inline-block p1">
-              <img src="{{ post.sponsor-image }}">
-            </li>
+          {% for sponsor in page.sponsors limit:3 %}
+            <div class="sm-col sm-col-12 md-col-4 inline-block">
+              <div class="sponsor-card">
+                <img src="{{ sponsor }}">
+              </div>
+            </div>
           {% endfor %}
         </ul>
         <a href="http://www.dcdesignweek.org/events/" class="bbroller blue-underline m0 text-default ">
