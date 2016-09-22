@@ -1,13 +1,13 @@
 ---
 title: 'Creative Lunch: Gallery NK'
 date: 2016-09-20 21:42:00 -04:00
-single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+single-event-header-image: "/uploads/cl-gallery-nk.jpg"
 event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: false
 is-even-on-events-page: true
-event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 ---
 
 ## Event Description
