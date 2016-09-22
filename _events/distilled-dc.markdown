@@ -2,7 +2,7 @@
 title: Distilled DC
 date: 2016-08-02 22:08:00 -04:00
 position: 1
-single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+single-event-header-image: "/uploads/destil-dc.jpg"
 event-date: 2016-10-27 19:00:00 -04:00
 event-venue-name: |-
   Republic Restoratives
@@ -10,7 +10,7 @@ event-venue-name: |-
   Washington, DC 20002
 is-featured-on-home-page: true
 is-even-on-events-page: true
-event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-bg-image: "/uploads/destil-dc.jpg"
 layout: singles/event
 ---
 
