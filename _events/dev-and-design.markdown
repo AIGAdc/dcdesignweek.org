@@ -3,11 +3,8 @@ title: 'Dev & Design: Harmony in the Digital Space'
 date: 2016-09-22 00:47:00 -04:00
 single-event-header-image: "/uploads/design-dev.jpg"
 event-date: 2016-10-24 18:00:00 -04:00
-event-venue-name: "CHIEF\n1800 Massachusetts Ave NW, \n2nd Floor, Washington, DC"
-event-venue-directions: 'Chief is located on Massachusetts Ave NW, directly off the
-  southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle
-  Metro station south entrance. Parking is available on the street and in a garage
-  under the building, accessible from 18th St, NW. '
+event-venue-name: CHIEF
+event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
 is-featured-on-home-page: false
 is-even-on-events-page: false
 event-bg-image: "/uploads/design-dev.jpg"
@@ -36,3 +33,5 @@ Women Who Code (WWCode) is global non-profit with a set of programs for engineer
 
 Chief is a digital agency that works with organizations in the public and private sectors in the DC area. Find out more info about them here: 
 [www.agencychief.com](www.agencychief.com) 
+
+Chief is located on Massachusetts Ave NW, directly off the southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle Metro station south entrance. Parking is available on the street and in a garage under the building, accessible from 18th St, NW. 
