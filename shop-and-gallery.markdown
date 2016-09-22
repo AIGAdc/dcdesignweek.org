@@ -25,8 +25,9 @@ you-are-voting-body-text: This civic engagement initiative wields the power of d
   this campaign that posters are nonpartisan and in window card format (portrait,
   11x17 inches).
 sponsors:
-- sponsor-image: "/uploads/WPA.jpg"
-- sponsor-image: 
+- sponsor-image: Typecase Industries
+- sponsor-image: Washington Project for the Arts
+- sponsor-image: cherry blossom
 layout: pages/page-shops-galleries
 ---
 
