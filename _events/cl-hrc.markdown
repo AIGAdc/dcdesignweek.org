@@ -20,7 +20,7 @@ Join AIGA DC for a series of DC Design Week lunches, as we open the doors to som
 
 Please plan to arrive at the Human Rights Campaign 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
 
-\##Human Rights Campaign
+## About the Human Rights Campaign
 As the largest civil rights organization working to achieve equality for lesbian, gay, bisexual, transgender and queer Americans, the Human Rights Campaign represents a force of more than 1.5 million members and supporters nationwide — all committed to making HRC's vision a reality.
 
 HRC envisions a world where lesbian, gay, bisexual, transgender and queer people are embraced as full members of society at home, at work and in every community.
