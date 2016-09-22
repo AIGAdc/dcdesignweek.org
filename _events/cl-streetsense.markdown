@@ -3,14 +3,8 @@ title: 'Creative Lunch: Streetsense'
 date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/cl-streetsence.jpg"
 event-date: 2016-09-22 12:00:00 -04:00
-event-venue-name: |-
-  streetsense.
-  3 Bethesda Metro, #140
-  Bethesda, MD 20814
-event-venue-directions: Nearest Metro is Bethesda. Streetsense is located directly
-  above the station on the Plaza level of 3 Bethesda Metro Center. There is paid parking
-  available in Bethesda Metro Center, along with street parking and multiple parking
-  garages around downtown Bethesda.
+event-venue-name: streetsense.
+event-venue-directions: https://www.google.com/maps/place/Streetsense/@38.98455,-77.0972987,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97accdc87b9:0x51fedfe6b943bf58!8m2!3d38.98455!4d-77.09511
 is-even-on-events-page: false
 event-bg-image: "/uploads/cl-streetsence.jpg"
 layout: singles/event
@@ -21,3 +15,5 @@ Streetsense is an experience-focused strategy and design collective. Experts in 
 **Lunch will be provided.** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
 
 Please plan to arrive at streetsense 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
+
+Nearest Metro is Bethesda. Streetsense is located directly above the station on the Plaza level of 3 Bethesda Metro Center. There is paid parking available in Bethesda Metro Center, along with street parking and multiple parking garages around downtown Bethesda.
