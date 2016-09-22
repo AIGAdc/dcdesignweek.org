@@ -8,7 +8,7 @@ event-venue-directions: 'Chief is located on Massachusetts Ave NW, directly off 
   southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle
   Metro station south entrance. Parking is available on the street and in a garage
   under the building, accessible from 18th St, NW. '
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-even-on-events-page: true
 event-bg-image: "/uploads/design-dev.jpg"
 ---
