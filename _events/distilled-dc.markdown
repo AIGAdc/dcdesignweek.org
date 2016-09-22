@@ -9,7 +9,7 @@ event-venue-name: |-
   1369 New York Ave NE
   Washington, DC 20002
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/destil-dc.jpg"
 layout: singles/event
 ---
