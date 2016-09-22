@@ -24,6 +24,9 @@ you-are-voting-body-text: This civic engagement initiative wields the power of d
   and public distribution. It is vital to the spirit, impact, and accessibility of
   this campaign that posters are nonpartisan and in window card format (portrait,
   11x17 inches).
+sponsors:
+- sponsor-image: "/uploads/WPA.jpg"
+- sponsor-image: 
 layout: pages/page-shops-galleries
 ---
 
