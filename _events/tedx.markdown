@@ -1,17 +1,32 @@
 ---
-title: TEDx
+title: 'Salon: Grace Bonney founder of Design*Sponge'
 date: 2016-07-03 09:51:00 -04:00
 position: 7
-event-bg-image: "/uploads/test%20image.jpeg"
 event-date: 2016-10-22 17:00:00 -04:00
-event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
 event-venue-name: Smithsonian
+event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
 is-featured-on-home-page: true
+event-bg-image: "/uploads/test%20image.jpeg"
 layout: singles/event
 ---
 
-# Headline!
+Join us for a conversation with Grace Bonney, founder of [Design*Sponge](http://www.designsponge.com/) and author of the newly released, In the Company of Women. Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, Tina Johnson[LINK to https://www.linkedin.com/in/tjmarcel], Flagship content director at Capital One.
 
----
+Sign up soon! The first fifteen registrants will receive a free copy of the book.
 
-In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.
+Registration opens on October 4!
+AIGA DC Salons are free, intimate roundtable discussions open to AIGA members FIRST. Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for $50 a year today:http://www.aiga.org/join/.
+
+Date & Time
+Wednesday, October 26, 2016
+8:00am-9:00am
+
+Please plan to arrive at Kramerbooks around 7:30am to allow time to purchase breakfast refreshments and network with other members. The Salon begins promptly at 8:00am.
+
+Location
+Kramerbooks & Afterwords Google Map [LINK]
+1517 Connecticut Ave NW
+Washington, DC 20036
+
+About Grace Bonney
+Grace Bonney is the founder of Design*Sponge, a daily website dedicated to the creative community. Design*Sponge was founded in 2004 and currently reaches nearly 2 million readers per day. She has amassed almost 2 million combined followers across all social platforms. Bonney has worked as a contributing editor at publications such as House & Garden, Domino, and Craft magazine. She is passionate about supporting all members of the creative community; she runs an annual scholarship for up-and-coming designers, writes a free business column for creatives, and is the host of a weekly radio show, After the Jump. Her first book, Design*Sponge at Home, is a national bestseller. After 12 years in Brooklyn, Grace now lives in New York’s Hudson Valley with her wife, Julia, and their three pets. You can find her on Twitter, Instagram, Facebook, and Snapchat @designsponge.
