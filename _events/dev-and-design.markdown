@@ -1,0 +1,33 @@
+---
+title: 'Dev & Design: Harmony in the Digital Space'
+date: 2016-09-22 00:47:00 -04:00
+single-event-header-image: "/uploads/design-dev.jpg"
+event-date: 2016-10-24 18:00:00 -04:00
+event-venue-name: "CHIEF\n1800 Massachusetts Ave NW, \n2nd Floor, Washington, DC"
+event-venue-directions: 'Chief is located on Massachusetts Ave NW, directly off the
+  southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle
+  Metro station south entrance. Parking is available on the street and in a garage
+  under the building, accessible from 18th St, NW. '
+is-featured-on-home-page: true
+is-even-on-events-page: true
+event-bg-image: "/uploads/design-dev.jpg"
+---
+
+Are you an aspiring developer trying to get your portfolio started but don’t know what the best colors and fonts are to make your website appealing to potential employers? A professional developer looking to learn how to discuss new features and whether or not they’re feasible with the designers on your team? An aspiring designer who wants to showcase your best pieces but don’t know what tools you need to get your work up on the Internet? A professional designer who needs to learn how to communicate the reasoning behind your designs better? 
+
+Anyone and everyone—if any of these questions apply to you, then come to our event Dev & Design: Harmony in the Digital Space. We’ll start off with an interactive panel discussion where developers and designers together will analyze existing designs and discuss their thoughts on the design; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
+
+* Getting started on creating your portfolio 
+* Designers helping developers on the best way to design their portfolio 
+* Developers helping designers get their portfolio up on the web 
+* Creating accessible designs
+
+Throughout the event, there will be opportunities to network over food and drink (gluten and vegetarian options available). A list of available resources related to these discussions will be placed in this Github repo after the event: [https://github.com/womenwhocodedc/devdesign](https://github.com/womenwhocodedc/devdesign) 
+
+As a part of DCFemTech's October Tour De Code and a partnership between DCFemTech, Women Who Code, and AIGA. 
+
+DCFemTech is a coalition of women leaders aimed at amplifying women in tech organizations, sharing resources, and bringing leaders together to close the gender gap. Bimonthly meetings are inclusive and open to any women in tech leaders. Members are affiliated with organizations with women attendance that is 50% or higher; who have a focus on technology; and have a primary focus in the mission statement about gender or women. Find out more about DCFemTech here: [https://dcfemtech.github.io/index.html](https://dcfemtech.github.io/index.html) 
+
+## Chief
+Chief is a digital agency that works with organizations in the public and private sectors in the DC area. Find out more info about them here: 
+[www.agencychief.com](www.agencychief.com) 
