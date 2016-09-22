@@ -6,6 +6,8 @@ event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: Human Rights Campaign
 event-venue-directions: https://www.google.com/maps/place/Human+Rights+Campaign/@38.9062684,-77.0402122,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7bf59313561:0xa09091c7fc5e53e4!8m2!3d38.9062684!4d-77.0380235
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-hrc.jpg"
 layout: singles/event
 ---
