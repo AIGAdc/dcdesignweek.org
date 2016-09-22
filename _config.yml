@@ -99,3 +99,9 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+meta-og-url: http://www.dcdesignweek.org
+meta-og-title: DC Design Week
+meta-og-description: DC Design Week is a celebration of creatives, thinkers, and makers
+  in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+  Join  us!
+meta-og-image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
