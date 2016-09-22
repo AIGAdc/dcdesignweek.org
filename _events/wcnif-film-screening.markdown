@@ -9,6 +9,8 @@ event-venue-directions: https://www.google.com/maps/place/Deloitte/@38.8980777,-
 is-featured-on-home-page: true
 is-even-on-home-page: false
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/WhatComesNext.jpg"
 event-location: 
 layout: singles/event
