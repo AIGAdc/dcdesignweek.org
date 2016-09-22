@@ -20,17 +20,12 @@ Lunch is included. Registration is $10, limited to 20 attendees and is open to A
 
 ## About the Speakers 
 
----
-
 Valerie Chisholm, former Development Director and Dennis McBride, former Curator, of The Black Fashion Museum (1997-2006) produced the traveling tour, “A Stitch in Time: 1800-2000” (2001-2004). The first tour venue (Tubman Museum in Macon, Georgia) was shipped on the historic September 11, 2001. The following venues included: African American Museum at Fair Park (Dallas, Texas); Diggs Gallery (Winston-Salem, North Carolina) and Riverside Church (New York, New York) to celebrate its 25th Anniversary. 
 
 ## About Gallery NK 
 
----
-
 Gallery NK is the creation of Turkish-born artist Nihal Kececi. She found an old warehouse in the alley off K Street Northeast and turned it into a chic and modern gallery that doubles as her residence. Kececi showcases different artists from around the world each month, by appointment only. 
 
----
-
 ## Directions
+
 Nearest Metro stops are Union Station and NoMa-Gallaudet. Gallery NK is located in an alley. 
