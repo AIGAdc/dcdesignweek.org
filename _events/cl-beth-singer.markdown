@@ -6,6 +6,8 @@ event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: Beth Singer Design
 event-venue-directions: https://www.google.com/maps/place/1408+N+Fillmore+St+%236,+Arlington,+VA+22201/@38.888767,-77.0957165,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b686596414c7:0x9c59e0eb322f4b35!8m2!3d38.888767!4d-77.0935278
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-beth-singer.jpg"
 layout: singles/event
 ---
