@@ -97,7 +97,8 @@
       In addition to the boolean above, there is a boolean in place to add a class of 'card-even' which will apply 'right: -100px;' to events that have that checkbox set to true to stagger the events.
 
       -->
-      {% for posts in site.events %}
+      {% assign sorted_events = (site.events | sort: 'event-date') %}
+      {% for posts in sorted_events %}
         {% if posts.is-even-on-events-page == true %}
         <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
         {% else %}
