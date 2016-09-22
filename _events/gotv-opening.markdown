@@ -9,7 +9,7 @@ event-venue-name: |-
   2124 8th St NW, Washington, DC 20001
 is-featured-on-home-page: true
 is-even-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/GOTV_web.jpg"
 event-location: 
 layout: singles/event
