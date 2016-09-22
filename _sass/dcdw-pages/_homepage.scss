@@ -88,23 +88,6 @@ img.introduction-illustration {
   }
 }
 
-/*
-.illustration-1 {
-    right: -175px;
-    top: 50px;
-}
-
-.illustration-2 {
-  top: 100px;
-  right: 130px;
-}
-
-.illustration-3 {
-  top: 125px;
-  left: -52px;
-}
-*/
-
 @media screen and (min-width: 831px) {
   .illustration-1 {
     right: -425px;
@@ -122,58 +105,54 @@ img.introduction-illustration {
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   .illustration-1 {
-    right: -250px;
-    top: 170px;
+    right: -115px;
+    top: 60px;
   }
 
   .illustration-2 {
-    top: 150px;
-    right: -10px;
+    top: 97px;
+    right: 84px;
   }
 
   .illustration-3 {
-    top: 115px;
-    left: -142px;
+    top: 119px;
+    left: 23px;
   }
 }
 
 .illustration-1,
 .illustration-2 {
-  width: 850px;
+  width: 825px;
 }
 
 .illustration-3 {
-  width: 925px;
+  width: 900px;
 }
 
 @media screen and (min-width: 831px) {
-  .homepage-events {
-    margin-top: 600px;
-  }
-
+  .homepage-events,
   .homepage-partners {
-    margin-top: 800px;
+    margin-top: 1350px;
   }
 }
 
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
 .floaty {
-  animation: floaty 5000ms ease-in-out infinite;
+  animation: floaty 4000ms ease-in-out infinite;
 }
 
 @keyframes floaty {
-  50% { transform: translate(0, 25px); }
+  50% { transform: translate(0, 40px); }
 }
 
 .reverse-floaty {
-  animation: reverse-floaty 5000ms ease-in-out infinite;
+  animation: reverse-floaty 4000ms ease-in-out infinite;
 }
 
 @keyframes reverse-floaty {
-  50% { transform: translate(0, -25px); }
+  50% { transform: translate(0, -40px); }
 }
 
 @media screen and (min-width: 831px) {
