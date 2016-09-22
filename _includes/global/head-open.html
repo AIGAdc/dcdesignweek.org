@@ -14,10 +14,10 @@
     <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' />
 
     {% if page.layout == 'singles/event.html'%}
-    <meta property="og:url" content="{{post.url}}" />
-    <meta property="og:title" content="{{post.title}}" />
+    <meta property="og:url" content="{{page.url}}" />
+    <meta property="og:title" content="{{page.title}}" />
     <meta property="og:description" content="{{site.meta-og-description}}" />
-    <meta property="og:image"content="{{post.event-bg-image}}" />
+    <meta property="og:image"content="{{page.event-bg-image}}" />
     {% else %}
     <meta property="og:url" content="{{site.meta-og-url}}" />
     <meta property="og:title" content="{{site.meta-og-title}}" />
