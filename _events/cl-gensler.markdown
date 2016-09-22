@@ -16,7 +16,7 @@ layout: singles/event
 
 Join AIGA DC for a series of DC Design Week lunches, as we open the doors to some of the DC area’s creative studios, agencies, and galleries. Grab a bite and get a behind-the-scenes look at some colorful spaces, see works in progress, compare office cultures and methodologies, and rub elbows with creatives whom you might not meet otherwise!
 
-**Lunch is included.** Registration is $10, limited to 50 attendees and is open to **AIGA members first!**
+**Lunch is included.** Registration is $10, limited to 50 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at Gensler 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
 
