@@ -8,7 +8,7 @@ event-venue-name: |-
   Kramerbooks & Afterwords Google Map [LINK]
   1517 Connecticut Ave NW
   Washington, DC 20036
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-even-on-events-page: true
 event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
