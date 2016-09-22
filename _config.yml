@@ -26,52 +26,56 @@ defaults:
     type: events
   values:
     layout: singles/event
-    single-event-header-image: 
-    event-date: 
-    event-venue-name: 
-    event-venue-directions: 
-    is-featured-on-home-page: 
-    is-even-on-home-page: 
-    is-even-on-events-page: 
-    has-speakers: 
+    single-event-header-image:
+    event-date:
+    event-venue-name:
+    event-venue-directions:
+    is-featured-on-home-page:
+    is-even-on-home-page:
+    is-even-on-events-page:
+    has-speakers:
     speakers:
-    - speaker-headshot-image: 
-      speaker-name: 
-      speaker-title: 
-      speaker-bio: 
+    - speaker-headshot-image:
+      speaker-name:
+      speaker-title:
+      speaker-bio:
+    left-button-link:
+    left-button-text:  
+    right-button-link:
+    right-button-text:
 - scope:
     path: ''
     type: sponsors
   values:
-    sponsor-image: 
-    is-even-on-home-page: 
-    is-first-tier: 
-    is-second-tier: 
-    is-third-tier: 
+    sponsor-image:
+    is-even-on-home-page:
+    is-first-tier:
+    is-second-tier:
+    is-third-tier:
 - scope:
     path: ''
     type: dcdw-committee-members
   values:
-    committee-member-headshot-image: 
-    committee-member-name: 
-    committee-member-title: 
-    committee-member-email: 
+    committee-member-headshot-image:
+    committee-member-name:
+    committee-member-title:
+    committee-member-email:
 - scope:
     path: ''
     type: dcdw-creative-team
   values:
-    creative-team-member-headshot-image: 
-    creative-team-member-name: 
-    creative-team-member-title: 
-    creative-team-member-portfolio: 
+    creative-team-member-headshot-image:
+    creative-team-member-name:
+    creative-team-member-title:
+    creative-team-member-portfolio:
 - scope:
     path: ''
     type: speakers
   values:
-    speaker-headshot-image: 
-    speaker-name: 
-    speaker-title: 
-    speaker-bio: 
+    speaker-headshot-image:
+    speaker-name:
+    speaker-title:
+    speaker-bio:
 favicon-image: "/uploads/favicon.ico"
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
