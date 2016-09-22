@@ -10,7 +10,7 @@ event-venue-name: |-
 event-venue-directions: Nearest Metro stop is Clarendon. There is metered street parking,
   a few paid parking lots around the area, and a parking lot behind the building on
   Fillmore Street with some open parking spaces for $5.
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-beth-singer.jpg"
 layout: singles/event
 ---
