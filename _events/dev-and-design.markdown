@@ -7,6 +7,8 @@ event-venue-name: CHIEF
 event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
 is-featured-on-home-page: false
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/design-dev.jpg"
 ---
 
