@@ -28,7 +28,7 @@ Monday, October 24
 
 Viget has a 16-year history of making award-winning digital products, experiences, and tools that inspire customers, extend capabilities, and advance business. Join the team for lunch as they walk through some recent work and share insights to their approach.
 
-**Lunch is included.** Registration is $10, limited to 35 attendees and is open to **AIGA members first!**
+**Lunch is included.** Registration is $10, limited to 35 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at 1.
 
