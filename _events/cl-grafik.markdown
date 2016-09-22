@@ -17,7 +17,7 @@ event-venue-directions: 'Nearest Metros are Braddock Road or King St. Old Town. 
   you will need to turn right on Pendleton and then left into the retail lot. Just
   so you know, there is also three-hour street parking on Pendleton but there is no
   guarantee that spots will be available.     '
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-grafik.jpg"
 layout: singles/event
 ---
