@@ -8,16 +8,16 @@ first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year
   enabling us to stay true to our mission: to advance designing as a professional
   craft, strategic tool and vital cultural force.'
 first-tier-button-text: Join The List
-first-tier-button-link: dcdw@aiga.org
+first-tier-button-link: rica@aigadc.org
 second-tier-header-text: 'DCDW Partner Organizations '
 second-tier-sub-header-text: 
 second-tier-button-text: Join The List
-second-tier-button-link: dcdw@aiga.org
+second-tier-button-link: rica@aigadc.org
 second-tier-bg-color: "#fafafa"
 third-tier-header-text: Event-Specific Sponsors and In-Kind Donors
 third-tier-sub-header-text: 
 third-tier-button-text: Join The List
-third-tier-button-link: dcdw@aiga.org
+third-tier-button-link: rica@aigadc.org
 layout: pages/page-sponsors
 ---
 
