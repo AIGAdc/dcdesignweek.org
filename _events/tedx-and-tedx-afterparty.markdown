@@ -10,7 +10,7 @@ event-venue-name: |-
   Washington DC, 20059
 event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 speakers:
 - speaker-headshot-image: "/uploads/tedx-lupton.jpg"
   speaker-name: Ellen Lupton
