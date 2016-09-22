@@ -7,9 +7,14 @@
       <span class="p3 block relative mb1">
         <h2 class="bbroller m0 text-x-large white lh-tight">{{ page.event-date | date: "%A / %B %d / %I %p"}}</h2>
       </span>
-      <a href="#" class="bbroller m0 ml3 px3 py1 button button-white">
-        Grab Your Ticket
+      <a href="{{ page.left-button-link }}" class="left-button bbroller m0 ml3 px3 py1 button button-white">
+        {{ page.left-button-text }}
       </a>
+      {% comment %}
+      <a href="{{ page.right-button-link }}" class="right-button bbroller m0 ml3 px3 py1 button button-white">
+        {{ page.right-button-text }}
+      </a>
+      {% endcomment %}
     </div>
   </div>
 </section>
