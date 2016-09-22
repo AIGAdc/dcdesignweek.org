@@ -15,7 +15,7 @@ get-out-vote-body-text: In the spirit of ideas worth spreading, TEDx is a progra
   of local, self-organized events that bring people together to share a TED-like experience.
   At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion
   and connection in a small group.
-gallery-opening-image: 
+gallery-opening-image: "/uploads/cl-gallery-nk.jpg"
 gallery-opening-header-text: Gallery Opening
 gallery-opening-body-text: In the spirit of ideas worth spreading, TEDx is a program
   of local, self-organized events that bring people together to share a TED-like experience.
