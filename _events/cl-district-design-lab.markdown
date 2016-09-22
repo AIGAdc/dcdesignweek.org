@@ -8,7 +8,7 @@ event-venue-name: "District Design Lab \nMonroe St Market NE, Studio 17 \nWashin
 event-venue-directions: 'Nearest Metro is Brookland-CUA. The studio is located on
   the Art Walk street level. '
 is-even-on-events-page: true
-event-bg-image: "/uploads/cl-design-lab.jpg"
+event-bg-image: "/uploads/cl-design-lab-event.jpg"
 layout: singles/event
 ---
 
