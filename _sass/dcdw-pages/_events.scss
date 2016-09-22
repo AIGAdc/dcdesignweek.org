@@ -2,6 +2,7 @@
 .featured-event-card,
 .event-card {
 	margin: 2.5em 0;
+	min-height: 475px !important;
 }
 
 .event-image {
@@ -10,7 +11,7 @@
 }
 
 .event-details {
-	min-height: 175px;
+	min-height: 150px;
 	border: solid 3px $black;
 }
 
