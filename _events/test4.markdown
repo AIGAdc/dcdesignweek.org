@@ -9,7 +9,7 @@ event-venue-name: |-
   1300 4th St NE, Washington, DC, United States
 is-featured-on-home-page: true
 is-even-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-closing.jpg"
 event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
