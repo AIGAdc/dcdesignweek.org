@@ -6,7 +6,7 @@ single-event-header-image: "/uploads/andpizza.jpg"
 event-date: 2016-10-25 18:00:00 -04:00
 event-venue-name: "&pizza CHINATOWN \n705 H Street NW\n2nd floor"
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/andpizza.jpg"
 layout: singles/event
 ---
