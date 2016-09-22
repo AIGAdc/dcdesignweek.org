@@ -7,4 +7,3 @@ creative-team-member-title: Designer/b-boy
 creative-team-member-portfolio: nicegreg.com
 ---
 
-Creative Director, from KC, now DC. Has worked in comics and games. Loves sad novels, good coffee, and weird roleplaying games.
