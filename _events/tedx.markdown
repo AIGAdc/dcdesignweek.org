@@ -7,7 +7,7 @@ event-date: 2016-10-26 09:00:00 -04:00
 event-venue-name: "Kramerbooks & Afterwords Google Map \n1517 Connecticut Ave NW\nWashington,
   DC 20036"
 is-featured-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
 ---
