@@ -6,6 +6,8 @@ event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: 'District Design Lab '
 event-venue-directions: https://www.google.com/maps/place/Monroe+Street+Market/@38.9323675,-76.9982831,17z/data=!4m8!1m2!2m1!1sMonroe+St+Market+NE,+Studio+17++Washington,+DC+!3m4!1s0x89b7c7ee28fdcef7:0x420d44886032c18b!8m2!3d38.931907!4d-76.996965
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-design-lab-event.jpg"
 layout: singles/event
 ---
