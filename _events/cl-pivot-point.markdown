@@ -6,6 +6,8 @@ event-date: 2016-10-25 12:00:00 -04:00
 event-venue-name: Crystal City WeWork
 event-venue-directions: https://www.google.com/maps/place/WeWork+Crystal+City/@38.8539538,-77.0538223,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b72927054b7b:0xbb046c59ecc215ac!8m2!3d38.8539538!4d-77.0516336
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-pivot-point-bdb8cf.jpg"
 layout: singles/event
 ---
