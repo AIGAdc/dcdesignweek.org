@@ -27,4 +27,4 @@ layout: singles/event
 
 Maybe you've seen the hashtag. Maybe you've used the hashtag. And if you have, you definitely love the feed. Join us and Morgan H. West, the founder of A Creative DC, for a conversation about her use of new media to build a gathering space for thousands of DC creatives both on and offline.
 
-AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only. **Want to enjoy this member benefit? Check out AIGA’s new membership structure and join today: http://www.aiga.org/join/.(aiga.org/join)
+AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only. **Want to enjoy this member benefit? Check out AIGA’s new membership structure and join today: [http://www.aiga.org/join/.](aiga.org/join)
