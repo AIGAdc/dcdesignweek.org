@@ -11,12 +11,14 @@ first-tier-button-text: Interested in joining the list? We'd love to hear from y
   Reach out to [Rica Rosario](mailto:rica@aigadc.org) to start the conversation.
 first-tier-button-link: rica@aigadc.org
 second-tier-header-text: 'DCDW Partner Organizations '
-second-tier-sub-header-text: 
+second-tier-sub-header-text: High fives and fist bumps to our DC Design Week partner
+  organizations who helped shape and produce the lineup of amazing events and content.
 second-tier-button-text: Join The List
 second-tier-button-link: rica@aigadc.org
 second-tier-bg-color: "#fafafa"
-third-tier-header-text: Event-Specific Sponsors and In-Kind Donors
-third-tier-sub-header-text: 
+third-tier-header-text: In-Kind Donors
+third-tier-sub-header-text: Big thanks to our in-kind donors for your support and
+  generosity!
 third-tier-button-text: Join The List
 third-tier-button-link: rica@aigadc.org
 layout: pages/page-sponsors
