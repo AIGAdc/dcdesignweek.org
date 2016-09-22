@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Beth Singer Design'
 date: 2016-08-02 22:14:00 -04:00
-single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+single-event-header-image: "/uploads/cl-beth-singer.jpg"
 event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: |-
   1408 N Fillmore Street
@@ -11,7 +11,7 @@ event-venue-directions: Nearest Metro stop is Clarendon. There is metered street
   a few paid parking lots around the area, and a parking lot behind the building on
   Fillmore Street with some open parking spaces for $5.
 is-even-on-events-page: true
-event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-bg-image: "/uploads/cl-beth-singer.jpg"
 layout: singles/event
 ---
 
@@ -19,19 +19,6 @@ Beth Singer Design is a design communications firm specializing in nonprofit org
 
 Beth Singer Design will share with you their 35-year journey marrying passion for design and doing good in the world...and where it has led them (some very interesting places!). Additionally, they will discuss YOUR LEGACY: How will you make your mark on the world beyond your work? How can you make a lasting effect on others using design? And how will you ensure your efforts live beyond your lifetime?
 
-**Lunch is included. ** Registration is $10, limited to 15 attendees and is open to **AIGA members first!**
-  
-Please plan to arrive at Beth Singer Design 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
+**Lunch is included.** Registration is $10, limited to 15 attendees and is open to **AIGA members first!**
 
-##Other Creative Lunches
-PETAL at Gallery NK 
-Viget 
-Vox Media 
-Pivot Point 
-Beth Singer Design
-Human Rights Campaign 
-Grafik 
-Blue State Digital 
-Streetsense 
-District Design Lab 
-Gensler
+Please plan to arrive at Beth Singer Design 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
