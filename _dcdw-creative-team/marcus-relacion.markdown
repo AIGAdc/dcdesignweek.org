@@ -7,4 +7,3 @@ creative-team-member-title: Web Designer & Developer
 creative-team-member-portfolio: marcusrelacion.com
 ---
 
-Creative Director, from KC, now DC. Has worked in comics and games. Loves sad novels, good coffee, and weird roleplaying games.
