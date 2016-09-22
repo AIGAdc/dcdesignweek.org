@@ -141,12 +141,17 @@ article hr {
   }
 }
 
-/* Home Partners */
+/* controls how sponsors look across the site */
 .sponsor-logo {
-  min-height: 110px;
+  min-height: 175px;
   width: 100%;
   text-align: center;
-  margin: 2em 0;
+  margin: 2.2em 0;
+}
+
+/* ensures image fills space of container */
+.sponsor-logo img {
+  width: 100%;
 }
 
 @media screen and (min-width:640px) {

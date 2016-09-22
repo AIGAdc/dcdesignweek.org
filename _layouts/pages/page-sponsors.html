@@ -14,7 +14,7 @@
           <div class="sm-col sm-col-12 md-col-2 py1"></div>
           <div class="sm-col sm-col-12 md-col-10">
             <ul class="overflow-hidden">
-              {% for posts in site.sponsors limit:8 %}
+              {% for posts in site.sponsors %}
                 {% if posts.is-first-tier == true %}
                   <li class="sponsor-logo sm-col sm-col-12 md-col-3 inline-block p1">
                     <img src="{{ posts.sponsor-image }}">
@@ -34,7 +34,7 @@
         </div>
       </section>
 
-      <section class="second-tier py4" style="background-color: {{page.second-tier-bg-color}}">
+      <section class="second-tier py4">
         <div class="container clearfix p3">
           <div class="sm-col sm-col-12 md-col-1 py1"></div>
           <div class="sm-col sm-col-12 md-col-11">
@@ -47,7 +47,7 @@
           <div class="sm-col sm-col-12 md-col-2 py1"></div>
           <div class="sm-col sm-col-12 md-col-10">
             <ul class="overflow-hidden">
-              {% for posts in site.sponsors limit:8 %}
+              {% for posts in site.sponsors %}
                 {% if posts.is-second-tier == true %}
                   <li class="sponsor-logo sm-col sm-col-12 md-col-3 inline-block p1">
                     <img src="{{ posts.sponsor-image }}">
@@ -67,7 +67,7 @@
         </div>
       </section>
 
-      <section class="third-tier py4" style="background-color: {{page.third-tier-bg-color}}">
+      <section class="third-tier py4">
         <div class="container clearfix p3">
           <div class="sm-col sm-col-12 md-col-1 py1"></div>
           <div class="sm-col sm-col-12 md-col-11">
@@ -80,7 +80,7 @@
           <div class="sm-col sm-col-12 md-col-2 py1"></div>
           <div class="sm-col sm-col-12 md-col-10">
             <ul class="overflow-hidden">
-              {% for posts in site.sponsors limit:8 %}
+              {% for posts in site.sponsors %}
                 {% if posts.is-third-tier == true %}
                   <li class="sponsor-logo sm-col sm-col-12 md-col-3 inline-block p1">
                     <img src="{{ posts.sponsor-image }}">
