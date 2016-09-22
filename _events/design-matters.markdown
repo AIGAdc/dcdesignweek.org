@@ -7,7 +7,7 @@ event-venue-name: |-
   The National Building Museum
   401 F St NW, Washington, DC 20001
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/designmatters.jpg"
 ---
 
