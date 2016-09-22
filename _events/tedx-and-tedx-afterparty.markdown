@@ -38,6 +38,8 @@ speakers:
     the presidential family quarters, the public tour route displays, and Camp David,
     an imposing portfolio of literally thousands of large and small events, floral
     arrangements, table settings, and innovative volunteer projects.
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-location: https://www.google.com/maps?cid=17935525282803673115
 event-bg-image: "/uploads/TEDx_MidAtlantic2.jpg"
 layout: singles/event
