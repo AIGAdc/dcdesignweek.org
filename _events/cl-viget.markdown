@@ -4,10 +4,7 @@ date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/cl-viget.jpg"
 event-date: 2016-10-25 13:00:00 -04:00
 event-venue-name: Viget
-event-venue-directions: Nearest Metro stop is East Falls Church and requires a short
-  taxi to the office. If driving, there is free parking in George Mason Square parking
-  garage located at 103 W. Broad St.  Once you are in the building, take the elevator
-  to 5th floor.
+event-venue-directions: https://www.google.com/maps/place/Viget/@38.88236,-77.1739087,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b4bf56daf821:0x57e006f859990b48!8m2!3d38.88236!4d-77.17172
 is-featured-on-home-page: false
 is-even-on-events-page: false
 event-bg-image: "/uploads/cl-viget.jpg"
@@ -32,3 +29,5 @@ Viget has a 16-year history of making award-winning digital products, experience
 **Lunch is included.** Registration is $10, limited to 35 attendees and is open to **AIGA members first!**
 
 Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at 1.
+
+Nearest Metro stop is East Falls Church and requires a short taxi to the office. If driving, there is free parking in George Mason Square parking garage located at 103 W. Broad St.  Once you are in the building, take the elevator to 5th floor.
