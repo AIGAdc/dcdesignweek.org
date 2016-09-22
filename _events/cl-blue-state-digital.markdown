@@ -7,7 +7,7 @@ event-venue-name: "Blue State Digital \n406 7th St NW, 3rd Floor\nWashington, DC
 event-venue-directions: Nearest Metros are Gallery Place/Chinatown and Archives/Navy
   Memorial. Limited street parking. Paid parking lots available on 8th St NW and on
   E St.
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-bluestate-5b83f8.jpg"
 layout: singles/event
 ---
