@@ -3,11 +3,12 @@ title: Sponsors
 date: 2016-08-01 21:34:00 -04:00
 permalink: "/sponsors/"
 position: 3
-first-tier-header-text: AIGA DC Sustaining Sponsors
+first-tier-header-text: AIGA DC Sustaining Partners
 first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
   enabling us to stay true to our mission: to advance designing as a professional
   craft, strategic tool and vital cultural force.'
-first-tier-button-text: Join The List
+first-tier-button-text: Interested in joining the list? We'd love to hear from you.
+  Reach out to [Rica Rosario](mailto:rica@aigadc.org) to start the conversation.
 first-tier-button-link: rica@aigadc.org
 second-tier-header-text: 'DCDW Partner Organizations '
 second-tier-sub-header-text: 
@@ -25,4 +26,4 @@ layout: pages/page-sponsors
 
 ---
 
-DC Design Week is produced by a 501(3)c non-profit and therefore relies on the goodness of others. Major thanks to the following partners for supporting us so that we can continue to deliver this event year after year to the DC design community!
+DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, Meetup groups and small businesses. We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community. We couldn't do it without you!
