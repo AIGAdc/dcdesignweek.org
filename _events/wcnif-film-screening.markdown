@@ -10,7 +10,7 @@ event-venue-name: |-
   Arlington, VA 22209
 is-featured-on-home-page: true
 is-even-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/WhatComesNext.jpg"
 event-location: 
 layout: singles/event
