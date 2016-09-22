@@ -2,7 +2,7 @@
 title: TEDx MidAtlantic
 date: 2016-07-03 09:51:00 -04:00
 position: 8
-single-event-header-image: "/uploads/TEDx_MidAtlantic.jpg"
+single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
 event-date: 2016-10-21 09:00:00 -04:00
 event-venue-name: |-
   Sidney Harman Hall
@@ -41,7 +41,7 @@ speakers:
     an imposing portfolio of literally thousands of large and small events, floral
     arrangements, table settings, and innovative volunteer projects.
 event-location: https://www.google.com/maps?cid=17935525282803673115
-event-bg-image: "/uploads/TEDx_MidAtlantic_event.jpg"
+event-bg-image: "/uploads/TEDx_MidAtlantic2.jpg"
 layout: singles/event
 ---
 
