@@ -7,6 +7,7 @@ event-venue-name: 'Hirshhorn Museum and Sculpture Garden '
 event-venue-directions: https://www.google.com/maps/place/Hirshhorn+Museum/@38.8879403,-77.0252522,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b79cb8691d87:0x350463c3785a7599!8m2!3d38.8879403!4d-77.0230635
 is-featured-on-home-page: true
 is-even-on-events-page: false
+has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/cm-lynn-myers.jpg"
   speaker-name: Linn Meyers
