@@ -129,11 +129,11 @@
               <hr class="title-divider">
               <!-- Event Time | ex: 06 PM -->
               <p class="bbroller m0 black text-default">
-                {{ posts.event-date | date: "%I %p"}}
+                <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
               </p>
               <!-- Event Venue  -->
-              <a href="{{ posts.event-venue-directions | strip_html }}" class="m0 black text-default">
-                {{posts.event-venue-name}}
+              <a class="m0 black text-default" href="{{ posts.event-venue-directions }}" target="_blank">
+                <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
               </a>
             </div>
           </a>
