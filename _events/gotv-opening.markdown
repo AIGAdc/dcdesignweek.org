@@ -4,9 +4,10 @@ date: 2016-07-03 09:52:00 -04:00
 position: 3
 single-event-header-image: "/uploads/GOTV_web.jpg"
 event-date: 2016-10-23 14:00:00 -04:00
+is-featured-on-home-page: true
 is-even-on-home-page: true
 is-even-on-events-page: true
-event-bg-image: "/uploads/test%20image.jpeg"
+event-bg-image: "/uploads/GOTV_web.jpg"
 event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
 ---
@@ -15,7 +16,8 @@ Mix, mingle, clink and drink a glass of champagne to toast the opening of the DC
 
 When you’re done perusing the posters, head next door to the DCDW pop-up shop filled with items that were made in DC. Thanks to our friends at Cherry Blossom Collective, Washington Project for the Arts and Typecase Industries. Open all week. Main headquarters for DCDW.
 
-![wpa-logo-background-2x.png](/uploads/wpa-logo-background-2x.png)
+## Washington Project for the Arts
+
 Washington Project for the Arts (WPA) is an artist-centered catalyst for the creation and presentation of contemporary art. We are the only DC-area organization to support visual artists at all stages of their careers.
 
 ## Cherry Blossom Creative
