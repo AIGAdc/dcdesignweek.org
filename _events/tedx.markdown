@@ -10,12 +10,16 @@ event-bg-image: "/uploads/test%20image.jpeg"
 layout: singles/event
 ---
 
+## In the Company of Women
+
 Join us for a conversation with Grace Bonney, founder of [Design*Sponge](http://www.designsponge.com/) and author of the newly released, In the Company of Women. Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, Tina Johnson[LINK to https://www.linkedin.com/in/tjmarcel], Flagship content director at Capital One.
 
 Sign up soon! The first fifteen registrants will receive a free copy of the book.
 
-Registration opens on October 4!
-AIGA DC Salons are free, intimate roundtable discussions open to AIGA members FIRST. Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for $50 a year today:http://www.aiga.org/join/.
+## Registration opens on October 4!
+
+AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for only $50 a year today: [http://www.aiga.org/join/.](aiga.org/join)
+
 
 Date & Time
 Wednesday, October 26, 2016
