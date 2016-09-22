@@ -1,3 +1,4 @@
+{% if page.has-speakers == true %}
 <section class="single-event-speakers pt4">
   <div class="container clearfix relative p3">
     <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
@@ -32,3 +33,5 @@
     <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
   </div>
 </section>
+{% else %}
+{% endif %}
