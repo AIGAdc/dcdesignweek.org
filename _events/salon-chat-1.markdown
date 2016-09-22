@@ -6,7 +6,7 @@ single-event-header-image: "/uploads/salon-creative-dc.jpg"
 event-date: 2016-10-24 14:30:00 -04:00
 event-venue-name: "ShareSpace DC \n2121 14th St NW, Washington, DC 20009"
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/acreativedc_event.jpg"
 event-location: 
 layout: singles/event
