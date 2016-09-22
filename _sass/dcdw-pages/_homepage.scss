@@ -20,21 +20,21 @@
 
 span.white-bar {
   width: 600px;
-  bottom: -600px;
+  bottom: 25px;
   left: -290px;
 }
 
 /* targets the height of a 13" mbp */
 @media screen and (max-height: 361px) {
   span.white-bar{
-    bottom: -425px;
+
   }
 }
 
 /* targets the height of a 15" mbp */
 @media screen and (max-height: 803px) {
   span.white-bar{
-    bottom: -555px;
+
   }
 }
 
@@ -66,6 +66,13 @@ span.white-bar {
 
   .white-bar img {
     max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  span.white-bar {
+    width: 1200px;
+    left: -600px;
   }
 }
 
