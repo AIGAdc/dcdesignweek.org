@@ -6,7 +6,7 @@ event-date: 2016-10-28 08:30:00 -04:00
 event-venue-name: "Hirshhorn Museum and Sculpture Garden \n700 Independence Ave SW\nWashington,
   DC 20560"
 is-featured-on-home-page: true
-is-even-on-events-page: true
+is-even-on-events-page: false
 speakers:
 - speaker-headshot-image: "/uploads/cm-lynn-myers.jpg"
   speaker-name: Linn Meyers
