@@ -6,7 +6,7 @@ event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 ---
 
