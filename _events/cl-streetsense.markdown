@@ -11,7 +11,7 @@ event-venue-directions: Nearest Metro is Bethesda. Streetsense is located direct
   above the station on the Plaza level of 3 Bethesda Metro Center. There is paid parking
   available in Bethesda Metro Center, along with street parking and multiple parking
   garages around downtown Bethesda.
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-streetsence.jpg"
 layout: singles/event
 ---
