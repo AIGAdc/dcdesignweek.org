@@ -12,9 +12,9 @@ event-bg-image: "/uploads/cl-bluestate-5b83f8.jpg"
 layout: singles/event
 ---
 
-#Channeling Change 
-From President Obama's election and re-election campaigns to civil rights movements and environmental causes, Blue State Digital is an agency and technology company that's been helping clients create change since 2004. 
-Over lunch, BSD DC creative team will share insights about the organization's mission and culture, and show examples of how they have helped leading nonprofits, advocacy groups, and brands build communities and inspire action. 
+## Channeling Change
+From President Obama's election and re-election campaigns to civil rights movements and environmental causes, Blue State Digital is an agency and technology company that's been helping clients create change since 2004.
+Over lunch, BSD DC creative team will share insights about the organization's mission and culture, and show examples of how they have helped leading nonprofits, advocacy groups, and brands build communities and inspire action.
 
 **Lunch is included.** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
 
