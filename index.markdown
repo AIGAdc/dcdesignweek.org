@@ -12,8 +12,8 @@ dc-design-paragraph-2-text: October we’re coming together to celebrate. Join u
   DC Design Week. This year we’re going bigger than ever with new partners, new venues,
   new event formats, and new ways to interact with DC’s unique design community. You
   won’t want to miss this.
-home-events-header-text: Events
-home-events-sub-header-text: Connect, inspire, & celebrate
+home-events-header-text: Featured Events
+home-events-sub-header-text: 
 home-events-button-text: View Full Schedule
 home-partners-header-text: Partners
 home-partners-sub-header-text: DC Design Week is produced by a 501(3)c non-profit
