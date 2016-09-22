@@ -7,7 +7,7 @@ event-venue-name: |-
   Crystal City WeWork
   2221 S Clark St
   Arlington, VA 22202
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-pivot-point-bdb8cf.jpg"
 layout: singles/event
 ---
