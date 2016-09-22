@@ -6,6 +6,7 @@ single-event-header-image: "/uploads/cl-gensler.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: "Gensler DC\nK Street Center for Graduate Education, \n2020 K St
   NW\nWashington, DC 20006"
+is-featured-on-home-page: true
 is-even-on-events-page: true
 event-bg-image: "/uploads/cl-gensler.jpg"
 layout: singles/event
