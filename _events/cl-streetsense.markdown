@@ -12,7 +12,7 @@ layout: singles/event
 
 Streetsense is an experience-focused strategy and design collective. Experts in the real estate, retail, and hospitality industries, they create brands people love and places people love to be. With an un-disciplined approach and an insight-driven worldview, they impact experiences at every level and at every scale – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss what they do at Streetsense, what inspires them, and some of their very favorite projects.
 
-**Lunch will be provided.** Registration is $10, limited to 25 attendees and is open to **AIGA members first!**
+**Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at streetsense 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
 
