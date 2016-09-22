@@ -20,4 +20,4 @@ Over lunch, BSD DC creative team will share insights about the organization's mi
 
 Please plan to arrive at BSD 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
 
-Nearest Metros are Gallery Place/Chinatown and Archives/Navy Memorial. Limited street parking. Paid parking lots available on 8th St NW and on E St.
+Nearest Metro stops are Gallery Place/Chinatown and Archives/Navy Memorial. Limited street parking. Paid parking lots available on 8th St NW and on E St.

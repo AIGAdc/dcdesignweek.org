@@ -1,5 +1,5 @@
 ---
-title: Creative Mornings | Linn Meyers
+title: CreativeMornings | Linn Meyers
 date: 2016-09-22 01:43:00 -04:00
 single-event-header-image: "/uploads/creative-mornings.jpg"
 event-date: 2016-10-28 08:30:00 -04:00
