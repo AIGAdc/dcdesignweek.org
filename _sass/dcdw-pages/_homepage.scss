@@ -91,25 +91,23 @@ img.introduction-illustration {
 
 @media screen and (min-width: 831px) {
   .dc-is-design {
-    padding-top: 250px;
+    padding-top: 50px;
+  }
+
+  .homepage-events {
+    margin-top: 200px;
+  }
+
+  .homepage-partners {
+    margin-top: 50px;
   }
 }
 
-@media screen and (min-width: 831px) {
-  .illustration-1 {
-    right: -425px;
-    top: 170px;
+@media screen and (min-width: 1024px) {
+  .dc-is-design {
+    padding-top: 250px;
   }
 
-  .illustration-2 {
-    top: 120px;
-    right: -100px;
-  }
-
-  .illustration-3 {
-    top: 115px;
-    left: -142px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -138,7 +136,7 @@ img.introduction-illustration {
   width: 900px;
 }
 
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 1024px) {
   .homepage-events,
   .homepage-partners {
     margin-top: 1350px;
