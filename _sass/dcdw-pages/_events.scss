@@ -115,6 +115,16 @@ a.schedule-link {
 	bottom: 0;
 }
 
+.single-event-speaker-text h3 {
+	font-size: 32px;
+}
+
+.single-event-speaker-text h6 {
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+
 @media screen and (min-width: 831px) {
 	.single-event-header {
 		margin-top: 5em;
@@ -122,6 +132,10 @@ a.schedule-link {
 
 	span.event-title-header {
 		min-width: 105%;
+	}
+
+	.single-event-speaker-text {
+		text-align: left;
 	}
 }
 
