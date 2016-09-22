@@ -13,10 +13,17 @@
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
     <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' />
 
+    {% if page.layout == 'singles/event.html'%}
+    <meta property="og:url" content="{{post.url}}" />
+    <meta property="og:title" content="{{post.title}}" />
+    <meta property="og:description" content="{{site.meta-og-description}}" />
+    <meta property="og:image"content="{{post.event-bg-image}}" />
+    {% else %}
     <meta property="og:url" content="{{site.meta-og-url}}" />
     <meta property="og:title" content="{{site.meta-og-title}}" />
     <meta property="og:description" content="{{site.meta-og-description}}" />
     <meta property="og:image"content="{{site.meta-og-image}}" />
+    {% endif %}
 
     <!-- begin styles, fonts, icon fonts -->
     <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css"/>
