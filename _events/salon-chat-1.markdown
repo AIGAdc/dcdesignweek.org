@@ -1,5 +1,5 @@
 ---
-title: DCDW Salon with Morgan West, Founder of A Creative DC
+title: Salon with Morgan West, Founder of A Creative DC
 date: 2016-07-03 09:51:00 -04:00
 position: 6
 single-event-header-image: "/uploads/salon-creative-dc.jpg"
