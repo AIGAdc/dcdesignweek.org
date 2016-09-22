@@ -9,6 +9,8 @@ event-venue-directions: https://www.google.com/maps/place/Neal+Place+Tap+%2B+Gar
 is-featured-on-home-page: true
 is-even-on-home-page: false
 is-even-on-events-page: false
+left-button-link: "#"
+left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-closing.jpg"
 event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
