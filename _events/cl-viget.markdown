@@ -9,7 +9,7 @@ event-venue-directions: Nearest Metro stop is East Falls Church and requires a s
   garage located at 103 W. Broad St.  Once you are in the building, take the elevator
   to 5th floor.
 is-featured-on-home-page: false
-is-even-on-events-page: true
+is-even-on-events-page: false
 event-bg-image: "/uploads/cl-viget.jpg"
 layout: singles/event
 ---
