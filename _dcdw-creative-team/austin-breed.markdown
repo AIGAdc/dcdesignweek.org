@@ -1,7 +1,7 @@
 ---
 title: Austin Breed
 date: 2016-08-08 21:20:00 -04:00
-creative-team-member-headshot-image: "/uploads/austinbreed.jpg"
+creative-team-member-headshot-image: "/uploads/austinbreed_360.jpg"
 creative-team-member-name: Austin Breed
 creative-team-member-title: Illustrator
 creative-team-member-portfolio: austinbreed.com
