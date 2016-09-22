@@ -1,14 +1,14 @@
 ---
 title: 'Creative Lunch: Blue State Digital'
 date: 2016-08-02 22:14:00 -04:00
-single-event-header-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+single-event-header-image: "/uploads/cl-bluestate.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: "Blue State Digital \n406 7th St NW, 3rd Floor\nWashington, DC 20004"
 event-venue-directions: Nearest Metros are Gallery Place/Chinatown and Archives/Navy
   Memorial. Limited street parking. Paid parking lots available on 8th St NW and on
   E St.
 is-even-on-events-page: true
-event-bg-image: "/uploads/jCCsCae7RwCDOKTCA2Ji_reggeli---sonka%CC%81s-szendvics.jpg"
+event-bg-image: "/uploads/cl-bluestate-5b83f8.jpg"
 layout: singles/event
 ---
 
