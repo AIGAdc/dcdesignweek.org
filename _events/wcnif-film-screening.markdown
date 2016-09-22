@@ -4,6 +4,10 @@ date: 2016-07-03 09:52:00 -04:00
 position: 4
 single-event-header-image: "/uploads/WhatComesNext.jpg"
 event-date: 2016-10-28 18:00:00 -04:00
+event-venue-name: |-
+  Deloitte Digital
+  1919 N Lynn St
+  Arlington, VA 22209
 is-featured-on-home-page: true
 is-even-on-home-page: false
 is-even-on-events-page: true
