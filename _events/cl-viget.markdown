@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Viget'
 date: 2016-08-02 22:14:00 -04:00
 single-event-header-image: "/uploads/cl-viget.jpg"
-event-date: 2016-10-25 13:00:00 -04:00
+event-date: 2016-10-24 13:00:00 -04:00
 event-venue-name: Viget
 event-venue-directions: https://www.google.com/maps/place/Viget/@38.88236,-77.1739087,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b4bf56daf821:0x57e006f859990b48!8m2!3d38.88236!4d-77.17172
 is-featured-on-home-page: false
@@ -12,19 +12,6 @@ left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-viget.jpg"
 layout: singles/event
 ---
-
-## Creative Lunch: Viget
-
-Location
-Viget
-105 West Broad Street, 5th Floor,
-Falls Church, VA 22046
-
-Date & Time:
-Monday, October 24
-1pm - 2pm
-
-## Event Description
 
 Viget has a 16-year history of making award-winning digital products, experiences, and tools that inspire customers, extend capabilities, and advance business. Join the team for lunch as they walk through some recent work and share insights to their approach.
 
