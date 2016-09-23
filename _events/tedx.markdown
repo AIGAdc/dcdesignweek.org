@@ -2,6 +2,7 @@
 title: 'Salon: Grace Bonney founder of Design*Sponge'
 date: 2016-07-03 09:51:00 -04:00
 position: 7
+is-wednesday: true
 single-event-header-image: "/uploads/grace-boney.jpg"
 event-date: 2016-10-26 09:00:00 -04:00
 event-venue-name: Kramerbooks & Afterwords
