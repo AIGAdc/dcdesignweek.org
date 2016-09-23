@@ -24,8 +24,8 @@
       <ul class="social-icons">
         {% for posts in site.social-media %}
           <li class="inline-block">
-            <a class="social-footer-links text-medium white px1" href="{{ posts.social-media-link }}">
-              <i class="fa fa-{{ posts.social-media-link }}" aria-hidden="true"></i>
+            <a class="social-footer-links text-medium white px1" href="{{posts.social-media-link}}">hi
+              <i class="fa {{posts.social-media-link}}" aria-hidden="true"></i>
             </a>
           </li>
         {% endfor %}
