@@ -14,6 +14,9 @@ collections:
   posts:
     title: Posts
     output: true
+  social-media:
+    title: Social-Media
+    output: true
   sponsors:
     title: Sponsors
     output: false
