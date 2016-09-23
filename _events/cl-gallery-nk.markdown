@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Gallery NK'
 date: 2016-09-20 21:42:00 -04:00
+is-wednesday: true
 single-event-header-image: "/uploads/cl-gallery-nk.jpg"
 event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
