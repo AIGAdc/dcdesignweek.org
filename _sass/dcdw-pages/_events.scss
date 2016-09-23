@@ -5,20 +5,19 @@
 }
 
 .event-image {
+	max-height: 200px;
 	height: auto;
-	max-height: 225px;
 	border: solid 3px $black;
 }
 
 .event-details {
-	min-height: 150px;
 	border: solid 3px $black;
+	min-height: 190px;
 }
 
 @media screen and (min-width: 640px) {
 	.event-card {
 		padding: 0 0.5em;
-		min-height: 525px;
 	}
 }
 

@@ -149,10 +149,28 @@
 </section>
 {% endcomment %}
 
+<section class="kickoff-friday relative">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Friday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-kickoff-friday == true %}
+          {% include partials/events/kickoff-friday.html %}
+        {% else %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="sunday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Sunday, 23rd</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Sunday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -169,8 +187,8 @@
 
 <section class="monday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Monday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Monday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -187,8 +205,8 @@
 
 <section class="tuesday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Tuesday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Tuesday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -205,8 +223,8 @@
 
 <section class="wednesday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Wednesday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Wednesday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -223,8 +241,8 @@
 
 <section class="thursday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Thursday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Thursday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -241,8 +259,8 @@
 
 <section class="friday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Friday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Friday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
@@ -259,8 +277,8 @@
 
 <section class="saturday relative">
   <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 250px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Saturday</h1>
+    <div class="sm-col sm-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Saturday</h1>
     </div>
     <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
