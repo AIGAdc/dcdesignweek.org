@@ -8,4 +8,5 @@ creative-team-member-title: Illustrator
 
 Illustrative designer from the Midwest. Creative Director at Peer Insight, has drawn for IDW, Boom! Studios, and indie games.
 
+[@austinbreed](https://twitter.com/austinbreed)
 [austinbreed.com](http://austinbreed.com/)
