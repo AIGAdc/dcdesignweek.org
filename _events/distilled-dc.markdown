@@ -2,6 +2,7 @@
 title: Distilled DC
 date: 2016-08-02 22:08:00 -04:00
 position: 1
+is-thursday: true
 single-event-header-image: "/uploads/destil-dc.jpg"
 event-date: 2016-10-27 19:00:00 -04:00
 event-venue-name: Republic Restoratives
