@@ -13,7 +13,7 @@ is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/GOTV_web.jpg"
-event-location: 
+event-location:
 layout: singles/event
 ---
 
