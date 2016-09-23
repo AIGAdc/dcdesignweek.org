@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Human Rights Campaign'
 date: 2016-08-02 22:14:00 -04:00
+published: false
 single-event-header-image: "/uploads/cl-hrc.jpg"
 event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: Human Rights Campaign
