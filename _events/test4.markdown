@@ -2,6 +2,7 @@
 title: Design Week - Closing Party
 date: 2016-07-03 09:52:00 -04:00
 position: 5
+is-featured-on-events-page: true
 is-saturday: true
 single-event-header-image: "/uploads/cl-closing.jpg"
 event-date: 2016-10-29 13:00:00 -04:00
