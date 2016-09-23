@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Beth Singer Design'
 date: 2016-08-02 22:14:00 -04:00
+is-wednesday: true
 single-event-header-image: "/uploads/cl-beth-singer.jpg"
 event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: Beth Singer Design

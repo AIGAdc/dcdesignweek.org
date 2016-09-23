@@ -1,6 +1,7 @@
 ---
 title: 'Dev & Design: Harmony in the Digital Space'
 date: 2016-09-22 00:47:00 -04:00
+is-monday: true
 single-event-header-image: "/uploads/design-dev.jpg"
 event-date: 2016-10-24 18:00:00 -04:00
 event-venue-name: CHIEF

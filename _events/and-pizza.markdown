@@ -2,6 +2,7 @@
 title: Drink & Draw &pizza
 date: 2016-08-02 22:08:00 -04:00
 position: 2
+is-tuesday: true
 single-event-header-image: "/uploads/andpizza.jpg"
 event-date: 2016-10-25 18:00:00 -04:00
 event-venue-name: "&pizza"

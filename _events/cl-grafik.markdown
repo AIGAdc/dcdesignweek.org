@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Grafik'
 date: 2016-08-02 22:14:00 -04:00
+is-thursday: true
 single-event-header-image: "/uploads/cl-grafik.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: Grafik
