@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: District Design Lab'
 date: 2016-08-02 22:13:00 -04:00
+is-friday: true
 single-event-header-image: "/uploads/cl-design-lab.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: 'District Design Lab '
