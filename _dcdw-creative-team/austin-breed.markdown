@@ -6,3 +6,6 @@ creative-team-member-name: Austin Breed
 creative-team-member-title: Illustrator
 ---
 
+Illustrative designer from the Midwest. Creative Director at Peer Insight, has drawn for IDW, Boom! Studios, and indie games.
+
+[austinbreed.com](http://austinbreed.com/)
