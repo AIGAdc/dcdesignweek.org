@@ -1,6 +1,7 @@
 ---
 title: CreativeMornings | Linn Meyers
 date: 2016-09-22 01:43:00 -04:00
+is-friday: true
 single-event-header-image: "/uploads/creative-mornings.jpg"
 event-date: 2016-10-28 08:30:00 -04:00
 event-venue-name: 'Hirshhorn Museum and Sculpture Garden '
