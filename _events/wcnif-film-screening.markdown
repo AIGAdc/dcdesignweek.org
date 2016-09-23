@@ -2,6 +2,7 @@
 title: What Comes Next Is the Future | Film Screening
 date: 2016-07-03 09:52:00 -04:00
 position: 4
+is-featured-on-events-page: true
 is-friday: true
 single-event-header-image: "/uploads/WhatComesNext.jpg"
 event-date: 2016-10-28 18:00:00 -04:00
