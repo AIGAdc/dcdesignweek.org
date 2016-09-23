@@ -2,6 +2,7 @@
 title: Salon with Morgan West, Founder of A Creative DC
 date: 2016-07-03 09:51:00 -04:00
 position: 6
+is-monday: true
 single-event-header-image: "/uploads/salon-creative-dc.jpg"
 event-date: 2016-10-24 14:30:00 -04:00
 event-venue-name: 'ShareSpace DC '
