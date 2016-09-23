@@ -16,7 +16,7 @@ collections:
     output: true
   social-media:
     title: Social-Media
-    output: true
+    output: false
   sponsors:
     title: Sponsors
     output: false
