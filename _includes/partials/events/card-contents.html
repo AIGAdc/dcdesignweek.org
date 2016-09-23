@@ -1,31 +1,61 @@
-<!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-<span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">{{ posts.event-date | date: "%A, %B %d"}}</span>
+{% comment %}
+=====
+First span will appear on mobile only. The day and date will be printed on one line.
+ex: Friday, October 21
 
-<!-- Event Day of Week | ex: Friday -->
-<span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%A"}}</span>
+Second span will only print the day.
+ex: Friday
 
-<!-- Event Date | ex: October, 21 -->
-<span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%B, %d"}}</span>
+Third span will only print the date.
+ex: October, 21
+=====
+{% endcomment %}
 
+<span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+  {{ posts.event-date | date: "%A, %B %d"}}
+</span>
+
+<span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">
+  {{ posts.event-date | date: "%A"}}
+</span>
+
+<span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">
+  {{ posts.event-date | date: "%B, %d"}}
+</span>
+
+{% comment %}
+=====
+Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
+=====
+{% endcomment %}
 <a href="{{posts.url}}">
   <div class="event-image overflow-hidden">
     <img src="{{ posts.event-bg-image }}">
   </div>
 </a>
 
+{% comment %}
+=====
+The h1 tag is wrapped in an anchor that will take the user to the single event page.
+
+The p tag will print the time of the event.
+
+The i tag is wrapped in an anchor tag that will open up a new browser tab to a google maps link of the event location.
+=====
+{% endcomment %}
 <div class="event-details bg-white p2">
-  <!-- Event Title -->
   <a href="{{posts.url}}">
     <h1 class="bbroller m0 black text-small">
       {{ posts.title }}
     </h1>
   </a>
+
   <hr class="title-divider">
-  <!-- Event Time | ex: 06 PM -->
+
   <p class="bbroller m0 black text-small mb1">
     <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
   </p>
-  <!-- Event Venue  -->
+
   <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
     <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
   </a>
