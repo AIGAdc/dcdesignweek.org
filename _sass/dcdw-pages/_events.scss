@@ -5,14 +5,12 @@
 }
 
 .event-image {
-	max-height: 200px;
-	height: auto;
+	max-height: 150px;
 	border: solid 3px $black;
 }
 
 .event-details {
 	border: solid 3px $black;
-	min-height: 190px;
 }
 
 @media screen and (min-width: 640px) {
@@ -25,6 +23,10 @@
 	.event-card {
 		padding: 0 1em;
 	}
+
+	.event-details {
+		min-height: 200px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
@@ -33,12 +35,6 @@
 	}
 	.event-card {
 		padding: 0 1.5em;
-	}
-}
-
-@media screen and (min-width: 1440px) {
-	.is-even {
-		right: -100px;
 	}
 }
 
@@ -59,7 +55,6 @@ span.event-date:hover,
 span.event-date-mobile:hover {
 	box-shadow: 0 0 $dcdw-blue;
 }
-
 
 .event-image img {
 	width: 100%;
