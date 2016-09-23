@@ -22,26 +22,13 @@
     </div>
     <div class="sm-col sm-col-12 md-col-4">
       <ul class="social-icons">
-        <li class="inline-block">
-          <a class="social-footer-links text-medium white px1" href="https://www.facebook.com/aigaDC/">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="inline-block">
-          <a class="social-footer-links text-medium white px1" href="https://www.instagram.com/aigadc/">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="inline-block">
-          <a class="social-footer-links text-medium white px1" href="https://twitter.com/aigadc">
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="inline-block">
-          <a class="social-footer-links text-medium white px1" href="https://www.flickr.com/photos/aigadc/">
-            <i class="fa fa-flickr" aria-hidden="true"></i>
-          </a>
-        </li>
+        {% for posts in site.social-media %}
+          <li class="inline-block">
+            <a class="social-footer-links text-medium white px1" href="{{ posts.social-media-link }}">
+              <i class="fa fa-{{ posts.social-media-link }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
     <div class="sm-col sm-col-12 md-col-4">
