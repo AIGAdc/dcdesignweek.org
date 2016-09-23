@@ -125,7 +125,11 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-justify { text-align: $align-justify; }
 
 .text-vertical {
-	transform: rotate(-90deg) translateX(-50%) translateY(-50%);
+	transform: rotate(-90deg);
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	text-align: center;
 }
 /*= End of DCDW Typography Classes =*/
 /*=============================================<<<<<*/
