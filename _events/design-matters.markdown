@@ -1,6 +1,7 @@
 ---
 title: 'Design Matters: Live with Debbie Millman featuring Abbott Miller'
 date: 2016-09-22 03:57:00 -04:00
+is-featured-on-events-page: true
 is-wednesday: true
 single-event-header-image: "/uploads/designmatters.jpg"
 event-date: 2016-10-26 19:30:00 -04:00
