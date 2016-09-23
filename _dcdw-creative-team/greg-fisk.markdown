@@ -9,4 +9,5 @@ creative-team-member-title: Designer/b-boy
 Greg Fisk is a visual designer by day, and champion Breakdancer by night. From RIP City to the Nation’s Capital, Greg has found the beauty of everyday life to truly inspire the originality that echoes through his work & process.
 
 [@NiceGreg](https://twitter.com/NiceGreg)
+
 [nicegreg.com](http://nicegreg.com/)
