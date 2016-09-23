@@ -124,5 +124,8 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-center { text-align: $align-center; }
 .text-justify { text-align: $align-justify; }
 
+.text-vertical {
+	transform: rotate(-90deg) translateX(-50%) translateY(-50%);
+}
 /*= End of DCDW Typography Classes =*/
 /*=============================================<<<<<*/

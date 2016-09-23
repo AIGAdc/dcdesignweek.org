@@ -79,10 +79,6 @@
 
 {% elsif page.layout == 'pages/page-events' %}
 
-{% comment %}
-
-ORIGINAL
-
 <section class="page-events-list relative z3">
   <div class="container clearfix py3">
     <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
@@ -150,58 +146,18 @@ ORIGINAL
     </div>
   </div>
 </section>
-{% endcomment %}
 
 {% comment %}
-
-TESTING
-
-{% endcomment %}
-<section class="page-events-list relative z3">
-  <div class="container clearfix py3">
-    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="event-list-wrapper p3 sm-col sm-col-11">
+<section class="sunday relative">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
+      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Sunday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
       {% for posts in site.events %}
-        {% if.posts.is-wednesday == true %}
-        {% if posts.is-even-on-events-page == true %}
-        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
-        {% else %}
-        <li class="event-card relative sm-col sm-col-6 lg-col-4">
-        {% endif %}
-          <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-          <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">{{ posts.event-date | date: "%A, %B %d"}}</span>
-
-          <!-- Event Day of Week | ex: Friday -->
-          <span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%A"}}</span>
-
-          <!-- Event Date | ex: October, 21 -->
-          <span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%B, %d"}}</span>
-
-          <a href="{{posts.url}}">
-            <div class="event-image overflow-hidden">
-              <img src="{{ posts.event-bg-image }}">
-            </div>
-          </a>
-
-          <div class="event-details bg-white p2">
-            <!-- Event Title -->
-            <a href="{{posts.url}}">
-              <h1 class="bbroller m0 black text-small">
-                {{ posts.title }}
-              </h1>
-            </a>
-            <hr class="title-divider">
-            <!-- Event Time | ex: 06 PM -->
-            <p class="bbroller m0 black text-small mb1">
-              <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
-            </p>
-            <!-- Event Venue  -->
-            <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
-              <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-            </a>
-          </div>
-        </li>
+        {% if.posts.is-sunday == true %}
+          {% include partials/events/sunday.html %}
         {% else %}
         {% endif %}
       {% endfor %}
@@ -210,51 +166,16 @@ TESTING
   </div>
 </section>
 
-<section class="page-events-list relative z3">
-  <div class="container clearfix py3">
-    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="event-list-wrapper p3 sm-col sm-col-11">
+<section class="monday relative">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
+      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Monday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
       <ul class="">
       {% for posts in site.events %}
         {% if.posts.is-monday == true %}
-        {% if posts.is-even-on-events-page == true %}
-        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
-        {% else %}
-        <li class="event-card relative sm-col sm-col-6 lg-col-4">
-        {% endif %}
-          <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-          <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">{{ posts.event-date | date: "%A, %B %d"}}</span>
-
-          <!-- Event Day of Week | ex: Friday -->
-          <span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%A"}}</span>
-
-          <!-- Event Date | ex: October, 21 -->
-          <span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">{{ posts.event-date | date: "%B, %d"}}</span>
-
-          <a href="{{posts.url}}">
-            <div class="event-image overflow-hidden">
-              <img src="{{ posts.event-bg-image }}">
-            </div>
-          </a>
-
-          <div class="event-details bg-white p2">
-            <!-- Event Title -->
-            <a href="{{posts.url}}">
-              <h1 class="bbroller m0 black text-small">
-                {{ posts.title }}
-              </h1>
-            </a>
-            <hr class="title-divider">
-            <!-- Event Time | ex: 06 PM -->
-            <p class="bbroller m0 black text-small mb1">
-              <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
-            </p>
-            <!-- Event Venue  -->
-            <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
-              <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-            </a>
-          </div>
-        </li>
+          {% include partials/events/monday.html %}
         {% else %}
         {% endif %}
       {% endfor %}
@@ -262,4 +183,24 @@ TESTING
     </div>
   </div>
 </section>
+
+<section class="tuesday relative">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
+      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Tuesday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if.posts.is-tuesday == true %}
+          {% include partials/events/tuesday.html %}
+        {% else %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endcomment %}
+
 {% endif %}
