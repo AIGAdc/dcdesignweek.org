@@ -6,7 +6,7 @@ event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: streetsense.
 event-venue-directions: https://www.google.com/maps/place/Streetsense/@38.98455,-77.0972987,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97accdc87b9:0x51fedfe6b943bf58!8m2!3d38.98455!4d-77.09511
 is-even-on-events-page: false
-left-button-link: Tickets on Sale October 6
+left-button-text: Tickets on Sale October 6
 event-bg-image: "/uploads/cl-streetsence.jpg"
 layout: singles/event
 ---
