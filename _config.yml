@@ -29,7 +29,6 @@ defaults:
     type: events
   values:
     layout: singles/event
-    is-featured:
     is-sunday:
     is-monday:
     is-tuesday:
