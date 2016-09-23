@@ -2,6 +2,7 @@
 title: 'Creative Lunch: Gensler'
 date: 2016-08-02 22:09:00 -04:00
 position: 0
+is-friday: true
 single-event-header-image: "/uploads/cl-gensler.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: Gensler DC
