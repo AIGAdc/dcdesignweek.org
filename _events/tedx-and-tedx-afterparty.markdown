@@ -2,6 +2,7 @@
 title: TEDx MidAtlantic
 date: 2016-07-03 09:51:00 -04:00
 position: 8
+is-featured-on-events-page: true
 is-friday: true
 single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
 event-date: 2016-10-21 09:00:00 -04:00
