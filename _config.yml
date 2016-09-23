@@ -29,6 +29,7 @@ defaults:
     type: events
   values:
     layout: singles/event
+    is-featured-on-events-page:
     is-sunday:
     is-monday:
     is-tuesday:
@@ -43,7 +44,7 @@ defaults:
     is-featured-on-home-page:
     is-even-on-home-page:
     is-even-on-events-page:
-    has-speakers:
+    has-speakers: 
     speakers:
     - speaker-headshot-image:
       speaker-name:
