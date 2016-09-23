@@ -7,6 +7,7 @@ event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
 is-featured-on-home-page: false
 is-even-on-events-page: false
+left-button-link: Tickets on Sale October 6
 event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 ---
 
