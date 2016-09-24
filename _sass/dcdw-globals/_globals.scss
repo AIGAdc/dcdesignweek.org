@@ -17,13 +17,11 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
-
 /* removes the initial padding on any UL elements */
 ul {
 	-webkit-padding-start: 0 !important;
+  list-style-type: circle;
+  margin-left: 1.5em;
 }
 
 /* ensures that the fixed header will remain on top of all other elements */
