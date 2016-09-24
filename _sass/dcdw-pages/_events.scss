@@ -1,4 +1,4 @@
-/* Events Homepage */
+/* event card */
 .featured-event-card,
 .event-card {
 	margin: 2.5em 0;
@@ -11,6 +11,8 @@
 
 .event-details {
 	border: solid 3px $black;
+	position: relative;
+	top:-5px;
 }
 
 @media screen and (min-width: 640px) {
@@ -66,11 +68,6 @@ span.event-date-mobile:hover {
 	text-align: left;
 }
 
-a.schedule-link {
-  border-bottom: 10px solid $dcdw-blue;
-  color: $dcdw-blue;
-}
-
 @media screen and (min-width: 640px) {
 	span.event-day {
 	  left: -3px;
@@ -94,60 +91,5 @@ a.schedule-link {
 	span.event-date {
 	  left: -2.5px;
 	  top: 65px;
-	}
-}
-
-/* Events Page & Layout */
-
-/* overlay of color used on the single events page */
-.overlay {
-	background-color: RGBA(0, 0, 255, 0.50);
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-.single-event-speaker-text h3 {
-	font-size: 32px;
-}
-
-.single-event-speaker-text h6 {
-	font-size: 18px;
-	letter-spacing: 2px;
-}
-
-
-@media screen and (min-width: 831px) {
-	.single-event-header {
-		margin-top: 5em;
-	}
-
-	span.event-title-header {
-		min-width: 105%;
-	}
-
-	.single-event-speaker-text {
-		text-align: left;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	span.event-title-header {
-		min-width: 110%;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	span.event-title-header {
-		min-width: 125%;
-	}
-}
-
-@media screen and (min-width: 1680px) {
-	span.event-title-header {
-		min-width: 144%;
 	}
 }
