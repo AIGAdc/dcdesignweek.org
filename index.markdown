@@ -24,14 +24,13 @@ home-partners-sub-header-text: DC Design Week is produced by AIGA DC, a voluntee
   and sponsors for your support and commitment to the DC design community. We couldn't
   do it without you!
 sponsors:
-- sponsor-image: "/uploads/deloitte-logo-2.svg"
-- sponsor-image: "/uploads/adobe.svg"
-- sponsor-image: "/uploads/hugelogo-c-msite.svg"
-- sponsor-image: "/uploads/caponelogotry.svg"
-- sponsor-image: "/uploads/f-h-logo.svg"
-- sponsor-image: "/uploads/&pizza.svg"
-- sponsor-image: "/uploads/static-1-squarespace.svg"
-- sponsor-image: "/uploads/maggie-g-logo-2-x.svg"
+- sponsor-image: "/uploads/gensler2.jpg"
+- sponsor-image: "/uploads/Goetz-38e603.jpg"
+- sponsor-image: "/uploads/maclab-535da7.png"
+- sponsor-image: "/uploads/AquentVitaminT.png"
+- sponsor-image: "/uploads/deloitte.png"
+- sponsor-image: "/uploads/Capone.jpg"
+- sponsor-image: "/uploads/Chief.jpg"
 layout: pages/page-home
 ---
 
