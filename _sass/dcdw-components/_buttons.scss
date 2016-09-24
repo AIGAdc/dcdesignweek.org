@@ -1,19 +1,11 @@
-/*
-a.button {
-  border: none;
-  display: inline-block;
-  border-radius: $default-radius;
-  padding: 0.75em 2em;
-  color: $white;
-  font-size: $text-small;
-  font-weight: 900;
-}
-*/
+/**
+ * buttons
+ */
 
 /* global button + additional colors */
 a.button {
   border-top: none;
-  box-shadow: 10px 10px $black;
+  box-shadow: 10px 10px black;
   border-left: none;
   cursor: pointer;
   padding: 1em;
@@ -34,4 +26,15 @@ a.blue-underline {
   border-bottom: 5px solid blue;
   color: blue;
   padding: 0.5em 0;
+}
+
+a.header-link {
+  letter-spacing: 2px;
+  transition: all 100ms ease-in-out;
+}
+
+a.header-link:hover {
+  background-color: blue;
+  padding: 0.5em 1em;
+  color: white;
 }

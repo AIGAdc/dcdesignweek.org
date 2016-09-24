@@ -1,6 +1,6 @@
-/*=============================================>>>>>
-= DCDW Typography Variables =
-===============================================>>>>>*/
+/*
+ * typography
+ */
 
 // font families
 $sans: 'Work Sans', sans-serif;
@@ -44,12 +44,7 @@ $align-right: right;
 $align-center: center;
 $align-justify: justify;
 
-/*= End of DCDW Typography Variables =*/
-/*=============================================<<<<<*/
-
-/*=============================================>>>>>
-= DCDW Typography Classes =
-===============================================>>>>>*/
+/* license and information for using bb roller mono on a website */
 
 /*
 Font: 		BB Roller Mono
@@ -123,9 +118,3 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-left { text-align: $align-left; }
 .text-center { text-align: $align-center; }
 .text-justify { text-align: $align-justify; }
-
-.text-vertical {
-	transform: rotate(-90deg) translateX(-50%) translateY(-50%);
-}
-/*= End of DCDW Typography Classes =*/
-/*=============================================<<<<<*/
