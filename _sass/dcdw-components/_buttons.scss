@@ -5,10 +5,12 @@
 /* global button + additional colors */
 a.button {
   border-top: none;
-  box-shadow: 10px 10px black;
   border-left: none;
   cursor: pointer;
-  padding: 1em;
+  padding: 10px 17px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  box-shadow: 12px 14px black;
 
   &.button-white {
     background: white;
@@ -17,6 +19,15 @@ a.button {
 
   &.button-blue {
     background: blue;
+    color: white;
+  }
+
+  &.button-white:hover {
+    box-shadow: none;
+  }
+
+  &.button-white:active {
+    background-color: black;
     color: white;
   }
 }
