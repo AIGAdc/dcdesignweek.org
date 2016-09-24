@@ -88,6 +88,9 @@ defaults:
     social-media-link: 
     social-media-icon: 
 favicon-image: "/uploads/favicon.ico"
+meta-description: DC Design Week is a celebration of creatives, thinkers, and makers
+  in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+  Join  us!
 meta-og-url: http://www.dcdesignweek.org
 meta-og-description: DC Design Week is a celebration of creatives, thinkers, and makers
   in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
