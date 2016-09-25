@@ -14,16 +14,16 @@ left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/devanddesign2event.jpg"
 ---
 
-Join Women Who Code and DCFemTech as they bridge the gap between Designers & Developers. Whether you're a designer looking to learn code and work closer with developers or your a developer looking to get the design to fit your 
+## Bridge the Gap
 
-Anyone and everyone—if any of these questions apply to you, then come to our event Dev & Design: Harmony in the Digital Space. We’ll start off with an interactive panel discussion where developers and designers together will analyze existing designs and discuss their thoughts on the design; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
+As a part of DCFemTech’s [October Tour De Code](http://dcfemtech.github.io/tourdecode) and a partnership between DCFemTech, Women Who Code, and AIGA, this panel aims to bridge the gap between Designers & Developers through conversation, discovery, and a hands on workshop. 
+
+We’ll start off with an interactive panel discussion where developers and designer pairs will analyze existing designs and discuss their thoughts; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
 
 * Getting started on creating your portfolio 
 * Designers helping developers on the best way to design their portfolio 
 * Developers helping designers get their portfolio up on the web 
 * Creating accessible designs
-
-As a part of DCFemTech's October Tour De Code and a partnership between DCFemTech, Women Who Code, and AIGA. 
 
 ## DCFemTech
 
