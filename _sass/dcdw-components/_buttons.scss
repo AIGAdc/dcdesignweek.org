@@ -1,22 +1,16 @@
-/*
-a.button {
-  border: none;
-  display: inline-block;
-  border-radius: $default-radius;
-  padding: 0.75em 2em;
-  color: $white;
-  font-size: $text-small;
-  font-weight: 900;
-}
-*/
+/**
+ * buttons
+ */
 
 /* global button + additional colors */
 a.button {
   border-top: none;
-  box-shadow: 10px 10px black;
   border-left: none;
   cursor: pointer;
-  padding: 1em;
+  padding: 10px 17px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  box-shadow: 12px 14px black;
 
   &.button-white {
     background: white;
@@ -27,13 +21,34 @@ a.button {
     background: blue;
     color: white;
   }
+
+  &.button-white:hover {
+    box-shadow: none;
+  }
+
+  &.button-white:active {
+    background-color: black;
+    color: white;
+  }
 }
 
 /* underline button */
 a.blue-underline {
-  border-bottom: 5px solid blue;
+  border-bottom: 6px solid blue;
   color: blue;
-  padding: 0.5em 0;
+  padding-bottom: 3px;
+  font-size: 25px;
+}
+
+a.header-link {
+  letter-spacing: 2px;
+  transition: all 100ms ease-in-out;
+}
+
+a.header-link:hover {
+  background-color: blue;
+  padding: 0.5em 1em;
+  color: white;
 }
 
 a.schedule-link {

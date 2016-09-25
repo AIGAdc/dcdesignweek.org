@@ -11,10 +11,13 @@
     <div class="sm-col sm-col-12 md-col-1 py1"></div>
     <div class="sm-col sm-col-12 md-col-11">
       <ul class="overflow-hidden">
-        {% for post in site.sponsors limit:8 %}
+        {% for posts in site.sponsors %}
+          {% if posts.is-featured-on-home-page == true %}
           <li class="sponsor-logo sm-col sm-col-12 md-col-3 inline-block p1">
-            <img src="{{ post.sponsor-image }}">
+            <img src="{{ posts.sponsor-image }}">
           </li>
+          {% else %}
+          {% endif %}
         {% endfor %}
       </ul>
     </div>

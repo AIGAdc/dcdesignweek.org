@@ -1,16 +1,5 @@
-/*=============================================>>>>>
-= DCDW Global Variables =
-===============================================>>>>>*/
-
+/* dcdw global variables */
 @import "typography";
-
-/*= End of DCDW Global Variables =*/
-/*=============================================<<<<<*/
-
-/*=============================================>>>>>
-= DCDW Global Classes & Styles =
-===============================================>>>>>*/
-
 
 /* sets the max width of the container for the site */
 .container {
@@ -28,28 +17,16 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
-
 /* removes the initial padding on any UL elements */
 ul {
 	-webkit-padding-start: 0 !important;
+  list-style-type: circle;
+  margin-left: 1.5em;
 }
 
+/* ensures that the fixed header will remain on top of all other elements */
 .global-header {
   z-index: 9999;
-}
-
-a.header-link {
-  letter-spacing: 2px;
-  transition: all 100ms ease-in-out;
-}
-
-a.header-link:hover {
-  background-color: $dcdw-blue;
-  padding: 0.5em 1em;
-  color: $white;
 }
 
 .logo-wrapper img,
@@ -219,6 +196,3 @@ ul.social-icons {
   	border-right: solid 0.01px #eaeaea;
   }
 }
-
-/*= End of DCDW Global Classes & Styles =*/
-/*=============================================<<<<<*/
