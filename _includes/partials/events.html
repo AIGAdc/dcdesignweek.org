@@ -79,6 +79,7 @@
 
 {% elsif page.layout == 'pages/page-events' %}
 
+{% comment %}
 <section class="page-events-list relative z3">
   <div class="container clearfix py3">
     <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
@@ -146,61 +147,142 @@
     </div>
   </div>
 </section>
-
-{% comment %}
-<section class="sunday relative">
-  <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Sunday</h1>
-    </div>
-    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
-      <ul class="">
-      {% for posts in site.events %}
-        {% if.posts.is-sunday == true %}
-          {% include partials/events/sunday.html %}
-        {% else %}
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="monday relative">
-  <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Monday</h1>
-    </div>
-    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
-      <ul class="">
-      {% for posts in site.events %}
-        {% if.posts.is-monday == true %}
-          {% include partials/events/monday.html %}
-        {% else %}
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="tuesday relative">
-  <div class="container clearfix">
-    <div class="sm-col sm-col-1 border relative xs-hide sm-hide md-hide" style="min-height: 200px;">
-      <h1 class="bbroller m0 text-x-large text-vertical border absolute">Tuesday</h1>
-    </div>
-    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-11">
-      <ul class="">
-      {% for posts in site.events %}
-        {% if.posts.is-tuesday == true %}
-          {% include partials/events/tuesday.html %}
-        {% else %}
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
 {% endcomment %}
+
+<section class="kickoff-friday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Friday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-kickoff-friday == true %}
+          {% include partials/events/kickoff-friday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sunday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Sunday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-sunday == true %}
+          {% include partials/events/sunday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="monday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Monday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-monday == true %}
+          {% include partials/events/monday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="tuesday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Tuesday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-tuesday == true %}
+          {% include partials/events/tuesday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wednesday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Wednesday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-wednesday == true %}
+          {% include partials/events/wednesday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="thursday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Thursday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-thursday == true %}
+          {% include partials/events/thursday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="friday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Friday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-friday == true %}
+          {% include partials/events/friday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="saturday relative py2">
+  <div class="container clearfix">
+    <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
+      <h1 class="bbroller m0 text-large text-center text-vertical absolute">Saturday</h1>
+    </div>
+    <div class="event-list-wrapper px3 sm-col sm-col-12 md-col-12 lg-col-11">
+      <ul class="">
+      {% for posts in site.events %}
+        {% if posts.is-saturday == true %}
+          {% include partials/events/saturday.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
 
 {% endif %}
