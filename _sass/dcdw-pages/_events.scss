@@ -1,17 +1,43 @@
-/* Events Homepage */
+/* event card */
 .featured-event-card,
 .event-card {
 	margin: 2.5em 0;
 }
 
 .event-image {
-	height: auto;
-	border: solid 3px black;
+	max-height: 150px;
+	border: solid 3px $black;
 }
 
 .event-details {
-	min-height: 150px;
-	border: solid 3px black;
+	border: solid 3px $black;
+	position: relative;
+	top:-5px;
+}
+
+@media screen and (min-width: 640px) {
+	.event-card {
+		padding: 0 0.5em;
+	}
+}
+
+@media screen and (min-width: 831px) {
+	.event-card {
+		padding: 0 1em;
+	}
+
+	.event-details {
+		min-height: 200px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.event-list-wrapper {
+		padding: 0
+	}
+	.event-card {
+		padding: 0 1.5em;
+	}
 }
 
 span.event-date-mobile {
@@ -43,11 +69,6 @@ span.hovered {
 	text-align: left;
 }
 
-a.schedule-link {
-  border-bottom: 10px solid blue;
-  color: blue;
-}
-
 /* Events Page & Layout */
 .single-event-speaker-text h3 {
 	font-size: 32px;
@@ -59,7 +80,6 @@ a.schedule-link {
 }
 
 /* media queries */
-
 @media screen and (min-width: 640px) {
 	.event-card {
 		padding: 0 0.5em;

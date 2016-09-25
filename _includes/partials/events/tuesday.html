@@ -1,3 +1,7 @@
+{% if posts.is-featured-on-events-page == true %}
 <li class="event-card relative sm-col sm-col-12">
+{% else %}
+<li class="event-card relative sm-col sm-col-12 lg-col-6">
+{% endif %}
   {% include partials/events/card-contents.html %}
 </li>

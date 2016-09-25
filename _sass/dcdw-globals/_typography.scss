@@ -118,3 +118,10 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-left { text-align: $align-left; }
 .text-center { text-align: $align-center; }
 .text-justify { text-align: $align-justify; }
+
+.text-vertical {
+	transform: rotate(-90deg);
+	left: 0px;
+	right: 0;
+	bottom: 67px;
+}
