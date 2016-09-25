@@ -11,7 +11,7 @@ is-featured-on-home-page: true
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/acreativedc2event.jpg"
+event-bg-image: "/uploads/acreativedc_event.jpg"
 event-location: 
 layout: singles/event
 ---
