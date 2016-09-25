@@ -16,7 +16,7 @@ event-bg-image: "/uploads/devanddesign2event.jpg"
 
 ## Bridge the Gap
 
-As a part of DCFemTech’s [October Tour De Code](http://dcfemtech.github.io/tourdecode) and a partnership between DCFemTech, Women Who Code, and AIGA, this panel aims to bridge the gap between Designers & Developers through conversation, discovery, and a hands on workshop. 
+As a part of DCFemTech’s [October Tour De Code](http://dcfemtech.github.io/tourdecode) and a partnership between DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between Designers & Developers through conversation, discovery, and a hands on workshop. 
 
 We’ll start off with an interactive panel discussion where developers and designer pairs will analyze existing designs and discuss their thoughts; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
 
