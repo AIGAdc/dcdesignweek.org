@@ -11,7 +11,7 @@ is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
-- speaker-headshot-image: "/uploads/debbie2.jpg"
+- speaker-headshot-image: "/uploads/Debbie3.jpg"
   speaker-name: Debbie Millman
   speaker-title: Host of Design Matters and President of Design at Sterling Brands
   speaker-bio: 'Debbie Millman was named “one of the most influential designers working
