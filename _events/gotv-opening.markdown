@@ -18,7 +18,7 @@ event-location:
 layout: singles/event
 ---
 
-Mix, mingle, clink and drink a glass of champagne to toast the opening of the DC’s ("AIGA‘s Get Out the Vote Campaign") [https://www.aiga.org/get-out-the-vote/] (GOTV) poster gallery. Launched on President’s Day and in partnership with the League of Women Voters, AIGA‘s Get Out the Vote campaign wields the power of design to motivate the American public to register and turn out to vote in the 2016 general election, as well as local elections to come. The pop-up GOTV gallery during DC Design Week (DCDW) will showcase posters designed by local creatives, with the occasional appearance of say...a Milton Glaser or Paula Scher piece.
+Mix, mingle, clink and drink a glass of champagne to toast the opening of the DC’s ["AIGA‘s Get Out the Vote Campaign"](https://www.aiga.org/get-out-the-vote/) (GOTV) poster gallery. Launched on President’s Day and in partnership with the League of Women Voters, AIGA‘s Get Out the Vote campaign wields the power of design to motivate the American public to register and turn out to vote in the 2016 general election, as well as local elections to come. The pop-up GOTV gallery during DC Design Week (DCDW) will showcase posters designed by local creatives, with the occasional appearance of say...a Milton Glaser or Paula Scher piece.
 
 When you’re done perusing the posters, head next door to the DCDW pop-up shop filled with items that were made in DC. Thanks to our friends at Cherry Blossom Collective, Washington Project for the Arts and Typecase Industries. Open all week. Main headquarters for DCDW.
 
