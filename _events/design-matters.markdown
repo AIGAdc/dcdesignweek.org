@@ -9,6 +9,7 @@ event-venue-name: The National Building Museum
 event-venue-directions: https://www.google.com/maps/place/National+Building+Museum/@38.8977516,-77.0198075,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b78ee8345b73:0x48233bd191725f45!8m2!3d38.8977516!4d-77.0176188
 is-featured-on-home-page: true
 is-even-on-events-page: false
+has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/Debbie-Millman.jpg"
   speaker-name: Debbie Millman
