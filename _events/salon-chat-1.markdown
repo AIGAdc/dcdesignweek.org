@@ -3,7 +3,7 @@ title: Salon with Morgan West, Founder of A Creative DC
 date: 2016-07-03 09:51:00 -04:00
 position: 6
 is-monday: true
-single-event-header-image: "/uploads/salon-creative-dc.jpg"
+single-event-header-image: "/uploads/acreativedc2.jpg"
 event-date: 2016-10-24 14:30:00 -04:00
 event-venue-name: 'ShareSpace DC '
 event-venue-directions: https://www.google.com/maps/place/Share+Space/@38.9183394,-77.0337447,17z/data=!4m8!1m2!2m1!1sShareSpace+DC++2121+14th+St+NW,+Washington,+DC+20009!3m4!1s0x89b7b7e7a6b30a3f:0x5fd84ed967f89da0!8m2!3d38.918354!4d-77.0316077
@@ -11,7 +11,7 @@ is-featured-on-home-page: true
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/acreativedc_event.jpg"
+event-bg-image: "/uploads/acreativedc2event.jpg"
 event-location: 
 layout: singles/event
 ---
