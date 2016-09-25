@@ -3,7 +3,7 @@ title: 'Dev & Design: Harmony in the Digital Space'
 date: 2016-09-22 00:47:00 -04:00
 is-featured-on-events-page: true
 is-monday: true
-single-event-header-image: "/uploads/design-dev.jpg"
+single-event-header-image: "/uploads/devanddesign2.jpg"
 event-date: 2016-10-24 18:00:00 -04:00
 event-venue-name: CHIEF
 event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
@@ -11,7 +11,7 @@ is-featured-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/design-dev.jpg"
+event-bg-image: "/uploads/devanddesign2event.jpg"
 ---
 
 Join Women Who Code and DCFemTech as they bridge the gap between Designers & Developers. Whether you're a designer looking to learn code and work closer with developers or your a developer looking to get the design to fit your 
