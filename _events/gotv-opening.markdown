@@ -2,6 +2,7 @@
 title: Get-Out-the-Vote Gallery Opening
 date: 2016-07-03 09:52:00 -04:00
 position: 3
+is-featured-on-events-page: true
 is-sunday: true
 single-event-header-image: "/uploads/GOTV_web.jpg"
 event-date: 2016-10-23 14:00:00 -04:00
