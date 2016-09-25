@@ -4,7 +4,7 @@ date: 2016-07-03 09:52:00 -04:00
 position: 3
 is-featured-on-events-page: true
 is-sunday: true
-single-event-header-image: "/uploads/GOTV_web.jpg"
+single-event-header-image: "/uploads/gotv2.jpg"
 event-date: 2016-10-23 14:00:00 -04:00
 event-venue-name: Washington Project for the Arts
 event-venue-directions: https://www.google.com/maps/place/Washington+Project+For+the+Arts/@38.9183777,-77.0254307,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7c893d510e7:0x944c8fb115264038!8m2!3d38.9183777!4d-77.023242
