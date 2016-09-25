@@ -11,10 +11,10 @@ is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
-- speaker-headshot-image: "/uploads/Debbie-Millman.jpg"
+- speaker-headshot-image: "/uploads/debbie2.jpg"
   speaker-name: Debbie Millman
   speaker-title: Host of Design Matters and President of Design at Sterling Brands
-  speaker-bio: Debbie Millman was named “one of the most influential designers working
+  speaker-bio: 'Debbie Millman was named “one of the most influential designers working
     today” by Graphic Design USA. She is also an author, educator, brand strategist
     and host of the podcast Design Matters. As the founder and host of Design Matters,
     the first and longest running podcast about design, Millman has interviewed more
@@ -22,14 +22,13 @@ speakers:
     Milton Glaser, Malcolm Gladwell, Dan Pink, Barbara Kruger, Seth Godin and more.
     In the 11 years since its inception, the show has garnered over a million download
     per year, a Cooper Hewitt National Design Award and—most recently—iTunes designated
-    it one of the best podcasts of 2015. Learn more about Debbie here.
+    it one of the best podcasts of 2015. '
 - speaker-headshot-image: "/uploads/abottmiller.jpg"
   speaker-name: Abbott Miller
   speaker-title: Partner, Pentagram
   speaker-bio: Abbott Miller is an American graphic designer and writer, and a partner
-    at [Pentagram](http://www.pentagram.com/#/partners/109673), which he joined in
-    1999. Miller’s projects are often concerned with the cultural role of design and
-    the public life of the written word.
+    at Pentagram which he joined in 1999. Miller’s projects are often concerned with
+    the cultural role of design and the public life of the written word.
 - speaker-headshot-image: "/uploads/NBM-cc1bde.jpg"
   speaker-name: 'The National Building Museum '
   speaker-title: 
