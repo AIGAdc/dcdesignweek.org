@@ -24,6 +24,6 @@ Debbie Millman was named “one of the most influential designers working today�
 
 Abbott Miller is an American graphic designer and writer, and a partner at [Pentagram](http://www.pentagram.com/#/partners/109673), which he joined in 1999. Miller’s projects are often concerned with the cultural role of design and the public life of the written word.
 
-## The National Building Museum is America
+## The National Building Museum
 
 The National Building Museum is America’s leading cultural institution devoted to interpreting the history and impact of the built environment. We do this by telling the stories of architecture, engineering, and design. As one of the most family-friendly, awe-inspiring spots in Washington, D.C., we welcome visitors from around the world to our exhibitions, public programs, and festivals.
