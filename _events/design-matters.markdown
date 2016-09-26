@@ -30,8 +30,9 @@ speakers:
   speaker-name: Abbott Miller
   speaker-title: Partner, Pentagram
   speaker-bio-text: Abbott Miller is an American graphic designer and writer, and
-    a partner at Pentagram which he joined in 1999. Miller’s projects are often concerned
-    with the cultural role of design and the public life of the written word.
+    a partner at [Pentagram](http://www.pentagram.com/) which he joined in 1999. Miller’s
+    projects are often concerned with the cultural role of design and the public life
+    of the written word.
 - speaker-headshot-image: "/uploads/NBM-cc1bde.jpg"
   speaker-link: http://www.nbm.org/
   speaker-name: 'The National Building Museum '
