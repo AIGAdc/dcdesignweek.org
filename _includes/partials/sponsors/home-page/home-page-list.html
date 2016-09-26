@@ -1,0 +1,40 @@
+<section class="homepage-partners relative bg-opaque-white py3">
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-6">
+      <h1 class="bbroller m0 text-headline">
+        {{page.home-partners-header-text}}
+      </h1>
+      <hr class="title-divider">
+      <p class="m0 text-default">
+        {{page.home-partners-sub-header-text}}
+      </p>
+    </div>
+  </div>
+
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-1 py1"></div>
+    <div class="sm-col sm-col-12 md-col-11">
+      <ul class="overflow-hidden">
+        {% comment %}
+        =====
+        The sponsors content block will display the sponsors that have been designated as being "featured on homepage".
+        =====
+        {% endcomment %}
+        {% for posts in site.sponsors %}
+          {% if posts.is-featured-on-home-page == true %}
+            {% include partials/sponsors/sponsors-contents.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-3 py1"></div>
+    <div class="sm-col sm-col-12 md-col-9">
+      <a href="{{page.home-sponsors-link}}" class="bbroller blue-underline m0 text-default inline-block">
+        {{page.home-sponsors-link-text}}
+      </a>
+    </div>
+  </div>
+</section>
