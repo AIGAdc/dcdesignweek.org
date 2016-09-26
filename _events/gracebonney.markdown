@@ -12,6 +12,7 @@ is-even-on-events-page: false
 has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/graceboney-port.jpg"
+  speaker-link: 
   speaker-name: Grace Bonney
   speaker-title: founder of DesignSponge
   speaker-bio: Grace Bonney is the founder of DesignSponge, a daily website dedicated
