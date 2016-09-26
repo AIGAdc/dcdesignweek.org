@@ -1,17 +1,4 @@
-
 /* Events Page & Layout */
-
-/* overlay of color used on the single events page */
-.overlay {
-	background-color: RGBA(0, 0, 255, 0.50);
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
 .single-event-speaker-text h3 {
 	font-size: 32px;
 }
@@ -21,14 +8,9 @@
 	letter-spacing: 2px;
 }
 
-
 @media screen and (min-width: 831px) {
-	.single-event-header {
-		margin-top: 5em;
-	}
-
 	span.event-title-header {
-		min-width: 105%;
+		min-width: 850px;
 	}
 
 	.single-event-speaker-text {
@@ -36,8 +18,62 @@
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 910px) {
 	span.event-title-header {
-		min-width: 100%;
+		min-width: 1000px;
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	span.event-title-header {
+		min-width: 1090px;
+	}
+}
+
+@media screen and (min-width: 1155px) {
+	span.event-title-header {
+		min-width: 1190px;
+	}
+}
+
+@media screen and (min-width: 1355px) {
+	span.event-title-header {
+		min-width: 1300px;
+	}
+}
+
+@media screen and (min-width: 1570px) {
+	span.event-title-header {
+		min-width: 1375px;
+	}
+}
+
+@media screen and (min-width: 1730px) {
+	span.event-title-header {
+		min-width: 1425px;
+	}
+}
+
+@media screen and (min-width: 1830px) {
+	span.event-title-header {
+		min-width: 1500px;
+	}
+}
+
+@media screen and (min-width: 1980px) {
+	span.event-title-header {
+		min-width: 1600px;
+	}
+}
+
+@media screen and (min-width: 2175px) {
+	span.event-title-header {
+		min-width: 1700px;
+	}
+}
+
+@media screen and (min-width: 2375px) {
+	span.event-title-header {
+		min-width: 1800px;
 	}
 }

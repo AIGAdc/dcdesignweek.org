@@ -100,10 +100,6 @@ span.hovered {
 		margin-top: 5em;
 	}
 
-	span.event-title-header {
-		min-width: 105%;
-	}
-
 	.single-event-speaker-text {
 		text-align: left;
 	}
@@ -119,10 +115,6 @@ span.hovered {
 	  left: -2.5px;
 	  top: 65px;
 	}
-
-	span.event-title-header {
-		min-width: 110%;
-	}
 }
 
 @media screen and (min-width: 1280px) {
@@ -133,20 +125,10 @@ span.hovered {
 	.event-card {
 		padding: 0 1.5em;
 	}
-
-	span.event-title-header {
-		min-width: 125%;
-	}
 }
 
 @media screen and (min-width: 1440px) {
 	.is-even {
 		right: -100px;
-	}
-}
-
-@media screen and (min-width: 1680px) {
-	span.event-title-header {
-		min-width: 144%;
 	}
 }
