@@ -1,52 +1,3 @@
-{% if page.layout == 'pages/page-home' %}
-<section class="homepage-events relative bg-opaque-white py3">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12">
-      <h2 class="bbroller m0 text-x-large">
-        {{ page.home-events-header-text }}
-      </h2>
-      <hr class="title-divider">
-      <p class="m0 text-default">
-        {{ page.home-events-sub-header-text }}
-      </p>
-    </div>
-  </div>
-
-  <div class="container clearfix">
-    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="event-list-wrapper p3 sm-col sm-col-11">
-      <ul class="home-events-list">
-        {% comment %}
-        =====
-        The block below will print any events found inside "site.events" that have been designated as being featured on the home page.
-
-        Additionally, there is a filter applied that will then sort the featured events by date.
-        =====
-        {% endcomment %}
-
-        {% assign sorted_events = (site.events | sort: 'event-date') %}
-        {% for posts in sorted_events %}
-          {% if posts.is-featured-on-home-page == true %}
-          <li class="event-card relative sm-col sm-col-6 lg-col-4">
-            {% include partials/events/card-contents.html %}
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-3 py1 xs-hide sm-hide md-hide"></div>
-    <div class="sm-col sm-col-9">
-      <a href="http://www.dcdesignweek.org/events/" class="blue-underline inline-block m0 bbroller">
-        {{page.home-events-button-text}}
-      </a>
-    </div>
-  </div>
-</section>
-
-{% elsif page.layout == 'pages/page-events' %}
-
 <section class="kickoff-friday relative pb2">
   <div class="container clearfix">
     <div class="sm-col sm-col-12 md-col-12 lg-col-1 relative xs-hide sm-hide md-hide" style="min-height: 250px;">
@@ -56,7 +7,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-kickoff-friday == true %}
-          {% include partials/events/kickoff-friday.html %}
+          {% include partials/events/events-page/kickoff-friday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -73,7 +24,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-sunday == true %}
-          {% include partials/events/sunday.html %}
+          {% include partials/events/events-page/sunday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -90,7 +41,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-monday == true %}
-          {% include partials/events/monday.html %}
+          {% include partials/events/events-page/monday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -107,7 +58,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-tuesday == true %}
-          {% include partials/events/tuesday.html %}
+          {% include partials/events/events-page/tuesday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -124,7 +75,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-wednesday == true %}
-          {% include partials/events/wednesday.html %}
+          {% include partials/events/events-page/wednesday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -141,7 +92,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-thursday == true %}
-          {% include partials/events/thursday.html %}
+          {% include partials/events/events-page/thursday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -158,7 +109,7 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-friday == true %}
-          {% include partials/events/friday.html %}
+          {% include partials/events/events-page/friday.html %}
         {% endif %}
       {% endfor %}
       </ul>
@@ -175,12 +126,10 @@
       <ul class="">
       {% for posts in site.events %}
         {% if posts.is-saturday == true %}
-          {% include partials/events/saturday.html %}
+          {% include partials/events/events-page/saturday.html %}
         {% endif %}
       {% endfor %}
       </ul>
     </div>
   </div>
 </section>
-
-{% endif %}
