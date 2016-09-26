@@ -2,6 +2,7 @@
 title: TEDx MidAtlantic
 date: 2016-07-03 09:51:00 -04:00
 position: 8
+is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-kickoff-friday: true
 is-friday: false
@@ -9,7 +10,6 @@ single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
 event-date: 2016-10-21 09:00:00 -04:00
 event-venue-name: Sidney Harman Hall
 event-venue-directions: https://goo.gl/maps/7qnkpRidokN2
-is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
@@ -17,7 +17,7 @@ speakers:
   speaker-link: http://elupton.com/
   speaker-name: Ellen Lupton
   speaker-title: Museum Curator & Designer
-  speaker-bio: Ellen Lupton is the curator of Contemporary Design at Cooper-Hewitt,
+  speaker-bio-text: Ellen Lupton is the curator of Contemporary Design at Cooper-Hewitt,
     National Design Museum in New York City and director of the Graphic Design MFA
     program at Maryland Institute College of Art (MICA) in Baltimore. An author of
     numerous books and articles on design, she is a public-minded critic, frequent
@@ -27,7 +27,7 @@ speakers:
   speaker-link: http://www.mfga.com/
   speaker-name: Mark Foster Gage
   speaker-title: Architect
-  speaker-bio: Mark Foster Gage is a practicing architect, professor, and writer.
+  speaker-bio-text: Mark Foster Gage is a practicing architect, professor, and writer.
     His innovative design work has been featured in institutions including the Museum
     of Modern Art, the Museum of the Art Institute of Chicago, the Venice Biennale,
     the Beijing Biennale, the Deutsches Architektur Zentrum in Berlin, and published
@@ -38,12 +38,12 @@ speakers:
   speaker-link: https://www.instagram.com/lauradowlingtheflorist/
   speaker-name: Laura Dowling
   speaker-title: White House Floral Designer
-  speaker-bio: Laura Dowling served as Chief Floral Designer at the White House from
-    2009 until 2015. In this position, she planned and implemented decorations for
-    major events at the White House, including the White House Christmas, state dinners,
-    the presidential family quarters, the public tour route displays, and Camp David,
-    an imposing portfolio of literally thousands of large and small events, floral
-    arrangements, table settings, and innovative volunteer projects.
+  speaker-bio-text: Laura Dowling served as Chief Floral Designer at the White House
+    from 2009 until 2015. In this position, she planned and implemented decorations
+    for major events at the White House, including the White House Christmas, state
+    dinners, the presidential family quarters, the public tour route displays, and
+    Camp David, an imposing portfolio of literally thousands of large and small events,
+    floral arrangements, table settings, and innovative volunteer projects.
 left-button-link: https://tixelator.com/tedxmidatlantic2016/aiga
 left-button-text: Tickets on sale Now!
 event-location: https://www.google.com/maps?cid=17935525282803673115
