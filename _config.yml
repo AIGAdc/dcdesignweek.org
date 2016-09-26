@@ -49,7 +49,7 @@ defaults:
     presenter-section-header:
     speakers:
     - speaker-headshot-image:
-      speaker-link: 
+      speaker-link:
       speaker-name:
       speaker-title:
       speaker-bio:
