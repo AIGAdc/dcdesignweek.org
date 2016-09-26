@@ -14,7 +14,7 @@ is-even-on-events-page: false
 has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/tedx-lupton.jpg"
-  speaker-link: 
+  speaker-link: http://elupton.com/
   speaker-name: Ellen Lupton
   speaker-title: Museum Curator & Designer
   speaker-bio: Ellen Lupton is the curator of Contemporary Design at Cooper-Hewitt,
@@ -24,6 +24,7 @@ speakers:
     lecturer, and AIGA Gold Medalist, one of the highest honors given to a graphic
     designer or design educator in the U.S.
 - speaker-headshot-image: "/uploads/tedx-gage-986973.jpg"
+  speaker-link: http://www.mfga.com/
   speaker-name: Mark Foster Gage
   speaker-title: Architect
   speaker-bio: Mark Foster Gage is a practicing architect, professor, and writer.
@@ -34,6 +35,7 @@ speakers:
     well as feayured on PBS, Fox, and MTV. Mr. Gage is a tenured professor, and Assistant
     Dean at the Yale School of Architecture where he has taught since 2001.
 - speaker-headshot-image: "/uploads/tedx-dowling.jpg"
+  speaker-link: https://www.instagram.com/lauradowlingtheflorist/
   speaker-name: Laura Dowling
   speaker-title: White House Floral Designer
   speaker-bio: Laura Dowling served as Chief Floral Designer at the White House from
