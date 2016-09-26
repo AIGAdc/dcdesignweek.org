@@ -13,8 +13,8 @@ has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/rr.jpg"
   speaker-name: Republic Restoratives
-  speaker-bio: Republic Restoratives stands for community, authenticity and most of
-    all friendship. We believe that cocktails create community, and that you, our
+  speaker-bio-text: Republic Restoratives stands for community, authenticity and most
+    of all friendship. We believe that cocktails create community, and that you, our
     customers, are at the core of what we do and why we do it. Our goal is to create
     experiences where people feel as connected to Republic Restoratives and to our
     products as they do to one another.
