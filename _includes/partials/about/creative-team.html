@@ -23,7 +23,7 @@
               <div class="team-member-details-wrapper mt4">
                 <h2 class="bbroller m0">{{ posts.creative-team-member-name }}</h2>
                 <h6 class="m0 mb2">{{ posts.creative-team-member-title }}</h6>
-                <p class="m0 mb2">{{ posts.content }}</p>
+                <p class="m0 mb2">{{ posts.content | markdownify }}</p>
                 <a class="m0" href="#">{{ posts.creative-team-member-portfolio }}</a>
               </div>
             </li>
