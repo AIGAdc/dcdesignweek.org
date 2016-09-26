@@ -29,66 +29,66 @@ defaults:
     type: events
   values:
     layout: singles/event
+    is-featured-on-home-page:
     is-featured-on-events-page: 
-    is-kickoff-friday: 
-    is-sunday: 
-    is-monday: 
-    is-tuesday: 
-    is-wednesday: 
-    is-thursday: 
-    is-friday: 
-    is-saturday: 
-    single-event-header-image: 
-    event-date: 
-    event-venue-name: 
-    event-venue-directions: 
-    is-featured-on-home-page: 
-    is-even-on-home-page: 
-    is-even-on-events-page: 
-    has-speakers: 
-    presenter-section-header: 
+    is-kickoff-friday:
+    is-sunday:
+    is-monday:
+    is-tuesday:
+    is-wednesday:
+    is-thursday:
+    is-friday:
+    is-saturday:
+    single-event-header-image:
+    event-date:
+    event-venue-name:
+    event-venue-directions:
+    is-even-on-home-page:
+    is-even-on-events-page:
+    has-speakers:
+    presenter-section-header:
     speakers:
-    - speaker-headshot-image: 
-      speaker-link: 
-      speaker-name: 
-      speaker-title: 
-      speaker-bio: 
-    left-button-link: 
-    left-button-text: 
-    right-button-link: 
-    right-button-text: 
+    - speaker-headshot-image:
+      speaker-link:
+      speaker-name:
+      speaker-title:
+      speaker-bio:
+    left-button-link:
+    left-button-text:
+    right-button-link:
+    right-button-text:
 - scope:
     path: ''
     type: sponsors
   values:
-    is-featured-on-home-page: 
-    sponsor-image: 
-    is-even-on-home-page: 
-    is-first-tier: 
-    is-second-tier: 
-    is-third-tier: 
+    is-featured-on-home-page:
+    sponsor-image:
+    is-even-on-home-page:
+    is-first-tier:
+    is-second-tier:
+    is-third-tier:
 - scope:
     path: ''
     type: dcdw-committee-members
   values:
-    committee-member-headshot-image: 
-    committee-member-name: 
-    committee-member-title: 
-    committee-member-email: 
+    committee-member-headshot-image:
+    committee-member-name:
+    committee-member-title:
+    committee-member-email:
 - scope:
     path: ''
     type: dcdw-creative-team
   values:
-    creative-team-member-headshot-image: 
-    creative-team-member-name: 
-    creative-team-member-title: 
-    creative-team-member-portfolio: 
+    creative-team-member-headshot-image:
+    creative-team-member-name:
+    creative-team-member-title:
+    creative-team-member-portfolio:
 - scope:
     path: ''
     type: social-media
   values:
-    social-media-link: 
-    social-media-icon: 
+    social-media-link:
+    social-media-icon:
 favicon-image: "/uploads/favicon-31b9a4.ico"
 meta-description: DC Design Week is a celebration of creatives, thinkers, and makers
   in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
