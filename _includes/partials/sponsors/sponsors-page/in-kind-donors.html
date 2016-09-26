@@ -1,0 +1,36 @@
+<section class="in-kind-donors pb4">
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-1 py1"></div>
+    <div class="sm-col sm-col-12 md-col-11">
+      <h2 class="bbroller text-x-medium m0">
+        {{page.third-tier-header-text}}
+      </h2>
+      <hr class="title-divider">
+      <p class="text-default m0">
+        {{page.third-tier-sub-header-text}}
+      </p>
+    </div>
+  </div>
+
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-2 py1"></div>
+    <div class="sm-col sm-col-12 md-col-10">
+      <ul class="overflow-hidden">
+        {% for posts in site.sponsors %}
+          {% if posts.is-third-tier == true %}
+            {% include partials/sponsors/sponsors-contents.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-12 md-col-3 py1"></div>
+    <div class="sm-col sm-col-12 md-col-9">
+      <a href="mailto:{{page.third-tier-button-link}}" target="_top" class="bbroller text-default blue-underline m0">
+        {{page.third-tier-button-text}}
+      </a>
+    </div>
+  </div>
+</section>

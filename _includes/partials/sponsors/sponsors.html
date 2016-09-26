@@ -1,5 +1,7 @@
 {% if page.layout == 'pages/page-home' %}
   {% include partials/sponsors/home-page/home-page-list.html %}
 {% elsif page.layout == 'pages/page-sponsors' %}
-  {% include partials/events/events-page/events-page-list.html %}
+  {% include partials/sponsors/sponsors-page/sponsors-page-lists.html %}
+{% elsif page.layout == 'pages/page-shops-galleries' %}
+  {% include partials/sponsors/shop-gallery-page/shop-gallery-list.html %}
 {% endif %}
