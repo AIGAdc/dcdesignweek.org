@@ -121,7 +121,9 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 
 .text-vertical {
 	transform: rotate(-90deg);
-	left: 0px;
+	left: 0;
 	right: 0;
-	bottom: 67px;
+	bottom: 0;
+	margin: 0;
+	max-width: 200px;
 }

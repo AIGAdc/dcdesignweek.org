@@ -1,11 +1,12 @@
 /* event card */
 .featured-event-card,
 .event-card {
-	margin: 2.5em 0;
+	margin: 0;
+	min-height: 441px;
 }
 
 .event-image {
-	max-height: 150px;
+	max-height: 220px;
 	border: solid 3px $black;
 }
 
@@ -24,10 +25,6 @@
 @media screen and (min-width: 831px) {
 	.event-card {
 		padding: 0 1em;
-	}
-
-	.event-details {
-		min-height: 200px;
 	}
 }
 
