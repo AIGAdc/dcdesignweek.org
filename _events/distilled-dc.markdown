@@ -2,12 +2,12 @@
 title: Distilled DC
 date: 2016-08-02 22:08:00 -04:00
 position: 1
+is-featured-on-home-page: false
 is-thursday: true
 single-event-header-image: "/uploads/destil-dc.jpg"
 event-date: 2016-10-27 19:00:00 -04:00
 event-venue-name: Republic Restoratives
 event-venue-directions: https://www.google.com/maps/place/Republic+Restoratives+Distillery+and+Craft+Cocktail+Bar/@38.9153147,-76.9874608,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b8736fc5914f:0x105eac3d9e609f98!8m2!3d38.9153147!4d-76.9852721
-is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
