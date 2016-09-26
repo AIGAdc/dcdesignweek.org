@@ -23,7 +23,7 @@
 
       {% endcomment %}
 
-      {% for posts in site.events limit: 6%}
+      {% for posts in site.events %}
         {% if posts.is-featured-on-home-page == true %}
         <li class="event-card relative sm-col sm-col-6 lg-col-4">
           <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
