@@ -8,7 +8,7 @@ is-friday: false
 single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
 event-date: 2016-10-21 09:00:00 -04:00
 event-venue-name: Sidney Harman Hall
-event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
+event-venue-directions: https://goo.gl/maps/7qnkpRidokN2
 is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
