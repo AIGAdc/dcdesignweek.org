@@ -24,11 +24,8 @@
       {% endcomment %}
 
       {% for posts in site.events limit: 6%}
-        {% if posts.is-even-on-events-page == true %}
-        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
-        {% else %}
+        {% if posts.is-featured-on-home-page == true %}
         <li class="event-card relative sm-col sm-col-6 lg-col-4">
-        {% endif %}
           <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
           <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
             {{ posts.event-date | date: "%A, %B %d"}}
@@ -68,6 +65,8 @@
             </a>
           </div>
         </li>
+        {% else %}
+        {% endif %}
       {% endfor %}
       <a href="http://www.dcdesignweek.org/events/" class="blue-underline inline-block m0 bbroller">
         {{page.home-events-button-text}}
