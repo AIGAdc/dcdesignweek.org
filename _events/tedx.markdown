@@ -14,6 +14,7 @@ is-even-on-events-page: false
 has-speakers: true
 speakers:
 - speaker-headshot-image: "/uploads/tedx-lupton.jpg"
+  speaker-link: 
   speaker-name: Ellen Lupton
   speaker-title: Museum Curator & Designer
   speaker-bio: Ellen Lupton is the curator of Contemporary Design at Cooper-Hewitt,
