@@ -10,6 +10,7 @@ event-venue-directions: https://www.google.com/maps/place/National+Building+Muse
 is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
+presenter-section-header: Speakers
 speakers:
 - speaker-headshot-image: "/uploads/Debbie3.jpg"
   speaker-name: Debbie Millman
