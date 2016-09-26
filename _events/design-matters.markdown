@@ -13,6 +13,7 @@ has-speakers: true
 presenter-section-header: Speakers
 speakers:
 - speaker-headshot-image: "/uploads/Debbie3.jpg"
+  speaker-link: http://www.debbiemillman.com/
   speaker-name: Debbie Millman
   speaker-title: Host of Design Matters and President of Design at Sterling Brands
   speaker-bio: 'Debbie Millman was named “one of the most influential designers working
@@ -25,12 +26,14 @@ speakers:
     per year, a Cooper Hewitt National Design Award and—most recently—iTunes designated
     it one of the best podcasts of 2015. '
 - speaker-headshot-image: "/uploads/abottmiller.jpg"
+  speaker-link: http://www.pentagram.com/#/partners/109673
   speaker-name: Abbott Miller
   speaker-title: Partner, Pentagram
   speaker-bio: Abbott Miller is an American graphic designer and writer, and a partner
     at Pentagram which he joined in 1999. Miller’s projects are often concerned with
     the cultural role of design and the public life of the written word.
 - speaker-headshot-image: "/uploads/NBM-cc1bde.jpg"
+  speaker-link: http://www.nbm.org/
   speaker-name: 'The National Building Museum '
   speaker-title: 
   speaker-bio: The National Building Museum is America’s leading cultural institution
