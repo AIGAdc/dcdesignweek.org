@@ -1,152 +1,50 @@
 {% if page.layout == 'pages/page-home' %}
-<section class="homepage-events relative bg-opaque-white">
-  <div class="container clearfix px3">
+<section class="homepage-events relative bg-opaque-white py3">
+  <div class="container clearfix p3">
     <div class="sm-col sm-col-12">
-      <h1 class="bbroller m0 text-x-large">{{ page.home-events-header-text }}</h1>
+      <h2 class="bbroller m0 text-x-large">
+        {{ page.home-events-header-text }}
+      </h2>
       <hr class="title-divider">
-      <p class="m0 text-default">{{ page.home-events-sub-header-text }}</p>
+      <p class="m0 text-default">
+        {{ page.home-events-sub-header-text }}
+      </p>
     </div>
   </div>
-
-  <div class="container clearfix py3">
+  <div class="container clearfix p3">
     <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
     <div class="event-list-wrapper p3 sm-col sm-col-11">
-      <ul class="">
+      <ul class="home-events-list">
+        {% comment %}
+        =====
+        The block below will print any events found inside "site.events" that have been designated as being featured on the home page.
 
-      {% comment %}
+        Additionally, there is a filter applied that will then sort the featured events by date.
+        =====
+        {% endcomment %}
 
-      For every event located within site.events, an event will be printed onto the homepage. Using the limit filter, I've limited the amount of events to 6.
-
-      There is also a boolean in place to display events on the homepage if their 'is-featured' checkbox is set to true. If this checkbox is false, the event will display as intended elsewhere on the site.
-
-      In addition to the boolean above, there is a boolean in place to add a class of 'card-even' which will apply 'right: -100px;' to events that have that checkbox set to true to stagger the events.
-
-      {% endcomment %}
-
-      {% for posts in site.events %}
-        {% if posts.is-featured-on-home-page == true %}
-        <li class="event-card relative sm-col sm-col-6 lg-col-4">
-          <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-          <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
-            {{ posts.event-date | date: "%A, %B %d"}}
-          </span>
-
-          <!-- Event Day of Week | ex: Friday -->
-          <span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">
-            {{ posts.event-date | date: "%A"}}
-          </span>
-
-          <!-- Event Date | ex: October, 21 -->
-          <span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">
-            {{ posts.event-date | date: "%B, %d"}}
-          </span>
-
-          <a href="{{posts.url}}">
-            <div class="event-image overflow-hidden">
-              <img src="{{ posts.event-bg-image }}">
-            </div>
-          </a>
-
-          <div class="event-details bg-white p2">
-            <!-- Event Title -->
-            <a href="{{posts.url}}">
-              <h1 class="bbroller m0 black text-small">
-                {{ posts.title }}
-              </h1>
-            </a>
-            <hr class="title-divider">
-            <!-- Event Time | ex: 06 PM -->
-            <p class="bbroller m0 black text-small mb1">
-              <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
-            </p>
-            <!-- Event Venue  -->
-            <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
-              <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-            </a>
-          </div>
-        </li>
-        {% else %}
-        {% endif %}
-      {% endfor %}
+        {% assign sorted_events = (site.events | sort: 'event-date') %}
+        {% for posts in sorted_events %}
+          {% if posts.is-featured-on-home-page == true %}
+          <li class="event-card relative sm-col sm-col-6 lg-col-4">
+            {% include partials/events/card-contents.html %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container clearfix p3">
+    <div class="sm-col sm-col-3 py1 xs-hide sm-hide md-hide"></div>
+    <div class="sm-col sm-col-9">
       <a href="http://www.dcdesignweek.org/events/" class="blue-underline inline-block m0 bbroller">
         {{page.home-events-button-text}}
       </a>
-      </ul>
     </div>
   </div>
 </section>
 
 {% elsif page.layout == 'pages/page-events' %}
-
-{% comment %}
-<section class="page-events-list relative z3">
-  <div class="container clearfix py3">
-    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="event-list-wrapper p3 sm-col sm-col-11">
-      <ul class="">
-
-      {% comment %}
-
-      For every event located within site.events, an event will be printed onto the homepage. Using the limit filter, I've limited the amount of events to 6.
-
-      There is also a boolean in place to display events on the homepage if their 'is-featured' checkbox is set to true. If this checkbox is false, the event will display as intended elsewhere on the site.
-
-      In addition to the boolean above, there is a boolean in place to add a class of 'card-even' which will apply 'right: -100px;' to events that have that checkbox set to true to stagger the events.
-
-      {% endcomment %}
-
-      {% assign sorted_events = (site.events | sort: 'event-date') %}
-      {% for posts in sorted_events %}
-        {% if posts.is-even-on-events-page == true %}
-        <li class="event-card is-even relative sm-col sm-col-6 lg-col-4">
-        {% else %}
-        <li class="event-card relative sm-col sm-col-6 lg-col-4">
-        {% endif %}
-          <!-- Event Day of Week: Mobile | ex: Friday, October 21 -->
-          <span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
-            {{ posts.event-date | date: "%A, %B %d"}}
-          </span>
-
-          <!-- Event Day of Week | ex: Friday -->
-          <span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">
-            {{ posts.event-date | date: "%A"}}
-          </span>
-
-          <!-- Event Date | ex: October, 21 -->
-          <span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">
-            {{ posts.event-date | date: "%B, %d"}}
-          </span>
-
-          <a href="{{posts.url}}">
-            <div class="event-image overflow-hidden">
-              <img src="{{ posts.event-bg-image }}">
-            </div>
-          </a>
-
-          <div class="event-details bg-white p2">
-            <!-- Event Title -->
-            <a href="{{posts.url}}">
-              <h1 class="bbroller m0 black text-small">
-                {{ posts.title }}
-              </h1>
-            </a>
-            <hr class="title-divider">
-            <!-- Event Time | ex: 06 PM -->
-            <p class="bbroller m0 black text-small mb1">
-              <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date: "%I %p"}}
-            </p>
-            <!-- Event Venue  -->
-            <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
-              <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-            </a>
-          </div>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-{% endcomment %}
 
 <section class="kickoff-friday relative py2">
   <div class="container clearfix">
