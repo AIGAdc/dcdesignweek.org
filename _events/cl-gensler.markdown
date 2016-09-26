@@ -2,12 +2,12 @@
 title: 'Creative Lunch: Gensler'
 date: 2016-08-02 22:09:00 -04:00
 position: 0
+is-featured-on-home-page: true
 is-friday: true
 single-event-header-image: "/uploads/cl-gensler.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: Gensler DC
 event-venue-directions: https://www.google.com/maps/place/Gensler+%26+Associates/@38.902142,-77.048141,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b74b5fa157:0xb02cda9a8ded0f60!8m2!3d38.902142!4d-77.0459523
-is-featured-on-home-page: true
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
@@ -23,4 +23,4 @@ Please plan to arrive at Gensler 10 minutes early to allow time for registration
 
 ## About Gensler
 
-We are designers, engineers, and strategists. A team with a unique mix of skills knit together by our client-focused process, honed by decades of experience, that delivers real results, every time.
+Gensler is a global firm that’s leveraging the power of design to make a better world for people – the Gensler Brand Studio is a creative powerhouse within that collaborative. We bring the best right and left brains together to design fresher brand experiences, smarter, and more compelling real and digital places. Our work stirs people's emotions through media from people to paper to screens to city streets.
