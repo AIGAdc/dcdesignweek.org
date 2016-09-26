@@ -2,13 +2,13 @@
 title: Design Week - Closing Party
 date: 2016-07-03 09:52:00 -04:00
 position: 5
+is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-saturday: true
 single-event-header-image: "/uploads/cl-closing.jpg"
 event-date: 2016-10-29 13:00:00 -04:00
 event-venue-name: Neal Place + Garden—Union Market
 event-venue-directions: https://www.google.com/maps/place/Neal+Place+Tap+%2B+Garden/@38.9090931,-77.0013178,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b81a771509b3:0xff2f5c38b4df2808!8m2!3d38.9090931!4d-76.9991291
-is-featured-on-home-page: true
 is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
