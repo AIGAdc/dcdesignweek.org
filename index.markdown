@@ -31,6 +31,8 @@ sponsors:
 - sponsor-image: "/uploads/deloitte.png"
 - sponsor-image: "/uploads/Capone.jpg"
 - sponsor-image: "/uploads/Chief.jpg"
+home-sponsors-link-text: See the Full List
+home-sponsors-link: http://www.dcdesignweek.org/sponsors/
 layout: pages/page-home
 ---
 
