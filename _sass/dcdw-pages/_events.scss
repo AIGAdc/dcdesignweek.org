@@ -2,7 +2,7 @@
 .featured-event-card,
 .event-card {
 	margin: 2em 0;
-	min-height: 441px;
+	min-height: 425px;
 }
 
 .event-image {
@@ -76,7 +76,6 @@ span.hovered {
 @media screen and (min-width: 640px) {
 	.event-card {
 		padding: 0 0.5em;
-		min-height: 475px;
 	}
 
 	span.event-day {
