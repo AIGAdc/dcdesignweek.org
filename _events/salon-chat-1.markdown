@@ -1,5 +1,5 @@
 ---
-title: Salon with Morgan West, Founder of A Creative DC
+title: 'Salon: Morgan West, Founder of A Creative DC'
 date: 2016-07-03 09:51:00 -04:00
 position: 6
 is-monday: true
