@@ -3,6 +3,8 @@ title: Sponsors
 date: 2016-08-01 21:34:00 -04:00
 permalink: "/sponsors/"
 position: 3
+description: 
+image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 first-tier-header-text: AIGA DC Sustaining Partners
 first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
   enabling us to stay true to our mission: to advance designing as a professional
