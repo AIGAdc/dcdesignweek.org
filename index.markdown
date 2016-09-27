@@ -2,6 +2,8 @@
 title: Home
 date: 2016-07-02 23:42:00 -04:00
 position: 0
+description: 
+image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 homepage-hero-image: "/uploads/dcdw-pattern-38c20d.jpg"
 dc-design-header-text: DC is Design
 dc-design-paragraph-1-text: 'Design is a driving force in our nation’s capital and
