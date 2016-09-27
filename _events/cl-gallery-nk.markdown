@@ -1,6 +1,11 @@
 ---
 title: 'Creative Lunch: Gallery NK'
 date: 2016-09-20 21:42:00 -04:00
+description: Gallery NK is opening its doors during DC Design Week to welcome AIGA
+  DC and***Petal***, an exhibition by Dennis McBride. This Creative Lunch will feature
+  illustrations, couture and ready-wear apparel inspired by the fashion design icon,
+  Ann Cole Lowe, and a talk about the essence of fashion design.
+image: "/uploads/cl-gallery-nk.jpg"
 is-featured-on-home-page: false
 is-monday: true
 is-wednesday: false
