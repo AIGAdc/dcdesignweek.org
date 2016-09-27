@@ -10,7 +10,7 @@ image: "/uploads/grace-boney_event.jpg"
 is-featured-on-home-page: false
 is-wednesday: true
 single-event-header-image: "/uploads/grace-boney.jpg"
-event-date: 2016-10-26 09:00:00 -04:00
+event-date: 2016-10-26 08:00:00 -04:00
 event-venue-name: Kramerbooks & Afterwords
 event-venue-directions: https://www.google.com/maps/place/Kramerbooks+%26+Afterwords+Cafe/@38.9108193,-77.0459355,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7c63dc61715:0x6197332ff8e08d48!8m2!3d38.9108193!4d-77.0437468
 is-even-on-events-page: false
@@ -40,7 +40,7 @@ speakers:
     professional background includes journalism, marketing, digital storytelling and
     social media. She is a graduate of Howard University in Washington, D.C.
 left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-text: Tickets on sale October 4 (AIGA-members only)
 event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
 ---
