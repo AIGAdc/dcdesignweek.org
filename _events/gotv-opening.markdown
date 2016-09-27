@@ -2,13 +2,20 @@
 title: Get-Out-the-Vote Gallery Opening
 date: 2016-07-03 09:52:00 -04:00
 position: 3
+description: Mix, mingle, clink and drink a glass of champagne to toast the opening
+  of the DC’s "AIGA‘s Get Out the Vote Campaign"(GOTV) poster gallery. Launched on
+  President’s Day and in partnership with the League of Women Voters, AIGA‘s Get Out
+  the Vote campaign wields the power of design to motivate the American public to
+  register and turn out to vote in the 2016 general election, as well as local elections
+  to come.
+image: "/uploads/GOTV_web.jpg"
+is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-sunday: true
 single-event-header-image: "/uploads/gotv2.jpg"
 event-date: 2016-10-23 14:00:00 -04:00
 event-venue-name: Washington Project for the Arts
 event-venue-directions: https://www.google.com/maps/place/Washington+Project+For+the+Arts/@38.9183777,-77.0254307,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7c893d510e7:0x944c8fb115264038!8m2!3d38.9183777!4d-77.023242
-is-featured-on-home-page: true
 is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
