@@ -7,6 +7,7 @@ description: Viget has a 16-year history of making award-winning digital product
   insights to their approach.
 image: "/uploads/cl-viget.jpg"
 is-featured-on-home-page: false
+is-monday: true
 single-event-header-image: "/uploads/cl-viget.jpg"
 event-date: 2016-10-24 13:00:00 -04:00
 event-venue-name: Viget
