@@ -1,6 +1,14 @@
 ---
 title: 'Creative Lunch: Streetsense'
 date: 2016-08-02 22:14:00 -04:00
+description: Streetsense is an experience-focused strategy and design collective.
+  Experts in the real estate, retail, and hospitality industries, they create brands
+  people love and places people love to be. With an un-disciplined approach and an
+  insight-driven worldview, they impact experiences at every level and at every scale
+  – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss
+  what they do at Streetsense, what inspires them, and some of their very favorite
+  projects.
+image: "/uploads/cl-streetsence.jpg"
 is-thursday: true
 single-event-header-image: "/uploads/cl-streetsence.jpg"
 event-date: 2016-10-27 12:00:00 -04:00

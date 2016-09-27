@@ -1,13 +1,17 @@
 ---
 title: 'Dev & Design: Harmony in the Digital Space'
 date: 2016-09-22 00:47:00 -04:00
+description: 'As a part of DCFemTech’s October Tour De Code and a partnership between
+  DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between
+  Designers & Developers through conversation, discovery, and a hands on workshop. '
+image: "/uploads/devanddesign2event.jpg"
+is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-monday: true
 single-event-header-image: "/uploads/devanddesign2.jpg"
 event-date: 2016-10-24 18:00:00 -04:00
 event-venue-name: CHIEF
 event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
-is-featured-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6

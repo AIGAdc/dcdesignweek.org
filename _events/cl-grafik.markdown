@@ -1,6 +1,15 @@
 ---
 title: 'Creative Lunch: Grafik'
 date: 2016-08-02 22:14:00 -04:00
+description: 'Grafik believes every branding engagement must start with a solid strategy
+  that clearly informs a powerful creative approach. Join Grafik for lunch and learn
+  how DC’s go-to branding firm translates charts, graphs, and positioning statements
+  into authentic brand identities that can be expressed across every experience and
+  every channel. Meet the designers and strategists who ensure our clients always
+  land on The Right Idea.
+
+'
+image: "/uploads/cl-grafik.jpg"
 is-thursday: true
 single-event-header-image: "/uploads/cl-grafik.jpg"
 event-date: 2016-10-27 12:00:00 -04:00

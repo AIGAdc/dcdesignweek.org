@@ -2,6 +2,12 @@
 title: Design Week - Closing Party
 date: 2016-07-03 09:52:00 -04:00
 position: 5
+description: 'Our week of celebration culminates in a day festival featuring crafty
+  activities, workshops, pumpkins and fall fun. Meet the DCDW team Saturday, October
+  29th at Union Market''s newest outdoor beer garden, Tap & Garden, to toast to this
+  year''s DC Design Week. Together, we''ll enjoy an afternoon of local crafts, food,
+  drinks, and the company of fellow DC artists. '
+image: "/uploads/cl-closing.jpg"
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-saturday: true

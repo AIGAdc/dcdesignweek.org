@@ -2,6 +2,11 @@
 title: 'Salon: Grace Bonney founder of Design*Sponge'
 date: 2016-07-03 09:51:00 -04:00
 position: 7
+description: Join us for a conversation with Grace Bonney, founder of Design\*Sponge
+  and author of the newly released, In the Company of Women. Her book celebrates an
+  exceptional group of strong, talented, and creative women who have blazed trails,
+  launched their own businesses, and supported other women along the way.
+image: "/uploads/grace-boney_event.jpg"
 is-featured-on-home-page: false
 is-wednesday: true
 single-event-header-image: "/uploads/grace-boney.jpg"
