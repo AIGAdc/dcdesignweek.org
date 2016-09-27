@@ -1,12 +1,16 @@
 ---
 title: 'Creative Lunch: Vox Media'
 date: 2016-08-02 22:14:00 -04:00
+description: Join a conversation about how they are solving the problem of designing
+  for and developing high-value digital journalism, storytelling, and brand advertising
+  at scale.
+image: "/uploads/cl-vox.jpg"
+is-featured-on-home-page: false
 is-tuesday: true
 single-event-header-image: "/uploads/cl-vox.jpg"
 event-date: 2016-10-25 12:00:00 -04:00
 event-venue-name: Vox Media
 event-venue-directions: https://www.google.com/maps/place/Vox+Media/@38.9060648,-77.0429348,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b897bb5b1f:0x59d140372f8bdd77!8m2!3d38.9060648!4d-77.0407461
-is-featured-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
