@@ -2,6 +2,11 @@
 title: TEDx MidAtlantic
 date: 2016-07-03 09:51:00 -04:00
 position: 8
+description: The world is changing fast. Often so fast that we don’t take the time
+  to think about what kind of society and future we actually want to build. Politics
+  has become disconnected from fact. Innovation is pursued without consideration of
+  ethics. Around the world, we are building walls instead of bridges.
+image: "/uploads/TEDx_MidAtlantic2.jpg"
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-kickoff-friday: true
