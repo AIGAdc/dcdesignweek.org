@@ -7,26 +7,26 @@ description:
 image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
 pop-up-shop-header-text: DCDW Pop-Up Shop
-pop-up-shop-body-text: We're taking over the Cherry Blossom Collective store front
+pop-up-shop-body-text: "We're taking over the Cherry Blossom Collective store front
   and filling it with items made by locals. Swing by, shop, and support our neighborhood
-  maker and creative community. Have something to add to the shop? Hit us up and lets
-  make it happen! tj@aigadc.org
+  maker and creative community. Have something to add to the shop? \n\nHit us up and
+  lets make it happen! tj@aigadc.org"
 get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
 get-out-vote-header-text: "Get Out the Vote\L Gallery"
 get-out-vote-body-text: "We are hosting a local exhibition that will feature up to
   50 hand-selected posters that were designed by local creatives—with the occasional
   appearance of say... a Milton Glaser or Paula Scher piece—for the [National Get
-  Out the Vote Campaign](https://www.aiga.org/get-out-the-vote/). \n\nEnter your poster
-  by **October 7** and your poster could be chosen to feature in this gallery!\n\nLaunched
+  Out the Vote Campaign](https://www.aiga.org/get-out-the-vote/).\n \n\nEnter your
+  poster by **October 7** and your poster could be chosen to feature in this gallery!\n\n\nLaunched
   on President’s Day and in partnership with the League of Women Voters, AIGA‘s Get
   Out the Vote campaign wields the power of design to motivate the American public
   to register and turn out to vote in the 2016 general election, as well as local
   elections to come. "
 gallery-opening-image: "/uploads/cl-gallery-nk.jpg"
 gallery-opening-header-text: Gallery Opening
-gallery-opening-body-text: |2-
-
-  On Sunday, October 23rd, mix, mingle, clink and drink a glass of champagne to toast the opening of the DC’s “Get Out the Vote” (GOTV) poster gallery.
+gallery-opening-body-text: On Sunday, October 23rd, mix, mingle, clink and drink a
+  glass of champagne to toast the opening of the DC’s “Get Out the Vote” (GOTV) poster
+  gallery.
 gallery-opening-button-link: "#"
 gallery-opening-button-text: Find Out More
 you-are-voting-image: "/uploads/dcdw-you-are-voting.png"
