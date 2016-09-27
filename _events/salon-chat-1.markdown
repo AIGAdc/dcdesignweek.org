@@ -2,6 +2,11 @@
 title: 'Salon: Morgan West, Founder of A Creative DC'
 date: 2016-07-03 09:51:00 -04:00
 position: 6
+description: Maybe you've seen the hashtag. Maybe you've used the hashtag. And if
+  you have, you definitely love the feed. Join us and Morgan H. West, the founder
+  of A Creative DC, for a conversation about her use of new media to build a gathering
+  space for thousands of DC creatives both on and offline.
+image: "/uploads/acreativedc2event.jpg"
 is-featured-on-home-page: false
 is-monday: true
 single-event-header-image: "/uploads/acreativedc2.jpg"
