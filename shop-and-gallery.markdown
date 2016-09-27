@@ -3,6 +3,8 @@ title: Shop & Gallery
 date: 2016-08-01 21:33:00 -04:00
 permalink: "/shops-and-galleries/"
 position: 2
+description: 
+image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
 pop-up-shop-header-text: DCDW Pop-Up Shop
 pop-up-shop-body-text: 'We''re taking over the Cherry Blossom Collective store front
