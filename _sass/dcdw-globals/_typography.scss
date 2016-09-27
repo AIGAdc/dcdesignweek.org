@@ -21,6 +21,7 @@ $text-billboard: 7.375rem;
 // line-heights
 $lh-normal: normal;
 $lh-tight: 1.4em;
+$lh-spaced: 1.75em;
 $lh-loose: 2em;
 
 // text transforms
@@ -97,6 +98,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 /* line heights */
 .lh-normal { line-height: $lh-normal; }
 .lh-loose { line-height: $lh-loose; }
+.lh-spaced { line-height: $lh-spaced; }
 .lh-tight { line-height: $lh-tight; }
 
 /* text transforms */
