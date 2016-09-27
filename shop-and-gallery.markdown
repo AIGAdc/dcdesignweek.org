@@ -7,9 +7,10 @@ description:
 image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
 pop-up-shop-header-text: DCDW Pop-Up Shop
-pop-up-shop-body-text: 'We''re taking over the Cherry Blossom Collective store front
+pop-up-shop-body-text: We're taking over the Cherry Blossom Collective store front
   and filling it with items made by locals. Swing by, shop, and support our neighborhood
-  maker and creative community. '
+  maker and creative community. Have something to add to the shop? Hit us up and lets
+  make it happen! tj@aigadc.org
 get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
 get-out-vote-header-text: "Get Out the Vote\L Gallery"
 get-out-vote-body-text: 'We are hosting a local exhibition that will feature up to
