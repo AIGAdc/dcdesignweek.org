@@ -8,20 +8,41 @@
     <div class="sm-col sm-col-12 md-col-8 text-medium">
       <h3 class="bbroller m0 text-large">Details</h3>
       <hr class="title-divider">
-      <div class="sm-col sm-col-12 md-col-6">
+      <div class="sm-col sm-col-12 md-col-6 pr2">
         <h4 class="bbroller m0 text-lowercase text-small fw-extrabold py2">
           Date &amp; Time
         </h4>
-        <p class="m0 text-small">
-          {{ page.event-date | date: "%A / %B %d / %I %p"}}
+        <p class="m0 mb1 text-small">
+          {{ page.event-date | date: "%A"}}
+        </p>
+        <p class="m0 mb1 text-small">
+          {{ page.event-date | date: "%B %d"}}
+        </p>
+        <p class="m0 mb1 text-small">
+          {{ page.event-date | date: "%l:%M %p"}}
+        </p>
+
+        <hr class="title-divider">
+
+        <p class="m0 mb1 text-small">
+          Doors: 5:30 PM
+        </p>
+        <p class="m0 mb1 text-small">
+          Show Begins: 6:30 PM
+        </p>
+        <p class="m0 mb1 text-small">
+          Show Concludes: 6:30 PM
         </p>
       </div>
-      <div class="sm-col sm-col-12 md-col-6">
-        <h4 class="bbroller m0 text-lowercase text-small py2">
+      <div class="sm-col sm-col-12 md-col-6 pr2">
+        <h4 class="bbroller m0 text-lowercase text-small fw-extrabold py2">
           Venue
         </h4>
-        <p class="m0 text-small">
-          <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-venue-name }}</a>
+        <p class="m0 mb1 text-small">
+          {{ page.event-venue-name }}
+        </p>
+        <p class="m0 mb1 text-small">
+          <a href="{{ page.event-venue-directions }}" target="_blank">401 F St NW, Washington, DC 20001</a>
         </p>
       </div>
     </div>
