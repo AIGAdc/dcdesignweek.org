@@ -13,6 +13,7 @@ single-event-header-image: "/uploads/cl-gallery-nk.jpg"
 event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
 event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
+event-venue-address: 321 K Street  NE Washington, DC 20002
 is-even-on-events-page: false
 has-speakers: true
 presenter-section-header: Speaker
