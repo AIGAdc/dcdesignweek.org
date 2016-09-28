@@ -10,6 +10,7 @@ single-event-header-image: "/uploads/cl-bluestate.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: 'Blue State Digital '
 event-venue-directions: https://www.google.com/maps/place/Blue+State+Digital+DC/@38.895141,-77.0243957,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7be2f7a268d:0x1f7b4785b0c9bbd4!8m2!3d38.895141!4d-77.022207
+event-venue-address: 406 7th St NW, Washington, DC 20004
 is-even-on-events-page: false
 left-button-text: Tickets on Sale October 6
 event-bg-image: "/uploads/cl-bluestate-5b83f8.jpg"
