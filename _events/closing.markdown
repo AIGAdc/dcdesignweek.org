@@ -15,6 +15,9 @@ single-event-header-image: "/uploads/slack-imgs.com.jpg"
 event-date: 2016-10-29 13:00:00 -04:00
 event-venue-name: Neal Place + Garden—Union Market
 event-venue-directions: https://www.google.com/maps/place/Neal+Place+Tap+%2B+Garden/@38.9090931,-77.0013178,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b81a771509b3:0xff2f5c38b4df2808!8m2!3d38.9090931!4d-76.9991291
+event-venue-address: '1300 4th St NE, Washington, DC 20002
+
+'
 is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
