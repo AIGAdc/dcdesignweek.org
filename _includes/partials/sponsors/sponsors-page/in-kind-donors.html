@@ -3,19 +3,17 @@
     <div class="sm-col sm-col-12 md-col-1 py1"></div>
     <div class="sm-col sm-col-12 md-col-11">
       <h2 class="bbroller text-x-medium m0">
-        {{page.third-tier-header-text}}
+        {{page.third-tier-header-text | markdownify}}
       </h2>
       <hr class="title-divider">
-      <p class="text-default m0">
-        {{page.third-tier-sub-header-text}}
-      </p>
+      {{page.third-tier-sub-header-text | markdownify}}
     </div>
   </div>
 
-  <div class="container clearfix p3">
+  <div class="container clearfix">
     <div class="sm-col sm-col-12 md-col-2 py1"></div>
     <div class="sm-col sm-col-12 md-col-10">
-      <ul class="overflow-hidden">
+      <ul>
         {% for posts in site.sponsors %}
           {% if posts.is-third-tier == true %}
             {% include partials/sponsors/sponsors-contents.html %}

@@ -46,8 +46,8 @@ ul {
 }
 
 .py2-half {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .single-event-header-container {
@@ -85,7 +85,7 @@ article h2 {
 }
 
 article p {
-  font-size: $text-default;
+  font-size: $text-medium;
   font-family: $sans;
   line-height: 1.75em;
   padding-bottom: 1.75em;
@@ -96,7 +96,7 @@ article ul {
   margin-left: 1.75em;
 }
 
-article ul li {
+article li {
   line-height: 1.75em;
   padding-bottom: 1.75em;
 }
@@ -130,7 +130,7 @@ article img {
   }
 
   article p {
-    font-size: $text-medium;
+    font-size: $text-x-medium;
   }
 }
 

@@ -1,21 +1,19 @@
-<section class="first-tier pb4">
-  <div class="container clearfix p3">
+<section class="sustaining-partners pb4">
+  <div class="container clearfix">
     <div class="sm-col sm-col-12 md-col-1 py1"></div>
     <div class="sm-col sm-col-12 md-col-11">
-      <h2 class="bbroller text-x-medium m0">
-        {{page.first-tier-header-text}}
+      <h2 class="bbroller m0">
+        {{ page.first-tier-header-text | markdownify }}
       </h2>
       <hr class="title-divider">
-      <p class="text-default m0">
-        {{page.first-tier-sub-header-text}}
-      </p>
+      {{ page.first-tier-sub-header-text | markdownify }}
     </div>
   </div>
 
   <div class="container clearfix p3">
     <div class="sm-col sm-col-12 md-col-2 py1"></div>
     <div class="sm-col sm-col-12 md-col-10">
-      <ul class="overflow-hidden">
+      <ul>
         {% for posts in site.sponsors %}
           {% if posts.is-first-tier == true %}
             {% include partials/sponsors/sponsors-contents.html %}
