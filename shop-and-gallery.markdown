@@ -27,7 +27,7 @@ gallery-opening-header-text: Gallery Opening
 gallery-opening-body-text: On Sunday, October 23rd, mix, mingle, clink and drink a
   glass of champagne to toast the opening of the DC’s “Get Out the Vote” (GOTV) poster
   gallery.
-gallery-opening-button-link: "#"
+gallery-opening-button-link: http://localhost:4000/events/cl-gallery-nk.html
 gallery-opening-button-text: Find Out More
 you-are-voting-image: "/uploads/dcdw-you-are-voting.png"
 you-are-voting-header-text: Submit your GOTV poster by October 7!
