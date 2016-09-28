@@ -3,5 +3,6 @@ title: '404'
 date: 2016-09-27 22:20:00 -04:00
 description: 
 image: 
+layout: pages/page-404
 ---
 
