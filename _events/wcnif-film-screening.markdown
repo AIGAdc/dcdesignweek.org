@@ -13,6 +13,7 @@ single-event-header-image: "/uploads/WhatComesNext.jpg"
 event-date: 2016-10-28 18:00:00 -04:00
 event-venue-name: Deloitte Digital
 event-venue-directions: https://www.google.com/maps/place/Deloitte/@38.8980777,-77.0574257,15z/data=!4m8!1m2!2m1!1sDeloitte+Digital+1919+N+Lynn+St+Arlington,+VA+22209!3m4!1s0x89b7b65afe50a213:0x54e12b9d83962922!8m2!3d38.8974671!4d-77.0707204
+event-venue-address: 1919 N Lynn St, Arlington, VA 22209
 is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
