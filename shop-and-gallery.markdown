@@ -22,12 +22,12 @@ get-out-vote-body-text: "We are hosting a local exhibition that will feature up 
   Out the Vote campaign wields the power of design to motivate the American public
   to register and turn out to vote in the 2016 general election, as well as local
   elections to come. "
-gallery-opening-image: "/uploads/gallery-nk-large-square.png"
+gallery-opening-image: "/uploads/dcdw-get-out-vote.png"
 gallery-opening-header-text: Gallery Opening
 gallery-opening-body-text: On Sunday, October 23rd, mix, mingle, clink and drink a
   glass of champagne to toast the opening of the DC’s “Get Out the Vote” (GOTV) poster
   gallery.
-gallery-opening-button-link: http://localhost:4000/events/cl-gallery-nk.html
+gallery-opening-button-link: http://www.dcdesignweek.org/events/gotv-opening.html
 gallery-opening-button-text: Find Out More
 you-are-voting-image: "/uploads/dcdw-you-are-voting.png"
 you-are-voting-header-text: Submit your GOTV poster by October 7!
