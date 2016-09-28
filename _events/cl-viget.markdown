@@ -12,6 +12,7 @@ single-event-header-image: "/uploads/cl-viget.jpg"
 event-date: 2016-10-24 13:00:00 -04:00
 event-venue-name: Viget
 event-venue-directions: https://www.google.com/maps/place/Viget/@38.88236,-77.1739087,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b4bf56daf821:0x57e006f859990b48!8m2!3d38.88236!4d-77.17172
+event-venue-address: 105 West Broad Street, 4th Floor, Falls Church, VA 22046
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
