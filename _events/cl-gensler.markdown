@@ -14,6 +14,8 @@ single-event-header-image: "/uploads/cl-gensler.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: Gensler DC
 event-venue-directions: https://www.google.com/maps/place/Gensler+%26+Associates/@38.902142,-77.048141,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b74b5fa157:0xb02cda9a8ded0f60!8m2!3d38.902142!4d-77.0459523
+event-venue-address: K Street Center for Graduate Education, 2020 K St NW, Washington,
+  DC 20006
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
