@@ -11,7 +11,7 @@ pop-up-shop-body-text: "We're taking over the Cherry Blossom Collective store fr
   and filling it with items made by locals. Swing by, shop, and support our neighborhood
   maker and creative community. Have something to add to the shop? \n\nHit us up and
   lets make it happen! tj@aigadc.org"
-get-out-vote-image: "/uploads/cherryblossom.jpg"
+get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
 get-out-vote-header-text: "Get Out the Vote\L Gallery"
 get-out-vote-body-text: "We are hosting a local exhibition that will feature up to
   50 hand-selected posters that were designed by local creatives—with the occasional
@@ -22,7 +22,7 @@ get-out-vote-body-text: "We are hosting a local exhibition that will feature up 
   Out the Vote campaign wields the power of design to motivate the American public
   to register and turn out to vote in the 2016 general election, as well as local
   elections to come. "
-gallery-opening-image: "/uploads/dcdw-get-out-vote.png"
+gallery-opening-image: "/uploads/cherryblossom.jpg"
 gallery-opening-header-text: Gallery Opening
 gallery-opening-body-text: On Sunday, October 23rd, mix, mingle, clink and drink a
   glass of champagne to toast the opening of the DC’s “Get Out the Vote” (GOTV) poster
