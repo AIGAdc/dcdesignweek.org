@@ -1,12 +1,12 @@
 ---
 title: 'Creative Lunch: streetsense.'
 date: 2016-08-02 22:14:00 -04:00
-description: streetsense is an experience-focused strategy and design collective.
+description: Streetsense is an experience-focused strategy and design collective.
   Experts in the real estate, retail, and hospitality industries, they create brands
   people love and places people love to be. With an un-disciplined approach and an
   insight-driven worldview, they impact experiences at every level and at every scale
   – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss
-  what they do at Streetsense, what inspires them, and some of their very favorite
+  what they do at streetsense, what inspires them, and some of their very favorite
   projects.
 image: "/uploads/cl-streetsence.jpg"
 is-thursday: true
@@ -21,10 +21,10 @@ event-bg-image: "/uploads/cl-streetsence.jpg"
 layout: singles/event
 ---
 
-streetsense is an experience-focused strategy and design collective. Experts in the real estate, retail, and hospitality industries, they create brands people love and places people love to be. With an un-disciplined approach and an insight-driven worldview, they impact experiences at every level and at every scale – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss what they do at streetsense, what inspires them, and some of their very favorite projects.
+Streetsense is an experience-focused strategy and design collective. Experts in the real estate, retail, and hospitality industries, they create brands people love and places people love to be. With an un-disciplined approach and an insight-driven worldview, they impact experiences at every level and at every scale – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss what they do at streetsense, what inspires them, and some of their very favorite projects.
 
 **Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at streetsense 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at noon.
 
-Nearest Metro is Bethesda. streetsense is located directly above the station on the Plaza level of 3 Bethesda Metro Center. There is paid parking available in Bethesda Metro Center, along with street parking and multiple parking garages around downtown Bethesda.
+Nearest Metro is Bethesda. Streetsense is located directly above the station on the Plaza level of 3 Bethesda Metro Center. There is paid parking available in Bethesda Metro Center, along with street parking and multiple parking garages around downtown Bethesda.
