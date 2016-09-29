@@ -24,17 +24,17 @@ speakers:
   speaker-link: 
   speaker-name: Grace Bonney
   speaker-title: founder of DesignSponge
-  speaker-bio-text: Grace Bonney is the founder of DesignSponge, a daily website dedicated
-    to the creative community. DesignSponge was founded in 2004 and currently reaches
-    nearly 2 million readers per day. She has amassed almost 2 million combined followers
-    across all social platforms. Bonney has worked as a contributing editor at publications
-    such as House & Garden, Domino, and Craft magazine. She is passionate about supporting
-    all members of the creative community; she runs an annual scholarship for up-and-coming
-    designers, writes a free business column for creatives, and is the host of a weekly
-    radio show, After the Jump. Her first book, Design\*Sponge at Home, is a national
-    bestseller. After 12 years in Brooklyn, Grace now lives in New York’s Hudson Valley
-    with her wife, Julia, and their three pets. You can find her on Twitter, Instagram,
-    Facebook, and Snapchat @designsponge.
+  speaker-bio-text: Grace Bonney is the founder of Design*Sponge, a daily website
+    dedicated to the creative community. DesignSponge was founded in 2004 and currently
+    reaches nearly 2 million readers per day. She has amassed almost 2 million combined
+    followers across all social platforms. Bonney has worked as a contributing editor
+    at publications such as House & Garden, Domino, and Craft magazine. She is passionate
+    about supporting all members of the creative community; she runs an annual scholarship
+    for up-and-coming designers, writes a free business column for creatives, and
+    is the host of a weekly radio show, After the Jump. Her first book, Design*Sponge
+    at Home, is a national bestseller. After 12 years in Brooklyn, Grace now lives
+    in New York’s Hudson Valley with her wife, Julia, and their three pets. You can
+    find her on Twitter, Instagram, Facebook, and Snapchat @designsponge.
   speaker-bio: 
 - speaker-headshot-image: "/uploads/TinaJohnson.jpg"
   speaker-name: Tina Johnson-Marcel
@@ -51,7 +51,7 @@ layout: singles/event
 
 ## In the Company of Women
 
-Join us for a conversation with Grace Bonney, founder of [Design\*Sponge](http://www.designsponge.com/) and author of the newly released *In the Company of Women.* Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, [Tina Johnson-Marcel](https://www.linkedin.com/in/tjmarcel) Flagship content director at Capital One.
+Join us for a conversation with Grace Bonney, founder of [Design\*Sponge](http://www.designsponge.com/) and author of the newly released *In the Company of Women.* Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, [Tina Johnson-Marcel,](https://www.linkedin.com/in/tjmarcel) Flagship content director at Capital One.
 
 Sign up early! The first fifteen registrants will receive a free copy of the book.
 
