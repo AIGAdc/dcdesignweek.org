@@ -28,11 +28,10 @@ ex: October, 21
 Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
 =====
 {% endcomment %}
-<a href="{{posts.url}}">
-  <div class="event-image overflow-hidden">
-    <img src="{{ posts.image }}">
-  </div>
-</a>
+
+<div class="event-image overflow-hidden">
+  <img src="{{ posts.image }}">
+</div>
 
 {% comment %}
 =====
@@ -43,20 +42,19 @@ The p tag will print the time of the event.
 The i tag is wrapped in an anchor tag that will open up a new browser tab to a google maps link of the event location.
 =====
 {% endcomment %}
+
 <div class="event-details bg-white p3">
-  <a href="{{posts.url}}">
-    <h1 class="bbroller m0 black text-small">
-      {{ posts.title }}
-    </h1>
-  </a>
+  <h1 class="bbroller m0 text-small">
+    {{ posts.title }}
+  </h1>
 
   <hr class="title-divider">
 
-  <p class="bbroller m0 black text-small mb1">
+  <p class="bbroller m0 text-small mb1">
     <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date:"%l:%M %p"}}
   </p>
 
-  <a class="m0 black text-small" href="{{ posts.event-venue-directions }}" target="_blank">
+  <p class="m0 text-small">
     <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-  </a>
+  </p>
 </div>
