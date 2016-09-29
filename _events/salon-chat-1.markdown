@@ -28,7 +28,7 @@ Maybe you've seen the hashtag. Maybe you've used the hashtag. And if you have, y
 
 ## Registration opens on October 4!
 
-AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for only $50 a year today: [http://www.aiga.org/join/.](aiga.org/join)
+AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Check out AIGA’s new membership structure and join today for only $50 a year: [http://www.aiga.org/join/.](http://www.aiga.org/join/)
 
 ## About Morgan H. West
 
