@@ -14,6 +14,8 @@ event-venue-name: CHIEF
 event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
 event-venue-address: 1800 Massachusetts Ave NW, Washington, DC 20036
 is-even-on-events-page: false
+has-speakers: false
+presenter-section-header: 'Panelists '
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/devanddesign2event.jpg"
