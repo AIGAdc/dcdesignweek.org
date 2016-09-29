@@ -25,7 +25,7 @@ speakers:
 
     Meyers is the recipient of numerous awards and fellowships, including a Smithsonian Artist Research Fellowship, The Pollock Krasner Award, two Fifth Floor Foundation awards, and three DC Commission on the Arts grants. She has been Artist In Residence at the the Bemis Institute in Omaha NE, the Millay Colony in Austerlitz, NY, the Hirshhorn Museum in Washington DC, the San Jose Institute of Contemporary Art, CA, and the Tamarind Institute in Albuquerque, NM. Her work has been commissioned by the Phillips Collection and the Hirshhorn Museum.
 left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-text: Tickets on sale October 24 at 10:30 AM
 event-bg-image: "/uploads/creative-mornings.jpg"
 ---
 
