@@ -35,13 +35,13 @@ speakers:
   speaker-link: http://www.mfga.com/
   speaker-name: Mark Foster Gage
   speaker-title: Architect
-  speaker-bio-text: Mark Foster Gage is a practicing architect, professor, and writer.
-    His innovative design work has been featured in institutions including the Museum
-    of Modern Art, the Art Institute of Chicago, the Venice Biennale, the Beijing
-    Biennale, the Deutsches Architektur Zentrum in Berlin, and published in venues
-    such as Vogue, Fast Company, The New York Times, Harper’s Bazaar, as well as featured
-    on PBS, Fox, and MTV. Mr. Gage is a tenured professor, and Assistant Dean at the
-    Yale School of Architecture where he has taught since 2001.
+  speaker-bio-text: Mark Foster Gage is an acclaimed architect, innovator and Assistant
+    Dean of the Yale School of Architecture. His pioneering design work fuses advanced
+    technologies with philosophical speculation and interdisciplinary collaboration,
+    and has been featured in institutions including the Museum of Modern Art, the
+    Art Institute of Chicago, the Venice Biennale, and the Beijing Biennale. His projects
+    have been published in venues such as Vogue, Fast Company, The New York Times,
+    Harper’s Bazaar, and on PBS, Fox and MTV.
 - speaker-headshot-image: "/uploads/tedx-dowling.jpg"
   speaker-link: https://www.instagram.com/lauradowlingtheflorist/
   speaker-name: Laura Dowling
