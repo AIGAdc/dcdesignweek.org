@@ -22,15 +22,15 @@ speakers:
   speaker-link: http://www.debbiemillman.com/
   speaker-name: Debbie Millman
   speaker-title: Host of Design Matters and President of Design at Sterling Brands
-  speaker-bio-text: 'Debbie Millman was named “one of the most influential designers
+  speaker-bio-text: Debbie Millman was named “one of the most influential designers
     working today” by Graphic Design USA. She is also an author, educator, and brand
     strategist. As the founder and host of Design Matters, the first and longest running
     podcast about design, Millman has interviewed more than 250 design luminaries
     and cultural commentators, including Massimo Vignelli, Milton Glaser, Malcolm
     Gladwell, Dan Pink, Barbara Kruger, Seth Godin and more. In the 11 years since
-    its inception, the show has garnered over a million downloads per year, a Cooper
-    Hewitt National Design Award, and iTunes designated it one of the best podcasts
-    of 2015. '
+    its inception, the show has garnered over a million downloads per year and a Cooper
+    Hewitt National Design Award. iTunes designated it one of the best podcasts of
+    2015.
 - speaker-headshot-image: "/uploads/abottmiller.jpg"
   speaker-link: http://www.pentagram.com/#/partners/109673
   speaker-name: Abbott Miller
