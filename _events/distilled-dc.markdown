@@ -30,4 +30,4 @@ layout: singles/event
 
 Distilled DC is an event for studio founders, principals, and seasoned creatives whose vision, leadership, and hard work over the years have made the DC metro area a creative hub worth celebrating all week. However, this evening is more than a chance for old friends to reconnect with each other and with AIGA. It is our way of saying a lasting “thank you.” Dinner will include a generous helping of design thinking, as each table discusses how we can better facilitate ongoing knowledge sharing among the area's most experienced creatives.
 
-This event is limited capacity, please request an invite. We will accept requests starting October 6th.
+This event is limited capacity, please request an invitation. We will accept requests starting October 6th.
