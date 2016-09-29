@@ -4,10 +4,9 @@ date: 2016-08-02 22:14:00 -04:00
 description: Streetsense is an experience-focused strategy and design collective.
   Experts in the real estate, retail, and hospitality industries, they create brands
   people love and places people love to be. With an un-disciplined approach and an
-  insight-driven worldview, they impact experiences at every level and at every scale
-  – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss
-  what they do at streetsense, what inspires them, and some of their very favorite
-  projects.
+  insight-driven worldview, they impact experiences at every level and at every scale—from
+  neighborhood restaurants to city blocks. Join them for a luncheon to discuss what
+  they do at streetsense, what inspires them, and some of their very favorite projects.
 image: "/uploads/cl-streetsence.jpg"
 is-thursday: true
 single-event-header-image: "/uploads/cl-streetsence.jpg"
@@ -21,7 +20,7 @@ event-bg-image: "/uploads/cl-streetsence.jpg"
 layout: singles/event
 ---
 
-Streetsense is an experience-focused strategy and design collective. Experts in the real estate, retail, and hospitality industries, they create brands people love and places people love to be. With an un-disciplined approach and an insight-driven worldview, they impact experiences at every level and at every scale – from neighborhood restaurants to city blocks. Join them for a luncheon to discuss what they do at streetsense, what inspires them, and some of their very favorite projects.
+Streetsense is an experience-focused strategy and design collective. Experts in the real estate, retail, and hospitality industries, they create brands people love and places people love to be. With an un-disciplined approach and an insight-driven worldview, they impact experiences at every level and at every scale—from neighborhood restaurants to city blocks. Join them for a luncheon to discuss what they do at streetsense, what inspires them, and some of their very favorite projects.
 
 **Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
