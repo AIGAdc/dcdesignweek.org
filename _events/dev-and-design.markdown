@@ -38,9 +38,9 @@ DCFemTech is a coalition of women leaders aimed at amplifying women in tech orga
 
 Women Who Code (WWCode) is global non-profit with a set of programs for engineers to help build the careers we want. We work to support this generation in being and becoming leaders and role models in the tech industry.
 
-## Chief
+## CHIEF
 
-Chief is a digital agency that works with organizations in the public and private sectors in the DC area. Find out more info about them here: 
+CHIEF is a digital agency that works with organizations in the public and private sectors in the DC area. Find out more info about them here: 
 [www.agencychief.com](www.agencychief.com) 
 
-Chief is located on Massachusetts Ave NW, directly off the southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle Metro station south entrance. Parking is available on the street and in a garage under the building, accessible from 18th St, NW. 
+CHIEF is located on Massachusetts Ave NW, directly off the southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle Metro station south entrance. Parking is available on the street and in a garage under the building, accessible from 18th St, NW. 
