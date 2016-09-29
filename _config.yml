@@ -44,6 +44,7 @@ defaults:
     is-saturday:
     single-event-header-image:
     has-video:
+    video-embed:
     event-date:
     event-venue-name:
     event-venue-directions:
