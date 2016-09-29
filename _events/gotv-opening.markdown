@@ -8,7 +8,7 @@ description: Mix, mingle, clink and drink a glass of champagne to toast the open
   the Vote campaign wields the power of design to motivate the American public to
   register and turn out to vote in the 2016 general election, as well as local elections
   to come.
-image: "/uploads/GOTV_web.jpg"
+image: "/uploads/gotv3.jpg"
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-sunday: true
