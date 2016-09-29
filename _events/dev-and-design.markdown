@@ -4,7 +4,7 @@ date: 2016-09-22 00:47:00 -04:00
 description: 'As a part of DCFemTech’s October Tour De Code and a partnership between
   DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between
   Designers & Developers through conversation, discovery, and a hands on workshop. '
-image: "/uploads/devanddesign2event.jpg"
+image: "/uploads/devanddesign3.jpg"
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-monday: true
