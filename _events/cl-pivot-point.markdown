@@ -8,9 +8,9 @@ description: 'Join AIGA DC for a series of DC Design Week lunches, as we open th
   might not meet otherwise!
 
 '
-image: "/uploads/cl-pivot-point.jpg"
+image: "/uploads/pivotpoint2.jpg"
 is-tuesday: true
-single-event-header-image: "/uploads/cl-pivot-point.jpg"
+single-event-header-image: "/uploads/pivotpoint2.jpg"
 event-date: 2016-10-25 11:00:00 -04:00
 event-venue-name: Crystal City WeWork
 event-venue-directions: https://www.google.com/maps/place/WeWork+Crystal+City/@38.8539538,-77.0538223,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b72927054b7b:0xbb046c59ecc215ac!8m2!3d38.8539538!4d-77.0516336
@@ -18,7 +18,7 @@ event-venue-address: 2221 S Clark St, Arlington, VA 22202
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/cl-pivot-point-bdb8cf.jpg"
+event-bg-image: "/uploads/pivotpoint2.jpg"
 layout: singles/event
 ---
 
