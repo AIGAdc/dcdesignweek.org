@@ -13,13 +13,13 @@
           Date &amp; Time
         </h4>
         <p class="m0 mb1 text-small">
-          <i class="fa fa-calendar" aria-hidden="true"></i> {{ page.event-date | date: "%A"}}
+          {{ page.event-date | date: "%A"}}
         </p>
         <p class="m0 mb1 text-small">
-          <i class="fa fa-calendar-o" aria-hidden="true"></i> {{ page.event-date | date: "%B %d"}}
+         {{ page.event-date | date: "%B %d"}}
         </p>
         <p class="m0 mb1 text-small">
-          <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.event-date | date: "%l:%M %p"}}
+           {{ page.event-date | date: "%l:%M %p"}}
         </p>
         <p class="additional-event-detail m0 fw-bold charcoal">
           {{ page.doors-open }}
@@ -33,10 +33,10 @@
           Venue
         </h4>
         <p class="m0 mb1 text-small">
-          <i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.event-venue-name }}
+          {{ page.event-venue-name }}
         </p>
         <p class="m0 mb1 text-small">
-          <i class="fa fa-location-arrow" aria-hidden="true"></i> <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-venue-address }}</a>
+          <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-venue-address }}</a>
         </p>
       </div>
     </div>
