@@ -14,6 +14,8 @@ event-venue-name: CHIEF
 event-venue-directions: https://www.google.com/maps/place/CHIEF/@38.9089576,-77.0443892,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b83b507b8b:0xb3dfd1d1f168108!8m2!3d38.9089576!4d-77.0422005
 event-venue-address: 1800 Massachusetts Ave NW, Washington, DC 20036
 is-even-on-events-page: false
+has-speakers: false
+presenter-section-header: 'Panelists '
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/devanddesign2event.jpg"
@@ -21,9 +23,9 @@ event-bg-image: "/uploads/devanddesign2event.jpg"
 
 ## Bridge the Gap
 
-As a part of DCFemTech’s [October Tour De Code](http://dcfemtech.github.io/tourdecode) and a partnership between DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between Designers & Developers through conversation, discovery, and a hands on workshop. 
+As a part of DCFemTech’s [October Tour De Code](http://dcfemtech.github.io/tourdecode) and a partnership between DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between developers and designers through conversation, discovery, and a hands-on workshop. 
 
-We’ll start off with an interactive panel discussion where developers and designer pairs will analyze existing designs and discuss their thoughts; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
+We’ll start off with an interactive panel discussion where developer and designer pairs will analyze existing designs and discuss their thoughts; this discussion will present perspectives from both development and design backgrounds. Then we will break out into four roundtable discussion groups, each of which will discuss the following:
 
 * Getting started on creating your portfolio 
 * Designers helping developers on the best way to design their portfolio 
@@ -41,6 +43,6 @@ Women Who Code (WWCode) is global non-profit with a set of programs for engineer
 ## CHIEF
 
 CHIEF is a digital agency that works with organizations in the public and private sectors in the DC area. Find out more info about them here: 
-[www.agencychief.com](www.agencychief.com) 
+[www.agencychief.com](http://www.agencychief.com/) 
 
 CHIEF is located on Massachusetts Ave NW, directly off the southeast side of Dupont Circle. Our office is located nearest to the Dupont Circle Metro station south entrance. Parking is available on the street and in a garage under the building, accessible from 18th St, NW. 

@@ -12,7 +12,7 @@ is-wednesday: false
 single-event-header-image: "/uploads/cl-gallery-nk.jpg"
 event-date: 2016-10-24 12:00:00 -04:00
 event-venue-name: Gallery NK
-event-venue-directions: https://goo.gl/maps/YchnpktvStJ2
+event-venue-directions: https://goo.gl/maps/CJ8DF1hxV8E2
 event-venue-address: 321 K Street  NE Washington, DC 20002
 is-even-on-events-page: false
 has-speakers: true
@@ -22,7 +22,7 @@ speakers:
   speaker-name: Dennis McBride
   speaker-title: Illustrator, Designer, Educator
   speaker-bio-text: |-
-    Award winning designer, Dennis McBride, is one of the few contemporaries with creative triumphs in both costume and fashion design, whose career highlights include a feature in Women’s Wear Daily (WWD), Best of New York issue; his own clothing label ONEYLL; theatrical productions of HELLO DOLLY and NOT ABOUT NIGHTINGALES, at Howard University, as well as various dance performances. His illustrations have been featured with the International Workers Garment Union (ILGWU). As former Curator and Advisory Board counsel for The Black Fashion Museum (BFM/DC), his installations and traveling exhibit, “A Stitch in Time: 1800-2000,” played a key factor in the recognition of the BFM collection that led to its acquisition by the National Museum of African American Culture (NMAAHC | Smithsonian Institution).
+    Award winning designer Dennis McBride, is one of the few contemporaries with creative triumphs in both costume and fashion design, whose career highlights include a feature in Women’s Wear Daily (WWD), Best of New York issue; his own clothing label ONEYLL; theatrical productions of Hello Dolly and Not About Nightingales, at Howard University; as well as various dance performances. His illustrations have been featured with the International Ladies' Garment Workers' Union (ILGWU). As former Curator and Advisory Board counsel for The Black Fashion Museum (BFM/DC), his installations and traveling exhibit, “A Stitch in Time: 1800-2000,” played a key factor in the recognition of the BFM collection that led to its acquisition by the National Museum of African American History and Culture (NMAAHC | Smithsonian Institution).
     McBride has received degrees from Davidson College/NC and Virginia Commonwealth University (VCU)/VA. His four years of curriculum development and teaching in the Fashion Design department at Sitar Arts Center has been one of his most heart-felt achievements to date.
 left-button-text: Tickets on Sale October 6
 event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
@@ -32,7 +32,7 @@ event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 
 ---
 
-Gallery NK is opening its doors during DC Design Week to welcome AIGA DC and***Petal***, an exhibition by Dennis McBride. This Creative Lunch will feature illustrations, couture and ready-wear apparel inspired by the fashion design icon, Ann Cole Lowe, and a talk about the essence of fashion design.
+Gallery NK is opening its doors during DC Design Week to welcome AIGA DC and ***PETAL***, an exhibition by Dennis McBride—local DC Designer, Illustrator, and Educator. This Creative Lunch will feature illustrations, couture and ready-wear apparel inspired by the fashion design icon, Ann Cole Lowe, and a talk about the essence of fashion design.
 
 **Lunch is included.** Registration is $10, limited to 20 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
@@ -44,4 +44,4 @@ Gallery NK, born from a love of art and friendships, is an artist-owned gallery 
 
 ## Directions
 
-Nearest Metro stops are Union Station and NoMa-Gallaudet. Gallery NK is located in an alley.
+Nearest Metro stops are Union Station and NoMa-Gallaudet U. Gallery NK is located in an alley off K Street, between 3rd and 4th Street. 
