@@ -24,6 +24,6 @@ Viget has a 16-year history of making award-winning digital products, experience
 
 **Lunch is included.** Registration is $10, limited to 35 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
-Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly at 1.
+Please plan to arrive at Viget 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 1:00 PM.
 
 Nearest Metro stop is East Falls Church and requires a short taxi to the office. If driving, there is free parking in George Mason Square parking garage located at 103 W. Broad St.  Once you are in the building, take the elevator to 5th floor.
