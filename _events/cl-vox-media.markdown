@@ -14,7 +14,7 @@ event-venue-directions: https://www.google.com/maps/place/Vox+Media/@38.9060648,
 event-venue-address: 1201 Connecticut Ave NW, Washington, DC 20036
 is-even-on-events-page: false
 left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-text: Tickets on sale to AIGA members October 4
 event-bg-image: "/uploads/cl-vox.jpg"
 layout: singles/event
 ---
