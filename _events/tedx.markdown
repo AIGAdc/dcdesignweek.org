@@ -39,9 +39,9 @@ speakers:
     His innovative design work has been featured in institutions including the Museum
     of Modern Art, the Art Institute of Chicago, the Venice Biennale, the Beijing
     Biennale, the Deutsches Architektur Zentrum in Berlin, and published in venues
-    such as *Vogue*, *Fast Company, The New York Times, Harper’s Bazaar,* as well
-    as featured on PBS, Fox, and MTV. Mr. Gage is a tenured professor, and Assistant
-    Dean at the Yale School of Architecture where he has taught since 2001.
+    such as Vogue, Fast Company, The New York Times, Harper’s Bazaar, as well as featured
+    on PBS, Fox, and MTV. Mr. Gage is a tenured professor, and Assistant Dean at the
+    Yale School of Architecture where he has taught since 2001.
 - speaker-headshot-image: "/uploads/tedx-dowling.jpg"
   speaker-link: https://www.instagram.com/lauradowlingtheflorist/
   speaker-name: Laura Dowling
