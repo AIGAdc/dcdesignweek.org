@@ -31,4 +31,4 @@ Please plan to arrive at Gensler 10 minutes early to allow time for registration
 
 ## About Gensler
 
-Gensler is a global firm that’s leveraging the power of design to make a better world for people – the Gensler Brand Studio is a creative powerhouse within that collaborative. We bring the best right and left brains together to design fresher brand experiences, smarter, and more compelling real and digital places. Our work stirs people's emotions through media from people to paper to screens to city streets.
+Gensler is a global firm that’s leveraging the power of design to make a better world for people— the Gensler Brand Studio is a creative powerhouse within that collaborative. We bring the best right and left brains together to design fresher brand experiences, smarter, and more compelling real and digital places. Our work stirs people's emotions through media from people to paper to screens to city streets.
