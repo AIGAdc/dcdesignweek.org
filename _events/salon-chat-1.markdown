@@ -19,6 +19,7 @@ has-speakers: true
 presenter-section-header: Speaker
 speakers:
 - speaker-headshot-image: "/uploads/acreativedc_insert-e9dead.jpg"
+  speaker-link: http://www.acreativedc.com/
   speaker-name: Morgan H. West
   speaker-title: Founder of A Creative DC
   speaker-bio-text: |-
