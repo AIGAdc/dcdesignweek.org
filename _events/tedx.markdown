@@ -14,8 +14,10 @@ is-friday: false
 single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
 event-date: 2016-10-21 09:00:00 -04:00
 event-venue-name: Sidney Harman Hall
-event-venue-directions: https://goo.gl/maps/7qnkpRidokN2
-event-venue-address: 600 Independence Ave SW, Washington, DC 20560
+event-venue-directions: https://goo.gl/maps/5on8Pdssp2q
+event-venue-address: |-
+  610 F St NW
+  Washington, DC 20004
 is-even-on-events-page: false
 has-speakers: true
 speakers:
