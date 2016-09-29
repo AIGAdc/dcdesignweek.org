@@ -25,7 +25,7 @@ speakers:
   speaker-name: Grace Bonney
   speaker-title: founder of DesignSponge
   speaker-bio-text: Grace Bonney is the founder of Design*Sponge, a daily website
-    dedicated to the creative community. DesignSponge was founded in 2004 and currently
+    dedicated to the creative community. Design*Sponge was founded in 2004 and currently
     reaches nearly 2 million readers per day. She has amassed almost 2 million combined
     followers across all social platforms. Bonney has worked as a contributing editor
     at publications such as House & Garden, Domino, and Craft magazine. She is passionate
