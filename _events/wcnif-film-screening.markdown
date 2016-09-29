@@ -12,7 +12,7 @@ is-friday: true
 single-event-header-image: "/uploads/WhatComesNext.jpg"
 has-video: true
 video-embed: |-
-  <iframe src="https://player.vimeo.com/video/163727395?byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/163727395?byline=0&portrait=0" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   <p><a href="https://vimeo.com/163727395">What Comes Next Is the Future: Trailer 2</a> from <a href="https://vimeo.com/bearded">Bearded Studio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 event-date: 2016-10-28 18:00:00 -04:00
 event-venue-name: Deloitte Digital
