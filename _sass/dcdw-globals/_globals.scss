@@ -101,7 +101,8 @@ article li {
   padding-bottom: 1.75em;
 }
 
-article hr {
+article hr,
+.title-divider {
   width: 100%;
   max-width: 100px;
   border: solid 2.5px $black;
