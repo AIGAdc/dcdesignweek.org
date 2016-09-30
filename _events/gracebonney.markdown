@@ -51,7 +51,7 @@ layout: singles/event
 
 ## In the Company of Women
 
-Join us for a conversation with Grace Bonney, founder of [Design\*Sponge](http://www.designsponge.com/) and author of the newly released *In the Company of Women.* Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, [Tina Johnson-Marcel,](https://www.linkedin.com/in/tjmarcel) Flagship content director at Capital One.
+Join us for a conversation with Grace Bonney, founder of [Design\*Sponge](http://www.designsponge.com/) and author of the newly released *In the Company of Women.* Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, [Tina Johnson-Marcel,](https://www.linkedin.com/in/tjmarcel target="_blank) Flagship content director at Capital One.
 
 Sign up early! The first fifteen registrants will receive a free copy of the book.
 
