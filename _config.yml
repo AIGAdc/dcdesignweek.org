@@ -1,6 +1,7 @@
 ---
 title: DC Design Week 2016
 timezone: America/New_York
+repository:
 collections:
   dcdw-committee-members:
     title: DCDW-Committee-Members
@@ -137,4 +138,3 @@ twitter:
 facebook:
   publisher: https://www.facebook.com/aigaDC/
 logo: "/uploads/dcdw-logo-desktop.svg"
-github.repository:
