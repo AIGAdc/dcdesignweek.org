@@ -19,15 +19,13 @@
             </div>
           </div>
           <div class="single-event-speaker-text sm-col sm-col-12 md-col-9 text-center px3 py3">
-            <h3 class="bbroller m0 mb1 ml2">
+            <h3 class="bbroller m0 mb1">
               {{ speaker.speaker-name }}
             </h3>
-            <h6 class="m0 mb2 text-uppercase ml2">
+            <h6 class="m0 mb2 text-uppercase">
               {{ speaker.speaker-title }}
             </h6>
-            <p class="m0 ml2 text-default">
-              {{ speaker.speaker-bio-text }}
-            </p>
+            {{ speaker.speaker-bio-text | markdownify }}
           </div>
         </div>
       {% endfor %}
