@@ -40,8 +40,8 @@ speakers:
     technologies with philosophical speculation and interdisciplinary collaboration,
     and has been featured in institutions including the Museum of Modern Art, the
     Art Institute of Chicago, the Venice Biennale, and the Beijing Biennale. His projects
-    have been published in venues such as *Vogue*, *Fast Company*, The New York Times,
-    Harper’s Bazaar, and on PBS, Fox and MTV.
+    have been published in venues such as *Vogue, Fast Company, The New York Times,
+    Harper’s Bazaar, and on PBS, Fox and MTV*.
 - speaker-headshot-image: "/uploads/tedx-dowling.jpg"
   speaker-link: https://www.instagram.com/lauradowlingtheflorist/
   speaker-name: Laura Dowling
