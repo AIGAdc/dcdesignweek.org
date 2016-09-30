@@ -69,6 +69,17 @@ article {
   padding-bottom: 2.5em;
 }
 
+article a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: blue;
+  transition: color 100ms ease-in-out;
+}
+
+article a:hover {
+  color: black;
+}
+
 article h1 {
   font-size: $text-headline;
   font-family: $bbroller;
