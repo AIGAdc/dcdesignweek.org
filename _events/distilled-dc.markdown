@@ -28,6 +28,10 @@ event-bg-image: "/uploads/destil-dc.jpg"
 layout: singles/event
 ---
 
-Distilled DC is an event for studio founders, principals, and seasoned creatives whose vision, leadership, and hard work over the years have made the DC metro area a creative hub worth celebrating all week. However, this evening is more than a chance for old friends to reconnect with each other and with AIGA. It is our way of saying a lasting “thank you.” Dinner will include a generous helping of design thinking, as each table discusses how we can better facilitate ongoing knowledge sharing among the area's most experienced creatives.
+Distilled DC is an event for studio founders, principals, and seasoned creatives whose vision, leadership, and hard work over the years have made the DC metro area a creative hub worth celebrating all week.
 
-This event is limited capacity, please request an invitation. We will accept requests starting October 6th.
+The event will start with an open bar cocktail hour featuring Republic Restorative Distillery’s spirits, followed by a three-course dinner from Chef Jan Van Haute, former executive chef for the Ambassador of Belgium.
+
+However, this evening is more than a chance to reconnect with old friends and AIGA over delicious drinks and food. It is our way of saying a lasting “thank you.” Dinner will include a generous helping of design thinking, as each table discusses how we can better facilitate ongoing knowledge sharing among the area’s most experienced creatives.
+
+This event is invite-only, with tickets priced at $120. We will accept invitation requests starting October 6th.
