@@ -8,6 +8,7 @@ description: CreativeMornings/DC is a breakfast lecture series and community for
   talented artist Linn Meyers on her work and process including her exhibition Our
   View from Here on view at the Hirshhorn.
 image: "/uploads/creative-mornings.jpg"
+is-sold-out: true
 is-featured-on-home-page: false
 is-friday: true
 single-event-header-image: "/uploads/creative-mornings.jpg"
@@ -29,4 +30,4 @@ left-button-text: Tickets on sale October 24 at 10:30 AM
 event-bg-image: "/uploads/creative-mornings.jpg"
 ---
 
-CreativeMornings/DC is a breakfast lecture series and community for creative types in and around Washington, DC. Each month we gather DC's creative people for a free event featuring breakfast, coffee and a short talk from an inspirational thinker or doer. In October, our theme is “Transparency” and we will hear from the talented artist Linn Meyers on her work and process including her exhibition Our View from Here on view at the Hirshhorn. Join us for great creative insights and delicious coffee at the iconic Hirshhorn Museum and Sculpture Garden!
+CreativeMornings/DC is a breakfast lecture series and community for creative types in and around Washington, DC. Each month we gather DC's creative people for a free event featuring breakfast, coffee and a short talk from an inspirational thinker or doer. In October, our theme is “Transparency” and we will hear from the talented artist Linn Meyers on her work and process including her exhibition "Our View from Here" on view at the Hirshhorn. Join us for great creative insights and delicious coffee at the iconic Hirshhorn Museum and Sculpture Garden!
