@@ -9,9 +9,9 @@ description: 'Grafik believes every branding engagement must start with a solid 
   land on The Right Idea.
 
 '
-image: "/uploads/cl-grafik.jpg"
+image: "/uploads/cl-grafik2.jpg"
 is-thursday: true
-single-event-header-image: "/uploads/cl-grafik.jpg"
+single-event-header-image: "/uploads/cl-grafik2.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: Grafik
 event-venue-directions: https://www.google.com/maps/place/Grafik/@38.8109999,-77.0473722,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b0ee7d3e5b7f:0xf16ffbed815f717c!8m2!3d38.8109999!4d-77.0451835
@@ -19,7 +19,7 @@ event-venue-address: 625 North Washington Street, Suite 302, Alexandria, VA 2231
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/cl-grafik.jpg"
+event-bg-image: "/uploads/cl-grafik2.jpg"
 layout: singles/event
 ---
 
