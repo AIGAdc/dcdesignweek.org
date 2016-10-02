@@ -4,6 +4,7 @@ date: 2016-09-22 03:57:00 -04:00
 description: Join Debbie Millman for a live podcast experience at the National Building
   Museum where she will speak to Abbott Miller about Design for the Built Environment.
 image: "/uploads/designmatters2.jpg"
+is-sold-out: true
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-wednesday: true
