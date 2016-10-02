@@ -1,6 +1,6 @@
 ---
 title: Drink & Draw &pizza
-date: 2016-08-02 22:08:00 -04:00
+date: 2016-08-20 22:08:00 -04:00
 position: 2
 description: Join AIGA DC, &pizza and your fellow creatives to design your own pizza
   box. Show off your mad skills, eat, drink and win some prizes throughout the night.
