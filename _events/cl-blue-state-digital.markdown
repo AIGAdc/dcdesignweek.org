@@ -16,6 +16,7 @@ has-speakers: true
 presenter-section-header: Speaker
 speakers:
 - speaker-headshot-image: "/uploads/BSD_AChan.jpg"
+  speaker-link: https://www.bluestatedigital.com/people/angie-chan/
   speaker-name: Angie Chan
   speaker-title: Creative Director
   speaker-bio-text: |-
