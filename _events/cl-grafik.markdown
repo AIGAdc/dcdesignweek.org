@@ -20,7 +20,7 @@ is-even-on-events-page: false
 has-speakers: true
 presenter-section-header: Speakers
 speakers:
-- speaker-headshot-image: "/uploads/grafik-hal.jpg"
+- speaker-headshot-image: "/uploads/grafik-hal2.jpg"
   speaker-link: http://www.grafik.com/about/hal-swetnam
   speaker-name: Hal Swetnam
   speaker-title: SVP, Creative Strategy
