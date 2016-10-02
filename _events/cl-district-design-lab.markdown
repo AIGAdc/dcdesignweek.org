@@ -21,7 +21,7 @@ layout: singles/event
 
 ## 5-9 Design: What Drives Us Beyond Traditional Workday
 
-District Design Lab (DDL) is a DC-based design incubator that aims to engage the broader design culture in DC and the local communities. Their presentation will focus on the group's work through the lens of working "after-hours" and what motivates them to do work beyond the traditional workday.
+District Design Lab (DDL) is a DC-based design incubator that aims to engage the broader design culture in DC and the local communities. Their presentation will focus on the group's work through the lens of working "after hours" and what motivates them to do work beyond the traditional workday.
 
 **Lunch is included.** Registration is $10, limited to 20 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
