@@ -13,6 +13,16 @@ event-venue-name: Vox Media
 event-venue-directions: https://www.google.com/maps/place/Vox+Media/@38.9060648,-77.0429348,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7b897bb5b1f:0x59d140372f8bdd77!8m2!3d38.9060648!4d-77.0407461
 event-venue-address: 1201 Connecticut Ave NW, Washington, DC 20036
 is-even-on-events-page: false
+has-speakers: true
+presenter-section-header: Speaker
+speakers:
+- speaker-headshot-image: "/uploads/VoxMedia_GeorgiaCowley.jpg"
+  speaker-name: Georgia Cowley
+  speaker-title: " Design Director, Brand Development"
+  speaker-bio-text: Georgia is a Corcoran College of Art \+ Design trained, violin
+    playing designer director on the Brand Development team at Vox Media. She is passionate
+    about diversity in (and out) of tech, and has spoken at events like SRCCON, ContraryCon
+    and various DC Tech talks.
 left-button-link: "#"
 left-button-text: Tickets | October 4 (AIGA Members)
 right-button-text: Tickets | October 6 (non-members)
