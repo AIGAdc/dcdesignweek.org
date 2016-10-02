@@ -17,6 +17,7 @@ has-speakers: true
 presenter-section-header: Speaker
 speakers:
 - speaker-headshot-image: "/uploads/VoxMedia_GeorgiaCowley.jpg"
+  speaker-link: https://twitter.com/hellogeorgia
   speaker-name: Georgia Cowley
   speaker-title: " Design Director, Brand Development"
   speaker-bio-text: Georgia is a Corcoran College of Art \+ Design trained, violin
