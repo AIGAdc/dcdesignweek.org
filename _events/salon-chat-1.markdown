@@ -8,7 +8,8 @@ description: Maybe you've seen the hashtag. Maybe you've used the hashtag. And i
   space for thousands of DC creatives both on and offline.
 image: "/uploads/acreativedc2event.jpg"
 is-featured-on-home-page: false
-is-monday: true
+is-monday: false
+is-tuesday: true
 single-event-header-image: "/uploads/acreativedc2.jpg"
 event-date: 2016-10-25 08:00:00 -04:00
 event-venue-name: 'ShareSpace DC '
