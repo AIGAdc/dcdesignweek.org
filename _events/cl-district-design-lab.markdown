@@ -13,6 +13,38 @@ event-venue-name: 'District Design Lab '
 event-venue-directions: https://goo.gl/maps/kJ1bf9D8CMR2
 event-venue-address: 625 Monroe St NE, Washington, DC 20017
 is-even-on-events-page: false
+has-speakers: true
+presenter-section-header: Speakers
+speakers:
+- speaker-headshot-image: "/uploads/Ted.jpg"
+  speaker-link: 
+  speaker-name: Ted Bazydlo
+  speaker-title: 
+  speaker-bio-text: Ted Bazydlo daylights as a Lighting Designer at MCLA Architectural
+    Lighting Design, and spends the rest of his waking hours speculating about architecture.
+    He holds a Bachelor of Science in Architecture degree from Lawrence Technological
+    University and a Master of Architecture from the University of Michigan.
+- speaker-headshot-image: "/uploads/brandon.jpg"
+  speaker-link: https://www.linkedin.com/in/brandon-newcomer-23170516
+  speaker-name: 'Brandon Newcomer     '
+  speaker-title: 
+  speaker-bio-text: A Maryland native, Brandon works at CallisonRTKL in the Commercial
+    Practice group, focused on the development of large-scale mixed-use projects.
+    He also serves on the Program Advisory Board for Montgomery College’s Department
+    of Architecture. He graduated with a Master in Architecture from The University
+    of Michigan and also holds a Bachelor of Science in Architecture and an Associate
+    of Applied Science degrees in Architectural Technology.
+- speaker-headshot-image: "/uploads/jwetzel.jpg"
+  speaker-link: https://www.linkedin.com/in/jesse-wetzel-leed-ap-7708b312
+  speaker-name: Jesse Wetzel
+  speaker-title: 
+  speaker-bio-text: Jesse Wetzel currently practices architecture in DC with experience
+    in a variety of projects types with past experience working out of Durham NC and
+    SE Michigan. He is passionate about teaching and learning, and believes buildings,
+    craft, and space can play a critical role in teaching us how to engage one another.
+    He believes District Design Lab can provide a unique opportunity to engage the
+    community and local institutions to establish a greater dialog between people,
+    buildings, and the city itself.
 left-button-link: "#"
 left-button-text: Tickets | October 4
 event-bg-image: "/uploads/cl-design-lab-event.jpg"
