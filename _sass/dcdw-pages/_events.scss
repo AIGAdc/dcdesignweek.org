@@ -2,7 +2,7 @@
 .featured-event-card,
 .event-card {
 	margin: 2em 0;
-	min-height: 425px;
+	min-height: 475px;
 }
 
 .event-image {
@@ -139,4 +139,15 @@ span.hovered {
 	.is-even {
 		right: -100px;
 	}
+}
+
+.sold-out {
+	background-color: black;
+	margin-top: -5px;
+	padding-top: 7.5px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	font-family: $bbroller;
+	letter-spacing: 2px;
 }
