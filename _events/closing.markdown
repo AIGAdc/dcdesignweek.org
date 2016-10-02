@@ -27,11 +27,10 @@ event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
 ---
 
-Our week of celebration culminates in a day festival featuring crafty activities, workshops, pumpkins and fall fun. Meet the DCDW team Saturday, October 29th at Union Market's newest outdoor beer garden, Tap & Garden, to toast to this year's DC Design Week. Together, we'll enjoy an afternoon of local crafts, food, drinks, and the company of fellow DC artists. 
+Our week of celebration culminates in a day festival featuring crafty activities, workshops, pumpkins and fall fun. Meet the DCDW team Saturday, October 29th, at Union Market's newest outdoor beer garden, Neal Place Tap & Garden, to toast to this year's DC Design Week. Together, we'll enjoy an afternoon of local crafts, food, drinks, and the company of fellow DC artists. 
 
-Guests of all ages are welcome, so bring your family, friends, coworkers, and roommates, and get those October vibes going with some fall festivities. 
+Guests of all ages are welcome, so bring your family, friends, coworkers, and roommates. 
 
 ## Silk Screening with Soul & Ink
 
-Soul & Ink is the brainchild of husband and wife design team, Frankie and Sherry Meneses. Passionate about design for social change, they wanted to find away to step away from the computer and into the community. They were inspired to create a mobile screen printing set-up after seeing how thrilled their friends were at screen printing parties they hosted at home. It was an instant hit! Live screen printing takes your event to the next level, with an undeniable cool factor and an interactive experience that will have your crowd buzzing for days.
-
+Soul & Ink is the brainchild of husband and wife design team Frankie and Sherry Meneses. Passionate about design for social change, they wanted to find away to step away from the computer and into the community. They were inspired to create a mobile screen printing set-up after seeing how thrilled their friends were at screen printing parties they hosted at home. It was an instant hit! Live screen printing takes your event to the next level, with an undeniable cool factor and an interactive experience that will have your crowd buzzing for days.
