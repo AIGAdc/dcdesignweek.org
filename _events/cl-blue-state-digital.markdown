@@ -4,7 +4,7 @@ date: 2016-08-02 22:14:00 -04:00
 description: Over lunch, BSD DC creative team will share insights about the organization's
   mission and culture, and show examples of how they have helped leading nonprofits,
   advocacy groups, and brands build communities and inspire action.
-image: "/uploads/bluestate2.jpg"
+image: "/uploads/bluestate3.jpg"
 is-thursday: true
 single-event-header-image: "/uploads/bluestate2.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
