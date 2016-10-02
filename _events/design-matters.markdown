@@ -7,7 +7,7 @@ image: "/uploads/designmatters2.jpg"
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-wednesday: true
-single-event-header-image: "/uploads/designmatters2.jpg"
+single-event-header-image: "/uploads/designmatters4event.jpg"
 event-date: 2016-10-26 18:30:00 -04:00
 event-venue-name: National Building Museum
 event-venue-directions: https://goo.gl/maps/Rd46qnaZe662
