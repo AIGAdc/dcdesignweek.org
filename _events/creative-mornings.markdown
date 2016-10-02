@@ -18,6 +18,7 @@ event-venue-directions: https://www.google.com/maps/place/Hirshhorn+Museum/@38.8
 event-venue-address: 700 Independence Ave SW, Washington, DC 20560
 is-even-on-events-page: false
 has-speakers: true
+presenter-section-header: Speaker
 speakers:
 - speaker-headshot-image: "/uploads/linnmeyersheadshot.jpg"
   speaker-name: Linn Meyers
