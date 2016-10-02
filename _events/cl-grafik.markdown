@@ -17,6 +17,28 @@ event-venue-name: Grafik
 event-venue-directions: https://www.google.com/maps/place/Grafik/@38.8109999,-77.0473722,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b0ee7d3e5b7f:0xf16ffbed815f717c!8m2!3d38.8109999!4d-77.0451835
 event-venue-address: 625 North Washington Street, Suite 302, Alexandria, VA 22314
 is-even-on-events-page: false
+has-speakers: true
+presenter-section-header: Speakers
+speakers:
+- speaker-headshot-image: "/uploads/grafik-hal.jpg"
+  speaker-link: http://www.grafik.com/about/hal-swetnam
+  speaker-name: Hal Swetnam
+  speaker-title: SVP, Creative Strategy
+  speaker-bio-text: |-
+    Veteran creative director, occasional voice talent, and incessant whistler, Hal is Grafik’s top creative strategist. Early in his career, he created memorable advertising campaigns for such notable brands as Hilton, Exxon Mobil, and National Geographic. Now, nearly 30 years later, he’s spending most of his time in board rooms working through brand strategies with C-suite executives. Always eager to tackle another corporate mantra, Hal helps clients articulate the one truly authentic principle that’s relevant to all audiences and stakeholders.
+
+    His work separates Grafik from other branding firms, and distinguishes our clients from every competitor. He’s been an essential part of Grafik for nearly 15 years, leading naming efforts, overseeing the development of powerful brand identities, and helping to establish some of our most transformative strategies, including our work for JK Moving Services, The Neighborhoods of EYA, CFF, WTOP, and The U.S. Naval Research Laboratory.
+- speaker-headshot-image: "/uploads/grafik-john.jpg"
+  speaker-link: http://www.grafik.com/about/johnny-vitorovich
+  speaker-name: Johnny Vitorovich
+  speaker-title: Principal, Creative Director
+  speaker-bio-text: Known for making startling statements like “Benjamin Franklin
+    was the world’s most insightful marketer,” Johnny is quick to provide his rationale—entertainingly,
+    refreshingly, and convincingly. Not a bad talent for someone who helps his clients
+    develop their own unique story. In his 20 years of strategic creative direction,
+    he has crafted image-rich narratives for brands like Strayer University, PhRMA,
+    and U.S. Dairy Export Council. As one of the creative masterminds for EYA and
+    JK Moving Services, he has developed brands that are the envy of their industries.
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/cl-grafik2.jpg"
