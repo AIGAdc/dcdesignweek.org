@@ -1,5 +1,5 @@
 ---
-title: TJ Cicheki
+title: TJ Cichecki
 date: 2016-08-08 17:28:00 -04:00
 committee-member-headshot-image: "/uploads/TJ-Cichecki-48cae4.jpg"
 committee-member-name: TJ Cicheki
