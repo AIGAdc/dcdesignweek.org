@@ -4,16 +4,26 @@ date: 2016-08-02 22:14:00 -04:00
 description: Over lunch, BSD DC creative team will share insights about the organization's
   mission and culture, and show examples of how they have helped leading nonprofits,
   advocacy groups, and brands build communities and inspire action.
-image: "/uploads/cl-bluestate.jpg"
+image: "/uploads/bluestate2.jpg"
 is-thursday: true
-single-event-header-image: "/uploads/cl-bluestate.jpg"
+single-event-header-image: "/uploads/bluestate2.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
 event-venue-name: 'Blue State Digital '
 event-venue-directions: https://www.google.com/maps/place/Blue+State+Digital+DC/@38.895141,-77.0243957,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7be2f7a268d:0x1f7b4785b0c9bbd4!8m2!3d38.895141!4d-77.022207
 event-venue-address: 406 7th St NW, Washington, DC 20004
 is-even-on-events-page: false
+speakers:
+- speaker-headshot-image: "/uploads/BSD_AChan.jpg"
+  speaker-name: Angie Chan
+  speaker-title: Creative Director
+  speaker-bio-text: |-
+    Based in BSD’s Washington, DC office, Angie guides clients and internal teams in the development of strategic creative solutions for brands and non-profit organizations, like the Smithsonian, the Navy-Marine Corps Relief Society, and SOS Children’s Villages.
+
+    Prior to BSD, Angie crafted beginning to end user experiences as the Creative Director and product lead at two New York City e-commerce startups. Earlier, at Green Team, Angie built national campaigns, websites and CSR initiatives for clients including LAN Airlines and the tourism boards of Scotland and Monaco. She has also worked in identity, editorial, packaging and web design for various clients in healthcare and education, including Procter & Gamble, Johnson & Johnson, and Northwestern University.
+
+    Angie graduated from the University of Pennsylvania with a degree in Communications and Fine Arts, but spent the majority of her time writing, directing and performing in the nation’s first all-female musical sketch comedy troupe.
 left-button-text: Tickets on Sale October 6
-event-bg-image: "/uploads/cl-bluestate-5b83f8.jpg"
+event-bg-image: "/uploads/bluestate2.jpg"
 layout: singles/event
 ---
 
