@@ -29,6 +29,6 @@ Please plan to arrive at DDL 10 minutes early to allow time for registration, lu
 
 ## About District Design Lab
 
-DDL is a collaborative group of designers (the count is fluid) connected by a shared curiosity in exploring different ways to impact social engagement using their collective skill set. The group is interested in pushing design outside of the orthodoxy of DC/corporate office work and out into the public realm more as a way of reminding people that design here isn't just for a specific clientele. Experimentation plays an important role in the group's work and the LAB part of DDL cannot be understated.
+DDL is a collaborative group of designers connected by a shared curiosity in exploring different ways to impact social engagement using their collective skill set. The group is interested in pushing design outside of the orthodoxy of DC/corporate office work and out into the public realm more as a way of reminding people that design here isn't just for a specific clientele. Experimentation plays an important role in the group's work and the LAB part of DDL cannot be understated.
 
 Nearest Metro is Brookland-CUA. The studio is located on the Art Walk street level.
