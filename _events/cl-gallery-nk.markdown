@@ -32,7 +32,7 @@ event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 
 ---
 
-Gallery NK is opening its doors during DC Design Week to welcome AIGA DC and ***PETAL***, an exhibition by Dennis McBride—local DC Designer, Illustrator, and Educator. This Creative Lunch will feature illustrations, couture and ready-wear apparel inspired by the fashion design icon, Ann Cole Lowe, and a talk about the essence of fashion design.
+Gallery NK is opening its doors during DC Design Week to welcome AIGA DC and *PETAL*, an exhibition by Dennis McBride. This Creative Lunch will feature illustrations, couture and ready-wear apparel inspired by the fashion design icon, Ann Cole Lowe, and a talk about the essence of fashion design. Valerie Chisholm, former Development Director of The Black Fashion Museum, will introduce McBride and set the context for their work. Together with McBride, Chisholm produced the traveling tour,  *A Stitch in Time: 1800-2000* (2001-2004) as a 25th-anniversary tribute to the museum founder, Lois K Alexander-Lane, which has been instrumental in the collection that is now part of the recently opened National Museum of African American History and Culture (NMAAHC).
 
 **Lunch is included.** Registration is $10, limited to 20 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
@@ -44,4 +44,4 @@ Gallery NK, born from a love of art and friendships, is an artist-owned gallery 
 
 ## Directions
 
-Nearest Metro stops are Union Station and NoMa-Gallaudet U. Gallery NK is located in an alley off K Street, between 3rd and 4th Street. 
+Nearest Metro stops are Union Station and NoMa-Gallaudet U. Gallery NK is located in an alley off K Street, between 3rd and 4th Street.
