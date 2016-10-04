@@ -27,7 +27,7 @@ speakers:
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-gallery-nk/
 left-button-text: Tickets (AIGA Member)
 right-button-link: https://www.eventbrite.com/e/creative-lunch-gallery-nk-tickets-27998784117?ref=ebapi
-right-button-text: Grab Your Tickets! (non-AIGA Member)
+right-button-text: Tickets (non-AIGA Member)
 event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
 ---
 
