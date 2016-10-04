@@ -25,8 +25,10 @@ speakers:
     in all three of our offices. Tom, who has nineteen years of experience in design,
     is responsible for leading the team through the complete process from discovery
     to strategy to final applied design and implementation.
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-viget/
+left-button-text: Tickets (AIGA Members)
+right-button-link: https://www.eventbrite.com/e/creative-lunch-viget-tickets-27961056272?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-viget.jpg"
 layout: singles/event
 ---
