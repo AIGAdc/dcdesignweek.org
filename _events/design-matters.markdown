@@ -59,4 +59,4 @@ left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/designmatters4event.jpg"
 ---
 
-Join Debbie Millman for a live podcast experience at the National Building Museum where she will speak to Abbott Miller about Design for the Built Environment. Design Matters is the world’s first podcast about design and an inquiry into the broader world of creative culture through wide-ranging conversations with designers, writers, artists, curators, musicians, and other luminaries of contemporary thought.
+Join Debbie Millman for Design Matters: LIVE at the National Building Museum where she will speak to Abbott Miller about his life and multi-disciplinary career. Working with museums, artists, photographers, architects, and curators,  Abbott has created a remarkable body of work that explores art, performance, fashion, design, ecology, and public space. Design Matters is the world’s first podcast about design and an inquiry into the broader world of creative culture through wide-ranging conversations with designers, writers, artists, curators, musicians, and other luminaries of contemporary thought. 
