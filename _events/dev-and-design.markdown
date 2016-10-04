@@ -16,8 +16,8 @@ event-venue-address: 1800 Massachusetts Ave NW, Washington, DC 20036
 is-even-on-events-page: false
 has-speakers: false
 presenter-section-header: 'Panelists '
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://www.meetup.com/Women-Who-Code-DC/events/234005278/
+left-button-text: Grab Your Tickets!
 event-bg-image: "/uploads/devanddesign2event.jpg"
 ---
 
