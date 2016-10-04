@@ -33,7 +33,7 @@ speakers:
 
     She is really good at making things look really good, online and off, IRL and on camera. Refinery29 described her as a "visual genius," and with a background in display and merchandising, she's created immersive, interactive, engaging (and Instagrammable) environments for REI, St. Germain, Sydell Group, and the Kinfolk brand at events spaces across the country.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/salon-with-morgan-west-founder-of-a-creative-dc/
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT!
 event-bg-image: "/uploads/acreativedc_event.jpg"
 event-location: 
 layout: singles/event
