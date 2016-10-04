@@ -5,6 +5,7 @@ description: Join a conversation about how they are solving the problem of desig
   for and developing high-value digital journalism, storytelling, and brand advertising
   at scale.
 image: "/uploads/cl-vox.jpg"
+is-sold-out: true
 is-featured-on-home-page: false
 is-tuesday: true
 single-event-header-image: "/uploads/cl-vox.jpg"
@@ -25,7 +26,7 @@ speakers:
     about diversity in (and out) of tech, and has spoken at events like SRCCON, ContraryCon
     and various DC Tech talks.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-vox-media/
-left-button-text: Tickets (AIGA Members)
+left-button-text: SOLD OUT! (Waiting List)
 right-button-link: https://www.eventbrite.com/e/creative-lunch-vox-media-tickets-28000448094?ref=ebapi
 right-button-text: Tickets (non-members)
 event-bg-image: "/uploads/cl-vox.jpg"
