@@ -1,5 +1,5 @@
 ---
-title: 'Salon: Grace Bonney founder of Design*Sponge'
+title: 'Salon: Grace Bonney, Founder of Design*Sponge'
 date: 2016-07-03 09:51:00 -04:00
 position: 7
 description: Join us for a conversation with Grace Bonney, founder of Design\*Sponge
@@ -43,8 +43,8 @@ speakers:
     at Capital One. With 20 years of experience in the content space, Tina’s diverse
     professional background includes journalism, marketing, digital storytelling and
     social media. She is a graduate of Howard University in Washington, D.C.
-left-button-link: "#"
-left-button-text: Tickets on sale October 4 (AIGA-members only)
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/salon-grace-bonney-in-the-company-of-women/
+left-button-text: Tickets (AIGA-member Exclusive)
 event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
 ---
