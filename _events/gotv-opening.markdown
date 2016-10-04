@@ -20,7 +20,7 @@ event-venue-address: 2124 8th St NW, Washington, DC 20001
 is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-text: Tickets Available October 6
 event-bg-image: "/uploads/GOTV_web.jpg"
 event-location: 
 layout: singles/event
