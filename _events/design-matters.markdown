@@ -54,6 +54,21 @@ speakers:
     this by telling the stories of architecture, engineering, and design. As one of
     the most family-friendly, awe-inspiring spots in Washington, D.C., we welcome
     visitors from around the world to our exhibitions, public programs, and festivals.
+- speaker-headshot-image: "/uploads/Cathy.jpg"
+  speaker-link: http://www.nbm.org/biographies/staff/cathy-crane-frankel.html?referrer=https://www.google.com/
+  speaker-name: 'Cathy Crane Frankel '
+  speaker-title: Vice President for Exhibitions and Collections
+  speaker-bio-text: 'Cathy Crane Frankel is the Vice President for Exhibitions and
+    Collections at the National Building Museum.  For the last sixteen years she has
+    provided leadership to the curatorial and collection staff members, overseeing
+    a number of exhibitions including Eero Saarinen: Shaping the Future, Hot to Cold:
+    An Odyssey of Architectural Adaptation and House of Cars: Innovation and the Parking
+    Garage. She has also led the staff in the development and execution of the Museum’s
+    popular summer installations, the BIG Maze and the BEACH. As an executive staff
+    member, she is an active participant in the strategic planning and budgeting process
+    for the entire institution.
+
+'
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
 event-bg-image: "/uploads/designmatters4event.jpg"
