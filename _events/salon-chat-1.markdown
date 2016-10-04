@@ -7,6 +7,7 @@ description: Maybe you've seen the hashtag. Maybe you've used the hashtag. And i
   of A Creative DC, for a conversation about her use of new media to build a gathering
   space for thousands of DC creatives both on and offline.
 image: "/uploads/acreativedc2event.jpg"
+is-sold-out: true
 is-featured-on-home-page: false
 is-monday: false
 is-tuesday: true
@@ -32,7 +33,7 @@ speakers:
 
     She is really good at making things look really good, online and off, IRL and on camera. Refinery29 described her as a "visual genius," and with a background in display and merchandising, she's created immersive, interactive, engaging (and Instagrammable) environments for REI, St. Germain, Sydell Group, and the Kinfolk brand at events spaces across the country.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/salon-with-morgan-west-founder-of-a-creative-dc/
-left-button-text: Tickets (AIGA-member Exclusive)
+left-button-text: SOLD OUT! (Waiting List)
 event-bg-image: "/uploads/acreativedc_event.jpg"
 event-location: 
 layout: singles/event
