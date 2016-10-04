@@ -39,8 +39,10 @@ speakers:
     he has crafted image-rich narratives for brands like Strayer University, PhRMA,
     and U.S. Dairy Export Council. As one of the creative masterminds for EYA and
     JK Moving Services, he has developed brands that are the envy of their industries.
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-grafik-2/
+left-button-text: Tickets (AIGA Members)
+right-button-link: https://www.eventbrite.com/e/creative-lunch-grafik-tickets-28001458115?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-grafik2.jpg"
 layout: singles/event
 ---
