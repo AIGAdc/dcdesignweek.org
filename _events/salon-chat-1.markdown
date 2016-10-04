@@ -31,8 +31,8 @@ speakers:
     An expert in user-generated content and online curation, she grew @aCreativeDC to an audience of 50k in 18 months, cultivating over a quarter of a million uses of the #aCreativeDC hashtag in the same amount of time. In 2016 she was tapped to launch @thisisMadeinDC in partnership with the government of The District of Columbia, amassing 10k followers on the channel in just 5 months, helping increase visibility of the over 150 locally-owned businesses enrolled in the city-backed program.
 
     She is really good at making things look really good, online and off, IRL and on camera. Refinery29 described her as a "visual genius," and with a background in display and merchandising, she's created immersive, interactive, engaging (and Instagrammable) environments for REI, St. Germain, Sydell Group, and the Kinfolk brand at events spaces across the country.
-left-button-link: "#"
-left-button-text: Tickets on sale October 4 (AIGA-members only)
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/salon-with-morgan-west-founder-of-a-creative-dc/
+left-button-text: Grab your Tickets! (AIGA-member Exclusive)
 event-bg-image: "/uploads/acreativedc_event.jpg"
 event-location: 
 layout: singles/event
