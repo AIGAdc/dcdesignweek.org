@@ -16,8 +16,10 @@ event-venue-name: Crystal City WeWork
 event-venue-directions: https://www.google.com/maps/place/WeWork+Crystal+City/@38.8539538,-77.0538223,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b72927054b7b:0xbb046c59ecc215ac!8m2!3d38.8539538!4d-77.0516336
 event-venue-address: 2221 S Clark St, Arlington, VA 22202
 is-even-on-events-page: false
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-pivot-point/
+left-button-text: Tickets (AIGA Members)
+right-button-link: https://www.eventbrite.com/e/creative-lunch-pivot-point-tickets-27999843285?ref=ebapi
+right-button-text: Tickets (AIGA non-members)
 event-bg-image: "/uploads/pivotpoint2.jpg"
 layout: singles/event
 ---
