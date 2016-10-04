@@ -45,7 +45,7 @@ speakers:
     professional background includes journalism, marketing, digital storytelling and
     social media. She is a graduate of Howard University in Washington, D.C.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/salon-grace-bonney-in-the-company-of-women/
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT!
 event-bg-image: "/uploads/grace-boney_event.jpg"
 layout: singles/event
 ---
