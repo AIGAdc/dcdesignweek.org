@@ -25,7 +25,10 @@ speakers:
     Prior to BSD, Angie crafted beginning to end user experiences as the Creative Director and product lead at two New York City e-commerce startups. Earlier, at Green Team, Angie built national campaigns, websites and CSR initiatives for clients including LAN Airlines and the tourism boards of Scotland and Monaco. She has also worked in identity, editorial, packaging and web design for various clients in healthcare and education, including Procter & Gamble, Johnson & Johnson, and Northwestern University.
 
     Angie graduated from the University of Pennsylvania with a degree in Communications and Fine Arts, but spent the majority of her time writing, directing and performing in the nation’s first all-female musical sketch comedy troupe.
-left-button-text: Tickets on Sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-blue-state-digital/
+left-button-text: Tickets (AIGA Members)
+right-button-link: https://www.eventbrite.com/e/creative-lunch-blue-state-digital-tickets-27962290965?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/bluestate2.jpg"
 layout: singles/event
 ---
