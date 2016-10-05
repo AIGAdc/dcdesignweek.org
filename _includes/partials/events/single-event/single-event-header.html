@@ -18,3 +18,9 @@
     </div>
   </div>
 </section>
+{% if page.is-sold-out == true %}
+<div class="sold-out text-uppercase">
+  <marquee>Sold Out!</marquee>
+</div>
+{% else %}
+{% endif %}
