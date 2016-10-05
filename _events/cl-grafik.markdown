@@ -10,6 +10,7 @@ description: 'Grafik believes every branding engagement must start with a solid 
 
 '
 image: "/uploads/cl-grafik2.jpg"
+is-sold-out: true
 is-thursday: true
 single-event-header-image: "/uploads/cl-grafik2.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
@@ -40,9 +41,7 @@ speakers:
     and U.S. Dairy Export Council. As one of the creative masterminds for EYA and
     JK Moving Services, he has developed brands that are the envy of their industries.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-grafik-2/
-left-button-text: Tickets (AIGA Members)
-right-button-link: https://www.eventbrite.com/e/creative-lunch-grafik-tickets-28001458115?ref=ebapi
-right-button-text: Tickets (Non-Members)
+left-button-text: SOLD OUT! (Waiting List)
 event-bg-image: "/uploads/cl-grafik2.jpg"
 layout: singles/event
 ---
