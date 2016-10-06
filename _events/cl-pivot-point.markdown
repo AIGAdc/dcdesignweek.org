@@ -18,6 +18,7 @@ event-venue-address: 2221 S Clark St, Arlington, VA 22202
 is-even-on-events-page: false
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-pivot-point/
 left-button-text: Tickets (AIGA Members)
+has-right-button: true
 right-button-link: https://www.eventbrite.com/e/creative-lunch-pivot-point-tickets-27999843285?ref=ebapi
 right-button-text: Tickets (AIGA non-members)
 event-bg-image: "/uploads/pivotpoint2.jpg"
