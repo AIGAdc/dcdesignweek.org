@@ -19,8 +19,11 @@ event-venue-directions: https://www.google.com/maps/place/Washington+Project+For
 event-venue-address: 2124 8th St NW, Washington, DC 20001
 is-even-on-home-page: false
 is-even-on-events-page: false
-left-button-link: "#"
-left-button-text: Tickets Available October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/get-vote-gallery-pop-shop/
+left-button-text: Tickets (AIGA Members)
+has-right-button: true
+right-button-link: https://www.eventbrite.com/e/get-out-the-vote-gallery-and-pop-up-shop-tickets-27960143542?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/GOTV_web.jpg"
 event-location: 
 layout: singles/event
