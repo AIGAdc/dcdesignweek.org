@@ -26,7 +26,7 @@ speakers:
     Linn Meyers currently lives and works in Washington, D.C. Her paintings, drawings, and site-specific works have been shown in public and private venues, including the Hirshhorn Museum and Sculpture Garden in Washington, D.C., the Hammer Museum in Los Angeles, CA, Margaret Thatcher Projects, New York City, the Phillips Collection, Washington, D.C., the Tokyo Metropolitan Museum of Art, Tokyo, Japan, the Mattress Factory Museum, Pittsburgh, PA, the Corcoran Museum of Art, Washington, D.C., the Smithsonian American Art Museum, Washington, D.C., the National Museum of Women in the Arts, Washington, D.C., Sandra Gering Inc, NYC, Morgan Lehman, NYC, G Fine Art, Washington, D.C., and Paris, Concret, Paris, France. Meyers’s exhibition "Our View From Here" is at the Hirshhorn through August 2017.
 
     Meyers is the recipient of numerous awards and fellowships, including a Smithsonian Artist Research Fellowship, The Pollock Krasner Award, two Fifth Floor Foundation awards, and three DC Commission on the Arts grants. She has been Artist In Residence at the the Bemis Institute in Omaha, NE, the Millay Colony in Austerlitz, NY, the Hirshhorn Museum in Washington D.C., the San Jose Institute of Contemporary Art, CA, and the Tamarind Institute in Albuquerque, NM. Her work has been commissioned by the Phillips Collection and the Hirshhorn Museum.
-left-button-link: "#"
+left-button-link: https://creativemornings.com/cities/DC
 left-button-text: Tickets on sale October 24 at 10:30 AM
 event-bg-image: "/uploads/creative-mornings.jpg"
 ---
