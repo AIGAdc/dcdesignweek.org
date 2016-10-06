@@ -16,6 +16,7 @@ event-venue-address: '1408 N Fillmore St #6, Arlington, VA 22201'
 is-even-on-events-page: false
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-beth-singer-design/
 left-button-text: Tickets (AIGA Members)
+has-right-button: true
 right-button-link: https://www.eventbrite.com/e/creative-lunch-beth-singer-design-tickets-27961792474?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-beth-singer.jpg"
