@@ -27,7 +27,7 @@ speakers:
 
     Angie graduated from the University of Pennsylvania with a degree in Communications and Fine Arts, but spent the majority of her time writing, directing and performing in the nation’s first all-female musical sketch comedy troupe.
 left-button-link: https://www.eventbrite.com/e/creative-lunch-blue-state-digital-tickets-27962290965?ref=ebapi
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT! (Wait List)
 has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-blue-state-digital-tickets-27962290965?ref=ebapi
 right-button-text: Tickets (Non-Members)
