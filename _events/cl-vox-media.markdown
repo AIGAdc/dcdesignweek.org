@@ -26,7 +26,7 @@ speakers:
     about diversity in (and out) of tech, and has spoken at events like SRCCON, ContraryCon
     and various DC Tech talks.
 left-button-link: https://www.eventbrite.com/e/creative-lunch-vox-media-tickets-28000448094?ref=ebapi
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT!
 right-button-link: https://www.eventbrite.com/e/creative-lunch-vox-media-tickets-28000448094?ref=ebapi
 right-button-text: Tickets (non-members)
 event-bg-image: "/uploads/cl-vox.jpg"
