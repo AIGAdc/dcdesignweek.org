@@ -19,6 +19,7 @@ event-venue-address: K Street Center for Graduate Education, 2020 K St NW, Washi
 is-even-on-events-page: false
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-gensler/
 left-button-text: Tickets (AIGA Members)
+has-right-button: true
 right-button-link: https://www.eventbrite.com/e/creative-lunch-gensler-tickets-27964568778?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-gensler.jpg"
