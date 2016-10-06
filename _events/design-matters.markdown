@@ -69,8 +69,11 @@ speakers:
     for the entire institution.
 
 '
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/design-matters-debbie-milman-featuring-abbott-miller-design-built-environment/
+left-button-text: Tickets (AIGA Members)
+has-right-button: true
+right-button-link: https://www.eventbrite.com/e/design-matters-with-debbie-milman-featuring-abbott-miller-design-for-the-built-environment-tickets-27960675132?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/designmatters4event.jpg"
 ---
 
