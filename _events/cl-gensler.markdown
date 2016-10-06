@@ -8,6 +8,7 @@ description: Join AIGA DC for a series of DC Design Week lunches, as we open the
   compare office cultures and methodologies, and rub elbows with creatives whom you
   might not meet otherwise!
 image: "/uploads/cl-gensler.jpg"
+is-sold-out: true
 is-featured-on-home-page: true
 is-friday: true
 single-event-header-image: "/uploads/cl-gensler.jpg"
@@ -17,9 +18,9 @@ event-venue-directions: https://www.google.com/maps/place/Gensler+%26+Associates
 event-venue-address: K Street Center for Graduate Education, 2020 K St NW, Washington,
   DC 20006
 is-even-on-events-page: false
-left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-gensler/
-left-button-text: Tickets (AIGA Members)
-has-right-button: true
+left-button-link: https://www.eventbrite.com/e/creative-lunch-gensler-tickets-27964568778?ref=ebapi
+left-button-text: SOLD OUT! (Wait List)
+has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-gensler-tickets-27964568778?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-gensler.jpg"
