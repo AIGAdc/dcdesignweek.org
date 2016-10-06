@@ -23,7 +23,8 @@ speakers:
     customers, are at the core of what we do and why we do it. Our goal is to create
     experiences where people feel as connected to Republic Restoratives and to our
     products as they do to one another.
-left-button-text: Request an Invite on October 6
+left-button-link: 'https://aigadc.typeform.com/to/qGQi06 '
+left-button-text: Request an Invite
 event-bg-image: "/uploads/destil-dc.jpg"
 layout: singles/event
 ---
