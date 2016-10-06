@@ -100,7 +100,7 @@ defaults:
   values:
     social-media-link:
     social-media-icon:
-github: DCDW
+repository: DCDW
 favicon-image: "/uploads/favicon-31b9a4.ico"
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
