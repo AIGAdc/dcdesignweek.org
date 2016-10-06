@@ -41,7 +41,7 @@ speakers:
     and U.S. Dairy Export Council. As one of the creative masterminds for EYA and
     JK Moving Services, he has developed brands that are the envy of their industries.
 left-button-link: https://www.eventbrite.com/e/creative-lunch-grafik-tickets-28001458115?ref=ebapi
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT! (Wait List)
 event-bg-image: "/uploads/cl-grafik2.jpg"
 layout: singles/event
 ---
