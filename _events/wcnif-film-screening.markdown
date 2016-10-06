@@ -20,8 +20,11 @@ event-venue-directions: https://www.google.com/maps/place/Deloitte/@38.8980777,-
 event-venue-address: 1919 N Lynn St, Arlington, VA 22209
 is-even-on-home-page: false
 is-even-on-events-page: false
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/__trashed/
+left-button-text: Tickets (AIGA Members)
+has-right-button: true
+right-button-link: https://www.eventbrite.com/e/what-comes-next-is-the-future-film-screening-tickets-27960235818?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/WhatComesNext.jpg"
 event-location: 
 layout: singles/event
