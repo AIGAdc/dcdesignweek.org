@@ -10,11 +10,12 @@
       <a href="{{ page.left-button-link }}" class="left-button bbroller m0 ml3 px3 py1 button button-white">
         {{ page.left-button-text }}
       </a>
-      {% comment %}
+      {% if page.has-right-button == true %}
       <a href="{{ page.right-button-link }}" class="right-button bbroller m0 ml3 px3 py1 button button-white">
         {{ page.right-button-text }}
       </a>
-      {% endcomment %}
+      {% else %}
+      {% endif %}
     </div>
   </div>
 </section>
