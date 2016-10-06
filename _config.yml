@@ -64,7 +64,6 @@ defaults:
       speaker-bio-text:
     left-button-link:
     left-button-text:
-    has-right-button:
     right-button-link:
     right-button-text:
 - scope:
