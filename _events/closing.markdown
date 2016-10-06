@@ -20,8 +20,11 @@ event-venue-address: '1300 4th St NE, Washington, DC 20002
 '
 is-even-on-home-page: false
 is-even-on-events-page: false
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/closing-party/
+left-button-text: Tickets (AIGA Members)
+has-right-button: true
+right-button-link: https://www.eventbrite.com/e/closing-party-tickets-27963923849?ref=ebapi
+right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/beergarden_event.png"
 event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
