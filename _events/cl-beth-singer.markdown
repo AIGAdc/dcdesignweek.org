@@ -16,7 +16,7 @@ event-venue-directions: https://www.google.com/maps/place/1408+N+Fillmore+St+%23
 event-venue-address: '1408 N Fillmore St #6, Arlington, VA 22201'
 is-even-on-events-page: false
 left-button-link: https://www.eventbrite.com/e/creative-lunch-beth-singer-design-tickets-27961792474?ref=ebapi
-left-button-text: SOLD OUT! (Waiting List)
+left-button-text: SOLD OUT! (Wait List)
 has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-beth-singer-design-tickets-27961792474?ref=ebapi
 right-button-text: Tickets (Non-Members)
