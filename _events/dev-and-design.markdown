@@ -5,6 +5,7 @@ description: 'As a part of DCFemTech’s October Tour De Code and a partnership 
   DCFemTech, Women Who Code, and AIGA DC, this panel aims to bridge the gap between
   Designers & Developers through conversation, discovery, and a hands on workshop. '
 image: "/uploads/devanddesign3.jpg"
+is-sold-out: true
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-monday: true
@@ -63,7 +64,7 @@ speakers:
 
     Alexis holds a BA in Studio Art from the University of Maryland, College Park.
 left-button-link: https://www.meetup.com/Women-Who-Code-DC/events/234005278/
-left-button-text: Grab Your Tickets!
+left-button-text: SOLD OUT! (Wait List)
 event-bg-image: "/uploads/devanddesign2event.jpg"
 ---
 
