@@ -47,6 +47,7 @@ speakers:
     buildings, and the city itself.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-district-design-lab/
 left-button-text: Tickets (AIGA Members)
+has-right-button: true
 right-button-link: https://www.eventbrite.com/e/creative-lunch-district-design-lab-tickets-27962663078?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-design-lab-event.jpg"
