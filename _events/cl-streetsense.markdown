@@ -17,6 +17,7 @@ event-venue-address: '3 Bethesda Metro Center #140, Bethesda, MD 20814'
 is-even-on-events-page: false
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-streetsense/
 left-button-text: Tickets (AIGA Members)
+has-right-button: true
 right-button-link: https://www.eventbrite.com/e/creative-lunch-streetsense-tickets-27962496580?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-streetsence.jpg"
