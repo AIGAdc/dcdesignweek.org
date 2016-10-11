@@ -6,7 +6,8 @@ description: Gallery NK is opening its doors during DC Design Week to welcome AI
   illustrations, couture and ready-wear apparel inspired by the fashion design icon,
   Ann Cole Lowe, and a talk about the essence of fashion design.
 image: "/uploads/cl-gallery-nk.jpg"
-is-featured-on-home-page: true
+is-sold-out: true
+is-featured-on-home-page: false
 is-monday: true
 is-wednesday: false
 single-event-header-image: "/uploads/cl-gallery-nk.jpg"
