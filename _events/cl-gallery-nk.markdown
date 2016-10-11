@@ -6,7 +6,7 @@ description: Gallery NK is opening its doors during DC Design Week to welcome AI
   illustrations, couture and ready-wear apparel inspired by the fashion design icon,
   Ann Cole Lowe, and a talk about the essence of fashion design.
 image: "/uploads/cl-gallery-nk.jpg"
-is-featured-on-home-page: false
+is-featured-on-home-page: true
 is-monday: true
 is-wednesday: false
 single-event-header-image: "/uploads/cl-gallery-nk.jpg"
@@ -24,9 +24,9 @@ speakers:
   speaker-bio-text: |-
     Award winning designer Dennis McBride, is one of the few contemporaries with creative triumphs in both costume and fashion design, whose career highlights include a feature in Women’s Wear Daily (WWD), Best of New York issue; his own clothing label ONEYLL; theatrical productions of Hello Dolly and Not About Nightingales, at Howard University; as well as various dance performances. His illustrations have been featured with the International Ladies' Garment Workers' Union (ILGWU). As former Curator and Advisory Board counsel for The Black Fashion Museum (BFM/DC), his installations and traveling exhibit, “A Stitch in Time: 1800-2000,” played a key factor in the recognition of the BFM collection that led to its acquisition by the National Museum of African American History and Culture (NMAAHC | Smithsonian Institution).
     McBride has received degrees from Davidson College/NC and Virginia Commonwealth University (VCU)/VA. His four years of curriculum development and teaching in the Fashion Design department at Sitar Arts Center has been one of his most heart-felt achievements to date.
-left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-gallery-nk/
-left-button-text: Tickets (AIGA Member)
-has-right-button: true
+left-button-link: https://www.eventbrite.com/e/creative-lunch-gallery-nk-tickets-27998784117?ref=ebapi
+left-button-text: SOLD OUT! (Wait List)
+has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-gallery-nk-tickets-27998784117?ref=ebapi
 right-button-text: Tickets (non-AIGA Member)
 event-bg-image: "/uploads/cl-gallery-nk-9d6f03.jpg"
