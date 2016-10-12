@@ -6,6 +6,7 @@ description: Viget has a 16-year history of making award-winning digital product
   business. Join the team for lunch as they walk through some recent work and share
   insights to their approach.
 image: "/uploads/cl-viget.jpg"
+is-sold-out: true
 is-featured-on-home-page: false
 is-monday: true
 single-event-header-image: "/uploads/cl-viget.jpg"
@@ -25,9 +26,9 @@ speakers:
     in all three of our offices. Tom, who has nineteen years of experience in design,
     is responsible for leading the team through the complete process from discovery
     to strategy to final applied design and implementation.
-left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-viget/
-left-button-text: Tickets (AIGA Members)
-has-right-button: true
+left-button-link: https://www.eventbrite.com/e/creative-lunch-viget-tickets-27961056272?ref=ebapi
+left-button-text: SOLD OUT (Wait List)
+has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-viget-tickets-27961056272?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-viget.jpg"
