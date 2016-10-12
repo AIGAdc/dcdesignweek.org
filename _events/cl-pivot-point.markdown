@@ -25,7 +25,7 @@ event-bg-image: "/uploads/pivotpoint2.jpg"
 layout: singles/event
 ---
 
-Join AIGA DC for a series of DC Design Week lunches, as we open the doors to some of the DC area’s creative studios, agencies, and galleries. Grab a bite and get a behind-the-scenes look at some colorful spaces, see works in progress, compare office cultures and methodologies, and rub elbows with creatives whom you might not meet otherwise!
+Join Pivot Point and learn how they are giving new life to an old prison by creating the brand behind an adaptive-reuse real estate development at the former Lorton Prison in Lorton Virginia. Pivot Point will walk through the branding process, inspiration, and planning for the future of the brand.  
 
 **Attendees are encouraged to bring their own lunch to this event.**  Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
