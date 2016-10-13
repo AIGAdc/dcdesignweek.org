@@ -6,6 +6,7 @@ description: District Design Lab (DDL) is a DC-based design incubator that aims 
   will focus on the group's work through the lens of working "after-hours" and what
   motivates them to do work beyond the traditional workday.
 image: "/uploads/cl-design-lab-event.jpg"
+is-sold-out: true
 is-friday: true
 single-event-header-image: "/uploads/cl-design-lab.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
@@ -46,8 +47,8 @@ speakers:
     community and local institutions to establish a greater dialog between people,
     buildings, and the city itself.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-district-design-lab/
-left-button-text: Tickets (AIGA Members)
-has-right-button: true
+left-button-text: SOLD OUT! (Wait List)
+has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-district-design-lab-tickets-27962663078?ref=ebapi
 right-button-text: Tickets (Non-Members)
 event-bg-image: "/uploads/cl-design-lab-event.jpg"
