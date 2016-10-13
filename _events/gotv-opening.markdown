@@ -9,7 +9,7 @@ description: Mix, mingle, clink and drink a glass of champagne to toast the open
   register and turn out to vote in the 2016 general election, as well as local elections
   to come.
 image: "/uploads/gotv3.jpg"
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-sunday: true
 single-event-header-image: "/uploads/gotv2.jpg"
