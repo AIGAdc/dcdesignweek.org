@@ -11,6 +11,18 @@ event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: The Washington Post
 event-venue-directions: https://goo.gl/maps/irBnXinzLH32
 event-venue-address: 1301 K St NW, Washington, DC 20071
+has-speakers: true
+presenter-section-header: 'Speaker & Co. '
+speakers:
+- speaker-headshot-image: "/uploads/thumbnail.jpg"
+  speaker-link: https://twitter.com/fodgeparker
+  speaker-name: Katie Parker
+  speaker-title: Director of Product Design
+  speaker-bio-text: Katie Parker is the Director of Product Design at *The Washington
+    Post*. Her team is responsible for designing *The Washington Post*’s websites,
+    mobile sites, native apps, distributed content, and newsroom tools. Katie has
+    been designing for the web since 1999. She’s been at The Post six years. She spends
+    her free time on creative side projects.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-washington-post/
 left-button-text: Tickets (AIGA Members)
 has-right-button: true
@@ -21,10 +33,6 @@ right-button-text: Tickets (Non-Members)
 ## Digital solutions for the future of journalism
 
 Today, *The Washington Post* is as much a tech company as it is a media company, striving for excellence in both journalism and technology. Designers and developers are empowered to experiment and take ownership of their ideas, capitalizing on a culture that promotes speed and rapid innovation. Designers, engineers, and product managers work in partnership with journalists to create exceptional experiences for *Post* readers as well as tools used internally by the newsroom. Design Director Katie Parker provides an inside look at the company’s culture shift and how it’s positioning the organization for the future.
-
-## Speaker
-
-Katie Parker is the Director of Product Design at *The Washington Post*. Her team is responsible for designing *The Washington Post*’s websites, mobile sites, native apps, distributed content, and newsroom tools. Katie has been designing for the web since 1999. She’s been at The Post six years. She spends her free time on creative side projects.
 
 ## The Washington Post
 
