@@ -12,7 +12,7 @@ event-venue-name: The Washington Post
 event-venue-directions: https://goo.gl/maps/irBnXinzLH32
 event-venue-address: 1301 K St NW, Washington, DC 20071
 has-speakers: true
-presenter-section-header: 'Speaker & Co. '
+presenter-section-header: 'Speaker '
 speakers:
 - speaker-headshot-image: "/uploads/thumbnail.jpg"
   speaker-link: https://twitter.com/fodgeparker
