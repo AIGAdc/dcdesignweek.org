@@ -1,7 +1,7 @@
 ---
 title: 'KILLED: A Post-Mortem Celebration of Work from the Graveyard'
 date: 2016-10-12 20:21:00 -04:00
-image: "/uploads/killed_eventImage_dcdwSite3.jpg"
+image: "/uploads/dcdwSite.jpg"
 is-featured-on-home-page: true
 is-thursday: true
 single-event-header-image: "/uploads/killed_eventImage_dcdwSite2.jpg"
