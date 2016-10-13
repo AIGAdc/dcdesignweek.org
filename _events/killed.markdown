@@ -2,6 +2,7 @@
 title: 'KILLED: A Post-Mortem Celebration of Work from the Graveyard'
 date: 2016-10-12 20:21:00 -04:00
 image: "/uploads/killed_eventImage_dcdwSite.jpg"
+single-event-header-image: "/uploads/killed_eventImage_dcdwSite.jpg"
 event-date: 2016-10-27 18:00:00 -04:00
 event-venue-name: iStrategyLabs
 event-venue-directions: https://goo.gl/maps/NYhsgqUPzsB2
