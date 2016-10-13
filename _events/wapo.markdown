@@ -8,6 +8,9 @@ event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: The Washington Post
 event-venue-directions: https://goo.gl/maps/irBnXinzLH32
 event-venue-address: 1301 K St NW, Washington, DC 20071
+left-button-text: Tickets (AIGA Members)
+has-right-button: true
+right-button-text: Tickets (Non-Members)
 ---
 
 Today, *The Washington Post* is as much a tech company as it is a media company, striving for excellence in both journalism and technology. Designers and developers are empowered to experiment and take ownership of their ideas, capitalizing on a culture that promotes speed and rapid innovation. Designers, engineers, and product managers work in partnership with journalists to create exceptional experiences for *Post* readers as well as tools used internally by the newsroom. Design Director Katie Parker provides an inside look at the company’s culture shift and how it’s positioning the organization for the future.
