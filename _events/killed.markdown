@@ -1,5 +1,5 @@
 ---
-title: 'KILLED: A Post-Mortem Celebration of Work from the Graveyard'
+title: 'ISL Presents—KILLED: A Post-Mortem Celebration of Work from the Graveyard'
 date: 2016-10-12 20:21:00 -04:00
 image: "/uploads/killed_eventImage_dcdwSite2.jpg"
 single-event-header-image: "/uploads/killed_eventImage_dcdwSite2.jpg"
