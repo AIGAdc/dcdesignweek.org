@@ -1,5 +1,5 @@
 ---
-title: 'ISL Presents—KILLED: A Post-Mortem Celebration of Work from the Graveyard'
+title: 'KILLED: A Post-Mortem Celebration of Work from the Graveyard'
 date: 2016-10-12 20:21:00 -04:00
 image: "/uploads/killed_eventImage_dcdwSite2.jpg"
 single-event-header-image: "/uploads/killed_eventImage_dcdwSite2.jpg"
@@ -19,3 +19,5 @@ Preceding our featured speakers, attendees will encounter a morbid medley of des
 ## [SUBMIT YOUR WORK HERE](https://docs.google.com/forms/d/e/1FAIpQLSdMKrw28TXh5QZpdwCjkREGgr1dc5X2Io8PEyekdWMLtIoS3A/viewform?c=0&w=1)
 
 Waking the dead is thirsty business, so we’ll end the night with a “Burial at Sea” at All Souls Bar nearby. Hope to see you there - it'll be an event to die for.
+
+![4dQllpux.png](/uploads/4dQllpux.png)
