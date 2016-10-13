@@ -8,8 +8,10 @@ event-date: 2016-10-26 12:00:00 -04:00
 event-venue-name: The Washington Post
 event-venue-directions: https://goo.gl/maps/irBnXinzLH32
 event-venue-address: 1301 K St NW, Washington, DC 20071
+left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-washington-post/
 left-button-text: Tickets (AIGA Members)
 has-right-button: true
+right-button-link: https://www.eventbrite.com/e/creative-lunch-the-washington-post-tickets-28567716810?ref=ebapi
 right-button-text: Tickets (Non-Members)
 ---
 
@@ -19,7 +21,7 @@ Today, *The Washington Post* is as much a tech company as it is a media company,
 
 Katie Parker is the Director of Product Design at *The Washington Post*. Her team is responsible for designing *The Washington Post*’s websites, mobile sites, native apps, distributed content, and newsroom tools. Katie has been designing for the web since 1999. She’s been at The Post six years. She spends her free time on creative side projects.
 
-## Company Description
+## The Washington Post
 
 The Washington Post Engineering team impacts through innovation and challenges the boundaries in technology. We offer an array of products and services including *The Washington Post* newspaper, The Washington Post app, Washington Post Classic app, [washingtonpost.com](http://washingtonpost.com/), WP BrandConnect, Arc Publishing, Washington Post Live events and Post TV yet our approach is always the same–shape ideas, redefine speed and take ownership.
 
