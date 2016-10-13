@@ -15,6 +15,8 @@ right-button-link: https://www.eventbrite.com/e/creative-lunch-the-washington-po
 right-button-text: Tickets (Non-Members)
 ---
 
+## Digital solutions for the future of journalism
+
 Today, *The Washington Post* is as much a tech company as it is a media company, striving for excellence in both journalism and technology. Designers and developers are empowered to experiment and take ownership of their ideas, capitalizing on a culture that promotes speed and rapid innovation. Designers, engineers, and product managers work in partnership with journalists to create exceptional experiences for *Post* readers as well as tools used internally by the newsroom. Design Director Katie Parker provides an inside look at the company’s culture shift and how it’s positioning the organization for the future.
 
 ## Speaker
