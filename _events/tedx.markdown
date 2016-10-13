@@ -12,12 +12,13 @@ is-featured-on-events-page: true
 is-kickoff-friday: true
 is-friday: false
 single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
-event-date: 2016-10-21 09:00:00 -04:00
+event-date: 2016-10-21 13:00:00 -04:00
 event-venue-name: Sidney Harman Hall
 event-venue-directions: https://goo.gl/maps/5on8Pdssp2q
 event-venue-address: |-
   610 F St NW
   Washington, DC 20004
+event-start: Saturday 9 am - 6:30 pm
 is-even-on-events-page: false
 has-speakers: true
 speakers:
