@@ -3,6 +3,7 @@ title: 'KILLED: A Post-Mortem Celebration of Work from the Graveyard'
 date: 2016-10-12 20:21:00 -04:00
 published: false
 image: "/uploads/killed_eventImage_dcdwSite.jpg"
+left-button-text: Grab Your Tickets
 ---
 
 As designers, we've all seen great work buried, either by clients, budgets, or supernatural influences. Have you ever wondered what happens to work once it’s “killed"? Is every trace of its existence buried beneath a labyrinth of mislabeled dropbox folders, or is there hope that artistic work can indeed live on?
