@@ -7,7 +7,8 @@ event-date: 2016-10-27 18:00:00 -04:00
 event-venue-name: iStrategyLabs
 event-venue-directions: https://goo.gl/maps/NYhsgqUPzsB2
 event-venue-address: 641 S St NW, Fl 1, Washington, DC 20001
-left-button-text: Grab Your Tickets
+left-button-link: https://www.eventbrite.com/e/killed-a-post-mortem-celebration-of-work-from-the-graveyard-tickets-28540622771
+left-button-text: Grab Your Tickets!
 ---
 
 As designers, we've all seen great work buried, either by clients, budgets, or supernatural influences. Have you ever wondered what happens to work once it’s “killed"? Is every trace of its existence buried beneath a labyrinth of mislabeled dropbox folders, or is there hope that artistic work can indeed live on?
