@@ -4,6 +4,7 @@ date: 2016-10-12 21:09:00 -04:00
 description: On Wednesday, October 26th, The Washington Post will open its doors for
   AIGA DCDW guests in a two-hour Creative Lunch. Reserve your place at the table.
 image: "/uploads/wapo.jpg"
+is-sold-out: true
 is-featured-on-home-page: true
 is-featured-on-events-page: false
 is-wednesday: true
@@ -24,8 +25,8 @@ speakers:
     been designing for the web since 1999. She’s been at The Post six years. She spends
     her free time on creative side projects.
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/creative-lunch-washington-post/
-left-button-text: Tickets (AIGA Members)
-has-right-button: true
+left-button-text: SOLD OUT! (Wait List)
+has-right-button: false
 right-button-link: https://www.eventbrite.com/e/creative-lunch-the-washington-post-tickets-28567716810?ref=ebapi
 right-button-text: Tickets (Non-Members)
 ---
