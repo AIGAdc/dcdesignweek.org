@@ -1,14 +1,16 @@
 ---
 title: 'Creative Lunch: Washington Post'
 date: 2016-10-12 21:09:00 -04:00
+description: On **Wednesday, October 26th**,*The Washington Post *will open its doors
+  for AIGA DCDW guests in a two-hour Creative Lunch. Reserve your place at the table.
 image: "/uploads/wapo.jpg"
 ---
 
-Today, *The Washington Post* is as much a tech company as it is a media company, striving for excellence in both journalism and technology. Designers and developers are empowered to experiment and take ownership of their ideas, capitalizing on a culture that promotes speed and rapid innovation. Designers, engineers, and product managers work in partnership with journalists to create exceptional experiences for \*Post \*readers as well as tools used internally by the newsroom. Design Director Katie Parker provides an inside look at the company’s culture shift and how it’s positioning the organization for the future. 
+Today, *The Washington Post* is as much a tech company as it is a media company, striving for excellence in both journalism and technology. Designers and developers are empowered to experiment and take ownership of their ideas, capitalizing on a culture that promotes speed and rapid innovation. Designers, engineers, and product managers work in partnership with journalists to create exceptional experiences for *Post* readers as well as tools used internally by the newsroom. Design Director Katie Parker provides an inside look at the company’s culture shift and how it’s positioning the organization for the future.
 
 ## Speaker
 
-Katie Parker is the Director of Product Design at *The Washington Post*. Her team is responsible for designing *The Washington Post*’s websites, mobile sites, native apps, distributed content, and newsroom tools. Katie has been designing for the web since 1999. She’s been at \*The Post six \*years. She spends her free time on creative side projects.\\
+Katie Parker is the Director of Product Design at *The Washington Post*. Her team is responsible for designing *The Washington Post*’s websites, mobile sites, native apps, distributed content, and newsroom tools. Katie has been designing for the web since 1999. She’s been at The Post six years. She spends her free time on creative side projects.
 
 ## Company Description
 
