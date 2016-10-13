@@ -9,7 +9,7 @@ description: Join AIGA DC for a series of DC Design Week lunches, as we open the
   might not meet otherwise!
 image: "/uploads/cl-gensler.jpg"
 is-sold-out: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-friday: true
 single-event-header-image: "/uploads/cl-gensler.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
