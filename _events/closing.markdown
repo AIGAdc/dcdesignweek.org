@@ -8,7 +8,7 @@ description: 'Our week of celebration culminates in a day festival featuring cra
   year''s DC Design Week. Together, we''ll enjoy an afternoon of local crafts, food,
   drinks, and the company of fellow DC artists. '
 image: "/uploads/slack-imgs.com.jpg"
-is-featured-on-home-page: false
+is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-saturday: true
 single-event-header-image: "/uploads/slack-imgs.com.jpg"
