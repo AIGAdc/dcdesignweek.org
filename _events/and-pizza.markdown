@@ -7,6 +7,7 @@ description: Join AIGA DC, &pizza and your fellow creatives to design your own p
   Only rule—the designed box has to be black and white. The color is in the pizza.
   Snag a spot before this event fills up!
 image: "/uploads/andpizza2event.jpg"
+is-sold-out: true
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-tuesday: true
@@ -17,10 +18,10 @@ event-venue-directions: https://www.google.com/maps/place/%26pizza/@38.9153107,-
 event-venue-address: 705 H St NW, Washington, DC 20001
 is-even-on-events-page: false
 left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=http://dc.aiga.org/event/drink-draw-pizza/
-left-button-text: Tickets (AIGA Members)
+left-button-text: SOLD OUT! (AIGA Members)
 has-right-button: true
 right-button-link: https://www.eventbrite.com/e/drink-and-draw-pizza-tickets-27962106413?ref=ebapi
-right-button-text: Tickets (Non-Members)
+right-button-text: SOLD OUT! (Non-Members)
 event-bg-image: "/uploads/andpizza2event.jpg"
 layout: singles/event
 ---
