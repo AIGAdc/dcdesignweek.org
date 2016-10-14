@@ -27,7 +27,7 @@ layout: singles/event
 
 Join Pivot Point and learn how they are giving new life to an old prison by creating the brand behind an adaptive-reuse real estate development at the former Lorton Prison in Lorton Virginia. Pivot Point will walk through the branding process, inspiration, and planning for the future of the brand.
 
-**Lunch provided by [Plum Relish.](https://www.plumrelish.com/) **  Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
+**Lunch provided by [Plum Relish.](https://www.plumrelish.com/)**  Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 4th. General registration opens at noon on October 6th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at WeWork 10 minutes early to allow time for registration and swapping stories with other designers. The presentation will begin promptly at noon.
 
