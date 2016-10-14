@@ -8,7 +8,7 @@ description: Join AIGA DC, &pizza and your fellow creatives to design your own p
   Snag a spot before this event fills up!
 image: "/uploads/andpizza2event.jpg"
 is-sold-out: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-tuesday: true
 single-event-header-image: "/uploads/andpizza2.jpg"
