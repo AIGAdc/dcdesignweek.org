@@ -9,7 +9,7 @@ description: CreativeMornings/DC is a breakfast lecture series and community for
   View from Here on view at the Hirshhorn.
 image: "/uploads/creative-mornings.jpg"
 is-sold-out: false
-is-featured-on-home-page: false
+is-featured-on-home-page: true
 is-friday: true
 single-event-header-image: "/uploads/creative-mornings.jpg"
 event-date: 2016-10-28 08:30:00 -04:00
