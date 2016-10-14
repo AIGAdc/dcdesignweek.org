@@ -5,7 +5,7 @@ description: On Wednesday, October 26th, The Washington Post will open its doors
   AIGA DCDW guests in a two-hour Creative Lunch. Reserve your place at the table.
 image: "/uploads/wapo.jpg"
 is-sold-out: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 is-featured-on-events-page: false
 is-wednesday: true
 event-date: 2016-10-26 12:00:00 -04:00
