@@ -8,7 +8,7 @@ description: CreativeMornings/DC is a breakfast lecture series and community for
   talented artist Linn Meyers on her work and process including her exhibition Our
   View from Here on view at the Hirshhorn.
 image: "/uploads/creative-mornings.jpg"
-is-sold-out: false
+is-sold-out: true
 is-featured-on-home-page: true
 is-friday: true
 single-event-header-image: "/uploads/creative-mornings.jpg"
@@ -27,7 +27,7 @@ speakers:
 
     Meyers is the recipient of numerous awards and fellowships, including a Smithsonian Artist Research Fellowship, The Pollock Krasner Award, two Fifth Floor Foundation awards, and three DC Commission on the Arts grants. She has been Artist In Residence at the the Bemis Institute in Omaha, NE, the Millay Colony in Austerlitz, NY, the Hirshhorn Museum in Washington D.C., the San Jose Institute of Contemporary Art, CA, and the Tamarind Institute in Albuquerque, NM. Her work has been commissioned by the Phillips Collection and the Hirshhorn Museum.
 left-button-link: https://creativemornings.com/talks/linn-meyers
-left-button-text: Register
+left-button-text: SOLD OUT!
 event-bg-image: "/uploads/creative-mornings.jpg"
 ---
 
