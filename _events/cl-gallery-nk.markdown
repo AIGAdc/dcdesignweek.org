@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: PETAL at Gallery NK'
 date: 2016-09-20 21:42:00 -04:00
+published: false
 description: Gallery NK is opening its doors during DC Design Week to welcome AIGA
   DC and***Petal***, an exhibition by Dennis McBride. This Creative Lunch will feature
   illustrations, couture and ready-wear apparel inspired by the fashion design icon,
