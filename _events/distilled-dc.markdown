@@ -1,6 +1,6 @@
 ---
 title: Distilled DC
-date: 2016-08-02 22:08:00 -04:00
+date: 2016-10-01 22:08:00 -04:00
 position: 1
 description: Distilled DC is an event for studio founders, principals, and seasoned
   creatives whose vision, leadership, and hard work over the years have made the DC
