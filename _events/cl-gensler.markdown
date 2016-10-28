@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Gensler'
 date: 2016-09-29 22:09:00 -04:00
+published: false
 position: 0
 description: Join AIGA DC for a series of DC Design Week lunches, as we open the doors
   to some of the DC area’s creative studios, agencies, and galleries. Grab a bite
