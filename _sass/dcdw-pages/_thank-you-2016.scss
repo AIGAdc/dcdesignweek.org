@@ -1,0 +1,25 @@
+.thank-you {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.thank-you h1 {
+  font-size: 100px;
+}
+
+#instafetch article {
+  width: 33.333%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#instafetch figure img {
+  min-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .thank-you h1 {
+    font-size: 140px;
+  }
+}
