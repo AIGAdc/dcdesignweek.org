@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: Beth Singer Design'
 date: 2016-08-02 22:14:00 -04:00
-published: false
 description: 'Beth Singer Design will share with you their 35-year journey marrying
   passion for design and doing good in the world ... and where it has led them. Additionally,
   they will discuss YOUR LEGACY: How will you make your mark on the world beyond your
