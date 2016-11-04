@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: Vox Media'
 date: 2016-08-02 22:14:00 -04:00
-published: false
 description: Join a conversation about how they are solving the problem of designing
   for and developing high-value digital journalism, storytelling, and brand advertising
   at scale.
