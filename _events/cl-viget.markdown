@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: Viget'
 date: 2016-08-02 22:14:00 -04:00
-published: false
 description: Viget has a 16-year history of making award-winning digital products,
   experiences, and tools that inspire customers, extend capabilities, and advance
   business. Join the team for lunch as they walk through some recent work and share
