@@ -1,7 +1,6 @@
 ---
 title: Get-Out-the-Vote Gallery Opening
 date: 2016-07-03 09:52:00 -04:00
-published: false
 position: 3
 description: Mix, mingle, clink and drink a glass of champagne to toast the opening
   of the DC’s "AIGA‘s Get Out the Vote Campaign"(GOTV) poster gallery. Launched on
