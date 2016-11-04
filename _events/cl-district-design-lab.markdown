@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: District Design Lab'
 date: 2016-10-01 22:13:00 -04:00
-published: false
 description: District Design Lab (DDL) is a DC-based design incubator that aims to
   engage the broader design culture in DC and the local communities. Their presentation
   will focus on the group's work through the lens of working "after-hours" and what
