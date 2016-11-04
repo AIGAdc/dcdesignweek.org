@@ -1,7 +1,6 @@
 ---
 title: 'Salon: Morgan West, Founder of A Creative DC'
 date: 2016-07-03 09:51:00 -04:00
-published: false
 position: 6
 description: Maybe you've seen the hashtag. Maybe you've used the hashtag. And if
   you have, you definitely love the feed. Join us and Morgan H. West, the founder
