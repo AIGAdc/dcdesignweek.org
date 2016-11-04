@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: The Washington Post'
 date: 2016-10-12 21:09:00 -04:00
-published: false
 description: On Wednesday, October 26th, The Washington Post will open its doors for
   AIGA DCDW guests in a two-hour Creative Lunch. Reserve your place at the table.
 image: "/uploads/wapo.jpg"
