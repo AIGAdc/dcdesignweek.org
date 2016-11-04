@@ -1,7 +1,6 @@
 ---
 title: 'Creative Lunch: Pivot Point'
 date: 2016-08-02 22:14:00 -04:00
-published: false
 description: 'Join AIGA DC for a series of DC Design Week lunches, as we open the
   doors to some of the DC area’s creative studios, agencies, and galleries. Grab a
   bite and get a behind-the-scenes look at some colorful spaces, see works in progress,
