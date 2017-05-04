@@ -1,28 +1,27 @@
 {% include global/head-open.html %}
 <div class="clearfix job--wrap">
-
-
+                {% comment %}
+                  <div class="job--back">
+                    <a href="#">
+                      <p>{% include svg/back-arrow.svg %} org chart</p>
+                    </a>
+                  </div>
+                {% endcomment %}
 <div class="job--head">
-  <a href="#">
-    <div class="job--back">
-      {% include svg/back-arrow.svg %}
-      <p>org chart</p>
-    </div>
-  </a>
   <div class="job--title px3">
-    <p>Position Description</p>
-    <h1 class="bbroller m0 text-headline">{{ page.title }}</h1>
-    <p>DCDW '17 Oct. 21-29</p>
+    <p class="job--pretitle mb1">Position Description</p>
+    <h1 class="bbroller mb2 text-headline dcdw-blue">{{ page.title }}</h1>
+    <p class="job--pretitle"> DCDW '17 Oct. 21-29</p>
   </div>
 </div>
 
-<div class="clearfix col col-8 px3">
+<div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-8 px3">
   {{ content }}
 </div>
 
-<div class="clearfix col col-4 px3">
+<div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-4 px3">
   <h2>Direct Reports</h2>
-  <ul>
+  <ul class="job--reports">
     {% for job in page.jobs %}
       {% assign job-title = job | downcase %}
         {% for site-job in site.jobs %}
@@ -33,6 +32,7 @@
         {% endfor %}
     {% endfor %}
   </ul>
+  <button class="jobs--button mb4" type="button" name="org-chart">Org Chart</button>
   <h2>Meeting & Time Commitment</h2>
   <p> {{ page.commitment | markdownify }}</p>
 </div>
