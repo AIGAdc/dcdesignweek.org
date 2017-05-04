@@ -1,5 +1,5 @@
 ---
-title: C&M Director
+title: Copy Writer
 jobs:
 - Creative Lead
 - Social Media Lead

@@ -1,5 +1,5 @@
 ---
-title: C&M Director
+title: Social Media Lead
 jobs:
 - Creative Lead
 - Social Media Lead

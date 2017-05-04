@@ -1,0 +1,45 @@
+.job--wrap {
+  max-width: 1200px;
+  width: 80%;
+  margin: 3em auto;
+}
+
+.job--head {
+  height: 45vh;
+  margin-bottom: 4rem;
+  position: relative;
+  background-color: white;
+  &:after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    background-color: $dcdw-blue;
+    width: 200%;
+    bottom: 0;
+    left: -50%;
+    }
+}
+
+
+
+.job--title {
+
+}
+
+// this will have implications across the site. take a look
+.grid {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.job--wrap ul{
+  list-style-type: circle;
+  margin-left: 1.75em;
+    & li ul {
+      list-style-type: disc;
+    }
+    & li {
+      margin-bottom: 4px;
+    }
+  }
