@@ -1,15 +1,25 @@
 {% include global/head-open.html %}
+
+<div class="job-intro ">
+    <section class="introduction relative bg-center" style="background-image: url('/uploads/dcdw-pattern-38c20d.jpg')">
+      <div class="container clearfix">
+        <span class="white-bar left absolute bg-white pr3 py3">
+          <img class="design-week right" src="/uploads/dcdw-lockup-new.svg">
+        </span>
+      </div>
+    </section>
+</div>
 <div class="white-wrap">
 
   <div class="clearfix job--wrap job--list_wrap">
     {% assign sorted_jobs = site.jobs | sort:"position" %}
-    <div class="col col-6 px3">
+    <div class="col sm-col-12 md-col-6 lg-col-6 px3">
       {% for job in sorted_jobs limit: 7 %}
       <a href="{{ job.url }}">
         <div class="
-        {% if job.exec == false %} sub-com col-9 {% endif %}
+        {% if job.exec == false %} sub-com sm-col-11 md-col-12 lg-col-9 {% endif %}
         {% if job.title == "Programming Director" %} job--program {% endif %}
-        job--card mb4 ">
+        job--card">
           <div class="diamond-image-border job--avatar">
             <div class="diamond overflow-hidden">
                <div class="diamond-los1">
@@ -30,10 +40,10 @@
     <div class="col col-6 px3">
       {% for job in sorted_jobs offset: 7 %}
       <a href="{{ job.url }}">
-        <div class="{% if job.exec == false %} sub-com col-9 {% endif %}
+        <div class="{% if job.exec == false %} sub-com md-col-12 lg-col-9  {% endif %}
         {% if job.title == "Development Director" %} job--dev {% endif %}
         {% if job.title == "C&M Director" %} job--marketing {% endif %}
-        job--card mb4">
+        job--card">
           <div class="diamond-image-border job--avatar">
             <div class="diamond overflow-hidden">
                <div class="diamond-los1">

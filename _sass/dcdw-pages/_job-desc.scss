@@ -1,7 +1,8 @@
 .job--wrap {
   max-width: 1200px;
   width: 80%;
-  margin: 3em auto;
+  margin: auto;
+  padding: 3em 0;
   @media screen and (max-width: 40em) {
     width: 95%
   }
@@ -12,16 +13,8 @@
   margin-bottom: 4rem;
   position: relative;
   background-color: white;
-  &:after {
-    position: absolute;
-    content: "";
-    height: 5px;
-    background-color: $dcdw-blue;
-    width: 200%;
-    bottom: 0;
-    left: -50%;
-    }
-}
+  margin-top: 3em;
+    border-bottom: 7px solid RGBA(22, 0, 250, 1);}
 
 .job--back {
   position: absolute;
@@ -58,11 +51,11 @@
 }
 
 // this will have implications across the site. take a look
-.grid {
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto;
-  }
+// .grid {
+//     max-width: 1200px;
+//     width: 80%;
+//     margin: 0 auto;
+//   }
 
 .job--wrap ul{
   list-style-type: circle;
@@ -135,6 +128,15 @@ ul.job--reports{
 }
 
 // job list page
+.job-intro {
+  & .introduction {
+    height: 55vh;
+  }
+  & .white-bar img {
+    max-width: 300px;
+  }
+}
+
 .white-wrap {
   background-color: white;
   z-index: 0;
@@ -142,8 +144,8 @@ ul.job--reports{
 }
 
 .job--list_wrap {
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 6em;
+  padding-bottom: 6em;
   max-width: 910px;
 }
 
@@ -152,6 +154,10 @@ ul.job--reports{
   background-color: white;
   box-shadow: 4px 4px 34px rgba(0, 0, 0, 0.25);
   border-bottom: 4px solid blue;
+  margin-bottom: 4.5rem;
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 2.5rem;
+  }
   & > .diamond-image-border{
     width: 70px;
     height: 70px;
@@ -161,6 +167,7 @@ ul.job--reports{
     width: 77px;
     height: 77px;
     transform: rotate(0deg) translateX(5px) translateY(-12px);
+    transition: .2s;
   }
   & .diamond .diamond-los1 img {
     width: 74%;
@@ -168,6 +175,15 @@ ul.job--reports{
     position: relative;
     top: 120px;
     left: 20px;
+  }
+  &:hover {
+      border-bottom: 4px solid black;
+      &  h2 {
+        color: black;
+      }
+      & .diamond {
+        transform: rotate(0deg) translateX(-9px) translateY(-9px);
+      }
   }
 }
 
@@ -205,6 +221,12 @@ ul.job--reports{
 
 .sub-com {
   margin-left: 25%;
+  @media screen and (max-width: 1024px) {
+    margin-left: 0%;
+  }
+  @media screen and (max-width: 831px) {
+    margin-left: 8.34%;
+  }
   &:before {
     position: absolute;
     bottom: 16px;
@@ -215,6 +237,9 @@ ul.job--reports{
     background-color: RGBA(22, 0, 250, 1);
     border-radius: 11px;
     z-index: 1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
   &:after {
     position: absolute;
@@ -226,6 +251,9 @@ ul.job--reports{
     border-left: 1px solid #979797;
     border-bottom: 1px solid #979797;
     z-index: -1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
 }
 
@@ -241,6 +269,9 @@ ul.job--reports{
     background-color: RGBA(22, 0, 250, 1);
     border-radius: 11px;
     z-index: 1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
   &:after {
     position: absolute;
@@ -251,6 +282,9 @@ ul.job--reports{
     width: 35%;
     border-bottom: 1px solid #979797;
     z-index: -1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
     }
 }
 .job--marketing {
@@ -264,10 +298,13 @@ ul.job--reports{
     background-color: RGBA(22, 0, 250, 1);
     border-radius: 11px;
     z-index: 1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
   &:after {
     position: absolute;
-    top: -33px;
+    top: -41px;
     right: 69%;
     content: "";
     height: 40px;
@@ -275,6 +312,9 @@ ul.job--reports{
     border-top: 1px solid #979797;
     border-right: 1px solid #979797;
     z-index: -2;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
     }
 }
 .job--program {
@@ -288,6 +328,9 @@ ul.job--reports{
     background-color: RGBA(22, 0, 250, 1);
     border-radius: 11px;
     z-index: 1;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
   &:after {
     position: absolute;
@@ -299,5 +342,8 @@ ul.job--reports{
     border-right: 1px solid #979797;
     z-index: -1;
     background-color: white;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
     }
 }
