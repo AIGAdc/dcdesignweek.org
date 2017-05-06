@@ -1,0 +1,303 @@
+.job--wrap {
+  max-width: 1200px;
+  width: 80%;
+  margin: 3em auto;
+  @media screen and (max-width: 40em) {
+    width: 95%
+  }
+}
+
+.job--head {
+  height: 45vh;
+  margin-bottom: 4rem;
+  position: relative;
+  background-color: white;
+  &:after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    background-color: $dcdw-blue;
+    width: 200%;
+    bottom: 0;
+    left: -50%;
+    }
+}
+
+.job--back {
+  position: absolute;
+  top: 3.2em;
+  left: 35px;
+  z-index: 333;
+  & svg, p {
+    display: inline-block;
+  }
+  & p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0000FF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  &:hover > p {
+    color: black;
+  }
+}
+
+.job--title {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.job--pretitle {
+  font-size: 13px;
+  color: black;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+// this will have implications across the site. take a look
+.grid {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.job--wrap ul{
+  list-style-type: circle;
+  margin-left: 1.75em;
+  margin-bottom: 2em;
+    & li ul {
+      list-style-type: disc;
+      margin-bottom: 0;
+    }
+    & li {
+      margin-bottom: 4px;
+    }
+  }
+
+.job--content {
+  & h2 {
+    font-size: 14px;
+    color: black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-bottom: 2em;
+  }
+}
+
+.job--reports a {
+    color: $dcdw-blue;
+    position: relative;
+    &:after{
+      position: absolute;
+      content: "";
+      height: 6px;
+      background-color: $dcdw-blue;
+      width: 100%;
+      bottom: 1px;
+      left: 0;
+      opacity: .1;
+      transition: .15s;
+    }
+    &:hover:after {
+      transform: scaleY(2.5);
+      transform-origin: bottom;
+    }
+}
+
+ul.job--reports{
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.jobs--button {
+  font-weight: 600;
+  font-size: 12px;
+  color: $dcdw-blue;
+  letter-spacing: 2.08px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  background-color: white;
+  border: 1px solid $dcdw-blue;
+  box-shadow: 0px 0px black;
+  transition: .2s;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 5px 5px black;
+    color: black;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+// job list page
+.white-wrap {
+  background-color: white;
+  z-index: 0;
+  position: relative;
+}
+
+.job--list_wrap {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  max-width: 910px;
+}
+
+.job--card {
+  position: relative;
+  background-color: white;
+  box-shadow: 4px 4px 34px rgba(0, 0, 0, 0.25);
+  border-bottom: 4px solid blue;
+  & > .diamond-image-border{
+    width: 70px;
+    height: 70px;
+    border: solid 3px #000;
+  }
+  & .diamond{
+    width: 77px;
+    height: 77px;
+    transform: rotate(0deg) translateX(5px) translateY(-12px);
+  }
+  & .diamond .diamond-los1 img {
+    width: 74%;
+    vertical-align: middle;
+    position: relative;
+    top: 120px;
+    left: 20px;
+  }
+}
+
+.job--card__title {
+  padding: 1.5rem 1.5rem 1.5rem 7rem;
+  & h2 {
+  font-size: 18px;
+  color: $dcdw-blue;
+  }
+  & p {
+    font-size: 12px;
+    color: #4A4A4A;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+}
+
+.job--avatar {
+  position: absolute;
+  top: -5px;
+  left: -12px;
+}
+
+.color-overlay {
+  position: absolute;
+  background-color: $dcdw-blue;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 152%;
+  z-index: 1;
+  mix-blend-mode: color;
+}
+
+.sub-com {
+  margin-left: 25%;
+  &:before {
+    position: absolute;
+    bottom: 16px;
+    left: -5px;
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: RGBA(22, 0, 250, 1);
+    border-radius: 11px;
+    z-index: 1;
+  }
+  &:after {
+    position: absolute;
+    bottom: 20px;
+    left: -25%;
+    content: "";
+    height: 200%;
+    width: 25%;
+    border-left: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    z-index: -1;
+  }
+}
+
+
+.job--dev {
+  &:before {
+    position: absolute;
+    bottom: 16px;
+    left: -5px;
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: RGBA(22, 0, 250, 1);
+    border-radius: 11px;
+    z-index: 1;
+  }
+  &:after {
+    position: absolute;
+    bottom: 20px;
+    left: -25%;
+    content: "";
+    height: 200%;
+    width: 35%;
+    border-bottom: 1px solid #979797;
+    z-index: -1;
+    }
+}
+.job--marketing {
+  &:before {
+    position: absolute;
+    top: -4px;
+    right: 68%;
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: RGBA(22, 0, 250, 1);
+    border-radius: 11px;
+    z-index: 1;
+  }
+  &:after {
+    position: absolute;
+    top: -33px;
+    right: 69%;
+    content: "";
+    height: 40px;
+    width: 122%;
+    border-top: 1px solid #979797;
+    border-right: 1px solid #979797;
+    z-index: -2;
+    }
+}
+.job--program {
+  &:before {
+    position: absolute;
+    top: -3px;
+    left: 25%;
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: RGBA(22, 0, 250, 1);
+    border-radius: 11px;
+    z-index: 1;
+  }
+  &:after {
+    position: absolute;
+    top: -103px;
+    left: 19%;
+    content: "";
+    height: 120%;
+    width: 7%;
+    border-right: 1px solid #979797;
+    z-index: -1;
+    background-color: white;
+    }
+}

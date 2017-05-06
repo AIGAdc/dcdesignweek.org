@@ -1,4 +1,5 @@
 ---
+position: 8
 title: C&M Director
 jobs:
 - Creative Lead
@@ -16,6 +17,7 @@ commitment: |-
 avatar:
 name:
 layout: pages/job-desc
+exec: true
 ---
 
 ## Key Responsibilities

@@ -20,7 +20,11 @@
 </div>
 
 <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-4 px3">
-  <h2>Direct Reports</h2>
+  {% if page.exec == true %}
+    <h2>Direct Reports</h2>
+  {% else %}
+    <h2>Direct Manager</h2>
+  {% endif %}
   <ul class="job--reports">
     {% for job in page.jobs %}
       {% assign job-title = job | downcase %}
@@ -32,7 +36,7 @@
         {% endfor %}
     {% endfor %}
   </ul>
-  <button class="jobs--button mb4" type="button" name="org-chart">Org Chart</button>
+  <a href="/jobs"><button href="/jobs" class="jobs--button mb4" type="button" name="org-chart">Org Chart</button></a>
   <h2>Meeting & Time Commitment</h2>
   <p> {{ page.commitment | markdownify }}</p>
 </div>

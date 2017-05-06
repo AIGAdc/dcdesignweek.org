@@ -1,6 +1,6 @@
 ---
-position: 9
-title: Creative Lead
+position: 10
+title: Social Media Lead
 jobs:
 - C&M Director
 commitment: |-

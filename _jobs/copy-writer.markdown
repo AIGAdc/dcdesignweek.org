@@ -1,4 +1,5 @@
 ---
+position: 11
 title: Copy Writer
 jobs:
 - Creative Lead
@@ -8,7 +9,7 @@ commitment: |-
   - 3-4 hours a week through August
   - 5-8 hours a week September-October
   - Meetings
-    - Monthly Executive Commitee Meetings
+    - Monthly Executive Committee Meetings
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
@@ -16,6 +17,7 @@ commitment: |-
 avatar:
 name:
 layout: pages/job-desc
+exec: false
 ---
 
 ## Key Responsibilities
