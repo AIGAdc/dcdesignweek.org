@@ -1,0 +1,42 @@
+
+{% include global/head-open.html %}
+<div class="white-wrap">
+<div class="job--head">
+  <div class="job--title job--wrap">
+    <p class="job--pretitle px3 mb1">Position Description</p>
+    <h1 class="bbroller px3 mb2 text-headline dcdw-blue">{{ page.title }}</h1>
+    <p class="job--pretitle px3"> DCDW '17 Oct. 21-29</p>
+  </div>
+</div>
+
+  <div class="clearfix job--wrap">
+    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-8 px3">
+      {{ content }}
+    </div>
+
+    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-4 px3">
+      {% if page.exec == true %}
+        <h2>Direct Reports</h2>
+      {% else %}
+        <h2>Direct Manager</h2>
+      {% endif %}
+      <ul class="job--reports">
+        {% for job in page.jobs %}
+          {% assign job-title = job | downcase %}
+            {% for site-job in site.jobs %}
+              {% assign site-job-title = site-job.title | downcase %}
+                  {% if job-title == site-job-title  %}
+                    <li><a href="{{ site-job.url | prepend: site.baseurl }}">{{ site-job.title }}</a></li>
+                  {% endif %}
+            {% endfor %}
+        {% endfor %}
+      </ul>
+      <a href="/committee"><button class="jobs--button mb4" type="button" name="org-chart">Org Chart</button></a>
+      <h2>Meeting & Time Commitment</h2>
+      <p> {{ page.commitment | markdownify }}</p>
+    </div>
+
+
+  </div>
+</div>
+{% include global/head-closed.html %}
