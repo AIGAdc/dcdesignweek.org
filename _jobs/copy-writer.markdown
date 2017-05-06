@@ -1,6 +1,6 @@
 ---
-position: 11
 title: Copy Writer
+position: 11
 jobs:
 - Creative Lead
 - Social Media Lead
@@ -14,8 +14,8 @@ commitment: |-
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
     - Attend 1-2 AIGA Board meetings
-avatar:
-name:
+avatar: 
+name: 
 layout: pages/job-desc
 exec: false
 ---

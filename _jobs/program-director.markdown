@@ -1,10 +1,10 @@
 ---
-position: 1
 title: Programming Director
+position: 1
 jobs:
 - Programming Coordinator
 - Creative Lunches Lead
--
+- 
 commitment: |-
   - 3-4 hours a week May – August
   - 5-8 hours a week September – October
@@ -12,8 +12,8 @@ commitment: |-
     - Monthy C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar:
-name:
+avatar: 
+name: 
 layout: pages/job-desc
 exec: true
 ---

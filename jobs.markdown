@@ -1,4 +1,5 @@
 ---
-layout: pages/job-list
 permalink: "/committee/"
+layout: pages/job-list
 ---
+

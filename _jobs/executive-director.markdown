@@ -1,6 +1,6 @@
 ---
-position: 0
 title: Executive Director
+position: 0
 jobs:
 - C&M Director
 - Programming Director
@@ -13,7 +13,7 @@ commitment: |-
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
     - Attend 1-2 AIGA Board meetings
-avatar: "http://dc.aiga.org/wp-content/uploads/2016/08/DanRader.jpg"
+avatar: http://dc.aiga.org/wp-content/uploads/2016/08/DanRader.jpg
 name: Dan Rader
 layout: pages/job-desc
 exec: true

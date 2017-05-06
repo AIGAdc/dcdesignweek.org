@@ -1,6 +1,6 @@
 ---
-position: 9
 title: Creative Lead
+position: 9
 jobs:
 - C&M Director
 commitment: |-
@@ -10,8 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar:
-name:
+avatar: 
+name: 
 layout: pages/job-desc
 exec: false
 ---

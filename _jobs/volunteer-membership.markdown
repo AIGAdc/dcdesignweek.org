@@ -1,6 +1,6 @@
 ---
-position: 6
 title: Volunteer & Membership Lead
+position: 6
 jobs:
 - Programming Director
 commitment: |-
@@ -10,8 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar:
-name:
+avatar: 
+name: 
 layout: pages/job-desc
 exec: false
 ---
