@@ -15,8 +15,20 @@ commitment: |-
     - Attend 1-2 AIGA Board meetings
 avatar: http://dc.aiga.org/wp-content/uploads/2016/08/DanRader.jpg
 name: Dan Rader
-layout: pages/job-desc
 exec: true
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities
+
+* Develop and maintain the DC Design Week mission and vision
+
+* Be the face of DCDW, working to garner city-wide and national attention for design in DC
+
+* Form key relationships and partnerships to help achieve the programming and sponsorship goals of DCDW
+
+* Oversee the Executive committee and empower them those they oversee to do their jobs to the best of their abilities.
+
+* Serve as the point of contact and liaison for the AIGA DC board of directors
+
+* Maintain deep knowledge of DCDW, AIGA, and the partnerships that make the week come together
