@@ -21,14 +21,18 @@ layout: pages/job-desc
 
 ## Key Responsibilities
 
-* Develop and maintain the DC Design Week mission and vision
+* Develop and maintain the DC Design Week mission. Steer the vision and direction of DCDW to match and exceed previous successes.
 
-* Be the face of DCDW, working to garner city-wide and national attention for design in DC
+* Oversee the DCDW Executive Committee and empower their direct reports to do their duties to the best of their abilities.
 
-* Form key relationships and partnerships to help achieve the programming and sponsorship goals of DCDW
+* Work directly with the DCDW Programming Director to secure top billing events and create partnerships for supporting events. Use past successes and failures to advise on best practices for the new season.
 
-* Oversee the Executive committee and empower them those they oversee to do their jobs to the best of their abilities.
+* Work directly with the Communications & Marketing Director to steer a marketing plan that garners city-wide and national attention for design in DC.
 
-* Serve as the point of contact and liaison for the AIGA DC board of directors
+* Be the public face of DCDW, pursuing key relationships that promote DCDW in traditional and non-traditional media.
 
-* Maintain deep knowledge of DCDW, AIGA, and the partnerships that make the week come together
+* Procure partnerships to help achieve the programming and sponsorship goals of DCDW.
+
+* Serve as the point of contact and liaison for the AIGA DC board of directors.
+
+* Use deep knowledge of DCDW, AIGA, and DCDW partnerships to advice and support the executive committee throughout the planning process. Provide key insights from past DCDWs that will help avoid pitfalls and ensure success.
