@@ -14,26 +14,28 @@ commitment: |-
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
     - Attend 1-2 AIGA Board meetings
-avatar: 
-name: 
-layout: pages/job-desc
 exec: false
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities
-  - Create and maintain a unified communication plan for DC Design Week
-  - Craft marketing plans to raise awareness and achieve sales goals to the programs and initiatives of DCDW
-  - Maintain and adjust marketing efforts to respond to sales numbers, social engagements
-  - Garner new audiences to DC Design Week & AIGA
-  - Attract city-wide and national awareness of Design in DC
-  - Define marketing budget to include any and all spending for promotion or otherwise
-  - Manage the C&M team, enabling them to flourish and produce their best work
-    - clearly define goals and deadlines. Hold your direct reports accountable.
-  - Work directly with the programming director to create compelling marketing campaigns for individual programs and craft DC Design Week to meet it’s goals and mission.
-    - Work with programming to refine creative briefs that define everything your team needs to do their jobs to the best of their ability
+
+* Push the DCDW voice to always be fresh, build excitement, and garner city-wide and national awareness of Design in DC
+
+* Concept creative approaches to telling the DCDW story and each individual event
+
+* Craft copy for DCDW to include but not limted to: marketing copy, social media posts, marketing emails, web copy, event descriptions, and signage.
+
+* Work directly with the programming team to ensure a smooth handoff of creative briefs empowering you to do your job to the best of your ability
+
+* Review event copy with programming leads to ensure the messaging is sound.
 
 ## The Perfect Candidate…
-  - Is a hungry and passionate individual who believes in the mission of DCDW to cultivate, celebrate, and communicate design and it’s impact in DC
-  - Takes ownership in their work and when they commit to something, they make it their very best
-  - Has managing experience & empowers their reports to produce their very best work through respect and grit.
-  - Brings a unique perspective to DCDW and can communicate in ways AIGA has not thought of before
+
+* Is a hungry and passionate individual who believes in the mission of DCDW to cultivate, celebrate, and communicate design and it’s impact in DC
+
+* Takes ownership in their work and when they commit to something, they make it their very best
+
+* Has managing experience & empowers their reports to produce their very best work through respect and grit.
+
+* Brings a unique perspective to DCDW and can communicate in ways AIGA has not thought of before
