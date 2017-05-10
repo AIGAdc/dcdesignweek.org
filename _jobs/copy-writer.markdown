@@ -34,8 +34,8 @@ layout: pages/job-desc
 
 * Is a hungry and passionate individual who believes in the mission of DCDW to cultivate, celebrate, and communicate design and it’s impact in DC
 
+* Has solid copywriting chops and experience working under direction to push creative concepts
+
 * Takes ownership in their work and when they commit to something, they make it their very best
 
-* Has managing experience & empowers their reports to produce their very best work through respect and grit.
-
-* Brings a unique perspective to DCDW and can communicate in ways AIGA has not thought of before
+* Brings a unique perspective to DCDW and can communicate in ways AIGA has never thought of before
