@@ -19,14 +19,25 @@ layout: pages/job-desc
 ---
 
 ## Key Responsibilities
-  - Maintain a unified visual identity for DC Design Week that replicates accross all digital and print materials for marketing and on the ground efforts
-  - Art direct and source designers or design agencies to produce any creative needed for DCDW including but not limited to: digital assets, web graphics, print advertising, social media graphics, signage, and swag.
-  - Oversee the DCDW website design and any updates that may be needed for each season. Maintain quality of the website including small copy updates.
-  - Work directly with the C&M director to establish timelines and and marketing plans that need creative support as well as a budget for printing needs.
-  - Push the DCDW design aesthetic to always be fresh, build excitement, and garner city-wide and national awareness of Design in DC
+
+* Craft a comprehensive week of programming that engages, inspires, and educates our audience while maintaining a consistent level of quality and exellence
+
+* Lead the booking of events, workshops, and speakers that garner city-wide and national awareness of Design in DC
+
+* Define budgets and related costs for each program and the week as a whole
+
+* work directly with development to define opportunities for in-kind gifts and need for cash sponsorships
+
+* Create and maintain creative briefs for each program including partner programs.
+
+* Work directly with the C&M director to refine creative briefs to insure the team has all information needed to do their jobs to the best of their ability
+
+* Manage the programming team, enabling them to flourish and produce their best work
+
+* clearly define goals and deadlines and holding direct reports accountable
 
 ## The Perfect Candidate…
-  - Is a hungry and passionate individual who believes in the mission of DCDW to cultivate, celebrate, and communicate design and it’s impact in DC
-  - Has creative direction experience & empowers their designers to produce their very best work through respect and grit.
-  - Takes ownership in their work and when they commit to something, they make it their very best
-  - Brings a unique perspective to DCDW and can communicate in ways AIGA has not thought of before
+* Is a hungry and passionate individual who believes in the mission of DCDW to cultivate, celebrate, and communicate design and it’s impact in DC
+* Takes ownership in their work and when they commit to something, they make it their very best
+* Has managing experience & empowers their reports to produce their very best work through respect and grit. 
+* Brings a unique perspective to DCDW and can communicate in ways AIGA has not thought of before
