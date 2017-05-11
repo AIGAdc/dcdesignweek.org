@@ -3,8 +3,8 @@ title: Programming Director
 position: 1
 jobs:
 - Program Lead
-- Program Lead
-- Program Lead
+- 
+- 
 - Creative Lunches Lead
 - Volunteer & Membership Lead
 commitment: |-
