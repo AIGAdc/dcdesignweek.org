@@ -1,5 +1,5 @@
 ---
-title: Program Coordinator
+title: Program Lead
 position: 2
 jobs:
 - Programming Director
@@ -10,10 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar: 
-name: 
-layout: pages/job-desc
 exec: false
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities
