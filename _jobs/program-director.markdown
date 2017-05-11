@@ -8,7 +8,7 @@ jobs:
 - Creative Lunches Lead
 - Volunteer & Membership Lead
 commitment: |-
-  - 3-4 hours a week May – August
+  - 3-6 hours a week May – August
   - 5-8 hours a week September – October
   - Meetings
     - Monthy C&M Team Meetings
