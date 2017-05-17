@@ -14,10 +14,10 @@ commitment: |-
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
     - Attend 1-2 AIGA Board meetings
-avatar: 
-name: 
-layout: pages/job-desc
+avatar: "/uploads/MikeObrien.jpg"
+name: Mike O'Brien
 exec: true
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities
