@@ -6,7 +6,7 @@ description: District Design Lab (DDL) is a DC-based design incubator that aims 
   will focus on the group's work through the lens of working "after-hours" and what
   motivates them to do work beyond the traditional workday.
 image: "/uploads/cl-design-lab-event.jpg"
-is-sold-out: true
+is-sold-out: false
 is-friday: true
 single-event-header-image: "/uploads/cl-design-lab.jpg"
 event-date: 2016-10-28 12:00:00 -04:00
