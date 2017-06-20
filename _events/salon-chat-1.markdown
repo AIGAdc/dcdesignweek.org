@@ -7,7 +7,7 @@ description: Maybe you've seen the hashtag. Maybe you've used the hashtag. And i
   of A Creative DC, for a conversation about her use of new media to build a gathering
   space for thousands of DC creatives both on and offline.
 image: "/uploads/acreativedc2event.jpg"
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: false
 is-monday: false
 is-tuesday: true
