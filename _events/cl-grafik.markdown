@@ -10,7 +10,7 @@ description: 'Grafik believes every branding engagement must start with a solid 
 
 '
 image: "/uploads/cl-grafik2.jpg"
-is-sold-out: true
+is-sold-out: false
 is-thursday: true
 single-event-header-image: "/uploads/cl-grafik2.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
