@@ -7,7 +7,7 @@ description: Join AIGA DC, &pizza and your fellow creatives to design your own p
   Only rule—the designed box has to be black and white. The color is in the pizza.
   Snag a spot before this event fills up!
 image: "/uploads/andpizza2event.jpg"
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-tuesday: true
