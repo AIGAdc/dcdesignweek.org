@@ -6,7 +6,7 @@ description: Viget has a 16-year history of making award-winning digital product
   business. Join the team for lunch as they walk through some recent work and share
   insights to their approach.
 image: "/uploads/cl-viget.jpg"
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: false
 is-monday: true
 single-event-header-image: "/uploads/cl-viget.jpg"
