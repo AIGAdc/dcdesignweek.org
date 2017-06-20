@@ -8,7 +8,7 @@ description: Join AIGA DC for a series of DC Design Week lunches, as we open the
   compare office cultures and methodologies, and rub elbows with creatives whom you
   might not meet otherwise!
 image: "/uploads/cl-gensler.jpg"
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: false
 is-friday: true
 single-event-header-image: "/uploads/cl-gensler.jpg"
