@@ -5,7 +5,7 @@ description: Join a conversation about how they are solving the problem of desig
   for and developing high-value digital journalism, storytelling, and brand advertising
   at scale.
 image: "/uploads/cl-vox.jpg"
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: false
 is-tuesday: true
 single-event-header-image: "/uploads/cl-vox.jpg"
