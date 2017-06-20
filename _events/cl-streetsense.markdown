@@ -8,7 +8,7 @@ description: Streetsense is an experience-focused strategy and design collective
   neighborhood restaurants to city blocks. Join them for a luncheon to discuss what
   they do at streetsense, what inspires them, and some of their very favorite projects.
 image: "/uploads/cl-streetsence.jpg"
-is-sold-out: true
+is-sold-out: false
 is-thursday: true
 single-event-header-image: "/uploads/cl-streetsence.jpg"
 event-date: 2016-10-27 12:00:00 -04:00
