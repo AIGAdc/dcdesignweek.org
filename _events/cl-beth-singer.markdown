@@ -7,7 +7,7 @@ description: 'Beth Singer Design will share with you their 35-year journey marry
   work? How can you make a lasting effect on others using design? And how will you
   ensure your efforts live beyond your lifetime?'
 image: "/uploads/cl-beth-singer.jpg"
-is-sold-out: true
+is-sold-out: false
 is-wednesday: true
 single-event-header-image: "/uploads/cl-beth-singer.jpg"
 event-date: 2016-10-26 12:00:00 -04:00
