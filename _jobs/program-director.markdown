@@ -14,6 +14,8 @@ commitment: |-
     - Monthy C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
+avatar: http://www.madebywe.org/sites/default/files/styles/collaborators_grid/public/mxwcollaborator_lr.png?itok=0XfisC2e
+name: Liz Rose Chmela
 exec: true
 layout: pages/job-desc
 ---
