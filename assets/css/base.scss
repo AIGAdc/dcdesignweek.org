@@ -15,6 +15,7 @@
 @import "basscss/basscss_reset";
 
 /* Basscss */
+
 @import "basscss/basscss_all";
 @import "basscss/basscss_background-colors";
 @import "basscss/basscss_background-images";
@@ -45,11 +46,16 @@
 @import "basscss/basscss_border";
 @import "basscss/basscss_hide";
 
+/* Tachyons */
+@import "tachyons/tachyons";
+
 /* DCDW Modules */
+@import "dcdw-globals/variables";
+@import "dcdw-globals/colors";
+
 @import "dcdw-components/buttons";
 @import "dcdw-components/diamond-images";
 
-@import "dcdw-globals/colors";
 @import "dcdw-globals/globals";
 @import "dcdw-globals/typography";
 
