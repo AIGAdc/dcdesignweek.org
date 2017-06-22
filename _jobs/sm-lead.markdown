@@ -10,6 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
+avatar: https://api.isl.co/media/CACHE/images/photos/employees/kim_6aa28/1a3470c12c9aa291855fa974c3301159.jpg
+name: Kim Stockley
 exec: false
 layout: pages/job-desc
 ---
