@@ -19,34 +19,6 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
-/* ensures that the fixed header will remain on top of all other elements */
-.global-header {
-  z-index: 9999;
-}
-
-.logo-wrapper img,
-.logo-wrapper-mobile img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-.logo-wrapper img {
-  max-width: 200px;
-}
-
-.logo-wrapper-mobile img {
-  max-width: 100px;
-}
-
-.menu-btn {
-  cursor: pointer;
-}
-
-.py2-half {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-
 .single-event-header-container {
   margin: 10% auto 5% auto;
   max-width: 72em !important;

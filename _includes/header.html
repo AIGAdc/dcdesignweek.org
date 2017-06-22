@@ -1,35 +1,37 @@
-<header class="global-header px3 py2-half bg-white z4 fixed top-0 left-0 right-0">
+<header class="global-header pa3 pa4-ns bg-white z4 fixed top-0 right-0 left-0">
   <!-- desktop logo -->
-  <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
-    <a href="/"><img src="{{site.desktop-logo-image}}"></a>
-  </div>
-  <!--  mobile logo -->
-  <div class="logo-wrapper-mobile relative xs-show sm-show md-show lg-hide">
-    <a class="inline-block left" href="/">
-      <img src="{{site.mobile-logo-image}}">
+  <div class="logo-wrapper fl dn db-l">
+    <a class="link" href="/">
+      <img class="w-100 v-mid" src="{{site.desktop-logo-image}}">
     </a>
-    <div class="inline-block right">
+  </div>
+  <!--  mobile logo & burger menu -->
+  <div class="logo-wrapper-mobile db dn-l">
+    <a class="dib link fl" href="/">
+      <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
+    </a>
+    <div class="dib fr">
       <div class="menu-btn">&#9776; Menu</div>
     </div>
   </div>
 
   <!-- links -->
-  <nav class="main-nav relative right xs-hide sm-hide md-hide ">
-    <ul>
-      <li class="inline-block">
-        <a href="/events/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Events</a>
+  <nav class="main-nav relative fr dn db-l">
+    <ul class="list">
+      <li class="dib link">
+        <a href="/events/" class="header-link f5 fw9 black px1 ttu">Events</a>
       </li>
-      <li class="inline-block">
-        <a href="/shops-and-galleries/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Shop &amp; Gallery</a>
+      <li class="dib link">
+        <a href="/shops-and-galleries/" class="header-link f5 fw9 black px1 ttu">Shop &amp; Gallery</a>
       </li>
-      <li class="inline-block">
-        <a href="/sponsors/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Sponsors</a>
+      <li class="dib link">
+        <a href="/sponsors/" class="header-link f5 fw9 black px1 ttu">Sponsors</a>
       </li>
-      <li class="inline-block">
-        <a href="/about/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">About</a>
+      <li class="dib link">
+        <a href="/about/" class="header-link f5 fw9 black px1 ttu">About</a>
       </li>
-      <li class="inline-block">
-        <a href="/volunteers/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Volunteer</a>
+      <li class="dib link">
+        <a href="/volunteers/" class="header-link f5 fw9 black px1 ttu">Volunteer</a>
       </li>
     </ul>
   </nav>

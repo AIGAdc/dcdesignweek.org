@@ -1,7 +1,6 @@
 /* Introduction Header */
 .introduction {
   height: 75vh;
-  margin-top: 0px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -22,20 +21,6 @@ span.white-bar {
   width: 600px;
   bottom: 25px;
   left: -290px;
-}
-
-/* targets the height of a 13" mbp */
-@media screen and (max-height: 361px) {
-  span.white-bar{
-
-  }
-}
-
-/* targets the height of a 15" mbp */
-@media screen and (max-height: 803px) {
-  span.white-bar{
-
-  }
 }
 
 @media screen and (min-width: 640px) {
