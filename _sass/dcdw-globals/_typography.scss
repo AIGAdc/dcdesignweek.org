@@ -72,9 +72,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .fw-black { font-weight: $fw-black; }
 
 /* text alignment */
-.text-right { text-align: $align-right; }
-.text-left { text-align: $align-left; }
-.text-center { text-align: $align-center; }
 .text-justify { text-align: $align-justify; }
 
 .text-vertical {
@@ -88,12 +85,4 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 
 .text-shadow {
 	text-shadow: 1px 1px 3px rgba(0, 0, 255, 0.68);
-}
-
-em {
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
 }
