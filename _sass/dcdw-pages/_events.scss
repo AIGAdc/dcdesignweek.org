@@ -1,12 +1,12 @@
 /* event card */
 .featured-event-card,
 .event-card {
-	margin: 2em 0;
-	min-height: 475px;
+	margin: 1em 0;
+	min-height: 400px;
 }
 
 .event-image {
-	max-height: 220px;
+	max-height: 200px;
 	border: solid 3px $black;
 }
 
@@ -17,8 +17,7 @@
 }
 
 .event-card-link {
-	color: black;
-	transition: color 300ms ease-in-out;
+	transition: color 150ms ease-in;
 }
 .event-card-link:hover {
 	color: blue;
@@ -55,7 +54,7 @@ span.event-day,
 span.event-date,
 span.event-date-mobile {
 	box-shadow: 7.5px 7.5px blue;
-	transition: box-shadow 100ms ease-in-out;
+	transition: box-shadow 150ms ease-in;
 }
 
 span.event-day:hover,
@@ -141,7 +140,7 @@ span.hovered {
 	}
 }
 
-.sold-out {
+.sold {
 	background-color: black;
 	margin-top: -5px;
 	padding-top: 7.5px;

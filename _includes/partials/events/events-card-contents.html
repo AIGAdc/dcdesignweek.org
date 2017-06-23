@@ -1,32 +1,23 @@
 {% comment %}
-=====
-First span will appear on mobile only. The day and date will be printed on one line.
-ex: Friday, October 21
-
-Second span will only print the day.
-ex: Friday
-
-Third span will only print the date.
-ex: October, 21
-=====
+  span 1: will appear on mobile only. The day and date will be printed on one line. ex: Friday, October 21
+  span 2: displays the day. ex: Friday
+  span 3: displays the date. ex: October, 21
 {% endcomment %}
 
-<span class="bbroller event-date-mobile absolute text-small p1 bg-black white m0 xs-show sm-hide md-hide lg-hide">
+<span class="bbroller event-date-mobile absolute f6 pa2 bg-black white ma0 db dn-l">
   {{ posts.event-date | date: "%A, %B %d"}}
 </span>
 
-<span class="bbroller event-day absolute text-small p1 bg-black white m0 xs-hide">
+<span class="bbroller event-day absolute f6 pa2 bg-black white ma0 dn db-l">
   {{ posts.event-date | date: "%A"}}
 </span>
 
-<span class="bbroller event-date absolute text-small p1 bg-black white m0 xs-hide">
+<span class="bbroller event-date absolute f6 pa2 bg-black white ma0 dn db-l">
   {{ posts.event-date | date: "%B, %d"}}
 </span>
 
 {% comment %}
-=====
-Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
-=====
+  Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
 {% endcomment %}
 
 <div class="event-image overflow-hidden">
@@ -41,27 +32,23 @@ Event card image has been wrapped within an anchor tag that will allow the user 
 {% endif %}
 
 {% comment %}
-=====
-The h1 tag is wrapped in an anchor that will take the user to the single event page.
-
-The p tag will print the time of the event.
-
-The i tag is wrapped in an anchor tag that will open up a new browser tab to a google maps link of the event location.
-=====
+  h3 displays the title of the event .
+  p displays the time and location of the event.
+  i displaysn icon related to the time and lovation of the event.
 {% endcomment %}
 
-<div class="event-details bg-white p3">
-  <h1 class="bbroller m0 text-small">
+<div class="event-details bg-white pa3">
+  <h3 class="bbroller ma0 f4">
     {{ posts.title }}
-  </h1>
+  </h3>
 
   <hr class="title-divider">
 
-  <p class="bbroller m0 text-small mb1">
+  <p class="bbroller ma0 f4 mb1">
     <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date:"%l:%M %p"}}
   </p>
 
-  <p class="m0 text-small">
+  <p class="ma0 f5">
     <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
   </p>
 </div>

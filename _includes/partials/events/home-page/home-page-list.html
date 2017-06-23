@@ -12,6 +12,7 @@
     <div class="fl w-10 py1 dn db-l"></div>
     <div class="event-list-wrapper fl w-100 w-90-l">
       <ul class="home-events-list">
+        
         {% comment %}
         =====
         The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
@@ -24,7 +25,7 @@
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
             <li class="fl w-100 w-50-m w-third-l">
-              <a class="event-card-link" href="{{posts.url}}">
+              <a class="event-card-link black" href="{{posts.url}}">
                 <div class="event-card relative">
                 {% include partials/events/events-card-contents.html %}
                 </div>
