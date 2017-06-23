@@ -146,34 +146,12 @@ span.made-in-dc-heart {
   top: 7.5px;
 }
 
-.dcdw-footer-statement p {
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-size: 18px;
-}
-
 .social-footer-links {
-  transition: opacity 100ms ease-in-out;
+  transition: opacity 100ms ease-in;
 }
 
 .social-footer-links:hover {
   opacity: 0.8;
-}
-
-a.aiga-email,
-.aiga-copyright,
-ul.social-icons {
-  text-align: center;
-}
-
-@media screen and (min-width: 831px) {
-  a.aiga-email {
-    text-align: left;
-  }
-
-  .aiga-copyright {
-    text-align: right;
-  }
 }
 
 /* wrapper for the underlying grid */

@@ -1,41 +1,45 @@
-<footer class="global-footer white bg-black bg-contain bg-center" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
-  <div class="container clearfix py4">
-    <div class="sm-col sm-col-12 text-center">
-      <p class="mt3 mb2 text-large fw-black">Made with
+<footer class="global-footer white bg-black bg-contain bg-center cover" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
+  <div class="container cf pa3 pa4-ns">
+    <div class="w-100 mw6 center mt6 mb5">
+      <p class="mb2 f3 f2-ns fw9">Made with
         <span class="made-in-dc-heart relative">
           <svg id="i-heart" viewBox="0 0 32 32" width="32" height="32" fill="#ffffff" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
             <path d="M4 16 C1 12 2 6 7 4 12 2 15 6 16 8 17 6 21 2 26 4 31 6 31 12 28 16 25 20 16 28 16 28 16 28 7 20 4 16 Z" />
           </svg>
         </span> in DC
       </p>
-      <div class="mx-auto sm-col-6 dcdw-footer-statment">
-        <p class="m0 fw-regular px3">Built by 100% volunteer power, we're constantly working to make this site better for you. </p>
-        <p class="m0 fw-regular px3">
+      <div class="dcdw-footer-statment">
+        <p class="m0 mb3 f5 f4-ns fw3 lh-copy">
+          Built by 100% volunteer power, we're constantly working to make this site better for you.
+         </p>
+        <p class="m0 f5 f4-ns fw3 lh-copy">
           If you see something, say something.
         </p>
-        <a href="https://github.com/AIGAdc/DCDW" target="_blank" class="social-footer-links inline-block mt2 white text-headline"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/AIGAdc/DCDW" target="_blank" class="social-footer-links dib mt2 white text-headline"><i class="fa fa-github" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
-  <div class="footer-contact-bar px3 py2 bg-black clearfix">
-    <div class="sm-col sm-col-12 md-col-4">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email white inline-block">
+  <div class="footer-contact-bar pa4 bg-black cf">
+    <div class="fl w-100 w-third-ns tc tl-ns">
+      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib">
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="sm-col sm-col-12 md-col-4">
+    <div class="fl w-100 w-third-ns tc">
       <ul class="social-icons">
         {% for posts in site.social-media %}
-          <li class="inline-block">
-            <a class="social-footer-links text-large white px1" href="{{posts.social-media-link}}" target="_blank">
+          <li class="dib">
+            <a class="social-footer-links f4 f3-ns white px1" href="{{posts.social-media-link}}" target="_blank">
               <i class="fa {{posts.social-media-icon}}" aria-hidden="true"></i>
             </a>
           </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="sm-col sm-col-12 md-col-4">
-      <p class="aiga-copyright m0">{{site.footer-copyright}}</p>
+    <div class="fl w-100 w-third-ns tc tr-ns">
+      <p class="aiga-copyright m0 f6 f5-ns">
+        {{site.footer-copyright}}
+      </p>
     </div>
   </div>
 </footer>
