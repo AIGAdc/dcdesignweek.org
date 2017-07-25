@@ -10,8 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar: http://dc.aiga.org/wp-content/uploads/2016/08/LaraNoelKey.jpg
-name: Lara Key
+avatar: http://dc.aiga.org/wp-content/uploads/2016/08/RaksaYin.jpg
+name: Raksa Yin
 exec: false
 layout: pages/job-desc
 ---
