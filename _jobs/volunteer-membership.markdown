@@ -10,10 +10,10 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar: 
-name: 
-layout: pages/job-desc
+avatar: https://pbs.twimg.com/profile_images/866139284620947456/qp4qVrhU_400x400.jpg
+name: Jelena Schulz
 exec: false
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities
