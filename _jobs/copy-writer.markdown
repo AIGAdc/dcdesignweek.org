@@ -14,6 +14,8 @@ commitment: |-
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
     - Attend 1-2 AIGA Board meetings
+avatar: http://agencychief.com/sites/default/files/styles/large_square/public/Justin_McCarthy_1.jpg?itok=9gYhOsNL
+name: Justin McCarthy
 exec: false
 layout: pages/job-desc
 ---
