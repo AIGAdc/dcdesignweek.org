@@ -1,5 +1,5 @@
 ---
-title: C&M Director
+title: Marketing Director
 position: 8
 jobs:
 - Creative Lead
