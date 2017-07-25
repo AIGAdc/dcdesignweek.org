@@ -1,5 +1,5 @@
 ---
-title: DCDW Programming Director
+title: Programming Director
 position: 1
 jobs:
 - Program Lead
