@@ -1,6 +1,7 @@
 ---
 title: Photo & Video Lead
 date: 2017-08-04 21:48:00 -04:00
+position: 12
 avatar: http://dc.aiga.org/wp-content/uploads/2017/07/BicVu.jpg
 name: Bic Vu
 ---
