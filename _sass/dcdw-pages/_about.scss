@@ -1,20 +1,31 @@
 .dcdw-about-bg-wrapper img {
-  max-height: 580px;
+  max-height: 640px;
 }
 
 .dcdw-about-bg-wrapper {
   top: -100px;
-  left: -100px;
+  right: -250px;
+  left: -250px;
 }
 
-@media screen and (min-width: 1024px) {
-  .dcdw-about-bg-wrapper {
-    left: 110px;
+@media screen and (min-width: 640px) {
+  .dcdw-about-bg-wrapper img {
+    max-height: 580px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width:840px) {
   .dcdw-about-bg-wrapper {
-    left: 127px;
+    top: -150px;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .dcdw-about-bg-wrapper {
+    top: -75px;
+    right: -100px;
+    left: 0;
   }
 }
