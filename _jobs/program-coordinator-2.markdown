@@ -10,6 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
+avatar: "/uploads/Screenshot%202017-07-25%2008.15.14.png"
+name: Freeman Robinson
 exec: false
 layout: pages/job-desc
 ---

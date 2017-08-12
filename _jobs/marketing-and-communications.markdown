@@ -1,5 +1,5 @@
 ---
-title: C&M Director
+title: DCDW Marketing Director
 position: 8
 jobs:
 - Creative Lead

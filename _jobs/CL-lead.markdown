@@ -10,10 +10,10 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar: 
-name: 
-layout: pages/job-desc
+avatar: http://dc.aiga.org/wp-content/uploads/2016/08/RaksaYin.jpg
+name: Raksa Yin
 exec: false
+layout: pages/job-desc
 ---
 
 ## Key Responsibilities

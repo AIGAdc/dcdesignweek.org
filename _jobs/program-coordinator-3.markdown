@@ -10,6 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
+avatar: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/067/0b7/145294e.jpg
+name: Chris Montwill
 exec: false
 layout: pages/job-desc
 ---

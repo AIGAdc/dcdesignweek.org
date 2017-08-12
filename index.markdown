@@ -15,7 +15,7 @@ dc-design-paragraph-2-text: We are makers and disruptors, artisans and tech geek
   This year will be bigger and better than ever with new partners, new venues, new
   event formats, and new ways to connect with our unique design community. You won’t
   want to miss this.
-home-events-header-text: Featured Events
+home-events-header-text: Past Events
 home-events-sub-header-text: 
 home-events-button-text: View Full Schedule
 home-partners-header-text: Partners & Sponsors
