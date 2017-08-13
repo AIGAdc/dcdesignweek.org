@@ -1,5 +1,5 @@
-<section class="in-kind-donors pb4">
-  <div class="container clearfix p3">
+<section class="in-kind-donors mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
     <div class="sm-col sm-col-12 md-col-1 py1"></div>
     <div class="sm-col sm-col-12 md-col-11">
       <h2 class="bbroller text-x-medium m0">
@@ -8,12 +8,10 @@
       <hr class="title-divider">
       {{page.third-tier-sub-header-text | markdownify}}
     </div>
-  </div>
 
-  <div class="container clearfix">
-    <div class="sm-col sm-col-12 md-col-2 py1"></div>
-    <div class="sm-col sm-col-12 md-col-10">
-      <ul>
+    <div class="fl w-100 w-10-ns pa1"></div>
+    <div class="fl w-100 w-90-ns">
+      <ul class="list ma0 pa0">
         {% for posts in site.sponsors %}
           {% if posts.is-third-tier == true %}
             {% include partials/sponsors/sponsors-contents.html %}
@@ -21,12 +19,10 @@
         {% endfor %}
       </ul>
     </div>
-  </div>
 
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-3 py1"></div>
-    <div class="sm-col sm-col-12 md-col-9">
-      <a href="mailto:{{page.third-tier-button-link}}" target="_top" class="bbroller text-default blue-underline m0">
+    <div class="fl w-100 w-10-ns pa1"></div>
+    <div class="fl w-100 w-90-ns">
+      <a href="mailto:{{page.third-tier-button-link}}" target="_top" class="bbroller text-default blue-underline ma0">
         {{page.third-tier-button-text}}
       </a>
     </div>

@@ -115,33 +115,6 @@ article img {
   }
 }
 
-/* controls how sponsors look across the site */
-.sponsor-logo {
-  min-height: 215px;
-  width: 100%;
-  text-align: center;
-  margin: 2.2em 0;
-}
-
-/* ensures image fills space of container */
-.sponsor-logo img {
-  width: 100%;
-}
-
-@media screen and (min-width:640px) {
-  .sponsor-logo {
-    width: 50%;
-    float: left;
-  }
-}
-
-@media screen and (min-width:831px) {
-  .sponsor-logo {
-    width: 25%;
-    text-align: left;
-  }
-}
-
 span.made-in-dc-heart {
   top: 7.5px;
 }
