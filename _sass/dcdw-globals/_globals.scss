@@ -126,27 +126,3 @@ span.made-in-dc-heart {
 .social-footer-links:hover {
   opacity: 0.8;
 }
-
-/* wrapper for the underlying grid */
-.grid {
-	max-width: 1440px;
-	width: 100%;
-	margin: 0 auto;
-}
-
-/* gives ever column a left border that spans 100% of the viewport height */
-.grid-line {
-	min-height: 100vh;
-	border-left: solid 0.01px #eaeaea;
-}
-
-/* adds a right border to the last column in the grid */
-.grid-line:last-child {
-  border-right: solid 0.01px #eaeaea;
-}
-
-@media screen and (max-width: 1024px) {
-  .grid-line:nth-child(6) {
-  	border-right: solid 0.01px #eaeaea;
-  }
-}

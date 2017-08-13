@@ -9,7 +9,7 @@
 
     <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
     <div class="event-list-wrapper fl w-100 w-90-ns mt4">
-      <ul class="home-events-list list ma0 pa0">     
+      <ul class="home-events-list list ma0 pa0 cf">     
         {% comment %}
         =====
         The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
@@ -21,16 +21,20 @@
         {% assign sorted_events = (site.events | sort: 'event-date') %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
-            <li class="fl w-100 w-50-m w-third-l">
+            <li class="event-card fl w-100 w-50-m w-third-l pa3 relative">
               <a class="event-card-link black" href="{{posts.url}}">
-                <div class="event-card relative">
-                {% include partials/events/events-card-contents.html %}
+                <div class="ba bw2 black">
+                  {% include partials/events/events-card-contents.html %}
                 </div>
               </a>
             </li>
           {% endif %}
         {% endfor %}
       </ul>
+    </div>
+
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="event-list-wrapper fl w-100 w-90-ns mt4">
       <a class="blue-underline dib ma0 bbroller" href="http://www.dcdesignweek.org/events/">
         {{page.home-events-button-text}}
       </a>
