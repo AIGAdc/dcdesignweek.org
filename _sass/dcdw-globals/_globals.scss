@@ -1,9 +1,3 @@
-/* sets the max width of the container for the site */
-.container {
-  max-width: 72em !important;
-  margin: 0 auto;
-}
-
 body {
   font-size: 100%;
   line-height: 1.6em;
@@ -12,11 +6,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-/* removes the initial padding on any UL elements */
-ul {
-	-webkit-padding-start: 0 !important;
 }
 
 .single-event-header-container {

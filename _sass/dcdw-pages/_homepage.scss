@@ -67,13 +67,13 @@ img.introduction-illustration {
   }
 
   .illustration-2 {
-    top: 97px;
+    top: 150px;
     right: 84px;
   }
 
   .illustration-3 {
     top: 119px;
-    left: 23px;
+    left: -105px;
   }
 }
 
@@ -110,16 +110,3 @@ img.introduction-illustration {
   50% { transform: translate(0, -40px); }
 }
 
-@media screen and (min-width: 831px) {
-  ul.social-icons {
-    padding: 0;
-  }
-
-  a.aiga-email {
-    text-align: left;
-  }
-
-  p.aiga-copyright {
-    text-align: right;
-  }
-}
