@@ -11,6 +11,21 @@ primary-nav:
   - title: "Volunteers"
     url: /volunteers/
 
+# mobile nav
+mobile-nav:
+  - title: "Home"
+    url: /
+  - title: "Events"
+    url: /events/
+  - title: "Shops & Galleries"
+    url: /shops-and-galleries/
+  - title: "Sponsors"
+    url: /sponsors/
+  - title: "About"
+    url: /about/
+  - title: "Volunteers"
+    url: /volunteers/
+    
 # holding site nav
 holding-site-nav:
   - title: "Projects"

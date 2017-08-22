@@ -43,24 +43,11 @@
   <!-- Pushy Menu -->
   <nav class="pushy pushy-right xs-show sm-show md-show">
     <ul>
-      <li class="pushy-link">
-        <a href="/">Home</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/events/">Events</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/shops-and-galleries/">Shops &amp; Galleries</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/sponsors/">Sponsors</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/about/">About</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/volunteers/">Volunteers</a>
-      </li>
+      {% for link in site.data.navigation.mobile-nav %}
+        <li class="pushy-link">
+          <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
 
