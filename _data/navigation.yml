@@ -25,31 +25,21 @@ mobile-nav:
     url: /about/
   - title: "Volunteers"
     url: /volunteers/
-    
+
 # holding site nav
 holding-site-nav:
-  - title: "Projects"
-    url: /projects/
-  #- title: "Notes"
-    #url: /notes/
-  - title: "Photos"
-    url: /photos/
   - title: "About"
     url: /about/
+  - title: "Volunteers"
+    url: /volunteers/
 
 # social media
 social-nav:
   - title: "Github"
-    url: https://github.com/marcusrelacion
+    url: https://github.com/AIGAdc/DCDW
 
   - title: "Twitter"
-    url: https://twitter.com/marcusrelacion
-
-  - title: "LinkedIn"
-    url: https://www.linkedin.com/in/marcusrelacion
-
-  - title: "Dribbble"
-    url: https://dribbble.com/marcusrelacion
+    url: https://twitter.com/dcdesignweek
 
   - title: "Instagram"
-    url: https://instagram.com/marcusrelacion
+    url: https://www.instagram.com/dcdesignweek/
