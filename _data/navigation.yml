@@ -1,0 +1,40 @@
+# primary nav
+primary-nav:
+  - title: "Events"
+    url: /events/
+  - title: "Shops & Galleries"
+    url: /shops-and-galleries/
+  - title: "Sponsors"
+    url: /sponsors/
+  - title: "About"
+    url: /about/
+  - title: "Volunteers"
+    url: /volunteers/
+
+# holding site nav
+holding-site-nav:
+  - title: "Projects"
+    url: /projects/
+  #- title: "Notes"
+    #url: /notes/
+  - title: "Photos"
+    url: /photos/
+  - title: "About"
+    url: /about/
+
+# social media
+social-nav:
+  - title: "Github"
+    url: https://github.com/marcusrelacion
+
+  - title: "Twitter"
+    url: https://twitter.com/marcusrelacion
+
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/marcusrelacion
+
+  - title: "Dribbble"
+    url: https://dribbble.com/marcusrelacion
+
+  - title: "Instagram"
+    url: https://instagram.com/marcusrelacion

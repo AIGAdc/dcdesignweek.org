@@ -18,21 +18,11 @@
   <!-- links -->
   <nav class="main-nav relative fr dn db-l">
     <ul class="list ma0 pl0">
-      <li class="dib link">
-        <a href="/events/" class="header-link f5 fw9 black ph2 ttu">Events</a>
-      </li>
-      <li class="dib link">
-        <a href="/shops-and-galleries/" class="header-link f5 fw9 black ph2 ttu">Shop &amp; Gallery</a>
-      </li>
-      <li class="dib link">
-        <a href="/sponsors/" class="header-link f5 fw9 black ph2 ttu">Sponsors</a>
-      </li>
-      <li class="dib link">
-        <a href="/about/" class="header-link f5 fw9 black ph2 ttu">About</a>
-      </li>
-      <li class="dib link">
-        <a href="/volunteers/" class="header-link f5 fw9 black ph2 ttu">Volunteer</a>
-      </li>
+      {% for link in site.data.navigation.primary-nav %}
+        <li class="dib link">
+          <a href="{{ site.url }}{{ link.url }}" class="header-link f5 fw9 black pa2 ttu">{{ link.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
 </header>
