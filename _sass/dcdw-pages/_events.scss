@@ -6,13 +6,13 @@
 	transition: color 150ms ease-in;
 }
 .event-card-link:hover {
-	color: blue;
+	color: $dcdw-blue;
 }
 
 span.event-day,
 span.event-date,
 span.event-date-mobile {
-	box-shadow: 7.5px 7.5px blue;
+	box-shadow: 7.5px 7.5px $dcdw-blue;
 	transition: box-shadow 150ms ease-in;
 }
 
@@ -20,7 +20,7 @@ span.event-day:hover,
 span.event-date:hover,
 span.event-date-mobile:hover,
 span.hovered {
-	box-shadow: 0 0 blue;
+	box-shadow: 0 0 $dcdw-blue;
 }
 
 span.event-day,

@@ -1,13 +1,13 @@
 {% if page.has-speakers == true %}
-<section class="single-event-speakers pt4">
-  <div class="container clearfix relative p3">
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-    <div class="sm-col sm-col-12 md-col-10 text-medium">
+<section class="single-event-speakers mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="fl w-100 w-80-ns">
       <h1 class="bbroller m0 text-large">{{page.presenter-section-header}}</h1>
       <hr class="title-divider">
       {% for speaker in page.speakers %}
-        <div class="event-speaker-wrapper clearfix py3">
-          <div class="sm-col sm-col-12 md-col-3 py3">
+        <div class="event-speaker-wrapper pv4">
+          <div class="fl w-100 w-30-ns py3">
             <div class="diamond-image-border mt4">
               <div class="diamond overflow-hidden">
                <div class="diamond-los1">
@@ -18,7 +18,7 @@
               </div>
             </div>
           </div>
-          <div class="single-event-speaker-text sm-col sm-col-12 md-col-9 text-center px3 py3">
+          <div class="single-event-speaker-text fl w-100 w-70-ns text-center pa3">
             <h3 class="bbroller m0 mb1">
               {{ speaker.speaker-name }}
             </h3>
@@ -30,8 +30,7 @@
         </div>
       {% endfor %}
     </div>
-    <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
   </div>
 </section>
-{% else %}
 {% endif %}

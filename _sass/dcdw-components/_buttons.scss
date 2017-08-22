@@ -14,11 +14,11 @@ a.button {
 
   &.button-white {
     background: white;
-    color: blue;
+    color: $dcdw-blue;
   }
 
   &.button-blue {
-    background: blue;
+    background: $dcdw-blue;
     color: white;
   }
 
@@ -34,8 +34,8 @@ a.button {
 
 /* underline button */
 a.blue-underline {
-  border-bottom: 6px solid blue;
-  color: blue;
+  border-bottom: 6px solid $dcdw-blue;
+  color: $dcdw-blue;
   padding-bottom: 3px;
   font-size: 25px;
 }
@@ -46,11 +46,11 @@ a.header-link {
 }
 
 a.header-link:hover {
-  background-color: blue;
+  background-color: $dcdw-blue;
   color: white;
 }
 
 a.schedule-link {
-  border-bottom: 10px solid blue;
-  color: blue;
+  border-bottom: 10px solid $dcdw-blue;
+  color: $dcdw-blue;
 }
