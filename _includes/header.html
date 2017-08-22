@@ -5,6 +5,7 @@
       <img class="w-100 v-mid" src="{{site.desktop-logo-image}}">
     </a>
   </div>
+  
   <!--  mobile logo & burger menu -->
   <div class="logo-wrapper-mobile db dn-l">
     <a class="dib link fl" href="/">
@@ -20,7 +21,7 @@
     <ul class="list ma0 pl0">
       {% for link in site.data.navigation.primary-nav %}
         <li class="dib link">
-          <a href="{{ site.url }}{{ link.url }}" class="header-link f5 fw9 black pa2 ttu">{{ link.title }}</a>
+          <a href="{{ link.url }}" class="header-link f5 fw9 black pa2 ttu">{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
