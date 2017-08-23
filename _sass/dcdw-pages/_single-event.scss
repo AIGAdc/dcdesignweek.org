@@ -91,7 +91,10 @@ p.additional-event-detail {
 	line-height: 1.6em;
 }
 
-.speaker-overlay {
+.speaker-overlay,
+.committee-member-overlay,
+.creative-team-overlay,
+.image-overlay {
 	position: absolute;
 	background-color: #3e07d0;
 	top: 100px;
@@ -103,7 +106,10 @@ p.additional-event-detail {
 	mix-blend-mode: color;
 }
 
-.speaker-portrait {
+.speaker-portrait,
+.committee-member-portrait,
+.creative-team-portrait,
+.image {
   mix-blend-mode: multiply;
   opacity: 70%;  /* overprint effect */
 }
