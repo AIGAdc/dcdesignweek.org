@@ -90,3 +90,14 @@ p.additional-event-detail {
 	font-size: 1.2rem;
 	line-height: 1.6em;
 }
+
+
+.speaker-background {
+  background-image: linear-gradient(#3e07d0, #3e07d0);               
+  background-blend-mode: color;
+}
+
+.speaker-portrait {
+  mix-blend-mode: multiply;
+  opacity: 70%;  /* overprint effect */
+}
