@@ -91,10 +91,16 @@ p.additional-event-detail {
 	line-height: 1.6em;
 }
 
-
-.speaker-background {
-  background-image: linear-gradient(#3e07d0, #3e07d0);               
-  background-blend-mode: color;
+.speaker-overlay {
+	position: absolute;
+	background-color: #3e07d0;
+	top: 100px;
+	left: -50px;
+	right: -50px;
+	bottom: 0px;
+	height: 152%;
+	z-index: 1;
+	mix-blend-mode: color;
 }
 
 .speaker-portrait {

@@ -8,11 +8,12 @@
       {% for speaker in page.speakers %}
         <div class="event-speaker-wrapper pv4">
           <div class="fl w-100 w-30-ns py3">
-            <div class="diamond-image-border mt4">
+            <div class="diamond-image-border mt4 relative">
               <div class="diamond overflow-hidden">
-               <div class="speaker-background diamond-los1">
-                 <a href="{{speaker.speaker-link}}" target="_blank">
-                   <img class="speaker-portrait" src="{{ speaker.speaker-headshot-image }}" style="mix-blend-mode: screen;" />
+               <div class="diamond-los1">
+                 <a class="" href="{{speaker.speaker-link}}" target="_blank">
+                   <div class="speaker-overlay"></div>
+                   <img class="speaker-portrait" src="{{ speaker.speaker-headshot-image }}"/>
                  </a>
                </div>
               </div>
