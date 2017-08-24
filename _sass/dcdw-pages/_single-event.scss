@@ -97,11 +97,11 @@ p.additional-event-detail {
 .image-overlay {
 	position: absolute;
 	background-color: #3e07d0;
-	top: 100px;
-	left: -50px;
-	right: -50px;
-	bottom: 0px;
-	height: 152%;
+	top:0;
+	left:-100px;
+	right:-100px;
+	bottom:0;
+	height: 250%;
 	z-index: 1;
 	mix-blend-mode: color;
 }

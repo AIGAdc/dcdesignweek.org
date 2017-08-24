@@ -5,15 +5,15 @@
     span 3: displays the date. ex: October, 21
   {% endcomment %}
 
-  <span class="bbroller event-date-mobile absolute f7 pa2 bg-black white ma0 db dn-l">
+  <span class="bbroller event-date-mobile absolute f7 pa2 bg-black white ma0 db dn-l" style="z-index: 2;">
     {{ posts.event-date | date: "%A, %B %d"}}
   </span>
 
-  <span class="bbroller event-day absolute f6 f5-ns pa2 bg-black white ma0 dn db-l">
+  <span class="bbroller event-day absolute f6 f5-ns pa2 bg-black white ma0 dn db-l" style="z-index: 2;">
     {{ posts.event-date | date: "%A"}}
   </span>
 
-  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-black white ma0 dn db-l">
+  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-black white ma0 dn db-l" style="z-index: 2;">
     {{ posts.event-date | date: "%B, %d"}}
   </span>
 
@@ -21,8 +21,9 @@
     Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
   {% endcomment %}
 
-  <div class="event-image overflow-hidden bb bw2 black">
-    <img class="w-100 v-mid" src="{{ posts.image }}">
+  <div class="event-image overflow-hidden bb bw2 black relative">
+    <div class="image-overlay"></div>
+    <img class="image w-100 v-mid" src="{{ posts.image }}">
   </div>
 
   {% if posts.is-sold-out == true %}
