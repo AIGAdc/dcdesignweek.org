@@ -42,13 +42,11 @@
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="fl w-100 w-third-ns tc pv3 pv0-ns">
+    <div class="fl w-100 w-third-ns tc pv2 pv0-ns">
       <ul class="social-icons list ma0 pl0">
-        {% for posts in site.social-media %}
-          <li class="dib">
-            <a class="social-footer-links ma0 f4 f3-ns white ph2" href="{{posts.social-media-link}}" target="_blank">
-              <i class="fa {{posts.social-media-icon}} v-mid" aria-hidden="true"></i>
-            </a>
+        {% for link in site.data.navigation.social-nav %}
+          <li class="dib link">
+            <a href="{{ link.url }}" class="social-footer-links ph2"><span class="dib v-mid">{{ link.icon }}</span></a>
           </li>
         {% endfor %}
       </ul>
