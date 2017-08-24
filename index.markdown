@@ -3,30 +3,19 @@ title: Home
 date: 2016-07-02 23:42:00 -04:00
 position: 0
 description: 
-image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
-homepage-hero-image: "/uploads/dcdw-pattern-38c20d.jpg"
-dc-design-header-text: DC is Design
-dc-design-paragraph-1-text: 'Design is a driving force in our nation’s capital and
-  surrounding metro area. Whether it’s supporting leading nonprofits, engineering
-  the next startup, or solving problems at scale through government, design is at
-  the core of the DMV. '
-dc-design-paragraph-2-text: We are makers and disruptors, artisans and tech geeks,
-  and this October we’re coming together to celebrate. Join us for DC Design Week.
-  This year will be bigger and better than ever with new partners, new venues, new
-  event formats, and new ways to connect with our unique design community. You won’t
-  want to miss this.
-home-events-header-text: Past Events
-home-events-sub-header-text: 
-home-events-button-text: View Full Schedule
-home-partners-header-text: Partners & Sponsors
-home-partners-sub-header-text: DC Design Week is produced by AIGA DC, a volunteer-run,
-  501(3)c nonprofit organization, in concert with a consortium of local associations,
-  Meetup groups and small businesses. We rely on the generosity and goodness of others
-  to make this week of celebration a reality. Major thanks to the following partners
-  and sponsors for your support and commitment to the DC design community. We couldn't
-  do it without you!
-home-sponsors-link-text: See the Full List
-home-sponsors-link: http://www.dcdesignweek.org/sponsors/
-layout: pages/page-home
----
+header:  DC and Design have a lot in common
+copy: |
+  We have more depth than the surface suggests. More engaged communities than most expect. More originality than anyone thought possible…
+  
+  …and more possibility than any of us, on our own, could imagine. Which is why every year we come together—bringing the whole city into our fold.
+  
+  In 2016 we took a giant step in the direction of celebrating design broadly and inclusively, elevating design as built spaces, social impact, creative strategy, technology, craft, the arts and much more.
+  
+  This year, we’re in a full sprint. We’re working nonstop to ensure that every workshop, panel, studio tour, lecture and lunch event is curated to enhance community, connectivity, and diversity.
+  
+  Together with AIGA and our dedicated partners, we’re challenging ourselves and we’re challenging the world to see design—and the city in which we create it—differently.
+  
+  And to see that we’re closer together than ever before. 
 
+layout: pages/page-landing
+---

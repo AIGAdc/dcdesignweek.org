@@ -115,3 +115,28 @@ span.made-in-dc-heart {
 .social-footer-links:hover {
   opacity: 0.8;
 }
+
+.landing-hero {
+  background: linear-gradient(-223deg, #ffae84, #3e07d0);
+  background-size: 400% 400%;
+  
+  -webkit-animation: DCDW 25s ease infinite;
+  -moz-animation: DCDW 25s ease infinite;
+  animation: DCDW 25s ease infinite;
+}
+
+@-webkit-keyframes DCDW {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
+@-moz-keyframes DCDW {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
+@keyframes DCDW {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
