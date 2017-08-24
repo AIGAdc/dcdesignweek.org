@@ -36,25 +36,25 @@
     </div>
   </div>
   {% endif %}
-  <div class="footer-contact-bar pa4 bg-black cf">
+  <div class="footer-contact-bar pa3 bg-black cf">
     <div class="fl w-100 w-third-ns tc tl-ns">
       <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib">
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="fl w-100 w-third-ns tc">
-      <ul class="social-icons">
+    <div class="fl w-100 w-third-ns tc pv3 pv0-ns">
+      <ul class="social-icons list ma0 pl0">
         {% for posts in site.social-media %}
           <li class="dib">
-            <a class="social-footer-links f4 f3-ns white px1" href="{{posts.social-media-link}}" target="_blank">
-              <i class="fa {{posts.social-media-icon}}" aria-hidden="true"></i>
+            <a class="social-footer-links ma0 f4 f3-ns white ph2" href="{{posts.social-media-link}}" target="_blank">
+              <i class="fa {{posts.social-media-icon}} v-mid" aria-hidden="true"></i>
             </a>
           </li>
         {% endfor %}
       </ul>
     </div>
     <div class="fl w-100 w-third-ns tc tr-ns">
-      <p class="aiga-copyright m0 f6 f5-ns">
+      <p class="aiga-copyright ma0 f6 f5-ns">
         {{site.footer-copyright}}
       </p>
     </div>

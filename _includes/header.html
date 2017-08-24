@@ -8,7 +8,7 @@
     </div>
     
     <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      {% if page.url == "/" %}
+      {% if page.url == "/" or "/about/" or "/volunteers/" %}
         <ul class="list ma0 pl0 dn db-l">
           {% for link in site.data.navigation.holding-site-nav %}
           <li class="dib link">
@@ -16,7 +16,7 @@
           </li>
           {% endfor %}
           <li class="dib link">
-            <a data-scroll href="#bazinga" class="header-link f5 fw4 pa2 ph3 ba bw1 dcdw-blue">Email List</a>
+            <a data-scroll href="#email-list" class="header-link f5 fw4 pa2 ph3 ba bw1 dcdw-blue">Email List</a>
           </li>
         </ul>
       {% else %}

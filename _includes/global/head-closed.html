@@ -5,7 +5,7 @@
 <!-- scripts -->
 <script type="text/javascript" src="/assets/js/app.js"></script>
 
-<!-- settings for interlocking illustrations on homepage -->
+<!-- settings for interlocking illustrations on homepage 
 <script type="text/javascript">
 $(document).ready(function() {
   $('.illustration-1-wrapper').scrollToFixed({
@@ -25,15 +25,7 @@ $(document).ready(function() {
   });
 });
 </script>
-
-<script type="text/javascript">
-  instafetch.init({
-    accessToken: '1692373042.1677ed0.0b5d80208b9a48d1b79820c807e86a4e',
-    target: 'instafetch',
-    numOfPics: 18,
-    caption: false
-  });
-</script>
+-->
 
 {% if page.url == "/" %}
 <!-- smooth scroll script used on the landing page email sign ups -->
@@ -55,5 +47,14 @@ $(document).ready(function() {
   });
 </script>
 {% endif %}
+
+<script type="text/javascript">
+  instafetch.init({
+    accessToken: '1692373042.1677ed0.0b5d80208b9a48d1b79820c807e86a4e',
+    target: 'instafetch',
+    numOfPics: 18,
+    caption: false
+  });
+</script>
 
 </html>
