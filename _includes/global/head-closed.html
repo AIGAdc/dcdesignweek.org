@@ -35,6 +35,8 @@ $(document).ready(function() {
   });
 </script>
 
+{% if page.url == "/" %}
+<!-- smooth scroll script used on the landing page email sign ups -->
 <script>
   var scroll = new SmoothScroll('a[href*="#"]', {
     // Selectors
@@ -52,4 +54,6 @@ $(document).ready(function() {
     after: function () {} // Callback to run after scroll
   });
 </script>
+{% endif %}
+
 </html>
