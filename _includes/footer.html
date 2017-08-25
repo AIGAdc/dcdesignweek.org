@@ -1,15 +1,17 @@
 <footer class="global-footer white bg-black cover" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
-  {% if page.url == "/" %}
-    <div class="mw7 center cf pa4">
-      <div class="dcdw-footer-statment">
-        <span class="ma0 mb2 f3 f2-ns fw9 lh-copy tc">
-          {{ page.header | markdownify }}
-        </span>
-        <span class="ma0 mb2 f5 f4-m f3-l fw3 lh-copy tc">
-          {{ page.copy | markdownify }}
-        </span>
+  {% if page.url == "/" or "/about/" or "/volunteers/" %}
+    <div class="mw6 center cf pa4">
+      <div class="footer-content">
+        {% for content in site.data.footer.holding-site-footer %}
+          <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
+            {{ content.header | markdownify }}
+          </span>
+          <span class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">
+            {{ content.text | markdownify }}
+          </span>
+        {% endfor %}
       </div>
-      <div class="">
+      <div class="mailchimp-form">
         {% include mailchimp/sign-up-form.html %}
       </div>
     </div>

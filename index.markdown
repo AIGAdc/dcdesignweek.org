@@ -3,8 +3,14 @@ title: Home
 date: 2016-07-02 23:42:00 -04:00
 position: 0
 description: 
-header:  DC and Design have a lot in common
+header: Details Coming Soon!
 copy: |
+  Our team of organizers is hard at work--booking events and planning the best DC Design Week you've ever seen.
+
+  Stay abreast of progress through our email newsletter or by following us on social media!
+
+header-2:  DC and Design have a lot in common
+copy-2: |
   We have more depth than the surface suggests. More engaged communities than most expect. More originality than anyone thought possible…
   
   …and more possibility than any of us, on our own, could imagine. Which is why every year we come together—bringing the whole city into our fold.
