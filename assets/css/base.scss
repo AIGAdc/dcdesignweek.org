@@ -10,11 +10,13 @@
 
 @import "dcdw-components/header";
 @import "dcdw-components/buttons";
+@import "dcdw-components/navigation";
 @import "dcdw-components/diamond-images";
 
 @import "dcdw-globals/globals";
 @import "dcdw-globals/typography";
 
+@import "dcdw-pages/landing";
 @import "dcdw-pages/about";
 @import "dcdw-pages/events";
 @import "dcdw-pages/homepage";
