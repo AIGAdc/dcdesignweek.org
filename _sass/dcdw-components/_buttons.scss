@@ -60,6 +60,7 @@ a.schedule-link {
   font-size: 16px;
   padding: 12px 18px;
 
+  // header links
   &--header-link {
     border-top: 0;
     border-right: 0;
@@ -69,10 +70,11 @@ a.schedule-link {
 
   &--header-link:hover {
     border-bottom: solid 5px $dcdw-blue;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: $dcdw-blue;
   }
 
+  // email button
   &--email-list {
     border: solid 2px $dcdw-blue;
   }
