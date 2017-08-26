@@ -1,23 +1,24 @@
-<section class="dcdw-about py4 relative overflow-hidden">
-  <div class="container clearfix p3 relative">
-    <div class="sm-col sm-col-12 md-col-2 py1 xs-hide"></div>
-    <div class="dcdw-about-content sm-col sm-col-12 md-col-8 lg-col-5 p3 z4 bg-white">
+<section class="dcdw-about overflow-hidden pb5">
+  <div class="mw8 center cf pa4 pa3-ns pv6 relative">
+    <div class="dn db-ns fl w-100 w-10-m w-10-l pa1"></div>
+    <div class="dcdw-about-content fl w-100 w-60-m w-40-l mt5 pa3 pa4-ns z4 bg-white">
       <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
-      <div class="dcdw-about-content-image-wrapper pb3">
-        <img src="{{ page.dcdw-about-content-image }}">
-      </div>
-      <p class="m0 text-default">
-        {{ page.dcdw-about-content-body-text | markdownify }}
-      </p>
-      <div class="pt3">
-        <a href="#" class="bbroller schedule-link m0 text-default">
-          {{ page.dcdw-about-content-button-text }}
-        </a>
-      </div>
+        <div class="dcdw-about-content-image-wrapper">
+          <img class="v-mid" src="{{ page.dcdw-about-content-image }}">
+        </div>
+        <span class="ma0 f3 f2-ns fw9 lh-title black">
+          {{ page.dcdw-about-content-body-header | markdownify }}
+        </span>
+        <span class="ma0 f6 f5-ns lh-copy black">
+          {{ page.dcdw-about-content-body-text | markdownify }}
+          <a href="http://dc.aiga.org/" target="_blank" class="bbroller schedule-link ma0 f4">
+            {{ page.dcdw-about-content-button-text }}
+          </a>
+        </span>
       </a>
     </div>
     <div class="dcdw-about-bg-wrapper absolute" style="z-index: -9999;">
-      <img src="{{ page.about-image }}">
+      <img class="v-mid" src="{{ page.about-image }}">
     </div>
   </div>
 </section>

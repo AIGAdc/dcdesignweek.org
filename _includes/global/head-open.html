@@ -29,10 +29,10 @@
       </script>
 
       <!-- jquery -->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
       <!-- html5shiv -->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 
       <!-- google analytics -->
       {{site.google-analytics}}
@@ -42,61 +42,19 @@
 
   <!-- Pushy Menu -->
   <nav class="pushy pushy-right xs-show sm-show md-show">
-    <ul>
-      <li class="pushy-link">
-        <a href="/">Home</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/events/">Events</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/shops-and-galleries/">Shops &amp; Galleries</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/sponsors/">Sponsors</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/about/">About</a>
-      </li>
-      <li class="pushy-link">
-        <a href="/volunteers/">Volunteers</a>
-      </li>
+    <ul class="list ma0 pl0">
+      {% for link in site.data.navigation.mobile-nav %}
+        <li class="pushy-link">
+          <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
 
   <!-- site overlay when pushy menu is activated  -->
   <div class="site-overlay"></div>
 
-    <body>
+    <body class="">
       <!-- Your Content -->
       <div id="container" class="relative">
         {% include header.html %}
-        <!-- Background Grid -->
-        <section class="grid absolute fixed top-0 left-0 right-0 overflow-hidden" style="z-index: -9999; opacity: .9;">
-        	<div class="container clearfix p3">
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-2 lg-col-1 xs-hide sm-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 md-col-1 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        		<div class="sm-col sm-col-12 lg-col-1 xs-hide sm-hide md-hide grid-line">
-        		</div>
-        	</div>
-        </section>

@@ -1,55 +1,17 @@
 ---
 ---
 
-/*
- * Bassplate
- * Boilerplate for Basscss with PostCSS
- * http://github.com/basscss/bassplate
- *
- * Remove or comment out unneeded modules and import your own files.
- * Adjust global media queries and custom properties below.
- *
- */
-
-/* Reset */
-@import "basscss/basscss_reset";
-
-/* Basscss */
-@import "basscss/basscss_all";
-@import "basscss/basscss_background-colors";
-@import "basscss/basscss_background-images";
-@import "basscss/basscss_border-colors";
-@import "basscss/basscss_btn";
-@import "basscss/basscss_btn-outline";
-@import "basscss/basscss_btn-primary";
-@import "basscss/basscss_colors";
-@import "basscss/basscss_darken";
-@import "basscss/basscss_forms";
-@import "basscss/basscss_highlight-dark";
-@import "basscss/basscss_highlight";
-@import "basscss/basscss_input-range";
-@import "basscss/basscss_lighten";
-@import "basscss/basscss_media-object";
-@import "basscss/basscss_progress";
-@import "basscss/basscss_responsive-margin";
-@import "basscss/basscss_responsive-padding";
-@import "basscss/basscss_type-scale";
-@import "basscss/basscss_typography";
-@import "basscss/basscss_layout";
-@import "basscss/basscss_align";
-@import "basscss/basscss_margin";
-@import "basscss/basscss_padding";
-@import "basscss/basscss_grid";
-@import "basscss/basscss_flexbox";
-@import "basscss/basscss_position";
-@import "basscss/basscss_border";
-@import "basscss/basscss_hide";
+/* Tachyons */
+@import "tachyons/tachyons";
 
 /* DCDW Modules */
+@import "dcdw-globals/variables";
+@import "dcdw-globals/colors";
+
+@import "dcdw-components/header";
 @import "dcdw-components/buttons";
 @import "dcdw-components/diamond-images";
 
-@import "dcdw-globals/colors";
 @import "dcdw-globals/globals";
 @import "dcdw-globals/typography";
 
@@ -64,51 +26,4 @@
 
 @import "dcdw-modules/typeform";
 @import "dcdw-modules/pushy";
-/*===
-Media Queries
-===*/
-@custom-media --phone-small (max-width: 29.9375em); /* 479px */
-
-/* Optional Modules (not included in Basscss by default) */
-/*
-@import 'basscss-addons/modules/responsive-margin';
-@import 'basscss-addons/modules/responsive-padding';
-@import 'basscss-addons/modules/media-object';
-@import 'basscss-addons/modules/all';
-@import 'basscss-addons/modules/input-range';
-@import 'basscss-addons/modules/progress';
-@import 'basscss-addons/modules/btn-primary';
-@import 'basscss-addons/modules/btn-outline';
-@import 'basscss-addons/modules/btn-sizes';
-@import 'basscss-addons/modules/colors';
-@import 'basscss-addons/modules/background-colors';
-@import 'basscss-addons/modules/border-colors';
-@import 'basscss-addons/modules/darken';
-@import 'basscss-addons/modules/lighten';
-*/
-
-/* Custom media queries */
-/*
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
-*/
-
-/* Custom properties */
-/*
-:root {
-  --h1: 2rem;
-  --h2: 1.5rem;
-  --h3: 1.25rem;
-  --h4: 1rem;
-  --h5: .875rem;
-  --h6: .75rem;
-  --bold-font-weight: bold;
-  --space-1: .5rem;
-  --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem;
-  --border-width: 1px;
-  --border-radius: 3px;
-}
-*/
+@import "dcdw-modules/mailchimp";

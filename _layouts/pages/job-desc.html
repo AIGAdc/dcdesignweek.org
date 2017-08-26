@@ -3,18 +3,18 @@
 <div class="white-wrap">
 <div class="job--head">
   <div class="job--title job--wrap">
-    <p class="job--pretitle px3 mb1">Position Description</p>
-    <h1 class="bbroller px3 mb2 text-headline dcdw-blue">{{ page.title }}</h1>
-    <p class="job--pretitle px3"> DCDW '17 Oct. 21-29</p>
+    <p class="job--pretitle ma0 ph3 mb1">Position Description</p>
+    <h1 class="bbroller ma0 ph3 mb2 text-headline dcdw-blue">{{ page.title }}</h1>
+    <p class="job--pretitle ma0 ph3"> DCDW '17 Oct. 21-29</p>
   </div>
 </div>
 
   <div class="clearfix job--wrap">
-    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-8 px3">
+    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-8 ma0 ph3">
       {{ content }}
     </div>
 
-    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-4 px3">
+    <div class="job--content clearfix sm-col sm-col-12 md-col-6 lg-col-4 ma0 ph3">
       {% if page.exec == true %}
         <h2>Direct Reports</h2>
       {% else %}
@@ -35,8 +35,6 @@
       <h2>Meeting & Time Commitment</h2>
       <p> {{ page.commitment | markdownify }}</p>
     </div>
-
-
   </div>
 </div>
 {% include global/head-closed.html %}

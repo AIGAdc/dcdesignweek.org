@@ -1,0 +1,16 @@
+/* ensures that the fixed header will remain on top of all other elements */
+.global-header {
+  z-index: 9999;
+}
+
+.logo-wrapper img {
+  max-width: 200px;
+}
+
+.logo-wrapper-mobile img {
+  max-width: 100px;
+}
+
+.menu-btn {
+  cursor: pointer;
+}

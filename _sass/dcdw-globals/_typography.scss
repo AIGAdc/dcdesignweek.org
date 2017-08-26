@@ -2,49 +2,6 @@
  * typography
  */
 
-// font families
-$sans: 'Work Sans', sans-serif;
-$bbroller: 'BBRollerMono-Headline', courier, sans-serif;
-
-// font sizes
-$text-xx-small: 0.8125rem;
-$text-x-small: 1.125rem;
-$text-small: 1.25rem;
-$text-default: 1.3125rem;
-$text-medium: 1.375rem;
-$text-x-medium: 1.625rem;
-$text-large: 1.875rem;
-$text-x-large: 2.25rem;
-$text-headline: 3.0625rem;
-$text-billboard: 7.375rem; // 118px
-
-// line-heights
-$lh-normal: normal;
-$lh-tight: 1.4em;
-$lh-spaced: 1.75em;
-$lh-loose: 2em;
-
-// text transforms
-$uppercase: uppercase;
-$lowercase: lowercase;
-
-// font weights
-$fw-hairline: 100;
-$fw-thin: 200;
-$fw-light: 300;
-$fw-regular: 400;
-$fw-medium: 500;
-$fw-semibold: 600;
-$fw-bold: 700;
-$fw-extrabold: 800;
-$fw-black: 900;
-
-// text alignments
-$align-left: left;
-$align-right: right;
-$align-center: center;
-$align-justify: justify;
-
 /* license and information for using bb roller mono on a website */
 
 /*
@@ -115,9 +72,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .fw-black { font-weight: $fw-black; }
 
 /* text alignment */
-.text-right { text-align: $align-right; }
-.text-left { text-align: $align-left; }
-.text-center { text-align: $align-center; }
 .text-justify { text-align: $align-justify; }
 
 .text-vertical {
@@ -127,16 +81,14 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	bottom: 0;
 	margin: 0;
 	max-width: 200px;
+	top: 67px;
 }
 
 .text-shadow {
 	text-shadow: 1px 1px 3px rgba(0, 0, 255, 0.68);
 }
 
-em {
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
+.page-introduction p {
+	margin: 0;
+	padding: 0;
 }

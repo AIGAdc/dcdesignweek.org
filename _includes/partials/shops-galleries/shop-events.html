@@ -1,29 +1,29 @@
 <!-- Event Speakers -->
-<section class="gallery-opening py4">
-  <div class="container clearfix relative p3">
-    <div class="sm-col sm-col-12 text-medium">
-      <div class="gallery-opening-wrapper clearfix py4">
-        <div class="sm-col sm-col-12 md-col-4 mb4">
-          <div class="diamond-image-border">
-            <div class="diamond overflow-hidden">
-             <div class="diamond-los1">
-               <img src="{{ page.gallery-opening-image }}" />
-             </div>
+<section class="gallery-opening mv6">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <div class="gallery-opening-wrapper">
+      <div class="fl w-100 w-30-ns">
+        <div class="diamond-image-border relative">
+          <div class="diamond overflow-hidden">
+            <div class="diamond-los1">
+              <div class="image-overlay"></div>
+              <img class="image" src="{{ page.gallery-opening-image }}" />
             </div>
           </div>
         </div>
-        <div class="sm-col sm-col-12 md-col-8">
-          <h3 class="bbroller m0 mb1 text-x-medium ">
-            {{ page.gallery-opening-header-text | markdownify }}
-          </h3>
-          <hr class="title-divider">
-          <p class="m0 mb3 text-medium">
+      </div>
+      <div class="fl w-100 w-70-ns">
+        <h3 class="bbroller ma0 mb1 text-x-medium ">
+          {{ page.gallery-opening-header-text | markdownify }}
+        </h3>
+        <hr class="title-divider">
+        <span class="ma0 mb3 text-medium">
             {{ page.gallery-opening-body-text | markdownify }}
-          </p>
-          <a href="{{ page.gallery-opening-button-link }}" target="_blank" class="bbroller blue-underline m0 text-default inline-block mt3">
+          </span>
+        <a href="{{ page.gallery-opening-button-link }}" target="_blank" class="bbroller blue-underline ma0 text-default dib mt3">
             {{ page.gallery-opening-button-text }}
           </a>
-        </div>
       </div>
+    </div>
   </div>
 </section>

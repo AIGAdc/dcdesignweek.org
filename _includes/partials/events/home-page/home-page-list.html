@@ -1,23 +1,18 @@
-<section class="homepage-events relative bg-opaque-white py3">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12">
-      <h2 class="bbroller m0 text-x-large">
+<section class="homepage-events relative bg-white-90 mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <div class="fl w-100">
+      <h2 class="bbroller ma0 f3 f2-ns">
         {{ page.home-events-header-text }}
       </h2>
       <hr class="title-divider">
-      <p class="m0 text-default">
-        {{ page.home-events-sub-header-text }}
-      </p>
     </div>
-  </div>
 
-  <div class="container clearfix">
-    <div class="sm-col sm-col-1 py1 xs-hide sm-hide md-hide"></div>
-    <div class="event-list-wrapper p3 sm-col sm-col-11">
-      <ul class="home-events-list">
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="event-list-wrapper fl w-100 w-90-ns mt4">
+      <ul class="home-events-list list ma0 pa0 cf">     
         {% comment %}
         =====
-        The block below will print any events found inside "site.events" that have been designated as being featured on the home page.
+        The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
 
         Additionally, there is a filter applied that will then sort the featured events by date.
         =====
@@ -26,10 +21,10 @@
         {% assign sorted_events = (site.events | sort: 'event-date') %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
-            <li class="sm-col sm-col-6 md-col-6 lg-col-4">
-              <a class="event-card-link" href="{{posts.url}}" style="">
-                <div class="event-card relative">
-                {% include partials/events/events-card-contents.html %}
+            <li class="event-card fl w-100 w-50-m w-third-l pa3 relative">
+              <a class="event-card-link black" href="{{posts.url}}">
+                <div class="ba bw2 black">
+                  {% include partials/events/events-card-contents.html %}
                 </div>
               </a>
             </li>
@@ -37,11 +32,10 @@
         {% endfor %}
       </ul>
     </div>
-  </div>
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-3 py1 xs-hide sm-hide md-hide"></div>
-    <div class="sm-col sm-col-9">
-      <a href="http://www.dcdesignweek.org/events/" class="blue-underline inline-block m0 bbroller">
+
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="event-list-wrapper fl w-100 w-90-ns mt4">
+      <a class="blue-underline dib ma0 bbroller" href="http://www.dcdesignweek.org/events/">
         {{page.home-events-button-text}}
       </a>
     </div>

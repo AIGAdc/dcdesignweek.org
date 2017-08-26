@@ -1,20 +1,20 @@
-<section class="homepage-partners relative bg-opaque-white py3">
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-6">
-      <h1 class="bbroller m0 text-headline">
+<section class="homepage-partners relative bg-white-90 mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <div class="fl w-100 w-50-l">
+      <h2 class="bbroller ma0 f3 f2-ns">
         {{page.home-partners-header-text}}
-      </h1>
+      </h2>
       <hr class="title-divider">
-      <p class="m0 text-default">
+      <span class="m0 f5 f4-ns lh-copy">
         {{page.home-partners-sub-header-text}}
-      </p>
+      </span>
     </div>
   </div>
 
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-1 py1"></div>
-    <div class="sm-col sm-col-12 md-col-11">
-      <ul class="overflow-hidden">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="fl w-100 w-90-ns mt4">
+      <ul class="list ma0 pa0">
         {% comment %}
         =====
         The sponsors content block will display the sponsors that have been designated as being "featured on homepage".
@@ -26,13 +26,7 @@
           {% endif %}
         {% endfor %}
       </ul>
-    </div>
-  </div>
-
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-3 py1"></div>
-    <div class="sm-col sm-col-12 md-col-9">
-      <a href="{{page.home-sponsors-link}}" class="bbroller blue-underline m0 text-default inline-block">
+      <a class="blue-underline dib ma0 bbroller" href="{{page.home-sponsors-link}}">
         {{page.home-sponsors-link-text}}
       </a>
     </div>

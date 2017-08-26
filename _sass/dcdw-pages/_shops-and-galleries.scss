@@ -12,16 +12,16 @@
 .dcdw-pop-up-shop-content,
 .dcdw-get-out-the-vote-content,
 .dcdw-about-content {
-  border: solid 3px blue;
-  box-shadow: 15px 20px blue;
+  border: solid 3px $dcdw-blue;
+  box-shadow: 15px 20px $dcdw-blue;
   transition: box-shadow 100ms ease-in-out;
 }
 
 .dcdw-pop-up-shop-content:hover,
 .dcdw-get-out-the-vote-content:hover,
 .dcdw-about-content:hover {
-  border: solid 3px blue;
-  box-shadow: 0px 0px blue;
+  border: solid 3px $dcdw-blue;
+  box-shadow: 0px 0px $dcdw-blue;
 }
 
 @media screen and (min-width: 960px) {

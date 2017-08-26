@@ -1,29 +1,30 @@
-<section class="dcdw-committee-members py4">
-  <div class="container clearfix relative p3">
-    <div class="sm-col sm-col-12 md-col-11">
-      <h1 class="bbroller m0 text-large">
-        {{page.dcdw-committee-header-text}}
-      </h1>
-      <hr class="title-divider">
-      {% comment %}
-      For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page. Max of 6.
-      {% endcomment %}
-      <ul class="pt4">
+<section class="dcdw-committee-members mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
+    <h2 class="bbroller ma0 f5 f4-m f3-l fw4">
+      {{page.dcdw-committee-header-text}}
+    </h2>
+    <hr class="title-divider">
+    {% comment %}
+    For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page. Max of 6.
+    {% endcomment %}
+    <div class="dn db-ns fl w-100 w-10-m w-10-l pa1"></div>
+    <div class="fl w-100 w-90-l">
+      <ul class="list ma0 pa0 pv5 cf">
         {% for posts in site.dcdw-committee-members limit:9 %}
-          <div class="sm-col sm-col-12 md-col-1 py1 xs-hide"></div>
-          <div class="sm-col sm-col-12 md-col-3 py3">
-            <li class="team-member inline-block">
-              <div class="diamond-image-border mt4">
+          <div class="fl w-100 w-50-m w-third-l pv4 pa2">
+            <li class="team-member dib">
+              <div class="diamond-image-border">
                 <div class="diamond overflow-hidden">
-                 <div class="diamond-los1">
-                   <img src="{{ posts.committee-member-headshot-image }}" />
-                 </div>
+                  <div class="diamond-los1">
+                    <div class="committee-member-overlay"></div>
+                    <img class="committee-member-portrait v-mid w-100" src="{{ posts.committee-member-headshot-image }}" />
+                  </div>
                 </div>
               </div>
-              <div class="team-member-details-wrapper mt4">
-                <h2 class="bbroller m0">{{ posts.committee-member-name }}</h2>
-                <h6 class="m0 mb2">{{ posts.committee-member-title }}</h6>
-                <a class="m0" href="mailto:{{ posts.committee-member-email }}" target="_top">{{ posts.committee-member-email }}</a>
+              <div class="team-member-details-wrapper mt5">
+                <h2 class="bbroller ma0 f5 f4-ns fw6">{{ posts.committee-member-name }}</h2>
+                <h6 class="ma0 mb3 f6 fw4">{{ posts.committee-member-title }}</h6>
+                <a class="ma0 f6 dib" href="mailto:{{ posts.committee-member-email }}" target="_top">{{ posts.committee-member-email }}</a>
               </div>
             </li>
           </div>

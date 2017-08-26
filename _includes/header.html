@@ -1,36 +1,43 @@
-<header class="global-header px3 py2-half bg-white z4 fixed top-0 left-0 right-0">
-  <!-- desktop logo -->
-  <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
-    <a href="/"><img src="{{site.desktop-logo-image}}"></a>
-  </div>
-  <!--  mobile logo -->
-  <div class="logo-wrapper-mobile relative xs-show sm-show md-show lg-hide">
-    <a class="inline-block left" href="/">
-      <img src="{{site.mobile-logo-image}}">
-    </a>
-    <div class="inline-block right">
-      <div class="menu-btn">&#9776; Menu</div>
+<header class="global-header bg-white fixed top-0 right-0 left-0">
+  <nav class="db dt-l w-100 border-box pa3">
+    <!-- desktop logo -->
+    <div class="logo-wrapper-mobile dn db-l">
+      <a class="link" href="/">
+        <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
+      </a>
     </div>
-  </div>
+    
+    <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+      {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
+        <ul class="list ma0 pl0 dn db-l">
+          {% for link in site.data.navigation.holding-site-nav %}
+          <li class="dib link">
+            <a href="{{ link.url }}" class="header-link f5 fw4 black-60 pa2">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+          <li class="dib link">
+            <a data-scroll href="#email-list" class="header-link f5 fw4 pa2 ph3 ba bw1 dcdw-blue">Email List</a>
+          </li>
+        </ul>
+      {% else %}
+        <ul class="list ma0 pl0 dn db-l">
+          {% for link in site.data.navigation.primary-nav %}
+            <li class="dib link">
+              <a href="{{ link.url }}" class="header-link f5 fw4 black-60 pa2">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+      {% endif %}
 
-  <!-- links -->
-  <nav class="main-nav relative right xs-hide sm-hide md-hide ">
-    <ul>
-      <li class="inline-block">
-        <a href="/events/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Events</a>
-      </li>
-      <li class="inline-block">
-        <a href="/shops-and-galleries/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Shop &amp; Gallery</a>
-      </li>
-      <li class="inline-block">
-        <a href="/sponsors/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Sponsors</a>
-      </li>
-      <li class="inline-block">
-        <a href="/about/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">About</a>
-      </li>
-      <li class="inline-block">
-        <a href="/volunteers/" class="header-link text-x-small fw-extrabold black px1 text-uppercase">Volunteer</a>
-      </li>
-    </ul>
+      <!--  mobile logo & burger menu -->
+      <div class="logo-wrapper-mobile db dn-l">
+        <a class="ma0 dib link fl" href="/">
+          <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
+        </a>
+        <div class="dib fr">
+          <div class="menu-btn">&#9776; Menu</div>
+        </div>
+      </div>
+    </div>
   </nav>
 </header>

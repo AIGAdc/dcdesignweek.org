@@ -1,34 +1,25 @@
-<section class="sustaining-partners pb4">
-  <div class="container clearfix">
-    <div class="sm-col sm-col-12 md-col-1 py1"></div>
+<section class="sustaining-partners mt5">
+  <div class="mw8 center cf pa4 pa3-ns">
     <div class="sm-col sm-col-12 md-col-11">
-      <h2 class="bbroller m0">
+      <h2 class="bbroller ma0">
         {{ page.first-tier-header-text | markdownify }}
       </h2>
       <hr class="title-divider">
-      {{ page.first-tier-sub-header-text | markdownify }}
+        {{ page.first-tier-sub-header-text | markdownify }}
     </div>
-  </div>
 
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-2 py1"></div>
-    <div class="sm-col sm-col-12 md-col-10">
-      <ul>
+    <div class="fl w-100 w-10-ns pa1"></div>
+    <div class="fl w-100 w-90-ns">
+      <ul class="list ma0 pa0">
         {% for posts in site.sponsors %}
           {% if posts.is-first-tier == true %}
             {% include partials/sponsors/sponsors-contents.html %}
           {% endif %}
         {% endfor %}
       </ul>
-    </div>
-  </div>
-
-  <div class="container clearfix p3">
-    <div class="sm-col sm-col-12 md-col-3 py1"></div>
-    <div class="sm-col sm-col-12 md-col-9">
-      <a href="mailto:{{page.first-tier-button-link}}" target="_top" class="bbroller text-default blue-underline m0">
-        {{page.first-tier-button-text}}
-      </a>
+      <a href="mailto:{{page.first-tier-button-link}}" target="_top" class="bbroller text-default blue-underline ma0 dib">
+          {{page.first-tier-button-text}}
+        </a>
     </div>
   </div>
 </section>

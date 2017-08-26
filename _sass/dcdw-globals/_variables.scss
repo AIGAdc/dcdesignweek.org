@@ -1,0 +1,52 @@
+// Color
+$opaque-white: rgba(255,255,255,0.8);
+$white: #fff;
+$black: #000;
+$charcoal: #5a5a5a;
+
+$dcdw-blue: #3e07d0;
+
+/* ----------- typography ----------- */
+
+// font families
+$sans: 'Work Sans', sans-serif;
+$bbroller: 'BBRollerMono-Headline', courier, sans-serif;
+
+// font sizes
+$text-xx-small: 0.8125rem;
+$text-x-small: 1.125rem;
+$text-small: 1.25rem;
+$text-default: 1.3125rem;
+$text-medium: 1.375rem;
+$text-x-medium: 1.625rem;
+$text-large: 1.875rem;
+$text-x-large: 2.25rem;
+$text-headline: 3.0625rem;
+$text-billboard: 7.375rem; // 118px
+
+// line-heights
+$lh-normal: normal;
+$lh-tight: 1.4em;
+$lh-spaced: 1.75em;
+$lh-loose: 2em;
+
+// text transforms
+$uppercase: uppercase;
+$lowercase: lowercase;
+
+// font weights
+$fw-hairline: 100;
+$fw-thin: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+// text alignments
+$align-left: left;
+$align-right: right;
+$align-center: center;
+$align-justify: justify;

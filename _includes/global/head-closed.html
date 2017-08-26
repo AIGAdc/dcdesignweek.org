@@ -5,7 +5,7 @@
 <!-- scripts -->
 <script type="text/javascript" src="/assets/js/app.js"></script>
 
-<!-- settings for interlocking illustrations on homepage -->
+<!-- settings for interlocking illustrations on homepage 
 <script type="text/javascript">
 $(document).ready(function() {
   $('.illustration-1-wrapper').scrollToFixed({
@@ -25,6 +25,28 @@ $(document).ready(function() {
   });
 });
 </script>
+-->
+
+{% if page.url == "/" or "/about/" or "/volunteers/" %}
+<!-- smooth scroll script used on the landing page email sign ups -->
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    // Selectors
+    ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+    header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+    // Speed & Easing
+    speed: 750, // Integer. How fast to complete the scroll in milliseconds
+    offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+    easing: 'easeInOutCubic', // Easing pattern to use
+    customEasing: function (time) {}, // Function. Custom easing pattern
+
+    // Callback API
+    before: function () {}, // Callback to run before scroll
+    after: function () {} // Callback to run after scroll
+  });
+</script>
+{% endif %}
 
 <script type="text/javascript">
   instafetch.init({
@@ -34,4 +56,5 @@ $(document).ready(function() {
     caption: false
   });
 </script>
+
 </html>

@@ -1,41 +1,62 @@
-<footer class="global-footer white bg-black bg-contain bg-center" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
-  <div class="container clearfix py4">
-    <div class="sm-col sm-col-12 text-center">
-      <p class="mt3 mb2 text-large fw-black">Made with
-        <span class="made-in-dc-heart relative">
-          <svg id="i-heart" viewBox="0 0 32 32" width="32" height="32" fill="#ffffff" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-            <path d="M4 16 C1 12 2 6 7 4 12 2 15 6 16 8 17 6 21 2 26 4 31 6 31 12 28 16 25 20 16 28 16 28 16 28 7 20 4 16 Z" />
-          </svg>
+<footer class="global-footer white bg-black cover mt5" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
+  {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
+    <div class="mw6 center cf pa4">
+      <div class="footer-content">
+        {% for content in site.data.footer.holding-site-footer %}
+          <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
+            {{ content.header | markdownify }}
+          </span>
+          <span class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">
+            {{ content.text | markdownify }}
+          </span>
+        {% endfor %}
+      </div>
+      <div class="mailchimp-form">
+        {% include mailchimp/sign-up-form.html %}
+      </div>
+    </div>
+  {% else %}
+  <div class="mw8 center cf pa4 pv5">
+    <div class="mw6 center cf tc">
+      <p class="ma0 mb3 f4 f3-m f2-l fw9">
+        Made with
+        <span class="made-in-dc-heart relative dib h3 w3">
+          {% include icons/heart.svg %}
         </span> in DC
       </p>
-      <div class="mx-auto sm-col-6 dcdw-footer-statment">
-        <p class="m0 fw-regular px3">Built by 100% volunteer power, we're constantly working to make this site better for you. </p>
-        <p class="m0 fw-regular px3">
+      <div class="dcdw-footer-statment">
+        <p class="ma0 mb2 f6 f5-ns fw3 lh-copy">
+          Built by 100% volunteer power, we're constantly working to make this site better for you.
+        </p>
+        <p class="ma0 f6 f5-ns fw3 lh-copy">
           If you see something, say something.
         </p>
-        <a href="https://github.com/AIGAdc/DCDW" target="_blank" class="social-footer-links inline-block mt2 white text-headline"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/AIGAdc/DCDW" target="_blank" class="social-icons dib mt2 white text-headline h3 w3">
+          {% include icons/github.svg %}
+        </a>
       </div>
     </div>
   </div>
-  <div class="footer-contact-bar px3 py2 bg-black clearfix">
-    <div class="sm-col sm-col-12 md-col-4">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email white inline-block">
+  {% endif %}
+  <div class="footer-contact-bar pa3 bg-black cf">
+    <div class="fl w-100 w-third-ns tc tl-ns">
+      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib">
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="sm-col sm-col-12 md-col-4">
-      <ul class="social-icons">
-        {% for posts in site.social-media %}
-          <li class="inline-block">
-            <a class="social-footer-links text-large white px1" href="{{posts.social-media-link}}" target="_blank">
-              <i class="fa {{posts.social-media-icon}}" aria-hidden="true"></i>
-            </a>
+    <div class="fl w-100 w-third-ns tc pv2 pv0-ns">
+      <ul class="social-icons list ma0 pl0">
+        {% for link in site.data.navigation.social-nav %}
+          <li class="dib link">
+            <a href="{{ link.url }}" class="social-footer-links ph2"><span class="dib v-mid">{{ link.icon }}</span></a>
           </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="sm-col sm-col-12 md-col-4">
-      <p class="aiga-copyright m0">{{site.footer-copyright}}</p>
+    <div class="fl w-100 w-third-ns tc tr-ns">
+      <p class="aiga-copyright ma0 f6 f5-ns">
+        {{site.footer-copyright}}
+      </p>
     </div>
   </div>
 </footer>

@@ -1,153 +1,52 @@
-/* event card */
-.featured-event-card,
 .event-card {
-	margin: 2em 0;
-	min-height: 475px;
+	min-height: 250px;
+}
+
+.event-card-link {
+	transition: color 150ms ease-in;
+}
+.event-card-link:hover {
+	color: $dcdw-blue;
 }
 
 .event-image {
 	max-height: 220px;
-	border: solid 3px $black;
+	border: solid 3px #000;
 }
 
 .event-details {
-	border: solid 3px $black;
+	border: solid 3px #000;
 	position: relative;
-	top:-5px;
-}
-
-.event-card-link {
-	color: black;
-	transition: color 300ms ease-in-out;
-}
-.event-card-link:hover {
-	color: blue;
-}
-
-@media screen and (min-width: 640px) {
-	.event-card {
-		padding: 0 0.5em;
-	}
-}
-
-@media screen and (min-width: 831px) {
-	.event-card {
-		padding: 0 1em;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.event-list-wrapper {
-		padding: 0
-	}
-
-	.event-card {
-		padding: 0 1.5em;
-	}
-}
-
-span.event-date-mobile {
-	top: -20px;
-	left: -20px;
+	top: -5px;
 }
 
 span.event-day,
 span.event-date,
 span.event-date-mobile {
-	box-shadow: 7.5px 7.5px blue;
-	transition: box-shadow 100ms ease-in-out;
+	box-shadow: 7.5px 7.5px $dcdw-blue;
+	transition: box-shadow 150ms ease-in;
 }
 
 span.event-day:hover,
 span.event-date:hover,
 span.event-date-mobile:hover,
 span.hovered {
-	box-shadow: 0 0 blue;
+	box-shadow: 0 0 $dcdw-blue;
 }
 
-.event-image img {
-	width: 100%;
-	vertical-align: middle;
+span.event-day,
+span.event-date-mobile {
+	top: 30px;
+	left: -5px;
 }
 
-/* Events Page & Layout */
-.single-event-speaker-text h3 {
-	font-size: 32px;
+span.event-date {
+	top: 70px;
+	left: 0px;
 }
 
-.single-event-speaker-text h6 {
-	font-size: 18px;
-	letter-spacing: 2px;
-}
-
-/* media queries */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
 	.event-card {
-		padding: 0 0.5em;
+		min-height: 475px;
 	}
-
-	span.event-day {
-	  left: -3px;
-	  top: 25px;
-		font-size: $text-default;
-	}
-
-	span.event-date {
-	  left: 5px;
-	  top: 65px;
-		font-size: $text-default;
-	}
-}
-
-@media screen and (min-width: 831px) {
-	.event-card {
-		padding: 0 1em;
-	}
-
-	.single-event-header {
-		margin-top: 5em;
-	}
-
-	.single-event-speaker-text {
-		text-align: left;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	span.event-day {
-	  left: -7.5px;
-	  top: 25px;
-	}
-
-	span.event-date {
-	  left: -2.5px;
-	  top: 65px;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.event-list-wrapper {
-		padding: 0;
-	}
-
-	.event-card {
-		padding: 0 1.5em;
-	}
-}
-
-@media screen and (min-width: 1440px) {
-	.is-even {
-		right: -100px;
-	}
-}
-
-.sold-out {
-	background-color: black;
-	margin-top: -5px;
-	padding-top: 7.5px;
-	color: white;
-	text-align: center;
-	line-height: 35px;
-	font-family: $bbroller;
-	letter-spacing: 2px;
 }
