@@ -1,9 +1,14 @@
 /* Mailchimp */
 #mc_embed_signup input {
-  border: none !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
+  transition: all $timing-200 ease-out;
+  border: solid 4px $white !important;
+}
+
+#mc_embed_signup input:focus {
+  border: solid 4px $dcdw-orange !important;
 }
 
 #mce-responses {
@@ -29,15 +34,18 @@
 
 #mc_embed_signup .button--mailchimp {
   background-color: $dcdw-blue !important;
+  border: solid 4px $dcdw-blue !important;
   border-radius: 0 !important;
   font-family: $bbroller !important;
   margin: 0 !important;
   height: 64px !important;
   padding: 0 64px !important;
   color: $white !important;
-  transition: background-color $timing-200 ease-out !important;
+  cursor: pointer !important;
+  transition: all $timing-200 ease-out !important;
 }
 
 #mc_embed_signup .button--mailchimp:hover {
   background-color: $dcdw-orange !important;
+  border: solid 4px $dcdw-orange !important;
 }
