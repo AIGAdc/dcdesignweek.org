@@ -13,25 +13,31 @@
 
 #mce-success-response {
   text-align: center;
-  color: #ffffff !important;
+  color: $white !important;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400 !important;
   line-height: 1.6 !important;
   padding: 2em !important;
   margin: 0 !important;
   width: 100% !important;
-  background-color: #3E07D0 !important;
+  background-color: $dcdw-blue !important;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid #ffae84 !important;
+  border: 2px solid $dcdw-orange !important;
 }
 
-#mc_embed_signup .button {
-  background-color: #3E07D0 !important;
+#mc_embed_signup .button--mailchimp {
+  background-color: $dcdw-blue !important;
   border-radius: 0 !important;
   font-family: $bbroller !important;
   margin: 0 !important;
   height: 64px !important;
   padding: 0 64px !important;
+  color: $white !important;
+  transition: background-color $timing-200 ease-out !important;
+}
+
+#mc_embed_signup .button--mailchimp:hover {
+  background-color: $dcdw-orange !important;
 }
