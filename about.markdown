@@ -26,5 +26,3 @@ layout: pages/page-about
 ---
 
 # About
-
----
