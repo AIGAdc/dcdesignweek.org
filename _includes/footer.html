@@ -1,6 +1,6 @@
-<footer class="global-footer white bg-black cover" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
+<footer class="global-footer white bg-black cover noise relative overflow-hidden" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
   {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
-    <div class="mw7 center cf pa4">
+    <div class="mw7 center cf pa4 relative" style="z-index: 100;">
       <div class="footer-content">
         {% for content in site.data.footer.holding-site-footer %}
           <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
