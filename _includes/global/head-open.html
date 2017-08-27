@@ -38,6 +38,18 @@
 
 <!-- pushy menu -->
 <nav class="pushy pushy-right xs-show sm-show md-show">
+  {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
+  <ul class="list ma0 pl0 db dn-l tc">
+    {% for link in site.data.navigation.holding-site-nav %}
+    <li class="dib link mb3">
+      <a href="{{ link.url }}" class="btn btn--mobile-nav-link white-60">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+    <li class="dib link">
+      <a data-scroll href="#email-sign-up" class="btn btn--email-list">Email List</a>
+    </li>
+  </ul>
+  {% else %}
   <ul class="list ma0 pl0">
     {% for link in site.data.navigation.mobile-nav %}
     <li class="pushy-link">
@@ -45,6 +57,7 @@
     </li>
     {% endfor %}
   </ul>
+  {% endif %}
 </nav>
 
 <!-- site overlay when pushy menu is activated  -->
