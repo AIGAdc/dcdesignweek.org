@@ -9,7 +9,7 @@ a.button {
   cursor: pointer;
   padding: 10px 17px;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
+  transition: all $timing-200 ease-in-out;
   box-shadow: 12px 14px black;
 
   &.button-white {
@@ -41,8 +41,7 @@ a.blue-underline {
 }
 
 a.header-link {
-  letter-spacing: 2px;
-  transition: all 100ms ease-in-out;
+  transition: all $timing-200 ease-in-out;
 }
 
 a.header-link:hover {
@@ -50,7 +49,50 @@ a.header-link:hover {
   color: white;
 }
 
-a.schedule-link {
-  border-bottom: 10px solid $dcdw-blue;
-  color: $dcdw-blue;
+
+.btn {
+  cursor: pointer;
+  transition: all $timing-200 ease-out;
+  font-size: 16px;
+  padding: 12px 18px;
+
+  // underline links
+  &--underline-link {
+    padding: 12px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: solid 5px $dcdw-blue;
+  }
+
+  &--underline-link:hover {
+    border-bottom: solid 5px $dcdw-blue;
+    padding-bottom: 8px;
+    color: $dcdw-blue;
+  }
+
+  // header links
+  &--header-link {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: solid 5px $white;
+  }
+
+  &--header-link:hover {
+    border-bottom: solid 5px $dcdw-blue;
+    padding-bottom: 8px;
+    color: $dcdw-blue;
+  }
+
+  // email button
+  &--email-list {
+    border: solid 2px $dcdw-blue;
+  }
+
+  &--email-list:hover {
+    border: solid 2px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
 }

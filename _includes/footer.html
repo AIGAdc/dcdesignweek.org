@@ -1,6 +1,6 @@
-<footer class="global-footer white bg-black cover mt5" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
+<footer class="global-footer white bg-black cover noise relative overflow-hidden" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
   {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
-    <div class="mw6 center cf pa4">
+    <div class="mw7 center cf pa4 relative" style="z-index: 100;">
       <div class="footer-content">
         {% for content in site.data.footer.holding-site-footer %}
           <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
@@ -39,16 +39,16 @@
   </div>
   {% endif %}
   <div class="footer-contact-bar pa3 bg-black cf">
-    <div class="fl w-100 w-third-ns tc tl-ns">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib">
+    <div class="fl w-100 w-third-ns tc tl-ns relative" style="z-index: 100;">
+      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib dim">
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="fl w-100 w-third-ns tc pv2 pv0-ns">
+    <div class="fl w-100 w-third-ns tc pv2 pv0-ns relative" style="z-index: 100;">
       <ul class="social-icons list ma0 pl0">
         {% for link in site.data.navigation.social-nav %}
           <li class="dib link">
-            <a href="{{ link.url }}" class="social-footer-links ph2"><span class="dib v-mid">{{ link.icon }}</span></a>
+            <a href="{{ link.url }}" class="social-footer-links ph2 dim"><span class="dib v-mid">{{ link.icon }}</span></a>
           </li>
         {% endfor %}
       </ul>

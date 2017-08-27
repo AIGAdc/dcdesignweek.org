@@ -3,58 +3,54 @@
 <!--[if (IE 7)&!(IEMobile) ]><html class="ie7"> <![endif]-->
 <!--[if (IE 8)&!(IEMobile) ]><html class="ie8"> <![endif]-->
 <!--[if (IE 9)&!(IEMobile) ]><html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html class="no-js"> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' />
 
-    {% seo %}
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' /> {% seo %}
 
-    <!-- styles & icons -->
-    <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+  <!-- styles -->
+  <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
 
-    <script src="https://use.fontawesome.com/569e61da3d.js"></script>
-    <!-- end styles & icons -->
+  <!-- begin scripts -->
+  <!-- smart browser detection -->
+  <script type="text/javascript">
+    if ('visibilityState' in document) {
+      var doc = document.getElementsByTagName("html");
+      doc[0].className = 'modern-browser';
+    }
+  </script>
 
-    <!-- begin scripts -->
-      <!-- smart browser detection -->
-      <script type="text/javascript">
-        if ('visibilityState' in document) {
-          var doc = document.getElementsByTagName("html");
-          doc[0].className = 'modern-browser';
-        }
-      </script>
+  <!-- jquery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-      <!-- jquery -->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- html5shiv -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 
-      <!-- html5shiv -->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <!-- google analytics -->
+  {{site.google-analytics}}
+</head>
 
-      <!-- google analytics -->
-      {{site.google-analytics}}
-      <!-- end google analytics -->
-    <!-- end scripts -->
-  </head>
+<!-- pushy menu -->
+<nav class="pushy pushy-right xs-show sm-show md-show">
+  <ul class="list ma0 pl0">
+    {% for link in site.data.navigation.mobile-nav %}
+    <li class="pushy-link">
+      <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
 
-  <!-- Pushy Menu -->
-  <nav class="pushy pushy-right xs-show sm-show md-show">
-    <ul class="list ma0 pl0">
-      {% for link in site.data.navigation.mobile-nav %}
-        <li class="pushy-link">
-          <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+<!-- site overlay when pushy menu is activated  -->
+<div class="site-overlay"></div>
 
-  <!-- site overlay when pushy menu is activated  -->
-  <div class="site-overlay"></div>
-
-    <body class="">
-      <!-- Your Content -->
-      <div id="container" class="relative">
-        {% include header.html %}
+<body class="">
+  <!-- Your Content -->
+  <div id="container" class="relative">
+    {% include header.html %}

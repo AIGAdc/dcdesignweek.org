@@ -14,3 +14,19 @@
 .menu-btn {
   cursor: pointer;
 }
+
+a svg #D-1,
+a svg #C,
+a svg #D-2,
+a svg #W,
+a svg #bar {
+  transition: all $timing-200 ease-out;
+}
+
+a svg:hover #D-1,
+a svg:hover #C,
+a svg:hover #D-2,
+a svg:hover #W,
+a svg:hover #bar {
+  fill: $dcdw-orange;
+}

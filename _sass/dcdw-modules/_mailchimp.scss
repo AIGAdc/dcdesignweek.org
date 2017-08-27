@@ -1,9 +1,14 @@
 /* Mailchimp */
 #mc_embed_signup input {
-  border: none !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
+  transition: all $timing-200 ease-out;
+  border: solid 4px $white !important;
+}
+
+#mc_embed_signup input:focus {
+  border: solid 4px $dcdw-orange !important;
 }
 
 #mce-responses {
@@ -13,25 +18,77 @@
 
 #mce-success-response {
   text-align: center;
-  color: #ffffff !important;
+  color: $white !important;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400 !important;
   line-height: 1.6 !important;
   padding: 2em !important;
   margin: 0 !important;
   width: 100% !important;
-  background-color: #3E07D0 !important;
+  background-color: $dcdw-blue !important;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid #ffae84 !important;
+  border: 2px solid $dcdw-orange !important;
 }
 
-#mc_embed_signup .button {
-  background-color: #3E07D0 !important;
+#mc_embed_signup .button--mailchimp {
+  background-color: $dcdw-blue !important;
+  border: solid 4px $dcdw-blue !important;
   border-radius: 0 !important;
   font-family: $bbroller !important;
   margin: 0 !important;
   height: 64px !important;
   padding: 0 64px !important;
+  color: $white !important;
+  cursor: pointer !important;
+  transition: all $timing-200 ease-out !important;
+}
+
+#mc_embed_signup .button--mailchimp:hover {
+  background-color: $dcdw-orange !important;
+  border: solid 4px $dcdw-orange !important;
+}
+
+#mc_embed_signup .asterisk {
+  color: $white !important;
+  font-size: 100% !important;
+  top: 2px !important;
+}
+
+.indicates-required {
+  text-align: center !important;
+}
+
+/* shout outs to Sarah Drasner for sharing this CSS keyframe animation:
+https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid #ffae84 !important;
+  animation: shake $timing-500 cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error::after {
+  content: "Oops";
+  position: absolute;
 }
