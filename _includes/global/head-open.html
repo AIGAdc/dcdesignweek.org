@@ -11,7 +11,33 @@
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' /> {% seo %}
+  <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' /> 
+
+  <title>{{ page.title }} - {{site.title}}</title>
+  {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+    <meta name="description" content="{{ site.description | strip_html }}"/>
+  {% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
+  {% if page.excerpt %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+    <meta property="og:description" content="{{ site.description | strip_html }}"/>
+  {% endif %}
+  <link rel="canonical" href="{{site.url}}{{page.url}}" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:site_name" content="{{site.title}}" />
+  {% if page.og-image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.og-image }}" />
+  {% elsif page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.og-image }}" />
+  {% endif %}
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="{{ page.date }}" />
+  <script type="application/ld+json"></script>
 
   <!-- styles -->
   <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
@@ -63,7 +89,7 @@
 <!-- site overlay when pushy menu is activated  -->
 <div class="site-overlay"></div>
 
-<body class="">
+<body>
   <!-- Your Content -->
   <div id="container" class="relative">
     {% include header.html %}

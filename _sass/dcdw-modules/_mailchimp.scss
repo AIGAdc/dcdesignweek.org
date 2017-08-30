@@ -1,4 +1,9 @@
 /* Mailchimp */
+#mc_embed_signup form {
+  position: static !important;
+  padding: 0 !important;
+}
+  
 #mc_embed_signup input {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -58,6 +63,10 @@
 
 .indicates-required {
   text-align: center !important;
+}
+
+#mc_embed_signup .indicates-required {
+  margin-right: 0 !important;
 }
 
 /* shout outs to Sarah Drasner for sharing this CSS keyframe animation:

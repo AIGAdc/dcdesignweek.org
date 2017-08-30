@@ -1,16 +1,24 @@
 <footer id="email-sign-up" class="global-footer white bg-black cover noise relative overflow-hidden" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
   {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
-    <div class="mw7 center cf pa3 relative" style="z-index: 100;">
-      <div class="footer-content">
+    <div class="mw7 center cf ph3 pt4 relative" style="z-index: 100;">
+      <div class="footer-content-header pa2">
         {% for content in site.data.footer.holding-site-footer %}
-          <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
+          <span class="bbroller ma0 f4 f2-ns fw4 lh-copy tc">
             {{ content.header | markdownify }}
           </span>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="mw6 center cf ph3 relative" style="z-index: 100;">
+      <div class="footer-content pa2">
+        {% for content in site.data.footer.holding-site-footer %}
           <span class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">
             {{ content.text | markdownify }}
           </span>
         {% endfor %}
       </div>
+    </div>
+    <div class="mw6 center cf pa3 relative" style="z-index: 100;">
       <div class="mailchimp-form">
         {% include mailchimp/sign-up-form.html %}
       </div>
@@ -39,7 +47,7 @@
   </div>
   {% endif %}
   <div class="footer-contact-bar pa3 bg-black cf">
-    <div class="fl w-100 w-third-l tc tc-m tl-l relative" style="z-index: 100;">
+    <div class="fl w-100 w-third-l tc tc-m tl-l relative pv3" style="z-index: 100;">
       <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib dim">
         {{site.footer-contact-email}}
       </a>
@@ -53,7 +61,7 @@
         {% endfor %}
       </ul>
     </div>
-    <div class="fl w-100 w-third-l tc tr-l">
+    <div class="fl w-100 w-third-l tc tr-l pv3">
       <p class="aiga-copyright ma0 f6 f5-ns">
         {{site.footer-copyright}}
       </p>
