@@ -7,7 +7,7 @@ description:
 image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
 about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘16 DCDW Committee "
-dcdw-about-content-image: "/uploads/aigadc.png"
+dcdw-about-content-image: "/uploads/img_dc-x-aigadc.png"
 dcdw-about-content-body-header: DC and Design have a lot in common
 dcdw-about-content-body-text: "We have more depth than the surface suggests. More
   engaged communities than most expect. More originality than anyone thought possible…\n\n…and
