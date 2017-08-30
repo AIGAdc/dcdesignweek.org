@@ -12,15 +12,19 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link rel='shortcut icon' type='image/x-icon' href='{{site.favicon-image}}' /> 
-  
-  {% comment %}
-  {% seo %}
-  {% endcomment %}
 
   <title>{{ page.title }} - {{site.title}}</title>
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta name="description" content="{{ page.excerpt | strip_html }}"/>
-  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+    <meta name="description" content="{{ site.description | strip_html }}"/>
+  {% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
+  {% if page.excerpt %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+    <meta property="og:description" content="{{ site.description | strip_html }}"/>
+  {% endif %}
   <link rel="canonical" href="{{site.url}}{{page.url}}" />
   <meta property="og:url" content="{{site.url}}{{page.url}}" />
   <meta property="og:site_name" content="{{site.title}}" />
