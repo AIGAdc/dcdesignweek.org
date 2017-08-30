@@ -34,7 +34,8 @@ defaults:
     layout: singles/event
     title: 
     description: 
-    image: 
+    image:
+    og-image: 
     is-sold-out: 
     is-featured-on-home-page: 
     is-featured-on-events-page: 
@@ -152,6 +153,7 @@ sass:
   style: compressed
 url: http://www.dcdesignweek.org
 description: DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!
+og-image:
 twitter:
   username: aigadc
 facebook:

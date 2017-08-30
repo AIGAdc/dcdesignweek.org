@@ -26,12 +26,14 @@
   <meta property="og:site_name" content="{{site.title}}" />
   {% if page.og-image %}
     <meta property="og:image" content="{{ site.url }}{{ page.og-image }}" />
-  {% else %}
+  {% elsif page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.og-image }}" />
   {% endif %}
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="{{ page.date }}" />
-  <script type="application/ld+json">
+  <script type="application/ld+json"></script>
 
   <!-- styles -->
   <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
