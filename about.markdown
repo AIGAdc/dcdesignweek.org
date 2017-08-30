@@ -4,7 +4,7 @@ date: 2016-08-01 21:33:00 -04:00
 permalink: "/about/"
 position: 4
 description: 
-image: "/uploads/2ff78010-8012-11e6-9065-d784d2d1f218.jpg"
+image: "/uploads/OG_featuredimage.jpg"
 about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘16 DCDW Committee "
 dcdw-about-content-image: "/uploads/img_dc-x-aigadc.png"
