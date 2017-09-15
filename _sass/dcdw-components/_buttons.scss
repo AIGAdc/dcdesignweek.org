@@ -55,6 +55,8 @@ a.header-link:hover {
   transition: all $timing-200 ease-out;
   font-size: 16px;
   padding: 12px 18px;
+  text-decoration: none;
+  font-weight: $fw6;
 
   // mobile nav links
   &--mobile-nav-link {
@@ -107,11 +109,11 @@ a.header-link:hover {
 
   // blue button
   &--blue-border {
-    border: solid 2px $dcdw-blue;
+    border: solid 4px $dcdw-blue;
   }
 
   &--blue-border:hover {
-    border: solid 2px $dcdw-orange;
+    border: solid 4px $dcdw-orange;
     background-color: $dcdw-orange;
     color: $white;
   }

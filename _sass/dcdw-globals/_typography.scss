@@ -62,14 +62,15 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 .text-lowercase { text-transform: $lowercase; }
 
 /* font weights */
-.fw-hairline { font-weight: $fw-hairline; }
-.fw-light { font-weight: $fw-light; }
-.fw-regular { font-weight: $fw-regular; }
-.fw-medium { font-weight: $fw-medium; }
-.fw-semibold { font-weight: $fw-semibold; }
-.fw-bold { font-weight: $fw-bold; }
-.fw-extrabold { font-weight: $fw-extrabold; }
-.fw-black { font-weight: $fw-black; }
+.fw1 { font-weight: $fw1; }
+.fw2 { font-weight: $fw2; }
+.fw3 { font-weight: $fw3; }
+.fw4 { font-weight: $fw4; }
+.fw5 { font-weight: $fw5; }
+.fw6 { font-weight: $fw6; }
+.fw7 { font-weight: $fw7; }
+.fw8 { font-weight: $fw8; }
+.fw9 { font-weight: $fw9; }
 
 /* text alignment */
 .text-justify { text-align: $align-justify; }
