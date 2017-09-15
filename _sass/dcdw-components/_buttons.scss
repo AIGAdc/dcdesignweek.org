@@ -1,36 +1,4 @@
-/**
- * buttons
- */
-
-/* global button + additional colors */
-a.button {
-  border-top: none;
-  border-left: none;
-  cursor: pointer;
-  padding: 10px 17px;
-  font-size: 18px;
-  transition: all $timing-200 ease-in-out;
-  box-shadow: 12px 14px black;
-
-  &.button-white {
-    background: white;
-    color: $dcdw-blue;
-  }
-
-  &.button-blue {
-    background: $dcdw-blue;
-    color: white;
-  }
-
-  &.button-white:hover {
-    box-shadow: none;
-  }
-
-  &.button-white:active {
-    background-color: black;
-    color: white;
-  }
-}
+/* buttons */
 
 /* underline button */
 a.blue-underline {
@@ -60,11 +28,9 @@ a.header-link:hover {
 
   // mobile nav links
   &--mobile-nav-link {
-  
   }
 
   &--mobile-nav-link:hover {
-
   }
 
   // underline links
