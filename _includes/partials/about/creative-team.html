@@ -1,31 +1,30 @@
 <section class="dcdw-creative-team mt5">
   <div class="mw8 center cf pa4 pa3-ns">
     <h2 class="bbroller ma0 f5 f4-m f3-l fw4">
-      '16 Creative Team
+      '17 Creative Team'
     </h2>
     <hr class="title-divider">
     {% comment %}
-    For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. Max of 3.
+    For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. 
     {% endcomment %}
-    <div class="dn db-ns fl w-100 w-10-m w-10-l pa1"></div>
-    <div class="fl w-100 w-90-l">
-      <ul class="list ma0 pa0 pv5 cf">
-        {% for posts in site.dcdw-creative-team %}
-          <div class="fl w-100 w-50-m w-third-l pv4 pa2">
+    <div class="fl w-100">
+      <ul class="list ma0 pa0 pv4 cf">
+        {% for creative-member in site.data.creative-team.2016-team %}
+          <div class="fl w-100 w-50-m w-third-l pv4 pa2">  
             <li class="team-member dib">
               <div class="diamond-image-border">
-                <div class="diamond overflow-hidden">
+                <div class="diamond overflow-hidden noise">
                   <div class="diamond-los1">
-                    <div class="creative-team-overlay"></div>
-                    <img class="creative-team-portrait v-mid w-100" src="{{ posts.creative-team-member-headshot-image }}" />
+                    <div class="creative-team-overlay gradient-overlay"></div>
+                    <img class="creative-team-portrait v-mid w-100" src="{{ creative-member.image }}" />
                   </div>
                 </div>
               </div>
               <div class="team-member-details-wrapper mt5">
-                <h2 class="bbroller ma0 f5 f4-ns fw6">{{ posts.creative-team-member-name }}</h2>
-                <h6 class="ma0 mb3 f6 fw4">{{ posts.creative-team-member-title }}</h6>
-                <span class="ma0 lh-copy">
-                  {{ posts.content | markdownify }}
+                <span class="bbroller ma0 f5 f4-ns fw6 db">{{ creative-member.name }}</span>
+                <span class="ma0 mb3 f6 fw4 db">{{ creative-member.role }}</span>
+                <span class="ma0 lh-copy db">
+                  {{ creative-member.bio | markdownify }}
                 </span>
               </div>
             </li>

@@ -1,24 +1,23 @@
-<section class="dcdw-about relative pb5 overflow-hidden">
-  <div class="mw8 center cf pa4 pa3-ns pv6 relative">
-    <div class="dn db-ns fl w-100 w-10-ns pa1"></div>
-    <div class="dcdw-about-content fl w-100 w-75-l mt6 mt7-ns pa4 z4 bg-white">
-      <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
-        <div class="dcdw-about-content-image-wrapper">
-          <img class="v-mid noise" src="{{ page.dcdw-about-content-image }}">
-        </div>
-        <span class="ma0 f3 f2-ns fw9 lh-title black">
-          {{ page.dcdw-about-content-body-header | markdownify }}
-        </span>
-        <span class="ma0 f6 f5-ns lh-copy black">
-          {{ page.dcdw-about-content-body-text | markdownify }}
-          <a href="http://dc.aiga.org/" target="_blank" class="bbroller btn btn--underline-link">
-            {{ page.dcdw-about-content-button-text }}
-          </a>
-        </span>
-      </a>
-    </div>
-    <div class="dcdw-about-bg-wrapper absolute noise overflow-hidden" style="z-index: -9999;">
-      <img class="v-mid" src="{{ page.about-image }}">
-    </div>
+<div class="fl w-100">
+<section class="dcdw-about relative">
+  <div class="dcdw-about-content fl w-100 w-75-l pa4 z4 bg-white">
+    <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
+      <div class="dcdw-about-content-image-wrapper">
+        <img class="v-mid noise" src="{{ page.dcdw-about-content-image }}">
+      </div>
+      <span class="ma0 f3 f2-ns fw9 lh-title black">
+        {{ page.dcdw-about-content-body-header | markdownify }}
+      </span>
+      <span class="ma0 f6 f5-ns lh-copy black">
+        {{ page.dcdw-about-content-body-text | markdownify }}
+        <a href="http://dc.aiga.org/" target="_blank" class="bbroller btn btn--underline-link">
+          {{ page.dcdw-about-content-button-text }}
+        </a>
+      </span>
+    </a>
+  </div>
+  <div class="dcdw-about-bg-wrapper absolute noise overflow-hidden" style="z-index: -9999;">
+    <img class="v-mid" src="{{ page.about-image }}">
   </div>
 </section>
+</div>

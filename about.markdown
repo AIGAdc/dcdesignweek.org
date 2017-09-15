@@ -1,10 +1,13 @@
 ---
+# page meta & seo
 title: About
-date: 2016-08-01 21:33:00 -04:00
-permalink: "/about/"
-position: 4
 description: 
 image: "/uploads/OG_featuredimage.jpg"
+permalink: "/about/"
+
+introduction-title: About
+introduction-body-text:
+
 about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘16 DCDW Committee "
 dcdw-about-content-image: "/uploads/img_dc-x-aigadc.png"
@@ -22,7 +25,7 @@ dcdw-about-content-body-text: "We have more depth than the surface suggests. Mor
   the city in which we create it—differently.\n\nAnd to see that we’re closer together
   than ever before. "
 dcdw-about-content-button-text: Visit aigadc.org
-layout: pages/page-about
----
 
-# About
+#page settings
+layout: pages/about
+---

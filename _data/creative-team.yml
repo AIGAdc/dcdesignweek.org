@@ -1,0 +1,56 @@
+# 2017 creative team
+2017-team:
+  - image:
+    name: Mike O'Brien
+    role: Creative Director
+    bio:
+    twitter:
+    website:
+  - image:
+    name: Dan Rader
+    role:
+    bio:
+    twitter:
+    website:
+  - image:
+    name: Marcus Relacion
+    role:
+    bio:
+    twitter:
+    website:
+  - image:
+    name: Jen Doyle
+    role:
+    bio:
+    twitter:
+    website:
+  - image:
+    name: Number 5
+    role:
+    bio:
+    twitter:
+    website:
+
+# 2016 creative team
+2016-team:
+  - image: /uploads/austinbreed_360.jpg
+    name: Austin Breed
+    role: Illustrator
+    bio: |
+      Illustrative designer from the Midwest. Creative Director at Peer Insight, has drawn for IDW, Boom! Studios, and indie games.
+    twitter: austinbreed
+    website: austinbreed.com
+  - image: /uploads/gregfisk_480.jpg
+    name: Greg Fisk
+    role: Designer/b-boy
+    bio: |
+      Greg Fisk is a visual designer by day, and champion Breakdancer by night. From RIP City to the Nation’s Capital, Greg has found the beauty of everyday life to truly inspire the originality that echoes through his work & process.
+    twitter: nicegreg
+    website: nicegreg.com
+  - image: /uploads/marcusrelacion_480.jpg
+    name: Marcus Relacion
+    role: Developer
+    bio: |
+      Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
+    twitter: marcusrelacion
+    website: marcusrelacion.com
