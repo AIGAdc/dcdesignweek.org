@@ -11,7 +11,3 @@ introduction-body-text:
 #page settings
 layout: pages/events
 ---
-
-# Past Events
-
----
