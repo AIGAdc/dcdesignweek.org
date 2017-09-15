@@ -1,12 +1,10 @@
+{% comment %}
+For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. 
+{% endcomment %}
 <section class="dcdw-creative-team">
   <div class="mw8 center cf pa4 pa3-ns">
-    <h2 class="bbroller ma0 f4 f3-ns fw4">
-      '17 Creative Team
-    </h2>
+    <span class="bbroller ma0 f5 f4-m f3-l fw4">{{page.dcdw-creative-team-header-text}}</span>
     <hr class="title-divider-blue">
-    {% comment %}
-    For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will be printed onto the about page. 
-    {% endcomment %}
     <div class="fl w-100">
       <ul class="list ma0 pa0 pv4 cf">
         {% for creative-member in site.data.creative-team.2016-team %}

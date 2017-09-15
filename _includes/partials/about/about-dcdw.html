@@ -1,23 +1,18 @@
-<div class="fl w-100">
-<section class="dcdw-about relative">
-  <div class="dcdw-about-content fl w-100 w-75-l pa4 z4 bg-white">
-    <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
-      <div class="dcdw-about-content-image-wrapper">
-        <img class="v-mid noise" src="{{ page.dcdw-about-content-image }}">
-      </div>
-      <span class="ma0 f3 f2-ns fw9 lh-title black">
-        {{ page.dcdw-about-content-body-header | markdownify }}
-      </span>
-      <span class="ma0 f6 f5-ns lh-copy black">
-        {{ page.dcdw-about-content-body-text | markdownify }}
-        <a href="http://dc.aiga.org/" target="_blank" class="bbroller btn btn--underline-link">
-          {{ page.dcdw-about-content-button-text }}
+<section class="dcdw-about fl w-100 mb5 mb7-ns debug">
+  <div class="mw8 center cf pa3 relative">
+      <div class="fl w-100 w-10-l pa1 dn db-l"></div>
+      <div class="dcdw-about-content fl w-100 w-75-m w-60-l pa4 bg-white mt6 mt5-ns mb7">
+        <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
+          <div class="dcdw-about-content-image-wrapper">
+            <img class="v-mid w-100 noise" src="{{ page.dcdw-about-content-image }}">
+          </div>
+          <span class="ma0 mt4 db f3 f2-ns fw9 lh-title black">{{ page.dcdw-about-content-body-header | markdownify }}</span>
+          <span class="ma0 mt4 db f6 f5-ns fw4 lh-copy black">{{ page.dcdw-about-content-body-text | markdownify }}<a href="http://dc.aiga.org/" target="_blank" class="btn btn btn--blue-border mt4 dib link fw6">{{ page.dcdw-about-content-button-text }}</a>
+          </span>
         </a>
-      </span>
-    </a>
-  </div>
-  <div class="dcdw-about-bg-wrapper absolute noise overflow-hidden" style="z-index: -9999;">
-    <img class="v-mid" src="{{ page.about-image }}">
+      </div>
+      <div class="dcdw-about-bg absolute gradient-overlay noise" style="z-index: -9999;">
+        <img class="v-mid w-100 gradient-overlay" src="{{ page.dcdw-about-image }}">
+      </div>
   </div>
 </section>
-</div>
