@@ -1,0 +1,5 @@
+{% if page.layout == 'pages/page-home' %}
+  {% include partials/events/home-page/list.html %}
+{% elsif page.layout == 'pages/events' %}
+  {% include partials/events/events-page/list.html %}
+{% endif %}
