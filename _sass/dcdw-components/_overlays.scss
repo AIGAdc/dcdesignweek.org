@@ -1,3 +1,8 @@
+.grayscale-overlay {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
 .gradient-overlay {
   position: absolute;
   background-image: linear-gradient(-223deg, $dcdw-orange, $dcdw-blue);

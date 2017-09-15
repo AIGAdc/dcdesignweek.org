@@ -104,4 +104,15 @@ a.header-link:hover {
     background-color: $dcdw-orange;
     color: $white;
   }
+
+  // blue button
+  &--blue-border {
+    border: solid 2px $dcdw-blue;
+  }
+
+  &--blue-border:hover {
+    border: solid 2px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
 }

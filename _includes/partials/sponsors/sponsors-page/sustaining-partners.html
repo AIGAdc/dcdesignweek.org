@@ -1,25 +1,15 @@
-<section class="sustaining-partners mt5">
-  <div class="mw8 center cf pa4 pa3-ns">
-    <div class="sm-col sm-col-12 md-col-11">
-      <h2 class="bbroller ma0">
-        {{ page.first-tier-header-text | markdownify }}
-      </h2>
-      <hr class="title-divider">
-        {{ page.first-tier-sub-header-text | markdownify }}
-    </div>
+<section class="sustaining-partners mb5">
+  <div class="fl w-100 w-80-ns">
+    <h2 class="bbroller ma0">{{ page.first-tier-header-text | markdownify }}</h2>
+    <hr class="title-divider-blue">
+    <span class="ma0">{{ page.first-tier-sub-header-text | markdownify }}</span>
 
-    <div class="fl w-100 w-10-ns pa1"></div>
-    <div class="fl w-100 w-90-ns">
-      <ul class="list ma0 pa0">
-        {% for posts in site.sponsors %}
-          {% if posts.is-first-tier == true %}
-            {% include partials/sponsors/sponsors-contents.html %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <a href="mailto:{{page.first-tier-button-link}}" target="_top" class="bbroller text-default blue-underline ma0 dib">
-          {{page.first-tier-button-text}}
-        </a>
-    </div>
+    <ul class="list ma0 pa0">
+      {% for posts in site.sponsors %}
+        {% if posts.is-first-tier == true %}
+          {% include partials/sponsors/sponsors-contents.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
 </section>

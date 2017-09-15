@@ -64,10 +64,24 @@ article li {
 }
 
 article hr,
-.title-divider {
+.title-divider,
+.title-divider-blue {
   width: 100%;
   max-width: 100px;
+}
+
+.title-divider {
   border: solid 2.5px $black;
+}
+
+.title-divider-blue {
+  border: solid 2.5px $dcdw-blue;
+}
+
+.title-divider,
+.title-divider-blue {
+  margin: 1em 0;
+  max-width: 75px;
 }
 
 article hr {
@@ -80,11 +94,6 @@ article em {
 
 article img {
   width: 30%;
-}
-
-.title-divider {
-  margin: 1em 0;
-  max-width: 74px;
 }
 
 @media screen and (min-width: 831px) {

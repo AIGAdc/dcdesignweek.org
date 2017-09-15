@@ -1,16 +1,12 @@
-<section class="in-kind-donors mt5">
-  <div class="mw8 center cf pa4 pa3-ns">
-    <div class="sm-col sm-col-12 md-col-1 py1"></div>
-    <div class="sm-col sm-col-12 md-col-11">
+<section class="in-kind-donors mb5">
+    <div class="fl w-100 w-80-ns">
       <h2 class="bbroller text-x-medium m0">
         {{page.third-tier-header-text | markdownify}}
       </h2>
-      <hr class="title-divider">
+      <hr class="title-divider-blue">
       {{page.third-tier-sub-header-text | markdownify}}
     </div>
 
-    <div class="fl w-100 w-10-ns pa1"></div>
-    <div class="fl w-100 w-90-ns">
       <ul class="list ma0 pa0">
         {% for posts in site.sponsors %}
           {% if posts.is-third-tier == true %}
@@ -18,13 +14,6 @@
           {% endif %}
         {% endfor %}
       </ul>
-    </div>
-
-    <div class="fl w-100 w-10-ns pa1"></div>
-    <div class="fl w-100 w-90-ns">
-      <a href="mailto:{{page.third-tier-button-link}}" target="_top" class="bbroller text-default blue-underline ma0">
-        {{page.third-tier-button-text}}
-      </a>
     </div>
   </div>
 </section>
