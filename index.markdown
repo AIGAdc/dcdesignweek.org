@@ -19,6 +19,12 @@ dc-design-paragraph-2-text: |
   and this October we’re coming together to celebrate. Join us for DC Design Week.
 dc-design-paragraph-3-text: |
   This year will be bigger and better than ever with new partners, new venues, new event formats, and new ways to connect with our unique design community. You won't want to miss this.
+dc-design-paragraph-mobile-text: |
+  Design is a driving force in our nation’s capital and
+  surrounding metro area. Whether it’s supporting leading nonprofits, engineering
+  the next startup, or solving problems at scale through government, design is at
+  the core of the DMV. We are makers and disruptors, artisans and tech geeks,
+  and this October we’re coming together to celebrate. Join us for DC Design Week. This year will be bigger and better than ever with new partners, new venues, new event formats, and new ways to connect with our unique design community. You won't want to miss this.
 
 home-events-header-text: Past Events
 home-events-sub-header-text: 
