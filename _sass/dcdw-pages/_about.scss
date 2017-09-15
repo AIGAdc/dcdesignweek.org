@@ -27,30 +27,3 @@
     top: 0;
   }
 }
-
-@media screen and (min-width:480px) {
-  .dcdw-about {
-    top: -110px;
-    margin-bottom: -95px;
-  }  
-}
-
-@media screen and (min-width:840px) {
-  .dcdw-about {
-    top: -145px;
-  }
-  
-}
-
-@media screen and (min-width:1024px) {
-  .dcdw-about-bg-wrapper {
-    right: -20px;
-    left: -20px;
-  }
-}
-
-@media screen and (min-width:1280px) {
-  .dcdw-about-bg-wrapper {
-    right: -200px;
-  }
-}
