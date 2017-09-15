@@ -1,15 +1,12 @@
-<section class="homepage-events relative bg-white fl w-100 pv5">
-  <div class="mw8 center cf pa4 pa3-ns">
-    <div class="fl w-100">
-      <h2 class="bbroller ma0 f3 f2-ns">
-        {{ page.home-events-header-text }}
-      </h2>
-      <hr class="title-divider">
+<section class="home-events relative bg-white fl w-100 mv5">
+  <div class="mw8 center cf pa3">
+    <div class="fl w-100 w-80-l mb5">
+      <span class="ma0 bbroller f3 f2-ns lh-title db">{{ page.home-events-header-text }}</span>
+      <hr class="title-divider-blue">
     </div>
 
-    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
-    <div class="event-list-wrapper fl w-100 w-90-ns mt4">
-      <ul class="home-events-list list ma0 pa0 cf">     
+    <div class="fl w-100 mb4">
+      <ul class="list ma0 pa0">     
         {% comment %}
         =====
         The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
@@ -23,7 +20,7 @@
           {% if posts.is-featured-on-home-page == true %}
             <li class="event-card fl w-100 w-50-m w-third-l pa3 relative">
               <a class="event-card-link black" href="{{posts.url}}">
-                <div class="ba bw2 black">
+                <div class="">
                   {% include partials/events/events-card-contents.html %}
                 </div>
               </a>
@@ -33,9 +30,8 @@
       </ul>
     </div>
 
-    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
-    <div class="event-list-wrapper fl w-100 w-90-ns mt4">
-      <a class="blue-underline dib ma0 bbroller" href="http://www.dcdesignweek.org/events/">
+    <div class="fl w-100">
+      <a class="btn btn--blue-border dib ma0 bbroller" href="{{page.home-events-link}}">
         {{page.home-events-button-text}}
       </a>
     </div>

@@ -1,0 +1,30 @@
+<section class="home-sponsors relative bg-white fl w-100 mb5">
+  <div class="mw8 center cf pa3">
+    <div class="fl w-100 w-80-l mb5">
+      <span class="ma0 bbroller f3 f2-ns lh-title db">{{page.home-partners-header-text}}</span>
+      <hr class="title-divider-blue">
+      <span class="ma0 mt4 f5 f4-ns lh-copy db">{{page.home-partners-sub-header-text}}</span>
+    </div>
+
+    <div class="fl w-100 mb2">
+      <ul class="list ma0 pa0">
+        {% comment %}
+        =====
+        The sponsors content block will display the sponsors that have been designated as being "featured on homepage".
+        =====
+        {% endcomment %}
+        {% for posts in site.sponsors %}
+          {% if posts.is-featured-on-home-page == true %}
+            {% include partials/sponsors/sponsors-contents.html %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="fl w-100">
+      <a class="btn btn--blue-border dib ma0 bbroller" href="{{page.home-sponsors-link}}">
+        {{page.home-sponsors-link-text}}
+      </a>
+    </div>
+  </div>
+</section>
