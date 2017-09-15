@@ -10,10 +10,14 @@
   mix-blend-mode: luminosity;
 }
 
-.landing-hero {
-  background-image: linear-gradient(-223deg, #ffae84, #3e07d0);
+.gradient-overlay-solid {
+  background-image: linear-gradient(-223deg, $dcdw-orange, $dcdw-blue);
   background-size: 150% 150%;
-  
+}
+
+.landing-hero {
+  background-image: linear-gradient(-223deg, $dcdw-orange, $dcdw-blue);
+  background-size: 150% 150%;
   -webkit-animation: DCDW 5s ease-in-out infinite;
   -moz-animation: DCDW 5s ease-in-out infinite;
   animation: DCDW 5s ease-in-out infinite;

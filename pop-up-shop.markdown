@@ -15,8 +15,8 @@ pop-up-shop-header-text: DCDW Pop-Up Shop
 pop-up-shop-body-text: |
   We're taking over the Cherry Blossom Creative storefront and
   filling it with items made by locals. Swing by, shop, and support our neighborhood
-  maker and creative community. Have something to add to the shop? \n\nHit us up and
-  lets make it happen! tj@aigadc.org
+  maker and creative community. Have something to add to the shop? Hit us up and
+  lets make it happen! [tj@aigadc.org](mailto:tj@aigadc.org)
 
 #page settings
 layout: pages/pop-up-shop
