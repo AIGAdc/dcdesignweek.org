@@ -1,4 +1,4 @@
-<footer id="email-sign-up" class="global-footer white bg-black cover noise relative overflow-hidden" style="background-image: url('/uploads/dcdw-footer-bg.jpg');">
+<footer id="email-sign-up" class="global-footer white bg-black cover noise relative overflow-hidden landing-hero">
   {% if page.url == "/" or page.url == "/about/" or page.url == "/volunteers/" %}
     <div class="mw7 center cf ph3 pt4 relative" style="z-index: 100;">
       <div class="footer-content-header pa2">
@@ -24,7 +24,7 @@
       </div>
     </div>
   {% else %}
-  <div class="mw8 center cf pa4 pv5">
+  <div class="global-footer-content mw8 center cf pa4 pv5 relative">
     <div class="mw6 center cf tc">
       <p class="ma0 mb3 f4 f3-m f2-l fw9">
         Made with
@@ -46,25 +46,19 @@
     </div>
   </div>
   {% endif %}
-  <div class="footer-contact-bar pa3 bg-black cf">
-    <div class="fl w-100 w-third-l tc tc-m tl-l relative pv3" style="z-index: 100;">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib dim">
-        {{site.footer-contact-email}}
-      </a>
-    </div>
-    <div class="fl w-100 w-third-l tc pv3 pv0-l relative" style="z-index: 100;">
-      <ul class="social-icons list ma0 pl0">
-        {% for link in site.data.navigation.social-nav %}
-          <li class="dib link">
-            <a href="{{ link.url }}" class="social-footer-links ph2 dim"><span class="dib v-mid">{{ link.icon }}</span></a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="fl w-100 w-third-l tc tr-l pv3">
-      <p class="aiga-copyright ma0 f6 f5-ns">
-        {{site.footer-copyright}}
-      </p>
-    </div>
-  </div>
 </footer>
+<div class="footer-contact-bar cf pa3 bg-black white flex flex-column flex-row-ns">
+  <div class="flex-auto self-center w-third">
+    <a href="mailto:{{site.footer-contact-email}}" target="_top" class="ma0 f6 f5-ns white dim">{{site.footer-contact-email}}</a>
+  </div>
+  <div class="flex-auto self-center w-third">
+    <ul class="social-icons list ma0 pl0 tc">
+      {% for link in site.data.navigation.social-nav %}
+        <li class="dib link ph2"><a href="{{ link.url }}" class="social-footer-links dib dim v-mid"><span class="dib v-mid">{{ link.icon }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="flex-auto self-center w-third">
+    <span class="ma0 f6 f5-ns">{{site.footer-copyright}}</span>
+  </div>
+</div>
