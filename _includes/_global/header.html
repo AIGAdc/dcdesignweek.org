@@ -1,15 +1,15 @@
 <header class="global-header bg-white fixed top-0 right-0 left-0 pa3">
-  <nav class="db dt-l w-100 border-box">
+  <nav class="flex flex-row">
     <!-- desktop logo -->
-    <div class="logo-wrapper-mobile dn db-l">
-      <a class="link" href="/">
+    <div class="logo-wrapper-mobile dn inline-flex-l flex-auto self-center">
+      <a class="link ma0" href="/">
         <span class="v-mid dib">
           {% include logos/dcdw-logo-mobile.svg %}
         </span>
       </a>
     </div>
     
-    <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+    <div class="db w-100 w-75-l tc tr-l flex-auto self-center">
       {% if page.url == "/" %}
         <ul class="list ma0 pl0 dn db-l">
           {% for link in site.data.navigation.holding-site-nav %}
@@ -32,12 +32,12 @@
       {% endif %}
 
       <!--  mobile logo & burger menu -->
-      <div class="logo-wrapper-mobile db dn-l">
+      <div class="logo-wrapper-mobile db dn-l flex-auto self-center">
         <a class="ma0 dib link fl" href="/">
           <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
         </a>
         <div class="dib fr">
-          <div class="menu-btn">&#9776; Menu</div>
+          <div class="menu-btn ma0">&#9776; Menu</div>
         </div>
       </div>
     </div>
