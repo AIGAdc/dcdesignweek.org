@@ -10,7 +10,7 @@
     </div>
     
     <div class="db w-100 w-75-l tc tr-l flex-auto self-center">
-      {% if page.url == "/" %}
+      {% if page.url == "/home" %}
         <ul class="list ma0 pl0 dn db-l">
           {% for link in site.data.navigation.holding-site-nav %}
           <li class="dib link">
@@ -28,7 +28,7 @@
               <a href="{{ link.url }}" class="btn btn--header-link black-60 ttu fw6">{{ link.title }}</a>
             </li>
           {% endfor %}
-          </ul>
+        </ul>
       {% endif %}
 
       <!--  mobile logo & burger menu -->
