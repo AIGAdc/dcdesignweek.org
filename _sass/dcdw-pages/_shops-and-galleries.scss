@@ -1,7 +1,32 @@
 /* styling for the two main shops */
-.pop-up-shop-bg-wrapper {
-  top: -200px;
-  right: -140px;
+.pop-up-shop-bg {
+  left: -100px;
+  right: -100px;
+  top: 0px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.pop-up-shop-bg img {
+  min-width: 800px;
+}
+
+@media screen and (min-width: 700px) {
+  .pop-up-shop-bg {
+    left: 0;
+    right: 0;
+    top: -75px;
+  }
+  .pop-up-shop-bg img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pop-up-shop-bg {
+    left: 50px;
+    top: 0;
+  }
 }
 
 .get-out-the-vote-bg-wrapper {
@@ -13,20 +38,20 @@
 .dcdw-get-out-the-vote-content,
 .dcdw-about-content {
   border: solid 3px $dcdw-blue;
-  box-shadow: 15px 20px $dcdw-blue;
-  transition: box-shadow 100ms ease-in-out;
+  box-shadow: 20px 25px $dcdw-orange;
+  transition: all 100ms ease-out;
 }
 
 .dcdw-pop-up-shop-content:hover,
 .dcdw-get-out-the-vote-content:hover,
 .dcdw-about-content:hover {
   border: solid 3px $dcdw-blue;
-  box-shadow: 0px 0px $dcdw-blue;
+  box-shadow: 0px 0px $dcdw-orange;
 }
 
 @media screen and (min-width: 960px) {
-  .pop-up-shop-bg-wrapper {
-    right: -100px;
+  .pop-up-shop-bg {
+    
   }
 
   .get-out-the-vote-bg-wrapper {
@@ -35,9 +60,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .pop-up-shop-bg-wrapper {
-    right: -140px;
-    top: -275px;
+  .pop-up-shop-bg {
+
   }
 
   .get-out-the-vote-bg-wrapper {

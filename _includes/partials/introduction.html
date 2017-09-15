@@ -1,7 +1,5 @@
-<article class="page-introduction relative">
-  <div class="mw8 center cf pa3 pa4-ns">
-    <div class="fl w-100">
-      {{ page.content | markdownify }}
-    </div>
-  </div>
-</article>
+<div class="page-introduction fl w-100 mv5 mv6-ns">
+  <h1 class="ma0 f3 f2-m f1-l db">{{page.introduction-title}}</h1>
+  <hr>
+  <span class="ma0 f4 f3-ns lh-copy black-80">{{page.introduction-body-text | markdownify }}</span>
+</div>
