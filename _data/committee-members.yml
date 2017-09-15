@@ -1,3 +1,5 @@
+# This data yml file will loop through the DCDW Committee members and display them in a 3 column grid. 
+
 # 2017 committee
 2017-committee:
   - image: /uploads/DanRader-02dce4.jpg

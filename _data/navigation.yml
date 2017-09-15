@@ -1,3 +1,5 @@
+# This data yml file will loop through the different navigations of the DCDW website.
+
 # primary nav
 primary-nav:
   - title: "Events"

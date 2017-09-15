@@ -1,3 +1,5 @@
+# This data yml file will loop through the DCDW creative team and display them in a 3 column grid. 
+
 # 2017 creative team
 2017-team:
   - image:

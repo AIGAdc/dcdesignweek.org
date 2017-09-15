@@ -1,0 +1,60 @@
+  </div>
+  {% include _global/footer.html %}
+</body>
+
+<!-- scripts -->
+<script type="text/javascript" src="/assets/js/app.js"></script>
+
+<!-- settings for interlocking illustrations on homepage 
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.illustration-1-wrapper').scrollToFixed({
+    marginTop: $('.global-header').outerHeight() + -50,
+    limit: $('.homepage-partners').offset().top - 850,
+    zIndex: -999,
+  });
+  $('.illustration-2-wrapper').scrollToFixed({
+    marginTop: $('.global-header').outerHeight() + -50,
+    limit: $('.homepage-partners').offset().top - 850,
+    zIndex: -999,
+  });
+  $('.illustration-3-wrapper').scrollToFixed({
+    marginTop: $('.global-header').outerHeight() + -50,
+    limit: $('.homepage-partners').offset().top - 850,
+    zIndex: -999,
+  });
+});
+</script>
+-->
+
+{% if page.url == "/" or "/about/" or "/volunteers/" %}
+<!-- smooth scroll script used on the landing page email sign ups -->
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    // Selectors
+    ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+    header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+    // Speed & Easing
+    speed: 750, // Integer. How fast to complete the scroll in milliseconds
+    offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+    easing: 'easeInOutCubic', // Easing pattern to use
+    customEasing: function (time) {}, // Function. Custom easing pattern
+
+    // Callback API
+    before: function () {}, // Callback to run before scroll
+    after: function () {} // Callback to run after scroll
+  });
+</script>
+{% endif %}
+
+<script type="text/javascript">
+  instafetch.init({
+    accessToken: '1692373042.1677ed0.0b5d80208b9a48d1b79820c807e86a4e',
+    target: 'instafetch',
+    numOfPics: 18,
+    caption: false
+  });
+</script>
+
+</html>
