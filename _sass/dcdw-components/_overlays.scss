@@ -17,15 +17,16 @@
 
 .gradient-overlay-blurred {
   background-image: linear-gradient(-223deg, $dcdw-orange-faint, $dcdw-blue-faint);
-  
   mix-blend-mode: screen;
-    -webkit-filter: blur(1);
+  -webkit-filter: blur(1);
   filter: blur(1);
 }
 
 .gradient-overlay-solid {
   background-image: linear-gradient(-223deg, $dcdw-orange, $dcdw-blue);
   background-size: 150% 150%;
+  z-index: 1;
+  mix-blend-mode: multiply;
 }
 
 .landing-hero {

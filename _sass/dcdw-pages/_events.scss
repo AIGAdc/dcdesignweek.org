@@ -1,5 +1,7 @@
+/* events */
+
 .event-card {
-	min-height: 250px;
+	min-height: 475px;
 }
 
 .event-card-link {
@@ -9,44 +11,7 @@
 	color: $dcdw-blue;
 }
 
-.event-image {
-	max-height: 220px;
-	border: solid 3px #000;
-}
-
-.event-details {
-	border: solid 3px #000;
-	position: relative;
-	top: -5px;
-}
-
-span.event-day,
-span.event-date,
-span.event-date-mobile {
-	box-shadow: 7.5px 7.5px $dcdw-blue;
-	transition: box-shadow 150ms ease-in;
-}
-
-span.event-day:hover,
-span.event-date:hover,
-span.event-date-mobile:hover,
-span.hovered {
-	box-shadow: 0 0 $dcdw-blue;
-}
-
-span.event-day,
-span.event-date-mobile {
-	top: 30px;
-	left: -5px;
-}
-
 span.event-date {
-	top: 70px;
-	left: 0px;
-}
-
-@media screen and (min-width: 768px) {
-	.event-card {
-		min-height: 475px;
-	}
+	top: 25px;
+	left: -25px;
 }

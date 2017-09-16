@@ -1,28 +1,14 @@
-<div class="">
-  {% comment %}
-    span 1: will appear on mobile only. The day and date will be printed on one line. ex: Friday, October 21
-    span 2: displays the day. ex: Friday
-    span 3: displays the date. ex: October, 21
-  {% endcomment %}
-
-  <span class="bbroller event-date-mobile absolute f7 pa2 bg-black white ma0 db dn-l" style="z-index: 2;">
-    {{ posts.event-date | date: "%A, %B %d"}}
+<div class="" data-right-height-content>
+  <!-- event date -->
+  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 dn db-l" style="z-index: 2;">
+    <span class="black">
+      {{ posts.event-date | date: "%A, %B %d"}}
+    </span>
   </span>
 
-  <span class="bbroller event-day absolute f6 f5-ns pa2 bg-black white ma0 dn db-l" style="z-index: 2;">
-    {{ posts.event-date | date: "%A"}}
-  </span>
-
-  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-black white ma0 dn db-l" style="z-index: 2;">
-    {{ posts.event-date | date: "%B, %d"}}
-  </span>
-
-  {% comment %}
-    Event card image has been wrapped within an anchor tag that will allow the user to click on the image and be taken to the single event page.
-  {% endcomment %}
-
-  <div class="event-image overflow-hidden bb bw2 black relative">
-    <div class="image-overlay"></div>
+  <!-- event image -->
+  <div class="event-image overflow-hidden relative gradient-overlay-solid">
+    <div class=""></div>
     <img class="image w-100 v-mid" src="{{ posts.image }}">
   </div>
 
@@ -30,28 +16,13 @@
   <div class="sold-out">
     <marquee>Sold Out!</marquee>
   </div>
-  {% else %}
   {% endif %}
 
-  {% comment %}
-    h3 displays the title of the event .
-    p displays the time and location of the event.
-    i displaysn icon related to the time and lovation of the event.
-  {% endcomment %}
-
+  <!-- event details -->
   <div class="event-details bg-white pa3">
-    <h3 class="bbroller ma0 f6 f5-m f4-l fw4">
-      {{ posts.title }}
-    </h3>
-
-    <hr class="title-divider">
-
-    <p class="bbroller ma0 f6 f5-m f4-l mb1">
-      <i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date:"%l:%M %p"}}
-    </p>
-
-    <p class="ma0 f6 f5-m f4-l">
-      <i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}
-    </p>
+    <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ posts.title }}</span>
+    <hr class="title-divider-blue">
+    <span class="bbroller ma0 f6 f5-m f4-l mb1 db black"><i class="fa fa-clock-o mr1" aria-hidden="true"></i>{{ posts.event-date | date:"%l:%M %p"}}</span>
+    <span class="ma0 f6 f5-m f4-l db black"><i class="fa fa-map-marker mr1" aria-hidden="true"></i>{{posts.event-venue-name}}</span>
   </div>
 </div>
