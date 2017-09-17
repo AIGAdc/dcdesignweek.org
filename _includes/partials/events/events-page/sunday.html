@@ -1,11 +1,5 @@
-{% if posts.is-featured-on-events-page == true %}
-<li class="fl w-100 ph3">
-    {% else %}
-    <li class="fl w-100 w-50-ns ph3">
-{% endif %}
-  <a class="event-card-link black" href="{{posts.url}}">
-    <div class="event-card relative">
-      {% include partials/events/events-card-contents.html %}
-    </div>
-  </a>
-</li>
+<a class="event-card-link black db link" href="{{posts.url}}">
+  <li class="event-card fl w-100 w-third-l relative pv2 pl3 pa3-ns link">
+    {% include partials/events/events-card-contents.html %}
+  </li>
+</a>

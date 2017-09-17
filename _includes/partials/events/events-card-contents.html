@@ -1,26 +1,20 @@
-<div class="ba bw2 dcdw-orange" data-right-height-content>
-  <!-- event date -->
-  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 db" style="z-index: 2;">
-    <span class="black">
-      {{ posts.event-date | date: "%A, %B %d"}}
-    </span>
-  </span>
+<!-- event date -->
+<span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 pa0 db" style="z-index: 2;">
+  <span class="black">{{ posts.event-date | date: "%A, %B %d"}}</span>
+</span>
 
-  <!-- event image -->
-  <div class="event-image overflow-hidden relative h5" style="background-image: url('{{ posts.image }}'); background-size: cover; background-position: center center;"><div class="gradient-overlay"></div>
-  </div>
+<!-- event image -->
+<div class="event-image overflow-hidden relative h5" style="background-image: url('{{ posts.image }}'); background-size: cover; background-position: center center;"><div class="gradient-overlay"></div>
+</div>
 
-  {% if posts.is-sold-out == true %}
-  <div class="sold-out">
-    <marquee>Sold Out!</marquee>
-  </div>
-  {% endif %}
+{% if posts.is-sold-out == true %}
+<div class="sold-out"><marquee>Sold Out!</marquee></div>
+{% endif %}
 
-  <!-- event details -->
-  <div class="event-details bg-white pa3">
-    <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ posts.title }}</span>
-    <hr class="title-divider-blue">
-    <span class="ma0 mt4 f6 f5-m f4-l fw4 mb1 db black">{{ posts.event-date | date:"%l:%M %p"}}</span>
-    <span class="ma0 f6 f5-m f4-l fw4 db black">{{posts.event-venue-name}}</span>
-  </div>
+<!-- event details -->
+<div class="event-details bg-white pa3">
+  <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ posts.title }}</span>
+  <hr class="title-divider-blue">
+  <span class="ma0 mt4 f6 f5-m f4-l fw4 mb1 db black">{{ posts.event-date | date:"%l:%M %p"}}</span>
+  <span class="ma0 f6 f5-m f4-l fw4 db black">{{posts.event-venue-name}}</span>
 </div>

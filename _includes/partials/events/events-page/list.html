@@ -1,13 +1,21 @@
 <section class="kickoff-friday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Friday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Friday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
         {% for posts in site.events %}
           {% if posts.is-kickoff-friday == true %}
-            {% include partials/events/events-page/kickoff-friday.html %}
+            {% if posts.is-featured-on-events-page == true %}
+            <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+            <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
           {% endif %}
         {% endfor %}
       </ul>
@@ -17,14 +25,23 @@
 
 <section class="sunday relative mt5">
   <div class="mw8 center cf pa3">
+    
     <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Sunday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Sunday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="fl w-100 mb4">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-sunday == true %}
-          {% include partials/events/events-page/sunday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -34,14 +51,19 @@
 
 <section class="monday relative mt5">
   <div class="mw8 center cf pa3">
-    <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Monday</h1>
-    </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-monday == true %}
-          {% include partials/events/events-page/monday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -52,13 +74,21 @@
 <section class="tuesday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Tuesday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Tuesday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-tuesday == true %}
-          {% include partials/events/events-page/tuesday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -69,13 +99,21 @@
 <section class="wednesday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Wednesday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Wednesday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-wednesday == true %}
-          {% include partials/events/events-page/wednesday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -86,13 +124,21 @@
 <section class="thursday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Thursday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Thursday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-thursday == true %}
-          {% include partials/events/events-page/thursday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -103,13 +149,21 @@
 <section class="friday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l relative">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Friday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Friday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-friday == true %}
-          {% include partials/events/events-page/friday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
@@ -120,13 +174,21 @@
 <section class="saturday relative mt5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-l relative">
-      <h1 class="bbroller ma0 text-large text-vertical relative">Saturday</h1>
+      <h2 class="bbroller ma0 text-vertical relative">Saturday</h2>
     </div>
-    <div class="event-list-wrapper fl w-100 w-90-l">
+    <div class="event-list-wrapper fl w-100">
       <ul class="list ma0 pa0 cf" data-right-height>
       {% for posts in site.events %}
         {% if posts.is-saturday == true %}
-          {% include partials/events/events-page/saturday.html %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
         {% endif %}
       {% endfor %}
       </ul>
