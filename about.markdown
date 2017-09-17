@@ -2,7 +2,7 @@
 # page meta & seo
 title: About
 description: 
-image: "/uploads/OG_featuredimage.jpg"
+image: "/uploads/OG_featuredimage(2).jpg"
 permalink: "/about/"
 
 introduction-title: About

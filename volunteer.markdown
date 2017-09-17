@@ -4,7 +4,7 @@ date: 2016-08-01 21:34:00 -04:00
 permalink: "/volunteers/"
 position: 5
 description: 
-image: "/uploads/OG_featuredimage.jpg"
+image: "/uploads/OG_featuredimage(2).jpg"
 layout: pages/page-volunteer
 ---
 

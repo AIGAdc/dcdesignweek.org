@@ -26,9 +26,10 @@ dc-design-paragraph-mobile-text: |
   the core of the DMV. We are makers and disruptors, artisans and tech geeks,
   and this October we’re coming together to celebrate. Join us for DC Design Week. This year will be bigger and better than ever with new partners, new venues, new event formats, and new ways to connect with our unique design community. You won't want to miss this.
 
-home-events-header-text: Past Events
+home-events-header-text: Featured Events
 home-events-sub-header-text: 
 home-events-button-text: View Full Schedule
+home-events-link: /events/
 
 home-partners-header-text: Partners & Sponsors
 home-partners-sub-header-text: DC Design Week is produced by AIGA DC, a volunteer-run,
@@ -37,8 +38,8 @@ home-partners-sub-header-text: DC Design Week is produced by AIGA DC, a voluntee
   to make this week of celebration a reality. Major thanks to the following partners
   and sponsors for your support and commitment to the DC design community. We couldn't
   do it without you!
-home-sponsors-link-text: See the Full List
-home-sponsors-link: http://www.dcdesignweek.org/sponsors/
+home-sponsors-link-text: See Full List
+home-sponsors-link: /sponsors/
 
 #page settings
 layout: pages/landing
