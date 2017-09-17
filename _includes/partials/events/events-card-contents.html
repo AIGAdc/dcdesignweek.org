@@ -1,15 +1,13 @@
-<div class="" data-right-height-content>
+<div class="ba bw2 dcdw-orange" data-right-height-content>
   <!-- event date -->
-  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 dn db-l" style="z-index: 2;">
+  <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 db" style="z-index: 2;">
     <span class="black">
       {{ posts.event-date | date: "%A, %B %d"}}
     </span>
   </span>
 
   <!-- event image -->
-  <div class="event-image overflow-hidden relative gradient-overlay-solid">
-    <div class=""></div>
-    <img class="image w-100 v-mid" src="{{ posts.image }}">
+  <div class="event-image overflow-hidden relative gradient-overlay-solid h5" style="background-image: url('{{ posts.image }}'); background-size: cover; background-position: center center;">
   </div>
 
   {% if posts.is-sold-out == true %}

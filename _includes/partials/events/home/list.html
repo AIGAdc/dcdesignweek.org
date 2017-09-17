@@ -6,7 +6,7 @@
     </div>
 
     <div class="fl w-100 mb4">
-      <ul class="list ma0 pa0" data-right-height>     
+      <ul class="list ma0 pa0 cf" data-right-height>     
         {% comment %}
         =====
         The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
@@ -18,18 +18,18 @@
         {% assign sorted_events = (site.events | sort: 'event-date') %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
-            <li class="event-card fl w-100 w-50-m w-third-l relative relative ba bw2 dcdw-orange link" data-right-height-content>
-              <a class="event-card-link black" href="{{posts.url}}">
-                {% include partials/events/events-card-contents.html %}
-              </a>
-            </li>
+            <a class="event-card-link black db link" href="{{posts.url}}">
+              <li class="event-card fl w-100 w-third-l relative pv2 pl3 pa3-ns link">
+                {% include partials/events/events-card-contents.html %}  
+              </li>
+            </a>
           {% endif %}
         {% endfor %}
       </ul>
     </div>
 
     <div class="fl w-100">
-      <a class="btn btn--blue-border dib ma0 bbroller" href="{{page.home-events-link}}">
+      <a class="btn btn--blue-border db dib-ns ma0 bbroller tc tl-ns" href="{{page.home-events-link}}">
         {{page.home-events-button-text}}
       </a>
     </div>

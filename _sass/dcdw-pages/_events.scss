@@ -4,14 +4,7 @@
 	min-height: 475px;
 }
 
-.event-card-link {
-	transition: color 150ms ease-in;
-}
-.event-card-link:hover {
-	color: $dcdw-blue;
-}
-
 span.event-date {
-	top: 25px;
-	left: -25px;
+	top: 50px;
+	left: -5px;
 }
