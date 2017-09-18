@@ -56,7 +56,6 @@ defaults:
     event-venue-address: 
     doors-open: 
     event-start: 
-    event-end:
     is-even-on-home-page: 
     is-even-on-events-page: 
     has-speakers: 
@@ -76,10 +75,10 @@ defaults:
     path: ''
     type: sponsors
   values:
+    sponsor-image:
     sponsor-url: 
     is-featured-on-home-page: 
-    is-featured-on-shops-galleries-page: 
-    sponsor-image: 
+    is-featured-on-shops-galleries-page:  
     is-even-on-home-page: 
     is-first-tier: 
     is-second-tier: 
