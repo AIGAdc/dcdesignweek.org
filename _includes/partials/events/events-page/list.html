@@ -1,29 +1,155 @@
-<section class="kickoff-friday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Friday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
-        {% for posts in site.events %}
-          {% if posts.is-kickoff-friday == true %}
-            {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-            {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-            {% endif %}
-              <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-                {% include partials/events/events-card-contents.html %}
-              </li>
-            </a>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
+<h2> monday </h2>
+{% for event in site.events %}
+{{assign date == posts.event-date | date: %A }}
+  {% if date == "monday" %}
+    {% if posts.is-featured-on-events-page == true %}
+    <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
+    {% else %}
+    <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+    {% endif %}
+      <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
+        {% include partials/events/events-card-contents.html %}
+      </li>
+    </a> 
+  {% endif %}
+{% endfor %}
 
-<section class="sunday">
+<!-- BEGIN dcdw agenda: filters -->
+<div class="dcdw-agenda-filters fl w-100 w-20-l pa4-ns relative">
+  <h6 class="ma0 mb4 lh-copy f6 fw9 tl black-50">
+    Use the filters below to better navigate the agenda by tracks and/or day
+  </h6>
+  <h6 class="ma0 mb2 f6 fw9 ttu tl black-30">
+    Tracks: </h6>
+  <ul class="dcdw-agenda-filters tl ml0 mb4">
+    <li class="list dib db-l tl mr2">
+      <a class="button-agenda tl dib db-l pl2  " href="#" data-filter="*">All</a>
+    </li>
+    <li class="list dib db-l tl mr2">
+      <a class="button-agenda tl dib db-l pl2 general-sessions " href="#" data-filter=".general-sessions">General Sessions</a>
+    </li>
+    <li class="list dib db-l tl mr2">
+      <a class="button-agenda tl dib db-l pl2 analytics-track " href="#" data-filter=".analytics-track">Analytics Track</a>
+    </li>
+    <li class="list dib db-l tl mr2">
+      <a class="button-agenda tl dib db-l pl2 social-track " href="#" data-filter=".social-track">Social Track</a>
+    </li>
+    <li class="list dib db-l tl mr2">
+      <a class="button-agenda tl dib db-l pl2 advanced-sessions " href="#" data-filter=".advanced-sessions">Advanced Sessions</a>
+    </li>
+  </ul>
+
+  <!-- filter days -->
+  <h6 class="ma0 mb2 f6 fw9 ttu tl black-30">Days:</h6>
+  <ul class="dcdw-agenda-filters tl ml0 mb4">
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter="*">All</a>  
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".kick-off-friday">Kickoff Friday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".sunday">Sunday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".monday">Monday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".tuesday">Tuesday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".wednesday">Wednesday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".thursday">Thursday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".friday">Friday</a>
+    </li>
+    <li class="list dib tl mr2">
+      <a class="button-agenda tl dib pl2" href="#" data-filter=".saturday">Saturday</a>
+    </li>
+  </ul>
+</div>
+<!-- END dcdw agenda: filters -->
+
+<div class="dcdw-agenda-list fr w-100 w-80-l pv4 pa4-ns br2" style="background-color: #F1F3F5">
+  <!-- event message -->
+  <div id="dcdw-agenda-empty" style="display:none">
+    There are no events matching these filters
+  </div>
+
+  <!-- event day -->
+  <div class="day tl">
+    <h2 class="dcdw-event-day ma0 f2 fw9 ph4 pv3">
+      Friday, 10 October </h2>
+    <ul class="dcdw-event-list ml0">
+        {% for posts in site.events %}
+        {% if posts.is-kickoff-friday == true %}
+          {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 w-100 relative pa3 link dcdw-event kick-off-friday" href="{{posts.url}}" data-right-height-content>
+          {% else %}
+          <a class="fl w-100 w-50-l relative pa3 link dcdw-event kick-off-friday" href="{{posts.url}}" data-right-height-content>
+          {% endif %}
+            <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+              {% include partials/events/events-card-contents.html %}
+            </li>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- filter -->
+<script type="text/javascript">
+  var filterAgenda = function () {
+    // Show all days
+    $('.day').show();
+
+    // Show all events
+    var events = $('.dcdw-event').show();
+
+    // For every filter groupd, we want to hide events
+    // not matching one of the selected filter values
+    $('ul.dcdw-agenda-filters').each(function () {
+      var filter = $(this).find('.is-checked')
+        .map(function () {
+          return $(this).data('filter');
+        })
+        .toArray()
+        .join(',');
+      if (filter != '') events.not(filter).hide();
+    });
+
+    // Hide any days that have no visible events
+    $('.day').each(function () {
+      if ($(this).find('.dcdw-event:visible').length == 0) $(this).hide();
+    });
+
+    $('#dcdw-agenda-empty').hide();
+    if ($('.day:visible').length == 0) $('#dcdw-agenda-empty').show();
+  };
+
+  $('ul.dcdw-agenda-filters').on('click', 'a', function (event) {
+    event.preventDefault();
+
+    $(this).toggleClass('is-checked');
+
+    // reset the filter for this group when clicking 'All'
+    if ($(this).data('filter') == '*') {
+      $(this).closest('ul').find('.is-checked').removeClass('is-checked');
+    }
+
+    filterAgenda();
+  });
+</script>
+
+
+
+<section >
   <div class="mw8 center cf pa3">
     <div class="fl w-100 relative">
       <h2 class="bbroller ma0 text-vertical">Sunday</h2>
