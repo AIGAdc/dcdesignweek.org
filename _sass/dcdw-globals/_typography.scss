@@ -77,12 +77,14 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 
 .text-vertical {
 	transform: rotate(-90deg);
-	left: 0;
+  left: -250px;
+  top: 105px;
 	right: 0;
 	bottom: 0;
-	margin: 0;
+  margin: 0;
+  text-align: right;
+  position: absolute;
 	max-width: 200px;
-	top: 67px;
 }
 
 .text-shadow {
