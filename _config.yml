@@ -56,6 +56,7 @@ defaults:
     event-venue-address: 
     doors-open: 
     event-start: 
+    event-end:
     is-even-on-home-page: 
     is-even-on-events-page: 
     has-speakers: 
@@ -83,22 +84,6 @@ defaults:
     is-first-tier: 
     is-second-tier: 
     is-third-tier: 
-- scope:
-    path: ''
-    type: dcdw-committee-members
-  values:
-    committee-member-headshot-image: 
-    committee-member-name: 
-    committee-member-title: 
-    committee-member-email: 
-- scope:
-    path: ''
-    type: dcdw-creative-team
-  values:
-    creative-team-member-headshot-image: 
-    creative-team-member-name: 
-    creative-team-member-title: 
-    creative-team-member-portfolio: 
 - scope:
     path: ''
     type: social-media
