@@ -1,325 +1,222 @@
-<h2> monday </h2>
-{% for event in site.events %}
-{{assign date == posts.event-date | date: %A }}
-  {% if date == "monday" %}
-    {% if posts.is-featured-on-events-page == true %}
-    <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-    {% else %}
-    <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-    {% endif %}
-      <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-        {% include partials/events/events-card-contents.html %}
-      </li>
-    </a> 
-  {% endif %}
-{% endfor %}
-
-<!-- BEGIN dcdw agenda: filters -->
-<div class="dcdw-agenda-filters fl w-100 w-20-l pa4-ns relative">
-  <h6 class="ma0 mb4 lh-copy f6 fw9 tl black-50">
-    Use the filters below to better navigate the agenda by tracks and/or day
-  </h6>
-  <h6 class="ma0 mb2 f6 fw9 ttu tl black-30">
-    Tracks: </h6>
-  <ul class="dcdw-agenda-filters tl ml0 mb4">
-    <li class="list dib db-l tl mr2">
-      <a class="button-agenda tl dib db-l pl2  " href="#" data-filter="*">All</a>
-    </li>
-    <li class="list dib db-l tl mr2">
-      <a class="button-agenda tl dib db-l pl2 general-sessions " href="#" data-filter=".general-sessions">General Sessions</a>
-    </li>
-    <li class="list dib db-l tl mr2">
-      <a class="button-agenda tl dib db-l pl2 analytics-track " href="#" data-filter=".analytics-track">Analytics Track</a>
-    </li>
-    <li class="list dib db-l tl mr2">
-      <a class="button-agenda tl dib db-l pl2 social-track " href="#" data-filter=".social-track">Social Track</a>
-    </li>
-    <li class="list dib db-l tl mr2">
-      <a class="button-agenda tl dib db-l pl2 advanced-sessions " href="#" data-filter=".advanced-sessions">Advanced Sessions</a>
-    </li>
-  </ul>
-
-  <!-- filter days -->
-  <h6 class="ma0 mb2 f6 fw9 ttu tl black-30">Days:</h6>
-  <ul class="dcdw-agenda-filters tl ml0 mb4">
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter="*">All</a>  
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".kick-off-friday">Kickoff Friday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".sunday">Sunday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".monday">Monday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".tuesday">Tuesday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".wednesday">Wednesday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".thursday">Thursday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".friday">Friday</a>
-    </li>
-    <li class="list dib tl mr2">
-      <a class="button-agenda tl dib pl2" href="#" data-filter=".saturday">Saturday</a>
-    </li>
-  </ul>
-</div>
-<!-- END dcdw agenda: filters -->
-
-<div class="dcdw-agenda-list fr w-100 w-80-l pv4 pa4-ns br2" style="background-color: #F1F3F5">
-  <!-- event message -->
-  <div id="dcdw-agenda-empty" style="display:none">
-    There are no events matching these filters
+<div class="">
+  <!-- dcdw agenda filter -->
+  <div class="dcdw-agenda-filters fl w-100 w-20-l pa0 pr3-l relative">
+    <!-- filter days -->
+    <h6 class="ma0 mb2 f6 fw9 ttu black-40">Days:</h6>
+    <ul class="dcdw-agenda-filters ma0 pa0 list">
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter="*">All</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-1 }}">{{ page.day-1-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-2 }}">{{ page.day-2-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-3 }}">{{ page.day-3-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-4 }}">{{ page.day-4-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-5 }}">{{ page.day-5-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-6 }}">{{ page.day-6-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-7 }}">{{ page.day-7-label }}</a></li>
+      <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-8 }}">{{ page.day-8-label }}</a></li>
+    </ul>
   </div>
 
-  <!-- event day -->
-  <div class="day tl">
-    <h2 class="dcdw-event-day ma0 f2 fw9 ph4 pv3">
-      Friday, 10 October </h2>
-    <ul class="dcdw-event-list ml0">
-        {% for posts in site.events %}
+  <!-- dcdw agenda list -->
+  <div class="dcdw-agenda-list fl w-100 w-80-l pa0 pl3-l relative">
+    <!-- event message -->
+    <div id="dcdw-agenda-empty" style="display:none">
+      There are no events matching these filters
+    </div>
+
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-1-label }}</h2>
+      {% for posts in site.events %}
         {% if posts.is-kickoff-friday == true %}
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-2-label }}</h2>
+      {% for posts in site.events %}
+        {% if posts.is-sunday == true %}
+        <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link dcdw-event kick-off-friday" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-2 }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link dcdw-event kick-off-friday" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-2 }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
             </li>
           </a>
+        </ul>
         {% endif %}
       {% endfor %}
-    </ul>
-  </div>
-</div>
-
-
-
-<!-- filter -->
-<script type="text/javascript">
-  var filterAgenda = function () {
-    // Show all days
-    $('.day').show();
-
-    // Show all events
-    var events = $('.dcdw-event').show();
-
-    // For every filter groupd, we want to hide events
-    // not matching one of the selected filter values
-    $('ul.dcdw-agenda-filters').each(function () {
-      var filter = $(this).find('.is-checked')
-        .map(function () {
-          return $(this).data('filter');
-        })
-        .toArray()
-        .join(',');
-      if (filter != '') events.not(filter).hide();
-    });
-
-    // Hide any days that have no visible events
-    $('.day').each(function () {
-      if ($(this).find('.dcdw-event:visible').length == 0) $(this).hide();
-    });
-
-    $('#dcdw-agenda-empty').hide();
-    if ($('.day:visible').length == 0) $('#dcdw-agenda-empty').show();
-  };
-
-  $('ul.dcdw-agenda-filters').on('click', 'a', function (event) {
-    event.preventDefault();
-
-    $(this).toggleClass('is-checked');
-
-    // reset the filter for this group when clicking 'All'
-    if ($(this).data('filter') == '*') {
-      $(this).closest('ul').find('.is-checked').removeClass('is-checked');
-    }
-
-    filterAgenda();
-  });
-</script>
-
-
-
-<section >
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Sunday</h2>
     </div>
-    <div class="fl w-100 mb4">
-      <ul class="list ma0 pa0 cf" data-right-height>
-      {% for posts in site.events %}
-        {% if posts.is-sunday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
 
-<section class="monday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Monday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-3-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-monday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-3 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-3 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-  </div>
-</section>
 
-<section class="tuesday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Tuesday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-4-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-tuesday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-4 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-4 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-  </div>
-</section>
 
-<section class="wednesday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Wednesday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-5-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-wednesday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-5 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-5 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-  </div>
-</section>
 
-<section class="thursday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Thursday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-6-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-thursday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-6 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-6 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-  </div>
-</section>
 
-<section class="friday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Friday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-7-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-friday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-7 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-7 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
-  </div>
-</section>
 
-<section class="saturday">
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 relative">
-      <h2 class="bbroller ma0 text-vertical">Saturday</h2>
-    </div>
-    <div class="event-list-wrapper fl w-100">
-      <ul class="list ma0 pa0 cf" data-right-height>
+    <div class="day fl w-100 mb5">
+      <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-8-label }}</h2>
       {% for posts in site.events %}
         {% if posts.is-saturday == true %}
-          {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 w-100 relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-          {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-orange">
-              {% include partials/events/events-card-contents.html %}
-            </li>
-          </a>
+          <ul class="dcdw-event-list ma0 pa0 list">
+            {% if posts.is-featured-on-events-page == true %}
+              <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-8 }}" href="{{posts.url}}" data-right-height-content>
+            {% else %}
+              <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-8 }}" href="{{posts.url}}" data-right-height-content>
+            {% endif %}
+              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+                {% include partials/events/events-card-contents.html %}
+              </li>
+            </a>
+          </ul>
         {% endif %}
       {% endfor %}
-      </ul>
     </div>
   </div>
-</section>
+
+  <!-- filter script -->
+  <script type="text/javascript">
+    var filterAgenda = function () {
+      // Show all days
+      $('.day').show();
+
+      // Show all events
+      var events = $('.dcdw-event').show();
+
+      // For every filter groupd, we want to hide events
+      // not matching one of the selected filter values
+      $('ul.dcdw-agenda-filters').each(function () {
+        var filter = $(this).find('.is-checked')
+          .map(function () {
+            return $(this).data('filter');
+          })
+          .toArray()
+          .join(',');
+        if (filter != '') events.not(filter).hide();
+      });
+
+      // Hide any days that have no visible events
+      $('.day').each(function () {
+        if ($(this).find('.dcdw-event:visible').length == 0) $(this).hide();
+      });
+
+      $('#dcdw-agenda-empty').hide();
+      if ($('.day:visible').length == 0) $('#dcdw-agenda-empty').show();
+    };
+
+    $('ul.dcdw-agenda-filters').on('click', 'a', function (event) {
+      event.preventDefault();
+
+      $(this).toggleClass('is-checked');
+
+      // reset the filter for this group when clicking 'All'
+      if ($(this).data('filter') == '*') {
+        $(this).closest('ul').find('.is-checked').removeClass('is-checked');
+      }
+
+      filterAgenda();
+    });
+  </script>
+</div>
