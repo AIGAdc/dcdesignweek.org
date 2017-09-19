@@ -1,8 +1,7 @@
-{% if page.has-video == true %}
-<section class="single-event-video mb3 overflow-hidden">
-  <div class="container clearfix p3">
+{% if page.video-embed %}
+<section class="single-event-video mb5 overflow-hidden">
+  <div class="mw8 center cf p3">
     {{ page.video-embed }}
   </div>
 </section>
-{% else %}
 {% endif %}

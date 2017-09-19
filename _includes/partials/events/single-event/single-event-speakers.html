@@ -1,10 +1,9 @@
-{% if page.has-speakers == true %}
-<section class="single-event-speakers mt5">
-  <div class="mw8 center cf pa4 pa3-ns">
-    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
-    <div class="fl w-100 w-80-ns">
-      <h1 class="bbroller m0 text-large">{{page.presenter-section-header}}</h1>
-      <hr class="title-divider">
+{% if page.speaker-header %}
+<section class="single-event-speakers mv5">
+  <div class="mw8 center cf pa3">
+    <div class="fl w-100">
+      <span class="bbroller ma0 db">{{page.speaker-header}}</span>
+      <hr class="title-divider-blue">
       {% for speaker in page.speakers %}
         <div class="event-speaker-wrapper pv4">
           <div class="fl w-100 w-30-ns py3">
@@ -12,26 +11,21 @@
               <div class="diamond overflow-hidden">
                <div class="diamond-los1">
                  <a class="" href="{{speaker.speaker-link}}" target="_blank">
-                   <div class="speaker-overlay"></div>
+                   <div class="speaker-overlay gradient-overlay"></div>
                    <img class="speaker-portrait" src="{{ speaker.speaker-headshot-image }}"/>
                  </a>
                </div>
               </div>
             </div>
           </div>
-          <div class="single-event-speaker-text fl w-100 w-70-ns text-center pa3">
-            <h3 class="bbroller m0 mb1">
-              {{ speaker.speaker-name }}
-            </h3>
-            <h6 class="m0 mb1 text-uppercase">
-              {{ speaker.speaker-title }}
-            </h6>
-            {{ speaker.speaker-bio-text | markdownify }}
+          <div class="single-event-speaker-text fl w-100 w-70-ns text-center pa3 mt4 mt0-l">
+            <span class="bbroller ma0 mb1 db f3">{{ speaker.speaker-name }}</span>
+            <span class="ma0 db f4 ttu">{{ speaker.speaker-title }}</span>
+            <span class="bbroller ma0 f5 lh-copy db"></span>{{ speaker.speaker-bio-text | markdownify }}</span>
           </div>
         </div>
       {% endfor %}
     </div>
-    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
   </div>
 </section>
 {% endif %}

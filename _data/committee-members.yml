@@ -1,0 +1,86 @@
+# This data yml file will loop through the DCDW Committee members and display them in a 3 column grid. 
+
+# 2017 committee
+2017-committee:
+  - image: /uploads/DanRader-02dce4.jpg
+    name: Dan Rader
+    role: DCDW Executive Director
+    email:
+  - image: http://www.madebywe.org/sites/default/files/styles/collaborators_grid/public/mxwcollaborator_lr.png?itok=0XfisC2e
+    name: Liz Rose Chmela
+    role: Programming Director
+    email:
+  - image: /uploads/Screenshot%202017-07-25%2008.13.31.png
+    name: Sam Adaramola
+    role: Program Lead
+    email:
+  - image: /uploads/Screenshot%202017-07-25%2008.15.14.png
+    name: Freeman Robinson
+    role: Program Lead
+    email:
+  - image: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/067/0b7/145294e.jpg
+    name: Chris Montwill
+    role: Program Lead
+    email:
+  - image: http://dc.aiga.org/wp-content/uploads/2016/08/RaksaYin.jpg
+    name: Raksa Yin
+    role: Creative Lunches Lead
+    email:
+  - image: https://pbs.twimg.com/profile_images/866139284620947456/qp4qVrhU_400x400.jpg
+    name: Jelena Schulz
+    role: Volunteer & Membership Lead
+    email:
+  - image: http://dc.aiga.org/wp-content/uploads/2016/08/TJ-Cichecki.jpg
+    name: TJ Cichecki
+    role: Development Director
+    email:
+  - image: /uploads/MikeObrien.jpg
+    name: Mike O'Brien
+    role: DCDW Marketing Director
+    email:
+  - image: https://api.isl.co/media/CACHE/images/photos/employees/kim_6aa28/1a3470c12c9aa291855fa974c3301159.jpg
+    name: Kim Stockley
+    role: Social Media Lead
+    email:
+  - image: http://agencychief.com/sites/default/files/styles/large_square/public/Justin_McCarthy_1.jpg?itok=9gYhOsNL
+    name: Justin Mccarthy
+    role: Copy Writer
+    email:
+  - image: http://dc.aiga.org/wp-content/uploads/2017/07/BicVu.jpg
+    name: Bic Vu
+    role: Photo & Video Lead
+    email:
+
+# 2016 committee
+2016-committee:
+  - image: /uploads/DanRader-02dce4.jpg
+    name: Dan Rader
+    role: DCDW Chair
+    email: dan@aigadc.org
+  - image: /uploads/RicaRosario.jpg
+    name: Rica Rosario
+    role: President, AIGA DC
+    email: rica@aigadc.org
+  - image: /uploads/TJ-Cichecki-48cae4.jpg
+    name: TJ Cicheki
+    role: Programming
+    email: tj@aigadc.org
+  - image: /uploads/LaraNoelKey.jpg
+    name: Lara Noel Key
+    role: Creative Lunches
+    email: lara@aigadc.org
+  - image: /uploads/BlakeWilton.jpg
+    role: Programming
+    email: blake@aigadc.org
+  - image: /uploads/CaseyCavanagh.jpg
+    name: Casey Cavanagh
+    role: Marketing & Comms
+    email: casey@aigadc.org
+  - image: /uploads/KaterinaMartchouk.jpg
+    name: Katerina Martchouk
+    role: Creative Lunches
+    email: katerina@aigadc.org
+  - image: /uploads/MaegKeane-d1573b.jpg
+    name: Maeg Keane
+    role: Programming
+    email: maeg@aigadc.org

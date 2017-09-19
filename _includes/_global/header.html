@@ -1,0 +1,43 @@
+<header class="global-header bg-white fixed top-0 right-0 left-0 pa3">
+  <nav class="flex flex-row">
+    <!-- desktop logo -->
+    <div class="logo-wrapper-mobile dn inline-flex-l flex-auto self-center">
+      <a class="link ma0" href="/">
+        <span class="v-mid dib">{% include logos/dcdw-logo-mobile.svg %}</span>
+      </a>
+    </div>
+    
+    <div class="db w-100 w-75-l tc tr-l flex-auto self-center">
+      {% if page.url == "/home" %}
+        <ul class="list ma0 pl0 dn db-l">
+          {% for link in site.data.navigation.holding-site-nav %}
+          <li class="dib link">
+            <a href="{{ link.url }}" class="btn btn--header-link black">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+          <li class="dib link">
+            <a data-scroll href="#email-sign-up" class="btn btn--email-list">Email List</a>
+          </li>
+        </ul>
+      {% else %}
+        <ul class="list ma0 pl0 dn db-l">
+          {% for link in site.data.navigation.primary-nav %}
+            <li class="dib link">
+              <a href="{{ link.url }}" class="btn btn--header-link black ttu fw6">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <!--  mobile logo & burger menu -->
+      <div class="logo-wrapper-mobile db dn-l flex-auto self-center">
+        <a class="ma0 dib link fl" href="/">
+          <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
+        </a>
+        <div class="dib fr">
+          <div class="menu-btn ma0 f2 fw9">&#9776;</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

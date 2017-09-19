@@ -1,0 +1,15 @@
+<section class="sustaining-partners mb5">
+  <div class="fl w-100 w-80-ns">
+    <span class="bbroller ma0 f4 f3-ns">{{page.first-tier-header-text | markdownify}}</span>
+    <hr class="title-divider-blue">
+    <span class="ma0 black-80 f5 f4-ns lh-copy">{{page.first-tier-sub-header-text | markdownify}}</span>
+
+    <ul class="list ma0 pa0 mt5">
+      {% for posts in site.sponsors %}
+        {% if posts.is-first-tier == true %}
+          {% include partials/sponsors/sponsors-contents.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

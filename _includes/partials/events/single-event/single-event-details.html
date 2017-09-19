@@ -1,41 +1,38 @@
-{% if page.has-speakers == true %}
+{% if page.speaker-header %}
 <section class="single-event-details">
 {% else %}
-<section class="single-event-details mb4">
+<section class="single-event-details mb5">
 {% endif %}
-  <div class="mw8 center cf pa4 pa3-ns">
+  <div class="mw8 center cf pa3">
     <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
     <div class="fl w-100 w-80-ns">
-      <h3 class="bbroller m0 text-large">Details</h3>
-      <hr class="title-divider">
-      <div class="sm-col sm-col-12 md-col-5 pr2">
-        <h4 class="bbroller m0 text-lowercase text-small fw-extrabold py2">
+      <span class="bbroller ma0 f3">Details</span>
+      <hr class="title-divider-blue">
+      <div class="fl w-100 w-50-ns pr2">
+        <span class="bbroller ma0 f4 py2">
           Date &amp; Time
-        </h4>
-        <p class="m0 text-small">
-          {{ page.event-date | date: "%A"}}
+        </span>
+        <p class="ma0">
+          {{ page.event-date | date: "%A, %B %d"}}
         </p>
-        <p class="m0 text-small">
-         {{ page.event-date | date: "%B %d"}}
-        </p>
-        <p class="m0 text-small">
-           {{ page.event-date | date: "%l:%M %p"}}
-        </p>
-        <p class="additional-event-detail m0 fw-bold charcoal">
+        <p class="ma0">
           {{ page.doors-open }}
         </p>
-        <p class="additional-event-detail m0 fw-bold charcoal">
+        <p class="ma0">
           {{ page.event-start }}
         </p>
+        <p class="ma0">
+          {{ page.event-end }}
+        </p>
       </div>
-      <div class="sm-col sm-col-12 md-col-7 pr2">
-        <h4 class="bbroller m0 text-lowercase text-small fw-extrabold py2">
+      <div class="fl w-100 w-50-ns pr2">
+        <span class="bbroller ma0 f4 py2">
           Venue
-        </h4>
-        <p class="m0 text-small">
+        </span>
+        <p class="ma0">
           {{ page.event-venue-name }}
         </p>
-        <p class="m0 text-small">
+        <p class="ma0">
           <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-venue-address }}</a>
         </p>
       </div>

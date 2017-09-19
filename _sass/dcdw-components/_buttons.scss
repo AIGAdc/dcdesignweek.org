@@ -1,36 +1,4 @@
-/**
- * buttons
- */
-
-/* global button + additional colors */
-a.button {
-  border-top: none;
-  border-left: none;
-  cursor: pointer;
-  padding: 10px 17px;
-  font-size: 18px;
-  transition: all $timing-200 ease-in-out;
-  box-shadow: 12px 14px black;
-
-  &.button-white {
-    background: white;
-    color: $dcdw-blue;
-  }
-
-  &.button-blue {
-    background: $dcdw-blue;
-    color: white;
-  }
-
-  &.button-white:hover {
-    box-shadow: none;
-  }
-
-  &.button-white:active {
-    background-color: black;
-    color: white;
-  }
-}
+/* buttons */
 
 /* underline button */
 a.blue-underline {
@@ -55,14 +23,14 @@ a.header-link:hover {
   transition: all $timing-200 ease-out;
   font-size: 16px;
   padding: 12px 18px;
+  text-decoration: none;
+  font-weight: $fw6;
 
   // mobile nav links
   &--mobile-nav-link {
-  
   }
 
   &--mobile-nav-link:hover {
-
   }
 
   // underline links
@@ -101,6 +69,28 @@ a.header-link:hover {
 
   &--email-list:hover {
     border: solid 2px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
+
+  // blue button
+  &--blue-border {
+    border: solid 4px $dcdw-blue;
+  }
+
+  &--blue-border:hover {
+    border: solid 4px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
+
+  // white button
+  &--white-border {
+    border: solid 4px $white;
+  }
+
+  &--white-border:hover {
+    border: solid 4px $dcdw-orange;
     background-color: $dcdw-orange;
     color: $white;
   }

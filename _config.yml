@@ -31,11 +31,33 @@ defaults:
     path: ''
     type: events
   values:
-    layout: singles/event
-    title: 
+    Section-1: Page Meta & SEO
+    title:
     description: 
-    image: 
-    og-image: 
+    image: "/uploads/OG_featuredimage(2).jpg"
+    Section-2: Event Details
+    single-event-header-image:  
+    video-embed: 
+    event-date: 
+    event-venue-name: 
+    event-venue-directions: 
+    event-venue-address: 
+    event-start-time:
+    event-end-time:
+    Section-3: Text & URL's For Event Buttons
+    left-button-link: 
+    left-button-text:  
+    right-button-link: 
+    right-button-text:   
+    Section-4: Content for Speakers
+    speaker-header:
+    speakers:
+    - speaker-headshot-image: 
+      speaker-link: 
+      speaker-name: 
+      speaker-title: 
+      speaker-bio-text: 
+    Section-5: Single Event Conditionals. Please Select All That Apply.
     is-sold-out: 
     is-featured-on-home-page: 
     is-featured-on-events-page: 
@@ -46,59 +68,21 @@ defaults:
     is-wednesday: 
     is-thursday: 
     is-friday: 
-    is-saturday: 
-    single-event-header-image: 
-    has-video: 
-    video-embed: 
-    event-date: 
-    event-venue-name: 
-    event-venue-directions: 
-    event-venue-address: 
-    doors-open: 
-    event-start: 
-    is-even-on-home-page: 
-    is-even-on-events-page: 
-    has-speakers: 
-    presenter-section-header: 
-    speakers:
-    - speaker-headshot-image: 
-      speaker-link: 
-      speaker-name: 
-      speaker-title: 
-      speaker-bio-text: 
-    left-button-link: 
-    left-button-text: 
-    has-right-button: 
-    right-button-link: 
-    right-button-text: 
+    is-saturday:
+    Section-6: Post Layout
+    layout: singles/event
 - scope:
     path: ''
     type: sponsors
   values:
+    sponsor-image:
     sponsor-url: 
     is-featured-on-home-page: 
-    is-featured-on-shops-galleries-page: 
-    sponsor-image: 
+    is-featured-on-shops-galleries-page:  
     is-even-on-home-page: 
     is-first-tier: 
     is-second-tier: 
     is-third-tier: 
-- scope:
-    path: ''
-    type: dcdw-committee-members
-  values:
-    committee-member-headshot-image: 
-    committee-member-name: 
-    committee-member-title: 
-    committee-member-email: 
-- scope:
-    path: ''
-    type: dcdw-creative-team
-  values:
-    creative-team-member-headshot-image: 
-    creative-team-member-name: 
-    creative-team-member-title: 
-    creative-team-member-portfolio: 
 - scope:
     path: ''
     type: social-media

@@ -11,16 +11,20 @@
 @import "dcdw-components/header";
 @import "dcdw-components/buttons";
 @import "dcdw-components/navigation";
+@import "dcdw-components/events-filter";
 @import "dcdw-components/diamond-images";
+@import "dcdw-components/overlays";
+@import "dcdw-components/footer";
 
 @import "dcdw-globals/globals";
 @import "dcdw-globals/typography";
+@import "dcdw-globals/animations";
 
 @import "dcdw-pages/landing";
 @import "dcdw-pages/about";
 @import "dcdw-pages/events";
 @import "dcdw-pages/homepage";
-@import "dcdw-pages/shops-and-galleries";
+@import "dcdw-pages/pop-up-shop";
 @import "dcdw-pages/single-event";
 @import "dcdw-pages/sponsors";
 @import "dcdw-pages/thank-you-2016";
