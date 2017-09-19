@@ -1,7 +1,7 @@
 ---
 title: Test 2017
 date: 2017-09-19 02:32:00 -04:00
-single-event-header-image: "/uploads/acreativedc2event.jpg"
+image: "/uploads/acreativedc2event.jpg"
 event-date: 2017-09-19 04:00:00 -04:00
 event-venue-name: Venue Name
 event-start-time: 12am
@@ -11,10 +11,12 @@ right-button-text: Button for Members
 speaker-header: Speakers
 speakers:
 - speaker-headshot-image: "/uploads/marcusrelacion_480.jpg"
+  speaker-link: Provide a link to the speakers website.
   speaker-name: Speaker Name
   speaker-title: Speaker Title
   speaker-bio-text: Speaker Bio
 is-sunday: true
+single-event-header-image: "/uploads/acreativedc2event.jpg"
 ---
 
 ## 5-9 Design: What Drives Us Beyond Traditional Workday
