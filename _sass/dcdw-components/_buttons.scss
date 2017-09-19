@@ -83,4 +83,15 @@ a.header-link:hover {
     background-color: $dcdw-orange;
     color: $white;
   }
+
+  // white button
+  &--white-border {
+    border: solid 4px $white;
+  }
+
+  &--white-border:hover {
+    border: solid 4px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
 }

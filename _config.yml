@@ -53,7 +53,7 @@ defaults:
     right-button-text:   
 
     Section-4: Content for Speakers
-    presenter-section-header:
+    speaker-header:
     speakers:
     - speaker-headshot-image: 
       speaker-link: 
