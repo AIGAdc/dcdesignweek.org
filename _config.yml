@@ -31,34 +31,38 @@ defaults:
     path: ''
     type: events
   values:
-    Section-1: Page Meta & SEO
+    Page-Meta-&-SEO: /////
     title:
     description: 
     image: "/uploads/OG_featuredimage(2).jpg"
-    Section-2: Event Details
-    single-event-header-image:  
+
+    Event-Details: ///// If no video embed code is provides the video section on the page will be hidden.
+    single-event-header-image: Displays the background hero image of the event.
     video-embed: 
-    event-date: 
-    event-venue-name: 
-    event-venue-directions: 
-    event-venue-address: 
-    event-start-time:
-    event-end-time:
-    Section-3: Text & URL's For Event Buttons
-    left-button-link: 
+    event-date: Displays the date of the event.
+    event-venue-name: Displays the name of the venue.
+    event-venue-directions: Displays the address of the venues.
+    event-venue-address: Provide a link to google maps to help navigate attendees.
+    event-start-time: Displays the start time of the event.
+    event-end-time: Displays the end time of the event.
+
+    Text-&-URLS-For-Event-Buttons: ///// If no button text is provided the buttons on the page will be hidden.
+    left-button-link: Provide a link for non-members
     left-button-text:  
-    right-button-link: 
-    right-button-text:   
-    Section-4: Content for Speakers
+    right-button-link: Provide a link for members
+    right-button-text:
+
+    Speaker-Content: ///// If no text is provided for the speaker header field, the speaker section on the page will be hidden.
     speaker-header:
     speakers:
-    - speaker-headshot-image: 
-      speaker-link: 
-      speaker-name: 
-      speaker-title: 
-      speaker-bio-text: 
-    Section-5: Single Event Conditionals. Please Select All That Apply.
-    is-sold-out: 
+    - speaker-headshot-image: Displays the speakers portait.
+      speaker-link: Provide a link to the speakers website.
+      speaker-name: Displays the speakers name.
+      speaker-title: Displays the speakers professional title
+      speaker-bio-text: Displays the speakers bio.
+
+    Single-Event-Conditionals: ///// Select all fields that apply to event.
+    is-sold-out:
     is-featured-on-home-page: 
     is-featured-on-events-page: 
     is-kickoff-friday: 
@@ -69,7 +73,6 @@ defaults:
     is-thursday: 
     is-friday: 
     is-saturday:
-    Section-6: Post Layout
     layout: singles/event
 - scope:
     path: ''
