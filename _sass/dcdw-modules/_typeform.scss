@@ -8,10 +8,10 @@ iframe#typeform-full {
 }
 
 #typeform input[type="text"] {
-  border-color: blue !important;
+  border-color: $dcdw-blue !important;
 }
 
 iframe {
-  outline: 3px solid black !important;
+  outline: 3px solid $dcdw-orange !important;
   width: 100% !important;
 }

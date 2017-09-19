@@ -4,11 +4,9 @@ title: Home
 description: 
 image: "/uploads/OG_featuredimage(2).jpg"
 permalink: "/"
-
 divider-1: Introduction
 introduction-title:
 introduction-body-text:
-
 divider-2: DC is Design Section 
 dc-design-header-text: DC is Design
 dc-design-paragraph-1-text: |
@@ -27,13 +25,11 @@ dc-design-paragraph-mobile-text: |
   the next startup, or solving problems at scale through government, design is at
   the core of the DMV. We are makers and disruptors, artisans and tech geeks,
   and this October we’re coming together to celebrate. Join us for DC Design Week. This year will be bigger and better than ever with new partners, new venues, new event formats, and new ways to connect with our unique design community. You won't want to miss this.
-
 divider-3: Events Section
 home-events-header-text: Featured Events
 home-events-sub-header-text: 
 home-events-button-text: View Full Schedule
 home-events-link: /events/
-
 divider-4: Sponsors Section
 home-partners-header-text: Partners & Sponsors
 home-partners-sub-header-text: DC Design Week is produced by AIGA DC, a volunteer-run,
@@ -46,5 +42,5 @@ home-sponsors-link-text: See Full List
 home-sponsors-link: /sponsors/
 
 #page settings
-layout: pages/landing
+layout: pages/home
 ---
