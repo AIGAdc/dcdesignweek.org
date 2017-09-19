@@ -1,13 +1,10 @@
 ---
-# page meta & seo
 title: Events
+permalink: "/events/"
 description: 
 image: "/uploads/OG_featuredimage(2).jpg"
-permalink: "/events/"
-
 introduction-title: Events
-introduction-body-text:
-
+introduction-body-text: 
 day-1: kickoff-friday
 day-1-label: Kickoff Friday
 day-2: sunday
@@ -24,7 +21,6 @@ day-7: friday
 day-7-label: Friday
 day-8: saturday
 day-8-label: Saturday
-
-#page settings
 layout: pages/events
 ---
+
