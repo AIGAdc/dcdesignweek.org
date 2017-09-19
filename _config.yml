@@ -2,12 +2,6 @@
 title: DC Design Week 2017
 timezone: America/New_York
 collections:
-  dcdw-committee-members:
-    title: DCDW-Committee-Members
-    output: true
-  dcdw-creative-team:
-    title: DCDW-Creative-Team
-    output: true
   events:
     title: Events
     output: true
@@ -31,7 +25,6 @@ defaults:
     path: ''
     type: events
   values:
-<<<<<<< HEAD
     Page-Meta-&-SEO: /////
     title:
     description: 
@@ -55,28 +48,6 @@ defaults:
 
     Speaker-Content: ///// If no text is provided for the speaker header field, the speaker section on the page will be hidden.
     speaker-header:
-=======
-    Section-1: Page Meta & SEO
-    title: 
-    description: 
-    image: "/uploads/OG_featuredimage(2).jpg"
-    Section-2: Event Details
-    single-event-header-image: 
-    video-embed: 
-    event-date: 
-    event-venue-name: 
-    event-venue-directions: 
-    event-venue-address: 
-    event-start-time: 
-    event-end-time: 
-    Section-3: Text & URL's For Event Buttons
-    left-button-link: 
-    left-button-text: 
-    right-button-link: 
-    right-button-text: 
-    Section-4: Content for Speakers
-    speaker-header: 
->>>>>>> cd1adec3924ad058bd0bc08a374235cd31c6e243
     speakers:
     - speaker-headshot-image: Displays the speakers portait.
       speaker-link: Provide a link to the speakers website.
@@ -95,12 +66,7 @@ defaults:
     is-wednesday: 
     is-thursday: 
     is-friday: 
-<<<<<<< HEAD
     is-saturday:
-=======
-    is-saturday: 
-    Section-6: Post Layout
->>>>>>> cd1adec3924ad058bd0bc08a374235cd31c6e243
     layout: singles/event
 - scope:
     path: ''
