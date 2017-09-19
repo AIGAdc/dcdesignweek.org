@@ -1,13 +1,10 @@
 ---
-# page meta & seo
 title: Volunteer
+permalink: "/volunteers/"
 description: 
 image: "/uploads/OG_featuredimage(2).jpg"
-permalink: "/volunteers/"
-
 introduction-title: Volunteer
-introduction-body-text:
-
-#page settings
+introduction-body-text: 
 layout: pages/volunteer
 ---
+
