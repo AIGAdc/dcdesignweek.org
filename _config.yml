@@ -35,7 +35,6 @@ defaults:
     title:
     description: 
     image: "/uploads/OG_featuredimage(2).jpg"
-
     Section-2: Event Details
     single-event-header-image:  
     video-embed: 
@@ -45,13 +44,11 @@ defaults:
     event-venue-address: 
     event-start-time:
     event-end-time:
-
     Section-3: Text & URL's For Event Buttons
     left-button-link: 
     left-button-text:  
     right-button-link: 
     right-button-text:   
-
     Section-4: Content for Speakers
     speaker-header:
     speakers:
@@ -60,7 +57,6 @@ defaults:
       speaker-name: 
       speaker-title: 
       speaker-bio-text: 
-    
     Section-5: Single Event Conditionals. Please Select All That Apply.
     is-sold-out: 
     is-featured-on-home-page: 
@@ -73,7 +69,6 @@ defaults:
     is-thursday: 
     is-friday: 
     is-saturday:
-
     Section-6: Post Layout
     layout: singles/event
 - scope:

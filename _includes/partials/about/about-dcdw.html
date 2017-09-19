@@ -4,15 +4,16 @@
     <div class="dcdw-about-content fl w-100 w-75-m w-60-l pa4 bg-white mv5 mb6-ns">
       <a href="http://dc.aiga.org/" target="_blank" style="text-decoration: none;">
         <div class="dcdw-about-content-image-wrapper">
-          <img class="v-mid w-100 noise" src="{{ page.dcdw-about-content-image }}">
+          <img class="v-mid w-50" src="{{ page.dcdw-about-content-image }}">
         </div>
         <span class="ma0 mt4 db f3 f2-ns fw9 lh-title black">{{ page.dcdw-about-content-body-header | markdownify }}</span>
-        <span class="ma0 mt4 db f6 f5-ns fw4 lh-copy black">{{ page.dcdw-about-content-body-text | markdownify }}<a href="http://dc.aiga.org/" target="_blank" class="btn btn btn--blue-border mt4 dib link fw6">{{ page.dcdw-about-content-button-text }}</a>
+        <span class="ma0 mt4 db f6 f5-ns fw4 lh-copy black">{{ page.dcdw-about-content-body-text | markdownify }}<a href="http://dc.aiga.org/" target="_blank" class="btn btn--blue-border mt4 dib link fw6">{{ page.dcdw-about-content-button-text }}</a>
         </span>
       </a>
     </div>
-    <div class="dcdw-about-bg absolute gradient-overlay noise" style="z-index: -9999;">
-      <img class="v-mid w-100 gradient-overlay" src="{{ page.dcdw-about-image }}">
+    <div class="dcdw-about-bg absolute noise" style="z-index: -9999;">
+      <div class="gradient-overlay"></div>
+      <img class="v-mid w-100" src="{{ page.dcdw-about-image }}">
     </div>
   </div>
 </section>
