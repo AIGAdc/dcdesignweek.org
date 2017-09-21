@@ -10,18 +10,18 @@
             <div class="diamond-image-border mt4 relative">
               <div class="diamond overflow-hidden">
                <div class="diamond-los1">
-                 <a class="" href="{{speaker.speaker-link}}" target="_blank">
+                 <a class="" href="{{speaker.link}}" target="_blank">
                    <div class="speaker-overlay gradient-overlay"></div>
-                   <img class="speaker-portrait" src="{{ speaker.speaker-headshot-image }}"/>
+                   <img class="speaker-portrait" src="{{ speaker.headshot-image }}"/>
                  </a>
                </div>
               </div>
             </div>
           </div>
           <div class="single-event-speaker-text fl w-100 w-70-ns text-center pa3 mt4 mt0-l">
-            <span class="bbroller ma0 mb1 db f3">{{ speaker.speaker-name }}</span>
-            <span class="ma0 db f4 ttu">{{ speaker.speaker-title }}</span>
-            <span class="bbroller ma0 f5 lh-copy db"></span>{{ speaker.speaker-bio-text | markdownify }}</span>
+            <span class="bbroller ma0 mb1 db f3">{{ speaker.name }}</span>
+            <span class="ma0 db f4 ttu">{{ speaker.title }}</span>
+            <span class="bbroller ma0 f5 lh-copy db"></span>{{ speaker.bio-text | markdownify }}</span>
           </div>
         </div>
       {% endfor %}

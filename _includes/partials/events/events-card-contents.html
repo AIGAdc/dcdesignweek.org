@@ -1,10 +1,10 @@
 <!-- event date -->
 <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 pa0 db" style="z-index: 2;">
-  <span class="black">{{ posts.event-details.event-date | date: "%A, %B %d"}}</span>
+  <span class="black">{{ post.date | date: "%A, %B %d"}}</span>
 </span>
 
 <!-- event image -->
-<div class="event-image overflow-hidden relative h5" style="background-image: url('{{ posts.event-seo.og-image }}'); background-size: cover; background-position: center center;"><div class="gradient-overlay"></div>
+<div class="event-image overflow-hidden relative h5" style="background-image: url('{{ posts.image }}'); background-size: cover; background-position: center center;"><div class="gradient-overlay"></div>
 </div>
 
 <!-- event sold out -->
@@ -14,8 +14,8 @@
 
 <!-- event details -->
 <div class="event-details bg-white pa3">
-  <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ posts.title }}</span>
+  <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ post.title }}</span>
   <hr class="title-divider-blue">
-  <span class="ma0 mt4 f6 f5-m f4-l fw4 mb1 db black">{{ posts.event-details.event-date | date:"%l:%M %p"}}</span>
-  <span class="ma0 f6 f5-m f4-l fw4 db black">{{posts.event-details.event-venue-name}}</span>
+  <span class="ma0 mt4 f6 f5-m f4-l fw4 mb1 db black">{{ post.event-details.start-time }}</span>
+  <span class="ma0 f6 f5-m f4-l fw4 db black">{{ event-details.venue-name }}</span>
 </div>

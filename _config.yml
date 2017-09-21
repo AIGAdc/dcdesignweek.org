@@ -37,10 +37,10 @@ defaults:
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
     event-buttons:
-    - left-button-link: Provide a link for non-members
-      left-button-text: 
-      right-button-link: Provide a link for members
-      right-button-text: 
+    - left-button-link: 'Provide a link for non-members'
+      left-button-text: ''
+      right-button-link: 'Provide a link for members'
+      right-button-text: ''
     speakers:
     - header: 
     - headshot-image: Displays the speakers portait.
