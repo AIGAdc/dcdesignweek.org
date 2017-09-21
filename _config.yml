@@ -5,6 +5,9 @@ collections:
   events:
     title: Events
     output: true
+    seo:
+      description: 
+      image: 
   jobs:
     title: Jobs
     output: true
