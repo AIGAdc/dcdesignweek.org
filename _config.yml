@@ -25,10 +25,9 @@ defaults:
     path: ''
     type: events
   values:
-    Page-Meta-&-SEO: "/////"
-    title: 
-    description: 
-    image: "/uploads/OG_featuredimage(2).jpg"
+    Page-Meta-&-SEO:
+    - description: 
+      image: "/uploads/OG_featuredimage(2).jpg"
     Event-Details: "///// If no video embed code is provides the video section on
       the page will be hidden."
     video-embed: 
