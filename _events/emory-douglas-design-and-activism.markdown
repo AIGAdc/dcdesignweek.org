@@ -14,9 +14,8 @@ event-details:
 event-buttons:
 - left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
   left-button-text: Button Left
-single-event-conditionals:
-- is-featured-on-home-page: true
-  is-kickoff-friday: true
+is-featured-on-home-page: true
+is-kickoff-friday: true
 ---
 
 Join Emory Douglas, the ex-Minister of Culture for the Black Panthers, in a discussion on the intersection of Design and Activism.
