@@ -1,5 +1,5 @@
 ---
-title: ISL
+title: 'Creative Lunch: ISL'
 date: 2017-09-20 22:07:00 -04:00
 event-date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
