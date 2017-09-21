@@ -42,7 +42,7 @@ defaults:
       right-button-link: Provide a link for members
       right-button-text: 
     speakers:
-    - header:
+    - header: 
     - headshot-image: Displays the speakers portait.
       link: Provide a link to the speakers website.
       name: Displays the speakers name.
