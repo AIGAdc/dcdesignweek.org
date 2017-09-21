@@ -34,8 +34,8 @@ defaults:
     video-embed: 
     event-date: Displays the date of the event.
     event-venue-name: Displays the name of the venue.
-    event-venue-directions: Displays the address of the venues.
-    event-venue-address: Provide a link to google maps to help navigate attendees.
+    event-venue-directions: Provide a link to google maps to help navigate attendees.
+    event-venue-address: Displays the address of the venues.
     event-start-time: Displays the start time of the event.
     event-end-time: Displays the end time of the event.
     Text-&-URLS-For-Event-Buttons: "///// If no button text is provided the buttons

@@ -7,15 +7,7 @@
 
     <div class="fl w-100 mb4">
       <ul class="list ma0 pa0 cf" data-right-height>     
-        {% comment %}
-        =====
-        The block below will display any events found inside "site.events" that have been designated as being featured on the home page.
-
-        Additionally, there is a filter applied that will then sort the featured events by date.
-        =====
-        {% endcomment %}
-
-        {% assign sorted_events = (site.events | sort: 'event-date') %}
+        {% assign sorted_events = site.events | sort: event-date %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
             <a class="fl w-100 w-third-l relative pa3 link" href="{{posts.url}}" data-right-height-content>

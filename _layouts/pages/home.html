@@ -1,19 +1,18 @@
 {% include _doctype/open.html %}
-  <article class="page-home overflow-hidden cf relative">
-    <section class="landing-hero vh-50 vh-75-l flex tc mt5 relative noise overflow-hidden">
-      <div class="flex-auto self-center">
-        <span class="center db pa4 mw6">
-          <img class="v-mid relative w-100" src="/uploads/logo_hero_date(1).png" style="z-index:999;">
-        </span>
-      </div>
-    </section>
-
-    <section class="">
-      <div class="cf">
-        {% include partials/home/dc-is-design.html %}
-        {% include partials/events/home/list.html %}
-        {% include partials/sponsors/home/list.html %}
-      </div>
-    </section>
-  </article>
+<article class="page-home overflow-hidden cf relative">
+  <section class="landing-hero vh-50 vh-75-l flex tc mt5 relative noise overflow-hidden">
+    <div class="flex-auto self-center">
+      <span class="center db pa4 mw6">
+        <img class="v-mid relative w-100" src="/uploads/logo_hero_date(1).png" style="z-index:999;">
+      </span>
+    </div>
+  </section>
+  <section>
+    <div class="cf">
+      {% include partials/home/dc-is-design.html %}
+      {% include partials/events/home/list.html %}
+      {% include partials/sponsors/home/list.html %}
+    </div>
+  </section>
+</article>
 {% include _doctype/closed.html %}
