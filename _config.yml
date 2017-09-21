@@ -25,9 +25,9 @@ defaults:
     path: ''
     type: events
   values:
-    event-seo:
+    seo:
     - description: 
-      og-image: "/uploads/OG_featuredimage(2).jpg"
+      image: "/uploads/OG_featuredimage(2).jpg"
     event-details:
     - video-embed: 
       event-date: Displays the date of the event.
