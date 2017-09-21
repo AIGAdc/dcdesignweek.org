@@ -11,20 +11,12 @@ Event-Details:
   event-venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
   event-start-time: '7:00'
   event-end-time: '9:00'
+Event-Buttons:
+- left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
+  left-button-text: Button Left
 Single-Event-Conditionals:
 - is-featured-on-home-page: true
   is-kickoff-friday: true
-description: Join Emory Douglas, the ex-Minister of Culture for the Black Panthers,
-  in a discussion on the intersection of Design and Activism.
-image: "/uploads/dcdw_eventPlaceholder.jpg"
-event-date: 2017-10-20 00:00:00 -04:00
-event-venue-name: Bowie State University Recital Hall
-event-venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
-event-start-time: '7:00'
-event-end-time: '9:00'
-left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
-is-featured-on-home-page: true
-is-kickoff-friday: true
 ---
 
 Join Emory Douglas, the ex-Minister of Culture for the Black Panthers, in a discussion on the intersection of Design and Activism.
