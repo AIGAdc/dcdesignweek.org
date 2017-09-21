@@ -25,7 +25,7 @@ defaults:
     path: ''
     type: events
   values:
-    Page-Meta-&-SEO:
+    Event-SEO:
     - description: 
       og-image: "/uploads/OG_featuredimage(2).jpg"
     Event-Details:
@@ -36,14 +36,14 @@ defaults:
       event-venue-address: Displays the address of the venues.
       event-start-time: Displays the start time of the event.
       event-end-time: Displays the end time of the event.
-    Text-&-URLS-For-Event-Buttons:
+    Event-Buttons:
     - left-button-link: Provide a link for non-members
       left-button-text: 
       right-button-link: Provide a link for members
       right-button-text: 
     Speaker-Content:
     - speaker-header: 
-    speakers:
+    Speakers:
     - speaker-headshot-image: Displays the speakers portait.
       speaker-link: Provide a link to the speakers website.
       speaker-name: Displays the speakers name.
