@@ -25,7 +25,7 @@ defaults:
     path: ''
     type: events
   values:
-    page-seo:
+    page-meta:
     - description: 
       image: "/uploads/OG_featuredimage(2).jpg"
 
