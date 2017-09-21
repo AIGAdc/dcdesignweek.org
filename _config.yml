@@ -28,8 +28,7 @@ defaults:
     Page-Meta-&-SEO:
     - description: 
       og-image: "/uploads/OG_featuredimage(2).jpg"
-    Event-Details: "///// If no video embed code is provides the video section on
-      the page will be hidden."
+    Event-Details:
     - video-embed: 
       event-date: Displays the date of the event.
       event-venue-name: Displays the name of the venue.
