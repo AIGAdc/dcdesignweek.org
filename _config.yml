@@ -49,7 +49,7 @@ defaults:
       speaker-name: Displays the speakers name.
       speaker-title: Displays the speakers professional title
       speaker-bio-text: Displays the speakers bio.
-    single-event-conditionals:
+    single-event-conditionals: 
     is-sold-out: 
     is-featured-on-home-page: 
     is-featured-on-events-page: 
