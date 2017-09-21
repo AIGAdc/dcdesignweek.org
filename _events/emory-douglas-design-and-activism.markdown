@@ -6,12 +6,12 @@ seo:
     in a discussion on the intersection of Design and Activism.
   image: "/uploads/dcdw_eventPlaceholder.jpg"
 event-details:
-- event-date: 2017-10-20 00:00:00 -04:00
-  event-venue-name: Bowie State University Recital Hall
-  event-venue-directions: Provide a link to google maps to help navigate attendees.
-  event-venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
-  event-start-time: '7:00'
-  event-end-time: '9:00'
+- date: 2017-10-20 00:00:00 -04:00
+  venue-name: Bowie State University Recital Hall
+  venue-directions: Provide a link to google maps to help navigate attendees.
+  venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
+  start-time: '7:00'
+  end-time: '9:00'
 event-buttons:
 - left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
   left-button-text: Button Left
