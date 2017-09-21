@@ -1,0 +1,16 @@
+---
+title: 'Creative Lunch: Defacto Sound'
+date: 2017-09-20 22:12:00 -04:00
+---
+
+Defacto Sound is an award-winning sound design studio that serves networks, brands, films, and games. We specialize in fresh, relevant, story-focused sound for all things visual.
+
+We help creatives around the world tell stories that resonate. Whether it’s making dialogue crystal clear or creating entire audio environments from scratch, we erase the edges of the screen to draw audiences into a story and immerse them in a world. Our team is obsessed with the nuance of sound. From the subtlety of a door squeak to the gut punch of an explosion, we remove the barrier of disbelief.
+
+We specialize in natural, abstract, and hybrid sound design; and we're experts in mixing for any of the hundreds of delivery requirements, including 5.1. You’ll hear our work at major film festivals, on broadcast television, in blockbuster video games and trailers, and, of course, all over the Internet.
+
+**Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
+ 
+Please plan to arrive at Defacto Sound 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12PM. 
+ 
+The address is 8777 1st Ave, Silver Spring, MD 20910. Nearest Metro stop is Silver Spring metro with a three block way. If driving, you'll find plenty of metered parking on First Avenue. There's also a large public metered garage one block south, across the street from Tastee Diner. They have direct, ground level access, so once you arrive, there are no additional steps once entering.
