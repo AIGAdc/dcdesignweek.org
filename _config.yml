@@ -25,12 +25,11 @@ defaults:
     path: ''
     type: events
   values:
-    Page-SEO:
+    page-seo:
     - description: 
       image: "/uploads/OG_featuredimage(2).jpg"
 
-    Event-Details: "///// If no video embed code is provides the video section on
-      the page will be hidden."
+    event-details:
     - video-embed: 
       event-date: Displays the date of the event.
       event-venue-name: Displays the name of the venue.
@@ -39,15 +38,13 @@ defaults:
       event-start-time: Displays the start time of the event.
       event-end-time: Displays the end time of the event.
     
-    Text-&-URLS-For-Event-Buttons: "///// If no button text is provided the buttons
-      on the page will be hidden."
+    event-buttons:
     - left-button-link: Provide a link for non-members
       left-button-text: 
       right-button-link: Provide a link for members
       right-button-text:
 
-    Speaker-Content: "///// If no text is provided for the speaker header field, the
-      speaker section on the page will be hidden."
+    speaker-content:
     - speaker-header: 
 
     speakers:
@@ -57,7 +54,7 @@ defaults:
       speaker-title: Displays the speakers professional title
       speaker-bio-text: Displays the speakers bio.
 
-    Single-Event-Conditionals: "Select all fields that apply to event."
+    event-conditionals: "Select all fields that apply to event."
     - is-sold-out: 
       is-featured-on-home-page: 
       is-featured-on-events-page: 
