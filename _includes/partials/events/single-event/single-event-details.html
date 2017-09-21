@@ -13,16 +13,16 @@
           Date &amp; Time
         </span>
         <p class="ma0">
-          {{ page.event-date | date: "%A, %B %d"}}
+          {{ page.event-details.event-date | date: "%A, %B %d"}}
         </p>
         <p class="ma0">
-          {{ page.doors-open }}
+          {{ page.event-details.doors-open }}
         </p>
         <p class="ma0">
-          {{ page.event-start }}
+          {{ page.event-details.event-start }}
         </p>
         <p class="ma0">
-          {{ page.event-end }}
+          {{ page.event-details.event-end }}
         </p>
       </div>
       <div class="fl w-100 w-50-ns pr2">
@@ -30,10 +30,10 @@
           Venue
         </span>
         <p class="ma0">
-          {{ page.event-venue-name }}
+          {{ page.event-details.event-venue-name }}
         </p>
         <p class="ma0">
-          <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-venue-address }}</a>
+          <a href="{{ page.event-venue-directions }}" target="_blank">{{ page.event-details.event-venue-address }}</a>
         </p>
       </div>
     </div>
