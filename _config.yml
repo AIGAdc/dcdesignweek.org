@@ -27,28 +27,27 @@ defaults:
   values:
     seo:
     - description: 
-      image: "/uploads/OG_featuredimage(2).jpg"
+      image: "/uploads/dcdw_eventPlaceholder.jpg"
     event-details:
     - video-embed: 
-      event-date: Displays the date of the event.
-      event-venue-name: Displays the name of the venue.
-      event-venue-directions: Provide a link to google maps to help navigate attendees.
-      event-venue-address: Displays the address of the venues.
-      event-start-time: Displays the start time of the event.
-      event-end-time: Displays the end time of the event.
+      date: Displays the date of the event.
+      venue-name: Displays the name of the venue.
+      venue-directions: Provide a link to google maps to help navigate attendees.
+      venue-address: Displays the address of the venues.
+      start-time: Displays the start time of the event.
+      end-time: Displays the end time of the event.
     event-buttons:
     - left-button-link: Provide a link for non-members
       left-button-text: 
       right-button-link: Provide a link for members
       right-button-text: 
-    speaker-content:
-    - speaker-header: 
     speakers:
-    - speaker-headshot-image: Displays the speakers portait.
-      speaker-link: Provide a link to the speakers website.
-      speaker-name: Displays the speakers name.
-      speaker-title: Displays the speakers professional title
-      speaker-bio-text: Displays the speakers bio.
+    - header:
+    - headshot-image: Displays the speakers portait.
+      link: Provide a link to the speakers website.
+      name: Displays the speakers name.
+      title: Displays the speakers professional title
+      bio-text: Displays the speakers bio.
     single-event-conditionals: 
     is-sold-out: 
     is-featured-on-home-page: 
