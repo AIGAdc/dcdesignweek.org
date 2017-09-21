@@ -2,7 +2,8 @@
 title: Tech Lady Hackathon
 date: 2017-09-20 20:31:00 -04:00
 event-date: 2017-10-21 00:00:00 -04:00
-is-sunday: true
+is-kickoff-saturday: true
+is-sunday: false
 ---
 
 Tech Lady Hackathon was started to get more women and enbies into tech. Each year in D.C. hundreds gather for a day of friendly learning and hacking. Coders, tech strategists, newbies, nerds, and the curious are all welcome! 
