@@ -25,10 +25,10 @@ defaults:
     path: ''
     type: events
   values:
-    Event-SEO:
+    event-seo:
     - description: 
       og-image: "/uploads/OG_featuredimage(2).jpg"
-    Event-Details:
+    event-details:
     - video-embed: 
       event-date: Displays the date of the event.
       event-venue-name: Displays the name of the venue.
@@ -36,20 +36,20 @@ defaults:
       event-venue-address: Displays the address of the venues.
       event-start-time: Displays the start time of the event.
       event-end-time: Displays the end time of the event.
-    Event-Buttons:
+    event-buttons:
     - left-button-link: Provide a link for non-members
       left-button-text: 
       right-button-link: Provide a link for members
       right-button-text: 
-    Speaker-Content:
+    speaker-content:
     - speaker-header: 
-    Speakers:
+    speakers:
     - speaker-headshot-image: Displays the speakers portait.
       speaker-link: Provide a link to the speakers website.
       speaker-name: Displays the speakers name.
       speaker-title: Displays the speakers professional title
       speaker-bio-text: Displays the speakers bio.
-    Single-Event-Conditionals:
+    single-event-conditionals:
     - is-sold-out: 
       is-featured-on-home-page: 
       is-featured-on-events-page: 
