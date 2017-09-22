@@ -13,6 +13,7 @@ event-details:
   end-time: 10:00pm
 is-featured-on-events-page: false
 is-sunday: true
+category: parties
 ---
 
 We're blasting off the week with a beer + burgers shindig at Wet Dog Tavern in Shaw.
