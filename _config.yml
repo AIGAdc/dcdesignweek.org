@@ -7,9 +7,7 @@ collections:
     output: true
     seo:
       description: 
-      image: 
-    Key:
-      Key: 
+      image: "/uploads/dcdw_eventPlaceholder.jpg"
   jobs:
     title: Jobs
     output: true
