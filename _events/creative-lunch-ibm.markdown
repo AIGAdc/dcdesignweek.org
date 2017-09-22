@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
+category: tours
 ---
 
 The IBM Studios Washington DC is the 44th entrant to the IBM Studios global network of outcomes-focused studios that allow design and co-creation to thrive. Studios bring value to IBM by driving and amplifying design-led business outcomes for IBM's offerings and services, accelerate sales cycles and help IBMers close more impactful deals.
