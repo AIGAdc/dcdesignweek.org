@@ -12,6 +12,7 @@ event-details:
   start-time: 6:30pm
   end-time: 9:30pm
 is-thursday: true
+category: lectures
 ---
 
 UNLEADED is a space for creative & innovative individuals who are passionate about using design to make a positive impact. We meet once a month to learn from experts and use design sprints to solve real problems as we connect with our DC community.
