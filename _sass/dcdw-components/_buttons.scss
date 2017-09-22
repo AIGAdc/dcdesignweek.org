@@ -95,3 +95,11 @@ a.header-link:hover {
     color: $white;
   }
 }
+
+.filter-button {
+  border-bottom: 4px solid transparent;
+  transition: all 200ms ease-in;
+}
+.filter-button.is-checked {
+  border-bottom: 4px solid $dcdw-orange;
+}
