@@ -2,7 +2,10 @@
 title: 'Creative Lunch: Punch'
 date: 2017-09-20 22:24:00 -04:00
 position: 21
-event-date: 2017-10-26 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-26 00:00:00 -04:00
 is-thursday: true
 ---
 
