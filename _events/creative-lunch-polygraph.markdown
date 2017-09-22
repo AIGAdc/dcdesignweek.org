@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-26 00:00:00 -04:00
 is-thursday: true
+category: tours
 ---
 
 Polygraph is a multidisciplinary design firm in Washington, DC, offering smart creativity and a keen sense of aesthetic. Founded at Oktoberfest in 2010 by Lindsay Mannix, Jason Mannix, and Gavin Wade, Polygraph specializes in communication design, both print and digital, brand identity and extension, and industrial design for local and national clients. At the heart of their business is the desire to create memorable and meaningful work that adds to the cultural richness of their community. 
