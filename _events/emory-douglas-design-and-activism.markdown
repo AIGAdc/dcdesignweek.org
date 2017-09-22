@@ -10,8 +10,8 @@ event-details:
   date: 2017-10-20 00:00:00 -04:00
   venue-name: Bowie State University Recital Hall
   venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
-  start-time: '7:00'
-  end-time: '9:00'
+  start-time: 7:00pm
+  end-time: 9:00pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
   left-button-text: Button Left
