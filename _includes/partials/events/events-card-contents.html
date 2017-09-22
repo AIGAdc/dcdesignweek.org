@@ -1,7 +1,10 @@
+{% if page.url == "/events/"" %}
+{% else %}
 <!-- event date -->
 <span class="bbroller event-date absolute f6 f5-ns pa2 bg-white ba bw2 dcdw-orange ma0 pa0 db" style="z-index: 2;">
   <span class="black">{{ posts.date | date: "%A, %B %d"}}</span>
 </span>
+{% endif %}
 
 <!-- event image -->
 <div class="event-image overflow-hidden relative h5" style="background-image: url('{{ posts.seo.og-image }}'); background-size: cover; background-position: center center;"><div class="gradient-overlay"></div>

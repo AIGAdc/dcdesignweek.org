@@ -1,22 +1,33 @@
 <!-- dcdw agenda filter -->
-<div class="dcdw-agenda-filters fl w-100 w-20-l pa0 pr3-l relative">
+<div class="dcdw-agenda-filters fl w-100 relative">
+  <!-- filter Cctegories -->
+  <h6 class="ma0 mb2 f6 fw9 ttu black-40">Categories:</h6>
+  <ul class="dcdw-agenda-filters ma0 pa0 list">
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter="*">All</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.category-1 }}">{{ page.category-1-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.category-2 }}">{{ page.category-2-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.category-3 }}">{{ page.category-3-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.category-4 }}">{{ page.category-4-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.category-5 }}">{{ page.category-5-label }}</a></li>
+  </ul>
+    
   <!-- filter days -->
   <h6 class="ma0 mb2 f6 fw9 ttu black-40">Days:</h6>
   <ul class="dcdw-agenda-filters ma0 pa0 list">
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter="*">All</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-1 }}">{{ page.day-1-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-2 }}">{{ page.day-2-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-3 }}">{{ page.day-3-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-4 }}">{{ page.day-4-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-5 }}">{{ page.day-5-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-6 }}">{{ page.day-6-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-7 }}">{{ page.day-7-label }}</a></li>
-    <li class="db ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-8 }}">{{ page.day-8-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter="*">All</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-1 }}">{{ page.day-1-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-2 }}">{{ page.day-2-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-3 }}">{{ page.day-3-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-4 }}">{{ page.day-4-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-5 }}">{{ page.day-5-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-6 }}">{{ page.day-6-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-7 }}">{{ page.day-7-label }}</a></li>
+    <li class="dib ma0 pa0"><a class="filter-button f6 fw4 link" data-filter=".{{ page.day-8 }}">{{ page.day-8-label }}</a></li>
   </ul>
 </div>
 
 <!-- dcdw agenda list -->
-<div class="dcdw-agenda-list fl w-100 w-80-l pa0 pl3-l relative">
+<div class="dcdw-agenda-list fl w-100 relative">
   <!-- event message -->
   <div id="dcdw-agenda-empty" style="display:none">
     There are no events matching these filters
@@ -28,9 +39,9 @@
       {% if posts.is-kickoff-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-1 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-1 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -47,9 +58,9 @@
       {% if posts.is-sunday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
         {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-2 }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
         {% else %}
-          <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-2 }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
         {% endif %}
           <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
             {% include partials/events/events-card-contents.html %}
@@ -66,9 +77,9 @@
       {% if posts.is-monday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-3 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-3 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-3 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-3 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -85,9 +96,9 @@
       {% if posts.is-tuesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-4 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-4 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-4 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-4 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -104,9 +115,9 @@
       {% if posts.is-wednesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-5 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-5 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-5 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-5 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -123,9 +134,9 @@
       {% if posts.is-thursday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-6 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-6 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-6 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-6 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -142,9 +153,9 @@
       {% if posts.is-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-7 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-7 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-7 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-7 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -161,9 +172,9 @@
       {% if posts.is-saturday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-8 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-8 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-8 }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa3 link dcdw-event {{ page.day-8 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
