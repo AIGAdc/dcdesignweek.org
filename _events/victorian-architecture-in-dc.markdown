@@ -12,5 +12,6 @@ event-details:
   start-time: 10:30am
   end-time: TBD
 is-saturday: true
+category: lectures
 ---
 
