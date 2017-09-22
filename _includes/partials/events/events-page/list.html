@@ -24,13 +24,13 @@
 
   <div class="day fl w-100 mb5">
     <h2 class="dcdw-event-day ma0 f2 fw9">{{ page.day-1-label }}</h2>
-    {% for post in site.events %}
-      {% if post.is-kickoff-friday == true %}
+    {% for posts in site.events %}
+      {% if posts.is-kickoff-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-1 }}" href="{{post.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-1 }}" href="{{post.url}}" data-right-height-content>
+            <a class="fl w-100 w-50-l relative pa3 link dcdw-event {{ page.day-1 }}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
               {% include partials/events/events-card-contents.html %}
