@@ -38,9 +38,9 @@ defaults:
       end-time: Displays the end time of the event.
     event-buttons:
       left-button-link: Provide a link for non-members
-      left-button-text:
+      left-button-text: 
       right-button-link: Provide a link for members
-      right-button-text:
+      right-button-text: 
     speakers:
       headshot-image: Displays the speakers portait.
       link: Provide a link to the speakers website.
