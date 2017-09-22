@@ -5,18 +5,18 @@ description:
 image: "/uploads/event-placeholder-03.jpg"
 introduction-title: Events
 introduction-body-text: 
-day-1: kickoff-friday
-day-1-label: Friday
-day-2: sunday
-day-2-label: Sunday
+day-1: friday-start
+day-1-label: Friday, October 20
+day-2: saturday-start
+day-2-label: Saturday, October 21
 day-3: monday
-day-3-label: Monday
+day-3-label: Sunday, October 22
 day-4: tuesday
-day-4-label: Tuesday
+day-4-label: Monday, October 23
 day-5: wednesday
-day-5-label: Wednesday
+day-5-label: Tuesday, October 24
 day-6: thursday
-day-6-label: Thursday
+day-6-label: Wednesday, October 25
 day-7: friday
 day-7-label: Friday
 day-8: saturday
