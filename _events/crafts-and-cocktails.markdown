@@ -2,7 +2,10 @@
 title: Crafts & Cocktails
 date: 2017-09-20 20:46:00 -04:00
 position: 6
-event-date: 2017-10-24 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-24 00:00:00 -04:00
 is-tuesday: true
 ---
 
