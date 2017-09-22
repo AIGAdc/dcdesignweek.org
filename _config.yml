@@ -30,13 +30,14 @@ defaults:
       image: "/uploads/dcdw_eventPlaceholder.jpg"
       -
     event-details:
-    - video-embed: 
-    - date: Displays the date of the event.
-    - venue-name: Displays the name of the venue.
-    - venue-directions: Provide a link to google maps to help navigate attendees.
-    - venue-address: Displays the address of the venues.
-    - start-time: Displays the start time of the event.
-    - end-time: Displays the end time of the event.
+      video-embed: 
+      date: Displays the date of the event.
+      venue-name: Displays the name of the venue.
+      venue-directions: Provide a link to google maps to help navigate attendees.
+      venue-address: Displays the address of the venues.
+      start-time: Displays the start time of the event.
+      end-time: Displays the end time of the event.
+      -
     event-buttons:
     - left-button-link: Provide a link for non-members
       left-button-text: ''
