@@ -2,7 +2,7 @@
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
 description: 
-image: "/uploads/OG_featuredimage(2).jpg"
+image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: 'Pop Up Shop
 
 '

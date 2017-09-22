@@ -2,7 +2,7 @@
 title: Sponsors
 permalink: "/sponsors/"
 description: 
-image: "/uploads/OG_featuredimage(2).jpg"
+image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: Sponsors
 introduction-body-text: 'DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c
   nonprofit organization, in concert with a consortium of local associations, Meetup

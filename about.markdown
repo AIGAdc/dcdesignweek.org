@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 description: 
-image: "/uploads/OG_featuredimage(2).jpg"
+image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: About
 introduction-body-text: 'Every year, AIGA DC develops a week of fantastic programming,
   from workshops, panels, studio tours, lectures, and more to celebrate design in

@@ -2,7 +2,7 @@
 title: Events
 permalink: "/events/"
 description: 
-image: "/uploads/event-placeholder-03.jpg"
+image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: Events
 introduction-body-text: 
 category-1: tours

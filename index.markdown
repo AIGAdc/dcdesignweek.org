@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 description: 
-image: "/uploads/OG_featuredimage(2).jpg"
+image: "/uploads/OG_featuredimage-live.jpg"
 divider-1: Introduction
 introduction-title: 
 introduction-body-text: 
