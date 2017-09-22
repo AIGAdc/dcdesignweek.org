@@ -3,7 +3,7 @@ title: Sketch Workshops
 date: 2017-09-20 20:36:00 -04:00
 position: 5
 seo:
-  og-image: "/uploads/event-placeholder-09.jpg"
+  og-image: "/uploads/event-placeholder-03.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
 is-monday: true
