@@ -11,9 +11,9 @@ event-details:
   venue-address: 1301 K St NW, Washington, DC 20071
   start-time: 9:30am
   end-time: 4:30pm
-is-sunday: false
-event-date: 2017-10-21 00:00:00 -04:00
 is-kickoff-saturday: true
+is-sunday: false
+category: workshops
 ---
 
 Tech Lady Hackathon was started to get more women and enbies into tech. Each year in D.C. hundreds gather for a day of friendly learning and hacking. Coders, tech strategists, newbies, nerds, and the curious are all welcome! 
