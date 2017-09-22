@@ -5,9 +5,12 @@ position: 7
 seo:
   og-image: "/uploads/event-placeholder-02.jpg"
 event-details:
-  date: 2017-10-24 00:00:00 -04:00
-  start-time: 8:00 AM
-  end-time: 9:00 AM
+  date: 2024-10-01 01:00:00 -04:00
+  venue-name: Nh.D Studio
+  venue-directions: https://www.google.com/maps/place/Nh.d+Studio/@38.9423793,-77.0264445,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c8124832e4c5:0x39056f309473b503!8m2!3d38.9423751!4d-77.0242558
+  venue-address: '821 Upshur Street, Second Floor, Washington, DC 20011 '
+  start-time: 8:00am
+  end-time: 9:00am
 is-tuesday: true
 ---
 
