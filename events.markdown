@@ -9,7 +9,7 @@ category-1: tours
 category-1-label: Tours
 category-2: lectures
 category-2-label: Lectures
-category-3: lectures
+category-3: screenings
 category-3-label: Screenings
 category-4: workshops
 category-4-label: Workshops
