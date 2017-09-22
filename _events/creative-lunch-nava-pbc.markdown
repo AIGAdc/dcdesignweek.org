@@ -2,7 +2,10 @@
 title: 'Creative Lunch: NAVA PBC'
 date: 2017-09-20 21:45:00 -04:00
 position: 15
-event-date: 2017-10-24 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-24 00:00:00 -04:00
 is-tuesday: true
 ---
 
