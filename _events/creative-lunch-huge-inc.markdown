@@ -3,7 +3,7 @@ title: 'Creative Lunch: Huge Inc'
 date: 2017-09-20 21:43:00 -04:00
 position: 14
 seo:
-  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+  og-image: "/uploads/event-placeholder-12.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
 is-monday: true
