@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-27 00:00:00 -04:00
 is-friday: true
+category: tours
 ---
 
 WDG believes in leveraging individual expertise to create create web, social, and content experiences tailored to unique and challenging needs in the modern tech era. Join WDG for our lunch and learn session, Relationship Goals: Acquiring and Maintaining Long Term Client Relations.
