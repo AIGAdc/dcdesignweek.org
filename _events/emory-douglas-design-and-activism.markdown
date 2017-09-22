@@ -9,6 +9,7 @@ seo:
 event-details:
   date: 2017-10-20 00:00:00 -04:00
   venue-name: Bowie State University Recital Hall
+  venue-directions: https://www.google.com/maps/place/Bowie+State+University/@39.0192914,-76.7615926,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e8e035da591d:0x293334c635ef01d1!8m2!3d39.0192914!4d-76.7594039
   venue-address: 14000 Jericho Park Rd, Bowie, Maryland 20715
   start-time: 7:00pm
   end-time: 9:00pm
