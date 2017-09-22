@@ -26,7 +26,7 @@ defaults:
     type: events
   values:
     seo:
-    - description:
+    - description: 
     - image: "/uploads/dcdw_eventPlaceholder.jpg"
     event-details:
     - video-embed: 
