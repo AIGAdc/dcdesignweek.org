@@ -10,7 +10,9 @@ seo:
     This is how we knock back.
   og-image: "/uploads/event-placeholder-06.jpg"
 event-details:
-  date: 2017-10-25 00:00:00 -04:00
+  date: 2017-10-25 18:30:00 -04:00
+  start-time: 6:30pm
+  end-time: 9:00pm
 speakers:
   headshot-image: "/uploads/event-placeholder-07.jpg"
   link: http://muledesign.com/speaking/mike-monteiro https://twitter.com/monteiro
