@@ -4,6 +4,8 @@ date: 2017-09-20 19:18:00 -04:00
 seo:
 - description: Join Emory Douglas, the ex-Minister of Culture for the Black Panthers,
     in a discussion on the intersection of Design and Activism.
+  image: 
+- image: "/uploads/dcdw_eventPlaceholder.jpg"
 event-details:
 - date: 2017-10-20 00:00:00 -04:00
   venue-name: Bowie State University Recital Hall
