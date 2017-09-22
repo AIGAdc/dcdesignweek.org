@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-26 00:00:00 -04:00
 is-thursday: true
+category: tours
 ---
 
 Defacto Sound is an award-winning sound design studio that serves networks, brands, films, and games. We specialize in fresh, relevant, story-focused sound for all things visual.
