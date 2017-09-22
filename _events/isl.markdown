@@ -2,7 +2,10 @@
 title: 'Creative Lunch: ISL'
 date: 2017-09-20 22:07:00 -04:00
 position: 18
-event-date: 2017-10-25 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
 ---
 
