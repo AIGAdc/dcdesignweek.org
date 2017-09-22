@@ -24,6 +24,7 @@ speakers:
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-saturday: true
+category: parties
 ---
 
 For our closing night extravaganza, we've got NPR here in DC—but not the one you hear in DC. 
