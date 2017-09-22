@@ -2,7 +2,10 @@
 title: 'Creative Lunch: IBM'
 date: 2017-09-20 21:56:00 -04:00
 position: 17
-event-date: 2017-10-25 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
 ---
 
