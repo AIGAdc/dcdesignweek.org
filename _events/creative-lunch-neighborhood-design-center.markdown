@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-09-22 00:00:00 -04:00
 is-friday: true
+category: tours
 ---
 
 Neighborhood Design Center’s roots began in the midst of the civil rights movement, from a response by a group of Baltimore architects to Whitney M. Young's 1968 address to the American Institute of Architects. "Get involved in helping cities rebuild," he challenged, "or risk the consequences." Young’s speech brought an awareness and accountability to the architectural mainstream. NDC was among the groups to take up this call to action.
