@@ -5,9 +5,9 @@ description:
 image: "/uploads/event-placeholder-03.jpg"
 introduction-title: Events
 introduction-body-text: 
-day-1: friday-start
+day-1: friday-beginning
 day-1-label: Friday, October 20
-day-2: saturday-start
+day-2: saturday-beginning
 day-2-label: Saturday, October 21
 day-3: monday
 day-3-label: Sunday, October 22
