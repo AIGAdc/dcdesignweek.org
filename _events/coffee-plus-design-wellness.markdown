@@ -12,6 +12,7 @@ event-details:
   start-time: 8:00am
   end-time: 9:00am
 is-tuesday: true
+category: lectures
 ---
 
 As creatives, we tend to stay in the deep end of our craft and discipline. But sometimes, the best way we can help ourselves (and our work) is to step away so that we can recharge ourselves and come back with a new sense of inspiration and invigoration. Join us at Nh.D Studio to start the day right—with coffee, conversation, and wellness in mind!
