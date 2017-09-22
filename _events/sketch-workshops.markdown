@@ -10,6 +10,7 @@ event-details:
   start-time: 6:30pm
   end-time: 9:30pm
 is-monday: true
+category: workshops
 ---
 
 Are you an old pro with Sketch design software, or are you just getting the hang of it? Either way, we've got you covered! In collaboration with Sketch and General Assembly, we're hosting workshops covering both beginner and advanced-level Sketch users. Join us and get your sketch on!
