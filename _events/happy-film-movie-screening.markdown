@@ -16,3 +16,4 @@ event-details:
 is-friday: true
 ---
 
+This one's gonna get you going bro. Super dope film screening in a cozy theater bar bro.
