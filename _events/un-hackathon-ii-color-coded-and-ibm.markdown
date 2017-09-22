@@ -12,5 +12,6 @@ event-details:
   start-time: 10:00am
   end-time: 5:00pm
 is-sunday: true
+category: workshops
 ---
 
