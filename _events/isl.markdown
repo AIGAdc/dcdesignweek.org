@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
+category: tours
 ---
 
 An award-winning digital agency founded on invention.
