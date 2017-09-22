@@ -47,7 +47,6 @@ defaults:
       name: Displays the speakers name.
       title: Displays the speakers professional title
       bio-text: Displays the speakers bio.
-    category: tours, lectures, workshops, screenings, parties
     single-event-conditionals: 
     is-sold-out: 
     is-featured-on-home-page: 
