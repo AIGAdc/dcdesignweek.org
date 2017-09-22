@@ -28,7 +28,6 @@ defaults:
     seo:
       description: 
       image: "/uploads/dcdw_eventPlaceholder.jpg"
-      -
     event-details:
       video-embed: 
       date: Displays the date of the event.
@@ -37,15 +36,13 @@ defaults:
       venue-address: Displays the address of the venues.
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
-      -
     event-buttons:
-    - left-button-link: Provide a link for non-members
+      left-button-link: Provide a link for non-members
       left-button-text: ''
       right-button-link: Provide a link for members
       right-button-text: ''
     speakers:
-    - header: 
-    - headshot-image: Displays the speakers portait.
+      headshot-image: Displays the speakers portait.
       link: Provide a link to the speakers website.
       name: Displays the speakers name.
       title: Displays the speakers professional title
