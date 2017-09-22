@@ -4,7 +4,7 @@ permalink: "/events/"
 description: 
 image: "/uploads/event-placeholder-03.jpg"
 introduction-title: Events
-introduction-body-text:
+introduction-body-text: 
 category-1: tours
 category-1-label: Tours
 category-2: lectures
@@ -12,7 +12,7 @@ category-2-label: Lectures
 category-3: lectures
 category-3-label: Screenings
 category-4: workshops
-category-4-label: Workshops 
+category-4-label: Workshops
 category-5: parties
 category-5-label: Parties
 day-1: friday-beginning
