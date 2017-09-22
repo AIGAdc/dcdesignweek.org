@@ -3,7 +3,7 @@ title: 'Creative Lunch: Polygraph'
 date: 2017-09-20 22:09:00 -04:00
 position: 19
 seo:
-  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+  og-image: "/uploads/event-placeholder-07.jpg"
 event-details:
   date: 2017-10-26 00:00:00 -04:00
 is-thursday: true
