@@ -2,7 +2,10 @@
 title: 'Creative Lunch: NPR'
 date: 2017-09-20 22:29:00 -04:00
 position: 22
-event-date: 2017-09-21 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-09-21 00:00:00 -04:00
 is-thursday: true
 ---
 
