@@ -3,7 +3,7 @@ title: 'Coffee + Design: Wellness'
 date: 2017-09-20 20:47:00 -04:00
 position: 7
 seo:
-  og-image: "/uploads/event-placeholder-07.jpg"
+  og-image: "/uploads/event-placeholder-02.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   start-time: 8:00 AM
