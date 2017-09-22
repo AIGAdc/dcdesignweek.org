@@ -29,8 +29,10 @@ day-6: wednesday
 day-6-label: Wednesday, Oct 25
 day-7: thursday
 day-7-label: Thursday, Oct 26
-day-8: friday-end
+day-8: friday
 day-8-label: Friday, Oct 27
+day-9: saturday-end
+day-9-label: Saturday, Oct 28
 layout: pages/events
 ---
 
