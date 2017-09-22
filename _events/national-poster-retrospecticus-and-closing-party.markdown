@@ -2,7 +2,10 @@
 title: National Poster Retrospecticus & Closing Party
 date: 2017-09-20 21:13:00 -04:00
 position: 13
-event-date: 2017-10-29 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-29 00:00:00 -04:00
 is-saturday: true
 ---
 
