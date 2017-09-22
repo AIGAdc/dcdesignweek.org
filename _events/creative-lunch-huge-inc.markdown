@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-23 00:00:00 -04:00
 is-monday: true
+category: tours
 ---
 
 Huge is a global collective of designers, strategists and technologists.
