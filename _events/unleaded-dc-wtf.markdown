@@ -2,7 +2,10 @@
 title: 'UNLEADED DC: WTF?!'
 date: 2017-09-20 20:53:00 -04:00
 position: 9
-event-date: 2017-10-05 00:00:00 -04:00
+seo:
+  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+event-details:
+  date: 2017-10-05 00:00:00 -04:00
 is-thursday: true
 ---
 
