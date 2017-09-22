@@ -58,8 +58,8 @@ defaults:
     is-wednesday: 
     is-thursday: 
     is-friday: 
-    is-saturday:
-    category: select 1 - tours, lectures, workshops, screenings, parties 
+    is-saturday: 
+    category: select 1 - tours, lectures, workshops, screenings, parties
     layout: singles/event
 - scope:
     path: ''
