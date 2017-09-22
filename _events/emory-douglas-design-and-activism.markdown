@@ -28,6 +28,7 @@ speakers:
     Panther Newspaper, reflecting the politics of the Black Panther Party and the
     concerns of the community.
 is-featured-on-home-page: true
+is-featured-on-events-page: true
 is-kickoff-friday: true
 ---
 

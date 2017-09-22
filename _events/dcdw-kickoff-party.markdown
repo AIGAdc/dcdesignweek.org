@@ -8,6 +8,7 @@ event-details:
   date: 2017-10-22 00:00:00 -04:00
   start-time: '5:00'
   end-time: '10:00'
+is-featured-on-events-page: true
 is-sunday: true
 ---
 
