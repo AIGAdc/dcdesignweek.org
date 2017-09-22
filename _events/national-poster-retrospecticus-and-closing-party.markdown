@@ -23,6 +23,8 @@ speakers:
     a public work – the subterranean streetcar station in Dupont Circle – into a new
     public infrastructure to support creative  exchange, contemporary arts practice,
     and an ongoing conversation about the city. \n"
+is-featured-on-home-page: true
+is-featured-on-events-page: true
 is-saturday: true
 ---
 
