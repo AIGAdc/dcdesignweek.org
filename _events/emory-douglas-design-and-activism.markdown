@@ -15,6 +15,18 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
   left-button-text: Button Left
+speakers:
+  headshot-image: "/uploads/event-placeholder-11.jpg"
+  name: Emory Douglas
+  title: Former Minister of Culture of the Black Panthers
+  bio-text: Emory Douglas was born May 24, 1943, in Grand Rapids, Michigan. He has
+    been a resident of the San Francisco, California Bay Area since 1951. Douglas
+    attended City College of San Francisco where he majored in commercial art. He
+    was politically involved as Revolutionary Artist and then Minister of Culture
+    for the Black Panther party from February 1967 until the early 1980s. Douglas'
+    art and design concepts were always seen on the front and back pages of the Black
+    Panther Newspaper, reflecting the politics of the Black Panther Party and the
+    concerns of the community.
 is-featured-on-home-page: true
 is-kickoff-friday: true
 ---
