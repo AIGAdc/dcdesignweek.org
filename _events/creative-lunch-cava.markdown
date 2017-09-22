@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-24 00:00:00 -04:00
 is-tuesday: true
+category: tours
 ---
 
 CAVA is a growing Mediterranean culinary brand with a flavorful and healthy fast-casual restaurant experience featuring customizable &amp; craveable salads, grain bowls, pitas, and house-made juices. CAVA’s chef-crafted dips and spreads are available at Whole Foods Market and other specialty markets across the country. 

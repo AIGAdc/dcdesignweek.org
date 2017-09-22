@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-10-24 00:00:00 -04:00
 is-tuesday: true
+category: tours
 ---
 
 Nava works with agencies to build more human-centered government services. Nava was formed by a team of designers and engineers that were brought in to help fix HealthCare.gov in the winter of 2013; since then Nava has expanded to work with the Department of Veterans Affairs and Medicare. As a public benefit corporation, Nava cares deeply about its mission, and has helped millions enroll in healthcare, improved policy, removed redundant forms, and saved the government millions of dollars. More recently, Nava has partnered with Code for America to improve the social safety net at the state level, and worked with the Centers for Medicare and Medicaid Services to release design.cms.gov, an accessible design system for government websites.
