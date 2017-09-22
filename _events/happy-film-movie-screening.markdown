@@ -5,7 +5,7 @@ position: 11
 seo:
   og-image: "/uploads/event-placeholder-03.jpg"
 event-details:
-  video-embed: https://www.youtube.com/watch?v=Akn0wnQ6rxE
+  video-embed: <iframe width="600" height="580" src="https://www.youtube.com/embed/Akn0wnQ6rxE?rel=0" frameborder="0" allowfullscreen></iframe>
   date: 2017-10-20 00:00:00 -04:00
 is-friday: true
 ---
