@@ -3,7 +3,7 @@ title: Tech Lady Hackathon
 date: 2017-09-20 20:31:00 -04:00
 position: 2
 seo:
-  og-image: "/uploads/event-placeholder-12.jpg"
+  og-image: "/uploads/event-placeholder-06.jpg"
 is-sunday: false
 event-date: 2017-10-21 00:00:00 -04:00
 is-kickoff-saturday: true
