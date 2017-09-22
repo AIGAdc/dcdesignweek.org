@@ -8,6 +8,8 @@ collections:
     seo:
       description: 
       image: 
+    Key:
+      Key: 
   jobs:
     title: Jobs
     output: true
