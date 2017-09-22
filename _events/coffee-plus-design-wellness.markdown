@@ -1,6 +1,7 @@
 ---
 title: 'Coffee + Design: Wellness'
 date: 2017-09-20 20:47:00 -04:00
+position: 7
 event-date: 2017-10-24 00:00:00 -04:00
 event-start-time: 8:00 AM
 event-end-time: 9:00 AM

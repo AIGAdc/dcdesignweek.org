@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Defacto Sound'
 date: 2017-09-20 22:12:00 -04:00
+position: 20
 event-date: 2017-10-26 00:00:00 -04:00
 is-thursday: true
 ---

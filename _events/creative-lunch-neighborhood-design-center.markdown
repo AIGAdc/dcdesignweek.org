@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Neighborhood Design Center'
 date: 2017-09-20 22:33:00 -04:00
+position: 23
 event-date: 2017-09-22 00:00:00 -04:00
 is-friday: true
 ---
