@@ -8,7 +8,7 @@ seo:
     a different set of people to design our way out of it. This is not a choice. Regardless
     of whether this is what we wanted or not fascism is knocking on our front door.
     This is how we knock back.
-  og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+  og-image: "/uploads/event-placeholder-06.jpg"
 event-details:
   date: 2017-10-25 00:00:00 -04:00
 is-wednesday: true
