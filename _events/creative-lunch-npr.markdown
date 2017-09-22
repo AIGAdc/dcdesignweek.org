@@ -7,6 +7,7 @@ seo:
 event-details:
   date: 2017-09-21 00:00:00 -04:00
 is-thursday: true
+category: tours
 ---
 
 Please join us for a creative lunch hosted by NPR and AIGA DC. NPR’s mission to create a more informed public can be seen through the myriad of ways NPR shares news, programs and podcasts with its audience — whether via broadcast radio, NPR.org and interactive web apps, social media and blogs, the NPR One and NPR News mobiles apps, and connected devices.
