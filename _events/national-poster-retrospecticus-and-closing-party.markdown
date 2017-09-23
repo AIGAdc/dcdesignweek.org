@@ -29,6 +29,6 @@ category: parties
 
 For our closing night extravaganza, we've got NPR here in DC—but not the one you hear in DC. 
 
-The [National Poster Retrospecticus](https://nationalposterretrospecticus.com/) is an internationally traveling poster show, featuring 400+ hand-printed posters made by over 150 of the most prominent poster designers around the world. The show has taken venues including The Rock and Roll Hall of Fame, Adobe HQ, and Lego HQ, as well as events like SXSW and NXNE, by storm. 
+The [National Poster Retrospecticus](https://nationalposterretrospecticus.com/) is an internationally traveling poster show, featuring 400+ hand-printed posters made by over 150 of the most prominent poster designers around the world. The show has taken venues including The Rock and Roll Hall of Fame, Adobe HQ, and Lego HQ by storm, and wowed crowds at events like SXSW and NXNE.
 
 Toast another successful DC Design Week, and enjoy the eye-popping work of artists like [Rob Jones](https://www.animalrummy.com/), [Becky Cloonan](http://www.beckycloonan.net/), and more in the stimulating subterranean environs of the [Dupont Underground](https://www.dupontunderground.org/). No tote bags, but we will have drinks!
