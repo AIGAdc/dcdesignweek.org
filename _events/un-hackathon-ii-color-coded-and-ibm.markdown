@@ -15,3 +15,4 @@ is-sunday: true
 category: workshops
 ---
 
+Where coding meets design and an inclusive environment meets powerful collaboration, that's where you'll find our partners running the glorious annual Tech Lady Hackathon, which we're honored to be featuring as a part of this year's DC Design Week. Training and mentoring workshops will be offered all day as we dive deep into APIs, Python, GitHub, and more. While workshop participants plug away at projects, diverse discussion groups for communities like Women of Color in Tech will offer a space for dialogue and knowledge sharing. Whether you're a newbie or a seasoned veteran, come on over and hack away with us!
