@@ -15,3 +15,8 @@ is-saturday: true
 category: lectures
 ---
 
+When someone says “Bloomingdale,” what comes to mind? Showtime? Red Hen? Boundary Stone? Not “design,” right? That’s about to change.
+
+At this enthralling day-long exploration of century-old Bloomingdale homes and their history, architecture is the design discipline on the menu. Bloomingdale architect Ahmet Kilic will kick off the morning with a talk bringing Bloomingdale’s fascinating architectural heritage to life. Then, attendees can engage in hands-on design workshops, conducted by Bloomingdale architects and designers, on topics including color and pattern and urban landscaping. The self-guided house tour will take place between 12 pm and 5pm, and a reception with light refreshments from 4 pm to 7pm at Old Engine 12 restaurant will conclude the day.
+
+At the corner of historic and aesthetic, there’s a whole world in Bloomingdale you’ve never seen before. Join us, and we’ll explore it together!
