@@ -10,4 +10,4 @@ is-tuesday: true
 category: parties
 ---
 
-We're getting together with the DIY dyanmos of DC's Lemon Collective to celebrate crafts and cocktails, and where better than the wonderfully well-stocked Cotton & Reed distillery in Union Market! Pick up some crafty tips, libation in hand, at this productively playful event!
+We're getting together with the DIY dyanmos of DC's Lemon Collective to celebrate crafts and cocktails, and where better than the wonderfully well-stocked Cotton & Reed distillery in Union Market? Pick up some crafty tips, libation in hand, at this productively playful event!
