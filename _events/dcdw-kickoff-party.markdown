@@ -22,4 +22,4 @@ It'll be one-part celebration of the amazing work produced at the (un)hackathon 
 
 We'll have burgers built by acclaimed Chef Elias Tadese. Just ask anyone who had this man's burgers at last year's closing party. They are...the bomb.
 
-Come early and stay til you're well done!
+Come early and stay til we're tapped out!
