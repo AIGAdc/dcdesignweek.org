@@ -4,6 +4,13 @@ date: 2017-09-20 22:46:00 -04:00
 position: 26
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"
+event-details:
+  date: 2017-10-24 00:00:00 -04:00
+  venue-name: Politico
+  venue-directions: https://www.google.com/maps/place/1000+Wilson+Blvd,+Arlington,+VA+22209/@38.8940401,-77.071351,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b6598c582815:0xda06907d98789bf0!8m2!3d38.8940401!4d-77.0691623
+  venue-address: 1000 Wilson Blvd, 8th Floor, Arlington, VA 22209.
+  start-time: 11:30am
+  end-time: 1:15pm
 speakers:
   name: Judy Diaz
   title: VP of Marketing
