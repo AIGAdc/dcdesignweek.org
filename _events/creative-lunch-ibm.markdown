@@ -6,11 +6,17 @@ seo:
   og-image: "/uploads/event-placeholder-09.jpg"
 event-details:
   date: 2017-10-25 00:00:00 -04:00
+  venue-name: WeWork White House
+  venue-directions: https://www.google.com/maps/place/1440+G+St+NW,+Washington,+DC+20005/data=!4m2!3m1!1s0x89b7b797d2537d59:0xbdcefc9fb13977ba?sa=X&ved=0ahUKEwidyZTO5r7WAhWJIsAKHbd1CbIQ8gEIKzAB
+  venue-address: 1440 G St NW, Washington, DC 20005
+  start-time: 11:30am
+  end-time: 2pm
 is-wednesday: true
 category: tours
 ---
 
 The IBM Studios Washington DC is the 44th entrant to the IBM Studios global network of outcomes-focused studios that allow design and co-creation to thrive. Studios bring value to IBM by driving and amplifying design-led business outcomes for IBM's offerings and services, accelerate sales cycles and help IBMers close more impactful deals.
+
 Studios provide repeatable experiences for clients & whole teams, share best practices across industries and create global communities. They are places where we help our clients imagine & create the future through collaboration, co-creation, rapid iteration, tinkering and prototyping. We make to think.
  
 ## In our DC studio you’ll find IBM iX and IBM Design
