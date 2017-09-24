@@ -6,6 +6,11 @@ seo:
   og-image: "/uploads/event-placeholder-11.jpg"
 event-details:
   date: 2017-10-27 00:00:00 -04:00
+  venue-name: WDG
+  venue-directions: https://www.google.com/maps/place/209+Strand+St,+Alexandria,+VA+22314/data=!4m2!3m1!1s0x89b7b058c628041d:0x9598398e18b5da18?sa=X&ved=0ahUKEwjr4_Gf6b7WAhUXM8AKHW8WDiQQ8gEIJTAA
+  venue-address: 209 The Strand, Alexandria, VA 22314
+  start-time: 11:30am
+  end-time: 2:00pm
 is-friday: true
 category: tours
 ---
