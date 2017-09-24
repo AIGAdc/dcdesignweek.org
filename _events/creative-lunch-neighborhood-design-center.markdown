@@ -8,7 +8,7 @@ event-details:
   date: 2017-09-22 00:00:00 -04:00
   venue-name: Neighborhood Design Center
   venue-directions: https://www.google.com/maps/place/4318+Gallatin+St,+Hyattsville,+MD+20781/@38.9527634,-76.943131,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c721e4852f2f:0x725bd6726e86893e!8m2!3d38.9527634!4d-76.9409423
-  venue-address: 4318 Gallatin Street, Hyattsville MD, 20781
+  venue-address: 4318 Gallatin Street, Hyattsville, MD 20781
   start-time: 11:30am
   end-time: 2:00pm
 is-friday: true
