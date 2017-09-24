@@ -6,6 +6,11 @@ seo:
   og-image: "/uploads/event-placeholder-10.jpg"
 event-details:
   date: 2017-09-21 00:00:00 -04:00
+  venue-name: NPR
+  venue-directions: https://www.google.com/maps/place/1111+North+Capitol+St+NE,+Washington,+DC+20002/@38.9042312,-77.010582,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b81f96dde2bf:0xb58a8ff6fb5c9618!8m2!3d38.9042312!4d-77.0083933
+  venue-address: 1111 North Capitol St., NE, Washington, DC 20002
+  start-time: 11:30am
+  end-time: 2:00pm
 is-thursday: true
 category: tours
 ---
