@@ -6,6 +6,7 @@ seo:
   og-image: "/uploads/event-placeholder-10.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
+  venue-name: Cava Chinatown HQ
   start-time: 11:30am
   end-time: 2:00pm
 is-tuesday: true
