@@ -1,5 +1,5 @@
 ---
-title: 'Creative Lunch: POLITICO'
+title: 'Creative Lunch: Politico'
 date: 2017-09-20 22:46:00 -04:00
 position: 26
 seo:
