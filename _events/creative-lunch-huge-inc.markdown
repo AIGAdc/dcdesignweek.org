@@ -5,7 +5,9 @@ position: 14
 seo:
   og-image: "/uploads/event-placeholder-12.jpg"
 event-details:
-  date: 2017-10-23 00:00:00 -04:00
+  date: 2023-10-01 01:00:00 -04:00
+  start-time: 11:30am
+  end-time: 2:00pm
 is-monday: true
 category: tours
 ---
