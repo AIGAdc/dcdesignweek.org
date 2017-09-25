@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Defacto Sound'
+categories:
+- tours, members-first
 position: 20
 seo:
   og-image: "/uploads/event-placeholder-09.jpg"
@@ -11,7 +13,6 @@ event-details:
   start-time: 11:30am
   end-time: 2:00pm
 is-thursday: true
-category: tours, members-first
 ---
 
 ## Tickets On Sale to AIGA members October 2 at 9am! 
