@@ -16,6 +16,9 @@ is-sunday: true
 category: parties
 ---
 
+## Tickets Available October 4 at 9am! 
+This event is free but tickets are required. 
+
 We're blasting off the week with a beer + burgers shindig at Wet Dog Tavern in Shaw.
 
 It'll be one-part celebration of the amazing work produced at the (un)hackathon earlier in the day, and one-part community mingling to officially kick off DC Design Week 2017.
