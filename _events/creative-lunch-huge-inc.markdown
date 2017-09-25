@@ -14,6 +14,8 @@ is-monday: true
 category: tours
 ---
 
+## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
 Huge is a global collective of designers, strategists and technologists.
 We’re passionate about helping companies play trusted roles in people’s lives by creating products, services and brands that people truly love. 
 We were the first agency to be founded on the idea that the principles of user experience should not just drive design, but business and marketing. We’re known for finding new ways to harmonize the things clients need with what users really want to create experiences that change industries. 
