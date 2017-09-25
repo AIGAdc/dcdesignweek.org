@@ -14,7 +14,7 @@ speakers:
   name: Judy Diaz
   title: VP of Marketing
 is-tuesday: true
-category: tours
+category: tours, member-first
 ---
 
 ### Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
