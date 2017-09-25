@@ -14,7 +14,9 @@ is-wednesday: true
 category: tours
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+## Tickets On Sale to AIGA members October 2 at 9am! 
+
+##[Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
 ## General tickets available on October 4 at 9am.
 
