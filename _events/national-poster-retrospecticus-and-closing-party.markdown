@@ -22,6 +22,7 @@ speakers:
     and an ongoing conversation about the city. \n"
 is-featured-on-home-page: true
 is-featured-on-events-page: true
+is-friday: false
 is-saturday: true
 category: parties
 ---
