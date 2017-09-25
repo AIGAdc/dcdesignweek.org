@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: CAVA'
-date: 2017-09-20 21:49:00 -04:00
+date: 2017-10-24 00:00:00 -04:00
 position: 16
 seo:
   og-image: "/uploads/event-placeholder-10.jpg"
