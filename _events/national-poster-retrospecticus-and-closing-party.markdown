@@ -1,6 +1,6 @@
 ---
 title: National Poster Retrospecticus + Closing Party
-date: 2017-09-20 21:13:00 -04:00
+date: 2017-10-28 00:00:00 -04:00
 position: 13
 seo:
   og-image: "/uploads/event-placeholder-01.jpg"

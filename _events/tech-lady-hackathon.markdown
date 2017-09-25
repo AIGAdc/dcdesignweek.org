@@ -1,6 +1,6 @@
 ---
 title: Tech Lady Hackathon
-date: 2017-09-20 20:31:00 -04:00
+date: 2017-10-21 00:00:00 -04:00
 position: 2
 seo:
   og-image: "/uploads/event-placeholder-06.jpg"
@@ -11,8 +11,8 @@ event-details:
   venue-address: 1301 K St NW, Washington, DC 20071
   start-time: 9:30am
   end-time: 4:30pm
-is-kickoff-saturday: true
 is-sunday: false
+is-kickoff-saturday: true
 category: workshops
 ---
 

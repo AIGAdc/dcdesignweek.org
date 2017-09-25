@@ -1,11 +1,11 @@
 ---
 title: 'Creative Lunch: NAVA PBC'
-date: 2017-09-20 21:45:00 -04:00
+date: 2017-10-24 00:00:00 -04:00
 position: 15
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"
 event-details:
-  date: 2024-10-01 01:00:00 -04:00
+  date: 2017-10-24 00:00:00 -04:00
   venue-name: NAVA PBC
   venue-directions: https://www.google.com/maps/place/1428+U+St+NW,+Washington,+DC+20009/@38.9167108,-77.0353563,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7e7f9a07a85:0xabdf02f4fd861fc3!8m2!3d38.9167108!4d-77.0331676
   venue-address: 1428 U St NW, Washington, DC 20009
