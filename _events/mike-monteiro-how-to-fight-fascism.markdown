@@ -31,6 +31,8 @@ is-wednesday: true
 category: lectures
 ---
 
+## Tickets On Sale October 4 at 9am! 
+
 Mike Monteiro (yes, that Mike Monteiro) has a brand-new talk—How to Fight Fascism—and you're invited! Monteiro is the co-founder and design director of Mule Design, an interactive studio whose work has been called “delightfully hostile” by The New Yorker. His 2014 talk “How Designers Destroyed the World”, about the intersection of design and social responsibility, was awarded 2014 Talk of the Year by Net Magazine.
 
 A brief preview of what's in store:
