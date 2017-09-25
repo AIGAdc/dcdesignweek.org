@@ -1,11 +1,11 @@
 ---
 title: Sketch Workshops
-date: 2017-09-20 20:36:00 -04:00
+date: 2017-10-22 00:00:00 -04:00
 position: 5
 seo:
   og-image: "/uploads/event-placeholder-03.jpg"
 event-details:
-  date: 2023-10-01 01:00:00 -04:00
+  date: 2017-10-22 00:00:00 -04:00
   venue-name: LOCATION TBD
   start-time: 6:30pm
   end-time: 9:30pm
