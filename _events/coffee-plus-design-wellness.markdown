@@ -12,7 +12,7 @@ event-details:
   end-time: 9:00am
 is-featured-on-events-page: true
 is-tuesday: true
-category: lectures
+category: lectures, member-first
 ---
 
 ## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
