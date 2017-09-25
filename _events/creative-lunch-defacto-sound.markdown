@@ -14,6 +14,8 @@ is-thursday: true
 category: tours
 ---
 
+## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
 Defacto Sound is an award-winning sound design studio that serves networks, brands, films, and games. We specialize in fresh, relevant, story-focused sound for all things visual.
 
 We help creatives around the world tell stories that resonate. Whether it’s making dialogue crystal clear or creating entire audio environments from scratch, we erase the edges of the screen to draw audiences into a story and immerse them in a world. Our team is obsessed with the nuance of sound. From the subtlety of a door squeak to the gut punch of an explosion, we remove the barrier of disbelief.
