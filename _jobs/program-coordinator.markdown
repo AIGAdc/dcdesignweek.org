@@ -10,8 +10,8 @@ commitment: |-
     - Monthly C&M Team Meetings
     - Weekly Slack Checkins
     - Bimonthly Full Committee Meetings
-avatar: "/uploads/Screenshot%202017-07-25%2008.13.31.png"
-name: Sam Adaramola
+avatar: https://dc.aiga.org/wp-content/uploads/2017/07/JennLow.jpg
+name: Jenn Low
 exec: false
 layout: pages/job-desc
 ---
