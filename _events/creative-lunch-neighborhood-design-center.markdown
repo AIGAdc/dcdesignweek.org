@@ -14,7 +14,9 @@ is-friday: true
 category: tours
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+## Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+
+## General tickets available on October 4 at 9am.
 
 Neighborhood Design Center’s roots began in the midst of the civil rights movement, from a response by a group of Baltimore architects to Whitney M. Young's 1968 address to the American Institute of Architects. "Get involved in helping cities rebuild," he challenged, "or risk the consequences." Young’s speech brought an awareness and accountability to the architectural mainstream. NDC was among the groups to take up this call to action.
 
