@@ -3,36 +3,41 @@
 # 2017 creative team
 2017-team:
   - image:
-    name: Mike O'Brien
-    role: Creative Director
-    bio:
-    twitter:
-    website:
-  - image:
     name: Daniel Crane
-    role: Animator
-    bio:
-    twitter:
-    website:
+    role: Motion Designer
+    bio: |
+      Motion designer from New England specializing in 2D and 3D motion graphics. Has worked with several production companies around DC since moving to Adams Morgan in 2015.
+    social-link: https://www.instagram.com/danielrcrane/
+    social-label: Instagram
+    website-link: danielcrane.co
+    website-label: Website
   - image:
     name: Jen Doyle
     role: Designer
-    bio:
-    twitter:
-    website:
+    bio: |
+      Jen Doyle is a designer based in Washington DC. She is originally from New Jersey but has also lived across the pond. She received her Bachelor of Arts Degree in Graphic Design from the Maryland Institute College of Art (MICA).
+    social-link: https://www.instagram.com/jendoyledesign
+    social-label: Instagram
+    website-link: https://jendoyledesign.github.io/
+    website-label: Website
   - image:
     name: JD Deardourff
     role: Illustrator
-    bio:
-    twitter:
-    website:
+    bio: |
+      John David Deardourff is an artist, designer and silkscreen printer. His deconstructions of comic book imagery + cityscapes help capture the vibe of unearthing design culture in DC.
+    social-link: https://www.instagram.com/jddeardourff
+    social-label: Instagram
+    website-link: http://deardourff.com/
+    website-label: Website
   - image: /uploads/marcusrelacion_480.jpg
     name: Marcus Relacion
     role: Developer
     bio: |
       Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
-    twitter: marcusrelacion
-    website: marcusrelacion.com
+    social-link: https://www.instagram.com/marcusrelacion
+    social-label: Instagram
+    website-link: marcusrelacion.com
+    website-label: Website
 
 # 2016 creative team
 2016-team:

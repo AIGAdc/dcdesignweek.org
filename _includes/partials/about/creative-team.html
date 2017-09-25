@@ -8,7 +8,7 @@ For every dcdw-creative-team-member located within site.dcdw-creative-team-membe
     <div class="fl w-100">
       <ul class="list ma0 pa0 pv4 cf">
         {% for creative-member in site.data.creative-team.2017-team %}
-          <div class="fl w-100 w-50-m w-third-l pv2 pv4-ns pa2">  
+          <div class="fl w-100 w-50-l pv2 pv4-ns pa2">  
             <li class="team-member dib">
               <div class="diamond-image-border">
                 <div class="diamond overflow-hidden noise">
@@ -21,6 +21,7 @@ For every dcdw-creative-team-member located within site.dcdw-creative-team-membe
               <div class="team-member-details-wrapper mt5">
                 <span class="bbroller ma0 f5 f4-ns fw6 db">{{ creative-member.name }}</span>
                 <span class="ma0 mb3 f6 fw4 db">{{ creative-member.role }}</span>
+                <a class="dib ma0 f6" href="{{ creative-member.social-link }}" target="_blank">{{ creative-member.social-label }}</a> / <a class="dib ma0 f6" href="{{ creative-member.website-link }}" target="_blank">{{ creative-member.website-label }}</a>
                 <span class="ma0 lh-copy db">
                   {{ creative-member.bio | markdownify }}
                 </span>
