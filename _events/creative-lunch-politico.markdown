@@ -13,6 +13,7 @@ event-details:
 speakers:
   name: Judy Diaz
   title: VP of Marketing
+is-tuesday: true
 category: tours
 ---
 
