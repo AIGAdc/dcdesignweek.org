@@ -1,6 +1,5 @@
 ---
 title: 'Mike Monteiro: How To Fight Fascism'
-date: 2017-10-25 18:30:00 -04:00
 position: 8
 seo:
   description: All design is political, because all politics are designed. The world
