@@ -11,7 +11,7 @@ seo:
   og-image: "/uploads/event-placeholder-06.jpg"
 event-details:
   date: 2017-10-25 18:30:00 -04:00
-  venue-name: TBD
+  venue-name: LOCATION TBD
   start-time: 6:30pm
   end-time: 9:00pm
 speakers:
