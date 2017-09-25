@@ -10,6 +10,7 @@ event-details:
   venue-address: '821 Upshur Street, Second Floor, Washington, DC 20011 '
   start-time: 8:00am
   end-time: 9:00am
+is-featured-on-events-page: true
 is-tuesday: true
 category: lectures
 ---
