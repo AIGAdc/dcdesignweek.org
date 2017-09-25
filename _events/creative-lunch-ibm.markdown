@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: IBM'
-date: 2017-10-25 00:00:00 -04:00
 position: 17
 seo:
   og-image: "/uploads/event-placeholder-09.jpg"
