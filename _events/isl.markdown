@@ -8,8 +8,8 @@ event-details:
   venue-name: ISL
   venue-directions: https://www.google.com/maps/place/641+S+St+NW,+Washington,+DC+20001/@38.9145299,-77.0233145,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7f00f4dd9df:0x71b9f72e645be48f!8m2!3d38.9145299!4d-77.0211258
   venue-address: 641 S St NW, Fl 1, Washington, DC 20001
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 12:00am
+  end-time: 1:30pm
 is-wednesday: true
 category: tours
 ---
