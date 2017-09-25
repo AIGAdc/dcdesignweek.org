@@ -11,20 +11,20 @@ introduction-body-text: |
 
   …and more possibility than any of us, on our
   own, could imagine. Which is why every year we come together—bringing the whole
-  city into our fold.
-  
+  city into our fold. 
+
   In 2016 we took a giant step in the direction of celebrating
   design broadly and inclusively, elevating design as built spaces, social impact,
   creative strategy, technology, craft, the arts and much more.
-  
+
   This year, we’re in a full sprint. We’re working nonstop to ensure that every workshop, panel, studio
   tour, lecture and lunch event is curated to enhance community, connectivity, and
   diversity.
-  
+
   Together with AIGA and our dedicated partners, we’re challenging
   ourselves and we’re challenging the world to see design—and the city in which we
   create it—differently.
-  
+
   And to see that we’re closer together than ever before.
 dcdw-about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘17 DCDW Committee"
