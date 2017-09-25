@@ -10,9 +10,14 @@ event-details:
   venue-address: 'Tyber Creek, 84 T St, NW, Washington, DC 20001 '
   start-time: 10:30am
   end-time: TBD
+event-buttons:
+  left-button-link: Grab Tickets!
+  left-button-text: www.brownpapertickets.com/event/3051980.
 is-saturday: true
 category: lectures
 ---
+
+## Use the Discount Code: DCHT20001
 
 When someone says “Bloomingdale,” what comes to mind? Showtime? Red Hen? Boundary Stone? Not “design,” right? That’s about to change.
 
