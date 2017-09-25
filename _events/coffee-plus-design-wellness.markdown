@@ -1,6 +1,5 @@
 ---
 title: 'Coffee + Design: Wellness'
-date: 2017-10-24 00:00:00 -04:00
 position: 7
 seo:
   og-image: "/uploads/event-placeholder-02.jpg"
