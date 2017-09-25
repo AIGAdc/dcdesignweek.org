@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Peer Insight'
-date: 2017-09-20 22:39:00 -04:00
+date: 2017-10-27 00:00:00 -04:00
 position: 24
 seo:
   og-image: "/uploads/event-placeholder-07.jpg"
