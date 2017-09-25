@@ -1,10 +1,10 @@
 ---
 title: Events
 permalink: "/events/"
-description: 
+description:
 image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: Events
-introduction-body-text: 
+introduction-body-text:
 category-1: tours
 category-1-label: Tours
 category-2: lectures
@@ -15,6 +15,8 @@ category-4: workshops
 category-4-label: Workshops
 category-5: parties
 category-5-label: Parties
+category-6: members-first
+category-6-label: Members First
 day-1: friday-beginning
 day-1-label: Friday, Oct 20
 day-2: saturday-beginning
@@ -35,4 +37,3 @@ day-9: saturday-end
 day-9-label: Saturday, Oct 28
 layout: pages/events
 ---
-
