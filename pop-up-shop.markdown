@@ -18,7 +18,7 @@ pop-up-shop-body-text: |
   We're taking over the Cherry Blossom Creative storefront and
   filling it with items made by locals. Swing by, shop, and support our neighborhood
   maker and creative community. Have something to add to the shop? Hit us up and
-  lets make it happen! [tj@aigadc.org](mailto:tj@aigadc.org)
+  lets make it happen! [dan@dc.aiga.org](mailto:dan@dc.aiga.org)
 layout: pages/pop-up-shop
 ---
 
