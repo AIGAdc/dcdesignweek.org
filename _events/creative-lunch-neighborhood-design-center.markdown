@@ -14,6 +14,8 @@ is-friday: true
 category: tours
 ---
 
+## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
 Neighborhood Design Center’s roots began in the midst of the civil rights movement, from a response by a group of Baltimore architects to Whitney M. Young's 1968 address to the American Institute of Architects. "Get involved in helping cities rebuild," he challenged, "or risk the consequences." Young’s speech brought an awareness and accountability to the architectural mainstream. NDC was among the groups to take up this call to action.
 
 NDC projects are collaborations between residents, design professionals, local government agencies, fellow nonprofits, and our staff. Together we lay the groundwork for improving blocks, renovating parks and school grounds, reclaiming abandoned structures for community use, and improving neighborhood commercial districts. We believe that these partnerships provide mutual benefit, offering invaluable on-the-job training and exposure to the design community and positioning historically underserved neighborhoods to attract future resources. 
