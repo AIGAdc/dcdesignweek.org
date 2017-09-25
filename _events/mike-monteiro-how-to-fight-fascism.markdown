@@ -1,5 +1,6 @@
 ---
 title: 'Mike Monteiro: How To Fight Fascism'
+date: 2017-10-25 18:30:00 -04:00
 position: 8
 seo:
   description: All design is political, because all politics are designed. The world
@@ -9,7 +10,7 @@ seo:
     This is how we knock back.
   og-image: "/uploads/event-placeholder-06.jpg"
 event-details:
-  date: 2017-10-25 18:30:00 -04:00
+  full-date: 2017-10-25 18:30:00 -04:00
   venue-name: LOCATION TBD
   start-time: 6:30pm
   end-time: 9:00pm
