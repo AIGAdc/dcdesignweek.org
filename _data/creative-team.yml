@@ -2,7 +2,7 @@
 
 # 2017 creative team
 2017-team:
-  - image:
+  - image: /uploads/headshot_danielCrane.png
     name: Daniel Crane
     role: Motion Designer
     bio: |
@@ -11,7 +11,7 @@
     social-label: Instagram
     website-link: danielcrane.co
     website-label: Website
-  - image:
+  - image: /uploads/headshot_jenDoyle.png
     name: Jen Doyle
     role: Designer
     bio: |
@@ -20,7 +20,7 @@
     social-label: Instagram
     website-link: https://jendoyledesign.github.io/
     website-label: Website
-  - image:
+  - image: /uploads/headshot_jdDeardourff.jpg
     name: JD Deardourff
     role: Illustrator
     bio: |
