@@ -27,6 +27,8 @@ is-saturday: true
 category: parties
 ---
 
+## Tickets On Sale October 4 at 9am! 
+
 For our closing night extravaganza, we've got NPR here in DC—but not the one you hear in DC. 
 
 The [National Poster Retrospecticus](https://nationalposterretrospecticus.com/) is an internationally traveling poster show, featuring 400+ hand-printed posters made by over 150 of the most prominent poster designers around the world. The show has taken venues including The Rock and Roll Hall of Fame, Adobe HQ, and Lego HQ by storm, and wowed crowds at events like SXSW and NXNE.
