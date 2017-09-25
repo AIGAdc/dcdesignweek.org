@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: Defacto Sound'
-date: 2017-10-26 00:00:00 -04:00
 position: 20
 seo:
   og-image: "/uploads/event-placeholder-09.jpg"
