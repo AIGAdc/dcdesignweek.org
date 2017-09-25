@@ -6,12 +6,10 @@ image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: 'Pop Up Shop
 
 '
-introduction-body-text: 'In addition to this year''s events and outreach, we''re opening
-  our very first DCDW Pop-Up Shop & "Get Out the Vote" Gallery. Thanks to our friends
-  at [Cherry Blossom Creative](http://cherryblossomcreative.com/), [Washington Project
-  for the Arts](https://www.wpadc.org/), and[ Typecase Industries](http://www.typecaseindustries.com/)
-  for making this happen. The shop and gallery are open all week and will serve as
-  headquarters for DCDW.
+introduction-body-text: 'In addition to this year''s events, we''re opening our yearly
+  DCDW Pop-Up Shop. Thanks to our friends at [Cherry Blossom Creative](http://cherryblossomcreative.com/)
+  for making this happen. The shop will be open all week and will serve as headquarters
+  for DCDW!
 
 '
 pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
