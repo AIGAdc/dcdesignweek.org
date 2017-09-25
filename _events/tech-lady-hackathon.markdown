@@ -1,6 +1,5 @@
 ---
 title: Tech Lady Hackathon
-date: 2017-10-21 00:00:00 -04:00
 position: 2
 seo:
   og-image: "/uploads/event-placeholder-06.jpg"
