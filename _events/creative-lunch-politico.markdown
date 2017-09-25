@@ -16,7 +16,9 @@ speakers:
 category: tours
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+## Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+
+## General tickets available on October 4 at 9am.
 
 POLITICO is a global news and information company at the intersection of politics and policy. Headquartered out of Washington, DC, POLITICO has one of the most robust and rapidly expanding roster of journalists covering policy in the world. Boasting a strong roster of designers across various departments, we consistently look to push the envelope in bringing both our journalism and clients’ needs to life.  
  
