@@ -1,5 +1,6 @@
 ---
 title: "[un]hackathon II Color Coded & IBM"
+date: 2017-09-24 09:27:00 -04:00
 position: 3
 seo:
   og-image: "/uploads/event-placeholder-05.jpg"
