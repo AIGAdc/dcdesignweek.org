@@ -7,7 +7,7 @@
 
     <div class="fl w-100 mb4">
       <ul class="list ma0 pa0 cf" data-right-height>     
-        {% assign sorted_events = site.events | sort: event-date %}
+        {% assign sorted_events = site.events | sort: date %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
             <a class="fl w-100 w-third-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
