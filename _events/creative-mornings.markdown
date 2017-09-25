@@ -12,3 +12,4 @@ is-friday: true
 category: lectures
 ---
 
+Info coming soon.
