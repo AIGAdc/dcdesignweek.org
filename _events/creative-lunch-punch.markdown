@@ -14,7 +14,9 @@ is-thursday: true
 category: tours
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+## Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+
+## General tickets available on October 4 at 9am.
 
 Punch is a creative agency for bold brands. We fuse design thinking and content strategy to create experiences users love. We build websites, design mobile apps, write content and produce video, working collaboratively with clients to make art that inspires action. For more info on career opportunities and recent work visit AddSomePunch.com.
 
