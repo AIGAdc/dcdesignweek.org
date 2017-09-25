@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: Punch'
-date: 2017-10-26 00:00:00 -04:00
 position: 21
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"

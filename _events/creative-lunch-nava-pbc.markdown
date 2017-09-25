@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: NAVA PBC'
-date: 2017-10-24 00:00:00 -04:00
 position: 15
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"

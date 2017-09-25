@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: Politico'
-date: 2017-10-24 00:00:00 -04:00
 position: 26
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"
