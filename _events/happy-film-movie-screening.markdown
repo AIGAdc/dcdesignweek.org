@@ -1,6 +1,6 @@
 ---
 title: "DCDW Movie Night! \U0001F3A5"
-date: 2017-09-20 20:56:00 -04:00
+date: 2017-10-20 00:00:00 -04:00
 position: 11
 seo:
   og-image: "/uploads/event-placeholder-03.jpg"
