@@ -1,6 +1,5 @@
 ---
 title: Victorian Architecture in DC
-date: 2017-10-28 00:00:00 -04:00
 position: 12
 seo:
   og-image: "/uploads/event-placeholder-02.jpg"
