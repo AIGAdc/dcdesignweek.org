@@ -14,6 +14,9 @@ is-thursday: true
 category: tours
 ---
 
+## Tickets available to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
+
 Please join us for a creative lunch hosted by NPR and AIGA DC. NPR’s mission to create a more informed public can be seen through the myriad of ways NPR shares news, programs and podcasts with its audience — whether via broadcast radio, NPR.org and interactive web apps, social media and blogs, the NPR One and NPR News mobiles apps, and connected devices.
 
 The lunch will feature talks from creatives across multimedia disciplines at NPR, a chance for like-minded public radio fans to network, and a tour of NPR’s LEED Gold-certified office building.
