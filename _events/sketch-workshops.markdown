@@ -1,6 +1,5 @@
 ---
 title: Sketch Workshops
-date: 2017-10-22 00:00:00 -04:00
 position: 5
 seo:
   og-image: "/uploads/event-placeholder-03.jpg"
