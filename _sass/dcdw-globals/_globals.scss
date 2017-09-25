@@ -102,7 +102,7 @@ article img {
   }
 }
 
-video#bgvid { 
+video#bgvid {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -115,6 +115,8 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
-  background-size: cover; 
+
+  // this is a broken link. commenting out for now.
+  // background: url(polina.jpg) no-repeat;
+  background-size: cover;
 }
