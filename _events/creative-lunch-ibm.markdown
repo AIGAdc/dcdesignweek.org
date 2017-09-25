@@ -14,6 +14,8 @@ is-wednesday: true
 category: tours
 ---
 
+## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
 The IBM Studios Washington DC is the 44th entrant to the IBM Studios global network of outcomes-focused studios that allow design and co-creation to thrive. Studios bring value to IBM by driving and amplifying design-led business outcomes for IBM's offerings and services, accelerate sales cycles and help IBMers close more impactful deals.
 
 Studios provide repeatable experiences for clients & whole teams, share best practices across industries and create global communities. They are places where we help our clients imagine & create the future through collaboration, co-creation, rapid iteration, tinkering and prototyping. We make to think.

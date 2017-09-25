@@ -14,5 +14,7 @@ is-wednesday: true
 category: tours
 ---
 
+## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+
 An award-winning digital agency founded on invention.
 Since 2008, we've been inventing great work for the world's best brands. We've been named Ad Age's Small Agency of the Year (twice) and have won over 20 Cannes Lions and other industry awards. We create multi-channel campaigns that bridge the online and offline world. We design and build websites, mobile apps, data visualizations. We produce content, commercials and short films. We have an entire team devoted to internet-connected devices and our own hardware. And we manage social for some of the biggest companies in the world.
