@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: WDG'
-date: 2017-10-27 00:00:00 -04:00
 position: 25
 seo:
   og-image: "/uploads/event-placeholder-11.jpg"
