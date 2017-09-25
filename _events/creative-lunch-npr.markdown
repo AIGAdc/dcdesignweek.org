@@ -1,6 +1,5 @@
 ---
 title: 'Creative Lunch: NPR'
-date: 2017-10-21 00:00:00 -04:00
 position: 22
 seo:
   og-image: "/uploads/event-placeholder-10.jpg"
