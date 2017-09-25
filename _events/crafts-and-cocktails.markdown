@@ -1,6 +1,5 @@
 ---
 title: Crafts & Cocktails
-date: 2017-10-24 00:00:00 -04:00
 position: 6
 seo:
   og-image: "/uploads/event-placeholder-08.jpg"
