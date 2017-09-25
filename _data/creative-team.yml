@@ -9,29 +9,30 @@
     twitter:
     website:
   - image:
-    name: Dan Rader
-    role:
-    bio:
-    twitter:
-    website:
-  - image:
-    name: Marcus Relacion
-    role:
+    name: Daniel Crane
+    role: Animator
     bio:
     twitter:
     website:
   - image:
     name: Jen Doyle
-    role:
+    role: Designer
     bio:
     twitter:
     website:
   - image:
-    name: Number 5
-    role:
+    name: JD Deardourff
+    role: Illustrator
     bio:
     twitter:
     website:
+  - image: /uploads/marcusrelacion_480.jpg
+    name: Marcus Relacion
+    role: Developer
+    bio: |
+      Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
+    twitter: marcusrelacion
+    website: marcusrelacion.com
 
 # 2016 creative team
 2016-team:

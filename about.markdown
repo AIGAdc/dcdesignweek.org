@@ -22,7 +22,7 @@ dcdw-about-content-body-text: |
 
   The DC chapter was founded in 1984, and is run by a volunteer board of directors. With over 1,230 members, AIGA DC is the fifth largest and one of the oldest chapters in the nation. We strive to cultivate, connect and celebrate the diverse work and people that make up our DC creative community.
 dcdw-about-content-button-text: Visit aiga.org
-dcdw-creative-team-header-text: "‘17 DCDW Committee"
+dcdw-creative-team-header-text: "‘17 DCDW Creative Team"
 layout: pages/about
 ---
 
