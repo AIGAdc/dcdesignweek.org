@@ -14,8 +14,9 @@ is-friday: true
 category: tours
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+## Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
+## General tickets available on October 4 at 9am.
 WDG believes in leveraging individual expertise to create create web, social, and content experiences tailored to unique and challenging needs in the modern tech era. Join WDG for our lunch and learn session, Relationship Goals: Acquiring and Maintaining Long Term Client Relations.
 
 Meet field experts who will help you explore the value of integrated, collaborative relationship frameworks. From sales through launch and into support, our account managers, strategists, designers, and developers intentionally design frameworks that last, rather than simply focusing on a website launch. We look at key ways to remain cognizant of the strengths and weaknesses of the teams you collaborate with, as well as the long term value you can add to a client's missions and objectives.
