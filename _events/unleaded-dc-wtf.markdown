@@ -10,6 +10,9 @@ event-details:
   venue-address: 727 15th St NW, Washington, DC 20005
   start-time: 6:30pm
   end-time: 9:30pm
+event-buttons:
+  left-button-link: Get Tickets!
+  left-button-text: https://www.meetup.com/UnleadedDC/events/242944134/
 is-thursday: true
 category: lectures
 ---
