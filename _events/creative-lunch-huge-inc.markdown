@@ -1,11 +1,11 @@
 ---
 title: 'Creative Lunch: Huge Inc'
-date: 2017-09-20 21:43:00 -04:00
+date: 2017-10-23 00:00:00 -04:00
 position: 14
 seo:
   og-image: "/uploads/event-placeholder-12.jpg"
 event-details:
-  date: 0001-10-01 00:03:58 -04:56
+  date: 2017-10-23 00:00:00 -04:00
   venue-name: Huge Inc
   venue-directions: https://www.google.com/maps/place/530+Penn+St+NE,+Washington,+DC+20002/@38.910367,-76.9987654,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b8104f0f7273:0xdea50325c0d85125!8m2!3d38.910367!4d-76.9965767
   venue-address: 530 Penn St NE, Washington, DC 20002.
