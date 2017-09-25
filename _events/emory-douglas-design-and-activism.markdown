@@ -16,7 +16,7 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
   left-button-text: Grab Your Tickets!
 speakers:
-  headshot-image: "/uploads/event-placeholder-11.jpg"
+  headshot-image: "/uploads/event_emoryDouglas-2x.jpg"
   name: Emory Douglas
   title: Former Minister of Culture of the Black Panthers
   bio-text: Emory Douglas was born May 24, 1943, in Grand Rapids, Michigan. He has
