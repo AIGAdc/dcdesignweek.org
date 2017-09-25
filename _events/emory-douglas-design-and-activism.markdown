@@ -14,7 +14,7 @@ event-details:
   end-time: 9:00pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/design-week-2017-design-activism-tickets-37625220046?aff=efbevent
-  left-button-text: Button Left
+  left-button-text: Grab Your Tickets!
 speakers:
   headshot-image: "/uploads/event-placeholder-11.jpg"
   name: Emory Douglas
