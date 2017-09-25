@@ -12,7 +12,7 @@
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-5 }}">{{ page.category-5-label }}</a></li>
     </ul>
   </div>
-  
+
   <div class="fl w-100">
     <!-- filter days -->
     <h6 class="ma0 mb1 f6 fw9 ttu black-40 db">Days:</h6>
@@ -57,10 +57,12 @@
     {% endfor %}
   </div>
 
+<!-- adding saturday to line up dates  -->
+
   <div class="day fl w-100 mb5">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-2-label }}</h2>
     {% for posts in site.events %}
-      {% if posts.is-sunday == true %}
+      {% if posts.is-kickoff-saturday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
         {% if posts.is-featured-on-events-page == true %}
           <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
@@ -79,6 +81,25 @@
   <div class="day fl w-100 mb5">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-3-label }}</h2>
     {% for posts in site.events %}
+      {% if posts.is-sunday == true %}
+      <ul class="dcdw-event-list ma0 pa0 list">
+        {% if posts.is-featured-on-events-page == true %}
+          <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+        {% else %}
+          <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+        {% endif %}
+          <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
+            {% include partials/events/events-card-contents.html %}
+          </li>
+        </a>
+      </ul>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="day fl w-100 mb5">
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-4-label }}</h2>
+    {% for posts in site.events %}
       {% if posts.is-monday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
@@ -96,7 +117,7 @@
   </div>
 
   <div class="day fl w-100 mb5">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-4-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-5-label }}</h2>
     {% for posts in site.events %}
       {% if posts.is-tuesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
@@ -115,7 +136,7 @@
   </div>
 
   <div class="day fl w-100 mb5">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-5-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-6-label }}</h2>
     {% for posts in site.events %}
       {% if posts.is-wednesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
@@ -134,7 +155,7 @@
   </div>
 
   <div class="day fl w-100 mb5">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-6-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-7-label }}</h2>
     {% for posts in site.events %}
       {% if posts.is-thursday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
@@ -153,7 +174,7 @@
   </div>
 
   <div class="day fl w-100 mb5">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-7-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-8-label }}</h2>
     {% for posts in site.events %}
       {% if posts.is-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
@@ -172,7 +193,7 @@
   </div>
 
   <div class="day fl w-100 mb5">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-8-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-9-label }}</h2>
     {% for posts in site.events %}
       {% if posts.is-saturday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
@@ -189,26 +210,6 @@
       {% endif %}
     {% endfor %}
   </div>
-
-  <div class="day fl w-100 mb5">
-      <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-9-label }}</h2>
-      {% for posts in site.events %}
-        {% if posts.is-saturday == true %}
-          <ul class="dcdw-event-list ma0 pa0 list">
-            {% if posts.is-featured-on-events-page == true %}
-              <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
-            {% else %}
-              <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
-            {% endif %}
-              <li class="event-card ma0 pa0 ba bw2 dcdw-orange bg-white">
-                {% include partials/events/events-card-contents.html %}
-              </li>
-            </a>
-          </ul>
-        {% endif %}
-      {% endfor %}
-    </div>
-</div>
 
 <!-- filter script -->
 <script type="text/javascript">
