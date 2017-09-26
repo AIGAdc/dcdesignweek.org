@@ -33,7 +33,7 @@ Great brands differentiate themselves through the design of their products and s
  
 In our time together you’ll learn about IBM iX and IBM Design and how we’re working at the intersection of design, business, and technology for the public sector. We’ll share with you one of  our exciting emerging technology explorations and how being human centered is leading our work.  
  
-Lunch is included. Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
+Lunch is included. Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
  
 Please plan to arrive at IBM 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12:00 PM.
  
