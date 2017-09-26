@@ -10,10 +10,11 @@ event-details:
   venue-address: 1330 5th St NE, Washington, DC 20002
   start-time: 6:00pm
   end-time: 9:00pm
+is-featured-on-events-page: true
 is-tuesday: true
 category: parties
 ---
 
-### Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am!
 
 We're getting together with the DIY dynamos of DC's Lemon Collective to celebrate crafts and cocktails, and where better than the wonderfully well-stocked Cotton & Reed distillery in Union Market? Pick up some crafty tips, libation in hand, at this productively playful event!
