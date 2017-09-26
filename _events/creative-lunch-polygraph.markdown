@@ -2,15 +2,16 @@
 title: 'Creative Lunch: Polygraph'
 position: 19
 seo:
-  og-image: "/uploads/event-placeholder-07.jpg"
+  og-image: "/uploads/event_cl-polygraph.jpg"
 event-details:
-  date: 2017-10-26 00:00:00 -04:00
+  date: 2017-10-25 00:00:00 -04:00
   venue-name: Polygraph
   venue-directions: https://www.google.com/maps/place/709+8th+St+SE,+Washington,+DC+20003/@38.8808888,-76.9974014,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b9cccded2e99:0xa8007cea6bf9718e!8m2!3d38.8808888!4d-76.9952127
   venue-address: 709 8th St SE, Washington, DC 20003
   start-time: 11:30am
   end-time: 2pm
-is-thursday: true
+is-wednesday: true
+is-thursday: false
 category: tours, member-first
 ---
 
