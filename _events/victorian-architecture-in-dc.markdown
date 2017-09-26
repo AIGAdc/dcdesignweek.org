@@ -2,7 +2,7 @@
 title: Victorian Architecture in DC
 position: 12
 seo:
-  og-image: "/uploads/event-placeholder-02.jpg"
+  og-image: "/uploads/event_victorianArchitecture.jpg"
 event-details:
   date: 2017-10-28 10:30:00 -04:00
   venue-name: Tyber Creek (check-in)
