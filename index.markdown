@@ -1,35 +1,24 @@
 ---
 title: Home
 permalink: "/"
-description: 
+description:
 image: "/uploads/OG_featuredimage-live.jpg"
 divider-1: Introduction
-introduction-title: 
-introduction-body-text: 
+introduction-title:
+introduction-body-text:
 divider-2: DC is Design Section
-dc-design-header-text: DC is Design
-dc-design-paragraph-1-text: |
-  Design is a driving force in our nation’s capital and
-  surrounding metro area. Whether it’s supporting leading nonprofits, engineering
-  the next startup, or solving problems at scale through government, design is at
-  the core of the DMV.
-dc-design-paragraph-2-text: |
-  We are makers and disruptors, artisans and tech geeks,
-  and this October we’re coming together to celebrate. Join us for DC Design Week.
-dc-design-paragraph-3-text: 'This year will be bigger and better than ever with new
-  partners, new venues, new event formats, and new ways to connect with our unique
-  design community. You won''t want to miss this.
+dc-design-header-text: Design Culture in DC
+dc-design-paragraph-1-text: "In the nation’s capital, design is all around us. From our architecture to our activism, from our technology solutions to our craft cocktails, the DMV is created and recreated by design everyday. We’re not a swamp. We’re more intentional than that.\n\n
+We are your government problem-solvers, your startup go-getters, your nonprofit champions. We are makers and changers, artisans and engineers. We’re celebrating together, and you’re invited.\n\n
+We can’t wait to show you what we have in store for this year’s DC Design Week. New partners, new venues, new formats, same commitment to the people and the work that makes this city great (because some things just shouldn’t be disrupted). Are you ready?"
 
-'
-dc-design-paragraph-mobile-text: |
-  Design is a driving force in our nation’s capital and
-  surrounding metro area. Whether it’s supporting leading nonprofits, engineering
-  the next startup, or solving problems at scale through government, design is at
-  the core of the DMV. We are makers and disruptors, artisans and tech geeks,
-  and this October we’re coming together to celebrate. Join us for DC Design Week. This year will be bigger and better than ever with new partners, new venues, new event formats, and new ways to connect with our unique design community. You won't want to miss this.
+dc-design-paragraph-mobile-text: "In the nation’s capital, design is all around us. From our architecture to our activism, from our technology solutions to our craft cocktails, the DMV is created and recreated by design everyday. We’re not a swamp. We’re more intentional than that.\n\n
+We are your government problem-solvers, your startup go-getters, your nonprofit champions. We are makers and changers, artisans and engineers. We’re celebrating together, and you’re invited.\n\n
+We can’t wait to show you what we have in store for this year’s DC Design Week. New partners, new venues, new formats, same commitment to the people and the work that makes this city great (because some things just shouldn’t be disrupted). Are you ready?"
+
 divider-3: Events Section
 home-events-header-text: Featured Events
-home-events-sub-header-text: 
+home-events-sub-header-text:
 home-events-button-text: View Full Schedule
 home-events-link: "/events/"
 divider-4: Sponsors Section
@@ -44,4 +33,3 @@ home-sponsors-link-text: See Full List
 home-sponsors-link: "/sponsors/"
 layout: pages/home
 ---
-
