@@ -3,7 +3,7 @@ title: "DCDW Kickoff Party \U0001F389"
 date: 2017-09-25 09:26:00 -04:00
 position: 4
 seo:
-  og-image: "/uploads/event-placeholder-04.jpg"
+  og-image: "/uploads/event_openingParty.jpg"
 event-details:
   date: 2017-10-22 00:00:00 -04:00
   venue-name: Wet Dog Tavern
