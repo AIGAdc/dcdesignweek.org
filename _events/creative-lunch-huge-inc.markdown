@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Huge Inc'
 position: 14
 seo:
-  og-image: "/uploads/event-placeholder-12.jpg"
+  og-image: "/uploads/event_cl-huge.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
   venue-name: Huge Inc
