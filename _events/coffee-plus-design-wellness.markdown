@@ -15,7 +15,11 @@ is-tuesday: true
 category: lectures, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! General tickets available on October 4 at 9am.
+### Tickets On Sale to AIGA members October 2 at 9am! 
+
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+
+### General tickets available on October 4 at 9am.
 
 As creatives, we often find that our best work results from immersing ourselves in the deep end of our craft and discipline. But sometimes the best way we can help ourselves (and our work) is to step away, so that we can recharge ourselves and come back with a new sense of inspiration and invigoration. Join us at Nh.D Studio to start the day right—with coffee, conversation, and wellness in mind!
 
