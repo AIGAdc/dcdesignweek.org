@@ -2,7 +2,7 @@
 title: National Poster Retrospecticus + Closing Party
 position: 13
 seo:
-  og-image: "/uploads/event-placeholder-01.jpg"
+  og-image: "/uploads/event_closingParty.jpg"
 event-details:
   date: 2017-10-28 00:00:00 -04:00
   venue-name: Dupont Underground
@@ -27,7 +27,7 @@ is-saturday: true
 category: parties
 ---
 
-## Tickets On Sale October 4 at 9am! 
+### Tickets Available October 4 at 9am! 
 
 For our closing night extravaganza, we've got NPR here in DC—but not the one you hear in DC. 
 
