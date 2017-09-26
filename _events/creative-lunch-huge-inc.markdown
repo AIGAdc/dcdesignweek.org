@@ -14,17 +14,17 @@ is-monday: true
 category: tours, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! 
+### Tickets On Sale to AIGA members October 2 at 9am! 
 
-## [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
-## General tickets available on October 4 at 9am.
+### General tickets available on October 4 at 9am.
 
 Huge is a global collective of designers, strategists and technologists.
 We’re passionate about helping companies play trusted roles in people’s lives by creating products, services and brands that people truly love. 
 We were the first agency to be founded on the idea that the principles of user experience should not just drive design, but business and marketing. We’re known for finding new ways to harmonize the things clients need with what users really want to create experiences that change industries. 
 
-**Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
+**Lunch is included.** Registration is $10, limited to 30 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
  
 Please plan to arrive at Huge 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12:00 PM.
  
