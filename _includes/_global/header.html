@@ -1,12 +1,13 @@
-<header class="global-header bg-white fixed top-0 right-0 left-0 pa3">
+<header class="global-header bg-white fixed top-0 right-0 left-0 ph3-l pv1-l pa3">
   <nav class="flex flex-row">
     <!-- desktop logo -->
     <div class="logo-wrapper-mobile dn inline-flex-l flex-auto self-center">
       <a class="link ma0" href="/">
-        <span class="v-mid dib">{% include logos/dcdw-logo-mobile.svg %}</span>
+<!-- added this transform as a quick fix because the flex isn't working -->
+        <span class="v-mid dib" style="transform: translateY(3px);">{% include logos/dcdw-logo-mobile.svg %}</span>
       </a>
     </div>
-    
+
     <div class="db w-100 w-75-l tc tr-l flex-auto self-center">
       <ul class="list ma0 pl0 dn db-l">
         {% for link in site.data.navigation.primary-nav %}
