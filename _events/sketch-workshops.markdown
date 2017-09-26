@@ -5,8 +5,9 @@ seo:
   og-image: "/uploads/event_sketchWorkshop.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
-  venue-name: Location TBD
-  venue-directions: " "
+  venue-name: General Assembly
+  venue-directions: " https://goo.gl/maps/eUSNXuQ2Lf92"
+  venue-address: 1133 15th St NW, 12th Floor, Washington, DC 20005
   start-time: 6:30pm
   end-time: 9:30pm
 is-monday: true
