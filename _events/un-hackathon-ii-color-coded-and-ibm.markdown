@@ -15,5 +15,6 @@ is-sunday: true
 category: workshops
 ---
 
-## Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am!
+ 
 There's something for everyone at Color Coded + IBM's un-hackathon II: a day of learning, creating, wellness, and overall good vibes, focused on empowering women founders and creatives. The day begins with a Design Thinking workshop, where you’ll learn all about the framework used by IBM to solve users’ problems at the speed and scale of a modern digital enterprise. Then, we’ll jump into working and hacking on projects brought in by participants or taken from the list of suggested ideas available on our site. Not hacking? No problem. Other workshops throughout the day include an intro to React, an intro to the Adobe Suite, and even a meditative yoga class!
