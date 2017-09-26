@@ -10,6 +10,7 @@ event-details:
   venue-address: 1330 5th St NE, Washington, DC 20002
   start-time: 6:00pm
   end-time: 9:00pm
+is-featured-on-events-page: true
 is-tuesday: true
 category: parties
 ---
