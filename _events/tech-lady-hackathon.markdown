@@ -16,9 +16,14 @@ is-kickoff-saturday: true
 category: workshops
 ---
 
-Tech Lady Hackathon was started to get more women and non-binary individuals into tech. Each year in D.C. hundreds gather for a day of friendly learning and hacking. Coders, tech strategists, newbies, nerds, and the curious are all welcome! 
-Training: Training and mentoring workshops will be offered all day. Some examples of classes: Intro to... APIs, Python, GitHub, html/CSS, and data viz.
+Tech Lady Hackathon was started to get more women and non-binary individuals into tech. Each year in D.C. hundreds gather for a day of friendly learning and hacking. Coders, tech strategists, newbies, nerds, and the curious are all welcome!
+
+Training: Training and mentoring workshops will be offered all day.
+
+Some examples of classes: Intro to... APIs, Python, GitHub, html/CSS, and data viz.
 
 Discussion Groups: There are guided discussion groups throughout the day for more specific Tech Lady communities, such as Women of Color in Tech, Government Tech, and Mid-Level in Tech.
 
-Hackathon: This is a civic hackathon, but participants are welcome to bring anything and pitch it.
+Hackathon: This is a civic hackathon, but participants are welcome to bring anything and pitch it. 
+
+For more information, visit:[ http://techladyhackathon.org/](http://techladyhackathon.org/)
