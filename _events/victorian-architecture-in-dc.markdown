@@ -17,7 +17,9 @@ is-saturday: true
 category: lectures
 ---
 
-## Use the Discount Code: DCHT20001
+### Tickets Available October 4 at 9am! 
+
+### Use the Discount Code: DCHT20001
 
 When someone says “Bloomingdale,” what comes to mind? Showtime? Red Hen? Boundary Stone? Not “design,” right? That’s about to change.
 
