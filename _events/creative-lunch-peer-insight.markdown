@@ -22,4 +22,4 @@ category: tours, member-first
 
 Peer Insight is an innovation consultancy in Washington DC. We empower our clients to be fearless explorers of new services, and new experiences. We help clients move from insight to experiment to reality by combining the methods and mindsets of design thinking, strategy, and entrepreneurship.
 
-**Lunch is included. **Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
+**Lunch is included. **Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
