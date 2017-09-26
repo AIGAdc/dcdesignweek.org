@@ -21,7 +21,8 @@ a.header-link:hover {
 .btn {
   cursor: pointer;
   transition: all $timing-200 ease-out;
-  font-size: 16px;
+  font-size: 15px;
+  letter-spacing: 2px;
   padding: 12px 18px;
   text-decoration: none;
   font-weight: $fw6;
