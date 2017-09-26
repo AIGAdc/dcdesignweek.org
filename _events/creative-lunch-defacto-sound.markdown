@@ -1,10 +1,11 @@
 ---
 title: 'Creative Lunch: Defacto Sound'
 categories:
-- tours, members-first
+- tours
+- members-first
 position: 20
 seo:
-  og-image: "/uploads/event-placeholder-09.jpg"
+  og-image: "/uploads/event_cl-defactoSound.jpg"
 event-details:
   date: 2017-10-26 00:00:00 -04:00
   venue-name: Defacto Sound
