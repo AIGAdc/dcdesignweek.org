@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Peer Insight'
 position: 24
 seo:
-  og-image: "/uploads/event-placeholder-07.jpg"
+  og-image: "/uploads/event_cl-peerInsight.jpg"
 event-details:
   date: 2017-10-27 00:00:00 -04:00
   venue-name: Peer Insight
@@ -14,11 +14,11 @@ is-friday: true
 category: tours, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! 
+### Tickets On Sale to AIGA members October 2 at 9am! 
 
-## [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
-## General tickets available on October 4 at 9am.
+### General tickets available on October 4 at 9am.
 
 Peer Insight is an innovation consultancy in Washington DC. We empower our clients to be fearless explorers of new services, and new experiences. We help clients move from insight to experiment to reality by combining the methods and mindsets of design thinking, strategy, and entrepreneurship.
 
