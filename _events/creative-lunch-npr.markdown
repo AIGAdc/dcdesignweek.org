@@ -24,4 +24,4 @@ Please join us for a creative lunch hosted by NPR and AIGA DC. NPR’s mission t
 
 The lunch will feature talks from creatives across multimedia disciplines at NPR, a chance for like-minded public radio fans to network, and a tour of NPR’s LEED Gold-certified office building.
 
-Admission is free, lunch will be provided, and attendance will be capped at 30 guests. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
+Admission is free, lunch will be provided, and attendance will be capped at 30 guests. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
