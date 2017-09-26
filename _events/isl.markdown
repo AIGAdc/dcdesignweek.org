@@ -2,7 +2,7 @@
 title: 'Creative Lunch: ISL'
 position: 18
 seo:
-  og-image: "/uploads/event-placeholder-08.jpg"
+  og-image: "/uploads/event_cl-isl.jpg"
 event-details:
   date: 2017-10-25 00:00:00 -04:00
   venue-name: ISL
@@ -14,11 +14,11 @@ is-wednesday: true
 category: tours, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! 
+### Tickets On Sale to AIGA members October 2 at 9am! 
 
-## [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
-## General tickets available on October 4 at 9am.
+### General tickets available on October 4 at 9am.
 
 ISL is an award-winning digital agency founded on invention.
 
