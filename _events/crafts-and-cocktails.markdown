@@ -14,6 +14,6 @@ is-tuesday: true
 category: parties
 ---
 
-## Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am! 
 
 We're getting together with the DIY dynamos of DC's Lemon Collective to celebrate crafts and cocktails, and where better than the wonderfully well-stocked Cotton & Reed distillery in Union Market? Pick up some crafty tips, libation in hand, at this productively playful event!
