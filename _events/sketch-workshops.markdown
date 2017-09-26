@@ -12,7 +12,7 @@ is-monday: true
 category: workshops
 ---
 
-## Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am! 
 
 Are you an old pro with Sketch design software, or are you just getting the hang of it? Either way, we've got you covered! In collaboration with Sketch and General Assembly, we're hosting workshops covering both beginner and advanced-level Sketch users. Join us and get your sketch on!
 
