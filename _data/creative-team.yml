@@ -1,4 +1,4 @@
-# This data yml file will loop through the DCDW creative team and display them in a 3 column grid. 
+# This data yml file will loop through the DCDW creative team and display them in a 3 column grid.
 
 # 2017 creative team
 2017-team:
@@ -18,7 +18,7 @@
       Jen Doyle is a designer based in Washington DC. She is originally from New Jersey but has also lived across the pond. She received her Bachelor of Arts Degree in Graphic Design from the Maryland Institute College of Art (MICA).
     social-link: https://www.instagram.com/jendoyledesign
     social-label: Instagram
-    website-link: https://jendoyledesign.github.io/
+    website-link: https://jendoyledesign.github.io/Jen-Doyle-Design/about.html
     website-label: Website
   - image: /uploads/headshot_jdDeardourff.jpg
     name: JD Deardourff
