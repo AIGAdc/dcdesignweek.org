@@ -2,7 +2,7 @@
 title: 'Coffee + Design: Wellness'
 position: 7
 seo:
-  og-image: "/uploads/event-placeholder-02.jpg"
+  og-image: "/uploads/event_coffeAndDesign.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   venue-name: Nh.D Studio
