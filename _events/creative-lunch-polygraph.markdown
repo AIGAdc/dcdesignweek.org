@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Polygraph'
 position: 19
 seo:
-  og-image: "/uploads/event_cl-polygraph.jpg"
+  og-image: "/uploads/event_cl-polygraph-e3fedf.jpg"
 event-details:
   date: 2017-10-25 00:00:00 -04:00
   venue-name: Polygraph
@@ -15,11 +15,11 @@ is-thursday: false
 category: tours, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! 
+### Tickets On Sale to AIGA members October 2 at 9am! 
 
-## [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
-## General tickets available on October 4 at 9am.
+### General tickets available on October 4 at 9am.
 
 Polygraph is a multidisciplinary design firm in Washington, DC, offering smart creativity and a keen sense of aesthetic. Founded at Oktoberfest in 2010 by Lindsay Mannix, Jason Mannix, and Gavin Wade, Polygraph specializes in communication design, both print and digital, brand identity and extension, and industrial design for local and national clients. At the heart of their business is the desire to create memorable and meaningful work that adds to the cultural richness of their community. 
  
