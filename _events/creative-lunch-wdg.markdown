@@ -2,7 +2,7 @@
 title: 'Creative Lunch: WDG'
 position: 25
 seo:
-  og-image: "/uploads/event-placeholder-11.jpg"
+  og-image: "/uploads/event_cl-wdg.jpg"
 event-details:
   date: 2017-10-27 00:00:00 -04:00
   venue-name: WDG
@@ -14,11 +14,11 @@ is-friday: true
 category: tours, member-first
 ---
 
-## Tickets On Sale to AIGA members October 2 at 9am! 
+### Tickets On Sale to AIGA members October 2 at 9am! 
 
-## [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
-## General tickets available on October 4 at 9am.
+### General tickets available on October 4 at 9am.
 
 WDG believes in leveraging individual expertise to create create web, social, and content experiences tailored to unique and challenging needs in the modern tech era. Join WDG for our lunch and learn session, Relationship Goals: Acquiring and Maintaining Long Term Client Relations.
 
