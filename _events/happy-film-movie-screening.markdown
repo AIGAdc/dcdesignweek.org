@@ -12,6 +12,8 @@ event-details:
   venue-address: 3107 Mt Pleasant St NW, Washington, DC 20010
   start-time: TIME TBD
   end-time: TBD
+is-featured-on-home-page: true
+is-featured-on-events-page: true
 is-friday: true
 category: screenings
 ---
