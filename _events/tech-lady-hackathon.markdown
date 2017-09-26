@@ -2,7 +2,7 @@
 title: Tech Lady Hackathon
 position: 2
 seo:
-  og-image: "/uploads/event-placeholder-06.jpg"
+  og-image: "/uploads/event-placeholder-10.jpg"
 event-details:
   date: 2017-10-21 00:00:00 -04:00
   venue-name: The Washington Post
