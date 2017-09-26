@@ -5,7 +5,8 @@ seo:
   og-image: "/uploads/event_sketchWorkshop.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
-  venue-name: LOCATION TBD
+  venue-name: Location TBD
+  venue-directions: " "
   start-time: 6:30pm
   end-time: 9:30pm
 is-monday: true
