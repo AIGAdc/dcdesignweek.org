@@ -11,8 +11,8 @@ event-details:
   start-time: 6:30pm
   end-time: 9:30pm
 event-buttons:
-  left-button-link: Get Tickets!
-  left-button-text: https://www.meetup.com/UnleadedDC/events/242944134/
+  left-button-link: https://www.meetup.com/UnleadedDC/events/242944134/
+  left-button-text: Get Tickets!
 is-thursday: true
 category: lectures
 ---
