@@ -1,5 +1,7 @@
 ---
 title: "DCDW \U0001F3A5 Night! The Happy Film  "
+categories:
+- screenings
 position: 11
 seo:
   og-image: "/uploads/event_dcdwMovieNight.jpg"
@@ -15,7 +17,6 @@ event-details:
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-friday: true
-category: screenings
 ---
 
 ### Tickets On Sale October 4 at 9am!
