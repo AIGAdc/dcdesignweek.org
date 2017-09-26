@@ -28,7 +28,7 @@ We help creatives around the world tell stories that resonate. Whether it’s ma
 
 We specialize in natural, abstract, and hybrid sound design; and we're experts in mixing for any of the hundreds of delivery requirements, including 5.1. You’ll hear our work at major film festivals, on broadcast television, in blockbuster video games and trailers, and, of course, all over the Internet.
 
-\*\*Lunch is included. \*\*Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
+\*\*Lunch is included. \*\*Registration is $10, limited to 25 attendees. 
 
 Please plan to arrive at Defacto Sound 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12PM.
 
