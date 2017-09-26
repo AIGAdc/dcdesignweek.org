@@ -25,7 +25,7 @@ Polygraph is a multidisciplinary design firm in Washington, DC, offering smart c
  
 Since their founding, they’ve been honored with awards from The Type Directors Club of New York, How magazine, Communication Arts magazine, Graphis, The DC Ad Club, Print, The Art Directors Club of Metropolitan Washington, and AIGA and their work has appeared in The New York Times, The Washington Post, The Atlantic and Washingtonian magazine.
  
-**Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at noon on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
+**Lunch is included.** Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and sign up to become a member today!
  
 Please plan to arrive at Poygraph 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12:00 PM.
  
