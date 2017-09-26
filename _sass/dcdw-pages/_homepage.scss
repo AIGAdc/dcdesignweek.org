@@ -25,4 +25,9 @@ span.white-bar {
     width: 580px;
   }
 }
-
+.dc-is-design {
+    & p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
