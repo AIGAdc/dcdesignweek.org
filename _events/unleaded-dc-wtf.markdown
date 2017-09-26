@@ -2,7 +2,7 @@
 title: 'UNLEADED DC: WTF?!'
 position: 9
 seo:
-  og-image: "/uploads/event-placeholder-05.jpg"
+  og-image: "/uploads/event_unleadedDC.jpg"
 event-details:
   date: 2017-10-26 00:00:00 -04:00
   venue-name: FIN Digital
@@ -16,6 +16,8 @@ event-buttons:
 is-thursday: true
 category: lectures
 ---
+
+### Tickets Available October 4 at 9am! 
 
 UNLEADED is a space for creative & innovative individuals who are passionate about using design to make a positive impact. We meet once a month to learn from experts and use design sprints to solve real problems as we connect with our DC community.
 
