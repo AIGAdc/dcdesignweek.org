@@ -13,6 +13,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.meetup.com/UnleadedDC/events/242944134/
   left-button-text: Get Tickets!
+is-featured-on-events-page: true
 is-thursday: true
 category: lectures
 ---
