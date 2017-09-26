@@ -2,7 +2,7 @@
 title: Sketch Workshops
 position: 5
 seo:
-  og-image: "/uploads/event-placeholder-03.jpg"
+  og-image: "/uploads/event_sketchWorkshop.jpg"
 event-details:
   date: 2017-10-23 00:00:00 -04:00
   venue-name: LOCATION TBD
