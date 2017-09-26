@@ -2,7 +2,7 @@
 title: National Poster Retrospecticus + Closing Party
 position: 13
 seo:
-  og-image: "/uploads/event_closingParty.jpg"
+  og-image: "/uploads/event_closingParty-a373f2.jpg"
 event-details:
   date: 2017-10-28 00:00:00 -04:00
   venue-name: Dupont Underground
