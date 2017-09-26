@@ -15,6 +15,10 @@
 	box-shadow: 8px 8px $dcdw-orange;
 }
 
+.home-event-link:nth-child(odd) {
+	padding: 1em 0;
+}
+
 span.event-date {
 	top: -25px;
 	left: 15px;
