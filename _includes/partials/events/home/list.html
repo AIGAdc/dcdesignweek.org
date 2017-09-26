@@ -1,4 +1,4 @@
-<section class="home-events relative bg-white fl w-100 mv5">
+<section class="home-events relative bg-white fl w-100 mb5">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-80-l mb5">
       <span class="ma0 bbroller f3 f2-ns lh-title db">{{ page.home-events-header-text }}</span>
@@ -6,7 +6,7 @@
     </div>
 
     <div class="fl w-100 mb4">
-      <ul class="list ma0 pa0 cf" data-right-height>     
+      <ul class="list ma0 pa0 cf" data-right-height>
         {% assign sorted_events = site.events %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
