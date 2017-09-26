@@ -1,17 +1,22 @@
 /* events */
 
-// .home-event-card {
-// 	min-height: 476px;
-// }
-//
-// .event-card {
-// 	min-height: 476px;
-// }
+.home-event-card {
+	border: solid 3px $dcdw-blue;
+	box-shadow: 0 0 $dcdw-orange;
+	transition: all 200ms ease-in-out;
+	position: relative
+}
+
+.home-event-card:hover {
+	transform: translateX(-8px);
+	border: solid 3px $dcdw-blue;
+	box-shadow: 8px 8px $dcdw-orange;
+}
 
 span.event-date {
-	top: -5px;
-	left: 30px;
-	right: 30px;
+	top: -25px;
+	left: 15px;
+	right: 15px;
 }
 
 .event-feature  {
