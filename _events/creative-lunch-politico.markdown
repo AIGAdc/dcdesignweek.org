@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Politico'
 position: 26
 seo:
-  og-image: "/uploads/event-placeholder-11.jpg"
+  og-image: "/uploads/event_cl-politico.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   venue-name: Politico
@@ -17,7 +17,9 @@ is-tuesday: true
 category: tours, member-first
 ---
 
-### Tickets On Sale to AIGA members October 2 at 9am! [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
+### Tickets On Sale to AIGA members October 2 at 9am! 
+
+### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
 
 ### General tickets available on October 4 at 9am.
 
