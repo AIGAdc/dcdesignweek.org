@@ -18,7 +18,8 @@ is-friday: true
 category: screenings
 ---
 
-## Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am! 
+
 Pass the popcorn! DC Design Week is taking over Mount Pleasant's Suns Cinema for an evening screening of Austrian graphic designer Stefan Sagmeister's The Happy Film. 
 
 Is it possible to train one’s mind to get happier? The film follows Sagmeister's attempt to answer this question by turning himself into a design project. This celebrated 2016 documentary—a deep mediation on the interconnectedness of design and modern life—is the perfect complement to our programming this year, and our focus on design as an ever-expanding concept.
