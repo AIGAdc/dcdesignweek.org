@@ -12,7 +12,7 @@ event-details:
   end-time: 2pm
 is-wednesday: true
 is-thursday: false
-category: tours, member-first
+category: tours , member-first
 ---
 
 ### Tickets On Sale to AIGA members October 2 at 9am! 
