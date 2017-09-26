@@ -16,7 +16,8 @@ is-sunday: true
 category: parties
 ---
 
-## Tickets Available October 4 at 9am! 
+### Tickets Available October 4 at 9am! 
+
 This event is free but tickets are required. 
 
 We're blasting off the week with a beer + burgers shindig at Wet Dog Tavern in Shaw.
