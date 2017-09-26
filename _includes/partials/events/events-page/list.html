@@ -10,7 +10,7 @@
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-3 }}">{{ page.category-3-label }}</a></li>
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-4 }}">{{ page.category-4-label }}</a></li>
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-5 }}">{{ page.category-5-label }}</a></li>
-    <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-6 }}">{{ page.category-6-label }}</a></li>
+      <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.category-6 }}">{{ page.category-6-label }}</a></li>
     </ul>
   </div>
 
@@ -45,9 +45,9 @@
       {% if posts.is-kickoff-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-1 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-1 }} {% if posts.category contains 'members-first' %} {% else %} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-1 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-1 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -66,9 +66,9 @@
       {% if posts.is-kickoff-saturday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
         {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
         {% else %}
-          <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-2 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
         {% endif %}
           <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
             {% include partials/events/events-card-contents.html %}
@@ -85,9 +85,9 @@
       {% if posts.is-sunday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
         {% if posts.is-featured-on-events-page == true %}
-          <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-3 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-3 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
         {% else %}
-          <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-3 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+          <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-3 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
         {% endif %}
           <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
             {% include partials/events/events-card-contents.html %}
@@ -104,9 +104,9 @@
       {% if posts.is-monday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-4 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-4 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-4 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-4 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -123,9 +123,9 @@
       {% if posts.is-tuesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -142,9 +142,9 @@
       {% if posts.is-wednesday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-6 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-6 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-6 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-6 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -161,9 +161,9 @@
       {% if posts.is-thursday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-7 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-7 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-7 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-7 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -180,9 +180,9 @@
       {% if posts.is-friday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-8 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-8 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-8 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-8 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}
@@ -199,9 +199,9 @@
       {% if posts.is-saturday == true %}
         <ul class="dcdw-event-list ma0 pa0 list">
           {% if posts.is-featured-on-events-page == true %}
-            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
-            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {{ posts.category }}" href="{{posts.url}}" data-right-height-content>
+            <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-9 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
             <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
               {% include partials/events/events-card-contents.html %}

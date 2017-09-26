@@ -15,7 +15,7 @@ category-4: workshops
 category-4-label: Workshops
 category-5: parties
 category-5-label: Parties
-category-6: members-first
+category-6: member-first
 category-6-label: Members First
 day-1: friday-beginning
 day-1-label: Friday, Oct 20
