@@ -2,7 +2,7 @@
 title: Crafts & Cocktails
 position: 6
 seo:
-  og-image: "/uploads/event-placeholder-08.jpg"
+  og-image: "/uploads/event_craftsAndCocktails.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   venue-name: Cotton & Reed
