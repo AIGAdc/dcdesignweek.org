@@ -2,7 +2,7 @@
 title: "DCDW Movie Night! \U0001F3A5"
 position: 11
 seo:
-  og-image: "/uploads/event-placeholder-03.jpg"
+  og-image: "/uploads/event_dcdwMovieNight.jpg"
 event-details:
   video-embed: <iframe width="600" height="580" src="https://www.youtube.com/embed/Akn0wnQ6rxE?rel=0"
     frameborder="0" allowfullscreen></iframe>
