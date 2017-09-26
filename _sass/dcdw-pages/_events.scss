@@ -12,3 +12,9 @@ span.event-date {
 	top: 50px;
 	left: -5px;
 }
+
+.event-feature  {
+	& .event-image {
+		height: 10rem;
+	}
+}
