@@ -10,7 +10,9 @@ seo:
   og-image: "/uploads/event_mikeMonteiro.jpg"
 event-details:
   date: 2017-10-25 18:30:00 -04:00
-  venue-name: LOCATION TBD
+  venue-name: Studio Theatre
+  venue-directions: https://goo.gl/maps/eb4KPzDLNDH2
+  venue-address: 1501 14th St NW, Washington, DC 20005
   start-time: 6:30pm
   end-time: 9:00pm
 speakers:
