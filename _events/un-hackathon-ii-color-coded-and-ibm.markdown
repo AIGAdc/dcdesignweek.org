@@ -12,7 +12,7 @@ event-details:
   start-time: 10:00am
   end-time: 5:00pm
 is-featured-on-events-page: true
-is-sunday: false
+is-sunday: true
 category: workshops
 ---
 
