@@ -7,17 +7,21 @@
     role: Motion Designer
     bio: |
       Motion designer from New England specializing in 2D and 3D motion graphics. Has worked with several production companies around DC since moving to Adams Morgan in 2015.
-    social-link: https://www.instagram.com/danielrcrane/
-    social-label: Instagram
-    website-link: danielcrane.co
+    instagram-link: https://www.instagram.com/danielrcrane/
+    instagram-label: Instagram
+    dribbble-link: https://dribbble.com/DanielCrane
+    dribbble-label: Dribbble
+    website-link: http://www.danielcrane.co
     website-label: Website
   - image: /uploads/headshot_jenDoyle.png
     name: Jen Doyle
     role: Designer
     bio: |
       Jen Doyle is a designer based in Washington DC. She is originally from New Jersey but has also lived across the pond. She received her Bachelor of Arts Degree in Graphic Design from the Maryland Institute College of Art (MICA).
-    social-link: https://www.instagram.com/jendoyledesign
-    social-label: Instagram
+    instagram-link: https://www.instagram.com/jendoyledesign
+    instagram-label: Instagram
+    twitter-link: https://twitter.com/jendoyledesign
+    twitter-label: Twitter
     website-link: https://jendoyledesign.github.io/Jen-Doyle-Design/about.html
     website-label: Website
   - image: /uploads/headshot_jdDeardourff.jpg
@@ -25,8 +29,10 @@
     role: Illustrator
     bio: |
       John David Deardourff is an artist, designer and silkscreen printer. His deconstructions of comic book imagery + cityscapes help capture the vibe of unearthing design culture in DC.
-    social-link: https://www.instagram.com/jddeardourff
-    social-label: Instagram
+    instagram-link: https://www.instagram.com/jddeardourff
+    instagram-label: Instagram
+    twitter-link: https://twitter.com/jddeardourff?lang=en
+    twitter-label: Twitter
     website-link: http://deardourff.com/
     website-label: Website
   - image: /uploads/marcusrelacion_480.jpg
@@ -34,8 +40,10 @@
     role: Developer
     bio: |
       Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
-    social-link: https://www.instagram.com/marcusrelacion
-    social-label: Instagram
+    instagram-link: https://www.instagram.com/marcusrelacion
+    instagram-label: Instagram
+    twitter-link: https://twitter.com/marcusrelacion
+    twitter-label: Twitter
     website-link: https://www.marcusrelacion.com
     website-label: Website
 

@@ -22,7 +22,17 @@ be printed onto the about page. {% endcomment %}
             <div class="team-member-details-wrapper relative mt5">
               <span class="bbroller ma0 f5 f4-ns fw6 db">{{ creative-member.name }}</span>
               <span class="ma0 f6 fw4 db">{{ creative-member.role }}</span>
-              <a class="dib ma0 f6 link" href="{{ creative-member.social-link }}" target="_blank">{{ creative-member.social-label }}</a>
+              {% if creative-member.instagram-label %}
+              <a class="dib ma0 f6 link" href="{{ creative-member.instagram-link }}" target="_blank">{{ creative-member.instagram-label }}</a>
+              {% endif %}
+
+              {% if creative-member.twitter-label %}
+              / <a class="dib ma0 f6 link" href="{{ creative-member.twitter-link }}" target="_blank">{{ creative-member.twitter-label }}</a>
+              {% endif %}
+
+              {% if creative-member.dribbble-label %}
+              / <a class="dib ma0 f6 link" href="{{ creative-member.dribbble-link }}" target="_blank">{{ creative-member.dribbble-label }}</a>
+              {% endif %}
               <span class="ma0 mt3 lh-copy db">
                   {{ creative-member.bio | markdownify }}
                 </span>
