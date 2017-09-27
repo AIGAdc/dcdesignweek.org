@@ -11,7 +11,7 @@ event-details:
   venue-address: 641 S St NW, Fl 1, Washington, DC 20001
   start-time: 10:00am
   end-time: 5:00pm
-is-featured-on-events-page: true
+is-featured-on-events-page: false
 is-sunday: true
 category: workshops
 ---
