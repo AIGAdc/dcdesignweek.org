@@ -20,5 +20,8 @@
   <span class="bbroller ma0 f6 f5-m f4-l fw4 db black">{{ posts.title }}</span>
   <hr class="title-divider-blue">
   <span class="ma0 f6 f5-m f4-l fw4 db black"><span class="dib w2 h2 relative" style="top:7.5px">{% include icons/time-icon.svg %}</span> {{ posts.event-details.start-time }}</span>
-  <span class="ma0 mb1 f6 f5-m f4-l fw4 db black"><span class="dib w2 h2 relative" style="top:7.5px">{% include icons/location-icon.svg %}</span>{{ posts.event-details.venue-name }}</span>
+  <span class="dt w-100">
+    <span class="dtc w2 h2 relative" style="top:7.5px">{% include icons/location-icon.svg %}</span>
+    <span class="dtc ma0 mb1 f6 f5-m f4-l fw4 dtc black">{{ posts.event-details.venue-name }}</span>
+  </span>
 </div>

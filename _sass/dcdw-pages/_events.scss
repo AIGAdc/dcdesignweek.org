@@ -15,8 +15,10 @@
 	box-shadow: 8px 8px $dcdw-orange;
 }
 
-.home-event-link:nth-child(odd) {
-	padding: 1em 0;
+@media screen and (min-width: 960px) {
+	.home-event-link:nth-child(odd) {
+		padding: 1em 0;
+	}
 }
 
 span.event-date {
