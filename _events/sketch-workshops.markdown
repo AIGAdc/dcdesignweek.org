@@ -14,10 +14,10 @@ is-monday: true
 category: workshops
 ---
 
-### Tickets On Sale October 4 at 9am! 
+### Tickets On Sale October 4 at 9am!
 
-Are you an old pro with Sketch design software, or are you just getting the hang of it? Either way, we've got you covered! In collaboration with Sketch and General Assembly, we're hosting workshops covering both beginner and advanced-level Sketch users. Join us and get your sketch on!
-
-**Beginner Course:** We're covering the basics from crafting your wireframes and mockups to exporting them in a smart way.
-
+Sketch is bringing an exclusive evening of workshops for both beginner and advanced users of the award-winning design software to DC. Whether you use Sketch to create user interfaces, websites, icons, or all the above, get ready to enhance your abilities by learning from the team behind the premier digital design application for Mac.
+ 
+**Beginner Course:** Sketch will help you craft your wireframes and mockups, and export them in a smart way.
+ 
 **Advanced Course:** This workshop will focus on the ability to collaborate with your teammates in the most effective way including new tools introduced in Sketch 47.
