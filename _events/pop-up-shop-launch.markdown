@@ -6,6 +6,13 @@ seo:
     the Cherry Blossom Creative storefront and filling it with items made by your
     fellow makers and designers. Come and celebrate the DC design community at the
     opening event, and get first crack at the awesome goods on sale!
+event-details:
+  date: 2017-10-26 00:00:00 -04:00
+  venue-name: 'Cherry Blossom Creative '
+  venue-directions: https://goo.gl/maps/yKw13TexvdJ2
+  venue-address: 2128 8th St NW, Washington, DC 20001
+  start-time: 6
+  end-time: 8
 is-thursday: true
 ---
 
