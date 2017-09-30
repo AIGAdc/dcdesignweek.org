@@ -6,6 +6,7 @@ seo:
     the Cherry Blossom Creative storefront and filling it with items made by your
     fellow makers and designers. Come and celebrate the DC design community at the
     opening event, and get first crack at the awesome goods on sale!
+  og-image: "/uploads/event_popUpShop.jpg"
 event-details:
   date: 2017-10-26 00:00:00 -04:00
   venue-name: 'Cherry Blossom Creative '
