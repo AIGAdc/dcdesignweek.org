@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Neighborhood Design Center'
 position: 23
 seo:
-  og-image: "/uploads/event-placeholder-08.jpg"
+  og-image: "/uploads/event_cl-ndc.jpg"
 event-details:
   date: 2017-10-27 12:00:00 -04:00
   venue-name: Neighborhood Design Center
