@@ -10,6 +10,9 @@ event-details:
   venue-address: 1000 Wilson Blvd, 8th Floor, Arlington, VA 22209.
   start-time: 11:30am
   end-time: 1:15pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-politico/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 speakers:
   name: Judy Diaz
   title: VP of Marketing
