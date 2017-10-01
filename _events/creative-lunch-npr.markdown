@@ -12,7 +12,7 @@ event-details:
   end-time: 2:00pm
 event-buttons:
   left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-npr/?redirect_source=
-  left-button-text: AIGA-Member Ticket
+  left-button-text: AIGA-Member Tickets
 is-thursday: true
 category: tours , member-first
 ---
