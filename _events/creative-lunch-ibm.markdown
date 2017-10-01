@@ -10,6 +10,9 @@ event-details:
   venue-address: 1440 G St NW, Washington, DC 20005
   start-time: 11:30am
   end-time: 2pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-ibm/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 is-wednesday: true
 category: tours , member-first
 ---
