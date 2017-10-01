@@ -10,6 +10,9 @@ event-details:
   venue-address: 1428 U St NW, Washington, DC 20009
   start-time: 11:30am
   end-time: 2:00pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-nava-pbc/?redirect_source=
+  left-button-text: AIGA-member Ticket
 is-tuesday: true
 category: tours , member-first
 ---
