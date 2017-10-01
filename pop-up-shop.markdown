@@ -15,7 +15,7 @@ introduction-body-text: "In addition to this year's events, we're opening our ye
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-header-text: DCDW Pop-Up Shop
 pop-up-shop-body-text: |
-  ###Have Your Art Featured in Our DCDW Pop Up Shop!
+  ### Have Your Art Featured in Our DCDW Pop Up Shop!
   Are you a designer or artist with pieces you’re ready to sell? We want to help you sell your work to the design community at our pop up shop. Send your product details and information to Torie at torie.partridge@gmail.com
 layout: pages/pop-up-shop
 ---
