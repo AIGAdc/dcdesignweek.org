@@ -12,7 +12,7 @@ introduction-body-text: 'In addition to this year''s events, we''re opening our 
   for DCDW!
 
 '
-pop-up-shop-image: "/uploads/dcdw-pop-up-shop.png"
+pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-header-text: DCDW Pop-Up Shop
 pop-up-shop-body-text: |
   We're taking over the Cherry Blossom Creative storefront and
