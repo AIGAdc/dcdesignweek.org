@@ -15,7 +15,7 @@ event-details:
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-friday: true
-category: Screening
+category: screenings
 ---
 
 ### Tickets On Sale October 4 at 9am!
