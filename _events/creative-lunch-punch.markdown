@@ -10,6 +10,9 @@ event-details:
   venue-address: 2700 S. Quincy Street Suite 220 Arlington, VA 22206
   start-time: 11:30am
   end-time: 2:00pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-punch/?redirect_source=
+  left-button-text: AIGA-Member Ticker
 is-thursday: true
 category: tours , member-first
 ---
