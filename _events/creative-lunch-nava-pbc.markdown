@@ -12,7 +12,7 @@ event-details:
   end-time: 2:00pm
 event-buttons:
   left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-nava-pbc/?redirect_source=
-  left-button-text: AIGA-member Ticket
+  left-button-text: AIGA-Member Ticket
 is-tuesday: true
 category: tours , member-first
 ---
