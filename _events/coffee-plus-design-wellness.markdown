@@ -10,6 +10,9 @@ event-details:
   venue-address: '821 Upshur Street, Second Floor, Washington, DC 20011 '
   start-time: 8:00am
   end-time: 9:00am
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/coffee-design-wellness/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 is-featured-on-events-page: true
 is-tuesday: true
 category: lectures, member-first
