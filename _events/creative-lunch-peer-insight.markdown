@@ -10,6 +10,9 @@ event-details:
   venue-address: 717 D St NW, Washington, DC 20004
   start-time: 11:30am
   end-time: 2:00pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-peer-insight/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 is-friday: true
 category: tours , member-first
 ---
