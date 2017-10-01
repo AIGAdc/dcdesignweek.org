@@ -10,6 +10,9 @@ event-details:
   venue-address: 4318 Gallatin Street, Hyattsville, MD 20781
   start-time: 11:30am
   end-time: 2:00pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-neighborhood-design-center/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 is-friday: true
 category: tours , member-first
 ---
