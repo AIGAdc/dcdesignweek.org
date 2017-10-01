@@ -24,4 +24,6 @@ The DCDW Pop Up Shop is taking over the Cherry Blossom Creative storefront and f
 
 We’ll have official DCDW swag, cold beers, and the opportunity to put your money where the art is by supporting creativity sourced from the city we call home. Don’t miss it, because supplies won’t last!
 
-Are you interested in having your own art for sale? Hit us up and we’ll get you on display! Email torie.partridge@gmail.com for more details. 
+Are you interested in having your own art for sale? Hit us up and we’ll get you on display! 
+
+Email torie.partridge@gmail.com for more details. 
