@@ -10,6 +10,9 @@ event-details:
   venue-address: 641 S St NW, Fl 1, Washington, DC 20001
   start-time: 11:30pm
   end-time: 1:30pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-istrategylabs/?redirect_source=
+  left-button-text: AIGA-Member Tickets
 speakers:
   headshot-image: https://studios.isl.co/static/img/directors/zach-cbdc320899.jpg
   link: https://twitter.com/zbgoodwin?lang=en
