@@ -10,6 +10,9 @@ event-details:
   venue-address: 709 8th St SE, Washington, DC 20003
   start-time: 11:30am
   end-time: 2pm
+event-buttons:
+  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-polygraph/?redirect_source=
+  left-button-text: AIGA-Member Team
 is-wednesday: true
 is-thursday: false
 category: tours , member-first
