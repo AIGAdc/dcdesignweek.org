@@ -20,4 +20,9 @@ category: parties
 
 ### Tickets On Sale October 4 at 9am!
 
-We're getting together with the DIY dynamos of DC's Lemon Collective to celebrate crafts and cocktails, and where better than the wonderfully well-stocked Cotton & Reed distillery in Union Market? Pick up some crafty tips, libation in hand, at this productively playful event!
+We’re getting together with DC’s Lemon Collective at the Cotton & Reed distillery in Union Market to celebrate crafts and cocktails!
+
+Learn basic and advanced paper cutting and scoring techniques to create a DIY paper crafted floral bouquet. We will be making a variety of fall folliages and flowers, with demonstrations from the Lemon Collective. All materials are included and all skill-levels are welcome.
+
+While you're crafting, enjoy a custom cocktail from Cotton & Reed (or non-alcoholic beverage of your choice). One cocktail is included with your ticket, but the bar will be open so you can explore as many of their quirky and complex cocktails as you desire. There will also be a private tour of the Cotton & Reed distillery. Hear directly from co-founder Reed Walker about the vision behind their brand and label designs, and why they founded Cotton & Reed in Washington, DC.
+Don't miss this opportuity to pick up some crafty tips, libation in hand, at this productively playful event!
