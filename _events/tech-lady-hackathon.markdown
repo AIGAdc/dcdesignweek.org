@@ -10,6 +10,9 @@ event-details:
   venue-address: 1301 K St NW, Washington, DC 20071
   start-time: 9:30am
   end-time: 4:30pm
+event-buttons:
+  left-button-link: http://techladyhackathon.org
+  left-button-text: More Info
 is-featured-on-events-page: false
 is-sunday: false
 is-kickoff-saturday: true
