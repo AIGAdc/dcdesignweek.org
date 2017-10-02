@@ -12,7 +12,7 @@ event-details:
   end-time: 9:30pm
 event-buttons:
   left-button-link: https://www.meetup.com/UnleadedDC/events/242944134/
-  left-button-text: Get Tickets!
+  left-button-text: Grab Your Tickets!
 is-featured-on-events-page: true
 is-thursday: true
 category: lectures
