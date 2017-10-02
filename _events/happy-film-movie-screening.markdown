@@ -12,6 +12,9 @@ event-details:
   venue-address: 3107 Mt Pleasant St NW, Washington, DC 20010
   start-time: 6:00pm
   end-time: 8:00p
+event-buttons:
+  left-button-link: https://www.eventbrite.com/e/dcdw-movie-night-the-happy-film-tickets-38419452617
+  left-button-text: Grab Your Tickets!
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-friday: true
