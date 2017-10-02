@@ -10,6 +10,9 @@ event-details:
   venue-address: '1001 G St NW #1200, Washington, DC 20001'
   start-time: 6:30pm
   end-time: 9:30pm
+event-buttons:
+  left-button-link: https://www.eventbrite.com/e/sketch-workshops-tickets-38419392437
+  left-button-text: Grab Your Tickets!
 is-monday: true
 category: workshops
 ---
