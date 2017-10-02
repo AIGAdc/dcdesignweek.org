@@ -18,11 +18,7 @@ is-thursday: true
 category: tours , member-first
 ---
 
-### Tickets On Sale to AIGA members October 2 at 9am! 
-
-### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
-
-### General tickets available on October 4 at 9am.
+### Sold Out!
 
 Please join us for a creative lunch hosted by NPR and AIGA DC. NPR’s mission to create a more informed public can be seen through the myriad of ways NPR shares news, programs and podcasts with its audience — whether via broadcast radio, NPR.org and interactive web apps, social media and blogs, the NPR One and NPR News mobiles apps, and connected devices.
 
