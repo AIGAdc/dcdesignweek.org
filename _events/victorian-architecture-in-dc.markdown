@@ -11,8 +11,8 @@ event-details:
   start-time: 10:30am
   end-time: TBD
 event-buttons:
-  left-button-link: Grab Your Tickets!
-  left-button-text: www.brownpapertickets.com/event/3051980.
+  left-button-link: http://www.brownpapertickets.com/event/3051980
+  left-button-text: Grab Your Ticket!
 is-saturday: true
 category: lectures
 ---
