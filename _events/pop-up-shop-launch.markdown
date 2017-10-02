@@ -19,6 +19,7 @@ event-buttons:
   left-button-text: AIGA-Member Tickets
   right-button-link: https://www.eventbrite.com/e/mike-monteiro-how-to-fight-fascism-tickets-38418940084?ref=ebapi
   right-button-text: General Tickets
+is-featured-on-events-page: true
 is-thursday: true
 category: parties
 ---
