@@ -11,6 +11,9 @@ event-details:
   venue-address: 2100 Vermont Ave NW, Washington, DC 20001
   start-time: 5:00pm
   end-time: 10:00pm
+event-buttons:
+  left-button-link: https://www.eventbrite.com/e/dcdw-kickoff-party-tickets-38419481704
+  left-button-text: Grab Your Tickets!
 is-featured-on-events-page: false
 is-sunday: true
 category: parties
