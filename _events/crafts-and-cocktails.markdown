@@ -10,6 +10,9 @@ event-details:
   venue-address: 1330 5th St NE, Washington, DC 20002
   start-time: 6:00pm
   end-time: 9:00pm
+event-buttons:
+  left-button-link: https://www.eventbrite.com/e/crafts-cocktails-tickets-38418323239
+  left-button-text: Grab Your Tickets!
 is-featured-on-events-page: true
 is-tuesday: true
 category: parties
