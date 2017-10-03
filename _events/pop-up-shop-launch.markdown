@@ -14,11 +14,6 @@ event-details:
   venue-address: 2128 8th St NW, Washington, DC 20001
   start-time: 6:00pm
   end-time: 8:00pm
-event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/mike-monteiro-fight-fascism/?redirect_source=
-  left-button-text: AIGA-Member Tickets
-  right-button-link: https://www.eventbrite.com/e/mike-monteiro-how-to-fight-fascism-tickets-38418940084?ref=ebapi
-  right-button-text: General Tickets
 is-featured-on-events-page: true
 is-thursday: true
 category: parties
