@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Peer Insight'
-position: 24
+position: 25
 seo:
   og-image: "/uploads/event_cl-peerInsight.jpg"
 event-details:

@@ -1,6 +1,6 @@
 ---
 title: 'UNLEADED DC: WTF?!'
-position: 9
+position: 11
 seo:
   og-image: "/uploads/event_unleadedDC.jpg"
 event-details:

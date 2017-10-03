@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: IBM'
-position: 17
+position: 18
 seo:
   og-image: "/uploads/event_cl-ibm.jpg"
 event-details:

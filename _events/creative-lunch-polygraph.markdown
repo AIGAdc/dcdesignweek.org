@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Polygraph'
-position: 19
+position: 20
 seo:
   og-image: "/uploads/event_cl-polygraph-e3fedf.jpg"
 event-details:
