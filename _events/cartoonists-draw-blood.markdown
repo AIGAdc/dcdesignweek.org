@@ -21,7 +21,7 @@ event-buttons:
 is-kickoff-saturday: true
 ---
 
-In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
+In association with American Red Cross and [National Cartoonists Society](http://www.reuben.org/), Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
 
 Walk-ins are welcome, but we recommend scheduling an appointment time (donation takes about 15 minutes). Halloween costumes are encouraged, but not required.
 
