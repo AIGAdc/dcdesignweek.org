@@ -27,7 +27,7 @@ Walk-ins are welcome, but we recommend scheduling an appointment time (donation 
 
 * On the day of donation, donors are asked to:
   drink plenty of fluids
-* include iron-rich foods in their diet
-* bring a list of medications they are taking and a photo ID
+* Include iron-rich foods in their diet
+* Bring a list of medications they are taking and a photo ID
 
 Organizers: Carolyn Belefski, Troy-Jeffrey Allen
