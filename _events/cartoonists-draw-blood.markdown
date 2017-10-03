@@ -29,4 +29,5 @@ Walk-ins are welcome, but we recommend scheduling an appointment time (donation 
   drink plenty of fluids
 * include iron-rich foods in their diet
 * bring a list of medications they are taking and a photo ID
+
 Organizers: Carolyn Belefski, Troy-Jeffrey Allen
