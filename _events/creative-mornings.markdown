@@ -5,7 +5,7 @@ published: false
 position: 1
 seo:
   description: CreativeMornings is a breakfast lecture series for the creative community.
-  og-image: "/uploads/event-placeholder-09.jpg"
+  og-image: "/uploads/event_creativeMornings.jpg"
 event-details:
   date: 2017-10-27 00:00:00 -04:00
   venue-name: Location TBD
