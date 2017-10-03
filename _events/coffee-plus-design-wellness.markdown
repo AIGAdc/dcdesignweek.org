@@ -14,7 +14,7 @@ event-buttons:
   left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/coffee-design-wellness/?redirect_source=
   left-button-text: AIGA-Member Tickets
 is-sold-out: true
-is-featured-on-events-page: true
+is-featured-on-events-page: false
 is-tuesday: true
 category: lectures, member-first
 ---
