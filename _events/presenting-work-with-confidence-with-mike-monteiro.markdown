@@ -1,7 +1,6 @@
 ---
 title: Presenting Work With Confidence with Mike Monteiro
 date: 2017-10-03 17:10:00 -04:00
-published: false
 seo:
   description: The myth that good design sells itself is just that — a myth. Good
     solutions aren’t always obvious at first glance. Good ideas, even the best ideas,
