@@ -9,6 +9,7 @@ seo:
     it’s right, is worth more than a designer who does amazing work, but can’t sell
     it to a client. Creating a compelling story from a list of recommendations is
     an often overlooked design skill.
+  og-image: "/uploads/event_monteiroWorkshop-965009.jpg"
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   venue-name: threespot.
