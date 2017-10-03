@@ -1,5 +1,5 @@
 ---
-title: Presenting Work With Confidence with Mike Monteiro
+title: Presenting Work With Confidence w/ Mike Monteiro
 date: 2017-10-03 17:10:00 -04:00
 seo:
   description: The myth that good design sells itself is just that — a myth. Good
