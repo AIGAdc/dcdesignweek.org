@@ -7,7 +7,7 @@ seo:
     Washington, DC area cartoonists have clotted together to help keep the local blood
     banks well-stocked. All blood donors receive a complimentary cartoon sketch by
     a Washington, DC area cartoonist.
-  og-image: "/uploads/event_cartoonistsDrawBlood-02dc74.jpg"
+  og-image: "/uploads/event-placeholder-07.jpg"
 event-details:
   date: 2017-10-21 00:00:00 -04:00
   venue-name: 'Palisades Community Church '
@@ -27,9 +27,6 @@ Walk-ins are welcome, but we recommend scheduling an appointment time (donation 
 
 * On the day of donation, donors are asked to:
   drink plenty of fluids
-
 * include iron-rich foods in their diet
-
 * bring a list of medications they are taking and a photo ID
-
 Organizers: Carolyn Belefski, Troy-Jeffrey Allen
