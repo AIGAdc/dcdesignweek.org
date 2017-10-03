@@ -19,6 +19,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/presenting-work-with-confidence-with-mike-monteiro-tickets-38416236999
   left-button-text: Grab Your Tickets!
+is-featured-on-events-page: true
 is-tuesday: true
 ---
 
