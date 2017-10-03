@@ -10,21 +10,21 @@
         <h2 class="bbroller ma0 f4 f3-m f2-l text-shadow white lh-tight">
           {{ page.event-details.event-date | date: "%A / %B %d / %l:%M %p"}}
         </h2>
-      </span> 
+      </span>
       {% if page.event-buttons.left-button-text %}
       <a href="{{ page.event-buttons.left-button-link }}" class="bbroller ma0 btn btn--white-border white mb3 dib">
           {{ page.event-buttons.left-button-text }}
         </a> {% endif %} {% if page.event-buttons.right-button-text %}
       <a href="{{ page.event-buttons.right-button-link }}" class="rbbroller ma0 btn btn--white-border white mb3 dib">
         {{ page.event-buttons.right-button-text }}
-      </a> 
+      </a>
       {% endif %}
     </div>
   </div>
 </section>
 
 {% if page.is-sold-out == true %}
-<div class="sold-out text-uppercase">
-  <marquee>Sold Out!</marquee>
+<div class="sold-out">
+  <marquee><span>Sold Out!</span><span>Sold Out!</span><span>Sold Out!</span><span>Sold Out!</span><span>Sold Out!</span></marquee>
 </div>
 {% endif %}
