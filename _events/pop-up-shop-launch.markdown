@@ -1,7 +1,7 @@
 ---
 title: Pop Up Shop Launch
 date: 2017-09-29 19:15:00 -04:00
-position: 8
+position: 9
 seo:
   description: Be there when the Pop Up pops off! The DCDW Pop Up Shop is taking over
     the Cherry Blossom Creative storefront and filling it with items made by your
