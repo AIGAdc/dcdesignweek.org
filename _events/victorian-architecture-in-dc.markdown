@@ -1,6 +1,6 @@
 ---
 title: Victorian Architecture in DC
-position: 23
+position: 24
 seo:
   og-image: "/uploads/event_victorianArchitecture.jpg"
 event-details:
