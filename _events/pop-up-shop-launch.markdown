@@ -1,6 +1,8 @@
 ---
 title: Pop Up Shop Launch
 date: 2017-09-29 19:15:00 -04:00
+categories:
+- parties
 position: 20
 seo:
   description: Be there when the Pop Up pops off! The DCDW Pop Up Shop is taking over
@@ -17,7 +19,6 @@ event-details:
   end-time: 8:00 pm
 is-featured-on-events-page: true
 is-thursday: true
-category: parties
 ---
 
 ### No Tickets required.

@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Polygraph'
+categories:
+- tours , member-first
 position: 14
 seo:
   og-image: "/uploads/event_cl-polygraph-e3fedf.jpg"
@@ -16,7 +18,6 @@ event-buttons:
 is-sold-out: true
 is-wednesday: true
 is-thursday: false
-category: tours , member-first
 ---
 
 ### Sold Out!

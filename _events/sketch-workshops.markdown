@@ -1,5 +1,7 @@
 ---
 title: Sketch Workshops
+categories:
+- workshops
 position: 6
 seo:
   og-image: "/uploads/event_sketchWorkshop.jpg"
@@ -14,7 +16,6 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/sketch-workshops-tickets-38419392437
   left-button-text: Grab Your Tickets!
 is-monday: true
-category: workshops
 ---
 
 ### Tickets On Sale October 4 at 9am!

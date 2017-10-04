@@ -1,5 +1,7 @@
 ---
 title: National Poster Retrospecticus + Closing Party
+categories:
+- parties
 position: 27
 seo:
   og-image: "/uploads/event_closingParty-a373f2.jpg"
@@ -27,7 +29,6 @@ is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-friday: false
 is-saturday: true
-category: parties
 ---
 
 ### Tickets Available October 4 at 9am!

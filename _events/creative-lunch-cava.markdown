@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: CAVA'
+categories:
+- tours , member-first
 position: 10
 seo:
   og-image: "/uploads/event_cl-cava.jpg"
@@ -16,7 +18,6 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-cava-tickets-38431982093
   left-button-text: Grab Your Ticket!
 is-tuesday: true
-category: tours , member-first
 ---
 
 CAVA is a growing Mediterranean culinary brand with a flavorful and healthy fast-casual restaurant experience featuring customizable & craveable salads, grain bowls, pitas, and house-made juices. CAVA’s chef-crafted dips and spreads are available at Whole Foods Market and other specialty markets across the country.

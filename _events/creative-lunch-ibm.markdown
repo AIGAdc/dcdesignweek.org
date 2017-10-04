@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: IBM'
+categories:
+- tours , member-first
 position: 13
 seo:
   og-image: "/uploads/event_cl-ibm.jpg"
@@ -15,7 +17,6 @@ event-buttons:
   left-button-text: Grab Your Ticket!
 is-sold-out: true
 is-wednesday: true
-category: tours , member-first
 ---
 
 ### Sold Out!

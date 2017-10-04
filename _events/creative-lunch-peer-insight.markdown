@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Peer Insight'
+categories:
+- tours , member-first
 position: 23
 seo:
   og-image: "/uploads/event_cl-peerInsight.jpg"
@@ -15,7 +17,6 @@ event-buttons:
   left-button-text: Grab Your Ticket!
 is-sold-out: true
 is-friday: true
-category: tours , member-first
 ---
 
 Peer Insight is an innovation consultancy in Washington DC. We empower our clients to be fearless explorers of new services, and new experiences. We help clients move from insight to experiment to reality by combining the methods and mindsets of design thinking, strategy, and entrepreneurship.

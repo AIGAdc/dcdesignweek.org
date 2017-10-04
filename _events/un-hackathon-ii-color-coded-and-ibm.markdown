@@ -1,6 +1,8 @@
 ---
 title: "[un]hackathon II Color Coded & IBM"
 date: 2017-09-24 09:27:00 -04:00
+categories:
+- workshops
 position: 3
 seo:
   og-image: "/uploads/event_colorCodedUnhackathon-a690d8.jpg"
@@ -16,7 +18,6 @@ event-buttons:
   left-button-text: 'Grab Your Tickets! '
 is-featured-on-events-page: false
 is-sunday: true
-category: workshops
 ---
 
 ### Tickets On Sale October 4 at 9am!

@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: NPR'
+categories:
+- tours , member-first
 position: 18
 seo:
   og-image: "/uploads/event_cl-npr.jpg"
@@ -15,7 +17,6 @@ event-buttons:
   left-button-text: Grab Your Tickets!
 is-sold-out: true
 is-thursday: true
-category: tours , member-first
 ---
 
 ### Sold Out!

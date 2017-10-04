@@ -1,5 +1,7 @@
 ---
 title: 'UNLEADED DC: WTF?!'
+categories:
+- lectures
 position: 21
 seo:
   og-image: "/uploads/event_unleadedDC.jpg"
@@ -15,7 +17,6 @@ event-buttons:
   left-button-text: Grab Your Tickets!
 is-featured-on-events-page: true
 is-thursday: true
-category: lectures
 ---
 
 ### Tickets Available October 4 at 9am! 
