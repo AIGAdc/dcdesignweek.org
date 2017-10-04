@@ -85,6 +85,18 @@ a.header-link:hover {
     color: $white;
   }
 
+  // blue button
+  &--blue-solid {
+    border: solid 4px $dcdw-blue;
+    background-color: $dcdw-blue;
+  }
+
+  &--blue-solid:hover {
+    border: solid 4px $dcdw-orange;
+    background-color: $dcdw-orange;
+    color: $white;
+  }
+
   // white button
   &--white-border {
     border: solid 4px $white;
