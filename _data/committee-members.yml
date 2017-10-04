@@ -14,12 +14,12 @@
     name: Mike O'Brien
     role: DCDW Marketing Director
     email:
-  - image: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/067/0b7/145294e.jpg
-    name: Chris Montwill
-    role: Program Lead
-    email:
   - image: https://dc.aiga.org/wp-content/uploads/2017/07/JennLow.jpg
     name: Jenn Low
+    role: Programming Coordinator
+    email:
+  - image: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/067/0b7/145294e.jpg
+    name: Chris Montwill
     role: Program Lead
     email:
   - image: /uploads/Screenshot%202017-07-25%2008.15.14.png
