@@ -32,12 +32,6 @@ is-wednesday: true
 category: tours , member-first
 ---
 
-### Tickets On Sale to AIGA members October 2 at 9am!
-
-### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
-
-### General tickets available on October 4 at 9am.
-
 Join ISL's Zach Goodwin and Maggie Winters Gaudaen for a behind-the-scenes look at the long, arduous and (occasionally) rewarding process of taking a commercial from concept to screen. We'll walk through the essential steps of a well-planned production — and share some suggestions for creating film content worth watching on a DC budget.
 
 ISL is an award-winning digital agency founded on invention. Since 2008, we've been inventing great work for the world's best brands. We've been named Ad Age's Small Agency of the Year (twice) and have won over 20 Cannes Lions and other industry awards. We create multi-channel campaigns that bridge the online and offline world. We design and build websites, mobile apps, data visualizations. We produce content, commercials and short films. We have an entire team devoted to internet-connected devices and our own hardware. And we manage social for some of the biggest companies in the world.
