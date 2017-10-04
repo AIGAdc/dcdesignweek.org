@@ -6,6 +6,10 @@ seo:
 event-details:
   date: 2017-10-24 00:00:00 -04:00
   venue-name: Cava Chinatown HQ
+  venue-directions: https://goo.gl/maps/mrzJoSJBoGL2
+  venue-address: |-
+    702 H st. NW Suite 2nd Floor
+    Washington, DC 20001
   start-time: 11:30am
   end-time: 2:00pm
 event-buttons:
