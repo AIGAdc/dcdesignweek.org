@@ -1,6 +1,6 @@
 ---
 title: 'Mike Monteiro: How To Fight Fascism'
-position: 18
+position: 16
 seo:
   description: All design is political, because all politics are designed. The world
     is a mess because a certain set of people designed it to be a mess. Now we need
