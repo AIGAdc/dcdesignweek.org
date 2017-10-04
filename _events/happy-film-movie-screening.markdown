@@ -15,6 +15,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/dcdw-movie-night-the-happy-film-tickets-38419452617
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-friday: true
