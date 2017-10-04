@@ -1,6 +1,6 @@
 ---
 title: 'Coffee + Design: Wellness'
-position: 11
+position: 7
 seo:
   og-image: "/uploads/event_coffeAndDesign.jpg"
 event-details:
