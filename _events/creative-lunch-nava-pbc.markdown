@@ -13,6 +13,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-nava-pbc-tickets-38431959024
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-tuesday: true
 category: tours , member-first
 ---
