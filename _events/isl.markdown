@@ -11,8 +11,8 @@ event-details:
   start-time: 11:30pm
   end-time: 1:30pm
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-istrategylabs/?redirect_source=
-  left-button-text: AIGA-Member Tickets
+  left-button-link: https://www.eventbrite.com/e/creative-lunch-isl-tickets-38431935955
+  left-button-text: Grab Your Ticket!
 speakers:
   headshot-image: https://studios.isl.co/static/img/directors/zach-cbdc320899.jpg
   link: https://twitter.com/zbgoodwin?lang=en
