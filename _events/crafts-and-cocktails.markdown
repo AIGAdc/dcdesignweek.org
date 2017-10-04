@@ -1,6 +1,6 @@
 ---
 title: Crafts & Cocktails
-position: 9
+position: 10
 seo:
   og-image: "/uploads/event_craftsAndCocktails.jpg"
 event-details:

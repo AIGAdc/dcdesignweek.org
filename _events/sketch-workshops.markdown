@@ -1,6 +1,6 @@
 ---
 title: Sketch Workshops
-position: 8
+position: 9
 seo:
   og-image: "/uploads/event_sketchWorkshop.jpg"
 event-details:
