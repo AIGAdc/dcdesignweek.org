@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: ISL'
-position: 21
+position: 15
 seo:
   og-image: "/uploads/event_cl-isl.jpg"
 event-details:
