@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Punch'
-position: 24
+position: 25
 seo:
   og-image: "/uploads/event_cl-punch.jpg"
 event-details:

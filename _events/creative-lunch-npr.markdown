@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: NPR'
-position: 25
+position: 18
 seo:
   og-image: "/uploads/event_cl-npr.jpg"
 event-details:
