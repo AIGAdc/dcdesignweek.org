@@ -14,17 +14,11 @@ event-details:
   start-time: 11:30am
   end-time: 2:00pm
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-defacto-sound/?redirect_source=
-  left-button-text: AIGA-Member Ticket
+  left-button-link: https://www.eventbrite.com/e/creative-lunch-defacto-sound-tickets-38470284657
+  left-button-text: Grab Your Ticket!
 is-thursday: true
 category: tours , member-first
 ---
-
-### Tickets On Sale to AIGA members October 2 at 9am! 
-
-### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
-
-### General tickets available on October 4 at 9am.
 
 Defacto Sound is an award-winning sound design studio that serves networks, brands, films, and games. We specialize in fresh, relevant, story-focused sound for all things visual.
 
