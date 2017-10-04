@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: CAVA'
-position: 4
+position: 10
 seo:
   og-image: "/uploads/event_cl-cava.jpg"
 event-details:

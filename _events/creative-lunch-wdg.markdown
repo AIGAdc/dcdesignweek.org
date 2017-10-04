@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: WDG'
-position: 26
+position: 24
 seo:
   og-image: "/uploads/event_cl-wdg.jpg"
 event-details:
