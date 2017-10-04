@@ -22,7 +22,7 @@ category: parties
 
 ### No Tickets required.
 
-\*\*Be there when the Pop Up pops off!\*\*
+**Be there when the Pop Up pops off!**
 
 The DCDW Pop Up Shop is taking over the Cherry Blossom Creative storefront and filling it with items made by your fellow makers and designers. Come and celebrate the DC design community at the opening event, and get first crack at the awesome goods on sale!
 
