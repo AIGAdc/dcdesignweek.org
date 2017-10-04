@@ -8,8 +8,8 @@ event-details:
   venue-name: The Washington Post
   venue-directions: https://www.google.com/maps/place/The+Washington+Post/@38.9012845,-77.0339493,15z/data=!4m8!1m2!2m1!1sThe+Washington+Post!3m4!1s0x0:0x3fc71a28c9420c01!8m2!3d38.9029733!4d-77.0303124
   venue-address: 1301 K St NW, Washington, DC 20071
-  start-time: 9:30am
-  end-time: 4:30pm
+  start-time: 9:30 am
+  end-time: 4:30 pm
 event-buttons:
   left-button-link: http://techladyhackathon.org
   left-button-text: More Info

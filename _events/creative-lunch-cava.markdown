@@ -10,8 +10,8 @@ event-details:
   venue-address: |-
     702 H st. NW Suite 2nd Floor
     Washington, DC 20001
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-cava-tickets-38431982093
   left-button-text: Grab Your Ticket!

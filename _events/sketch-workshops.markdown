@@ -8,8 +8,8 @@ event-details:
   venue-name: Optoro
   venue-directions: https://goo.gl/maps/ABDxndG8BEr
   venue-address: '1001 G St NW #1200, Washington, DC 20001'
-  start-time: 6:30pm
-  end-time: 9:30pm
+  start-time: 6:30 pm
+  end-time: 9:30 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/sketch-workshops-tickets-38419392437
   left-button-text: Grab Your Tickets!

@@ -8,8 +8,8 @@ event-details:
   venue-name: Dupont Underground
   venue-directions: https://www.google.com/maps/place/19+Dupont+Cir+NW,+Washington,+DC+20036/@38.9097243,-77.046454,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7c7d2ad3be7:0x953a4274f28aadcc!8m2!3d38.9097243!4d-77.0442653
   venue-address: 19 Dupont Circle NW, Washington, DC 20036
-  start-time: 2:00pm
-  end-time: 7:00pm
+  start-time: 2:00 pm
+  end-time: 7:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/national-poster-retrospecticus-closing-party-tickets-38419911991
   left-button-text: Grab Your Tickets!

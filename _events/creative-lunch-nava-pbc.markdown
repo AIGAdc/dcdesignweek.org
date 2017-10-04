@@ -8,8 +8,8 @@ event-details:
   venue-name: NAVA PBC
   venue-directions: https://www.google.com/maps/place/1428+U+St+NW,+Washington,+DC+20009/@38.9167108,-77.0353563,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7e7f9a07a85:0xabdf02f4fd861fc3!8m2!3d38.9167108!4d-77.0331676
   venue-address: 1428 U St NW, Washington, DC 20009
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-nava-pbc-tickets-38431959024
   left-button-text: Grab Your Tickets!

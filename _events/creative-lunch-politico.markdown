@@ -8,8 +8,8 @@ event-details:
   venue-name: Politico
   venue-directions: https://www.google.com/maps/place/1000+Wilson+Blvd,+Arlington,+VA+22209/@38.8940401,-77.071351,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b6598c582815:0xda06907d98789bf0!8m2!3d38.8940401!4d-77.0691623
   venue-address: 1000 Wilson Blvd, 8th Floor, Arlington, VA 22209.
-  start-time: 11:30am
-  end-time: 1:15pm
+  start-time: 11:30 am
+  end-time: 1:15 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-politico-tickets-38432083396
   left-button-text: Grab Your Tickets

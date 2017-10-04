@@ -10,8 +10,8 @@ event-details:
   venue-name: 'Suns Cinema '
   venue-directions: https://www.google.com/maps/place/3107-3109+Mt+Pleasant+St+NW,+Washington,+DC+20010/@38.9289752,-77.0393467,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c820e50dc341:0xaba88cd3d6225799!8m2!3d38.928971!4d-77.037158
   venue-address: 3107 Mt Pleasant St NW, Washington, DC 20010
-  start-time: 6:00pm
-  end-time: 8:00p
+  start-time: 6:00 pm
+  end-time: 8:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/dcdw-movie-night-the-happy-film-tickets-38419452617
   left-button-text: Grab Your Tickets!

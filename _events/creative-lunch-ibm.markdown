@@ -8,8 +8,8 @@ event-details:
   venue-name: WeWork White House
   venue-directions: https://www.google.com/maps/place/1440+G+St+NW,+Washington,+DC+20005/data=!4m2!3m1!1s0x89b7b797d2537d59:0xbdcefc9fb13977ba?sa=X&ved=0ahUKEwidyZTO5r7WAhWJIsAKHbd1CbIQ8gEIKzAB
   venue-address: 1440 G St NW, Washington, DC 20005
-  start-time: 11:30am
-  end-time: 2pm
+  start-time: 11:30 am
+  end-time: 2 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-ibm-tickets-38470186363
   left-button-text: Grab Your Ticket!

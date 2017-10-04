@@ -8,8 +8,8 @@ event-details:
   venue-name: Peer Insight
   venue-directions: https://www.google.com/maps/place/717+D+St+NW,+Washington,+DC+20004/@38.8950116,-77.0249414,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7900f9fb7ef:0xb9dbd8186b80ce1!8m2!3d38.8950116!4d-77.0227527
   venue-address: 717 D St NW, Washington, DC 20004
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-peer-insight-tickets-38470367906
   left-button-text: Grab Your Ticket!

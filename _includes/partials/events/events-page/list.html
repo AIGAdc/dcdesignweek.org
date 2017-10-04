@@ -62,7 +62,7 @@
 
   <div class="day fl w-100 mb3">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-2-label }}</h2>
-    {% for posts in site.events %}
+    {% for posts in site.events | sort: "date" %}
       {% if posts.is-kickoff-saturday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
         {% if posts.is-featured-on-events-page == true %}
@@ -119,21 +119,25 @@
 
   <div class="day fl w-100 mb3">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-5-label }}</h2>
+    <ul class="dcdw-event-list ma0 pa0 list"></ul>
+    {% assign posts = site.events | sort: 'date' | reverse %}
     {% for posts in site.events %}
       {% if posts.is-tuesday == true %}
-        <ul class="dcdw-event-list ma0 pa0 list">
-          {% if posts.is-featured-on-events-page == true %}
+          {% if posts.is-half-feature == true %}
+            <a class="fl w-100 w-two-thirds-l event-feature relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
+          {% elsif posts.is-featured-on-events-page == true %}
             <a class="fl w-100 event-feature relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% else %}
             <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% endif %}
-            <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white">
+            <li class="event-card ma0 pa0 ba bw2 dcdw-blue bg-white list">
               {% include partials/events/events-card-contents.html %}
             </li>
           </a>
-        </ul>
+        
       {% endif %}
     {% endfor %}
+  </ul>
   </div>
 
   <div class="day fl w-100 mb3">

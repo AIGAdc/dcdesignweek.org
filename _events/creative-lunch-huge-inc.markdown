@@ -8,8 +8,8 @@ event-details:
   venue-name: Huge Inc
   venue-directions: https://www.google.com/maps/place/530+Penn+St+NE,+Washington,+DC+20002/@38.910367,-76.9987654,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b8104f0f7273:0xdea50325c0d85125!8m2!3d38.910367!4d-76.9965767
   venue-address: 530 Penn St NE, Washington, DC 20002.
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-huge-inc-tickets-38470141228
   left-button-text: Grab Your Tickets!

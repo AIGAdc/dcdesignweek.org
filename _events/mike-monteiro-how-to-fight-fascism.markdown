@@ -13,8 +13,8 @@ event-details:
   venue-name: Studio Theatre
   venue-directions: https://goo.gl/maps/eb4KPzDLNDH2
   venue-address: 1501 14th St NW, Washington, DC 20005
-  start-time: 6:30pm
-  end-time: 9:00pm
+  start-time: 6:30 pm
+  end-time: 9:00 pm
 event-buttons:
   left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/mike-monteiro-fight-fascism/?redirect_source=
   left-button-text: AIGA-Member Tickets

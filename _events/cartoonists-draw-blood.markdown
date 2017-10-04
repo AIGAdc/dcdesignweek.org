@@ -13,8 +13,8 @@ event-details:
   venue-name: 'Palisades Community Church '
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: "5200 Cathedral Avenue, NW \nWashington, DC 20016"
-  start-time: 8:00 AM
-  end-time: 12:00 PM
+  start-time: 8:00 am
+  end-time: 12:00 pm
 event-buttons:
   left-button-link: http://www.redcrossblood.org/give/drive/driveSearchList.jsp?zipSponsor=PALISADES&sd=100317&ed=010118&zipFormat=false&_requestid=43648#
   left-button-text: Register Here!

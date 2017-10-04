@@ -8,8 +8,8 @@ event-details:
   venue-name: Polygraph
   venue-directions: https://www.google.com/maps/place/709+8th+St+SE,+Washington,+DC+20003/@38.8808888,-76.9974014,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b9cccded2e99:0xa8007cea6bf9718e!8m2!3d38.8808888!4d-76.9952127
   venue-address: 709 8th St SE, Washington, DC 20003
-  start-time: 11:30am
-  end-time: 2pm
+  start-time: 11:30 am
+  end-time: 2 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-polygraph-tickets-38470254567
   left-button-text: Grab Your Ticket!

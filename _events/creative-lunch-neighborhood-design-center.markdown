@@ -8,8 +8,8 @@ event-details:
   venue-name: Neighborhood Design Center
   venue-directions: https://www.google.com/maps/place/4318+Gallatin+St,+Hyattsville,+MD+20781/@38.9527634,-76.943131,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c721e4852f2f:0x725bd6726e86893e!8m2!3d38.9527634!4d-76.9409423
   venue-address: 4318 Gallatin Street, Hyattsville, MD 20781
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-neighborhood-design-center-tickets-38419855823
   left-button-text: Grab Your Ticket!

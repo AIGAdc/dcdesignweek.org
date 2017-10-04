@@ -11,8 +11,8 @@ event-details:
   venue-name: Defacto Sound
   venue-directions: https://www.google.com/maps/place/8777+1st+Ave,+Silver+Spring,+MD+20910/@38.9984584,-77.0341338,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c8b7f5c89335:0x29cf339bad7b7ec0!8m2!3d38.9984584!4d-77.0319451
   venue-address: 8777 1st Ave, Silver Spring, MD 20910
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-defacto-sound-tickets-38470284657
   left-button-text: Grab Your Ticket!

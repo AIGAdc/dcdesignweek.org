@@ -13,8 +13,8 @@ event-details:
   venue-name: 'Cherry Blossom Creative '
   venue-directions: https://goo.gl/maps/yKw13TexvdJ2
   venue-address: 2128 8th St NW, Washington, DC 20001
-  start-time: 6:00pm
-  end-time: 8:00pm
+  start-time: 6:00 pm
+  end-time: 8:00 pm
 is-featured-on-events-page: true
 is-thursday: true
 category: parties

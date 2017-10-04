@@ -8,8 +8,8 @@ event-details:
   venue-name: Punch
   venue-directions: https://www.google.com/maps/place/2700+S+Quincy+St+%23220,+Arlington,+VA+22206/@38.8411649,-77.0890977,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b14f6bdd2805:0xa4eddc981ff78114!8m2!3d38.8411649!4d-77.086909
   venue-address: 2700 S. Quincy Street Suite 220 Arlington, VA 22206
-  start-time: 11:30am
-  end-time: 2:00pm
+  start-time: 11:30 am
+  end-time: 2:00 pm
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-punch-tickets-38470298699
   left-button-text: Grab Your Tickets!
