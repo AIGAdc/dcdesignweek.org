@@ -28,6 +28,7 @@ speakers:
     ISL in-house production team called ISL Studios. In the last year, he has directed
     commercials for Volkswagen, Dannon Danimals, Dannon Oikos and 19 Crimes.'
   Key: 
+is-sold-out: true
 is-wednesday: true
 category: tours , member-first
 ---
