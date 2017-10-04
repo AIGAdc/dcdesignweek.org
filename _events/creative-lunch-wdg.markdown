@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: WDG'
+categories:
+- tours , member-first
 position: 24
 seo:
   og-image: "/uploads/event_cl-wdg.jpg"
@@ -14,7 +16,6 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-wdg-tickets-38470409029
   left-button-text: Grab Your Ticket!
 is-friday: true
-category: tours , member-first
 ---
 
 WDG believes in leveraging individual expertise to create create web, social, and content experiences tailored to unique and challenging needs in the modern tech era. Join WDG for our lunch and learn session, Relationship Goals: Acquiring and Maintaining Long Term Client Relations.

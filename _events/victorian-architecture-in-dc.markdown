@@ -1,5 +1,7 @@
 ---
 title: Victorian Architecture in DC
+categories:
+- lectures
 position: 26
 seo:
   og-image: "/uploads/event_victorianArchitecture.jpg"
@@ -14,7 +16,6 @@ event-buttons:
   left-button-link: http://www.brownpapertickets.com/event/3051980
   left-button-text: Grab Your Ticket!
 is-saturday: true
-category: lectures
 ---
 
 ### Use the Discount Code: DCHT20001

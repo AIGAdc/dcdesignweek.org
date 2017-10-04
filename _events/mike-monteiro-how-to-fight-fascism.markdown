@@ -1,5 +1,7 @@
 ---
 title: 'Mike Monteiro: How To Fight Fascism'
+categories:
+- lectures
 position: 16
 seo:
   description: All design is political, because all politics are designed. The world
@@ -35,7 +37,6 @@ speakers:
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-wednesday: true
-category: lectures
 ---
 
 ### Tickets On Sale October 4 at 9am!

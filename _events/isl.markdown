@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: ISL'
+categories:
+- tours , member-first
 position: 15
 seo:
   og-image: "/uploads/event_cl-isl.jpg"
@@ -30,7 +32,6 @@ speakers:
   Key: 
 is-sold-out: true
 is-wednesday: true
-category: tours , member-first
 ---
 
 Join ISL's Zach Goodwin and Maggie Winters Gaudaen for a behind-the-scenes look at the long, arduous and (occasionally) rewarding process of taking a commercial from concept to screen. We'll walk through the essential steps of a well-planned production — and share some suggestions for creating film content worth watching on a DC budget.

@@ -1,5 +1,7 @@
 ---
 title: Tech Lady Hackathon
+categories:
+- workshops
 position: 2
 seo:
   og-image: "/uploads/event_techLadyHackathon.jpg"
@@ -16,7 +18,6 @@ event-buttons:
 is-featured-on-events-page: false
 is-sunday: false
 is-kickoff-saturday: true
-category: workshops
 ---
 
 Tech Lady Hackathon was started to get more women and non-binary individuals into tech. Each year in D.C. hundreds gather for a day of friendly learning and hacking. Coders, tech strategists, newbies, nerds, and the curious are all welcome!

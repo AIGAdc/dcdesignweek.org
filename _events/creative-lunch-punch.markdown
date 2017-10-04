@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Punch'
+categories:
+- tours , member-first
 position: 19
 seo:
   og-image: "/uploads/event_cl-punch.jpg"
@@ -14,7 +16,6 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-punch-tickets-38470298699
   left-button-text: Grab Your Tickets!
 is-thursday: true
-category: tours , member-first
 ---
 
 Punch is a creative agency for bold brands. We fuse design thinking and content strategy to create experiences users love. We build websites, design mobile apps, write content and produce video, working collaboratively with clients to make art that inspires action. For more info on career opportunities and recent work visit AddSomePunch.com.

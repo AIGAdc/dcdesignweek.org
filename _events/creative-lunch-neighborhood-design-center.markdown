@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Neighborhood Design Center'
+categories:
+- tours , member-first
 position: 22
 seo:
   og-image: "/uploads/event_cl-ndc.jpg"
@@ -14,7 +16,6 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-neighborhood-design-center-tickets-38419855823
   left-button-text: Grab Your Ticket!
 is-friday: true
-category: tours , member-first
 ---
 
 Neighborhood Design Center’s roots began in the midst of the civil rights movement, from a response by a group of Baltimore architects to Whitney M. Young's 1968 address to the American Institute of Architects. "Get involved in helping cities rebuild," he challenged, "or risk the consequences." Young’s speech brought an awareness and accountability to the architectural mainstream. NDC was among the groups to take up this call to action.

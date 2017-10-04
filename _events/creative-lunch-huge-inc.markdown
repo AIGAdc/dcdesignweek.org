@@ -1,5 +1,7 @@
 ---
 title: 'Creative Lunch: Huge Inc'
+categories:
+- tours , member-first
 position: 5
 seo:
   og-image: "/uploads/event_cl-huge.jpg"
@@ -15,7 +17,6 @@ event-buttons:
   left-button-text: Grab Your Tickets!
 is-sold-out: true
 is-monday: true
-category: tours , member-first
 ---
 
 ### Sold Out!

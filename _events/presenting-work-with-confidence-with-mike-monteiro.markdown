@@ -11,7 +11,7 @@ seo:
     an often overlooked design skill.
   og-image: "/uploads/event_monteiroWorkshop-965009.jpg"
 event-details:
-  date: 2017-10-24 00:00:00 -02:00
+  date: 2017-10-23 22:00:00 -04:00
   venue-name: threespot.
   venue-directions: https://goo.gl/maps/f6wmiL3WeYo
   venue-address: '806 7th St NW #201, Washington, DC 20001'
