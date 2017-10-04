@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: NAVA PBC'
-position: 16
+position: 17
 seo:
   og-image: "/uploads/event_cl-navaPBC.jpg"
 event-details:

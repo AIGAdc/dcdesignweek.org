@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Politico'
-position: 27
+position: 28
 seo:
   og-image: "/uploads/event_cl-politico.jpg"
 event-details:

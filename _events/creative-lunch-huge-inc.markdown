@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Huge Inc'
-position: 15
+position: 16
 seo:
   og-image: "/uploads/event_cl-huge.jpg"
 event-details:
