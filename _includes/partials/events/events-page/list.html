@@ -120,8 +120,9 @@
   <div class="day fl w-100 mb3">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-5-label }}</h2>
     <ul class="dcdw-event-list ma0 pa0 list"></ul>
-    {% for posts in site.events %}
-      {% if posts.is-tuesday == true | sort: 'event-details.date', 'first' %}
+    {% assign sorted = (site.events | sort: 'position') %}
+    {% for posts in sorted %}
+      {% if posts.is-tuesday == true %}
           {% if posts.is-half-feature == true %}
             <a class="fl w-100 w-two-thirds-l event-feature relative pa0 pa3-ns mb3 mb0-ns link dcdw-event {{ page.day-5 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}" href="{{posts.url}}" data-right-height-content>
           {% elsif posts.is-featured-on-events-page == true %}
