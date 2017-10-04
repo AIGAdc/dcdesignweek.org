@@ -1,6 +1,6 @@
 ---
 title: 'Creative Lunch: Neighborhood Design Center'
-position: 25
+position: 26
 seo:
   og-image: "/uploads/event_cl-ndc.jpg"
 event-details:

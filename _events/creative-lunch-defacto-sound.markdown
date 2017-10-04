@@ -3,7 +3,7 @@ title: 'Creative Lunch: Defacto Sound'
 categories:
 - tours
 - members-first
-position: 22
+position: 23
 seo:
   og-image: "/uploads/event_cl-defactoSound.jpg"
 event-details:

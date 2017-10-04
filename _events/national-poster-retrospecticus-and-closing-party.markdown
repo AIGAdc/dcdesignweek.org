@@ -1,6 +1,6 @@
 ---
 title: National Poster Retrospecticus + Closing Party
-position: 18
+position: 19
 seo:
   og-image: "/uploads/event_closingParty-a373f2.jpg"
 event-details:
