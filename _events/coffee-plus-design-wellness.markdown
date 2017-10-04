@@ -11,8 +11,8 @@ event-details:
   start-time: 8:00am
   end-time: 9:00am
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/coffee-design-wellness/?redirect_source=
-  left-button-text: AIGA-Member Tickets
+  left-button-link: https://www.eventbrite.com/e/coffee-design-wellness-tickets-38469738022
+  left-button-text: Grab Your Tickets!
 is-sold-out: true
 is-featured-on-events-page: false
 is-tuesday: true
