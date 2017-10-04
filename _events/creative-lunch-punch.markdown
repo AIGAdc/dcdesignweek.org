@@ -11,24 +11,19 @@ event-details:
   start-time: 11:30am
   end-time: 2:00pm
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-punch/?redirect_source=
-  left-button-text: AIGA-Member Ticker
+  left-button-link: https://www.eventbrite.com/e/creative-lunch-punch-tickets-38470298699
+  left-button-text: Grab Your Tickets!
 is-thursday: true
 category: tours , member-first
 ---
 
-### Tickets On Sale to AIGA members October 2 at 9am! 
-
-### [Become a member today!](https://dc.aiga.org/membership/membership-rates/)
-
-### General tickets available on October 4 at 9am.
 Punch is a creative agency for bold brands. We fuse design thinking and content strategy to create experiences users love. We build websites, design mobile apps, write content and produce video, working collaboratively with clients to make art that inspires action. For more info on career opportunities and recent work visit AddSomePunch.com.
 
-**Lunch is included. **Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
+\*\*Lunch is included. \*\*Registration is $10, limited to 25 attendees. Priority registration for AIGA members opens at 9am on October 2nd. General registration opens at noon on October 4th. Grab a spot at the beginning of the registration line, and [sign up to become a member today!](http://www.aiga.org/join)
 
 Please plan to arrive at Punch 10 minutes early to allow time for registration, lunch and swapping stories with other designers. The presentation will begin promptly promptly at 12:00 PM.
 
-(Office is located above Capitol City Brewing Co.)
+\(Office is located above Capitol City Brewing Co.)
 
 Closest Metro is Pentagon City (Yellow/Blue)
 Then take the bus to Shirlington Station
