@@ -11,8 +11,8 @@ event-details:
   start-time: 11:30am
   end-time: 2pm
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-polygraph/?redirect_source=
-  left-button-text: AIGA-Member Tickets
+  left-button-link: https://www.eventbrite.com/e/creative-lunch-polygraph-tickets-38470254567
+  left-button-text: Grab Your Ticket!
 is-sold-out: true
 is-wednesday: true
 is-thursday: false
