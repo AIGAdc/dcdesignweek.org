@@ -1,6 +1,6 @@
 ---
 title: Tech Lady Hackathon
-position: 5
+position: 2
 seo:
   og-image: "/uploads/event_techLadyHackathon.jpg"
 event-details:

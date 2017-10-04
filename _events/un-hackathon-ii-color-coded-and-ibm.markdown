@@ -1,7 +1,7 @@
 ---
 title: "[un]hackathon II Color Coded & IBM"
 date: 2017-09-24 09:27:00 -04:00
-position: 6
+position: 3
 seo:
   og-image: "/uploads/event_colorCodedUnhackathon-a690d8.jpg"
 event-details:
