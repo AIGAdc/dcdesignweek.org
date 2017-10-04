@@ -11,8 +11,8 @@ event-details:
   start-time: 11:30am
   end-time: 1:15pm
 event-buttons:
-  left-button-link: https://my.aiga.org/MXSignin?ssotype=chapters&returnurl=https://dc.aiga.org/event/creative-lunch-politico/?redirect_source=
-  left-button-text: AIGA-Member Tickets
+  left-button-link: https://www.eventbrite.com/e/creative-lunch-politico-tickets-38432083396
+  left-button-text: Grab Your Tickets
 speakers:
   name: Judy Diaz
   title: VP of Marketing
