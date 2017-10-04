@@ -13,6 +13,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/crafts-cocktails-tickets-38418323239
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-featured-on-events-page: true
 is-tuesday: true
 category: parties
