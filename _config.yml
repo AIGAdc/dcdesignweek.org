@@ -51,6 +51,7 @@ defaults:
     is-sold-out: 
     is-featured-on-home-page: 
     is-featured-on-events-page: 
+    is-half-feature:
     is-kickoff-friday: 
     is-sunday: 
     is-monday: 

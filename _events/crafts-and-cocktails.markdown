@@ -15,7 +15,6 @@ event-buttons:
   left-button-text: Grab Your Tickets!
 is-sold-out: true
 is-featured-on-events-page: true
-is-half-feature: true
 is-tuesday: true
 category: parties
 ---
