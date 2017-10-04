@@ -1,6 +1,6 @@
 ---
 title: "DCDW Movie Night \U0001F3A5 The Happy Film"
-position: 24
+position: 26
 seo:
   og-image: "/uploads/event_dcdwMovieNight.jpg"
 event-details:
