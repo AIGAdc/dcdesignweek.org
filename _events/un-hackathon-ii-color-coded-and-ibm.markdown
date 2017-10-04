@@ -11,6 +11,9 @@ event-details:
   venue-address: 641 S St NW, Fl 1, Washington, DC 20001
   start-time: 10:00am
   end-time: 5:00pm
+event-buttons:
+  left-button-link: https://www.eventbrite.com/e/dc-design-week-unhackathon-with-ibm-tickets-38208347195
+  left-button-text: 'Grab Your Tickets! '
 is-featured-on-events-page: false
 is-sunday: true
 category: workshops
