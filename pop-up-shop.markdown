@@ -11,14 +11,12 @@ introduction-body-text: |-
   filling it with items made by locals. Swing by, shop, and support our neighborhood
   maker and creative community.
 
-  **The shop is open Wednesday through Sunday, 12-8pm**\
-  \
-  **Cherry Blossom Creative**\
-  2128 8th St NW, Washington, DC 20001
+  **Wed, Oct 26 — Sun, Oct 29 from noon to 8pm @ Cherry Blossom Creative
+  2128 8th St NW, Washington, DC 20001**
 
-  \### Launch Party!
+  ###Launch Party!
 
-  The shop will open with a [low-key launch party](http://www.dcdesignweek.org/events/pop-up-shop-launch.html) on Thursday, Oct 26 @ 6-8pm and will remain open through Sunday.
+  We will throw a [low-key launch party](http://www.dcdesignweek.org/events/pop-up-shop-launch.html) on Thursday, Oct 26. Come hang out, drink beverages and meet the artists featuring work in the shop.
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-header-text: Have Your Art Featured in Our DCDW Pop Up Shop!
 pop-up-shop-body-text: "Are you a designer or artist with pieces you’re ready to sell?
