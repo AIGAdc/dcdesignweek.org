@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: CAVA'
 categories:
-- tours , member-first
+- tours
+- member-first
 position: 10
 seo:
   og-image: "/uploads/event_cl-cava.jpg"
@@ -17,6 +18,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-cava-tickets-38431982093
   left-button-text: Grab Your Ticket!
+is-half-feature: true
 is-tuesday: true
 ---
 
