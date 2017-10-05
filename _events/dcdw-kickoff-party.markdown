@@ -17,6 +17,7 @@ event-buttons:
   left-button-link: https://www.eventbrite.com/e/dcdw-kickoff-party-tickets-38419481704
   left-button-text: Grab Your Tickets!
 is-featured-on-events-page: false
+is-half-feature: true
 is-sunday: true
 ---
 
