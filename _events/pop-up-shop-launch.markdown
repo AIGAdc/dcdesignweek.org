@@ -25,10 +25,14 @@ is-thursday: true
 
 **Be there when the Pop Up pops off!**
 
-The DCDW Pop Up Shop is taking over the Cherry Blossom Creative storefront and filling it with items made by your fellow makers and designers. Come and celebrate the DC design community at the opening event, and get first crack at the awesome goods on sale!
+The [DCDW Pop Up Shop](https://www.dcdesignweek.org/pop-up-shop/) is taking over the Cherry Blossom Creative storefront and filling it with items made by your fellow makers and designers. Come and celebrate the DC design community at the opening event, and get first crack at the awesome goods on sale!
 
 We’ll have official DCDW swag, cold beers, and the opportunity to put your money where the art is by supporting creativity sourced from the city we call home. Don’t miss it, because supplies won’t last!
 
 Are you interested in having your own art for sale? Hit us up and we’ll get you on display!
 
-Email \[torie@cherryblossomcreative.com\](mailto:torie@cherryblossomcreative.com) for more details.
+Email [torie@cherryblossomcreative.com](mailto:torie@cherryblossomcreative.com) for more details.
+
+The shop will be open in non-party mode Wednesday, Oct 26 - Sunday, Oct 29 so pop by even if you can't make the party and buy some locally-designed goods.
+
+https://www.dcdesignweek.org/pop-up-shop/
