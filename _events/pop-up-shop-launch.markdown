@@ -33,6 +33,6 @@ Are you interested in having your own art for sale? Hit us up and we’ll get yo
 
 Email [torie@cherryblossomcreative.com](mailto:torie@cherryblossomcreative.com) for more details.
 
-The shop will be open in non-party mode Wednesday, Oct 26 - Sunday, Oct 29 so pop by even if you can't make the party and buy some locally-designed goods.
+The shop will be open in non-party mode Wed, Oct 26 — Sun, Oct 29 from noon to 8pm, so pop by even if you can't make the party and purchase some locally-designed goods.
 
 https://www.dcdesignweek.org/pop-up-shop/
