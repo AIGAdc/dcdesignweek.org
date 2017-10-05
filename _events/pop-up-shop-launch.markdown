@@ -31,4 +31,4 @@ We’ll have official DCDW swag, cold beers, and the opportunity to put your mon
 
 Are you interested in having your own art for sale? Hit us up and we’ll get you on display!
 
-Email \[torie@cherryblossomcreative.com\](mailto: torie@cherryblossomcreative.com) for more details.
+Email \[torie@cherryblossomcreative.com\](mailto:torie@cherryblossomcreative.com) for more details.
