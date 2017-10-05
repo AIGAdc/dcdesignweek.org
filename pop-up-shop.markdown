@@ -14,8 +14,6 @@ introduction-body-text: |-
   **Wed, Oct 26 — Sun, Oct 29 from noon to 8pm @ Cherry Blossom Creative
   2128 8th St NW, Washington, DC 20001**
 
-  ###Launch Party!
-
   We will throw a [low-key launch party](http://www.dcdesignweek.org/events/pop-up-shop-launch.html) on Thursday, Oct 26. Come hang out, drink beverages and meet the artists featuring work in the shop.
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-header-text: Have Your Art Featured in Our DCDW Pop Up Shop!
