@@ -16,6 +16,7 @@ event-buttons:
   left-button-link: http://techladyhackathon.org
   left-button-text: More Info
 is-featured-on-events-page: false
+is-half-feature: true
 is-sunday: false
 is-kickoff-saturday: true
 ---
