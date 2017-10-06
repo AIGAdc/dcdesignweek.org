@@ -18,6 +18,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-cava-tickets-38431982093
   left-button-text: Grab Your Ticket!
+is-sold-out: true
 is-half-feature: true
 is-tuesday: true
 ---
