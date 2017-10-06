@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: Punch'
 categories:
-- tours , member-first
+- tours
+- member-first
 position: 19
 seo:
   og-image: "/uploads/event_cl-punch.jpg"
@@ -15,6 +16,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-punch-tickets-38470298699
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-thursday: true
 ---
 
