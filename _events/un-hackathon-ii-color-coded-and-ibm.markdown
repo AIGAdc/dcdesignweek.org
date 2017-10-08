@@ -16,6 +16,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/dc-design-week-unhackathon-with-ibm-tickets-38208347195
   left-button-text: 'Grab Your Tickets! '
+is-sold-out: true
 is-featured-on-events-page: false
 is-sunday: true
 ---
