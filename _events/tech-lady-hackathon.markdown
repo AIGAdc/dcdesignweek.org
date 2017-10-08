@@ -13,8 +13,8 @@ event-details:
   start-time: 9:30 am
   end-time: 4:30 pm
 event-buttons:
-  left-button-link: http://techladyhackathon.org
-  left-button-text: More Info
+  left-button-link: " https://www.eventbrite.com/e/tech-lady-hackathon-5-tickets-38594721852"
+  left-button-text: Grab Your Tickets
 is-featured-on-events-page: false
 is-half-feature: true
 is-sunday: false
