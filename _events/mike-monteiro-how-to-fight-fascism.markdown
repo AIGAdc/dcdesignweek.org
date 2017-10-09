@@ -34,6 +34,7 @@ speakers:
     on the topic, Design is a Job and You’re My Favorite Client, both from A Book
     Apart. Mike received the 2014 Net award for Conference Talk of the Year for his
     inspirational polemic on responsibility, “How Designers Destroyed the World.”
+is-sold-out: true
 is-featured-on-home-page: true
 is-featured-on-events-page: true
 is-wednesday: true
