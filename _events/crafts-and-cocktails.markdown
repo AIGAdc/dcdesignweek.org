@@ -20,7 +20,7 @@ is-featured-on-events-page: true
 is-tuesday: true
 ---
 
-### Tickets On Sale October 4 at 9am!
+### Sold Out!
 
 We’re getting together with DC’s Lemon Collective at the Cotton & Reed distillery in Union Market to celebrate crafts and cocktails!
 
