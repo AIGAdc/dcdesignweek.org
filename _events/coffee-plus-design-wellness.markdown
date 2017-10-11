@@ -2,7 +2,7 @@
 title: 'Coffee + Design: Wellness'
 categories:
 - lectures, member-first
-position: 5
+position: 1
 seo:
   og-image: "/uploads/event_coffeAndDesign.jpg"
 event-details:
