@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Politico'
 categories:
 - tours , member-first
-position: 4
+position: 5
 seo:
   og-image: "/uploads/event_cl-politico.jpg"
 event-details:
