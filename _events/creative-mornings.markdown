@@ -1,7 +1,7 @@
 ---
 title: Creative Mornings
 date: 2017-09-20 20:54:00 -04:00
-position: 0
+position: 1
 seo:
   description: CreativeMornings is a breakfast lecture series for the creative community.
   og-image: "/uploads/event_creativeMornings.jpg"
