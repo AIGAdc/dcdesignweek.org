@@ -26,13 +26,13 @@ category: lectures
 
 CreativeMornings is a breakfast lecture series for the creative community.
 
-# This month's theme: Pioneers
+**This month's theme: Pioneers**
 
 Pioneers shatter expectations, widen boundaries, and reveal new possibilities in life.
 
 Whether the work was inspired from being on a ship or inside of a studio, pioneers act on their internal, immutable desires to create work that matters.
 
-# This Month's Speaker: Freddie Bitsoie
+**This Month's Speaker: Freddie Bitsoie**
 
 Freddie Bitsoie (Diné \[Navajo\]) has 10 years of experience fusing his classical culinary training with knowledge of Native American foods and ingredients. Among other honors and accolades, Bitsoie was the winner of the NMAI’s Living Earth Festival Native Chef Cooking Competition in 2013, and was named “a rising star in the constellation of young chefs” by Native Peoples magazine in 2011. He was featured on an episode of PBS’s Lidia Celebrates America and is working on his own show, Rezervations Not Required, which will highlight indigenous cuisines of the world.
 
