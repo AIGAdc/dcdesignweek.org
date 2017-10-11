@@ -3,7 +3,7 @@ title: 'Creative Lunch: CAVA'
 categories:
 - tours
 - member-first
-position: 6
+position: 7
 seo:
   og-image: "/uploads/event_cl-cava.jpg"
 event-details:
