@@ -2,7 +2,7 @@
 title: 'Creative Lunch: IBM'
 categories:
 - tours , member-first
-position: 13
+position: 15
 seo:
   og-image: "/uploads/event_cl-ibm.jpg"
 event-details:

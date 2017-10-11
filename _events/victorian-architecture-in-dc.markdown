@@ -2,7 +2,7 @@
 title: Victorian Architecture in DC
 categories:
 - lectures
-position: 26
+position: 28
 seo:
   og-image: "/uploads/event_victorianArchitecture.jpg"
 event-details:

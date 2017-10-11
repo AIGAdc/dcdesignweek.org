@@ -2,7 +2,7 @@
 title: 'Creative Lunch: NPR'
 categories:
 - tours , member-first
-position: 18
+position: 20
 seo:
   og-image: "/uploads/event_cl-npr.jpg"
 event-details:

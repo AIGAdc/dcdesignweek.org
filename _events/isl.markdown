@@ -2,7 +2,7 @@
 title: 'Creative Lunch: ISL'
 categories:
 - tours , member-first
-position: 15
+position: 17
 seo:
   og-image: "/uploads/event_cl-isl.jpg"
 event-details:

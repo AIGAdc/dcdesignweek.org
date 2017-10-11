@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Neighborhood Design Center'
 categories:
 - tours , member-first
-position: 22
+position: 24
 seo:
   og-image: "/uploads/event_cl-ndc.jpg"
 event-details:

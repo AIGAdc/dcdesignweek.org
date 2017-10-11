@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Peer Insight'
 categories:
 - tours , member-first
-position: 23
+position: 25
 seo:
   og-image: "/uploads/event_cl-peerInsight.jpg"
 event-details:

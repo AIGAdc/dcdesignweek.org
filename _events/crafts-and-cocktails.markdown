@@ -2,7 +2,7 @@
 title: Crafts & Cocktails
 categories:
 - parties
-position: 12
+position: 14
 seo:
   og-image: "/uploads/event_craftsAndCocktails.jpg"
 event-details:

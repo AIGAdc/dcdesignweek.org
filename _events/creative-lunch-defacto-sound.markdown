@@ -4,7 +4,7 @@ categories:
 - tours
 - members-first
 - tours , member-first
-position: 17
+position: 19
 seo:
   og-image: "/uploads/event_cl-defactoSound.jpg"
 event-details:

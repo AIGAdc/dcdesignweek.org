@@ -3,7 +3,7 @@ title: 'Creative Lunch: Punch'
 categories:
 - tours
 - member-first
-position: 19
+position: 21
 seo:
   og-image: "/uploads/event_cl-punch.jpg"
 event-details:

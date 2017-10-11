@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Polygraph'
 categories:
 - tours , member-first
-position: 14
+position: 16
 seo:
   og-image: "/uploads/event_cl-polygraph-e3fedf.jpg"
 event-details:

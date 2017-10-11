@@ -2,7 +2,7 @@
 title: 'UNLEADED DC: WTF?!'
 categories:
 - lectures
-position: 21
+position: 23
 seo:
   og-image: "/uploads/event_unleadedDC.jpg"
 event-details:

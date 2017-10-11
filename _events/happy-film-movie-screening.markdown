@@ -2,7 +2,7 @@
 title: "DCDW Movie Night \U0001F3A5 The Happy Film"
 categories:
 - screenings
-position: 25
+position: 27
 seo:
   og-image: "/uploads/event_dcdwMovieNight.jpg"
 event-details:

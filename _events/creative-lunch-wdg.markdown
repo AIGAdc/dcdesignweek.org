@@ -2,7 +2,7 @@
 title: 'Creative Lunch: WDG'
 categories:
 - tours , member-first
-position: 24
+position: 26
 seo:
   og-image: "/uploads/event_cl-wdg.jpg"
 event-details:
