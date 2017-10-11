@@ -1,7 +1,7 @@
 ---
 title: Cartoonists Draw Blood
 date: 2017-10-03 17:09:00 -04:00
-position: 6
+position: 7
 seo:
   description: In association with American Red Cross and National Cartoonists Society,
     Washington, DC area cartoonists have clotted together to help keep the local blood

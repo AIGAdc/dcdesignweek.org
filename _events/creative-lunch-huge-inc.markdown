@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Huge Inc'
 categories:
 - tours , member-first
-position: 10
+position: 11
 seo:
   og-image: "/uploads/event_cl-huge.jpg"
 event-details:

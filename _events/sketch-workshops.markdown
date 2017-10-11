@@ -2,7 +2,7 @@
 title: Sketch Workshops
 categories:
 - workshops
-position: 11
+position: 12
 seo:
   og-image: "/uploads/event_sketchWorkshop.jpg"
 event-details:
