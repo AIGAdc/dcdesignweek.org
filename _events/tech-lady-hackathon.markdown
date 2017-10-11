@@ -2,7 +2,7 @@
 title: Tech Lady Hackathon
 categories:
 - workshops
-position: 6
+position: 7
 seo:
   og-image: "/uploads/event_techLadyHackathon.jpg"
 event-details:
