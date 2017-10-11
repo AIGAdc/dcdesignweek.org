@@ -17,6 +17,7 @@ event-details:
 event-buttons:
   left-button-link: https://creativemornings.com/talks/freddie-bitsoie
   left-button-text: Grab Your Tickets (Oct 23)
+is-half-feature: true
 is-friday: true
 category: lectures
 ---
