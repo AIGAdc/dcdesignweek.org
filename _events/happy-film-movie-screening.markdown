@@ -19,7 +19,7 @@ event-buttons:
   left-button-text: Grab Your Tickets!
 is-sold-out: true
 is-featured-on-home-page: false
-is-featured-on-events-page: true
+is-featured-on-events-page: false
 is-friday: true
 ---
 
