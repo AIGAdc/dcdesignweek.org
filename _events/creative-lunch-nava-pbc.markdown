@@ -2,7 +2,7 @@
 title: 'Creative Lunch: NAVA PBC'
 categories:
 - tours , member-first
-position: 5
+position: 7
 seo:
   og-image: "/uploads/event_cl-navaPBC.jpg"
 event-details:
