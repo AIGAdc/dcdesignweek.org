@@ -15,8 +15,8 @@ event-details:
   start-time: 8:30 AM
   end-time: 10:00 AM
 event-buttons:
-  left-button-link: Grab Your Tickets (Oct 23)
-  left-button-text: https://creativemornings.com/talks/freddie-bitsoie
+  left-button-link: https://creativemornings.com/talks/freddie-bitsoie
+  left-button-text: Grab Your Tickets (Oct 23)
 is-friday: true
 category: lectures
 ---
