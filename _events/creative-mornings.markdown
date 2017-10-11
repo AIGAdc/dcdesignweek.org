@@ -24,7 +24,7 @@ category: lectures
 
 ### Tickets go on sale Monday, October 23 at 10:30am
 
-CreativeMornings is a breakfast lecture series for the creative community.
+[CreativeMornings](https://creativemornings.com/talks/freddie-bitsoie) is a breakfast lecture series for the creative community.
 
 **This month's theme: Pioneers**
 
