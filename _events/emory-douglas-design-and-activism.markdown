@@ -2,7 +2,7 @@
 title: 'Emory Douglas: Design & Activism'
 categories:
 - lectures
-position: 3
+position: 4
 seo:
   description: Join Emory Douglas, the ex-Minister of Culture for the Black Panthers,
     in a discussion on the intersection of Design and Activism.
