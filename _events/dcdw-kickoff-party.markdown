@@ -3,7 +3,7 @@ title: "DCDW Kickoff Party \U0001F389"
 date: 2017-09-25 09:26:00 -04:00
 categories:
 - parties
-position: 6
+position: 7
 seo:
   og-image: "/uploads/event_openingParty.jpg"
 event-details:
