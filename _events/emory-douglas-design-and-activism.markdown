@@ -34,7 +34,7 @@ is-featured-on-events-page: true
 is-kickoff-friday: true
 ---
 
-Join Emory Douglas, the ex-Minister of Culture for the Black Panthers, in a discussion on the intersection of Design and Activism.
+Join Emory Douglas, **the ex-Minister of Culture for the Black Panthers**, in a discussion on the intersection of Design and Activism.
 
 Emory Douglas became politically involved at the age of 24 as Revolutionary Artist and then Minister of Culture for the Black Panther party. Mr. Douglas' powerful images portrayed through the party's newspapers, posters and pamphlets spoke to social injustices experienced by black and other oppressed people in the U.S. and around the world. While his works often address issues of race, they also exude empowerment in the face of poverty, discrimination, and imperialism.
 
