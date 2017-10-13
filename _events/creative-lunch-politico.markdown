@@ -1,12 +1,13 @@
 ---
 title: 'Creative Lunch: Politico'
 categories:
-- tours , member-first
+- tours
+- member-first
 position: 12
 seo:
   og-image: "/uploads/event_cl-politico.jpg"
 event-details:
-  date: 2017-10-23 23:00:00 -04:00
+  date: 2017-10-24 23:00:00 -04:00
   venue-name: Politico
   venue-directions: https://www.google.com/maps/place/1000+Wilson+Blvd,+Arlington,+VA+22209/@38.8940401,-77.071351,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b6598c582815:0xda06907d98789bf0!8m2!3d38.8940401!4d-77.0691623
   venue-address: 1000 Wilson Blvd, 8th Floor, Arlington, VA 22209.
