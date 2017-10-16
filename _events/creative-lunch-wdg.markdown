@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: WDG'
 categories:
-- tours , member-first
+- tours
+- member-first
 position: 26
 seo:
   og-image: "/uploads/event_cl-wdg.jpg"
@@ -15,6 +16,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/creative-lunch-wdg-tickets-38470409029
   left-button-text: Grab Your Ticket!
+is-sold-out: true
 is-friday: true
 ---
 
