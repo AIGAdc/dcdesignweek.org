@@ -15,6 +15,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.meetup.com/UnleadedDC/events/242944134/
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-featured-on-events-page: true
 is-thursday: true
 ---
