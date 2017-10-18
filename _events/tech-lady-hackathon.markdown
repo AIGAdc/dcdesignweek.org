@@ -15,6 +15,7 @@ event-details:
 event-buttons:
   left-button-link: " https://www.eventbrite.com/e/tech-lady-hackathon-5-tickets-38594721852"
   left-button-text: Grab Your Tickets
+is-sold-out: true
 is-featured-on-events-page: false
 is-half-feature: true
 is-sunday: false
