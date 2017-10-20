@@ -15,6 +15,7 @@ event-details:
 event-buttons:
   left-button-link: https://www.eventbrite.com/e/sketch-workshops-tickets-38419392437
   left-button-text: Grab Your Tickets!
+is-sold-out: true
 is-featured-on-home-page: true
 is-half-feature: true
 is-monday: true
