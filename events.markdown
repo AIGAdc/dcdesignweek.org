@@ -37,4 +37,3 @@ day-9: saturday-end
 day-9-label: Saturday, Oct 28
 layout: pages/events
 ---
-
