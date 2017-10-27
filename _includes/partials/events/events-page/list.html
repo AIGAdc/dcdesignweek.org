@@ -28,8 +28,8 @@
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-4 }}">{{ page.day-4-label }}</a></li>
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-5 }}">{{ page.day-5-label }}</a></li>
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-6 }}">{{ page.day-6-label }}</a></li>
-      {% endcomment %}
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-7 }}">{{ page.day-7-label }}</a></li>
+      {% endcomment %}
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-8 }}">{{ page.day-8-label }}</a></li>
       <li class="dib ma0 pa0"><a class="filter-button f7 fw4 link pa1" data-filter=".{{ page.day-9 }}">{{ page.day-9-label }}</a></li>
     </ul>
@@ -176,7 +176,6 @@
       {% endif %}
     {% endfor %}
   </div>
-  {% endcomment %}
 
   <div class="day fl w-100 mb3">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-7-label }}</h2>
@@ -199,7 +198,8 @@
       {% endif %}
     {% endfor %}
   </div>
-
+  {% endcomment %}
+  
   <div class="day fl w-100 mb3">
     <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-8-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
