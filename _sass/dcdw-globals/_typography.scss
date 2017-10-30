@@ -1,8 +1,5 @@
-/*
- * typography
- */
-
 /* license and information for using bb roller mono on a website */
+
 
 /*
 Font: 		BB Roller Mono
@@ -23,67 +20,143 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 @font-face {
 	font-family: 'BBRollerMono-Headline';
 	src: url('/uploads/bb-roller-mono-headline.eot');
-	src: url('/uploads/bb-roller-mono-headline.eot?#iefix') format('embedded-opentype'),
-             url('/uploads/bb-roller-mono-headline.woff2') format('woff2'),
-	     url('/uploads/bb-roller-mono-headline.woff') format('woff'),
-	     url('/uploads/bb-roller-mono-headline.ttf') format('truetype'),
-	     url('/uploads/bb-roller-mono-headline.svg') format('svg');
+	src: url('/uploads/bb-roller-mono-headline.eot?#iefix') format('embedded-opentype'), url('/uploads/bb-roller-mono-headline.woff2') format('woff2'), url('/uploads/bb-roller-mono-headline.woff') format('woff'), url('/uploads/bb-roller-mono-headline.ttf') format('truetype'), url('/uploads/bb-roller-mono-headline.svg') format('svg');
 	font-style: normal;
 }
 
+
 /* font families */
-.bbroller { font-family: $bbroller; }
-.sans { font-family: $sans; }
+
+.bbroller {
+	font-family: $bbroller;
+}
+
+.sans {
+	font-family: $sans;
+}
+
 
 /* font sizes */
-.text-small { font-size: $text-small; }
-.text-default { font-size: $text-default; }
-.text-medium { font-size: $text-medium; }
-.text-x-medium { font-size: $text-x-medium; }
-.text-large { font-size: $text-large; }
+
+.text-small {
+	font-size: $text-small;
+}
+
+.text-default {
+	font-size: $text-default;
+}
+
+.text-medium {
+	font-size: $text-medium;
+}
+
+.text-x-medium {
+	font-size: $text-x-medium;
+}
+
+.text-large {
+	font-size: $text-large;
+}
+
 .text-x-large {
 	font-size: $text-x-large;
 	line-height: 48px;
 }
+
 .text-headline {
 	font-size: $text-headline;
 	line-height: 56px;
 }
-.text-billboard { font-size: $text-billboard; }
+
+.text-billboard {
+	font-size: $text-billboard;
+}
+
 
 /* line heights */
-.lh-normal { line-height: $lh-normal; }
-.lh-loose { line-height: $lh-loose; }
-.lh-spaced { line-height: $lh-spaced; }
-.lh-tight { line-height: $lh-tight; }
+
+.lh-normal {
+	line-height: $lh-normal;
+}
+
+.lh-loose {
+	line-height: $lh-loose;
+}
+
+.lh-spaced {
+	line-height: $lh-spaced;
+}
+
+.lh-tight {
+	line-height: $lh-tight;
+}
+
 
 /* text transforms */
-.text-uppercase { text-transform: $uppercase; }
-.text-lowercase { text-transform: $lowercase; }
+
+.text-uppercase {
+	text-transform: $uppercase;
+}
+
+.text-lowercase {
+	text-transform: $lowercase;
+}
+
 
 /* font weights */
-.fw1 { font-weight: $fw1; }
-.fw2 { font-weight: $fw2; }
-.fw3 { font-weight: $fw3; }
-.fw4 { font-weight: $fw4; }
-.fw5 { font-weight: $fw5; }
-.fw6 { font-weight: $fw6; }
-.fw7 { font-weight: $fw7; }
-.fw8 { font-weight: $fw8; }
-.fw9 { font-weight: $fw9; }
+
+.fw1 {
+	font-weight: $fw1;
+}
+
+.fw2 {
+	font-weight: $fw2;
+}
+
+.fw3 {
+	font-weight: $fw3;
+}
+
+.fw4 {
+	font-weight: $fw4;
+}
+
+.fw5 {
+	font-weight: $fw5;
+}
+
+.fw6 {
+	font-weight: $fw6;
+}
+
+.fw7 {
+	font-weight: $fw7;
+}
+
+.fw8 {
+	font-weight: $fw8;
+}
+
+.fw9 {
+	font-weight: $fw9;
+}
+
 
 /* text alignment */
-.text-justify { text-align: $align-justify; }
+
+.text-justify {
+	text-align: $align-justify;
+}
 
 .text-vertical {
 	transform: rotate(-90deg);
-  left: -250px;
-  top: 105px;
+	left: -250px;
+	top: 105px;
 	right: 0;
 	bottom: 0;
-  margin: 0;
-  text-align: right;
-  position: absolute;
+	margin: 0;
+	text-align: right;
+	position: absolute;
 	max-width: 200px;
 }
 
@@ -95,16 +168,16 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	margin-bottom: 12px;
 	padding: 0;
 	font-size: 16px;
-    line-height: 26px;
+	line-height: 26px;
 }
 
 .sold-out {
 	background-color: black;
-    padding-top: 5.5px;
-    color: white;
-    text-align: center;
-    line-height: 24px;
-    font-family: "BBRollerMono-Headline",courier,sans-serif;
+	padding-top: 5.5px;
+	color: white;
+	text-align: center;
+	line-height: 24px;
+	font-family: "BBRollerMono-Headline", courier, sans-serif;
 }
 
 marquee span {

@@ -1,10 +1,10 @@
 ---
 ---
 
-/* Tachyons */
+/* tachyons */
+//@import "tachyons/tachyons-4.9.0";
 @import "tachyons/tachyons";
 
-/* DCDW Modules */
 @import "dcdw-globals/variables";
 @import "dcdw-globals/colors";
 
@@ -27,7 +27,7 @@
 @import "dcdw-pages/pop-up-shop";
 @import "dcdw-pages/single-event";
 @import "dcdw-pages/sponsors";
-@import "dcdw-pages/thank-you-2016";
+//@import "dcdw-pages/thank-you-2016";
 @import "dcdw-pages/job-desc";
 
 @import "dcdw-modules/typeform";

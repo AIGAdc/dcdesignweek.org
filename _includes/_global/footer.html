@@ -1,48 +1,39 @@
 <footer id="email-sign-up" class="global-footer white bg-black cover noise relative overflow-hidden gradient-overlay-solid">
-  {% if page.url == "/home" %}
-  <div class="mw7 center cf ph3 pt4 relative" style="z-index: 100;">
-    <div class="footer-content-header pa2">
-      {% for content in site.data.footer.holding-site-footer %}
-      <span class="bbroller ma0 f4 f2-ns fw4 lh-copy tc">{{ content.header | markdownify }}</span> {% endfor %}
-    </div>
-  </div>
-  <div class="mw6 center cf ph3 relative" style="z-index: 100;">
-    <div class="footer-content pa2">
-      {% for content in site.data.footer.holding-site-footer %}
-      <span class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">{{ content.text | markdownify }}</span> {% endfor %}
-    </div>
-  </div>
-  <div class="mw6 center cf pa3 relative" style="z-index: 100;">
-    <div class="mailchimp-form">
-      {% include mailchimp/sign-up-form.html %}
-    </div>
-  </div>
-  {% else %}
-  <div class="global-footer-content cf pa4 pv5 relative">
-    <div class="mw7 center cf tc">
-      <p class="ma0 mb3 f4 f3-m f2-l fw9">Made with<span class="made-in-dc-heart relative dib h3 w2">{% include icons/heart.svg %} </span> in DC</p>
-      <div class="dcdw-footer-statement">
-        <p class="ma0 mb2 f6 f5-ns fw3 lh-copy">Built by 100% volunteer power, we're constantly working to make this site better for you.</p>
-        <p class="ma0 f6 f5-ns fw3 lh-copy">If you see something, say something.</p>
-        <a href="https://github.com/AIGAdc/DCDW" target="_blank" class="social-icons dim dib mt4 white text-headline h3 w3">{% include icons/github.svg %}</a>
+    <div class="mw7 center cf pa3 relative" style="z-index: 100;">
+      <div class="footer-content">
+        {% for content in site.data.footer.holding-site-footer %}
+          <span class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
+            {{ content.header | markdownify }}
+          </span>
+          <span class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">
+            {{ content.text | markdownify }}
+          </span>
+        {% endfor %}
+      </div>
+      <div class="mailchimp-form">
+        {% include mailchimp/sign-up-form.html %}
       </div>
     </div>
   </div>
-  {% endif %}
+  <div class="footer-contact-bar pa3 bg-black cf">
+    <div class="fl w-100 w-third-l tc tc-m tl-l relative mt2" style="z-index: 100;">
+      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email f6 f5-ns white dib dim">
+        {{site.footer-contact-email}}
+      </a>
+    </div>
+    <div class="fl w-100 w-third-l tc pv3 pv0-l relative" style="z-index: 100;">
+      <ul class="social-icons list ma0 pl0">
+        {% for link in site.data.navigation.social-nav %}
+          <li class="dib link">
+            <a href="{{ link.url }}" class="social-footer-links ph2 dim"><span class="dib v-mid">{{ link.icon }}</span></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="fl w-100 w-third-l tc tr-l mt2">
+      <p class="aiga-copyright ma0 f6 f5-ns">
+        {{site.footer-copyright}}
+      </p>
+    </div>
+  </div>
 </footer>
-
-<div class="footer-contact-bar cf pa3 bg-black white flex flex-column flex-row-l">
-  <div class="flex-auto self-center w-100 w-third-l">
-    <a href="mailto:{{site.footer-contact-email}}" target="_top" class="ma0 f7 f6-l white dim tc tl-l db">{{site.footer-contact-email}}</a>
-  </div>
-  <div class="flex-auto self-center w-100 w-third-l pv3 pv0-l">
-    <ul class="social-icons list ma0 pl0 tc">
-      {% for link in site.data.navigation.social-nav %}
-      <li class="dib link ph2"><a href="{{ link.url }}" class="social-footer-links dib dim v-mid"><span class="dib v-mid">{{ link.icon }}</span></a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="flex-auto self-center w-100 w-third-l">
-    <span class="ma0 f7 f6-l tc tr-l db">{{site.footer-copyright}}</span>
-  </div>
-</div>
