@@ -35,6 +35,13 @@ holding-site-nav:
   - title: "Volunteers"
     url: /volunteers/
 
+# holding site nav
+previous-site-nav:
+  - title: "2016"
+    url: /2016/
+  - title: "2017"
+    url: /2017/
+
 # social media
 social-nav:
   - title: "Twitter"
