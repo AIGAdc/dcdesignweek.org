@@ -1,6 +1,6 @@
 ---
 title: Thank You
-permalink: "/thank-you/"
+permalink: "/"
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 

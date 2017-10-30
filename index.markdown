@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: "/"
+permalink: "/home/"
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 divider-1: Introduction
