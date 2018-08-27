@@ -120,7 +120,7 @@ exclude:
 - DesignInsperation.txt
 - ".jekyll-metadata"
 - ".sass-cache"
-gems:
+plugins:
 - jekyll-seo-tag
 sass:
   sass_dir: _sass
