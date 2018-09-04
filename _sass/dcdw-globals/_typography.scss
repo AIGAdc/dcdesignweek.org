@@ -1,6 +1,4 @@
 /* license and information for using bb roller mono on a website */
-
-
 /*
 Font: 		BB Roller Mono
 Style: 		Headline
@@ -16,7 +14,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 			from using the WebFonts(s) listed without a purchased license.
 			All details above must always remain unaltered and visible in your CSS.
 */
-
 @font-face {
 	font-family: 'BBRollerMono-Headline';
 	src: url('/uploads/bb-roller-mono-headline.eot');
@@ -24,9 +21,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-style: normal;
 }
 
-
 /* font families */
-
 .bbroller {
 	font-family: $bbroller;
 }
@@ -35,9 +30,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-family: $sans;
 }
 
-
 /* font sizes */
-
 .text-small {
 	font-size: $text-small;
 }
@@ -72,9 +65,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-size: $text-billboard;
 }
 
-
 /* line heights */
-
 .lh-normal {
 	line-height: $lh-normal;
 }
@@ -91,9 +82,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	line-height: $lh-tight;
 }
 
-
 /* text transforms */
-
 .text-uppercase {
 	text-transform: $uppercase;
 }
@@ -102,9 +91,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	text-transform: $lowercase;
 }
 
-
 /* font weights */
-
 .fw1 {
 	font-weight: $fw1;
 }
@@ -141,9 +128,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-weight: $fw9;
 }
 
-
 /* text alignment */
-
 .text-justify {
 	text-align: $align-justify;
 }
