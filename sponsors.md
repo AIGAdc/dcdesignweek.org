@@ -9,9 +9,7 @@ introduction-body-text: 'DC Design Week is produced by AIGA DC, a volunteer-run,
   groups and small businesses. We rely on the generosity and goodness of others to
   make this week of celebration a reality. Major thanks to the following partners
   and sponsors for your support and commitment to the DC design community. We couldn''t
-  do it without you!
-
-'
+  do it without you!'
 first-tier-header-text: AIGA DC Sustaining Partners
 first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
   enabling us to stay true to our mission: to advance designing as a professional
@@ -27,4 +25,3 @@ sponsor-button-text: Join The List
 sponsor-button-link: rica@aigadc.org
 layout: pages/sponsors
 ---
-

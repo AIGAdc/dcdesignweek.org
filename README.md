@@ -1,8 +1,8 @@
 # DCDW
 
-## Welcome!
+## Welcome
 
-This repository is the home of the DC Design Week website. 
+This repository is the home of the DC Design Week website.
 
 ## Getting Setup
 

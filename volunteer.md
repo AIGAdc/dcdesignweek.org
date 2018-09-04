@@ -1,10 +1,9 @@
 ---
 title: Volunteer
 permalink: "/volunteers/"
-description: 
+description:
 image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: Volunteer
-introduction-body-text: 
+introduction-body-text:
 layout: pages/volunteer
 ---
-
