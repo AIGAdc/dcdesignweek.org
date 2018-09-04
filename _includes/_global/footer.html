@@ -14,7 +14,7 @@
   </div>
 
   <!-- social media -->
-  <div class="site-footer--social bg-black">
+  <div class="social-footer bg-black">
     <div class="">
       <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email">
         {{site.footer-contact-email}}
@@ -24,7 +24,7 @@
       <ul class="social-icons list ma0 pl0">
         {% for link in site.data.navigation.social-nav %}
         <li class="dib link">
-          <a href="{{ link.url }}" class="social-footer-links ph2 dim"><span class="dib v-mid">{{ link.icon }}</span></a>
+          <a href="{{ link.url }}" class="social-footer-links ph2 dim">{{ link.icon }}</a>
         </li>
         {% endfor %}
       </ul>
