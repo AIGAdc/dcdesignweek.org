@@ -1,5 +1,16 @@
   </div>
   {% include _global/footer.html %}
+  <!-- Put this right before the </body> closing tag -->
+  <script>
+
+    //Offside.js minimal setup
+    var myOffside = offside( '#my-menu', {
+
+        slidingElementsSelector:'#my-content-container',
+        buttonsSelector: '#my-button, .another-button',
+        slidingSide: 'right',                             // String: Offside element pushed on left or right
+    });
+  </script>
 </body>
 
 <!-- scripts -->
