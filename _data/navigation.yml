@@ -28,8 +28,8 @@ mobile-nav:
   - title: "Volunteers"
     url: /volunteers/
 
-# holding site nav
-holding-site-nav:
+# landing page nav
+landing-page-nav:
   - title: "About"
     url: /about/
   - title: "Volunteers"
