@@ -37,16 +37,16 @@
 .dcdw-pop-up-shop-content,
 .dcdw-get-out-the-vote-content,
 .dcdw-about-content {
-  border: solid 3px $dcdw-blue;
-  box-shadow: 20px 25px $dcdw-orange;
+  border: solid 3px $dcdw-primary;
+  box-shadow: 20px 25px $dcdw-secondary;
   transition: all 100ms ease-out;
 }
 
 .dcdw-pop-up-shop-content:hover,
 .dcdw-get-out-the-vote-content:hover,
 .dcdw-about-content:hover {
-  border: solid 3px $dcdw-blue;
-  box-shadow: 0px 0px $dcdw-orange;
+  border: solid 3px $dcdw-primary;
+  box-shadow: 0px 0px $dcdw-secondary;
 }
 
 @media screen and (min-width: 960px) {

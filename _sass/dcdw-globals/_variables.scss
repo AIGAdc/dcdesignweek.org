@@ -3,11 +3,11 @@ $white: #fff;
 $black: #000;
 $charcoal: #5a5a5a;
 // brand colors
-$dcdw-blue: #3e07d0;
-$dcdw-blue-faint: #E4DCF7;
-$dcdw-orange: #ffae84;
-$dcdw-orange-faint: #F3E8F2;
-$dcdw-gray: #D7D7D7;
+$dcdw-buffered: #D7D7D7;
+$dcdw-primary: #3e07d0;
+$dcdw-primary-faint: #E4DCF7;
+$dcdw-secondary: #ffae84;
+$dcdw-secondary-faint: #F3E8F2;
 // opaque colors
 $opaque-white: rgba(255, 255, 255, 0.8);
 // font families
@@ -32,16 +32,6 @@ $lh-loose: 2em;
 // text transforms
 $uppercase: uppercase;
 $lowercase: lowercase;
-// font weights
-$fw1: 100;
-$fw2: 200;
-$fw3: 300;
-$fw4: 400;
-$fw5: 500;
-$fw6: 600;
-$fw7: 700;
-$fw8: 800;
-$fw9: 900;
 // text alignments
 $align-left: left;
 $align-right: right;
