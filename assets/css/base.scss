@@ -5,6 +5,7 @@
 @import "tachyons/tachyons-4.9.0";
 
 @import "dcdw-globals/variables";
+@import "dcdw-globals/reset";
 @import "dcdw-globals/colors";
 
 @import "dcdw-components/header";
@@ -24,7 +25,8 @@
 @import "dcdw-pages/single-event";
 @import "dcdw-pages/sponsors";
 
-@import "dcdw-modules/typeform";
-@import "dcdw-modules/offside";
-@import "dcdw-modules/mapbox";
-@import "dcdw-modules/mailchimp";
+@import "dcdw-3rd-party/typeform";
+@import "dcdw-3rd-party/offside";
+@import "dcdw-3rd-party/mapbox";
+@import "dcdw-3rd-party/mailchimp";
+
