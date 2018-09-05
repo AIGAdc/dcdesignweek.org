@@ -1,9 +1,8 @@
-/* ensures that the fixed header will remain on top of all other elements */
-.global-header {
+.site-header {
   z-index: 9999;
 }
 
-.logo-wrapper img {
+.site-header__logo img {
   max-width: 200px;
 }
 

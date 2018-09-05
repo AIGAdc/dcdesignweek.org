@@ -1,15 +1,14 @@
-<header class="global-header bg-white fixed top-0 right-0 left-0 ph3-l pv1-l pa3">
-  <nav class="flex flex-row">
+<header class="site-header bg-white fixed top-0 right-0 left-0 pa3">
+  <nav class="flex flex-row items-center">
     <!-- desktop logo -->
-    <div class="logo-wrapper-mobile dn inline-flex-l flex-auto self-center">
+    <div class="site-header__logo">
       <a class="link ma0" href="/">
-        <!-- added this transform as a quick fix because the flex isn't working -->
-        <span class="v-mid dib" style="transform: translateY(3px);">{% include logos/dcdw-logo-mobile.svg %}</span>
+        {% include logos/dcdw-logo.svg %}
       </a>
     </div>
 
-    <div class="db w-100 w-75-l tc tr-l flex-auto self-center">
-      <ul class="list ma0 pl0 dn db-l">
+    <div class="site-header__links flex-auto">
+      <ul class="list flex-auto ma0 pl0 dn db-l tr">
         {% for link in site.data.navigation.landing-page-nav %}
         <li class="dib link">
           <a href="{{ link.url }}" class="btn btn--header-link black ttu fw6">{{ link.title }}</a>
@@ -17,15 +16,8 @@
         {% endfor %}
       </ul>
 
-      <!--  mobile logo & burger menu -->
-      <div class="logo-wrapper-mobile db dn-l flex-auto self-center">
-        <a class="ma0 dib link fl" href="/">
-          <img class="w-100 v-mid" src="{{site.mobile-logo-image}}">
-        </a>
-        <div class="dib fr">
-          <!-- Off-canvas toggle button -->
-          <button type="button" id="mobile-menu-trigger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
-        </div>
+      <div class="site-header__menu-button flex-auto fr db dn-l">
+        <button type="button" id="mobile-menu-trigger">{% include icons/menu.svg  %}</button>
       </div>
     </div>
   </nav>
