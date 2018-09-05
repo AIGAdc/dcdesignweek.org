@@ -1,27 +1,18 @@
-<section class="dc-is-design relativess fl w-100 pv4 mt2">
-  <div class="mw8 center cf pa3">
-    <div class="paragraph-1 fl w-100 tl">
-      <h2 class="bbroller ma0 f3 f2-ns f1-l mv3">
-        {{ page.dc-design-header-text }}
-      </h2>
-      <hr class="title-divider-blue">
-    </div>
+<section class="dc-is-design relative mt5 mb6 wysiwyg">
+  <div class="mw8 center pa3">
+    <h1 class="bbroller ma0 f3 f2-ns f1-l">
+      {{ page.dc-design-header }}
+    </h1>
+    <hr class="title-divider-blue mb4">
 
-    <div class="w-100 dn dt-l tl mv4 mv1-l">
-      <div class="w-100 w-40-l db dtc-ns v-mid-ns relative">
-        <span class="sans ma0 f5 f4-ns fw3 lh-copy">{{ page.dc-design-paragraph-1-text | markdownify }}</span>
+    <div class="flex flex-column flex-row-l items-start mt4">
+      <div class="w-100 w-50-l pr4">
+        <span class="sans ma0 f4 f3-ns fw3 lh-copy dib">
+          {{ page.dc-design-paragraph-text | markdownify }}
+        </span>
       </div>
-      <div class="w-100 w-60-l db dtc-ns v-mid-ns relative tc tr-l">
-        <span class="sans ma0 f5 f4-ns fw3 lh-copy"><img class="br-100 overflow-hidden" src="/uploads/circle-02-still.png" style="width: 450px; height: 450px;" /></span>
-      </div>
-    </div>
-
-     <div class="dt dn-l w-100 tl mv4 mv7-l">
-      <div class="w-100 w-40-l db dtc-l v-mid-ns relative mb5 mb0-l">
-        <span class="sans ma0 f5 f4-ns fw3 lh-copy">{{ page.dc-design-paragraph-mobile-text | markdownify }}</span>
-      </div>
-      <div class="w-100 w-60-l db dtc-l v-mid-ns relative tc tr-l">
-        <span class="sans ma0 f5 f4-ns fw3 lh-copy"><img class="br-100 overflow-hidden" src="/uploads/circle-02-still.png" /></span>
+      <div class="w-100 w-50-l">
+        <img class="br-100 overflow-hidden" src="{{ page.dc-is-design-image }}" alt="{{ page.dc-is-design-image-alt }}" />
       </div>
     </div>
   </div>

@@ -1,0 +1,14 @@
+.wysiwyg h2 > p {
+  font-size: 40px;
+  line-height: 32px;
+  font-family: $bbroller;
+}
+
+.wysiwyg p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.wysiwyg p:not(last-child) {
+  margin: 0 0 24px 0;
+}
