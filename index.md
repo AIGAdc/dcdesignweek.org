@@ -4,8 +4,6 @@ permalink: "/"
 description:
 image: "/uploads/OG_featuredimage-live.jpg"
 divider-1: Introduction
-introduction-title:
-introduction-body-text:
 divider-2: DC is Design Section
 dc-design-header-text: Design Culture in DC
 dc-design-paragraph-1-text: |-
