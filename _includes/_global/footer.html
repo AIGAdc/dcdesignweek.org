@@ -20,11 +20,11 @@
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="flex-auto tc pv3 pv0-l w-100 w-third-l">
-      <ul class="social-icons list ma0 pl0">
+    <div class="w-100 w-third-l pv3 pv0-l tc">
+      <ul class="list ma0 pl0">
         {% for link in site.data.navigation.social-nav %}
-        <li class="dib link">
-          <a href="{{ link.url }}" class="social-footer-links ph2 dim dib v-mid white">{{ link.icon }}</a>
+        <li class="dib dim link">
+          <a href="{{ link.url }}" class="ph2 v-mid white">{{ link.icon }}</a>
         </li>
         {% endfor %}
       </ul>
