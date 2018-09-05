@@ -4,4 +4,12 @@
   - image: /uploads/zen.png
     name: Test
     role: Executive Director
-    email: example@example.com
+    email:
+  - image: /uploads/zen.png
+    name: Test
+    role: Executive Director
+    email:
+  - image: /uploads/zen.png
+    name: Test
+    role: Executive Director
+    email:
