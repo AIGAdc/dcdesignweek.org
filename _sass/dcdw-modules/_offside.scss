@@ -9,7 +9,7 @@
 .offside {
   position: fixed;
   /* Does not play well with some old browsers (see: README) */
-  width: 200px;
+  width: 300px;
   height: 100%;
   top: 0;
   z-index: 9999;
@@ -153,4 +153,15 @@
 
 .no-csstransforms3d>.offside-js--is-right .offside-sliding-element {
   left: -200px;
+}
+
+button#mobile-menu-trigger {
+  background: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.offside-js--is-open {
+  overflow: hidden;
 }
