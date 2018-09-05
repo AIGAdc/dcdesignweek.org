@@ -82,11 +82,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	line-height: $lh-tight;
 }
 
-/* text alignment */
-.text-justify {
-	text-align: $align-justify;
-}
-
 .text-vertical {
 	transform: rotate(-90deg);
 	left: -250px;
