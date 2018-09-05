@@ -1,9 +1,9 @@
 <!-- Off-canvas element  -->
-<nav id="my-menu" class="db dn-l">
-  <ul class="list ma0 pl0">
+<nav id="mobile-menu" class="mobile-menu db dn-l bg-black">
+  <ul class="mobile-menu__list list ma0 pl0 ma3">
     {% for link in site.data.navigation.mobile-nav %}
-    <li class="pushy-link">
-      <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+    <li class="mobile-menu__item">
+      <a href="{{ site.url }}{{ link.url }}" class="white pb3 db">{{ link.title }}</a>
     </li>
     {% endfor %}
   </ul>
