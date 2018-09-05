@@ -11,6 +11,19 @@
   color: $charcoal;
 }
 
+// generic background colors
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-charcoal {
+  background-color: $charcoal;
+}
+
 // brand colors
 .dcdw-primary {
   color: $dcdw-primary;
@@ -24,16 +37,7 @@
   color: $dcdw-buffered;
 }
 
-// generic background colors
-.bg-white {
-  background-color: $white;
-}
-
-.bg-black {
-  background-color: $black;
-}
-
-// brand background colors
+// background brand colors
 .bg-dcdw-primary {
   background-color: $dcdw-primary;
 }
