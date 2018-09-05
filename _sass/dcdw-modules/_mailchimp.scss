@@ -8,7 +8,7 @@
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
-  transition: all $timing-200 ease-out;
+  transition: all 200ms ease-out;
   border: solid 4px $white !important;
 }
 
@@ -47,7 +47,7 @@
   padding: 0 64px !important;
   color: $white !important;
   cursor: pointer !important;
-  transition: all $timing-200 ease-out !important;
+  transition: all 200ms ease-out !important;
 }
 
 #mc_embed_signup .button--mailchimp:hover {
@@ -73,7 +73,7 @@
 https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 2px solid #ffae84 !important;
-  animation: shake $timing-500 cubic-bezier(.36, .07, .19, .97) both;
+  animation: shake 500ms cubic-bezier(.36, .07, .19, .97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;

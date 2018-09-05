@@ -7,7 +7,7 @@ a.blue-underline {
 }
 
 a.header-link {
-  transition: all $timing-200 ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 a.header-link:hover {
@@ -17,7 +17,7 @@ a.header-link:hover {
 
 .btn {
   cursor: pointer;
-  transition: all $timing-200 ease-out;
+  transition: all 200ms ease-out;
   font-size: 15px;
   letter-spacing: 2px;
   padding: 12px 18px;
