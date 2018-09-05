@@ -14,23 +14,23 @@
   </div>
 
   <!-- social media -->
-  <div class="social-footer bg-black">
-    <div class="">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="aiga-email">
+  <div class="social-footer bg-black flex flex-column flex-row-l items-center pa3">
+    <div class="w-100 w-third-l tc tl-l">
+      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="ma0 f6 f5-ns white">
         {{site.footer-contact-email}}
       </a>
     </div>
-    <div class="">
+    <div class="flex-auto tc pv3 pv0-l w-100 w-third-l">
       <ul class="social-icons list ma0 pl0">
         {% for link in site.data.navigation.social-nav %}
         <li class="dib link">
-          <a href="{{ link.url }}" class="social-footer-links ph2 dim">{{ link.icon }}</a>
+          <a href="{{ link.url }}" class="social-footer-links ph2 dim dib v-mid white">{{ link.icon }}</a>
         </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="">
-      <p class="aiga-copyright ma0 f6 f5-ns">
+    <div class="w-100 w-third-l tc tr-l">
+      <p class="ma0 f6 f5-ns white">
         {{site.footer-copyright}}
       </p>
     </div>
