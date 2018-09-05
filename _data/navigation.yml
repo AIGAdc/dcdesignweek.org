@@ -34,13 +34,8 @@ landing-page-nav:
     url: /about/
   - title: "Volunteers"
     url: /volunteers/
-
-# holding site nav
-previous-site-nav:
-  - title: "2017"
-    url: /2017/
-  - title: "2016"
-    url: /2016/
+  - title: "Locations"
+    url: /locations/
 
 # social media
 social-nav:
