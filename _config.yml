@@ -1,18 +1,12 @@
 ---
-title: DC Design Week 2017
+title: DC Design Week 2018
 timezone: America/New_York
 collections:
   events:
     title: Events
     output: true
-  jobs:
-    title: Jobs
-    output: true
   posts:
     title: Posts
-    output: true
-  social-media:
-    title: Social-Media
     output: true
   sponsors:
     title: Sponsors
@@ -73,27 +67,6 @@ defaults:
     is-first-tier: 
     is-second-tier: 
     is-third-tier: 
-- scope:
-    path: ''
-    type: social-media
-  values:
-    social-media-link: 
-    social-media-icon: 
-- scope:
-    path: ''
-    type: jobs
-  values:
-    position: 
-    title: 
-    jobs:
-    - 
-    - 
-    commitment: 
-    avatar: "/uploads/team_avatar.jpg"
-    name: "——?——"
-    layout: pages/job-desc
-    exec: false
-    permalink: "/committee/:title"
 repository: AIGAdc/DCDW
 favicon-image: "/uploads/favicon-31b9a4.ico"
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
@@ -109,7 +82,7 @@ footer-social-links:
 - twitter: twitter-square
 - instagram: instagram
 - flickr: flickr
-footer-copyright: "© AIGA DC | 2017  All Rights Reserved."
+footer-copyright: "© AIGA DC | 2018  All Rights Reserved."
 exclude:
 - package.json
 - gulpfile.js
@@ -125,7 +98,7 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-url: http://www.dcdesignweek.org
+url: https://www.dcdesignweek.org
 description: DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!
