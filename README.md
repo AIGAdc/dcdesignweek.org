@@ -12,6 +12,7 @@ Coming Soon
 
 2018:
 
+- LA Johnson, Illustrator
 - Chelsae Blackmon, Designer
 - Marcus Relacion, Developer
 

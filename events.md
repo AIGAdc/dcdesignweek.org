@@ -1,6 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
+published: false
 description:
 image: "/uploads/OG_featuredimage-live.jpg"
 introduction-title: Events
