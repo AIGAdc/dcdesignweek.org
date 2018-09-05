@@ -5,18 +5,10 @@
   {% include doctype/head.html %}
 </head>
 
-{% comment %}
-<!-- Archive Bar -->
-<span class="pa3 bg-black fixed top-0 left-0 right-0 tc white" style="z-index: 9999">
-  <h2 class="dib f6 ma0">You are currently viewing the 2017 DC Design Week Website.</h2>
-  <a class="white fw-bold ma0 f6" href="https://github.com/AIGAdc/DCDW" target="_blank"><p class="dib f6 ma0">For the latest version, checkout Github</p></a>
-</span>
-{% endcomment %}
-
-<!-- pushy mobile nav -->
+<!-- offside-menu -->
 {% include _global/mobile-nav.html %}
 
 <body>
-  <!-- Your Content -->
-  <div id="my-content-container" class="relative overflow-hidden">
+  <!-- wrapper for site content that is shifted when mobile menu is triggered -->
+  <div id="site-container" class="relative overflow-hidden">
     {% include _global/header.html %}
