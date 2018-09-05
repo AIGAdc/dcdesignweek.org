@@ -3,6 +3,8 @@ title: Home
 permalink: "/"
 description:
 image: "/uploads/OG_featuredimage-live.jpg"
+hero-logo: /uploads/logo_hero_date(1).png
+hero-logo-alt: DC Design Week Hero Logo, Time & Date
 divider-1: Introduction
 divider-2: DC is Design Section
 dc-design-header-text: Design Culture in DC
