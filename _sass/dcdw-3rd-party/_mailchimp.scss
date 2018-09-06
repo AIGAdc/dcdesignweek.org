@@ -13,7 +13,7 @@
 }
 
 #mc_embed_signup input:focus {
-  border: solid 4px $dcdw-secondary !important;
+  border: solid 4px $black !important;
 }
 
 #mce-responses {
@@ -34,12 +34,12 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid $dcdw-secondary !important;
+  border: 2px solid $black !important;
 }
 
 #mc_embed_signup .button--mailchimp {
-  background-color: $dcdw-primary !important;
-  border: solid 4px $dcdw-primary !important;
+  background-color: $black !important;
+  border: solid 4px $black !important;
   border-radius: 0 !important;
   font-family: $bbroller !important;
   margin: 0 !important;
@@ -51,12 +51,12 @@
 }
 
 #mc_embed_signup .button--mailchimp:hover {
-  background-color: $dcdw-secondary !important;
-  border: solid 4px $dcdw-secondary !important;
+  background-color: $black !important;
+  border: solid 4px $black !important;
 }
 
 #mc_embed_signup .asterisk {
-  color: $white !important;
+  color: $black !important;
   font-size: 100% !important;
   top: 2px !important;
 }
@@ -72,7 +72,7 @@
 /* shout outs to Sarah Drasner for sharing this CSS keyframe animation:
 https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid #ffae84 !important;
+  border: 2px solid $black !important;
   animation: shake 500ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;

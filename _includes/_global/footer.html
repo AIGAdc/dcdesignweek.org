@@ -1,19 +1,17 @@
-<footer class="site-footer white bg-dcdw-primary">
-  {% comment %}
-    <div class="mw7 center pa3">
-      {% for content in site.data.footer.landing-page-footer %}
-      <h2 class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc">
-        {{ content.header }}
-      </h2>
-      <p class="ma0 mb2 f5 f4-ns fw3 lh-copy tc">
-        {{ content.text }}
-      </p>
-      {% endfor %}
+<footer class="site-footer white bg-dcdw-buffered">
+  <div class="mw7 center pv5 pa3 wysiwyg">
+    {% for content in site.data.footer.landing-page %}
+    <h2 class="bbroller ma0 mb2 f4 f3-ns fw4 lh-copy tc black">
+      {{ content.header }}
+    </h2>
+    <span class="bbroller ma0 mb2 f5 f4-ns fw3 lh-copy tc black">
+      {{ content.text | markdownify }}
+    </span>
+    {% endfor %}
 
-      {% include 3rd-party/mailchimp/form.html %}
-      {% include 3rd-party/mailchimp/scripts.html %}
-    </div>
-  {% endcomment %}
+    {% include 3rd-party/mailchimp/form.html %}
+    {% include 3rd-party/mailchimp/scripts.html %}
+  </div>
 
   <div class="site-footer__social bg-black flex flex-column flex-row-l items-center pa3">
     <div class="w-100 w-third-l tc tl-l">
