@@ -30,7 +30,6 @@ mobile-nav:
 
 # landing page nav
 landing-page-nav:
-  - title: "Past Editions:"
   - title: "2016"
     url: https://github.com/AIGAdc/2016.dcdesignweek.org
   - title: "2017"
