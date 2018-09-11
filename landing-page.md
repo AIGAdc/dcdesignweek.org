@@ -1,5 +1,5 @@
 ---
-title: Landing Page
+title: Home # landing page
 permalink: "/"
 published: true
 description: 
