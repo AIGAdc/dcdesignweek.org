@@ -1,6 +1,7 @@
 ---
 title: Home
 permalink: "/"
+published: false
 description:
 image: "/uploads/OG_featuredimage-live.jpg"
 

@@ -30,12 +30,11 @@ mobile-nav:
 
 # landing page nav
 landing-page-nav:
-  - title: "About"
-    url: /about/
-  - title: "Volunteers"
-    url: /volunteers/
-  - title: "Locations"
-    url: /locations/
+  - title: "Past Editions:"
+  - title: "2016"
+    url: https://github.com/AIGAdc/2016.dcdesignweek.org
+  - title: "2017"
+    url: https://github.com/AIGAdc/2017.dcdesignweek.org
 
 # social media
 social-nav:

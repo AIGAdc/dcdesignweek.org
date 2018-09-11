@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+published: false
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 dcdw-about-image: "/uploads/dcdw-about.png"
