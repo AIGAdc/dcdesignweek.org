@@ -6,15 +6,6 @@ a.blue-underline {
   font-size: 24px;
 }
 
-a.header-link {
-  transition: all 200ms ease-in-out;
-}
-
-a.header-link:hover {
-  background-color: $dcdw-primary;
-  color: white;
-}
-
 .btn {
   cursor: pointer;
   transition: all 200ms ease-out;
@@ -24,44 +15,18 @@ a.header-link:hover {
   text-decoration: none;
   font-weight: 600;
 
-  // underline links
-  &--underline-link {
-    padding: 12px 0;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-bottom: solid 5px $black;
-  }
-
-  &--underline-link:hover {
-    border-bottom: solid 5px $black;
-    padding-bottom: 8px;
-    color: $black;
-  }
-
   // header links
   &--header-link {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-bottom: solid 5px $white;
+    border-bottom: solid 4px $white;
   }
 
   &--header-link:hover {
-    border-bottom: solid 5px $black;
+    border-bottom: solid 4px $black;
     padding-bottom: 8px;
     color: $black;
-  }
-
-  // email button
-  &--email-list {
-    border: solid 2px $dcdw-primary;
-  }
-
-  &--email-list:hover {
-    border: solid 2px $dcdw-secondary;
-    background-color: $dcdw-secondary;
-    color: $white;
   }
 
   // blue solid button
@@ -82,30 +47,6 @@ a.header-link:hover {
   }
 
   &--blue-solid:hover {
-    border: solid 4px $dcdw-secondary;
-    background-color: $dcdw-secondary;
-    color: $white;
-  }
-
-  // white button
-  &--white-solid {
-    border: solid 4px $white;
-    background-color: $white;
-    color: $dcdw-primary;
-  }
-
-  &--white-solid:hover {
-    border: solid 4px $dcdw-secondary;
-    background-color: $dcdw-secondary;
-    color: $white;
-  }
-
-  // white button
-  &--white-border {
-    border: solid 4px $white;
-  }
-
-  &--white-border:hover {
     border: solid 4px $dcdw-secondary;
     background-color: $dcdw-secondary;
     color: $white;
