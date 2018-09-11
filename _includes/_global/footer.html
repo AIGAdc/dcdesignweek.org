@@ -15,7 +15,7 @@
 
   <div class="site-footer__social bg-black flex flex-column flex-row-l items-center pa3">
     <div class="w-100 w-third-l tc tl-l">
-      <a href="mailto:{{site.footer-contact-email}}" target="_top" class="ma0 f6 f5-ns white">
+      <a href="mailto:{{ site.email }}" target="_top" class="ma0 f6 f5-ns white">
         {{ site.email }}
       </a>
     </div>
@@ -35,9 +35,11 @@
     </div>
   </div>
 
+  {% if site.ppast-editions == "true" %}
   <div class="social-footer_past-editions bg-dcdw-buffered flex flex-column flex-row-l items-center pa3">
     <p class="ma0 f7 charcoal">
       Past Editions: <a href="https://github.com/AIGAdc/2016.dcdesignweek.org" class="charcoal dib">2016</a>, <a href="https://github.com/AIGAdc/2017.dcdesignweek.org" class="charcoal dib">2017</a>
     </p>
   </div>
+  {% endif %}
 </footer>

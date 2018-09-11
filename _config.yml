@@ -103,7 +103,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "DC Design Week 2018" # Site name or title, also used in jekyll-seo-tag
-logo: "/uploads/dcdw-logo-desktop.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/uploads/dcdw-logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!" # Site description and default description, also used in jekyll-seo-tag
@@ -123,3 +123,4 @@ google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject'
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 copyright: "© AIGA DC | 2018  All Rights Reserved."
+past-editions: false
