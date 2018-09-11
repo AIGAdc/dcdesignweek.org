@@ -3,7 +3,7 @@
   width: 90px;
   height: 90px;
   margin-left: 1.5em;
-  border: solid 4px #000;
+  border: solid 4px $black;
 }
 
 .diamond {
@@ -37,7 +37,7 @@
   transform: rotate(45deg);
   width: 150px;
   height: 150px;
-  border: solid 5px #000;
+  border: solid 5px $black;
   margin: 0 auto;
 }
 
