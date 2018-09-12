@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-published: false
+published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 category-1: tours

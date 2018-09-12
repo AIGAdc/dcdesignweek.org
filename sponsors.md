@@ -1,7 +1,7 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-published: false
+published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 first-tier-header-text: AIGA DC Sustaining Partners

@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-published: false
+published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 hero-logo: "/uploads/logo_hero_date(1).png"
