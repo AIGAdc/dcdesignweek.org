@@ -1,15 +1,24 @@
 .filter-ctrl {
   position: absolute !important;
-  top: 32px !important;
-  left: 32px !important;
+  top: 16px !important;
+  left: 16px !important;
+  right: 16px !important;
   z-index: 1 !important;
-  width: 100% !important;
   max-width: 480px !important;
   transition: outline 200ms ease-in-out; 
 }
 
+@media screen and (min-width: 1023px) {
+  .filter-ctrl {
+    top: 32px !important;
+    left: 32px !important;
+    right: 32px !important;
+    width: 100% !important;
+  }
+}
+
 .filter-ctrl input[type=text] {
-  font: 16px;
+  font-size: 16px;
   width: 100%;
   border: 0;
   background-color: $white;
@@ -20,7 +29,6 @@
   box-shadow: none !important;
   border-radius: 0;
 }
-
 
 .filter-ctrl input[type=text]:focus {
   outline: solid 2px $dcdw-primary;
