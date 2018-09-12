@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 description: 
-image: "/uploads/OG_featuredimage-live.jpg"
+image: "/uploads/2018-OG-featuredimage.jpg"
 hero-header: Pardon our dust as we prepare for 2018
 hero-subheader: "(Coming October 20-29)"
 layout: pages/landing-page
