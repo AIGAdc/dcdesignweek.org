@@ -23,7 +23,8 @@ you-are-voting-header: Section Header Text
 you-are-voting-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.
 you-are-voting-image:
 you-are-voting-image-alt:
-you-are-voting-submission-url: https://www.aiga.org/get-out-the-vote/
+you-are-voting-button-url: https://www.aiga.org/get-out-the-vote/
+you-are-voting-button-text: Submit a poster
 
 layout: pages/pop-up-shop
 ---
