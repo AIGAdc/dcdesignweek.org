@@ -107,7 +107,7 @@ logo: "/uploads/dcdw-logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!" # Site description and default description, also used in jekyll-seo-tag
-og-image: "/uploads/OG_featuredimage-live.jpg" # Site open graph image, also used in jekyll-seo-tag
+og-image: "/uploads/2018-OG-featuredimage.jpg" # Site open graph image, also used in jekyll-seo-tag
 twitter:
   username: aigadc
 facebook:
