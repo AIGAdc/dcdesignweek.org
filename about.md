@@ -1,9 +1,9 @@
 ---
 title: About
 permalink: "/about/"
-published: false
+published: true
 description: 
-image: "/uploads/OG_featuredimage-live.jpg"
+image: {{ site.og-image }}
 dcdw-about-image: "/uploads/dcdw-about.png"
 dcdw-committee-header-text: "‘18 DCDW Committee"
 dcdw-about-content-image: "/uploads/img_dc-x-aigadc.png"

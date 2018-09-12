@@ -1,12 +1,12 @@
 ---
-title: Locations
-permalink: "/locations"
-published: false
+title: Map
+permalink: "/map"
+published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
-layout: pages/locations
+layout: pages/map
 ---
 
-# Locations
+# Map
 
 <hr class="title-divider-blue">
