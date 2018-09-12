@@ -1,13 +1,10 @@
 ---
-title: Home # landing page
+title: Home
 permalink: "/"
-published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
-
 hero-header: Pardon our dust as we prepare for 2018
-hero-subheader: (Coming October 20-29)
-
+hero-subheader: "(Coming October 20-29)"
 layout: pages/landing-page
 ---
 

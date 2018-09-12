@@ -1,41 +1,12 @@
 ---
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Jekyll settings
-# 4. Collections
-# 5. Jekyll collections settings
-# 6. Site settings
-
-# 1. Files excluded from Jekyll builds
-exclude:
-- package.json
-- gulpfile.js
-- node_modules
-- README.md
-- Gemfile
-- Gemfile.lock
-- DesignInsperation.txt
-- ".jekyll-metadata"
-- ".sass-cache"
-
-# 2. Installed Gems
-plugins:
-- jekyll-seo-tag
-
-# 3. Jekyll settings
-sass:
-  sass_dir: _sass
-  style: compressed
-timezone: America/New_York # Timezone for blog posts and alike
-
-# 4. Collections
+title: DC Design Week 2018
+timezone: America/New_York
 collections:
-  posts:
-    title: Posts
-    output: true
   events:
     title: Events
+    output: true
+  posts:
+    title: Posts
     output: true
   sponsors:
     title: Sponsors
@@ -43,8 +14,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-
-# 5. Jekyll collections settings
 defaults:
 - scope:
     path: ''
@@ -98,29 +67,41 @@ defaults:
     is-first-tier: 
     is-second-tier: 
     is-third-tier: 
-
-# 6. Site settings
-encoding: utf-8 # Make sure the encoding is right
-lang: en-US # Set the site language
-title: "DC Design Week 2018" # Site name or title, also used in jekyll-seo-tag
-logo: "/uploads/dcdw-logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "DC Design Week is a celebration of creatives, thinkers, and makers in
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- DesignInsperation.txt
+- ".jekyll-metadata"
+- ".sass-cache"
+plugins:
+- jekyll-seo-tag
+sass:
+  sass_dir: _sass
+  style: compressed
+encoding: utf-8
+lang: en-US
+logo: "/uploads/dcdw-logo.svg"
+description: DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
-  Join us!" # Site description and default description, also used in jekyll-seo-tag
-og-image: "/uploads/2018-OG-featuredimage.jpg" # Site open graph image, also used in jekyll-seo-tag
+  Join us!
+og-image: "/uploads/2018-OG-featuredimage.jpg"
 twitter:
   username: aigadc
 facebook:
   publisher: https://www.facebook.com/aigaDC/
-url: "https://dcdesignweek.org" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+url: https://dcdesignweek.org
+baseurl: ''
 repository: AIGAdc/DCDW
-email: "designweek@dc.aiga.org"
+email: designweek@dc.aiga.org
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+css_inline: true
 copyright: "© AIGA DC | 2018  All Rights Reserved."
 past-editions: false
