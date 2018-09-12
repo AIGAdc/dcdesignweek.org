@@ -1,13 +1,12 @@
 .site-header {
-  z-index: 9999;
+  position: sticky;
+  background-color: $white;
+  top: 0;
+  z-index: 999;
 }
 
-.site-header__logo img {
+.site-header__logo {
   max-width: 200px;
-}
-
-.logo-wrapper-mobile img {
-  max-width: 100px;
 }
 
 .menu-btn {

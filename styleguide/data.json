@@ -1,6 +1,6 @@
 {
     "project_logo": null,
-    "project_favicon": "favicon.png",
+    "project_favicon": "../favicon.png",
     "project_name": null,
     "project_url": null,
     "copyright_start_year": null,
@@ -15,11 +15,11 @@
     "theme": {
         "border_color": "#E0E6ED",
         "highlight_color": "#F9FAFC",
-        "brand_color": "#00585C",
+        "brand_color": "#3e07d0",
         "background_color": "#FFFFFF",
         "code_highlight_theme": "github",
         "override_code_highlight_bg": "#F9FAFC",
-        "sample_dark_background": "#333333",
+        "sample_dark_background": "#000000",
         "show_project_name": true,
         "show_version": true,
         "max_width": null,
@@ -30,7 +30,9 @@
         }
     },
     "assets": {
-        "css": [],
+        "css": [
+            "../assets/css/base.css"
+        ],
         "js": []
     },
     "font_libraries": {
@@ -49,6 +51,18 @@
             }
         ]
     },
-    "groups": [],
+    "groups": [
+        {
+            "name": "components",
+            "title": "Components",
+            "components": [
+                {
+                    "group": "components",
+                    "name": "header",
+                    "title": "Header"
+                }
+            ]
+        }
+    ],
     "version": "1.9.5"
 }
