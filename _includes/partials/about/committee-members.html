@@ -7,14 +7,14 @@ For every dcdw-committee-member located within site.dcdw-committee-members, a co
     <hr class="title-divider-blue">
     <div class="fl w-100">
       <ul class="list ma0 pa0 pv4 cf">
-        {% for committee-member in site.data.committee-members.2017-committee %}
+        {% for committee-member in site.data.committee-members.2018-committee %}
           <div class="fl w-100 w-third-l pv2 pv4-ns pa2">
-            <li class="team-member dib">
+            <li class="team-member">
               <div class="diamond-image-border">
-                <div class="diamond overflow-hidden noise">
+                <div class="diamond overflow-hidden">
                   <div class="diamond-los1">
-                    <div class="committee-member-overlay gradient-overlay"></div>
-                    <img class="committee-member-portrait v-mid w-100" src="{{ committee-member.image }}" />
+                    <div class="committee-member-overlay"></div>
+                    <img class="committee-member-portrait" src="{{ committee-member.image }}" />
                   </div>
                 </div>
               </div>
@@ -22,7 +22,7 @@ For every dcdw-committee-member located within site.dcdw-committee-members, a co
                 <span class="ma0 f4 fw6 db">{{ committee-member.name }}</span>
                 <span class="ma0 mb3 f4 fw4 db h3">{{ committee-member.role }}</span>
                 {% if committee-member.email %}
-                <a class="ma0 f6 fw4 dib link dcdw-blue" href="mailto:{{ committee-member.email }}" target="_top">{{ committee-member.email }}</a>
+                <a class="ma0 f6 fw4 dib link dcdw-primary" href="mailto:{{ committee-member.email }}" target="_top">{{ committee-member.email }}</a>
                 {% endif %}
               </div>
             </li>

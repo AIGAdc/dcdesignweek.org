@@ -28,12 +28,12 @@ article {
 article a {
   text-decoration: underline;
   font-weight: 700;
-  color: $dcdw-blue;
+  color: $dcdw-primary;
   transition: color 100ms ease-in-out;
 }
 
 article a:hover {
-  color: $dcdw-orange;
+  color: $dcdw-secondary;
 }
 
 article h1 {
@@ -73,7 +73,7 @@ article hr,
 }
 
 .title-divider-blue {
-  border: solid 2.5px $dcdw-blue;
+  border: solid 2.5px $dcdw-primary;
 }
 
 .title-divider,
@@ -113,4 +113,8 @@ article img {
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+
+.feather {
+  vertical-align: middle;
 }

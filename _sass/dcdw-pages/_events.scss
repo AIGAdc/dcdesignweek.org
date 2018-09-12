@@ -1,9 +1,7 @@
-/* events */
-
 .home-event-card,
 .event-card {
-	border: solid 3px $dcdw-blue;
-	box-shadow: 0 0 $dcdw-orange;
+	border: solid 3px $dcdw-primary;
+	box-shadow: 0 0 $dcdw-secondary;
 	transition: all 200ms ease-in-out;
 	position: relative
 }
@@ -11,8 +9,8 @@
 .home-event-card:hover,
 .event-card:hover {
 	transform: translateX(-8px);
-	border: solid 3px $dcdw-blue;
-	box-shadow: 8px 8px $dcdw-orange;
+	border: solid 3px $dcdw-primary;
+	box-shadow: 8px 8px $dcdw-secondary;
 }
 
 @media screen and (min-width: 960px) {
@@ -27,7 +25,7 @@ span.event-date {
 	right: 15px;
 }
 
-.event-feature  {
+.event-feature {
 	& .event-image {
 		height: 10rem;
 	}

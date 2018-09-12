@@ -1,72 +1,47 @@
 # This data yml file will loop through the DCDW creative team and display them in a 3 column grid.
 
-# 2017 creative team
-2017-team:
-  - image: /uploads/headshot_danielCrane.png
-    name: Daniel Crane
-    role: Motion Designer
-    bio: |
-      Motion designer from New England specializing in 2D and 3D motion graphics. Has worked with several production companies around DC since moving to Adams Morgan in 2015.
-    instagram-link: https://www.instagram.com/danielrcrane/
-    instagram-label: Instagram
-    dribbble-link: https://dribbble.com/DanielCrane
-    dribbble-label: Dribbble
-    website-link: http://www.danielcrane.co
-    website-label: Website
-  - image: /uploads/headshot_jenDoyle.png
-    name: Jen Doyle
+2018-team:
+  - image: /uploads/zen.png
+    name: Test
     role: Designer
     bio: |
-      Jen Doyle is a designer based in Washington DC. She is originally from New Jersey but has also lived across the pond. She received her Bachelor of Arts Degree in Graphic Design from the Maryland Institute College of Art (MICA).
-    instagram-link: https://www.instagram.com/jendoyledesign
+      Bio
+    instagram-link: example.com
     instagram-label: Instagram
-    twitter-link: https://twitter.com/jendoyledesign
-    twitter-label: Twitter
-    website-link: https://jendoyledesign.github.io/Jen-Doyle-Design/about.html
+    dribbble-link: example.com
+    dribbble-label: Dribbble
+    website-link: example.com
     website-label: Website
-  - image: /uploads/headshot_jdDeardourff.jpg
-    name: JD Deardourff
-    role: Illustrator
+  - image: /uploads/zen.png
+    name: Test
+    role: Designer
     bio: |
-      John David Deardourff is an artist, designer and silkscreen printer. His deconstructions of comic book imagery + cityscapes help capture the vibe of unearthing design culture in DC.
-    instagram-link: https://www.instagram.com/jddeardourff
+      Bio
+    instagram-link: example.com
     instagram-label: Instagram
-    twitter-link: https://twitter.com/jddeardourff?lang=en
-    twitter-label: Twitter
-    website-link: http://deardourff.com/
+    dribbble-link: example.com
+    dribbble-label: Dribbble
+    website-link: example.com
     website-label: Website
-  - image: /uploads/marcusrelacion_480.jpg
-    name: Marcus Relacion
-    role: Developer
+  - image: /uploads/zen.png
+    name: Test
+    role: Designer
     bio: |
-      Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
-    instagram-link: https://www.instagram.com/marcusrelacion
+      Bio
+    instagram-link: example.com
     instagram-label: Instagram
-    twitter-link: https://twitter.com/marcusrelacion
-    twitter-label: Twitter
-    website-link: https://www.marcusrelacion.com
+    dribbble-link: example.com
+    dribbble-label: Dribbble
+    website-link: example.com
     website-label: Website
-
-# 2016 creative team
-2016-team:
-  - image: /uploads/austinbreed_360.jpg
-    name: Austin Breed
-    role: Illustrator
+  - image: /uploads/zen.png
+    name: Test
+    role: Designer
     bio: |
-      Illustrative designer from the Midwest. Creative Director at Peer Insight, has drawn for IDW, Boom! Studios, and indie games.
-    twitter: austinbreed
-    website: austinbreed.com
-  - image: /uploads/gregfisk_480.jpg
-    name: Greg Fisk
-    role: Designer/b-boy
-    bio: |
-      Greg Fisk is a visual designer by day, and champion Breakdancer by night. From RIP City to the Nation’s Capital, Greg has found the beauty of everyday life to truly inspire the originality that echoes through his work & process.
-    twitter: nicegreg
-    website: nicegreg.com
-  - image: /uploads/marcusrelacion_480.jpg
-    name: Marcus Relacion
-    role: Front-End Developer
-    bio: |
-      Designer and developer from DC, currently a Junior UI Designer at Clarabridge.
-    twitter: marcusrelacion
-    website: marcusrelacion.com
+      Bio
+    instagram-link: example.com
+    instagram-label: Instagram
+    dribbble-link: example.com
+    dribbble-label: Dribbble
+    website-link: example.com
+    website-label: Website

@@ -1,20 +1,21 @@
-{% include _doctype/open.html %}
-<article class="page-home overflow-hidden cf relative">
-  <section class="vh-50 vh-75-l flex tc mt5 relative overflow-hidden">
+---
+layout: default
+---
+
+<main class="page-home overflow-hidden cf relative">
+  <section class="vh-50 vh-75-l flex tc mt5 relative bg-black">
     <div class="flex-auto self-center">
-      <span class="center db pa4 mw6">
-        <img class="v-mid relative w-100" src="/uploads/logo_hero_date(1).png" style="z-index:999;">
-      </span>
+      <div class="center db mw6">
+        <img class="v-mid w-100 pa3 pa0-l" src="{{ page.hero-logo }}" alt="{{ page.hero-logo-alt }}">
+      </div>
     </div>
-    <video class="hero__video-bg" src="https://player.vimeo.com/external/235337094.hd.mp4?s=86e6efbb649b67d627b2b300e96f940e3f19a0f4&profile_id=175" poster="/uploads/bg-hero.jpg" autoplay="autoplay" loop="">
-    </video>
   </section>
   <section>
     <div class="cf">
+      {% include partials/introduction.html %}
       {% include partials/home/dc-is-design.html %}
       {% include partials/events/home/list.html %}
       {% include partials/sponsors/home/list.html %}
     </div>
   </section>
-</article>
-{% include _doctype/closed.html %}
+</main>

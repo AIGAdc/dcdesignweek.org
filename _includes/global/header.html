@@ -1,0 +1,27 @@
+<header class="site-header bg-white fixed top-0 right-0 left-0 pa3">
+  <nav class="flex flex-row items-center">
+    <!-- desktop logo -->
+    <div class="site-header__logo">
+      <a class="link ma0" href="/">
+        <img src="{{ site.logo }}">
+      </a>
+    </div>
+
+    <div class="site-header__links flex-auto">
+      <ul class="list flex-auto ma0 pl0 dn db-l tr">
+        <li class="dib link">
+          <span class="black ttu fw6">Past Editions:</span>
+        </li>
+        {% for link in site.data.navigation.landing-page-nav %}
+        <li class="dib link">
+          <a href="{{ link.url }}" class="btn btn--header-link black ttu fw6">{{ link.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="site-header__menu-button flex-auto fr db dn-l">
+        <button type="button" id="mobile-menu-trigger">{% include icons/menu.svg  %}</button>
+      </div>
+    </div>
+  </nav>
+</header>

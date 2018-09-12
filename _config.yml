@@ -1,18 +1,41 @@
 ---
-title: DC Design Week 2017
-timezone: America/New_York
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Jekyll settings
+# 4. Collections
+# 5. Jekyll collections settings
+# 6. Site settings
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- DesignInsperation.txt
+- ".jekyll-metadata"
+- ".sass-cache"
+
+# 2. Installed Gems
+plugins:
+- jekyll-seo-tag
+
+# 3. Jekyll settings
+sass:
+  sass_dir: _sass
+  style: compressed
+timezone: America/New_York # Timezone for blog posts and alike
+
+# 4. Collections
 collections:
-  events:
-    title: Events
-    output: true
-  jobs:
-    title: Jobs
-    output: true
   posts:
     title: Posts
     output: true
-  social-media:
-    title: Social-Media
+  events:
+    title: Events
     output: true
   sponsors:
     title: Sponsors
@@ -20,6 +43,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+# 5. Jekyll collections settings
 defaults:
 - scope:
     path: ''
@@ -38,9 +63,9 @@ defaults:
       end-time: Displays the end time of the event.
     event-buttons:
       left-button-link: Provide a link for non-members
-      left-button-text: 
+      left-button-text: Provide text for button on left
       right-button-link: Provide a link for members
-      right-button-text: 
+      right-button-text: Provide text for button on right
     speakers:
       headshot-image: Displays the speakers portait.
       link: Provide a link to the speakers website.
@@ -73,65 +98,29 @@ defaults:
     is-first-tier: 
     is-second-tier: 
     is-third-tier: 
-- scope:
-    path: ''
-    type: social-media
-  values:
-    social-media-link: 
-    social-media-icon: 
-- scope:
-    path: ''
-    type: jobs
-  values:
-    position: 
-    title: 
-    jobs:
-    - 
-    - 
-    commitment: 
-    avatar: "/uploads/team_avatar.jpg"
-    name: "——?——"
-    layout: pages/job-desc
-    exec: false
-    permalink: "/committee/:title"
+
+# 6. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-US # Set the site language
+title: "DC Design Week 2018" # Site name or title, also used in jekyll-seo-tag
+logo: "/uploads/dcdw-logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "DC Design Week is a celebration of creatives, thinkers, and makers in
+  the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+  Join us!" # Site description and default description, also used in jekyll-seo-tag
+og-image: "/uploads/2018-OG-featuredimage.jpg" # Site open graph image, also used in jekyll-seo-tag
+twitter:
+  username: aigadc
+facebook:
+  publisher: https://www.facebook.com/aigaDC/
+url: "https://dcdesignweek.org" # Site url, also used in jekyll-seo-tag
+baseurl: ""
 repository: AIGAdc/DCDW
-favicon-image: "/uploads/favicon-31b9a4.ico"
+email: "designweek@dc.aiga.org"
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
-desktop-logo-image: "/uploads/dcdw-logo-desktop.svg"
-mobile-logo-image: "/uploads/dcdw-logo-mobile.svg"
-footer-contact-email: designweek@dc.aiga.org
-footer-social-links:
-- facebook: facebook-square
-- twitter: twitter-square
-- instagram: instagram
-- flickr: flickr
-footer-copyright: "© AIGA DC | 2017  All Rights Reserved."
-exclude:
-- package.json
-- gulpfile.js
-- node_modules
-- README.md
-- Gemfile
-- Gemfile.lock
-- DesignInsperation.txt
-- ".jekyll-metadata"
-- ".sass-cache"
-gems:
-- jekyll-seo-tag
-sass:
-  sass_dir: _sass
-  style: compressed
-url: http://www.dcdesignweek.org
-description: DC Design Week is a celebration of creatives, thinkers, and makers in
-  the DC metro area. Its a week packed with amazing speakers, events, and meetups.
-  Join us!
-og-image: "/uploads/OG_featuredimage-live.jpg"
-twitter:
-  username: aigadc
-facebook:
-  publisher: https://www.facebook.com/aigaDC/
-logo: "/uploads/dcdw-logo-desktop.svg"
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+copyright: "© AIGA DC | 2018  All Rights Reserved."
+past-editions: false

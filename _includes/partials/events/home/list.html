@@ -1,7 +1,9 @@
-<section class="home-events relative bg-white fl w-100 mb5">
+<section class="home-events relative bg-white fl w-100 mb6 wysiwyg">
   <div class="mw8 center cf pa3">
-    <div class="fl w-100 w-80-l mb5">
-      <span class="ma0 bbroller f3 f2-ns lh-title db">{{ page.home-events-header-text }}</span>
+    <div class="fl w-100 w-80-l">
+      <h2 class="ma0">
+        {{ page.home-events-header | markdownify }}
+      </h2>
       <hr class="title-divider-blue">
     </div>
 
@@ -11,7 +13,7 @@
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
             <a class="home-event-link fl w-100 w-third-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
-              <li class="home-event-card ma0 pa0 ba bw2 dcdw-blue">
+              <li class="home-event-card ma0 pa0 ba bw2 dcdw-primary">
                 {% include partials/events/events-card-contents.html %}
               </li>
             </a>

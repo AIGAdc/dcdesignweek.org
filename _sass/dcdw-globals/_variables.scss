@@ -1,14 +1,11 @@
 // generic colors
-$white: #fff;
-$black: #000;
+$white: #ffffff;
+$black: #000000;
 $charcoal: #5a5a5a;
 // brand colors
-$dcdw-blue: #3e07d0;
-$dcdw-blue-faint: #E4DCF7;
-$dcdw-orange: #ffae84;
-$dcdw-orange-faint: #F3E8F2;
-// opaque colors
-$opaque-white: rgba(255, 255, 255, 0.8);
+$dcdw-buffered: #D7D7D7;
+$dcdw-primary: #3e07d0;
+$dcdw-secondary: #ffae84;
 // font families
 $sans: 'Work Sans', sans-serif;
 $bbroller: 'BBRollerMono-Headline', courier, sans-serif;
@@ -28,34 +25,5 @@ $lh-normal: normal;
 $lh-tight: 1.4em;
 $lh-spaced: 1.75em;
 $lh-loose: 2em;
-// text transforms
-$uppercase: uppercase;
-$lowercase: lowercase;
-// font weights
-$fw1: 100;
-$fw2: 200;
-$fw3: 300;
-$fw4: 400;
-$fw5: 500;
-$fw6: 600;
-$fw7: 700;
-$fw8: 800;
-$fw9: 900;
-// text alignments
-$align-left: left;
-$align-right: right;
-$align-center: center;
-$align-justify: justify;
-// transitions
-$timing-100: 100ms;
-$timing-200: 200ms;
-$timing-300: 300ms;
-$timing-400: 400ms;
-$timing-500: 500ms;
-$timing-600: 600ms;
-$timing-700: 700ms;
-$timing-800: 800ms;
-$timing-900: 900ms;
-$timing-1000: 1000ms;
 // viewport heights
 $vh-85: 85vh;

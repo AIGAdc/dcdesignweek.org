@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
 /* license and information for using bb roller mono on a website */
-
-
 /*
 Font: 		BB Roller Mono
 Style: 		Headline
@@ -16,7 +16,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 			from using the WebFonts(s) listed without a purchased license.
 			All details above must always remain unaltered and visible in your CSS.
 */
-
 @font-face {
 	font-family: 'BBRollerMono-Headline';
 	src: url('/uploads/bb-roller-mono-headline.eot');
@@ -24,9 +23,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-style: normal;
 }
 
-
 /* font families */
-
 .bbroller {
 	font-family: $bbroller;
 }
@@ -35,9 +32,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-family: $sans;
 }
 
-
 /* font sizes */
-
 .text-small {
 	font-size: $text-small;
 }
@@ -72,9 +67,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	font-size: $text-billboard;
 }
 
-
 /* line heights */
-
 .lh-normal {
 	line-height: $lh-normal;
 }
@@ -91,63 +84,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	line-height: $lh-tight;
 }
 
-
-/* text transforms */
-
-.text-uppercase {
-	text-transform: $uppercase;
-}
-
-.text-lowercase {
-	text-transform: $lowercase;
-}
-
-
-/* font weights */
-
-.fw1 {
-	font-weight: $fw1;
-}
-
-.fw2 {
-	font-weight: $fw2;
-}
-
-.fw3 {
-	font-weight: $fw3;
-}
-
-.fw4 {
-	font-weight: $fw4;
-}
-
-.fw5 {
-	font-weight: $fw5;
-}
-
-.fw6 {
-	font-weight: $fw6;
-}
-
-.fw7 {
-	font-weight: $fw7;
-}
-
-.fw8 {
-	font-weight: $fw8;
-}
-
-.fw9 {
-	font-weight: $fw9;
-}
-
-
-/* text alignment */
-
-.text-justify {
-	text-align: $align-justify;
-}
-
 .text-vertical {
 	transform: rotate(-90deg);
 	left: -250px;
@@ -158,10 +94,6 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 	text-align: right;
 	position: absolute;
 	max-width: 200px;
-}
-
-.text-shadow {
-	text-shadow: 1px 1px 3px rgba(0, 0, 255, 0.68);
 }
 
 .page-introduction p {

@@ -1,10 +1,11 @@
-{% include _doctype/open.html %}
-<article class="page-volunteers mb5">
+---
+layout: default
+---
+
+<main class="page-volunteers mb5">
   <div class="mw8 center cf pa3">
     {% include partials/introduction.html %}
-    {% include partials/volunteer-form.html %}
+    {% include 3rd-party/typeform/form.html %}
+    {% include 3rd-party/typeform/scripts.html %}
   </div>
-</article>
-
-{% include _doctype/closed.html %}
-<!-- End Page: Volunteers -->
+</main>

@@ -1,0 +1,108 @@
+/* Mailchimp */
+#mc_embed_signup form {
+  position: static !important;
+  padding: 0 !important;
+}
+
+#mc_embed_signup input {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  transition: all 200ms ease-out;
+  border: solid 4px $white !important;
+}
+
+#mc_embed_signup input:focus {
+  border: solid 4px $black !important;
+}
+
+#mce-responses {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+#mce-success-response {
+  text-align: center;
+  color: $white !important;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  padding: 2em !important;
+  margin: 0 !important;
+  width: 100% !important;
+  background-color: $dcdw-primary !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid $black !important;
+}
+
+#mc_embed_signup .button--mailchimp {
+  background-color: $black !important;
+  border: solid 4px $black !important;
+  border-radius: 0 !important;
+  font-family: $bbroller !important;
+  margin: 0 !important;
+  height: 64px !important;
+  padding: 0 64px !important;
+  color: $white !important;
+  cursor: pointer !important;
+  transition: all 200ms ease-out !important;
+}
+
+#mc_embed_signup .button--mailchimp:hover {
+  background-color: $black !important;
+  border: solid 4px $black !important;
+}
+
+#mc_embed_signup .asterisk {
+  color: $black !important;
+  font-size: 100% !important;
+  top: 2px !important;
+}
+
+.indicates-required {
+  text-align: center !important;
+}
+
+#mc_embed_signup .indicates-required {
+  margin-right: 0 !important;
+}
+
+/* shout outs to Sarah Drasner for sharing this CSS keyframe animation:
+https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+  border: 2px solid $black !important;
+  animation: shake 500ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error::after {
+  content: "Oops";
+  position: absolute;
+}

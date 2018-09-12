@@ -1,0 +1,17 @@
+iframe#typeform-full {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border: 0;
+}
+
+#typeform input[type="text"] {
+  border-color: $dcdw-primary !important;
+}
+
+iframe {
+  outline: 3px solid $dcdw-primary !important;
+  width: 100% !important;
+}

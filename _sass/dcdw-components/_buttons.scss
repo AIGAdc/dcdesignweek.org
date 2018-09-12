@@ -1,124 +1,54 @@
-/* buttons */
-
 /* underline button */
 a.blue-underline {
-  border-bottom: 6px solid $dcdw-blue;
-  color: $dcdw-blue;
+  border-bottom: 6px solid $dcdw-primary;
+  color: $dcdw-primary;
   padding-bottom: 3px;
-  font-size: 25px;
+  font-size: 24px;
 }
-
-a.header-link {
-  transition: all $timing-200 ease-in-out;
-}
-
-a.header-link:hover {
-  background-color: $dcdw-blue;
-  color: white;
-}
-
 
 .btn {
   cursor: pointer;
-  transition: all $timing-200 ease-out;
-  font-size: 15px;
+  transition: all 200ms ease-out;
+  font-size: 16px;
   letter-spacing: 2px;
   padding: 12px 18px;
   text-decoration: none;
-  font-weight: $fw6;
-
-  // mobile nav links
-  &--mobile-nav-link {
-  }
-
-  &--mobile-nav-link:hover {
-  }
-
-  // underline links
-  &--underline-link {
-    padding: 12px 0;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-bottom: solid 5px $dcdw-blue;
-  }
-
-  &--underline-link:hover {
-    border-bottom: solid 5px $dcdw-blue;
-    padding-bottom: 8px;
-    color: $dcdw-blue;
-  }
+  font-weight: 600;
 
   // header links
   &--header-link {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-bottom: solid 5px $white;
+    border-bottom: solid 4px $white;
   }
 
   &--header-link:hover {
-    border-bottom: solid 5px $dcdw-blue;
+    border-bottom: solid 4px $black;
     padding-bottom: 8px;
-    color: $dcdw-blue;
-  }
-
-  // email button
-  &--email-list {
-    border: solid 2px $dcdw-blue;
-  }
-
-  &--email-list:hover {
-    border: solid 2px $dcdw-orange;
-    background-color: $dcdw-orange;
-    color: $white;
+    color: $black;
   }
 
   // blue solid button
   &--blue-border {
-    border: solid 4px $dcdw-blue;
+    border: solid 4px $dcdw-primary;
   }
 
   &--blue-border:hover {
-    border: solid 4px $dcdw-blue;
-    background-color: $dcdw-blue;
+    border: solid 4px $dcdw-primary;
+    background-color: $dcdw-primary;
     color: $white;
   }
 
   // blue button
   &--blue-solid {
-    border: solid 4px $dcdw-blue;
-    background-color: $dcdw-blue;
+    border: solid 4px $dcdw-primary;
+    background-color: $dcdw-primary;
   }
 
   &--blue-solid:hover {
-    border: solid 4px $dcdw-orange;
-    background-color: $dcdw-orange;
-    color: $white;
-  }
-
-
-  // white button
-  &--white-solid {
-    border: solid 4px $white;
-    background-color: $white;
-    color: $dcdw-blue;
-  }
-
-  &--white-solid:hover {
-    border: solid 4px $dcdw-orange;
-    background-color: $dcdw-orange;
-    color: $white;
-  }
-
-  // white button
-  &--white-border {
-    border: solid 4px $white;
-  }
-
-  &--white-border:hover {
-    border: solid 4px $dcdw-orange;
-    background-color: $dcdw-orange;
+    border: solid 4px $dcdw-secondary;
+    background-color: $dcdw-secondary;
     color: $white;
   }
 }
@@ -127,7 +57,8 @@ a.header-link:hover {
   border-bottom: 4px solid transparent;
   transition: all 150ms ease-in;
 }
+
 .filter-button.is-checked {
-  border-bottom: 4px solid $dcdw-orange;
+  border-bottom: 4px solid $dcdw-secondary;
   transition: all 150ms ease-in;
 }

@@ -1,9 +1,11 @@
-<section class="home-sponsors relative bg-white fl w-100 mb5">
+<section class="home-sponsors relative bg-white fl w-100 mb6 wysiwyg">
   <div class="mw8 center cf pa3">
-    <div class="fl w-100 w-80-l mb5">
-      <span class="ma0 bbroller f3 f2-ns lh-title db">{{page.home-partners-header-text}}</span>
+    <div class="fl w-100 w-80-l">
+      <h2 class="ma0">
+        {{ page.home-partners-header | markdownify }}
+      </h2>
       <hr class="title-divider-blue">
-      <span class="ma0 mt4 f5 f4-ns lh-copy db">{{page.home-partners-sub-header-text}}</span>
+      {{ page.home-partners-text | markdownify }}
     </div>
 
     <div class="fl w-100 mb2">
