@@ -1,7 +1,7 @@
 ---
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
-published: false
+published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
