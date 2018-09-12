@@ -1,14 +1,31 @@
-// generic colors
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700|Work+Sans:400,700');
+
+/* Generic Colors */
 $white: #ffffff;
 $black: #000000;
 $charcoal: #5a5a5a;
-// brand colors
+
+/* Off-Season Brand */
 $dcdw-buffered: #D7D7D7;
+
+/* 2017 Brand - These should be removed after confirmation */
 $dcdw-primary: #3e07d0;
 $dcdw-secondary: #ffae84;
+
+/* 2018 Brand */
+$dcdw-monte-carlo: #87C5B7;
+$dcdw-rose-bud: #FDAB96;
+$dcdw-mindaro: #D8ED62;
+$dcdw-flamingo: #EF6546;
+$dcdw-loblolly: #B5B6BA;
+$dcdw-mint: #E1FDF8;
+$dcdw-cloud: #202653;
+
 // font families
 $sans: 'Work Sans', sans-serif;
-$bbroller: 'BBRollerMono-Headline', courier, sans-serif;
+$monospace: 'Roboto Mono', monospace;
+$bbroller: $monospace;
+
 // font sizes
 $text-xx-small: 0.8125rem;
 $text-x-small: 1.125rem;
