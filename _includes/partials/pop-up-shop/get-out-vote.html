@@ -3,15 +3,15 @@
     <div class="fl w-100 w-30-ns dn db-l"></div>
     <div class="dcdw-get-out-the-vote-content fl w-100 w-60-ns pa4 z4 bg-white">
       <h2 class="bbroller ma0 text-x-medium ">
-        {{ page.get-out-vote-header-text | markdownify }}
+        {{ page.get-out-vote-header | markdownify }}
       </h2>
       <hr class="title-divider">
       <span class="ma0 f5 lh-copy">
-        {{ page.get-out-vote-body-text | markdownify }}
+        {{ page.get-out-vote-body | markdownify }}
       </span>
     </div>
     <div class="get-out-the-vote-bg-wrapper absolute" style="z-index: -9999;">
-      <img src="/uploads/dcdw-get-out-vote.png">
+      <img src="{{ page.get-out-vote-image }}" alt="{{ page.get-out-vote-image-alt }}">
     </div>
   </div>
 </section>
