@@ -20,7 +20,7 @@ sponsor-button-link: rica@aigadc.org
 layout: pages/sponsors
 ---
 
-# Sponsors 
+# Sponsors
 
 <hr class="title-divider">
 
