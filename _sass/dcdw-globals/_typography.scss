@@ -62,35 +62,3 @@
 .lh-tight {
 	line-height: $lh-tight;
 }
-
-.text-vertical {
-	transform: rotate(-90deg);
-	left: -250px;
-	top: 105px;
-	right: 0;
-	bottom: 0;
-	margin: 0;
-	text-align: right;
-	position: absolute;
-	max-width: 200px;
-}
-
-.page-introduction p {
-	margin-bottom: 12px;
-	padding: 0;
-	font-size: 16px;
-	line-height: 26px;
-}
-
-.sold-out {
-	background-color: black;
-	padding-top: 5.5px;
-	color: white;
-	text-align: center;
-	line-height: 24px;
-	font-family: $monospace;
-}
-
-marquee span {
-	padding-right: 24rem;
-}

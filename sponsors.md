@@ -22,6 +22,6 @@ layout: pages/sponsors
 
 # Sponsors 
 
-<hr class="title-divider-blue">
+<hr class="title-divider">
 
 DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, Meetup groups and small businesses. We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community. We couldn't do it without you!

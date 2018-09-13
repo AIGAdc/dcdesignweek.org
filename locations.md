@@ -9,4 +9,4 @@ layout: pages/map
 
 # Map
 
-<hr class="title-divider-blue">
+<hr class="title-divider">

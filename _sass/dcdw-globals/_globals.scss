@@ -11,16 +11,6 @@ a {
   max-width: 72em !important;
 }
 
-article.page-introduction {
-  margin-top: 80px;
-}
-
-@media screen and (min-width: 831px) {
-  article.page-introduction {
-    margin-top: 125px;
-  }
-}
-
 article {
   padding-bottom: 2.5em;
 }
@@ -62,22 +52,16 @@ article li {
 }
 
 article hr,
-.title-divider,
-.title-divider-blue {
+.title-divider {
   width: 100%;
   max-width: 100px;
 }
 
 .title-divider {
-  border: solid 2.5px $black;
-}
-
-.title-divider-blue {
   border: solid 2.5px $dcdw-primary;
 }
 
-.title-divider,
-.title-divider-blue {
+.title-divider {
   margin: 1em 0;
   max-width: 75px;
 }

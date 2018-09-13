@@ -1,8 +1,8 @@
-.wysiwyg h1 > p,
-.wysiwyg h2 > p {
-  font-family: $bbroller;
+.wysiwyg h1 {
+  font-family: $monospace;
 }
 
+.wysiwyg h1,
 .wysiwyg h1 > p {
   font-size: 24px;
   line-height: 32px;
@@ -22,10 +22,29 @@
   margin: 0 0 24px 0;
 }
 
+@media screen and (min-width: 799px) {
+  .wysiwyg h1,
+  .wysiwyg h1 > p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .wysiwyg h2 > p {
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .wysiwyg p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
 @media screen and (min-width: 1023px) {
+  .wysiwyg h1,
   .wysiwyg h1 > p {
     font-size: 48px;
-    line-height: 32px;
+    line-height: auto;
   }
 
   .wysiwyg h2 > p {

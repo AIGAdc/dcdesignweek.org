@@ -15,7 +15,7 @@ layout: pages/pop-up-shop
 
 # Pop Up Shop
 
-<hr class="title-divider-blue">
+<hr class="title-divider">
 
 In addition to this year's events, we're opening our yearly DCDW Pop-Up Shop. We're taking over the [Cherry Blossom Creative](http://cherryblossomcreative.com/) storefront and filling it with items made by locals. Swing by, shop, and support our neighborhood
 maker and creative community.

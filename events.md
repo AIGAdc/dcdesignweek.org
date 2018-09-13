@@ -39,4 +39,4 @@ layout: pages/events
 
 # Events
 
-<hr class="title-divider-blue">
+<hr class="title-divider">

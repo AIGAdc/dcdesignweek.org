@@ -9,4 +9,4 @@ layout: pages/volunteer
 
 # Volunteers
 
-<hr class="title-divider-blue">
+<hr class="title-divider">

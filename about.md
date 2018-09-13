@@ -18,6 +18,6 @@ layout: pages/about
 
 # About
 
-<hr class="title-divider-blue">
+<hr class="title-divider">
 
 DC and Design have a lot in common. We have more depth than the surface suggests. We’re working nonstop to ensure that every workshop, panel, studio tour, lecture and lunch event is curated to enhance community, connectivity, and diversity. Together with AIGA and our dedicated partners, we’re challenging ourselves and we’re challenging the world to see design—and the city in which we create it—differently.
