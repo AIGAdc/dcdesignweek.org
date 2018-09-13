@@ -57,3 +57,54 @@
     line-height: 40px;
   }
 }
+
+.wysiwyg h2 {
+  font-size: $text-x-large;
+  font-family: $bbroller;
+  line-height: normal;
+  padding-bottom: 0.5em;
+  margin: 0;
+}
+
+.wysiwyg ul {
+  list-style-type: circle;
+  margin-left: 1.75em;
+}
+
+.wysiwyg li {
+  line-height: 1.75em;
+  padding-bottom: 1.75em;
+}
+
+.wysiwyg hr,
+.title-divider {
+  width: 100%;
+  max-width: 100px;
+}
+
+.title-divider {
+  border: solid 2.5px $dcdw-primary;
+}
+
+.title-divider {
+  margin: 1em 0;
+  max-width: 75px;
+}
+
+.wysiwyg hr {
+  margin: 2em 0 2.5em 0;
+}
+
+.wysiwyg em {
+  font-style: italic;
+}
+
+.wysiwyg img {
+  width: 30%;
+}
+
+@media screen and (min-width: 831px) {
+  .wysiwyg h1 {
+    font-size: $text-billboard;
+  }
+}

@@ -6,82 +6,26 @@ a {
   text-decoration: none;
 }
 
-.single-event-header-container {
-  margin: 10% auto 5% auto;
-  max-width: 72em !important;
-}
-
-article {
+main {
   padding-bottom: 2.5em;
 }
 
-article a {
+main a {
   text-decoration: underline;
   font-weight: 700;
   color: $dcdw-primary;
   transition: color 100ms ease-in-out;
 }
 
-article a:hover {
+main a:hover {
   color: $dcdw-secondary;
 }
 
-article h1 {
+main h1 {
   font-size: $text-headline;
   font-family: $bbroller;
   line-height: normal;
   margin: 0;
-}
-
-article h2 {
-  font-size: $text-x-large;
-  font-family: $bbroller;
-  line-height: normal;
-  padding-bottom: 0.5em;
-  margin: 0;
-}
-
-article ul {
-  list-style-type: circle;
-  margin-left: 1.75em;
-}
-
-article li {
-  line-height: 1.75em;
-  padding-bottom: 1.75em;
-}
-
-article hr,
-.title-divider {
-  width: 100%;
-  max-width: 100px;
-}
-
-.title-divider {
-  border: solid 2.5px $dcdw-primary;
-}
-
-.title-divider {
-  margin: 1em 0;
-  max-width: 75px;
-}
-
-article hr {
-  margin: 2em 0 2.5em 0;
-}
-
-article em {
-  font-style: italic;
-}
-
-article img {
-  width: 30%;
-}
-
-@media screen and (min-width: 831px) {
-  article h1 {
-    font-size: $text-billboard;
-  }
 }
 
 .hero__video-bg {
