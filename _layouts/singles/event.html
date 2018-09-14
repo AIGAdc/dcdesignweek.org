@@ -2,8 +2,12 @@
 layout: default
 ---
 
-{% include partials/events/single-event/hero.html %}
-{% include partials/events/single-event/introduction.html %}
-{% include partials/events/single-event/video.html %}
-{% include partials/events/single-event/details.html %}
-{% include partials/events/single-event/speakers.html %}
+<main class="page-single-event">
+  {% include partials/events/single/hero.html %}
+  <div class="mw8 center cf pa3">
+    {% include partials/events/single/introduction.html %}
+    {% include partials/events/single/video.html %}
+    {% include partials/events/single/details.html %}
+    {% include partials/events/single/speakers.html %}
+  </div>
+</main>
