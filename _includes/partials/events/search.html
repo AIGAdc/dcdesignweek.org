@@ -1,0 +1,13 @@
+<div class="events-search">
+  <!-- HTML elements for search -->
+  <input type="text" id="search-input" placeholder="Search Events" class="events-search__input">
+  <ul id="results-container" class="events-search__results"></ul>
+  <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json'
+    })
+  </script>
+</div>
