@@ -1,12 +1,12 @@
 <footer class="site-footer white bg-dcdw-buffered">
   <div class="mw7 center pv5 pa3 wysiwyg">
     {% for content in site.data.footer.landing-page %}
-      <h2 class="monospace ma0 mb2 f4 f3-ns fw4 lh-copy tc black">
+      <h2 class="ma0 mb2 f4 f3-ns fw4 lh-copy tc black">
         {{ content.header }}
       </h2>
-      <span class="monospace ma0 mb2 f5 f4-ns fw3 lh-copy tc black">
+      <p class="ma0 mb2 f5 f4-ns fw3 lh-copy tc black">
         {{ content.text | markdownify }}
-      </span>
+      </p>
     {% endfor %}
 
     {% include 3rd-party/mailchimp/form.html %}

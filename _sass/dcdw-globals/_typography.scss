@@ -1,10 +1,6 @@
-/* font families */
-.sans {
-	font-family: $sans;
-}
-
-.monospace {
+h1, h2, h3, h4, h5, h6 {
 	font-family: $monospace;
+	font-weight: 700;
 }
 
 /* font sizes */

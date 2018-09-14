@@ -7,10 +7,6 @@ a {
   text-decoration: none;
 }
 
-main {
-  padding-bottom: 2.5em;
-}
-
 main a {
   text-decoration: underline;
   font-weight: 700;
@@ -42,6 +38,7 @@ main h1,
   object-fit: cover;
 }
 
+/* vertically aligns feather icons */
 .feather {
   vertical-align: middle;
 }

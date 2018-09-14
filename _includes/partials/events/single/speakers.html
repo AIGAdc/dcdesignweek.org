@@ -1,8 +1,10 @@
 {% if page.speaker-header %}
 <section class="single-event-speakers mv5">
   <div class="mw8 center cf pa3">
-    <div class="fl w-100">
-      <span class="monospace ma0 db">{{page.speaker-header}}</span>
+  <div class="fl w-100">
+      <h3 class="ma0 f5 f4-m f3-l fw4">
+        {{page.speaker-header}}
+      </h3>
       <hr class="title-divider">
       {% for speaker in page.speakers %}
         <div class="event-speaker-wrapper pv4">
@@ -19,9 +21,9 @@
             </div>
           </div>
           <div class="single-event-speaker-text fl w-100 w-70-ns text-center pa3 mt4 mt0-l">
-            <span class="monospace ma0 mb1 db f3">{{ speaker.name }}</span>
+            <span class="ma0 mb1 db f3">{{ speaker.name }}</span>
             <span class="ma0 db f4 ttu">{{ speaker.title }}</span>
-            <span class="monospace ma0 f5 lh-copy db"></span>{{ speaker.bio-text | markdownify }}</span>
+            <span class="ma0 f5 lh-copy db"></span>{{ speaker.bio-text | markdownify }}</span>
           </div>
         </div>
       {% endfor %}
