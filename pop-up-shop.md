@@ -5,6 +5,7 @@ published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
+pop-up-shop-image-alt: Pop Up Shop Image
 pop-up-shop-header-text: Have Your Art Featured in Our DCDW Pop Up Shop!
 pop-up-shop-body-text: "Are you a designer or artist with pieces you’re ready to sell?
   We want to help you sell your work to the design community at our pop up shop.\n\nSend
