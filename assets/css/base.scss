@@ -6,29 +6,25 @@ styles: true
 /* tachyons */
 @import "tachyons/tachyons-4.9.0";
 
-@import "dcdw-globals/variables";
-@import "dcdw-globals/reset";
-@import "dcdw-globals/colors";
-@import "dcdw-globals/wysiwyg";
+@import "globals/variables";
+@import "globals/reset";
+@import "globals/colors";
+@import "globals/typography";
+@import "globals/wysiwyg";
 
-@import "dcdw-components/header";
-@import "dcdw-components/buttons";
-@import "dcdw-components/events-filter";
-@import "dcdw-components/diamond-images";
-@import "dcdw-components/footer";
+@import "components/header";
+@import "components/buttons";
+@import "components/diamond-images";
+@import "components/footer";
 
-@import "dcdw-globals/globals";
-@import "dcdw-globals/typography";
+@import "pages/events";
+@import "pages/single-event";
+@import "pages/pop-up-shop";
+@import "pages/sponsors";
+@import "pages/about";
 
-@import "dcdw-pages/landing";
-@import "dcdw-pages/about";
-@import "dcdw-pages/events";
-@import "dcdw-pages/pop-up-shop";
-@import "dcdw-pages/single-event";
-@import "dcdw-pages/sponsors";
-
-@import "dcdw-3rd-party/typeform";
-@import "dcdw-3rd-party/offside";
-@import "dcdw-3rd-party/mapbox";
-@import "dcdw-3rd-party/mailchimp";
+@import "3rd-party/offside";
+@import "3rd-party/mailchimp";
+@import "3rd-party/typeform";
+@import "3rd-party/mapbox";
 
