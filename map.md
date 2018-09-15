@@ -7,6 +7,6 @@ image: "/uploads/OG_featuredimage-live.jpg"
 layout: pages/map
 ---
 
-# Map
+# Maps
 
 <hr class="title-divider">
