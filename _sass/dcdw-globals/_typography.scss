@@ -1,56 +1,21 @@
-h1, h2, h3, h4, h5, h6 {
+body {
+	font-family: $sans;
+	font-size: 16px;
+}
+
+a {
+	color: $dcdw-monte-carlo;
+	font-weight: 700;
+	transition: color 100ms ease-in-out;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: $monospace;
 	font-weight: 700;
-}
-
-/* font sizes */
-.text-small {
-	font-size: $text-small;
-}
-
-.text-default {
-	font-size: $text-default;
-}
-
-.text-medium {
-	font-size: $text-medium;
-}
-
-.text-x-medium {
-	font-size: $text-x-medium;
-}
-
-.text-large {
-	font-size: $text-large;
-}
-
-.text-x-large {
-	font-size: $text-x-large;
-	line-height: 48px;
-}
-
-.text-headline {
-	font-size: $text-headline;
-	line-height: 56px;
-}
-
-.text-billboard {
-	font-size: $text-billboard;
-}
-
-/* line heights */
-.lh-normal {
-	line-height: $lh-normal;
-}
-
-.lh-loose {
-	line-height: $lh-loose;
-}
-
-.lh-spaced {
-	line-height: $lh-spaced;
-}
-
-.lh-tight {
-	line-height: $lh-tight;
 }

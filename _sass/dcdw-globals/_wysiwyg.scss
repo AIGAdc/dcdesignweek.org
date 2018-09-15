@@ -1,5 +1,9 @@
 .wysiwyg h1 {
+  font-size: 80px;
   font-family: $monospace;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
 }
 
 .wysiwyg h1,
@@ -59,9 +63,7 @@
 }
 
 .wysiwyg h2 {
-  font-size: $text-x-large;
   font-family: $monospace;
-  line-height: normal;
   padding-bottom: 0.5em;
   margin: 0;
 }
@@ -87,16 +89,6 @@
   margin: 2em 0 2.5em 0;
 }
 
-.wysiwyg em {
-  font-style: italic;
-}
-
 .wysiwyg img {
   width: 30%;
-}
-
-@media screen and (min-width: 831px) {
-  .wysiwyg h1 {
-    font-size: $text-billboard;
-  }
 }

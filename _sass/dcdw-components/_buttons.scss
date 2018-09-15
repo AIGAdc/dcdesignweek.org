@@ -1,26 +1,19 @@
-/* underline button */
-a.blue-underline {
-  border-bottom: 6px solid $dcdw-primary;
-  color: $dcdw-primary;
-  padding-bottom: 3px;
-  font-size: 24px;
-}
-
 .btn {
   cursor: pointer;
   transition: all 200ms ease-out;
   font-size: 16px;
+  font-family: $monospace;
   letter-spacing: 2px;
   padding: 12px 18px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
 
   // header links
   &--header-link {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-bottom: solid 4px $white;
+    border-bottom: solid 4px transparent;
   }
 
   &--header-link:hover {
@@ -39,8 +32,8 @@ a.blue-underline {
     background-color: $dcdw-primary;
     color: $white;
   }
-
-  // blue button
+  
+  /* .btn .btn--blue-solid */
   &--blue-solid {
     border: solid 4px $dcdw-primary;
     background-color: $dcdw-primary;
