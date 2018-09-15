@@ -1,6 +1,6 @@
 ---
 title: Map
-permalink: "/map"
+permalink: "/map/"
 published: true
 description: 
 image: "/uploads/OG_featuredimage-live.jpg"

@@ -47,13 +47,13 @@
 {% else %}
 <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
 {% endif %}
-{% if page.layout == "pages/locations" %}
+{% if page.layout == "pages/map" %}
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
 {% endif %}
 
 <!-- scripts -->
 <script type="text/javascript" src="/assets/js/offside.min.js"></script>
-{% if page.layout == "pages/locations" %}
+{% if page.layout == "pages/map" %}
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
 {% endif %}
 
