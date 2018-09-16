@@ -1,22 +1,21 @@
 {% comment %}
 For every dcdw-committee-member located within site.dcdw-committee-members, a committee member will be printed onto the about page.
 {% endcomment %}
-<section class="dcdw-committee-members">
+<section class="committee-members">
   <div class="mw8 center cf fl w-100 pa3">
-    <h3 class="ma0 f5 f4-m f3-l">
-      {{page.dcdw-committee-header-text}}
+    <h3 class="committee-members__header ma0 f5 f4-m f3-l">
+      {{ page.committee-header }}
     </h3>
     <hr class="title-divider">
     <div class="fl w-100">
-      <ul class="list ma0 pa0 pv4 cf">
+      <ul class="committee-members__list list ma0 pa0 pv4 cf">
         {% for committee-member in site.data.committee-members.2018-committee %}
           <div class="fl w-100 w-third-l pv2 pv4-ns pa2">
             <li class="team-member">
               <div class="diamond-image-border">
                 <div class="diamond overflow-hidden">
                   <div class="diamond-los1">
-                    <div class="committee-member-overlay"></div>
-                    <img class="committee-member-portrait lazyload blur-up" data-src="{{ committee-member.image }}" src="{{ committee-member.image }}" />
+                    <img class="committee-member-portrait lazyload blur-up" data-src="{{ committee-member.image }}" src="{{ committee-member.image }}" alt="{{ committee-member.image-alt }}"/>
                   </div>
                 </div>
               </div>

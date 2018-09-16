@@ -3,7 +3,7 @@ be printed onto the about page. {% endcomment %}
 <section class="dcdw-creative-team">
   <div class="mw8 center cf pa3">
     <h3 class="ma0 f5 f4-m f3-l">
-      {{page.dcdw-creative-team-header-text}}
+      {{ page.creative-team-header }}
     </h3>
     <hr class="title-divider">
     <div class="fl w-100">
@@ -15,7 +15,6 @@ be printed onto the about page. {% endcomment %}
               <a class="dib ma0 f6" href="{{ creative-member.website-url }}" target="_blank">
                 <div class="diamond overflow-hidden">
                   <div class="diamond-los1">
-                    <div class="creative-team-overlay gradient-overlay"></div>
                     <img class="creative-team-portrait v-mid w-100 lazyload blur-up" data-src="{{ creative-member.image }}" src="{{ creative-member.image }}" />
                   </div>
                 </div>

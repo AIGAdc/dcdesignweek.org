@@ -1,29 +1,37 @@
-.dcdw-about-bg {
+.collaboration__introduction {
+  border: solid 4px $dcdw-primary;
+  position: relative;
+  z-index: 10;
+}
+
+.collaboration__introduction-bg {
   left: -100px;
   right: -100px;
   top: 0px;
   max-height: 400px;
   overflow: hidden;
+  position: absolute;
+  z-index: 0;
 }
 
-.dcdw-about-bg img {
+.collaboration__introduction-bg img {
   min-width: 800px;
 }
 
 @media screen and (min-width: 700px) {
-  .dcdw-about-bg {
+  .collaboration__introduction-bg {
     left: 0;
     right: 0;
     top: -75px;
   }
 
-  .dcdw-about-bg img {
+  .collaboration__introduction-bg img {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .dcdw-about-bg {
+  .collaboration__introduction-bg {
     left: 50px;
     top: 0;
   }
