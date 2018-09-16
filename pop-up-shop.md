@@ -18,8 +18,7 @@ layout: pages/pop-up-shop
 
 <hr class="title-divider">
 
-In addition to this year's events, we're opening our yearly DCDW Pop-Up Shop. We're taking over the [Cherry Blossom Creative](http://cherryblossomcreative.com/) storefront and filling it with items made by locals. Swing by, shop, and support our neighborhood
-maker and creative community.
+In addition to this year's events, we're opening our yearly DCDW Pop-Up Shop. We're taking over the [Cherry Blossom Creative](http://cherryblossomcreative.com/) storefront and filling it with items made by locals. Swing by shop, and support our neighborhood maker and creative community.
 
 **Wed, Oct 26 — Sun, Oct 29 from noon to 8pm @ Cherry Blossom Creative
 2128 8th St NW, Washington, DC 20001**
