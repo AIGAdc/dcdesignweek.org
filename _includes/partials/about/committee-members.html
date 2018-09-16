@@ -11,17 +11,17 @@ For every dcdw-committee-member located within site.dcdw-committee-members, a co
       <ul class="committee-members__list list ma0 pa0 pv4 cf">
         {% for committee-member in site.data.committee-members.2018-committee %}
           <div class="fl w-100 w-third-l pv2 pv4-ns pa2">
-            <li class="team-member">
+            <li class="committee-member">
               <div class="diamond-image-border">
                 <div class="diamond overflow-hidden">
                   <div class="diamond-los1">
-                    <img class="committee-member-portrait lazyload blur-up" data-src="{{ committee-member.image }}" src="{{ committee-member.image }}" alt="{{ committee-member.image-alt }}"/>
+                    <img class="committee-member__portrait lazyload blur-up" data-src="{{ committee-member.image }}" src="{{ committee-member.image }}" alt="{{ committee-member.image-alt }}"/>
                   </div>
                 </div>
               </div>
-              <div class="team-member-details-wrapper mt5">
-                <span class="ma0 f4 db">{{ committee-member.name }}</span>
-                <span class="ma0 mb3 f4 fw4 db h3">{{ committee-member.role }}</span>
+              <div class="committee-member__details mt5">
+                <p class="ma0 f4 db">{{ committee-member.name }}</p>
+                <p class="ma0 mb3 f4 fw4 db">{{ committee-member.role }}</p>
                 {% if committee-member.email %}
                 <a class="ma0 f6 fw4 dib dcdw-primary" href="mailto:{{ committee-member.email }}" target="_top">{{ committee-member.email }}</a>
                 {% endif %}
