@@ -3,7 +3,7 @@ title: Pop Up Shop
 permalink: "/pop-up-shop/"
 published: true
 description: 
-image: "/uploads/OG_featuredimage-live.jpg"
+image: "/uploads/2018-OG-featuredimage.jpg"
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image
 pop-up-shop-header-text: Have Your Art Featured in Our DCDW Pop Up Shop!

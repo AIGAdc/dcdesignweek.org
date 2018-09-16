@@ -3,7 +3,7 @@ title: Map
 permalink: "/map/"
 published: true
 description: 
-image: "/uploads/OG_featuredimage-live.jpg"
+image: "/uploads/2018-OG-featuredimage.jpg"
 layout: pages/map
 ---
 

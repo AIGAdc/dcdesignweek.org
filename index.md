@@ -3,7 +3,7 @@ title: Home
 permalink: "/home"
 published: true
 description: 
-image: "/uploads/OG_featuredimage-live.jpg"
+image: "/uploads/2018-OG-featuredimage.jpg"
 hero-logo: "/uploads/logo_hero_date(1).png"
 hero-logo-alt: DC Design Week Hero Logo, Time & Date
 dc-design-header: Design Culture in DC
