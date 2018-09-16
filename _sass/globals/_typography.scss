@@ -4,14 +4,14 @@ body {
 }
 
 a {
-	color: $dcdw-monte-carlo;
+	color: $dcdw-primary;
 	font-weight: 700;
 	transition: color 100ms ease-in-out;
 	text-decoration: none;
 }
 
 a:focus {
-	outline: solid 2px $dcdw-monte-carlo;
+	outline: solid 2px $dcdw-primary;
 	outline-style: 4px;
 }
 

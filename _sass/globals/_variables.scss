@@ -8,18 +8,19 @@ $charcoal: #5a5a5a;
 /* Off-Season Brand */
 $dcdw-buffered: #D7D7D7;
 
-/* 2017 Brand - These should be removed after confirmation */
-$dcdw-primary: #3e07d0;
-$dcdw-secondary: #ffae84;
-
 /* 2018 Brand */
-$dcdw-monte-carlo: #87C5B7;
-$dcdw-rose-bud: #FDAB96;
-$dcdw-mindaro: #D8ED62;
-$dcdw-flamingo: #EF6546;
-$dcdw-loblolly: #B5B6BA;
-$dcdw-mint: #E1FDF8;
-$dcdw-cloud: #202653;
+$monte-carlo: #87C5B7;
+$rose-bud: #FDAB96;
+$mindaro: #D8ED62;
+$flamingo: #EF6546;
+$loblolly: #B5B6BA;
+$mint: #E1FDF8;
+$cloud: #202653;
+
+/* Primary Brand Variables */
+$dcdw-primary: $monte-carlo;
+$dcdw-secondary: $flamingo;
+
 
 // font families
 $sans: 'Work Sans', sans-serif;

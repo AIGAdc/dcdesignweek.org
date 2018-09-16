@@ -1,19 +1,22 @@
 .btn {
   cursor: pointer;
-  transition: all 200ms ease-out;
-  font-size: 16px;
   font-family: $monospace;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 2px;
   padding: 12px 18px;
   text-decoration: none;
-  font-weight: 700;
+  transition: all 200ms ease-out;
 
-  // header links
+
+  /* .btn .btn--header-link */
   &--header-link {
     border-top: 0;
     border-right: 0;
-    border-left: 0;
     border-bottom: solid 4px transparent;
+    border-left: 0;
+    color: $black;
+    text-transform: uppercase;
   }
 
   &--header-link:hover {
@@ -22,36 +25,39 @@
     color: $black;
   }
 
-  // blue solid button
-  &--blue-border {
+  /* .btn .btn--primary-solid */
+  &--primary-solid {
     border: solid 4px $dcdw-primary;
+    background-color: $dcdw-primary;
   }
 
-  &--blue-border:hover {
+  /* .btn .btn--secondary-solid */
+  &--secondary-solid {
+    border: solid 4px $dcdw-secondary;
+    background-color: $dcdw-secondary;
+  }
+
+  /* .btn .btn--primary-border */
+  &--primary-border {
+    border: solid 4px $dcdw-primary;
+    color: $dcdw-primary;
+  }
+
+  &--primary-border:hover {
     border: solid 4px $dcdw-primary;
     background-color: $dcdw-primary;
     color: $white;
   }
-  
-  /* .btn .btn--blue-solid */
-  &--blue-solid {
-    border: solid 4px $dcdw-primary;
-    background-color: $dcdw-primary;
+
+  /* .btn .btn--secondary-border */
+  &--secondary-border {
+    border: solid 4px $dcdw-secondary;
+    color: $dcdw-secondary;
   }
 
-  &--blue-solid:hover {
+  &--secondary-border:hover {
     border: solid 4px $dcdw-secondary;
     background-color: $dcdw-secondary;
     color: $white;
   }
-}
-
-.filter-button {
-  border-bottom: 4px solid transparent;
-  transition: all 150ms ease-in;
-}
-
-.filter-button.is-checked {
-  border-bottom: 4px solid $dcdw-secondary;
-  transition: all 150ms ease-in;
 }

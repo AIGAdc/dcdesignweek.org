@@ -1,5 +1,5 @@
-<section class="single-event--header overflow-hidden relative bg-dcdw-monte-carlo" style="background-image:url('{{ page.seo.og-image }}'); background-size: cover; background-position: center;">
-  <div class="single-event--overlay absolute top-0 right-0 bottom-0 left-0 bg-dcdw-cloud" style="opacity: 0.5;"></div>
+<section class="single-event--header overflow-hidden relative bg-dcdw-primary" style="background-image:url('{{ page.seo.og-image }}'); background-size: cover; background-position: center;">
+  <div class="single-event--overlay absolute top-0 right-0 bottom-0 left-0 bg-cloud" style="opacity: 0.5;"></div>
   <div class="mw8 mv6 center cf pa3 relative z5">
     <h1 class="single-event--title relative ma0 f3 f2-m f1-l pr4 white lh-title">
       {{ page.title }}
@@ -9,13 +9,13 @@
     </h2>
 
     {% if page.buttons.has-left-button == true %}
-      <a href="{{ page.buttons.button-left-url }}" class="ma0 btn btn--blue-solid white mb3 dib">
+      <a href="{{ page.buttons.button-left-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
         {{ page.buttons.button-left-text }}
       </a> 
     {% endif %} 
       
     {% if page.buttons.has-right-button == true %}
-      <a href="{{ page.buttons.button-right-url }}" class="ma0 btn btn--blue-solid white mb3 dib">
+      <a href="{{ page.buttons.button-right-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
         {{ page.buttons.button-right-text }}
       </a>
     {% endif %}
