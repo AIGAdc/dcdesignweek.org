@@ -7,7 +7,7 @@
           <div class="diamond overflow-hidden">
             <div class="diamond-los1">
               <div class="image-overlay"></div>
-              <img class="image" src="{{ page.gallery-opening-image }}" />
+              <img class="image" src="{{ page.gallery-opening-image }}" alt="{{ page.gallery-opening-image-alt }}"/>
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@
         <span class="ma0 mb3">
             {{ page.gallery-opening-body-text | markdownify }}
           </span>
-        <a href="{{ page.gallery-opening-button-link }}" target="_blank" class="ma0 dib mt3">
+        <a href="{{ page.gallery-opening-button-url }}" target="_blank" class="ma0 dib mt3">
             {{ page.gallery-opening-button-text }}
           </a>
       </div>

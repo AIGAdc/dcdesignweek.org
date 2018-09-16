@@ -26,22 +26,22 @@ defaults:
       video-embed: 
       date: Displays the date of the event.
       venue-name: Displays the name of the venue.
-      venue-directions: Provide a link to google maps to help navigate attendees.
+      venue-directions: Provide a url to google maps to help navigate attendees.
       venue-address: Displays the address of the venues.
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
     speakers:
       headshot-image: Displays the speakers portait.
-      link: Provide a link to the speakers website.
+      url: Provide a url to the speakers website.
       name: Displays the speakers name.
       title: Displays the speakers professional title
       bio-text: Displays the speakers bio.
     buttons:
       has-left-button: true
-      button-left-link: Provide a link for non-members
+      button-left-url: Provide a url for non-members
       button-left-text: Provide text for button on left
       has-right-button: true
-      button-right-link: Provide a link for members
+      button-right-url: Provide a url for members
       button-right-text: Provide text for button on right
     single-event-conditionals: 
     is-sold-out: 

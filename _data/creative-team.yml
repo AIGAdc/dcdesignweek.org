@@ -6,42 +6,42 @@
     role: Designer
     bio: |
       Bio
-    instagram-link: example.com
+    instagram-url: example.com
     instagram-label: Instagram
-    dribbble-link: example.com
+    dribbble-url: example.com
     dribbble-label: Dribbble
-    website-link: example.com
+    website-url: example.com
     website-label: Website
   - image: /uploads/zen.png
     name: Test
     role: Designer
     bio: |
       Bio
-    instagram-link: example.com
+    instagram-url: example.com
     instagram-label: Instagram
-    dribbble-link: example.com
+    dribbble-url: example.com
     dribbble-label: Dribbble
-    website-link: example.com
+    website-url: example.com
     website-label: Website
   - image: /uploads/zen.png
     name: Test
     role: Designer
     bio: |
       Bio
-    instagram-link: example.com
+    instagram-url: example.com
     instagram-label: Instagram
-    dribbble-link: example.com
+    dribbble-url: example.com
     dribbble-label: Dribbble
-    website-link: example.com
+    website-url: example.com
     website-label: Website
   - image: /uploads/zen.png
     name: Test
     role: Designer
     bio: |
       Bio
-    instagram-link: example.com
+    instagram-url: example.com
     instagram-label: Instagram
-    dribbble-link: example.com
+    dribbble-url: example.com
     dribbble-label: Dribbble
-    website-link: example.com
+    website-url: example.com
     website-label: Website

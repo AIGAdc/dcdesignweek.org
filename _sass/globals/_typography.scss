@@ -10,6 +10,11 @@ a {
 	text-decoration: none;
 }
 
+a:focus {
+	outline: solid 2px $dcdw-monte-carlo;
+	outline-style: 4px;
+}
+
 h1,
 h2,
 h3,

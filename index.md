@@ -18,7 +18,7 @@ dc-is-design-image-alt: Circular illustration
 home-events-header: Featured Events
 home-events-text: 
 home-events-button-text: View Full Schedule
-home-events-link: "/events/"
+home-events-url: "/events/"
 home-partners-header: Partners & Sponsors
 home-partners-text: "DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c
   nonprofit organization, in concert with a consortium of local associations, meetup
@@ -26,8 +26,8 @@ home-partners-text: "DC Design Week is produced by AIGA DC, a volunteer-run, 501
   make this week of celebration a reality. Major thanks to the following partners
   and sponsors for your support and commitment to the DC design community. \n\nWe
   couldn't do it without you!"
-home-sponsors-link-text: See Full List
-home-sponsors-link: "/sponsors/"
+home-sponsors-url-text: See Full List
+home-sponsors-url: "/sponsors/"
 layout: pages/home
 ---
 

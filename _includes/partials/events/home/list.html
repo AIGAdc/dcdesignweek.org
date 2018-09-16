@@ -12,7 +12,7 @@
         {% assign sorted_events = site.events %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
-            <a class="home-event-link fl w-100 w-third-l relative pa3 link" href="{{posts.url}}" data-right-height-content>
+            <a class="home-event fl w-100 w-third-l relative pa3" href="{{posts.url}}" data-right-height-content>
               <li class="home-event-card ma0 pa0 ba bw2 dcdw-primary">
                 {% include partials/events/events-card-contents.html %}
               </li>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="fl w-100">
-      <a class="btn btn--blue-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-link }}">
+      <a class="btn btn--blue-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
         {{page.home-events-button-text}}
       </a>
     </div>
