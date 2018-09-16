@@ -12,7 +12,7 @@ a {
 
 a:focus {
 	outline: solid 2px $dcdw-primary;
-	outline-style: 4px;
+	outline-offset: -4px;
 }
 
 h1,

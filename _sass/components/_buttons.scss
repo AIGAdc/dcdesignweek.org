@@ -11,18 +11,23 @@
 
   /* .btn .btn--header-link */
   &--header-link {
-    border-top: 0;
-    border-right: 0;
-    border-bottom: solid 4px transparent;
-    border-left: 0;
     color: $black;
     text-transform: uppercase;
   }
 
-  &--header-link:hover {
-    border-bottom: solid 4px $black;
-    padding-bottom: 8px;
-    color: $black;
+  &--header-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: $white;
+    transition: all 150ms ease-in;
+    transform: translateY(16px);
+  }
+
+  &--header-link:hover::after {
+    background-color: $black;
+    transform: translateY(8px);
   }
 
   /* .btn .btn--primary-solid */
