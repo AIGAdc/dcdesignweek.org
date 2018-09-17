@@ -1,4 +1,4 @@
-<footer class="site-footer white bg-dcdw-buffered">
+<footer class="site-footer cloud bg-mindaro relative pt5 mt6" style="background-image: url('/uploads/section-break.png'); background-position: center top; background-repeat: repeat-x;">
   <div class="mw7 center pv5 pa3 wysiwyg">
     {% for content in site.data.footer.landing-page %}
       <h2 class="ma0 mb2 f4 f3-ns fw4 lh-copy tc black">
@@ -13,7 +13,7 @@
     {% include 3rd-party/mailchimp/scripts.html %}
   </div>
 
-  <div class="site-footer__social bg-black flex flex-column flex-row-l items-center pa3">
+  <div class="site-footer__social bg-cloud flex flex-column flex-row-l items-center pa3">
     <div class="w-100 w-third-l tc tl-l">
       <a href="mailto:{{ site.email }}" target="_top" class="ma0 f6 f5-ns white">
         {{ site.email }}
@@ -35,10 +35,10 @@
     </div>
   </div>
 
-  {% if site.ppast-editions == "true" %}
+  {% if site.past-editions == true %}
   <div class="social-footer_past-editions bg-dcdw-buffered flex flex-column flex-row-l items-center pa3">
-    <p class="ma0 f7 charcoal">
-      Past Editions: <a href="https://github.com/AIGAdc/2016.dcdesignweek.org" class="charcoal dib">2016</a>, <a href="https://github.com/AIGAdc/2017.dcdesignweek.org" class="charcoal dib">2017</a>
+    <p class="ma0 f7 cloud">
+      Past Editions: <a href="https://github.com/AIGAdc/2016.dcdesignweek.org" class="cloud dib">2016</a>, <a href="https://github.com/AIGAdc/2017.dcdesignweek.org" class="cloud dib">2017</a>
     </p>
   </div>
   {% endif %}

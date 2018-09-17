@@ -106,4 +106,4 @@ google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject'
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
 css_inline: true
 copyright: "© AIGA DC | 2018  All Rights Reserved."
-past-editions: false
+past-editions: true
