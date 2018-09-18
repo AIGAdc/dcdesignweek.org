@@ -1,7 +1,7 @@
 <!-- dcdw agenda list -->
 <div class="dcdw-agenda-list fl w-100 relative mt5">
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-1-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-1-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-kickoff-friday == true %}
@@ -25,7 +25,7 @@
 <!-- adding saturday to line up dates  -->
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-2-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-2-label }}</h2>
     {% for posts in site.events | sort: "date" %}
       {% if posts.is-kickoff-saturday == true %}
       <ul class="dcdw-event-list ma0 pa0 list">
@@ -46,7 +46,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-3-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-3-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-sunday == true %}
@@ -68,7 +68,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-4-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-4-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-monday == true %}
@@ -90,7 +90,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-5-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-5-label }}</h2>
     <ul class="dcdw-event-list ma0 pa0 list"></ul>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
@@ -112,7 +112,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-6-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-6-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-wednesday == true %}
@@ -134,7 +134,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-7-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-7-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-thursday == true %}
@@ -156,7 +156,7 @@
   </div>
   
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-8-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-8-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-friday == true %}
@@ -178,7 +178,7 @@
   </div>
 
   <div class="day fl w-100 mb3">
-    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns fw9">{{ page.day-9-label }}</h2>
+    <h2 class="dcdw-event-day pa0 pa3-ns mb3 mb0-ns ma0 f4 f2-ns">{{ page.day-9-label }}</h2>
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
       {% if posts.is-saturday == true %}

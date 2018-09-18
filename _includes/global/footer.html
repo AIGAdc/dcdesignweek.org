@@ -1,10 +1,10 @@
 <footer class="site-footer cloud bg-mindaro relative pt5 mt6" style="background-image: url('/uploads/section-break.png'); background-position: center top; background-repeat: repeat-x;">
-  <div class="mw7 center pv5 pa3 wysiwyg">
-    {% for content in site.data.footer.landing-page %}
-      <h2 class="ma0 mb2 f4 f3-ns fw4 lh-copy tc black">
+  <div class="mw7 center pv5 pa3 tc wysiwyg">
+    {% for content in site.data.footer.current-page %}
+      <h2 class="ma0 mb1 f4 f3-ns lh-copy tc">
         {{ content.header }}
       </h2>
-      <p class="ma0 mb2 f5 f4-ns fw3 lh-copy tc black">
+      <p class="ma0 mb2 f5 f4-ns lh-copy tc">
         {{ content.text | markdownify }}
       </p>
     {% endfor %}
