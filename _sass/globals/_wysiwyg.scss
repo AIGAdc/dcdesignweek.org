@@ -68,14 +68,23 @@
   margin: 0;
 }
 
-.wysiwyg ul {
+.page-about.wysiwyg ul {
   list-style-type: circle;
   margin-left: 1.75em;
 }
 
-.wysiwyg li {
+.page-about.wysiwyg li {
   line-height: 1.75em;
   padding-bottom: 1.75em;
+}
+
+.page-about.wysiwyg ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.page-about.wysiwyg li {
+  padding-bottom: 0;
 }
 
 .title-divider {

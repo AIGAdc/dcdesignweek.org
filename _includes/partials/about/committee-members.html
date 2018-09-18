@@ -8,9 +8,9 @@ For every dcdw-committee-member located within site.dcdw-committee-members, a co
     </h3>
     <hr class="title-divider">
     <div class="fl w-100">
-      <ul class="committee-members__list list ma0 pa0 pv4 cf">
+      <ul class="committee-members__list list ma0 pa0 cf">
         {% for committee-member in site.data.committee-members.2018-committee %}
-          <div class="fl w-100 w-third-l pv2 pv4-ns pa2">
+          <div class="fl w-100 w-third-l">
             <li class="committee-member">
               <div class="diamond-image-border">
                 <div class="diamond overflow-hidden">
@@ -20,10 +20,16 @@ For every dcdw-committee-member located within site.dcdw-committee-members, a co
                 </div>
               </div>
               <div class="committee-member__details mt5">
-                <p class="ma0 f4 db">{{ committee-member.name }}</p>
-                <p class="ma0 mb3 f4 db">{{ committee-member.role }}</p>
+                <p class="ma0 f4 db">
+                  {{ committee-member.name }}
+                </p>
+                <p class="ma0 f4 db">
+                  {{ committee-member.role }}
+                </p>
                 {% if committee-member.email %}
-                <a class="ma0 f6 dib dcdw-primary" href="mailto:{{ committee-member.email }}" target="_top">{{ committee-member.email }}</a>
+                <a class="ma0 f6 dib dcdw-primary" href="mailto:{{ committee-member.email }}" target="_top">
+                  {{ committee-member.email }}
+                </a>
                 {% endif %}
               </div>
             </li>
