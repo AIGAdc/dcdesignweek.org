@@ -13,22 +13,22 @@
 
 <!-- event details -->
 <div class="event bg-white pa3">
-  <h3 class="ma0 f5 f4-m f3-l">
+  <h3 class="ma0 f5 f4-m f3-l fw4">
     {{ posts.title }}
   </h3>
   <hr class="title-divider">
-  <span class="ma0 f6 f5-m f4-l db">
+  <div class="ma0 f6 f5-m f4-l db fw4">
     <span class="dib w2 h2 relative" style="top:7.5px">
       {% include icons/time-icon.svg %}
     </span> 
     {{ posts.event.start-time }}
-  </span>
-  <span class="dt w-100">
+  </div>
+  <div class="dt w-100 fw4">
     <span class="dtc w2 h2 relative" style="top:7.5px">
       {% include icons/location-icon.svg %}
     </span>
     <span class="dtc ma0 mb1 f6 f5-m f4-l dtc">
       {{ posts.event.venue-name }}
     </span>
-  </span>
+  </div>
 </div>

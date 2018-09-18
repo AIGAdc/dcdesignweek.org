@@ -8,12 +8,12 @@
     </div>
 
     <div class="fl w-100 mb4">
-      <ul class="list ma0 pa0 cf" data-right-height>
+      <ul class="list ma0 pa0 cf">
         {% assign sorted_events = site.events %}
         {% for posts in sorted_events %}
           {% if posts.is-featured-on-home-page == true %}
-            <a class="home-event fl w-100 w-third-l relative pa3" href="{{posts.url}}" data-right-height-content>
-              <li class="home-event-card ma0 pa0 ba bw2 dcdw-primary">
+            <a class="home-event fl w-100 w-third-l relative pa3" href="{{posts.url}}">
+              <li class="home-event-card ma0 pa0 ba bw2 cloud">
                 {% include partials/events/events-card-contents.html %}
               </li>
             </a>

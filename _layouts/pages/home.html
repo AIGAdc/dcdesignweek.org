@@ -3,7 +3,7 @@ layout: default
 ---
 
 <main class="page-home overflow-hidden cf relative wysiwyg">
-  <section class="vh-50 vh-75-l flex tc relative bg-black">
+  <section class="vh-50 vh-75-l flex tc relative bg-monte-carlo" style="background-image: url('{{ page.hero-bg }}'); background-size: contain; background-position: center center;">
     <div class="flex-auto self-center">
       <div class="center db mw6">
         <img class="v-mid w-100 pa3 pa0-l" src="{{ page.hero-logo }}" alt="{{ page.hero-logo-alt }}">
@@ -12,7 +12,6 @@ layout: default
   </section>
   <section>
     <div class="cf">
-      {% include partials/introduction.html %}
       {% include partials/home/dc-is-design.html %}
       {% include partials/events/home/list.html %}
       {% include partials/sponsors/home/list.html %}

@@ -1,6 +1,6 @@
 .home-event-card,
 .event-card {
-	border: solid 3px $dcdw-primary;
+	border: solid 3px $cloud;
 	box-shadow: 0 0 $dcdw-secondary;
 	transition: all 200ms ease-in-out;
 	position: relative
@@ -9,7 +9,6 @@
 .home-event-card:hover,
 .event-card:hover {
 	transform: translateX(-8px);
-	border: solid 3px $dcdw-primary;
 	box-shadow: 8px 8px $dcdw-secondary;
 }
 

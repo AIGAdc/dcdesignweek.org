@@ -24,6 +24,7 @@ buttons:
   button-right-text:
 is-kickoff-saturday: true
 is-sold-out: true
+is-featured-on-home-page: true
 ---
 
 In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
