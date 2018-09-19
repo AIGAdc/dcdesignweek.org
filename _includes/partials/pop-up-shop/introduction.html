@@ -1,18 +1,20 @@
 <section class="dcdw-pop-up-shop fl w-100 mb5 mb6-ns">
-  <div class="mw8 center cf relative pa3">
-      <div class="fl w-100 w-10-l pa1 dn db-l"></div>
-      <div class="dcdw-pop-up-shop-content fl w-100 w-60-m w-50-l pa4 bg-white mt6">
-        <h2 class="ma0 f4 f3-ns">
-          {{ page.pop-up-shop-header-text }}
-        </h2>
-        <hr class="title-divider">
-        <span class="ma0 f5 f4-ns lh-copy black-80">
-          {{ page.pop-up-shop-body-text | markdownify }}
-        </span>
+  <div class="mw8 center cf relative">
+    <div class="fl w-100 w-10-l pa1 dn db-l">
+      <!-- empty column -->
+    </div>
+    <div class="dcdw-pop-up-shop-content bg-white fl w-100 w-60-m w-50-l pa4 mt6">
+      <h2 class="ma0 f4 f3-ns lh-copy">
+        {{ page.pop-up-shop-header }}
+      </h2>
+      <hr class="title-divider">
+      <div class="ma0 f5 f4-ns lh-copy">
+        {{ page.pop-up-shop-body | markdownify }}
       </div>
-
-      <div class="pop-up-shop-bg absolute" style="z-index: -9999;">
-        <img class="lazyload blur-up v-mid w-100 relative" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}" alt="{{ page.pop-up-shop-image-alt }}">
-      </div>
+    </div>
+    <div class="pop-up-shop-bg absolute" style="z-index: -10;">
+      <img class="lazyload blur-up v-mid w-100 relative" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}"
+        alt="{{ page.pop-up-shop-image-alt }}">
+    </div>
   </div>
 </section>

@@ -22,7 +22,7 @@
   line-height: 32px;
 }
 
-.wysiwyg p:not(last-child) {
+.wysiwyg p:not(:last-child) {
   margin: 0 0 24px 0;
 }
 
@@ -64,8 +64,6 @@
 
 .wysiwyg h2 {
   font-family: $monospace;
-  padding-bottom: 0.5em;
-  margin: 0;
 }
 
 .page-about.wysiwyg ul {
@@ -88,12 +86,12 @@
 }
 
 .title-divider {
-  border: solid 4px $cloud;
+  border: solid 4px $dcdw-primary;
   margin: 1em 0;
   width: 100%;
   max-width: 72px;
 }
 
 .wysiwyg hr {
-  margin: 2em 0 2.5em 0;
+  margin: 2em 0 2em 0;
 }

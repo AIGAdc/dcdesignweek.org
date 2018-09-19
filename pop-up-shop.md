@@ -2,15 +2,34 @@
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
 published: true
-description: 
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
 image: "/uploads/2018-OG-featuredimage.jpg"
 pop-up-shop-image: "/uploads/popUpShop-siteImg.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image
-pop-up-shop-header-text: Have Your Art Featured in Our DCDW Pop Up Shop!
-pop-up-shop-body-text: "Are you a designer or artist with pieces you’re ready to sell?
-  We want to help you sell your work to the design community at our pop up shop.\n\nSend
-  your product details and information to Torie at [torie@cherryblossomcreative.com](mailto:
-  torie@cherryblossomcreative.com) "
+pop-up-shop-header: Aenean sodales nulla ac semper consectetur
+pop-up-shop-body: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. 
+
+  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+gallery-opening-header: Aenean sodales nulla ac semper consectetur
+gallery-opening-body: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. 
+
+  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+gallery-opening-button-url: https://dc.aiga.org
+gallery-opening-button: Lorem Ipsum
+get-out-vote-header: Aenean sodales nulla ac semper consectetur
+get-out-vote-body: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
+
+  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+you-are-voting-header: Aenean sodales nulla ac semper consectetur
+you-are-voting-body: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
+
+  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+you-are-voting-button-url: https://dc.aiga.org
+you-are-voting-button: Lorem Ipsum
 layout: pages/pop-up-shop
 ---
 
@@ -18,9 +37,8 @@ layout: pages/pop-up-shop
 
 <hr class="title-divider">
 
-In addition to this year's events, we're opening our yearly DCDW Pop-Up Shop. We're taking over the [Cherry Blossom Creative](http://cherryblossomcreative.com/) storefront and filling it with items made by locals. Swing by shop, and support our neighborhood maker and creative community.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
 
-**Wed, Oct 26 — Sun, Oct 29 from noon to 8pm @ Cherry Blossom Creative
-2128 8th St NW, Washington, DC 20001**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
 
-We will throw a [low-key launch party](http://www.dcdesignweek.org/events/pop-up-shop-launch.html) on Thursday, Oct 26. Come hang out, drink beverages and meet the artists featuring work in the shop.
+Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
