@@ -4,30 +4,30 @@
     <h1 class="single-event--title relative ma0 f3 f2-m f1-l pr4 white lh-title">
       {{ page.title }}
     </h1>
-    <h2 class="single-event--detials ma0 f5 f4-m f3-l white p3 db relative mb1 pb4">
+    <h2 class="single-event--detials ma0 f5 f4-m f3-l white p3 db relative mb1 pb4 pt2">
       {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
     </h2>
 
     {% if page.buttons.has-left-button == true %}
-      <a href="{{ page.buttons.button-left-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
-        {{ page.buttons.button-left-text }}
-      </a> 
-    {% endif %} 
-      
+    <a href="{{ page.buttons.button-left-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
+      {{ page.buttons.button-left-text }}
+    </a>
+    {% endif %}
+
     {% if page.buttons.has-right-button == true %}
-      <a href="{{ page.buttons.button-right-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
-        {{ page.buttons.button-right-text }}
-      </a>
+    <a href="{{ page.buttons.button-right-url }}" class="ma0 btn btn--secondary-solid white mb3 dib">
+      {{ page.buttons.button-right-text }}
+    </a>
     {% endif %}
   </div>
 </section>
 
 {% if page.is-sold-out == true %}
-  <div class="sold-out">
-    <span>Sold Out!</span>
-    <span>Sold Out!</span>
-    <span>Sold Out!</span>
-    <span>Sold Out!</span>
-    <span>Sold Out!</span>
-  </div>
+<div class="sold-out white bg-flamingo tc ph3 pv2 fw9 db">
+  <span>Sold Out!</span>
+  <span>Sold Out!</span>
+  <span>Sold Out!</span>
+  <span>Sold Out!</span>
+  <span>Sold Out!</span>
+</div>
 {% endif %}

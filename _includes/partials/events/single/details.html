@@ -1,40 +1,50 @@
 {% if page.speaker-header %}
-<section class="single-event wysiwyg">
-{% else %}
-<section class="single-event wysiwyg mb5">
-{% endif %}
-  <div class="mw8 center cf pa3">
-    <div class="fl w-100 w-10-ns pa1 dn db-l"><!-- empy column --></div>
-    <div class="fl w-100 w-80-ns">
-      <h4 class="ma0 f3">
-        Details
-      </h4>
-      <hr class="title-divider">
-      <div class="fl w-100 w-50-ns">
-        <h4 class="ma0">
-          Date &amp; Time
-        </h4>
-        <p class="ma0">
-          {{ page.event.date | date: "%A, %B %d"}}
-        </p>
-        <p class="ma0">
-          {{ page.event.start-time }} - {{ page.event.end-time }}
-        </p>
+<section class="single-event bg-mint wysiwyg">
+  {% else %}
+  <section class="single-event bg-mint wysiwyg mb5">
+    {% endif %}
+    <div class="mw8 center cf pa3 pv4">
+      <div class="fl w-100 w-10-ns pa1 dn db-l">
+        <!-- empy column -->
       </div>
-      <div class="fl w-100 w-50-ns">
-        <h4 class="ma0">
-          Venue
-        </h4>
-        <p class="ma0">
-          {{ page.event.venue-name }}
-        </p>
-        <p class="ma0">
-          <a href="{{ page.event.venue-directions }}" target="_blank">
-            {{ page.event.venue-address }}
-          </a>
-        </p>
+      <div class="fl w-100 w-80-ns">
+        <h2 class="ma0 f4 f3-ns lh-copy">
+          Details
+        </h2>
+        <hr class="title-divider">
+        <div class="fl w-100 w-50-ns">
+          <h4 class="ma0">
+            Date &amp; Time
+          </h4>
+          <p class="ma0">
+            {{ page.event.date | date: "%A, %B %d"}}
+          </p>
+          <p class="ma0">
+            <span class="dib w2 h2 relative" style="top:7.5px">
+              {% include icons/time-icon.svg %}
+            </span>
+            {{ page.event.start-time }} - {{ page.event.end-time }}
+          </p>
+        </div>
+        <div class="fl w-100 w-50-ns">
+          <h4 class="ma0">
+            Venue
+          </h4>
+          <p class="ma0">
+            <span class="dtc w2 h2 relative" style="top:7.5px">
+              {% include icons/location-icon.svg %}
+            </span>
+            {{ page.event.venue-name }}
+          </p>
+          <p class="ma0">
+            <a href="{{ page.event.venue-directions }}" target="_blank">
+              {{ page.event.venue-address }}
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="fl w-100 w-10-ns pa1 dn db-l">
+        <!-- empty column -->
       </div>
     </div>
-    <div class="fl w-100 w-10-ns pa1 dn db-l"><!-- empty column --></div>
-  </div>
-</section>
+  </section>
