@@ -27,14 +27,13 @@ is-sold-out: true
 is-featured-on-home-page: true
 ---
 
-In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
 
-Walk-ins are welcome, but we recommend scheduling an appointment time (donation takes about 15 minutes). Halloween costumes are encouraged, but not required.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-On the day of donation, donors are asked to:
+* Integer pharetra neque a diam cursus pulvinar.
+* Suspendisse faucibus mi id accumsan lobortis.
+* Integer pharetra neque a diam cursus pulvinar.
+* Suspendisse faucibus mi id accumsan lobortis.
 
-* Drink plenty of fluids
-* Include iron-rich foods in their diet
-* Bring a list of medications they are taking and a photo ID
-
-Organizers: Carolyn Belefski, Troy-Jeffrey Allen
+Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.

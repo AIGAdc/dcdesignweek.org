@@ -1,18 +1,15 @@
 ---
-title: Cartoonists Draw Blood
+title: Aenean sodales nulla ac semper
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:
-  description: In association with American Red Cross and National Cartoonists Society,
-    Washington, DC area cartoonists have clotted together to help keep the local blood
-    banks well-stocked. All blood donors receive a complimentary cartoon sketch by
-    a Washington, DC area cartoonist.
+  description: In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
   og-image: "/uploads/pattern_wide.jpg"
 event:
   date: 2017-10-21 00:00:00 -04:00
-  venue-name: 'Palisades Community Church'
+  venue-name: Aenean sodales nulla ac semper consectetur
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
-  venue-address: "5200 Cathedral Avenue, NW \nWashington, DC 20016"
+  venue-address: 5200 Cathedral Avenue, NW \nWashington, DC 20016
   start-time: 8:00 am
   end-time: 12:00 pm
 buttons:
@@ -27,14 +24,13 @@ is-sold-out: true
 is-featured-on-home-page: true
 ---
 
-In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked. All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
 
-Walk-ins are welcome, but we recommend scheduling an appointment time (donation takes about 15 minutes). Halloween costumes are encouraged, but not required.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-On the day of donation, donors are asked to:
+* Integer pharetra neque a diam cursus pulvinar.
+* Suspendisse faucibus mi id accumsan lobortis.
+* Integer pharetra neque a diam cursus pulvinar.
+* Suspendisse faucibus mi id accumsan lobortis.
 
-* Drink plenty of fluids
-* Include iron-rich foods in their diet
-* Bring a list of medications they are taking and a photo ID
-
-Organizers: Carolyn Belefski, Troy-Jeffrey Allen
+Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
