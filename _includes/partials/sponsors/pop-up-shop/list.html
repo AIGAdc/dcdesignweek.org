@@ -1,6 +1,8 @@
 <section class="in-kind-donors mt5">
   <div class="mw8 center cf pa4 pa3-ns">
-    <div class="fl w-100 w-10-ns pa1 dn db-l"></div>
+    <div class="fl w-100 w-10-ns pa1 dn db-l">
+      <!-- empty column -->
+    </div>
     <div class="fl w-100 w-90-ns">
       <h2 class="ma0 f4 f3-ns lh-copy">
         Partners
@@ -11,12 +13,12 @@
       <!-- empty column -->
     </div>
     <div class="fl w-100 w-90-ns mt4">
-      <ul class="list ma0 pa0">
+      <ul class="list ma0 pa0 flex flex-column flex-row-l flex-wrap">
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
-          {% if posts.is-featured-on-shops-galleries-page == true %}
-            {% include partials/sponsors/sponsors-contents.html %}
-          {% endif %}
+        {% if posts.is-featured-on-shops-galleries-page == true %}
+        {% include partials/sponsors/content.html %}
+        {% endif %}
         {% endfor %}
       </ul>
     </div>

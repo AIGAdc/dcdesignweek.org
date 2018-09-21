@@ -11,11 +11,11 @@
     </div>
 
     <div class="fl w-100 mb2">
-      <ul class="list ma0 pa0">
+      <ul class="list ma0 pa0 flex flex-column flex-row-l flex-wrap">
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
           {% if posts.is-featured-on-home-page == true %}
-            {% include partials/sponsors/sponsors-contents.html %}
+            {% include partials/sponsors/content.html %}
           {% endif %}
         {% endfor %}
       </ul>
