@@ -1,44 +1,66 @@
 # This data yml file will loop through the DCDW creative team and display them in a 3 column grid.
 
 2018-team:
-  - image: /uploads/zen.png
-    name: Test
-    role: Designer
-    bio: |
-      Bio
+  - image: /uploads/dcdw-face-01.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
     dribbble-label: Dribbble
     website-url: example.com
     website-label: Website
-  - image: /uploads/zen.png
-    name: Test
-    role: Designer
-    bio: |
-      Bio
+  - image: /uploads/dcdw-face-02.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
     dribbble-label: Dribbble
     website-url: example.com
     website-label: Website
-  - image: /uploads/zen.png
-    name: Test
-    role: Designer
-    bio: |
-      Bio
+  - image: /uploads/dcdw-face-03.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
     dribbble-label: Dribbble
     website-url: example.com
     website-label: Website
-  - image: /uploads/zen.png
-    name: Test
-    role: Designer
-    bio: |
-      Bio
+  - image: /uploads/dcdw-face-04.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
+    instagram-url: example.com
+    instagram-label: Instagram
+    dribbble-url: example.com
+    dribbble-label: Dribbble
+    website-url: example.com
+    website-label: Website
+  - image: /uploads/dcdw-face-05.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
+    instagram-url: example.com
+    instagram-label: Instagram
+    dribbble-url: example.com
+    dribbble-label: Dribbble
+    website-url: example.com
+    website-label: Website
+  - image: /uploads/dcdw-face-06.png
+    name: Member Name
+    role: Member Role
+    bio: |-
+      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com

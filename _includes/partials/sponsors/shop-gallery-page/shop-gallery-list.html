@@ -12,7 +12,8 @@
     </div>
     <div class="fl w-100 w-90-ns mt4">
       <ul class="list ma0 pa0">
-        {% for posts in site.sponsors %}
+        {% assign sorted_sponsors = site.sponsors %}
+        {% for posts in sorted_sponsors %}
           {% if posts.is-featured-on-shops-galleries-page == true %}
             {% include partials/sponsors/sponsors-contents.html %}
           {% endif %}

@@ -5,7 +5,8 @@
       <span class="ma0 f5 f4-ns lh-copy">{{page.third-tier-sub-header-text | markdownify}}</span>
 
       <ul class="list ma0 pa0 mt5">
-        {% for posts in site.sponsors %}
+        {% assign sorted_sponsors = site.sponsors %}
+        {% for posts in sorted_sponsors %}
           {% if posts.is-third-tier == true %}
             {% include partials/sponsors/sponsors-contents.html %}
           {% endif %}

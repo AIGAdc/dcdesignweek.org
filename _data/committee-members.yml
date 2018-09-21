@@ -1,18 +1,48 @@
-# This data yml file will loop through the DCDW Committee members and display them in a 3 column grid.
+# This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 
 2018-committee:
-  - image: /uploads/zen.png
-    image-alt: Portrait of Zenyatta
-    name: Test
-    role: Executive Director
+  - image: /uploads/dcdw-face-01.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
     email:
-  - image: /uploads/zen.png
-    image-alt: Portrait of Zenyatta
-    name: Test
-    role: Executive Director
+  - image: /uploads/dcdw-face-02.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
     email:
-  - image: /uploads/zen.png
-    image-alt: Portrait of Zenyatta
-    name: Test
-    role: Executive Director
+  - image: /uploads/dcdw-face-03.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-04.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-05.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-06.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-07.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-08.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
+    email:
+  - image: /uploads/dcdw-face-09.png
+    image-alt: Member Portrait
+    name: Member Name
+    role: Member Role
     email:

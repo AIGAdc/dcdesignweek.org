@@ -1,4 +1,5 @@
-{% comment %} For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member will
+{% comment %} For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member
+will
 be printed onto the about page. {% endcomment %}
 <section class="dcdw-creative-team">
   <div class="mw8 center cf pa3">
@@ -9,13 +10,14 @@ be printed onto the about page. {% endcomment %}
     <div class="fl w-100">
       <ul class="list ma0 pa0 pv4 cf">
         {% for creative-member in site.data.creative-team.2018-team %}
-        <div class="fl w-100 w-50-l pv2 pv4-ns pa2">
+        <div class="fl w-100 w-third-l">
           <li class="team-member dib">
             <div class="diamond-image-border">
               <a class="dib ma0 f6" href="{{ creative-member.website-url }}" target="_blank">
                 <div class="diamond overflow-hidden">
                   <div class="diamond-los1">
-                    <img class="creative-team-portrait v-mid w-100 lazyload blur-up" data-src="{{ creative-member.image }}" src="{{ creative-member.image }}" />
+                    <img class="creative-team-portrait v-mid w-100 lazyload blur-up" data-src="{{ creative-member.image }}"
+                      src="{{ creative-member.image }}" />
                   </div>
                 </div>
               </a>
@@ -26,19 +28,22 @@ be printed onto the about page. {% endcomment %}
               </h3>
               <span class="ma0 f6 db">{{ creative-member.role }}</span>
               {% if creative-member.instagram-label %}
-              <a class="dib ma0 f6" href="{{ creative-member.instagram-url }}" target="_blank">{{ creative-member.instagram-label }}</a>
+              <a class="dib ma0 f6" href="{{ creative-member.instagram-url }}" target="_blank">{{
+                creative-member.instagram-label }}</a>
               {% endif %}
 
               {% if creative-member.twitter-label %}
-              / <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{ creative-member.twitter-label }}</a>
+              / <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{
+                creative-member.twitter-label }}</a>
               {% endif %}
 
               {% if creative-member.dribbble-label %}
-              / <a class="dib ma0 f6" href="{{ creative-member.dribbble-url }}" target="_blank">{{ creative-member.dribbble-label }}</a>
+              / <a class="dib ma0 f6" href="{{ creative-member.dribbble-url }}" target="_blank">{{
+                creative-member.dribbble-label }}</a>
               {% endif %}
               <span class="ma0 mt3 lh-copy db">
-                  {{ creative-member.bio | markdownify }}
-                </span>
+                {{ creative-member.bio | markdownify }}
+              </span>
             </div>
           </li>
         </div>
