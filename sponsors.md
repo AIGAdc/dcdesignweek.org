@@ -4,17 +4,15 @@ permalink: "/sponsors/"
 published: true
 description:
 image: {{ site.og-image }}
-first-tier-header-text: AIGA DC Sustaining Partners
-first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
-  enabling us to stay true to our mission: to advance designing as a professional
-  craft, strategic tool and vital cultural force.'
-second-tier-header-text: 'DCDW Partner Organizations '
-second-tier-sub-header-text: High fives and fist bumps to our DC Design Week partner
-  organizations who helped shape and produce the lineup of amazing events and content.
-second-tier-bg-color: "#fafafa"
-third-tier-header-text: In-Kind Donors
-third-tier-sub-header-text: Big thanks to our in-kind donors for your support and
-  generosity!
+first-tier-header: Tier 1
+first-tier-sub-header: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.
+second-tier-header: Tier 2
+second-tier-sub-header: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
+third-tier-header: Tier 3
+third-tier-sub-header: |-
+  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.
 sponsor-button-text: Join The List
 sponsor-button-link: rica@aigadc.org
 layout: sponsors

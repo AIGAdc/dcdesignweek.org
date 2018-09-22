@@ -8,12 +8,12 @@ hero-bg: /uploads/dcdw-pattern-1080.jpg
 hero-logo: /uploads/dcdw-lockup-hero.svg
 hero-logo-alt: DC Design Week Hero Logo, Time & Date
 dc-design-header: Lorem ipsum dolor
-dc-design-paragraph-text: |-
+dc-design-paragraph-1: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+dc-design-paragraph-2: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+dc-design-paragraph-3: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
 dc-is-design-image: /uploads/circle-02-still.png
 dc-is-design-image-alt: Circular illustration
 home-events-header: Featured Events
