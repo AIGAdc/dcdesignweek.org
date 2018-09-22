@@ -1,0 +1,14 @@
+{% if page.layout == "volunteer" %}
+<section class="bg-mint mt5 mt6-ns">
+{% else %}
+<section class="bg-mint">
+{% endif %}
+  <div class="mw7 center pv5 pa3 tc wysiwyg">
+    {% for content in site.data.footer.current-page %}
+    <h2 class="ma0 mb1 f4 f3-ns lh-copy tc">
+      {{ content.header | markdownify }}
+    </h2>
+    {{ content.text | markdownify }}
+    {% endfor %}
+  </div>
+</section>

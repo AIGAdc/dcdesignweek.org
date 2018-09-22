@@ -1,47 +1,5 @@
-<section class="site-footer cloud bg-monte-carlo relative">
-  <div class="mw7 center pv4 pa3 tc wysiwyg">
-    {% for content in site.data.footer.newsletter%}
-      <h2 class="ma0 mb1 f4 f3-ns lh-copy tc">
-        {{ content.header }}
-      </h2>
-      <p class="ma0 mb2 f5 f4-ns lh-copy tc">
-        {{ content.text | markdownify }}
-      </p>
-    {% endfor %}
-
-    {% include 3rd-party/mailchimp/form.html %}
-    {% include 3rd-party/mailchimp/scripts.html %}
-  </div>
-</section>
 <footer class="site-footer cloud bg-mindaro relative">
-  <div class="mw7 center pv5 pa3 tc wysiwyg">
-    {% for content in site.data.footer.current-page %}
-      <h2 class="ma0 mb1 f4 f3-ns lh-copy tc">
-        {{ content.header | markdownify }}
-      </h2>
-      {{ content.text | markdownify }}
-    {% endfor %}
-  </div>
-
-  <div class="site-footer__social bg-cloud flex flex-column flex-row-l items-center pa3">
-    <div class="w-100 w-third-l tc tl-l">
-      <a href="mailto:{{ site.email }}" target="_top" class="ma0 f6 f5-ns white">
-        {{ site.email }}
-      </a>
-    </div>
-    <div class="w-100 w-third-l pv3 pv0-l tc">
-      <ul class="list ma0 pl0">
-        {% for link in site.data.navigation.social-nav %}
-          <li class="dib dim link">
-            <a href="{{ link.url }}" class="ph2 v-mid white">{{ link.icon }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="w-100 w-third-l tc tr-l">
-      <p class="ma0 f6 f5-ns white">
-        {{ site.copyright }}
-      </p>
-    </div>
-  </div>
+  {% include partials/footer/volunteer.html %}
+  {% include partials/footer/newsletter.html %}
+  {% include partials/footer/social.html %}
 </footer>

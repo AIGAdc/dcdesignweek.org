@@ -13,7 +13,7 @@
 }
 
 #mc_embed_signup input:focus {
-  border: solid 4px $black !important;
+  border: solid 4px $dcdw-secondary !important;
 }
 
 #mce-responses {
@@ -38,8 +38,8 @@
 }
 
 #mc_embed_signup .button--mailchimp {
-  background-color: $black !important;
-  border: solid 4px $black !important;
+  background-color: $dcdw-secondary !important;
+  border: solid 4px transparent !important;
   border-radius: 0 !important;
   font-family: $monospace !important;
   margin: 0 !important;
@@ -50,19 +50,15 @@
   transition: all 200ms ease-out !important;
 }
 
-#mc_embed_signup .button--mailchimp:hover {
-  background-color: $black !important;
-  border: solid 4px $black !important;
-}
-
 #mc_embed_signup .asterisk {
-  color: $black !important;
-  font-size: 100% !important;
+  color: $white !important;
+  font-size: 16px !important;
   top: 2px !important;
 }
 
 .indicates-required {
   text-align: center !important;
+  color: $white !important;
 }
 
 #mc_embed_signup .indicates-required {
@@ -72,7 +68,7 @@
 /* shout outs to Sarah Drasner for sharing this CSS keyframe animation:
 https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid $black !important;
+  border: solid 4px $dcdw-secondary !important;
   animation: shake 500ms cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -80,6 +76,7 @@ https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 }
 
 @keyframes shake {
+
   10%,
   90% {
     transform: translate3d(-1px, 0, 0);

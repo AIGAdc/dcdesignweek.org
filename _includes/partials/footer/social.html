@@ -1,0 +1,21 @@
+<section class="bg-dcdw-primary flex flex-column flex-row-l items-center pa3">
+  <div class="w-100 w-third-l tc tl-l">
+    <a href="mailto:{{ site.email }}" target="_top" class="ma0 f6 f5-ns white">
+      {{ site.email }}
+    </a>
+  </div>
+  <div class="w-100 w-third-l pv3 pv0-l tc">
+    <ul class="list ma0 pl0">
+      {% for link in site.data.navigation.social-nav %}
+      <li class="dib dim link">
+        <a href="{{ link.url }}" class="ph2 v-mid white">{{ link.icon }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="w-100 w-third-l tc tr-l">
+    <p class="ma0 f6 f5-ns white">
+      {{ site.copyright }}
+    </p>
+  </div>
+</section>
