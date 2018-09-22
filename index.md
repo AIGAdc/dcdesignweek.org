@@ -31,5 +31,5 @@ home-partners-text: |-
   We couldn't do it without you!
 home-sponsors-url-text: Button Text
 home-sponsors-url: /sponsors/
-layout: pages/home
+layout: home
 ---

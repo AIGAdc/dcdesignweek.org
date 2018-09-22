@@ -17,7 +17,7 @@ third-tier-sub-header-text: Big thanks to our in-kind donors for your support an
   generosity!
 sponsor-button-text: Join The List
 sponsor-button-link: rica@aigadc.org
-layout: pages/sponsors
+layout: sponsors
 ---
 
 # Sponsors

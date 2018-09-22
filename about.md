@@ -22,7 +22,7 @@ committee-header: ‘18 DCDW Committee
 
 # creative-team
 creative-team-header: ‘18 DCDW Creative Team
-layout: pages/about
+layout: about
 ---
 
 # About

@@ -4,7 +4,7 @@ permalink: "/map/"
 published: true
 description:
 image: {{ site.og-image }}
-layout: pages/map
+layout: map
 ---
 
 # Maps

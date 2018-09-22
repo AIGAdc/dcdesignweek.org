@@ -9,7 +9,8 @@
   z-index: 0;
 }
 
-.pop-up-shop-content {
+.pop-up-shop-content,
+.get-out-the-vote-content {
   left: 0;
   position: relative;
   z-index: 10;
@@ -21,7 +22,8 @@
     position: absolute;
   }
 
-  .pop-up-shop-content {
+  .pop-up-shop-content,
+  .get-out-the-vote-content {
     top: 120px;
     left: 72px;
   }

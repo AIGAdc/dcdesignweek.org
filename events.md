@@ -34,7 +34,7 @@ day-8: friday
 day-8-label: Friday, Oct 27
 day-9: saturday-end
 day-9-label: Saturday, Oct 28
-layout: pages/events
+layout: events
 ---
 
 # Events

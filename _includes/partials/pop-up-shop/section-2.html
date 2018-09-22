@@ -1,28 +1,22 @@
 <!-- section 2: gallery opening -->
-<section class="gallery-opening mv6">
-  <div class="mw8 center cf pa4 pa3-ns">
-    <div class="gallery-opening-wrapper">
-      <div class="fl w-100 w-30-ns">
-        <div class="diamond-image-border relative">
-          <div class="diamond overflow-hidden">
-            <div class="diamond-los1">
-              <img class="image" src="{{ page.gallery-opening-image }}" alt="{{ page.gallery-opening-image-alt }}" />
-            </div>
+<section class="gallery-opening mb5 mb6-ns cf relative">
+  <div class="gallery-opening-wrapper">
+    <div class="fl w-100 w-30-ns">
+      <div class="diamond-image-border relative">
+        <div class="diamond overflow-hidden">
+          <div class="diamond-los1">
+            <img class="image" src="{{ page.gallery-opening-image }}" alt="{{ page.gallery-opening-image-alt }}" />
           </div>
         </div>
       </div>
-      <div class="fl w-100 w-70-ns">
-        <h2 class="ma0 f4 f3-ns lh-copy">
-          {{ page.gallery-opening-header }}
-        </h2>
-        <hr class="title-divider">
-        <div class="ma0 f5 f4-ns lh-copy">
-          {{ page.gallery-opening-body | markdownify }}
-        </div>
-        <a href="{{ page.gallery-opening-button-url }}" target="_blank" class="ma0 dib mt3 btn btn--primary-border">
-          {{ page.gallery-opening-button }}
-        </a>
-      </div>
+    </div>
+    <div class="fl w-100 w-70-ns">
+      <h2>{{ page.gallery-opening-header }}</h2>
+      <hr>
+      {{ page.gallery-opening-body | markdownify }}
+      <a href="{{ page.gallery-opening-button-url }}" target="_blank" class="btn btn--primary-border dib mt3">
+        {{ page.gallery-opening-button }}
+      </a>
     </div>
   </div>
 </section>

@@ -1,9 +1,9 @@
 <!-- featured: home events -->
-<section class="events bg-white mb4 mb5-l cf relative">
+<section class="events mb5 mb6-ns cf relative">
   <div class="mw8 center pa3">
     <h2>{{ page.home-events-header }}</h2>
     <hr>
-    <ul class="events-list list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
+    <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
       {% assign sorted_events = site.events %}
       {% for posts in sorted_events %}
       {% if posts.is-featured-on-home-page == true %}
