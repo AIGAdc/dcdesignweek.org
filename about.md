@@ -8,7 +8,7 @@ image: {{ site.og-image }}
 # collaboration
 collaboration-bg-image: https://picsum.photos/800/400/?random
 collaboration-bg-image-alt: Group photo of AIGA DC Team
-collaboration-content-image: /uploads/img_dc-x-aigadc.png
+collaboration-content-image: /uploads/dcdw-lockup-collaboration.png
 collaboration-content-image-alt: DC Flag and AIGA DC Logo
 collaboration-content-body: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.

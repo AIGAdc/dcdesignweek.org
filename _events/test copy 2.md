@@ -7,7 +7,7 @@ seo:
     Washington, DC area cartoonists have clotted together to help keep the local blood
     banks well-stocked. All blood donors receive a complimentary cartoon sketch by
     a Washington, DC area cartoonist.
-  og-image: "/uploads/pattern_wide.jpg"
+  og-image: "/uploads/dcdw-pattern-1080.jpg"
 event:
   date: 2017-10-21 00:00:00 -04:00
   venue-name: 'Palisades Community Church'
@@ -24,7 +24,7 @@ buttons:
   button-right-text:
 is-kickoff-saturday: true
 is-sold-out: true
-is-featured-on-home-page: 
+is-featured-on-home-page:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.

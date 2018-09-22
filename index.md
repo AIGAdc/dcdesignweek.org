@@ -4,8 +4,8 @@ permalink: "/"
 published: true
 description:
 image: {{ site.og-image }}
-hero-bg: /uploads/dcdw-pattern.jpg
-hero-logo: /uploads/dcdw-primary-lockup.svg
+hero-bg: /uploads/dcdw-pattern-1080.jpg
+hero-logo: /uploads/dcdw-lockup-hero.svg
 hero-logo-alt: DC Design Week Hero Logo, Time & Date
 dc-design-header: Lorem ipsum dolor
 dc-design-paragraph-text: |-
