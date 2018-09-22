@@ -21,13 +21,30 @@
   padding-bottom: 0;
 }
 
+.wysiwyg hr,
 .title-divider {
   border: solid 4px $dcdw-primary;
-  margin: 1em 0;
-  width: 100%;
+  margin: 2em 0 2em 0;
   max-width: 72px;
+  width: 100%;
 }
 
-.wysiwyg hr {
-  margin: 2em 0 2em 0;
+.wysiwyg h1 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.5;
+}
+
+.wysiwyg p {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 30em) {
+  .wysiwyg h1 {
+    font-size: 2.25rem; /* 36px */
+  }
+
+  .wysiwyg p {
+    font-size: 1.25rem; /* 20px */
+  }
 }
