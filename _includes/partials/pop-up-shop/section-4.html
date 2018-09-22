@@ -1,0 +1,15 @@
+<!-- section 4: you are voting -->
+<section class="you-are-voting mb4 mb6-l relative cf">
+  <div class="you-are-voting-img fl w-100 w-30-ns pr0 pr4-ns mb3 relative">
+    <img class="lazyload blur-up v-mid w-100 relative" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}"
+      alt="{{ page.pop-up-shop-image-alt }}">
+  </div>
+  <div class="fl w-100 w-70-l">
+    <h2>{{ page.you-are-voting-header }}</h2>
+    <hr>
+    {{ page.you-are-voting-body | markdownify }}
+    <a href="{{ page.you-are-voting-button-url }}" target="_blank" class="ma0 mt4 dib btn btn--primary-border">
+      {{ page.you-are-voting-button }}
+    </a>
+  </div>
+</section>

@@ -3,7 +3,7 @@ title: Home
 permalink: "/"
 published: true
 description:
-image: /uploads/dcdw-pattern.jpg
+image: {{ site.og-image }}
 hero-bg: /uploads/dcdw-pattern.jpg
 hero-logo: /uploads/dcdw-primary-lockup.svg
 hero-logo-alt: DC Design Week Hero Logo, Time & Date

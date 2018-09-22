@@ -3,7 +3,7 @@ title: Sponsors
 permalink: "/sponsors/"
 published: true
 description:
-image: "/uploads/2018-OG-featuredimage.jpg"
+image: {{ site.og-image }}
 first-tier-header-text: AIGA DC Sustaining Partners
 first-tier-sub-header-text: 'Sustaining Partners support AIGA DC for a full year,
   enabling us to stay true to our mission: to advance designing as a professional

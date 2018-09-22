@@ -5,6 +5,10 @@ layout: default
 <main class="page-sponsors wysiwyg">
   <div class="mw8 center cf pa3">
     {% include partials/introduction.html %}
-    {% include partials/sponsors/list.html %}
+    {% include partials/sponsors/tiers/list.html %}
+
+    <section>
+      <a href="mailto:{{page.sponsor-button-url}}" target="_top" class="btn btn--primary-border ma0 mt4 dib">{{page.sponsor-button-text}}</a>
+    </section>
   </div>
 </main>

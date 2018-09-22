@@ -1,13 +1,9 @@
 <section class="home-sponsors relative bg-white fl w-100 mb6 wysiwyg">
   <div class="mw8 center cf pa3">
     <div class="fl w-100 w-80-l">
-      <h2 class="ma0 f3 f2-ns lh-copy">
-        {{ page.home-partners-header }}
-      </h2>
-      <hr class="title-divider">
-      <div class="ma0 f5 f4-ns lh-copy">
-        {{ page.home-partners-text | markdownify }}
-      </div>
+      <h2>{{ page.home-partners-header }}</h2>
+      <hr>
+      {{ page.home-partners-text | markdownify }}
     </div>
 
     <div class="fl w-100 mb2">
@@ -15,7 +11,7 @@
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
         {% if posts.is-featured-on-home-page == true %}
-        {% include partials/sponsors/content.html %}
+        {% include partials/sponsors/tiers/content.html %}
         {% endif %}
         {% endfor %}
       </ul>

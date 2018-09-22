@@ -6,7 +6,7 @@ description:
 image: {{ site.og-image }}
 
 # collaboration
-collaboration-bg-image: /uploads/dcdw-about.png
+collaboration-bg-image: https://picsum.photos/800/400/?random
 collaboration-bg-image-alt: Group photo of AIGA DC Team
 collaboration-content-image: /uploads/img_dc-x-aigadc.png
 collaboration-content-image-alt: DC Flag and AIGA DC Logo
