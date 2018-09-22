@@ -1,0 +1,56 @@
+.shadow,
+.shadow-reverse {
+  transition: all 100ms ease-out;
+}
+
+.shadow {
+  &--dcdw-primary {
+    box-shadow: 20px 25px $dcdw-primary;
+  }
+
+  &--dcdw-primary:hover {
+    box-shadow: 0px 0px $dcdw-primary;
+  }
+
+  &--dcdw-secondary {
+    box-shadow: 20px 25px $dcdw-secondary;
+  }
+
+  &--dcdw-secondary:hover {
+    box-shadow: 0px 0px $dcdw-secondary;
+  }
+
+  &--rose-bud {
+    box-shadow: 20px 25px $rose-bud;
+  }
+
+  &--rose-bud:hover {
+    box-shadow: 0px 0px $rose-bud;
+  }
+}
+
+.shadow-reverse {
+  &--dcdw-primary {
+    box-shadow: 0 0 $dcdw-primary;
+  }
+
+  &--dcdw-primary:hover {
+    box-shadow: 20px 25px $dcdw-primary;
+  }
+
+  &--dcdw-secondary {
+    box-shadow: 0 0 $dcdw-secondary;
+  }
+
+  &--dcdw-secondary:hover {
+    box-shadow: 20px 25px $dcdw-secondary;
+  }
+
+  &--rose-bud {
+    box-shadow: 0 0 $rose-bud;
+  }
+
+  &--rose-bud:hover {
+    box-shadow: 20px 25px $rose-bud;
+  }
+}

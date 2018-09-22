@@ -3,20 +3,6 @@
   left: -50px;
 }
 
-.dcdw-pop-up-shop-content,
-.dcdw-get-out-the-vote-content,
-.dcdw-about-content {
-  border: solid 4px $cloud;
-  box-shadow: 20px 25px $rose-bud;
-  transition: all 100ms ease-out; 
-}
-
-.dcdw-pop-up-shop-content:hover,
-.dcdw-get-out-the-vote-content:hover,
-.dcdw-about-content:hover {
-  box-shadow: 0px 0px $rose-bud;
-}
-
 @media screen and (min-width: 960px) {
   .get-out-the-vote-bg-wrapper {
     left: -25px;

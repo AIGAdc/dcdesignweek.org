@@ -1,5 +1,5 @@
 .collaboration__introduction {
-  border: solid 4px $dcdw-primary;
+  left: 0;
   position: relative;
   z-index: 10;
 }
@@ -15,6 +15,11 @@
 }
 
 @media screen and (min-width: 1023px) {
+  .collaboration__introduction {
+    top: 120px;
+    left: 72px;
+  }
+
   .collaboration__introduction-bg {
     top: 0;
     right: 0;
