@@ -1,17 +1,21 @@
-<section class="collaboration">
-  <div class="mw8 center cf pa3 relative">
-    <div class="fl w-100 w-10-l pa1 dn db-l"><!-- empty column --></div>
-    <div class="collaboration__introduction fl w-100 w-75-m w-60-l pa4 mv5 mb5-ns bg-white">
-      <div class="collaboration__introduction-logo mb4">
-        <img class="v-mid lazyload blur-up" data-src="{{ page.collaboration-content-image }}" src="{{ page.collaboration-content-image }}" alt="{{ page.collaboration-content-image-alt }}">
-      </div>
-      {{ page.collaboration-content-body | markdownify }}
-      <a href="{{ page.collaboration-content-button-url }}" class="btn btn--primary-solid mt2" target="_blank">
-        {{ page.collaboration-content-button-text }}
-      </a>
+<section class="collaboration mb4 mb6-l relative cf">
+  <div class="collaboration__introduction-bg">
+    <img class="v-mid lazyload blur-up" data-src="{{ page.collaboration-bg-image }}" src="{{ page.collaboration-bg-image }}"
+      alt="{{ page.collaboration-bg-image-alt }}">
+  </div>
+  <div class="collaboration__introduction fl w-100 w-75-m w-60-l pa4 mv4 mb6-l
+    bg-white">
+    <div class="collaboration__introduction-logo mb4">
+      <img class="v-mid lazyload blur-up" data-src="{{
+      page.collaboration-content-image }}" src="{{
+      page.collaboration-content-image }}"
+        alt="{{
+      page.collaboration-content-image-alt }}">
     </div>
-    <div class="collaboration__introduction-bg">
-      <img class="v-mid lazyload blur-up" data-src="{{ page.collaboration-bg-image }}" src="{{ page.collaboration-bg-image }}" alt="{{ page.collaboration-bg-image-alt }}">
-    </div>
+    {{ page.collaboration-content-body | markdownify }}
+    <a href="{{ page.collaboration-content-button-url }}" class="btn
+    btn--primary-solid mt2 db dib-l" target="_blank">
+      {{ page.collaboration-content-button-text }}
+    </a>
   </div>
 </section>

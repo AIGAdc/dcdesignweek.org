@@ -14,6 +14,9 @@
     color: $black;
     text-transform: uppercase;
   }
+  &--header-link:hover {
+    color: $dcdw-primary;
+  }
 
   &--header-link::after {
     content: '';
@@ -24,9 +27,8 @@
     transition: all 150ms ease-in;
     transform: translateY(0);
   }
-
   &--header-link:hover::after {
-    background-color: $black;
+    background-color: $dcdw-primary;
     transform: translateY(8px);
   }
 
@@ -66,4 +68,8 @@
     background-color: $dcdw-secondary;
     color: $white;
   }
+}
+
+.current-link {
+  color: #baada7;
 }

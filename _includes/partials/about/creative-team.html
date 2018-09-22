@@ -1,54 +1,48 @@
-{% comment %} For every dcdw-creative-team-member located within site.dcdw-creative-team-member, a creative team member
-will
-be printed onto the about page. {% endcomment %}
-<section class="dcdw-creative-team">
-  <div class="mw8 center cf pa3">
-    <h3 class="ma0 f5 f4-m f3-l">
-      {{ page.creative-team-header }}
-    </h3>
-    <hr class="title-divider">
-    <div class="fl w-100">
-      <ul class="list ma0 pa0 pv4 cf">
-        {% for creative-member in site.data.creative-team.2018-team %}
-        <div class="fl w-100 w-third-l">
-          <li class="team-member dib">
-            <div class="diamond-image-border">
-              <a class="dib ma0 f6" href="{{ creative-member.website-url }}" target="_blank">
-                <div class="diamond overflow-hidden">
-                  <div class="diamond-los1">
-                    <img class="creative-team-portrait v-mid w-100 lazyload blur-up" data-src="{{ creative-member.image }}"
-                      src="{{ creative-member.image }}" />
-                  </div>
-                </div>
-              </a>
+<section class="members mb4 mb6-l relative cf">
+  <h2 class="ma0 f4 f3-ns lh-copy">
+    {{ page.creative-team-header }}
+  </h2>
+  <hr class="title-divider">
+  <ul class="members--list list ma0 mt5 pa0 cf">
+    {% for creative-member in site.data.members.2018-creative-team %}
+    <div class="fl w-100 w-50-m w-third-l">
+      <li class="member list-none db dib-;">
+        <div class="diamond-image-border">
+          <div class="diamond overflow-hidden">
+            <div class="diamond-los1">
+              <img class="member--portrait lazyload blur-up" data-src="{{ creative-member.image }}" src="{{ creative-member.image }}"
+                alt="{{ creative-member.image-alt }}" />
             </div>
-            <div class="team-member-details-wrapper relative mt5">
-              <h3 class="ma0 f5 f4-m f3-l">
-                {{ creative-member.name }}
-              </h3>
-              <span class="ma0 f6 db">{{ creative-member.role }}</span>
-              {% if creative-member.instagram-label %}
-              <a class="dib ma0 f6" href="{{ creative-member.instagram-url }}" target="_blank">{{
-                creative-member.instagram-label }}</a>
-              {% endif %}
-
-              {% if creative-member.twitter-label %}
-              / <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{
-                creative-member.twitter-label }}</a>
-              {% endif %}
-
-              {% if creative-member.dribbble-label %}
-              / <a class="dib ma0 f6" href="{{ creative-member.dribbble-url }}" target="_blank">{{
-                creative-member.dribbble-label }}</a>
-              {% endif %}
-              <span class="ma0 mt3 lh-copy db">
-                {{ creative-member.bio | markdownify }}
-              </span>
-            </div>
-          </li>
+          </div>
         </div>
-        {% endfor %}
-      </ul>
+        <div class="member-details relative mv5 tc">
+          <h3 class="ma0 f4 f3-ns">
+            {{ creative-member.name }}
+          </h3>
+          <p class="ma0 f7 f6-ns">
+            {{ creative-member.role }}
+          </p>
+          <p class="ma0 f7 f6-ns lh-copy">
+            {{ creative-member.bio }}
+          </p>
+
+          {% if creative-member.instagram-label %}
+          <a class="dib ma0 f6" href="{{ creative-member.instagram-url }}" target="_blank">{{
+            creative-member.instagram-label }}</a>
+          {% endif %}
+
+          {% if creative-member.twitter-label %}
+          / <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{
+            creative-member.twitter-label }}</a>
+          {% endif %}
+
+          {% if creative-member.dribbble-label %}
+          / <a class="dib ma0 f6" href="{{ creative-member.dribbble-url }}" target="_blank">{{
+            creative-member.dribbble-label }}</a>
+          {% endif %}
+        </div>
+      </li>
     </div>
-  </div>
+    {% endfor %}
+  </ul>
 </section>

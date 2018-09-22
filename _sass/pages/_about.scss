@@ -5,34 +5,23 @@
 }
 
 .collaboration__introduction-bg {
-  left: -100px;
-  right: -100px;
-  top: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
   max-height: 400px;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   z-index: 0;
 }
 
-.collaboration__introduction-bg img {
-  min-width: 800px;
-}
-
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1023px) {
   .collaboration__introduction-bg {
-    left: 0;
-    right: 0;
-    top: -75px;
-  }
-
-  .collaboration__introduction-bg img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .collaboration__introduction-bg {
-    left: 50px;
     top: 0;
+    right: 0;
+    left: 0;
+    max-height: 400px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
   }
 }
