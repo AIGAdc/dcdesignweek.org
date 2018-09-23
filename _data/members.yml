@@ -4,55 +4,53 @@
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email:
+    email: email@member.com
 
 # This data yml file will loop through the DCDW creative team and display them in a 3 column grid.
 2018-creative-team:
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
@@ -62,8 +60,6 @@
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
@@ -73,8 +69,6 @@
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
@@ -84,8 +78,6 @@
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
@@ -95,8 +87,6 @@
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
@@ -106,8 +96,6 @@
   - image: https://picsum.photos/800/?random
     name: Member Name
     role: Member Role
-    bio: |-
-      Member Bio
     instagram-url: example.com
     instagram-label: Instagram
     dribbble-url: example.com
