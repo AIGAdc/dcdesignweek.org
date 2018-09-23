@@ -46,7 +46,6 @@ defaults:
         is-sold-out:
         is-featured-on-home-page:
         is-featured-on-events-page:
-        is-half-feature:
         is-day-1:
         is-day-2:
         is-day-3:
