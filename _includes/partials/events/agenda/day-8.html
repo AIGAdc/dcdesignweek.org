@@ -1,0 +1,24 @@
+<div class="fl w-100 mb4">
+  <h2>{{ page.day-8-label }}</h2>
+  <ul class="list ma0 pa0">
+    {% assign sorted = (site.events | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.is-day-8 == true %}
+    {% if posts.is-half-feature == true %}
+    <a class="fl w-100 w-two-thirds-l relative pa0 pa3-ns mb3 mb0-ns {{ page.day-8 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}"
+      href="{{posts.url}}">
+      {% elsif posts.is-featured-on-events-page == true %}
+      <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns {{ page.day-8 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}"
+        href="{{posts.url}}">
+        {% else %}
+        <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns {{ page.day-8 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}"
+          href="{{posts.url}}">
+          {% endif %}
+          <li class="list-none border border--cloud shadow shadow-reverse--rose-bud ma0 pa0 ba bw2 dcdw-primary bg-white">
+            {% include partials/events/events-card-contents.html %}
+          </li>
+        </a>
+        {% endif %}
+        {% endfor %}
+  </ul>
+</div>

@@ -19,7 +19,15 @@ buttons:
   has-right-button: false
   button-right-url:
   button-right-text:
-is-kickoff-saturday: true
+is-day-1: true
+is-day-2: true
+is-day-3: true
+is-day-4: true
+is-day-5: true
+is-day-6: true
+is-day-7: true
+is-day-8: true
+is-day-9: true
 is-sold-out: true
 is-featured-on-home-page: true
 layout: events-single

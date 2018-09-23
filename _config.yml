@@ -47,14 +47,15 @@ defaults:
         is-featured-on-home-page:
         is-featured-on-events-page:
         is-half-feature:
-        is-kickoff-friday:
-        is-sunday:
-        is-monday:
-        is-tuesday:
-        is-wednesday:
-        is-thursday:
-        is-friday:
-        is-saturday:
+        is-day-1:
+        is-day-2:
+        is-day-3:
+        is-day-4:
+        is-day-5:
+        is-day-6:
+        is-day-7:
+        is-day-8:
+        is-day-9:
       layout: singles/event
   - scope:
       path: ''

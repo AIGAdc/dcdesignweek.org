@@ -1,0 +1,18 @@
+<form class="controls tc mb5 mb6-ns">
+  <fieldset data-filter-group class="control-group w-100 flex justify-between">
+    {% for control in site.data.agenda.controls %}
+    <button type="button" class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %} tc" data-filter="{{ control.filter }}">
+      <span class="control-text-1 db">{{ control.text-1 }}</span>
+      <span class="control-text-2 db">{{ control.text-2 }}</span>
+    </button>
+    {% endfor %}
+  </fieldset>
+
+  <div class="control-group mt3 relative">
+    {% comment %}
+    <button type="button" class="control control-sort" data-sort="default:asc">Early Events</button>
+    <button type="button" class="control control-sort" data-sort="default:desc">Later Events</button>
+    {% endcomment %}
+    <button type="reset" class="control control-text">View Full Week</button>
+  </div>
+</form>

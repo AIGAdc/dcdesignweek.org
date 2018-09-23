@@ -1,0 +1,56 @@
+/* Controls
+---------------------------------------------------------------------- */
+
+.controls {
+  // empty for now
+}
+
+.control-group {
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.control {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: $monospace;
+  padding: 16px;
+  transition: background 150ms;
+}
+
+span.control-text-1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+span.control-text-1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.mixitup-control-active {
+  background: $mint;
+  color: $dcdw-primary;
+}
+
+/* Target Elements
+---------------------------------------------------------------------- */
+
+.mix {
+  background: #fff;
+  display: block;
+  width: 100%;
+}
+
+.mix:before {
+  content: '';
+  display: inline-block;
+  padding-top: 100%;
+}
+
+.mix:after {
+  content: '';
+  position: absolute;
+}

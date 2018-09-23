@@ -68,6 +68,23 @@
     background-color: $dcdw-secondary;
     color: $white;
   }
+
+  &--disabled {
+    cursor: disabled;
+    pointer-events: none;
+    position: relative;
+  }
+
+  &--disabled::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $rose-bud;
+    opacity: 0.5;
+  }
 }
 
 .current-link {

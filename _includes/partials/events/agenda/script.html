@@ -1,0 +1,15 @@
+<script src="/assets/js/mixitup.min.js"></script>
+<script src="/assets/js/mixitup-multifilter.min.js"></script>
+
+<script>
+  var containerEl = document.querySelector('.container');
+
+  var mixer = mixitup(containerEl, {
+    multifilter: {
+      enable: true
+    },
+    animation: {
+      effects: 'fade translateZ(-100px)'
+    }
+  });
+</script>

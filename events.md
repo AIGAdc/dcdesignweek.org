@@ -4,6 +4,7 @@ permalink: "/events/"
 published: true
 description:
 image: {{ site.og-image }}
+
 category-1: tours
 category-1-label: Tours
 category-2: lectures
@@ -16,33 +17,18 @@ category-5: parties
 category-5-label: Parties
 category-6: member-first
 category-6-label: Members First
-day-1: friday-beginning
-day-1-label: Friday, Oct 20
-day-2: saturday-beginning
-day-2-label: Saturday, Oct 21
-day-3: sunday
-day-3-label: Sunday, Oct 22
-day-4: monday
-day-4-label: Monday, Oct 23
-day-5: tuesday
-day-5-label: Tuesday, Oct 24
-day-6: wednesday
-day-6-label: Wednesday, Oct 25
-day-7: thursday
-day-7-label: Thursday, Oct 26
-day-8: friday
-day-8-label: Friday, Oct 27
-day-9: saturday-end
-day-9-label: Saturday, Oct 28
+day-1-label: Saturday, Oct 20
+day-2-label: Sunday, Oct 21
+day-3-label: Monday, Oct 22
+day-4-label: Tuesday, Oct 23
+day-5-label: Wednesday, Oct 24
+day-6-label: Thursday, Oct 25
+day-7-label: Friday, Oct 26
+day-8-label: Saturday, Oct 27
+day-9-label: Sunday, Oct 28
 layout: events
 ---
 
 # Events
 
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
