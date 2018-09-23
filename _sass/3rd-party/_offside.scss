@@ -38,9 +38,6 @@
 .offside--left.is-open,
 .offside-js--is-left .offside-sliding-element {
   -webkit-transform: translate3d(200px, 0, 0);
-  -moz-transform: translate3d(200px, 0, 0);
-  -ms-transform: translate3d(200px, 0, 0);
-  -o-transform: translate3d(200px, 0, 0);
   transform: translate3d(200px, 0, 0);
 }
 
@@ -52,9 +49,6 @@
 .offside--right.is-open,
 .offside-js--is-right .offside-sliding-element {
   -webkit-transform: translate3d(-200px, 0, 0);
-  -moz-transform: translate3d(-200px, 0, 0);
-  -ms-transform: translate3d(-200px, 0, 0);
-  -o-transform: translate3d(-200px, 0, 0);
   transform: translate3d(-200px, 0, 0);
 }
 
@@ -62,9 +56,9 @@
 .offside-js--interact .offside,
 .offside-js--interact .offside-sliding-element {
   -webkit-transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
-  -moz-transition: -moz-transform .2s cubic-bezier(.16, .68, .43, .99);
-  -o-transition: -o-transform .2s cubic-bezier(.16, .68, .43, .99);
+  transition: -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
   transition: transform .2s cubic-bezier(.16, .68, .43, .99);
+  transition: transform .2s cubic-bezier(.16, .68, .43, .99), -webkit-transform .2s cubic-bezier(.16, .68, .43, .99);
   /* improves performance issues on mobile*/
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
