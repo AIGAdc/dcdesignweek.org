@@ -7,6 +7,7 @@
   letter-spacing: 2px;
   padding: 12px 18px;
   text-decoration: none;
+  -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
 
   /* .btn .btn--header-link */
@@ -24,12 +25,15 @@
     width: 100%;
     height: 4px;
     background-color: none;
+    -webkit-transition: all 150ms ease-in;
     transition: all 150ms ease-in;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   &--header-link:hover::after {
     background-color: $dcdw-primary;
-    transform: translateY(8px);
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
   }
 
   /* .btn .btn--primary-solid */

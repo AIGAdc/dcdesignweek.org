@@ -15,17 +15,14 @@ styles: true
 @import "components/header";
 @import "components/buttons";
 @import "components/diamond-images";
-@import "components/lists";
-@import "components/footer";
 
-@import "pages/events";
-@import "pages/single-event";
 @import "pages/pop-up-shop";
 @import "pages/sponsors";
 @import "pages/about";
 
 @import "utilities/borders";
 @import "utilities/flourishes";
+@import "utilities/lists";
 @import "utilities/shadows";
 
 @import "3rd-party/lazysizes";
