@@ -1,21 +1,11 @@
 <div class="fl w-100 mb4">
   <h2>{{ page.day-4-label }}</h2>
-  <ul class="list ma0 pa0">
+  <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
     {% assign sorted = (site.events | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.is-day-4 == true %}
-    {% if posts.is-featured-on-events-page == true %}
-    <a class="fl w-100 relative pa0 pa3-ns mb3 mb0-ns {{ page.day-4 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}"
-      href="{{posts.url}}">
-      {% else %}
-      <a class="fl w-100 w-third-l relative pa0 pa3-ns mb3 mb0-ns {{ page.day-4 }} {% if posts.category contains 'members-first' %} {% else %} {{ posts.category }} {% endif %}"
-        href="{{posts.url}}">
-        {% endif %}
-        <li class="list-none border border--cloud shadow shadow-reverse--dcdw-secondary ma0 pa0 ba bw2 dcdw-primary bg-white">
-          {% include partials/events/card/content.html %}
-        </li>
-      </a>
-      {% endif %}
-      {% endfor %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
   </ul>
 </div>

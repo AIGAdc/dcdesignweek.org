@@ -7,11 +7,7 @@
       {% assign sorted_events = site.events %}
       {% for posts in sorted_events %}
       {% if posts.is-featured-on-home-page == true %}
-      <a class="event-url w-100 w-third-l relative mb4 mb0-l pa0 pa3-l" href="{{posts.url}}">
-        <li class="event-card list-none ma0 pa0 ba bw2 cloud border border--cloud shadow-reverse shadow-reverse--dcdw-secondary">
-          {% include partials/events/card/content.html %}
-        </li>
-      </a>
+      {% include partials/events/card/content.html %}
       {% endif %}
       {% endfor %}
     </ul>

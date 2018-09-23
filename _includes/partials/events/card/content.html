@@ -1,34 +1,40 @@
-<!-- event image -->
-<div class="relative">
-  <div class="h4 overflow-hidden">
-    <img src="{{ posts.seo.og-image }}">
-  </div>
-  <!-- event sold out -->
-  {% if posts.is-sold-out == true %}
-  <div class="sold-out bg-flamingo white tc absolute top-0 right-0 bottom-0 left-0" style="opacity: 1">
-    <p>Sold Out!</p>
-  </div>
-  {% endif %}
-</div>
+<div class="fl w-100 w-third-l pa3">
+  <a class="border border--cloud shadow shadow-reverse--dcdw-secondary db" href="{{posts.url}}">
+    <li class="list-none bg-white">
+      <div class="relative">
+        <div class="h4 overflow-hidden">
+          <img src="{{ posts.seo.og-image }}">
+        </div>
+        <!-- event sold out -->
+        {% if posts.is-sold-out == true %}
+        <div class="sold-out bg-flamingo white tc absolute top-0 right-0 bottom-0 left-0" style="opacity: 1">
+          <p>Sold Out!</p>
+        </div>
+        {% endif %}
+      </div>
 
-<!-- event details -->
-<div class="event bg-white pa3 flex flex-column">
-  <h2>{{ posts.title }}</h2>
-  <hr>
-  <div class="flex items-center">
-    <div class="w-100 w-20-l">
-      <span>{% include icons/time-icon.svg %}</span>
-    </div>
-    <div class="w-100 w-80-l">
-      {{ posts.event.start-time }}
-    </div>
-  </div>
-  <div class="flex items-center">
-    <div class="w-100 w-20-l">
-      <span>{% include icons/location-icon.svg %}</span>
-    </div>
-    <div class="w-100 w-80-l">
-      {{ posts.event.venue-name }}
-    </div>
-  </div>
+      <!-- event details -->
+      <div class="event bg-white pa3 flex flex-column">
+        <h2>{{ posts.title }}</h2>
+        <hr>
+        <div class="flex items-center">
+          <div class="mr2">
+            <span>{% include icons/time-icon.svg %}</span>
+          </div>
+          <div class="flex-auto fw4">
+            {{ posts.event.start-time }}
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div class="mr2">
+            <span>{% include icons/location-icon.svg %}</span>
+          </div>
+          <div class="flex-auto fw4">
+            {{ posts.event.venue-name }}
+          </div>
+        </div>
+      </div>
+
+    </li>
+  </a>
 </div>
