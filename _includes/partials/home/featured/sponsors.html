@@ -4,7 +4,7 @@
     <h2>{{ page.home-partners-header }}</h2>
     <hr>
     {{ page.home-partners-text | markdownify }}
-    <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
+    <ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
       {% assign sorted_sponsors = site.sponsors %}
       {% for posts in sorted_sponsors %}
       {% if posts.is-featured-on-home-page == true %}
