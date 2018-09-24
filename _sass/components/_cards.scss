@@ -1,0 +1,16 @@
+.sold-out::before {
+  content: 'Sold Out!';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: $white;
+  padding: 56px;
+  text-align: center;
+  font-family: $monospace;
+}
+
+.sold-out {
+  background-color: RGBA(32, 38, 83, 0.5);
+}

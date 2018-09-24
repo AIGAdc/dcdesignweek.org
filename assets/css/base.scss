@@ -12,9 +12,10 @@ styles: true
 @import "globals/typography";
 @import "globals/wysiwyg";
 
-@import "components/header";
 @import "components/buttons";
+@import "components/cards";
 @import "components/diamond-images";
+@import "components/header";
 
 @import "pages/pop-up-shop";
 @import "pages/sponsors";

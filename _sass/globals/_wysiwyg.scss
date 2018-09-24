@@ -43,6 +43,11 @@
   line-height: 1.5;
 }
 
+.wysiwyg h3 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5;
+}
+
 .wysiwyg p {
   font-size: 1rem; /* 16px */
   line-height: 1.5;
@@ -55,6 +60,10 @@
 
   .wysiwyg h2 {
     font-size: 1.5rem; /* 24px */
+  }
+
+  .wysiwyg h3 {
+    font-size: 1.25rem; /* 20px */
   }
 
   .wysiwyg p {
