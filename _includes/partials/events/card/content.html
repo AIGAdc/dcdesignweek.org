@@ -15,6 +15,16 @@
       <div class="event bg-white pa3 flex flex-column">
         <h3>{{ posts.title }}</h3>
         <hr>
+        {% if page.url == "/" %}
+        <div class="flex items-center mb2">
+          <div class="mr2">
+            <span>{% include icons/calendar-icon.svg %}</span>
+          </div>
+          <div class="flex-auto fw4">
+            {{ posts.event.date | date: "%A, %B %d"}}
+          </div>
+        </div>
+        {% endif %}
         <div class="flex items-center mb2">
           <div class="mr2">
             <span>{% include icons/time-icon.svg %}</span>
