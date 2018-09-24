@@ -4,17 +4,15 @@
   {% else %}
   <section class="single-event bg-mint mb5">
     {% endif %}
-    <div class="mw8 center cf pa3 pv5">
+    <div class="mw7 center cf pa3 pv5">
       <h2>Details</h2>
       <hr>
       <div class="flex items-center">
         <div class="flex flex-column flex-auto">
-          <h3 class="ma0">
-            Date &amp; Time
-          </h3>
-          <div class="flex items-center">
+          <h3 class="mb3">Date &amp; Time</h3>
+          <div class="flex items-center mb3">
             <div class="mr2">
-              <span>{% include icons/calendar-icon.svg %}</span>
+              {% include icons/calendar-icon.svg %}
             </div>
             <div class="flex-auto fw4">
               {{ page.event.date | date: "%A, %B %d"}}
@@ -22,7 +20,7 @@
           </div>
           <div class="flex items-center">
             <div class="mr2">
-              <span>{% include icons/time-icon.svg %}</span>
+              {% include icons/time-icon.svg %}
             </div>
             <div class="flex-auto fw4">
               {{ page.event.start-time }} - {{ page.event.end-time }}
@@ -30,12 +28,10 @@
           </div>
         </div>
         <div class="flex flex-column flex-auto">
-          <h3 class="ma0">
-            Venue
-          </h3>
-          <div class="flex items-center">
+          <h3 class="mb3">Venue</h3>
+          <div class="flex items-center mb3">
             <div class="mr2">
-              <span>{% include icons/location-icon.svg %}</span>
+              {% include icons/location-icon.svg %}
             </div>
             <div class="flex-auto fw4">
               {{ page.event.venue-name }}
@@ -43,7 +39,7 @@
           </div>
           <div class="flex items-center">
             <div class="mr2">
-              <span>{% include icons/map-icon.svg %}</span>
+              {% include icons/map-icon.svg %}
             </div>
             <div class="flex-auto fw4">
               <a href="{{ page.event.venue-directions }}" target="_blank">
