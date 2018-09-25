@@ -1,20 +1,19 @@
 <!-- section 2: team members -->
-<section class="members mb4 mb5-l relative cf">
+<section class="mb4 mb5-l relative cf">
   <h2>{{ page.team-header }}</h2>
   <hr>
-  <ul class="members--list list ma0 mt5 pa0 cf">
+  <ul class="list ma0 mt6 pa0 relative cf tc">
     {% for member in site.data.members.2018-team %}
     <div class="fl w-100 w-third-l">
-      <li class="member list-none db dib-l">
+      <li class="list-none db dib-l">
         <div class="diamond-image-border">
           <div class="diamond overflow-hidden">
             <div class="diamond-los1">
-              <img class="lazyload blur-up v-mid" data-src="{{ member.image }}" src="{{ member.image }}"
-                alt="{{ member.image-alt }}" />
+              <img class="lazyload blur-up v-mid" data-src="{{ member.image }}" src="{{ member.image }}" alt="{{ member.image-alt }}" />
             </div>
           </div>
         </div>
-        <div class="member-details relative mv5 tc">
+        <div class="relative mv5 tc">
           <h3>{{ member.name }}</h3>
           <p>{{ member.role }}</p>
 
