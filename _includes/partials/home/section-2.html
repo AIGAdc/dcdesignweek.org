@@ -12,12 +12,14 @@
         {% include components/animated-face-1.html %}
         {% include components/scripts.html %}
         {% endcomment %}
-        <img class="lazyload blur-up v-mid" src="{{ page.dc-design-image-1 }}" alt="{{ page.dc-design-image-1-alt }}">
+        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-1 }}" src="{{ page.dc-design-image-1 }}"
+          alt="{{ page.dc-design-image-1-alt }}">
       </div>
     </div>
     <div class="flex flex-row-l flex-wrap items-center mb3 mb0-l">
       <div class="w-100 w-50-l">
-        <img class="lazyload blur-up v-mid" src="{{ page.dc-design-image-2 }}" alt="{{ page.dc-design-image-2-alt }}">
+        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-2 }}" src="{{ page.dc-design-image-2 }}"
+          alt="{{ page.dc-design-image-2-alt }}">
       </div>
       <div class="w-100 w-50-l">
         {{ page.dc-design-paragraph-2 | markdownify }}
@@ -28,7 +30,8 @@
         {{ page.dc-design-paragraph-3 | markdownify }}
       </div>
       <div class="w-100 w-50-l">
-        <img class="lazyload blur-up v-mid" src="{{ page.dc-design-image-3 }}" alt="{{ page.dc-design-image-3-alt }}">
+        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-3 }}" src="{{ page.dc-design-image-3 }}"
+          alt="{{ page.dc-design-image-3-alt }}">
       </div>
     </div>
   </div>

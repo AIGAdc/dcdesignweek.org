@@ -7,6 +7,6 @@ image: {{ site.og-image }}
 layout: map
 ---
 
-# Maps
+# Places of Interest
 
 ---
