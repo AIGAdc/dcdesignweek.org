@@ -4,16 +4,16 @@
 primary-nav:
   - title: "Events"
     url: /events/
-  - title: "Pop Up Shop"
-    url: /pop-up-shop/
+  - title: "Map"
+    url: /map/
+# - title: "Pop Up Shop"
+#   url: /pop-up-shop/
   - title: "Sponsors"
     url: /sponsors/
   - title: "About"
     url: /about/
-  - title: "Volunteers"
-    url: /volunteers/
-  - title: "Map"
-    url: /map/
+  - title: "Volunteer"
+    url: /volunteer/
 
 # landing page nav
 landing-page-nav:

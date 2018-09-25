@@ -1,12 +1,12 @@
 ---
 title: Volunteer
-permalink: "/volunteers/"
+permalink: "/volunteer/"
 published: true
 description:
 image: {{ site.og-image }}
 layout: volunteer
 ---
 
-# Volunteers
+# Volunteer
 
 ---

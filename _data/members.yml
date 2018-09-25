@@ -1,104 +1,95 @@
 # This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
-2018-committee:
+2018-team:
+# Committee
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    email: email@member.com
+    link-url: example.com
+    link-label: Website
 
-# This data yml file will loop through the DCDW creative team and display them in a 3 column grid.
-2018-creative-team:
+# Creative Team
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website
   - image: https://picsum.photos/800/?random
+    image-alt: Member Portrait
     name: Member Name
     role: Member Role
-    instagram-url: example.com
-    instagram-label: Instagram
-    dribbble-url: example.com
-    dribbble-label: Dribbble
-    website-url: example.com
-    website-label: Website
+    link-url: example.com
+    link-label: Website

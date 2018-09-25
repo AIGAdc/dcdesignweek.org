@@ -14,6 +14,7 @@ a {
 a:focus,
 button:focus {
   outline: solid 4px $dcdw-secondary;
+  outline-offset: 0;
 }
 
 h1,

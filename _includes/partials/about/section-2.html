@@ -1,26 +1,26 @@
-<!-- section 2: committee members -->
+<!-- section 2: team members -->
 <section class="members mb4 mb5-l relative cf">
-  <h2>{{ page.committee-header }}</h2>
+  <h2>{{ page.team-header }}</h2>
   <hr>
   <ul class="members--list list ma0 mt5 pa0 cf">
-    {% for committee-member in site.data.members.2018-committee %}
+    {% for member in site.data.members.2018-team %}
     <div class="fl w-100 w-third-l">
       <li class="member list-none db dib-l">
         <div class="diamond-image-border">
           <div class="diamond overflow-hidden">
             <div class="diamond-los1">
-              <img class="lazyload blur-up v-mid" data-src="{{ committee-member.image }}" src="{{ committee-member.image }}"
-                alt="{{ committee-member.image-alt }}" />
+              <img class="lazyload blur-up v-mid" data-src="{{ member.image }}" src="{{ member.image }}"
+                alt="{{ member.image-alt }}" />
             </div>
           </div>
         </div>
         <div class="member-details relative mv5 tc">
-          <h3>{{ committee-member.name }}</h3>
-          <p>{{ committee-member.role }}</p>
+          <h3>{{ member.name }}</h3>
+          <p>{{ member.role }}</p>
 
-          {% if committee-member.email %}
-          <a class="ma0 f6 dib dcdw-primary" href="mailto:{{ committee-member.email }}" target="_top">
-            {{ committee-member.email }}
+          {% if member.link-url %}
+          <a class="ma0 f6 dib dcdw-primary" href="{{ member.link-url }}" target="_top">
+            {{ member.link-label }}
           </a>
           {% endif %}
         </div>

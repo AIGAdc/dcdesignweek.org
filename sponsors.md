@@ -13,7 +13,7 @@ second-tier-sub-header: |-
 third-tier-header: Tier 3
 third-tier-sub-header: |-
   Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.
-sponsor-button-text: Join The List
+sponsor-button-text: Work with Us
 sponsor-button-link: rica@aigadc.org
 layout: sponsors
 ---
@@ -22,8 +22,8 @@ layout: sponsors
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
+We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
 
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+We couldn’t do it without you!
