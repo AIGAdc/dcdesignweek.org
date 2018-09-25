@@ -1,12 +1,11 @@
+<!-- section 3: creative team -->
 <section class="members mb4 mb5-l relative cf">
-  <h2 class="ma0 f4 f3-ns lh-copy">
-    {{ page.creative-team-header }}
-  </h2>
-  <hr class="title-divider">
+  <h2>{{ page.creative-team-header }}</h2>
+  <hr>
   <ul class="members--list list ma0 mt5 pa0 cf">
     {% for creative-member in site.data.members.2018-creative-team %}
     <div class="fl w-100 w-third-l">
-      <li class="member list-none db dib-;">
+      <li class="member list-none db dib-l">
         <div class="diamond-image-border">
           <div class="diamond overflow-hidden">
             <div class="diamond-los1">
@@ -16,21 +15,17 @@
           </div>
         </div>
         <div class="member-details relative mv5 tc">
-          <h3 class="ma0 f4 f3-ns">
-            {{ creative-member.name }}
-          </h3>
-          <p class="ma0 f7 f6-ns">
-            {{ creative-member.role }}
-          </p>
+          <h3>{{ creative-member.name }}</h3>
+          <p>{{ creative-member.role }}</p>
 
           {% if creative-member.instagram-label %}
           <a class="dib ma0 f6" href="{{ creative-member.instagram-url }}" target="_blank">{{
-            creative-member.instagram-label }}</a>
+creative-member.instagram-label }} / </a>
           {% endif %}
 
           {% if creative-member.twitter-label %}
-          / <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{
-            creative-member.twitter-label }}</a>
+          <a class="dib ma0 f6" href="{{ creative-member.twitter-url }}" target="_blank">{{
+            creative-member.twitter-label }} / </a>
           {% endif %}
 
           {% if creative-member.dribbble-label %}
