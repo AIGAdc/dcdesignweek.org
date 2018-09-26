@@ -25,11 +25,21 @@
   padding-bottom: 1.75em;
 }
 
-.wysiwyg hr {
-  border: solid 4px $dcdw-primary;
+.wysiwyg hr,
+.page-home.wysiwyg hr,
+.page-events.wysiwyg hr {
   margin: 2em 0 2em 0;
   max-width: 72px;
   width: 100%;
+}
+
+.wysiwyg hr {
+  border: solid 4px $dcdw-primary;
+}
+
+.page-home.wysiwyg hr,
+.page-events.wysiwyg hr {
+  border: solid 2px $cloud;
 }
 
 .wysiwyg h1 {
