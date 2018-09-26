@@ -3,7 +3,7 @@ title: About
 permalink: "/about/"
 published: true
 description:
-image: {{ site.og-image }}
+image: /uploads/2018-OG-featuredimage.jpg
 
 # collaboration
 collaboration-bg-image: https://picsum.photos/800/400/?random

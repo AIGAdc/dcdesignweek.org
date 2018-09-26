@@ -3,7 +3,7 @@ title: Home
 permalink: "/"
 published: true
 description:
-image: {{ site.og-image }}
+image: /uploads/2018-OG-featuredimage.jpg
 
 hero-bg: /uploads/dcdw-pattern-1080.jpg
 hero-logo: /uploads/dcdw-lockup-hero.svg
