@@ -1,8 +1,8 @@
 ---
-title: Cherry Blossom
-date: 2016-09-22 09:26:00 -04:00
+title: Test-4
+date: 2016-09-22 02:37:00 -04:00
 sponsor-image: https://picsum.photos/800/?random
-sponsor-url: http://cherryblossomcreative.com/
+sponsor-url: http://vitamintalent.com/
 is-featured-on-home-page: true
 is-featured-on-shops-galleries-page: true
 is-first-tier: true

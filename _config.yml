@@ -20,9 +20,8 @@ defaults:
     values:
       seo:
         description: Provide an exceprt of what the event is about.
-        og-image: "/uploads/dcdw_eventPlaceholder.jpg"
+        og-image: ""
       event:
-        video-embed:
         date: Displays the date of the event.
         venue-name: Displays the name of the venue.
         venue-directions: Provide a url to google maps to help navigate attendees.
@@ -37,45 +36,41 @@ defaults:
         bio-text: Displays the speakers bio.
       buttons:
         has-left-button: true
-        button-left-url: Provide a url for non-members
+        button-left-url: Provide a url for button on left
         button-left-text: Provide text for button on left
         has-right-button: true
-        button-right-url: Provide a url for members
+        button-right-url: Provide a url for button on right
         button-right-text: Provide text for button on right
-        single-event-conditionals:
-        is-sold-out:
-        is-featured-on-home-page:
-        is-featured-on-events-page:
-        is-day-1:
-        is-day-2:
-        is-day-3:
-        is-day-4:
-        is-day-5:
-        is-day-6:
-        is-day-7:
-        is-day-8:
-        is-day-9:
-      layout: singles/event
+      is-day-1: false
+      is-day-2: false
+      is-day-3: false
+      is-day-4: false
+      is-day-5: false
+      is-day-6: false
+      is-day-7: false
+      is-day-8: false
+      is-day-9: false
+      is-sold-out: false
+      is-featured-on-home-page: false
+      layout: events-single
   - scope:
       path: ''
       type: sponsors
     values:
-      sponsor-image:
-      sponsor-url:
-      is-featured-on-home-page:
-      is-featured-on-shops-galleries-page:
-      is-even-on-home-page:
-      is-first-tier:
-      is-second-tier:
-      is-third-tier:
+      sponsor-image: Displays the sponsors logo
+      sponsor-url: Provide link for sponsors website
+      is-featured-on-home-page: false
+      is-featured-on-shops-galleries-page: false
+      is-first-tier: false
+      is-second-tier: false
+      is-third-tier: false
 exclude:
   - package.json
-  - gulpfile.js
+  - package-lock.json
   - node_modules
   - README.md
   - Gemfile
   - Gemfile.lock
-  - DesignInsperation.txt
   - ".jekyll-metadata"
   - ".sass-cache"
 plugins:
@@ -85,7 +80,6 @@ sass:
   style: compressed
 encoding: utf-8
 lang: en-US
-logo: "/uploads/dcdw-logo.svg"
 description:
   DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
