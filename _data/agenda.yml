@@ -1,0 +1,47 @@
+# This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
+controls:
+  - filter: .day-1
+    class: control-day-1
+    text-1: Sat
+    text-2: Oct 20
+    disabled: false
+  - filter: .day-2
+    class: control-day-2
+    text-1: Sun
+    text-2: Oct 21
+    disabled: false
+  - filter: .day-3
+    class: control-day-3
+    text-1: Mon
+    text-2: Oct 22
+    disabled: false
+  - filter: .day-4
+    class: control-day-4
+    text-1: Tue
+    text-2: Oct 23
+    disabled: false
+  - filter: .day-5
+    class: control-day-5
+    text-1: Wed
+    text-2: Oct 24
+    disabled: false
+  - filter: .day-6
+    class: control-day-6
+    text-1: Thu
+    text-2: Oct 25
+    disabled: false
+  - filter: .day-7
+    class: control-day-7
+    text-1: Fri
+    text-2: Oct 26
+    disabled: false
+  - filter: .day-8
+    class: control-day-8
+    text-1: Sat
+    text-2: Oct 27
+    disabled: false
+  - filter: .day-9
+    class: control-day-9
+    text-1: Sun
+    text-2: Oct 28
+    disabled: false

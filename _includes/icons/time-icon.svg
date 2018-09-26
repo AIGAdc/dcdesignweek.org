@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 720 720" style="enable-background:new 0 0 720 720;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#010101;}
-</style>
-<g>
-	<g>
-		<path class="st0" d="M360,565c-113,0-205-92-205-205c0-113,92-205,205-205c113,0,205,92,205,205C565,473,473,565,360,565z
-			 M360,172.1c-103.6,0-187.9,84.3-187.9,187.9S256.4,547.9,360,547.9S547.9,463.6,547.9,360S463.6,172.1,360,172.1z"/>
-	</g>
-	<g>
-		<path class="st0" d="M454,462.5c-2.1,0-4.1-0.7-5.8-2.3l-102.5-93.9c-1.8-1.6-2.8-3.9-2.8-6.3v-94c0-4.7,3.8-8.5,8.5-8.5
-			c4.7,0,8.5,3.8,8.5,8.5v90.2l99.7,91.4c3.5,3.2,3.7,8.6,0.5,12.1C458.6,461.6,456.3,462.5,454,462.5z"/>
-	</g>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>

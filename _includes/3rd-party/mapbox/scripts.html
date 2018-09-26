@@ -1,6 +1,6 @@
 <script>
   mapboxgl.accessToken =
-    'pk.eyJ1IjoibWFyY3VzcmVsYWNpb24iLCJhIjoiY2o1cGxlZTVkMGNneDM4bzVjcXpoZXY0aiJ9.86TlTcHGkpz1aQUlexte0w';
+    'pk.eyJ1IjoicnZvbmRvaGxlbiIsImEiOiJ0WHFyM1hRIn0.YNQ1RlsmSD6hAbSqmif7FA';
   var places = {
     "type": "FeatureCollection",
     "features": [{
@@ -33,6 +33,7 @@
     }, {
       "type": "Feature",
       "properties": {
+        "description": "<strong>Capital Pride Parade</strong><p>The annual <a href=\"http://www.capitalpride.org/parade\" target=\"_blank\" title=\"Opens in a new window\">Capital Pride Parade</a> makes its way through Dupont this Saturday. 4:30 p.m. Free.</p>",
         "icon": "bicycle"
       },
       "geometry": {
@@ -68,20 +69,18 @@
       }
     }]
   };
-
-  var layerIDs = []; // Will contain a list used to filter against.
-  var filterInput = document.getElementById('filter-input');
+  
+  var filterGroup = document.getElementById('filter-group');
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9',
+    style: 'mapbox://styles/rvondohlen/cjm466mel1lon2rnyrqvroezb',
     center: [-77.04, 38.907],
-    zoom: 11.15,
-    interactive: false
+    zoom: 11.15
   });
 
   map.on('load', function () {
     // Add a GeoJSON source containing place coordinates and information.
-    map.addSource('places', {
+    map.addSource("places", {
       "type": "geojson",
       "data": places
     });
@@ -98,34 +97,58 @@
           "source": "places",
           "layout": {
             "icon-image": symbol + "-15",
-            "icon-allow-overlap": true,
-            "text-field": symbol,
-            "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
-            "text-size": 11,
-            "text-transform": "uppercase",
-            "text-letter-spacing": 0.05,
-            "text-offset": [0, 1.5]
-          },
-          "paint": {
-            "text-color": "#202",
-            "text-halo-color": "#fff",
-            "text-halo-width": 2
+            "icon-allow-overlap": true
           },
           "filter": ["==", "icon", symbol]
         });
 
-        layerIDs.push(layerID);
+        // Add checkbox and label elements for the layer.
+        var input = document.createElement('input');
+        input.type = 'checkbox';
+        input.id = layerID;
+        input.checked = true;
+        filterGroup.appendChild(input);
+
+        var label = document.createElement('label');
+        label.setAttribute('for', layerID);
+        label.textContent = symbol;
+        filterGroup.appendChild(label);
+
+        // When the checkbox changes, update the visibility of the layer.
+        input.addEventListener('change', function (e) {
+          map.setLayoutProperty(layerID, 'visibility',
+            e.target.checked ? 'visible' : 'none');
+        });
       }
     });
 
-    filterInput.addEventListener('keyup', function (e) {
-      // If the input value matches a layerID set
-      // it's visibility to 'visible' or else hide it.
-      var value = e.target.value.trim().toLowerCase();
-      layerIDs.forEach(function (layerID) {
-        map.setLayoutProperty(layerID, 'visibility',
-          layerID.indexOf(value) > -1 ? 'visible' : 'none');
-      });
+    // When a click event occurs on a feature in the places layer, open a popup at the
+    // location of the feature, with description HTML from its properties.
+    map.on('click', 'places', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'places', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'places', function () {
+        map.getCanvas().style.cursor = '';
     });
   });
 </script>

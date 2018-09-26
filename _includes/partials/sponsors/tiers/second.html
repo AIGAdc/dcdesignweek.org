@@ -1,0 +1,15 @@
+<!-- second-tier: partner organizations -->
+<section class="second-tier mb5 cf relative">
+  <h2>{{ page.second-tier-header }}</h2>
+  <hr>
+  {{ page.second-tier-sub-header | markdownify }}
+
+  <ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
+    {% assign sorted_sponsors = site.sponsors %}
+    {% for posts in sorted_sponsors %}
+    {% if posts.is-second-tier == true %}
+    {% include partials/sponsors/tiers/content.html %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>

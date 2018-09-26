@@ -1,0 +1,96 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 12px 18px;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+
+  /* .btn .btn--header-link */
+  &--header-link {
+    color: $black;
+    text-transform: uppercase;
+  }
+  &--header-link:hover {
+    color: $dcdw-primary;
+  }
+
+  &--header-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: none;
+    -webkit-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  &--header-link:hover::after {
+    background-color: $dcdw-primary;
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+
+  /* .btn .btn--primary-solid */
+  &--primary-solid {
+    border: solid 4px $dcdw-primary;
+    background-color: $dcdw-primary;
+    color: $white;
+  }
+
+  /* .btn .btn--secondary-solid */
+  &--secondary-solid {
+    border: solid 4px $dcdw-secondary;
+    background-color: $dcdw-secondary;
+  }
+
+  /* .btn .btn--primary-border */
+  &--primary-border {
+    border: solid 4px $dcdw-primary;
+    color: $dcdw-primary;
+  }
+
+  &--primary-border:hover {
+    border: solid 4px $dcdw-primary;
+    background-color: $dcdw-primary;
+    color: $white;
+  }
+
+  /* .btn .btn--secondary-border */
+  &--secondary-border {
+    border: solid 4px $dcdw-secondary;
+    color: $dcdw-secondary;
+  }
+
+  &--secondary-border:hover {
+    border: solid 4px $dcdw-secondary;
+    background-color: $dcdw-secondary;
+    color: $white;
+  }
+
+  &--disabled {
+    cursor: disabled;
+    pointer-events: none;
+    position: relative;
+  }
+
+  &--disabled::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $rose-bud;
+    opacity: 0.5;
+  }
+}
+
+.current-link {
+  color: #baada7;
+}

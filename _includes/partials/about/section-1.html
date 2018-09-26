@@ -1,0 +1,19 @@
+<!-- section 1: aiga dc x dcdw collaboration -->
+<section class="collaboration mb4 mb6-l relative cf">
+  <div class="collaboration-bg">
+    <img class="lazyload blur-up v-mid" data-src="{{ page.collaboration-bg-image }}" src="{{ page.collaboration-bg-image }}"
+      alt="{{ page.collaboration-bg-image-alt }}">
+  </div>
+
+  <div class="collaboration-content fl w-100 w-60-l pa4 mv4 mb6-l bg-white border border--cloud shadow shadow--rose-bud">
+    <div class="collaboration-logo mb4">
+      <img class="lazyload blur-up v-mid" data-src="{{ page.collaboration-content-image }}" src="{{ page.collaboration-content-image }}"
+        alt="{{ page.collaboration-content-image-alt }}">
+    </div>
+
+    {{ page.collaboration-content-body | markdownify }}
+    <a href="{{ page.collaboration-content-button-url }}" class="btn btn--primary-solid mt2 db dib-l" target="_blank">
+      {{ page.collaboration-content-button-text }}
+    </a>
+  </div>
+</section>

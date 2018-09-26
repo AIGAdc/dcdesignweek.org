@@ -1,12 +1,12 @@
 ---
 title: Volunteer
-permalink: "/volunteers/"
-published: false
-description: 
-image: "/uploads/OG_featuredimage-live.jpg"
-layout: pages/volunteer
+permalink: "/volunteer/"
+published: true
+description:
+image: {{ site.og-image }}
+layout: volunteer
 ---
 
-# Volunteers
+# Volunteer
 
-<hr class="title-divider-blue">
+---
