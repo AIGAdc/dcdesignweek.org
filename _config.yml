@@ -20,7 +20,7 @@ defaults:
     values:
       seo:
         description: Provide an exceprt of what the event is about.
-        og-image: ""
+        og-image: "{{ site.og-image }}"
       event:
         date: Displays the date of the event.
         venue-name: Displays the name of the venue.
