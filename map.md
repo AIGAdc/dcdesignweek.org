@@ -2,8 +2,8 @@
 title: Map
 permalink: "/map/"
 published: false
-description:
-image: {{ site.og-image }}
+description: 
+image: {}
 layout: map
 ---
 

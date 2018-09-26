@@ -1,10 +1,8 @@
 ---
 title: Events
 permalink: "/events/"
-published: true
-description:
-image: {{ site.og-image }}
-
+description: 
+image: {}
 category-1: tours
 category-1-label: Tours
 category-2: lectures

@@ -1,9 +1,8 @@
 ---
 title: Volunteer
 permalink: "/volunteer/"
-published: true
-description:
-image: {{ site.og-image }}
+description: 
+image: {}
 layout: volunteer
 ---
 

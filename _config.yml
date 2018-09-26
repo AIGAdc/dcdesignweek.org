@@ -1,3 +1,4 @@
+---
 title: DC Design Week 2018
 timezone: America/New_York
 collections:
@@ -14,87 +15,85 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ''
-      type: events
-    values:
-      seo:
-        description: Provide an exceprt of what the event is about.
-        og-image: "{{ site.og-image }}"
-      event:
-        date: Displays the date of the event.
-        venue-name: Displays the name of the venue.
-        venue-directions: Provide a url to google maps to help navigate attendees.
-        venue-address: Displays the address of the venues.
-        start-time: Displays the start time of the event.
-        end-time: Displays the end time of the event.
-      speakers:
-        headshot-image: Displays the speakers portait.
-        url: Provide a url to the speakers website.
-        name: Displays the speakers name.
-        title: Displays the speakers professional title
-        bio-text: Displays the speakers bio.
-      buttons:
-        has-left-button: true
-        button-left-url: Provide a url for button on left
-        button-left-text: Provide text for button on left
-        has-right-button: true
-        button-right-url: Provide a url for button on right
-        button-right-text: Provide text for button on right
-      is-day-1: false
-      is-day-2: false
-      is-day-3: false
-      is-day-4: false
-      is-day-5: false
-      is-day-6: false
-      is-day-7: false
-      is-day-8: false
-      is-day-9: false
-      is-sold-out: false
-      is-featured-on-home-page: false
-      layout: events-single
-  - scope:
-      path: ''
-      type: sponsors
-    values:
-      sponsor-image: Displays the sponsors logo
-      sponsor-url: Provide link for sponsors website
-      is-featured-on-home-page: false
-      is-featured-on-shops-galleries-page: false
-      is-first-tier: false
-      is-second-tier: false
-      is-third-tier: false
+- scope:
+    path: ''
+    type: events
+  values:
+    seo:
+      description: Provide an exceprt of what the event is about.
+      og-image: "{{ site.og-image }}"
+    event:
+      date: Displays the date of the event.
+      venue-name: Displays the name of the venue.
+      venue-directions: Provide a url to google maps to help navigate attendees.
+      venue-address: Displays the address of the venues.
+      start-time: Displays the start time of the event.
+      end-time: Displays the end time of the event.
+    speakers:
+      headshot-image: Displays the speakers portait.
+      url: Provide a url to the speakers website.
+      name: Displays the speakers name.
+      title: Displays the speakers professional title
+      bio-text: Displays the speakers bio.
+    buttons:
+      has-left-button: true
+      button-left-url: Provide a url for button on left
+      button-left-text: Provide text for button on left
+      has-right-button: true
+      button-right-url: Provide a url for button on right
+      button-right-text: Provide text for button on right
+    is-day-1: false
+    is-day-2: false
+    is-day-3: false
+    is-day-4: false
+    is-day-5: false
+    is-day-6: false
+    is-day-7: false
+    is-day-8: false
+    is-day-9: false
+    is-sold-out: false
+    is-featured-on-home-page: false
+    layout: events-single
+- scope:
+    path: ''
+    type: sponsors
+  values:
+    sponsor-image: Displays the sponsors logo
+    sponsor-url: Provide link for sponsors website
+    is-featured-on-home-page: false
+    is-featured-on-shops-galleries-page: false
+    is-first-tier: false
+    is-second-tier: false
+    is-third-tier: false
 exclude:
-  - package.json
-  - package-lock.json
-  - node_modules
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - ".jekyll-metadata"
-  - ".sass-cache"
+- package.json
+- package-lock.json
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
 plugins:
-  - jekyll-seo-tag
+- jekyll-seo-tag
 sass:
   sass_dir: _sass
   style: compressed
 encoding: utf-8
 lang: en-US
-description:
-  DC Design Week is a celebration of creatives, thinkers, and makers in
+description: DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!
-og-image: /uploads/2018-OG-featuredimage.jpg
+og-image: "/uploads/2018-OG-featuredimage.jpg"
 twitter:
   username: aigadc
 facebook:
   publisher: https://www.facebook.com/aigaDC/
 url: https://dcdesignweek.org
-baseurl:
+baseurl: 
 repository: AIGAdc/DCDW
 email: designweek@dc.aiga.org
-google-analytics:
-  "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n

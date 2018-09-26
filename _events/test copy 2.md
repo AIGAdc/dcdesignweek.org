@@ -3,8 +3,11 @@ title: Aenean sodales nulla ac semper
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: /uploads/2018-OG-featuredimage.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
+    neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
+    consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
+    convallis leo non purus vehicula, non faucibus libero rhoncus.
+  og-image: "/uploads/2018-OG-featuredimage.jpg"
 event:
   date: 2017-10-21 00:00:00 -04:00
   venue-name: Location
