@@ -8,10 +8,10 @@ primary-nav:
     url: /map/
 # - title: "Pop Up Shop"
 #   url: /pop-up-shop/
-  - title: "Sponsors"
-    url: /sponsors/
   - title: "About"
     url: /about/
+  - title: "Sponsors"
+    url: /sponsors/
   - title: "Volunteer"
     url: /volunteer/
 
