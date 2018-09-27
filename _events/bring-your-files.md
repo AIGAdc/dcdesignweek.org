@@ -1,5 +1,5 @@
 ---
-title: Aenean sodales nulla ac semper
+title: "AIGA's In-house INitiative: Bring Your Files - brought to you by HP "
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:
@@ -10,11 +10,11 @@ seo:
   og-image: "/uploads/2018-OG-featuredimage.jpg"
 event:
   date: 2017-10-21 00:00:00 -04:00
-  venue-name: Location
+  venue-name: Colornet
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
-  venue-address: 1234 Anywhere Lane, Washington, DC
-  start-time: 8:00 am
-  end-time: 12:00 pm
+  venue-address: Colornet, 22570 Glenn Drive, Sterling, VA 20164
+  start-time: 4pm
+  end-time: 7pm
 buttons:
   has-left-button: true
   button-left-url: https://example.com
@@ -22,16 +22,8 @@ buttons:
   has-right-button: true
   button-right-url: https://example.com
   button-right-text: Button Text
-is-day-1: true
-is-day-2: true
 is-day-3: true
-is-day-4: true
-is-day-5: true
-is-day-6: true
-is-day-7: true
-is-day-8: true
-is-day-9: true
-is-sold-out: true
+is-sold-out: false
 is-featured-on-home-page: true
 layout: events-single
 ---

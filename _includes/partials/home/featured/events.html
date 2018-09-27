@@ -4,8 +4,8 @@
     <h2>{{ page.home-events-header }}</h2>
     <hr>
     <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
-      {% assign sorted_events = site.events %}
-      {% for posts in sorted_events %}
+      {% assign sorted = (site.events | sort: 'event.date') %}
+      {% for posts in sorted %}
       {% if posts.is-featured-on-home-page == true %}
       {% include partials/events/card/content.html %}
       {% endif %}

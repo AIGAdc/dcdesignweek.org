@@ -1,5 +1,5 @@
 ---
-title: Aenean sodales nulla ac semper
+title: "Creative Lunch: ISTUDIO Architects at Marvin Gaye Recreation Center"
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:
@@ -9,30 +9,21 @@ seo:
     convallis leo non purus vehicula, non faucibus libero rhoncus.
   og-image: "/uploads/2018-OG-featuredimage.jpg"
 event:
-  date: 2017-10-21 00:00:00 -04:00
-  venue-name: Location
+  date: 2018-10-23 12:00:00 -04:00
+  venue-name: Marvin Gaye Recreation Center
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
-  venue-address: 1234 Anywhere Lane, Washington, DC
-  start-time: 8:00 am
-  end-time: 12:00 pm
+  venue-address: 6201 Banks Pl NE, Washington, DC 20019
+  start-time: 12pm
+  end-time: 1pm
 buttons:
   has-left-button: true
   button-left-url: https://example.com
-  button-left-text: Button Text
+  button-left-text: 10$ Members
   has-right-button: true
   button-right-url: https://example.com
-  button-right-text: Button Text
-is-day-1: true
-is-day-2: true
-is-day-3: true
+  button-right-text: 10$ Non-Members
 is-day-4: true
-is-day-5: true
-is-day-6: true
-is-day-7: true
-is-day-8: true
-is-day-9: true
-is-sold-out: true
-is-featured-on-home-page: true
+is-sold-out: false
 layout: events-single
 ---
 
