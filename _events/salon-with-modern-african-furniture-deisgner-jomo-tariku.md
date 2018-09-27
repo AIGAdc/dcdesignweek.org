@@ -1,5 +1,5 @@
 ---
-title: "Salon with Modern African Furniture Designer: Jomo Tariku"
+title: 'Salon with Modern African Furniture Designer: Jomo Tariku'
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:
