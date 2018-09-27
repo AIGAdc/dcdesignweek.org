@@ -1,5 +1,5 @@
 ---
-title: "Creative Lunch: ISTUDIO Architects at Marvin Gaye Recreation Center"
+title: 'Creative Lunch: ISTUDIO Architects at Marvin Gaye Recreation Center'
 date: 2017-10-03 17:09:00 -04:00
 position: 1
 seo:

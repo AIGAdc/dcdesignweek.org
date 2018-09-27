@@ -18,10 +18,10 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://example.com
-  button-left-text: $50 members
+  button-left-text: "$50 members"
   has-right-button: true
   button-right-url: https://example.com
-  button-right-text: $75 non-members
+  button-right-text: "$75 non-members"
 is-day-2: true
 is-sold-out: false
 is-featured-on-home-page: true
