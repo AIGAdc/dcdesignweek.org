@@ -42,15 +42,15 @@ defaults:
       has-right-button: true
       button-right-url: Provide a url for button on right
       button-right-text: Provide text for button on right
-    is-day-1: false
-    is-day-2: false
-    is-day-3: false
-    is-day-4: false
-    is-day-5: false
-    is-day-6: false
-    is-day-7: false
-    is-day-8: false
-    is-day-9: false
+    is-oct-20: false
+    is-oct-21: false
+    is-oct-22: false
+    is-oct-23: false
+    is-oct-24: false
+    is-oct-25: false
+    is-oct-26: false
+    is-oct-27: false
+    is-oct-28: false
     is-sold-out: false
     is-featured-on-home-page: false
     layout: events-single
@@ -90,7 +90,7 @@ twitter:
 facebook:
   publisher: https://www.facebook.com/aigaDC/
 url: https://dcdesignweek.org
-baseurl: 
+baseurl:
 repository: AIGAdc/DCDW
 email: designweek@dc.aiga.org
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n

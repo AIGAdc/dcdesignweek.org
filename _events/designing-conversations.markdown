@@ -13,6 +13,5 @@ buttons:
   button-left-text: 10$ Members
   button-right-url: example.com
   button-right-text: 15$ Non-Members
-is-day-4: true
+is-oct-23: true
 ---
-

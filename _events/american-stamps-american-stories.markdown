@@ -14,6 +14,5 @@ buttons:
   button-left-text: Free for NOVA Students
   button-right-url: example.com
   button-right-text: "$10 For All"
-is-day-3: true
+is-oct-22: true
 ---
-

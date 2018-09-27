@@ -12,6 +12,5 @@ buttons:
   button-left-url: example.com
   button-left-text: Free
   has-right-button: false
-is-day-4: true
+is-oct-23: true
 ---
-

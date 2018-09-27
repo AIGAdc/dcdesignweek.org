@@ -22,7 +22,7 @@ buttons:
   has-right-button: true
   button-right-url: https://example.com
   button-right-text: Button Text
-is-day-1: true
+is-oct-20: true
 is-sold-out: false
 is-featured-on-home-page: true
 layout: events-single

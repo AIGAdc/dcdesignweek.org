@@ -1,9 +1,9 @@
 <div class="fl w-100 mb4">
-  <h2>{{ page.day-4-label }}</h2>
+  <h2>{{ page.oct-23-label }}</h2>
   <ul class="list ma0 mt4 pa0 flex flex-column flex-row-l flex-wrap">
     {% assign sorted = (site.events | sort: 'event.date') %}
     {% for posts in sorted %}
-    {% if posts.is-day-4 == true %}
+    {% if posts.is-oct-23 == true %}
     {% include partials/events/card/content.html %}
     {% endif %}
     {% endfor %}

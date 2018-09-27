@@ -22,7 +22,7 @@ buttons:
   has-right-button: true
   button-right-url: https://example.com
   button-right-text: 10$ Non-Members
-is-day-4: true
+is-oct-23: true
 is-sold-out: false
 layout: events-single
 ---

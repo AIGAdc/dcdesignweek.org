@@ -13,7 +13,5 @@ buttons:
   button-left-text: "$30 Members"
   button-right-url: example.com
   button-right-text: "$38 Non-Members"
-is-day-5: false
-is-day-6: true
+is-oct-25: true
 ---
-
