@@ -2,8 +2,7 @@
 title: Home
 permalink: "/"
 description: 
-image: {}
-hero-bg: "/uploads/dcdw-pattern-1080.jpg"
+hero-bg: "/uploads/pattern-faceTools.png"
 hero-logo: "/uploads/dcdw-lockup-hero.svg"
 hero-logo-alt: DC Design Week Hero Logo, Time & Date
 dc-design-header: Design is For All
