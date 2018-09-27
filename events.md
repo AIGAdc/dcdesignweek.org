@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-description:
+description: 
 image: {}
 category-1: tours
 category-1-label: Tours
