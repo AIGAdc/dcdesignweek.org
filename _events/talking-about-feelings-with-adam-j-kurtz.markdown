@@ -12,8 +12,8 @@ seo:
   og-image: "/uploads/event_adamJK-e974f0.jpg"
 event:
   date: 2018-10-25 18:30:00 -04:00
-  venue-name: 'SE DC Miracle Theater '
-  venue-directions: example.com
+  venue-name: 'The Miracle Theater '
+  venue-directions: https://goo.gl/maps/La5UCFuWyBU2
   venue-address: 535 8th St SE, Washington, DC 20003
   start-time: 6:30pm
   end-time: 8:30pm
@@ -25,6 +25,8 @@ buttons:
 is-oct-25: true
 is-featured-on-home-page: true
 ---
+
+## A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.
 
 In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author [Adam J. Kurtz (aka ADAMJK)](https://www.instagram.com/adamjk/) for a hilarious dissection of his accidental career and lessons learned along the way: 
 * Figuring out who the f*** you are, and what to do once you know
