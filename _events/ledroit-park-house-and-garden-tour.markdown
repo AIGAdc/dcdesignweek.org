@@ -16,6 +16,7 @@ event:
   start-time: 1:00pm
   end-time: 5:00pm
 buttons:
+  has-left-button: true
   button-left-url: http://bit.ly/lpcatourtix
   button-left-text: "$35 Tickets"
   has-right-button: false
@@ -27,7 +28,5 @@ LeDroit Park was originally designed as one of the first suburbs of DC and it re
 The LeDroit Park House and Garden Tour will showcase the neighborhood’s unique architecture, history, and diversity, from its time as an exclusive enclave, through its heyday as a center of African American intelligentsia, to the present day.
 
 Tour participants will enjoy partial interior access of 8 homes that show the neighborhood’s range of sizes, periods, architectural styles, and interior design.
-
-
 
 For complete details, visit www.ledroitparkhousetour.org
