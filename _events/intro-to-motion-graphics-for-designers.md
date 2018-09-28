@@ -8,7 +8,7 @@ seo:
     the assets and the art direction, but where do you begin with making it move?
     This will be a short intro crash course on animation that is geared towards designers
     who are looking to grow their skills. '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_introToMotion.jpg"
 event:
   date: 2018-10-22 17:30:00 -04:00
   venue-name: Pivotal Labs
