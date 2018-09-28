@@ -1,9 +1,9 @@
 ---
 title: About
 permalink: "/about/"
-description:
-image: /uploads/2018-OG-featuredimage.jpg
-collaboration-bg-image: /uploads/about-hero.jpg
+description: 
+image: "/uploads/2018-OG-featuredimage.jpg"
+collaboration-bg-image: "/uploads/about-hero.jpg"
 collaboration-bg-image-alt: Group photo of AIGA DC Team
 collaboration-content-image: "/uploads/dcdw-lockup-collaboration.png"
 collaboration-content-image-alt: DC Flag and AIGA DC Logo

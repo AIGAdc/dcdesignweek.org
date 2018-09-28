@@ -1,8 +1,8 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-description:
-image: /uploads/2018-OG-featuredimage.jpg
+description: 
+image: "/uploads/2018-OG-featuredimage.jpg"
 first-tier-header: Tier 1
 first-tier-sub-header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
   pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
