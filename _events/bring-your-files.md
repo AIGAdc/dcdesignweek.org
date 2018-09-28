@@ -3,13 +3,9 @@ title: 'AIGA''s In-house INitiative: Bring Your Files - brought to you by HP'
 date: 2017-10-03 17:09:00 -04:00
 position: 5
 seo:
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-    neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
-    consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
-    convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2017-10-21 00:00:00 -04:00
+  date: 2017-10-22 00:00:00 -04:00
   venue-name: Colornet
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: Colornet, 22570 Glenn Drive, Sterling, VA 20164
@@ -28,13 +24,5 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
-
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+Join us for the opportunity to experience your work — printed on great media and on the highest-quality digital press in the industry.
+You will take-away knowledge and hands-on experience with digital print from the industry leader. PSP and HP will present ideas on design thinking and share our latest projects.
