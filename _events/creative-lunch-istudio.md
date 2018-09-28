@@ -1,39 +1,41 @@
 ---
-title: 'Creative Lunch: ISTUDIO Architects at Marvin Gaye Recreation Center'
+title: 'Creative Lunch: Huge + Bright Side'
 date: 2017-10-03 17:09:00 -04:00
 position: 9
 seo:
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-    neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
-    consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
-    convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  description: Huge Inc is a global collective of designers, strategists and technologists.
+    We’re passionate about helping companies play trusted roles in people’s lives
+    by creating products, services and brands that people truly love. We were the
+    first agency to be founded on the idea that the principles of user experience
+    should not just drive design, but business and marketing. We’re known for finding
+    new ways to harmonize the things clients need with what users really want to create
+    experiences that change industries.
+  og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
-  venue-name: Marvin Gaye Recreation Center
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
-  venue-address: 6201 Banks Pl NE, Washington, DC 20019
+  venue-name: Huge  Inc.
+  venue-directions: https://goo.gl/maps/nNnCrhvaq4A2
+  venue-address: 530 Penn St NE, Washington, DC 20002
   start-time: 12pm
   end-time: 1pm
 buttons:
-  has-left-button: true
+  has-left-button: false
   button-left-url: https://example.com
-  button-left-text: 10$ Members
-  has-right-button: true
+  button-left-text: "$10 Members"
+  has-right-button: false
   button-right-url: https://example.com
-  button-right-text: 10$ Non-Members
+  button-right-text: "$10 Non-Members"
 is-oct-23: true
 is-sold-out: false
 layout: events-single
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+Huge Inc is a global collective of designers, strategists and technologists. We’re passionate about helping companies play trusted roles in people’s lives by creating products, services and brands that people truly love. We were the first agency to be founded on the idea that the principles of user experience should not just drive design, but business and marketing. We’re known for finding new ways to harmonize the things clients need with what users really want to create experiences that change industries.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+In Summer 2018, we launched a campaign called “From Immigrants” where we aim to spread awareness of the struggles immigrants face at the grassroots level. There are so many unseen battles that immigrants fight every day, and we wanted to share this with people in an eye-catching way. Because Bright Side is all about positivity, we chose to express these stories through vividly illustrated cards that we plan to leave in mailboxes, coffee shops, and other public spaces where we can reach everyday people and raise an awareness.
 
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
+## Speaker
+### Melis Sonmez [@hey_brightside](https://www.instagram.com/hey_brightside/)
+Founder of [Bright Side](http://thebrightside.co), an online-magazine where immigrants can share our inspiring stories to empower each other and show the world our positive impact on society.
 
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+thebrightside.co 
