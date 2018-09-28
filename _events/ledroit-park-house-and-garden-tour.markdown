@@ -9,7 +9,7 @@ seo:
     day.
   og-image: "/uploads/event_ledroitTour.jpg"
 event:
-  date: 2001-10-27 20:00:00 -04:00
+  date: 2018-10-28 13:00:00 -04:00
   venue-name: LeDroit Park Arch
   venue-directions: https://goo.gl/maps/XThdG4G3DEo
   venue-address: 6TH ST NW and T ST NW, Washington, DC 20001
