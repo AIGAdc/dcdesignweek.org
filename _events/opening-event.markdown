@@ -23,6 +23,10 @@ is-sold-out: false
 is-featured-on-home-page: true
 ---
 
+### Early Access Tix on Sale Oct 2 @ 9AM. [Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+
+### General Public Tix on Sale Oct 4 @ 10AM.
+
 Calling all makers! Learn from local designers creating their own furniture, screenprints, jewelry, ceramics, activist art and more at this event.
 ## Panel featuring: 
 * [Hadiya Williams](https://www.instagram.com/hadiyawilliams/)
