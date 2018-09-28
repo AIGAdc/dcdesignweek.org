@@ -23,6 +23,8 @@ buttons:
 is-oct-28: true
 ---
 
+## Use PROMO code DCDW2018 for ticket discounts!
+
 LeDroit Park was originally designed as one of the first suburbs of DC and it retains a tranquil character while remaining close to the bustle of U Street. A historic neighborhood since 1974, LeDroit features majestic, fully detached Victorian houses alongside classic rowhouses and more contemporary developments.
 
 The LeDroit Park House and Garden Tour will showcase the neighborhood’s unique architecture, history, and diversity, from its time as an exclusive enclave, through its heyday as a center of African American intelligentsia, to the present day.
