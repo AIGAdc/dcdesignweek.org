@@ -31,3 +31,10 @@ In an industry full of multi-hyphenate creatives, the best way to stand out is t
 * Why we don’t need anyone’s permission to create exactly what we want
 * How to grow a supportive audience online (?????) 
 * Insights and anecdotes on everything from ex-boyfriends to working with your teen pop idol
+
+## The Speaker
+### Adam J. Kurtz [@adamjk](https://www.instagram.com/adamjk/)
+Adam J. Kurtz is an artist and
+author whose illustrative work is rooted in honesty, humor and a little darkness. His books have been translated into over a dozen languages and his “very personal” work for clients like Strand Bookstore
+and Urban Outfitters has been featured in the New Yorker, VICE, Adweek and more.
+Kurtz’s narrative voice is often a reaction to internet culture, exploring the evolving role of design and language in their modern context, where text and image “memes” rule conversation and have changed the nature of communication itself. It’s no surprise then that he’s amassed a considerable online audience of young—and young-at-heart—creatives.
