@@ -24,8 +24,8 @@ is-featured-on-home-page: true
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 Calling all makers! Learn from local designers creating their own furniture, screenprints, jewelry, ceramics, activist art and more at this event.
