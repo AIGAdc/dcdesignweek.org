@@ -32,7 +32,7 @@ is-featured-on-home-page: true
 ### General Public On-Sale Oct 4.
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
-## A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.
+**A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
 
 In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author [Adam J. Kurtz (aka ADAMJK)](https://www.instagram.com/adamjk/) for a hilarious dissection of his accidental career and lessons learned along the way: 
 * Figuring out who the f*** you are, and what to do once you know
