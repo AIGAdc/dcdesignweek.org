@@ -26,8 +26,8 @@ layout: events-single
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Sale Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 HP and AIGA invite you to a "Bring Your Files" evening at ColorNet.
