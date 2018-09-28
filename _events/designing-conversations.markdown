@@ -22,8 +22,8 @@ is-oct-23: true
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 50 years since Stanley Kubrick’s  sci-fi epic ‘2001: A Space Odessey’ was made,  smart devices are slowly becoming part of our daily lives. 
 
