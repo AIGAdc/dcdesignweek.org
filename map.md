@@ -2,8 +2,8 @@
 title: Map
 permalink: "/map/"
 published: false
-description: 
-image: {}
+description:
+image: /uploads/2018-OG-featuredimage.jpg
 layout: map
 ---
 

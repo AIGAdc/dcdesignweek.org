@@ -33,12 +33,13 @@
   width: 100%;
 }
 
-.wysiwyg hr {
+.wysiwyg hr,
+.page-home.wysiwyg .sponsors hr {
   border: solid 4px $dcdw-primary;
 }
 
-.page-home.wysiwyg hr,
-.page-events.wysiwyg hr {
+.page-events.wysiwyg .mix hr,
+.page-home.wysiwyg .events .list hr {
   border: solid 2px $cloud;
 }
 

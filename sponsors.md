@@ -1,8 +1,8 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-description: 
-image: {}
+description:
+image: /uploads/2018-OG-featuredimage.jpg
 first-tier-header: Tier 1
 first-tier-sub-header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
   pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
@@ -14,7 +14,7 @@ third-tier-header: Tier 3
 third-tier-sub-header: Pellentesque consectetur varius turpis, nec viverra justo pellentesque
   sit amet.
 sponsor-button-text: Work with Us
-sponsor-button-link: rica@aigadc.org
+sponsor-button-url: designweek@dc.aiga.org
 layout: sponsors
 ---
 

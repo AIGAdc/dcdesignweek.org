@@ -9,3 +9,11 @@
     border-color: $rose-bud;
   }
 }
+
+.border-dashed {
+  border: dashed 4px transparent;
+
+  &--cloud {
+    border-color: $cloud;
+  }
+}
