@@ -31,7 +31,7 @@ layout: events-single
 
 ## Early Access Tix Available Oct 2. 
 ### General Public On-Sale Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 Learn how to use 3D models to advance your crafting and/or storytelling skills with [Fernando Baptista](https://www.pinterest.com/natgeo/nat-geo-infographics/) of [National Geographic](https://www.nationalgeographic.com/). 
