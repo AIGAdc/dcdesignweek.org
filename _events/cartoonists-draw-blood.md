@@ -18,9 +18,9 @@ event:
   end-time: 1pm
 buttons:
   has-left-button: true
-  button-left-url: https://example.com
-  button-left-text: Button Text
-  has-right-button: true
+  button-left-url: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
+  button-left-text: Schedule an Appointment
+  has-right-button: false
   button-right-url: https://example.com
   button-right-text: Button Text
 is-oct-20: true
@@ -34,10 +34,6 @@ In association with American Red Cross and National Cartoonists Society, Washing
 Schedule your appointment here: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
 
 All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
-
-Palisades Community Church
-5200 Cathedral Avenue, NW
-Washington, DC 20016
 
 Walk-ins are also welcome on October 20. Halloween costumes are encouraged, but not required.
 
