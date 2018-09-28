@@ -3,38 +3,34 @@ title: 'Salon with Modern African Furniture Designer: Jomo Tariku'
 date: 2017-10-03 17:09:00 -04:00
 position: 4
 seo:
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-    neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
-    consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
-    convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  description: 'This will be an intimate conversation about what it is like being
+    an industrial designer, the importance of bringing African inspired designs into
+    the industry without the assumed narratives, and following/making passions happen
+    in real time (i.e. how he manages to keep track of everything he is working on
+    while still being internationally involved at shows). '
+  og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2017-10-21 00:00:00 -04:00
+  date: 2022-10-01 00:00:00 -04:00
   venue-name: NJI Media
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 101 1/2 S Union St, Alexandria, VA 22314
   start-time: 8:00 am
   end-time: 9:00 am
 buttons:
-  has-left-button: true
-  button-left-url: https://example.com
-  button-left-text: Button Text
-  has-right-button: true
-  button-right-url: https://example.com
-  button-right-text: Button Text
+  has-left-button: false
+  button-left-text: "$5 Member"
+  has-right-button: false
+  button-right-text: "$10 Non-Member"
 is-oct-22: true
 is-sold-out: false
 is-featured-on-home-page: false
 layout: events-single
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+Jomo Tariku is a local industrial designer who has participated in shows internationally showcasing Contemporary African Furniture design. He has participated in international Design Week in Dubai, UAE and Addis Ababa, Ethiopia, and Milan—as well as had shows in Lagos, Accra, Venice most recently in Milan at the Salone del Mobile 2018. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Jomo's furniture incorporates a deep appreciation for African art and culture and infuses his heritage into contemporary product designs such as chairs and tables, and other home furnishings to offer an alternative to current styles and trends and believes the market is ripe for disruption.
 
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
+This will be an intimate conversation about what it is like being an industrial designer, the importance of bringing African inspired designs into the industry without the assumed narratives, and following/making passions happen in real time (i.e. how he manages to keep track of everything he is working on while still being internationally involved at shows). 
 
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+AIGA DC Salons are intimate roundtable discussions where we can talk, share and learn with each other. It’s where the creative community can have in-depth conversations and connect with people that have similar interests, all before your work day begins.
