@@ -9,21 +9,21 @@ seo:
     Engage in a guided discussion around equipping women in tech and design with tactics
     for salary negotiation, embracing ambition and getting paid what they deserve
     (aka: more). '
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2018-10-23 08:00:00 -04:00
   venue-name: WeWork Navy Yard
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
-  venue-address: SE DC
-  start-time: 8am
+  venue-address: 5200 Cathedral Ave NW, Washington, DC 20016
+  start-time: 7:30am
   end-time: 9am
 buttons:
   has-left-button: true
   button-left-url: https://example.com
-  button-left-text: 5$ Members
+  button-left-text: "$5 Members"
   has-right-button: true
   button-right-url: https://example.com
-  button-right-text: 10$ Non-Members
+  button-right-text: "$10 Non-Members"
 is-oct-23: true
 is-sold-out: false
 layout: events-single
