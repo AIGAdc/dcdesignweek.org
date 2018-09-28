@@ -10,7 +10,7 @@ seo:
     while still being internationally involved at shows). '
   og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2022-10-01 00:00:00 -04:00
+  date: 2018-10-22 08:00:00 -04:00
   venue-name: NJI Media
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 101 1/2 S Union St, Alexandria, VA 22314
