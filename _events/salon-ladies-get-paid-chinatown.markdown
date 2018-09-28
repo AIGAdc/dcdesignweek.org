@@ -1,5 +1,5 @@
 ---
-title: Salon with Ladies Get Paid (NW)
+title: Salon with Ladies Get Paid (Chinatown Location)
 date: 2018-09-27 21:50:00 -04:00
 position: 8
 seo:
@@ -13,8 +13,8 @@ seo:
 event:
   date: 2018-10-23 07:30:00 -04:00
   venue-name: Breather (in McGill Alley)
-  venue-directions: https://goo.gl/maps/Fi9tXrL1CLS2
-  venue-address: McGill Alley NW, Washington, DC 20004
+  venue-directions: https://goo.gl/maps/kCWWsSqtQVu
+  venue-address: 915 F St NW 3rd Floor Washington, DC 20004
   start-time: 7:30am
   end-time: 9am
 buttons:
@@ -46,3 +46,5 @@ Eliza Heppner is the Senior Advisor for AARP Foundation Programs.  In this posit
 
 ### Melanie Adams
 Melanie Adams is a Project Manager at AARP Foundation where she leads projects that enable aging in place and empower healthy food consumption for low-income older adults. Melanie is a recent graduate of Tufts University, where she completed her Master of Public Health in Health Services Management and Policy and a Master of Science in Nutrition Communication, Interventions, and Behavior Change. During her graduate program, she worked for Boston Senior Home Care (BSHC), a non-profit that aims to increase aging in place for older adults through service linkage and supportive housing. Through her work to improve BSHC’s operational efficiency, Melanie laid the groundwork for future program evaluation and developed tools to communicate program value to stakeholders. In addition to her work with older adults, she has five years of experience in adolescent health promotion. Melanie holds a BA in Food Systems from the University of Michigan and enjoys cooking, working out, and traveling in her spare time.
+
+Ladies Get Paid will be hosting two salons simultaneously to try and make this event as accessible as possible. If the NW location in Chinatown is not convenient for you, check out the event page for the salon in Navy Yard [here!](/events/salon-ladies-get-paid-navy-yard)
