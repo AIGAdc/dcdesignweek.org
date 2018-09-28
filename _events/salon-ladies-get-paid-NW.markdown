@@ -14,6 +14,8 @@ event:
   venue-name: Breather (in McGill Alley)
   venue-directions: https://goo.gl/maps/Fi9tXrL1CLS2
   venue-address: McGill Alley NW, Washington, DC 20004
+  start-time: 7:30am
+  end-time: 9am
 ---
 
 We've teamed up with Ladies Get Paid to host a morning salon for female-identifying designers. Join DC Design Week on Tuesday morning before you head off to work for an intimate, roundtable discussion with Ladies Get Paid. Engage in a guided discussion around equipping women in tech and design with tactics for salary negotiation, embracing ambition and getting paid what they deserve (aka: more). 
