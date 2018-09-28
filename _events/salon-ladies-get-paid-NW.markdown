@@ -27,8 +27,8 @@ is-oct-23: true
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Sale Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 We've teamed up with Ladies Get Paid to host a morning salon for female-identifying designers. Join DC Design Week on Tuesday morning before you head off to work for an intimate, roundtable discussion with Ladies Get Paid. Engage in a guided discussion around equipping women in tech and design with tactics for salary negotiation, embracing ambition and getting paid what they deserve (aka: more). 
