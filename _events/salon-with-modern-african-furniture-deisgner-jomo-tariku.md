@@ -28,8 +28,8 @@ layout: events-single
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Sale Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 Jomo Tariku is a local industrial designer who has participated in shows internationally showcasing Contemporary African Furniture design. He has participated in international Design Week in Dubai, UAE and Addis Ababa, Ethiopia, and Milan—as well as had shows in Lagos, Accra, Venice most recently in Milan at the Salone del Mobile 2018. 
