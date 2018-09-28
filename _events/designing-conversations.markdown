@@ -1,7 +1,7 @@
 ---
 title: Designing Conversations
 date: 2018-09-26 20:50:00 -04:00
-position: 12
+position: 13
 seo:
   og-image: "/uploads/event_placeholder.jpg"
 event:
