@@ -33,6 +33,8 @@ Calling all makers! Learn from local designers creating their own furniture, scr
 * [Bridget Parlato](http://www.fullcircuitstudio.com/?page_id=1483)
 * [Val Lucas](https://shop.bowerbox.com)
 
+## Poster Printing
 Print your own limited edition letterpress poster designed by DCDW’s 2018 featured artist: [LA Johnson](http://www.thelajohnson.com/).
 
+## Gallery Exploration
 Explore the gallery at Pyramid Atlantic & hear how the DMV inspires our panelists!
