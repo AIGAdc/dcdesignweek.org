@@ -10,7 +10,7 @@ seo:
     should not just drive design, but business and marketing. We’re known for finding
     new ways to harmonize the things clients need with what users really want to create
     experiences that change industries.
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-huge.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
   venue-name: Huge  Inc.
