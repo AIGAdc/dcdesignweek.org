@@ -10,7 +10,7 @@ seo:
     who are looking to grow their skills. '
   og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2017-10-21 00:00:00 -04:00
+  date: 2018-10-22 17:30:00 -04:00
   venue-name: Pivotal Labs
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 1625 I St NW, Washington, DC 20006
@@ -27,6 +27,11 @@ is-oct-22: true
 is-sold-out: false
 layout: events-single
 ---
+
+## Early Access Tix Available Oct 2. 
+### General Public on Sale Oct 4.
+[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+
 
 There's become a higher demand for animated content, and a lot of it is being filled with motion graphics animation. As a designer, you can create the assets and the art direction, but where do you begin with making it move? This will be a short intro crash course on animation that is geared towards designers who are looking to grow their skills. 
 
