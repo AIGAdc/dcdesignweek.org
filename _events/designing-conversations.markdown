@@ -2,6 +2,8 @@
 title: Designing Conversations
 date: 2018-09-26 20:50:00 -04:00
 position: 12
+seo:
+  og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2018-10-24 18:30:00 -04:00
   venue-name: Gensler
