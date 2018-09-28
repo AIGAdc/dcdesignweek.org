@@ -14,7 +14,7 @@ event:
   start-time: 4pm
   end-time: 7pm
 buttons:
-  has-left-button: true
+  has-left-button: false
   button-left-url: https://example.com
   button-left-text: "$5 Tickets"
   has-right-button: false
