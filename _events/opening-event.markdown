@@ -39,7 +39,10 @@ Calling all makers! Learn from local designers creating their own furniture, scr
 * [Val Lucas](https://shop.bowerbox.com)
 
 ## Poster Printing
-Print your own limited edition letterpress poster designed by DCDW’s 2018 featured artist: [LA Johnson](http://www.thelajohnson.com/).
+Leave with two limited edition prints, including a two-color letterpress poster designed by DCDW’s 2018 featured artist: [LA Johnson](http://www.thelajohnson.com/) that you can print yourself!
 
 ## Gallery Exploration
 Explore the gallery at Pyramid Atlantic & hear how the DMV inspires our panelists!
+
+## Partners
+This event is co-produced by AIGA DC and AIGA Baltimore. 
