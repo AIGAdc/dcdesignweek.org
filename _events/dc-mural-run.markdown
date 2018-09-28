@@ -1,6 +1,7 @@
 ---
 title: DC Mural Run
 date: 2018-09-26 20:46:00 -04:00
+position: 1
 event:
   date: 2018-10-24 07:00:00 -04:00
   venue-name: Blagden Alley
