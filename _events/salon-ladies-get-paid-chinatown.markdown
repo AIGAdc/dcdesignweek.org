@@ -42,7 +42,7 @@ Discussion begins at 7:45am
 
 Event wraps up promptly at 9:00am so you can get back to earning those dollars! 
 
-Ladies Get Paid will be hosting two salons simultaneously to try and make this event as accessible as possible. If the NW location in Chinatown is not convenient for you, check out the event page for the salon in Navy Yard [here](/events/salon-ladies-get-paid-navy-yard.html)!
+Ladies Get Paid will be hosting two salons simultaneously to try and make this event as accessible as possible. If the NW location in Chinatown is not convenient for you, check out the event page for the salon in Navy Yard [here](events/salon-ladies-get-paid-navy-yard.html)!
 
 ## Eliza Heppner 
 Eliza Heppner is the Senior Advisor for AARP Foundation Programs.  In this position she provides expert guidance on programs, policies and initiatives impacting low-income older adults.  Prior to joining the Foundation Eliza served as the Director of the Office of Strategic Initiatives at the Health Resources and Services Administration, an agency of the U.S. Department of Health and Human Services where she led the implementation of high profile federal priorities including the Affordable Care Act and the agency’s response to the opioid epidemic.  Early in her career Eliza served as the Deputy Finance Director for the Vermont Democratic Party and worked on a variety of progressive issues across the state.  She received a master’s degree in Public Administration from the University of Vermont and a B.A. in Women’s Studies from Wells College.   
