@@ -9,6 +9,7 @@ seo:
     and fans know exactly who we are. Join artist and author Adam J. Kurtz (aka ADAMJK)
     for a hilarious dissection of his accidental career and lessons learned along
     the way
+  og-image: "/uploads/event_adamJK-e974f0.jpg"
 event:
   date: 2018-10-25 18:30:00 -04:00
   venue-name: 'SE DC Miracle Theater '
@@ -24,7 +25,7 @@ buttons:
 is-oct-25: true
 ---
 
-In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author Adam J. Kurtz (aka ADAMJK) for a hilarious dissection of his accidental career and lessons learned along the way: 
+In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author [Adam J. Kurtz (aka ADAMJK)](https://www.instagram.com/adamjk/) for a hilarious dissection of his accidental career and lessons learned along the way: 
 * Figuring out who the f*** you are, and what to do once you know
 * Why we don’t need anyone’s permission to create exactly what we want
 * How to grow a supportive audience online (?????) 
