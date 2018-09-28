@@ -31,7 +31,7 @@ layout: events-single
 
 In association with American Red Cross and National Cartoonists Society, Washington, DC area cartoonists have clotted together to help keep the local blood banks well-stocked.
 
-Schedule your appointment here: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
+Schedule your appointment here: [https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades](https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades)
 
 All blood donors receive a complimentary cartoon sketch by a Washington, DC area cartoonist.
 
