@@ -18,7 +18,8 @@ buttons:
   has-right-button: false
   button-right-url: example.com
   button-right-text: "$15 Non-Members"
-is-oct-23: true
+is-oct-23: false
+is-oct-24: true
 ---
 
 ## Early Access Tix Available Oct 2. 
