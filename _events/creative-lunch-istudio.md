@@ -30,6 +30,10 @@ is-sold-out: false
 layout: events-single
 ---
 
+## Early Access Tix Available Oct 2. 
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+
 Huge Inc is a global collective of designers, strategists and technologists. We’re passionate about helping companies play trusted roles in people’s lives by creating products, services and brands that people truly love. We were the first agency to be founded on the idea that the principles of user experience should not just drive design, but business and marketing. We’re known for finding new ways to harmonize the things clients need with what users really want to create experiences that change industries.
 
 In Summer 2018, we launched a campaign called “From Immigrants” where we aim to spread awareness of the struggles immigrants face at the grassroots level. There are so many unseen battles that immigrants fight every day, and we wanted to share this with people in an eye-catching way. Because Bright Side is all about positivity, we chose to express these stories through vividly illustrated cards that we plan to leave in mailboxes, coffee shops, and other public spaces where we can reach everyday people and raise an awareness.
