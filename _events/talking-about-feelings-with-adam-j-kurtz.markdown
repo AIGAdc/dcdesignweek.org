@@ -18,13 +18,19 @@ event:
   start-time: 6:30pm
   end-time: 8:30pm
 buttons:
+  has-left-button: false
   button-left-url: example.com
   button-left-text: "$30 Members"
+  has-right-button: false
   button-right-url: example.com
   button-right-text: "$38 Non-Members"
 is-oct-25: true
 is-featured-on-home-page: true
 ---
+
+## Early Access Tix Available Oct 2. 
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 ## A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.
 
