@@ -1,5 +1,5 @@
 ---
-title: 'AIGA''s In-house INitiative: Bring Your Files - brought to you by HP '
+title: 'AIGA''s In-house INitiative: Bring Your Files - brought to you by HP'
 date: 2017-10-03 17:09:00 -04:00
 position: 5
 seo:
@@ -24,7 +24,7 @@ buttons:
   button-right-text: Button Text
 is-oct-22: true
 is-sold-out: false
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 layout: events-single
 ---
 
