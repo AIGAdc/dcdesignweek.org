@@ -23,8 +23,8 @@ is-sold-out: false
 is-featured-on-home-page: true
 ---
 
-## Early Access Tix Available Oct 2 @ 9AM. 
-### General Public on Sale Oct 4 @ 10AM.
+## Early Access Tix Available Oct 2. 
+### General Public on Sale Oct 4.
 [Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
 
 
