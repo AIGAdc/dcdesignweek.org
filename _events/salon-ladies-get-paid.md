@@ -3,10 +3,12 @@ title: Salon with Ladies Get Paid (SE)
 date: 2017-10-03 17:09:00 -04:00
 position: 7
 seo:
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-    neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
-    consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
-    convallis leo non purus vehicula, non faucibus libero rhoncus.
+  description: 'We''ve teamed up with Ladies Get Paid to host a morning salon for
+    female-identifying designers. Join DC Design Week on Tuesday morning before you
+    head off to work for an intimate, roundtable discussion with Ladies Get Paid.
+    Engage in a guided discussion around equipping women in tech and design with tactics
+    for salary negotiation, embracing ambition and getting paid what they deserve
+    (aka: more). '
   og-image: "/uploads/2018-OG-featuredimage.jpg"
 event:
   date: 2018-10-23 08:00:00 -04:00
@@ -27,13 +29,11 @@ is-sold-out: false
 layout: events-single
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+We've teamed up with Ladies Get Paid to host a morning salon for female-identifying designers. Join DC Design Week on Tuesday morning before you head off to work for an intimate, roundtable discussion with Ladies Get Paid. Engage in a guided discussion around equipping women in tech and design with tactics for salary negotiation, embracing ambition and getting paid what they deserve (aka: more). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Breakfast will be provided. 
 
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
-* Integer pharetra neque a diam cursus pulvinar.
-* Suspendisse faucibus mi id accumsan lobortis.
+Registration opens at 7:30am 
+Discussion begins at 7:45am
 
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+Event wraps up promptly at 9:00am so you can get back to earning those dollars! 
