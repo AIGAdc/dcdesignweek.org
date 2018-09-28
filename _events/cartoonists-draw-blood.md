@@ -7,7 +7,7 @@ seo:
     neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
     consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
     convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2018-10-20 00:00:00 -04:00
   venue-name: Palisades Community Church
