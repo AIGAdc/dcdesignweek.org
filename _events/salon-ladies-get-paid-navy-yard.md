@@ -43,7 +43,7 @@ Discussion begins at 7:45am
 
 Event wraps up promptly at 9:00am so you can get back to earning those dollars! 
 
-Ladies Get Paid will be hosting two salons simultaneously to try and make this event as accessible as possible. If the SE location in Navy Yard is not convenient for you, check out the event page for the salon in Chinatown [here](/events/salon-ladies-get-paid-chinatown.html)!
+Ladies Get Paid will be hosting two salons simultaneously to try and make this event as accessible as possible. If the SE location in Navy Yard is not convenient for you, check out the event page for the salon in Chinatown [here](events/salon-ladies-get-paid-chinatown.html)!
 
 ## Aliza Sir
 Aliza Sir is a Social Entrepreneur at AARP Foundation where she leads Work for Yourself@50+, the largest national entrepreneurship initiative designed for economically disadvantaged older adults, as well as the Foundation’s innovation efforts relating to workforce and economic security. Prior to joining AARP Foundation, Aliza was a strategic consultant at Next Street where she focused on ecosystem building in disadvantaged communities and delivering creative structuring solutions and investment opportunities to clients interested in driving both social impact and financial return. Aliza is passionate about fostering economic opportunity, getting outdoors, and traveling to new places. She holds a Certificate in Corporate Innovation from Stanford Graduate School of Business and a BA from UNC Chapel Hill (go Heels!).
