@@ -1,6 +1,7 @@
 ---
 title: Experienced Leaders Panel
 date: 2017-10-03 17:09:00 -04:00
+published: false
 position: 3
 seo:
   og-image: "/uploads/event_placeholder.jpg"
