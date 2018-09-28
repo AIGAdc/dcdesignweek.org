@@ -8,7 +8,7 @@ seo:
     the industry without the assumed narratives, and following/making passions happen
     in real time (i.e. how he manages to keep track of everything he is working on
     while still being internationally involved at shows). '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_salon-jomo.jpg"
 event:
   date: 2018-10-22 08:00:00 -04:00
   venue-name: NJI Media
