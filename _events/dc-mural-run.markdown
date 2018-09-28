@@ -19,7 +19,7 @@ buttons:
 is-oct-23: true
 ---
 
-## Free!
+## Free Event!
 
 Get ready to lace up your sneakers and join us for a mural run of DC’s most exciting street art. Washington DC has a history of great artists who transformed the sometimes overlooked spaces with their colourful works of art. Join Jules DeVita and Matt Green (District Running Club) as you traverse DC’s historic neighbourhoods to see best and of the brightest  best urban creative art in the district. Whether you’re a beginner, or an experienced marathoner, all paces and abilities are welcome to join us as we pound the concrete and discover some great art.
 
