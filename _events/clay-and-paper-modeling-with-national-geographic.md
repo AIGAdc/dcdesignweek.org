@@ -10,7 +10,7 @@ seo:
     this session — just come with a desire to learn!
   og-image: "/uploads/event_clayPaperModeling.jpg"
 event:
-  date: 2017-10-21 13:00:00 -04:00
+  date: 2018-10-21 13:00:00 -04:00
   venue-name: National Geographic (cafeteria)
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 1145 17th St NW, Washington, DC 20036
