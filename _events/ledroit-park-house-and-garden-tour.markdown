@@ -7,7 +7,7 @@ seo:
     unique architecture, history, and diversity, from its time as an exclusive enclave,
     through its heyday as a center of African American intelligentsia, to the present
     day.
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_ledroitTour.jpg"
 event:
   date: 2001-10-27 20:00:00 -04:00
   venue-name: LeDroit Park Arch
