@@ -8,7 +8,7 @@ seo:
     Baptista will demo his work and teach you how to create clay and paper sculptures
     that depict what cameras can’t. You don't have to be an expert sculptor to attend
     this session — just come with a desire to learn!
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_clayPaperModeling.jpg"
 event:
   date: 2017-10-21 13:00:00 -04:00
   venue-name: National Geographic (cafeteria)
