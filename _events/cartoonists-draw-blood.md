@@ -8,7 +8,7 @@ seo:
     banks well-stocked.
 
 '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_cartoonists.jpg"
 event:
   date: 2018-10-20 09:00:00 -04:00
   venue-name: Palisades Community Church
