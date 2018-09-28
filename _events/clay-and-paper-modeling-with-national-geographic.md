@@ -25,7 +25,7 @@ buttons:
   button-right-text: "$75 non-members"
 is-oct-21: true
 is-sold-out: false
-is-featured-on-home-page: false
+is-featured-on-home-page: true
 layout: events-single
 ---
 
