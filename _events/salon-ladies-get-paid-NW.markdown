@@ -16,6 +16,11 @@ event:
   venue-address: McGill Alley NW, Washington, DC 20004
   start-time: 7:30am
   end-time: 9am
+buttons:
+  button-left-url: https://example.com
+  button-left-text: "$5 Members"
+  button-right-text: "$10 Non-Members"
+is-oct-23: true
 ---
 
 We've teamed up with Ladies Get Paid to host a morning salon for female-identifying designers. Join DC Design Week on Tuesday morning before you head off to work for an intimate, roundtable discussion with Ladies Get Paid. Engage in a guided discussion around equipping women in tech and design with tactics for salary negotiation, embracing ambition and getting paid what they deserve (aka: more). 
