@@ -7,7 +7,7 @@ seo:
     neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
     consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum
     convallis leo non purus vehicula, non faucibus libero rhoncus.
-  og-image: "/uploads/2018-OG-featuredimage.jpg"
+  og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2017-10-21 13:00:00 -04:00
   venue-name: National Geographic (cafeteria)
@@ -24,7 +24,7 @@ buttons:
   button-right-text: "$75 non-members"
 is-oct-21: true
 is-sold-out: false
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 layout: events-single
 ---
 
