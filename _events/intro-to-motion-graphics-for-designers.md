@@ -1,7 +1,7 @@
 ---
 title: Intro to Motion Graphics for Designers
 date: 2017-10-03 17:09:00 -04:00
-position: 10
+position: 11
 seo:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
     neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
