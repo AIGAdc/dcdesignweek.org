@@ -5,7 +5,7 @@ position: 5
 seo:
   description: Join us for the opportunity to experience your work — printed on great
     media and on the highest-quality digital press in the industry.
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_HPprinting.jpg"
 event:
   date: 2017-10-22 16:00:00 -04:00
   venue-name: Colornet
