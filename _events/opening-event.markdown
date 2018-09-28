@@ -24,7 +24,7 @@ is-featured-on-home-page: true
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Sale Oct 4.
+### General Public on Oct 4.
 [Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
 
 
