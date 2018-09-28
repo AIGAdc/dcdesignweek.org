@@ -1,7 +1,7 @@
 ---
 title: Talking About Feelings with Adam J. Kurtz
 date: 2018-09-26 20:54:00 -04:00
-position: 8
+position: 9
 event:
   date: 2018-10-25 18:30:00 -04:00
   venue-name: 'SE DC MIracle Theater '
