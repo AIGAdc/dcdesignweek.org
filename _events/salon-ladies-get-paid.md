@@ -1,7 +1,7 @@
 ---
 title: Salon with Ladies Get Paid (SE)
 date: 2017-10-03 17:09:00 -04:00
-position: 11
+position: 7
 seo:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
     neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
