@@ -23,8 +23,8 @@ is-oct-23: true
 ---
 
 ## Early Access Tix Available Oct 2. 
-### General Public on Sale Oct 4.
-[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
 American Stamps. American Stories.
