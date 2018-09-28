@@ -3,7 +3,7 @@ title: American Stamps, American Stories
 date: 2018-09-26 20:40:00 -04:00
 position: 10
 seo:
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_americanStamps.jpg"
 event:
   date: 2018-10-23 17:00:00 -04:00
   venue-name: Fine Arts Building, NOVA Alexandia Campus
