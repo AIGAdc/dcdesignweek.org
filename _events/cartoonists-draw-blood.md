@@ -10,7 +10,7 @@ seo:
 '
   og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2018-10-20 00:00:00 -04:00
+  date: 2018-10-20 09:00:00 -04:00
   venue-name: Palisades Community Church
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 5200 Cathedral Avenue, NW, Washington, DC 20016
