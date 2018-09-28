@@ -1,7 +1,7 @@
 ---
 title: 'AIGA''s In-house INitiative: Bring Your Files - brought to you by HP '
 date: 2017-10-03 17:09:00 -04:00
-position: 8
+position: 9
 seo:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
     neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque
