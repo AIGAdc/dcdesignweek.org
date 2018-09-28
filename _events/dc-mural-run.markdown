@@ -25,4 +25,13 @@ Get ready to lace up your sneakers and join us for a mural run of DC’s most ex
 
 The total distance of the Mural Run will be 3 miles. The goal is to maintain a  conversational running pace (talking & smiling all the way!). We will stop briefly at each mural to take a group picture and to appreciate the artwork!
 
+## Jules DeVita [@ju_liondevita](https://www.instagram.com/ju_liondevita/)
+Julienne (Jules) DeVita is a Graphic Designer and Artist by trade, but you’ll often catch her running the streets of DC. Jules is an avid runner who volunteers to lead various run groups in the DC community. She is also the co-founder of ChixxaBeast, a digital media platform dedicated to voicing the inner Beast in all athletes, and specifically highlight accomplishments of elite female athletes.
+
+## Matt Green [@marsgreen](https://www.instagram.com/marsgreen/)
+### Founder District Running Collective [@districtrunningcollective](https://www.instagram.com/DistrictRunningCollective/)
+Matt is the leader and co-founder of [District Running Collective](http://districtrunningcollective.com) (DRC), an urban run crew that elevates running as a sport while positively impacting the community. Through DRC, Matt has successfully created successful events that show residents that healthy can be fun. He has spent the past five years building a community of runners that meet weekly and who would have never thought to run a marathon and now have multiple medals from all over the world. Matt has also used the run group to raise money for scholarships and non-profits. From working with the DCPD to ensure safe running to helping small, local businesses gain exposur
+
+
+
 
