@@ -43,6 +43,3 @@ Leave with two limited edition prints, including a two-color letterpress poster 
 
 ## Gallery Exploration
 Explore the gallery at Pyramid Atlantic & hear how the DMV inspires our panelists!
-
-## Partners
-This event is co-produced by AIGA DC and AIGA Baltimore. 
