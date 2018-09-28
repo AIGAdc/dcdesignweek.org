@@ -11,18 +11,25 @@ seo:
     (aka: more). '
   og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2018-10-23 08:00:00 -04:00
+  date: 2018-10-23 07:30:00 -04:00
   venue-name: Breather (in McGill Alley)
   venue-directions: https://goo.gl/maps/Fi9tXrL1CLS2
   venue-address: McGill Alley NW, Washington, DC 20004
   start-time: 7:30am
   end-time: 9am
 buttons:
+  has-left-button: false
   button-left-url: https://example.com
   button-left-text: "$5 Members"
+  has-right-button: false
   button-right-text: "$10 Non-Members"
 is-oct-23: true
 ---
+
+## Early Access Tix Available Oct 2. 
+### General Public on Sale Oct 4.
+[Join AIGA for Early Access.](http://dc.aiga.org/membership/membership-rates/)
+
 
 We've teamed up with Ladies Get Paid to host a morning salon for female-identifying designers. Join DC Design Week on Tuesday morning before you head off to work for an intimate, roundtable discussion with Ladies Get Paid. Engage in a guided discussion around equipping women in tech and design with tactics for salary negotiation, embracing ambition and getting paid what they deserve (aka: more). 
 
