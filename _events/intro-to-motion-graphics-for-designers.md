@@ -19,10 +19,10 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://example.com
-  button-left-text: Button Text
+  button-left-text: "$15 Member"
   has-right-button: true
   button-right-url: https://example.com
-  button-right-text: Button Text
+  button-right-text: "$20 Non-Member"
 is-oct-22: true
 is-sold-out: false
 layout: events-single
