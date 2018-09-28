@@ -18,10 +18,10 @@ event:
   start-time: 7:30am
   end-time: 9am
 buttons:
-  has-left-button: true
+  has-left-button: false
   button-left-url: https://example.com
   button-left-text: "$5 Members"
-  has-right-button: true
+  has-right-button: false
   button-right-url: https://example.com
   button-right-text: "$10 Non-Members"
 is-oct-23: true
