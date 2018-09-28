@@ -1,7 +1,6 @@
 ---
 title: Cartoonists Draw Blood
 date: 2017-10-03 17:09:00 -04:00
-published: false
 position: 2
 seo:
   description: 'In association with American Red Cross and National Cartoonists Society,
