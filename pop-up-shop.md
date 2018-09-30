@@ -20,18 +20,12 @@ gallery-opening-body: 'We''ll be celebrating the pop up shop by throwing a littl
   the week. Come meet them and have a chat! '
 gallery-opening-button-url: "/pop-up-shop/"
 gallery-opening-button: RSVP to Pop-Up Shop Party
-get-out-vote-header: Section 3
-get-out-vote-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-you-are-voting-header: Section 4
-you-are-voting-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+get-out-vote-header: Nothing to See Here
+get-out-vote-body: Nothing at all.
+you-are-voting-header: Same Here.
+you-are-voting-body: Yup.
 you-are-voting-button-url: https://dc.aiga.org
-you-are-voting-button: Button Text
+you-are-voting-button: This Button is a Lie
 layout: pop-up-shop
 ---
 
