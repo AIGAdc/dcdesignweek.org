@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: ISTUDIO Architects'
 date: 2018-09-30 09:59:00 -04:00
-position: 14
+position: 13
 seo:
   description: 'ISTUDIO Architects is a small, DC based firm passionate about designing
     spaces that promote healthy communities and sustainability.  The creative lunch

@@ -1,7 +1,7 @@
 ---
 title: DC Mural Run
 date: 2018-09-26 20:46:00 -04:00
-position: 18
+position: 17
 seo:
   og-image: "/uploads/event_DCmuralRun.jpg"
 event:
