@@ -55,17 +55,21 @@ Dan Banks has been designing and art directing in the DC area for over 25 years,
 Most recently, Dan was awarded the 2018 AIGA DC Fellow Award. 
 
 ## Lorenzo Wilkins [@willo330](https://twitter.com/willo330) 
-Lorenzo Wilkins, a Howard University graduate, is a creative/art director of graphic design who has worked extensively in his field for some 35+ years.  
+Lorenzo Wilkins, a Howard University graduate, is a creative/art director of graphic design who has worked extensively in his field for some 35+ years. 
+ 
 Mr. Wilkins heads a graphic design business that specializes in providing graphic communication solutions for a wide variety of clients in print, TV and film.  
 Mr. Wilkins has received recognition and awards from the Art Directors Club of Metropolitan Washington, several APEX Awards for Publication Design, Communicator Awards for Print, University & College Designers Association Award, and an Ozzie Award.  
+
 The art of photography has always been a passion of his, along with his love of design.  Recently he has embarked on producing a YouTube video series titled “ArtLife/LifeArt: An Insight into Creativity” which explores the creative process as told by the artists themselves. 
 
 ## Laura Latham
+Info coming soon.
 
 ## Maria Claudia de Valdenebro
+Info coming soon.
 
 ## Cheryl Miller 
+Info coming soon.
 
 ## Solid State Books
-
 Solid State Books is DC's newest independent bookstore and cafe, located in the bustling and historic H Street Corridor.  Solid State carries a wide range of books and gifts for adults and children, plus coffee, beer, wine, and snacks in our cafe. We host author talks, book groups, story times for children, and other goings-on nearly every day of the week. 
