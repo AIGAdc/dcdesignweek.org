@@ -5,7 +5,7 @@ position: 3
 seo:
   description: What is Super Art Fight? We like to say it's "Pictionary meets pro
     wrestling".
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_superArtFight.jpg"
 event:
   date: 2018-10-26 18:00:00 -04:00
   venue-name: TBD
