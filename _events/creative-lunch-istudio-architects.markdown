@@ -12,7 +12,7 @@ event:
   venue-name: Marvin Gaye Recreation Center
   venue-directions: https://goo.gl/maps/8KQ5HFCULNz
   venue-address: 15 61st St NE, Washington, MD 20019
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
