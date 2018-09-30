@@ -17,6 +17,11 @@ buttons:
 is-oct-26: true
 ---
 
+## Early Access Tix Available Oct 2. 
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+
+
 ## What is Super Art Fight? 
 
 We like to say it's "Pictionary meets pro wrestling". Imagine two teams of artists competing against each other by drawing on the same canvas at the same time to a topic like "Robots versus Monsters". They work both collaboratively and combatively until time is up, and then the audience chooses the winner based upon their level of hoots, hollers, cheers, and applause for each competitor. But if that wasn't crazy enough we have the WHEEL OF DEATH (a random topic generator full of topics submitted by our audience via our website) that throws new topics at our artists every five minutes.
