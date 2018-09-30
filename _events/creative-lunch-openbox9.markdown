@@ -8,7 +8,7 @@ seo:
     UX design, and website development. We create custom, integrated online and offline
     solutions for our social-good clients through a shared commitment to improve this
     world."
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-openBox9.jpg"
 event:
   date: 2018-10-24 12:00:00 -04:00
   venue-name: OpenBox9
