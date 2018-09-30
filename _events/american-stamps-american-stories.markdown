@@ -1,7 +1,7 @@
 ---
 title: American Stamps, American Stories
 date: 2018-09-26 20:40:00 -04:00
-position: 13
+position: 14
 seo:
   og-image: "/uploads/event_americanStamps.jpg"
 event:
