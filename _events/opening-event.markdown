@@ -1,7 +1,7 @@
 ---
 title: Opening Event! Local Makers Panel at Pyramid Atlantic
 date: 2018-09-26 00:38:00 -04:00
-position: 5
+position: 4
 seo:
   og-image: "/uploads/event_pyramidAtlantic.jpg"
 event:

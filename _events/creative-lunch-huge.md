@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Huge + Bright Side'
 date: 2017-10-03 17:09:00 -04:00
-position: 18
+position: 17
 seo:
   description: Huge Inc is a global collective of designers, strategists and technologists.
     We’re passionate about helping companies play trusted roles in people’s lives
