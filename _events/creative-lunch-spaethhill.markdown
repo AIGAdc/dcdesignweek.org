@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Spaeth Hill'
 date: 2018-09-30 10:15:00 -04:00
-position: 15
+position: 16
 seo:
   description: 'Spaeth Hill specializes in publication design, interior branding,
     and space design and activation. Guests will visit the studio''s custom-designed
