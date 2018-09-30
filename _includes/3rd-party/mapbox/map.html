@@ -1,1 +1,24 @@
-<div id='map' style="width: 100%; height:75vh;"></div>
+<section class="vh-75 relative">
+  <style>
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .mapboxgl-popup-content {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 400;
+      border-radius: 0 !important;
+      box-shadow: 5px 5px 0px rgba(28, 41, 82, 0.33);
+      max-width: 250px;
+    }
+
+    .mapboxgl-popup-content h3 {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 700;
+    }
+  </style>
+  <div id='map'></div>
+</section>

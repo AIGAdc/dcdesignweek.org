@@ -1,154 +1,47 @@
 <script>
-  mapboxgl.accessToken =
-    'pk.eyJ1IjoicnZvbmRvaGxlbiIsImEiOiJ0WHFyM1hRIn0.YNQ1RlsmSD6hAbSqmif7FA';
-  var places = {
-    "type": "FeatureCollection",
-    "features": [{
-      "type": "Feature",
-      "properties": {
-        "icon": "theatre"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.038659, 38.931567]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "icon": "theatre"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.003168, 38.894651]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "icon": "bar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.090372, 38.881189]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "description": "<strong>Capital Pride Parade</strong><p>The annual <a href=\"http://www.capitalpride.org/parade\" target=\"_blank\" title=\"Opens in a new window\">Capital Pride Parade</a> makes its way through Dupont this Saturday. 4:30 p.m. Free.</p>",
-        "icon": "bicycle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.052477, 38.943951]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "icon": "music"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.031706, 38.914581]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "icon": "music"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.020945, 38.878241]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "icon": "music"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.007481, 38.876516]
-      }
-    }]
-  };
-  
-  var filterGroup = document.getElementById('filter-group');
-  var map = new mapboxgl.Map({
+  mapboxgl.accessToken = 'pk.eyJ1IjoicnZvbmRvaGxlbiIsImEiOiJ0WHFyM1hRIn0.YNQ1RlsmSD6hAbSqmif7FA';
+  const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/rvondohlen/cjm466mel1lon2rnyrqvroezb',
-    center: [-77.04, 38.907],
-    zoom: 11.15
+    style: 'mapbox://styles/rvondohlen/cjmmf0bgc1o5x2rn45cpgdeux',
+    center: [-77.027805, 38.904681],
+    zoom: 9.4
   });
 
-  map.on('load', function () {
-    // Add a GeoJSON source containing place coordinates and information.
-    map.addSource("places", {
-      "type": "geojson",
-      "data": places
+  map.on('click', function (e) {
+
+    var features = map.queryRenderedFeatures(e.point, {
+      layers: ['map-data-v3-9-28-d0pc5n'] // replace this with the name of the layer
     });
 
-    places.features.forEach(function (feature) {
-      var symbol = feature.properties['icon'];
-      var layerID = 'poi-' + symbol;
+    if (!features.length) {
+      return;
+    }
 
-      // Add a layer for this symbol type if it hasn't been added already.
-      if (!map.getLayer(layerID)) {
-        map.addLayer({
-          "id": layerID,
-          "type": "symbol",
-          "source": "places",
-          "layout": {
-            "icon-image": symbol + "-15",
-            "icon-allow-overlap": true
-          },
-          "filter": ["==", "icon", symbol]
-        });
+    var feature = features[0];
 
-        // Add checkbox and label elements for the layer.
-        var input = document.createElement('input');
-        input.type = 'checkbox';
-        input.id = layerID;
-        input.checked = true;
-        filterGroup.appendChild(input);
-
-        var label = document.createElement('label');
-        label.setAttribute('for', layerID);
-        label.textContent = symbol;
-        filterGroup.appendChild(label);
-
-        // When the checkbox changes, update the visibility of the layer.
-        input.addEventListener('change', function (e) {
-          map.setLayoutProperty(layerID, 'visibility',
-            e.target.checked ? 'visible' : 'none');
-        });
-      }
+    map.flyTo({
+      center: feature.geometry.coordinates,
+      speed: 0.125
     });
 
-    // When a click event occurs on a feature in the places layer, open a popup at the
-    // location of the feature, with description HTML from its properties.
-    map.on('click', 'places', function (e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
+    var popup = new mapboxgl.Popup({
+        offset: [0, -15]
+      })
+      .setLngLat(feature.geometry.coordinates)
+      .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.date + ' &#64; ' + feature.properties
+        .time + '<br/>' + feature.properties.location + '<br/>' + feature.properties.address + '</p><a href="' +
+        feature.properties.link + '">Visit the event page</a>')
+      .setLngLat(feature.geometry.coordinates)
+      .addTo(map);
+  });
 
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
+  // Change the cursor to a pointer when the it enters a feature in the 'symbols' layer.
+  map.on('mouseenter', 'map-data-v3-9-28-d0pc5n', function () {
+    map.getCanvas().style.cursor = 'pointer';
+  });
 
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-    });
-
-    // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'places', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'places', function () {
-        map.getCanvas().style.cursor = '';
-    });
+  // Change it back to a pointer when it leaves.
+  map.on('mouseleave', 'map-data-v3-9-28-d0pc5n', function () {
+    map.getCanvas().style.cursor = '';
   });
 </script>
