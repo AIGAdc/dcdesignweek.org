@@ -26,4 +26,6 @@ Visit DCDW at our pop-up Lounge inside of Crafty Bastards on both Saturday and S
 
 This event is family-friendly and pet-friendly! 
 
-Please note, the DCDW Lounge will be inside of Crafty Bastards – you must buy tickets to the craft fair, in order to be admitted entry: [Tickets](https://www.bigtickets.com/event/details/?d1=wcp&d2=15th-annual-crafty-bastards-arts--crafts-fair-) ($6-$10)
+Please note, the DCDW Lounge will be inside of Crafty Bastards – you must buy tickets to the craft fair, in order to be admitted entry.
+
+[Tickets](https://www.bigtickets.com/event/details/?d1=wcp&d2=15th-annual-crafty-bastards-arts--crafts-fair-): $6-$10
