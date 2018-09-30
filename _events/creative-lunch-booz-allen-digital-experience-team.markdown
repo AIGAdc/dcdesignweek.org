@@ -1,5 +1,5 @@
 ---
-title: 'Creative Lunch: Booz Allen Digital Experience Team'
+title: 'Creative Lunch: Booz Allen Hamilton DX Team'
 date: 2018-09-30 10:03:00 -04:00
 position: 6
 seo:
@@ -25,6 +25,17 @@ is-oct-22: true
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
-Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
+Booz Allen Hamilton Digital Experience (DX) team embraces challenge and creates solutions in understanding that the people component is central to success of its delivery. The DX team enhances and unifies the experiences people have at every touchpoint, through advanced approaches such as experience strategy, user experience (UX), branding and visual design, digital analytics, and content strategy.
 
-More details about this event are coming soon.
+Booz Allen is honored to be a part of engaging with the DC design community and will be sharing 3 of their latest digital experiences. We look forward to hosting this creative lunch for our peers in the industry.
+
+**Important details for your attendance to the Booz Allen Hamilton headquarters location:**
+* Bring government issued photo identification such as a driver’s license or passport. Your work badges will not be accepted.
+* Arrive early 30 minutes early to sign in, get badged, escorted to the meeting space, settled in to begin enjoying your lunch. The presentation begins promptly at 12 PM.
+
+### Parking
+Free guest parking is available at the front of the building, the lot is on the left. You will need to stop at the kiosk and let security know you are their for a meeting.
+
+### Metro
+Greensboro Station on the Silver line
+
