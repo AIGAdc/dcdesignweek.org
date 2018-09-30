@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: DotGov'
 date: 2018-09-30 10:07:00 -04:00
-position: 4
+position: 12
 seo:
   description: "Creative lunches are intimate gatherings that provide guests the opportunity
     to get a behind-the-scenes look at some of the most exciting studios and spaces
