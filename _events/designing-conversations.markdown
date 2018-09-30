@@ -26,11 +26,12 @@ is-oct-24: true
 ### General Public On-Sale Oct 4.
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
-50 years since Stanley Kubrick’s  sci-fi epic ‘2001: A Space Odessey’ was made,  smart devices are slowly becoming part of our daily lives. 
+50 years since Stanley Kubrick’s sci-fi epic ‘2001: A Space Odyssey’ was made, smart devices are slowly becoming part of our daily lives.
 
-From Alexa and Siri to Google Assistant. Every major tech company has poured resources into developing voice user interfaces that use AI and machine learning to predict what we want and that feel more human. 
+From Alexa and Siri to Google Assistant, every major tech company has poured resources into developing voice user interfaces that use conversational AI and machine learning to predict what we want and assist us in our daily lives. 
 
-Join speakers from The Washington Post, NPR and Capital One who will showcase their most innovative voice enabled products and take part in a panel discussion that explores the growing area of conversational design and looks at the process, challenges and the future of designing for voice.
+Join speakers from The Washington Post, NPR and Capital One as they showcase their most innovative voice enabled products and conversational AI’s. followed by a panel discussion that explores the processes, challenges and ethics of designing for conversation.
+
 
 ## Joey Marburger [@josephjames](https://www.instagram.com/josephjames/)
 ### Director of Product, The Washington Post
@@ -50,8 +51,9 @@ Before joining Capital One, Audra spent 20+ years working as a filmmaker for stu
 ### Senior Product Manager, NPR Digital Media
 Ha-Hoa Hamano has been spurring efforts to make NPR accessible to users on a range of new platforms, including connected cars and smart TVs. In 2017, she played a crucial part in NPR’s push to bring its vast world of content to smart speakers, where NPR is a top option for news updates on all major platforms. 
 
-## Brockette Horne
-[Brockett Horne](www.brocketthorne.com) is a designer, educator, and writer. She serves as chair of graphic design at MICA, where she teaches fierce sophomores and daring juniors. She has been exhibited and honored with multiple design awards, is a past Rotary International Scholar, and has work in the permanent collection of the RISD Museum of Art. Her creative work is inspired by a desire to encourage the spectator to learn while looking. Clients include the Baltimore Museum of Art, Johns Hopkins University, Polaris Project, and the Taproot Foundation, among others.
+## Brockette Horne [@brocketthorne](https://www.instagram.com/brocketthorne/)
+### Chair, Graphic Design, MICA
+[Brockett Horne](http://www.brocketthorne.com/) is a designer, educator, and writer. She serves as chair of graphic design at MICA, where she teaches fierce sophomores and daring juniors. She has been exhibited and honored with multiple design awards, is a past Rotary International Scholar, and has work in the permanent collection of the RISD Museum of Art. Her creative work is inspired by a desire to encourage the spectator to learn while looking. Clients include the Baltimore Museum of Art, Johns Hopkins University, Polaris Project, and the Taproot Foundation, among others.
  
 She holds a BFA from Carnegie Mellon University, an MFA from Rhode Island School of Design, and an MA from the Bard graduate Center (with double thesae in art history and graphic design).
 
