@@ -11,7 +11,7 @@ event:
   venue-name: Red Peg Marketing
   venue-directions: https://goo.gl/maps/xEHuvsm2iUm
   venue-address: 727 N Washington Street Alexandria, VA 22314
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
