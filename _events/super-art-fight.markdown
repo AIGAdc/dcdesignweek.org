@@ -11,6 +11,9 @@ event:
   venue-address: TBD
   start-time: TBD
   end-time: TBD
+buttons:
+  has-left-button: false
+  has-right-button: false
 is-oct-26: true
 ---
 
