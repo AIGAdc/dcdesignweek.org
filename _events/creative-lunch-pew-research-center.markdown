@@ -24,6 +24,8 @@ is-oct-26: true
 ### General Public On-Sale Oct 4.
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
+**This is a free event that requires a refundable deposit to secure your spot. Please be sure to check in at the event to ensure your deposit is returned to you.**
+
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
