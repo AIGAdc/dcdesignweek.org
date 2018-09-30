@@ -12,12 +12,12 @@ event:
   start-time: 5pm
   end-time: 8pm
 buttons:
-  has-left-button: false
-  button-left-url: example.com
-  button-left-text: Free for NOVA Students
+  has-left-button: true
+  button-left-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
+  button-left-text: "$15 Non-Members"
   has-right-button: false
-  button-right-url: example.com
-  button-right-text: "$10 For All"
+  button-right-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
+  button-right-text: Free for NOVA Students (with promo code)
 is-oct-22: false
 is-oct-23: true
 ---
