@@ -9,7 +9,7 @@ seo:
     provided at this event, but guests are welcome to bring their own.
 
 '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-nasa.jpg"
 event:
   date: 2018-10-24 11:30:00 -04:00
   venue-name: Visitor Center at NASA's Goddard Space Flight Center
