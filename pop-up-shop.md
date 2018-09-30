@@ -17,7 +17,7 @@ gallery-opening-header: Interested in Participating?
 gallery-opening-body: 'Do you have wares, items or cool things you''ve made that you''d
   like to submit for for inclusion in the DC Design Week Pop Up Shop? Send us some
   info about your work by following filling out the form linked to below. '
-gallery-opening-button-url: https://dc.aiga.org
+gallery-opening-button-url: https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link
 gallery-opening-button: Submit for the Pop Up Shop
 get-out-vote-header: Section 3
 get-out-vote-body: |-
