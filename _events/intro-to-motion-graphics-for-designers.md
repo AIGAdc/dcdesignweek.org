@@ -17,11 +17,11 @@ event:
   start-time: 5:30pm
   end-time: 7:30pm
 buttons:
-  has-left-button: false
-  button-left-url: https://example.com
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fintro-to-animation-for-designers%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$15 Member"
-  has-right-button: false
-  button-right-url: https://example.com
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-booz-allen-hamilton-dx-team-tickets-50828425188
   button-right-text: "$20 Non-Member"
 is-oct-22: true
 is-sold-out: false
