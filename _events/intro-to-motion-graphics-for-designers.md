@@ -1,7 +1,7 @@
 ---
 title: Intro to Animation for Designers
 date: 2017-10-03 17:09:00 -04:00
-position: 15
+position: 14
 seo:
   description: 'There''s become a higher demand for animated content, and a lot of
     it is being filled with motion graphics animation. As a designer, you can create
