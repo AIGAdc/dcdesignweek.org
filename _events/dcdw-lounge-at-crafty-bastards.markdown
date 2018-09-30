@@ -7,7 +7,7 @@ seo:
     and Sunday to close out the week! We’ll have crafts, speakers and activities kicking
     off every hour for both days! We might have one or two surprises up our sleeves,
     too! Stay tuned for more details coming soon!
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_craftyBastards-e6d369.jpg"
 event:
   date: 2018-10-27 10:00:00 -04:00
   venue-name: Yards Park
