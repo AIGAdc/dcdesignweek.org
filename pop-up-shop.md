@@ -17,9 +17,9 @@ gallery-opening-header: Like to Party?
 gallery-opening-body: 'We''ll be celebrating the pop up shop by throwing a little
   party at the pop up shop. There will be good music, food, drinks and many of the
   artists, designers and crafts people whose work will be showcased at the shop throughout
-  the week. Come meet them and have a chat! '
-gallery-opening-button-url: "/pop-up-shop/"
-gallery-opening-button: RSVP to Pop-Up Shop Party
+  the week. Come meet them and have a chat! Details coming soon! '
+gallery-opening-button-url: https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link
+gallery-opening-button: Submit to be Featured in the Pop Up Shop!
 get-out-vote-header: Nothing to See Here
 get-out-vote-body: Nothing at all.
 you-are-voting-header: Same Here.
