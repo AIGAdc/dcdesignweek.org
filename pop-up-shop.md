@@ -2,10 +2,11 @@
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
 published: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-  neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-image: "/uploads/2018-OG-featuredimage.jpg"
-pop-up-shop-image: https://picsum.photos/800/400/?random
+description: We’re taking over the Cherry Blossom Creative storefront and filling
+  it with items made by locals. Swing by, shop, and support our neighborhood maker
+  and creative community.
+image: "/uploads/popUpShop-hero.jpg"
+pop-up-shop-image: "/uploads/popUpShop-hero.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image Alt
 pop-up-shop-header: Section 1
 pop-up-shop-body: |-
