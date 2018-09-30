@@ -40,8 +40,11 @@ layout: pop-up-shop
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+In addition to this year’s events, we’re opening our yearly DCDW Pop-Up Shop. We’re taking over the Cherry Blossom Creative storefront and filling it with items made by locals. Swing by, shop, and support our neighborhood maker and creative community.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
+## Have Your Art Featured in Our DCDW Pop Up Shop!
 
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+Are you a designer or artist with pieces you’re ready to sell? We want to help you sell your work to the design community at our pop up shop.
+
+Send your product details and information to us [here](https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link)! 
+
