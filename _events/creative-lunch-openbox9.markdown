@@ -2,6 +2,25 @@
 title: 'Creative Lunch: OpenBox9'
 date: 2018-09-28 01:24:00 -04:00
 position: 12
+seo:
+  description: "[Openbox9](http://openbox9.com/) is a creative service-focused strategy
+    and design firm that specializes in branding, graphic design, video and motion,
+    UX design, and website development. We create custom, integrated online and offline
+    solutions for our social-good clients through a shared commitment to improve this
+    world."
+  og-image: "/uploads/event_placeholder.jpg"
+event:
+  date: 2018-10-24 12:00:00 -04:00
+  venue-name: OpenBox9
+  venue-directions: https://goo.gl/maps/aC59uBsMV4P2
+  venue-address: 3805 12th Street NE, Washington DC 20017
+  start-time: Noon
+  end-time: 1pm
+buttons:
+  has-left-button: false
+  has-right-button: false
+is-oct-23: false
+is-oct-24: true
 ---
 
 ## Early Access Tix Available Oct 2.
