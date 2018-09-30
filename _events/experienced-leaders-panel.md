@@ -35,7 +35,7 @@ layout: events-single
 
 Are you planning for how your career in design might change in the next 5 years? 10 years? How about 20?
 
-Join Lorenzo Wilkins, Laura Latham, Maria Claudia and Cheryl Miller for a panel discussion moderated by 2018 AIGA DC Fellow Dan Banks on becoming experienced leaders.
+Join Lorenzo Wilkins, Laura Latham, Maria Claudia de Valdenebro and Cheryl Miller for a panel discussion moderated by 2018 AIGA DC Fellow Dan Banks on becoming experienced leaders.
 
 These giants of the DC design community will share how they have successfully navigated their careers and touch on topics such as:
 
@@ -62,7 +62,7 @@ The art of photography has always been a passion of his, along with his love of 
 
 ## Laura Latham
 
-## Maria Claudia 
+## Maria Claudia de Valdenebro
 
 ## Cheryl Miller 
 
