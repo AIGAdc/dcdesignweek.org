@@ -12,7 +12,7 @@ seo:
     with an audience of all ages, and even more so, help to translate a renewed sense
     of belonging with the design industry at-large. The panel is anticipated to be
     about an hour long following a Q&A informal discussion. '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_experiencedLeaders.jpg"
 event:
   date: 2017-10-21 13:30:00 -04:00
   venue-name: Solid State Books
