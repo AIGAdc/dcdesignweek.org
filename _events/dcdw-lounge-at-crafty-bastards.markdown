@@ -1,5 +1,5 @@
 ---
-title: DCDW Lounge @ Crafty Bastards
+title: DCDW Lounge @ Crafty Bastards (Saturday)
 date: 2018-09-30 09:33:00 -04:00
 position: 24
 seo:
