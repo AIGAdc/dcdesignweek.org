@@ -7,7 +7,7 @@ seo:
     spaces that promote healthy communities and sustainability.  The creative lunch
     will be hosted at Marvin Gaye Recreation Center, one of ISTUDIO’s most recently
     completed projects.  '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-istudio.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
   venue-name: Marvin Gaye Recreation Center
