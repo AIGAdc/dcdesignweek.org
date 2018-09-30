@@ -19,7 +19,7 @@ buttons:
   has-right-button: false
 is-oct-22: true
 is-sold-out: false
-is-featured-on-home-page: false
+is-featured-on-home-page: true
 layout: events-single
 ---
 
