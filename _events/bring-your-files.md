@@ -1,7 +1,7 @@
 ---
 title: 'AIGA''s In-house INitiative: Bring Your Files - sponsored by HP'
 date: 2017-10-03 17:09:00 -04:00
-position: 11
+position: 10
 seo:
   description: Join us for the opportunity to experience your work — printed on great
     media and on the highest-quality digital press in the industry.
