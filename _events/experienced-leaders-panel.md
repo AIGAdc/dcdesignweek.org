@@ -33,7 +33,20 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-This event aims to share the many perspectives of experienced leaders within our design community. On the panel will be speakers who represent a demographic that may have gone through a career transition or retirement, and would contribute towards a discussion about the many lessons they’ve learned or changes they’ve witnessed as they’ve artfully managed to evolve with the times. Our moderator, Dan Banks, will serve to draw out commonalities and new perspectives that connect with an audience of all ages, and even more so, help to translate a renewed sense of belonging with the design industry at-large. The panel is anticipated to be about an hour long following a Q&A informal discussion. 
+Are you planning for how your career in design might change in the next 5 years? 10 years? How about 20?
+
+Join Lorenzo Wilkins, Laura Latham, Maria Claudia and Cheryl Miller for a panel discussion moderated by 2018 AIGA DC Fellow Dan Banks on becoming experienced leaders.
+
+These giants of the DC design community will share how they have successfully navigated their careers and touch on topics such as:
+
+* Extending your creative career and fighting “burnout”
+* Balancing your own design practice while nurturing others
+* Setting career goals and planning for retirement
+* Reinventing and refocusing your career path
+
+This event is geared towards anyone who envisions having a long and fruitful creative career, whether you’re just out of college or already a seasoned professional.
+
+The panel discussion will be followed by an audience Q&A.
 
 ## Dan Banks (moderator)
 
