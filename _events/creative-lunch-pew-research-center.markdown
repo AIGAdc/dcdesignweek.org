@@ -11,7 +11,7 @@ event:
   venue-name: Pew Research Center
   venue-directions: https://goo.gl/maps/R4iyyS8srWq
   venue-address: '1615 L St NW #800, Washington, DC 20036'
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
