@@ -11,7 +11,7 @@ event:
   venue-name: 52 O St  Studios
   venue-directions: https://goo.gl/maps/G3w4tA6ofpM2
   venue-address: '52 O St NW #300, Washington, DC 20001'
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
