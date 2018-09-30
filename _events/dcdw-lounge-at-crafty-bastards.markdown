@@ -19,6 +19,7 @@ buttons:
   has-left-button: false
   has-right-button: false
 is-oct-27: true
+is-oct-28: false
 is-featured-on-home-page: true
 ---
 
