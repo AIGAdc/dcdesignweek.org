@@ -6,7 +6,7 @@ seo:
   description: Creative lunches are intimate gatherings that provide guests the opportunity
     to get a behind-the-scenes look at some of the most exciting studios and spaces
     across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-redPeg.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
   venue-name: Red Peg Marketing
