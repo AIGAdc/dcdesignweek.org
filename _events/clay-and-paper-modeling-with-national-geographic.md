@@ -11,7 +11,7 @@ seo:
   og-image: "/uploads/event_clayPaperModeling.jpg"
 event:
   date: 2018-10-21 13:00:00 -04:00
-  venue-name: National Geographic (4th Floor Cafeteria)
+  venue-name: National Geographic (M Street building, 4th floor cafeteria)
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 1145 17th St NW, Washington, DC 20036
   start-time: 1pm
