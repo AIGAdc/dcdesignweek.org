@@ -14,10 +14,10 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
-  button-left-text: "$15 Non-Members"
+  button-left-text: "$10 Members"
   has-right-button: false
   button-right-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
-  button-right-text: Free for NOVA Students (with promo code)
+  button-right-text: "$15 Non-Members"
 is-oct-22: false
 is-oct-23: true
 ---
