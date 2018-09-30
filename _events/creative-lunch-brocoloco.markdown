@@ -19,6 +19,11 @@ buttons:
 is-oct-25: true
 ---
 
+## Early Access Tix Available Oct 2. 
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+
+
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
 More details about this event are coming soon.
