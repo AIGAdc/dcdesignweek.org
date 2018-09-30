@@ -12,9 +12,9 @@ event:
   start-time: 7am
   end-time: 8am
 buttons:
-  has-left-button: false
-  button-left-url: example.com
-  button-left-text: Free
+  has-left-button: true
+  button-left-url: https://www.eventbrite.com/e/dc-mural-run-tickets-50828446251
+  button-left-text: Free RSVP
   has-right-button: false
 is-oct-23: false
 is-oct-24: true
