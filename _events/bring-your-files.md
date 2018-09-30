@@ -14,8 +14,9 @@ event:
   start-time: 4pm
   end-time: 7pm
 buttons:
-  has-left-button: false
-  button-left-text: "$5 Tickets"
+  has-left-button: true
+  button-left-url: https://www.hpeventcenter.com/c4a564/Registration
+  button-left-text: Free RSVP
   has-right-button: false
 is-oct-22: true
 is-sold-out: false
