@@ -8,7 +8,7 @@ seo:
     space and hear about the founders'' respective backgrounds and how they combined
     their expertise to form Spaeth Hill. We will share a selection of recent work
     including custom art and furniture designs. Snacks and beverages will be provided. '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-spaethHill.jpg"
 event:
   date: 2018-10-24 12:00:00 -04:00
   venue-name: SpaethHill
