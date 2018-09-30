@@ -1,7 +1,7 @@
 ---
 title: 'Salon with Modern African Furniture Designer: Jomo Tariku'
 date: 2017-10-03 17:09:00 -04:00
-position: 4
+position: 13
 seo:
   description: 'This will be an intimate conversation about what it is like being
     an industrial designer, the importance of bringing African inspired designs into

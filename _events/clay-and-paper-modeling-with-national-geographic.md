@@ -1,7 +1,7 @@
 ---
 title: Clay and Paper Modeling with National Geographic’s Fernando Baptista
 date: 2017-10-03 17:09:00 -04:00
-position: 2
+position: 11
 seo:
   description: Learn how to use 3D models to advance your crafting and/or storytelling
     skills with Fernando Baptista of National Geographic. In this hands-on session,
