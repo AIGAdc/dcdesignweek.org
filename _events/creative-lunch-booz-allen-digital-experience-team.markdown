@@ -12,7 +12,7 @@ event:
   venue-name: Booz Allen Hamilton Headquarters
   venue-directions: https://goo.gl/maps/jGVL3UrL3mq
   venue-address: 8283 Greensboro Dr, McLean, VA 22102
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
