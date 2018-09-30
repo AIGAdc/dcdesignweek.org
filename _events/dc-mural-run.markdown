@@ -23,9 +23,9 @@ is-featured-on-home-page: true
 
 ## Free Event!
 
-Get ready to lace up your sneakers and join us for a mural run of DC’s most exciting street art. Washington DC has a history of great artists who transformed the sometimes overlooked spaces with their colourful works of art. Join Jules DeVita and Matt Green ([District Running Club](http://www.districtrunningcollective.com/)) as you traverse DC’s historic neighbourhoods to see best and of the brightest  best urban creative art in the district. Whether you’re a beginner, or an experienced marathoner, all paces and abilities are welcome to join us as we pound the concrete and discover some great art.
+Get ready to lace up your sneakers and join us for a mural run of DC’s most exciting street art. Washington DC has a history of great artists who transformed the sometimes overlooked spaces with their colourful works of art. Join Jules DeVita and Matt Green  ([District Running Club](http://www.districtrunningcollective.com/)) as they traverse DC’s historic neighbourhoods to see best and of the brightest best urban creative art in the district. Whether you’re a beginner, or an experienced marathoner, all paces and abilities are welcome.
 
-The total distance of the Mural Run will be 3 miles. The goal is to maintain a  conversational running pace (talking & smiling all the way!). We will stop briefly at each mural to take a group picture and to appreciate the artwork!
+The total distance of the Mural Run will be 3 miles. The goal is to maintain a conversational running pace (talking & smiling all the way!). We will stop briefly at each mural to take a group picture and to appreciate the artwork!
 
 ## Jules DeVita [@ju_liondevita](https://www.instagram.com/ju_liondevita/)
 Julienne (Jules) DeVita is a Graphic Designer and Artist by trade, but you’ll often catch her running the streets of DC. Jules is an avid runner who volunteers to lead various run groups in the DC community. She is also the co-founder of ChixxaBeast, a digital media platform dedicated to voicing the inner Beast in all athletes, and specifically highlight accomplishments of elite female athletes.
