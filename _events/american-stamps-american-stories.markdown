@@ -26,6 +26,7 @@ is-oct-23: true
 ### General Public On-Sale Oct 4.
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
+**Free for NOVA students (with promo code).**
 
 American Stamps. American Stories.
 celebrates our nation through miniature works of graphic design.
