@@ -11,7 +11,7 @@ event:
   venue-name: Deloitte Digital
   venue-directions: https://goo.gl/maps/qkrVxo7NWnm
   venue-address: 1919 N Lynn Street, Arlington, VA 22209
-  start-time: Noon
+  start-time: 12pm
   end-time: 1pm
 buttons:
   has-left-button: false
