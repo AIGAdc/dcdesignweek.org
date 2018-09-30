@@ -1,6 +1,17 @@
 ---
 title: Super Art Fight
 date: 2018-09-30 09:30:00 -04:00
+seo:
+  description: What is Super Art Fight? We like to say it's "Pictionary meets pro
+    wrestling".
+  og-image: "/uploads/event_placeholder.jpg"
+event:
+  date: 2018-10-26 18:00:00 -04:00
+  venue-name: TBD
+  venue-address: TBD
+  start-time: TBD
+  end-time: TBD
+is-oct-26: true
 ---
 
 ## What is Super Art Fight? 
