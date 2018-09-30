@@ -17,11 +17,11 @@ event:
   start-time: 1pm
   end-time: 5:30pm
 buttons:
-  has-left-button: false
-  button-left-url: https://example.com
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fclay-and-paper-modeling-with-national-geographics-fernando-baptista%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$50 members"
-  has-right-button: false
-  button-right-url: https://example.com
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/clay-and-paper-modeling-with-national-geographics-fernando-baptista-tickets-50828046054
   button-right-text: "$75 non-members"
 is-oct-21: true
 is-sold-out: false
