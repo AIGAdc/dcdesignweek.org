@@ -1,9 +1,17 @@
 ---
-title: Experienced Leaders Panel
+title: Experienced Leaders Panel  at Solid State Books
 date: 2017-10-03 17:09:00 -04:00
-published: false
 position: 4
 seo:
+  description: 'This event aims to share the many perspectives of experienced leaders
+    within our design community. On the panel will be speakers who represent a demographic
+    that may have gone through a career transition or retirement, and would contribute
+    towards a discussion about the many lessons they’ve learned or changes they’ve
+    witnessed as they’ve artfully managed to evolve with the times. Our moderator,
+    Dan Banks, will serve to draw out commonalities and new perspectives that connect
+    with an audience of all ages, and even more so, help to translate a renewed sense
+    of belonging with the design industry at-large. The panel is anticipated to be
+    about an hour long following a Q&A informal discussion. '
   og-image: "/uploads/event_placeholder.jpg"
 event:
   date: 2017-10-21 13:30:00 -04:00
@@ -25,4 +33,4 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-This event aims to share the many perspectives of experienced leaders within our design community. On the panel would be speakers who represent a demographic that may have gone through a career transition or retirement, and would contribute towards a discussion about the many lessons they’ve learned or changes they’ve witnessed as they’ve artfully managed to evolve with the times. Our moderator, Dan Banks, will serve to draw out commonalities and new perspectives that connect with an audience of all ages, and even more so, help to translate a renewed sense of belonging with the design industry at-large. The panel is anticipated to be about an hour long following a Q&A informal discussion. 
+This event aims to share the many perspectives of experienced leaders within our design community. On the panel will be speakers who represent a demographic that may have gone through a career transition or retirement, and would contribute towards a discussion about the many lessons they’ve learned or changes they’ve witnessed as they’ve artfully managed to evolve with the times. Our moderator, Dan Banks, will serve to draw out commonalities and new perspectives that connect with an audience of all ages, and even more so, help to translate a renewed sense of belonging with the design industry at-large. The panel is anticipated to be about an hour long following a Q&A informal discussion. 
