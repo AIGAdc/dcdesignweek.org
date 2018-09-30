@@ -41,13 +41,13 @@ Marburger leads a team of product designers and managers overseeing the developm
 
 He lives in Northeast D.C. with his wife, Cas, the social media manager for the Truth Initiative Foundation, and their black Labrador retriever, Walt.
 
-## Audra Koklys Plummer [@audrakoklysplummer](https://www.instagram.com/audrakoklysplummer/)
+## Audra Koklys Plummer [@audrakoklysplummer](https://twitter.com/akoklysplummer)
 ### Head of AI Design, Capital One
 Audra is Head of AI Design and leads the team designing Capital One's Conversational AI. This includes Eno, the first gender-neutral, intelligent assistant from a U.S. Bank, and the Capital One skills on Alexa and Cortana. 
 
 Before joining Capital One, Audra spent 20+ years working as a filmmaker for studios like Pixar, DreamWorks and Lucasfilm, and as a documentarian flying search and rescue missions with the U.S. Coast Guard. Despite being a freak accident magnet she lives a quiet life in Falls Church, VA, and is often overheard telling her three amazing children she's not home so she can write and drink her chai lattes in peace.
 
-## Ha-Hoa Hamano [@hahoais](https://www.instagram.com/hahoais/)
+## Ha-Hoa Hamano [@hahoais](https://twitter.com/hahoais_)
 ### Senior Product Manager, NPR Digital Media
 Ha-Hoa Hamano has been spurring efforts to make NPR accessible to users on a range of new platforms, including connected cars and smart TVs. In 2017, she played a crucial part in NPR’s push to bring its vast world of content to smart speakers, where NPR is a top option for news updates on all major platforms. 
 
