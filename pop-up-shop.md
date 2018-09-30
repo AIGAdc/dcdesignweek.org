@@ -13,12 +13,13 @@ pop-up-shop-body: "Are you a designer or artist with pieces you’re ready to se
   your product details and information to us [here](https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link)! "
 gallery-opening-image: https://picsum.photos/800/?random
 gallery-opening-image-alt: Gallery Opening Image Alt
-gallery-opening-header: Interested in Participating?
-gallery-opening-body: 'Do you have wares, items or cool things you''ve made that you''d
-  like to submit for for inclusion in the DC Design Week Pop Up Shop? Send us some
-  info about your work by following filling out the form linked to below. '
-gallery-opening-button-url: https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link
-gallery-opening-button: Submit for the Pop Up Shop
+gallery-opening-header: Like to Party?
+gallery-opening-body: 'We''ll be celebrating the pop up shop by throwing a little
+  party at the pop up shop. There will be good music, food, drinks and many of the
+  artists, designers and crafts people whose work will be showcased at the shop throughout
+  the week. Come meet them and have a chat! '
+gallery-opening-button-url: "/pop-up-shop/"
+gallery-opening-button: RSVP to Pop-Up Shop Party
 get-out-vote-header: Section 3
 get-out-vote-body: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
