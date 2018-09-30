@@ -19,8 +19,11 @@ event:
   start-time: 12pm
   end-time: 1pm
 buttons:
-  has-left-button: false
-  has-right-button: false
+  has-left-button: true
+  button-left-url: https://www.eventbrite.com/e/salon-with-modern-african-furniture-designer-jomo-tariku-tickets-50828043045
+  button-left-text: "$10 Members"
+  has-right-button: true
+  button-right-url: "$15 Non-Members"
 is-oct-22: true
 ---
 
