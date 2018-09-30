@@ -12,12 +12,12 @@ event:
   start-time: 1pm
   end-time: 4pm
 buttons:
-  has-left-button: false
+  has-left-button: true
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fopening-event-local-makers-panel-at-pyramid-atlantic%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$10 members"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/opening-event-local-makers-panel-at-pyramid-atlantic-tickets-50828093195
-  button-right-text: "$15 non-members"
+  button-right-text: "$20 non-members"
 is-oct-20: true
 is-sold-out: false
 is-featured-on-home-page: true
