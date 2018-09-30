@@ -21,6 +21,11 @@ buttons:
 is-oct-24: true
 ---
 
+## Early Access Tix Available Oct 2. 
+### General Public On-Sale Oct 4.
+[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+
+
 Spaeth Hill specializes in publication design, interior branding, and space design and activation. Guests will visit the studio's custom-designed space and hear about the founders' respective backgrounds and how they combined their expertise to form Spaeth Hill. We will share a selection of recent work including custom art and furniture designs. Snacks and beverages will be provided. 
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
