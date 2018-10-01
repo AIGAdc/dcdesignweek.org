@@ -34,4 +34,4 @@ Join us for the opportunity to experience your work — printed on great media a
 
 You will take-away knowledge and hands-on experience with digital print from the industry leader. PSP and HP will present ideas on design thinking and share our latest projects.
 
-Submit your files by Oct 16 & pick up your prints at the event! Try printing white ink on black paper and other new techniques!
+**Submit your files by Oct 16 & pick up your prints at the event!** Try printing white ink on black paper and other new techniques!
