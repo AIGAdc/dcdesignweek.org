@@ -1,5 +1,5 @@
 ---
-title: Experienced Leaders Panel  at Solid State Books
+title: Experienced Leaders Panel at Solid State Books
 date: 2017-10-03 17:09:00 -04:00
 position: 3
 seo:
@@ -43,6 +43,7 @@ These giants of the DC design community will share how they have successfully na
 * Balancing your own design practice while nurturing others
 * Setting career goals and planning for retirement
 * Reinventing and refocusing your career path
+* Evolving with technology by acquiring new skills past your education
 
 This event is geared towards anyone who envisions having a long and fruitful creative career, whether you’re just out of college or already a seasoned professional.
 
@@ -63,12 +64,12 @@ Mr. Wilkins has received recognition and awards from the Art Directors Club of M
 The art of photography has always been a passion of his, along with his love of design.  Recently he has embarked on producing a YouTube video series titled “ArtLife/LifeArt: An Insight into Creativity” which explores the creative process as told by the artists themselves. 
 
 ## Laura Latham
-Info coming soon.
-
-## Maria Claudia de Valdenebro
-Info coming soon.
+Laura Latham is currently the Design Director at the Gensler Research Institute. She is dedicated to connecting and communicating research from across the firm to inform design of all aspects of life—how we live, work, play and care. Laura not only provides design direction for all Research publications, but also leads Gensler’s research focused on longevity and intergenerational community models. Connecting physical and social architecture to create sustainable solutions for our rapidly changing demographics has become her passion. In Laura’s previous role as a Design Director in Gensler’s brand and graphic design practice, her work spanned many industries including hospitality, finance, travel, corporate and residential real estate, designing places, spaces, print and digital communications that create rich user experiences.
 
 ## Cheryl Miller 
+Cheryl D. Miller is a Corporate Communications Designer best known for her groundbreaking industry article in Print Magazine 1987, “Black Designers Missing In Action,” developed from her acclaimed Pratt Institute graduate thesis, “Transcending The Problems Of The Black Designer To Success In The Marketplace.” Her thesis and article inspired she and her peers to launch the 1991 landmark premiere NY AIGA Diversity and Inclusion conference, “Why Is Graphic Design 93% White?” Currently, The Cheryl D. Miller Collection at Stanford University houses her 50 year legacy design scholarship and portfolio archives of graphic design work and writings. She travels to lecture about her story. A native of Washington D.C., she began her career as a broadcast designer for WTOP TV, WRC TV WHMM TV, before establishing her design career and practice in New York City.
+
+## Maria Claudia de Valdenebro
 Info coming soon.
 
 ## Solid State Books
