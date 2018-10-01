@@ -18,7 +18,7 @@ buttons:
   has-right-button: false
 is-oct-23: false
 is-oct-24: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 ## Free Event!
