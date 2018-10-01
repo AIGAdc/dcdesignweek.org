@@ -20,7 +20,7 @@ is-oct-26: true
 ---
 
 Tickets on sale: Monday, October 22, 10:30 am
-Register Link: https://creativemornings.com/talks/cmdc-october-18
+Register Link: [https://creativemornings.com/talks/cmdc-october-18](https://creativemornings.com/talks/cmdc-october-18)
 
 Join DC Design Week at CreativeMornings/DC’s October event on the theme of “Honesty!” Featuring a collaboration with [The Bentzen Ball Comedy Festival](https://brightestyoungthings.com/bentzen-ball)! 
 
