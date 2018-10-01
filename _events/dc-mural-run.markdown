@@ -32,7 +32,7 @@ Julienne (Jules) DeVita is a Graphic Designer and Artist by trade, but you’ll 
 
 ## Matt Green [@marsgreen](https://www.instagram.com/marsgreen/)
 ### Founder District Running Collective [@districtrunningcollective](https://www.instagram.com/DistrictRunningCollective/)
-Matt is the leader and co-founder of District Running Collective (DRC), an urban run crew that elevates running as a sport while positively impacting the community. Through DRC, Matt has successfully created successful events that show residents that healthy can be fun. He has spent the past five years building a community of runners that meet weekly and who would have never thought to run a marathon and now have multiple medals from all over the world. Matt has also used the run group to raise money for scholarships and non-profits. From working with the DCPD to ensure safe running to helping small, local businesses gain exposur
+Matt is the leader and co-founder of District Running Collective (DRC), an urban run crew that elevates running as a sport while positively impacting the community. Through DRC, Matt has successfully created successful events that show residents that healthy can be fun. He has spent the past five years building a community of runners that meet weekly and who would have never thought to run a marathon and now have multiple medals from all over the world. Matt has also used the run group to raise money for scholarships and non-profits. From working with the DCPD to ensure safe running to helping small, local businesses gain exposure by using them as meet up locations, Matt is committed to bettering all of Washington, DC.
 
 
 
