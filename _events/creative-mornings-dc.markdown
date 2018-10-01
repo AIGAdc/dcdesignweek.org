@@ -8,6 +8,8 @@ seo:
 event:
   date: 2018-10-26 08:30:00 -04:00
   venue-name: Eaton Hotel
+  venue-directions: https://goo.gl/maps/fuGnAzC3A1A2
+  venue-address: 1201 K St NW, Washington, DC 20005
   start-time: 8:30am
   end-time: 10am
 buttons:
