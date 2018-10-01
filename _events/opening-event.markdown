@@ -7,7 +7,7 @@ seo:
 event:
   date: 2018-10-20 13:00:00 -04:00
   venue-name: Pyramid Atlantic
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
+  venue-directions: https://goo.gl/maps/7fgdxQWpxiT2
   venue-address: 4318 Gallatin St, Hyattsville, MD 20781
   start-time: 1pm
   end-time: 4pm
