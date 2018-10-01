@@ -10,7 +10,7 @@ pop-up-shop-image-alt: Pop Up Shop Image Alt
 pop-up-shop-header: Have Your Art Featured in Our DCDW Pop Up Shop!
 pop-up-shop-body: "Are you a designer or artist with pieces you’re ready to sell?
   We want to help you sell your work to the design community at our pop up shop.\n\n[Send
-  us your product details and information] (https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link)! "
+  us your product details and information](https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link)! "
 gallery-opening-image: "/uploads/popUpShop-diamond.jpg"
 gallery-opening-image-alt: Gallery Opening Image Alt
 gallery-opening-header: Like to Party?
