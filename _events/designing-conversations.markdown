@@ -3,6 +3,10 @@ title: Designing Conversations
 date: 2018-09-26 20:50:00 -04:00
 position: 19
 seo:
+  description: Join speakers from The Washington Post, NPR and Capital One as they
+    showcase their most innovative voice enabled products and conversational AI’s.
+    followed by a panel discussion that explores the processes, challenges and ethics
+    of designing for conversation.
   og-image: "/uploads/event_designingConversations.jpg"
 event:
   date: 2018-10-24 18:30:00 -04:00
@@ -12,11 +16,11 @@ event:
   start-time: 6:30pm
   end-time: 9pm
 buttons:
-  has-left-button: false
-  button-left-url: example.com
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdesigning-conversations%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$10 Members"
-  has-right-button: false
-  button-right-url: example.com
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/designing-conversations-tickets-50828049063
   button-right-text: "$15 Non-Members"
 is-oct-23: false
 is-oct-24: true
