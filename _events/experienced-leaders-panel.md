@@ -16,7 +16,7 @@ seo:
 event:
   date: 2017-10-21 13:30:00 -04:00
   venue-name: Solid State Books
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
+  venue-directions: https://goo.gl/maps/2Gtqws1A5Co
   venue-address: 600F H St NE, Washington, DC 20002
   start-time: 1:30pm
   end-time: 3:30pm
