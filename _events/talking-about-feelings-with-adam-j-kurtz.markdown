@@ -18,10 +18,10 @@ event:
   start-time: 6:30pm
   end-time: 8:30pm
 buttons:
-  has-left-button: true
+  has-left-button: false
   button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
-  button-left-text: "$30 Members"
-  has-right-button: true
+  button-left-text: "$30 Members / $38 Non-Members"
+  has-right-button: false
   button-right-url: http://themiracletheatre.ticketfly.com/event/1771198
   button-right-text: "$38 Non-Members"
 is-oct-25: true
