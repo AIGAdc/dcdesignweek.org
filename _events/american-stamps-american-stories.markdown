@@ -1,5 +1,5 @@
 ---
-title: American Stamps, American Stories
+title: American Stories, American Stamps
 date: 2018-09-26 20:40:00 -04:00
 position: 14
 seo:
@@ -48,5 +48,5 @@ From popular entertainers to historic events, and from scientific achievements t
 
 ## Agenda for the Event 
 
-* **Explore the Exhibition & Check-in:** 6 to 7:00 PM, AFA Building Main Floor Art Gallery
-* **Designer Discussion:** 7:00 to 8:30 PM, Bisdorf Building (AA) Room 196
+* 6:00 to 7:00pm - Explore the Exhibition & Check-in: AFA Building Main Floor Art Gallery
+* 7:00 to 8:30pm - Designer Discussion: Bisdorf Building (AA) Room 196
