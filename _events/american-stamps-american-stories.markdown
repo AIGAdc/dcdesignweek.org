@@ -32,8 +32,7 @@ is-oct-23: true
 
 **Free for NOVA students (with promo code).**
 
-American Stamps. American Stories.
-celebrates our nation through miniature works of graphic design.
+American Stories. American Stamps. celebrates our nation through miniature works of graphic design.
 
 Since the first U.S. postage stamps were issued in 1847, designers have been telling American stories on a small scale. Though tiny, postage stamps have an outsized ambition: to capture the diversity of our nation and our culture for a global audience.
 
