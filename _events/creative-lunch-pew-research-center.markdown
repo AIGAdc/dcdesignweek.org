@@ -16,9 +16,11 @@ event:
   end-time: 1pm
 buttons:
   has-left-button: true
-  button-left-url: https://www.eventbrite.com/e/creative-lunch-pew-research-center-tickets-50828074138
-  button-left-text: "$10 Deposit"
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-pew-research-center%2F%3Fredirect_source%3Deventbrite_register
+  button-left-text: "$10 Deposit (Members)"
   has-right-button: false
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-pew-research-center-tickets-50828074138
+  button-right-text: "$10 Deposit (Non-Members)"
 is-oct-26: true
 ---
 
