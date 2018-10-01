@@ -23,7 +23,7 @@ buttons:
   button-left-text: "$10 Members"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/creative-lunch-nasa-tickets-50828038030
-  button-right-text: "$15 No-Members"
+  button-right-text: "$15 Non-Members"
 is-oct-24: true
 ---
 
