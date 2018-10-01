@@ -7,7 +7,7 @@ seo:
 event:
   date: 2018-10-23 17:00:00 -04:00
   venue-name: Fine Arts Building, NOVA Alexandia Campus
-  venue-directions: example.com
+  venue-directions: https://goo.gl/maps/Zb4GfdYPnSk
   venue-address: 3301 Netherton Drive, Alexandria, VA 22311
   start-time: 5pm
   end-time: 8pm
