@@ -11,20 +11,20 @@ dc-design-paragraph-1: Design is for thinkers and doers, listeners and seers, go
   and problem-solvers. It’s for walkers, bikers, drivers, and Metro riders. It’s for
   writers and readers, game players and web creators, food lovers and museum-goers.
   It’s for makers and appreciators, and it’s always up for debaters.
-dc-design-image-1: "/uploads/dcdw-faces-group-01.gif"
+dc-design-image-1: "/uploads/dcdw-faces-group-01b.gif"
 dc-design-image-1-alt: Group 1 of portrait illustrations showcasing the diversity
   of the DC Design Community
 dc-design-paragraph-2: 'Design: it’s a people thing. And in the DMV, we’re home to
   some of the smartest, coolest, realest, and greatest people around—not to mention
   one of the most exciting and innovative design cultures in the world.'
-dc-design-image-2: "/uploads/dcdw-faces-group-02.png"
+dc-design-image-2: "/uploads/dcdw-faces-group-02.gif"
 dc-design-image-2-alt: Group 2 of portrait illustrations showcasing the diversity
   of the DC Design Community
 dc-design-paragraph-3: 'That’s why, once again, we’re making a week of it all. And
   in 2018, we have more to celebrate than ever before—more partners, more experts,
   more formats, more venues, more incredible work. It’s DC Design Week: by our city’s
   humans, for people like you.'
-dc-design-image-3: "/uploads/dcdw-faces-group-03.png"
+dc-design-image-3: "/uploads/dcdw-faces-group-03.gif"
 dc-design-image-3-alt: Group 3 of portrait illustrations showcasing the diversity
   of the DC Design Community
 home-events-header: Featured Events
