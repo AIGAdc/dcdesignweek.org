@@ -9,7 +9,7 @@ seo:
 event:
   date: 2018-10-22 16:00:00 -04:00
   venue-name: Colornet
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
+  venue-directions: https://goo.gl/maps/aRjV5W4R28F2
   venue-address: 22570 Glenn Drive, Sterling, VA 20164
   start-time: 4pm
   end-time: 7pm
