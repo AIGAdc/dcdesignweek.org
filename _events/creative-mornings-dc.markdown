@@ -3,7 +3,7 @@ title: Creative Mornings DC
 date: 2018-10-01 17:16:00 -04:00
 seo:
   description: 'Join DC Design Week at CreativeMornings/DC’s October event on the
-    theme of “Honesty!” Featuring a collaboration with [The Bentzen Ball Comedy Festival](https://brightestyoungthings.com/bentzen-ball)! '
+    theme of “Honesty!” Featuring a collaboration with The Bentzen Ball Comedy Festival! '
   og-image: "/uploads/event_creativeMornings.jpg"
 event:
   date: 2018-10-26 08:30:00 -04:00
