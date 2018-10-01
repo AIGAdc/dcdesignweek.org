@@ -25,7 +25,7 @@ buttons:
   button-right-text: Schedule an Appointment
 is-oct-20: true
 is-sold-out: false
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 layout: events-single
 ---
 
