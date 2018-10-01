@@ -20,7 +20,7 @@ buttons:
   has-right-button: false
 is-oct-27: true
 is-oct-28: false
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 Visit DCDW at our pop-up Lounge inside of Crafty Bastards on both Saturday and Sunday to close out the week! We’ll have crafts, speakers and activities kicking off every hour for both days! We might have one or two surprises up our sleeves, too! Stay tuned for more details coming soon!
