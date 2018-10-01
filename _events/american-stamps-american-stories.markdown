@@ -15,7 +15,7 @@ buttons:
   has-left-button: true
   button-left-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
   button-left-text: "$10 Members"
-  has-right-button: false
+  has-right-button: true
   button-right-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
   button-right-text: "$15 Non-Members"
 is-oct-22: false
