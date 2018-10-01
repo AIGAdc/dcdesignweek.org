@@ -20,10 +20,11 @@ event:
   end-time: 1pm
 buttons:
   has-left-button: true
-  button-left-url: https://www.eventbrite.com/e/salon-with-modern-african-furniture-designer-jomo-tariku-tickets-50828043045
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-dotgov%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$10 Members"
   has-right-button: true
-  button-right-url: "$15 Non-Members"
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-dotgov-tickets-50828048060
+  button-right-text: "$15 Non-Members"
 is-oct-22: true
 ---
 
