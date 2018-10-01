@@ -3,14 +3,15 @@ title: American Stamps, American Stories
 date: 2018-09-26 20:40:00 -04:00
 position: 14
 seo:
+  description: "****"
   og-image: "/uploads/event_americanStamps.jpg"
 event:
-  date: 2018-10-23 17:00:00 -04:00
+  date: 2018-10-23 18:00:00 -04:00
   venue-name: Fine Arts Building, NOVA Alexandia Campus
   venue-directions: https://goo.gl/maps/Zb4GfdYPnSk
   venue-address: 3301 Netherton Drive, Alexandria, VA 22311
-  start-time: 5pm
-  end-time: 8pm
+  start-time: 6pm
+  end-time: 8:30pm
 buttons:
   has-left-button: true
   button-left-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
@@ -41,3 +42,8 @@ Northern Virginia Community College, Alexandria invited United States Postal Ser
 to create an exhibition about stamp design for their new gallery. American Stamps. American Stories. written and designed by Studio A and Journey Group—features stamps by USPS art directors Antonio Alcalá, Greg Breeding, Ethel Kessler, and Derry Noyes.
 
 From popular entertainers to historic events, and from scientific achievements to nature’s beauty, the broad American experience is represented in eye-catching displays of stamps. Supporting artwork and text present the stamp design process, highlighting how important design principles help produce successful stamp designs.
+
+## Agenda for the Event 
+
+* **Explore the Exhibition & Check-in:** 6 to 7:00 PM, AFA Building Main Floor Art Gallery
+* **Designer Discussion:** 7:00 to 8:30 PM, Bisdorf Building (AA) Room 196
