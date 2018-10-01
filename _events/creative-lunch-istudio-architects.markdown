@@ -21,7 +21,7 @@ buttons:
   button-left-text: "$10 Members"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/creative-lunch-istudio-architects-tickets-50828358990
-  button-right-text: "$15 Members"
+  button-right-text: "$15 Non-Members"
 is-oct-23: true
 ---
 
