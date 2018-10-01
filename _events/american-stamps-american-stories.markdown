@@ -3,7 +3,10 @@ title: American Stamps, American Stories
 date: 2018-09-26 20:40:00 -04:00
 position: 14
 seo:
-  description: "****"
+  description: 'Since the first U.S. postage stamps were issued in 1847, designers
+    have been telling American stories on a small scale. Though tiny, postage stamps
+    have an outsized ambition: to capture the diversity of our nation and our culture
+    for a global audience.'
   og-image: "/uploads/event_americanStamps.jpg"
 event:
   date: 2018-10-23 18:00:00 -04:00
