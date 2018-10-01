@@ -12,7 +12,7 @@ seo:
 event:
   date: 2018-10-22 17:30:00 -04:00
   venue-name: Pivotal Labs
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
+  venue-directions: https://goo.gl/maps/qAhfcu4tYUu
   venue-address: 1625 I St NW, Washington, DC 20006
   start-time: 5:30pm
   end-time: 7:30pm
