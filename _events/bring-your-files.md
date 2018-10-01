@@ -16,7 +16,7 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://www.hpeventcenter.com/c4a564/Registration
-  button-left-text: Free RSVP
+  button-left-text: Free RSVP + Submit Files
   has-right-button: false
 is-oct-22: true
 is-sold-out: false
