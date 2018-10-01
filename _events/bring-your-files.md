@@ -7,7 +7,7 @@ seo:
     media and on the highest-quality digital press in the industry.
   og-image: "/uploads/event_HPprinting.jpg"
 event:
-  date: 2017-10-22 16:00:00 -04:00
+  date: 2018-10-22 16:00:00 -04:00
   venue-name: Colornet
   venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
   venue-address: 22570 Glenn Drive, Sterling, VA 20164
