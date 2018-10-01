@@ -12,7 +12,7 @@ seo:
 event:
   date: 2018-10-22 08:00:00 -04:00
   venue-name: NJI Media
-  venue-directions: https://goo.gl/maps/Zqd2TQU4o2w
+  venue-directions: https://goo.gl/maps/am1JfXmAtRr
   venue-address: 101 1/2 S Union St, Alexandria, VA 22314
   start-time: 8:00 am
   end-time: 9:00 am
