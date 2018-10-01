@@ -15,7 +15,9 @@ event:
   start-time: 12pm
   end-time: 1pm
 buttons:
-  has-left-button: false
+  has-left-button: true
+  button-left-url: https://www.eventbrite.com/e/creative-lunch-pew-research-center-tickets-50828074138
+  button-left-text: "$10 Deposit"
   has-right-button: false
 is-oct-26: true
 ---
