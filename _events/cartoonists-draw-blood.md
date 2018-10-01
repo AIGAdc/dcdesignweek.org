@@ -18,11 +18,11 @@ event:
   end-time: 1pm
 buttons:
   has-left-button: true
-  button-left-url: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
-  button-left-text: Schedule an Appointment
+  button-left-url: https://www.eventbrite.com/e/cartoonists-draw-blood-tickets-50828517464
+  button-left-text: RSVP
   has-right-button: false
-  button-right-url: https://example.com
-  button-right-text: Button Text
+  button-right-url: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
+  button-right-text: Schedule an Appointment
 is-oct-20: true
 is-sold-out: false
 is-featured-on-home-page: true
