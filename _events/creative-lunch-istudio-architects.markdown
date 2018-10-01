@@ -32,9 +32,9 @@ is-oct-23: true
 
 ISTUDIO Architects is a small, DC based firm passionate about designing spaces that promote healthy communities and sustainability.  The creative lunch will be hosted at Marvin Gaye Recreation Center, one of ISTUDIO’s most recently completed projects.  We will use Marvin Gaye Rec as a precedent study for three different design strategies:
 
-1. Turning project challenges into opportunities
-1. The importance of the initial site analysis and research, and how this can be used to inform the final design
-1. How incorporating artwork can be integrated into the design itself, rather than being an additive item after project completion.
+* Turning project challenges into opportunities
+* The importance of the initial site analysis and research, and how this can be used to inform the final design
+* How incorporating artwork can be integrated into the design itself, rather than being an additive item after project completion.
 
 More information on the project can be found on our [website](https://istudioarchitects.com/portfolio/marvin-gaye-recreation-center).
  
