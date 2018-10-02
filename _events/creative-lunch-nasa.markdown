@@ -34,4 +34,6 @@ is-oct-24: true
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired! Note that lunch will not be provided at this event, but guests are welcome to bring their own.
 
-More details about this event are coming soon.
+## Location
+Please meet at the Visitor Center (which is close to the maingate) to be transported back and forth to our building by bus. 
+
