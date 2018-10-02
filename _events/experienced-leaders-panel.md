@@ -22,11 +22,9 @@ event:
   end-time: 3:30pm
 buttons:
   has-left-button: true
-  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fexperienced-leaders-panel%2F%3Fredirect_source%3Deventbrite_register
-  button-left-text: "$15 Members"
-  has-right-button: true
-  button-right-url: https://www.eventbrite.com/e/experienced-leaders-panel-tickets-50828078150
-  button-right-text: "$20 Non-Members"
+  button-left-url: https://www.eventbrite.com/e/experienced-leaders-panel-tickets-50828078150
+  button-left-text: Free RSVP
+  has-right-button: false
 is-oct-21: true
 is-sold-out: false
 is-featured-on-home-page: false
