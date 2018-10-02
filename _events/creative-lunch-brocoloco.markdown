@@ -29,6 +29,15 @@ is-oct-25: true
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
-Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
+BroCoLoco is a design firm that specializes in art installations and murals for commercial and community spaces. Founded and directed by Aaron Scales and co-run with Cassie Scales, the studio works with architects, interior designers, and business owners to transform buildings and shape brand identities.
 
-More details about this event are coming soon.
+Attendees can expect to be inspired to embrace the challenges and advantages of designing in the District as we discuss the trending intersection between art, advertising and architecture. You’ll get a peek behind the scenes of the BroCoLoco studio and how Aaron’s unusual perspective as architect and embassy designer merged with DC’s unique urban environment to create a vehicle for transforming buildings and influencing day-to-day experience in the city. Lunch will be provided!
+
+Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full.
+
+### Twitter: [@BroCoLoco](https://twitter.com/BroCoLoCo/)
+### Instagram: [@theBroCoLoCo](https://www.instagram.com/theBroCoLoCo/)
+
+## Location
+Street parking is limited, but the studio is a 15 minute walk from NoMa metro. Enter 004 in the front door code box and BroCoLoco will buzz you in. Once inside, follow the signs to the 3rd floor and look for the yellow bird doors! 
+
