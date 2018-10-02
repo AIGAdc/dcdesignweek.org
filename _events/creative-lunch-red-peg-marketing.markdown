@@ -1,5 +1,5 @@
 ---
-title: 'Creative Lunch: Red Peg Marketing'
+title: 'Creative Lunch: RedPeg Marketing'
 date: 2018-09-30 10:25:00 -04:00
 position: 12
 seo:
@@ -9,7 +9,7 @@ seo:
   og-image: "/uploads/event_creativeLunch-redPeg2.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
-  venue-name: Red Peg Marketing
+  venue-name: RedPeg Marketing
   venue-directions: https://goo.gl/maps/xEHuvsm2iUm
   venue-address: 727 N Washington Street Alexandria, VA 22314
   start-time: 12pm
