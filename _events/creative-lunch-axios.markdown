@@ -17,7 +17,7 @@ event:
   start-time: 12pm
   end-time: 1pm
 buttons:
-  button-left-url: https://www.eventbrite.com/e/creative-lunch-axios-tickets-50887914121
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-axios%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$10 Members"
   button-right-url: https://www.eventbrite.com/e/creative-lunch-axios-tickets-50887914121
   button-right-text: "$15 Non-Members"
