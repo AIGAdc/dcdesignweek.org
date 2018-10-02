@@ -18,10 +18,10 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdesigning-conversations%2F%3Fredirect_source%3Deventbrite_register
-  button-left-text: "$10 Members"
+  button-left-text: "$15 Members"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/designing-conversations-tickets-50828049063
-  button-right-text: "$15 Non-Members"
+  button-right-text: "$20 Non-Members"
 is-oct-23: false
 is-oct-24: true
 is-featured-on-home-page: true
