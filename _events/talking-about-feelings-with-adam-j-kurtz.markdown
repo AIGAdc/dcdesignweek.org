@@ -34,7 +34,7 @@ is-featured-on-home-page: true
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
 
-** Please enter the email address associated with your AIGA membership in the promo code field on the ticket page for Adam J. Kurtz. This will get you the discounted ticket price of $30. **
+** [Please enter the email address associated with your AIGA membership in the promo code field on the ticket page for Adam J. Kurtz. This will get you the discounted ticket price of $30.](https://www.ticketfly.com/purchase/event/1771198?_ga=2.268398606.1278497458.1538496632-1925525455.1538496631) **
 
 In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author [Adam J. Kurtz (aka ADAMJK)](https://www.instagram.com/adamjk/) for a hilarious dissection of his accidental career and lessons learned along the way: 
 * Figuring out who the f*** you are, and what to do once you know
