@@ -3,10 +3,11 @@ title: 'Creative Lunch: BroCoLoco'
 date: 2018-09-30 10:18:00 -04:00
 position: 20
 seo:
-  description: Creative lunches are intimate gatherings that provide guests the opportunity
-    to get a behind-the-scenes look at some of the most exciting studios and spaces
-    across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
-  og-image: "/uploads/event_creativeLunch-broCoLoco.jpg"
+  description: BroCoLoco is a design firm that specializes in art installations and
+    murals for commercial and community spaces. Founded and directed by Aaron Scales
+    and co-run with Cassie Scales, the studio works with architects, interior designers,
+    and business owners to transform buildings and shape brand identities.
+  og-image: "/uploads/event_creativeLunch-broCoLoco2.jpg"
 event:
   date: 2018-10-25 12:00:00 -04:00
   venue-name: 52 O St  Studios
