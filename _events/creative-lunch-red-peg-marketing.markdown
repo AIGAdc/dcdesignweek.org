@@ -6,7 +6,7 @@ seo:
   description: Creative lunches are intimate gatherings that provide guests the opportunity
     to get a behind-the-scenes look at some of the most exciting studios and spaces
     across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
-  og-image: "/uploads/event_creativeLunch-redPeg.jpg"
+  og-image: "/uploads/event_creativeLunch-redPeg2.jpg"
 event:
   date: 2018-10-23 12:00:00 -04:00
   venue-name: Red Peg Marketing
@@ -29,6 +29,9 @@ is-oct-23: true
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
+RedPeg is an independent brand engagement agency that creates experiences that delight, inspire, and instantly make an impact. Through insight-led strategy, they ensure that fleeting moments become long-lasting memories; and that these memories resonate with our clients and their audiences — clients such as GEICO, Amazon, DISH Network, Jägermeister, Carlsberg and DISH Network. They get the need for measurable ROI and KPIs, and for upward curves in sales and social numbers. They achieve those, while also remaining focused on creating experiences that leave lasting impressions. It’s simple, really. They make it mean more, and have been since 1995.
+
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
-More details about this event are coming soon.
+## Metro and Parking: 
+RedPeg’s office is located at 727 N. Washington Street, Alexandria, VA 22314. The nearest Metro stop is Braddock Road and it’s about a 10-15 minute walk from there. Building access is ground level, just ring the bell and take the elevator to the fourth floor. If driving, street parking is available.
