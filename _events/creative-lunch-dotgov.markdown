@@ -35,4 +35,8 @@ is-oct-22: true
 
 Do you report to a manager who isn't a designer? Feel like you're the only creative person in your organization? Hear from designers in government who have been successful getting buy-in from leadership about the importance of design. You'll leave with tactics for how to successfully pitch projects and communicate with managers who may not be creative professionals.
 
+## About Deloitte Digital
+
+We are a creative digital consultancy. All across the globe, we’re helping clients see what’s possible, identify what’s valuable, and deliver on it. How? By combining creative and digital capabilities with advertising agency prowess and the technical experience, deep business strategy, and relationships of the world’s largest consultancy.
+
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
