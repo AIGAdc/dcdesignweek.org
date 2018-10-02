@@ -17,7 +17,7 @@ event:
   end-time: 8:30pm
 buttons:
   has-left-button: true
-  button-left-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Famerican-stamps-american-stories-2%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$10 Members"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/american-stamps-american-stories-tickets-50828278750
