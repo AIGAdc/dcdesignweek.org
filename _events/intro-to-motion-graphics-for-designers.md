@@ -24,7 +24,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/intro-to-animation-for-designers-tickets-50827614764
   button-right-text: "$20 Non-Member"
 is-oct-22: true
-is-sold-out: false
+is-sold-out: true
 is-featured-on-home-page: false
 layout: events-single
 ---
