@@ -34,9 +34,9 @@ layout: events-single
 [Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 
-Jomo Tariku is a local industrial designer who has participated in shows internationally showcasing Contemporary African Furniture design. He has participated in international Design Week in Dubai, UAE and Addis Ababa, Ethiopia, and Milan—as well as had shows in Lagos, Accra, Venice most recently in Milan at the Salone del Mobile 2018. 
+Jomo Tariku is an Ethiopian American local industrial designer. Jomo is defining a new design language for modern African themed furniture by synthesizing his experience of the continent’s diverse cultures, historical structures, architecture, traditional furniture, colors, artifacts, natural environment, endemic wildlife, indigenous dresses and hairstyles. Blending the memories of his formative years in Ethiopia with travel through the rest of the continent, Jomo’s design offers a new line of inquiry and experience of modernity while venerating the rich historical palette of Africa. The Nyala Chair, Birth Chair II and Kebero Stool series represent his bold approach to design, imprinting cultural themes and patterns on wood, metal, leather and acrylic.
 
-Jomo's furniture incorporates a deep appreciation for African art and culture and infuses his heritage into contemporary product designs such as chairs and tables, and other home furnishings to offer an alternative to current styles and trends and believes the market is ripe for disruption.
+Jomo has participated in international design shows in Dubai, UAE, Venice, Italy, Addis Ababa, Ethiopia, Lagos, Nigeria, Montreal, Canada, and most recently in Milan at the Salone del Mobile 2018. His work has been recognized by Interior Design magazine as "One of the most interesting finds of ICFF 2017
 
 This will be an intimate conversation about what it is like being an industrial designer, the importance of bringing African inspired designs into the industry without the assumed narratives, and following/making passions happen in real time (i.e. how he manages to keep track of everything he is working on while still being internationally involved at shows). 
 
