@@ -33,4 +33,4 @@ layout: pop-up-shop
 
 ---
 
-In addition to this year’s events, we’re opening our yearly DCDW Pop-Up Shop. We’re taking over the Cherry Blossom Creative storefront and filling it with items made by locals. Swing by, shop, and support our neighborhood maker and creative community.
+In addition to this year’s events, we’re opening our yearly DCDW Pop-Up Shop. We’re taking over the [Cherry Blossom Creative storefront](http://www.cherryblossomworkshop.com/new-index/) and filling it with items made by locals. Swing by, shop, and support our neighborhood maker and creative community.
