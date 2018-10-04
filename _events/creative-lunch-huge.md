@@ -26,7 +26,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-bright-side-huge-tickets-50827612758
   button-right-text: "$15 Non-Members"
 is-oct-23: true
-is-sold-out: false
+is-sold-out: true
 layout: events-single
 ---
 
