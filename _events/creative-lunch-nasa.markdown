@@ -25,6 +25,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-nasa-tickets-50828038030
   button-right-text: "$15 Non-Members"
 is-oct-24: true
+is-sold-out: true
 ---
 
 ## Early Access Tix Available Oct 2. 
