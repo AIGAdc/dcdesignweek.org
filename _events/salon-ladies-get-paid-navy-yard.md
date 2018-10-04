@@ -1,7 +1,7 @@
 ---
 title: Salon with Ladies Get Paid (Navy Yard Location)
 date: 2017-10-03 17:09:00 -04:00
-position: 7
+position: 9
 seo:
   description: 'We''ve teamed up with Ladies Get Paid to host a morning salon for
     female-identifying designers. Join DC Design Week on Tuesday morning before you
@@ -18,14 +18,15 @@ event:
   start-time: 7:30am
   end-time: 9am
 buttons:
-  has-left-button: false
-  button-left-url: https://example.com
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fsalon-with-ladies-get-paid-navy-yard-location%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$5 Members"
-  has-right-button: false
-  button-right-url: https://example.com
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/salon-with-ladies-get-paid-navy-yard-location-tickets-50828155381
   button-right-text: "$10 Non-Members"
 is-oct-23: true
 is-sold-out: false
+is-featured-on-home-page: true
 layout: events-single
 ---
 
