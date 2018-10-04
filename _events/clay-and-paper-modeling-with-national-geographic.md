@@ -24,8 +24,8 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/clay-and-paper-modeling-with-national-geographics-fernando-baptista-tickets-50828046054
   button-right-text: "$75 non-members"
 is-oct-21: true
-is-sold-out: false
-is-featured-on-home-page: true
+is-sold-out: true
+is-featured-on-home-page: false
 layout: events-single
 ---
 
