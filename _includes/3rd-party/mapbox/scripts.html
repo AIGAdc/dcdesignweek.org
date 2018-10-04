@@ -10,7 +10,7 @@
   map.on('click', function (e) {
 
     var features = map.queryRenderedFeatures(e.point, {
-      layers: ['map-data-v3-9-28-d0pc5n'] // replace this with the name of the layer
+      layers: ['map-data-v4-9-30-6tu2z4'] // replace this with the name of the layer
     });
 
     if (!features.length) {
@@ -36,12 +36,12 @@
   });
 
   // Change the cursor to a pointer when the it enters a feature in the 'symbols' layer.
-  map.on('mouseenter', 'map-data-v3-9-28-d0pc5n', function () {
+  map.on('mouseenter', 'map-data-v4-9-30-6tu2z4', function () {
     map.getCanvas().style.cursor = 'pointer';
   });
 
   // Change it back to a pointer when it leaves.
-  map.on('mouseleave', 'map-data-v3-9-28-d0pc5n', function () {
+  map.on('mouseleave', 'map-data-v4-9-30-6tu2z4', function () {
     map.getCanvas().style.cursor = '';
   });
 </script>
