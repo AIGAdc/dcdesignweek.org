@@ -1,7 +1,7 @@
 ---
 title: Cartoonists Draw Blood
 date: 2017-10-03 17:09:00 -04:00
-position: 0
+position: 1
 seo:
   description: 'In association with American Red Cross and National Cartoonists Society,
     Washington, DC area cartoonists have clotted together to help keep the local blood
@@ -18,14 +18,14 @@ event:
   end-time: 1pm
 buttons:
   has-left-button: true
-  button-left-url: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
-  button-left-text: Schedule an Appointment
+  button-left-url: https://www.eventbrite.com/e/cartoonists-draw-blood-tickets-50828517464
+  button-left-text: RSVP
   has-right-button: false
-  button-right-url: https://example.com
-  button-right-text: Button Text
+  button-right-url: https://www.redcrossblood.org/give.html/drive-results?order=DATE&range=10&zipSponsor=Palisades
+  button-right-text: Schedule an Appointment
 is-oct-20: true
 is-sold-out: false
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 layout: events-single
 ---
 

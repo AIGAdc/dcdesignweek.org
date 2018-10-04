@@ -1,7 +1,30 @@
 ---
 title: 'Creative Lunch: OpenBox9'
 date: 2018-09-28 01:24:00 -04:00
-position: 12
+position: 16
+seo:
+  description: "[Openbox9](http://openbox9.com/) is a creative service-focused strategy
+    and design firm that specializes in branding, graphic design, video and motion,
+    UX design, and website development. We create custom, integrated online and offline
+    solutions for our social-good clients through a shared commitment to improve this
+    world."
+  og-image: "/uploads/event_creativeLunch-openBox9.jpg"
+event:
+  date: 2018-10-24 12:00:00 -04:00
+  venue-name: OpenBox9
+  venue-directions: https://goo.gl/maps/aC59uBsMV4P2
+  venue-address: 3805 12th Street NE, Washington DC 20017
+  start-time: Noon
+  end-time: 1pm
+buttons:
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-openbox9%2F%3Fredirect_source%3Deventbrite_register
+  button-left-text: "$10 Members"
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-openbox9-tickets-50828117267
+  button-right-text: "$15 Non-Members"
+is-oct-23: false
+is-oct-24: true
 ---
 
 ## Early Access Tix Available Oct 2.

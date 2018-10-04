@@ -6,8 +6,8 @@ primary-nav:
     url: /events/
   - title: "Map"
     url: /map/
-# - title: "Pop Up Shop"
-#   url: /pop-up-shop/
+  - title: "Pop Up Shop"
+    url: /pop-up-shop/
   - title: "About"
     url: /about/
   - title: "Sponsors"

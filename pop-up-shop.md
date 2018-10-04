@@ -1,38 +1,31 @@
 ---
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
-published: false
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra
-  neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-image: "/uploads/2018-OG-featuredimage.jpg"
-pop-up-shop-image: https://picsum.photos/800/400/?random
+description: We’re taking over the Cherry Blossom Creative storefront and filling
+  it with items made by locals. Swing by, shop, and support our neighborhood maker
+  and creative community.
+image: "/uploads/popUpShop-hero.jpg"
+pop-up-shop-image: "/uploads/popUpShop-hero.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image Alt
-pop-up-shop-header: Section 1
-pop-up-shop-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-gallery-opening-image: https://picsum.photos/800/?random
+pop-up-shop-header: Have Your Art Featured in Our DCDW Pop Up Shop!
+pop-up-shop-body: "Are you a designer or artist with pieces you’re ready to sell?
+  We want to help you sell your work to the design community at our pop up shop.\n\n[Send
+  us your product details and information](https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link)! "
+gallery-opening-image: "/uploads/popUpShop-diamond.jpg"
 gallery-opening-image-alt: Gallery Opening Image Alt
-gallery-opening-header: Section 2
-gallery-opening-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-gallery-opening-button-url: https://dc.aiga.org
-gallery-opening-button: Button Text
-get-out-vote-header: Section 3
-get-out-vote-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-you-are-voting-header: Section 4
-you-are-voting-body: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-  Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+gallery-opening-header: Like to Party?
+gallery-opening-body: 'We''ll be celebrating the pop up shop by throwing a little
+  party at the pop up shop. There will be good music, food, drinks and many of the
+  artists, designers and crafts people whose work will be showcased at the shop throughout
+  the week. Come meet them and have a chat! Details coming soon! '
+gallery-opening-button-url: https://docs.google.com/forms/d/e/1FAIpQLSeeW_gOSZ365pK8XPPpf777AZpwM7Ose_vnam8i_oUc3Uvy8A/viewform?usp=sf_link
+gallery-opening-button: Submit to be Featured in the Pop Up Shop!
+get-out-vote-header: Nothing to See Here
+get-out-vote-body: Nothing at all.
+you-are-voting-header: Same Here.
+you-are-voting-body: Yup.
 you-are-voting-button-url: https://dc.aiga.org
-you-are-voting-button: Button Text
+you-are-voting-button: This Button is a Lie
 layout: pop-up-shop
 ---
 
@@ -40,8 +33,4 @@ layout: pop-up-shop
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis. Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-
-Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet. Vestibulum convallis leo non purus vehicula, non faucibus libero rhoncus.
+In addition to this year’s events, we’re opening our yearly DCDW Pop-Up Shop. We’re taking over the [Cherry Blossom Creative storefront](http://www.cherryblossomworkshop.com/new-index/) and filling it with items made by locals. Swing by, shop, and support our neighborhood maker and creative community.
