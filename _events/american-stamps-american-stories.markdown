@@ -24,6 +24,7 @@ buttons:
   button-right-text: "$15 Non-Members"
 is-oct-22: false
 is-oct-23: true
+is-featured-on-home-page: true
 ---
 
 ## Early Access Tix Available Oct 2. 
