@@ -27,6 +27,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/salon-with-ladies-get-paid-chinatown-location-tickets-50828081159
   button-right-text: "$10 Non-Members"
 is-oct-23: true
+is-sold-out: true
 ---
 
 ## Early Access Tix Available Oct 2. 
