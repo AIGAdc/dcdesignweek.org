@@ -22,6 +22,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-pew-research-center-tickets-50828074138
   button-right-text: "$10 Deposit (Non-Members)"
 is-oct-26: true
+is-sold-out: true
 ---
 
 ## Early Access Tix Available Oct 2. 
