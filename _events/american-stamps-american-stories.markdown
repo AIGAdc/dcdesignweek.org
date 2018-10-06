@@ -27,10 +27,6 @@ is-oct-23: true
 is-featured-on-home-page: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
 **Free for NOVA students (with promo code).**
 
 American Stories. American Stamps. celebrates our nation through miniature works of graphic design.
