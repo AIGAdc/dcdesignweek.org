@@ -28,10 +28,7 @@ buttons:
 is-oct-22: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 Do you report to a manager who isn't a designer? Feel like you're the only creative person in your organization? Hear from designers in government who have been successful getting buy-in from leadership about the importance of design. You'll leave with tactics for how to successfully pitch projects and communicate with managers who may not be creative professionals.
 
