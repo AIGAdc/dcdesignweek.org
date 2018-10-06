@@ -1,6 +1,18 @@
 ---
 title: Mentoring Emerging Designers (Online-only Event)
 date: 2018-10-06 11:17:00 -04:00
+seo:
+  description: 'Higher education on its own is rarely enough to provide emerging designers
+    with the confidence and resources to jump-start their career dreams. Behind every
+    successful designer, there is a story about a mentor or teacher that had a major
+    impact on their design journey. At this digital event, viewers will learn about
+    the value, demands, and rewards of mentoring from a panel of professionals. Attendees
+    will also hear how participating as a mentor or mentee can benefit anyone at any
+    stage of their career. '
+  og-image: "/uploads/event_mentoringEmergingDesigners.jpg"
+event:
+  venue-name: Online Event
+  venue-address: The Internet
 ---
 
 Higher education on its own is rarely enough to provide emerging designers with the confidence and resources to jump-start their career dreams. Behind every successful designer, there is a story about a mentor or teacher that had a major impact on their design journey. At this digital event, viewers will learn about the value, demands, and rewards of mentoring from a panel of professionals. Attendees will also hear how participating as a mentor or mentee can benefit anyone at any stage of their career. 
