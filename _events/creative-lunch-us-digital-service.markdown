@@ -24,6 +24,8 @@ buttons:
 is-oct-26: true
 ---
 
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
+
 The U.S. Digital Service (USDS) is a group of digital experts working across the Federal Government to transform critical, public-facing services using design and technology. We select projects based on what can make the greatest impact for the greatest number of people in the greatest need. USDS hires designers, engineers, and product managers into government for short-term tours of service, bringing fresh perspectives and modern technology best practices to government.
 
 Working within the parameters of the federal government can be challenging, but it also provides a unique opportunity for incredible change. Design isn’t usually considered part of the solution, though it is oftentimes the most essential part. Our job is to show others what a user-centered approach can do and then empower them to carry that forward. It’s not always easy or glamorous, but it makes a tangible impact in the lives of people who depend on the government’s services.
