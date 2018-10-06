@@ -8,6 +8,7 @@ seo:
     impact for the greatest number of people in the greatest need. USDS hires designers,
     engineers, and product managers into government for short-term tours of service,
     bringing fresh perspectives and modern technology best practices to government.
+  og-image: "/uploads/event_creativeLunch-usds.jpg"
 event:
   date: 2018-10-26 12:00:00 -04:00
   venue-name: Eisenhower Executive Office Building
