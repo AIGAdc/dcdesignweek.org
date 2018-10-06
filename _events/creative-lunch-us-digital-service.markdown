@@ -36,6 +36,7 @@ FYI, attendees will need to fill out a security form before the date of the even
 The visitors’ entrance located on the corner of 17th Street and State Place, where a USDS representative will meet you to assist with your access to the building. Please arrive before noon, you will need to assume 15 minutes to go through security, and bring a government issued ID for access.
 
 Twitter: [@usds](https://www.twitter.com/usds/)
+
 Instagram: [@usdigitalservice](https://www.instagram.com/usdigitalservice/)
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
