@@ -28,10 +28,6 @@ is-oct-25: true
 is-featured-on-home-page: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
 
 **[Please enter the email address associated with your AIGA membership in the promo code field on the ticket page for Adam J. Kurtz. This will get you the discounted ticket price of $30.](https://www.ticketfly.com/purchase/event/1771198?_ga=2.268398606.1278497458.1538496632-1925525455.1538496631)**
