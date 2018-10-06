@@ -27,12 +27,12 @@ The U.S. Digital Service (USDS) is a group of digital experts working across the
 
 Working within the parameters of the federal government can be challenging, but it also provides a unique opportunity for incredible change. Design isn’t usually considered part of the solution, though it is oftentimes the most essential part. Our job is to show others what a user-centered approach can do and then empower them to carry that forward. It’s not always easy or glamorous, but it makes a tangible impact in the lives of people who depend on the government’s services.
 
-Special location instructions:
+## Special location instructions:
 FYI, attendees will need to fill out a security form before the date of the event. We can provide that link for you to email out to the final list.)
 
 The visitors’ entrance located on the corner of 17th Street and State Place, where a USDS representative will meet you to assist with your access to the building. Please arrive before noon, you will need to assume 15 minutes to go through security, and bring a government issued ID for access.
 
-Twitter: @usds
-Instagram: @usdigitalservice
+Twitter: [@usds](https://www.twitter.com/usds/)
+Instagram: [@usdigitalservice](https://www.instagram.com/usdigitalservice/)
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
