@@ -25,10 +25,7 @@ buttons:
 is-oct-23: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 ISTUDIO Architects is a small, DC based firm passionate about designing spaces that promote healthy communities and sustainability.  The creative lunch will be hosted at Marvin Gaye Recreation Center, one of ISTUDIO’s most recently completed projects.  We will use Marvin Gaye Rec as a precedent study for three different design strategies:
 
