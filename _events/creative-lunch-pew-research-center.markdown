@@ -25,10 +25,7 @@ is-oct-26: true
 is-sold-out: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 **This is a free event that requires a refundable deposit to secure your spot. Please be sure to check in at the event to ensure your deposit is returned to you.**
 
