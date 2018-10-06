@@ -29,11 +29,6 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
-
 Learn how to use 3D models to advance your crafting and/or storytelling skills with [Fernando Baptista](https://www.pinterest.com/natgeo/nat-geo-infographics/) of [National Geographic](https://www.nationalgeographic.com/). 
 
 In this hands-on session, Baptista will demo his work and teach you how to create clay and paper sculptures that depict what cameras can’t. You don't have to be an expert sculptor to attend this session — just come with a desire to learn!
