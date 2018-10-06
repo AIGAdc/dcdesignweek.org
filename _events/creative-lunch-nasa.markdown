@@ -28,10 +28,7 @@ is-oct-24: true
 is-sold-out: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 During this Creative Lunch, attendees can expect a tour of NASA’s Conceptual Image Lab and a presentation on the work they do animating NASA’s science themes. The Science Visualization Studio will also give a presentation in the NCCS Dr. Piers J. Sellers Data Visualization Theater on their work in the Science Visualization Studio. Presentations will be followed by Q&A.
 
