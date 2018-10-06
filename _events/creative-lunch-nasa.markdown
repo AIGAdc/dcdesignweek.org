@@ -28,8 +28,6 @@ is-oct-24: true
 is-sold-out: true
 ---
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
-
 During this Creative Lunch, attendees can expect a tour of NASA’s Conceptual Image Lab and a presentation on the work they do animating NASA’s science themes. The Science Visualization Studio will also give a presentation in the NCCS Dr. Piers J. Sellers Data Visualization Theater on their work in the Science Visualization Studio. Presentations will be followed by Q&A.
 
 Located in Greenbelt Maryland at the NASA's Goddard Space Flight Center, our artists work closely with the world's leading astronomers, scientists and engineers to bring theory, design and concepts to life in a scientifically accurate and visually compelling way. 
