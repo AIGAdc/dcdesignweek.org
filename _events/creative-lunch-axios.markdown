@@ -24,6 +24,8 @@ buttons:
 is-oct-25: true
 ---
 
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
+
 [Axios](https://www.axios.com/) is a new media company delivering vital, trustworthy news and analysis in the most efficient, illuminating and shareable ways possible. We offer a mix of original and smartly narrated coverage of media trends, tech, business and politics with expertise, voice AND Smart Brevity — on a new and innovative mobile platform.
 
 Our design is centered around a simple proposition: Deliver the cleanest, smartest, most efficient and trust-worthy experience for readers and advertisers alike. Axios Visuals Editor, Lazaro Gamio, will take you through Axios’ design philosophy and share how the design team furthers Axios’ reporting through graphic design – from [campaign donations](https://www.axios.com/house-campaign-contributions-outside-money-f776be9e-f74b-4834-8ff4-ae30df1f7c61.html) to [volcano eruptions](https://www.axios.com/chart-every-volcano-that-erupted-since-krakatoa-467da621-41ba-4efc-99c6-34ff3cb27709.html) to [CEO Pay](https://www.axios.com/ceo-pay-2017-sp-500-54be949c-548e-480b-903d-e89b2fac50ed.html). 
