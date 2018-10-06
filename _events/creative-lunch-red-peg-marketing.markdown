@@ -24,11 +24,6 @@ buttons:
 is-oct-23: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
-
 RedPeg is an independent brand engagement agency that creates experiences that delight, inspire, and instantly make an impact. Through insight-led strategy, they ensure that fleeting moments become long-lasting memories; and that these memories resonate with our clients and their audiences — clients such as GEICO, Amazon, DISH Network, Jägermeister, Carlsberg and DISH Network. They get the need for measurable ROI and KPIs, and for upward curves in sales and social numbers. They achieve those, while also remaining focused on creating experiences that leave lasting impressions. It’s simple, really. They make it mean more, and have been since 1995.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
