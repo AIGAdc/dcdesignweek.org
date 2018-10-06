@@ -23,11 +23,6 @@ is-sold-out: false
 is-featured-on-home-page: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
-
 ## Calling All Makers!
 Hear from local designers creating their own furniture, letterpress prints, jewelry, ceramics, activist art and more! Panelists will examine the influence the DMV has had on their work and discuss how they’ve used design to impact their community and beyond.
  
