@@ -1,5 +1,5 @@
 ---
-title: 'Creative Lunch: Bright Side @ Huge Inc'
+title: 'Creative Lunch: Bright Side'
 date: 2017-10-03 17:09:00 -04:00
 position: 11
 seo:
