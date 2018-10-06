@@ -29,11 +29,6 @@ is-featured-on-home-page: true
 layout: events-single
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
-
 Jomo Tariku is an Ethiopian American local industrial designer. Jomo is defining a new design language for modern African themed furniture by synthesizing his experience of the continent’s diverse cultures, historical structures, architecture, traditional furniture, colors, artifacts, natural environment, endemic wildlife, indigenous dresses and hairstyles. Blending the memories of his formative years in Ethiopia with travel through the rest of the continent, Jomo’s design offers a new line of inquiry and experience of modernity while venerating the rich historical palette of Africa. The Nyala Chair, Birth Chair II and Kebero Stool series represent his bold approach to design, imprinting cultural themes and patterns on wood, metal, leather and acrylic.
 
 Jomo has participated in international design shows in Dubai, UAE, Venice, Italy, Addis Ababa, Ethiopia, Lagos, Nigeria, Montreal, Canada, and most recently in Milan at the Salone del Mobile 2018. His work has been recognized by Interior Design magazine as "One of the most interesting finds of ICFF 2017
