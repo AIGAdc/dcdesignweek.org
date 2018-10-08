@@ -38,3 +38,10 @@ We will take attendees thru case studies from past and current projects. We will
 
 ## Menu
 Turkey Wraps, Veggie Wraps, chips, soft drinks.
+
+## Parking and Metro
+**Nearest metro:** Silver Spring Station on the Red line.
+Street parking available.
+[Kennett Street Garage.](https://www.montgomerycountymd.gov/DOT-Parking/silver-spring/silver-spring-garage-9.html)
+
+
