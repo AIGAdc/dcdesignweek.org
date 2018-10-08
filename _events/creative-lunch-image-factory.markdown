@@ -26,7 +26,7 @@ is-oct-25: true
 
 ## Important details for your attendance to Image Factory DC:
 Arrive early 15 minutes early to sign in, settled in to begin enjoying your lunch. 
-The presentation begins promptly at 12 PM.
+**The presentation begins promptly at 12 PM.**
 
 ## About IFDC
 A full service creative shop steeped in strategic thinking. Driven by clever words and pretty pictures. From editorial to post we help networks, brands & businesses stand out in an ever changing world. Creating the best work. Having the best time.
