@@ -1,6 +1,8 @@
 ---
 title: Mentoring Emerging Designers (Online-only Event)
 date: 2018-10-06 11:17:00 -04:00
+published: false
+position: 20
 seo:
   description: 'Higher education on its own is rarely enough to provide emerging designers
     with the confidence and resources to jump-start their career dreams. Behind every
@@ -14,6 +16,9 @@ event:
   date: 2018-10-25 08:30:00 -04:00
   venue-name: Online Event
   venue-address: The Internet
+buttons:
+  has-left-button: false
+  has-right-button: false
 is-oct-25: true
 ---
 

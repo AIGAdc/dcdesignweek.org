@@ -1,7 +1,7 @@
 ---
 title: Talking About Feelings with Adam J. Kurtz
 date: 2018-09-26 20:54:00 -04:00
-position: 22
+position: 24
 seo:
   description: In an industry full of multi-hyphenate creatives, the best way to stand
     out is to be our authentic selves… whatever that means. Personal work is the perfect

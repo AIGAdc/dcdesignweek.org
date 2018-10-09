@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Image Factory'
 date: 2018-10-08 09:58:00 -04:00
+position: 23
 seo:
   description: A full service creative shop steeped in strategic thinking. Driven
     by clever words and pretty pictures. From editorial to post we help networks,
@@ -17,9 +18,11 @@ event:
   start-time: 12pm
   end-time: 1pm
 buttons:
-  has-left-button: false
+  has-left-button: true
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D275680%26redirect_source%3Deventbrite_register
   button-left-text: "$10 Members"
-  has-right-button: false
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-image-factory-tickets-51148308969
   button-right-text: "$15 Non-Members"
 is-oct-25: true
 ---
