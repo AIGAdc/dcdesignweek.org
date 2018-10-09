@@ -15,6 +15,9 @@ event:
   date: 2018-10-25 08:30:00 -04:00
   venue-name: Online Event
   venue-address: The Internet
+buttons:
+  has-left-button: false
+  has-right-button: false
 is-oct-25: true
 ---
 
