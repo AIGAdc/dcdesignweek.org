@@ -20,13 +20,15 @@ event:
 buttons:
   has-left-button: true
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-nasa%2F%3Fredirect_source%3Deventbrite_register
-  button-left-text: "$10 Members"
+  button-left-text: "$10 Deposit (Members)"
   has-right-button: true
   button-right-url: https://www.eventbrite.com/e/creative-lunch-nasa-tickets-50828038030
-  button-right-text: "$15 Non-Members"
+  button-right-text: "$15 Deposit (Non-Members)"
 is-oct-24: true
 is-sold-out: true
 ---
+
+**This is a free event that requires a refundable deposit to secure your spot. Please be sure to check in at the event to ensure your deposit is returned to you.**
 
 During this Creative Lunch, attendees can expect a tour of NASA’s Conceptual Image Lab and a presentation on the work they do animating NASA’s science themes. The Science Visualization Studio will also give a presentation in the NCCS Dr. Piers J. Sellers Data Visualization Theater on their work in the Science Visualization Studio. Presentations will be followed by Q&A.
 
