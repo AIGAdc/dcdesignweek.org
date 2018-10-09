@@ -24,15 +24,10 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/clay-and-paper-modeling-with-national-geographics-fernando-baptista-tickets-50828046054
   button-right-text: "$75 non-members"
 is-oct-21: true
-is-sold-out: false
-is-featured-on-home-page: true
+is-sold-out: true
+is-featured-on-home-page: false
 layout: events-single
 ---
-
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
 
 Learn how to use 3D models to advance your crafting and/or storytelling skills with [Fernando Baptista](https://www.pinterest.com/natgeo/nat-geo-infographics/) of [National Geographic](https://www.nationalgeographic.com/). 
 

@@ -2,7 +2,7 @@
 title: Super Art Fight
 date: 2018-09-30 09:30:00 -04:00
 published: false
-position: 25
+position: 26
 seo:
   description: What is Super Art Fight? We like to say it's "Pictionary meets pro
     wrestling".
@@ -18,11 +18,6 @@ buttons:
   has-right-button: false
 is-oct-26: true
 ---
-
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
 
 ## What is Super Art Fight? 
 

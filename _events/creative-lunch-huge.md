@@ -26,13 +26,9 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-bright-side-huge-tickets-50827612758
   button-right-text: "$15 Non-Members"
 is-oct-23: true
-is-sold-out: false
+is-sold-out: true
 layout: events-single
 ---
-
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
 
 Huge Inc is a global collective of designers, strategists and technologists. We’re passionate about helping companies play trusted roles in people’s lives by creating products, services and brands that people truly love. We were the first agency to be founded on the idea that the principles of user experience should not just drive design, but business and marketing. We’re known for finding new ways to harmonize the things clients need with what users really want to create experiences that change industries.
 

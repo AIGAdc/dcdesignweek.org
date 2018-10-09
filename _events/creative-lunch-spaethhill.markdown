@@ -26,10 +26,7 @@ buttons:
 is-oct-24: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 Spaeth Hill specializes in publication design, interior branding, and space design and activation. Guests will visit the studio's custom-designed space and hear about the founders' respective backgrounds and how they combined their expertise to form Spaeth Hill. We will share a selection of recent work including custom art and furniture designs. Lunch and beverages will be provided. 
 

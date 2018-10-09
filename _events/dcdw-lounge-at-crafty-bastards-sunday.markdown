@@ -1,7 +1,7 @@
 ---
 title: DCDW Lounge @ Crafty Bastards (Sunday)
 date: 2018-09-30 18:00:00 -04:00
-position: 27
+position: 28
 seo:
   description: Visit DCDW at our pop-up Lounge inside of Crafty Bastards on both Saturday
     and Sunday to close out the week! We’ll have crafts, speakers and activities kicking

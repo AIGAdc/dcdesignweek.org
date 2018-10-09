@@ -29,11 +29,6 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
-
 There's become a higher demand for animated content, and a lot of it is being filled with motion graphics animation. As a designer, you can create the assets and the art direction, but where do you begin with making it move? This will be a short intro crash course on animation that is geared towards designers who are looking to grow their skills. 
 
 Intro to Animation for Graphic Designers will cover the principles of animation, tips for prepping designs for animation, a small hands on workshop making traditional flip books to practice the skills that you learn, and additional resources for software + continued learning. 

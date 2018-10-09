@@ -25,10 +25,7 @@ buttons:
 is-oct-25: true
 ---
 
-## Early Access Tix Available Oct 2. 
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
-
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 BroCoLoco is a design firm that specializes in art installations and murals for commercial and community spaces. Founded and directed by Aaron Scales and co-run with Cassie Scales, the studio works with architects, interior designers, and business owners to transform buildings and shape brand identities.
 

@@ -27,9 +27,7 @@ is-oct-23: false
 is-oct-24: true
 ---
 
-## Early Access Tix Available Oct 2.
-### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
 
 Join us for a lunch-time discussion about the challenges and unique opportunities we often encounter designing for the nonprofit world. We'll use a case study to explore this topic and also talk about how design can be used to effectively further a cause.
 
