@@ -1,60 +1,60 @@
 # This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 2018-team:
 # Committee
+  - image: /uploads/lizRoseChmela.jpg
+    image-alt: Member Portrait
+    name: Liz Rose Chmela
+    role: Executive Director
+    link-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
+    link-label: LinkedIn
+  - image: /uploads/cassOlsen.jpg
+    image-alt: Member Portrait
+    name: Cass Olson
+    role: Programming Director
+    link-url: https://www.linkedin.com/in/cassolson/
+    link-label: LinkedIn
+  - image: /uploads/mikeObrien.jpg
+    image-alt: Member Portrait
+    name: Mike O'Brien
+    role: Marketing Director
+    link-url: example.com
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
-  - image: https://picsum.photos/800/?random
-    image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
-    link-label: Website
-  - image: https://picsum.photos/800/?random
-    image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
-    link-label: Website
-  - image: https://picsum.photos/800/?random
-    image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
 
 # Creative Team
   - image: https://picsum.photos/800/?random
@@ -62,34 +62,34 @@
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
   - image: https://picsum.photos/800/?random
     image-alt: Member Portrait
     name: Member Name
     role: Member Role
     link-url: example.com
-    link-label: Website
+    link-label: LinkedIn
