@@ -7,7 +7,7 @@
     role: Executive Director
     link-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
     link-label: LinkedIn
-  - image: /uploads/cassOlsen.jpg
+  - image: /uploads/cassOlson.jpg
     image-alt: Member Portrait
     name: Cass Olson
     role: Programming Director
@@ -19,77 +19,132 @@
     role: Marketing Director
     link-url: example.com
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/arianaRodriguezGitler.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Ariana Rodriguez-Gitler
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/arianarg/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/laraNoelKey.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Lara Key
+    role: Creative Lunch Co-Lead
+    link-url: https://www.linkedin.com/in/laranoel/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/raksaYin.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Raksa Yin
+    role: Creative Lunch Co-Lead
+    link-url: https://www.linkedin.com/in/raksayin/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/kimArias.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Kim Arias
+    role: Shadow helper (AIGA DC Prez)
+    link-url: https://www.linkedin.com/in/kimberarias/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/catrellThomas.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Catrell Thomas
+    role: Development Chair
+    link-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/laurenMoore.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Lauren Moore
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/moorelauren/
+    link-label: LinkedIn
+
+  - image: /uploads/khanhPham.jpg
+    image-alt: Member Portrait
+    name: Khanh Pham
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/khanhtbp/
+    link-label: LinkedIn
+  - image: /uploads/phimHer.jpg
+    image-alt: Member Portrait
+    name: Phim Her
+    role: Director of Partnerships
+    link-url: https://www.linkedin.com/in/phimher
+    link-label: LinkedIn
+  - image: /uploads/kristiWalker.jpg
+    image-alt: Member Portrait
+    name: Kristi Walker
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/kristidwalker
+    link-label: LinkedIn
+  - image: /uploads/puneetKuar.jpg
+    image-alt: Member Portrait
+    name: Puneet Kaur
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/puneetkaurdesign/
+    link-label: LinkedIn
+  - image: /uploads/kojoBoateng.jpg
+    image-alt: Member Portrait
+    name: Kojo Boateng
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/kojoboateng/
+    link-label: LinkedIn
+  - image: /uploads/chanelJames.jpg
+    image-alt: Member Portrait
+    name: Chanel James
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+    link-label: LinkedIn
+  - image: /uploads/kimStockley.jpg
+    image-alt: Member Portrait
+    name: Kim Stockley
+    role: Social Director
+    link-url: https://www.linkedin.com/in/kimstockley/
+    link-label: LinkedIn
+  - image: /uploads/tjCichecki.jpg
+    image-alt: Member Portrait
+    name: Tj Cichecki
+    role: Merch Lead
+    link-url: https://www.linkedin.com/in/tjcichecki/
     link-label: LinkedIn
 
 # Creative Team
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/laJohnson.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: LA Johnson
+    role: Illustrator
+    link-url: http://www.thelajohnson.com/
+    link-label: Website
+  - image: /uploads/marcuRelacion.jpg
+    image-alt: Member Portrait
+    name: Marcus Relacion
+    role: Web Developer
+    link-url: https://www.linkedin.com/in/marcusrelacion/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/danielCrane.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Daniel Crane
+    role: Motion Artist
+    link-url: https://www.linkedin.com/in/cranedaniel/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/rebeccaPrice.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Rebecca Price
+    role: Content Designer
+    link-url: https://www.linkedin.com/in/rebecca-price-686531b3/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/chelsaeBlackman.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Chelsea Blackman
+    role: Web Designer
+    link-url: https://www.linkedin.com/in/chelsae/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/justinMcCarthy.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Justin McCarthy
+    role: Copywriter
+    link-url: https://www.linkedin.com/in/justin-mccarthy-7385a819/
     link-label: LinkedIn
-  - image: https://picsum.photos/800/?random
+  - image: /uploads/ryanVonDohlen.jpg
     image-alt: Member Portrait
-    name: Member Name
-    role: Member Role
-    link-url: example.com
+    name: Ryan von Dohlen
+    role: Cartographer
+    link-url: https://www.linkedin.com/in/ryanvondohlen/
     link-label: LinkedIn
