@@ -13,9 +13,11 @@ seo:
     stage of their career. '
   og-image: "/uploads/event_mentoringEmergingDesigners.jpg"
 event:
-  date: 2018-10-25 08:30:00 -04:00
+  date: 2018-10-21 19:00:00 -04:00
   venue-name: Online Event
   venue-address: The Internet
+  start-time: 7pm
+  end-time: 8pm
 buttons:
   has-left-button: false
   has-right-button: false
