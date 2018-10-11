@@ -22,6 +22,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-booz-allen-hamilton-dx-team-tickets-50828425188
   button-right-text: "$15 Non-Members"
 is-oct-22: true
+is-sold-out: true
 ---
 
 ## Early Access Tix Available Oct 2. 
