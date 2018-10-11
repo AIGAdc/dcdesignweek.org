@@ -22,6 +22,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-axios-tickets-50887914121
   button-right-text: "$15 Non-Members"
 is-oct-25: true
+is-sold-out: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
