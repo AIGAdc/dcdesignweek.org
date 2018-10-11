@@ -24,7 +24,7 @@ buttons:
   button-right-text: "$20 Non-Members"
 is-oct-23: false
 is-oct-24: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 50 years since Stanley Kubrick’s sci-fi epic ‘2001: A Space Odyssey’ was made, smart devices are slowly becoming part of our daily lives.
