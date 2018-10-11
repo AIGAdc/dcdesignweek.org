@@ -24,7 +24,7 @@ buttons:
   button-right-text: "$15 Non-Members"
 is-oct-22: false
 is-oct-23: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 **Free for NOVA students (with promo code).**
