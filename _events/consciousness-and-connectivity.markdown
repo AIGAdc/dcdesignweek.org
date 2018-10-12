@@ -8,13 +8,13 @@ seo:
     creativity.
   og-image: "/uploads/event_placeholder.jpg"
 event:
-  date: 2018-10-27 00:00:00 -04:00
+  date: 2018-10-27 18:00:00 -04:00
   venue-name: Dwell DC
   venue-directions: https://goo.gl/maps/HVCTNoR5UhD2
   venue-address: Red Brick Carriage House in Trinidad Alley off of the 1200 block
     of Florida Ave NE & Trinidad Ave NE, 20002 Washington, United States
   start-time: 6pm
-  end-time: 9:30pm
+  end-time: 9pm
 buttons:
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fconsciousness-connectivity-guided-meditation-dinner%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$35 Member"
