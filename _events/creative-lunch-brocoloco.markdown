@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: BroCoLoco'
 date: 2018-09-30 10:18:00 -04:00
-position: 24
+position: 23
 seo:
   description: BroCoLoco is a design firm that specializes in art installations and
     murals for commercial and community spaces. Founded and directed by Aaron Scales

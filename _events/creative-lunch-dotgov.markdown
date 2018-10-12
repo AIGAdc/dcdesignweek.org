@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: DotGov'
 date: 2018-09-30 10:07:00 -04:00
-position: 8
+position: 7
 seo:
   description: 'Do you report to a manager who isn''t a designer? Feel like you''re
     the only creative person in your organization? Hear from designers in government
