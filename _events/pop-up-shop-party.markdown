@@ -1,5 +1,5 @@
 ---
-title: Pop-Up Shop Party
+title: Pop-Up Shop Block Party
 date: 2018-10-11 21:49:00 -04:00
 seo:
   description: The DCDW Pop Up Shop is taking over the Cherry Blossom Creative storefront
