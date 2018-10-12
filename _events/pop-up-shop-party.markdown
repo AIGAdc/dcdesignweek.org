@@ -6,6 +6,7 @@ seo:
     and filling it with items made by your fellow makers and designers. Come and celebrate
     the DC design community at the opening event, and get first crack at the awesome
     goods on sale!
+  og-image: "/uploads/event_popUpShopParty.jpg"
 event:
   date: 2018-10-24 18:00:00 -04:00
   venue-name: Cherry Blossom Creative
@@ -14,6 +15,7 @@ event:
   start-time: 6pm
   end-time: 10pm
 buttons:
+  button-left-url: https://www.eventbrite.com/e/pop-up-shop-block-party-tickets-51320429787
   button-left-text: FREE RSVP
   has-right-button: false
 is-oct-24: true
