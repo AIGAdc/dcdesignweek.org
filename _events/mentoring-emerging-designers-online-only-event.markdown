@@ -13,7 +13,7 @@ seo:
   og-image: "/uploads/event_mentoringEmergingDesigners.jpg"
 event:
   date: 2018-10-21 19:00:00 -04:00
-  venue-name: Online Event
+  venue-name: Facebook LIVE
   venue-address: The Internet
   start-time: 7pm
   end-time: 8pm
