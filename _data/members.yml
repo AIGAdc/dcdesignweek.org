@@ -17,7 +17,13 @@
     image-alt: Member Portrait
     name: Mike O'Brien
     role: Marketing Director
-    link-url: example.com
+    link-url: https://www.linkedin.com/in/redtablepress
+    link-label: LinkedIn
+  - image: /uploads/chrisMontwill.jpg
+    image-alt: Member Portrait
+    name: Christopher Montwill
+    role: Event Lead
+    link-url: https://www.linkedin.com/in/christophermontwill/
     link-label: LinkedIn
   - image: /uploads/arianaRodriguezGitler.jpg
     image-alt: Member Portrait
@@ -147,4 +153,10 @@
     name: Ryan von Dohlen
     role: Cartographer
     link-url: https://www.linkedin.com/in/ryanvondohlen/
+    link-label: LinkedIn
+  - image: /uploads/benAbraham.jpg
+    image-alt: Member Portrait
+    name: Ben Abraham
+    role: Documentation Director
+    link-url: https://www.linkedin.com/in/ben-abraham/
     link-label: LinkedIn
