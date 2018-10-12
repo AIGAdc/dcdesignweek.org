@@ -13,21 +13,27 @@ Coming Soon
 2018:
 
 - LA Johnson, Illustrator
-- Chelsae Blackmon, Designer
-- Marcus Relacion, Developer
+- Marcus Relacion, Web Developer
+- Daniel Crane, Motion Artist
+- Rebecca Price, Content Designer
+- Chelsae Blackmon, Web Designer
+- Justin McCarthy, Copywriter
+- Ryan von Dohlen, Cartographer
 
 2017:
 
 - Daniel Crane, Motion Designer
 - Jen Doyle, Designer
 - JD Deardourff, Illustrator
-- Marcus Relacion, Developer
+- Marcus Relacion, Web Developer
+- Daniel Crane, Motion Artist
+- Justin McCarthy, Copywriter
 
 2016:
 
 - Austin Breed, Illustrator
 - Greg Fisk, Designer & b-boy
-- Marcus Relacion, Developer
+- Marcus Relacion, Web Developer
 
 ## Site Archive
 
