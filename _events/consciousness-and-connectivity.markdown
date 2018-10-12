@@ -6,7 +6,7 @@ seo:
     Artis Moon, at Dwell, a privately owned, off-grid (yes, in DC!), untethered creative
     space. Explore the connection between consciousness, meditation practices, and
     creativity.
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_consciousnessConnectivity.jpg"
 event:
   date: 2018-10-27 18:00:00 -04:00
   venue-name: Dwell DC
