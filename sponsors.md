@@ -1,18 +1,17 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-description: 
+description:
 image: "/uploads/2018-OG-featuredimage.jpg"
-first-tier-header: Tier 1
+first-tier-header: Chapter Sponsor
 first-tier-sub-header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
   pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
   Pellentesque consectetur varius turpis, nec viverra justo pellentesque sit amet.
-second-tier-header: Tier 2
+second-tier-header: DC Design Week Sponsor
 second-tier-sub-header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
   pharetra neque a diam cursus pulvinar. Suspendisse faucibus mi id accumsan lobortis.
-third-tier-header: Tier 3
-third-tier-sub-header: Pellentesque consectetur varius turpis, nec viverra justo pellentesque
-  sit amet.
+third-tier-header:
+third-tier-sub-header:
 sponsor-button-text: Work with Us
 sponsor-button-url: designweek@dc.aiga.org
 layout: sponsors
