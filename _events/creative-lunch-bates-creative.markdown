@@ -17,6 +17,7 @@ event:
   venue-address: 8505 Fenton Street, Suite 212, Silver Spring, MD 20910
   start-time: 12pm
   end-time: 1pm
+is-oct-22: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
