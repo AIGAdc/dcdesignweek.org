@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: DotGov'
 date: 2018-09-30 10:07:00 -04:00
-position: 5
+position: 6
 seo:
   description: 'Do you report to a manager who isn''t a designer? Feel like you''re
     the only creative person in your organization? Hear from designers in government
@@ -26,6 +26,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-dotgov-tickets-50828048060
   button-right-text: "$15 Non-Members"
 is-oct-22: true
+is-sold-out: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**

@@ -1,7 +1,7 @@
 ---
 title: Designing Conversations
 date: 2018-09-26 20:50:00 -04:00
-position: 19
+position: 20
 seo:
   description: Join speakers from The Washington Post, NPR and Capital One as they
     showcase their most innovative voice enabled products and conversational AI’s.
@@ -24,7 +24,7 @@ buttons:
   button-right-text: "$20 Non-Members"
 is-oct-23: false
 is-oct-24: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 50 years since Stanley Kubrick’s sci-fi epic ‘2001: A Space Odyssey’ was made, smart devices are slowly becoming part of our daily lives.

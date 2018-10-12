@@ -1,7 +1,7 @@
 ---
 title: Talking About Feelings with Adam J. Kurtz
 date: 2018-09-26 20:54:00 -04:00
-position: 24
+position: 25
 seo:
   description: In an industry full of multi-hyphenate creatives, the best way to stand
     out is to be our authentic selves… whatever that means. Personal work is the perfect
@@ -22,8 +22,6 @@ buttons:
   button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
   button-left-text: "$30 Members / $38 Non-Members"
   has-right-button: false
-  button-right-url: http://themiracletheatre.ticketfly.com/event/1771198
-  button-right-text: "$38 Non-Members"
 is-oct-25: true
 is-featured-on-home-page: true
 ---

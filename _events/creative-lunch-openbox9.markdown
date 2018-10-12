@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: OpenBox9'
 date: 2018-09-28 01:24:00 -04:00
-position: 16
+position: 17
 seo:
   description: "[Openbox9](http://openbox9.com/) is a creative service-focused strategy
     and design firm that specializes in branding, graphic design, video and motion,
@@ -25,6 +25,7 @@ buttons:
   button-right-text: "$15 Non-Members"
 is-oct-23: false
 is-oct-24: true
+is-sold-out: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**

@@ -1,7 +1,7 @@
 ---
 title: American Stories, American Stamps
 date: 2018-09-26 20:40:00 -04:00
-position: 14
+position: 15
 seo:
   description: 'Since the first U.S. postage stamps were issued in 1847, designers
     have been telling American stories on a small scale. Though tiny, postage stamps
@@ -24,7 +24,7 @@ buttons:
   button-right-text: "$15 Non-Members"
 is-oct-22: false
 is-oct-23: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 **Free for NOVA students (with promo code).**

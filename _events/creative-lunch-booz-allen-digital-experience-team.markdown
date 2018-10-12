@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Booz Allen Hamilton DX Team'
 date: 2018-09-30 10:03:00 -04:00
-position: 6
+position: 7
 seo:
   description: Creative lunches are intimate gatherings that provide guests the opportunity
     to get a behind-the-scenes look at some of the most exciting studios and spaces
@@ -22,6 +22,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-booz-allen-hamilton-dx-team-tickets-50828425188
   button-right-text: "$15 Non-Members"
 is-oct-22: true
+is-sold-out: true
 ---
 
 ## Early Access Tix Available Oct 2. 

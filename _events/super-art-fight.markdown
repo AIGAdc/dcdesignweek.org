@@ -2,7 +2,7 @@
 title: Super Art Fight
 date: 2018-09-30 09:30:00 -04:00
 published: false
-position: 28
+position: 29
 seo:
   description: What is Super Art Fight? We like to say it's "Pictionary meets pro
     wrestling".

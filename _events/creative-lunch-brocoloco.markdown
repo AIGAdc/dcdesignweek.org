@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: BroCoLoco'
 date: 2018-09-30 10:18:00 -04:00
-position: 21
+position: 22
 seo:
   description: BroCoLoco is a design firm that specializes in art installations and
     murals for commercial and community spaces. Founded and directed by Aaron Scales
@@ -23,6 +23,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-brocoloco-tickets-50828373032
   button-right-text: "$15 Non-Members"
 is-oct-25: true
+is-sold-out: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
