@@ -1,7 +1,7 @@
 ---
 title: LeDroit Park House and Garden Tour
 date: 2018-09-27 22:21:00 -04:00
-position: 32
+position: 34
 seo:
   description: The LeDroit Park House and Garden Tour will showcase the neighborhood’s
     unique architecture, history, and diversity, from its time as an exclusive enclave,
