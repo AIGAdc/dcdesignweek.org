@@ -1,7 +1,6 @@
 ---
 title: Consciousness & Connectivity
 date: 2018-10-11 22:21:00 -04:00
-published: false
 seo:
   description: Join us for a unique gathering with interdisciplinary artist and healer
     Artis Moon, at Dwell, a privately owned, off-grid (yes, in DC!), untethered creative
