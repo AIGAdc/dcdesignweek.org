@@ -18,7 +18,7 @@ gallery-opening-body: 'We''ll be celebrating the pop up shop by throwing a littl
   party at the pop up shop. There will be good music, food, drinks and many of the
   artists, designers and crafts people whose work will be showcased at the shop throughout
   the week. Come meet them and have a chat!   '
-gallery-opening-button-url: events/pop-up-shop-party
+gallery-opening-button-url: "../events/pop-up-shop-party"
 gallery-opening-button: RSVP to the Party!
 get-out-vote-header: Nothing to See Here
 get-out-vote-body: Nothing at all.
