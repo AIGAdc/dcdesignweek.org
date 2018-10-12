@@ -25,7 +25,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/salon-with-ladies-get-paid-navy-yard-location-tickets-50828155381
   button-right-text: "$10 Non-Members"
 is-oct-23: true
-is-sold-out: false
+is-sold-out: true
 is-featured-on-home-page: false
 layout: events-single
 ---
