@@ -21,7 +21,8 @@ buttons:
   has-left-button: true
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D277913%26redirect_source%3Deventbrite_register
   button-left-text: "$10 Member"
-  has-right-button: false
+  has-right-button: true
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-bates-creative-tickets-51321380631
   button-right-text: "$15 Non-Member"
 is-oct-22: true
 ---
