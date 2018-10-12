@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: RedPeg Marketing'
 date: 2018-09-30 10:25:00 -04:00
-position: 13
+position: 15
 seo:
   description: RedPeg is an independent brand engagement agency that creates experiences
     that delight, inspire, and instantly make an impact. Through insight-led strategy,

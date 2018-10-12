@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: OpenBox9'
 date: 2018-09-28 01:24:00 -04:00
-position: 17
+position: 19
 seo:
   description: "[Openbox9](http://openbox9.com/) is a creative service-focused strategy
     and design firm that specializes in branding, graphic design, video and motion,

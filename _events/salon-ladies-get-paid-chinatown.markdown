@@ -1,7 +1,7 @@
 ---
 title: Salon with Ladies Get Paid (Chinatown Location)
 date: 2018-09-27 21:50:00 -04:00
-position: 11
+position: 13
 seo:
   description: 'We''ve teamed up with Ladies Get Paid to host a morning salon for
     female-identifying designers. Join DC Design Week on Tuesday morning before you

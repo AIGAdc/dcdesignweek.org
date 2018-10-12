@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Bates Creative'
 date: 2018-10-11 22:57:00 -04:00
+position: 7
 seo:
   description: 'Design doesn’t simply make things look pretty or cool. It makes people
     actually feel something that motivates them to take action. Really think about
