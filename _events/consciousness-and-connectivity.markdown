@@ -22,7 +22,7 @@ buttons:
 is-oct-27: true
 ---
 
-**Dwell is in Red Brick Carriage House in Trinidad Alley off of the 1200 block of Florida Ave NE & Trinidad Ave NE, 20002 Washington, United States**
+**Dwell is in the Red Brick Carriage House in Trinidad Alley off of the 1200 block of Florida Ave NE & Trinidad Ave NE, 20002 Washington, United States**
 
 Join us for a unique gathering with interdisciplinary artist and healer [Artis Moon](https://www.instagram.com/theboundlesslife/), at [Dwell](https://www.instagram.com/dwelldc/), a privately owned, off-grid (yes, in DC!), untethered creative space. Explore the connection between consciousness, meditation practices, and creativity.
 
