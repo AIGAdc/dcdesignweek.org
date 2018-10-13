@@ -3,6 +3,15 @@ title: DC Mural Run
 date: 2018-09-26 20:46:00 -04:00
 position: 18
 seo:
+  description: 'Get ready to lace up your sneakers and join us for a mural run of
+    DC’s most exciting street art. Washington DC has a history of great artists who
+    transformed the sometimes overlooked spaces with their colourful works of art.
+    Join Jules DeVita and Matt Green  ([District Running Collective](http://www.districtrunningcollective.com/))
+    as they traverse DC’s historic neighbourhoods to see best and of the brightest
+    best urban creative art in the district. Whether you’re a beginner, or an experienced
+    marathoner, all paces and abilities are welcome.
+
+'
   og-image: "/uploads/event_DCmuralRun.jpg"
 event:
   date: 2018-10-24 07:00:00 -04:00
