@@ -25,6 +25,6 @@ Register Link: [https://creativemornings.com/talks/cmdc-october-18](https://crea
 
 Join DC Design Week at CreativeMornings/DC’s October event on the theme of “Honesty!” Featuring a collaboration with [The Bentzen Ball Comedy Festival](https://brightestyoungthings.com/bentzen-ball)! 
 
-Want to be part of the event? Tell us what honesty means to you for a chance to be onstage during the event! [Fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSeIf_KP2cIRt6Zz3Hm9VgXX8TijGLmf0U_n0bqqp56UV3yY_Q/viewform?usp=sf_link) or tweet using the hashtag #dcdwhonest
+Want to be part of the event? [Tell](https://docs.google.com/forms/d/e/1FAIpQLSeIf_KP2cIRt6Zz3Hm9VgXX8TijGLmf0U_n0bqqp56UV3yY_Q/viewform?usp=sf_link) us what **honesty** means to you for a chance to be onstage during the event! Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeIf_KP2cIRt6Zz3Hm9VgXX8TijGLmf0U_n0bqqp56UV3yY_Q/viewform?usp=sf_link) or tweet using the hashtag #dcdwhonest
 
 Speaker will be revealed soon!
