@@ -13,6 +13,12 @@ event:
   venue-address: 2100 Crystal Drive, Arlington VA
   start-time: 11:30am
   end-time: 1pm
+buttons:
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D280292%26redirect_source%3Deventbrite_register
+  button-left-text: "$10 Member"
+  button-right-url: https://www.eventbrite.com/e/creative-lunch-pbs-tickets-51328782771
+  button-right-text: "$15 Non-Member"
+is-oct-26: true
 ---
 
 Join design leaders across PBS and PBS KIDS for lunch and learn about games, apps, sound effects, animation, lean ux, accessibility and more during an hour of lightning talks. 
