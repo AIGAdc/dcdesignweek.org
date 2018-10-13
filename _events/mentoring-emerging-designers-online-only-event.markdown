@@ -1,7 +1,7 @@
 ---
 title: Mentoring Emerging Designers (Facebook LIVE Event)
 date: 2018-10-06 11:17:00 -04:00
-position: 4
+position: 3
 seo:
   description: 'Higher education on its own is rarely enough to provide emerging designers
     with the confidence and resources to jump-start their career dreams. Behind every
