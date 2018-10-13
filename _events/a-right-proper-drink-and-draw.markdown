@@ -1,7 +1,7 @@
 ---
 title: A Right Proper Drink & Draw
 date: 2018-10-13 12:48:00 -04:00
-position: 1
+position: 32
 seo:
   description: What better way to celebrate DC Design Week than a Drink & Draw at
     Right Proper? Join us Friday night for an evening celebrating designers and their

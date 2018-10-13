@@ -1,7 +1,7 @@
 ---
 title: Salon with Ladies Get Paid (Navy Yard Location)
 date: 2017-10-03 17:09:00 -04:00
-position: 14
+position: 13
 seo:
   description: 'We''ve teamed up with Ladies Get Paid to host a morning salon for
     female-identifying designers. Join DC Design Week on Tuesday morning before you

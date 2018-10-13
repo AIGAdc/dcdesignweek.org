@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Image Factory'
 date: 2018-10-08 09:58:00 -04:00
-position: 28
+position: 27
 seo:
   description: A full service creative shop steeped in strategic thinking. Driven
     by clever words and pretty pictures. From editorial to post we help networks,

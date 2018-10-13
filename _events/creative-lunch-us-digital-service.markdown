@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: U.S. Digital Service'
 date: 2018-10-06 10:42:00 -04:00
-position: 32
+position: 31
 seo:
   description: The U.S. Digital Service (USDS) is a group of digital experts working
     across the Federal Government to transform critical, public-facing services using
