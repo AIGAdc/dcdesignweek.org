@@ -1,7 +1,7 @@
 ---
 title: Experienced Leaders Panel at Solid State Books
 date: 2017-10-03 17:09:00 -04:00
-position: 4
+position: 6
 seo:
   description: 'This event aims to share the many perspectives of experienced leaders
     within our design community. On the panel will be speakers who represent a demographic

@@ -1,7 +1,7 @@
 ---
 title: 'Creative Lunch: Booz Allen Hamilton DX Team'
 date: 2018-09-30 10:03:00 -04:00
-position: 8
+position: 11
 seo:
   description: Creative lunches are intimate gatherings that provide guests the opportunity
     to get a behind-the-scenes look at some of the most exciting studios and spaces

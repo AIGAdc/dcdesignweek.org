@@ -1,7 +1,7 @@
 ---
 title: Designing Conversations
 date: 2018-09-26 20:50:00 -04:00
-position: 21
+position: 24
 seo:
   description: Join speakers from The Washington Post, NPR and Capital One as they
     showcase their most innovative voice enabled products and conversational AI’s.

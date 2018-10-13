@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Optoro'
 date: 2018-10-13 13:01:00 -04:00
+position: 8
 seo:
   description: 'As one of DC''s leading tech companies and coolest places to work,
     come learn about our approach to problem-solving, our culture, and what it takes
