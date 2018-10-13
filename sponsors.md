@@ -3,9 +3,9 @@ title: Sponsors
 permalink: "/sponsors/"
 description: 
 image: "/uploads/2018-OG-featuredimage.jpg"
-first-tier-header: Chapter Sponsor
+first-tier-header: Chapter Sponsors
 first-tier-sub-header: 
-second-tier-header: DC Design Week Sponsor
+second-tier-header: DC Design Week Sponsors
 second-tier-sub-header: 
 third-tier-header: 
 third-tier-sub-header: 
