@@ -6,7 +6,7 @@ seo:
   description: 'Join design leaders across PBS and PBS KIDS for lunch and learn about
     games, apps, sound effects, animation, lean ux, accessibility and more during
     an hour of lightning talks. '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-pbs.jpg"
 event:
   date: 2018-10-26 11:30:00 -04:00
   venue-name: PBS
