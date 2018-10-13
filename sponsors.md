@@ -13,7 +13,7 @@ second-tier-sub-header: For 10 years, DC Design Week has sought to inspire, cele
   and promote design within the DMV. This year’s events, educational programs, and
   community engagement are made possible due to the generous support of the following
   sponsors.
-third-tier-header: 
+third-tier-header: 'Many thanks to:'
 third-tier-sub-header: 
 sponsor-button-text: Work with Us
 sponsor-button-url: designweek@dc.aiga.org
