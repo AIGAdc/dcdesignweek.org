@@ -1,0 +1,7 @@
+---
+title: TemporaryTattoos.com
+date: 2018-10-13 12:42:00 -04:00
+sponsor-image: "/uploads/temporaryTattoos.jpg"
+sponsor-url: http://TemporaryTattoos.com
+---
+
