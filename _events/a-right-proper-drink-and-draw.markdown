@@ -8,7 +8,7 @@ seo:
     sketchbooks, where you can jump-start your creativity by joining people who love
     drawing just as much as you do. So sharpen those pencils and get ready to draw
     with us!
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_rightProperDrinkDraw.jpg"
 event:
   date: 2018-10-26 18:00:00 -04:00
   venue-name: Right Proper Brookland Production House
