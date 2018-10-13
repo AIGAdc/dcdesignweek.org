@@ -23,6 +23,14 @@ is-featured-on-home-page: false
 
 ## Free Event!
 
+**Route Description:** A morning jaunt through our mural filled streets. A fun, artistic, and inspiring way to jumpstart your day.
+**Route Distance/Pace:** 3.5 miles, conversational relaxed pace. 
+**Start Time:** Meet at 7am, run at 7:15
+**Start Location:** Blagden Alley
+**Bonus Incentives:** Murals, $wag!, breakfast & coffee!
+
+Follow: [@dcdesignweek](https://twitter.com/dcdesignweek) for updates in the event of bad weather
+
 Get ready to lace up your sneakers and join us for a mural run of DC’s most exciting street art. Washington DC has a history of great artists who transformed the sometimes overlooked spaces with their colourful works of art. Join Jules DeVita and Matt Green  ([District Running Collective](http://www.districtrunningcollective.com/)) as they traverse DC’s historic neighbourhoods to see best and of the brightest best urban creative art in the district. Whether you’re a beginner, or an experienced marathoner, all paces and abilities are welcome.
 
 The total distance of the Mural Run will be 3 miles. The goal is to maintain a conversational running pace (talking & smiling all the way!). We will stop briefly at each mural to take a group picture and to appreciate the artwork!
