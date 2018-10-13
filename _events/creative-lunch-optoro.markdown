@@ -7,7 +7,7 @@ seo:
     for an ambitious start-up to firm up a roadmap to becoming a multi-billion dollar
     company. We''ll be sharing how Optoro use Design Thinking across the organization
     to help solve the big problem around waste in retail returns. '
-  og-image: "/uploads/event_placeholder.jpg"
+  og-image: "/uploads/event_creativeLunch-optoro.jpg"
 event:
   date: 2018-10-22 12:00:00 -04:00
   venue-name: Optoro
