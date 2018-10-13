@@ -31,7 +31,7 @@ is-featured-on-home-page: false
 
 From Alexa and Siri to Google Assistant, every major tech company has poured resources into developing voice user interfaces that use conversational AI and machine learning to predict what we want and assist us in our daily lives. 
 
-Join speakers from The Washington Post, NPR and Capital One as they showcase their most innovative voice enabled products and conversational AI’s. followed by a panel discussion that explores the processes, challenges and ethics of designing for conversation.
+Join speakers from The Washington Post, NPR and Capital One as they showcase their most innovative voice enabled products and conversational AI’s, followed by a panel discussion that explores the processes, challenges and ethics of designing for conversation.
 
 
 ## Joey Marburger [@josephjames](https://www.instagram.com/josephjames/)
