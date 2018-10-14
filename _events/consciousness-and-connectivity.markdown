@@ -1,5 +1,5 @@
 ---
-title: Consciousness & Connectivity
+title: Consciousness & Creativity
 date: 2018-10-11 22:21:00 -04:00
 position: 35
 seo:
