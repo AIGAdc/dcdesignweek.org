@@ -46,3 +46,12 @@ From popular entertainers to historic events, and from scientific achievements t
 
 * 6:00 to 7:00pm - Explore the Exhibition & Check-in: AFA Building Main Floor Art Gallery
 * 7:00 to 8:30pm - Designer Discussion: Bisdorf Building (AA) Room 196
+
+-- 
+
+We invite you to submit a stamp design (or multiple stamp designs) for display in this exhibition. Think of the people and phenomena that loom large in your life and reimagine them on the tiniest canvas: a postage stamp. 
+
+Download the following [Adobe InDesign template](https://drive.google.com/file/d/1zx8JE9y3QE6FBbWxUQCsEF1sEOc8gRfU/view?usp=sharing) to place your image and write a short description of your design. 
+
+Save the file as a PDF and submit it via email it to zredden@nvcc.edu via weTransfer, Dropbox, or Hightail. **Please send your completed artwork and story no later than Sunday, October 21.**
+
