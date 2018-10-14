@@ -4,9 +4,9 @@ date: 2018-10-11 22:21:00 -04:00
 position: 35
 seo:
   description: Join us for a unique gathering with interdisciplinary artist and healer
-    Artis Moon, at Dwell, a privately owned, off-grid (yes, in DC!), untethered creative
-    space. Explore the connection between consciousness, meditation practices, and
-    creativity.
+    Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only
+    studio in Dupont Circle. Come explore the connection between consciousness, meditation
+    practices and creativity.
   og-image: "/uploads/event_consciousnessConnectivity.jpg"
 event:
   date: 2018-10-27 18:00:00 -04:00
