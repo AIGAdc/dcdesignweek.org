@@ -16,32 +16,29 @@ event:
   start-time: 6pm
   end-time: 9pm
 buttons:
-  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fconsciousness-connectivity-guided-meditation-dinner%2F%3Fredirect_source%3Deventbrite_register
-  button-left-text: "$35 Member"
-  button-right-url: https://www.eventbrite.com/e/consciousness-connectivity-guided-meditation-dinner-tickets-51301400871
-  button-right-text: "$45 Non-Member"
+  button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fconsciousness-and-creativity%2F%3Fredirect_source%3Deventbrite_register
+  button-left-text: "$25 Member"
+  button-right-url: https://www.eventbrite.com/e/consciousness-and-creativity-tickets-51375635910
+  button-right-text: "$35 Non-Member"
 is-oct-27: true
 ---
 
-**Dwell is in the Red Brick Carriage House in Trinidad Alley off of the 1200 block of Florida Ave NE & Trinidad Ave NE, 20002 Washington, United States**
+Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only studio in Dupont Circle. Come explore the connection between consciousness, meditation practices and creativity.
 
-Join us for a unique gathering with interdisciplinary artist and healer [Artis Moon](https://www.instagram.com/theboundlesslife/), at [Dwell](https://www.instagram.com/dwelldc/), a privately owned, off-grid (yes, in DC!), untethered creative space. Explore the connection between consciousness, meditation practices, and creativity.
+Join us for a guided meditation with sound bath and suggested meditation techniques and visualizations to 'try at home' for inspiration or creative breakthroughs.
 
-Participants will delve into deep meditation, breathwork, journaling, visualization, energetic release and aura cleansing, with facilitation by the healing sounds and vibrations of a wooden flute, drums, rattles, crystal singing bowls, and chimes. Our goal is to help you take a moment to reflect while gently guiding you on a journey home to your inner self.
+Meditation, breathwork, journaling, visualization, dialogue, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, metallophone, crystal and metal singing bowls, and chimes, gently guiding you on a journey home to your Self.
 
-Afterwards, mingle with us while you enjoy a catered, organic dinner and cocktails on the roof. 
+This ceremony is in the reverence for depth of personal work and time given to commune with oneself, as well as share about this transformative experience with others. This work transcends religious orientation and welcomes all.
 
-## What can I expect?
+Bring water and a journal if you wish, or they will be provided for you. No experience necessary! Pre-registrations strongly encouraged. Bring a friend!
 
-This is a 21+ event and casual attire is encouraged. An invitation to enjoy cannabis in a creative and intentional way will exist but there is no obligation to partake. 
+What can you expect?
 
-We ask participants to bring water, a blanket, and a journal if you wish. However, we’ll also have some just in case. No prior meditation experience is necessary.
+R&R!!!!!! Meditation, breathwork, journaling, visualization, dialogue, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, metallophone, crystal and metal singing bowls, and chimes, gently guiding you on a journey home to your Self.
 
-## Will refreshments be provided?
+This ceremony is in the reverence for depth of personal work and time given to commune with oneself, as well as share about this transformative experience with others. This work transcends religious orientation and welcomes all.
 
+Bring water and a journal if you wish, or they will be provided for you. No experience necessary! Pre-registrations strongly encouraged. Bring a friend!
 
-Yes. A light buffet of healthy dinner time options, water, and a fresca will also be provided. Post-meditation rooftop cocktails are also included. 
-
-## Speaker bio: Artis Moon Amarché
-
-Artis Moon Amarché is honored to integrate her role as a healer, musician, dancer, and artist, while integrating various traditional meditation practices. A DC native for the past 25 years, Artis lived a life as an independent interdisciplinary artist and educator, teaching and performing tap dance and percussion in the U.S. and abroad. She also produced and directed numerous residencies and performances, taught visual and language arts, and worked as a photographer, writer, and editor. During this time she also worked with a range of mindfulness and meditation disciplines, and is thrilled to now be fully forging her path in the healing arts. Artis earned a BFA in Fine Arts from the Corcoran College of Art & Design in DC, and holds the following certifications: Usui Reiki Master Teacher, Life Coach, Cognitive Behavioral Therapist, Childbirth Educator, Diploma of Advanced Training from the Center for Mind-Body Medicine - and is a trained Yoga Nidra guide.
+Light snacks and tea in from the tea bar will be provided!
