@@ -10,11 +10,11 @@ seo:
   og-image: "/uploads/event_consciousnessConnectivity.jpg"
 event:
   date: 2018-10-27 18:00:00 -04:00
-  venue-name: Dwell DC
-  venue-directions: https://goo.gl/maps/HVCTNoR5UhD2
-  venue-address: See Description Below
+  venue-name: Take Five Meditation
+  venue-directions: https://goo.gl/maps/99anTAnABzj
+  venue-address: 1803 Connecticut Ave NW, 2nd Floor, Washington, DC 20009
   start-time: 6pm
-  end-time: 9pm
+  end-time: 8pm
 buttons:
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fconsciousness-and-creativity%2F%3Fredirect_source%3Deventbrite_register
   button-left-text: "$25 Member"
