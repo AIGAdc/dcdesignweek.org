@@ -20,7 +20,8 @@ event:
 buttons:
   has-left-button: false
   has-right-button: false
-is-oct-25: true
+is-oct-21: true
+is-oct-25: false
 ---
 
 **RSVP Link for this Facebook Live event will be available Oct 15**
