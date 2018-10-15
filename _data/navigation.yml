@@ -13,7 +13,7 @@ primary-nav:
   - title: "Sponsors"
     url: /sponsors/
   - title: "Volunteer"
-    url: https://www.signupgenius.com/go/70a0f48aea829a3fc1-volunteer
+    url: /volunteer/
 
 # landing page nav
 landing-page-nav:
