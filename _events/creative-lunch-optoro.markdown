@@ -15,7 +15,7 @@ event:
   venue-directions: https://goo.gl/maps/ymEHStCukYS2
   venue-address: 1001 G Street NW, 12th floor (main entrance on 11th Street)
   start-time: 12pm
-  end-time: 1:30pm
+  end-time: 1pm
 buttons:
   button-left-url: https://my.aiga.org/MXSignin?ssotype=chapters&skipblacklist&returnurl=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D280621%26redirect_source%3Deventbrite_register
   button-left-text: "$10 Member"
