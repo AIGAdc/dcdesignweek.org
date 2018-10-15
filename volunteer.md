@@ -2,7 +2,7 @@
 title: Volunteer
 permalink: "/volunteer/"
 published: false
-description:
+description: 
 image: "/uploads/2018-OG-featuredimage.jpg"
 layout: volunteer
 ---
