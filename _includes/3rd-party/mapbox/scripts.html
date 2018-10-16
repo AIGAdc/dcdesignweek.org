@@ -2,7 +2,7 @@
   mapboxgl.accessToken = 'pk.eyJ1IjoicnZvbmRvaGxlbiIsImEiOiJ0WHFyM1hRIn0.YNQ1RlsmSD6hAbSqmif7FA';
   const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/rvondohlen/cjmmf0bgc1o5x2rn45cpgdeux',
+    style: 'mapbox://styles/rvondohlen/cjnb3ki0p5f2n2rrw5o4c24e8',
     center: [-77.027805, 38.904681],
     zoom: 9.4
   });
@@ -10,7 +10,7 @@
   map.on('click', function (e) {
 
     var features = map.queryRenderedFeatures(e.point, {
-      layers: ['map-data-v4-9-30-6tu2z4'] // replace this with the name of the layer
+      layers: ['map-data-v5-10-15-dqul65'] // replace this with the name of the layer
     });
 
     if (!features.length) {
@@ -36,12 +36,12 @@
   });
 
   // Change the cursor to a pointer when the it enters a feature in the 'symbols' layer.
-  map.on('mouseenter', 'map-data-v4-9-30-6tu2z4', function () {
+  map.on('mouseenter', 'map-data-v5-10-15-dqul65', function () {
     map.getCanvas().style.cursor = 'pointer';
   });
 
   // Change it back to a pointer when it leaves.
-  map.on('mouseleave', 'map-data-v4-9-30-6tu2z4', function () {
+  map.on('mouseleave', 'map-data-v5-10-15-dqul65', function () {
     map.getCanvas().style.cursor = '';
   });
 </script>
