@@ -24,6 +24,7 @@ buttons:
   button-right-text: "$20 Non-Members"
 is-oct-23: false
 is-oct-24: true
+is-sold-out: true
 is-featured-on-home-page: false
 ---
 
