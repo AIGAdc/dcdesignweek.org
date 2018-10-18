@@ -10,7 +10,7 @@ seo:
     the value, demands, and rewards of mentoring from a panel of professionals. Attendees
     will also hear how participating as a mentor or mentee can benefit anyone at any
     stage of their career. '
-  og-image: "/uploads/event_mentoringEmergingDesigners.jpg"
+  og-image: "/uploads/event_mentoringEmergingDesigners2.jpg"
 event:
   date: 2018-10-21 19:00:00 -04:00
   venue-name: Facebook LIVE
