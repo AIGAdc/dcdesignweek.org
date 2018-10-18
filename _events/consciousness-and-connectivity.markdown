@@ -5,8 +5,8 @@ position: 35
 seo:
   description: Join us for a unique gathering with interdisciplinary artist and healer
     Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only
-    studio in Dupont Circle. Come explore the connection between consciousness, meditation
-    practices and creativity.
+    studio in Dupont Circle. Come explore the connection between consciousness and
+    creativity.
   og-image: "/uploads/event_consciousnessConnectivity.jpg"
 event:
   date: 2018-10-27 18:00:00 -04:00
@@ -23,22 +23,17 @@ buttons:
 is-oct-27: true
 ---
 
-Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only studio in Dupont Circle. Come explore the connection between consciousness, meditation practices and creativity.
+Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only studio in Dupont Circle. Come explore the connection between consciousness and creativity.
 
-Join us for a guided meditation with sound bath and suggested meditation techniques and visualizations to 'try at home' for inspiration or creative breakthroughs.
+A guided meditation with sound bath and suggested meditation techniques and visualizations to 'try at home' for inspiration or creative breakthroughs will be offered.
 
-Meditation, breathwork, journaling, visualization, dialogue, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, metallophone, crystal and metal singing bowls, and chimes, gently guiding you on a journey home to your Self.
-
-This ceremony is in the reverence for depth of personal work and time given to commune with oneself, as well as share about this transformative experience with others. This work transcends religious orientation and welcomes all.
-
-Bring water and a journal if you wish, or they will be provided for you. No experience necessary! Pre-registrations strongly encouraged. Bring a friend!
-
-What can you expect?
-
-R&R!!!!!! Meditation, breathwork, journaling, visualization, dialogue, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, metallophone, crystal and metal singing bowls, and chimes, gently guiding you on a journey home to your Self.
+Journaling, visualization, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, and crystal and metal singing bowls will gently guide you on a journey home to your Self.
 
 This ceremony is in the reverence for depth of personal work and time given to commune with oneself, as well as share about this transformative experience with others. This work transcends religious orientation and welcomes all.
+Bring water and a journal if you wish. No experience necessary!
 
-Bring water and a journal if you wish, or they will be provided for you. No experience necessary! Pre-registrations strongly encouraged. Bring a friend!
+What can I expect?
+R&R!!!!!! Wind down after a long week to cultivate space for you.
 
-Light snacks and tea in from the tea bar will be provided!
+Will refreshments be provided?
+Light refreshments will be provided.
