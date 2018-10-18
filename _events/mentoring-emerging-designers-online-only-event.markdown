@@ -36,6 +36,8 @@ Higher education on its own is rarely enough to provide emerging designers with 
 ## Moderator
 **Mira Azarm**, Innovation Instigator, UMD Academy for Innovation and Entrepreneurship
 
+![Screenshot 2018-10-18 10.21.45.png](/uploads/Screenshot%202018-10-18%2010.21.45.png)
+
 This event is presented by the AIGA DC Design Continuum Fund, a scholarship initiative for talented, underrepresented students pursuing creative careers in the area. AIGA DC supports emerging designers not only by providing financial assistance, but also by building an inclusive community where they feel welcomed and supported. Be part of the effort and join the community.
 
 ## [Donate](http://givecontinuum.org) to the fund
