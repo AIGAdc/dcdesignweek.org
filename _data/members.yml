@@ -110,6 +110,12 @@
     role: Merch Lead
     link-url: https://www.linkedin.com/in/tjcichecki/
     link-label: LinkedIn
+  - image: /uploads/maryCorley.jpg
+    image-alt: Member Portrait
+    name: Mary Corley
+    role: Volunteer Coordinator
+    link-url: https://www.linkedin.com/in/marycorley/
+    link-label: LinkedIn
 
 # Creative Team
   - image: /uploads/laJohnson.jpg
