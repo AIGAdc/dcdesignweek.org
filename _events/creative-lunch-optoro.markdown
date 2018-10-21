@@ -26,9 +26,9 @@ is-oct-22: true
 
 # Unfortunately, this event has been cancelled. 
 
-## We apologize. Purchased tickets will be refunded. Please contact designweek@dc.aiga.org with any needs or concerns.
+**We apologize. Purchased tickets will be refunded. Please contact designweek@dc.aiga.org with any needs or concerns.**
 
-
+—————————————————————————————————————————————————————————
 
 As one of DC's leading tech companies and coolest places to work, come learn about our approach to problem-solving, our culture, and what it takes for an ambitious start-up to firm up a roadmap to becoming a multi-billion dollar company. We'll be sharing how Optoro use Design Thinking across the organization to help solve the big problem around waste in retail returns. 
 
