@@ -24,7 +24,8 @@ buttons:
 is-oct-22: true
 ---
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 12:00 PM.
+# Unfortunately, this event has been cancelled. We apologize. Purchased tickets will be refunded. Please contact designweek@dc.aiga.org with any needs or concerns.
+
 
 ## What to Expect:
 As one of DC's leading tech companies and coolest places to work, come learn about our approach to problem-solving, our culture, and what it takes for an ambitious start-up to firm up a roadmap to becoming a multi-billion dollar company. We'll be sharing how Optoro use Design Thinking across the organization to help solve the big problem around waste in retail returns. 
