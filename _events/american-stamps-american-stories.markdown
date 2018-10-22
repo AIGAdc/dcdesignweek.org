@@ -47,6 +47,8 @@ From popular entertainers to historic events, and from scientific achievements t
 * 6:00 to 7:00pm - Explore the Exhibition & Check-in: AFA Building Main Floor Art Gallery
 * 7:00 to 8:30pm - Designer Discussion: Bisdorf Building (AA) Room 196
 
+![ASAS_campusmap_v3.jpg](/uploads/ASAS_campusmap_v3.jpg)
+
 -- 
 
 We invite you to submit a stamp design (or multiple stamp designs) for display in this exhibition. Think of the people and phenomena that loom large in your life and reimagine them on the tiniest canvas: a postage stamp. 
