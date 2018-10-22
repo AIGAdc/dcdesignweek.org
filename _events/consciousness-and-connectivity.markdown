@@ -21,6 +21,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/consciousness-and-creativity-tickets-51375635910
   button-right-text: "$35 Non-Member"
 is-oct-27: true
+is-featured-on-home-page: true
 ---
 
 Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only studio in Dupont Circle. Come explore the connection between consciousness and creativity.
