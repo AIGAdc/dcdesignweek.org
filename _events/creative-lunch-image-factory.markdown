@@ -25,7 +25,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-image-factory-tickets-51148308969
   button-right-text: "$15 Non-Members"
 is-oct-25: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 ## Important details for your attendance to Image Factory DC:
