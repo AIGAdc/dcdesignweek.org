@@ -24,7 +24,7 @@ buttons:
 is-oct-22: true
 ---
 
-This event has been cancelled. 
+# This event has been cancelled. 
 
 **We apologize. Purchased tickets will be refunded. Please contact designweek@dc.aiga.org with any needs or concerns.**
 
