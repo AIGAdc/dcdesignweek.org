@@ -23,6 +23,7 @@ buttons:
   button-right-url: https://www.eventbrite.com/e/creative-lunch-us-digital-service-tickets-51017132617
   button-right-text: "$15 Non-Members"
 is-oct-26: true
+is-sold-out: true
 ---
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. **The presentation will begin promptly at 12:00 PM.**
