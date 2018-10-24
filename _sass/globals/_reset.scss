@@ -74,12 +74,18 @@ iframe {
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border: solid 2px $monte-carlo;
+  border-left: none;
+  width: 100%;
 }
 
 td,
 th {
-  padding: 0;
+  padding: 8px;
   text-align: left;
+}
+
+td {
+  border-left: solid 2px $monte-carlo;
 }
