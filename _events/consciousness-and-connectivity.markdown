@@ -30,11 +30,7 @@ A guided meditation with sound bath and suggested meditation techniques and visu
 
 Journaling, visualization, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, and crystal and metal singing bowls will gently guide you on a journey home to your Self.
 
-This ceremony is in the reverence for depth of personal work and time given to commune with oneself, as well as share about this transformative experience with others. This work transcends religious orientation and welcomes all.
 Bring water and a journal if you wish. No experience necessary!
 
 What can I expect?
 R&R!!!!!! Wind down after a long week to cultivate space for you.
-
-Will refreshments be provided?
-Light refreshments will be provided.
