@@ -24,13 +24,13 @@ is-oct-27: true
 is-featured-on-home-page: true
 ---
 
-Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation only studio in Dupont Circle. Come explore the connection between consciousness and creativity.
+Join us for a unique gathering with interdisciplinary artist and healer Artis Moon, at Take 5 Meditation, Washington, D.C.'s premiere meditation-only studio in Dupont Circle. Come explore the connection between consciousness and creativity.
 
-A guided meditation with sound bath and suggested meditation techniques and visualizations to 'try at home' for inspiration or creative breakthroughs will be offered.
+Artis will guide you through a meditation experience with full sound bath, and offer suggested meditation techniques and visualizations to 'try at home' for inspiration or creative breakthroughs.
 
-Journaling, visualization, energetic release, and aura cleansing, facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, and crystal and metal singing bowls will gently guide you on a journey home to your Self.
+This soul-soothing session will ride out the full moon vibes from earlier in the week, incorporating breath work, energetic release, intention-setting, visualization, journaling, drawing, grounding into the physical body, and aura cleansing.  Facilitated by the healing sounds and vibrations of wooden flute, drums, rattles, and crystal and metal singing bowls, and chimes, Artis will lovingly guide you on a journey of discovery, back home to your Self.
 
-Bring water and a journal if you wish. No experience necessary!
+Bring water and a journal if you wish. Writing and drawing materials will also be provided.  No experience necessary!
 
 What can I expect?
-R&R!!!!!! Wind down after a long week to cultivate space for you.
+R&R!!!!!! Wind down after a long week to cultivate time & space for You.  Beverages and healthy snacks will be served afterwards.
