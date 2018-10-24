@@ -4,22 +4,22 @@ controls:
     class: control-oct-20
     text-1: Sat
     text-2: Oct 20
-    disabled: false
+    disabled: true
   - filter: .oct-21
     class: control-oct-21
     text-1: Sun
     text-2: Oct 21
-    disabled: false
+    disabled: true
   - filter: .oct-22
     class: control-oct-22
     text-1: Mon
     text-2: Oct 22
-    disabled: false
+    disabled: true
   - filter: .oct-23
     class: control-oct-23
     text-1: Tue
     text-2: Oct 23
-    disabled: false
+    disabled: true
   - filter: .oct-24
     class: control-oct-24
     text-1: Wed
