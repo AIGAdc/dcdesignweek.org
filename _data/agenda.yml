@@ -24,7 +24,7 @@ controls:
     class: control-oct-24
     text-1: Wed
     text-2: Oct 24
-    disabled: false
+    disabled: true
   - filter: .oct-25
     class: control-oct-25
     text-1: Thu

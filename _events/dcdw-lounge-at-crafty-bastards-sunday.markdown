@@ -1,6 +1,7 @@
 ---
 title: DCDW Lounge @ Crafty Bastards (Sunday)
 date: 2018-09-30 18:00:00 -04:00
+published: false
 position: 36
 seo:
   description: Visit DCDW at our pop-up Lounge inside of Crafty Bastards on both Saturday
@@ -36,7 +37,7 @@ Stop by the DCDW tent for unique activities on both [Saturday](https://www.dcdes
 | 11-12 pm | **Pets & Pumpkins Contest** |
 | | It's time to compete! Calling all pet owners and artists to enter our contest to make the most creative pet costume or decorated mini pumpkin using our collection of supplies in a short window of time. |
 | 12:30-2:00 pm | **Fireside Chats w/ Local Artists** |
-| | Take a seat around the fireplace as Liz Ott, a creative strategist and designer currenty at Threespot and a former AIGA DC President, leads conversations with local artists and makers. |
+| | Take a seat around the fireplace as Liz Ott, strategist and creative hype-woman currently at Threespot and a former AIGA DC President, leads conversations with local artists and makers. |
 | | Speaker: Josef Palermo |
 | | Josef is an artist, producer and arts organizer, who was appointed by Mayor Muriel Bowser to the DC Commission on the Arts & Humanities in 2016. |
 | | Speaker: LA Johnson |
