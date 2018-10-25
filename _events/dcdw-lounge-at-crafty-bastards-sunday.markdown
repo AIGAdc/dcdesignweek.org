@@ -29,7 +29,7 @@ This event is family-friendly and pet-friendly!
 
 [Tickets: $6-$10](https://www.bigtickets.com/event/details/?d1=wcp&d2=15th-annual-crafty-bastards-arts--crafts-fair-)
 
-Stop by the DCDW tent for unique activities on both Saturday and **Sunday**:
+Stop by the DCDW tent for unique activities on both [Saturday](https://www.dcdesignweek.org/events/dcdw-lounge-at-crafty-bastards.html) and **Sunday**:
 
 | 10-11 am | **Morning Craft Time** |
 | | Pop in to create something of your own. |
