@@ -29,17 +29,17 @@ controls:
     class: control-oct-25
     text-1: Thu
     text-2: Oct 25
-    disabled: false
+    disabled: true
   - filter: .oct-26
     class: control-oct-26
     text-1: Fri
     text-2: Oct 26
-    disabled: false
+    disabled: true
   - filter: .oct-27
     class: control-oct-27
     text-1: Sat
     text-2: Oct 27
-    disabled: false
+    disabled: true
   - filter: .oct-28
     class: control-oct-28
     text-1: Sun
