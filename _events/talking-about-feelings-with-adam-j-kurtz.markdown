@@ -23,7 +23,7 @@ buttons:
   button-left-text: "$30 Members / $38 Non-Members"
   has-right-button: false
 is-oct-25: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
