@@ -44,4 +44,4 @@ controls:
     class: control-oct-28
     text-1: Sun
     text-2: Oct 28
-    disabled: false
+    disabled: true

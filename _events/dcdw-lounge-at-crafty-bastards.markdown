@@ -20,7 +20,7 @@ buttons:
   has-right-button: false
 is-oct-27: true
 is-oct-28: true
-is-featured-on-home-page: true
+is-featured-on-home-page: false
 ---
 
 We're closing out the week with a two-day celebration inside an event at the heart of the DC creative community: Crafty Bastards. Visit our lounge space where you can engage with local artists, gain inspiration, craft and recharge throughout the day.
