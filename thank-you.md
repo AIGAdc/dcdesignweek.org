@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Thank You
 permalink: "/"
+published: false
 description:
 image: "/uploads/2018-OG-featuredimage.jpg"
 hero-bg: "/uploads/pattern-faceTools.png"
@@ -42,5 +43,5 @@ home-partners-text: |-
   We couldn't do it without you!
 home-sponsors-url-text: Learn More
 home-sponsors-url: "/sponsors/"
-layout: home
+layout: thank-you
 ---
