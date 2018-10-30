@@ -1,5 +1,5 @@
 ---
-title: Thank You
+title: Home
 permalink: "/"
 published: false
 description:
@@ -43,5 +43,5 @@ home-partners-text: |-
   We couldn't do it without you!
 home-sponsors-url-text: Learn More
 home-sponsors-url: "/sponsors/"
-layout: thank-you
+layout: home
 ---
