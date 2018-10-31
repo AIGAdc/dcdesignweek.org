@@ -1,8 +1,13 @@
 <!-- section 1: hero -->
 <section class="hero vh-50 vh-75-l flex bg-monte-carlo relative" style="background-image: url('{{ page.hero-bg }}'); background-size: contain; background-position: center center;">
   <div class="flex-auto self-center relative" style="z-index: 100;">
-    <div class="mw6 center">
-<img class="hero-logo v-mid pa3 pa0-l lazyload blur-up v-mid" data-src="{{ page.hero-logo }}"  src="{{ page.hero-logo }}" alt="{{ page.hero-logo-alt }}">
+    <div class="mw8 mb4 center tc wysiwyg pa3">
+      <h1 class="f1-headline white mb2">{{ page.hero-closing-header }}</h1>
+      <a href="{{ page.hero-closing-url }}" class="btn btn--secondary-solid white">{{ page.hero-closing-text }}</a>
+    </div>
+    <div class="mw6 center tc wysiwyg pa3">
+      <h3 class="white mb2">{{ page.hero-next-year-header }}</h3>
+      <a href="{{ page.hero-next-year-url }}" class="btn btn--secondary-solid white">{{ page.hero-next-year-text }}</a>
     </div>
   </div>
   <div class="hero-overlay absolute top-0 right-0 bottom-0 left-0 bg-cloud" style="opacity: 0.5;"></div>
