@@ -1,7 +1,7 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-description: 
+description:
 image: "/uploads/2018-OG-featuredimage.jpg"
 first-tier-header: Chapter Sponsors
 first-tier-sub-header: 'Sustaining Partners support AIGA DC for a full year, enabling
@@ -14,7 +14,7 @@ second-tier-sub-header: For 10 years, DC Design Week has sought to inspire, cele
   community engagement are made possible due to the generous support of the following
   sponsors.
 third-tier-header: 'Many thanks to:'
-third-tier-sub-header: 
+third-tier-sub-header:
 sponsor-button-text: Work with Us
 sponsor-button-url: designweek@dc.aiga.org
 layout: sponsors
