@@ -1,11 +1,14 @@
 ---
 title: Home
 permalink: "/"
-description: 
+description:
 image: "/uploads/2018-OG-featuredimage.jpg"
 hero-bg: "/uploads/pattern-faceTools.png"
 hero-logo: "/uploads/dcdw-lockup-hero.svg"
 hero-logo-alt: DC Design Week Hero Logo, Time & Date
+hero-closing-subheader: Tell us about your experience so we can keep improving.
+hero-closing-text: Send Feedback
+hero-closing-url: https://goo.gl/forms/WZO7PamPyTLI9JOH3
 dc-design-header: Design is For All
 dc-design-paragraph-1: Design is for thinkers and doers, listeners and seers, go-getters
   and problem-solvers. It’s for walkers, bikers, drivers, and Metro riders. It’s for
@@ -28,7 +31,7 @@ dc-design-image-3: "/uploads/dcdw-faces-group-03.gif"
 dc-design-image-3-alt: Group 3 of portrait illustrations showcasing the diversity
   of the DC Design Community
 home-events-header: Featured Events
-home-events-text: 
+home-events-text:
 home-events-button-text: Full Schedule
 home-events-url: "/events/"
 home-partners-header: Partners & Sponsors
@@ -44,4 +47,3 @@ home-sponsors-url-text: Learn More
 home-sponsors-url: "/sponsors/"
 layout: home
 ---
-
