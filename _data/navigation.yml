@@ -1,19 +1,19 @@
 # This data yml file will loop through the different navigations of the DCDW website.
 
 # primary nav
-primary-nav:
-  - title: "Events"
-    url: /events/
-  - title: "Map"
-    url: /map/
-  - title: "Pop Up Shop"
-    url: /pop-up-shop/
-  - title: "About"
-    url: /about/
-  - title: "Sponsors"
-    url: /sponsors/
-  - title: "Volunteer"
-    url: /volunteer/
+#  primary-nav:
+#    - title: "Events"
+#      url: /events/
+#    - title: "Map"
+#      url: /map/
+#    - title: "Pop Up Shop"
+#      url: /pop-up-shop/
+#    - title: "About"
+#      url: /about/
+#    - title: "Sponsors"
+#      url: /sponsors/
+#    - title: "Volunteer"
+#      url: /volunteer/
 
 # landing page nav
 landing-page-nav:
@@ -21,6 +21,8 @@ landing-page-nav:
     url: https://github.com/AIGAdc/2016.dcdesignweek.org
   - title: "2017"
     url: https://github.com/AIGAdc/2017.dcdesignweek.org
+  - title: "2018"
+    url: https://github.com/AIGAdc/DCDW
 
 # social media
 social-nav:

@@ -1,0 +1,21 @@
+<!-- featured: sponsors -->
+<section class="sponsors mb5 mb6-l cf relative">
+  <div class="mw8 center pa3">
+    <h2>{{ page.home-partners-header }}</h2>
+    <hr>
+    {{ page.home-partners-text | markdownify }}
+
+    <ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
+      {% assign sorted_sponsors = site.sponsors %}
+      {% for posts in sorted_sponsors %}
+      {% if posts.is-featured-on-home-page == true %}
+      {% include partials/sponsors/tiers/content.html %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+
+    <a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{page.home-sponsors-url}}">
+      {{ page.home-sponsors-url-text }}
+    </a>
+  </div>
+</section>
