@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 published: false
-description:
+description: 
 image: "/uploads/2018-OG-featuredimage.jpg"
 hero-bg: "/uploads/pattern-faceTools.png"
 hero-logo: "/uploads/dcdw-lockup-hero.svg"
@@ -29,7 +29,7 @@ dc-design-image-3: "/uploads/dcdw-faces-group-03.gif"
 dc-design-image-3-alt: Group 3 of portrait illustrations showcasing the diversity
   of the DC Design Community
 home-events-header: Featured Events
-home-events-text:
+home-events-text: 
 home-events-button-text: Full Schedule
 home-events-url: "/events/"
 home-partners-header: Partners & Sponsors
@@ -45,3 +45,4 @@ home-sponsors-url-text: Learn More
 home-sponsors-url: "/sponsors/"
 layout: home
 ---
+

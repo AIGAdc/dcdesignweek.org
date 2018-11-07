@@ -1,7 +1,7 @@
 ---
 title: Thank You
 permalink: "/"
-description:
+description: 
 image: "/uploads/2018-OG-featuredimage.jpg"
 hero-bg: "/uploads/pattern-faceTools.png"
 hero-logo: "/uploads/dcdw-lockup-hero.svg"
@@ -15,3 +15,4 @@ hero-next-year-text: Apply Here
 hero-next-year-url: mailto:designweek@dc.aiga.org
 layout: thank-you
 ---
+
