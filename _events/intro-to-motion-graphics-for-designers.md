@@ -29,12 +29,12 @@ is-featured-on-home-page: false
 layout: events-single
 ---
 
-There's become a higher demand for animated content, and a lot of it is being filled with motion graphics animation. As a designer, you can create the assets and the art direction, but where do you begin with making it move? This will be a short intro crash course on animation that is geared towards designers who are looking to grow their skills. 
+There's become a higher demand for animated content, and a lot of it is being filled with motion graphics animation. As a designer, you can create the assets and the art direction, but where do you begin with making it move? This will be a short intro crash course on animation that is geared towards designers who are looking to grow their skills.
 
-Intro to Animation for Graphic Designers will cover the principles of animation, tips for prepping designs for animation, a small hands on workshop making traditional flip books to practice the skills that you learn, and additional resources for software + continued learning. 
+Intro to Animation for Graphic Designers will cover the principles of animation, tips for prepping designs for animation, a small hands on workshop making traditional flip books to practice the skills that you learn, and additional resources for software + continued learning.
 
 ## The Instructor [@hannamations](https://www.instagram.com/hannamations/)
 Hannah Churn is an animator and illustrator located in Washington D.C. Currently she’s using her right side of the brain for The Duke & The Duck. When not creating art, Hannah is, creating art. She runs a comic called Palindrome and is an avid doodler of cats. Her and her husband also run a side shop called Art Churn where they sell their artwork at comic conventions.
 
 ## The Duke & The Duck [@dukeandtheduck](https://www.instagram.com/dukeandtheduck/)
-Founded in November of 2009, [The Duke & the Duck](http://www.dukeduck.com) has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale.
+Founded in November of 2009, [The Duke & the Duck](https://www.dukeduck.com) has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale.

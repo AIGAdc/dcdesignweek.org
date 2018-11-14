@@ -19,14 +19,14 @@ event:
   end-time: 8:30pm
 buttons:
   has-left-button: true
-  button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
+  button-left-url: https://themiracletheatre.ticketfly.com/event/1771198
   button-left-text: "$30 Members / $38 Non-Members"
   has-right-button: false
 is-oct-25: true
 is-featured-on-home-page: true
 ---
 
-**A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
+**A copy of [Things Are What You Make of Them](https://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
 
 **[Please enter the email address associated with your AIGA membership in the promo code field on the ticket page for Adam J. Kurtz. This will get you the discounted ticket price of $30.](https://www.ticketfly.com/purchase/event/1771198?_ga=2.268398606.1278497458.1538496632-1925525455.1538496631)**
 

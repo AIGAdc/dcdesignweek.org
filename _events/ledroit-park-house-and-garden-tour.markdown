@@ -17,7 +17,7 @@ event:
   end-time: 5:00pm
 buttons:
   has-left-button: true
-  button-left-url: http://bit.ly/lpcatourtix
+  button-left-url: https://bit.ly/lpcatourtix
   button-left-text: "$35 Tickets"
   has-right-button: false
 is-oct-28: true

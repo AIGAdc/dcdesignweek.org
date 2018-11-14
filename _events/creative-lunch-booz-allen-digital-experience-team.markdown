@@ -25,9 +25,9 @@ is-oct-22: true
 is-sold-out: true
 ---
 
-## Early Access Tix Available Oct 2. 
+## Early Access Tix Available Oct 2.
 ### General Public On-Sale Oct 4.
-[Join AIGA for Early Access + Discounts.](http://dc.aiga.org/membership/membership-rates/)
+[Join AIGA for Early Access + Discounts.](https://dc.aiga.org/membership/membership-rates/)
 
 
 Booz Allen Hamilton Digital Experience (DX) team embraces challenge and creates solutions in understanding that the people component is central to success of its delivery. The DX team enhances and unifies the experiences people have at every touchpoint, through advanced approaches such as experience strategy, user experience (UX), branding and visual design, digital analytics, and content strategy.
@@ -43,4 +43,3 @@ Free guest parking is available at the front of the building, the lot is on the 
 
 ### Metro
 Greensboro Station on the Silver line
-

@@ -25,7 +25,7 @@ is-featured-on-home-page: true
 
 **Be there when the Pop Up pops off!** The DCDW Pop Up Shop is taking over the Cherry Blossom Creative storefront and filling it with items made by your fellow makers and designers. Come and celebrate the DC design community at the opening event, and get first crack at the awesome goods on sale!
 
-[Milk Cult](http://www.milkcultdc.com/) is bringing their pop up ice cream bar (including a DCDW limited edition, custom flavor)!
+[Milk Cult](https://www.milkcultdc.com/) is bringing their pop up ice cream bar (including a DCDW limited edition, custom flavor)!
 
 We’ll have official DCDW swag, cold beers, and the opportunity to put your money where the art is by supporting creativity sourced from the city we call home. Don’t miss it, because supplies won’t last!
 

@@ -3,7 +3,7 @@ title: 'Creative Lunch: OpenBox9'
 date: 2018-09-28 01:24:00 -04:00
 position: 19
 seo:
-  description: "[Openbox9](http://openbox9.com/) is a creative service-focused strategy
+  description: "[Openbox9](https://openbox9.com/) is a creative service-focused strategy
     and design firm that specializes in branding, graphic design, video and motion,
     UX design, and website development. We create custom, integrated online and offline
     solutions for our social-good clients through a shared commitment to improve this
@@ -32,6 +32,6 @@ Please plan to arrive 10 minutes early to allow time for registration and grabbi
 
 Join us for a lunch-time discussion about the challenges and unique opportunities we often encounter designing for the nonprofit world. We'll use a case study to explore this topic and also talk about how design can be used to effectively further a cause.
 
-[Openbox9](http://openbox9.com/) is a creative service-focused strategy and design firm that specializes in branding, graphic design, video and motion, UX design, and website development. We create custom, integrated online and offline solutions for our social-good clients through a shared commitment to improve this world.
+[Openbox9](https://openbox9.com/) is a creative service-focused strategy and design firm that specializes in branding, graphic design, video and motion, UX design, and website development. We create custom, integrated online and offline solutions for our social-good clients through a shared commitment to improve this world.
 
 We're motivated by the opportunity to serve the pursuits of our clients while practicing our love-love of design. We are energized by the promise that communities can meet the needs of others and we desire to partner with organizations doing that heroic work.
