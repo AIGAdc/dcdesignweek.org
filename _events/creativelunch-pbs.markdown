@@ -22,6 +22,8 @@ buttons:
 is-oct-26: true
 ---
 
+**[See the livestream recording on Twitch.](https://www.twitch.tv/videos/327645366)**
+
 Join design leaders across PBS and PBS KIDS for lunch and learn about games, apps, sound effects, animation, lean ux, accessibility and more during an hour of lightning talks. 
 
 Please have a drivers license, passport or government issued ID ready when you arrive for checkin at 11:30.  **The presentation will begin promptly at 12:00 PM**.
