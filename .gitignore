@@ -1,9 +1,3 @@
-_site
-DesignInsperation.txt
 .DS_Store
-node_modules/
-.jekyll-metadata
+_site
 .sass-cache
-
-2016/
-2017/
