@@ -5,22 +5,15 @@
 {% seo %}
 
 <!-- styles -->
-{% if site.css_inline == true %} {% include doctype/site-styles.html %} {% else %}
 <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
-{% endif %}
-
-{% if page.layout == "map" %}
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css" rel="stylesheet" />
-{% endif %}
+<!-- end styles -->
 
 <!-- scripts -->
 <script type="text/javascript" src="/assets/js/offside.min.js"></script>
 <script type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
-{% if page.layout == "map" %}
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js"></script>
-{% endif %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- end scripts -->
 
-{% if site.google-analytics %}
 {{ site.google - analytics }}
-{% endif %}
