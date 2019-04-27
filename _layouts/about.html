@@ -4,7 +4,9 @@ layout: default
 
 <main class="page-about wysiwyg">
   <div class="mw8 center cf pa3">
-    {% include partials/introduction.html %}
+    <section class="page-introduction mv4 mb5-l relative dib" style="z-index: 20;">
+      {{ content | markdownify }}
+    </section>
     {% include partials/about/section-1.html %}
     {% include partials/about/section-2.html %}
   </div>
