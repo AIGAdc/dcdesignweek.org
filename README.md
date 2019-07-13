@@ -41,6 +41,7 @@ Coming Soon
 
 - [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
 - [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
+- [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
 
 ## Follow Us
 
