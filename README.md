@@ -1,5 +1,7 @@
 # DCDW
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14b479f3-ec6a-4d0b-b94e-6fefe33785e3/deploy-status)](https://app.netlify.com/sites/dcdesignweek/deploys)
+
 ## Welcome
 
 This repository is the home of the DC Design Week website.
