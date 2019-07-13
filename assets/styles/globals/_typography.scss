@@ -13,8 +13,8 @@ a {
 
 a:focus,
 button:focus {
-  outline: solid 2px $dcdw-primary;
-  outline-offset: 0;
+	outline: solid 2px $dcdw-primary;
+	outline-offset: 0;
 }
 
 h1,
@@ -24,11 +24,27 @@ h4,
 h5,
 h6 {
 	font-family: $monospace;
-  font-weight: 700;
-  margin: 0;
+	font-weight: 700;
+	margin: 0;
 }
 
 /* vertically aligns feather icons */
 .feather {
-  vertical-align: middle;
+	vertical-align: middle;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
 }

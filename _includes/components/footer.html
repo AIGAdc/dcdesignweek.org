@@ -1,6 +1,6 @@
-<footer class="site-footer">
-	<section>
-		<div>
+<footer class="site-footer bg-dcdw-primary">
+	<section class="site-footer__volunteer">
+		<div class="container">
 			<h2>
 				Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC
 			</h2>
@@ -10,8 +10,8 @@
 			</p>
 		</div>
 	</section>
-	<section>
-		<div>
+	<section class="site-footer__mailchimp">
+		<div class="container">
 			<h2>
 				Stay up to date of progress through email updates or by following us on social media!
 			</h2>
@@ -20,13 +20,13 @@
 			{% include 3rd-party/mailchimp/scripts.html %}
 		</div>
 	</section>
-	<section>
-		<div>
+	<section class="site-footer__social flex text-center padding-all-16">
+		<div class="flex-item">
 			<a href="mailto:{{ site.email }}" target="_top">
 				{{ site.email }}
 			</a>
 		</div>
-		<div>
+		<div class="flex-item">
 			<ul>
 				{% for link in site.data.navigation.social-nav %}
 				<li>
@@ -35,7 +35,7 @@
 				{% endfor %}
 			</ul>
 		</div>
-		<div>
+		<div class="flex-item">
 			<a href="https://dc.aiga.org/about-us/mission/" target="_blank">
 				{{ site.copyright }}
 			</a>

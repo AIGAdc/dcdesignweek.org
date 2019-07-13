@@ -15,16 +15,20 @@
 @import "components/cards";
 @import "components/diamond-images";
 @import "components/header";
+@import "components/footer";
 
 @import "pages/about";
 @import "pages/pop-up-shop";
 @import "pages/sponsors";
 
+@import "utilities/general";
 @import "utilities/borders";
+@import "utilities/flex";
 @import "utilities/colors";
 @import "utilities/flourishes";
 @import "utilities/lists";
 @import "utilities/shadows";
+@import "utilities/spacing";
 
 @import "3rd-party/lazysizes";
 @import "3rd-party/mailchimp";
