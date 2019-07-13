@@ -4,56 +4,17 @@
 
 <title>{{ page.title }} - {{site.title}}</title>
 
-{% if page.seo.description %}
-<meta name="description" content="{{ page.seo.description | strip_html }}" />
-{% else %}
-<meta name="description" content="{{ site.description | strip_html }}" />
-{% endif %}
-<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
-{% if page.seo.description %}
-<meta property="og:description" content="{{ page.seo.description | strip_html }}" />
-{% else %}
-<meta property="og:description" content="{{ site.description | strip_html }}" />
-{% endif %}
-<link rel="canonical" href="{{site.url}}{{page.url}}" />
-<meta property="og:url" content="{{site.url}}{{page.url}}" />
-<meta property="og:site_name" content="{{site.title}}" />
-{% if page.seo.og-image %}
-<meta property="og:image" content="{{ site.url }}{{ page.seo.og-image }}" />
-{% else %}
-<meta property="og:image" content="{{ site.url }}{{ site.og-image }}" />
-{% endif %}
-<meta property="og:type" content="article" />
-<meta name=“twitter:card” content=“summary_large_image” />
-<meta name=“twitter:site” content=“@dcdesignweek” />
-<meta name=“twitter:creator” content=“dcdesignweek” />
-<meta name=“twitter:title” content="{{ site.title }} | {{ page.title }}" />
-{% if page.seo.description %}
-<meta name=“twitter:description” content="{{ page.seo.description | strip_html }}" />
-{% else %}
-<meta name=“twitter:description” content="{{ site.description | strip_html }}" />
-{% endif %}
-{% if page.seo.og-image %}
-<meta name=“twitter:image” content="{{ site.url }}{{ page.seo.og-image }}" />
-{% else %}
-<meta name=“twitter:image” content="{{ site.url }}{{ site.og-image }}" />
-{% endif %}
-<meta property="article:published_time" content="{{ page.date }}" />
+{% seo %}
+
 <script type="application/ld+json"></script>
 
 <!-- styles -->
 <link href="/assets/styles/app.css" media="all" rel="stylesheet" type="text/css" />
-{% if page.layout == "map" %}
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-{% endif %}
 
 <!-- scripts -->
+<script src="https://kit.fontawesome.com/2b8780d76f.js"></script>
 <script type="text/javascript" src="/assets/js/offside.min.js"></script>
 <script type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
-{% if page.layout == "map" %}
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-{% endif %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 {% if site.google-analytics %}
 {{site.google-analytics}}

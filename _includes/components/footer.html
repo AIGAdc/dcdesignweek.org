@@ -1,0 +1,44 @@
+<footer class="site-footer">
+	<section>
+		<div>
+			<h2>
+				Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC
+			</h2>
+			<p>
+				Built by 100% volunteer power, we're constantly working to make this site better for you. If you see
+				something, say something.<i class="fab fa-github-alt"></i>
+			</p>
+		</div>
+	</section>
+	<section>
+		<div>
+			<h2>
+				Stay up to date of progress through email updates or by following us on social media!
+			</h2>
+
+			{% include 3rd-party/mailchimp/form.html %}
+			{% include 3rd-party/mailchimp/scripts.html %}
+		</div>
+	</section>
+	<section>
+		<div>
+			<a href="mailto:{{ site.email }}" target="_top">
+				{{ site.email }}
+			</a>
+		</div>
+		<div>
+			<ul>
+				{% for link in site.data.navigation.social-nav %}
+				<li>
+					<a href="{{ link.url }}">{{ link.icon }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div>
+			<a href="https://dc.aiga.org/about-us/mission/" target="_blank">
+				{{ site.copyright }}
+			</a>
+		</div>
+	</section>
+</footer>
