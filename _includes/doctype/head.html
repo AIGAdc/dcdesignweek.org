@@ -42,11 +42,7 @@
 <script type="application/ld+json"></script>
 
 <!-- styles -->
-{% if site.css_inline == true %}
-{% include doctype/site-styles.html %}
-{% else %}
-<link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
-{% endif %}
+<link href="/assets/styles/app.css" media="all" rel="stylesheet" type="text/css" />
 {% if page.layout == "map" %}
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
 {% endif %}

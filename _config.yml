@@ -78,7 +78,7 @@ exclude:
 plugins:
 - jekyll-seo-tag
 sass:
-  sass_dir: _sass
+  sass_dir: /assets/styles/
   style: compressed
 encoding: utf-8
 lang: en-US

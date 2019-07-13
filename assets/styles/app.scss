@@ -1,14 +1,12 @@
 ---
-title: 'false'
-styles: true
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
-/* tachyons */
-@import "tachyons/tachyons-4.9.0";
+@import "tachyons/4.9.0";
 
 @import "globals/variables";
 @import "globals/reset";
-@import "globals/colors";
 @import "globals/typography";
 @import "globals/wysiwyg";
 
@@ -18,11 +16,12 @@ styles: true
 @import "components/diamond-images";
 @import "components/header";
 
+@import "pages/about";
 @import "pages/pop-up-shop";
 @import "pages/sponsors";
-@import "pages/about";
 
 @import "utilities/borders";
+@import "utilities/colors";
 @import "utilities/flourishes";
 @import "utilities/lists";
 @import "utilities/shadows";

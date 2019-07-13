@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700|Work+Sans:400,700');
 
+$sans: 'Work Sans', sans-serif;
+$monospace: 'Roboto Mono', monospace;
+
 /* Generic Colors */
 $white: #ffffff;
 $black: #000000;
@@ -17,9 +20,8 @@ $loblolly: #B5B6BA;
 $mint: #E1FDF8;
 $cloud: #202653;
 
+/* 2019 Brand */
+
 /* Primary Brand Variables */
 $dcdw-primary: $monte-carlo;
 $dcdw-secondary: $flamingo;
-
-$sans: 'Work Sans', sans-serif;
-$monospace: 'Roboto Mono', monospace;
