@@ -3,10 +3,9 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "tachyons/4.9.0";
+@import "tachyons/4.10.0";
 
 @import "globals/variables";
-@import "globals/reset";
 @import "globals/typography";
 @import "globals/wysiwyg";
 
@@ -23,12 +22,10 @@
 
 @import "utilities/general";
 @import "utilities/borders";
-@import "utilities/flex";
 @import "utilities/colors";
 @import "utilities/flourishes";
 @import "utilities/lists";
 @import "utilities/shadows";
-@import "utilities/spacing";
 
 @import "3rd-party/lazysizes";
 @import "3rd-party/mailchimp";

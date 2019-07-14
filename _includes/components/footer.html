@@ -20,13 +20,13 @@
 			{% include 3rd-party/mailchimp/scripts.html %}
 		</div>
 	</section>
-	<section class="site-footer__social flex text-center padding-all-16">
-		<div class="flex-item">
+	<section class="site-footer__social">
+		<div class="">
 			<a href="mailto:{{ site.email }}" target="_top">
 				{{ site.email }}
 			</a>
 		</div>
-		<div class="flex-item">
+		<div class="">
 			<ul>
 				{% for link in site.data.navigation.social-nav %}
 				<li>
@@ -35,7 +35,7 @@
 				{% endfor %}
 			</ul>
 		</div>
-		<div class="flex-item">
+		<div class="">
 			<a href="https://dc.aiga.org/about-us/mission/" target="_blank">
 				{{ site.copyright }}
 			</a>
