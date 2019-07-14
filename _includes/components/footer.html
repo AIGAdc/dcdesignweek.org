@@ -1,42 +1,42 @@
 <footer class="site-footer bg-dcdw-primary">
-	<section class="site-footer__volunteer">
-		<div class="container">
-			<h2>
+	<section class="site-footer__volunteer bg-mint ph3 pv4">
+		<div class="mw7 center">
+			<h2 class="f4 f3-l black lh-title">
 				Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC
 			</h2>
-			<p>
+			<p class="f5 f4-l lh-copy">
 				Built by 100% volunteer power, we're constantly working to make this site better for you. If you see
-				something, say something.<i class="fab fa-github-alt"></i>
+				something, say something.
 			</p>
+			<a href="https://github.com/AIGAdc/DCDW" target="_blank" class="black dim"><i class="fab fa-github-alt f1 f-headline-l"></i></a>
 		</div>
 	</section>
-	<section class="site-footer__mailchimp">
-		<div class="container">
-			<h2>
+	<section class="site-footer__mailchimp ph3 pv4 pv5-l">
+		<div class="mw7 center">
+			<h2 class="f4 f3-l white lh-title mb4">
 				Stay up to date of progress through email updates or by following us on social media!
 			</h2>
-
 			{% include 3rd-party/mailchimp/form.html %}
 			{% include 3rd-party/mailchimp/scripts.html %}
 		</div>
 	</section>
-	<section class="site-footer__social">
-		<div class="">
-			<a href="mailto:{{ site.email }}" target="_top">
+	<section class="site-footer__social ph3 pv4">
+		<div>
+			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l fw9 dim">
 				{{ site.email }}
 			</a>
 		</div>
-		<div class="">
-			<ul>
+		<div>
+			<ul class="ma0 pa0">
 				{% for link in site.data.navigation.social-nav %}
-				<li>
-					<a href="{{ link.url }}">{{ link.icon }}</a>
-				</li>
+					<li>
+						<a href="{{ link.url }}" class="f2 f1-l fw9 dim">{{ link.icon }}</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>
-		<div class="">
-			<a href="https://dc.aiga.org/about-us/mission/" target="_blank">
+		<div>
+			<a href="https://dc.aiga.org/about-us/mission/" target="_blank" class="f6 f5-l fw9 dim">
 				{{ site.copyright }}
 			</a>
 		</div>

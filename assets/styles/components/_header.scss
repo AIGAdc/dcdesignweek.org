@@ -1,14 +1,9 @@
 .site-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
 }
 
-.site-header__logo img {
-  max-width: 200px;
-}
-
-.menu-btn {
-  cursor: pointer;
+.site-header__menu-button {
+	cursor: pointer;
 }
