@@ -1,38 +1,34 @@
 <!-- section 2: dc is design -->
 <section class="dc-is-design pv5 mb5 mb6-l bg-mint cf relative">
-  <div class="mw8 center pa3">
-    <h1>{{ page.dc-design-header }}</h1>
-    <hr>
-    <div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-      <div class="w-100 w-50-l">
-        {{ page.dc-design-paragraph-1 | markdownify }}
-      </div>
-      <div class="w-100 w-50-l">
-        {% comment %}
-        {% include components/animated-face-1.html %}
-        {% include components/scripts.html %}
-        {% endcomment %}
-        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-1 }}" src="{{ page.dc-design-image-1 }}"
-          alt="{{ page.dc-design-image-1-alt }}">
-      </div>
-    </div>
-    <div class="flex flex-row-l flex-wrap items-center mb3 mb0-l">
-      <div class="w-100 w-50-l">
-        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-2 }}" src="{{ page.dc-design-image-2 }}"
-          alt="{{ page.dc-design-image-2-alt }}">
-      </div>
-      <div class="w-100 w-50-l">
-        {{ page.dc-design-paragraph-2 | markdownify }}
-      </div>
-    </div>
-    <div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-      <div class="w-100 w-50-l">
-        {{ page.dc-design-paragraph-3 | markdownify }}
-      </div>
-      <div class="w-100 w-50-l">
-        <img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-3 }}" src="{{ page.dc-design-image-3 }}"
-          alt="{{ page.dc-design-image-3-alt }}">
-      </div>
-    </div>
-  </div>
+	<div class="mw8 center pa3">
+		<h2 class="f4 f3-l black lh-title mb4">{{ page.dc-design-header }}</h2>
+		<hr>
+		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
+			<div class="w-100 w-50-l">
+				{{ page.dc-design-paragraph-1 | markdownify }}
+			</div>
+			<div class="w-100 w-50-l">
+				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-1 }}"
+					src="{{ page.dc-design-image-1 }}" alt="{{ page.dc-design-image-1-alt }}">
+			</div>
+		</div>
+		<div class="flex flex-row-l flex-wrap items-center mb3 mb0-l">
+			<div class="w-100 w-50-l">
+				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-2 }}"
+					src="{{ page.dc-design-image-2 }}" alt="{{ page.dc-design-image-2-alt }}">
+			</div>
+			<div class="w-100 w-50-l">
+				{{ page.dc-design-paragraph-2 | markdownify }}
+			</div>
+		</div>
+		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
+			<div class="w-100 w-50-l">
+				{{ page.dc-design-paragraph-3 | markdownify }}
+			</div>
+			<div class="w-100 w-50-l">
+				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-3 }}"
+					src="{{ page.dc-design-image-3 }}" alt="{{ page.dc-design-image-3-alt }}">
+			</div>
+		</div>
+	</div>
 </section>
