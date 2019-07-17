@@ -3,7 +3,7 @@ title: Home
 permalink: "/"
 description:
 image: "/uploads/2018-OG-featuredimage.jpg"
-layout: default
+layout: home
 
 hero-bg:
 hero-logo: "/uploads/dcdw-lockup-hero.svg"
@@ -43,8 +43,3 @@ home-partners-text:
 home-sponsors-url-text: Learn More
 home-sponsors-url: "/sponsors/"
 ---
-
-{% include partials/home/section-1.html %}
-{% include partials/home/section-2.html %}
-{% include partials/home/featured/events.html %}
-{% include partials/home/featured/sponsors.html %}
