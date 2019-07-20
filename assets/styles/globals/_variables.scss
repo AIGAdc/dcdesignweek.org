@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700|Work+Sans:400,700');
 
-$sans: 'Work Sans', sans-serif;
-$monospace: 'Roboto Mono', monospace;
+$sans: 'Work Sans',
+sans-serif;
+$monospace: 'Roboto Mono',
+monospace;
+$cursive: 'House Slant',
+cursive;
 
 /* Generic Colors */
 $white: #ffffff;
@@ -21,14 +25,17 @@ $mint: #E1FDF8;
 $cloud: #202653;
 
 /* 2019 Brand */
-$venice-blue: #0B5394;
+$mauve: #c396ff;
+$crusta: #fd813f;
+$hot-pink: #ff76b8;
+$lightning-yellow: #ffbd12;
+$aquamarine: #70fdbf;
 
 /* Primary Brand Variables */
 $dcdw-primary: $monte-carlo;
 $dcdw-secondary: $flamingo;
 
 /* Spacing */
-
 $spacing-0: 0;
 $spacing-4: 4px;
 $spacing-8: 8px;
