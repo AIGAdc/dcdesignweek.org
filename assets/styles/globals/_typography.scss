@@ -1,20 +1,13 @@
 body {
 	color: $black;
 	font-family: $sans;
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 300;
 }
 
 a {
-	color: $dcdw-primary;
 	font-weight: 700;
 	text-decoration: none;
-}
-
-a:focus,
-button:focus {
-	outline: solid 2px $dcdw-primary;
-	outline-offset: 0;
 }
 
 h1,
@@ -23,7 +16,10 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $monospace;
-	font-weight: 700;
+	font-family: $script;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 400;
 	margin: 0;
+	text-rendering: optimizeLegibility;
 }

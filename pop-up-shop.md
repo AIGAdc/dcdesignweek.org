@@ -22,6 +22,7 @@ you-are-voting-body: Yup.
 you-are-voting-button-url: https://dc.aiga.org
 you-are-voting-button: This Button is a Lie
 layout: pop-up-shop
+published: false
 ---
 
 # Pop Up Shop

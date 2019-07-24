@@ -1,4 +1,3 @@
-// generic colors
 .white {
 	color: $white;
 }
@@ -11,7 +10,46 @@
 	color: $charcoal;
 }
 
-// generic background colors
+.mauve {
+	color: $mauve;
+}
+
+.mauve-light {
+	color: $mauve-light;
+}
+
+.crusta {
+	color: $crusta;
+}
+
+.crusta-light {
+	color: $crusta-light;
+}
+
+.hot-pink {
+	color: $hot-pink;
+}
+
+.hot-pink-light {
+	color: $hot-pink-light;
+}
+
+.lightning-yellow {
+	color: $lightning-yellow;
+}
+
+.lightning-yellow-light {
+	color: $lightning-yellow-light;
+}
+
+.aquamarine {
+	color: $aquamarine;
+}
+
+.aquamarine-light {
+	color: $aquamarine-light;
+}
+
 .bg-white {
 	background-color: $white;
 }
@@ -24,84 +62,42 @@
 	background-color: $charcoal;
 }
 
-// brand colors
-.dcdw-primary {
-	color: $dcdw-primary;
+.bg-mauve {
+	background-color: $mauve;
 }
 
-.dcdw-secondary {
-	color: $dcdw-secondary;
+.bg-mauve-light {
+	background-color: $mauve-light;
 }
 
-.dcdw-buffered {
-	color: $dcdw-buffered;
+.bg-crusta {
+	background-color: $crusta;
 }
 
-.monte-carlo {
-	color: $monte-carlo;
+.bg-crusta-light {
+	background-color: $crusta-light;
 }
 
-.rose-bud {
-	color: $rose-bud;
+.bg-hot-pink {
+	background-color: $hot-pink;
 }
 
-.mindaro {
-	color: $mindaro;
+.bg-hot-pink-light {
+	background-color: $hot-pink-light;
 }
 
-.flamingo {
-	color: $flamingo;
+.bg-lightning-yellow {
+	background-color: $lightning-yellow;
 }
 
-.loblolly {
-	color: $loblolly;
+.bg-lightning-yellow-light {
+	background-color: $lightning-yellow-light;
 }
 
-.mint {
-	color: $mint;
+.bg-aquamarine {
+	background-color: $aquamarine;
 }
 
-.cloud {
-	color: $cloud;
-}
-
-// background brand colors
-.bg-dcdw-primary {
-	background-color: $dcdw-primary;
-}
-
-.bg-dcdw-secondary {
-	background-color: $dcdw-secondary;
-}
-
-.bg-dcdw-buffered {
-	background-color: $dcdw-buffered;
-}
-
-.bg-monte-carlo {
-	background-color: $monte-carlo;
-}
-
-.bg-rose-bud {
-	background-color: $rose-bud;
-}
-
-.bg-mindaro {
-	background-color: $mindaro;
-}
-
-.bg-flamingo {
-	background-color: $flamingo;
-}
-
-.bg-loblolly {
-	background-color: $loblolly;
-}
-
-.bg-mint {
-	background-color: $mint;
-}
-
-.bg-cloud {
-	background-color: $cloud;
+.bg-aquamarine-light {
+	background-color: $aquamarine-light;
 }

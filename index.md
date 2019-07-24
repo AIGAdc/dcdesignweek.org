@@ -1,45 +1,63 @@
 ---
+# Save the Date 2019
+
+# Settings
 title: Home
 permalink: "/"
 description:
 image: "/uploads/2018-OG-featuredimage.jpg"
-layout: home
+layout: save-the-date
 
-hero-bg:
-hero-logo: "/uploads/dcdw-lockup-hero.svg"
-hero-logo-alt: DC Design Week Hero Logo, Time & Date
-hero-closing-subheader: Tell us about your experience so we can keep improving.
-hero-closing-text: Send Feedback
-hero-closing-url: https://goo.gl/forms/WZO7PamPyTLI9JOH3
+# Section 1
+section-1-background-image: /assets/media/sample-header.png
+section-1-background-color: white
+section-1-logo-alt: DC Design Week Hero Logo, Time & Date
+section-1-header: '#DCDESIGNWEEK is Coming September 20-27'
+section-1-subheader: Mark your calendar and sign up to be the first to know about speaker announcements and ticket sales
+section-1-button-left: Get Updates
+section-1-button-left-url: #
+section-1-button-left-type: solid
+section-1-button-left-color: mauve
+section-1-button-right: Become a sponsor
+section-1-button-right-url: #
+section-1-button-right-type: border
+section-1-button-right-color: mauve
 
-dc-design-header: Design is For All
-dc-design-paragraph-1:
-    Design is for thinkers and doers, listeners and seers, go-getters and problem-solvers. It’s for
-    walkers, bikers,drivers, and Metro riders. It’s for writers and readers, game players and web creators, food lovers and
-    museum-goers. It’s for makers and appreciators, and it’s always up for debaters.
-dc-design-image-1: "/uploads/dcdw-faces-group-01b.gif"
-dc-design-image-1-alt: Group 1 of portrait illustrations showcasing the diversity of the DC Design Community
-dc-design-paragraph-2: 'Design: it’s a people thing. And in the DMV, we’re home to some of the smartest, coolest,
-realest, and greatest people around—not to mention one of the most exciting and innovative design cultures in the world.'
-dc-design-image-2: "/uploads/dcdw-faces-group-02.gif"
-dc-design-image-2-alt: Group 2 of portrait illustrations showcasing the diversity of the DC Design Community
-dc-design-paragraph-3: 'That’s why, once again, we’re making a week of it all. And in 2018, we have more to celebrate
-than ever before—more partners, more experts, more formats, more venues, more incredible work. It’s DC Design Week: by our city’s humans, for people like you.'
-dc-design-image-3: "/uploads/dcdw-faces-group-03.gif"
-dc-design-image-3-alt: Group 3 of portrait illustrations showcasing the diversity of the DC Design Community
+# Section 2
+section-2-background-color: lightning-yellow-light
+section-2-header: A Look Back on DCDW2018
+section-2-divider-color: lightning-yellow
+section-2-body:
+    Design is a people thing. That's why last year, DC Design Week explored the theme Design is for All, which took a closer look at how design shapes our community --along with the people who get to do the shaping. 
 
-home-events-header: Featured Events
-home-events-text:
-home-events-button-text: Full Schedule
-home-events-url: "/events/"
 
-home-partners-header: Partners & Sponsors
-home-partners-text:
-    DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert
-    with a consortium of local associations, meetup groups and small businesses. We rely on the generosity and goodness of
-    others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support
-    and commitment to the DC design community. We couldn't do it without you!
+    The result? 37 events including animation workshops, a creativity-boosting guided meditation, letterpress printing, screenprinting, a run around the murals, a talk about designing for voice UI, and so, so, so much more. Thank you to everyon who came out and represented this wonderful creative community of ours.
+section-2-button: Follow us on Instagram
+section-2-button-url: #
+section-2-button-type: border
+section-2-button-color: lightning-yellow
 
-home-sponsors-url-text: Learn More
-home-sponsors-url: "/sponsors/"
+# Section 3
+section-3-background-color: white
+section-3-header: 2018 Partner & Sponsors
+section-3-divider-color: lightning-yellow
+section-3-body:
+    DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
+
+
+    We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
+
+    
+    We couldn't do it without you!
+section-3-button: Become a sponsor
+section-3-button-url: #
+section-3-button-type: border
+section-3-button-color: lightning-yellow
+
+# Section 3
+section-4-background-color: white
+section-4-header: Chapter Sponsors
+section-4-divider-color: lightning-yellow
+section-4-body:
+    'Sustaining Partners support AIGA DC for a full year, enabling the chapter to stay true to its mission: to advance design as a professional craft, strategic tool and vital cultural force. As a chapter sponsor, these companies contribute to the design profession and the greater good.'
 ---

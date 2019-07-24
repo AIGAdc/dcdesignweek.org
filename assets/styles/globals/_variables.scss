@@ -1,19 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700|Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
+@font-face {
+	font-family: "House Slant";
+	src: url('/assets/styles/fonts/HouseSlant.eot');
+	src: url("/assets/styles/fonts/HouseSlant.eot?#iefix") format("embedded-opentype"),
+		url("/assets/styles/fonts/HouseSlant.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+}
 
 $sans: 'Work Sans',
 sans-serif;
-$monospace: 'Roboto Mono',
-monospace;
-$cursive: 'House Slant',
-cursive;
+$script: "House Slant",
+script;
 
 /* Generic Colors */
 $white: #ffffff;
 $black: #000000;
 $charcoal: #5a5a5a;
-
-/* Off-Season Brand */
-$dcdw-buffered: #D7D7D7;
 
 /* 2018 Brand */
 $monte-carlo: #297B76;
@@ -30,10 +35,11 @@ $crusta: #fd813f;
 $hot-pink: #ff76b8;
 $lightning-yellow: #ffbd12;
 $aquamarine: #70fdbf;
-
-/* Primary Brand Variables */
-$dcdw-primary: $monte-carlo;
-$dcdw-secondary: $flamingo;
+$mauve-light: rgba($mauve, 0.15);
+$crusta-light: rgba($crusta, 0.15);
+$hot-pink-light: rgba($hot-pink, 0.15);
+$lightning-yellow-light: rgba($lightning-yellow, 0.15);
+$aquamarine-light: rgba($aquamarine, 0.15);
 
 /* Spacing */
 $spacing-0: 0;

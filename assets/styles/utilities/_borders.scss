@@ -1,19 +1,26 @@
+hr,
 .border {
-  border: solid 4px transparent;
+	border: solid 2px transparent;
+	margin: 0.5rem 0 2rem 0;
+	max-width: 80px;
 
-  &--cloud {
-    border-color: $cloud;
-  }
+	&--mauve {
+		border-color: $mauve;
+	}
 
-  &--rose-bud {
-    border-color: $rose-bud;
-  }
-}
+	&--crusta {
+		border-color: $crusta;
+	}
 
-.border-dashed {
-  border: dashed 4px transparent;
+	&--hot-pink {
+		border-color: $hot-pink;
+	}
 
-  &--cloud {
-    border-color: $cloud;
-  }
+	&--lightning-yellow {
+		border-color: $lightning-yellow;
+	}
+
+	&--aquamarine {
+		border-color: $aquamarine;
+	}
 }

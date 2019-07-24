@@ -11,7 +11,6 @@
 	background: none;
 	border: none;
 	cursor: pointer;
-	font-family: $monospace;
 	padding: 16px;
 	transition: background 150ms;
 }
@@ -28,7 +27,7 @@ span.control-text-1 {
 
 .mixitup-control-active {
 	background: $mint;
-	color: $dcdw-primary;
+
 }
 
 /* Target Elements

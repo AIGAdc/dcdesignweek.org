@@ -24,12 +24,12 @@ landing-page-nav:
 
 # social media
 social-nav:
-  - title: "Facebook"
-    url: https://www.facebook.com/dcdesignweek/
-    icon: <i class="fab fa-facebook-square"></i>
-  - title: "Instagram"
-    url: https://www.instagram.com/dcdesignweek/
-    icon: <i class="fab fa-instagram"></i>
   - title: "Twitter"
     url: https://twitter.com/dcdesignweek
     icon: <i class="fab fa-twitter-square"></i>
+  - title: "Instagram"
+    url: https://www.instagram.com/dcdesignweek/
+    icon: <i class="fab fa-instagram"></i>
+  - title: "Facebook"
+    url: https://www.facebook.com/dcdesignweek/
+    icon: <i class="fab fa-facebook-square"></i>

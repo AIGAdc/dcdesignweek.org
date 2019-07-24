@@ -1,0 +1,17 @@
+subscribers:
+  body: 
+    Our team of organizers are already booking events and planning the best DC Design Week you've ever seen. 
+    
+    
+    Stay up to date of progress through email fna follow us on social media! 
+volunteers:
+  header: 'Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC'
+  body: 
+    Built by 100% volunteer power, we're constantly working to make this site better for you. 
+    
+    
+    If you see something, say something.
+  github: https://github.com/AIGAdc/DCDW
+social:
+  copyright: '&copy; AIGA DC | 2019 All Rights Reserved.'
+  contact: designweek@dc.aiga.org

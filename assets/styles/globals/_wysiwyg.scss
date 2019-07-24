@@ -1,3 +1,4 @@
+/*
 .wysiwyg ul {
 	list-style-type: circle;
 	padding-bottom: 24px;
@@ -12,46 +13,45 @@
 	max-width: 64px;
 }
 
-.wysiwyg hr {
-	border: solid 4px $dcdw-primary;
-}
+.wysiwyg hr {}
 
 .wysiwyg h1 {
-	font-size: 1.5rem; /* 24px */
+	font-size: 1.5rem;
 	line-height: 1.6;
 }
 
 .wysiwyg h2 {
-	font-size: 1.25rem; /* 20px */
+	font-size: 1.25rem;
 	line-height: 1.6;
 }
 
 .wysiwyg h3 {
-	font-size: 1rem; /* 16px */
+	font-size: 1rem;
 	line-height: 1.6;
 }
 
 .wysiwyg p,
 .wysiwyg li {
-	font-size: 1rem;/* 16px */
+	font-size: 1rem;
 	line-height: 1.6;
 }
 
 @media screen and (min-width: 30em) {
 	.wysiwyg h1 {
-		font-size: 2.25rem; /* 36px */
+		font-size: 2.25rem;
 	}
 
 	.wysiwyg h2 {
-		font-size: 1.5rem; /* 24px */
+		font-size: 1.5rem;
 	}
 
 	.wysiwyg h3 {
-		font-size: 1.25rem; /* 20px */
+		font-size: 1.25rem;
 	}
 
 	.wysiwyg p,
 	.wysiwyg li {
-		font-size: 1.25rem; /* 20px */
+		font-size: 1.25rem;
 	}
 }
+*/
