@@ -5,9 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"netlify:dev": "netlify dev --live",
-		"jekyll:serve": "bundle exec jekyll serve --livereload",
-		"jekyll:build": "bundle exec jekyll build"
+		"serve": "bundle exec jekyll serve --livereload",
+		"build": "bundle exec jekyll build"
 	},
 	"repository": {
 		"type": "git",

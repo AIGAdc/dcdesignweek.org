@@ -33,7 +33,6 @@ layout: default
 		<h2 class="f3 f2-l lh-title">{{ page.section-3-header }}</h2>
 		<hr class="border border--{{ page.section-3-divider-color }}">
 		<p class="lh-copy">{{ page.section-3-body | markdownify }}</p>
-		MR: Add 2018 Sponsors Here
 		<div class="tc">
 			<a href="{{ page.section-3-button-url }}"
 				class="button button__{{ page.section-3-button-type }} button__{{ page.section-3-button-type }}--{{ page.section-3-button-color }}">
@@ -48,6 +47,13 @@ layout: default
 		<h2 class="f3 f2-l lh-title">{{ page.section-4-header }}</h2>
 		<hr class="border border--{{ page.section-4-divider-color }}">
 		<p class="lh-copy">{{ page.section-4-body | markdownify }}</p>
-		MR: Add 2018 Chapter Sponsors Here
+		<ul class="ma0 pa0 flex flex-column flex-row-ns flex-wrap">
+			{% assign sorted_sponsors = site.sponsors %}
+			{% for posts in sorted_sponsors %}
+			{% if posts.is-featured-on-home-page == true %}
+			{% include partials/sponsors/tiers/content.html %}
+			{% endif %}
+			{% endfor %}
+		</ul>
 	</div>
 </section>
