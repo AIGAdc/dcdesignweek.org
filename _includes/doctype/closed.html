@@ -16,7 +16,7 @@
 		</div>
 	</section>
 	<section class="site-footer__social ph3 pv1 bg-crusta">
-		<div class="tl">
+		<div class="tc tl-l">
 			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l fw4 white dim">
 				{{ site.data.footer.social.contact }}
 			</a>
@@ -25,12 +25,12 @@
 			<ul class="ma0 pa0 pb0">
 				{% for link in site.data.footer.social.links %}
 				<li class="dib">
-					<a href="{{ link.url }}" target="_blank" rel="noopener" class="f3 fw4 white dim">{{ link.icon }}</a>
+					<a href="{{ link.url }}" target="_blank" rel="noopener" class="f3 white dim">{{ link.icon }}</a>
 				</li>
 				{% endfor %}
 			</ul>
 		</div>
-		<div class="tr">
+		<div class="tc tr-l">
 			<a href="https://dc.aiga.org/about-us/mission/" target="_blank" rel="noopener"
 				class="f6 f5-l fw4 white dim">
 				{{ site.data.footer.social.copyright }}

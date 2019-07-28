@@ -1,12 +1,21 @@
 <meta charset="utf-8" />
-<meta content="width=device-width, initial-scale=1" name="viewport">
-<link rel='shortcut icon' type='image/x-icon' href='/uploads/favicon.ico' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Theme Color for Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#c396ff">
 
 <title>{{ page.title }} - {{site.title}}</title>
 
-{% seo %}
+<link rel='shortcut icon' type='image/x-icon' href='/uploads/favicon.ico' />
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<!-- Icon in the highest resolution we need it for -->
+<link rel="icon" sizes="192x192" href="/path/to/icon.png">
+<!-- Apple Touch Icon (reuse 192px icon.png) -->
+<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+<!-- Safari Pinned Tab Icon -->
+<link rel="mask-icon" href="/path/to/icon.svg" color="#c396ff">
 
-<script type="application/ld+json"></script>
+{% seo %}
 
 <!-- styles -->
 <link href="/assets/styles/app.css" media="all" rel="stylesheet" type="text/css" />
@@ -15,7 +24,6 @@
 <script src="https://kit.fontawesome.com/2b8780d76f.js"></script>
 <script type="text/javascript" src="/assets/js/offside.min.js"></script>
 <script type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
-
 {% if site.google-analytics %}
 {{site.google-analytics}}
 {% endif %}
