@@ -22,14 +22,3 @@ landing-page-nav:
   - title: "2017"
     url: https://github.com/AIGAdc/2017.dcdesignweek.org
 
-# social media
-social-nav:
-  - title: "Twitter"
-    url: https://twitter.com/dcdesignweek
-    icon: <i class="fab fa-twitter-square"></i>
-  - title: "Instagram"
-    url: https://www.instagram.com/dcdesignweek/
-    icon: <i class="fab fa-instagram"></i>
-  - title: "Facebook"
-    url: https://www.facebook.com/dcdesignweek/
-    icon: <i class="fab fa-facebook-square"></i>

@@ -1,29 +1,29 @@
 <footer class="site-footer">
 	<section class="site-footer__mailchimp ph3 pv4 pv5-l bg-mauve-light">
 		<div class="mw7 center">
-			<p class="f5 f4-l fw3 lh-copy mb4">{{ site.data.footer.subscribers.body | markdownify }}</p>
+			<p class="f5 f4-l fw3 lh-copy mb4">{{ site.data.footer.subscribe.body | markdownify }}</p>
 			{% include 3rd-party/mailchimp/form-new.html %}
 			{% include 3rd-party/mailchimp/scripts-new.html %}
 		</div>
 	</section>
-	<section class="site-footer__volunteer bg-mint ph3 pv5">
+	<section class="site-footer__volunteer ph3 pv5">
 		<div class="mw6 center tc">
-			<h2 class="f4 f3-l black lh-title">{{ site.data.footer.volunteers.header }}</h2>
-			<p class="f5 f4-l lh-copy">{{ site.data.footer.volunteers.body }}</p>
-			<a href="{{ site.data.footer.volunteers.github }}" target="_blank" class="black dim">
+			<h2 class="f4 f3-l black lh-title">{{ site.data.footer.volunteer.header }}</h2>
+			<p class="f5 f4-l lh-copy">{{ site.data.footer.volunteer.body }}</p>
+			<a href="{{ site.data.footer.volunteer.github }}" target="_blank" class="black dim">
 				<i class="fab fa-github f1"></i>
 			</a>
 		</div>
 	</section>
-	<section class="site-footer__social pa3 bg-crusta">
+	<section class="site-footer__social ph3 pv1 bg-crusta">
 		<div class="tl">
 			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l fw4 white dim">
-				{{ site.email }}
+				{{ site.data.footer.social.contact }}
 			</a>
 		</div>
 		<div class="tc">
 			<ul class="ma0 pa0 pb0">
-				{% for link in site.data.navigation.social-nav %}
+				{% for link in site.data.footer.social.links %}
 				<li class="dib">
 					<a href="{{ link.url }}" target="_blank" rel="noopener" class="f3 fw4 white dim">{{ link.icon }}</a>
 				</li>
@@ -33,7 +33,7 @@
 		<div class="tr">
 			<a href="https://dc.aiga.org/about-us/mission/" target="_blank" rel="noopener"
 				class="f6 f5-l fw4 white dim">
-				{{ site.copyright }}
+				{{ site.data.footer.social.copyright }}
 			</a>
 		</div>
 	</section>
