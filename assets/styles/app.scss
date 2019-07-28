@@ -1,6 +1,4 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
 ---
 
 @import "tachyons/4.10.0";
@@ -27,7 +25,8 @@
 @import "utilities/shadows";
 
 @import "3rd-party/lazysizes";
-@import "3rd-party/mailchimp";
+@import "3rd-party/mailchimp-new";
+/*@import "3rd-party/mailchimp";*/
 @import "3rd-party/mapbox";
 @import "3rd-party/mixitup";
 @import "3rd-party/offside";
