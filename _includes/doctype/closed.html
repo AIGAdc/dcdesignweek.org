@@ -1,14 +1,14 @@
 <footer class="site-footer">
 	<section class="site-footer__mailchimp ph3 pv4 pv5-l bg-mauve-light">
 		<div class="mw7 center">
-			<p class="f5 f4-l fw3 lh-copy mb4">{{ site.data.footer.subscribe.body | markdownify }}</p>
+			<p class="f5 f4-l lh-copy">{{ site.data.footer.subscribe.body | markdownify }}</p>
 			{% include 3rd-party/mailchimp/form-new.html %}
 			{% include 3rd-party/mailchimp/scripts-new.html %}
 		</div>
 	</section>
 	<section class="site-footer__volunteer ph3 pv5">
 		<div class="mw6 center tc">
-			<h2 class="f4 f3-l black lh-title">{{ site.data.footer.volunteer.header }}</h2>
+			<h2 class="f3 black lh-title">{{ site.data.footer.volunteer.header }}</h2>
 			<p class="f5 f4-l lh-copy">{{ site.data.footer.volunteer.body }}</p>
 			<a href="{{ site.data.footer.volunteer.github }}" target="_blank" class="black dim">
 				<i class="fab fa-github f1"></i>
@@ -17,7 +17,7 @@
 	</section>
 	<section class="site-footer__social ph3 pv1 bg-crusta">
 		<div class="tc tl-l">
-			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l fw4 white dim">
+			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l white dim">
 				{{ site.data.footer.social.contact }}
 			</a>
 		</div>
@@ -32,7 +32,7 @@
 		</div>
 		<div class="tc tr-l">
 			<a href="https://dc.aiga.org/about-us/mission/" target="_blank" rel="noopener"
-				class="f6 f5-l fw4 white dim">
+				class="f6 f5-l white dim">
 				{{ site.data.footer.social.copyright }}
 			</a>
 		</div>

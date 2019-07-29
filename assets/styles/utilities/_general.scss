@@ -2,3 +2,12 @@
 	margin: auto;
 	max-width: 1024px;
 }
+
+/* Legacy Firefox syntax (version 61 and below) */
+::-moz-selection {
+	background-color: $aquamarine !important;
+}
+
+::selection {
+	background-color: $aquamarine !important;
+}
