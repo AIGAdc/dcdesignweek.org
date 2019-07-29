@@ -23,13 +23,13 @@ layout: default
 		<p class="copy">{{ page.section-2-body | markdownify }}</p>
 		<div class="tc">
 			<a href="{{ page.section-2-button-url }}"
-				class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4">{{ page.section-2-button }}</a>
+				class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4" target="_blank" rel="noopener">{{ page.section-2-button }}</a>
 		</div>
 	</div>
 </section>
 
 <!-- Section 3: 2018 Partner & Sponsors -->
-<section class="pt5 bg-{{ page.section-3-background-color }}">
+<section id="sponsor" class="pt5 bg-{{ page.section-3-background-color }}">
 	<div class="mw8 center pa4">
 		<h2>{{ page.section-3-header }}</h2>
 		<hr class="border border--{{ page.section-3-divider-color }}">
@@ -38,7 +38,7 @@ layout: default
 			{% assign sorted_sponsors = site.sponsors %}
 			{% for posts in sorted_sponsors %}
 			{% if posts.is-second-tier == true %}
-			<li class="list-none">
+			<li class="list-none dim">
 				<a href="{{ posts.sponsor-url }}" target="_blank" rel="noopener">
 					<img class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}"
 						src="{{ posts.sponsor-image }}" alt="{{ posts.sponsor-image-alt }}">
@@ -65,7 +65,7 @@ layout: default
 			{% assign sorted_sponsors = site.sponsors %}
 			{% for posts in sorted_sponsors %}
 			{% if posts.is-featured-on-home-page == true %}
-			<li class="list-none">
+			<li class="list-none dim">
 				<a href="{{ posts.sponsor-url }}" target="_blank" rel="noopener">
 					<img class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}"
 						src="{{ posts.sponsor-image }}" alt="{{ posts.sponsor-image-alt }}">

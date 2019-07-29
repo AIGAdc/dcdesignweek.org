@@ -15,11 +15,11 @@ section-1-logo-alt: DC Design Week Hero Logo, Time & Date
 section-1-header: '#DCDESIGNWEEK is Coming September 20-27'
 section-1-subheader: Mark your calendar and sign up to be the first to know about speaker announcements and ticket sales
 section-1-button-left: Get Updates
-section-1-button-left-url: #
+section-1-button-left-url: "#subscribe"
 section-1-button-left-type: solid
 section-1-button-left-color: mauve
 section-1-button-right: Become a sponsor
-section-1-button-right-url: #
+section-1-button-right-url: "#sponsor"
 section-1-button-right-type: border
 section-1-button-right-color: mauve
 
@@ -32,7 +32,7 @@ section-2-body: |
 
     The result? 37 events including animation workshops, a creativity-boosting guided meditation, letterpress printing, screenprinting, a run around the murals, a talk about designing for voice UI, and so, so, so much more. Thank you to everyon who came out and represented this wonderful creative community of ours.
 section-2-button: Follow us on Instagram
-section-2-button-url: #
+section-2-button-url: https://www.instagram.com/dcdesignweek/
 section-2-button-type: border
 section-2-button-color: lightning-yellow
 
@@ -47,7 +47,7 @@ section-3-body: |
 
     We couldn't do it without you!
 section-3-button: Become a sponsor
-section-3-button-url: #
+section-3-button-url: mailto:designweek@dc.aiga.org
 section-3-button-type: border
 section-3-button-color: lightning-yellow
 
