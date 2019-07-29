@@ -1,7 +1,7 @@
 .button {
 	background-color: red;
-	display: inline-block;
-	padding: 8px 40px;
+	display: block;
+	transition: opacity 150ms ease-in;
 
 	&__solid,
 	&__border {
@@ -48,5 +48,22 @@
 
 	&__border--aquamarine {
 		border: solid 4px $aquamarine;
+	}
+}
+
+a:hover,
+.button:hover {
+	opacity: 0.5;
+}
+
+a:focus,
+.button:focus {
+	outline: dotted 4px $black;
+}
+
+@media screen and (min-width: 640px) {
+	.button {
+		display: inline-block;
+		padding: 0px 48px;
 	}
 }

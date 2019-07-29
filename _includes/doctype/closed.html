@@ -1,15 +1,15 @@
 <footer class="site-footer">
-	<section class="site-footer__mailchimp ph3 pv4 pv5-l bg-mauve-light">
-		<div class="mw7 center">
-			<p class="f5 f4-l lh-copy">{{ site.data.footer.subscribe.body | markdownify }}</p>
+	<section class="site-footer__mailchimp pv5 bg-mauve-light">
+		<div class="mw7 center pa4">
+			<p>{{ site.data.footer.subscribe.body | markdownify }}</p>
 			{% include 3rd-party/mailchimp/form-new.html %}
 			{% include 3rd-party/mailchimp/scripts-new.html %}
 		</div>
 	</section>
-	<section class="site-footer__volunteer ph3 pv5">
-		<div class="mw6 center tc">
-			<h2 class="f3 black lh-title">{{ site.data.footer.volunteer.header }}</h2>
-			<p class="f5 f4-l lh-copy">{{ site.data.footer.volunteer.body }}</p>
+	<section class="site-footer__volunteer pv5">
+		<div class="mw6 center tc pa4">
+			<h2>{{ site.data.footer.volunteer.header }}</h2>
+			<p>{{ site.data.footer.volunteer.body }}</p>
 			<a href="{{ site.data.footer.volunteer.github }}" target="_blank" class="black dim">
 				<i class="fab fa-github f1"></i>
 			</a>
