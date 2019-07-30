@@ -1,12 +1,15 @@
 {
     "name": "dcdw",
-    "version": "1.0.0",
+    "version": "2019-1",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "serve": "bundle exec jekyll serve --livereload",
-        "build": "bundle exec jekyll build"
+        "serve": "bundle exec jekyll serve",
+        "serve-reload": "bundle exec jekyll serve --livereload",
+        "build": "bundle exec jekyll build",
+        "build-profile": "bundle exec jekyll build --profile",
+        "build-verbose": "bundle exec jekyll build --verbose"
     },
     "repository": {
         "type": "git",
