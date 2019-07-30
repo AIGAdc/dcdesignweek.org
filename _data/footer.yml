@@ -1,10 +1,10 @@
 # Allows for easier updating of subscription section in the footer
 subscribe:
   body: |
-    Our team of organizers are already booking events and planning the best DC Design Week you've ever seen.
+    Our team of organizers are already booking events and planning the best DC Design Week you’ve ever seen.
 
-    Stay up to date of progress through email can follow us on social media!
-
+    Stay up to date of progress through email and follow us on social media! Subscribe below for DC Design Week and AIGA DC updates.
+    
 # Allows for easier updating of volunteer section in the footer
 volunteer:
   header:
