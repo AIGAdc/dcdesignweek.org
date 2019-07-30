@@ -46,7 +46,7 @@ section-3-body: |
 
     We couldn't do it without you!
 section-3-button: Become a sponsor
-section-3-button-url: mailto:designweek@dc.aiga.org
+section-3-button-url: mailto:designweek@dc.aiga.org?subject=DCDW 2019 Sponsorship
 section-3-button-type: border
 section-3-button-color: lightning-yellow
 
