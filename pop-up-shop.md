@@ -1,8 +1,6 @@
 ---
 title: Pop Up Shop
 permalink: "/pop-up-shop/"
-description: We’re taking over the Cherry Blossom Creative storefront and filling it with items made by locals. Swing by, shop, and support our neighborhood maker and creative community.
-image: "/uploads/popUpShop-hero.jpg"
 pop-up-shop-image: "/uploads/popUpShop-hero.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image Alt
 pop-up-shop-header: Like to Party?

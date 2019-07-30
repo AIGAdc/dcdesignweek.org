@@ -5,7 +5,6 @@
 title: Home
 permalink: "/"
 description:
-image: "/uploads/2018-OG-featuredimage.jpg"
 layout: save-the-date
 
 # Section 1

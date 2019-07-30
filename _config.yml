@@ -17,11 +17,14 @@ collections:
 defaults:
 - scope:
     path: ''
+  values:
+    image: /assets/media/og-image.png
+- scope:
+    path: ''
     type: events
   values:
     seo:
       description: Provide an exceprt of what the event is about.
-      og-image: "{{ site.og-image }}"
     event:
       date: Displays the date of the event.
       venue-name: Displays the name of the venue.
@@ -85,7 +88,6 @@ lang: en-US
 description: DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!
-og-image: "/uploads/2018-OG-featuredimage.jpg"
 twitter:
   username: aigadc
 facebook:

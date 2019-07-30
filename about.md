@@ -1,8 +1,6 @@
 ---
 title: About
 permalink: "/about/"
-description: 
-image: "/uploads/2018-OG-featuredimage.jpg"
 layout: about
 published: false
 

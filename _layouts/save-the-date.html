@@ -3,8 +3,9 @@ layout: default
 ---
 
 <!-- Section 1: Hero -->
-<section class="pv5 flex vh-50 bg-{{ page.section-1-background-color }} relative" style="background-image: url('/assets/media/sample-header.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #f6f6f6;">
-	<div class="flex-auto self-center mw8 center tc pa4 relative " style="z-index: 999;">
+<section class="pv5 vh-50 bg-{{ page.section-1-background-color }}"
+	style="background-image: url('/assets/media/sample-header.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #f6f6f6;">
+	<div class="mw8 center tc pt4 ph4 pb4 relative">
 		<h1 class="mb2">{{ page.section-1-header }}</h1>
 		<p class="mw7 center mb4">{{ page.section-1-subheader }}</p>
 		<a href="{{ page.section-1-button-left-url }}"
@@ -12,7 +13,6 @@ layout: default
 		<a href="{{ page.section-1-button-right-url }}"
 			class="button button__{{ page.section-1-button-right-type }} button__{{ page.section-1-button-right-type }}--{{ page.section-1-button-right-color }}">{{ page.section-1-button-right }}</a>
 	</div>
-	<div class="hero-overlay absolute top-0 right-0 bottom-0 left-0"></div>
 </section>
 
 <!-- Section 2: A Look Back on DCDW 2018 -->
@@ -23,7 +23,8 @@ layout: default
 		<p class="copy">{{ page.section-2-body | markdownify }}</p>
 		<div class="tc">
 			<a href="{{ page.section-2-button-url }}"
-				class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4" target="_blank" rel="noopener">{{ page.section-2-button }}</a>
+				class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4"
+				target="_blank" rel="noopener">{{ page.section-2-button }}</a>
 		</div>
 	</div>
 </section>
