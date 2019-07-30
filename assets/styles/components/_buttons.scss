@@ -1,6 +1,7 @@
 .button {
     background-color: red;
     display: block;
+    padding: 0px 24px;
     transition: opacity 150ms ease-in;
     &__solid, &__border {
         background-color: transparent;

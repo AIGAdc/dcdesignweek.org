@@ -27,7 +27,7 @@ section-2-background-color: lightning-yellow-light
 section-2-header: A Look Back on DCDW2018
 section-2-divider-color: lightning-yellow
 section-2-body: |
-    Design is a people thing. That's why last year, DC Design Week explored the theme Design is for All, which took a closer look at how design shapes our community --along with the people who get to do the shaping. 
+    Design is a people thing. That's why last year, DC Design Week explored the theme Design is for All, which took a closer look at how design shapes our community —along with the people who get to do the shaping. 
 
     The result? 37 events including animation workshops, a creativity-boosting guided meditation, letterpress printing, screenprinting, a run around the murals, a talk about designing for voice UI, and so, so, so much more. Thank you to everyon who came out and represented this wonderful creative community of ours.
 section-2-button: Follow us on Instagram
@@ -50,7 +50,7 @@ section-3-button-url: mailto:designweek@dc.aiga.org?subject=DCDW 2019 Sponsorshi
 section-3-button-type: border
 section-3-button-color: lightning-yellow
 
-# Section 3
+# Section 4
 section-4-background-color: white
 section-4-header: Chapter Sponsors
 section-4-divider-color: lightning-yellow
