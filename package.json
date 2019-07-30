@@ -1,6 +1,6 @@
 {
     "name": "dcdw",
-    "version": "2019-1",
+    "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
