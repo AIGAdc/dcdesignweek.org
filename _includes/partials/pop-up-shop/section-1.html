@@ -1,14 +1,18 @@
 <!-- section 1: pop up shop -->
 <section class="pop-up-shop fl w-100 mb5 mb6-l cf relative">
-  <div class="pop-up-shop-bg" style="z-index: -10;">
-    <img class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}" alt="{{ page.pop-up-shop-image-alt }}">
-  </div>
-  <div class="pop-up-shop-content fl w-100 w-60-l pa4 mv4 mb6-l bg-white border border--cloud shadow shadow--rose-bud">
-    <h2>{{ page.pop-up-shop-header }}</h2>
-    <hr>
-    {{ page.pop-up-shop-body | markdownify }}
-    <a href="{{ page.pop-up-shop-button-url }}" target="_blank" class="btn btn--primary-border dib mt3">
-      {{ page.pop-up-shop-button }}
-    </a>
-  </div>
+    <div class="pop-up-shop-bg" style="z-index: -10;">
+        <img alt="{{ page.pop-up-shop-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}">
+        </img>
+    </div>
+    <div class="pop-up-shop-content fl w-100 w-60-l pa4 mv4 mb6-l bg-white border border--cloud shadow shadow--rose-bud">
+        <h2>
+            {{ page.pop-up-shop-header }}
+        </h2>
+        <hr>
+            {{ page.pop-up-shop-body | markdownify }}
+            <a class="btn btn--primary-border dib mt3" href="{{ page.pop-up-shop-button-url }}" target="_blank">
+                {{ page.pop-up-shop-button }}
+            </a>
+        </hr>
+    </div>
 </section>

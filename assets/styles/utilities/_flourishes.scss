@@ -1,21 +1,18 @@
 .idea-top-right {
-  top: -32px;
-  right: -32px;
+    top: -32px;
+    right: -32px;
 }
-
 .idea-bottom-left {
-  bottom: -32px;
-  left: -32px;
+    bottom: -32px;
+    left: -32px;
 }
-
 @media screen and (min-width: 30em) {
-  .idea-top-right {
-    top: -40px;
-    right: -40px;
-  }
-
-  .idea-bottom-left {
-    bottom: -40px;
-    left: -40px;
-  }
+    .idea-top-right {
+        top: -40px;
+        right: -40px;
+    }
+    .idea-bottom-left {
+        bottom: -40px;
+        left: -40px;
+    }
 }

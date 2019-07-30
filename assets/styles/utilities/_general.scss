@@ -1,13 +1,12 @@
 .container {
-	margin: auto;
-	max-width: 1024px;
+    margin: auto;
+    max-width: 1024px;
 }
-
 /* Legacy Firefox syntax (version 61 and below) */
-::-moz-selection {
-	background-color: $aquamarine !important;
-}
 
+::-moz-selection {
+    background-color: $aquamarine !important;
+}
 ::selection {
-	background-color: $aquamarine !important;
+    background-color: $aquamarine !important;
 }

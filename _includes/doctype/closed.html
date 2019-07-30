@@ -1,55 +1,56 @@
 <footer class="site-footer">
-	<section id="subscribe" class="site-footer__mailchimp pv5 bg-mauve-light">
-		<div class="mw7 center pa4">
-			<p>{{ site.data.footer.subscribe.body | markdownify }}</p>
-			{% include 3rd-party/mailchimp/form-new.html %}
+    <section class="site-footer__mailchimp pv5 bg-mauve-light" id="subscribe">
+        <div class="mw7 center pa4">
+            <p>
+                {{ site.data.footer.subscribe.body | markdownify }}
+            </p>
+            {% include 3rd-party/mailchimp/form-new.html %}
 			{% include 3rd-party/mailchimp/scripts-new.html %}
-		</div>
-	</section>
-	<section class="site-footer__volunteer pv5">
-		<div class="mw6 center tc pa4">
-			<h2>{{ site.data.footer.volunteer.header }}</h2>
-			<p>{{ site.data.footer.volunteer.body }}</p>
-			<a href="{{ site.data.footer.volunteer.github }}" target="_blank" class="black dim">
-				<i class="fab fa-github f1"></i>
-			</a>
-		</div>
-	</section>
-	<section class="site-footer__social ph3 pv1 bg-crusta">
-		<div class="tc tl-l">
-			<a href="mailto:{{ site.email }}" target="_top" class="f6 f5-l white dim">
-				{{ site.data.footer.social.contact }}
-			</a>
-		</div>
-		<div class="tc">
-			<ul class="ma0 pa0 pb0">
-				{% for link in site.data.footer.social.links %}
-				<li class="dib">
-					<a href="{{ link.url }}" target="_blank" rel="noopener" class="f3 white dim">{{ link.icon }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-		<div class="tc tr-l">
-			<a href="https://dc.aiga.org/about-us/mission/" target="_blank" rel="noopener"
-				class="f6 f5-l white dim">
-				{{ site.data.footer.social.copyright }}
-			</a>
-		</div>
-	</section>
+        </div>
+    </section>
+    <section class="site-footer__volunteer pv5">
+        <div class="mw6 center tc pa4">
+            <h2>
+                {{ site.data.footer.volunteer.header }}
+            </h2>
+            <p>
+                {{ site.data.footer.volunteer.body }}
+            </p>
+            <a class="black dim" href="{{ site.data.footer.volunteer.github }}" target="_blank">
+                <i class="fab fa-github f1">
+                </i>
+            </a>
+        </div>
+    </section>
+    <section class="site-footer__social ph3 pv1 bg-crusta">
+        <div class="tc tl-l">
+            <a class="f6 f5-l white dim" href="mailto:{{ site.email }}" target="_top">
+                {{ site.data.footer.social.contact }}
+            </a>
+        </div>
+        <div class="tc">
+            <ul class="ma0 pa0 pb0">
+                {% for link in site.data.footer.social.links %}
+                <li class="dib">
+                    <a class="f3 white dim" href="{{ link.url }}" rel="noopener" target="_blank">
+                        {{ link.icon }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="tc tr-l">
+            <a class="f6 f5-l white dim" href="https://dc.aiga.org/about-us/mission/" rel="noopener" target="_blank">
+                {{ site.data.footer.social.copyright }}
+            </a>
+        </div>
+    </section>
 </footer>
-
-</main>
-
 <script>
-	//Offside.js minimal set
+    //Offside.js minimal set
 	var myOffside = offside('#mobile-menu', {
 		slidingElementsSelector: '#site-container',
 		buttonsSelector: '#mobile-menu-trigger',
 		slidingSide: 'right' // String: Offside element pushed on left or right
 	});
 </script>
-
-</body>
-
-</html>

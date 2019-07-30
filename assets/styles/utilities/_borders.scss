@@ -1,26 +1,20 @@
-hr,
-.border {
-	border: solid 2px transparent;
-	margin: 0.5rem 0 2rem 0;
-	max-width: 80px;
-
-	&--mauve {
-		border-color: $mauve;
-	}
-
-	&--crusta {
-		border-color: $crusta;
-	}
-
-	&--hot-pink {
-		border-color: $hot-pink;
-	}
-
-	&--lightning-yellow {
-		border-color: $lightning-yellow;
-	}
-
-	&--aquamarine {
-		border-color: $aquamarine;
-	}
+hr, .border {
+    border: solid 2px transparent;
+    margin: 0.5rem 0 2rem 0;
+    max-width: 80px;
+    &--mauve {
+        border-color: $mauve;
+    }
+    &--crusta {
+        border-color: $crusta;
+    }
+    &--hot-pink {
+        border-color: $hot-pink;
+    }
+    &--lightning-yellow {
+        border-color: $lightning-yellow;
+    }
+    &--aquamarine {
+        border-color: $aquamarine;
+    }
 }
