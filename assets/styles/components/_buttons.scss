@@ -1,6 +1,8 @@
 .button {
     background-color: red;
+    cursor: pointer !important;
     display: block;
+    font-weight: 700;
     padding: 0px 24px;
     transition: opacity 150ms ease-in;
     &__solid, &__border {
