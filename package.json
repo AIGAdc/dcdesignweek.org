@@ -20,5 +20,6 @@
     "bugs": {
         "url": "https://github.com/AIGAdc/DCDW/issues"
     },
-    "homepage": "https://github.com/AIGAdc/DCDW#readme"
+    "homepage": "https://github.com/AIGAdc/DCDW#readme",
+    "dependencies": {}
 }
