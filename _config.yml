@@ -18,7 +18,7 @@ defaults:
 - scope:
     path: ''
   values:
-    image: /assets/media/og-image.png
+    image: /uploads/og-image.png
 - scope:
     path: ''
     type: events
