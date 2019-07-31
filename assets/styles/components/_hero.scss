@@ -3,12 +3,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 400px;
     background-color: #efefef;
 }
 @media screen and (min-width: 1024px) {
     .hero {
         background-size: contain;
-        max-height: 40vh;
+        max-height: 480px;
     }
 }
