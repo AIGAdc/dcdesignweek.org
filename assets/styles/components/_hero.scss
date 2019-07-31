@@ -1,0 +1,14 @@
+.hero {
+    background-image: url("/assets/media/sample-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 40vh;
+    background-color: #efefef;
+}
+@media screen and (min-width: 1024px) {
+    .hero {
+        background-size: contain;
+        max-height: 40vh;
+    }
+}

@@ -9,7 +9,7 @@ layout: save-the-date
 
 # Section 1
 section-1-background-image: /assets/media/sample-header.png
-section-1-background-color: white
+section-1-background-color:
 section-1-logo-alt: DC Design Week Hero Logo, Time & Date
 section-1-header: '#DCDESIGNWEEK is Coming September 20-27'
 section-1-subheader: Mark your calendar and sign up to be the first to know about 2019 speaker announcements and ticket sales

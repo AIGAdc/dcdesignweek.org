@@ -1,9 +1,7 @@
 .site-header {
     border-bottom: solid 4px $lightning-yellow;
     position: sticky;
+    position: -webkit-sticky; // needed for Safari
     top: 0;
     z-index: 9999;
-}
-.site-header__menu-button {
-    cursor: pointer;
 }

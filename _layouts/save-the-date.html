@@ -1,79 +1,95 @@
 ---
 layout: default
 ---
-
 <!-- Section 1: Hero -->
-<section class="pv5 vh-50 bg-{{ page.section-1-background-color }}"
-	style="background-image: url('/assets/media/sample-header.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #f6f6f6;">
-	<div class="mw8 center tc pt4 ph4 pb4 relative">
-		<h1 class="mb2">{{ page.section-1-header }}</h1>
-		<p class="mw7 center mb4">{{ page.section-1-subheader }}</p>
-		<a href="{{ page.section-1-button-left-url }}"
-			class="button button__{{ page.section-1-button-left-type }} button__{{ page.section-1-button-left-type }}--{{ page.section-1-button-left-color }} mb2 mb0-l">{{ page.section-1-button-left }}</a>
-		<a href="{{ page.section-1-button-right-url }}"
-			class="button button__{{ page.section-1-button-right-type }} button__{{ page.section-1-button-right-type }}--{{ page.section-1-button-right-color }}">{{ page.section-1-button-right }}</a>
-	</div>
+<section class="hero flex">
+    <div class="flex-auto self-center mw8 center tc pv6 pt5-l ph4">
+        <h1 class="mb2">
+            {{ page.section-1-header }}
+        </h1>
+        <p class="mw7 center mb4">
+            {{ page.section-1-subheader }}
+        </p>
+        <a class="button button__{{ page.section-1-button-left-type }} button__{{ page.section-1-button-left-type }}--{{ page.section-1-button-left-color }} mb2 mb0-l" href="{{ page.section-1-button-left-url }}">
+            {{ page.section-1-button-left }}
+        </a>
+        <a class="button button__{{ page.section-1-button-right-type }} button__{{ page.section-1-button-right-type }}--{{ page.section-1-button-right-color }}" href="{{ page.section-1-button-right-url }}">
+            {{ page.section-1-button-right }}
+        </a>
+    </div>
 </section>
-
 <!-- Section 2: A Look Back on DCDW 2018 -->
 <section class="pv5 bg-{{ page.section-2-background-color }}">
-	<div class="mw8 center pa4">
-		<h2>{{ page.section-2-header }}</h2>
-		<hr class="border border--{{ page.section-2-divider-color }}">
-		<p class="copy">{{ page.section-2-body | markdownify }}</p>
-		<div class="tc">
-			<a href="{{ page.section-2-button-url }}"
-				class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4"
-				target="_blank" rel="noopener">{{ page.section-2-button }}</a>
-		</div>
-	</div>
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.section-2-header }}
+        </h2>
+        <hr class="border border--{{ page.section-2-divider-color }}">
+            <p class="copy">
+                {{ page.section-2-body | markdownify }}
+            </p>
+            <div class="tc">
+                <a class="button button__{{ page.section-2-button-type }} button__{{ page.section-2-button-type }}--{{ page.section-2-button-color }} mt4" href="{{ page.section-2-button-url }}" rel="noopener" target="_blank">
+                    {{ page.section-2-button }}
+                </a>
+            </div>
+        </hr>
+    </div>
 </section>
-
 <!-- Section 3: 2018 Partner & Sponsors -->
-<section id="sponsor" class="pt5 bg-{{ page.section-3-background-color }}">
-	<div class="mw8 center pa4">
-		<h2>{{ page.section-3-header }}</h2>
-		<hr class="border border--{{ page.section-3-divider-color }}">
-		<p>{{ page.section-3-body | markdownify }}</p>
-		<ul class="ma0 pa0 sponsor-grid">
-			{% assign sorted_sponsors = site.sponsors %}
+<section class="pt5 bg-{{ page.section-3-background-color }}" id="sponsor">
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.section-3-header }}
+        </h2>
+        <hr class="border border--{{ page.section-3-divider-color }}">
+            <p>
+                {{ page.section-3-body | markdownify }}
+            </p>
+            <ul class="ma0 pa0 sponsor-grid">
+                {% assign sorted_sponsors = site.sponsors %}
 			{% for posts in sorted_sponsors %}
 			{% if posts.is-second-tier == true %}
-			<li class="list-none dim">
-				<a href="{{ posts.sponsor-url }}" target="_blank" rel="noopener">
-					<img class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}"
-						src="{{ posts.sponsor-image }}" alt="{{ posts.sponsor-image-alt }}">
-				</a>
-			</li>
-			{% endif %}
+                <li class="list-none dim">
+                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                        </img>
+                    </a>
+                </li>
+                {% endif %}
 			{% endfor %}
-		</ul>
-		<div class="tc">
-			<a href="{{ page.section-3-button-url }}"
-				class="button button__{{ page.section-3-button-type }} button__{{ page.section-3-button-type }}--{{ page.section-3-button-color }} mt4">
-				{{ page.section-3-button }}</a>
-		</div>
-	</div>
+            </ul>
+            <div class="tc">
+                <a class="button button__{{ page.section-3-button-type }} button__{{ page.section-3-button-type }}--{{ page.section-3-button-color }} mt4" href="{{ page.section-3-button-url }}">
+                    {{ page.section-3-button }}
+                </a>
+            </div>
+        </hr>
+    </div>
 </section>
-
 <!-- Section 4: Chapter Sponsors -->
 <section class="pb5 bg-{{ page.section-4-background-color }}">
-	<div class="mw8 center pa4">
-		<h2>{{ page.section-4-header }}</h2>
-		<hr class="border border--{{ page.section-4-divider-color }}">
-		<p>{{ page.section-4-body | markdownify }}</p>
-		<ul class="ma0 pa0 sponsor-grid">
-			{% assign sorted_sponsors = site.sponsors %}
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.section-4-header }}
+        </h2>
+        <hr class="border border--{{ page.section-4-divider-color }}">
+            <p>
+                {{ page.section-4-body | markdownify }}
+            </p>
+            <ul class="ma0 pa0 sponsor-grid">
+                {% assign sorted_sponsors = site.sponsors %}
 			{% for posts in sorted_sponsors %}
 			{% if posts.is-featured-on-home-page == true %}
-			<li class="list-none dim">
-				<a href="{{ posts.sponsor-url }}" target="_blank" rel="noopener">
-					<img class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}"
-						src="{{ posts.sponsor-image }}" alt="{{ posts.sponsor-image-alt }}">
-				</a>
-			</li>
-			{% endif %}
+                <li class="list-none dim">
+                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                        </img>
+                    </a>
+                </li>
+                {% endif %}
 			{% endfor %}
-		</ul>
-	</div>
+            </ul>
+        </hr>
+    </div>
 </section>
