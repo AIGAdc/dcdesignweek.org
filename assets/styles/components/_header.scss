@@ -7,9 +7,15 @@
 }
 
 .site-header__logo {
+	max-width: 144px;
 }
 
-.site-header__logo svg {
-	width: 100%;
+.site-header__logo img {
 	display: block;
+}
+
+@media screen and (min-width: 1024px) {
+	.site-header__logo {
+	max-width: 200px;
+}
 }
