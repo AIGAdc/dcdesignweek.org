@@ -1,5 +1,5 @@
 ---
-title: DC Design Week 2018
+title: DC Design Week 2019
 timezone: America/New_York
 collections:
   events:
@@ -17,11 +17,14 @@ collections:
 defaults:
 - scope:
     path: ''
+  values:
+    image: /uploads/og-image.png
+- scope:
+    path: ''
     type: events
   values:
     seo:
       description: Provide an exceprt of what the event is about.
-      og-image: "{{ site.og-image }}"
     event:
       date: Displays the date of the event.
       venue-name: Displays the name of the venue.
@@ -78,20 +81,21 @@ exclude:
 plugins:
 - jekyll-seo-tag
 sass:
-  sass_dir: _sass
+  sass_dir: /assets/styles/
   style: compressed
 encoding: utf-8
 lang: en-US
 description: DC Design Week is a celebration of creatives, thinkers, and makers in
   the DC metro area. Its a week packed with amazing speakers, events, and meetups.
   Join us!
-og-image: "/uploads/2018-OG-featuredimage.jpg"
 twitter:
   username: aigadc
 facebook:
   publisher: https://www.facebook.com/aigaDC/
 url: https://dcdesignweek.org
 baseurl:
+uploadurl: /uploads/
+asseturl: /assets/
 repository: AIGAdc/DCDW
 email: designweek@dc.aiga.org
 google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
@@ -99,5 +103,6 @@ google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject'
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
   \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
-css_inline: true
-copyright: "© AIGA DC | 2018  All Rights Reserved."
+markdown: kramdown
+kramdown:
+  input: GFM

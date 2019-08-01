@@ -1,5 +1,7 @@
 # DCDW
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14b479f3-ec6a-4d0b-b94e-6fefe33785e3/deploy-status)](https://app.netlify.com/sites/dcdesignweek/deploys)
+
 ## Welcome
 
 This repository is the home of the DC Design Week website.
@@ -39,6 +41,7 @@ Coming Soon
 
 - [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
 - [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
+- [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
 
 ## Follow Us
 

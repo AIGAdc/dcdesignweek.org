@@ -1,14 +1,18 @@
 <!-- section 4: you are voting -->
 <section class="you-are-voting mb5 mb6-l cf relative">
-  <div class="you-are-voting-img fl w-100 w-30-ns pr0 pr4-ns mb3 mb0-l">
-    <img class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}" alt="{{ page.pop-up-shop-image-alt }}">
-  </div>
-  <div class="fl w-100 w-70-l">
-    <h2>{{ page.you-are-voting-header }}</h2>
-    <hr>
-    {{ page.you-are-voting-body | markdownify }}
-    <a href="{{ page.you-are-voting-button-url }}" target="_blank" class="ma0 mt4 dib btn btn--primary-border">
-      {{ page.you-are-voting-button }}
-    </a>
-  </div>
+    <div class="you-are-voting-img fl w-100 w-30-ns pr0 pr4-ns mb3 mb0-l">
+        <img alt="{{ page.pop-up-shop-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}">
+        </img>
+    </div>
+    <div class="fl w-100 w-70-l">
+        <h2>
+            {{ page.you-are-voting-header }}
+        </h2>
+        <hr>
+            {{ page.you-are-voting-body | markdownify }}
+            <a class="ma0 mt4 dib btn btn--primary-border" href="{{ page.you-are-voting-button-url }}" target="_blank">
+                {{ page.you-are-voting-button }}
+            </a>
+        </hr>
+    </div>
 </section>

@@ -1,0 +1,35 @@
+.hero {
+    background-image: url("/uploads/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+    background-color: #efefef;
+}
+@media screen and (min-width: 1024px) {
+    .hero {
+        background-size: contain;
+        max-height: 480px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero {
+        min-height: 568px;
+        max-height: 568px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        min-height: 640px;
+        max-height: 640px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .hero {
+        min-height: 768px;
+        max-height: 768px;
+    }
+}
