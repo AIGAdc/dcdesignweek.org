@@ -8,5 +8,5 @@ is-featured-on-shops-galleries-page: true
 is-first-tier: true
 is-second-tier: false
 is-third-tier: false
-published: true
 ---
+
