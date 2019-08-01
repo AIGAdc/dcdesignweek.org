@@ -1,15 +1,15 @@
 <!-- first-tier: sustaining partners -->
 <section class="first-tier mb5 cf relative">
-  <h2>{{ page.first-tier-header }}</h2>
-  <hr>
-  {{ page.first-tier-sub-header | markdownify }}
+	<h2>{{ page.first-tier-header }}</h2>
+	<hr>
+	{{ page.first-tier-sub-header | markdownify }}
 
-  <ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
-    {% assign sorted_sponsors = site.sponsors %}
-    {% for posts in sorted_sponsors %}
-    {% if posts.is-first-tier == true %}
-    {% include partials/sponsors/tiers/content.html %}
-    {% endif %}
-    {% endfor %}
-  </ul>
+	<ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
+		{% assign sorted_sponsors = site.sponsors %}
+		{% for posts in sorted_sponsors %}
+		{% if posts.is-first-tier == true %}
+		{% include partials/sponsors/tiers/content.html %}
+		{% endif %}
+		{% endfor %}
+	</ul>
 </section>

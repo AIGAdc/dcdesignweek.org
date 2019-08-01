@@ -1,8 +1,8 @@
 ---
 title: Sponsors
 permalink: "/sponsors/"
-description: 
-image: "/uploads/2018-OG-featuredimage.jpg"
+published: false
+layout: sponsors
 first-tier-header: Chapter Sponsors
 first-tier-sub-header: 'Sustaining Partners support AIGA DC for a full year, enabling
   the chapter to stay true to its mission: to advance design as a professional craft,
@@ -17,7 +17,6 @@ third-tier-header: 'Many thanks to:'
 third-tier-sub-header: 
 sponsor-button-text: Work with Us
 sponsor-button-url: designweek@dc.aiga.org
-layout: sponsors
 ---
 
 # Sponsors

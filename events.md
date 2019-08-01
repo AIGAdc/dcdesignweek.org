@@ -1,8 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-description: 
-image: "/uploads/2018-OG-featuredimage.jpg"
+published: false
 category-1: tours
 category-1-label: Tours
 category-2: lectures
