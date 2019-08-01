@@ -50,6 +50,8 @@ section-4-divider-color: lightning-yellow
 section-4-body: 'Sustaining Partners support AIGA DC for a full year, enabling the
   chapter to stay true to its mission: to advance design as a professional craft,
   strategic tool and vital cultural force. As a chapter sponsor, these companies contribute
-  to the design profession and the greater good.'
+  to the design profession and the greater good.
+
+'
 ---
 
