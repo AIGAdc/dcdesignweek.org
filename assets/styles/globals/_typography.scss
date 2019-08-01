@@ -1,0 +1,47 @@
+body {
+    color: $black;
+    font-family: $sans;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+}
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $script;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+.wysiwyg h1 {
+    font-size: $font-size-40;
+}
+.wysiwyg h2 {
+    font-size: $font-size-24;
+}
+.wysiwyg p {
+    font-size: $font-size-16;
+    line-height: 1.6rem;
+}
+.wysiwyg .button {
+    font-size: $font-size-16;
+}
+@media screen and (min-width: 1024px) {
+    .wysiwyg h1 {
+        font-size: $font-size-48;
+    }
+    .wysiwyg h2 {
+        font-size: $font-size-32;
+    }
+    .wysiwyg p {
+        font-size: $font-size-20;
+        line-height: 2rem;
+    }
+    .wysiwyg .button {
+        font-size: $font-size-20;
+    }
+}

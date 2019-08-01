@@ -1,0 +1,54 @@
+.button {
+    background-color: red;
+    cursor: pointer !important;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0px 16px;
+    transition: opacity 150ms ease-in;
+    &__solid, &__border {
+        background-color: transparent;
+        border: solid 4px transparent;
+        color: $black;
+    }
+    &__solid--mauve {
+        background-color: $mauve;
+    }
+    &__border--mauve {
+        border: solid 4px $mauve;
+    }
+    &__solid--crusta {
+        background-color: $crusta;
+    }
+    &__border--crusta {
+        border: solid 4px $crusta;
+    }
+    &__solid--hot-pink {
+        background-color: $hot-pink;
+    }
+    &__border--hot-pink {
+        border: solid 4px $hot-pink;
+    }
+    &__solid--lightning-yellow {
+        background-color: $lightning-yellow;
+    }
+    &__border--lightning-yellow {
+        border: solid 4px $lightning-yellow;
+    }
+    &__solid--aquamarine {
+        background-color: $aquamarine;
+    }
+    &__border--aquamarine {
+        border: solid 4px $aquamarine;
+    }
+}
+a:hover, .button:hover {
+    opacity: 0.5;
+}
+a:focus, .button:focus {
+    outline: dotted 4px $black;
+}
+@media screen and (min-width: 640px) {
+    .button {
+        padding: 0px 48px;
+    }
+}

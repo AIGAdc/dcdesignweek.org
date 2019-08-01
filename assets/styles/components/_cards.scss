@@ -1,0 +1,74 @@
+.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.5;
+}
+.sold-out::before {
+    content: 'Sold Out!';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: $white;
+    padding: 56px;
+    text-align: center;
+}
+.sold-out {
+    background-color: RGBA(32, 38, 83, 0.5);
+}
+.sold-out-ticker {
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+}
+.sold-out-ticker p {
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    /* Starting position */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: sold-out-ticker 15s linear infinite;
+    -webkit-animation: sold-out-ticker 15s linear infinite;
+    animation: sold-out-ticker 15s linear infinite;
+}
+/* Move it (define the animation) */
+
+@-moz-keyframes sold-out-ticker {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes sold-out-ticker {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+@keyframes sold-out-ticker {
+    0% {
+        -moz-transform: translateX(100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(100%);
+        /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}

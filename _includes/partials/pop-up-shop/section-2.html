@@ -1,21 +1,23 @@
 <!-- section 2: gallery opening -->
 <section class="gallery-opening mb5 mb6-l cf relative">
-  <div class="fl w-100 w-30-l mb5 mb0-l">
-    <div class="diamond-image-border relative">
-      <div class="diamond overflow-hidden">
-        <div class="diamond-los1">
-          <img class="lazyload blur-up v-mid" data-src="{{ page.gallery-opening-image }}" src="{{ page.gallery-opening-image }}"
-            alt="{{ page.gallery-opening-image-alt }}" />
+    <div class="fl w-100 w-30-l mb5 mb0-l">
+        <div class="diamond-image-border relative">
+            <div class="diamond overflow-hidden">
+                <div class="diamond-los1">
+                    <img alt="{{ page.gallery-opening-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.gallery-opening-image }}" src="{{ page.gallery-opening-image }}"/>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="fl w-100 w-70-l">
-    <h2>{{ page.gallery-opening-header }}</h2>
-    <hr>
-    {{ page.gallery-opening-body | markdownify }}
-    <a href="{{ page.gallery-opening-button-url }}" target="_blank" class="btn btn--primary-border dib mt3">
-      {{ page.gallery-opening-button }}
-    </a>
-  </div>
+    <div class="fl w-100 w-70-l">
+        <h2>
+            {{ page.gallery-opening-header }}
+        </h2>
+        <hr>
+            {{ page.gallery-opening-body | markdownify }}
+            <a class="btn btn--primary-border dib mt3" href="{{ page.gallery-opening-button-url }}" target="_blank">
+                {{ page.gallery-opening-button }}
+            </a>
+        </hr>
+    </div>
 </section>
