@@ -2,9 +2,8 @@
 title: Home
 permalink: "/"
 description: 
-layout: save-the-date
 section-1-background-image: 
-section-1-background-color: 
+section-1-background-color: blue
 section-1-logo-alt: DC Design Week Hero Logo, Time & Date
 section-1-header: "#DCDESIGNWEEK is Coming September 20-27"
 section-1-subheader: Mark your calendar and sign up to be the first to know about
@@ -51,5 +50,6 @@ section-4-body: 'Sustaining Partners support AIGA DC for a full year, enabling t
   chapter to stay true to its mission: to advance design as a professional craft,
   strategic tool and vital cultural force. As a chapter sponsor, these companies contribute
   to the design profession and the greater good.'
+layout: save-the-date
 ---
 
