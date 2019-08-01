@@ -5,11 +5,12 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "serve": "bundle exec jekyll serve",
-        "serve-reload": "bundle exec jekyll serve --livereload",
-        "build": "bundle exec jekyll build",
-        "build-profile": "bundle exec jekyll build --profile",
-        "build-verbose": "bundle exec jekyll build --verbose"
+        "jekyll-serve": "bundle exec jekyll serve",
+        "jekyll-serve-r": "bundle exec jekyll serve --livereload",
+        "jekyll-build": "bundle exec jekyll build",
+        "jekyll-build-p": "bundle exec jekyll build --profile",
+        "jekyll-build-v": "bundle exec jekyll build --verbose",
+        "netlify-dev": "netlify dev --live"
     },
     "repository": {
         "type": "git",
