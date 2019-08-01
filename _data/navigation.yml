@@ -1,4 +1,4 @@
-# This data yml file will loop through the different navigations of the DCDW website.
+# This yml file controls the navigation links across the DC Design Week Website
 
 # primary nav
 # primary-nav:
@@ -15,10 +15,10 @@
 #  - title: "Volunteer"
 #    url: /volunteer/
 
-# landing page nav
-landing-page-nav:
+# holding site navigation
+holding-site:
   - title: "2016"
-    url: https://github.com/AIGAdc/2016.dcdesignweek.org
+    url: https://2016.dcdesignweek.org
   - title: "2017"
     url: https://github.com/AIGAdc/2017.dcdesignweek.org
 
