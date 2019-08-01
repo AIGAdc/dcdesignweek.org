@@ -1,9 +1,9 @@
 ---
 title: Map
 permalink: "/map/"
-published: false
-description: 
+description:
 layout: map
+published: false
 ---
 
 # Events Map

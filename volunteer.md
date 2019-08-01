@@ -1,8 +1,8 @@
 ---
 title: Volunteer
 permalink: "/volunteer/"
-published: false
 layout: volunteer
+published: false
 ---
 
 # Volunteer
