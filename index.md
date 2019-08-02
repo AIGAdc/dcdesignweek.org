@@ -2,7 +2,6 @@
 title: Home
 permalink: "/"
 description: 
-layout: save-the-date
 section-1-background-image: 
 section-1-background-color: 
 section-1-logo-alt: DC Design Week Hero Logo, Time & Date
@@ -25,7 +24,7 @@ section-2-body: "Design is a people thing. That's why last year, DC Design Week 
   —along with the people who get to do the shaping. \n\nThe result? 37 events including
   animation workshops, a creativity-boosting guided meditation, letterpress printing,
   screenprinting, a run around the murals, a talk about designing for voice UI, and
-  so, so, so much more. Thank you to everyon who came out and represented this wonderful
+  so, so, so much more. Thank you to everyone who came out and represented this wonderful
   creative community of ours.\n"
 section-2-button: Follow us on Instagram
 section-2-button-url: https://www.instagram.com/dcdesignweek/
@@ -53,5 +52,6 @@ section-4-body: 'Sustaining Partners support AIGA DC for a full year, enabling t
   to the design profession and the greater good.
 
 '
+layout: save-the-date
 ---
 
