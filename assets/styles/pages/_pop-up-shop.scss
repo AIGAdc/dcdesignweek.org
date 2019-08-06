@@ -1,23 +1,19 @@
-.get-out-the-vote-bg, .pop-up-shop-bg {
-    top: 0;
-    right: 0;
-    left: 0;
-    max-height: 400px;
-    overflow: hidden;
-    position: relative;
-    z-index: 0;
+.pop-up-shop {
+    display: grid;
 }
-.pop-up-shop-content, .get-out-the-vote-content {
-    left: 0;
-    position: relative;
-    z-index: 10;
-}
-@media screen and (min-width: 1024px) {
-    .get-out-the-vote-bg, .pop-up-shop-bg {
-        position: absolute;
+@media screen and (min-width: 767px) {
+    .pop-up-shop {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: minmax(300px, 1fr);
     }
-    .pop-up-shop-content, .get-out-the-vote-content {
-        top: 120px;
-        left: 72px;
+    .pop-up-shop__background {
+        grid-column: 1/9;
+        grid-row: 1/ span 4;
+    }
+    .pop-up-shop__content {
+        background-color: $white;
+        grid-column: 2/span 4;
+        grid-row: 3;
+        z-index: 100;
     }
 }
