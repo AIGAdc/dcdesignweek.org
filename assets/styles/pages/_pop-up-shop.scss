@@ -1,19 +1,19 @@
 .pop-up-shop {
-    display: grid;
+	display: grid;
 }
 @media screen and (min-width: 767px) {
-    .pop-up-shop {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: minmax(300px, 1fr);
-    }
-    .pop-up-shop__background {
-        grid-column: 1/9;
-        grid-row: 1/ span 4;
-    }
-    .pop-up-shop__content {
-        background-color: $white;
-        grid-column: 2/span 4;
-        grid-row: 3;
-        z-index: 100;
-    }
+	.pop-up-shop {
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-rows: minmax(300px, 1fr);
+	}
+	.pop-up-shop__background {
+		grid-column: 1/9;
+		grid-row: 1/ span 4;
+	}
+	.pop-up-shop__content {
+		background-color: $white;
+		grid-column: 2/span 4;
+		grid-row: 3;
+		z-index: 100;
+	}
 }

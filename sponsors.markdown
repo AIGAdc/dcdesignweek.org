@@ -1,8 +1,6 @@
 ---
 title: Sponsors
-permalink: "/sponsors/"
-published: false
-layout: sponsors
+published: true
 first-tier-header: Chapter Sponsors
 first-tier-sub-header: 'Sustaining Partners support AIGA DC for a full year, enabling
   the chapter to stay true to its mission: to advance design as a professional craft,
@@ -17,12 +15,11 @@ third-tier-header: 'Many thanks to:'
 third-tier-sub-header: 
 sponsor-button-text: Work with Us
 sponsor-button-url: designweek@dc.aiga.org
+layout: sponsors
 ---
 
 # Sponsors
-
 ---
-
 DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
 
 We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.

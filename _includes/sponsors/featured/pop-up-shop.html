@@ -6,11 +6,11 @@
     <hr>
         <ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
             {% assign sorted_sponsors = site.sponsors %}
-			{% for posts in sorted_sponsors %}
-				{% if posts.is-featured-on-shops-galleries-page == true %}
-					{% include partials/sponsors/tiers/content.html %}
-				{% endif %}
-			{% endfor %}
+            {% for posts in sorted_sponsors %}
+                {% if posts.is-featured-on-shops-galleries-page == true %}
+                    {% include sponsors/list-item.html %}
+                {% endif %}
+            {% endfor %}
         </ul>
         <a class="btn btn--primary-border" href="mailto:{{ page.third-tier-button-url }}" target="_top">
             Button Text{{ page.third-tier-button }}

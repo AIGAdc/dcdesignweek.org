@@ -60,7 +60,7 @@ layout: default
 			{% assign sorted_sponsors = site.sponsors %}
 			{% for posts in sorted_sponsors %}
 			{% if posts.is-featured-on-home-page == true %}
-			{% include partials/sponsors/tiers/content.html %}
+			{% include sponsors/list-item.html %}
 			{% endif %}
 			{% endfor %}
 		</ul>
