@@ -30,6 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 .wysiwyg .button {
     font-size: $font-size-16;
 }
+.wysiwyg hr, .page-introduction hr {
+    max-width: 120px;
+    margin: 0.5rem 0 2rem 0;
+}
+.page-introduction hr {
+    border: solid 4px $crusta;
+}
 @media screen and (min-width: 1024px) {
     .wysiwyg h1 {
         font-size: $font-size-48;
