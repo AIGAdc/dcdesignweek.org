@@ -1,8 +1,6 @@
 ---
 title: About
-permalink: "/about/"
-published: false
-layout: about
+published: true
 collaboration-bg-image: "/uploads/about-hero-44b425.jpg"
 collaboration-bg-image-alt: Group photo of AIGA DC Team
 collaboration-content-image: "/uploads/dcdw-lockup-collaboration.png"
@@ -14,8 +12,8 @@ collaboration-content-body: |-
 collaboration-content-button-url: https://dc.aiga.org
 collaboration-content-button-text: Join AIGA
 team-header: "‘18 DCDW Team"
+layout: about
 ---
 
 # About
-
 ---
