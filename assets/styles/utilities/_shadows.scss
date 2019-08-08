@@ -1,79 +1,79 @@
 .shadow, .shadow-reverse {
-	transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
 }
 .shadow {
-	&--black {
-		box-shadow: 24px 24px $black;
-	}
-	&--mauve {
-		box-shadow: 24px 24px $mauve;
-	}
-	&--hot-pink {
-		box-shadow: 24px 24px $hot-pink;
-	}
-	&--crusta {
-		box-shadow: 24px 24px $crusta;
-	}
-	&--lightning-yellow {
-		box-shadow: 24px 24px $lightning-yellow;
-	}
-	&--aquamarine {
-		box-shadow: 24px 24px $aquamarine;
-	}
-	&--black:hover {
-		box-shadow: 0 0 $black;
-	}
-	&--mauve:hover {
-		box-shadow: 0 0 $mauve;
-	}
-	&--hot-pink:hover {
-		box-shadow: 0 0 $hot-pink;
-	}
-	&--crusta:hover {
-		box-shadow: 0 0 $crusta;
-	}
-	&--lightning-yellow:hover {
-		box-shadow: 0 0 $lightning-yellow;
-	}
-	&--aquamarine:hover {
-		box-shadow: 0 0 $aquamarine;
-	}
+    &--black {
+        box-shadow: 24px 24px $black;
+    }
+    &--mauve {
+        box-shadow: 24px 24px $mauve;
+    }
+    &--hot-pink {
+        box-shadow: 24px 24px $hot-pink;
+    }
+    &--crusta {
+        box-shadow: 24px 24px $crusta;
+    }
+    &--lightning-yellow {
+        box-shadow: 24px 24px $lightning-yellow;
+    }
+    &--aquamarine {
+        box-shadow: 24px 24px $aquamarine;
+    }
+    &--black:hover {
+        box-shadow: 0 0 $black;
+    }
+    &--mauve:hover {
+        box-shadow: 0 0 $mauve;
+    }
+    &--hot-pink:hover {
+        box-shadow: 0 0 $hot-pink;
+    }
+    &--crusta:hover {
+        box-shadow: 0 0 $crusta;
+    }
+    &--lightning-yellow:hover {
+        box-shadow: 0 0 $lightning-yellow;
+    }
+    &--aquamarine:hover {
+        box-shadow: 0 0 $aquamarine;
+    }
 }
 .shadow-reverse {
-	&--black {
-		box-shadow: 24px 24px $black;
-	}
-	&--mauve {
-		box-shadow: 24px 24px $mauve;
-	}
-	&--hot-pink {
-		box-shadow: 24px 24px $hot-pink;
-	}
-	&--crusta {
-		box-shadow: 24px 24px $crusta;
-	}
-	&--lightning-yellow {
-		box-shadow: 24px 24px $lightning-yellow;
-	}
-	&--aquamarine {
-		box-shadow: 24px 24px $aquamarine;
-	}
-	&--black:hover {
-		box-shadow: 0 0 $black;
-	}
-	&--mauve:hover {
-		box-shadow: 0 0 $mauve;
-	}
-	&--hot-pink:hover {
-		box-shadow: 0 0 $hot-pink;
-	}
-	&--crusta:hover {
-		box-shadow: 0 0 $crusta;
-	}
-	&--lightning-yellow:hover {
-		box-shadow: 0 0 $lightning-yellow;
-	}
-	&--aquamarine:hover {
-		box-shadow: 0 0 $aquamarine;
-	}
+    &--black {
+        box-shadow: 24px 24px $black;
+    }
+    &--mauve {
+        box-shadow: 24px 24px $mauve;
+    }
+    &--hot-pink {
+        box-shadow: 24px 24px $hot-pink;
+    }
+    &--crusta {
+        box-shadow: 24px 24px $crusta;
+    }
+    &--lightning-yellow {
+        box-shadow: 24px 24px $lightning-yellow;
+    }
+    &--aquamarine {
+        box-shadow: 24px 24px $aquamarine;
+    }
+    &--black:hover {
+        box-shadow: 0 0 $black;
+    }
+    &--mauve:hover {
+        box-shadow: 0 0 $mauve;
+    }
+    &--hot-pink:hover {
+        box-shadow: 0 0 $hot-pink;
+    }
+    &--crusta:hover {
+        box-shadow: 0 0 $crusta;
+    }
+    &--lightning-yellow:hover {
+        box-shadow: 0 0 $lightning-yellow;
+    }
+    &--aquamarine:hover {
+        box-shadow: 0 0 $aquamarine;
+    }
 }

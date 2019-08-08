@@ -1,6 +1,6 @@
 # This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 2019-team:
-# Executive Director
+  # Executive Director
   - image: /uploads/lizRoseChmela.jpg
     image-alt: Member Portrait
     name: Liz Rose Chmela
@@ -8,7 +8,8 @@
     role-class: executive-director
     link-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
     link-label: LinkedIn
-# Directors
+
+  # Directors
   - image: /uploads/kojoBoateng.jpg
     image-alt:
     name: Kojo Boateng
@@ -37,7 +38,8 @@
     role-class: director
     link-url: https://www.linkedin.com/in/kimberarias/
     link-label: LinkedIn
-# Individuals
+
+  # Individuals
   - image: /uploads/khanhPham.jpg
     image-alt:
     name: Khan Pham
@@ -150,4 +152,3 @@
     role-class: individual-d
     link-url: https://www.linkedin.com/in/phimher 
     link-label: LinkedIn
-  

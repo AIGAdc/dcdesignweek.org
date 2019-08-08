@@ -6,8 +6,8 @@ section-1-background-image:
 section-1-background-color: 
 section-1-logo-alt: DC Design Week Hero Logo, Time & Date
 section-1-header: "#DCDESIGNWEEK is Coming September 20-27"
-section-1-subheader: Mark your calendar and sign up to be the first to know about
-  2019 speaker announcements and ticket sales
+section-1-subheader: |
+  Mark your calendar and sign up to be the first to know about 2019 speaker announcements and ticket sales
 section-1-button-left: Get Updates
 section-1-button-left-url: "#subscribe"
 section-1-button-left-type: solid
@@ -19,13 +19,12 @@ section-1-button-right-color: mauve
 section-2-background-color: lightning-yellow-light
 section-2-header: A Look Back on DCDW2018
 section-2-divider-color: lightning-yellow
-section-2-body: "Design is a people thing. That's why last year, DC Design Week explored
-  the theme Design is for All, which took a closer look at how design shapes our community—along
-  with the people who get to do the shaping. \n\nThe result? 37 events including animation
-  workshops, a creativity-boosting guided meditation, letterpress printing, screenprinting,
-  a run around the murals, a talk about designing for voice UI, and so, so, so much
-  more. Thank you to everyone who came out and represented this wonderful creative
-  community of ours.\n"
+section-2-body: |
+  Design is a people thing. That's why last year, DC Design Week explored
+  the theme Design is for All, which took a closer look at how design shapes our community—along with the people who get to do the shaping. The result? 37 events including animation workshops, a creativity-boosting guided meditation, letterpress printing, screenprinting, a run around the murals, a talk about designing for voice UI, and so, so, so much more.
+
+  Thank you to everyone who came out and represented this wonderful creative
+  community of ours.
 section-2-button: Follow us on Instagram
 section-2-button-url: https://www.instagram.com/dcdesignweek/
 section-2-button-type: border
@@ -46,12 +45,8 @@ section-3-button-color: lightning-yellow
 section-4-background-color: white
 section-4-header: Chapter Sponsors
 section-4-divider-color: lightning-yellow
-section-4-body: 'Sustaining Partners support AIGA DC for a full year, enabling the
-  chapter to stay true to its mission: to advance design as a professional craft,
-  strategic tool and vital cultural force. As 2018 chapter sponsors, these companies
-  contributed to the design profession and the greater good.
-
-'
+section-4-body: |
+  Sustaining Partners support AIGA DC for a full year, enabling the chapter to stay true to its mission: to advance design as a professional craft, strategic tool and vital cultural force. As 2018 chapter sponsors, these companies contributed to the design profession and the greater good.
 layout: save-the-date
 ---
 
