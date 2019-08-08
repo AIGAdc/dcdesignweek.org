@@ -1,17 +1,17 @@
-<!-- section 1: aiga dc x dcdw collaboration -->
-<section class="collaboration mb4 mb6-l relative cf">
-	<div class="collaboration-bg">
-		<img alt="{{ page.collaboration-bg-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.collaboration-bg-image }}" src="{{ page.collaboration-bg-image }}">
-		</img>
-	</div>
-	<div class="collaboration-content fl w-100 w-60-l pa4 mv4 mb6-l bg-white border border--cloud shadow shadow--rose-bud">
-		<div class="collaboration-logo mb4">
-			<img alt="{{ page.collaboration-content-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.collaboration-content-image }}" src="{{ page.collaboration-content-image }}">
-			</img>
-		</div>
-		{{ page.collaboration-content-body | markdownify }}
-		<a class="btn btn--primary-solid mt2 db dib-l" href="{{ page.collaboration-content-button-url }}" target="_blank">
-			{{ page.collaboration-content-button-text }}
-		</a>
-	</div>
+<!-- section 1 -->
+<section class="collaboration">
+    <div class="collaboration__background">
+        <img alt="{{ page.collaboration-bg-image-alt }}" class="lazyload blur-up" data-src="{{ page.collaboration-bg-image }}" src="{{ page.collaboration-bg-image }}">
+        </img>
+    </div>
+    <div class="collaboration__content bg-white border border--black shadow-reverse shadow-reverse--aquamarine pa3 pa4-l">
+        <div class="collaboration-logo mb4">
+            <img alt="{{ page.collaboration-content-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.collaboration-content-image }}" src="{{ page.collaboration-content-image }}">
+            </img>
+        </div>
+        {{ page.collaboration-content-body | markdownify }}
+        <a class="btn btn--primary-solid mt2 db dib-l" href="{{ page.collaboration-content-button-url }}" target="_blank">
+            {{ page.collaboration-content-button-text }}
+        </a>
+    </div>
 </section>

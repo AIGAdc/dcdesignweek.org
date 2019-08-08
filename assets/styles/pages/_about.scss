@@ -1,27 +1,23 @@
-.collaboration-content {
-    left: 0;
-    position: relative;
-    z-index: 10;
-}
-.collaboration-bg {
-    top: 0;
-    right: 0;
-    left: 0;
-    max-height: 400px;
-    overflow: hidden;
-    position: relative;
-    z-index: 0;
+.collaboration {
+    display: grid;
 }
 .collaboration-logo {
-    max-width: 300px;
+    max-width: 288px;
 }
-@media screen and (min-width: 1023px) {
-    .collaboration-content {
-        top: 120px;
-        left: 72px;
+@media screen and (min-width: 767px) {
+    .collaboration {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: minmax(288px, 1fr);
     }
-    .collaboration-bg {
-        position: absolute;
+    .collaboration__background {
+        grid-column: 1/9;
+        grid-row: 1/ span 4;
+    }
+    .collaboration__content {
+        background-color: $white;
+        grid-column: 2/4;
+        grid-row: 3;
+        z-index: 100;
     }
 }
 .committee__members {
@@ -34,7 +30,7 @@
     grid-template-columns: 1fr;
     align-items: stretch;
 }
-.committee__members > * {
+.committee__members>* {
     list-style: none;
 }
 .executive-director {
@@ -58,7 +54,7 @@
 .individual-group-a, .individual-group-b, .individual-group-c, .individual-group-d {
     display: grid;
     grid-gap: 3rem;
-    grid-auto-rows: minmax(auto,400px);
+    grid-auto-rows: minmax(auto, 400px);
     /*padding-left: 6rem;*/
 }
 .executive-director, .director-a, .director-b, .director-c, .director-d, .individual-group-a>*, .individual-group-b>*, .individual-group-c>*, .individual-group-d>* {
@@ -96,7 +92,7 @@
         grid-template-areas: "executive-director executive-director executive-director executive-director" "director-a director-b director-c director-d" "individual-a individual-b . individual-d";
         grid-auto-columns: 1fr;
     }
-    .individual-group-a > li:first-child {
+    .individual-group-a>li:first-child {
         grid-row: 3;
     }
 }

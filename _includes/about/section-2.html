@@ -1,10 +1,8 @@
-<section class="mb4 mb5-l relative cf">
-	<div class="mw8 center">
+<section>
     <h2 class="committee__header">
         {{ page.team-header }}
     </h2>
     <hr class="committee__divider"/>
-</div>
     <ul class="committee__members">
         {% assign members = site.data.members.2019-team %}
 		{% for member in members %}
@@ -52,7 +50,6 @@
         </li>
         {% endif %}
 		{% endfor %}
-
         <div class="individual-group-a">
             {% assign members = site.data.members.2019-team %}
 			{% for member in members %}
@@ -80,7 +77,6 @@
             {% endif %}
 			{% endfor %}
         </div>
-
         <div class="individual-group-b">
             {% assign members = site.data.members.2019-team %}
 		{% for member in members %}
