@@ -1,21 +1,19 @@
 .site-header {
     border-bottom: solid 4px $lightning-yellow;
     position: sticky;
-    position: -webkit-sticky; /*needed for Safari*/
+    position: -webkit-sticky;
+    /*needed for Safari*/
     top: 0;
     z-index: 9999;
 }
-
 .site-header__logo {
-	max-width: 144px;
+    max-width: 144px;
 }
-
 .site-header__logo img {
-	display: block;
+    display: block;
 }
-
 @media screen and (min-width: 1024px) {
-	.site-header__logo {
-	max-width: 200px;
-}
+    .site-header__logo {
+        max-width: 200px;
+    }
 }

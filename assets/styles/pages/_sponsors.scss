@@ -2,7 +2,7 @@
     display: grid;
     grid-gap: 1rem;
     /* Special thanks to this article from Evan Minto on 
-    Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
+	Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
     /* Partially responsive fallback */
     grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
     /* Fully responsive version */
