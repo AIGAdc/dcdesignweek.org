@@ -1,20 +1,70 @@
-<!-- section 2: team members -->
-<section class="committee mb4 mb5-l relative cf">
+<section class="mb4 mb5-l relative cf">
+	<div class="mw8 center">
     <h2 class="committee__header">
         {{ page.team-header }}
     </h2>
     <hr class="committee__divider"/>
-    <ul class="committee__list list ma0 mt6 pa0 relative cf tc">
-        {% for member in site.data.members.2018-team %}
-        <li class="committee__list-item list-none db dib-l">
+</div>
+    <ul class="committee__members">
+        {% assign members = site.data.members.2019-team %}
+		{% for member in members %}
+		{% if member.role-class == "executive-director" %}
+        <li class="member {{ member.role-class }}">
             <div class="diamond-image-border">
                 <div class="diamond overflow-hidden">
                     <div class="diamond-los1">
-                        <img alt="{{ member.image-alt }}" class="lazyload blur-up v-mid" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
                     </div>
                 </div>
             </div>
-            <div class="relative mv5 tc">
+            <h3>
+                {{ member.name }}
+            </h3>
+            <p>
+                {{ member.role }}
+            </p>
+            {% if member.link-url %}
+            <a class="ma0 f6 dib" href="{{ member.link-url }}" target="_top">
+                {{ member.link-label }}
+            </a>
+            {% endif %}
+        </li>
+        {% elsif member.role-class == "director" %}
+        <li class="member {{ member.role-class }}">
+            <div class="diamond-image-border">
+                <div class="diamond overflow-hidden">
+                    <div class="diamond-los1">
+                        <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                    </div>
+                </div>
+            </div>
+            <h3>
+                {{ member.name }}
+            </h3>
+            <p>
+                {{ member.role }}
+            </p>
+            {% if member.link-url %}
+            <a class="ma0 f6 dib" href="{{ member.link-url }}" target="_top">
+                {{ member.link-label }}
+            </a>
+            {% endif %}
+        </li>
+        {% endif %}
+		{% endfor %}
+
+        <div class="individual-group-a">
+            {% assign members = site.data.members.2019-team %}
+			{% for member in members %}
+			{% if member.role-class == "individual-a" %}
+            <li class="member individual-a">
+                <div class="diamond-image-border">
+                    <div class="diamond overflow-hidden">
+                        <div class="diamond-los1">
+                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        </div>
+                    </div>
+                </div>
                 <h3>
                     {{ member.name }}
                 </h3>
@@ -26,196 +76,91 @@
                     {{ member.link-label }}
                 </a>
                 {% endif %}
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-<style>
-    .org-chart  {
-    max-width: 1280px;
-    margin: 72px auto;
-}
-.org-chart >* {
-    border: solid 2px salmon;
-}
-ul {
-    margin: 0;
-    padding: 0;
-}
-li {
-    list-style: none;
-}
-.committee {
-        display: grid;
-        grid-gap: 1rem;
-        padding: 1rem;
-        grid-template-areas:
-            "executive-director"
-            "director-a"
-            "individual-a"
-            "director-b"
-            "individual-b"
-            "director-c"
-            "."
-            "director-d"
-            "individual-d";
-        align-items: start;
-        text-align: center;
-}
-
-.executive-director { grid-area: executive-director; }
-.director-a { grid-area: director-a; }
-.director-b { grid-area: director-b; }
-.director-c { grid-area: director-c; }
-.director-d { grid-area: director-d; }
-.director-a,
-.director-b,
-.director-c,
-.director-d {
-        margin-left: 3rem;
-}
-.individual-group-a,
-.individual-group-b,
-.individual-group-c,
-.individual-group-d {
-    display: grid;
-    grid-gap: 1rem;
-    margin-left: 6rem;
-}
-
-.executive-director,
-.director-a,
-.director-b,
-.director-c,
-.director-d,
-.individual-group-a > *,
-.individual-group-b > *,
-.individual-group-c > *,
-.individual-group-d > * {
-    padding: 1rem;
-    border-radius: 50px;
-}
-
-.executive-director {
-    background-color: lightsalmon;
-}
-.director-a,
-.director-b,
-.director-c,
-.director-d {
-    background-color: lightgoldenrodyellow;
-}
-.individual-group-a > * { background-color: lightblue; }
-.individual-group-b > * { background-color: lightgreen; }
-.individual-group-c > * { background-color: lightcoral; }
-.individual-group-d > * { background-color: lightseagreen; }
-
-@media screen and (min-width: 767px) {
-    .committee {
-        grid-gap: 2rem;
-        padding: 2rem;
-        grid-template-areas:
-            "executive-director executive-director"
-            "director-a director-b"
-            "individual-a individual-b"
-            "director-c director-d"
-            ". individual-d";
-    }
-}
-
-@media screen and (min-width: 1023px) {
-    .committee {
-        grid-gap: 3rem;
-        padding: 3rem;
-        grid-template-areas:
-            "executive-director executive-director executive-director executive-director"
-            "director-a director-b director-c director-d"
-            "individual-a individual-b . individual-d";
-    }
-}
-</style>
-<section>
-    <ul class="committee">
-        <li class="executive-director">
-            Executive Director 1
-        </li>
-        <li class="director-a">
-            Director A
-        </li>
-        <li class="director-b">
-            Director B
-        </li>
-        <li class="director-c">
-            Director C
-        </li>
-        <li class="director-d">
-            Director D
-        </li>
-        <div class="individual-group-a">
-            <li class="individual individual-a">
-                Individual A
             </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
-            <li class="individual individual-a">
-                Individual A
-            </li>
+            {% endif %}
+			{% endfor %}
         </div>
+
         <div class="individual-group-b">
-            <li class="individual">
-                Individual B
+            {% assign members = site.data.members.2019-team %}
+		{% for member in members %}
+			{% if member.role-class == "individual-b" %}
+            <li class="member individual-b">
+                <div class="diamond-image-border">
+                    <div class="diamond overflow-hidden">
+                        <div class="diamond-los1">
+                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        </div>
+                    </div>
+                </div>
+                <h3>
+                    {{ member.name }}
+                </h3>
+                <p>
+                    {{ member.role }}
+                </p>
+                {% if member.link-url %}
+                <a class="ma0 f6 dib" href="{{ member.link-url }}" target="_top">
+                    {{ member.link-label }}
+                </a>
+                {% endif %}
             </li>
-            <li class="individual">
-                Individual B
-            </li>
-            <li class="individual">
-                Individual B
-            </li>
-            <li class="individual">
-                Individual B
-            </li>
-            <li class="individual">
-                Individual B
-            </li>
-            <li class="individual">
-                Individual B
-            </li>
+            {% endif %}
+		{% endfor %}
         </div>
         <div class="individual-group-c">
+            {% assign members = site.data.members.2019-team %}
+		{% for member in members %}
+			{% if member.role-class == "individual-c" %}
+            <li class="member individual-c">
+                <div class="diamond-image-border">
+                    <div class="diamond overflow-hidden">
+                        <div class="diamond-los1">
+                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        </div>
+                    </div>
+                </div>
+                <h3>
+                    {{ member.name }}
+                </h3>
+                <p>
+                    {{ member.role }}
+                </p>
+                {% if member.link-url %}
+                <a class="ma0 f6 dib" href="{{ member.link-url }}" target="_top">
+                    {{ member.link-label }}
+                </a>
+                {% endif %}
+            </li>
+            {% endif %}
+		{% endfor %}
         </div>
         <div class="individual-group-d">
-            <li class="individual">
-                Individual D
+            {% assign members = site.data.members.2019-team %}
+		{% for member in members %}
+			{% if member.role-class == "individual-d" %}
+            <li class="member individual-d">
+                <div class="diamond-image-border">
+                    <div class="diamond overflow-hidden">
+                        <div class="diamond-los1">
+                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        </div>
+                    </div>
+                </div>
+                <h3>
+                    {{ member.name }}
+                </h3>
+                <p>
+                    {{ member.role }}
+                </p>
+                {% if member.link-url %}
+                <a class="ma0 f6 dib" href="{{ member.link-url }}" target="_top">
+                    {{ member.link-label }}
+                </a>
+                {% endif %}
             </li>
-            <li class="individual">
-                Individual D
-            </li>
-            <li class="individual">
-                Individual D
-            </li>
-            <li class="individual">
-                Individual D
-            </li>
+            {% endif %}
+		{% endfor %}
         </div>
     </ul>
 </section>

@@ -24,3 +24,79 @@
         position: absolute;
     }
 }
+.committee__members {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: "executive-director" "director-a" "individual-a" "director-b" "individual-b" "director-c" "." "director-d" "individual-d";
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+}
+.committee__members > * {
+    list-style: none;
+}
+.executive-director {
+    grid-area: executive-director;
+}
+.director.director-a {
+    grid-area: director-a;
+}
+.director-b {
+    grid-area: director-b;
+}
+.director-c {
+    grid-area: director-c;
+}
+.director-d {
+    grid-area: director-d;
+}
+.director {
+    /*padding-left: 3rem;*/
+}
+.individual-group-a, .individual-group-b, .individual-group-c, .individual-group-d {
+    display: grid;
+    grid-gap: 3rem;
+    grid-auto-rows: minmax(auto,400px);
+    /*padding-left: 6rem;*/
+}
+.executive-director, .director-a, .director-b, .director-c, .director-d, .individual-group-a>*, .individual-group-b>*, .individual-group-c>*, .individual-group-d>* {
+    padding: 1rem;
+    border-radius: 4px;
+}
+.executive-director {
+    background-color: $crusta;
+}
+.member.director, .member.director, .member.director, .member.director {
+    background-color: $aquamarine-light;
+}
+.individual-group-a>* {
+    background-color: $mauve-light;
+}
+.individual-group-b>* {
+    background-color: $crusta-light;
+}
+.individual-group-c>* {
+    background-color: $hot-pink-light;
+}
+.individual-group-d>* {
+    background-color: $lightning-yellow-light;
+}
+@media screen and (min-width: 767px) {
+    .committee__members {
+        grid-gap: 2rem;
+        grid-template-areas: "executive-director executive-director" "director-a director-b" "individual-a individual-b" "director-c director-d" ". individual-d";
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1023px) {
+    .committee__members {
+        grid-gap: 3rem;
+        grid-template-areas: "executive-director executive-director executive-director executive-director" "director-a director-b director-c director-d" "individual-a individual-b . individual-d";
+        grid-auto-columns: 1fr;
+    }
+    .individual-group-a > li:first-child {
+        grid-row: 3;
+    }
+}
