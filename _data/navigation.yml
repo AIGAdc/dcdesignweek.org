@@ -2,10 +2,10 @@
 
 # primary nav
 primary-nav:
-  - title: "Events"
-    url: /events/
-  - title: "Map"
-    url: /map/
+# - title: "Events"
+#   url: /events/
+# - title: "Map"
+#   url: /map/
   - title: "Pop Up Shop"
     url: /pop-up-shop/
   - title: "About"
