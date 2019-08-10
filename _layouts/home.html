@@ -50,14 +50,52 @@ layout: default
             </path>
         </svg>
     </span>
-    <div class="main-carousel">
-        <div class="carousel-cell carousel-cell--fish-market bg-aquamarine">
-            1
+    <div class="carousel">
+        <div class="carousel-cell carousel-cell--fish-market bg-aquamarine flex">
+            <div class="flex-auto self-center mw8 center tc">
+                <small class="fw9" style="font-size: 14px;">
+                    {{ page.home-section-1-tagline }}
+                </small>
+                <h1 class="mv4" style="font-size: 80px;">
+                    {{ page.home-section-1-header }}
+                </h1>
+                <p class="mw7 center fw9">
+                    {{ page.home-section-1-subheader }}
+                </p>
+            </div>
         </div>
-        <div class="carousel-cell carousel-cell--gogo bg-lightning-yellow">
-            2
+        <div class="carousel-cell carousel-cell--gogo bg-lightning-yellow flex">
+            <div class="flex-auto self-center mw8 center tc">
+                <p class="fw9" style="font-size: 14px;">
+                    {{ page.home-section-1-tagline }}
+                </p>
+                <h1 class="mv4" style="font-size: 80px;">
+                    {{ page.home-section-1-header }}
+                </h1>
+                <p class="mw7 center fw9">
+                    {{ page.home-section-1-subheader }}
+                </p>
+            </div>
         </div>
     </div>
+</section>
+<!-- featured: events -->
+<section class="events mb5 mb6-l cf relative">
+  <div class="mw8 center pa3">
+    <h2>{{ page.home-events-header }}</h2>
+    <hr>
+    <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
+      {% assign sorted = site.events-carnegie %}
+      {% for posts in sorted %}
+      {% if posts.is-featured-on-home-page == true %}
+      {% include partials/events/card/content.html %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
+      {{page.home-events-button-text}}
+    </a>
+  </div>
 </section>
 <!-- Section 2: A Look Back on DCDW 2018 -->
 <section class="pv5 bg-{{ page.home-section-2-background-color }}">

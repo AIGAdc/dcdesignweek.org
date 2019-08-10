@@ -136,16 +136,6 @@ https://flickity.metafizzy.co
     height: 60vh;
     counter-increment: carousel-cell;
 }
-/* cell number */
-
-.carousel-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(carousel-cell);
-    line-height: 60vh;
-    font-size: 80px;
-    color: $white;
-}
 /* custom css */
 
 .slider {

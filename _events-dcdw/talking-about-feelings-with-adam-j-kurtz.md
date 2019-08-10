@@ -1,5 +1,5 @@
 ---
-title: Talking About Feelings with Adam J. Kurtz
+title: Talking About Feelings with Adam J. Kurtz DCDW
 date: 2018-09-26 20:54:00 -04:00
 position: 27
 seo:

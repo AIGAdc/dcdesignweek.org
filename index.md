@@ -61,6 +61,7 @@ home-section-1-button-right: Become a sponsor
 home-section-1-button-right-url: "#sponsor"
 home-section-1-button-right-type: border
 home-section-1-button-right-color: mauve
+
 home-section-2-background-color: lightning-yellow-light
 home-section-2-header: A Look Back on DCDW2018
 home-section-2-divider-color: lightning-yellow
