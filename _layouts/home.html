@@ -1,93 +1,136 @@
 ---
 layout: default
 ---
-
 <!-- Section 1: Hero -->
-<section class="hero vh-50 flex relative bg-mauve-light">
-	<div class="flex-auto self-center relative mw8 center tc">
-		<h1 class="heading-1 mb2">{{ page.hero-header }}</h1>
-		<p class="copy mb4">{{ page.hero-subheader }}</p>
-		<a href="{{ page.hero-button-left-url }}"
-			class="button button__{{ page.hero-button-left-type }} button__{{ page.hero-button-left-type }}--{{ page.hero-button-left-color }}">{{ page.hero-button-left }}</a>
-		<a href="{{ page.hero-button-right-url }}"
-			class="button button__{{ page.hero-button-right-type }} button__{{ page.hero-button-right-type }}--{{ page.hero-button-right-color }}">{{ page.hero-button-right }}</a>
-	</div>
+<section class="flex bg-black white pt4 pa3">
+    <div class="flex-auto self-center mw8 center tc">
+        <p class="fw9" style="font-size: 14px;">
+            {{ page.home-section-1-tagline }}
+        </p>
+        <h1 class="mv4" style="font-size: 80px;">
+            {{ page.home-section-1-header }}
+        </h1>
+        <p class="mw7 center fw9">
+            {{ page.home-section-1-subheader }}
+        </p>
+        <img class="slider-lightbulb" src="/uploads/home-header-lightbulb.png">
+        </img>
+    </div>
 </section>
-
-<!-- Section 2: DC is Design -->
-<section class="dc-is-design pv5 mb5 mb6-l bg-mint cf relative">
-	<div class="mw8 center pa3">
-		<h2 class="f4 f3-l black lh-title mb4">{{ page.dc-design-header }}</h2>
-		<hr>
-		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-1 | markdownify }}
-			</div>
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-1 }}"
-					src="{{ page.dc-design-image-1 }}" alt="{{ page.dc-design-image-1-alt }}">
-			</div>
-		</div>
-		<div class="flex flex-row-l flex-wrap items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-2 }}"
-					src="{{ page.dc-design-image-2 }}" alt="{{ page.dc-design-image-2-alt }}">
-			</div>
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-2 | markdownify }}
-			</div>
-		</div>
-		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-3 | markdownify }}
-			</div>
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-3 }}"
-					src="{{ page.dc-design-image-3 }}" alt="{{ page.dc-design-image-3-alt }}">
-			</div>
-		</div>
-	</div>
+<section class="slider">
+    <span class="mask-left">
+        <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
+                </style>
+            </defs>
+            <title>
+                Mask
+            </title>
+            <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
+            </path>
+            <path class="cls-2" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0V641">
+            </path>
+        </svg>
+    </span>
+    <span class="mask-right">
+        <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                    .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
+                </style>
+            </defs>
+            <title>
+                Mask
+            </title>
+            <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
+            </path>
+            <path class="cls-2" d="M1566,641V0H0S223.22,207.65,537.44,287s407.29-11.94,673.35,72S1566,641,1566,641">
+            </path>
+        </svg>
+    </span>
+    <div class="main-carousel">
+        <div class="carousel-cell carousel-cell--fish-market bg-aquamarine">
+            1
+        </div>
+        <div class="carousel-cell carousel-cell--gogo bg-lightning-yellow">
+            2
+        </div>
+    </div>
 </section>
-
-<!-- featured: sponsors -->
-<section class="sponsors mb5 mb6-l cf relative">
-	<div class="mw8 center pa3">
-		<h2>{{ page.home-partners-header }}</h2>
-		<hr>
-		{{ page.home-partners-text | markdownify }}
-
-		<ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
-			{% assign sorted_sponsors = site.sponsors %}
-			{% for posts in sorted_sponsors %}
-			{% if posts.is-featured-on-home-page == true %}
-			{% include sponsors/list-item.html %}
-			{% endif %}
-			{% endfor %}
-		</ul>
-
-		<a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{page.home-sponsors-url}}">
-			{{ page.home-sponsors-url-text }}
-		</a>
-	</div>
+<!-- Section 2: A Look Back on DCDW 2018 -->
+<section class="pv5 bg-{{ page.home-section-2-background-color }}">
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.home-section-2-header }}
+        </h2>
+        <hr class="border border--{{ page.home-section-2-divider-color }}">
+            <p class="copy">
+                {{ page.home-section-2-body | markdownify }}
+            </p>
+            <div class="tc">
+                <a class="button button__{{ page.home-section-2-button-type }} button__{{ page.home-section-2-button-type }}--{{ page.home-section-2-button-color }} mt4" href="{{ page.home-section-2-button-url }}" rel="noopener" target="_blank">
+                    {{ page.home-section-2-button }}
+                </a>
+            </div>
+        </hr>
+    </div>
 </section>
-
-{% comment %}
-<!-- featured: events -->
-<section class="events mb5 mb6-l cf relative">
-	<div class="mw8 center pa3">
-		<h2>{{ page.home-events-header }}</h2>
-		<hr>
-		<ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
-			{% assign sorted = (site.events | sort: 'position') %}
-			{% for posts in sorted %}
-			{% if posts.is-featured-on-home-page == true %}
-			{% include partials/events/card/content.html %}
-			{% endif %}
-			{% endfor %}
-		</ul>
-		<a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
-			{{page.home-events-button-text}}
-		</a>
-	</div>
+<!-- Section 3: 2018 Partner & Sponsors -->
+<section class="pt5 bg-{{ page.home-section-3-background-color }}" id="sponsor">
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.home-section-3-header }}
+        </h2>
+        <hr class="border border--{{ page.home-section-3-divider-color }}">
+            <p>
+                {{ page.home-section-3-body | markdownify }}
+            </p>
+            <ul class="ma0 pa0 sponsor-grid">
+                {% assign sorted_sponsors = site.sponsors %}
+            {% for posts in sorted_sponsors %}
+            {% if posts.is-second-tier == true %}
+                <li class="list-none dim">
+                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                        </img>
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+            <div class="tc">
+                <a class="button button__{{ page.home-section-3-button-type }} button__{{ page.home-section-3-button-type }}--{{ page.home-section-3-button-color }} mt4" href="{{ page.home-section-3-button-url }}">
+                    {{ page.home-section-3-button }}
+                </a>
+            </div>
+        </hr>
+    </div>
 </section>
-{% endcomment %}
+<!-- Section 4: Chapter Sponsors -->
+<section class="pb5 bg-{{ page.home-section-4-background-color }}">
+    <div class="mw8 center pa4">
+        <h2>
+            {{ page.home-section-4-header }}
+        </h2>
+        <hr class="border border--{{ page.home-section-4-divider-color }}">
+            <p>
+                {{ page.home-section-4-body | markdownify }}
+            </p>
+            <ul class="ma0 pa0 sponsor-grid">
+                {% assign sorted_sponsors = site.sponsors %}
+            {% for posts in sorted_sponsors %}
+            {% if posts.is-featured-on-home-page == true %}
+                <li class="list-none dim">
+                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                        </img>
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </hr>
+    </div>
+</section>
