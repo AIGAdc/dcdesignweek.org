@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- Section 1: Hero -->
+<!-- section: hero -->
 <section class="flex bg-black white pt4 pa3">
     <div class="flex-auto self-center mw8 center tc">
         <p class="fw9" style="font-size: 14px;">
@@ -17,6 +17,7 @@ layout: default
         </img>
     </div>
 </section>
+<!-- section: hero carousel -->
 <section class="slider">
     <span class="mask-left">
         <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
@@ -79,43 +80,28 @@ layout: default
         </div>
     </div>
 </section>
-<!-- featured: events -->
+<!-- section: featured events -->
 <section class="events mb5 mb6-l cf relative">
-  <div class="mw8 center pa3">
-    <h2>{{ page.home-events-header }}</h2>
-    <hr>
-    <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
-      {% assign sorted = site.events-carnegie %}
+    <div class="mw8 center pa3">
+        <h2>
+            {{ page.home-events-header }}
+        </h2>
+        <hr>
+            <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
+                {% assign sorted = site.events-carnegie %}
       {% for posts in sorted %}
       {% if posts.is-featured-on-home-page == true %}
       {% include partials/events/card/content.html %}
       {% endif %}
       {% endfor %}
-    </ul>
-    <a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
-      {{page.home-events-button-text}}
-    </a>
-  </div>
-</section>
-<!-- Section 2: A Look Back on DCDW 2018 -->
-<section class="pv5 bg-{{ page.home-section-2-background-color }}">
-    <div class="mw8 center pa4">
-        <h2>
-            {{ page.home-section-2-header }}
-        </h2>
-        <hr class="border border--{{ page.home-section-2-divider-color }}">
-            <p class="copy">
-                {{ page.home-section-2-body | markdownify }}
-            </p>
-            <div class="tc">
-                <a class="button button__{{ page.home-section-2-button-type }} button__{{ page.home-section-2-button-type }}--{{ page.home-section-2-button-color }} mt4" href="{{ page.home-section-2-button-url }}" rel="noopener" target="_blank">
-                    {{ page.home-section-2-button }}
-                </a>
-            </div>
+            </ul>
+            <a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
+                {{page.home-events-button-text}}
+            </a>
         </hr>
     </div>
 </section>
-<!-- Section 3: 2018 Partner & Sponsors -->
+<!-- section: partners + sponsors -->
 <section class="pt5 bg-{{ page.home-section-3-background-color }}" id="sponsor">
     <div class="mw8 center pa4">
         <h2>
@@ -143,32 +129,6 @@ layout: default
                     {{ page.home-section-3-button }}
                 </a>
             </div>
-        </hr>
-    </div>
-</section>
-<!-- Section 4: Chapter Sponsors -->
-<section class="pb5 bg-{{ page.home-section-4-background-color }}">
-    <div class="mw8 center pa4">
-        <h2>
-            {{ page.home-section-4-header }}
-        </h2>
-        <hr class="border border--{{ page.home-section-4-divider-color }}">
-            <p>
-                {{ page.home-section-4-body | markdownify }}
-            </p>
-            <ul class="ma0 pa0 sponsor-grid">
-                {% assign sorted_sponsors = site.sponsors %}
-            {% for posts in sorted_sponsors %}
-            {% if posts.is-featured-on-home-page == true %}
-                <li class="list-none dim">
-                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
-                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
-                        </img>
-                    </a>
-                </li>
-                {% endif %}
-            {% endfor %}
-            </ul>
         </hr>
     </div>
 </section>
