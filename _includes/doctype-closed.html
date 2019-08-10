@@ -5,7 +5,7 @@
                 {{ site.data.footer.subscribe.body | markdownify }}
             </p>
             {% include 3rd-party/mailchimp/form.html %}
-            {% include 3rd-party/mailchimp/scripts.html %}
+			{% include 3rd-party/mailchimp/scripts.html %}
         </div>
     </section>
     <section class="site-footer__volunteer pv5">
@@ -48,26 +48,26 @@
 </footer>
 <script>
     //Offside.js minimal set
-    var myOffside = offside('#mobile-menu', {
-        slidingElementsSelector: '#site-container',
-        buttonsSelector: '#mobile-menu-trigger',
-        slidingSide: 'right' // String: Offside element pushed on left or right
-    });
+	var myOffside = offside('#mobile-menu', {
+		slidingElementsSelector: '#site-container',
+		buttonsSelector: '#mobile-menu-trigger',
+		slidingSide: 'right' // String: Offside element pushed on left or right
+	});
 </script>
 <script>
     var elem = document.querySelector('.carousel');
-    var flkty = new Flickity( elem, {
-      // options
-      cellAlign: 'left',
-      contain: true,
-      wrapAround: true,
-      pageDots: false
-    });
+	var flkty = new Flickity( elem, {
+	// options
+		cellAlign: 'center',
+		contain: true,
+		wrapAround: true,
+		pageDots: false,
+		draggable: false
+	});
 
-    // element argument can be a selector string
-    //   for an individual element
-    var flkty = new Flickity( '.carousel', {
-      // options
-      cellSelector: '.carousel-cell'
-    });
+	// element argument can be a selector string
+	//	for an individual element
+	var flkty = new Flickity( '.carousel', {
+	  // options
+	});
 </script>
