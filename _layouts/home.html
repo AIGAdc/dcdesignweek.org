@@ -81,12 +81,12 @@ layout: default
     </div>
 </section>
 <!-- section: featured events -->
-<section id="events" class="events mb5 mb6-l cf relative">
+<section class="pt5 bg-{{ page.home-section-3-background-color }}" id="events">
     <div class="mw8 center pa3">
         <h2>
-            {{ page.home-events-header }}
+            {{ page.home-section-3-header }}
         </h2>
-        <hr>
+        <hr class="border border--{{ page.home-section-3-divider-color }}">
             <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
                 {% assign sorted = site.events-carnegie %}
       {% for posts in sorted %}
