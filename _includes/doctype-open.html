@@ -18,8 +18,8 @@
     <body>
         <!-- wrapper for site content that is shifted when mobile menu is triggered -->
         <main class="{{ page.layout }}-layout wysiwyg" id="site-container">
-            <header class="site-header bg-white ph2 ph4-l pv3">
-                <nav class="flex flex-row items-center mw8 center">
+            <header class="site-header bg-white pv2 ph3">
+                <nav class="flex flex-row items-center">
                     <div class="site-header__logo">
                         <a class="ma0" href="/">
                             <img src="{{ site.uploadurl }}site-logo.png">
@@ -30,7 +30,7 @@
                         <ul class="list flex-auto ma0 pl0 dn db-l tr">
                             {% for link in site.data.navigation.primary-nav %}
                             <li class="dib link">
-                                <a class="btn btn--header-link" href="{{ link.url }}">
+                                <a class="button button__{{ link.button-type }} button__{{ link.button-type }}--{{ link.button-color }}" href="{{ link.url }}">
                                     {{ link.title }}
                                 </a>
                             </li>
@@ -43,8 +43,5 @@
                             </button>
                         </div>
                     </div>
-                    <a class="button button__border button__border--crusta" href="#subscribe">
-                        Get Updates
-                    </a>
                 </nav>
             </header>

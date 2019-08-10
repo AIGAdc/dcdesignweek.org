@@ -3,12 +3,15 @@
     cursor: pointer !important;
     display: inline-block;
     font-weight: 700;
-    padding: 0px 16px;
+    padding: 0px 32px;
     transition: opacity 150ms ease-in;
     &__solid, &__border {
         background-color: transparent;
         border: solid 4px transparent;
         color: $black;
+    }
+    &__link {
+        padding: 0 16px;
     }
     &__solid--mauve {
         background-color: $mauve;
@@ -40,6 +43,16 @@
     &__border--aquamarine {
         border: solid 4px $aquamarine;
     }
+    &__solid--black {
+        background-color: $black;
+    }
+    &__border--black {
+        border: solid 4px $black;
+    }
+    &__link--black {
+        background-color: transparent;
+        color: $black;
+    }
 }
 a:hover, .button:hover {
     opacity: 0.5;
@@ -48,7 +61,5 @@ a:focus, .button:focus {
     outline: dotted 4px $black;
 }
 @media screen and (min-width: 640px) {
-    .button {
-        padding: 0px 48px;
-    }
+
 }

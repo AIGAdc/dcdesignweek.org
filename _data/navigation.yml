@@ -2,20 +2,28 @@
 
 # primary nav
 primary-nav:
-# - title: "Events"
-#   url: /events/
-# - title: "Map"
-#   url: /map/
-  - title: "Pop Up Shop"
-    url: /pop-up-shop/
+# - title: "Pop Up Shop"
+#   url: /pop-up-shop/
+  - title: "Carnegie x DCDW"
+    url: /carnegie/
+    button-type: link 
+    button-color: black
   - title: "About"
     url: /about/
-  - title: "Sponsors"
-    url: /sponsors/
-  - title: "Volunteer"
-    url: /volunteer/
-  - title: "Carnegie x DCDW"
-    url: #
+    button-type: link 
+    button-color: black
+  - title: "Contact Us"
+    url: mailto:designweek@dc.aiga.org
+    button-type: link 
+    button-color: black
+  - title: "Events"
+    url: "/#events"
+    button-type: border
+    button-color: black
+# - title: "Sponsors"
+#   url: /sponsors/
+# - title: "Volunteer"
+#   url: /volunteer/
 
 # holding site navigation
 holding-site:
