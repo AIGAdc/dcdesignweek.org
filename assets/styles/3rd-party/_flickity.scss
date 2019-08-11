@@ -137,7 +137,7 @@ https://flickity.metafizzy.co
     width: auto;
     margin: auto;
     max-height: 144px;
-	margin-bottom: -128px;
+    margin-bottom: -128px;
 }
 .mask-left, .mask-right {
     position: absolute;
@@ -157,20 +157,20 @@ https://flickity.metafizzy.co
     display: block;
 }
 @media screen and (min-width: 767px) {
-	#slider-mask {
-    height: 120px;
-}
+    #slider-mask {
+        height: 120px;
+    }
 }
 /* carousel height */
+
 .slider {
-  height: 75vh;
+    height: 40vh;
 }
-
 /* cell inherit height from slider */
-.slider-cell {
-  height: 100%;
-}
 
+.slider-cell {
+    height: 100%;
+}
 .slider-cell {
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -185,36 +185,24 @@ https://flickity.metafizzy.co
     background-image: url("/uploads/home-header-gogo.png");
 }
 @media screen and (min-width: 1023px) {
-	/* carousel height */
-.slider {
-  height: 40vh;
-}
+    .slider {
+        height: 50vh;
+    }
     .slider-cell, .slider-cell--fish-market, .slider-cell--gogo {
         background-size: contain;
     }
 }
 @media screen and (min-width: 1280px) {
-    .slider-cell, .slider-cell--fish-market, .slider-cell--gogo {
-        min-height: 568px;
-        max-height: 568px;
+    .slider {
+        height: 60vh;
     }
     #slider-mask {
         height: 144px;
     }
 }
-@media screen and (min-width: 1440px) {
-    .slider-cell, .slider-cell--fish-market, .slider-cell--gogo {
-        min-height: 640px;
-        max-height: 640px;
-    }
+@media screen and (min-width: 1650px) {
     #slider-mask {
-        height: 200px;
-    }
-}
-@media screen and (min-width: 1920px) {
-    .slider-cell, .slider-cell--fish-market, .slider-cell--gogo {
-        min-height: 768px;
-        max-height: 768px;
+        height: 288px;
     }
 }
 /* flickity-fade */
@@ -232,6 +220,12 @@ Special thanks to @laurelstreng for this quick/dirty fix:
 https://github.com/metafizzy/flickity-fade/issues/1#issuecomment-486778382
 */
 
+.slider {
+    animation-duration: 0.2s;
+    animation-name: flicker;
+    animation-iteration-count: 3;
+    overflow: hidden;
+}
 .slider-cell {
     opacity: 0 !important;
     transition: opacity 0.5s ease !important;
@@ -243,4 +237,12 @@ https://github.com/metafizzy/flickity-fade/issues/1#issuecomment-486778382
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: 1fr 2fr 1fr;
+}
+@keyframes flicker {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
 }
