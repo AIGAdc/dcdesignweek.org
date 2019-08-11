@@ -1,0 +1,45 @@
+.text-over-image {
+    display: grid;
+}
+@media screen and (min-width: 767px) {
+    .text-over-image {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: minmax(300px, 1fr);
+    }
+    .text-over-image__background {
+        grid-column: 1/9;
+        grid-row: 1/ span 4;
+    }
+    .text-over-image__content {
+        background-color: $white;
+        grid-column: 2/span 4;
+        grid-row: 3;
+        z-index: 100;
+    }
+}
+/* featured events */
+
+.sponsor-grid, .sponsorship-tier__list {
+    display: grid;
+    grid-gap: 1rem;
+    /* Special thanks to this article from Evan Minto on 
+    Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
+    /* Partially responsive fallback */
+    grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
+    /* Fully responsive version */
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+    margin: 0;
+    padding: 0;
+}
+.featured-events-carnegie-list {
+    display: grid;
+    grid-gap: 2rem;
+    /* Special thanks to this article from Evan Minto on 
+    Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
+    /* Partially responsive fallback */
+    grid-template-columns: repeat(auto-fit, minmax(calc(10% + 13rem), 1fr));
+    /* Fully responsive version */
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+    margin: 0;
+    padding: 0;
+}

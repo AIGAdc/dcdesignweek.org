@@ -17,7 +17,7 @@ primary-nav:
     button-color: black
   - title: "Events"
     url: "/#events"
-    button-type: border
+    button-type: link
     button-color: black
 # - title: "Sponsors"
 #   url: /sponsors/

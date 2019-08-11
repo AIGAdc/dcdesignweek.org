@@ -1,0 +1,50 @@
+<!-- featured: sponsors -->
+<section class="featured-events-carnegie mv5 mv6-l">
+    <h2>
+        Sundays at Carnegie
+    </h2>
+    <hr/>
+    <ul class="featured-events-carnegie-list list ma0 pa0">
+        {% assign sorted_events-carnegie = site.events-carnegie %}
+        {% for posts in sorted_events-carnegie %}
+        <li class="list-none">
+            <a class="db border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
+                <div class="flex flex-column">
+                    <!-- card image -->
+                    <div class="bg-black flex-auto">
+                        <!-- sold out -->
+                        {% if posts.is-sold-out == true %}
+                        <div class="sold-out absolute top-0 right-0 bottom-0 left-0">
+                        </div>
+                        {% endif %}
+                        <img src="{{ posts.image }}">
+                        </img>
+                    </div>
+                    <!-- card details -->
+                    <div class="black bg-white pa3 flex-auto">
+                        <h3>
+                            {{ posts.title }}
+                        </h3>
+                        <hr/>
+                        <p>
+                            {{ posts.event.date | date: "%A, %B %d"}}
+                        </p>
+                        <p>
+                            {{ posts.event.start-time }} - {{ posts.event.end-time }}
+                        </p>
+                        <p>
+                            {{ posts.event.venue-name }}
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% if page.layout == "carnegie" %}
+    {% else %}
+    <a class="button button__solid--lightning-yellow mt4" href="mailto:{{ page.third-tier-button-url }}" target="_top">
+        Button Text{{ page.third-tier-button }}
+    </a>
+    {% endif %}
+</section>

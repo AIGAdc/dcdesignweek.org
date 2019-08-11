@@ -86,27 +86,9 @@ layout: default
         </div>
     </div>
 </section>
-<!-- section: featured events -->
-<section class="pt5 bg-{{ page.home-section-3-background-color }}" id="events">
-    <div class="mw8 center pa3">
-        <h2>
-            {{ page.home-section-3-header }}
-        </h2>
-        <hr class="border border--{{ page.home-section-3-divider-color }}">
-            <ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
-                {% assign sorted = site.events-carnegie %}
-      {% for posts in sorted %}
-      {% if posts.is-featured-on-home-page == true %}
-      {% include partials/events/card/content.html %}
-      {% endif %}
-      {% endfor %}
-            </ul>
-            <a class="button button__{{ page.home-section-3-button-type }} button__{{ page.home-section-3-button-type }}--{{ page.home-section-3-button-color }} mt4" href="{{ page.home-section-3-button-url }}">
-                Button Here
-            </a>
-        </hr>
-    </div>
-</section>
+
+{% include section-featured-events-carnegie.html %}
+
 <!-- section: partners + sponsors -->
 <section class="pt5 bg-{{ page.home-section-3-background-color }}" id="sponsor">
     <div class="mw8 center pa4">
