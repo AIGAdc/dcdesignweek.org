@@ -17,6 +17,13 @@
         z-index: 100;
     }
 }
+
+i, .svg-inline--fa {
+    background-color: $lightning-yellow;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
 /* featured events */
 
 .sponsor-grid, .sponsorship-tier__list {
@@ -31,7 +38,7 @@
     margin: 0;
     padding: 0;
 }
-.featured-events-carnegie-list {
+.event-cards {
     display: grid;
     grid-gap: 2rem;
     /* Special thanks to this article from Evan Minto on 
@@ -42,4 +49,32 @@
     grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
     margin: 0;
     padding: 0;
+}
+.event-card {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.event-card__link {}
+.event-card__image {
+    background-color: $black;
+}
+.event-card__image figure {
+    margin: 0;
+    padding: 0;
+}
+.event-card__details {
+    background-color: $white;
+    color: $black;
+    padding: 1rem;
+}
+.event-card__details h3 {
+    line-height: 1.6rem;
+}
+.event-card__details hr {
+    margin-bottom: 1rem;
+}
+.event-card__details p {
+    font-weight: 400;
+    margin: 0 0 0.25rem 0;
 }

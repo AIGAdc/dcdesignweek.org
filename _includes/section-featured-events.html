@@ -1,0 +1,54 @@
+<section class="featured-events">
+    <h2>
+        Sundays at Carnegie
+    </h2>
+    <hr/>
+    <ul class="event-cards">
+        {% comment %}
+        {% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}
+        {% endcomment %}
+        {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
+        {% for posts in sorted_events-carnegie %}
+        <li class="event-card">
+            <a class="event-card__link db border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
+                <div class="event-card__image flex-auto">
+                    {% if posts.is-sold-out == true %}
+                    <div class="sold-out absolute top-0 right-0 bottom-0 left-0 script">
+                    </div>
+                    {% endif %}
+                    <figure>
+                        <img src="{{ posts.image }}"/>
+                    </figure>
+                </div>
+                <div class="event-card__details flex-auto">
+                    <h3>
+                        {{ posts.title }}
+                    </h3>
+                    <hr/>
+                    <p>
+                        <i class="fas fa-calendar-day">
+                        </i>
+                        {{ posts.event.date | date: "%A, %B %d"}}
+                    </p>
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        {{ posts.event.start-time }} - {{ posts.event.end-time }}
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt">
+                        </i>
+                        {{ posts.event.venue-name }}
+                    </p>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% if page.layout == "carnegie" %}
+    {% else %}
+    <a class="button button__solid--lightning-yellow mt4" href="mailto:{{ page.third-tier-button-url }}" target="_top">
+        Button Text{{ page.third-tier-button }}
+    </a>
+    {% endif %}
+</section>

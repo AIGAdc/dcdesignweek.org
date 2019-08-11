@@ -1,7 +1,7 @@
 ---
-title: Talking About Feelings with Adam J. Kurtz Carnegie
+title: Carnegie 3
 date: 2018-09-26 20:54:00 -04:00
-position: 27
+position: 3
 description: |
   In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author Adam J. Kurtz (aka ADAMJK) for a hilarious dissection of his accidental career and lessons learned along the way
 image: "/uploads/event_adamJK-e974f0.jpg"
