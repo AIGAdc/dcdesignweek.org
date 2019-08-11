@@ -2,80 +2,80 @@
 layout: default
 ---
 <!-- section: hero -->
-<section class="flex bg-black white pt4 pa3">
-    <div class="flex-auto self-center mw8 center tc">
-        <p class="fw9" style="font-size: 14px;">
+<section class="flex flex-column bg-black white pt3-l debug">
+    <div class="fw9 tc relative pa3">
+        <small>
             {{ page.home-section-1-tagline }}
-        </p>
-        <h1 class="mv4" style="font-size: 80px;">
+        </small>
+        <h1 class="headline lh-title">
             {{ page.home-section-1-header }}
         </h1>
-        <p class="mw7 center fw9">
+        <p>
             {{ page.home-section-1-subheader }}
         </p>
         <img class="slider-lightbulb" src="/uploads/home-header-lightbulb.png">
         </img>
     </div>
-</section>
-<!-- section: hero carousel -->
-<section class="slider">
-    <span class="mask-left">
-        <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <style>
-                    .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
-                </style>
-            </defs>
-            <title>
-                Mask
-            </title>
-            <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
-            </path>
-            <path class="cls-2" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0V641">
-            </path>
-        </svg>
-    </span>
-    <span class="mask-right">
-        <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <style>
-                    .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
-                </style>
-            </defs>
-            <title>
-                Mask
-            </title>
-            <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
-            </path>
-            <path class="cls-2" d="M1566,641V0H0S223.22,207.65,537.44,287s407.29-11.94,673.35,72S1566,641,1566,641">
-            </path>
-        </svg>
-    </span>
-    <div class="carousel">
-        <div class="carousel-cell carousel-cell--fish-market bg-aquamarine flex">
-            <div class="flex-auto self-center mw8 center tc">
-                <small class="fw9" style="font-size: 14px;">
-                    {{ page.home-section-1-tagline }}
-                </small>
-                <h1 class="mv4" style="font-size: 80px;">
-                    {{ page.home-section-1-header }}
-                </h1>
-                <p class="mw7 center fw9">
-                    {{ page.home-section-1-subheader }}
-                </p>
+    <!-- sub-section: slider -->
+    <div class="relative bg-black">
+        <span class="mask-left">
+            <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <style>
+                        .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
+                    </style>
+                </defs>
+                <title>
+                    Mask
+                </title>
+                <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
+                </path>
+                <path class="cls-2" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0V641">
+                </path>
+            </svg>
+        </span>
+        <span class="mask-right">
+            <svg data-name="Layer 1" id="slider-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <style>
+                        .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
+                    </style>
+                </defs>
+                <title>
+                    Mask
+                </title>
+                <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
+                </path>
+                <path class="cls-2" d="M1566,641V0H0S223.22,207.65,537.44,287s407.29-11.94,673.35,72S1566,641,1566,641">
+                </path>
+            </svg>
+        </span>
+        <div class="slider">
+            <div class="slider-cell slider-cell--fish-market bg-aquamarine pa3 flex" id="fish-market">
+                <div class="mw7 center tc black flex-auto self-center">
+                    <p class="fw9">
+                        DC is facts-inating!
+                    </p>
+                    <h3 class="mv4 lh-title">
+                        The Maine Avenue Fish Market is the oldest continuously operating fish market in the United States, and predates NYC's own Fulton Fish Market.
+                    </h3>
+                    <a class="button button__border--black dib tc" href="#go-go">
+                        Next Fact
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="carousel-cell carousel-cell--gogo bg-lightning-yellow flex">
-            <div class="flex-auto self-center mw8 center tc">
-                <p class="fw9" style="font-size: 14px;">
-                    {{ page.home-section-1-tagline }}
-                </p>
-                <h1 class="mv4" style="font-size: 80px;">
-                    {{ page.home-section-1-header }}
-                </h1>
-                <p class="mw7 center fw9">
-                    {{ page.home-section-1-subheader }}
-                </p>
+            <div class="slider-cell slider-cell--gogo bg-lightning-yellow pa3 flex" id="go-go">
+                <div class="mw7 center tc black flex-auto self-center">
+                    <p class="fw9">
+                        DC is facts-inating!
+                    </p>
+                    <h3 class="mv4 lh-title">
+                        In the early 1970's, musical pioneer Chuck Brown began laying the foundation for a new and innovatinve sound in Washington, DC, called Go-Go music.
+                    </h3>
+                    <a class="button button__border--black dib tc" href="#fish-market">
+                        Next Fact
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -95,8 +95,8 @@ layout: default
       {% endif %}
       {% endfor %}
             </ul>
-            <a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
-                {{page.home-events-button-text}}
+            <a class="button button__{{ page.home-section-3-button-type }} button__{{ page.home-section-3-button-type }}--{{ page.home-section-3-button-color }} mt4" href="{{ page.home-section-3-button-url }}">
+                Button Here
             </a>
         </hr>
     </div>

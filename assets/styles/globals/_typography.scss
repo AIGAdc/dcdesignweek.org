@@ -17,15 +17,25 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     text-rendering: optimizeLegibility;
 }
+.wysiwyg .headline {
+    font-size: 32px;
+}
 .wysiwyg h1 {
     font-size: $font-size-40;
 }
 .wysiwyg h2 {
     font-size: $font-size-24;
 }
+.wysiwyg h3 {
+    font-size: $font-size-20;
+}
 .wysiwyg p {
     font-size: $font-size-16;
     line-height: 1.6rem;
+}
+.wysiwyg small {
+    font-size: $font-size-10;
+    line-height: 0.4rem;
 }
 .wysiwyg .button {
     font-size: $font-size-16;
@@ -38,11 +48,22 @@ h1, h2, h3, h4, h5, h6 {
     border: solid 4px $crusta;
 }
 @media screen and (min-width: 1024px) {
+    .wysiwyg .headline {
+        font-size: 80px;
+        margin-top: -16px;
+        margin-bottom: -36px;
+    }
     .wysiwyg h1 {
         font-size: $font-size-48;
     }
     .wysiwyg h2 {
         font-size: $font-size-32;
+    }
+    .wysiwyg h3 {
+        font-size: $font-size-24;
+    }
+    .wysiwyg small {
+        font-size: $font-size-12;
     }
     .wysiwyg p {
         font-size: $font-size-20;
