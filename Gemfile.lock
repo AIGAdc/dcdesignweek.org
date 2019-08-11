@@ -46,7 +46,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.6.0)
+    rouge (3.8.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -64,4 +64,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.17.2
+   2.0.2
