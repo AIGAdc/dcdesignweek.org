@@ -1,8 +1,8 @@
-<section class="featured-events">
+<div class="block-featured-events mt4 mt5-l">
     <h2>
-        Sundays at Carnegie
+        {{ page.events-header }}
     </h2>
-    <hr/>
+    <hr class="border border--crusta"/>
     <ul class="event-cards">
         {% comment %}
         {% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}
@@ -47,8 +47,8 @@
     </ul>
     {% if page.layout == "carnegie" %}
     {% else %}
-    <a class="button button__solid--lightning-yellow mt4" href="mailto:{{ page.third-tier-button-url }}" target="_top">
-        Button Text{{ page.third-tier-button }}
+    <a class="button button__{{ page.events-button-type }}--{{ page.events-button-color }} mt4" href="{{ page.events-button-url }}">
+        {{ page.events-button }}
     </a>
     {% endif %}
-</section>
+</div>

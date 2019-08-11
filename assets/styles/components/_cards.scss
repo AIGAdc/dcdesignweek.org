@@ -72,3 +72,43 @@
         transform: translateX(-100%);
     }
 }
+.event-cards {
+    display: grid;
+    grid-gap: 2rem;
+    /* Special thanks to this article from Evan Minto on 
+    Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
+    /* Partially responsive fallback */
+    grid-template-columns: repeat(auto-fit, minmax(calc(10% + 13rem), 1fr));
+    /* Fully responsive version */
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+    margin: 0;
+    padding: 0;
+}
+.event-card {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.event-card__link {}
+.event-card__image {
+    background-color: $black;
+}
+.event-card__image figure {
+    margin: 0;
+    padding: 0;
+}
+.event-card__details {
+    background-color: $white;
+    color: $black;
+    padding: 1rem;
+}
+.event-card__details h3 {
+    line-height: 1.6rem;
+}
+.event-card__details hr {
+    margin-bottom: 1rem;
+}
+.event-card__details p {
+    font-weight: 400;
+    margin: 0 0 0.25rem 0;
+}

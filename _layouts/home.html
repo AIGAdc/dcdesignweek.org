@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- section: hero -->
-<section class="flex flex-column bg-black white pt3-l">
+<section class="flex flex-column bg-black white pt3">
     <div class="fw9 tc relative pa3">
         <small>
             {{ page.home-section-1-tagline }}
@@ -86,39 +86,7 @@ layout: default
         </div>
     </div>
 </section>
-
-<div class="mw8 center mt5 pa3">
-    {% include section-featured-events.html %}
-</div>
-
-<!-- section: partners + sponsors -->
-<section class="pt5 bg-{{ page.home-section-3-background-color }}" id="sponsor">
-    <div class="mw8 center pa4">
-        <h2>
-            {{ page.home-section-3-header }}
-        </h2>
-        <hr class="border border--{{ page.home-section-3-divider-color }}">
-            <p>
-                {{ page.home-section-3-body | markdownify }}
-            </p>
-            <ul class="ma0 pa0 sponsor-grid">
-                {% assign sorted_sponsors = site.sponsors %}
-            {% for posts in sorted_sponsors %}
-            {% if posts.is-second-tier == true %}
-                <li class="list-none dim">
-                    <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
-                        <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
-                        </img>
-                    </a>
-                </li>
-                {% endif %}
-            {% endfor %}
-            </ul>
-            <div class="tc">
-                <a class="button button__{{ page.home-section-3-button-type }} button__{{ page.home-section-3-button-type }}--{{ page.home-section-3-button-color }} mt4" href="{{ page.home-section-3-button-url }}">
-                    {{ page.home-section-3-button }}
-                </a>
-            </div>
-        </hr>
-    </div>
+<section class="mw8 center pa3">
+    {% include block-featured-events.html %}
+    {% include block-featured-sponsors.html %}
 </section>

@@ -1,4 +1,4 @@
-<footer class="site-footer mt5">
+<footer class="site-footer mt4 mt5-l">
     <section class="site-footer__mailchimp pv5 bg-lightning-yellow-light" id="subscribe">
         <div class="mw7 center pa4">
             <p>
@@ -47,14 +47,13 @@
     </section>
 </footer>
 <script>
-    //Offside.js minimal set
+    // offside
     var myOffside = offside('#mobile-menu', {
         slidingElementsSelector: '#site-container',
         buttonsSelector: '#mobile-menu-trigger',
         slidingSide: 'right' // String: Offside element pushed on left or right
     });
-</script>
-<script>
+    // flickity
     var elem = document.querySelector('.slider');
     var flkty = new Flickity( elem, {
         // options
@@ -69,7 +68,6 @@
         imagesLoaded: true,
         setGallerySize: false
     });
-
     // element argument can be a selector string
     //  for an individual element
     var flkty = new Flickity( '.slider', {

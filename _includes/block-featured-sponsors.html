@@ -1,0 +1,27 @@
+<div class="block-featured-sponsors mt4 mt5-l" id="sponsor">
+    <h2>
+        {{ page.sponsors-header }}
+    </h2>
+    <hr class="border border--crusta"/>
+    <p>
+        {{ page.sponsors-body | markdownify }}
+    </p>
+    <ul class="ma0 pa0 sponsor-grid">
+        {% assign sorted_sponsors = site.sponsors %}
+            {% for posts in sorted_sponsors %}
+            {% if posts.is-second-tier == true %}
+        <li class="list-none dim">
+            <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                </img>
+            </a>
+        </li>
+        {% endif %}
+            {% endfor %}
+    </ul>
+    <div class="tc">
+        <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }} mt4" href="{{ page.sponsors-button-url }}">
+            {{ page.sponsors-button }}
+        </a>
+    </div>
+</div>
