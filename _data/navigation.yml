@@ -1,9 +1,6 @@
 # This yml file controls the navigation links across the DC Design Week Website
-# primary nav
 primary-nav:
-# - title: "Pop Up Shop"
-#   url: /pop-up-shop/
-  - title: "Carnegie x DCDW"
+  - title: "Carnegie"
     url: /carnegie/
     button-type: link 
     button-color: black
@@ -22,10 +19,5 @@ primary-nav:
 #   url: /sponsors/
 # - title: "Volunteer"
 #   url: /volunteer/
-
-# holding site navigation
-holding-site:
-  - title: "2016"
-    url: https://2016.dcdesignweek.org
-  - title: "2017"
-    url: https://github.com/AIGAdc/2017.dcdesignweek.org
+# - title: "Pop Up Shop"
+#   url: /pop-up-shop/
