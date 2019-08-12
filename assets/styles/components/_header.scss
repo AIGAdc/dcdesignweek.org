@@ -1,4 +1,5 @@
 .site-header {
+    border-bottom: solid 2px $crusta;
     position: sticky;
     position: -webkit-sticky;
     /*needed for Safari*/
@@ -7,12 +8,4 @@
 }
 .site-header__logo {
     max-width: 144px;
-}
-.site-header__logo img {
-    display: block;
-}
-@media screen and (min-width: 1024px) {
-    .site-header__logo {
-        max-width: 200px;
-    }
 }

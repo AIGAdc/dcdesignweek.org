@@ -62,21 +62,21 @@ home-section-1-button-right-url: "#sponsor"
 home-section-1-button-right-type: border
 home-section-1-button-right-color: mauve
 
-events-header: Sundays at Carnegie
+events-header: Three Sundays at Carnegie
 events-button: Learn More
 events-button-url: /carnegie/
 events-button-type: border
 events-button-color: lightning-yellow
 
-sponsors-background-color: white
-sponsors-header: 2018 Partner & Sponsors
+sponsors-header: Call for 2019 Sponsors
 sponsors-divider-color: lightning-yellow
 sponsors-body: |
-  DC Design Week is produced by AIGA DC, a 100% volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
-
-  We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to our 2018 partners and sponsors for your support and commitment to the DC design community.
-
-  We couldn't do it without you!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 sponsors-button-left: View All Sponsors
 sponsors-button-left-url: /sponsors/
 sponsors-button-left-type: border

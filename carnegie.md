@@ -1,7 +1,7 @@
 ---
-title: Carnegie x DCDW
+title: DCDW x Carnegie Library
 published: true
-events-header: Sundays at Carnegie
+events-header: Three Sundays at Carnegie
 layout: carnegie
 ---
 

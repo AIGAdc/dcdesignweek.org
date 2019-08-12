@@ -6,6 +6,7 @@
     <p>
         {{ page.sponsors-body | markdownify }}
     </p>
+    {% comment %}
     <ul class="ma0 pa0 sponsor-grid">
         {% assign sorted_sponsors = site.sponsors %}
             {% for posts in sorted_sponsors %}
@@ -19,13 +20,15 @@
         {% endif %}
             {% endfor %}
     </ul>
+    {% endcomment %}
     <div class="tc">
-        <a class="button button__{{ page.sponsors-button-left-type }} button__{{ page.sponsors-button-left-type }}--{{ page.sponsors-button-left-color }} mt4" href="{{ page.sponsors-button-left-url }}">
-            {{ page.sponsors-button-left }}
-        </a>
         {% if page.layout == "home" %}
         <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }} mt4" href="{{ page.sponsors-button-url }}">
             {{ page.sponsors-button }}
+        </a>
+        {% else %}
+        <a class="button button__{{ page.sponsors-button-left-type }} button__{{ page.sponsors-button-left-type }}--{{ page.sponsors-button-left-color }} mt4" href="{{ page.sponsors-button-left-url }}">
+            {{ page.sponsors-button-left }}
         </a>
         {% endif %}
     </div>
