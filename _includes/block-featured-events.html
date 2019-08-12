@@ -47,8 +47,10 @@
     </ul>
     {% if page.layout == "carnegie" %}
     {% else %}
-    <a class="button button__{{ page.events-button-type }}--{{ page.events-button-color }} mt4" href="{{ page.events-button-url }}">
-        {{ page.events-button }}
-    </a>
+    <div class="tc">
+        <a class="button button__{{ page.events-button-type }}--{{ page.events-button-color }} shadow shadow-reverse--lightning-yellow mt4" href="{{ page.events-button-url }}">
+            {{ page.events-button }}
+        </a>
+    </div>
     {% endif %}
 </div>

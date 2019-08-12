@@ -77,7 +77,11 @@ sponsors-body: |
   We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to our 2018 partners and sponsors for your support and commitment to the DC design community.
 
   We couldn't do it without you!
-sponsors-button: Become a sponsor
+sponsors-button-left: View All Sponsors
+sponsors-button-left-url: /sponsors/
+sponsors-button-left-type: border
+sponsors-button-left-color: lightning-yellow
+sponsors-button: Become A Sponsor
 sponsors-button-url: mailto:designweek@dc.aiga.org?subject=DCDW 2019 Sponsorship
 sponsors-button-type: border
 sponsors-button-color: lightning-yellow
