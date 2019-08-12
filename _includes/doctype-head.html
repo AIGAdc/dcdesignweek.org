@@ -5,15 +5,13 @@
 <title>
     {{ page.title }} - {{site.title}}
 </title>
-<link href="{{ site.uploadurl }}favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-<!-- For IE 10 and below -->
-<!-- Place favicon.ico in the root directory - no tag necessary -->
-<!-- Icon in the highest resolution we need it for -->
-<link href="/path/to/icon.png" rel="icon" sizes="192x192"/>
-<!-- Apple Touch Icon (reuse 192px icon.png) -->
-<link href="/path/to/apple-touch-icon.png" rel="apple-touch-icon"/>
-<!-- Safari Pinned Tab Icon -->
-<link color="#c396ff" href="/path/to/icon.svg" rel="mask-icon"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#c396ff">
 {% seo %}
 <!-- styles -->
 <link href="{{ site.asseturl }}styles/app.css" media="all" rel="stylesheet" type="text/css"/>
