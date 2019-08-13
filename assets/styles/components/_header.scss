@@ -1,16 +1,44 @@
 .site-header {
+    background-color: $white;
     border-bottom: solid 2px $crusta;
+    padding: $spacing-4;
     position: sticky;
     position: -webkit-sticky;
     /*needed for Safari*/
     top: 0;
-    z-index: 9999;
+    z-index: $index-5;
+}
+.site-header__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .site-header__logo {
     max-width: 144px;
+}
+.site-header__links {
+    flex-grow: 1;
+    text-align: right;
+    display: none;
+}
+.site-header__links li {
+    display: inline-block;
 }
 .site-header .button {
     font-size: $font-size-16;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+.site-header__menu {
+    flex-grow: 1;
+    text-align: right;
+    display: block;
+}
+@media screen and (min-width: 1023px) {
+    .site-header__links {
+        display: block;
+    }
+    .site-header__menu {
+        display: none;
+    }
 }

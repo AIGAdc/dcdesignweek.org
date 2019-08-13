@@ -26,6 +26,11 @@ body {
 ul[class], ol[class] {
     list-style: none;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
 /* A elements that don't have a class get default styles */
 
 a:not([class]) {
