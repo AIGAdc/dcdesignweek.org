@@ -1,6 +1,6 @@
 slide:
   - type: gogo
-    caption: DC is facts-inating!
+    caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -8,7 +8,7 @@ slide:
       consequat.
     button-url: "#vader"
   - type: vader
-    caption: DC is facts-inating!
+    caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -16,7 +16,7 @@ slide:
       consequat.
     button-url: "#bong"
   - type: bong
-    caption: DC is facts-inating!
+    caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -24,7 +24,7 @@ slide:
       consequat.
     button-url: "#fish"
   - type: fish
-    caption: DC is facts-inating!
+    caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -32,7 +32,7 @@ slide:
       consequat.
     button-url: "#court"
   - type: court
-    caption: DC is facts-inating!
+    caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
