@@ -3,7 +3,7 @@ title: Rachel Orr
 date: 2018-09-26 20:54:00 -04:00
 position: 3
 description:
-image:
+image: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapersite.com%2Fimages%2Fwallpapers%2Fdva-2560x1440-overwatch-artwork-4k-8770.jpg&f=1
 event:
   date: 2019-09-22 18:30:00 -04:00
   venue-name: 'Main Atrium - Carnegie Library'
