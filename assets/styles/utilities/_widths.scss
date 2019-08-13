@@ -1,0 +1,10 @@
+.container {
+	max-width: 1280px;
+	margin: auto;
+	padding: $spacing-16;
+}
+
+.container--small {
+	max-width: 768px;
+	margin: auto;
+}

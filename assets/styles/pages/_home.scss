@@ -1,0 +1,151 @@
+.home-hero {}
+.home-hero__content {
+    padding: $spacing-96 $spacing-16;
+    position: relative;
+    text-align: center;
+}
+.home-hero__content h1 {
+    font-size: 48px;
+}
+.home-hero__slider {
+    background-color: $black;
+    position: relative;
+}
+.home-hero__slide {
+    display: flex;
+    padding: $spacing-16;
+}
+.home-hero__slide-content {
+    align-self: center;
+    color: $black;
+    flex-grow: 1;
+    text-align: center;
+}
+.home-hero__slide-content h2 {
+	margin: $spacing-32 auto;
+}
+.lightbulb {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: -52px;
+    z-index: 999;
+    width: auto;
+    margin: auto;
+    max-height: 144px;
+    margin-bottom: -128px;
+}
+.curtain-left, .curtain-right {
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+    width: 50%;
+}
+.curtain-left {
+    left: 0;
+}
+.curtain-right {
+    right: 0;
+}
+#curtain-mask {
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+@media screen and (min-width: 767px) {
+    #curtain-mask {
+        height: 120px;
+    }
+}
+/* carousel height */
+
+.home-hero__slides {
+    height: 80vh;
+}
+/* cell inherit height from slider */
+
+.home-hero__slide {
+    height: 100%;
+}
+.home-hero__slide {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+}
+.home-hero__slide--bong {
+    background-color: $mauve;
+    background-image: url("/uploads/hero-bong.png");
+}
+.home-hero__slide--fish {
+    background-color: $aquamarine;
+    background-image: url("/uploads/hero-fish.png");
+}
+.home-hero__slide--gogo {
+    background-color: $lightning-yellow;
+    background-image: url("/uploads/hero-gogo.png");
+}
+.home-hero__slide--vader {
+    background-color: $crusta;
+    background-image: url("/uploads/hero-vader.png");
+}
+.home-hero__slide--court {
+    background-color: $hot-pink;
+    background-image: url("/uploads/hero-court.png");
+}
+/* flickity-fade */
+
+.flickity-enabled.is-fade .flickity-slider>* {
+    pointer-events: none;
+    z-index: 0;
+}
+.flickity-enabled.is-fade .flickity-slider>.is-selected {
+    pointer-events: auto;
+    z-index: 1;
+}
+/* 
+Special thanks to @laurelstreng for this quick/dirty fix:
+https://github.com/metafizzy/flickity-fade/issues/1#issuecomment-486778382
+*/
+
+.slider {
+    animation-duration: 0.2s;
+    animation-name: flicker;
+    animation-iteration-count: 3;
+    overflow: hidden;
+}
+.home-hero__slide {
+    opacity: 0 !important;
+    transition: opacity 0.5s ease !important;
+    &.is-selected {
+        opacity: 1 !important;
+    }
+}
+.slider-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+@keyframes flicker {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .home-hero__slide, .home-hero__slide--fish-market, .home-hero__slide--gogo {
+        background-size: contain;
+    }
+}
+@media screen and (min-width: 1279px) {
+    #curtain-mask {
+        height: 144px;
+    }
+}
+@media screen and (min-width: 1649px) {
+    #curtain-mask {
+        height: 288px;
+    }
+}
