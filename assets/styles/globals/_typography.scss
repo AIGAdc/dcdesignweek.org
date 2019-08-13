@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 .wysiwyg p {
     font-size: $font-size-16;
     line-height: 1.6rem;
+    margin: $spacing-16 0;
+}
+.wysiwyg p > img {
+    margin: $spacing-32 0;
 }
 .wysiwyg small {
     font-size: $font-size-10;
