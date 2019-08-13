@@ -50,7 +50,7 @@ https://flickity.metafizzy.co
 }
 .flickity-button:focus {
     outline: none;
-    box-shadow: 0 0 0 5px #19F;
+    box-shadow: 0 0 0 5px $hot-pink;
 }
 .flickity-button:active {
     opacity: 0.6;
@@ -192,7 +192,7 @@ https://flickity.metafizzy.co
         background-size: contain;
     }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
     .slider {
         height: 60vh;
     }
@@ -200,7 +200,7 @@ https://flickity.metafizzy.co
         height: 144px;
     }
 }
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1649px) {
     #slider-mask {
         height: 288px;
     }

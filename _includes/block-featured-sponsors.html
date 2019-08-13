@@ -1,4 +1,4 @@
-<div class="block-featured-sponsors mt4 mt5-l" id="sponsor">
+<div class="block block-featured-sponsors" id="sponsors">
     <h2>
         {{ page.sponsors-header }}
     </h2>
@@ -7,13 +7,13 @@
         {{ page.sponsors-body | markdownify }}
     </p>
     {% comment %}
-    <ul class="ma0 pa0 sponsor-grid">
+    <ul class="sponsor-grid">
         {% assign sorted_sponsors = site.sponsors %}
             {% for posts in sorted_sponsors %}
             {% if posts.is-second-tier == true %}
-        <li class="list-none dim">
+        <li>
             <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
-                <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
                 </img>
             </a>
         </li>
@@ -21,15 +21,14 @@
             {% endfor %}
     </ul>
     {% endcomment %}
-    <div class="tc">
-        {% if page.layout == "home" %}
-        <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }} mt4" href="{{ page.sponsors-button-url }}">
-            {{ page.sponsors-button }}
-        </a>
-        {% else %}
-        <a class="button button__{{ page.sponsors-button-left-type }} button__{{ page.sponsors-button-left-type }}--{{ page.sponsors-button-left-color }} mt4" href="{{ page.sponsors-button-left-url }}">
-            {{ page.sponsors-button-left }}
-        </a>
-        {% endif %}
-    </div>
+
+    {% if page.layout == "home" %}
+    <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }}" href="{{ page.sponsors-button-url }}">
+        {{ page.sponsors-button }}
+    </a>
+    {% else %}
+    <a class="button button__{{ page.sponsors-button-left-type }} button__{{ page.sponsors-button-left-type }}--{{ page.sponsors-button-left-color }}" href="{{ page.sponsors-button-left-url }}">
+        {{ page.sponsors-button-left }}
+    </a>
+    {% endif %}
 </div>

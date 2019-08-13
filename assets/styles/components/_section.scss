@@ -25,6 +25,7 @@ i, .svg-inline--fa {
     display: inline-block;
 }
 */
+
 /* featured events */
 
 .sponsor-grid, .sponsorship-tier__list {
@@ -38,4 +39,11 @@ i, .svg-inline--fa {
     grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
     margin: 0;
     padding: 0;
+}
+.block .button {
+    margin: $spacing-40 auto 0 auto;
+    text-align: center;
+}
+.block-featured-events, .block-featured-sponsors {
+    margin-top: $spacing-96;
 }

@@ -1,4 +1,4 @@
-<div class="block-featured-events mt4 mt5-l">
+<div class="block block-featured-events" id="events">
     <h2>
         {{ page.events-header }}
     </h2>
@@ -10,7 +10,7 @@
         {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
         {% for posts in sorted_events-carnegie %}
         <li class="event-card">
-            <a class="event-card__link db border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
+            <a class="event-card__link border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
                 <div class="event-card__image flex-auto">
                     {% if posts.is-sold-out == true %}
                     <div class="sold-out absolute top-0 right-0 bottom-0 left-0 script">
