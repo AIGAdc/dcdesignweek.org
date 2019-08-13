@@ -3,9 +3,25 @@ layout: default
 ---
 <div class="mw8 center mv4 mv5-l pa3">
 	{% include block-introduction.html %}
-	{% include pop-up-shop/section-1.html %}
-	{% include pop-up-shop/section-2.html %}
-	{% include pop-up-shop/section-3.html %}
-	{% include pop-up-shop/section-4.html %}
+	<!-- section 1: pop up shop -->
+<section class="pop-up-shop mt5">
+	<div class="pop-up-shop__background">
+		<img alt="{{ page.pop-up-shop-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}">
+		</img>
+	</div>
+	<div class="pop-up-shop__content pa3 pa4-l">
+		<h2>
+			{{ page.pop-up-shop-header }}
+		</h2>
+		<hr>
+			<p>
+				{{ page.pop-up-shop-body }}
+			</p>
+			<a class="button button__solid--mauve" href="{{ page.pop-up-shop-button-url }}" rel="noopener" target="_blank">
+				{{ page.pop-up-shop-button }}
+			</a>
+		</hr>
+	</div>
+</section>
 	{% include sponsors/featured/pop-up-shop.html %}
 </div>

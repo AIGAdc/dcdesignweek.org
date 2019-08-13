@@ -1,5 +1,6 @@
 slide:
   - type: gogo
+    shadow: mauve
     caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -8,6 +9,7 @@ slide:
       consequat.
     button-url: "#vader"
   - type: vader
+    shadow: mauve
     caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -16,6 +18,7 @@ slide:
       consequat.
     button-url: "#bong"
   - type: bong
+    shadow: mauve
     caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -24,6 +27,7 @@ slide:
       consequat.
     button-url: "#fish"
   - type: fish
+    shadow: mauve
     caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -32,6 +36,7 @@ slide:
       consequat.
     button-url: "#court"
   - type: court
+    shadow: black
     caption: Lorem ipsum dolor sit amet
     body: |
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

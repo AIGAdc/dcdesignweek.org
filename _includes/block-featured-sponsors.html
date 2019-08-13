@@ -1,4 +1,4 @@
-<div class="block block-featured-sponsors" id="sponsors">
+<div class="block block-featured-sponsors">
     <h2>
         {{ page.sponsors-header }}
     </h2>
@@ -6,11 +6,12 @@
     <p>
         {{ page.sponsors-body | markdownify }}
     </p>
-    {% comment %}
-    <ul class="sponsor-grid">
+    {% if page.layout == "home" %}
+    {% else %}
+    <ul class="grid grid--auto-4-columns">
         {% assign sorted_sponsors = site.sponsors %}
-            {% for posts in sorted_sponsors %}
-            {% if posts.is-second-tier == true %}
+        {% for posts in sorted_sponsors %}
+        {% if posts.is-featured == true %}
         <li>
             <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
                 <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
@@ -18,9 +19,9 @@
             </a>
         </li>
         {% endif %}
-            {% endfor %}
+        {% endfor %}
     </ul>
-    {% endcomment %}
+    {% endif %}
 
     {% if page.layout == "home" %}
     <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }}" href="{{ page.sponsors-button-url }}">

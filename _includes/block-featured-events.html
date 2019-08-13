@@ -2,13 +2,13 @@
     <h2>
         {{ page.events-header }}
     </h2>
-    <hr class="border border--crusta"/>
-    <ul class="event-cards">
+    <hr/>
+    <ul class="grid grid--auto-3-columns">
         {% comment %}
-        {% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}
-        {% endcomment %}
-        {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
-        {% for posts in sorted_events-carnegie %}
+		{% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}
+		{% endcomment %}
+		{% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
+		{% for posts in sorted_events-carnegie %}
         <li class="event-card">
             <a class="event-card__link border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
                 <div class="event-card__image flex-auto">
@@ -46,7 +46,7 @@
         {% endfor %}
     </ul>
     {% if page.layout == "carnegie" %}
-    {% else %}
+	{% else %}
     <div class="tc">
         <a class="button button__{{ page.events-button-type }}--{{ page.events-button-color }} mt4" href="{{ page.events-button-url }}">
             {{ page.events-button }}

@@ -47,6 +47,9 @@
         buttonsSelector: '#mobile-menu-trigger',
         slidingSide: 'right' // String: Offside element pushed on left or right
     });
+</script>
+{% if page.layout == "home" %}
+<script>
     // flickity
     var elem = document.querySelector('.home-hero__slides');
     var flkty = new Flickity( elem, {
@@ -68,3 +71,28 @@
         // options
     });
 </script>
+{% elsif page.layout == "about" %}
+<script>
+    // flickity
+    var elem = document.querySelector('.home-hero__slides');
+    var flkty = new Flickity( elem, {
+        // options
+        cellAlign: 'center',
+        contain: true,
+        wrapAround: true,
+        pageDots: true,
+        draggable: false,
+        prevNextButtons: false,
+        hash: false,
+        fade: true,
+        imagesLoaded: true,
+        setGallerySize: false,
+        autoPlay: true
+    });
+    // element argument can be a selector string
+    //  for an individual element
+    var flkty = new Flickity( '.home-hero__slides', {
+        // options
+    });
+</script>
+{% endif %}
