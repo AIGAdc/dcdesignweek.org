@@ -2,14 +2,17 @@
 .home-hero__content {
     background-color: $black;
     color: $white;
-    padding: $spacing-48 $spacing-16 0 $spacing-16;
+    padding: $spacing-16 $spacing-16 0 $spacing-16;
     position: relative;
     text-align: center;
 }
+.home-hero__content {
+    font-weight: 900;
+}
 .home-hero__content h1 {
     font-size: 48px;
-    margin-bottom: -1rem;
-    margin-top: -1rem;
+    margin-bottom: 0;
+    margin-top: -0.25rem;
 }
 .home-hero__slider {
     background-color: $black;
@@ -26,6 +29,7 @@
     text-align: center;
 }
 .home-hero__slide-content h2 {
+    font-size: $font-size-20;
     margin: $spacing-32 auto;
 }
 .lightbulb {
@@ -64,7 +68,7 @@
 /* carousel height */
 
 .home-hero__slides {
-    height: 60vh;
+    height: 70vh;
 }
 /* cell inherit height from slider */
 
@@ -139,12 +143,20 @@ https://github.com/metafizzy/flickity-fade/issues/1#issuecomment-486778382
     }
 }
 @media screen and (min-width: 1023px) {
+    .home-hero__content {
+        padding: $spacing-32 $spacing-16 0 $spacing-16;
+    }
+    .home-hero__slide-content h2 {
+        font-size: $font-size-24;
+    }
     .home-hero__slide, .home-hero__slide--fish-market, .home-hero__slide--gogo {
         background-size: contain;
     }
     .home-hero__content h1 {
         font-size: 96px;
         line-height: initial;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
     }
 }
 @media screen and (min-width: 1279px) {

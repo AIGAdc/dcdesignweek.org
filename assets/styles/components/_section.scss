@@ -17,15 +17,6 @@
         z-index: 100;
     }
 }
-/*
-i, .svg-inline--fa {
-    background-color: $lightning-yellow;
-    height: 16px;
-    width: 16px;
-    display: inline-block;
-}
-*/
-
 /* featured events */
 
 .sponsor-grid, .sponsorship-tier__list {
@@ -44,6 +35,6 @@ i, .svg-inline--fa {
     margin: $spacing-40 auto 0 auto;
     text-align: center;
 }
-.block-featured-events, .block-featured-sponsors {
-    margin-top: $spacing-96;
+.block-introduction, .block-featured-events, .block-featured-sponsors, .block-committee {
+    margin-top: 64px;
 }
