@@ -23,13 +23,7 @@
     </ul>
     {% endif %}
 
-    {% if page.layout == "home" %}
     <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }}" href="{{ page.sponsors-button-url }}">
         {{ page.sponsors-button }}
     </a>
-    {% else %}
-    <a class="button button__{{ page.sponsors-button-left-type }} button__{{ page.sponsors-button-left-type }}--{{ page.sponsors-button-left-color }}" href="{{ page.sponsors-button-left-url }}">
-        {{ page.sponsors-button-left }}
-    </a>
-    {% endif %}
 </div>
