@@ -3,6 +3,9 @@
         {{ page.events-header }}
     </h2>
     <hr/>
+    <p>
+        {{ page.events-body | markdownify }}
+    </p>
     <ul class="grid grid--auto-3-columns">
         {% comment %}
         {% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}

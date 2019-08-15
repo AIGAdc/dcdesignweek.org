@@ -3,7 +3,7 @@
     grid-gap: 2rem;
     /* Special thanks to this article from Evan Minto on 
     Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
-    margin: 0;
+    margin: $spacing-32 0;
     padding: 0;
 }
 .grid--items-center {

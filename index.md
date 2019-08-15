@@ -50,9 +50,10 @@ svd-section-4-body: |
 home-section-1-background-image:
 home-section-1-background-color:
 home-section-1-logo-alt: DC Design Week Hero Logo, Time & Date
-home-section-1-tagline: Shining a spotlight on DC's creative culture since 2008.
-home-section-1-header: "#DCDESIGNWEEK"
-home-section-1-subheader: Sept 20-27th, 2019
+
+home-section-1-tagline: Shining a light on DC’s most curious and creative since ’08.
+home-section-1-header: "#DCDesignWeek 2019"
+home-section-1-subheader: September 20-27
 home-section-1-button-left: Get Updates
 home-section-1-button-left-url: "#subscribe"
 home-section-1-button-left-type: solid
@@ -62,27 +63,23 @@ home-section-1-button-right-url: "#sponsor"
 home-section-1-button-right-type: border
 home-section-1-button-right-color: mauve
 
-events-header: Three Sundays at Carnegie
+events-header: Sundays at Carnegie
+events-body: |
+  We just can’t wait for September 20th to start celebrating DC Design Week! So, we’re ramping up early, with **three creative talks at the Apple Carnegie Library.** Join us on Sundays 9/8, 9/15 and 9/22 in Mount Vernon Square, when three DC designers will share their craft through this series of not-to-be-missed and highly interactive sessions. All three events are free and open to the public!
 events-button: Learn More
 events-button-url: /carnegie/
 events-button-type: border
 events-button-color: lightning-yellow
 
-sponsors-header: Call for 2019 Sponsors
-sponsors-divider-color: lightning-yellow
+sponsors-header: Want to Sponsor DCDW2019?
 sponsors-body: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Did you know that 2018 was the biggest DCDW yet, with 9 days of back-to-back programming in all 4 quadrants of DC, MD & VA!? That was only possible because of the generous support of our sponsors. This year, we’re looking to make DCDW2019 even better — more events, in more places, featuring even more aspects of DC’s curious and creative community. But we can’t do it alone (though we’d certainly try). We’re currently looking for partners who can help make the best DCDW a reality. Whether you’re able to offer space, offer in-kind services, or offer financial support, your contribution will make the difference. Click below to support #DCDesignWeek and be part of the excitement as an ally of the creative community.
 sponsors-button-left: View All Sponsors
 sponsors-button-left-url: /sponsors/
 sponsors-button-left-type: border
 sponsors-button-left-color: lightning-yellow
 sponsors-button: Become A Sponsor
-sponsors-button-url: mailto:designweek@dc.aiga.org?subject=DCDW 2019 Sponsorship
+sponsors-button-url: https://forms.gle/WEXzE1uxGjZ168bW9
 sponsors-button-type: border
 sponsors-button-color: lightning-yellow
 layout: home
