@@ -13,63 +13,8 @@ layout: default
         <p>
             {{ page.home-section-1-subheader }}
         </p>
-        <img class="lightbulb" src="/uploads/home-header-lightbulb.png">
-        </img>
     </div>
-    <!-- sub-section: slider -->
-    <div class="home-hero__slider">
-        <span class="curtain-left">
-            <svg data-name="Layer 1" id="curtain-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <style>
-                        .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
-                    </style>
-                </defs>
-                <title>
-                </title>
-                <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
-                </path>
-                <path class="cls-2" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0V641">
-                </path>
-            </svg>
-        </span>
-        <span class="curtain-right">
-            <svg data-name="Layer 1" id="curtain-mask" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <style>
-                        .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
-                    </style>
-                </defs>
-                <title>
-                </title>
-                <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
-                </path>
-                <path class="cls-2" d="M1566,641V0H0S223.22,207.65,537.44,287s407.29-11.94,673.35,72S1566,641,1566,641">
-                </path>
-            </svg>
-        </span>
-        <div class="home-hero__slides">
-            {% for slide in site.data.slider.slide %}
-            <div class="home-hero__slide home-hero__slide--{{ slide.type }}" id="{{ slide.type }}">
-                <div class="home-hero__slide-content container--small">
-                    <p>
-                        {{ slide.caption }}
-                    </p>
-                    <h2>
-                        {{ slide.body }}
-                    </h2>
-                    <a class="button button__border--black" href="{{ slide.button-url }}">
-                        <i class="fas fa-chevron-double-right">
-                        </i>
-                        Next Fact
-                        <i class="fas fa-chevron-double-right">
-                        </i>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
+    {% include block-slider.html %}
 </section>
 <section class="container">
     {% include block-featured-events.html %}

@@ -7,6 +7,7 @@ slide:
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.
+    video: /uploads/hero-gogo.mp4
     button-url: "#vader"
   - type: vader
     shadow: mauve
@@ -16,6 +17,7 @@ slide:
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.
+    video: /uploads/hero-vader.mp4
     button-url: "#bong"
   - type: bong
     shadow: mauve
@@ -25,6 +27,7 @@ slide:
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.
+    video: /uploads/hero-bong.mp4
     button-url: "#fish"
   - type: fish
     shadow: mauve
@@ -34,6 +37,7 @@ slide:
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.
+    video: /uploads/hero-fish.mp4
     button-url: "#court"
   - type: court
     shadow: black
@@ -43,4 +47,5 @@ slide:
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.
+    video: /uploads/hero-court.mp4
     button-url: "#gogo"

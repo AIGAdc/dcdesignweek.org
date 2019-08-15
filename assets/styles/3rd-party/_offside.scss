@@ -11,12 +11,16 @@
 .offside {
     position: absolute;
     /* Does not play well with some old browsers (see: README) */
+    background-color: $white;
+    color: $black;
+    padding: $spacing-16;
     width: 300px;
     height: 100%;
     top: 0;
     z-index: 9999;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    border-left: solid 2px $crusta;
     /* enables momentum scrolling in iOS overflow elements */
 }
 /* Left off-canvas elements default status: out of the page */
@@ -145,8 +149,13 @@ button#mobile-menu-trigger {
     background: none !important;
     border: none !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: $spacing-16 !important;
+    font-size: $font-size-32;
 }
 .offside-js--is-open {
     overflow: hidden;
+}
+
+.mobile-menu__list a {
+    color: $black;
 }

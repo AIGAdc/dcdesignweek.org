@@ -1,8 +1,7 @@
-.home-hero {}
 .home-hero__content {
     background-color: $black;
     color: $white;
-    padding: $spacing-16 $spacing-16 0 $spacing-16;
+    padding: $spacing-16;
     position: relative;
     text-align: center;
 }
@@ -17,153 +16,127 @@
 .home-hero__content p {
     margin: 0;
 }
-.home-hero__slider {
+.slider {
     background-color: $black;
     position: relative;
 }
-.home-hero__slide {
-    display: flex;
-    padding: $spacing-16;
-}
-.home-hero__slide-content {
-    align-self: center;
-    color: $black;
-    flex-grow: 1;
-    text-align: center;
-}
-.home-hero__slide-content h2 {
-    font-size: $font-size-20;
-    margin: $spacing-32 auto;
-}
-.lightbulb {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: -52px;
-    z-index: 999;
-    width: auto;
-    margin: auto;
-    max-height: 144px;
-    margin-bottom: -128px;
-}
-.curtain-left, .curtain-right {
-    position: absolute;
-    top: 0px;
-    z-index: 9;
-    width: 50%;
-}
-.curtain-left {
-    left: 0;
-}
-.curtain-right {
-    right: 0;
-}
-#curtain-mask {
-    height: 60px;
-    width: 100%;
-    display: block;
-}
-@media screen and (min-width: 767px) {
-    #curtain-mask {
-        height: 120px;
-    }
-}
 /* carousel height */
 
-.home-hero__slides {
-    height: 70vh;
+.slides {
+    height: 60vh;
+}
+
+.about-layout .slides {
+    height: 20vh;
 }
 /* cell inherit height from slider */
 
-.home-hero__slide {
+.slide {
     height: 100%;
-}
-.home-hero__slide {
+    display: flex;
+    padding: $spacing-16;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     width: 100%;
+    position: relative;
 }
-.home-hero__slide--bong {
-    background-color: $mauve;
-    background-image: url("/uploads/hero-bong.png");
+.slide h2 {
+    font-size: $font-size-20;
+    line-height: initial;
+    margin: $spacing-16 auto;
 }
-.home-hero__slide--fish {
-    background-color: $aquamarine;
-    background-image: url("/uploads/hero-fish.png");
+.slide p {
+    margin: 0;
 }
-.home-hero__slide--gogo {
-    background-color: $lightning-yellow;
-    background-image: url("/uploads/hero-gogo.png");
-}
-.home-hero__slide--vader {
-    background-color: $crusta;
-    background-image: url("/uploads/hero-vader.png");
-}
-.home-hero__slide--court {
-    background-color: $hot-pink;
-    background-image: url("/uploads/hero-court.png");
-}
-/* flickity-fade */
-
-.flickity-enabled.is-fade .flickity-slider>* {
-    pointer-events: none;
-    z-index: 0;
-}
-.flickity-enabled.is-fade .flickity-slider>.is-selected {
-    pointer-events: auto;
-    z-index: 1;
-}
-/* 
-Special thanks to @laurelstreng for this quick/dirty fix:
-https://github.com/metafizzy/flickity-fade/issues/1#issuecomment-486778382
-*/
-
-.slider {
-    animation-duration: 0.2s;
-    animation-name: flicker;
-    animation-iteration-count: 3;
+.slide video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     overflow: hidden;
+    z-index: $index-1;
+    mix-blend-mode: multiply;
+    object-fit: cover;
 }
-.home-hero__slide {
-    opacity: 0 !important;
-    transition: opacity 0.5s ease !important;
-    &.is-selected {
-        opacity: 1 !important;
-    }
+.about-layout .slide video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 9;
+    mix-blend-mode: multiply;
+    object-fit: contain;
 }
-.slider-grid {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-rows: 1fr 2fr 1fr;
+.slide--bong {
+    background-color: $mauve;
 }
-@keyframes flicker {
-    from {
-        opacity: 0.5;
-    }
-    to {
-        opacity: 1;
+.slide--fish {
+    background-color: $aquamarine;
+}
+.slide--gogo {
+    background-color: $lightning-yellow;
+}
+.slide--vader {
+    background-color: $crusta;
+}
+.slide--court {
+    background-color: $hot-pink;
+}
+.slide__content {
+    align-self: center;
+    color: $black;
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+    z-index: $index-3;
+}
+.slide__curtain--left, .slide__curtain--right {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    z-index: $index-4;
+}
+.slide__curtain--left {
+    left: 0;
+}
+.slide__curtain--right {
+    right: 0;
+}
+#slide__curtain {
+    height: 32px;
+    width: 100%;
+    display: block;
+}
+@media screen and (min-width: 579px) {
+    #slide__curtain {
+        height: 64px;
     }
 }
 @media screen and (min-width: 1023px) {
-    .home-hero__content {
-        padding: $spacing-32 $spacing-16 0 $spacing-16;
-    }
-    .home-hero__slide-content h2 {
-        font-size: $font-size-24;
-    }
-    .home-hero__slide, .home-hero__slide--fish-market, .home-hero__slide--gogo {
-        background-size: contain;
-    }
-    .home-hero__content h1 {
-        font-size: 96px;
+    .home-hero h1 {
+        font-size: 72px;
         line-height: initial;
         margin-bottom: -1rem;
         margin-top: -1rem;
     }
-}
-@media screen and (min-width: 1279px) {
-    #curtain-mask {
+        #slide__curtain {
         height: 144px;
+    }
+    .slide h2 {
+        font-size: $font-size-24;
+    }
+    .slide video {
+        object-fit: contain;
+    }
+    .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
+        background-size: contain;
     }
 }

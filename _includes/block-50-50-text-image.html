@@ -9,13 +9,6 @@
                 {{ page.dc-is-factsinating-body | markdownify}}
             </p>
         </div>
-        <div class="home-hero__slides">
-            {% for slide in site.data.slider.slide %}
-            <div class="home-hero__slide home-hero__slide--{{ slide.type }} shadow shadow--{{ slide.shadow }}" id="{{ slide.type }}">
-                <div class="home-hero__slide-content container--small">
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+        {% include block-slider.html %}
     </div>
 </div>
