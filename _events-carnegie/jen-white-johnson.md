@@ -12,6 +12,10 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
+  is-coming-soon: true
+  coming-soon-message: Coming Soon! Coming Soon! Coming Soon! Coming Soon!
+  is-sold-out: false
+  sold-out-message: Sold Out! Sold Out! Sold Out! Sold Out!
 buttons:
   has-left-button: true
   button-left-url: http://themiracletheatre.ticketfly.com/event/1771198

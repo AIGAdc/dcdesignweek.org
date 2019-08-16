@@ -1,77 +1,3 @@
-.grayscale {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    opacity: 0.5;
-}
-.sold-out::before {
-    content: 'Sold Out!';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: $white;
-    padding: 56px;
-    text-align: center;
-}
-.sold-out {
-    background-color: RGBA(32, 38, 83, 0.5);
-}
-.sold-out-ticker {
-    overflow: hidden;
-    position: relative;
-    height: 48px;
-}
-.sold-out-ticker p {
-    font-size: 20px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    /* Starting position */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    /* Apply animation to this element */
-    -moz-animation: sold-out-ticker 15s linear infinite;
-    -webkit-animation: sold-out-ticker 15s linear infinite;
-    animation: sold-out-ticker 15s linear infinite;
-}
-/* Move it (define the animation) */
-
-@-moz-keyframes sold-out-ticker {
-    0% {
-        -moz-transform: translateX(100%);
-    }
-    100% {
-        -moz-transform: translateX(-100%);
-    }
-}
-@-webkit-keyframes sold-out-ticker {
-    0% {
-        -webkit-transform: translateX(100%);
-    }
-    100% {
-        -webkit-transform: translateX(-100%);
-    }
-}
-@keyframes sold-out-ticker {
-    0% {
-        -moz-transform: translateX(100%);
-        /* Firefox bug fix */
-        -webkit-transform: translateX(100%);
-        /* Firefox bug fix */
-        transform: translateX(100%);
-    }
-    100% {
-        -moz-transform: translateX(-100%);
-        /* Firefox bug fix */
-        -webkit-transform: translateX(-100%);
-        /* Firefox bug fix */
-        transform: translateX(-100%);
-    }
-}
 .event-cards {
     display: grid;
     grid-gap: 2rem;
@@ -91,9 +17,14 @@
 }
 .event-card__link {
     flex-grow: 1;
+    position: relative;
+}
+.event-card__link--disabled {
+    cursor: not-allowed;
 }
 .event-card__image {
     background-color: $black;
+    position: relative;
 }
 .event-card__image figure {
     margin: 0;
@@ -114,6 +45,67 @@
     font-size: $font-size-16;
     font-weight: 400;
     margin: 0 0 0.25rem 0;
+}
+.sold-out-ticker, .coming-soon-ticker {
+    background-color: $mauve;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-family: $script;
+    max-height: 32px;
+    letter-spacing: 1px;
+    color: $white;
+}
+.sold-out-ticker p, .coming-soon-ticker p {
+    word-wrap: break-word;
+    font-size: $font-size-24;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    /* Starting position */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: ticker 15s linear infinite;
+    -webkit-animation: ticker 15s linear infinite;
+    animation: ticker 15s linear infinite;
+}
+/* Move it (define the animation) */
+
+@-moz-keyframes ticker {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+@keyframes ticker {
+    0% {
+        -moz-transform: translateX(100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(100%);
+        /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
 }
 .diamond-image-border {
     -webkit-transform: rotate(45deg);
@@ -158,8 +150,7 @@
 .block-committee__member h3 {
     margin-top: $spacing-48;
 }
-.block-committee__member p,
-.block-committee__member a {
+.block-committee__member p, .block-committee__member a {
     font-size: $font-size-16;
     font-weight: 400;
     margin: 0 0 0.25rem 0;
