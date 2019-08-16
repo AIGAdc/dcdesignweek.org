@@ -67,6 +67,9 @@
 }
 #mc_embed_signup input.button {
     width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .mailchimp-grid {
     display: grid;
