@@ -25,9 +25,11 @@
 .slides {
     height: 60vh;
 }
-
 .about-layout .slides {
-    height: 20vh;
+    height: 300px;
+}
+.about-layout .block-50-50-text-image {
+    margin-bottom: $spacing-48;
 }
 /* cell inherit height from slider */
 
@@ -127,7 +129,7 @@
         margin-bottom: -1rem;
         margin-top: -1rem;
     }
-        #slide__curtain {
+    #slide__curtain {
         height: 144px;
     }
     .slide h2 {
@@ -138,5 +140,11 @@
     }
     .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
         background-size: contain;
+    }
+    .about-layout .slides {
+        height: 30vh;
+    }
+    .about-layout .block-50-50-text-image {
+        margin-bottom: 0;
     }
 }
