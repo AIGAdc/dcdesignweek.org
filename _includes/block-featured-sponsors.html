@@ -6,8 +6,6 @@
     <p>
         {{ page.sponsors-body | markdownify }}
     </p>
-    {% if page.layout == "home" %}
-    {% else %}
     <ul class="grid grid--auto-4-columns">
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
@@ -21,7 +19,6 @@
         {% endif %}
         {% endfor %}
     </ul>
-    {% endif %}
 
     <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }}" href="{{ page.sponsors-button-url }}">
         {{ page.sponsors-button }}
