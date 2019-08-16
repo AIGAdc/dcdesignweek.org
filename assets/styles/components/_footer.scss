@@ -11,13 +11,14 @@
     text-align: center;
 }
 .site-footer__volunteer a {
-    display: block;
+    display: inline-block;
     font-size: $font-size-48;
     margin-top: $spacing-16;
+    color: $black;
 }
 .site-footer__social {
     align-items: center;
-    background-color: $crusta;
+    background-color: $black;
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: 1fr;
@@ -28,6 +29,9 @@
     color: $white;
     font-size: $font-size-16;
     text-decoration: none;
+}
+.site-footer__social a svg {
+    font-size: $font-size-24;
 }
 .site-footer__social li {
     display: inline-block;
