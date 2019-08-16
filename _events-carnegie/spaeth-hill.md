@@ -18,9 +18,11 @@ event:
   sold-out-message: Sold Out! Sold Out! Sold Out! Sold Out!
 buttons:
   has-left-button: true
-  button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
-  button-left-text: "$30 Members / $38 Non-Members"
+  button-left-url:
+  button-left-text:
   has-right-button: false
+  button-right-url:
+  button-right-text:
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
