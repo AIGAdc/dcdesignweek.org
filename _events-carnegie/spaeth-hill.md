@@ -1,12 +1,13 @@
 ---
-title: Spaeth/Hill
+title: Jill Spaeth & Nathan Hill
 date: 2018-09-26 20:54:00 -04:00
 position: 2
-description:
+description:  |
+  Spaeth and Hill are two former graphic designers, now using their powers to rethink industrial design.
 image: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapersite.com%2Fimages%2Fwallpapers%2Fdva-2560x1440-overwatch-artwork-4k-8770.jpg&f=1
 event:
   date: 2019-09-15 18:30:00 -04:00
-  venue-name: 'Main Atrium - Carnegie Library'
+  venue-name: 'Apple Carnegie Library, </br> Main Atrium'
   venue-directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm

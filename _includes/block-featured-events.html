@@ -1,4 +1,4 @@
-<div class="block block-featured-events" id="events">
+<div class="block block-featured-events">
     <h2>
         {{ page.events-header }}
     </h2>
@@ -7,9 +7,6 @@
         {{ page.events-body | markdownify }}
     </p>
     <ul class="grid grid--auto-3-columns">
-        {% comment %}
-        {% assign sorted_events-dcdw = site.events-dcdw | sort:"position" %}
-        {% endcomment %}
         {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
         {% for posts in sorted_events-carnegie %}
         <li class="event-card">
@@ -42,6 +39,10 @@
                         <i class="fas fa-map-marker-alt">
                         </i>
                         {{ posts.event.venue-name }}
+                    </p>
+                    <hr/>
+                    <p>
+                        {{ posts.description }}
                     </p>
                 </div>
             </a>

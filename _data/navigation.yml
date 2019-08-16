@@ -1,7 +1,7 @@
 # This yml file controls the navigation links across the DC Design Week Website
 primary-nav:
-  - title: "Carnegie"
-    url: /carnegie/
+  - title: "Carnegie Library"
+    url: /carnegie-library/
     button-type: link 
     button-color: black
   - title: "About"

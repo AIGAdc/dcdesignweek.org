@@ -2,11 +2,12 @@
 title: Jen White-Johnson
 date: 2018-09-26 20:54:00 -04:00
 position: 1
-description:
+description: |
+  Jen White-Johnson is the artist, writer and mother behind the remarkably poignant zine KNOX ROX.
 image: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapersite.com%2Fimages%2Fwallpapers%2Fdva-2560x1440-overwatch-artwork-4k-8770.jpg&f=1
 event:
   date: 2019-09-08 18:30:00 -04:00
-  venue-name: 'Main Atrium - Carnegie Library'
+  venue-name: 'Apple Carnegie Library, </br> Main Atrium'
   venue-directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm

@@ -89,7 +89,9 @@
     flex-direction: column;
     list-style: none;
 }
-.event-card__link {}
+.event-card__link {
+    flex-grow: 1;
+}
 .event-card__image {
     background-color: $black;
 }
@@ -103,7 +105,7 @@
     padding: 1rem;
 }
 .event-card__details h3 {
-    line-height: 1.6rem;
+    line-height: 2.2rem;
 }
 .event-card__details hr {
     margin-bottom: 1rem;
