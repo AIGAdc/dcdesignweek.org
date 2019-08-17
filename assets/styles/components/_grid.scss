@@ -5,10 +5,9 @@
     Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
     margin: $spacing-32 0;
     padding: 0;
-    grid-auto-rows: 1fr;
 }
 .grid--items-center {
-	align-items: center;
+    align-items: center;
 }
 .grid--auto-2-columns {
     /* Partially responsive fallback */

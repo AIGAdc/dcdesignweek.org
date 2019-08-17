@@ -48,7 +48,7 @@
                     </i>
                 </a>
             </div>
-            <video autoplay="true" loop="false" muted="true" poster="{{ slide.poster }}" src="{{ slide.video }}">
+            <video autoplay="true" loop="true" muted="true" poster="{{ slide.poster }}" src="{{ slide.video }}">
             </video>
         </div>
         {% endfor %}
@@ -83,7 +83,7 @@
     <div class="slides">
         {% for slide in site.data.slider.slide %}
         <div class="slide slide--{{ slide.type }}" id="{{ slide.type }}">
-            <video autoplay="true" loop="false" poster="{{ slide.poster }}" src="{{ slide.video }}">
+            <video autoplay="true" loop="true" muted="true" poster="{{ slide.poster }}" src="{{ slide.video }}">
             </video>
         </div>
         {% endfor %}
@@ -104,7 +104,7 @@
         fade: true,
         imagesLoaded: true,
         setGallerySize: false,
-        autoPlay: 10000,
+        autoPlay: 7500,
         pauseAutoPlayOnHover: true
     });
     // element argument can be a selector string
