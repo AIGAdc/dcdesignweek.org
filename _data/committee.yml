@@ -1,7 +1,7 @@
 # This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 2019-team:
   # Executive Director
-  - image: /uploads/lizRoseChmela.jpg
+  - image: /uploads/committee-liz-rose-chmela.jpg
     image-alt: Member Portrait
     name: Liz Rose Chmela
     role: Executive Director
@@ -10,28 +10,28 @@
     link-label: LinkedIn
 
   # Directors
-  - image: /uploads/kojoBoateng.jpg
+  - image: /uploads/committee-kojo-boateng.jpg
     image-alt:
     name: Kojo Boateng
     role: Programming Director
     role-class: director 
     link-url: https://www.linkedin.com/in/kojoboateng/
     link-label: LinkedIn
-  - image: https://placekeanu.com/500/y
+  - image: /uploads/committee-nick-fabiani.jpg
     image-alt:
     name: Nick Fabiani
     role: Comms Director
     role-class: director
     link-url:
     link-label:
-  - image: https://placekeanu.com/500/y
+  - image:
     image-alt:
     name: An Ly
     role: Art Director
     role-class: director
     link-url:
     link-label:
-  - image: /uploads/kimArias.jpg
+  - image: /uploads/committee-kim-arias.jpg
     image-alt:
     name: Kim Arias
     role: AIGA DC President
@@ -40,112 +40,105 @@
     link-label: LinkedIn
 
   # Individuals
-  - image: /uploads/khanhPham.jpg
+  - image: /uploads/committee-khanh-pham.jpg
     image-alt:
     name: Khan Pham
     role: Programming Lead
     role-class: individual-a
     link-url: https://www.linkedin.com/in/khanhtbp/
     link-label: LinkedIn
-  - image: /uploads/chanelJames.jpg
+  - image: /uploads/committee-chanel-james.jpg
     image-alt:
     name: Chanel James
     role: Programming Lead / Creative Lunch Lead 
     role-class: individual-a
     link-url: https://www.linkedin.com/in/chanel-james-a5983610b/
     link-label: LinkedIn
-  - image: /uploads/arianaRodriguezGitler.jpg
+  - image: /uploads/committee-ariana-rodriguez-gitler.jpg
     image-alt:
     name: Ariana Rodriguez-Gitler
     role: Programming Lead
     role-class: individual-a
     link-url: https://www.linkedin.com/in/arianarg/
     link-label: LinkedIn
-  - image: https://placekeanu.com/500/y
+  - image:
     image-alt:
     name: Amy
     role: Programming Lead / Creative Lunch Lead 
     role-class: individual-a
     link-url:
     link-label:
-  - image: https://placekeanu.com/500/y
+  - image: /uploads/committee-sophia-finster.jpg
     image-alt:
-    name: Sophia
+    name: Sophia Finster
     role:
     role-class: individual-a
     link-url:
     link-label:
-  - image: https://placekeanu.com/500/y
+  - image:
     image-alt:
     name: Jason Bunyan
     role: Programming Lead
     role-class: individual-a
     link-url:
     link-label:
-  - image: https://placekeanu.com/500/y
+  - image: /uploads/committee-yngrid-chacon.jpg
     image-alt:
-    name: Yngrid
+    name: Yngrid Chacon
     role: Creative Lunch Lead 
     role-class: individual-a
     link-url:
     link-label:
-  - image: https://placekeanu.com/500/y
+  - image: /uploads/committee-becky-nissel.jpg
     image-alt:
     name: Becky Nissel
     role: Copy Writer
     role-class: individual-b
     link-url:
     link-label:
-  - image: /uploads/marcuRelacion.jpg
+  - image: 
     image-alt:
     name: Marcus Relacion
     role: Web Developer
     role-class: individual-b
     link-url: https://www.linkedin.com/in/marcusrelacion/
     link-label: LinkedIn
-  - image: /uploads/chelsaeBlackman.jpg
+  - image: 
     image-alt:
     name: Chelsae Blackman
     role: Web Designer
     role-class: individual-b
     link-url: https://www.linkedin.com/in/chelsae/
     link-label: LinkedIn
-  - image: /uploads/rebeccaPrice.jpg
+  - image: /uploads/committee-rebecca-price.jpg
     image-alt:
     name: Rebecca Price
     role: Social Media
     role-class: individual-b
     link-url: https://www.linkedin.com/in/rebecca-price-686531b3/
     link-label: LinkedIn
-  - image: https://placekeanu.com/500/y
-    image-alt:
-    name: Khan Pham
-    role: Social Media
-    role-class: individual-b
-    link-url:
-    link-label:
-  - image: https://placekeanu.com/500/y
+  - image:
     image-alt:
     name: Derrick Douglass
     role: Photography Coordinator
     role-class: individual-b
     link-url:
     link-label:
-  - image: /uploads/cassOlson.jpg
+  - image: /uploads/committee-cass-olson.jpg
     image-alt:
     name: Cass Olson
     role: AIGA DC Programming Chair
     role-class: individual-d
     link-url: https://www.linkedin.com/in/cassolson/
     link-label: LinkedIn
-  - image: /uploads/catrellThomas.jpg
+  - image:
     image-alt:
     name: Catrell Thomas
     role: Development
     role-class: individual-d
     link-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
     link-label: LinkedIn
-  - image: /uploads/phimHer.jpg
+  - image: /uploads/committee-phim-her.jpg
     image-alt:
     name: Phim Her
     role: Partnerships
