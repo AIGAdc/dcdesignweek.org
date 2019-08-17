@@ -8,7 +8,7 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     flex-wrap: wrap;
 }
 .grid>div, .grid>li {
-    flex: 1;
+    width: 50%;
 }
 @supports (display: grid) {
     .grid {
@@ -18,6 +18,9 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
         margin: $spacing-32 0;
         padding: 0;
+    }
+    .grid>div, .grid>li {
+        width: auto;
     }
     .grid--items-center {
         align-items: center;

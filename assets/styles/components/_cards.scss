@@ -19,13 +19,14 @@
     flex-grow: 1;
     position: relative;
     height: 600px;
-    margin: 0;
+    margin: 16px;
 }
 @supports (display: grid) {
     .event-card__link {
         flex-grow: 1;
         position: relative;
         height: auto;
+        margin: 0;
     }
 }
 .event-card__link--disabled {
