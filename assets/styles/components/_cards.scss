@@ -15,18 +15,17 @@
     flex-direction: column;
     list-style: none;
 }
-@supports not (display: grid) {
-    .event-card__link {
-        flex-grow: 1;
-        position: relative;
-        height: 600px;
-        margin: 0;
-    }
+.event-card__link {
+    flex-grow: 1;
+    position: relative;
+    height: 600px;
+    margin: 0;
 }
 @supports (display: grid) {
     .event-card__link {
         flex-grow: 1;
         position: relative;
+        height: auto;
     }
 }
 .event-card__link--disabled {

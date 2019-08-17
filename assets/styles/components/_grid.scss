@@ -1,15 +1,14 @@
-@supports not (display: grid) {
-    /* 
+/* 
 Special thanks to Rachel Andrew:
 https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
 */
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .grid>div, .grid>li {
-        flex: 1;
-    }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid>div, .grid>li {
+    flex: 1;
 }
 @supports (display: grid) {
     .grid {
