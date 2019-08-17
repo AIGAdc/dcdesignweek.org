@@ -30,6 +30,11 @@
         height: 40vh;
     }
 }
+@media screen and (min-width: 1279px) {
+    .slides {
+        height: 60vh;
+    }
+}
 /* cell inherit height from slider */
 
 .slide {
@@ -134,7 +139,8 @@
 @media screen and (min-width: 1023px) {
     .home-hero h1 {
         font-size: 72px;
-        line-height: 1; /* ie11 */
+        line-height: 1;
+        /* ie11 */
         line-height: initial;
         margin-bottom: -1rem;
         margin-top: -1rem;

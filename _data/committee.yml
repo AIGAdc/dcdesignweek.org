@@ -24,7 +24,7 @@
     role-class: director
     link-url:
     link-label:
-  - image:
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: An Ly
     role: Art Director
@@ -61,7 +61,7 @@
     role-class: individual-a
     link-url: https://www.linkedin.com/in/arianarg/
     link-label: LinkedIn
-  - image:
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Amy
     role: Programming Lead / Creative Lunch Lead 
@@ -75,7 +75,7 @@
     role-class: individual-a
     link-url:
     link-label:
-  - image:
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Jason Bunyan
     role: Programming Lead
@@ -96,14 +96,14 @@
     role-class: individual-b
     link-url:
     link-label:
-  - image: 
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Marcus Relacion
     role: Web Developer
     role-class: individual-b
     link-url: https://www.linkedin.com/in/marcusrelacion/
     link-label: LinkedIn
-  - image: 
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Chelsae Blackman
     role: Web Designer
@@ -117,7 +117,7 @@
     role-class: individual-b
     link-url: https://www.linkedin.com/in/rebecca-price-686531b3/
     link-label: LinkedIn
-  - image:
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Derrick Douglass
     role: Photography Coordinator
@@ -131,7 +131,7 @@
     role-class: individual-d
     link-url: https://www.linkedin.com/in/cassolson/
     link-label: LinkedIn
-  - image:
+  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
     image-alt:
     name: Catrell Thomas
     role: Development
