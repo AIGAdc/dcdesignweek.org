@@ -4,7 +4,7 @@ date: 2018-09-26 20:54:00 -04:00
 position: 2
 description:  |
   Spaeth and Hill are two former graphic designers, now using their powers to rethink industrial design.
-image: https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapersite.com%2Fimages%2Fwallpapers%2Fdva-2560x1440-overwatch-artwork-4k-8770.jpg&f=1
+image: /uploads/carnegie-spaeth-hill.jpg
 event:
   date: 2019-09-15 18:30:00 -04:00
   venue-name: 'Apple Carnegie Library, </br> Main Atrium'
@@ -13,9 +13,9 @@ event:
   start-time: 2:30pm
   end-time: 4:00pm
   is-coming-soon: true
-  coming-soon-message: Coming Soon! Coming Soon! Coming Soon! Coming Soon!
+  coming-soon-message: Save the Date! Save the Date! 
   is-sold-out: false
-  sold-out-message: Sold Out! Sold Out! Sold Out! Sold Out!
+  sold-out-message: Sold Out! Sold Out!
 buttons:
   has-left-button: true
   button-left-url:

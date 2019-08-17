@@ -47,21 +47,18 @@
     margin: 0 0 0.25rem 0;
 }
 .sold-out-ticker, .coming-soon-ticker {
-    background-color: $mauve;
+    background-color: $black;
     overflow: hidden;
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
     font-family: $script;
-    max-height: 32px;
     letter-spacing: 1px;
     color: $white;
 }
 .sold-out-ticker p, .coming-soon-ticker p {
-    word-wrap: break-word;
-    font-size: $font-size-24;
-    width: 100%;
+    font-size: $font-size-20;
     margin: 0;
     text-align: center;
     /* Starting position */
@@ -69,9 +66,9 @@
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     /* Apply animation to this element */
-    -moz-animation: ticker 15s linear infinite;
-    -webkit-animation: ticker 15s linear infinite;
-    animation: ticker 15s linear infinite;
+    -moz-animation: ticker 10s linear infinite;
+    -webkit-animation: ticker 10s linear infinite;
+    animation: ticker 10s linear infinite;
 }
 /* Move it (define the animation) */
 
