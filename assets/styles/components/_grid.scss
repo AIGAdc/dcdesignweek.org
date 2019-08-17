@@ -1,4 +1,4 @@
-@supports (display: grid) {
+@supports not (display: grid) {
     /* 
 Special thanks to Rachel Andrew:
 https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
