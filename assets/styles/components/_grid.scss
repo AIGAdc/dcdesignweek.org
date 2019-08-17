@@ -1,3 +1,19 @@
+/* 
+Special thanks to Rachel Andrew:
+https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
+*/
+
+.grid {
+  display: flex;
+
+}
+
+.grid > div,
+.grid > li {
+  flex: 1;
+}
+
+@supports (display: grid) {
 .grid {
     display: grid;
     grid-gap: 2rem;
@@ -26,4 +42,5 @@
     grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
     /* Fully responsive version */
     grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+}
 }

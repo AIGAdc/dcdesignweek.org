@@ -52,6 +52,7 @@ strong {
     font-size: $font-size-16;
 }
 .wysiwyg hr, .page-introduction hr {
+    text-align: left;
     max-width: 120px;
     margin: 0.5rem 0 2rem 0;
     border: solid 4px $crusta;
