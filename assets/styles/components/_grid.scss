@@ -9,6 +9,7 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
 }
 .grid>div, .grid>li {
     width: 50%;
+    height: 640px;
 }
 @supports (display: grid) {
     .grid {
