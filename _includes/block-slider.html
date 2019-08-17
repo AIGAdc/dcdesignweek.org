@@ -38,7 +38,7 @@
                     {{ slide.caption }}
                 </p>
                 <h2>
-                    {{ slide.body }}
+                    {{ slide.body | markdownify }}
                 </h2>
                 <a class="button button__border--black" href="{{ slide.button-url }}">
                     <i class="fas fa-chevron-double-right">

@@ -1,7 +1,7 @@
 .home-hero__content {
     background-color: $black;
     color: $white;
-    padding: $spacing-16;
+    padding: $spacing-8;
     position: relative;
     text-align: center;
 }
@@ -9,7 +9,7 @@
     font-weight: 900;
 }
 .home-hero__content h1 {
-    font-size: 48px;
+    font-size: $font-size-40;
     margin-bottom: 0;
     margin-top: -0.25rem;
 }
@@ -24,6 +24,11 @@
 
 .slides {
     height: 60vh;
+}
+@media screen and (min-width: 767px) {
+    .slides {
+        height: 40vh;
+    }
 }
 .about-layout .slides {
     height: 300px;
@@ -63,6 +68,9 @@
     z-index: $index-1;
     mix-blend-mode: multiply;
     object-fit: cover;
+}
+.slide a {
+    color: $black;
 }
 .about-layout .slide video {
     width: 100%;
@@ -135,16 +143,18 @@
     .slide h2 {
         font-size: $font-size-24;
     }
-    .slide video {
-        object-fit: contain;
-    }
-    .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
-        background-size: contain;
-    }
     .about-layout .slides {
         height: 30vh;
     }
     .about-layout .block-50-50-text-image {
         margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1279px) {
+    .slide video {
+        object-fit: contain;
+    }
+    .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
+        background-size: contain;
     }
 }
