@@ -22,13 +22,13 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     margin: 0;
     padding: 0;
 }
-.grid--items-center {
-    align-items: center;
-}
 .grid__1-column, .grid__2-column, .grid__3-column, .grid__4-column {
     grid-template-columns: 1fr;
 }
 @media screen and (min-width: 767px) {
+    .grid--items-center {
+    align-items: center;
+}
     .grid__1-column, .grid__2-column, .grid__3-column, .grid__4-column {
         grid-template-columns: repeat(2, 1fr);
     }
