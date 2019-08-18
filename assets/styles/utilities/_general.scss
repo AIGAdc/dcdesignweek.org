@@ -20,3 +20,10 @@ svg {
     width: 100%;
     display: block;
 }
+figure {
+    margin: 0;
+    padding: 0;
+}
+.disabled {
+    cursor: not-allowed;
+}

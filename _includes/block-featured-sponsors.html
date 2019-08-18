@@ -6,7 +6,7 @@
     <p>
         {{ page.sponsors-body | markdownify }}
     </p>
-    <ul class="grid grid--auto-4-columns">
+    <ul class="grid grid__4-column">
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
         {% if posts.is-featured == true %}

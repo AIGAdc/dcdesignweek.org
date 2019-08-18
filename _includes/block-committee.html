@@ -3,33 +3,37 @@
         {{ page.team-header }}
     </h2>
     <hr/>
-    <ul class="grid grid--auto-3-columns block-committee__members">
+    <ul class="grid grid__3-column cards">
         {% for member in site.data.committee.2019-team %}
-        <li class="block-committee__member">
-            <div class="diamond-image-border">
-                <div class="diamond">
-                    <div class="diamond-los1">
-                        <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+        <li class="card">
+            <div class="card-image">
+                <div class="diamond-image-border">
+                    <div class="diamond">
+                        <div class="diamond-los1">
+                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h3>
-                {{ member.name }}
-            </h3>
-            <p>
-                {{ member.role }}
-            </p>
-            {% if member.link-url %}
-            <a href="{{ member.link-url }}" rel="noopener" target="_blank">
-                {{ member.link-label }}
-            </a>
-            {% endif %}
-            <span>
-                /
-            </span>
-            <a href="{{ member.link-url }}" rel="noopener" target="_blank">
-                {{ member.link-label }}
-            </a>
+            <div class="card-details">
+                <h3>
+                    {{ member.name }}
+                </h3>
+                <p>
+                    {{ member.role }}
+                </p>
+                {% if member.link-url %}
+                <a href="{{ member.link-url }}" rel="noopener" target="_blank">
+                    {{ member.link-label }}
+                </a>
+                {% endif %}
+                <span>
+                    /
+                </span>
+                <a href="{{ member.link-url }}" rel="noopener" target="_blank">
+                    {{ member.link-label }}
+                </a>
+            </div>
         </li>
         {% endfor %}
     </ul>

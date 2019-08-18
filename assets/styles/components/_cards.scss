@@ -1,73 +1,55 @@
-.event-cards {
-    display: grid;
-    grid-gap: 2rem;
-    /* Special thanks to this article from Evan Minto on 
-    Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
-    /* Partially responsive fallback */
-    grid-template-columns: repeat(auto-fit, minmax(calc(10% + 13rem), 1fr));
-    /* Fully responsive version */
-    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
-    margin: 0;
-    padding: 0;
+.about-layout .card {
+    padding: 2rem;
 }
-.event-card {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-.event-card__link {
-    flex-grow: 1;
+.card-image,
+.about-layout .card-image {
     position: relative;
-    height: 600px;
-    margin: 16px;
 }
-@supports (display: grid) {
-    .event-card__link {
-        flex-grow: 1;
-        position: relative;
-        height: auto;
-        margin: 0;
-    }
-}
-.event-card__link--disabled {
-    cursor: not-allowed;
-}
-.event-card__image {
+.card-image {
     background-color: $black;
-    position: relative;
 }
-.event-card__image figure {
-    margin: 0;
-    padding: 0;
+.about-layout .card-image {
+    background-color: $white;
 }
-.event-card__details {
+.card-details {
     background-color: $white;
     color: $black;
     padding: 1rem;
 }
-.event-card__details h3 {
+.card a {
+    display: block;
+    font-weight: 900;
+    font-size: $font-size-16;
+    font-weight: 400;
+    margin: 0 0 0.25rem 0;
+    line-height: 1.4rem;
+}
+.card-details h3 {
     line-height: 2.2rem;
 }
-.event-card__details hr {
+.about-layout .card-details h3 {
+    margin-top: $spacing-48;
+} 
+.card-details hr {
     margin-bottom: 1rem;
 }
-.event-card__details p {
+.card-details p {
     font-size: $font-size-16;
     font-weight: 400;
     margin: 0 0 0.25rem 0;
 }
-.sold-out-ticker, .coming-soon-ticker {
+.ticker {
     background-color: $black;
+    color: $white;
+    font-family: $script;
+    letter-spacing: 1px;
     overflow: hidden;
     position: absolute;
     right: 0;
-    left: 0;
     bottom: 0;
-    font-family: $script;
-    letter-spacing: 1px;
-    color: $white;
+    left: 0;
 }
-.sold-out-ticker p, .coming-soon-ticker p {
+.ticker p {
     font-size: $font-size-20;
     margin: 0;
     text-align: center;
@@ -150,19 +132,4 @@
     position: absolute;
     top: 100px;
     left: -40px;
-}
-.block-committee__member {
-    padding: 2rem;
-}
-.block-committee__member h3 {
-    margin-top: $spacing-48;
-}
-.block-committee__member p, .block-committee__member a {
-    font-size: $font-size-16;
-    font-weight: 400;
-    margin: 0 0 0.25rem 0;
-    line-height: 1.4rem;
-}
-.block-committee__member a {
-    font-weight: 900;
 }

@@ -6,35 +6,35 @@
     <p>
         {{ page.events-body | markdownify }}
     </p>
-    <ul class="grid grid--auto-3-columns">
+    <ul class="grid grid__3-column cards">
         {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
         {% for posts in sorted_events-carnegie %}
-        <li class="event-card">
+        <li class="card">
             {% if posts.event.is-coming-soon == true or posts.event.is-sold-out == true %}
-            <a class="event-card__link event-card__link--disabled border border--black">
+            <a class="disabled border border--black">
             {% else %}
-            <a class="event-card__link border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
+            <a class="border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
             {% endif %}
-                <div class="event-card__image flex-auto">
+                <div class="card-image">
                     <figure>
                         <img src="{{ posts.image }}"/>
                     </figure>
                     {% if posts.event.is-coming-soon == true %}
-                    <div class="coming-soon-ticker">
+                    <div class="ticker">
                         <p>
                             {{ posts.event.coming-soon-message }}
                         </p>
                     </div>
                     {% endif %}
                     {% if posts.event.is-sold-out == true %}
-                    <div class="sold-out-ticker">
+                    <div class="ticker">
                         <p>
                             {{ posts.event.sold-out-message }}
                         </p>
                     </div>
                     {% endif %}
                 </div>
-                <div class="event-card__details flex-auto">
+                <div class="card-details">
                     <h3>
                         {{ posts.title }}
                     </h3>
