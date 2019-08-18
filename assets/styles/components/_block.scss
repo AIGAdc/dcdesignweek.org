@@ -1,5 +1,6 @@
-.block .button {
+.block a.button {
     text-align: center;
+    margin-top: $spacing-32;
 }
 .block-introduction, .block-featured-events, .block-featured-sponsors, .block-committee, .block-50-50-text-image {
     margin-top: 32px;
