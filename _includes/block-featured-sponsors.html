@@ -10,11 +10,13 @@
         {% assign sorted_sponsors = site.sponsors %}
         {% for posts in sorted_sponsors %}
         {% if posts.is-featured == true %}
-        <li>
-            <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
-                <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
-                </img>
-            </a>
+        <li class="card">
+            <div class="card-details">
+                <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                    <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                    </img>
+                </a>
+            </div>
         </li>
         {% endif %}
         {% endfor %}

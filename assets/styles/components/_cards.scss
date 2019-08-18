@@ -1,14 +1,13 @@
-.about-layout .card {
-    padding: 2rem;
+.block-committee .card {
+    padding-top: 2rem;
 }
-.card-image,
-.about-layout .card-image {
+.card-image, .block-committee .card-image {
     position: relative;
 }
 .card-image {
     background-color: $black;
 }
-.about-layout .card-image {
+.block-committee .card-image {
     background-color: $white;
 }
 .card-details {
@@ -21,15 +20,18 @@
     font-weight: 900;
     font-size: $font-size-16;
     font-weight: 400;
-    margin: 0 0 0.25rem 0;
+    margin: 0;
     line-height: 1.4rem;
+}
+.block-featured-sponsors .card a {
+    display: block;
 }
 .card-details h3 {
     line-height: 2.2rem;
 }
-.about-layout .card-details h3 {
+.block-committee .card-details h3 {
     margin-top: $spacing-48;
-} 
+}
 .card-details hr {
     margin-bottom: 1rem;
 }

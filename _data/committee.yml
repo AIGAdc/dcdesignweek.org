@@ -5,18 +5,15 @@
     image-alt: Member Portrait
     name: Liz Rose Chmela
     role: Executive Director
-    role-class: executive-director
     linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/heylizrose/
     instagram-label: "@heylizrose"
-
   # Directors
   - image: /uploads/committee-kojo-boateng.jpg
     image-alt:
     name: Kojo Boateng
-    role: Programming Director
-    role-class: director 
+    role: Programming Director 
     linkedin-url: https://www.linkedin.com/in/kojoboateng/
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/kboateng/
@@ -24,8 +21,7 @@
   - image: /uploads/committee-nick-fabiani.jpg
     image-alt:
     name: Nick Fabiani
-    role: Comms Director
-    role-class: director
+    role: Communications Director
     linkedin-url: https://www.linkedin.com/in/nick-fabiani
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/nickfabiani/
@@ -33,8 +29,7 @@
   - image: /uploads/committee-kim-arias.jpg
     image-alt:
     name: Kim Arias
-    role: AIGA DC President
-    role-class: director
+    role: President, AIGA DC
     linkedin-url: https://www.linkedin.com/in/kimberarias/
     linkedin-label: LinkedIn
     instagram-url:
@@ -42,8 +37,7 @@
   - image: /uploads/committee-cass-olson.jpg
     image-alt:
     name: Cass Olson
-    role: AIGA DC Programming Chair
-    role-class: individual-d
+    role: Programming, AIGA DC
     linkedin-url: https://www.linkedin.com/in/cassolson/
     linkedin-label: LinkedIn
     instagram-url:
@@ -51,8 +45,7 @@
   - image: /uploads/committee-catrell-thomas.jpg
     image-alt:
     name: Catrell Thomas
-    role: Development
-    role-class: individual-d
+    role: Programming, AIGA DC
     linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
     linkedin-label: LinkedIn
     instagram-url:
@@ -60,64 +53,32 @@
   - image: /uploads/committee-an-ly.jpg
     image-alt:
     name: An Ly
-    role: Art Director
-    role-class: director
+    role: Branding & Art Direction
     linkedin-url:
     linkedin-label:
     instagram-url:
     instagram-label: Instagram
-
   # Individuals
-  - image: /uploads/committee-khanh-pham.jpg
-    image-alt:
-    name: Khan Pham
-    role: Programming Lead
-    role-class: individual-a
-    linkedin-url: https://www.linkedin.com/in/khanhtbp/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/bkhanhp/
-    instagram-label: "bkhanp"
-  - image: /uploads/committee-chanel-james.jpg
-    image-alt:
-    name: Chanel James
-    role: Programming Lead / Creative Lunch Lead 
-    role-class: individual-a
-    linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
-    linkedin-label: LinkedIn
-    instagram-url:
-    instagram-label: Instagram
-  - image: /uploads/committee-ariana-rodriguez-gitler.jpg
-    image-alt:
-    name: Ariana Rodriguez-Gitler
-    role: Programming Lead
-    role-class: individual-a
-    linkedin-url: https://www.linkedin.com/in/arianarg/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/rgariana/
-    instagram-label: "@rgiana"
   - image: /uploads/committee-amy-almarzar.jpg
     image-alt:
     name: Amy Almarzar
     role: Event Lead
-    role-class: individual-a
     linkedin-url: https://www.linkedin.com/in/amy-almazar
     linkedin-label:
     instagram-url:
     instagram-label: "@amy-and-junie"
-  - image: /uploads/committee-sophia-finster.jpg
+  - image: /uploads/committee-chelsae-blackman.jpg
     image-alt:
-    name: Sophia Finster
-    role: Event Lead
-    role-class: individual-a
-    linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
+    name: Chelsae Blackman
+    role: UX & Web Design
+    linkedin-url: https://www.linkedin.com/in/chelsae/
     linkedin-label: LinkedIn
-    instagram-url:
-    instagram-label: Instagram
+    instagram-url: https://www.instagram.com/chelsae.black/
+    instagram-label: "@chelsae.black"
   - image: /uploads/committee-jason-bunyan.jpg
     image-alt:
     name: Jason Bunyan
-    role: Programming Lead
-    role-class: individual-a
+    role: Event Lead
     linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
     linkedin-label: LinkedIn
     instagram-url: 
@@ -125,63 +86,104 @@
   - image: /uploads/committee-yngrid-chacon.jpg
     image-alt:
     name: Yngrid Chacon
-    role: Creative Lunch Lead 
-    role-class: individual-a
+    role: Event Lead 
     linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/ecyan/
     instagram-label: "@ecyan"
-  - image: /uploads/committee-becky-nissel.jpg
+  - image: /uploads/committee-mary-corley.jpg
     image-alt:
-    name: Becky Nissel
-    role: Copy Writer
-    role-class: individual-b
+    name: Mary Corley
+    role: Volunteer Coordinator 
     linkedin-url:
     linkedin-label:
     instagram-url:
-    instagram-label: Instagram
-  - image: /uploads/committee-placeholder-4 .jpg
+    instagram-label:
+  - image: /uploads/committee-eliza-duquette.jpg
     image-alt:
-    name: Marcus Relacion
-    role: Web Developer
-    role-class: individual-b
-    linkedin-url: https://www.linkedin.com/in/marcusrelacion/
+    name: Eliza Duquette
+    role: Event Lead 
+    linkedin-url: https://www.linkedin.com/in/elizaduquette/
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/marcusrelacion/
-    instagram-label: "@marcusrelacion"
-  - image: /uploads/committee-placeholder-4 .jpg
+    instagram-url:
+    instagram-label: "@etothelizerrr"
+  - image: /uploads/committee-sophia-finster.jpg
     image-alt:
-    name: Chelsae Blackman
-    role: Web Designer
-    role-class: individual-b
-    linkedin-url: https://www.linkedin.com/in/chelsae/
+    name: Sophia Finster
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/chelsae.black/
-    instagram-label: "@chelsae.black"
-  - image: /uploads/committee-rebecca-price.jpg
-    image-alt:
-    name: Rebecca Price
-    role: Social Media
-    role-class: individual-b
-    linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/rebeccuhhhhh/
-    instagram-label: "@rebeccuhhhhh"
-  - image: /uploads/committee-placeholder-4 .jpg
-    image-alt:
-    name: Derrick Douglass
-    role: Photography Coordinator
-    role-class: individual-b
-    linkedin-url:
-    linkedin-label:
     instagram-url:
     instagram-label: Instagram
   - image: /uploads/committee-phim-her.jpg
     image-alt:
     name: Phim Her
-    role: Partnerships
-    role-class: individual-d
+    role: Partnerships Chair
     linkedin-url: https://www.linkedin.com/in/phimher 
     linkedin-label: LinkedIn
     instagram-url:
     instagram-label: Instagram
+  - image: /uploads/committee-chanel-james.jpg
+    image-alt:
+    name: Chanel James
+    role: Event Lead 
+    linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-cynthia-kim.jpg
+    image-alt:
+    name: Cynthia Kim
+    role: Communications 
+    linkedin-url: https://www.linkedin.com/in/cynthia-kim-54873010b/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label:
+  - image: /uploads/committee-becky-nissel.jpg
+    image-alt:
+    name: Becky Nissel
+    role: Copywriter
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label: "@beckynissel"
+  - image: /uploads/committee-placeholder-5.jpg
+    image-alt:
+    name: Rebecca Perez
+    role: Event Lead
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label: ""
+  - image: /uploads/committee-khanh-pham.jpg
+    image-alt:
+    name: Khan Pham
+    role: Programming Lead
+    linkedin-url: https://www.linkedin.com/in/khanhtbp/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/bkhanhp/
+    instagram-label: "bkhanp"
+  - image: /uploads/committee-rebecca-price.jpg
+    image-alt:
+    name: Rebecca Price
+    role: Social Media Lead
+    linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rebeccuhhhhh/
+    instagram-label: "@rebeccuhhhhh"
+  - image: /uploads/committee-marcus-relacion.jpg
+    image-alt:
+    name: Marcus Relacion
+    role: Web Developer
+    linkedin-url: https://www.linkedin.com/in/marcusrelacion/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/marcusrelacion/
+    instagram-label: "@marcusrelacion"
+  - image: /uploads/committee-ariana-rodriguez-gitler.jpg
+    image-alt:
+    name: Ariana Rodriguez-Gitler
+    role: Programming Lead
+    linkedin-url: https://www.linkedin.com/in/arianarg/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rgariana/
+    instagram-label: "@rgiana"
