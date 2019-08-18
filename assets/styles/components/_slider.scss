@@ -1,0 +1,147 @@
+.slider {
+    position: relative;
+}
+/* carousel height */
+.slides {
+    height: 60vh;
+}
+@media screen and (min-width: 767px) {
+    .slides {
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 1279px) {
+    .slides {
+        height: 60vh;
+    }
+}
+/* cell inherit height from slider */
+
+.slide {
+    height: 100%;
+    display: flex;
+    padding: $spacing-16;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.slide h2 {
+    font-size: $font-size-20;
+    line-height: initial;
+    margin: $spacing-16 auto;
+}
+.slide p {
+    margin: 0;
+}
+.slide video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: $index-1;
+    object-fit: cover;
+}
+.slide a {
+    color: $black;
+}
+.about-layout .slides {}
+.about-layout .block-50-50-text-image {
+    margin-bottom: $spacing-48;
+}
+.about-layout .slides {
+    height: 25vh;
+}
+.about-layout .slide video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 9;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+.slide--bong {
+    background-color: $mauve;
+}
+.slide--fish {
+    background-color: $aquamarine;
+}
+.slide--gogo {
+    background-color: $lightning-yellow;
+}
+.slide--vader {
+    background-color: $crusta;
+}
+.slide--court {
+    background-color: $hot-pink;
+}
+.slide__content {
+    align-self: center;
+    color: $black;
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+    z-index: $index-3;
+}
+.slide__curtain--left, .slide__curtain--right {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    z-index: $index-4;
+}
+.slide__curtain--left {
+    left: 0;
+}
+.slide__curtain--right {
+    right: 0;
+}
+#slide__curtain {
+    height: 32px;
+    width: 100%;
+    display: block;
+}
+@media screen and (min-width: 579px) {
+    #slide__curtain {
+        height: 64px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .home-hero h1 {
+        font-size: 72px;
+        line-height: 1;
+        /* ie11 */
+        line-height: initial;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+    }
+    #slide__curtain {
+        height: 144px;
+    }
+    .slide h2 {
+        font-size: $font-size-24;
+    }
+    .about-layout .slides {
+        height: 25vh;
+    }
+    .about-layout .block-50-50-text-image {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 1279px) {
+    .slide video {
+        object-fit: contain;
+    }
+    .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
+        background-size: contain;
+    }
+}

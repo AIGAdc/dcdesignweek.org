@@ -1,14 +1,12 @@
 {% if page.layout == "home" %}
 <div class="slider">
     <span class="slide__curtain--left">
-        <svg data-name="Layer 1" id="slide__curtain" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+        <svg data-name="slide__curtain" id="slide__curtain" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <style>
                     .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
                 </style>
             </defs>
-            <title>
-            </title>
             <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
             </path>
             <path class="cls-2" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0V641">
@@ -16,14 +14,12 @@
         </svg>
     </span>
     <span class="slide__curtain--right">
-        <svg data-name="Layer 1" id="slide__curtain" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
+        <svg data-name="slide__curtain" id="slide__curtain" preserveaspectratio="none" viewbox="0 0 1566 641" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <style>
                     .cls-1{fill:none;fill-rule:evenodd;}.cls-2{fill:#000000;}
                 </style>
             </defs>
-            <title>
-            </title>
             <path class="cls-1" d="M0,641S89.14,442.94,355.21,359s359.13,7.35,673.35-72S1566,0,1566,0H0Z">
             </path>
             <path class="cls-2" d="M1566,641V0H0S223.22,207.65,537.44,287s407.29-11.94,673.35,72S1566,641,1566,641">
@@ -79,7 +75,7 @@
 {% endif %}
 
 {% if page.layout == "about" %}
-<div class="slider shadow shadow--crusta">
+<div class="slider">
     <div class="slides">
         {% for slide in site.data.slider.slide %}
         <div class="slide slide--{{ slide.type }}" id="{{ slide.type }}">
@@ -97,7 +93,7 @@
         cellAlign: 'center',
         contain: true,
         wrapAround: true,
-        pageDots: false,
+        pageDots: true,
         draggable: false,
         prevNextButtons: false,
         hash: false,

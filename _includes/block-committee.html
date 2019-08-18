@@ -22,17 +22,19 @@
                 <p>
                     {{ member.role }}
                 </p>
-                {% if member.link-url %}
-                <a href="{{ member.link-url }}" rel="noopener" target="_blank">
-                    {{ member.link-label }}
+                {% if member.linkedin-url %}
+                <a href="{{ member.linkedin-url }}" rel="noopener" target="_blank">
+                    {{ member.linkedin-label }}
                 </a>
                 {% endif %}
                 <span>
                     /
                 </span>
-                <a href="{{ member.link-url }}" rel="noopener" target="_blank">
-                    {{ member.link-label }}
+                {% if member.instagram-url %}
+                <a href="{{ member.instagram-url }}" rel="noopener" target="_blank">
+                    {{ member.instagram-label }}
                 </a>
+                {% endif %}
             </div>
         </li>
         {% endfor %}

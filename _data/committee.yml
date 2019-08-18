@@ -6,8 +6,10 @@
     name: Liz Rose Chmela
     role: Executive Director
     role-class: executive-director
-    link-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/heylizrose/
+    instagram-label: "@heylizrose"
 
   # Directors
   - image: /uploads/committee-kojo-boateng.jpg
@@ -15,29 +17,55 @@
     name: Kojo Boateng
     role: Programming Director
     role-class: director 
-    link-url: https://www.linkedin.com/in/kojoboateng/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/kojoboateng/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/kboateng/
+    instagram-label: "@kboateng"
   - image: /uploads/committee-nick-fabiani.jpg
     image-alt:
     name: Nick Fabiani
     role: Comms Director
     role-class: director
-    link-url:
-    link-label:
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
-    image-alt:
-    name: An Ly
-    role: Art Director
-    role-class: director
-    link-url:
-    link-label:
+    linkedin-url: https://www.linkedin.com/in/nick-fabiani
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/nickfabiani/
+    instagram-label: "@nickfabiani"
   - image: /uploads/committee-kim-arias.jpg
     image-alt:
     name: Kim Arias
     role: AIGA DC President
     role-class: director
-    link-url: https://www.linkedin.com/in/kimberarias/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/kimberarias/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-cass-olson.jpg
+    image-alt:
+    name: Cass Olson
+    role: AIGA DC Programming Chair
+    role-class: individual-d
+    linkedin-url: https://www.linkedin.com/in/cassolson/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-placeholder-4.jpg
+    image-alt:
+    name: Catrell Thomas
+    role: Development
+    role-class: individual-d
+    linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-placeholder-4.jpg
+    image-alt:
+    name: An Ly
+    role: Art Director
+    role-class: director
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label: Instagram
 
   # Individuals
   - image: /uploads/committee-khanh-pham.jpg
@@ -45,103 +73,115 @@
     name: Khan Pham
     role: Programming Lead
     role-class: individual-a
-    link-url: https://www.linkedin.com/in/khanhtbp/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/khanhtbp/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/bkhanhp/
+    instagram-label: "bkhanp"
   - image: /uploads/committee-chanel-james.jpg
     image-alt:
     name: Chanel James
     role: Programming Lead / Creative Lunch Lead 
     role-class: individual-a
-    link-url: https://www.linkedin.com/in/chanel-james-a5983610b/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
   - image: /uploads/committee-ariana-rodriguez-gitler.jpg
     image-alt:
     name: Ariana Rodriguez-Gitler
     role: Programming Lead
     role-class: individual-a
-    link-url: https://www.linkedin.com/in/arianarg/
-    link-label: LinkedIn
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
+    linkedin-url: https://www.linkedin.com/in/arianarg/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rgariana/
+    instagram-label: "@rgiana"
+  - image: /uploads/committee-placeholder-4.jpg
     image-alt:
-    name: Amy
-    role: Programming Lead / Creative Lunch Lead 
+    name: Amy Alazar
+    role: Event Lead
     role-class: individual-a
-    link-url:
-    link-label:
+    linkedin-url: https://www.linkedin.com/in/amy-almazar
+    linkedin-label:
+    instagram-url:
+    instagram-label: "@amy-and-junie"
   - image: /uploads/committee-sophia-finster.jpg
     image-alt:
     name: Sophia Finster
-    role:
+    role: Event Lead
     role-class: individual-a
-    link-url:
-    link-label:
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
+    linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-placeholder-4.jpg
     image-alt:
     name: Jason Bunyan
     role: Programming Lead
     role-class: individual-a
-    link-url:
-    link-label:
+    linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
   - image: /uploads/committee-yngrid-chacon.jpg
     image-alt:
     name: Yngrid Chacon
     role: Creative Lunch Lead 
     role-class: individual-a
-    link-url:
-    link-label:
+    linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/ecyan/
+    instagram-label: "@ecyan"
   - image: /uploads/committee-becky-nissel.jpg
     image-alt:
     name: Becky Nissel
     role: Copy Writer
     role-class: individual-b
-    link-url:
-    link-label:
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label: Instagram
+  - image: /uploads/committee-placeholder-4.jpg
     image-alt:
     name: Marcus Relacion
     role: Web Developer
     role-class: individual-b
-    link-url: https://www.linkedin.com/in/marcusrelacion/
-    link-label: LinkedIn
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
+    linkedin-url: https://www.linkedin.com/in/marcusrelacion/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/marcusrelacion/
+    instagram-label: "@marcusrelacion"
+  - image: /uploads/committee-placeholder-4.jpg
     image-alt:
     name: Chelsae Blackman
     role: Web Designer
     role-class: individual-b
-    link-url: https://www.linkedin.com/in/chelsae/
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/chelsae/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/chelsae.black/
+    instagram-label: "@chelsae.black"
   - image: /uploads/committee-rebecca-price.jpg
     image-alt:
     name: Rebecca Price
     role: Social Media
     role-class: individual-b
-    link-url: https://www.linkedin.com/in/rebecca-price-686531b3/
-    link-label: LinkedIn
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
+    linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rebeccuhhhhh/
+    instagram-label: "@rebeccuhhhhh"
+  - image: /uploads/committee-placeholder-4.jpg
     image-alt:
     name: Derrick Douglass
     role: Photography Coordinator
     role-class: individual-b
-    link-url:
-    link-label:
-  - image: /uploads/committee-cass-olson.jpg
-    image-alt:
-    name: Cass Olson
-    role: AIGA DC Programming Chair
-    role-class: individual-d
-    link-url: https://www.linkedin.com/in/cassolson/
-    link-label: LinkedIn
-  - image: https://media.giphy.com/media/1abt88z7RkssU/giphy.gif
-    image-alt:
-    name: Catrell Thomas
-    role: Development
-    role-class: individual-d
-    link-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
-    link-label: LinkedIn
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label: Instagram
   - image: /uploads/committee-phim-her.jpg
     image-alt:
     name: Phim Her
     role: Partnerships
     role-class: individual-d
-    link-url: https://www.linkedin.com/in/phimher 
-    link-label: LinkedIn
+    linkedin-url: https://www.linkedin.com/in/phimher 
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
