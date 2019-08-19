@@ -27,11 +27,13 @@
     background-size: cover;
     width: 100%;
     position: relative;
+    font-weight: 900;
 }
-.slide h2 {
+.slide h2 > p {
     font-size: $font-size-20;
     line-height: initial;
     margin: $spacing-16 auto;
+    text-shadow: 1px 1px 2px $white;
 }
 .slide p {
     margin: 0;
@@ -74,7 +76,7 @@
 .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 }
 .slide--bong {
     background-color: $mauve;
@@ -138,8 +140,8 @@
     #slide__curtain {
         height: 144px;
     }
-    .slide h2 {
-        font-size: $font-size-24;
+    .slide h2 > p {
+        font-size: $font-size-32;
     }
     .about-layout .slides {
         height: 25vh;

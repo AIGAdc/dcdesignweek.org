@@ -44,8 +44,10 @@
                     </i>
                 </a>
             </div>
+            {% if slide.video %}
             <video autoplay="true" loop="true" muted="true" poster="{{ slide.poster }}" src="{{ slide.video }}">
             </video>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -56,14 +58,12 @@
     var flkty = new Flickity( elem, {
         // options
         cellAlign: 'center',
-        contain: true,
         wrapAround: true,
         pageDots: false,
         draggable: false,
-        prevNextButtons: false,
+        prevNextButtons: true,
         hash: true,
         fade: true,
-        imagesLoaded: true,
         setGallerySize: false
     });
     // element argument can be a selector string
@@ -91,14 +91,12 @@
     var flkty = new Flickity( elem, {
         // options
         cellAlign: 'center',
-        contain: true,
         wrapAround: true,
         pageDots: true,
         draggable: false,
         prevNextButtons: false,
         hash: false,
         fade: true,
-        imagesLoaded: true,
         setGallerySize: false,
         autoPlay: 3000,
         pauseAutoPlayOnHover: true
