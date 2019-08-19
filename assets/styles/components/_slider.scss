@@ -6,16 +6,6 @@
 .slides {
     height: 60vh;
 }
-@media screen and (min-width: 767px) {
-    .slides {
-        height: 40vh;
-    }
-}
-@media screen and (min-width: 1279px) {
-    .slides {
-        height: 60vh;
-    }
-}
 /* cell inherit height from slider */
 
 .slide {
