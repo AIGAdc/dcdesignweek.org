@@ -5,6 +5,7 @@ position: 3
 description: |
   Rachel Orr is the Creative Director of WaPo’s latest travel arm By the Way, as well as a local collage artist.
 image: /uploads/carnegie-rachel-orr.jpg
+image-alt: Event photo for Rachel Orr
 event:
   date: 2019-09-22 18:30:00 -04:00
   venue-name: 'Apple Carnegie Library, </br> Main Atrium'

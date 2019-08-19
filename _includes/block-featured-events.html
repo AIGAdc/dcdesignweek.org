@@ -17,7 +17,7 @@
             {% endif %}
                 <div class="card-image">
                     <figure>
-                        <img src="{{ posts.image }}"/>
+                        <img src="{{ posts.image }}" alt="{{ posts.image-alt }}"/>
                     </figure>
                     {% if posts.event.is-coming-soon == true %}
                     <div class="ticker">

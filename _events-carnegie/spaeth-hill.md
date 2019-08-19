@@ -5,6 +5,7 @@ position: 2
 description:  |
   Spaeth and Hill are two former graphic designers, now using their powers to rethink industrial design.
 image: /uploads/carnegie-spaeth-hill.jpg
+image-alt: Event photo for Jill Spaeth & Nathan Hill
 event:
   date: 2019-09-15 18:30:00 -04:00
   venue-name: 'Apple Carnegie Library, </br> Main Atrium'

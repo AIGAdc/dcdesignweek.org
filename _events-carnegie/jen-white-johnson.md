@@ -5,6 +5,7 @@ position: 1
 description: |
   Jen White-Johnson is the artist, writer and mother behind the remarkably poignant zine KNOX ROX.
 image: /uploads/carnegie-jen-white-johnson.jpg
+image-alt: Event photo for Jen White Johnson
 event:
   date: 2019-09-08 18:30:00 -04:00
   venue-name: 'Apple Carnegie Library, </br> Main Atrium'
