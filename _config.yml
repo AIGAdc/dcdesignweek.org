@@ -2,11 +2,11 @@
 title: DC Design Week 2019
 timezone: America/New_York
 collections:
-  events-dcdw:
-    title: Events - DCDW
-    output: true
   events-carnegie:
     title: Events - Carnegie
+    output: true
+  events-dcdw:
+    title: Events - DCDW
     output: true
   posts:
     title: Posts

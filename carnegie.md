@@ -1,7 +1,6 @@
 ---
 title: Sundays at Carnegie
-permalink: /carnegie-library/
-published: true
+permalink: "/carnegie-library/"
 events-header: Three Sundays at Carnegie
 layout: carnegie
 ---

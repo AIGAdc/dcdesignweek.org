@@ -1,6 +1,5 @@
 ---
 title: Volunteer
-published: true
 layout: volunteer
 ---
 
