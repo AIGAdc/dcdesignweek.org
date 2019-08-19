@@ -1,6 +1,5 @@
 ---
 title: Sponsors
-published: true
 first-tier-header: Chapter Sponsors
 first-tier-sub-header: 'Sustaining Partners support AIGA DC for a full year, enabling the chapter to stay true to its mission: to advance design as a professional craft, strategic tool and vital cultural force. As a chapter sponsor, these companies contribute to the design profession and the greater good.'
 second-tier-header: DC Design Week Sponsors
