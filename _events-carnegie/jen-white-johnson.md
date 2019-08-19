@@ -13,9 +13,9 @@ event:
   start-time: 2:30pm
   end-time: 4:00pm
   is-coming-soon: true
-  coming-soon-message: Save the Date! Save the Date! 
+  coming-soon-message: Save the Date!
   is-sold-out: false
-  sold-out-message: Sold Out! Sold Out!
+  sold-out-message: Sold Out!
 buttons:
   has-left-button: true
   button-left-url:

@@ -54,14 +54,16 @@
     font-size: $font-size-20;
     margin: 0;
     text-align: center;
-    /* Starting position */
+    /*
+
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    /* Apply animation to this element */
+
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
+    */
 }
 /* Move it (define the animation) */
 
