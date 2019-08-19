@@ -2,12 +2,8 @@
 layout: default
 ---
 
-<div class="mw8 center cf pa3">
-	{% include partials/introduction.html %}
-	<a href="https://www.signupgenius.com/go/70a0f48aea829a3fc1-volunteer" target="_blank" wclass="btn btn--primary-border dib mr0 mr3-l">
-		Pick a Shift to Volunteer
-	</a>
-	<a href="https://www.signupgenius.com/go/70a094fa8a82ea2f58-photography" target="_blank" class="btn btn--primary-border dib">
-		Photographer Signup
-	</a>
+<div class="mw8 center mv4 mv5-l pa3">
+	{% include block-introduction.html %}
+    {% include 3rd-party/typeform/form.html %}
+    {% include 3rd-party/typeform/scripts.html %}
 </div>

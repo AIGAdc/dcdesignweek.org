@@ -1,14 +1,12 @@
 .button {
-    background-color: red;
+    background-color: $white;
     cursor: pointer !important;
+    color: $black;
     display: inline-block;
     font-weight: 700;
-    padding: 0px 16px;
-    transition: opacity 150ms ease-in;
-    &__solid, &__border {
-        background-color: transparent;
+    padding: 0px 8px;
+    &__solid, &__border, &__link {
         border: solid 4px transparent;
-        color: $black;
     }
     &__solid--mauve {
         background-color: $mauve;
@@ -40,15 +38,14 @@
     &__border--aquamarine {
         border: solid 4px $aquamarine;
     }
-}
-a:hover, .button:hover {
-    opacity: 0.5;
-}
-a:focus, .button:focus {
-    outline: dotted 4px $black;
-}
-@media screen and (min-width: 640px) {
-    .button {
-        padding: 0px 48px;
+    &__solid--black {
+        background-color: $black;
+    }
+    &__border--black {
+        border: solid 4px $black;
+        color: $black;
+    }
+    &__link--black {
+        color: $black;
     }
 }

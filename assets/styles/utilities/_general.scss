@@ -1,12 +1,20 @@
-.container {
-    margin: auto;
-    max-width: 1024px;
+img,
+svg {
+    display: block;
+    width: 100%;
+}
+figure {
+    margin: 0;
+    padding: 0;
 }
 /* Legacy Firefox syntax (version 61 and below) */
 
 ::-moz-selection {
-    background-color: $aquamarine !important;
+    background-color: $mauve !important;
 }
 ::selection {
-    background-color: $aquamarine !important;
+    background-color: $mauve !important;
+}
+.disabled {
+    cursor: not-allowed;
 }

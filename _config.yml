@@ -2,8 +2,11 @@
 title: DC Design Week 2019
 timezone: America/New_York
 collections:
-  events:
-    title: Events
+  events-carnegie:
+    title: Events - Carnegie
+    output: true
+  events-dcdw:
+    title: Events - DCDW
     output: true
   posts:
     title: Posts
@@ -21,7 +24,7 @@ defaults:
     image: "/uploads/og-image.png"
 - scope:
     path: ''
-    type: events
+    type: events-dcdw
   values:
     seo:
       description: Provide an exceprt of what the event is about.
@@ -54,6 +57,35 @@ defaults:
     is-oct-26: false
     is-oct-27: false
     is-oct-28: false
+    is-sold-out: false
+    is-featured-on-home-page: false
+    layout: events-single
+- scope:
+    path: ''
+    type: events-carnegie
+  values:
+    seo:
+      description: Provide an exceprt of what the event is about.
+    event:
+      date: Displays the date of the event.
+      venue-name: Displays the name of the venue.
+      venue-directions: Provide a url to google maps to help navigate attendees.
+      venue-address: Displays the address of the venues.
+      start-time: Displays the start time of the event.
+      end-time: Displays the end time of the event.
+    speakers:
+      headshot-image: Displays the speakers portait.
+      url: Provide a url to the speakers website.
+      name: Displays the speakers name.
+      title: Displays the speakers professional title
+      bio-text: Displays the speakers bio.
+    buttons:
+      has-left-button: true
+      button-left-url: Provide a url for button on left
+      button-left-text: Provide text for button on left
+      has-right-button: true
+      button-right-url: Provide a url for button on right
+      button-right-text: Provide text for button on right
     is-sold-out: false
     is-featured-on-home-page: false
     layout: events-single

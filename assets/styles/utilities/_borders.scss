@@ -1,7 +1,5 @@
-hr, .border {
-    border: solid 2px transparent;
-    margin: 0.5rem 0 2rem 0;
-    max-width: 80px;
+.border {
+    border: solid 4px transparent;
     &--mauve {
         border-color: $mauve;
     }
@@ -16,5 +14,8 @@ hr, .border {
     }
     &--aquamarine {
         border-color: $aquamarine;
+    }
+    &--black {
+        border-color: $black;
     }
 }

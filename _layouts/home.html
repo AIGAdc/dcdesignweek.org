@@ -2,92 +2,21 @@
 layout: default
 ---
 
-<!-- Section 1: Hero -->
-<section class="hero vh-50 flex relative bg-mauve-light">
-	<div class="flex-auto self-center relative mw8 center tc">
-		<h1 class="heading-1 mb2">{{ page.hero-header }}</h1>
-		<p class="copy mb4">{{ page.hero-subheader }}</p>
-		<a href="{{ page.hero-button-left-url }}"
-			class="button button__{{ page.hero-button-left-type }} button__{{ page.hero-button-left-type }}--{{ page.hero-button-left-color }}">{{ page.hero-button-left }}</a>
-		<a href="{{ page.hero-button-right-url }}"
-			class="button button__{{ page.hero-button-right-type }} button__{{ page.hero-button-right-type }}--{{ page.hero-button-right-color }}">{{ page.hero-button-right }}</a>
-	</div>
+<section class="home-hero">
+    <div class="home-hero__content">
+        <small>
+            {{ page.hero-tagline }}
+        </small>
+        <h1>
+            {{ page.hero-header }}
+        </h1>
+        <p>
+            {{ page.hero-subheader }}
+        </p>
+    </div>
+    {% include block-slider.html %}
 </section>
-
-<!-- Section 2: DC is Design -->
-<section class="dc-is-design pv5 mb5 mb6-l bg-mint cf relative">
-	<div class="mw8 center pa3">
-		<h2 class="f4 f3-l black lh-title mb4">{{ page.dc-design-header }}</h2>
-		<hr>
-		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-1 | markdownify }}
-			</div>
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-1 }}"
-					src="{{ page.dc-design-image-1 }}" alt="{{ page.dc-design-image-1-alt }}">
-			</div>
-		</div>
-		<div class="flex flex-row-l flex-wrap items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-2 }}"
-					src="{{ page.dc-design-image-2 }}" alt="{{ page.dc-design-image-2-alt }}">
-			</div>
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-2 | markdownify }}
-			</div>
-		</div>
-		<div class="flex flex-row-l flex-wrap-reverse items-center mb3 mb0-l">
-			<div class="w-100 w-50-l">
-				{{ page.dc-design-paragraph-3 | markdownify }}
-			</div>
-			<div class="w-100 w-50-l">
-				<img class="lazyload blur-up v-mid" data-src="{{ page.dc-design-image-3 }}"
-					src="{{ page.dc-design-image-3 }}" alt="{{ page.dc-design-image-3-alt }}">
-			</div>
-		</div>
-	</div>
+<section class="container">
+    {% include block-featured-events.html %}
+    {% include block-featured-sponsors.html %}
 </section>
-
-<!-- featured: sponsors -->
-<section class="sponsors mb5 mb6-l cf relative">
-	<div class="mw8 center pa3">
-		<h2>{{ page.home-partners-header }}</h2>
-		<hr>
-		{{ page.home-partners-text | markdownify }}
-
-		<ul class="list ma0 pa0 flex flex-column flex-row-ns flex-wrap">
-			{% assign sorted_sponsors = site.sponsors %}
-			{% for posts in sorted_sponsors %}
-			{% if posts.is-featured-on-home-page == true %}
-			{% include partials/sponsors/tiers/content.html %}
-			{% endif %}
-			{% endfor %}
-		</ul>
-
-		<a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{page.home-sponsors-url}}">
-			{{ page.home-sponsors-url-text }}
-		</a>
-	</div>
-</section>
-
-{% comment %}
-<!-- featured: events -->
-<section class="events mb5 mb6-l cf relative">
-	<div class="mw8 center pa3">
-		<h2>{{ page.home-events-header }}</h2>
-		<hr>
-		<ul class="list ma0 mb4 pa0 flex flex-column flex-row-l flex-wrap">
-			{% assign sorted = (site.events | sort: 'position') %}
-			{% for posts in sorted %}
-			{% if posts.is-featured-on-home-page == true %}
-			{% include partials/events/card/content.html %}
-			{% endif %}
-			{% endfor %}
-		</ul>
-		<a class="btn btn--primary-border db dib-ns ma0 tc tl-ns" href="{{ page.home-events-url }}">
-			{{page.home-events-button-text}}
-		</a>
-	</div>
-</section>
-{% endcomment %}

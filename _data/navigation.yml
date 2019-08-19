@@ -1,24 +1,23 @@
 # This yml file controls the navigation links across the DC Design Week Website
-
-# primary nav
-# primary-nav:
-#  - title: "Events"
-#    url: /events/
-#  - title: "Map"
-#    url: /map/
-#  - title: "Pop Up Shop"
-#    url: /pop-up-shop/
-#  - title: "About"
-#    url: /about/
-#  - title: "Sponsors"
-#    url: /sponsors/
-#  - title: "Volunteer"
-#    url: /volunteer/
-
-# holding site navigation
-holding-site:
-  - title: "2016"
-    url: https://2016.dcdesignweek.org
-  - title: "2017"
-    url: https://github.com/AIGAdc/2017.dcdesignweek.org
-
+primary-nav:
+  - title: "Carnegie Library"
+    url: /carnegie-library/
+    button-type: link 
+    button-color: black
+  - title: "About"
+    url: /about/
+    button-type: link 
+    button-color: black
+  - title: "Contact Us"
+    url: mailto:designweek@dc.aiga.org
+    button-type: link 
+    button-color: black
+#   url: "/#events"
+#   button-type: link
+#   button-color: black
+# - title: "Sponsors"
+#   url: /sponsors/
+# - title: "Volunteer"
+#   url: /volunteer/
+# - title: "Pop Up Shop"
+#   url: /pop-up-shop/

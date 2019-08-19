@@ -1,0 +1,27 @@
+<div class="block block-featured-sponsors">
+    <h2>
+        {{ page.sponsors-header }}
+    </h2>
+    <hr/>
+    <p>
+        {{ page.sponsors-body | markdownify }}
+    </p>
+    <ul class="grid grid__4-column">
+        {% assign sorted_sponsors = site.sponsors %}
+        {% for posts in sorted_sponsors %}
+        {% if posts.is-featured == true %}
+        <li class="card">
+            <div class="card-details">
+                <a href="{{ posts.sponsor-url }}" rel="noopener" target="_blank">
+                    <img alt="{{ posts.sponsor-image-alt }}" class="lazyload blur-up" data-src="{{ posts.sponsor-image }}" src="{{ posts.sponsor-image }}">
+                    </img>
+                </a>
+            </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <a class="button button__{{ page.sponsors-button-type }} button__{{ page.sponsors-button-type }}--{{ page.sponsors-button-color }}" href="{{ page.sponsors-button-url }}">
+        {{ page.sponsors-button }}
+    </a>
+</div>
