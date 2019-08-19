@@ -2,7 +2,7 @@
 title: Rachel Orr
 date: 2018-09-26 20:54:00 -04:00
 position: 3
-description: 'Rachel Orr is the Creative Director of WaPo’s latest travel arm By the
+description: 'Rachel Orr is the Design Editor of WaPo’s latest travel arm By the
   Way, as well as a local collage artist.
 
 '
