@@ -21,7 +21,7 @@ defaults:
 - scope:
     path: ''
   values:
-    image: "/uploads/og-image.png"
+    image: "/uploads/og-image.jpg"
 - scope:
     path: ''
     type: events-dcdw
