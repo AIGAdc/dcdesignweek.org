@@ -1,9 +1,7 @@
 # Allows for easier updating of subscription section in the footer
 subscribe:
   body: |
-    Our team of organizers are already booking events and planning the best DC Design Week you’ve ever seen.
-
-    Stay up to date of progress through email and follow us on social media! Subscribe below to receive updates from DC Design Week and AIGA DC.
+    Our 2019 committee is hard at work organizing what is shaping up to be the best DC Design Week ever. Stay tuned for announcements and be the first to know when tickets go on sale for your favorite events. Follow us on social and sign up below for updates from DCDW2019 and AIGA DC.
     
 # Allows for easier updating of volunteer section in the footer
 volunteer:

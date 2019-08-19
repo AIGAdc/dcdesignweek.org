@@ -1,10 +1,12 @@
-.sponsor-grid {
+.sponsor-grid, .sponsorship-tier__list {
     display: grid;
-    grid-gap: 16px;
-    grid-template-columns: repeat(2, 1fr);
-}
-@media screen and (min-width: 960px) {
-    .sponsor-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+    grid-gap: 1rem;
+    /* Special thanks to this article from Evan Minto on 
+	Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ */
+    /* Partially responsive fallback */
+    grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
+    /* Fully responsive version */
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+    margin: 0;
+    padding: 0;
 }

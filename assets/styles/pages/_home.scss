@@ -1,0 +1,28 @@
+.home-hero__content {
+    background-color: $black;
+    color: $white;
+    padding: $spacing-8;
+    position: relative;
+    text-align: center;
+}
+.home-hero__content {
+    font-weight: 900;
+}
+.home-hero__content h1 {
+    font-size: $font-size-40;
+    margin-bottom: 0;
+    margin-top: -0.25rem;
+}
+.home-hero__content p {
+    margin: 0;
+}
+@media screen and (min-width: 1023px) {
+    .home-hero h1 {
+        font-size: 72px;
+        line-height: 1;
+        /* ie11 */
+        line-height: initial;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+    }
+}

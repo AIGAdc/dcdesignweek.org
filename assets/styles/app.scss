@@ -1,14 +1,16 @@
 ---
 ---
 
-@import "tachyons/4.10.0";
 @import "globals/variables";
+@import "globals/reset";
 @import "globals/typography";
 @import "components/buttons";
 @import "components/cards";
-@import "components/diamond-images";
+@import "components/grid";
 @import "components/header";
+@import "components/block";
 @import "components/hero";
+@import "components/slider";
 @import "components/footer";
 @import "utilities/general";
 @import "utilities/borders";
@@ -16,12 +18,14 @@
 @import "utilities/flourishes";
 @import "utilities/lists";
 @import "utilities/shadows";
-@import "pages/about";
+@import "utilities/widths";
+@import "utilities/z-index";
+@import "pages/home";
 @import "pages/pop-up-shop";
 @import "pages/sponsors";
+@import "3rd-party/flickity";
 @import "3rd-party/lazysizes";
 @import "3rd-party/mailchimp";
-@import "3rd-party/mapbox";
 @import "3rd-party/mixitup";
 @import "3rd-party/offside";
 @import "3rd-party/typeform";

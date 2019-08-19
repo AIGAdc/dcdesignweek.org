@@ -18,7 +18,7 @@
         {% if page.url == "/" %}
         <div class="flex items-center mb2">
           <div class="mr2">
-            <span>{% include icons/calendar-icon.svg %}</span>
+   
           </div>
           <div class="flex-auto fw4">
             {{ posts.event.date | date: "%A, %B %d"}}
@@ -27,7 +27,7 @@
         {% endif %}
         <div class="flex items-center mb2">
           <div class="mr2">
-            <span>{% include icons/time-icon.svg %}</span>
+   
           </div>
           <div class="flex-auto fw4">
             {{ posts.event.start-time }} - {{ posts.event.end-time }}
@@ -35,7 +35,7 @@
         </div>
         <div class="flex items-center">
           <div class="mr2">
-            <span>{% include icons/location-icon.svg %}</span>
+
           </div>
           <div class="flex-auto fw4">
             {{ posts.event.venue-name }}
