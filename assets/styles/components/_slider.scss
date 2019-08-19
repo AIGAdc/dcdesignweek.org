@@ -60,7 +60,6 @@
     left: 0;
     overflow: hidden;
     z-index: 9;
-    mix-blend-mode: multiply;
     object-fit: contain;
 }
 .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
@@ -70,23 +69,23 @@
 }
 .slide--bong {
     background-color: $mauve;
-    background-image: url('/uploads/hero-bong.jpg');
+    /*background-image: url('/uploads/hero-bong.jpg');*/
 }
 .slide--fish {
     background-color: $aquamarine;
-    background-image: url('/uploads/hero-fish.jpg');
+    /*background-image: url('/uploads/hero-fish.jpg');*/
 }
 .slide--gogo {
     background-color: $lightning-yellow;
-    background-image: url('/uploads/hero-gogo.jpg');
+    /*background-image: url('/uploads/hero-gogo.jpg');*/
 }
 .slide--vader {
     background-color: $crusta;
-    background-image: url('/uploads/hero-vader.jpg');
+    /*background-image: url('/uploads/hero-vader.jpg')*/;
 }
 .slide--court {
     background-color: $hot-pink;
-    background-image: url('/uploads/hero-court.jpg');
+    /*background-image: url('/uploads/hero-court.jpg')*/;
 }
 .slide__content {
     align-self: center;
