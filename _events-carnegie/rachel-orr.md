@@ -2,12 +2,7 @@
 title: Rachel Orr
 date: 2018-09-26 20:54:00 -04:00
 position: 3
-description: 'Rachel Orr is the Creative Director of WaPo’s latest travel arm By the
-  Way, as well as a local collage artist.
-
-'
 image: "/uploads/carnegie-rachel-orr.jpg"
-image-alt: Event photo for Rachel Orr
 event:
   date: 2019-09-22 18:30:00 -04:00
   venue-name: Apple Carnegie Library, </br> Main Atrium
@@ -21,11 +16,12 @@ event:
   sold-out-message: Sold Out!
 buttons:
   has-left-button: true
-  button-left-url: 
-  button-left-text: 
   has-right-button: false
-  button-right-url: 
-  button-right-text: 
+description: 'Rachel Orr is the Design Editor of WaPo’s latest travel arm By the Way,
+  as well as a local collage artist.
+
+'
+image-alt: Event photo for Rachel Orr
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
