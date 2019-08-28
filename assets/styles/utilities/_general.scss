@@ -10,11 +10,15 @@ figure {
 /* Legacy Firefox syntax (version 61 and below) */
 
 ::-moz-selection {
-    background-color: $mauve !important;
+    background-color: $mauve;
 }
 ::selection {
-    background-color: $mauve !important;
+    background-color: $mauve;
 }
 .disabled {
     cursor: not-allowed;
+}
+
+.about-layout video {
+	width: 100%;
 }

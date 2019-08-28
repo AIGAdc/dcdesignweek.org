@@ -15,10 +15,11 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
-  is-coming-soon: true
+  is-coming-soon: false
   coming-soon-message: Save the Date!
   is-sold-out: false
   sold-out-message: Sold Out!
+  external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
 buttons:
   has-left-button: true
   button-left-url: 

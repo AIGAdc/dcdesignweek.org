@@ -4,7 +4,7 @@
 /* carousel height */
 
 .slides {
-    height: 60vh;
+    height: 800px;
 }
 /* cell inherit height from slider */
 
@@ -19,7 +19,7 @@
     position: relative;
     font-weight: 900;
 }
-.slide h2 > p {
+.slide h2>p {
     font-size: $font-size-20;
     line-height: initial;
     margin: $spacing-16 auto;
@@ -42,6 +42,16 @@
 }
 .slide a {
     color: $black;
+}
+.slide__lightbulb {
+    position: absolute;
+    top: -64px;
+    left: 0;
+    right: 0;
+    z-index: $index-4;
+    height: auto;
+    max-width: 120px;
+    margin: auto;
 }
 .about-layout .slides {}
 .about-layout .block-50-50-text-image {
@@ -81,11 +91,13 @@
 }
 .slide--vader {
     background-color: $crusta;
-    /*background-image: url('/uploads/hero-vader.jpg')*/;
+    /*background-image: url('/uploads/hero-vader.jpg')*/
+    ;
 }
 .slide--court {
     background-color: $hot-pink;
-    /*background-image: url('/uploads/hero-court.jpg')*/;
+    /*background-image: url('/uploads/hero-court.jpg')*/
+    ;
 }
 .slide__content {
     align-self: center;
@@ -99,7 +111,7 @@
     position: absolute;
     top: 0px;
     width: 50%;
-    z-index: $index-4;
+    z-index: $index-2;
 }
 .slide__curtain--left {
     left: 0;
@@ -107,15 +119,8 @@
 .slide__curtain--right {
     right: 0;
 }
-#slide__curtain {
-    height: 32px;
-    width: 100%;
-    display: block;
-}
-@media screen and (min-width: 579px) {
-    #slide__curtain {
-        height: 64px;
-    }
+.slide__curtain--left>svg, .slide__curtain--right>svg {
+    height: 100%;
 }
 @media screen and (min-width: 1023px) {
     .home-hero h1 {
@@ -126,11 +131,12 @@
         margin-bottom: -1rem;
         margin-top: -1rem;
     }
-    #slide__curtain {
-        height: 144px;
-    }
-    .slide h2 > p {
+    .slide h2>p {
         font-size: $font-size-32;
+    }
+    .slide__lightbulb {
+        top: -88px;
+        max-width: 144px;
     }
     .about-layout .slides {
         height: 25vh;

@@ -17,11 +17,11 @@ slide:
     shadow: mauve
     caption: Puff, Puff, Free Admission
     body: |
-      Check out the hard work of some of our most, uh, determined creatives at the Drug Enforcement Agency’s bong collection. It’s open for free, but they probably don’t want you to take any inspiration. Did you know you can make a bong out of that?!
+      Did you know you can make a bong out of that?! Arlington’s DEA Museum boasts an extensive collection of bongs, including one made out of a plastic honey bear and another from an imitation mayonnaise jar. You can’t accuse the DMV of not being creative!
     video: /uploads/hero-bong.mp4
     button-url: "#court"
   - type: court
-    shadow: black
+    shadow: mauve
     caption: The Highest Court in the Land
     body: |
       The Nine may be the last word, but if you want to settle things with a little three-on-three there’s an even higher court. Literally. On the top floor of the Supreme Court is the *[actual highest court](https://www.atlasobscura.com/places/highest-court-of-the-land){:target="_blank" rel="noopener"}* in the land.
