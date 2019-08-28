@@ -2,7 +2,7 @@
 title: Pop Up Shop
 pop-up-shop-image: "/uploads/popUpShop-hero.jpg"
 pop-up-shop-image-alt: Pop Up Shop Image Alt
-pop-up-shop-header: Like to Party?
+pop-up-shop-header: Lorem ipsum dolor sit amet
 pop-up-shop-body: |
   We'll be celebrating the pop up shop by throwing a little party at the
   pop up shop. There will be good music, food, drinks and many of the

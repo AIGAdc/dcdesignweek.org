@@ -1,5 +1,4 @@
-img,
-svg {
+img, svg {
     display: block;
     width: 100%;
 }
@@ -18,10 +17,9 @@ figure {
 .disabled {
     cursor: not-allowed;
 }
-
 .about-layout video {
-	width: 100%;
+    width: 100%;
 }
 * {
-	border: dashed 1px lightsalmon;
+    border: dashed 1px lightsalmon;
 }
