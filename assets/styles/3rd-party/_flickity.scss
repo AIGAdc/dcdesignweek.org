@@ -48,7 +48,7 @@ https://flickity.metafizzy.co
 .flickity-button {
     display: none;
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
+    background-color: $white;
     border: none;
     color: $black;
 }
@@ -58,12 +58,12 @@ https://flickity.metafizzy.co
     }
 }
 .flickity-button:hover {
-    background: white;
+    background-color: $white;
     cursor: pointer;
 }
 .flickity-button:focus {
     outline: none;
-    box-shadow: 0 0 0 5px #19F;
+    box-shadow: 0 0 0 5px $aquamarine;
 }
 .flickity-button:active {
     opacity: 0.6;
