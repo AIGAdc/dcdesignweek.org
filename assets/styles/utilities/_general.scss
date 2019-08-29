@@ -1,25 +1,6 @@
-img, svg {
-    display: block;
-    width: 100%;
-}
-figure {
-    margin: 0;
-    padding: 0;
-}
-/* Legacy Firefox syntax (version 61 and below) */
-
-::-moz-selection {
-    background-color: $mauve;
-}
-::selection {
-    background-color: $mauve;
-}
 .disabled {
     cursor: not-allowed;
 }
 .about-layout video {
     width: 100%;
-}
-* {
-    outline: 1px dashed lightsalmon;
 }

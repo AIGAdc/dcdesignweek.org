@@ -54,7 +54,7 @@ input[type='search'] {
 }
 /* Make images responsive */
 
-img {
+img, svg, video {
     max-width: 100%;
     display: block;
     width: 100%;
@@ -68,4 +68,12 @@ img {
         transition: none !important;
         scroll-behavior: auto !important;
     }
+}
+/* Legacy Firefox syntax (version 61 and below) */
+
+::-moz-selection {
+    background-color: $mauve;
+}
+::selection {
+    background-color: $mauve;
 }

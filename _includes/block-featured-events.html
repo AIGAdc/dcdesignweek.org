@@ -6,7 +6,7 @@
     <p>
         {{ page.events-body | markdownify }}
     </p>
-    <ul class="grid grid__3-column cards">
+    <ul class="o-grid o-grid__3-columns">
         {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
         {% for posts in sorted_events-carnegie %}
         <li class="card">
