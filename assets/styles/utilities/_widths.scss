@@ -1,9 +1,15 @@
-.container {
-    max-width: 1024px;
+.container, .container--small {
     margin: auto;
     padding: $spacing-16;
 }
+.container {
+    max-width: 1024px;
+}
 .container--small {
     max-width: 768px;
-    margin: auto;
+}
+@media screen and (min-width: 1023px) {
+    .container, .container--small {
+        padding: $spacing-32;
+    }
 }

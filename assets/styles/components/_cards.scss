@@ -114,10 +114,10 @@
     height: 135px;
     -webkit-transform: rotate(0deg) translateX(15px) translateY(-15px);
     transform: rotate(0deg) translateX(15px) translateY(-15px);
-    -webkit-transition: -webkit-transform 100ms ease-in-out;
-    transition: -webkit-transform 100ms ease-in-out;
-    transition: transform 100ms ease-in-out;
-    transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
+    -webkit-transition: -webkit-transform $timing-quick ease-in-out;
+    transition: -webkit-transform $timing-quick ease-in-out;
+    transition: transform $timing-quick ease-in-out;
+    transition: transform $timing-quick ease-in-out, -webkit-transform $timing-quick ease-in-out;
     overflow: hidden;
 }
 .diamond:hover {
