@@ -19,7 +19,7 @@ events-button-url: "/carnegie-library/"
 events-button-type: border
 events-button-color: lightning-yellow
 sponsors-header: Want to Sponsor DCDW2019?
-sponsors-body: '"Did you know that 2018 was the biggest DCDW yet, with 9 days of back-to-back
+sponsors-body: 'Did you know that 2018 was the biggest DCDW yet, with 9 days of back-to-back
   programming in all 4 quadrants of DC, MD & VA!? That was only possible because of
   the generous support of our sponsors. This year, we’re looking to make DCDW2019
   even better — more events, in more places, featuring even more aspects of DC’s curious
@@ -27,7 +27,7 @@ sponsors-body: '"Did you know that 2018 was the biggest DCDW yet, with 9 days of
   currently looking for partners who can help make the best DCDW a reality. Whether
   you’re able to offer space, offer in-kind services, or offer financial support,
   your contribution will make the difference. Click below to support #DCDesignWeek
-  and be part of the excitement as an ally of the creative community."
+  and be part of the excitement as an ally of the creative community.
 
 '
 sponsors-button: Become A Sponsor
