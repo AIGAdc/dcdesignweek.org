@@ -31,7 +31,7 @@
 }
 #mc_embed_signup div.response {
     background-color: $hot-pink !important;
-    padding: 16px !important;
+    padding: $spacing-16 !important;
     z-index: 1 !important;
 }
 #mc_embed_signup div.response a {
@@ -73,7 +73,7 @@
 }
 .mailchimp-grid {
     display: grid;
-    grid-gap: 16px;
+    grid-gap: $spacing-16;
     grid-template-columns: 1fr;
 }
 @media screen and (min-width: 639px) {

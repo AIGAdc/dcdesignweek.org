@@ -3,7 +3,7 @@
     margin-top: $spacing-32;
 }
 .block-introduction, .block-featured-events, .block-featured-sponsors, .block-committee, .block-50-50-text-image {
-    margin-top: 32px;
+    margin-top: $spacing-32;
 }
 @media screen and (min-width: 1023px) {
     .block-introduction, .block-featured-events, .block-featured-sponsors, .block-committee, .block-50-50-text-image {
