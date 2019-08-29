@@ -3,22 +3,22 @@
 }
 .shadow {
     &--black {
-        box-shadow: 32px 32px $black;
+        box-shadow: 16px 16px $black;
     }
     &--mauve {
-        box-shadow: 32px 32px $mauve;
+        box-shadow: 16px 16px $mauve;
     }
     &--hot-pink {
-        box-shadow: 32px 32px $hot-pink;
+        box-shadow: 16px 16px $hot-pink;
     }
     &--crusta {
-        box-shadow: 32px 32px $crusta;
+        box-shadow: 16px 16px $crusta;
     }
     &--lightning-yellow {
-        box-shadow: 32px 32px $lightning-yellow;
+        box-shadow: 16px 16px $lightning-yellow;
     }
     &--aquamarine {
-        box-shadow: 32px 32px $aquamarine;
+        box-shadow: 16px 16px $aquamarine;
     }
     &--black:hover {
         box-shadow: 0 0 $black;
@@ -59,21 +59,63 @@
         box-shadow: 0px 0px $aquamarine;
     }
     &--black:hover {
-        box-shadow: 32px 32px $black;
+        box-shadow: 16px 16px $black;
     }
     &--mauve:hover {
-        box-shadow: 32px 32px $mauve;
+        box-shadow: 16px 16px $mauve;
     }
     &--hot-pink:hover {
-        box-shadow: 32px 32px $hot-pink;
+        box-shadow: 16px 16px $hot-pink;
     }
     &--crusta:hover {
-        box-shadow: 32px 32px $crusta;
+        box-shadow: 16px 16px $crusta;
     }
     &--lightning-yellow:hover {
-        box-shadow: 32px 32px $lightning-yellow;
+        box-shadow: 16px 16px $lightning-yellow;
     }
     &--aquamarine:hover {
-        box-shadow: 32px 32px $aquamarine;
+        box-shadow: 16px 16px $aquamarine;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .shadow {
+        &--black {
+            box-shadow: 32px 32px $black;
+        }
+        &--mauve {
+            box-shadow: 32px 32px $mauve;
+        }
+        &--hot-pink {
+            box-shadow: 32px 32px $hot-pink;
+        }
+        &--crusta {
+            box-shadow: 32px 32px $crusta;
+        }
+        &--lightning-yellow {
+            box-shadow: 32px 32px $lightning-yellow;
+        }
+        &--aquamarine {
+            box-shadow: 32px 32px $aquamarine;
+        }
+    }
+    .shadow-reverse {
+        &--black:hover {
+            box-shadow: 32px 32px $black;
+        }
+        &--mauve:hover {
+            box-shadow: 32px 32px $mauve;
+        }
+        &--hot-pink:hover {
+            box-shadow: 32px 32px $hot-pink;
+        }
+        &--crusta:hover {
+            box-shadow: 32px 32px $crusta;
+        }
+        &--lightning-yellow:hover {
+            box-shadow: 32px 32px $lightning-yellow;
+        }
+        &--aquamarine:hover {
+            box-shadow: 32px 32px $aquamarine;
+        }
     }
 }

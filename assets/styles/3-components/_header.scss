@@ -1,25 +1,23 @@
 .site-header {
     background-color: $white;
     border-bottom: solid 2px $crusta;
-    padding: $spacing-4;
     position: sticky;
     position: -webkit-sticky;
-    /*needed for Safari*/
     top: 0;
     z-index: $index-5;
 }
 .site-header__navigation {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .site-header__logo {
     max-width: 144px;
 }
 .site-header__links {
+    display: none;
     flex-grow: 1;
     text-align: right;
-    display: none;
 }
 .site-header__links li {
     display: inline-block;
@@ -30,9 +28,9 @@
     text-transform: uppercase;
 }
 .site-header__menu {
+    display: block;
     flex-grow: 1;
     text-align: right;
-    display: block;
 }
 @media screen and (min-width: 1023px) {
     .site-header__links {

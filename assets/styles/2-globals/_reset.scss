@@ -37,6 +37,11 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
     cursor: pointer;
 }
+.button > a:focus,
+a:focus {
+    outline: dotted medium $aquamarine !important;
+    outline-offset: medium !important;
+}
 /* Turn off the recent search in WebKit. */
 
 ::-webkit-search-decoration {
