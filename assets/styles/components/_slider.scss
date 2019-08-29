@@ -45,7 +45,7 @@
 }
 .slide__lightbulb {
     position: absolute;
-    top: -64px;
+    top: -$spacing-64;
     left: 0;
     right: 0;
     z-index: $index-4;
@@ -135,7 +135,7 @@
         font-size: $font-size-32;
     }
     .slide__lightbulb {
-        top: -88px;
+        top: -$spacing-64;
         max-width: 144px;
     }
     .about-layout .slides {
