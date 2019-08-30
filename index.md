@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 description: 
-hero-tagline: Shining a light on DC’s most curious and creative since ’08.
+hero-tagline: Shining a light on DCs most curious & creative.
 hero-header: "#DCDesignWeek 2019"
 hero-subheader: September 20-27
 events-header: Before DCDW... Come to Sundays at Carnegie!

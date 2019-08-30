@@ -45,7 +45,7 @@
   - image: /uploads/committee-catrell-thomas.jpg
     image-alt:
     name: Catrell Thomas
-    role: Programming, AIGA DC
+    role: Development, AIGA DC
     linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
     linkedin-label: LinkedIn
     instagram-url:
@@ -61,10 +61,10 @@
   # Individuals
   - image: /uploads/committee-amy-almarzar.jpg
     image-alt:
-    name: Amy Almarzar
+    name: Amy Almazar
     role: Event Lead
     linkedin-url: https://www.linkedin.com/in/amy-almazar
-    linkedin-label:
+    linkedin-label: LinkedIn
     instagram-url:
     instagram-label:
   - image: /uploads/committee-chelsae-blackman.jpg
@@ -91,6 +91,14 @@
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/ecyan/
     instagram-label: "@ecyan"
+  - image: /uploads/committee-hannah-churn.jpg
+    image-alt:
+    name: Hannah Churn
+    role: Animator
+    linkedin-url: https://www.linkedin.com/in/hannah-churn-3a49781a/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/hannamations/
+    instagram-label: "@hannamations"
   - image: /uploads/committee-mary-corley.jpg
     image-alt:
     name: Mary Corley
@@ -113,8 +121,8 @@
     role: Event Lead
     linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
     linkedin-label: LinkedIn
-    instagram-url:
-    instagram-label:
+    instagram-url: https://www.instagram.com/sophiafinster/
+    instagram-label: "@sophiafinster"
   - image: /uploads/committee-phim-her.jpg
     image-alt:
     name: Phim Her
@@ -147,6 +155,14 @@
     linkedin-label:
     instagram-url: https://www.instagram.com/beckynissel/
     instagram-label: "@beckynissel"
+  - image: /uploads/committee-johanna-ostrich.jpg
+    image-alt:
+    name: Johanna Ostrich
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/johannaostrich
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label:
   - image: /uploads/committee-placeholder-5.jpg
     image-alt:
     name: Rebecca Perez

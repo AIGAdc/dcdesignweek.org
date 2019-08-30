@@ -16,7 +16,7 @@ event:
   start-time: 2:30pm
   end-time: 4:00pm
   is-coming-soon: true
-  coming-soon-message: Save the Date!
+  coming-soon-message: Coming Soon!
   is-sold-out: false
   sold-out-message: Sold Out!
 buttons:
