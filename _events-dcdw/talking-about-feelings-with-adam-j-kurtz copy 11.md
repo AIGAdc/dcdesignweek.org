@@ -22,7 +22,7 @@ buttons:
   button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
   button-left-text: "$30 Members / $38 Non-Members"
   has-right-button: false
-is-september-20: true
+is-september-26: true
 is-featured-on-home-page: true
 ---
 

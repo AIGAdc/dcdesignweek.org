@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-published: false
+published: true
 category-1: tours
 category-1-label: Tours
 category-2: lectures
