@@ -5,6 +5,7 @@
 }
 .call-for-artists .column-2 {
     margin-top: $spacing-24;
+            padding: $spacing-16;
 }
 @media screen and (min-width: 1023px) {
     .call-for-artists {
@@ -20,6 +21,6 @@
         grid-row: 2 / span 2;
         z-index: $index-4;
         background-color: $white;
-        padding: $spacing-24;
+                padding: $spacing-32;
     }
 }
