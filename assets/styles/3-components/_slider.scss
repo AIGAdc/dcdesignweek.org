@@ -111,7 +111,7 @@
     position: absolute;
     top: 0px;
     width: 50%;
-    z-index: $index-2;
+    z-index: $index-4;
 }
 .slide__curtain--left {
     left: 0;
@@ -139,7 +139,7 @@
         max-width: 144px;
     }
     .slides {
-    height: 75vh;
+    height: 80vh;
 }
     .about-layout .slides {
         height: 25vh;
