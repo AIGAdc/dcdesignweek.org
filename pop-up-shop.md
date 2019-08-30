@@ -1,6 +1,6 @@
 ---
 title: Pop Up Shop
-call-for-artists-image: "/uploads/popUpShop-hero.jpg"
+call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.jpg"
 call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Have Your Art Featured in Our DCDW Pop Up Shop! 
 call-for-artists-body: |
