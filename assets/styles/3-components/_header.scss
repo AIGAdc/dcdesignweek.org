@@ -14,6 +14,9 @@
 .site-header__logo {
     max-width: 144px;
 }
+.site-header__logo svg {
+    max-height: 72px;
+}
 .site-header__links {
     display: none;
     flex-grow: 1;
