@@ -1,22 +1,7 @@
 ---
 layout: default
 ---
-<div class="container">
+<section class="container">
     {% include block-introduction.html %}
-    <div class="call-for-artists">
-        <figure class="column-1">
-            <img alt="{{ page.pop-up-shop-image-alt }}" class="lazyload blur-up v-mid" data-src="{{ page.pop-up-shop-image }}" src="{{ page.pop-up-shop-image }}"/>
-        </figure>
-        <div class="column-2 border border--black shadow shadow--aquamarine">
-            <h2>
-                {{ page.pop-up-shop-header }}
-            </h2>
-            <p>
-                {{ page.pop-up-shop-body }}
-            </p>
-            <a class="button button__solid--mauve" href="{{ page.pop-up-shop-button-url }}" rel="noopener" target="_blank">
-                {{ page.pop-up-shop-button }}
-            </a>
-        </div>
-    </div>
-</div>
+    {% include pop-up-shop-call-for-artists.html %}
+</section>
