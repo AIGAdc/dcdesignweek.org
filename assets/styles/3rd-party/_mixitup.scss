@@ -3,7 +3,7 @@
 
 .control-group {
     border: none;
-    display: inline-block;
+    display: flex;
     vertical-align: top;
 }
 .control {
@@ -12,6 +12,7 @@
     cursor: pointer;
     padding: 16px;
     transition: background 150ms;
+    flex-grow: 1;
 }
 span.control-text-1 {
     font-size: 24px;
@@ -35,7 +36,6 @@ span.control-text-1 {
 .mix:before {
     content: '';
     display: inline-block;
-    padding-top: 60%;
 }
 .mix:after {
     content: '';

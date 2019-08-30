@@ -15,6 +15,9 @@
     color: $black;
     padding: $spacing-32;
 }
+li.card {
+    list-style: none;
+}
 .card a {
     display: inline-block;
     font-weight: 900;

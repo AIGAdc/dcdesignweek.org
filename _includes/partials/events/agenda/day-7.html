@@ -1,6 +1,6 @@
-<div class="fl w-100 mb4">
+<div>
   <h2>{{ page.oct-26-label }}</h2>
-  <ul class="list ma0 mt4 pa0 flex flex-column flex-row-l flex-wrap">
+  <ul class="grid grid__3-column">
     {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.is-september-26 == true %}
