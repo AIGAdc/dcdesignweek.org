@@ -1,23 +1,15 @@
 ---
 title: Pop Up Shop
-pop-up-shop-image: "/uploads/popUpShop-hero.jpg"
-pop-up-shop-image-alt: Pop Up Shop Image Alt
-pop-up-shop-header: Like to Party?
-pop-up-shop-body: |
-  We'll be celebrating the pop up shop by throwing a little party at the
-  pop up shop. There will be good music, food, drinks and many of the
-  artists, designers and crafts people whose work will be showcased at the
-  shop throughout the week. Come meet them and have a chat!
-pop-up-shop-button-url: "../events/pop-up-shop-party"
-pop-up-shop-button: RSVP to the Party!
+call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.jpg"
+call-for-artists-image-alt: Pop Up Shop Image Alt
+call-for-artists-header: Have Your Art Featured in Our DCDW Pop Up Shop! 
+call-for-artists-body: |
+  Are you a designer or artist with items you’re ready to sell? We want to help you sell your work to the design community at our pop up shop. [Submit your pieces to our committee for review](https://forms.gle/1ysbNJHZnREFHCAKA). Artists who are selected will be emailed with instructions on how to drop off art for the pop up – applications close September 1st!
+call-for-artists-button: Apply for Shop
+call-for-artists-button-url: "https://forms.gle/1ysbNJHZnREFHCAKA"
 layout: pop-up-shop
 ---
 
 # Pop Up Shop
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The DCDW Pop Up Shop is back and it’s bigger than ever. This year, we’re taking over THREE storefronts in Shaw. That’s right. Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/), [The Neighborgoods](https://theneighborgoods.com/) AND [Typecase Industries](http://www.typecaseindustries.com/) will be stocked with items made by DC locals. Swing by, shop, and support your neighborhood maker and creative community (during business hours, please). Plus, come celebrate with us, by attending the DCDW Pop Up Shop party (event details coming soon)!

@@ -22,7 +22,7 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots {
     padding: 0;
-    margin: 8px;
+    margin: $spacing-8;
     list-style: none;
     text-align: center;
     line-height: 1;
@@ -34,9 +34,9 @@ https://flickity.metafizzy.co
     display: inline-block;
     width: 8px;
     height: 8px;
-    margin: 8px;
+    margin: $spacing-8;
     background-color: $crusta;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 0.25;
     cursor: pointer;
 }
@@ -48,7 +48,7 @@ https://flickity.metafizzy.co
 .flickity-button {
     display: none;
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
+    background-color: $white;
     border: none;
     color: $black;
 }
@@ -58,12 +58,12 @@ https://flickity.metafizzy.co
     }
 }
 .flickity-button:hover {
-    background: white;
+    background-color: $white;
     cursor: pointer;
 }
 .flickity-button:focus {
     outline: none;
-    box-shadow: 0 0 0 5px #19F;
+    box-shadow: 0 0 0 5px $aquamarine;
 }
 .flickity-button:active {
     opacity: 0.6;
@@ -83,15 +83,15 @@ https://flickity.metafizzy.co
     top: 50%;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+    border-radius: 50px;
     /* vertically center */
     transform: translateY(-50%);
 }
 .flickity-prev-next-button.previous {
-    left: 10px;
+    left: 64px;
 }
 .flickity-prev-next-button.next {
-    right: 10px;
+    right: 64px;
 }
 /* right to left */
 

@@ -2,21 +2,22 @@
 layout: default
 ---
 
-<section class="home-hero">
+<div class="home-hero">
     <div class="home-hero__content">
-        <small>
+        <p>
             {{ page.hero-tagline }}
-        </small>
+        </p>
         <h1>
             {{ page.hero-header }}
         </h1>
         <p>
             {{ page.hero-subheader }}
         </p>
+        <a class="disabled button button__border button__border--lightning-yellow lightning-yellow script">Events Coming Soon</a>
     </div>
     {% include block-slider.html %}
-</section>
-<section class="container">
+</div>
+<div class="container">
     {% include block-featured-events.html %}
     {% include block-featured-sponsors.html %}
-</section>
+</div>

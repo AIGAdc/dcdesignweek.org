@@ -8,6 +8,10 @@ primary-nav:
     url: /about/
     button-type: link 
     button-color: black
+  - title: "Pop Up Shop"
+    url: /pop-up-shop/
+    button-type: link 
+    button-color: black
   - title: "Contact Us"
     url: mailto:designweek@dc.aiga.org
     button-type: link 
@@ -19,5 +23,3 @@ primary-nav:
 #   url: /sponsors/
 # - title: "Volunteer"
 #   url: /volunteer/
-# - title: "Pop Up Shop"
-#   url: /pop-up-shop/
