@@ -4,7 +4,7 @@
 /* carousel height */
 
 .slides {
-    height: 800px;
+    height: 60vh;
 }
 /* cell inherit height from slider */
 
@@ -50,7 +50,7 @@
     right: 0;
     z-index: $index-4;
     height: auto;
-    max-width: 120px;
+    max-width: 110px;
     margin: auto;
 }
 .about-layout .slides {}
@@ -135,9 +135,12 @@
         font-size: $font-size-32;
     }
     .slide__lightbulb {
-        top: -$spacing-64;
+        top: -88px;
         max-width: 144px;
     }
+    .slides {
+    height: 75vh;
+}
     .about-layout .slides {
         height: 25vh;
     }
