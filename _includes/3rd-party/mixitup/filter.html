@@ -1,7 +1,7 @@
 <section class="agenda">
     <form class="controls tc mb5">
         <fieldset class="control-group w-100 flex justify-between" data-filter-group="">
-            {% for control in site.data.agenda.controls %}
+            {% for control in site.data.agenda.filter-date %}
             <button class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %} tc" data-filter="{{ control.filter }}" type="button">
                 <span class="control-text-1 db">
                     {{ control.text-1 }}
@@ -12,36 +12,139 @@
             </button>
             {% endfor %}
         </fieldset>
+        <fieldset class="control-group grid grid__4-column" data-filter-group="">
+            <div class="">
+            {% for control in site.data.agenda.filter-time-of-day %}
+            <div class="radio">
+                <label class="radio-label">
+                    {{ control.text-1 }}
+                </label>
+                <input name="color" type="radio" value="{{ control.filter }}"/>
+            </div>
+            {% endfor %}
+</div>
+<div class="grid grid__2-column">
+            {% for control in site.data.agenda.filter-event-type %}
+            <div class="radio">
+                <label class="radio-label">
+                    {{ control.text-1 }}
+                </label>
+                <input name="color" type="radio" value="{{ control.filter }}"/>
+            </div>
+            {% endfor %}
+        </div>
+        </fieldset>
         <div class="control-group mt3 relative">
             <button class="control control-text" type="reset">
                 View Full Week
             </button>
         </div>
     </form>
-    <div>
-        <div class="mix sep-20">
-            {% include partials/events/agenda/day-1.html %}
+    <div class="agenda" data-ref="container-1">
+        <div class="">
+            <h2>
+                September 20
+            </h2>
+            <ul class="grid grid__3-column">
+                {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-1 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+            </ul>
         </div>
-        <div class="mix sep-21">
-            {% include partials/events/agenda/day-2.html %}
+        <div class="">
+            <h2>
+                September 21
+            </h2>
+            <ul class="grid grid__3-column">
+                {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-2 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+            </ul>
         </div>
-        <div class="mix sep-22">
-            {% include partials/events/agenda/day-3.html %}
+        <div class="">
+            <h2>
+                September 22
+            </h2>
+            <ul class="grid grid__3-column">
+                {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-3 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+            </ul>
         </div>
-        <div class="mix sep-23">
-            {% include partials/events/agenda/day-4.html %}
+        <div class="">
+            <h2>
+                September 23
+            </h2>
+            <ul class="grid grid__3-column">
+                {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-4 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+            </ul>
         </div>
-        <div class="mix sep-24">
-            {% include partials/events/agenda/day-5.html %}
-        </div>
-        <div class="mix sep-25">
-            {% include partials/events/agenda/day-6.html %}
-        </div>
-        <div class="mix sep-26">
-            {% include partials/events/agenda/day-7.html %}
-        </div>
-        <div class="mix sep-27">
-            {% include partials/events/agenda/day-8.html %}
-        </div>
+        <h2>
+            September 24
+        </h2>
+        <ul class="grid grid__3-column">
+            {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-5 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+        </ul>
     </div>
+    <div class="">
+        <h2>
+            September 25
+        </h2>
+        <ul class="grid grid__3-column">
+            {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-6 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+        </ul>
+    </div>
+    <div class="">
+        <h2>
+            September 26
+        </h2>
+        <ul class="grid grid__3-column">
+            {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-7 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+        </ul>
+    </div>
+    <div class="">
+        <h2>
+            September 28
+        </h2>
+        <ul class="grid grid__3-column">
+            {% assign sorted = (site.events-dcdw | sort: 'position') %}
+    {% for posts in sorted %}
+    {% if posts.filter-date.is-day-8 == true %}
+    {% include partials/events/card/content.html %}
+    {% endif %}
+    {% endfor %}
+        </ul>
+    </div>
+    <!--     <div class="all-events">
+        {% include partials/events/agenda/all.html %}
+    </div> -->
 </section>

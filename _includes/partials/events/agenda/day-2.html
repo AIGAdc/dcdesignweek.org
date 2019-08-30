@@ -1,9 +1,9 @@
-<div>
-  <h2>{{ page.oct-21-label }}</h2>
+<div class="">
+  <h2>September 21</h2>
   <ul class="grid grid__3-column">
     {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
-    {% if posts.is-september-21 == true %}
+    {% if posts.filter-date.is-day-2 == true %}
     {% include partials/events/card/content.html %}
     {% endif %}
     {% endfor %}

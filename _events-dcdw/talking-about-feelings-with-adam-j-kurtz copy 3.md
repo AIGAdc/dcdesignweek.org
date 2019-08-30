@@ -1,29 +1,65 @@
 ---
-title: Talking About Feelings with Adam J. Kurtz DCDW
+title: Test Event 9
 date: 2018-09-26 20:54:00 -04:00
-position: 27
-seo:
-  description: In an industry full of multi-hyphenate creatives, the best way to stand
-    out is to be our authentic selves… whatever that means. Personal work is the perfect
-    opportunity to explore what matters most to us, while letting potential clients
-    and fans know exactly who we are. Join artist and author Adam J. Kurtz (aka ADAMJK)
-    for a hilarious dissection of his accidental career and lessons learned along
-    the way
-  og-image: "/uploads/event_adamJK-e974f0.jpg"
+position: 1
+
 event:
-  date: 2018-10-25 18:30:00 -04:00
-  venue-name: 'The Miracle Theater '
-  venue-directions: https://goo.gl/maps/La5UCFuWyBU2
-  venue-address: 535 8th St SE, Washington, DC 20003
-  start-time: 6:30pm
-  end-time: 8:30pm
-buttons:
-  has-left-button: true
-  button-left-url: http://themiracletheatre.ticketfly.com/event/1771198
-  button-left-text: "$30 Members / $38 Non-Members"
-  has-right-button: false
-is-september-24: true
-is-featured-on-home-page: true
+  date: 2019-09-20 18:30:00 -04:00
+  description: '1 sentence description of the event'
+  image: "/uploads/carnegie-jen-white-johnson.jpg"
+  image-alt: Event photo for Jen White Johnson
+  start-time: 12:00pm
+  end-time: 12:00am
+  external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
+
+venue:
+  name: Venue Name
+  address: 801 K St NW, Washington, DC 20001
+  directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
+
+status:
+  is-coming-soon: false
+  coming-soon-message: Coming Soon!
+  is-sold-out: true
+  sold-out-message: Sold Out!
+
+tickets:
+  has-member-button:
+  member-button-url:
+  member-button-label:
+  has-non-member-button:
+  non-member-button-url:
+  non-member-button-label:
+
+filter-date:
+  is-day-1: true
+  is-day-2: false
+  is-day-3: false
+  is-day-4: false
+  is-day-5: false
+  is-day-6: false
+  is-day-7: false
+  is-day-8: false
+filter-time:
+  is-morning: false
+  is-daytime: true
+  is-evening: false
+filter-type:
+  is-free:
+  is-family-friendly:
+  is-party:
+  is-diy:
+  is-workshop:
+  is-architecture:
+  is-creative-lunch:
+  is-design-thinking:
+  is-motion-graphics:
+  is-wellness:
+filter-location:
+  is-dc:
+  is-md:
+  is-va:
+is-featured-on-home-page:
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**

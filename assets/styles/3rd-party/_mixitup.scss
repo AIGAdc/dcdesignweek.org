@@ -33,11 +33,12 @@ span.control-text-1 {
     display: block;
     width: 100%;
 }
-.mix:before {
-    content: '';
-    display: inline-block;
-}
-.mix:after {
-    content: '';
-    position: absolute;
+
+
+.grid:empty {
+  background-color: lime;
+  height: 40px;
+  width: 200px;
+  content:'HIIIIII';
+  position: absolute;
 }
