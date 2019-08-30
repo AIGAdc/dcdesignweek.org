@@ -1,6 +1,6 @@
 ---
 title: General Design Co.
-date: 2019-01-01 02:37:00 -04:00
+date: 2019-01-01 01:37:00 -05:00
 sponsor-image: "/uploads/sponsor-gdc.jpg"
 sponsor-url: http://www.generaldesignco.com
 is-featured: true
