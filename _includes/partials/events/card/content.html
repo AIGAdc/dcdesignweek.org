@@ -62,6 +62,13 @@ va
 sold-out
 {% endif %}
 
+{% if posts.columns.is-3 == true %}
+column-3
+{% elsif posts.columns.is-2 == true %}
+column-2
+{% elsif posts.columns.is-1 == true %}
+column-1
+{% endif %}
 
 ">
             {% if posts.event.is-coming-soon == true or posts.event.is-sold-out == true %}

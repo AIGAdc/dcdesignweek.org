@@ -30,7 +30,10 @@ tickets:
   has-non-member-button:
   non-member-button-url:
   non-member-button-label:
-
+columns:
+  is-3: true
+  is-2: false
+  is-1: false
 filter-date:
   is-day-1: false
   is-day-2: true

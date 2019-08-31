@@ -12,7 +12,9 @@
             </button>
             {% endfor %}
         </fieldset>
-        <fieldset class="control-group grid grid__4-column bg-mauve-light" data-filter-group="">
+                        <p><h4 data-houdini-toggle="buccaneer">Additional Filters</h4></p>
+                <div data-houdini-group="pirates" id="buccaneer">
+                    <fieldset class="control-group grid grid__4-column bg-mauve-light" data-filter-group="">
             <div class="">
                 {% for control in site.data.agenda.filter-time-of-day %}
                 <div class="radio">
@@ -50,23 +52,30 @@
                 </label>
             </div>
         </fieldset>
+                </div>
+        
         <div class="control-group mt3 relative">
             <button class="control control-text" type="reset">
                 View Full Week
             </button>
         </div>
     </form>
-    <div class="">
-        <div>
-            <h2>
-                Example of all Events NOT separated by days
-            </h2>
-            <ul class="grid grid__3-column" data-ref="container-9">
-                {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
-                {% for posts in sorted %}
-                {% include partials/events/card/content.html %}
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+    <ul class="grid grid__3-column mixitup-container">
+        {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
+        {% for posts in sorted %}
+        {% include partials/events/card/content.html %}
+        {% endfor %}
+    </ul>
 </section>
+    <script>
+            var showHideButton = new Houdini('[data-houdini]');
+
+            var accordion = new Houdini('[data-houdini-group="pirates"]', {
+                isAccordion: true,
+                collapseOthers: true
+            });
+
+            var datalist = new Houdini('[data-houdini-dl] dd', {
+                isAccordion: true
+            });
+        </script>

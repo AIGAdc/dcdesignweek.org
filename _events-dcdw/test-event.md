@@ -8,7 +8,7 @@ status:
   coming-soon-message: Coming Soon!
   is-sold-out: false
   sold-out-message: Sold Out!
-  
+
 event:
   date: 2019-09-20 18:30:00 -04:00
   description: '1 sentence description of the event'
@@ -30,6 +30,11 @@ ticketing:
   has-non-member-button:
   non-member-button-url:
   non-member-button-label:
+
+columns:
+  is-3: true
+  is-2: false
+  is-1: false
 
 filter-date:
   is-day-1: true
