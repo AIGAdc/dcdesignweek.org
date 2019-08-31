@@ -12,48 +12,53 @@
             </button>
             {% endfor %}
         </fieldset>
-                        <p><h4 data-houdini-toggle="buccaneer">Additional Filters</h4></p>
-                <div data-houdini-group="pirates" id="buccaneer">
-                    <fieldset class="control-group grid grid__4-column bg-mauve-light" data-filter-group="">
-            <div class="">
-                {% for control in site.data.agenda.filter-time-of-day %}
-                <div class="radio">
-                    <label class="radio-label">
-                        <input name="color" type="radio" value="{{ control.filter }}"/>
-                        {{ control.text-1 }}
-                    </label>
-                </div>
-                {% endfor %}
+        <div class="bg-mauve-light">
+            <p>
+                <h4 data-houdini-toggle="additional-filters">
+                    Additional Filters
+                </h4>
+            </p>
+            <div data-houdini-group="additional-filters" id="additional-filters">
+                <fieldset class="control-group grid grid__4-column" data-filter-group="">
+                    <div class="">
+                        {% for control in site.data.agenda.filter-time-of-day %}
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                {{ control.text-1 }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="grid grid__2-column">
+                        {% for control in site.data.agenda.filter-event-type %}
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                {{ control.text-1 }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="">
+                        {% for control in site.data.agenda.filter-location %}
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                {{ control.text-1 }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="">
+                        <label class="radio-label">
+                            <input name="color" type="radio" value=".mix:not(.sold-out)"/>
+                            Hide Sold Out Events
+                        </label>
+                    </div>
+                </fieldset>
             </div>
-            <div class="grid grid__2-column">
-                {% for control in site.data.agenda.filter-event-type %}
-                <div class="radio">
-                    <label class="radio-label">
-                        <input name="color" type="radio" value="{{ control.filter }}"/>
-                        {{ control.text-1 }}
-                    </label>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="">
-                {% for control in site.data.agenda.filter-location %}
-                <div class="radio">
-                    <label class="radio-label">
-                        <input name="color" type="radio" value="{{ control.filter }}"/>
-                        {{ control.text-1 }}
-                    </label>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="">
-                <label class="radio-label">
-                    <input name="color" type="radio" value=".mix:not(.sold-out)"/>
-                    Hide Sold Out Events
-                </label>
-            </div>
-        </fieldset>
-                </div>
-        
+        </div>
         <div class="control-group mt3 relative">
             <button class="control control-text" type="reset">
                 View Full Week
@@ -67,15 +72,13 @@
         {% endfor %}
     </ul>
 </section>
-    <script>
-            var showHideButton = new Houdini('[data-houdini]');
-
-            var accordion = new Houdini('[data-houdini-group="pirates"]', {
-                isAccordion: true,
-                collapseOthers: true
-            });
-
-            var datalist = new Houdini('[data-houdini-dl] dd', {
-                isAccordion: true
-            });
-        </script>
+<script>
+    var showHideButton = new Houdini('[data-houdini]');
+    var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
+        isAccordion: true,
+        collapseOthers: true
+    });
+    var datalist = new Houdini('[data-houdini-dl] dd', {
+        isAccordion: true
+    });
+</script>
