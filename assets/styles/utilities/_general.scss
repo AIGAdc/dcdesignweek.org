@@ -1,5 +1,8 @@
 .disabled {
-    cursor: not-allowed;
+    cursor: not-allowed !important;
+}
+.enabled {
+	cursor: pointer !important;
 }
 .about-layout video {
     width: 100%;

@@ -22,7 +22,7 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     margin: 0;
     padding: 0;
 }
-.grid__1-column, .grid__2-column, .grid__3-column, .grid__4-column {
+.grid__1-column, .grid__2-column, .grid__3-column, .grid__3-column .column-1, .grid__3-column .column-2, .grid__3-column .column-3 .grid__4-column {
     grid-template-columns: 1fr;
 }
 @media screen and (min-width: 767px) {
@@ -34,26 +34,22 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     }
 }
 @media screen and (min-width: 1023px) {
-
     .grid__2-column {
         grid-template-columns: repeat(2, 1fr);
     }
     .grid__3-column {
         grid-template-columns: repeat(3, 1fr);
     }
+    .grid__3-column .column-1 {
+        grid-column: span 1;
+    }
+    .grid__3-column .column-2 {
+        grid-column: span 2;
+    }
+    .grid__3-column .column-3 {
+        grid-column: span 3;
+    }
     .grid__4-column {
         grid-template-columns: repeat(4, 1fr);
     }
-}
-
-.grid__3-column .column-1 {
-    grid-column: span 1;
-}
-
-.grid__3-column .column-2 {
-    grid-column: span 2;
-}
-
-.grid__3-column .column-3 {
-    grid-column: span 3;
 }

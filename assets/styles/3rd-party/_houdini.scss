@@ -9,41 +9,40 @@
 /**
  * Hide content
  */
+
 .houdini {
-  display: none;
-  /**
-	 * Remove focus styles from content
-	 * @type {String}
-	 */
-  /**
-	 * Show expanded content
-	 */
+    display: none;
+    /**
+   * Remove focus styles from content
+   * @type {String}
+   */
+    /**
+   * Show expanded content
+   */
 }
-
 .houdini[tabindex="-1"]:focus {
-  outline: none;
+    outline: none;
 }
-
 .houdini.is-expanded {
-  display: block;
+    display: block;
 }
-
 /**
  * Remove button appearance from heading buttons
  */
-.houdini-heading .houdini-toggle {
-  background: inherit;
-  border: none;
-  display: block;
-  font: inherit;
-  padding: 0;
-  text-align: inherit;
-  width: 100%;
-}
 
+.houdini-heading .houdini-toggle {
+    background: inherit;
+    border: none;
+    display: block;
+    font: inherit;
+    padding: 0;
+    text-align: inherit;
+    width: 100%;
+}
 /**
  * Style icon
  */
+
 .houdini-toggle-icon {
-  padding: 0 0.5em;
+    padding: 0 0.5em;
 }

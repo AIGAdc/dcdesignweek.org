@@ -4,19 +4,18 @@
 .control-group {
     border: none;
     display: flex;
+    flex-wrap: wrap;
     vertical-align: top;
-        padding: 32px;
 }
 .controls {
-
-  z-index: $index-4;
-  background-color: $white;
+    z-index: $index-4;
+    background-color: $white;
 }
 .control {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 16px;
+    padding: 8px;
     transition: background 150ms;
     flex-grow: 1;
     cursor: pointer !important;
@@ -34,9 +33,10 @@ span.control-text-1 {
 }
 /* Target Elements
 ---------------------------------------------------------------------- */
+
 .mix-it-up-container {
-  overflow: hidden;
-  z-index: $index-4;
+    overflow: hidden;
+    z-index: $index-4;
 }
 .mixitup-container-failed::after {
     content: 'No Results';
