@@ -22,10 +22,13 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     margin: 0;
     padding: 0;
 }
-.grid__1-column, .grid__2-column, .grid__3-column, .grid__3-column .column-1, .grid__3-column .column-2, .grid__3-column .column-3 .grid__4-column {
+.grid__1-column, .grid__2-column, .grid__3-column, .auto-grid .column-1, .auto-grid .column-2, .auto-grid .column-3 .grid__4-column {
     grid-template-columns: 1fr;
 }
 @media screen and (min-width: 767px) {
+    .grid {
+        grid-auto-rows: 1fr;
+    }
     .grid--items-center {
         align-items: center;
     }
@@ -40,16 +43,40 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     .grid__3-column {
         grid-template-columns: repeat(3, 1fr);
     }
-    .grid__3-column .column-1 {
+    .auto-grid .column-1 {
         grid-column: span 1;
     }
-    .grid__3-column .column-2 {
+    .auto-grid .column-2 {
         grid-column: span 2;
     }
-    .grid__3-column .column-3 {
+    .auto-grid .column-3 {
         grid-column: span 3;
     }
     .grid__4-column {
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-gap: 2rem;
+  grid-auto-flow: dense;
+}
+
+.auto-grid > * {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.auto-grid > * + * {
+  margin-top: 1rem;
+}
+
+@supports (display: grid) {
+  .auto-grid > * {
+    max-width: unset;
+    margin: 0;
+  }
 }

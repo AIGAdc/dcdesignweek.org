@@ -13,11 +13,9 @@
             {% endfor %}
         </fieldset>
         <div class="bg-mauve-light">
-            <p>
                 <h4 data-houdini-toggle="additional-filters">
                     Additional Filters
                 </h4>
-            </p>
             <div data-houdini-group="additional-filters" id="additional-filters">
                 <fieldset class="control-group grid grid__4-column" data-filter-group="">
                     <div class="">
@@ -65,7 +63,7 @@
             </button>
         </div>
     </form>
-    <ul class="grid grid__3-column mixitup-container">
+    <ul class="auto-grid mixitup-container">
         {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
         {% for posts in sorted %}
         {% include partials/events/card/content.html %}

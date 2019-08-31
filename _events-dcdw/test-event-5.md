@@ -32,16 +32,16 @@ tickets:
   non-member-button-label:
 columns:
   is-3: false
-  is-2: true
-  is-1: false
+  is-2: false
+  is-1: true
 filter-date:
   is-day-1: false
   is-day-2: false
   is-day-3: false
   is-day-4: false
   is-day-5: false
-  is-day-6: true
-  is-day-7: false
+  is-day-6: false
+  is-day-7: true
   is-day-8: false
 filter-time:
   is-morning: false

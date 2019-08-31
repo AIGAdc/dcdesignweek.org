@@ -6,9 +6,20 @@
 }
 .card-image {
     background-color: $black;
+    max-height: 288px;
+    overflow: hidden;
 }
+.card-image figure img {
+    height: 288px;
+    width: 100vw;
+    object-fit: cover;
+}
+
 .block-committee .card-image {
     background-color: $white;
+}
+.card {
+    display: flex;
 }
 .card-details {
     background-color: $white;
@@ -27,6 +38,9 @@ li.card {
 }
 .block-featured-sponsors .card a {
     display: block;
+}
+.card-details {
+    flex-grow: 1;
 }
 .card-details h3 {
     line-height: 2.2rem;
