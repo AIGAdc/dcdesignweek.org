@@ -3,6 +3,12 @@ title: Test Event 1
 date: 2018-09-26 20:54:00 -04:00
 position: 1
 
+status:
+  is-coming-soon: false
+  coming-soon-message: Coming Soon!
+  is-sold-out: false
+  sold-out-message: Sold Out!
+  
 event:
   date: 2019-09-20 18:30:00 -04:00
   description: '1 sentence description of the event'
@@ -17,13 +23,7 @@ venue:
   address: 801 K St NW, Washington, DC 20001
   directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
 
-status:
-  is-coming-soon: false
-  coming-soon-message: Coming Soon!
-  is-sold-out: false
-  sold-out-message: Sold Out!
-
-tickets:
+ticketing:
   has-member-button:
   member-button-url:
   member-button-label:
@@ -40,10 +40,12 @@ filter-date:
   is-day-6: false
   is-day-7: false
   is-day-8: false
+
 filter-time:
   is-morning: true
   is-daytime: false
   is-evening: false
+
 filter-type:
   is-free: true
   is-family-friendly: true
@@ -55,11 +57,14 @@ filter-type:
   is-design-thinking: true
   is-motion-graphics: true
   is-wellness: true
+
 filter-location:
   is-dc: true
   is-md: false
   is-va: false
-is-featured-on-home-page:
+
+is-featured-on-home-page: true
+
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**

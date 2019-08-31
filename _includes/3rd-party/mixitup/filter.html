@@ -57,118 +57,16 @@
         </div>
     </form>
     <div class="">
-  <div class="">
+        <div>
             <h2>
-                September 20
+                Example of all Events NOT separated by days
             </h2>
-            <ul class="grid grid__3-column" data-ref="container-1">
-                {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-1 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
+            <ul class="grid grid__3-column" data-ref="container-9">
+                {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
+                {% for posts in sorted %}
+                {% include partials/events/card/content.html %}
+                {% endfor %}
             </ul>
         </div>
-        <div class="">
-            <h2>
-                September 21
-            </h2>
-            <ul class="grid grid__3-column" data-ref="container-2">
-                {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-2 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-            </ul>
-        </div>
-        <div class="">
-            <h2>
-                September 22
-            </h2>
-            <ul class="grid grid__3-column" data-ref="container-3">
-                {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-3 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-            </ul>
-        </div>
-        <div class="">
-            <h2>
-                September 23
-            </h2>
-            <ul class="grid grid__3-column" data-ref="container-4">
-                {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-4 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-            </ul>
-        </div>
-        <h2>
-            September 24
-        </h2>
-        <ul class="grid grid__3-column" data-ref="container-5">
-            {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-5 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-        </ul>
-    </div>
-    <div class="">
-        <h2>
-            September 25
-        </h2>
-        <ul class="grid grid__3-column" data-ref="container-6">
-            {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-6 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-        </ul>
-    </div>
-    <div class="">
-        <h2>
-            September 26
-        </h2>
-        <ul class="grid grid__3-column" data-ref="container-7">
-            {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-7 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-        </ul>
-    </div>
-    <div class="">
-        <h2>
-            September 27
-        </h2>
-        <ul class="grid grid__3-column" data-ref="container-8">
-            {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% if posts.filter-date.is-day-8 == true %}
-    {% include partials/events/card/content.html %}
-    {% endif %}
-    {% endfor %}
-        </ul>
-    </div>  
-    <div>
-    <h2>Example of all Events NOT separated by days</h2>
-        <ul class="grid grid__3-column" data-ref="container-9">
-
-            {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
-    {% for posts in sorted %}
-    {% include partials/events/card/content.html %}
-    {% endfor %}
-        </ul>
-    </div>
     </div>
 </section>
