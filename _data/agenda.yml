@@ -1,139 +1,118 @@
 # This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 filter-date:
   - filter: .day-1
-    class: control-day-1
-    text-1: 
+    class: day-1
+    text-1:  Fri
     text-2: Sep 20
     disabled: false
   - filter: .day-2
-    class: control-day-2
-    text-1: 
+    class: day-2
+    text-1: Sat
     text-2: Sep 21
     disabled: false
   - filter: .day-3
-    class: control-day-3
-    text-1: 
+    class: day-3
+    text-1: Sun
     text-2: Sep 22
     disabled: false
   - filter: .day-4
-    class: control-day-4
-    text-1: 
+    class: day-4
+    text-1: Mon
     text-2: Sep 23
     disabled: false
   - filter: .day-5
-    class: control-day-5
-    text-1: 
+    class: day-5
+    text-1: Tue
     text-2: Sep 24
     disabled: false
   - filter: .day-6
-    class: control-day-6
-    text-1: 
+    class: day-6
+    text-1: Wed
     text-2: Sep 25
     disabled: false
   - filter: .day-7
-    class: control-day-7
-    text-1: 
+    class: day-7
+    text-1: Thu
     text-2: Sep 26
     disabled: false
   - filter: .day-8
-    class: control-day-8
-    text-1: 
+    class: day-8
+    text-1: Fri
     text-2: Sep 27
     disabled: false
 
 filter-time-of-day:
   - filter: .morning
-    class: control-morning
+    class: morning
     text-1: Morning
     disabled: false
   - filter: .daytime
-    class: control-daytime
+    class: daytime
     text-1: Daytime
     disabled: false
   - filter: .evening
-    class: control-evening
+    class: evening
     text-1: Evening
     disabled: false
 
 filter-event-type:
   - filter: .free
-    class: control-free
+    class: free
     text-1: Free
     disabled: false
   - filter: .family
-    class: control-family-friendly
+    class: family-friendly
     text-1: Family Friendly
     disabled: false
   - filter: .party
-    class: control-party
+    class: party
     text-1: Party
     disabled: false
   - filter: .diy
-    class: control-diy
+    class: diy
     text-1: DIY
     disabled: false
   - filter: .workshop
-    class: control-workshop
+    class: workshop
     text-1: Workshop
     disabled: false
   - filter: .architecture
-    class: control-architecture
+    class: architecture
     text-1: Architecture
     disabled: false
   - filter: .creative-lunch
-    class: control-creative-lunch
+    class: creative-lunch
     text-1: Creative Lunch
     disabled: false
   - filter: .design-thinking
-    class: control-design-thinking
+    class: design-thinking
     text-1: Design Thinking
     disabled: false
   - filter: .motion-graphics
-    class: control-motion-graphics
+    class: motion-graphics
     text-1: Motion Graphics
     disabled: false
   - filter: .wellness
-    class: control-wellness
+    class: wellness
     text-1: Wellness
     disabled: false
 
-event-type-filters:
-  - filter:
-    class:
-    text-1:
-    text-2:
+filter-location:
+  - filter: .dc
+    class: dc
+    text-1: DC
     disabled: false
-  - filter:
-    class:
-    text-1:
-    text-2:
+  - filter: .md
+    class: md
+    text-1: MD
     disabled: false
-  - filter:
-    class:
-    text-1:
-    text-2:
+  - filter: .va
+    class: va
+    text-1: VA
     disabled: false
 
-location-filters:
-  - filter:
-    class:
-    text-1:
-    text-2:
-    disabled: false
-  - filter:
-    class:
-    text-1:
-    text-2:
-    disabled: false
-  - filter:
-    class:
-    text-1:
-    text-2:
-    disabled: false
-
-sold-out-filters:
-  - filter:
-    class:
-    text-1:
-    text-2:
+filter-sold-out:
+  - filter: .sold-out
+    class:  sold-out
+    text-1: Sold Out
     disabled: false

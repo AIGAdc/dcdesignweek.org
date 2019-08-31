@@ -20,7 +20,7 @@ venue:
 status:
   is-coming-soon: false
   coming-soon-message: Coming Soon!
-  is-sold-out: true
+  is-sold-out: false
   sold-out-message: Sold Out!
 
 tickets:
@@ -56,9 +56,9 @@ filter-type:
   is-motion-graphics: true
   is-wellness: true
 filter-location:
-  is-dc:
-  is-md:
-  is-va:
+  is-dc: true
+  is-md: false
+  is-va: false
 is-featured-on-home-page:
 ---
 

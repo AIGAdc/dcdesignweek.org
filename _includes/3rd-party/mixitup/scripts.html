@@ -4,14 +4,14 @@
 </script>
 
 <script>
-  // var initialFilter = 'day-1';
-  var containerEl = document.querySelector('.container');
+  //var initialFilter = '.all';
+  var containerEl = document.querySelector('.mix-it-up-container');
   var mixer = mixitup(containerEl, {
     multifilter: {
       enable: true
     },
     animation: {
-      effects: 'fade translateZ(-200px)'
+      enable: false
     }/*,
     load: {
       filter: initialFilter

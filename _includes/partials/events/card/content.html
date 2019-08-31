@@ -50,6 +50,18 @@ design-thinking
 wellness
 {% endif %}
 
+{% if posts.filter-location.is-dc == true %}
+dc
+{% elsif posts.filter-location.is-md == true %}
+md
+{% elsif posts.filter-location.is-va == true %}
+va
+{% endif %}
+
+{% if posts.status.is-sold-out == true %}
+sold-out
+{% endif %}
+
 
 ">
             {% if posts.event.is-coming-soon == true or posts.event.is-sold-out == true %}
@@ -68,10 +80,10 @@ wellness
                         </p>
                     </div>
                     {% endif %}
-                    {% if posts.event.is-sold-out == true %}
+                    {% if posts.status.is-sold-out == true %}
                     <div class="ticker">
                         <p>
-                            {{ posts.event.sold-out-message }}
+                            {{ posts.status.sold-out-message }}
                         </p>
                     </div>
                     {% endif %}

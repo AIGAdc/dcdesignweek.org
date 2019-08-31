@@ -3,7 +3,7 @@
         <fieldset class="control-group w-100 flex justify-between" data-filter-group="">
             {% for control in site.data.agenda.filter-date %}
             <button class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %} tc" data-filter="{{ control.filter }}" type="button">
-                <span class="control-text-1 db">
+                <span class="control-text-1 script">
                     {{ control.text-1 }}
                 </span>
                 <span class="control-text-2 db">
@@ -12,27 +12,43 @@
             </button>
             {% endfor %}
         </fieldset>
-        <fieldset class="control-group grid grid__4-column" data-filter-group="">
+        <fieldset class="control-group grid grid__4-column bg-mauve-light" data-filter-group="">
             <div class="">
-            {% for control in site.data.agenda.filter-time-of-day %}
-            <div class="radio">
-                <label class="radio-label">
-                    {{ control.text-1 }}
-                </label>
-                <input name="color" type="radio" value="{{ control.filter }}"/>
+                {% for control in site.data.agenda.filter-time-of-day %}
+                <div class="radio">
+                    <label class="radio-label">
+                        <input name="color" type="radio" value="{{ control.filter }}"/>
+                        {{ control.text-1 }}
+                    </label>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-</div>
-<div class="grid grid__2-column">
-            {% for control in site.data.agenda.filter-event-type %}
-            <div class="radio">
-                <label class="radio-label">
-                    {{ control.text-1 }}
-                </label>
-                <input name="color" type="radio" value="{{ control.filter }}"/>
+            <div class="grid grid__2-column">
+                {% for control in site.data.agenda.filter-event-type %}
+                <div class="radio">
+                    <label class="radio-label">
+                        <input name="color" type="radio" value="{{ control.filter }}"/>
+                        {{ control.text-1 }}
+                    </label>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-        </div>
+            <div class="">
+                {% for control in site.data.agenda.filter-location %}
+                <div class="radio">
+                    <label class="radio-label">
+                        <input name="color" type="radio" value="{{ control.filter }}"/>
+                        {{ control.text-1 }}
+                    </label>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="">
+                <label class="radio-label">
+                    <input name="color" type="radio" value=".mix:not(.sold-out)"/>
+                    Hide Sold Out Events
+                </label>
+            </div>
         </fieldset>
         <div class="control-group mt3 relative">
             <button class="control control-text" type="reset">
@@ -40,12 +56,13 @@
             </button>
         </div>
     </form>
-    <div class="agenda" data-ref="container-1">
-        <div class="">
+    <div class="">
+        {% comment %}
+        <!-- <div class="">
             <h2>
                 September 20
             </h2>
-            <ul class="grid grid__3-column">
+            <ul class="grid grid__3-column mix-it-up-container">
                 {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-1 == true %}
@@ -58,7 +75,7 @@
             <h2>
                 September 21
             </h2>
-            <ul class="grid grid__3-column">
+            <ul class="grid grid__3-column mix-it-up-container">
                 {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-2 == true %}
@@ -71,7 +88,7 @@
             <h2>
                 September 22
             </h2>
-            <ul class="grid grid__3-column">
+            <ul class="grid grid__3-column mix-it-up-container">
                 {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-3 == true %}
@@ -84,7 +101,7 @@
             <h2>
                 September 23
             </h2>
-            <ul class="grid grid__3-column">
+            <ul class="grid grid__3-column mix-it-up-container">
                 {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-4 == true %}
@@ -96,7 +113,7 @@
         <h2>
             September 24
         </h2>
-        <ul class="grid grid__3-column">
+        <ul class="grid grid__3-column mix-it-up-container">
             {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-5 == true %}
@@ -109,7 +126,7 @@
         <h2>
             September 25
         </h2>
-        <ul class="grid grid__3-column">
+        <ul class="grid grid__3-column mix-it-up-container">
             {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-6 == true %}
@@ -122,7 +139,7 @@
         <h2>
             September 26
         </h2>
-        <ul class="grid grid__3-column">
+        <ul class="grid grid__3-column mix-it-up-container">
             {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-7 == true %}
@@ -135,7 +152,7 @@
         <h2>
             September 28
         </h2>
-        <ul class="grid grid__3-column">
+        <ul class="grid grid__3-column mix-it-up-container">
             {% assign sorted = (site.events-dcdw | sort: 'position') %}
     {% for posts in sorted %}
     {% if posts.filter-date.is-day-8 == true %}
@@ -143,8 +160,13 @@
     {% endif %}
     {% endfor %}
         </ul>
+    </div>  -->
+        {% endcomment %}
+        <ul class="grid grid__3-column mix-it-up-container">
+            {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
+    {% for posts in sorted %}
+    {% include partials/events/card/content.html %}
+    {% endfor %}
+        </ul>
     </div>
-    <!--     <div class="all-events">
-        {% include partials/events/agenda/all.html %}
-    </div> -->
 </section>

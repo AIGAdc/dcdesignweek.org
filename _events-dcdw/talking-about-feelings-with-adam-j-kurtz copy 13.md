@@ -56,9 +56,9 @@ filter-type:
   is-motion-graphics:
   is-wellness:
 filter-location:
-  is-dc:
-  is-md:
-  is-va:
+  is-dc: false
+  is-md: true
+  is-va: false
 is-featured-on-home-page:
 ---
 

@@ -5,6 +5,13 @@
     border: none;
     display: flex;
     vertical-align: top;
+        padding: 32px;
+}
+.controls {
+  position: sticky;
+  top: 74px;
+  z-index: $index-4;
+  background-color: $white;
 }
 .control {
     background: none;
@@ -13,6 +20,7 @@
     padding: 16px;
     transition: background 150ms;
     flex-grow: 1;
+    cursor: pointer !important;
 }
 span.control-text-1 {
     font-size: 24px;
@@ -27,18 +35,11 @@ span.control-text-1 {
 }
 /* Target Elements
 ---------------------------------------------------------------------- */
-
-.mix {
-    background: $white;
-    display: block;
-    width: 100%;
+.mix-it-up-container {
+  overflow: hidden;
+  z-index: $index-4;
 }
-
-
-.grid:empty {
-  background-color: lime;
-  height: 40px;
-  width: 200px;
-  content:'HIIIIII';
-  position: absolute;
+.mixitup-container-failed::after {
+    content: 'No Results';
+    padding: 32px;
 }
