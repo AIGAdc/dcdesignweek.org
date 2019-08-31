@@ -4,6 +4,10 @@ primary-nav:
     url: /carnegie-library/
     button-type: link 
     button-color: black
+  - title: "Events"
+    url: /events/
+    button-type: link 
+    button-color: black
   - title: "About"
     url: /about/
     button-type: link 
@@ -16,9 +20,6 @@ primary-nav:
     url: mailto:designweek@dc.aiga.org
     button-type: link 
     button-color: black
-#   url: "/#events"
-#   button-type: link
-#   button-color: black
 # - title: "Sponsors"
 #   url: /sponsors/
 # - title: "Volunteer"

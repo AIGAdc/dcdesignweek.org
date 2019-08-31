@@ -1,10 +1,10 @@
 ---
-title: Test Event 5
+title: Test Event 3
 date: 2018-09-26 20:54:00 -04:00
 position: 1
 
 event:
-  date: 2019-09-24 18:30:00 -04:00
+  date: 2019-09-27 18:30:00 -04:00
   description: '1 sentence description of the event'
   image: "/uploads/carnegie-jen-white-johnson.jpg"
   image-alt: Event photo for Jen White Johnson
@@ -39,10 +39,10 @@ filter-date:
   is-day-2: false
   is-day-3: false
   is-day-4: false
-  is-day-5: true
+  is-day-5: false
   is-day-6: false
   is-day-7: false
-  is-day-8: false
+  is-day-8: true
 filter-time:
   is-morning: false
   is-daytime: true

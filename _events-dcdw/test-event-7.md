@@ -1,16 +1,10 @@
 ---
-title: Test Event 1
+title: Test Event 7
 date: 2018-09-26 20:54:00 -04:00
 position: 1
 
-status:
-  is-coming-soon: false
-  coming-soon-message: Coming Soon!
-  is-sold-out: false
-  sold-out-message: Sold Out!
-
 event:
-  date: 2019-09-20 18:30:00 -04:00
+  date: 2019-09-23 18:30:00 -04:00
   description: '1 sentence description of the event'
   image: "/uploads/carnegie-jen-white-johnson.jpg"
   image-alt: Event photo for Jen White Johnson
@@ -23,53 +17,52 @@ venue:
   address: 801 K St NW, Washington, DC 20001
   directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
 
-ticketing:
+status:
+  is-coming-soon: false
+  coming-soon-message: Coming Soon!
+  is-sold-out: true
+  sold-out-message: Sold Out!
+
+tickets:
   has-member-button:
   member-button-url:
   member-button-label:
   has-non-member-button:
   non-member-button-url:
   non-member-button-label:
-
 columns:
-  is-3: true
-  is-2: false
+  is-3: false
+  is-2: true
   is-1: false
-
 filter-date:
-  is-day-1: true
+  is-day-1: false
   is-day-2: false
   is-day-3: false
-  is-day-4: false
+  is-day-4: true
   is-day-5: false
   is-day-6: false
   is-day-7: false
   is-day-8: false
-
 filter-time:
   is-morning: true
   is-daytime: false
   is-evening: false
-
 filter-type:
-  is-free: true
-  is-family-friendly: true
-  is-party: true
-  is-diy: true
-  is-workshop: true
-  is-architecture: true
-  is-creative-lunch: true
-  is-design-thinking: true
-  is-motion-graphics: true
-  is-wellness: true
-
+  is-free:
+  is-family-friendly:
+  is-party:
+  is-diy:
+  is-workshop:
+  is-architecture:
+  is-creative-lunch:
+  is-design-thinking:
+  is-motion-graphics:
+  is-wellness:
 filter-location:
   is-dc: true
   is-md: false
   is-va: false
-
-is-featured-on-home-page: true
-
+is-featured-on-home-page:
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**

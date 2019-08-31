@@ -4,7 +4,7 @@ date: 2018-09-26 20:54:00 -04:00
 position: 1
 
 event:
-  date: 2019-09-27 18:30:00 -04:00
+  date: 2019-09-22 18:30:00 -04:00
   description: '1 sentence description of the event'
   image: "/uploads/carnegie-jen-white-johnson.jpg"
   image-alt: Event photo for Jen White Johnson
@@ -31,21 +31,21 @@ tickets:
   non-member-button-url:
   non-member-button-label:
 columns:
-  is-3: false
-  is-2: true
+  is-3: true
+  is-2: false
   is-1: false
 filter-date:
   is-day-1: false
   is-day-2: false
-  is-day-3: false
+  is-day-3: true
   is-day-4: false
   is-day-5: false
   is-day-6: false
   is-day-7: false
-  is-day-8: true
+  is-day-8: false
 filter-time:
-  is-morning: false
-  is-daytime: true
+  is-morning: true
+  is-daytime: false
   is-evening: false
 filter-type:
   is-free:
@@ -59,8 +59,8 @@ filter-type:
   is-motion-graphics:
   is-wellness:
 filter-location:
-  is-dc: false
-  is-md: true
+  is-dc: true
+  is-md: false
   is-va: false
 is-featured-on-home-page:
 ---

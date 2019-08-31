@@ -1,5 +1,5 @@
 ---
-title: Test Event 9
+title: Test Event 11
 date: 2018-09-26 20:54:00 -04:00
 position: 1
 
@@ -31,9 +31,9 @@ tickets:
   non-member-button-url:
   non-member-button-label:
 columns:
-  is-3: false
+  is-3: true
   is-2: false
-  is-1: true
+  is-1: false
 filter-date:
   is-day-1: true
   is-day-2: false
@@ -45,8 +45,8 @@ filter-date:
   is-day-8: false
 filter-time:
   is-morning: false
-  is-daytime: true
-  is-evening: false
+  is-daytime: false
+  is-evening: true
 filter-type:
   is-free:
   is-family-friendly:
@@ -60,8 +60,8 @@ filter-type:
   is-wellness:
 filter-location:
   is-dc: false
-  is-md: true
-  is-va: false
+  is-md: false
+  is-va: true
 is-featured-on-home-page:
 ---
 

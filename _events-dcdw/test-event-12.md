@@ -31,9 +31,9 @@ tickets:
   non-member-button-url:
   non-member-button-label:
 columns:
-  is-3: true
+  is-3: false
   is-2: false
-  is-1: false
+  is-1: true
 filter-date:
   is-day-1: true
   is-day-2: false
@@ -60,8 +60,8 @@ filter-type:
   is-wellness:
 filter-location:
   is-dc: false
-  is-md: false
-  is-va: true
+  is-md: true
+  is-va: false
 is-featured-on-home-page:
 ---
 
