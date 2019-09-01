@@ -126,6 +126,12 @@ defaults:
     layout: events-single
 - scope:
     path: ''
+    type: speakers
+  values:
+    professional-title: Provide the professional title of the speaker
+    website: Provide a url to the speakers website
+- scope:
+    path: ''
     type: sponsors
   values:
     sponsor-image: Displays the sponsors logo
