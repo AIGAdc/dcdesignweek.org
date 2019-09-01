@@ -22,6 +22,10 @@
 @import "3-components/slider";
 @import "3-components/footer";
 
+@import "4-utilities/borders";
+@import "4-utilities/colors";
+@import "4-utilities/shadows";
+
 @import "pages/events";
 @import "pages/home";
 @import "pages/pop-up-shop";
@@ -33,10 +37,3 @@
 @import "3rd-party/mixitup";
 @import "3rd-party/offside";
 @import "3rd-party/typeform";
-
-@import "utilities/general";
-@import "utilities/borders";
-@import "utilities/colors";
-@import "utilities/shadows";
-@import "utilities/widths";
-@import "utilities/z-index";

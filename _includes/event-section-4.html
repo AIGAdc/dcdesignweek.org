@@ -1,0 +1,30 @@
+{% if page.event.has-speakers == true %}
+<div class="event__speakers">
+    <h2>
+        Speakers
+    </h2>
+    <hr/>
+    {% for speaker in site.speakers %}
+    <div class="speaker">
+        <h3>
+            {{ speaker.title }}
+        </h3>
+        {% if speaker.professional-title %}
+        <h4>
+            {{ speaker.professional-title }}
+        </h4>
+        {% endif %}
+        <p>
+            {{ speaker | markdownify }}
+        </p>
+        {% if speaker.website %}
+        <a href="{{ speaker.website }}" rel="noopener" target="_blank">
+            <i class="fas fa-globe-americas">
+            </i>
+            {{ speaker.website }}
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

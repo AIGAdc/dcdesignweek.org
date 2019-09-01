@@ -2,3 +2,26 @@
 * {
     outline: 1px dashed lightsalmon !important;
 }
+
+.disabled {
+    cursor: not-allowed !important;
+}
+.enabled {
+	cursor: pointer !important;
+}
+
+.container, .container--small {
+    margin: auto;
+    padding: $spacing-16;
+}
+.container {
+    max-width: 1024px;
+}
+.container--small {
+    max-width: 768px;
+}
+@media screen and (min-width: 1023px) {
+    .container, .container--small {
+        padding: $spacing-32;
+    }
+}

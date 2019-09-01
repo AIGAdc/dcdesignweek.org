@@ -48,16 +48,13 @@
 }
 /* Events Single Page */
 
-.event-hero {
+.events-single-layout .event-hero {
     height: 40vh;
     display: flex;
     align-items: center;
     position: relative;
     background-size: cover;
     background-position: center;
-}
-.event-hero p {
-    font-weight: 700;
 }
 .event-hero__overlay {
     background-color: $black;
