@@ -44,6 +44,6 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
         grid-template-columns: repeat(4, 1fr);
     }
     .mixitup-container .column-3:not([style="display:none"]) {
-        grid-column: span 2;
+        grid-column: span 3;
     }
 }
