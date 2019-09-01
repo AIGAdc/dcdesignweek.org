@@ -15,12 +15,12 @@ dc-is-factsinating-body: "Sure, we all know DC’s urban layout was designed by 
   wisdom. We can’t wait to learn with them and celebrate this weird and wonderful
   city.\n"
 sponsors-header: Calling All Sponsors!
-sponsors-body: |
+sponsors-body: |-
   DC Design Week is produced by [AIGA DC](https://dc.aiga.org){:target="_blank" rel="noopener"}, a volunteer-run, 501(c)3 nonprofit organization, in concert with a consortium of local associations, meetup groups, and small businesses — and planned by a team of creatives from our community (see below!).
 
   This year, we’re looking to make DCDW2019 an even bigger celebration of the entire DC community — more events, in more places, featuring even more aspects of DC’s curious and creative community. But we can’t do it alone (though we’d certainly try). We’re currently looking for partners who can help make the best DCDW a reality. Whether you’re able to offer space, offer in-kind services, or offer financial support, your contribution will make the difference. Click below to support #DCDesignWeek and be part of the excitement as an ally of the creative community.
 
-  This celebration is possible because of all of our partners. We couldn’t do it without you. Thank you!
+  This celebration is possible because of all of our partners. We couldn’t do it without you. Thank you! Got a question or feedback? Drop us a line over [email](mailto:designweek@dc.aiga.org).
 sponsors-button: Become A Sponsor
 sponsors-button-url: https://forms.gle/WEXzE1uxGjZ168bW9
 sponsors-button-type: border
