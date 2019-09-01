@@ -8,9 +8,14 @@ collections:
   events-dcdw:
     title: Events - DCDW
     output: true
+    permalink: /events/:title/
   posts:
     title: Posts
     output: true
+    sponsors:
+  speakers:  
+    title: Speakers
+    output: false
   sponsors:
     title: Sponsors
     output: false
@@ -26,39 +31,74 @@ defaults:
     path: ''
     type: events-dcdw
   values:
-    seo:
-      description: Provide an exceprt of what the event is about.
+    status:
+      is-coming-soon: Select true if the event is coming soon.
+      coming-soon-message: Coming Soon!
+      is-sold-out: Select true if the event is sold out.
+      sold-out-message: Sold Out!
+      is-featured-on-events: Select True if event should be featured on the events page.
+      is-featured-on-home: Select True if event should be featured on the home page.
+      featured-event-message: Featured!
+
     event:
-      date: Displays the date of the event.
-      venue-name: Displays the name of the venue.
-      venue-directions: Provide a url to google maps to help navigate attendees.
-      venue-address: Displays the address of the venues.
-      start-time: Displays the start time of the event.
-      end-time: Displays the end time of the event.
+      date: Select date of the event.
+      description: Provide an excerpt of what the event is about. Preferably 1 sentence.
+      image: Provide the image that will be used in the event card and event header.
+      image-alt: Provide alt text describing the image above.
+      start-time: Select the start time of the event.
+      end-time: Select the end time of the event.
+      has-external-url: Select True if event is hosted externally.
+      external-url: If true, provide external url link.
+      has-speakers: Select True is event has speakers
+
+    tickets:
+      has-member-button: Select true to display the members only ticket button.
+      member-button-url: Provide link that will open when the members only ticket button is clicked.
+      member-button-label: Provide text that will display in the members only ticket button.
+      has-non-member-button: Select true to display the non members ticket button.
+      non-member-button-url: Provide link that will open when the non members ticket button is clicked.
+      non-member-button-label: Provide text that will display in the non members ticket button.
+
+    venue:
+      name: Provide the name of the venue.
+      address: Provide the address of the venue.
+      directions: Provide a google maps link with directions to the venue.
+
     speakers:
-      headshot-image: Displays the speakers portait.
-      url: Provide a url to the speakers website.
-      name: Displays the speakers name.
-      title: Displays the speakers professional title
-      bio-text: Displays the speakers bio.
-    buttons:
-      has-left-button: true
-      button-left-url: Provide a url for button on left
-      button-left-text: Provide text for button on left
-      has-right-button: true
-      button-right-url: Provide a url for button on right
-      button-right-text: Provide text for button on right
-    is-oct-20: false
-    is-oct-21: false
-    is-oct-22: false
-    is-oct-23: false
-    is-oct-24: false
-    is-oct-25: false
-    is-oct-26: false
-    is-oct-27: false
-    is-oct-28: false
-    is-sold-out: false
-    is-featured-on-home-page: false
+      - speaker: Select Speakers
+
+    filter-date:
+      is-day-1: Select True if event occurs on day 1.
+      is-day-2: Select True if event occurs on day 2.
+      is-day-3: Select True if event occurs on day 3.
+      is-day-4: Select True if event occurs on day 4.
+      is-day-5: Select True if event occurs on day 5.
+      is-day-6: Select True if event occurs on day 6.
+      is-day-7: Select True if event occurs on day 7.
+      is-day-8: Select True if event occurs on day 8.
+
+    filter-time:
+      is-morning: Select True if event occurs in the morning.
+      is-daytime: Select True if event occurs during the morning.
+      is-evening: Select True if event occurs in the evening.
+
+    filter-type:
+      is-free: Select True if event matches type 
+      is-family-friendly: Select True if event matches type
+      is-party: Select True if event matches type
+      is-diy: Select True if event matches type
+      is-workshop: Select True if event matches type 
+      is-architecture: Select True if event matches type
+      is-creative-lunch: Select True if event matches type
+      is-design-thinking: Select True if event matches type
+      is-motion-graphics: Select True if event matches type
+      is-wellness: Select True if event matches type
+
+    filter-location:
+      is-dc: Select True if event is located in DC.
+      is-md: Select True if event is located in MD.
+      is-va: Select True if event is located in VA.
+    
     layout: events-single
 - scope:
     path: ''

@@ -1,0 +1,40 @@
+<section class="block event-details">
+    <div class="container">
+        <h2>
+            Details
+        </h2>
+        <hr/>
+        <div class="grid grid__2-column">
+            <div class="">
+                <small>
+                    Date & Time
+                </small>
+                <p>
+                    <i class="fas fa-calendar-day">
+                    </i>
+                    {{ page.event.date | date: "%A, %B %d"}}
+                </p>
+                <p>
+                    <i class="fas fa-clock">
+                    </i>
+                    {{ page.event.start-time }} - {{ page.event.end-time }}
+                </p>
+            </div>
+            <div class="">
+                <small>
+                    Venue
+                </small>
+                <p>
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                    <a href="{{ page.venue.directions }}" rel="noopener" target="_blank">
+                        {{ page.venue.name }}
+                    </a>
+                </p>
+                <p>
+                    {{ page.venue.address }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

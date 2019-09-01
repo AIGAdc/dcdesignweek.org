@@ -1,28 +1,148 @@
-.script {
-    font-family: $script;
-}
 body {
     color: $black;
     font-family: $sans;
-    font-size: 1.2rem;
+    font-size: $font-size-20;
     font-weight: 300;
-    line-height: 2.4rem;
+    line-height: 1.6;
 }
 a {
     font-weight: 700;
     text-decoration: none;
     color: $black;
+    cursor: pointer;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, small {
     font-family: $script;
     font-stretch: normal;
     font-style: normal;
     font-weight: 400;
+    line-height: initial;
     margin: 0;
     text-rendering: optimizeLegibility;
 }
-strong {
-    font-weight: 900;
+hr {
+    border: solid 4px $crusta;
+    border-radius: 50px;
+    margin: 0.5rem 0 2rem 0;
+    max-width: 120px;
+    text-align: left;
+}
+/* font family */
+
+.script {
+    font-family: $script;
+}
+.sans {
+    font-family: $sans;
+}
+.font-size-1 {
+    font-size: $font-size-48;
+}
+.font-size-2 {
+    font-size: $font-size-40;
+}
+.font-size-3 {
+    font-size: $font-size-32;
+}
+.font-size-4 {
+    font-size: $font-size-24;
+}
+.font-size-5 {
+    font-size: $font-size-20;
+}
+.font-size-6 {
+    font-size: $font-size-16;
+}
+.font-size-7 {
+    font-size: $font-size-14;
+}
+.font-size-8 {
+    font-size: $font-size-12;
+}
+.font-size-9 {
+    font-size: $font-size-10;
+}
+@media screen and (min-width: 767px) {
+    .md-font-size-1 {
+        font-size: $font-size-48;
+    }
+    .md-font-size-2 {
+        font-size: $font-size-40;
+    }
+    .md-font-size-3 {
+        font-size: $font-size-32;
+    }
+    .md-font-size-4 {
+        font-size: $font-size-24;
+    }
+    .md-font-size-5 {
+        font-size: $font-size-20;
+    }
+    .md-font-size-6 {
+        font-size: $font-size-16;
+    }
+    .md-font-size-7 {
+        font-size: $font-size-14;
+    }
+    .md-font-size-8 {
+        font-size: $font-size-12;
+    }
+    .md-font-size-9 {
+        font-size: $font-size-10;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .lg-font-size-1 {
+        font-size: $font-size-48;
+    }
+    .lg-font-size-2 {
+        font-size: $font-size-40;
+    }
+    .lg-font-size-3 {
+        font-size: $font-size-32;
+    }
+    .lg-font-size-4 {
+        font-size: $font-size-24;
+    }
+    .lg-font-size-5 {
+        font-size: $font-size-20;
+    }
+    .lg-font-size-6 {
+        font-size: $font-size-16;
+    }
+    .lg-font-size-7 {
+        font-size: $font-size-14;
+    }
+    .lg-font-size-8 {
+        font-size: $font-size-12;
+    }
+    .lg-font-size-9 {
+        font-size: $font-size-10;
+    }
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+.font-weight-700, strong {
+    font-weight: 700;
+}
+.text-transform-upper {
+    text-transform: uppercase;
+}
+.text-transform-lower {
+    text-transform: lowercase;
+}
+.text-align-left {
+    text-align: left;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-justify {
+    text-align: justify;
 }
 .wysiwyg .headline {
     font-size: 32px;
@@ -31,35 +151,20 @@ strong {
     font-size: $font-size-40;
 }
 .wysiwyg h2 {
-    font-size: $font-size-24;
+    font-size: $font-size-32;
 }
 .wysiwyg h3 {
-    font-size: $font-size-20;
+    font-size: $font-size-24;
 }
 .wysiwyg p {
-    font-size: $font-size-16;
-    line-height: 1.6rem;
     margin: $spacing-16 0;
 }
-.wysiwyg small {
-    font-size: $font-size-10;
-    line-height: 0.2rem;
+.wysiwyg p:last-child {
+    margin-bottom: 0;
 }
-.wysiwyg .button {
-    font-size: $font-size-16;
-}
-.wysiwyg hr, .page-introduction hr {
-    text-align: left;
-    max-width: 120px;
-    margin: 0.5rem 0 2rem 0;
-    border: solid 4px $crusta;
-    border-radius: 50px;
-}
+
 .block-featured-events .card hr, .block-committee .card hr {
     border: solid 4px $black;
-}
-.page-introduction hr {
-    border: solid 4px $crusta;
 }
 @media screen and (min-width: 1024px) {
     .wysiwyg .headline {
@@ -70,17 +175,10 @@ strong {
     .wysiwyg h1 {
         font-size: $font-size-48;
     }
-    .wysiwyg h2, .wysiwyg h3 {
+    .wysiwyg h2 {
+        font-size: $font-size-40;
+    }
+    .wysiwyg h3 {
         font-size: $font-size-32;
-    }
-    .wysiwyg small {
-        font-size: $font-size-12;
-    }
-    .wysiwyg p {
-        font-size: $font-size-20;
-        line-height: 2rem;
-    }
-    .wysiwyg .button {
-        font-size: $font-size-20;
     }
 }

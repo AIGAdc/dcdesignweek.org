@@ -17,7 +17,7 @@
     background-size: cover;
     width: 100%;
     position: relative;
-    font-weight: 900;
+    font-weight: 700;
 }
 .slide h2>p {
     font-size: $font-size-20;
@@ -139,8 +139,8 @@
         max-width: 144px;
     }
     .slides {
-    height: 80vh;
-}
+        height: 80vh;
+    }
     .about-layout .slides {
         height: 25vh;
     }

@@ -1,43 +1,32 @@
-/* Controls
----------------------------------------------------------------------- */
-
-.control-group {
-    border: none;
-    display: inline-block;
-    vertical-align: top;
-}
 .control {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 16px;
+    padding: 8px;
     transition: background 150ms;
+    flex-grow: 1;
+    cursor: pointer !important;
 }
-span.control-text-1 {
-    font-size: 24px;
-    font-weight: 700;
-}
-span.control-text-1 {
-    font-size: 24px;
-    font-weight: 400;
-}
-.mixitup-control-active {
-    background: $mauve;
-}
+
 /* Target Elements
 ---------------------------------------------------------------------- */
-
-.mix {
-    background: $white;
-    display: block;
-    width: 100%;
+.mixitup-control-active {
+    background-color: $mauve;
 }
-.mix:before {
-    content: '';
-    display: inline-block;
-    padding-top: 60%;
+.mix-it-up-container {
+    overflow: hidden;
+    position: relative;
 }
-.mix:after {
-    content: '';
+.mixitup-container {
+    position: relative;
+        margin-bottom: $spacing-40;
+}
+.mixitup-container-failed::after {
+    content: 'No Result 😬';
+    padding: 32px;
     position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
 }
