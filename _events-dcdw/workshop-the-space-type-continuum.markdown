@@ -39,7 +39,7 @@ filter-location:
 
 Want to make your typography come alive? Join designer and MICA educator Kiel Mutschelknaus’ Space Type Continuum workshop on Saturday, July 21 from 1 - 4 pm at ISL.
 
-Kiel’s most recent project, an online motion and type generator called *[Space Type Generator](http://spacetypegenerator.com/)*, has been featured in *[The Verge](https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding)* and *[It’s Nice That](https://www.itsnicethat.com/articles/kiel-mutschelknaus-space-type-generator-graphic-design-digital-160519)*. Attendees will learn Kiel’s innovative approach to making a typographic generator from (almost) scratch in under 3 hours.
+Kiel’s most recent project, an online motion and type generator called *Space Type Generator,* has been featured in *[The Verge](https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding)* and *[It’s Nice That](https://www.itsnicethat.com/articles/kiel-mutschelknaus-space-type-generator-graphic-design-digital-160519)*. Attendees will learn Kiel’s innovative approach to making a typographic generator from (almost) scratch in under 3 hours.
 
 The workshop will begin with an introduction to the basics of coding. After laying this important groundwork, we’ll move onto basic motion and typography to create a simple yet robust typographic generator. Various versions of Space Type Generator will be dissected to demonstrate how the presented foundational elements can be built out even further to create a myriad of iterations.
 
