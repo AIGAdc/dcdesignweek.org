@@ -8,7 +8,7 @@ event:
   description: '1 sentence description of the event'
   image: "/uploads/carnegie-jen-white-johnson.jpg"
   image-alt: Event photo for Jen White Johnson
-  start-time: 12:00pm
+  start-time: 3:00pm
   end-time: 12:00am
   external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
 
