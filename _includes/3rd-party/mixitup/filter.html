@@ -1,22 +1,25 @@
-<section class="agenda">
-    <form class="controls">
-        <fieldset class="control-group" data-filter-group="">
+<section class="events">
+    <form class="events__filter controls">
+        <fieldset class="events__filter-date control-group" data-filter-group="">
             {% for control in site.data.agenda.filter-date %}
-            <button class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %}" data-filter="{{ control.filter }}" type="button">
+            <button class="control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
                 <span class="control-text-1 script">
                     {{ control.text-1 }}
                 </span>
                 <span class="control-text-2">
                     {{ control.text-2 }}
                 </span>
+                <span class="control-text-3">
+                    {{ control.text-3 }}
+                </span>
             </button>
             {% endfor %}
         </fieldset>
-        <div class="bg-mauve-light">
-            <h4 data-houdini-toggle="additional-filters">
+        <div class="events__filter-additional">
+            <span class="events__additional-filters-header" data-houdini-toggle="additional-filters">
                 Additional Filters
-            </h4>
-            <div data-houdini-group="additional-filters" id="additional-filters">
+            </span>
+            <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
                 <fieldset class="control-group grid grid__4-column" data-filter-group="">
                     <div class="">
                         {% for control in site.data.agenda.filter-time-of-day %}
@@ -28,7 +31,7 @@
                         </div>
                         {% endfor %}
                     </div>
-                    <div class="grid grid__2-column">
+                    <div class="">
                         {% for control in site.data.agenda.filter-event-type %}
                         <div class="radio">
                             <label class="radio-label">
@@ -59,13 +62,13 @@
                 </fieldset>
             </div>
         </div>
-        <div class="control-group">
+        <div class="events__filter-reset control-group">
             <button class="control control-text" type="reset">
-                View Full Week
+                View All Events
             </button>
         </div>
     </form>
-    <ul class="grid grid__3-column mixitup-container">
+    <ul class="events__list grid grid__3-column mixitup-container">
         {% assign sorted = (site.events-dcdw | sort: 'event.date' | sort: 'event.start-time') %}
         {% for posts in sorted %}
         <li class="card mix
@@ -133,16 +136,25 @@
             coming-soon
             {% endif %}
 
-            {% if posts.featured.is-featured-on-events == true %}
+            {% if posts.staut.is-featured-on-events == true %}
             featured
             {% endif %}
             ">
             {% if posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
             <a class="disabled border border--black">
+            {% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+            <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
             {% else %}
             <a class="enabled border border--black shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
             {% endif %}
                 <div class="card-image">
+                    {% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+                    <div class="ticker bg-hot-pink">
+                        <p>
+                            {{ posts.status.featured-event-message }}
+                        </p>
+                    </div>
+                    {% endif %}
                     <figure>
                         <img src="{{ posts.event.image }}" alt="{{ posts.event.image-alt }}"/>
                     </figure>

@@ -1,25 +1,25 @@
 ---
 layout: default
 ---
-<section style="background-image:url('{{ page.event.image }}'); background-size: cover; background-position: center; position: relative;">
-    <div class="bg-mauve" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0.5;">
+<section class="event-hero" style="background-image:url('{{ page.event.image }}'); background-size: cover; background-position: center; position: relative;">
+    <div class="bg-black" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0.5;">
     </div>
-    <div class="container" style="z-index: 999; position: relative;">
+    <div class="container white" style="z-index: 99; position: relative;">
         <h1>
             {{ page.title }}
         </h1>
-        <h2>
+        <p>
             {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
-        </h2>
-        {% if page.buttons.has-left-button == true %}
-        <a class="" href="{{ page.buttons.button-left-url }}">
-            {{ page.buttons.button-left-text }}
+        </p>
+        {% if page.tickets.has-member-button == true %}
+        <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-left-url }}">
+            {{ page.tickets.member-button-label }}
         </a>
         {% endif %}
 
-        {% if page.buttons.has-right-button == true %}
-        <a class="" href="{{ page.buttons.button-right-url }}">
-            {{ page.buttons.button-right-text }}
+        {% if page.tickets.has-non-member-button == true %}
+        <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.non-member-button-url }}">
+            {{ page.tickets.non-member-button-label }}
         </a>
         {% endif %}
     </div>
@@ -64,5 +64,23 @@ layout: default
     </div>
 </section>
 <section class="container">
-    {{ content | markdownify }}
+    <div class="event__content">
+        <h2>Description</h2>
+        <hr/>
+        {{ content | markdownify }}
+    </div>
+    {% if page.event.has-speakers == true %}
+    <div class="event__speakers">
+        <h2>Speakers</h2>
+        <hr/>
+        {% for speaker in site.speakers %}
+        <div class="speaker">
+            <h3>{{ speaker.title }}</h3>
+            <h4>{{ speaker.professional-title }}</h4>
+            <p>{{ speaker | markdownify }}</p>
+            <a href="{{ speaker.website }}" target="_blank" rel="noopener">{{ speaker.website }}</a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 </section>

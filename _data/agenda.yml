@@ -3,116 +3,99 @@ filter-date:
   - filter: .day-1
     class: day-1
     text-1:  Fri
-    text-2: Sep 20
-    disabled: false
+    text-2: Sept
+    text-3: 20
   - filter: .day-2
     class: day-2
     text-1: Sat
-    text-2: Sep 21
-    disabled: false
+    text-2: Sept
+    text-3: 21
   - filter: .day-3
     class: day-3
     text-1: Sun
-    text-2: Sep 22
-    disabled: false
+    text-2: Sept
+    text-3: 22
   - filter: .day-4
     class: day-4
     text-1: Mon
-    text-2: Sep 23
-    disabled: false
+    text-2: Sept
+    text-3: 23
   - filter: .day-5
     class: day-5
     text-1: Tue
-    text-2: Sep 24
-    disabled: false
+    text-2: Sept
+    text-3: 24
   - filter: .day-6
     class: day-6
     text-1: Wed
-    text-2: Sep 25
-    disabled: false
+    text-2: Sept
+    text-3: 25
   - filter: .day-7
     class: day-7
     text-1: Thu
-    text-2: Sep 26
-    disabled: false
+    text-2: Sept
+    text-3: 26
   - filter: .day-8
     class: day-8
     text-1: Fri
-    text-2: Sep 27
-    disabled: false
+    text-2: Sept
+    text-3: 27
 
 filter-time-of-day:
   - filter: .morning
     class: morning
     text-1: Morning
-    disabled: false
   - filter: .daytime
     class: daytime
     text-1: Daytime
-    disabled: false
   - filter: .evening
     class: evening
     text-1: Evening
-    disabled: false
 
 filter-event-type:
   - filter: .free
     class: free
     text-1: Free
-    disabled: false
   - filter: .family
     class: family-friendly
     text-1: Family Friendly
-    disabled: false
   - filter: .party
     class: party
     text-1: Party
-    disabled: false
   - filter: .diy
     class: diy
     text-1: DIY
-    disabled: false
   - filter: .workshop
     class: workshop
     text-1: Workshop
-    disabled: false
   - filter: .architecture
     class: architecture
     text-1: Architecture
-    disabled: false
   - filter: .creative-lunch
     class: creative-lunch
     text-1: Creative Lunch
-    disabled: false
   - filter: .design-thinking
     class: design-thinking
     text-1: Design Thinking
-    disabled: false
   - filter: .motion-graphics
     class: motion-graphics
     text-1: Motion Graphics
-    disabled: false
   - filter: .wellness
     class: wellness
     text-1: Wellness
-    disabled: false
 
 filter-location:
   - filter: .dc
     class: dc
     text-1: DC
-    disabled: false
   - filter: .md
     class: md
     text-1: MD
-    disabled: false
   - filter: .va
     class: va
     text-1: VA
-    disabled: false
 
 filter-sold-out:
   - filter: .sold-out
     class:  sold-out
     text-1: Sold Out
-    disabled: false

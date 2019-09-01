@@ -1,16 +1,3 @@
-/* Controls
----------------------------------------------------------------------- */
-
-.control-group {
-    border: none;
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: top;
-}
-.controls {
-    z-index: $index-4;
-    background-color: $white;
-}
 .control {
     background: none;
     border: none;
@@ -20,25 +7,26 @@
     flex-grow: 1;
     cursor: pointer !important;
 }
-span.control-text-1 {
-    font-size: 24px;
-    font-weight: 700;
-}
-span.control-text-1 {
-    font-size: 24px;
-    font-weight: 400;
-}
-.mixitup-control-active {
-    background: $mauve;
-}
+
 /* Target Elements
 ---------------------------------------------------------------------- */
-
+.mixitup-control-active {
+    background-color: $mauve;
+}
 .mix-it-up-container {
     overflow: hidden;
-    z-index: $index-4;
+    position: relative;
+}
+.mixitup-container {
+    position: relative;
+        margin-bottom: $spacing-40;
 }
 .mixitup-container-failed::after {
-    content: 'No Results';
+    content: 'No Result 😬';
     padding: 32px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
 }
