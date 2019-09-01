@@ -32,8 +32,8 @@ ticketing:
   non-member-button-label:
 
 columns:
-  is-3: false
-  is-1: true
+  is-3: true
+  is-1: false
 
 filter-date:
   is-day-1: true

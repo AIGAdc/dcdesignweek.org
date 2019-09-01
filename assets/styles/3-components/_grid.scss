@@ -14,7 +14,7 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
 
 .grid {
     display: grid;
-    grid-auto-flow: dense;
+    grid-auto-flow: row dense;
     grid-gap: 2rem;
     margin: 0;
     padding: 0;
@@ -44,6 +44,6 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
         grid-template-columns: repeat(4, 1fr);
     }
     .mixitup-container .column-3:not([style="display:none"]) {
-        grid-column: span 3;
+        grid-column: span 2;
     }
 }
