@@ -1,28 +1,28 @@
 <section class="agenda">
-    <form class="controls tc mb5">
-        <fieldset class="control-group w-100 flex justify-between" data-filter-group="">
+    <form class="controls">
+        <fieldset class="control-group" data-filter-group="">
             {% for control in site.data.agenda.filter-date %}
-            <button class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %} tc" data-filter="{{ control.filter }}" type="button">
+            <button class="control {{ control.class }} btn btn--header-link {% if control.disabled == true %} btn--disabled {% endif %}" data-filter="{{ control.filter }}" type="button">
                 <span class="control-text-1 script">
                     {{ control.text-1 }}
                 </span>
-                <span class="control-text-2 db">
+                <span class="control-text-2">
                     {{ control.text-2 }}
                 </span>
             </button>
             {% endfor %}
         </fieldset>
         <div class="bg-mauve-light">
-                <h4 data-houdini-toggle="additional-filters">
-                    Additional Filters
-                </h4>
+            <h4 data-houdini-toggle="additional-filters">
+                Additional Filters
+            </h4>
             <div data-houdini-group="additional-filters" id="additional-filters">
                 <fieldset class="control-group grid grid__4-column" data-filter-group="">
                     <div class="">
                         {% for control in site.data.agenda.filter-time-of-day %}
                         <div class="radio">
                             <label class="radio-label">
-                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                                 {{ control.text-1 }}
                             </label>
                         </div>
@@ -32,7 +32,7 @@
                         {% for control in site.data.agenda.filter-event-type %}
                         <div class="radio">
                             <label class="radio-label">
-                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                                 {{ control.text-1 }}
                             </label>
                         </div>
@@ -42,41 +42,33 @@
                         {% for control in site.data.agenda.filter-location %}
                         <div class="radio">
                             <label class="radio-label">
-                                <input name="color" type="radio" value="{{ control.filter }}"/>
+                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                                 {{ control.text-1 }}
                             </label>
                         </div>
                         {% endfor %}
                     </div>
                     <div class="">
-                        <label class="radio-label">
-                            <input name="color" type="radio" value=".mix:not(.sold-out)"/>
-                            Hide Sold Out Events
-                        </label>
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
+                                Hide Sold Out Events
+                            </label>
+                        </div>
                     </div>
                 </fieldset>
             </div>
         </div>
-        <div class="control-group mt3 relative">
+        <div class="control-group">
             <button class="control control-text" type="reset">
                 View Full Week
             </button>
         </div>
     </form>
-    <ul class="auto-grid mixitup-container">
+    <ul class="grid grid__3-column mixitup-container">
         {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
         {% for posts in sorted %}
         {% include partials/events/card/content.html %}
         {% endfor %}
     </ul>
 </section>
-<script>
-    var showHideButton = new Houdini('[data-houdini]');
-    var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
-        isAccordion: true,
-        collapseOthers: true
-    });
-    var datalist = new Houdini('[data-houdini-dl] dd', {
-        isAccordion: true
-    });
-</script>

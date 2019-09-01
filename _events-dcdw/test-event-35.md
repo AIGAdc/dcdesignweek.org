@@ -1,10 +1,10 @@
 ---
-title: Test Event 6
+title: Test Event 35
 date: 2018-09-26 20:54:00 -04:00
 position: 1
 
 event:
-  date: 2019-09-27 18:30:00 -04:00
+  date: 2019-09-20 18:30:00 -04:00
   description: '1 sentence description of the event'
   image: "/uploads/carnegie-jen-white-johnson.jpg"
   image-alt: Event photo for Jen White Johnson
@@ -34,18 +34,18 @@ columns:
   is-3: false
   is-1: true
 filter-date:
-  is-day-1: false
+  is-day-1: true
   is-day-2: false
   is-day-3: false
   is-day-4: false
   is-day-5: false
   is-day-6: false
   is-day-7: false
-  is-day-8: true
+  is-day-8: false
 filter-time:
   is-morning: false
-  is-daytime: true
-  is-evening: false
+  is-daytime: false
+  is-evening: true
 filter-type:
   is-free:
   is-family-friendly:
@@ -59,8 +59,8 @@ filter-type:
   is-wellness:
 filter-location:
   is-dc: false
-  is-md: true
-  is-va: false
+  is-md: false
+  is-va: true
 is-featured-on-home-page:
 ---
 

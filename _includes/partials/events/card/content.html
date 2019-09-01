@@ -72,10 +72,8 @@ coming-soon
 
 {% if posts.columns.is-3 == true %}
 column-3
-{% elsif posts.columns.is-2 == true %}
-column-2
-{% elsif posts.columns.is-1 == true %}
-column-1
+{% else %}
+column-auto
 {% endif %}
 
 
