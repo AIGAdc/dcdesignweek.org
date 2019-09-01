@@ -100,7 +100,10 @@ filter-sold-out:
     class:  sold-out
     text-1: Sold Out
 
-filter-featured:
+filter-status:
   - filter: .featured
     class:  featured
-    text-1: Show Featured Events
+    text-1: Show Featured
+  - filter: .coming-soon
+    class:  coming-soon
+    text-1: Show Coming Soon

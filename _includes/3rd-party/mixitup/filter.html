@@ -21,8 +21,9 @@
             </span>
             <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
                 <fieldset class="control-group grid grid__4-column" data-filter-group="">
-                                        <div class="">
-                        {% for control in site.data.agenda.filter-featured %}
+                    <div class="">
+                        <p>Status</p>
+                        {% for control in site.data.agenda.filter-status %}
                         <div class="radio">
                             <label class="radio-label">
                                 <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
@@ -33,11 +34,12 @@
                         <div class="radio">
                             <label class="radio-label">
                                 <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
-                                Hide Sold Out Events
+                                Hide Sold Out
                             </label>
                         </div>
                     </div>
                     <div class="">
+                        <p>Time</p>
                         {% for control in site.data.agenda.filter-time-of-day %}
                         <div class="radio">
                             <label class="radio-label">
@@ -48,6 +50,7 @@
                         {% endfor %}
                     </div>
                     <div class="">
+                        <p>Type</p>
                         {% for control in site.data.agenda.filter-event-type %}
                         <div class="radio">
                             <label class="radio-label">
@@ -58,6 +61,7 @@
                         {% endfor %}
                     </div>
                     <div class="">
+                        <p>Location</p>
                         {% for control in site.data.agenda.filter-location %}
                         <div class="radio">
                             <label class="radio-label">
