@@ -1,17 +1,3 @@
-/* 
-Special thanks to Rachel Andrew:
-https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
-*/
-
-/*.grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-}
-.grid>* {
-    flex: 1;
-}*/
-
 .grid {
     display: grid;
     grid-auto-flow: row dense;
