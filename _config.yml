@@ -49,7 +49,7 @@ defaults:
       end-time: Select the end time of the event.
       has-external-url: Select True if event is hosted externally.
       external-url: If true, provide external url link.
-      has-speakers: true
+      has-speakers: Select True is event has speakers
 
     tickets:
       has-member-button: Select true to display the members only ticket button.
