@@ -6,24 +6,40 @@
 }
 .card-image {
     background-color: $black;
+    max-height: 288px;
+    overflow: hidden;
+}
+.card-image figure img {
+    height: 288px;
+    width: 100vw;
+    object-fit: cover;
 }
 .block-committee .card-image {
     background-color: $white;
+}
+.card {
+    display: flex;
 }
 .card-details {
     background-color: $white;
     color: $black;
     padding: $spacing-32;
 }
+li.card {
+    list-style: none;
+}
 .card a {
     display: inline-block;
-    font-weight: 900;
+    font-weight: 700;
     font-size: $font-size-16;
     margin: 0;
     line-height: 1.4rem;
 }
 .block-featured-sponsors .card a {
     display: block;
+}
+.card-details {
+    flex-grow: 1;
 }
 .card-details h3 {
     line-height: 2.2rem;
