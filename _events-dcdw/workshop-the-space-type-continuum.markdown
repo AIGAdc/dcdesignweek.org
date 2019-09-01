@@ -45,6 +45,9 @@ The workshop will begin with an introduction to the basics of coding. After layi
 
 COOL STUFF ALERT! 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
 
-![stg_apr25a.mp4](/uploads/stg_apr25a.mp4)
+[stg_apr25a.mp4](/uploads/stg_apr25a.mp4)
 
 **Venue Accessibility (elevators, stairs, etc.):**
+ISL is accessible from the back entrance of the building.
+
+**Transportation / Helpful Directions to Venue (metro stop, parking availability):**ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW.
