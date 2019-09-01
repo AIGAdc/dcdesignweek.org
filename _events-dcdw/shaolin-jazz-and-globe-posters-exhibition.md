@@ -2,12 +2,8 @@
 title: 'Shaolin Jazz & Globe Posters Exhibition: Opening Party!'
 date: 2019-09-01 12:00:00 -04:00
 status:
-  is-coming-soon: 
-  coming-soon-message: 
-  is-sold-out: 
   sold-out-message: Sold Out!
   is-featured-on-events: true
-  is-featured-on-home: 
   featured-event-message: Featured!
 event:
   date: 2019-09-20 18:00:00 -04:00
@@ -15,11 +11,9 @@ event:
     Week 2019 with music from Shaolin Jazz and an exhibition with Globe Posters at
     Big Chief in Ivy City!
   image: "/uploads/event-opening-party.jpg"
-  image-alt: 
   start-time: 6:00 PM
   end-time: 9:00 PM
   has-external-url: false
-  external-url: 
   has-speakers: true
 tickets:
   has-member-button: true
@@ -35,34 +29,15 @@ venue:
 speakers:
 - speaker: Allison Fischer
 - speaker: Marcus Dowling
+- speaker: Kiel Mutschelknaus
 filter-date:
   is-day-1: true
-  is-day-2: 
-  is-day-3: 
-  is-day-4: 
-  is-day-5: 
-  is-day-6: 
-  is-day-7: 
-  is-day-8: 
 filter-time:
-  is-morning: 
-  is-daytime: 
   is-evening: true
 filter-type:
-  is-free: 
-  is-family-friendly: 
   is-party: true
-  is-diy: 
-  is-workshop: 
-  is-architecture: 
-  is-creative-lunch: 
-  is-design-thinking: 
-  is-motion-graphics: 
-  is-wellness: 
 filter-location:
   is-dc: true
-  is-md: 
-  is-va: 
 ---
 
 Join us as we celebrate the start of DC Design Week 2019 with Shaolin Jazz and Globe Posters! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
