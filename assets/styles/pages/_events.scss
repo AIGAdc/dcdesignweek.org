@@ -1,4 +1,5 @@
 /* Events Page */
+
 .events__filter {
     margin-bottom: $spacing-32;
 }
@@ -46,11 +47,36 @@
     padding: $spacing-8;
 }
 /* Events Single Page */
+
 .event-hero {
-	height: 40vh;
-	display: flex;
-	align-items: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 .event-hero p {
-	font-weight: 700;
+    font-weight: 700;
+}
+.event-hero__overlay {
+    background-color: $black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.event-hero__content {
+    color: $white;
+    position: relative;
+    z-index: $index-3;
+}
+.event-details {
+    background-color: $lightning-yellow-light;
+}
+.event-details small {
+    font-size: $font-size-20;
+    font-weight: 700;
 }

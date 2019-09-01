@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<section class="event-hero" style="background-image:url('{{ page.event.image }}'); background-size: cover; background-position: center; position: relative;">
-    <div class="bg-black" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0.5;">
+<section class="event-hero" style="background-image:url('{{ page.event.image }}');">
+    <div class="event-hero__overlay">
     </div>
-    <div class="container white" style="z-index: 99; position: relative;">
+    <div class="event-hero__content container">
         <h1>
             {{ page.title }}
         </h1>
@@ -23,62 +23,100 @@ layout: default
         </a>
         {% endif %}
     </div>
+    {% if page.status.is-sold-out == true %}
+    <div class="ticker ticker--sold-out">
+        <p>
+            {{ page.status.sold-out-message }}
+        </p>
+    </div>
+    {% endif %}
+    {% if page.status.is-coming-soon == true %}
+    <div class="ticker ticker--coming-soon">
+        <p>
+            {{ page.status.coming-soon-message }}
+        </p>
+    </div>
+    {% endif %}
+    {% if page.status.is-featured-on-events == true %}
+    <div class="ticker ticker--featured bg-hot-pink">
+        <p>
+            {{ page.status.featured-event-message }}
+        </p>
+    </div>
+    {% endif %}
 </section>
-{% if page.status.is-sold-out == true %}
-<div class="ticker">
-    <p>
-        {{ page.status.sold-out-message }}
-    </p>
-</div>
-{% endif %}
-<section class="bg-lightning-yellow-light">
+<section class="event-details">
     <div class="container">
         <h2>
             Details
         </h2>
         <hr/>
-        <p>
-            Date & Time
-        </p>
-        <p>
-            <i class="fas fa-calendar-day">
-            </i>
-            {{ page.event.date | date: "%A, %B %d"}}
-        </p>
-        <p>
-            <i class="fas fa-clock">
-            </i>
-            {{ page.event.start-time }} - {{ page.event.end-time }}
-        </p>
-        <p>
-            Venue
-        </p>
-        <p>
-            <i class="fas fa-map-marker-alt">
-            </i>
-            {{ page.venue.name }}
-        </p>
-        <p>
-            {{ page.venue.address }}
-        </p>
+        <div class="grid grid__2-column">
+            <div class="">
+                <small>
+                    Date & Time
+                </small>
+                <p>
+                    <i class="fas fa-calendar-day">
+                    </i>
+                    {{ page.event.date | date: "%A, %B %d"}}
+                </p>
+                <p>
+                    <i class="fas fa-clock">
+                    </i>
+                    {{ page.event.start-time }} - {{ page.event.end-time }}
+                </p>
+            </div>
+            <div class="">
+                <small>
+                    Venue
+                </small>
+                <p>
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                    <a href="{{ page.venue.directions }}" target="_blank" rel="noopener">{{ page.venue.name }}</a>
+                </p>
+                <p>
+                    {{ page.venue.address }}
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 <section class="container">
     <div class="event__content">
-        <h2>Description</h2>
+        <h2>
+            Description
+        </h2>
         <hr/>
         {{ content | markdownify }}
     </div>
     {% if page.event.has-speakers == true %}
     <div class="event__speakers">
-        <h2>Speakers</h2>
+        <h2>
+            Speakers
+        </h2>
         <hr/>
         {% for speaker in site.speakers %}
         <div class="speaker">
-            <h3>{{ speaker.title }}</h3>
-            <h4>{{ speaker.professional-title }}</h4>
-            <p>{{ speaker | markdownify }}</p>
-            <a href="{{ speaker.website }}" target="_blank" rel="noopener">{{ speaker.website }}</a>
+            <h3>
+                {{ speaker.title }}
+            </h3>
+            {% if speaker.professional-title %}
+            <h4>
+                {{ speaker.professional-title }}
+            </h4>
+            {% endif %}
+            <p>
+                {{ speaker | markdownify }}
+            </p>
+            {% if speaker.website %}
+            <a href="{{ speaker.website }}" rel="noopener" target="_blank">
+                <i class="fas fa-globe-americas">
+                </i>
+                {{ speaker.website }}
+            </a>
+            {% endif %}
         </div>
         {% endfor %}
     </div>

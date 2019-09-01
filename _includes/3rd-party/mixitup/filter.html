@@ -21,6 +21,22 @@
             </span>
             <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
                 <fieldset class="control-group grid grid__4-column" data-filter-group="">
+                                        <div class="">
+                        {% for control in site.data.agenda.filter-featured %}
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                                {{ control.text-1 }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                        <div class="radio">
+                            <label class="radio-label">
+                                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
+                                Hide Sold Out Events
+                            </label>
+                        </div>
+                    </div>
                     <div class="">
                         {% for control in site.data.agenda.filter-time-of-day %}
                         <div class="radio">
@@ -50,14 +66,6 @@
                             </label>
                         </div>
                         {% endfor %}
-                    </div>
-                    <div class="">
-                        <div class="radio">
-                            <label class="radio-label">
-                                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
-                                Hide Sold Out Events
-                            </label>
-                        </div>
                     </div>
                 </fieldset>
             </div>
@@ -136,7 +144,7 @@
             coming-soon
             {% endif %}
 
-            {% if posts.staut.is-featured-on-events == true %}
+            {% if posts.status.is-featured-on-events == true %}
             featured
             {% endif %}
             ">

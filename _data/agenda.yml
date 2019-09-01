@@ -99,3 +99,8 @@ filter-sold-out:
   - filter: .sold-out
     class:  sold-out
     text-1: Sold Out
+
+filter-featured:
+  - filter: .featured
+    class:  featured
+    text-1: Show Featured Events
