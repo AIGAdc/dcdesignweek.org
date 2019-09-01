@@ -29,7 +29,6 @@ venue:
 speakers:
 - speaker: Allison Fischer
 - speaker: Marcus Dowling
-- speaker: Kiel Mutschelknaus
 filter-date:
   is-day-1: true
 filter-time:
