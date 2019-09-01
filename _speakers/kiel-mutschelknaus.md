@@ -1,6 +1,7 @@
 ---
 title: Kiel Mutschelknaus
 date: 2019-09-01 17:58:00 -04:00
+image: "/uploads/kielm_photo1-1x1crop.jpg"
 professional-title: Designer and MICA Educator
 website: https://www.kielm.com/
 ---
