@@ -13,9 +13,11 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-url: "$30 Members"
+  member-button-url: https://www.google.com/
+  member-button-label: "$30 Members"
   has-non-member-button: true
-  non-member-button-url: "$50 Non-members"
+  non-member-button-url: https://www.google.com/
+  non-member-button-label: "$50 Non-members"
 venue:
   name: iStrategyLabs (ISL)
   address: |-
