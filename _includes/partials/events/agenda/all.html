@@ -1,8 +1,0 @@
-<div>
-  <ul class="grid grid__3-column">
-    {% assign sorted = (site.events-dcdw | sort: 'position') %}
-    {% for posts in sorted %}
-    {% include partials/events/card/content.html %}
-    {% endfor %}
-  </ul>
-</div>

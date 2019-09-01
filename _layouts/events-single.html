@@ -1,11 +1,68 @@
 ---
 layout: default
 ---
+<section style="background-image:url('{{ page.event.image }}'); background-size: cover; background-position: center; position: relative;">
+    <div class="bg-mauve" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0.5;">
+    </div>
+    <div class="container" style="z-index: 999; position: relative;">
+        <h1>
+            {{ page.title }}
+        </h1>
+        <h2>
+            {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
+        </h2>
+        {% if page.buttons.has-left-button == true %}
+        <a class="" href="{{ page.buttons.button-left-url }}">
+            {{ page.buttons.button-left-text }}
+        </a>
+        {% endif %}
 
-{% include partials/events/single/section-1.html %}
-{% include partials/events/single/section-2.html %}
-<div class="mw7 center pa3 cf">
-    {% include partials/events/single/section-3.html %}
-	{% include partials/events/single/section-4.html %}
-	{% include partials/events/single/section-5.html %}
+        {% if page.buttons.has-right-button == true %}
+        <a class="" href="{{ page.buttons.button-right-url }}">
+            {{ page.buttons.button-right-text }}
+        </a>
+        {% endif %}
+    </div>
+</section>
+{% if page.status.is-sold-out == true %}
+<div class="ticker">
+    <p>
+        {{ page.status.sold-out-message }}
+    </p>
 </div>
+{% endif %}
+<section class="bg-lightning-yellow-light">
+    <div class="container">
+        <h2>
+            Details
+        </h2>
+        <hr/>
+        <p>
+            Date & Time
+        </p>
+        <p>
+            <i class="fas fa-calendar-day">
+            </i>
+            {{ page.event.date | date: "%A, %B %d"}}
+        </p>
+        <p>
+            <i class="fas fa-clock">
+            </i>
+            {{ page.event.start-time }} - {{ page.event.end-time }}
+        </p>
+        <p>
+            Venue
+        </p>
+        <p>
+            <i class="fas fa-map-marker-alt">
+            </i>
+            {{ page.venue.name }}
+        </p>
+        <p>
+            {{ page.venue.address }}
+        </p>
+    </div>
+</section>
+<section class="container">
+    {{ content | markdownify }}
+</section>

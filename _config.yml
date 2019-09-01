@@ -27,10 +27,10 @@ defaults:
     type: events-dcdw
   values:
     event:
-      description: Provide an excerpt of what the event is about. Preferably 1 sentence.
-      image: Provide image that will display in the event card and header.
-      image-alt: Provide alt text describing the image above.
       date: Select date of the event.
+      description: Provide an excerpt of what the event is about. Preferably 1 sentence.
+      image: https://media.giphy.com/media/7L7hN0lga40lG/giphy.gif
+      image-alt: Provide alt text describing the image above.
       start-time: Select the start time of the event.
       end-time: Select the end time of the event.
       has-external-url: Select True if event is hosted externally.
@@ -56,12 +56,8 @@ defaults:
       non-member-button-label: Provide text that will display in the non members ticket button.
 
     featured:
-      is-on-home: Select True if event should be featured on the home page.
-
-    columns:
-      is-3: Select True if event should span 3 columns.
-      is-2: Select True if event should span 2 columns.
-      is-1: Select True if event should span 1 columns.
+      is-featured-on-home: Select True if event should be featured on the home page.
+      is-featured-on-events: Select True if event should be featured on the events page.
 
     filter-date:
       is-day-1: Select True if event occurs on day 1.
@@ -79,16 +75,16 @@ defaults:
       is-evening: Select True if event occurs in the evening.
 
     filter-type:
-      is-free: 
-      is-family-friendly:
-      is-party:
-      is-diy:
-      is-workshop: 
-      is-architecture:
-      is-creative-lunch:
-      is-design-thinking:
-      is-motion-graphics:
-      is-wellness:
+      is-free: Select True if event matches type 
+      is-family-friendly: Select True if event matches type
+      is-party: Select True if event matches type
+      is-diy: Select True if event matches type
+      is-workshop: Select True if event matches type 
+      is-architecture: Select True if event matches type
+      is-creative-lunch: Select True if event matches type
+      is-design-thinking: Select True if event matches type
+      is-motion-graphics: Select True if event matches type
+      is-wellness: Select True if event matches type
 
     filter-location:
       is-dc: Select True if event is located in DC.

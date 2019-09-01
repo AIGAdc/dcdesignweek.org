@@ -1,27 +1,27 @@
 ---
-title: Test Event 37
+title: Test Event 25
 date: 2018-09-26 20:54:00 -04:00
-position: 1
 
 event:
-  date: 2019-09-20 18:30:00 -04:00
-  description: '1 sentence description of the event'
-  image: "/uploads/carnegie-jen-white-johnson.jpg"
-  image-alt: Event photo for Jen White Johnson
-  start-time: 12:00pm
-  end-time: 12:00am
-  external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
+  date: 2019-09-27 12:00:00 -04:00
+  description:
+  image:
+  image-alt:
+  start-time:
+  end-time:
+  has-external-url: false
+  external-url:
 
 venue:
-  name: Venue Name
-  address: 801 K St NW, Washington, DC 20001
-  directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
+  name:
+  address:
+  directions:
 
 status:
-  is-coming-soon: false
-  coming-soon-message: Coming Soon!
-  is-sold-out: true
-  sold-out-message: Sold Out!
+  is-coming-soon:
+  coming-soon-message:
+  is-sold-out:
+  sold-out-message:
 
 tickets:
   has-member-button:
@@ -30,22 +30,26 @@ tickets:
   has-non-member-button:
   non-member-button-url:
   non-member-button-label:
-columns:
-  is-3: false
-  is-1: true
+
+featured:
+  is-featured-on-home:
+  is-featured-on-events:
+
 filter-date:
-  is-day-1: true
-  is-day-2: false
-  is-day-3: false
-  is-day-4: false
-  is-day-5: false
-  is-day-6: false
-  is-day-7: false
-  is-day-8: false
+  is-day-1:
+  is-day-2:
+  is-day-3:
+  is-day-4:
+  is-day-5:
+  is-day-6:
+  is-day-7:
+  is-day-8:
+
 filter-time:
-  is-morning: false
-  is-daytime: false
-  is-evening: true
+  is-morning:
+  is-daytime:
+  is-evening:
+
 filter-type:
   is-free:
   is-family-friendly:
@@ -57,25 +61,41 @@ filter-type:
   is-design-thinking:
   is-motion-graphics:
   is-wellness:
+
 filter-location:
-  is-dc: false
-  is-md: true
-  is-va: false
-is-featured-on-home-page:
+  is-dc:
+  is-md:
+  is-va:
 ---
 
-**A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
+# Did he just throw my cat out of the window? 
 
-**[Please enter the email address associated with your AIGA membership in the promo code field on the ticket page for Adam J. Kurtz. This will get you the discounted ticket price of $30.](https://www.ticketfly.com/purchase/event/1771198?_ga=2.268398606.1278497458.1538496632-1925525455.1538496631)**
+## Yes, Yes, without the oops! Checkmate... Jaguar shark! 
 
-In an industry full of multi-hyphenate creatives, the best way to stand out is to be our authentic selves… whatever that means. Personal work is the perfect opportunity to explore what matters most to us, while letting potential clients and fans know exactly who we are. Join artist and author [Adam J. Kurtz (aka ADAMJK)](https://www.instagram.com/adamjk/) for a hilarious dissection of his accidental career and lessons learned along the way:
-* Figuring out who the f*** you are, and what to do once you know
-* Why we don’t need anyone’s permission to create exactly what we want
-* How to grow a supportive audience online (?????)
-* Insights and anecdotes on everything from ex-boyfriends to working with your teen pop idol
+### So tell me - does it really exist? 
 
-## Adam J. Kurtz [@adamjk](https://www.instagram.com/adamjk/)
-Adam J. Kurtz is an artist and
-author whose illustrative work is rooted in honesty, humor and a little darkness. His books have been translated into over a dozen languages and his “very personal” work for clients like Strand Bookstore
-and Urban Outfitters has been featured in the New Yorker, VICE, Adweek and more.
-Kurtz’s narrative voice is often a reaction to internet culture, exploring the evolving role of design and language in their modern context, where text and image “memes” rule conversation and have changed the nature of communication itself. It’s no surprise then that he’s amassed a considerable online audience of young—and young-at-heart—creatives.
+#### Hey, you know how I'm, like, always trying to save the planet? 
+
+##### Here's my chance. I was part of something special. 
+
+###### We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 
+
+**'Cause maybe if we screw up this planet enough, they won't want it anymore!**
+
+Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? So you two dig up, dig up dinosaurs? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
+
+They're using our own satellites against us. And the clock is ticking. You know what? It is beets. I've crashed into a beet truck. I was part of something special. You know what? It is beets. I've crashed into a beet truck. Just my luck, no ice. Remind me to thank John for a lovely weekend.
+
+You know what? It is beets. I've crashed into a beet truck. What do they got in there? King Kong? Remind me to thank John for a lovely weekend. Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.
+
+They're using our own satellites against us. And the clock is ticking. You know what? It is beets. I've crashed into a beet truck. Jaguar shark! So tell me - does it really exist? What do they got in there? King Kong? So you two dig up, dig up dinosaurs?
+
+Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. You really think you can fly that thing? God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.
+
+You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. You really think you can fly that thing?
+
+I gave it a cold? I gave it a virus. A computer virus. You know what? It is beets. I've crashed into a beet truck. Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Must go faster. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
+
+Jaguar shark! So tell me - does it really exist? What do they got in there? King Kong? Did he just throw my cat out of the window? I was part of something special. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.
+
+Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!

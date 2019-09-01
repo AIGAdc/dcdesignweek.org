@@ -1,28 +1,27 @@
 ---
 title: Test Event 2
 date: 2018-09-26 20:54:00 -04:00
-position: 1
 
 event:
-  description: '1 sentence description of the event'
-  image: "/uploads/carnegie-jen-white-johnson.jpg"
-  image-alt: Event photo for Jen White Johnson
-  date: 2019-09-20 18:30:00 -04:00
-  start-time: 12:00pm
-  end-time: 12:00am
-  has-external-url:
+  date: 2019-09-21 12:00:00 -04:00
+  description:
+  image:
+  image-alt:
+  start-time:
+  end-time:
+  has-external-url: false
   external-url:
 
 venue:
-  name: Venue Name
-  address: 801 K St NW, Washington, DC 20001
-  directions: https://duckduckgo.com/?q=carnegie+library+DC&t=ffab&ia=web&iaxm=maps&iai=apple-carnegie-library-washington
+  name:
+  address:
+  directions:
 
 status:
-  is-coming-soon: false
-  coming-soon-message: Coming Soon!
-  is-sold-out: false
-  sold-out-message: Sold Out!
+  is-coming-soon:
+  coming-soon-message:
+  is-sold-out:
+  sold-out-message:
 
 tickets:
   has-member-button:
@@ -33,26 +32,23 @@ tickets:
   non-member-button-label:
 
 featured:
-  is-on-home: true
-
-columns:
-  is-3: false
-  is-1: true
+  is-featured-on-home:
+  is-featured-on-events:
 
 filter-date:
-  is-day-1: true
-  is-day-2: false
-  is-day-3: false
-  is-day-4: false
-  is-day-5: false
-  is-day-6: false
-  is-day-7: false
-  is-day-8: false
+  is-day-1:
+  is-day-2:
+  is-day-3:
+  is-day-4:
+  is-day-5:
+  is-day-6:
+  is-day-7:
+  is-day-8:
 
 filter-time:
-  is-morning: false
-  is-daytime: true
-  is-evening: false
+  is-morning:
+  is-daytime:
+  is-evening:
 
 filter-type:
   is-free:
@@ -67,15 +63,24 @@ filter-type:
   is-wellness:
 
 filter-location:
-  is-dc: false
-  is-md: true
-  is-va: false
-
+  is-dc:
+  is-md:
+  is-va:
 ---
 
+# Did he just throw my cat out of the window? 
 
+## Yes, Yes, without the oops! Checkmate... Jaguar shark! 
 
-Did he just throw my cat out of the window? Yes, Yes, without the oops! Checkmate... Jaguar shark! So tell me - does it really exist? Hey, you know how I'm, like, always trying to save the planet? Here's my chance. I was part of something special. We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
+### So tell me - does it really exist? 
+
+#### Hey, you know how I'm, like, always trying to save the planet? 
+
+##### Here's my chance. I was part of something special. 
+
+###### We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 
+
+**'Cause maybe if we screw up this planet enough, they won't want it anymore!**
 
 Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? So you two dig up, dig up dinosaurs? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
 
