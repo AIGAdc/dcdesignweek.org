@@ -66,7 +66,7 @@ PS. Immediately following this event, [join Rachel Orr in a hands-on workshop in
 Please refrain from bringing any food or beverages to this event – sorry, no snacks in the library!
 
 ## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10am and the General Public On-Sale begins 9/10 at 10am.
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
 
 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
