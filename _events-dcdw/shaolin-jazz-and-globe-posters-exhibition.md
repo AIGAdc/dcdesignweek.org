@@ -3,8 +3,7 @@ title: 'Shaolin Jazz & Globe Posters Exhibition: Opening Party!'
 date: 2019-09-01 12:00:00 -04:00
 position: 1
 status:
-  is-coming-soon: true
-  coming-soon-message: Coming Soon!
+  is-coming-soon: false
   sold-out-message: Sold Out!
   is-featured-on-events: true
   featured-event-message: Featured!
