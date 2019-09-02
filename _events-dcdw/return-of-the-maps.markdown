@@ -98,9 +98,7 @@ Attendees will hear about:
 * Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
 * Map design and data visualizations from Lauren Tierney of The Washington Post
 * Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
-
-
-
+   
 ## About DC Design Week
 Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
 
