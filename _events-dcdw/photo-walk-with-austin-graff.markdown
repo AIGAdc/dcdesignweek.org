@@ -53,19 +53,3 @@ We will be leaving promptly at 7:05am. Please aim to arrive between 6:45 - 7am, 
 The walk will be held at a conversational pace, allowing plenty of time to stop and see the sights along the way, and appreciate a beautiful fall morning. Space is limited for this walk – so be sure to reserve your space! You will be reimbursed IN FULL for your deposit, when you show up in the morning. 
 
 If you don’t have to get to work right away, stick around and join us after the walk for a short coffee mixer at Republic Cantina.
-
-## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
-
-100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
-
-**Accessibility:**
-If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
-
-**Code of Conduct:**
-All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-
-**Questions?**
-If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
