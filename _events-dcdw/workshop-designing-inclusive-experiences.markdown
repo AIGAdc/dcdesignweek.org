@@ -10,6 +10,11 @@ event:
   image-alt: speakers for designing inclusive experiences
   start-time: 10:30am
   end-time: 2:00pm
+tickets:
+  has-member-button: true
+  member-button-url: "$15 Members"
+  has-non-member-button: true
+  non-member-button-url: "$20 Non-members (On Sale September 10)"
 venue:
   name: 'General Assembly '
   address: 509 7th St NW, Washington, DC 20004
@@ -18,7 +23,7 @@ speakers:
 - name: Dr. Jamika D. Burge
   title: Artificial Intelligence (AI) Design Team Member at Capital One
   bio: |-
-    Dr. Jamika D. Burge is part of the Artificial Intelligence (AI) Design team that creates experiences for conversation and intelligent AI at Capital One. Before that, she was a tech consultant the Defense Advanced Research Projects Agency, supporting innovative tech programs that were funded at over $70 million.Jamika is also the co-founder of blackcomputeHER, an organization dedicated to supporting computational and design thinking capacity, as well as workforce development for black women and girls. She is an authority in human-centered design, inclusive research in tech, and the intersectionality of black women and girls in computing+tech. She has consulted for Google, the National Center for Women in Technology (NCWIT), and the American Association of Colleges & Universities (AAC&U). Jamika and her work have been featured in the New York Times and ComputerWorld, and has been recognized by HackBright Academy as a Top Tech Leader to Watch.
+    Dr. Jamika D. Burge is part of the Artificial Intelligence (AI) Design team that creates experiences for conversation and intelligent AI at Capital One. Before that, she was a tech consultant the Defense Advanced Research Projects Agency, supporting innovative tech programs that were funded at over $70 million. Jamika is also the co-founder of blackcomputeHER, an organization dedicated to supporting computational and design thinking capacity, as well as workforce development for black women and girls. She is an authority in human-centered design, inclusive research in tech, and the intersectionality of black women and girls in computing+tech. She has consulted for Google, the National Center for Women in Technology (NCWIT), and the American Association of Colleges & Universities (AAC&U). Jamika and her work have been featured in the New York Times and ComputerWorld, and has been recognized by HackBright Academy as a Top Tech Leader to Watch.
 
     Twitter @jdburge
   website-label: Website
@@ -85,6 +90,33 @@ speakers:
     with his wife and two boys.
   website-label: Website
   website-url: http://www.uxdane.com/
+- name: Kristin Cooke
+  title: Principal Associate User Experience Designer at Capital One
+  bio: Kristin Cooke is a two-time global award-winning designer from Silver Spring,
+    Maryland. With a background in Graphic Design, Motion Effects + Animation, Photography,
+    Video Production, Front-end Development, User Interface and Experience Design,
+    she has led creative teams and projects across the nation. She has contributed
+    to many Fortune 100 companies such as Capital One, TiVo, Under Armour, Discovery
+    Communications, NFL Charities, numerous print publications, and is the founder
+    of the non-profit HumanizeUs. Her focus now is running creative direction of user
+    products by coaching and mentoring designers in visual design, and reigniting
+    their love for visual artistry in design execution.
+  website-label: Website
+  website-url: http://www.kcooke.com/
+- name: Tina Johnson Marcel
+  title: Head of Design for Mainstreet Card at Capital One
+  bio: Tina Johnson-Marcel is Head of Design for Mainstreet Card at Capital One. With
+    more than 20 years of experience in the content space, Tina’s diverse professional
+    background includes journalism, marketing, digital storytelling and social media.
+    She is a graduate of Howard University.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/tjmarcel/
+filter-date:
+  is-day-3: true
+filter-type:
+  is-workshop: true
+filter-location:
+  is-dc: true
 ---
 
 Novice and expert designers are invited to participate in this not-so-ordinary human-centered design workshop with a focus on designing inclusive experiences. Workshop participants will be encouraged to bring their personal perspectives to embrace a growth mindset when applying design thinking to their daily lives and work.
