@@ -14,4 +14,4 @@ layout: pop-up-shop
 
 # Pop Up Shop
 ---
-The DCDW Pop Up Shop is back and it’s bigger than ever. This year, we’re taking over THREE storefronts in Shaw. That’s right. Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/), [The Neighborgoods](https://theneighborgoods.com/) AND [Typecase Industries](http://www.typecaseindustries.com/) will be stocked with items made by DC locals. Swing by, shop, and support your neighborhood maker and creative community (during business hours, please). Plus, come celebrate with us, by attending the DCDW Pop Up Shop party (event details coming soon)!
+The DCDW Pop Up Shop is back and it’s bigger than ever. This year, we’re taking over THREE storefronts in Shaw. That’s right. Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/), [The Neighborgoods](https://theneighborgoods.com/) AND [Typecase Industries](http://www.typecaseindustries.com/) will be stocked with items made by DC locals. Swing by, shop, and support your neighborhood maker and creative community (during business hours, please).
