@@ -1,8 +1,8 @@
 ---
-title: Designing with Archival Images (Carnegie Library, Part 1)
+title: Designing with Archival Images (Carnegie Library, Pt. 1)
 date: 2019-09-02 12:15:00 -04:00
 event:
-  date: 2019-09-22 23:00:00 -04:00
+  date: 2019-09-22 13:00:00 -04:00
   description: Join us at the Kiplinger Research Library located in the Apple Carnegie
     Library for a deep dive into DC’s most exciting historical artifacts, and learn
     how you can use these materials for your next art project!

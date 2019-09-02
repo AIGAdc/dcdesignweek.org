@@ -12,9 +12,11 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-url: "$5 Deposit"
+  member-button-url: "$5 Member Deposit"
+  member-button-label: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-creative-flow-yoga-and-movement%2F%3Fredirect_source%3Deventbrite_register
   has-non-member-button: true
-  non-member-button-url: "$5 Deposit (On Sale September 10)"
+  non-member-button-url: https://www.eventbrite.com/e/creative-flow-yoga-and-movement-tickets-71299549873
+  non-member-button-label: "$5 Non-member Deposit (On Sale September 10)"
 venue:
   name: The Cheshire
   address: https://www.thecheshiredc.org
@@ -62,5 +64,3 @@ Please bring your own mat for this session, as this event will be hosted in a cr
 
 ## Outdoor Voices
 [Outdoor Voices](https://www.outdoorvoices.com/pages/visit-us-dc) is a recreation brand on a mission to get the world moving. We're freeing fitness from performance and bringing back Doing Things For Fun, by designing technical apparel for recreation by recreationalists. We are excited to partner with DC Design Week, because Doing Things is always better together with friends. 
-
-Instagram @ovwashdc

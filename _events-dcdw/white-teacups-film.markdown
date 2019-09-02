@@ -2,9 +2,9 @@
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-02 12:30:00 -04:00
 status:
-  is-featured-on-events: true
+  is-featured-on-events: false
   is-featured-on-home: true
-  featured-event-message: Featured!
+  featured-event-message: 'Hey, watch this! Hey, watch this! '
 event:
   date: 2019-09-22 17:30:00 -04:00
   description: 'Join for a screening of the documentary Enough White Teacups and a
