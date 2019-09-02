@@ -14,7 +14,7 @@ tickets:
   has-member-button: true
   member-button-label: "$15 Members"
   has-non-member-button: true
-  non-member-button-label: "$25 Non-members"
+  non-member-button-label: "$25 Non-members (On Sale September 10)"
 venue:
   name: Optoro
   address: 1001 G St NW, Washington, DC 20001
