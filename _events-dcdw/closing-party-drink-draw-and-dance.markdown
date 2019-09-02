@@ -27,7 +27,7 @@ venue:
   directions: https://goo.gl/maps/PLNyx6fYmY2EuPKP9
 speakers:
 - name: Shahier Rahman
-  title: 
+  title: Provide Speaker title.
   bio: Shahier Rahman is the partnerships specialist for General Assembly DC, and
     when he's not connecting companies with tech talent in Washington, DC, you can
     find him doing stand-up comedy in dive bars around town.
@@ -67,19 +67,3 @@ Make sure to RSVP early – space is limited and tickets will be $20 at the door
 **Venue Accessibility:** On street level
 
 **Transportation / Helpful Directions to Venue:** 4 min walk/0.2 miles from Georgia-Petworth Metro Station (yellow, green lines)
-
-## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
-
-100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
-
-**Accessibility:**
-If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
-
-**Code of Conduct:**
-All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-
-**Questions?**
-If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
