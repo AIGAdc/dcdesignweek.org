@@ -10,6 +10,11 @@ event:
   start-time: 6:45am
   end-time: 8:00am
   has-speakers: true
+tickets:
+  has-member-button: true
+  member-button-url: "$5 Deposit"
+  has-non-member-button: true
+  non-member-button-url: "$5 Deposit (On Sale September 10)"
 venue:
   name: The Cheshire
   address: https://www.thecheshiredc.org
@@ -25,8 +30,8 @@ speakers:
     and personal trainer. Kasia loves to blend her disciplines to guide people towards
     a better relationship with their bodies. Her goal is to hold space and facilitate
     growth, resilience, and curiosity. \n\nInstagram @kasiagalica\nTwitter @KasiaGalica"
-  website-label: 
-  website-url: 
+  website-label: Provide label that will appear instead of URL
+  website-url: Provide Speaker website.
 - name: Rhia Morsenberger
   title: Yoga Instructor and Belly Dance Artist
   bio: "Rhia is a yoga teacher turned movement educator, traditional Thai yoga practitioner,
