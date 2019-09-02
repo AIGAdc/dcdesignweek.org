@@ -5,7 +5,7 @@ description:
 hero-tagline: Shining a light on DCs most curious & creative.
 hero-header: "#DCDesignWeek 2019"
 hero-subheader: September 20-27
-events-header: Before DCDW... Come to Sundays at Carnegie!
+events-header: Featured Events
 events-body: 'We just can’t wait for September 20th to start celebrating DC Design
   Week! So, we’re ramping up early, with three creative talks at the Apple Carnegie
   Library. Join us **before DC Design Week** on Sunday 9/8 and 9/15 and **during DC
@@ -18,20 +18,14 @@ events-button: Learn More
 events-button-url: "/carnegie-library/"
 events-button-type: border
 events-button-color: lightning-yellow
-sponsors-header: Want to Sponsor DCDW2019?
-sponsors-body: 'Did you know that 2018 was the biggest DCDW yet, with 9 days of back-to-back
-  programming in all 4 quadrants of DC, MD & VA!? That was only possible because of
-  the generous support of our sponsors. This year, we’re looking to make DCDW2019
-  even better — more events, in more places, featuring even more aspects of DC’s curious
-  and creative community. But we can’t do it alone (though we’d certainly try). We’re
-  currently looking for partners who can help make the best DCDW a reality. Whether
-  you’re able to offer space, offer in-kind services, or offer financial support,
-  your contribution will make the difference. Click below to support #DCDesignWeek
-  and be part of the excitement as an ally of the creative community.
+sponsors-header: Thanks to Our 2019 Sponsors
+sponsors-body: 'DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses. 
 
-'
-sponsors-button: Become A Sponsor
-sponsors-button-url: https://forms.gle/WEXzE1uxGjZ168bW9
+We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community. 
+
+We couldn’t do it without you!'
+sponsors-button: Learn More
+sponsors-button-url: /about/
 sponsors-button-type: border
 sponsors-button-color: lightning-yellow
 layout: home
