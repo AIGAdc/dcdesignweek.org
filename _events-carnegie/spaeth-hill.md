@@ -15,10 +15,11 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
-  is-coming-soon: true
+  is-coming-soon: false
   coming-soon-message: Coming Soon!
   is-sold-out: false
   sold-out-message: Sold Out!
+  external-url: https://www.apple.com/today/event/design-lab-spaeth-hill-091519/6568199904706331757
 buttons:
   has-left-button: true
   button-left-url: 
