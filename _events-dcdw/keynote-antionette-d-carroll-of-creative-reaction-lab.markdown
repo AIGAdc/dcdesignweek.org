@@ -2,7 +2,8 @@
 title: 'Keynote: Antionette D. Carroll of Creative Reaction Lab'
 date: 2019-09-02 16:05:00 -04:00
 status:
-  is-featured-on-home: true
+  is-featured-on-events: true
+  is-featured-on-home: false
   featured-event-message: 'Keynote!  Keynote!  Keynote!  '
 event:
   date: 2019-09-26 17:30:00 -04:00
@@ -14,8 +15,10 @@ event:
   end-time: 8:30pm
 tickets:
   has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-keynote-antionette-d-carroll-of-creative-reaction-lab%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$10 Members"
   has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/dcdw-keynote-antionette-d-carroll-of-creative-reaction-lab-tickets-71301437519
   non-member-button-label: "$15 Non-members"
 venue:
   name: TBD
