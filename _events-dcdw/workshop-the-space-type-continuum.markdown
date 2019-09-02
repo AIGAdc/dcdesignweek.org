@@ -39,7 +39,7 @@ filter-time:
   is-daytime: true
 filter-type:
   is-workshop: true
-  is-motion-graphics: true
+  is-motion-graphics: false
 filter-location:
   is-dc: true
 ---
