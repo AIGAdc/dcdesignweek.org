@@ -2,6 +2,14 @@
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-22 17:30:00 -04:00
 image: "/uploads/Header_Teacups.png"
+event:
+  start-time: 12:00 PM
+  end-time: 1:00 PM
+  has-external-url: true
+venue:
+  name: Test
+  address: Test
+  directions: Test
 filter-date:
   is-day-3: true
 filter-time:
