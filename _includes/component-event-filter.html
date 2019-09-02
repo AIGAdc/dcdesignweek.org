@@ -1,0 +1,89 @@
+<form class="events__filter controls">
+    <fieldset class="events__filter-date control-group" data-filter-group="">
+        {% for control in site.data.agenda.filter-date %}
+        <button class="control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
+            <span class="control-text-1 script">
+                {{ control.text-1 }}
+            </span>
+            <span class="control-text-2">
+                {{ control.text-2 }}
+            </span>
+            <span class="control-text-3">
+                {{ control.text-3 }}
+            </span>
+        </button>
+        {% endfor %}
+    </fieldset>
+    <div class="events__filter-additional">
+        <span class="events__additional-filters-header" data-houdini-toggle="additional-filters">
+            Additional Filters
+        </span>
+        <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
+            <fieldset class="control-group grid grid__4-column" data-filter-group="">
+                <div class="">
+                    <p>
+                        Status
+                    </p>
+                    {% for control in site.data.agenda.filter-status %}
+                    <div class="radio">
+                        <label class="radio-label">
+                            <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                            {{ control.text-1 }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                    <div class="radio">
+                        <label class="radio-label">
+                            <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
+                            Hide Sold Out
+                        </label>
+                    </div>
+                </div>
+                <div class="">
+                    <p>
+                        Time
+                    </p>
+                    {% for control in site.data.agenda.filter-time-of-day %}
+                    <div class="radio">
+                        <label class="radio-label">
+                            <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                            {{ control.text-1 }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="">
+                    <p>
+                        Type
+                    </p>
+                    {% for control in site.data.agenda.filter-event-type %}
+                    <div class="radio">
+                        <label class="radio-label">
+                            <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                            {{ control.text-1 }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="">
+                    <p>
+                        Location
+                    </p>
+                    {% for control in site.data.agenda.filter-location %}
+                    <div class="radio">
+                        <label class="radio-label">
+                            <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                            {{ control.text-1 }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="events__filter-reset control-group">
+        <button class="control control-text" type="reset">
+            View All Events
+        </button>
+    </div>
+</form>

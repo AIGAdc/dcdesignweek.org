@@ -27,6 +27,46 @@ hr {
     max-width: 120px;
     text-align: left;
 }
+h1 {
+    font-size: $font-size-32;
+}
+h2 {
+    font-size: $font-size-24;
+}
+h3 {
+    font-size: $font-size-20;
+}
+p {
+    margin: 0 0 $spacing-32 0;
+}
+strong, .font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+.block-featured-events .card hr, .block-committee .card hr {
+    border: solid 4px $black;
+}
+@media screen and (min-width: 1024px) {
+    .site-container .headline {
+        font-size: 80px;
+        margin-top: -16px;
+        margin-bottom: -36px;
+    }
+    h1 {
+        font-size: $font-size-40;
+    }
+    h2 {
+        font-size: $font-size-32;
+    }
+    h3 {
+        font-size: $font-size-24;
+    }
+}
 /* font family */
 
 .script {
@@ -35,91 +75,7 @@ hr {
 .sans {
     font-family: $sans;
 }
-.font-size-1 {
-    font-size: $font-size-48;
-}
-.font-size-2 {
-    font-size: $font-size-40;
-}
-.font-size-3 {
-    font-size: $font-size-32;
-}
-.font-size-4 {
-    font-size: $font-size-24;
-}
-.font-size-5 {
-    font-size: $font-size-20;
-}
-.font-size-6 {
-    font-size: $font-size-16;
-}
-.font-size-7 {
-    font-size: $font-size-14;
-}
-.font-size-8 {
-    font-size: $font-size-12;
-}
-.font-size-9 {
-    font-size: $font-size-10;
-}
-@media screen and (min-width: 767px) {
-    .md-font-size-1 {
-        font-size: $font-size-48;
-    }
-    .md-font-size-2 {
-        font-size: $font-size-40;
-    }
-    .md-font-size-3 {
-        font-size: $font-size-32;
-    }
-    .md-font-size-4 {
-        font-size: $font-size-24;
-    }
-    .md-font-size-5 {
-        font-size: $font-size-20;
-    }
-    .md-font-size-6 {
-        font-size: $font-size-16;
-    }
-    .md-font-size-7 {
-        font-size: $font-size-14;
-    }
-    .md-font-size-8 {
-        font-size: $font-size-12;
-    }
-    .md-font-size-9 {
-        font-size: $font-size-10;
-    }
-}
-@media screen and (min-width: 1023px) {
-    .lg-font-size-1 {
-        font-size: $font-size-48;
-    }
-    .lg-font-size-2 {
-        font-size: $font-size-40;
-    }
-    .lg-font-size-3 {
-        font-size: $font-size-32;
-    }
-    .lg-font-size-4 {
-        font-size: $font-size-24;
-    }
-    .lg-font-size-5 {
-        font-size: $font-size-20;
-    }
-    .lg-font-size-6 {
-        font-size: $font-size-16;
-    }
-    .lg-font-size-7 {
-        font-size: $font-size-14;
-    }
-    .lg-font-size-8 {
-        font-size: $font-size-12;
-    }
-    .lg-font-size-9 {
-        font-size: $font-size-10;
-    }
-}
+/*
 .font-weight-300 {
     font-weight: 300;
 }
@@ -144,41 +100,37 @@ hr {
 .text-align-justify {
     text-align: justify;
 }
-.wysiwyg .headline {
+.site-container .headline {
     font-size: 32px;
 }
-.wysiwyg h1 {
-    font-size: $font-size-40;
-}
-.wysiwyg h2 {
+h1, .site-container h1 {
     font-size: $font-size-32;
 }
-.wysiwyg h3 {
+h2, .site-container h2 {
     font-size: $font-size-24;
 }
-.wysiwyg p {
-    margin: $spacing-16 0;
+h3, .site-container h3 {
+    font-size: $font-size-20;
 }
-.wysiwyg p:last-child {
-    margin-bottom: 0;
+p, .site-container p {
+    margin: $spacing-32 0 0 0;
 }
-
 .block-featured-events .card hr, .block-committee .card hr {
     border: solid 4px $black;
 }
 @media screen and (min-width: 1024px) {
-    .wysiwyg .headline {
+    .site-container .headline {
         font-size: 80px;
         margin-top: -16px;
         margin-bottom: -36px;
     }
-    .wysiwyg h1 {
+    h1, .site-container h1 {
         font-size: $font-size-48;
     }
-    .wysiwyg h2 {
+    h2, .site-container h2 {
         font-size: $font-size-40;
     }
-    .wysiwyg h3 {
+    h3, .site-container h3 {
         font-size: $font-size-32;
     }
-}
+}*/
