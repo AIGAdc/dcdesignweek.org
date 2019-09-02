@@ -42,3 +42,19 @@ You’ve put your nights, weekends, sweat, and tears into a passion project that
 Bring your in-progress projects to the Entrepreneurial Design Accelerator, where Elite Truong, deputy editor of strategic initiatives at The Washington Post, will help you clarify the intended audience and business purpose of your idea, give feedback on usability, and provide advice on how to move forward with your idea in the market. All this in 90-minutes — what better way to start your day?
 
 **YOU MUST APPLY TO BE A PART OF THIS WORKSHOP.** Applications will be reviewed on a rolling basis. If you are selected, a ticket for $15 will be released to you at the email address you provide. You will have 24 hours to claim your ticket before it is released to the next applicant. Spots are limited! Accepted participants will be notified no later than September 20th. 
+
+## About DC Design Week
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
+
+100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+
+Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
+
+**Accessibility:**
+If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
+
+**Code of Conduct:**
+All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+
+**Questions?**
+If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
