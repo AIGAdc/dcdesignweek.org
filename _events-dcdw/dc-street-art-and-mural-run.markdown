@@ -2,7 +2,8 @@
 title: DC Street Art & Mural Run
 date: 2019-09-02 13:33:00 -04:00
 status:
-  is-featured-on-home: true
+  is-featured-on-events: true
+  is-featured-on-home: false
   featured-event-message: 'Break a sweat! See good stuff! '
 event:
   date: 2019-09-25 07:00:00 -04:00
