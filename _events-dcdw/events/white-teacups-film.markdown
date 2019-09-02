@@ -1,6 +1,10 @@
 ---
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-02 12:30:00 -04:00
+status:
+  is-featured-on-events: true
+  is-featured-on-home: true
+  featured-event-message: Featured!
 event:
   date: 2019-09-22 17:30:00 -04:00
   description: 'Join for a screening of the documentary Enough White Teacups and a
@@ -19,7 +23,7 @@ tickets:
   non-member-button-label: "$15 Non-members"
 venue:
   name: Eaton Workshop (Theater Room)
-  address: 201 K St NW, Washington, DC 20005
+  address: 1201 K St NW, Washington, DC 20005
   directions: https://goo.gl/maps/kdMACg3ufJhegak57
 speakers:
 - name: Michelle Bauer Carpenter

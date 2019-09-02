@@ -2,6 +2,7 @@
 title: 'Creative Lunch: EAB'
 date: 2019-09-02 12:57:00 -04:00
 event:
+  date: 2019-09-23 12:00:00 -04:00
   description: AIGA DC opens the doors to EAB in this series of creative lunches during
     DC Design Week.
   image: "/uploads/Header_EAB.png"
@@ -11,8 +12,10 @@ event:
   has-speakers: false
 tickets:
   has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-creative-lunch-eab%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$10 Members"
   has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/creative-lunch-eab-tickets-71293656245
   non-member-button-label: "$15 Non-members (On Sale September 10)"
 venue:
   name: EAB

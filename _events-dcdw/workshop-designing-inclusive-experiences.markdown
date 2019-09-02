@@ -10,6 +10,7 @@ event:
   image-alt: speakers for designing inclusive experiences
   start-time: 10:30am
   end-time: 2:00pm
+  has-speakers: true
 tickets:
   has-member-button: true
   member-button-url: "$15 Members"

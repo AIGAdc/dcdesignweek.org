@@ -19,11 +19,11 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-url: "#"
-  member-button-label: "$10 / AIGA Members"
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fshaolin-jazz-globe-posters-exhibition-opening-party%2F%3Fredirect_source%3Deventbrite_register
+  member-button-label: "$10 Members"
   has-non-member-button: true
-  non-member-button-url: "#"
-  non-member-button-label: "$15 / Non-Members"
+  non-member-button-url: https://www.eventbrite.com/e/shaolin-jazz-globe-posters-exhibition-opening-party-tickets-71291738509
+  non-member-button-label: "$15 Non-members (On Sale September 10)"
 venue:
   name: Big Chief
   address: 2002 Fenwick St NE, Washington, DC 20002, USA
@@ -83,7 +83,7 @@ Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instag
 
 **Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com) and [DJ RB1 SHAOLIN JAZZ](https://www.facebook.com/RonBrown.aka.DJ.RBI), founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
-The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the acappellas from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
+The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappella from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
 
 Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/)
 

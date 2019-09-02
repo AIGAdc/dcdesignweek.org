@@ -15,8 +15,10 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fsmall-humans-big-design%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$5 Deposit Members"
   has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/small-humans-big-design-tickets-71285249099
   non-member-button-label: " $5 Deposit Non-members (On Sale September 10)"
 venue:
   name: 'Steadfast Supply: Yards Location '
@@ -50,7 +52,7 @@ Join us for an opportunity for kids and parents to get creative together! You’
 
 Carolyn’s work has been published in *Communication Arts*, *PRINT*, *Grafik*, *HOW* and *The Washington Post*. She and her daughter, fondly nick-named “Biscuit”, both have a passion for bright colors and bacon! We’ll gather at Steadfast Supply, a shop whose mission is to bolster the local community by introducing emerging and independent brands and designers into the D.C. market. Bring all of your small ones — whether experienced artists or beginners, everyone is welcome.
  
-**There is a $5 refundable charge (per family) to reserve your spot – you’ll get a refund when you show up and check-in!**
+**There is a $5 refundable charge (per family) to reserve your spot – you’ll get a refund when you show up and check in!**
 
 ## About Steadfast Supply
 
