@@ -7,6 +7,72 @@ event:
     skills, join us for a panel where DC design professionals discuss how they successfully
     pivoted their careers.
   image: "/uploads/Header_Transitions.png"
+  image-alt: Headshots of speaker panels.
+  start-time: 6:30pm
+  end-time: 8:30pm
+  has-speakers: true
+tickets:
+  has-member-button: true
+  member-button-label: "$10 Members"
+  has-non-member-button: true
+  non-member-button-label: "$15 Non-members"
+venue:
+  name: Brllnt
+  address: 1140 3rd Street NE, Suite 375, Washington, DC 20002
+  directions: https://goo.gl/maps/iM1s7aQLENQ2JU9P8
+speakers:
+- name: Erin Lange
+  title: Senior Design Manager for Impactual
+  bio: Erin Lange is a multifaceted designer and creative storyteller. She leverages
+    the intersection of design, culture, and technology to develop innovative solutions
+    for social impact. Erin’s expertise in human-centered design has enabled her to
+    collaborate with a wide breadth of organizations and clients including the Harvard
+    Kennedy School, C-SPAN, Wolf Trap Foundation, and congressional representatives.
+  website-label: Website
+  website-url: http://www.erinlangedesign.com
+- name: Jessica Pavone
+  title: Product Designer at Upside Travel
+  bio: Jessica Pavone is a Product Designer at Upside Travel in Washington, DC. Before
+    she came to Upside, she worked as a graphic designer at the Brookings Institution,
+    where she handled data viz and infographics, among other things. Prior to entering
+    the design world, Jessica worked as a journalist on the editorial staffs of several
+    national magazines, including Harpers, The Atlantic, and The New Republic. A lifelong
+    doodler, she studied art history at Bard College and graphic design at the Maryland
+    Institute College of Art (MICA). Jessica lives in Washington, DC, with two cats
+    and one husband.
+  website-label: Website
+  website-url: http://jessicakatepavone.com
+- name: Kyle Overton
+  title: UX Designer at Capital One
+  bio: 
+  website-label: Website
+  website-url: http://kyleoverton.com
+- name: Jess Ray
+  title: Associate Creative Director at Deloitte Digital
+  bio: Jess is an Associate Creative Director at Deloitte Digital with over 10 years
+    of experience in the design industry. She leads cross-functional teams to collaborate
+    and deliver compelling human-centered solutions for their clients. She graduated
+    from American University with a bachelor’s degree in Graphic Design and is currently
+    pursuing an MA in Design Leadership from the Maryland Institute College of Art
+    and an MBA from Johns Hopkins.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/jraaaaay
+- name: Bailey O’Connell
+  title: Senior Recruiter with Creative Circle
+  bio: Bailey O’Connell is a Senior Recruiter with Creative Circle. She has been with
+    Creative Circle for 12 years – starting in Chicago and moving to DC to open the
+    branch in 2011 – in her time with Creative Circle she has interviewed over 5,000
+    candidates in the creative, advertising and digital space!
+  website-label: Website
+  website-url: 'http://www.creativecircle.com '
+filter-date:
+  is-day-4: true
+filter-time:
+  is-evening: true
+filter-type:
+  is-talk: true
+filter-location:
+  is-dc: true
 ---
 
 As creative professionals, we’re always looking for ways to grow and build our skillset to evolve with industry challenges and needs. But even still, sometimes we just feel...stuck. 
