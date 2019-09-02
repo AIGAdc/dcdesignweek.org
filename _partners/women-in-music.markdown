@@ -5,6 +5,5 @@ image: "/uploads/partner-women-in-music.jpg"
 image-alt: logo for women in music
 website: https://www.womeninmusic.org
 is-2019: true
-url: 
 ---
 
