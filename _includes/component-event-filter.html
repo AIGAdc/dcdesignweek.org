@@ -1,25 +1,25 @@
-<form class="events__filter controls">
-    <fieldset class="events__filter-date control-group" data-filter-group="">
+<form class="component-event-filter">
+    <div class="component-event-filter__date control-group" data-filter-group="">
         {% for control in site.data.agenda.filter-date %}
         <button class="control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
-            <span class="control-text-1 script">
+            <span class="control-text-1 font-size-4 script">
                 {{ control.text-1 }}
             </span>
-            <span class="control-text-2">
+            <span class="control-text-2 font-size-6">
                 {{ control.text-2 }}
             </span>
-            <span class="control-text-3">
+            <span class="control-text-3 font-size-5 font-weight-700">
                 {{ control.text-3 }}
             </span>
         </button>
         {% endfor %}
-    </fieldset>
-    <div class="events__filter-additional">
+    </div>
+    <div class="component-event-filter__additional">
         <span class="events__additional-filters-header" data-houdini-toggle="additional-filters">
             Additional Filters
         </span>
         <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
-            <fieldset class="control-group grid grid__4-column" data-filter-group="">
+            <div class="control-group grid grid__4-column" data-filter-group="">
                 <div class="">
                     <p>
                         Status
@@ -78,10 +78,10 @@
                     </div>
                     {% endfor %}
                 </div>
-            </fieldset>
+            </div>
         </div>
     </div>
-    <div class="events__filter-reset control-group">
+    <div class="component-event-filter__reset control-group">
         <button class="control control-text" type="reset">
             View All Events
         </button>

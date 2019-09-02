@@ -3,10 +3,8 @@
     outline: dashed 1px red;
 }
 .component-event-filter {
+	border: none;
     margin-bottom: $spacing-32;
-}
-.component-event-filter .control-group {
-    border: none;
 }
 /* date filter */
 
@@ -20,6 +18,7 @@
 .component-event-filter__date .control-text-2, 
 .component-event-filter__date .control-text-3, {
     display: block;
+    text-transform: uppercase;
 }
 /* additional filters */
 
@@ -31,28 +30,24 @@
     background: none;
     border: none;
     cursor: pointer;
+    flex-grow: 1;
     padding: 8px;
     transition: background 150ms;
-    flex-grow: 1;
-    cursor: pointer !important;
 }
-/* Target Elements
----------------------------------------------------------------------- */
-
 .mix-it-up-container {
     overflow: hidden;
     position: relative;
 }
 .mixitup-container {
-    position: relative;
     margin-bottom: $spacing-40;
+    position: relative;
 }
 .mixitup-container-failed::after {
     content: 'No Result 😬';
     padding: 32px;
     position: absolute;
-    left: 0;
     top: 0;
     right: 0;
+    left: 0;
     text-align: center;
 }

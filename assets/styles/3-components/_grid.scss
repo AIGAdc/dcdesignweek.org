@@ -9,9 +9,6 @@
     grid-template-columns: 1fr;
 }
 @media screen and (min-width: 767px) {
-    .grid {
-        grid-auto-rows: 1fr;
-    }
     .grid--items-center {
         align-items: center;
     }
