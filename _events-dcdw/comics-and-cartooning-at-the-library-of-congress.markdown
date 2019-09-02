@@ -12,9 +12,11 @@ event:
   end-time: 10:00am
 tickets:
   has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcomics-and-cartooning-at-the-library-of-congress%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$5 Refundable Members"
   has-non-member-button: true
-  non-member-button-label: "$5 Refundable Non-Members"
+  non-member-button-url: https://www.eventbrite.com/e/comics-and-cartooning-at-the-library-of-congress-tickets-71304974097
+  non-member-button-label: "$5 Refundable Non-Members (On Sale September 10)"
 venue:
   name: James Madison Memorial Building
   address: 101 Independence Ave, SE, Washington, DC 20540
