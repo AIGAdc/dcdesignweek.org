@@ -2,8 +2,8 @@
 title: 'Keynote: Antionette D. Carroll of Creative Reaction Lab'
 date: 2019-09-02 16:05:00 -04:00
 status:
-  is-featured-on-events: true
-  is-featured-on-home: false
+  is-featured-on-events: false
+  is-featured-on-home: true
   featured-event-message: 'Keynote!  Keynote!  Keynote!  '
 event:
   date: 2019-09-26 17:30:00 -04:00
