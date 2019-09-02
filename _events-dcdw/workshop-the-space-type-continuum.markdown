@@ -38,8 +38,7 @@ filter-date:
 filter-time:
   is-daytime: true
 filter-type:
-  is-workshop: true
-  is-motion-graphics: false
+  is-talk: true
 filter-location:
   is-dc: true
 ---

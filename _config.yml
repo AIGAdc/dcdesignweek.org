@@ -80,15 +80,11 @@ defaults:
       is-daytime: Select True if event occurs during the morning.
       is-evening: Select True if event occurs in the evening.
     filter-type:
-      is-free: Select True if event matches type
-      is-family-friendly: Select True if event matches type
+      is-talk: Select True if event matches type
+      is-screening: Select True if event matches type
       is-party: Select True if event matches type
-      is-diy: Select True if event matches type
-      is-workshop: Select True if event matches type
-      is-architecture: Select True if event matches type
+      is-family-friendly: Select True if event matches type
       is-creative-lunch: Select True if event matches type
-      is-design-thinking: Select True if event matches type
-      is-motion-graphics: Select True if event matches type
       is-wellness: Select True if event matches type
     filter-location:
       is-dc: Select True if event is located in DC.
