@@ -48,7 +48,7 @@ Sharing her involvement with #The100DayProject and giving attendees a look into 
 Note: You don’t need to attend [Part 1](https://www.dcdesignweek.org/events/designing-with-archival-images-carnegie-library-part-1/) to join the fun of Part 2. But, if you’d like to learn more about the DC Historical Society and come to the Rachel Orr event with an entire set of royalty-free digital assets for your own personal use, be sure to sign up for Part 1 here. 
 
 ## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
 
 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
