@@ -1,0 +1,9 @@
+---
+title: iStrategyLabs
+date: 2019-09-02 19:08:00 -04:00
+image: "/uploads/partner-isl.jpg"
+image-alt: logo for isl
+url: https://isl.co/
+is-2019: true
+---
+
