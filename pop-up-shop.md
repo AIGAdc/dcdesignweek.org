@@ -2,16 +2,13 @@
 title: Pop Up Shop
 call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.jpg"
 call-for-artists-image-alt: Pop Up Shop Image Alt
-call-for-artists-header: Have Your Art Featured in Our DCDW Pop Up Shop!
-call-for-artists-body: 'Are you a designer or artist with items you’re ready to sell?
-  We want to help you sell your work to the design community at our pop up shop. [Submit
-  your pieces to our committee for review](https://forms.gle/1ysbNJHZnREFHCAKA). Artists
-  who are selected will be emailed with instructions on how to drop off art for the
-  pop up – applications close September 1st!
+call-for-artists-header: Shop the Block Party
+call-for-artists-body: 'Come and celebrate your local DC design community at the Block Party, have some beer and snacks, and shop all of the awesome goods for sale at the DCDW Pop-Up Shop!
+
 
 '
-call-for-artists-button: Apply for Shop
-call-for-artists-button-url: https://forms.gle/1ysbNJHZnREFHCAKA
+call-for-artists-button: RSVP
+call-for-artists-button-url: #
 layout: pop-up-shop
 ---
 
