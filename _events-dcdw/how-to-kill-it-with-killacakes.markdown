@@ -12,9 +12,9 @@ event:
   end-time: 9:00pm
 tickets:
   has-member-button: true
-  member-button-url: "$10 Member"
+  member-button-label: "$10 Member"
   has-non-member-button: true
-  non-member-button-url: "$15 Non-member (On-Sale September 10)"
+  non-member-button-label: "$15 Non-member (On-Sale September 10)"
 venue:
   name: Studio A
   address: 1019 Queen St, Alexandria, VA 22314
