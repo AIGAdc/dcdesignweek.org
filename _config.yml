@@ -131,7 +131,7 @@ defaults:
   values:
     image: Displays the partners logo
     image-alt: Provide alt text for partners logo
-    url: Provide link for partners website
+    website: Provide link for partners website
     is-2019: true
 - scope:
     path: ''
@@ -139,7 +139,7 @@ defaults:
   values:
     image: Displays the sponsors logo
     image-alt: Provide alt text for sponsors logo
-    url: Provide link for sponsors website
+    website: Provide link for sponsors website
     is-2019: Select True if 2019 sponsor
 exclude:
 - package.json

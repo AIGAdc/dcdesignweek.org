@@ -1,6 +1,6 @@
 <div class="block block-featured-sponsors">
     {% for section in page.sections %}
-    <div class="event__speaker">
+    <div class="">
         <h2>
             {{ section.header }}
         </h2>
@@ -15,7 +15,7 @@
             {% if sponsor.is-2019 == true %}
                 <li class="card">
                     <div class="card-details">
-                        <a href="{{ sponsor.url }}" rel="noopener" target="_blank">
+                        <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
                             <img alt="{{ sponsor.image-alt }}" class="lazyload blur-up" data-src="{{ sponsor.image }}" src="{{ sponsor.image }}">
                             </img>
                         </a>
@@ -32,7 +32,7 @@
             {% if partner.is-2019 == true %}
                 <li class="card">
                     <div class="card-details">
-                        <a href="{{ partner.url }}" rel="noopener" target="_blank">
+                        <a href="{{ partner.website }}" rel="noopener" target="_blank">
                             <img alt="{{ partner.image-alt }}" class="lazyload blur-up" data-src="{{ partner.image }}" src="{{ partner.image }}">
                             </img>
                         </a>
