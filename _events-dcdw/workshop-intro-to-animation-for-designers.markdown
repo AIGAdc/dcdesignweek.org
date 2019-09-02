@@ -64,7 +64,7 @@ Led by three motion graphics artists, this hands-on workshop include the followi
 
 *Participants will be required to bring a laptop with Adobe After Effects already installed.* 
 
-Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. Check out the Expressions Workshop led by David Arbour, which will take place the same night. 
+Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. [Check out the Expressions Workshop led by David Arbour, which will take place the same night.](https://www.dcdesignweek.org/events/workshop-expressions-in-after-effects-for-designers/) 
 
 **Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at dc@ga.co.
 

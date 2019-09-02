@@ -55,7 +55,7 @@ This workshop is tailored to motion designers who already use After Effects and 
 
 Participants will be required to bring a laptop with Adobe After Effects already installed.  
 
-Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. C[heck out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/) led by Hannah Churn, which will take place the same night.
+Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. [Check out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/) led by Hannah Churn, which will take place the same night.
 
 **Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at dc@ga.co.
 
