@@ -13,6 +13,7 @@ event:
   has-speakers: true
 tickets:
   has-member-button: false
+  has-non-member-button: true
   non-member-button-url: Register for Free
 venue:
   name: The DRC Running  Room
