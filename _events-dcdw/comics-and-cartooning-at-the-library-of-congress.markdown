@@ -9,7 +9,44 @@ event:
   image: "/uploads/Header_Cartooning%20LOC.png"
   image-alt: People standing behind a table at a convention
   start-time: 8:15am
-  end-time: 10.00am
+  end-time: 10:00am
+tickets:
+  has-member-button: false
+venue:
+  name: James Madison Memorial Building
+  address: 101 Independence Ave, SE, Washington, DC 20540
+  directions: https://goo.gl/maps/sRbty9btGPVMLc22A
+speakers:
+- name: Warren Bernard
+  title: Executive Director of Small Press Expo
+  bio: Warren Bernard is a comics historian who has lectured at the University of
+    Pennsylvania, The Center for Cartoon Studies, and other institutions. His book
+    Cartoons for Victory, which looked at the home front during World War Two through
+    comics and cartoons, was nominated for the prestigious Eisner Award. Warren has
+    contributed articles to publications including The Comics Journal and Military
+    History, and curated an exhibit on alt-weekly comics creators at the Society of
+    Illustrators. He is the Executive Director of Small Press Expo, and established
+    both The SPX Collection and The Warren Bernard Collection at the Library of Congress.
+  website-label: Small Press Expo
+  website-url: http://www.smallpressexpo.com
+- name: Sara W. Duke
+  title: Curator of the Popular and Applied Graphic Art, Prints & Photographs Division
+    at the Library of Congress
+  bio: Sara W. Duke is a curator of Popular and Applied Graphic Art in the Prints
+    and Photographs Division of the Library of Congress. She has worked with caricature
+    and cartoon art since 1993, serving most recently as co-curator for the exhibitions
+    Drawing Justice and Comic Art. She also oversees the Herblock Gallery.
+  website-label: Library of Congress Collection
+  website-url: https://www.loc.gov/pictures/collection/pga/
+filter-date:
+  is-day-5: true
+filter-time:
+  is-morning: true
+  is-evening: false
+filter-type:
+  is-talk: true
+filter-location:
+  is-dc: true
 ---
 
 Limited runs of comics and other works created by artists can easily be lost to time, a reality that led to Small Press Expo developing a collection that is now part of the Library of Congress. During this morning salon, DCDW attendees will join other artists, illustrators, and designers in a private exploration of the Library of Congress and its comic collection. The morning will begin in the Madison Building, where Curator of Popular and Applied Art Sara Duke will give attendees a tour of the Prints & Photographs Division. Next, attendees will take a short walk to the Jefferson Building for a private talk in the Comic Art Exhibit with Small Press Expo Executive Director Warren Bernard.
