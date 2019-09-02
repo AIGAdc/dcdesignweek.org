@@ -130,20 +130,4 @@ This workshop is co-presented by designers from Capital One’s One Design organ
 
 **Transportation / Helpful Directions:**
 
-General Assembly’s entrance is the door to the right of ChopHouse & Brewery. The closest metro stops are Gallery Place-Chinatown (under 2 minutes walking) and Metro Center. There are a few parking lots around, as well as street parking. 
-
-## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10am and the General Public On-Sale begins 9/10 at 10am.
-
-100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
-
-**Accessibility:**
-If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
-
-**Code of Conduct:**
-All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-
-**Questions?**
-If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
+General Assembly’s entrance is the door to the right of ChopHouse & Brewery. The closest metro stops are Gallery Place-Chinatown (under 2 minutes walking) and Metro Center. There are a few parking lots around, as well as street parking.
