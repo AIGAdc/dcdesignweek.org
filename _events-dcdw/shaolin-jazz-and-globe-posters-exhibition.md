@@ -70,14 +70,16 @@ The evening will start with a talk on DC’s musical history alongside a present
 
 RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. 
 
-## Poster Exhibit from [Globe Posters](http://www.globeatmica.com)
+
+### Poster Exhibit from [Globe Posters](http://www.globeatmica.com)
+---
+
 Founded in 1929 in Baltimore, Maryland, Globe Posters delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research. 
 
-<i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/) / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica)
-
+Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/) / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica)
 
 **Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com) and [DJ RB1 SHAOLIN JAZZ](https://www.facebook.com/RonBrown.aka.DJ.RBI), founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
 The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the acappellas from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
 
-<i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/)
+Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/)

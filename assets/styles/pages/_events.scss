@@ -24,9 +24,6 @@
     font-size: $font-size-16;
     text-transform: uppercase;
 }
-.events__filter-date .control-text-2 {
-    margin: $spacing-8 0;
-}
 .events__filter-date .control-text-3 {
     font-weight: 700;
 }
@@ -49,7 +46,7 @@
 /* Events Single Page */
 
 .events-single-layout .event-hero {
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
     position: relative;
@@ -59,7 +56,11 @@
 .event-hero__content {
     color: $black;
     position: relative;
+    width: 100%;
     z-index: $index-3;
+}
+.event-hero__content a.button {
+    margin-top: 0;
 }
 .event-hero__overlay {
     background-color: $white;
@@ -70,10 +71,23 @@
     left: 0;
     opacity: 0.5;
 }
-.event-details {
+.event__details {
     background-color: $lightning-yellow-light;
 }
-.event-details small {
+.event__details small {
+    font-family: $sans;
     font-size: $font-size-20;
     font-weight: 700;
+}
+.event__details p {
+    margin: $spacing-8 0;
+}
+.events-single-layout video {
+    margin-bottom: $spacing-32;
+}
+.event__speaker {
+    font-size: $font-size-16;
+}
+.event__speaker h3 {
+    font-size: $font-size-24;
 }

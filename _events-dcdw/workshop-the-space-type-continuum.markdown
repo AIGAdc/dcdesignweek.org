@@ -50,7 +50,7 @@ Kiel’s most recent project, an online motion and type generator called *Space 
 
 The workshop will begin with an introduction to the basics of coding. After laying this important groundwork, we’ll move onto basic motion and typography to create a simple yet robust typographic generator. Various versions of Space Type Generator will be dissected to demonstrate how the presented foundational elements can be built out even further to create a myriad of iterations.
 
-COOL STUFF ALERT! 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
+**COOL STUFF ALERT!** 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
 
 <video controls="true" autoplay="true" muted="true" loop="true">
   <source src="/uploads/stg_apr25a.mp4" type="video/mp4">
@@ -59,4 +59,4 @@ COOL STUFF ALERT! 🚨 Attendees will walk away with their own generator and the
 **Venue Accessibility (elevators, stairs, etc.):**
 ISL is accessible from the back entrance of the building.
 
-**Transportation / Helpful Directions to Venue (metro stop, parking availability):**ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW. 
+**Transportation / Helpful Directions to Venue (metro stop, parking availability):** ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW. 

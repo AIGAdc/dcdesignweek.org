@@ -4,27 +4,29 @@
         Speakers
     </h2>
     <hr/>
-    {% for speaker in page.speakers %}
-    <div class="event__speaker">
-        <h3>
-            {{ speaker.name }}
-        </h3>
-        {% if speaker.title %}
-        <h4>
-            {{ speaker.title }}
-        </h4>
-        {% endif %}
-        <p>
-            {{ speaker.bio | markdownify }}
-        </p>
-        {% if speaker.website %}
-        <a href="{{ speaker.website }}" rel="noopener" target="_blank">
-            <i class="fas fa-globe-americas">
-            </i>
-            {{ speaker.website }}
-        </a>
-        {% endif %}
+    <div class="grid grid__2-column">
+        {% for speaker in page.speakers %}
+        <div class="event__speaker">
+            <h3>
+                {{ speaker.name }}
+            </h3>
+            {% if speaker.title %}
+            <p class="font-weight-700">
+                {{ speaker.title }}
+            </p>
+            {% endif %}
+            <p>
+                {{ speaker.bio | markdownify }}
+            </p>
+            {% if speaker.website %}
+            <a href="{{ speaker.website }}" rel="noopener" target="_blank">
+                <i class="fas fa-globe-americas">
+                </i>
+                {{ speaker.website }}
+            </a>
+            {% endif %}
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 {% endif %}
