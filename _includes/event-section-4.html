@@ -18,11 +18,11 @@
             <p>
                 {{ speaker.bio | markdownify }}
             </p>
-            {% if speaker.website %}
-            <a href="{{ speaker.website }}" rel="noopener" target="_blank">
+            {% if speaker.website-label %}
+            <a href="{{ speaker.website-url }}" rel="noopener" target="_blank">
                 <i class="fas fa-globe-americas">
                 </i>
-                {{ speaker.website }}
+                {{ speaker.website-label }}
             </a>
             {% endif %}
         </div>
