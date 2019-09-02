@@ -29,8 +29,8 @@ speakers:
     experiences at Mapbox. Amy Lee thrives in cross-disciplinary environments working
     alongside groups of diverse thinkers and makers. Her work moves complexities into
     delightful, intuitive experiences that users love and rely on. '
-  website-label: 
-  website-url: 
+  website-label: Provide label that will appear instead of URL
+  website-url: Provide Speaker website.
 - name: David Wicks
   title: Solutions Architect, Mapbox
   bio: David Wicks is a wanderer, artist, and software developer. They hold a BA in
@@ -92,8 +92,7 @@ filter-location:
   is-dc: true
 ---
 
-
-How are designers using design thinking to inform modern map making? How can workflow integrations with tools like Figma, Framer, and After Effects modernise traditional mapmaking? Join us for a series of 5 to 10 minute lightning talks that will explore some of the challenges and design decisions behind building and designing  location based experiences.
+How are designers using design thinking to inform modern map making? How can workflow integrations with tools like Figma, Framer, and After Effects modernize traditional mapmaking? Join us for a series of 5 to 10 minute lightning talks that will explore some of the challenges and design decisions behind building and designing  location based experiences.
 
 Attendees will hear about:
 * Product and map design within larger design tools and systems like Figma and Framer from Amy Lee Walton of Mapbox and David Wicks of Solutions Architect and Mapbox
