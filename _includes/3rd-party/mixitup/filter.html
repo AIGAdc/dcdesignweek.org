@@ -81,7 +81,7 @@
         </div>
     </form>
     <ul class="events__list grid grid__3-column mixitup-container">
-        {% assign sorted = (site.events-dcdw | sort: 'event.date' | sort: 'event.start-time') %}
+        {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
         {% for posts in sorted %}
         <li class="card mix
             {% if posts.filter-date.is-day-1 == true %}

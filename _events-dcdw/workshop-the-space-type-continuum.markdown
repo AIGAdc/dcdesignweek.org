@@ -2,6 +2,7 @@
 title: 'Workshop: The Space Type Continuum'
 date: 2019-09-01 18:36:00 -04:00
 image: "/uploads/Header_KIelGif.gif"
+position: 2
 event:
   date: 2019-09-21 13:00:00 -04:00
   description: 'Bring your typography to life with designer and MICA educator Kiel
@@ -25,7 +26,14 @@ venue:
     Washington, DC 20001
   directions: https://goo.gl/maps/2sPAgtSQkDC6xrTm6
 speakers:
-- speaker: Kiel Mutschelknaus
+  - speaker: 
+    name: Kiel Mutschelknaus
+    title: Designer and MICA Educator
+    bio: 'Working in everything from illustration to coding, Kiel Mutschelknaus is a freelance designer and educator in the DC-Baltimore area. Originally from South Dakota, Kiel began his trek east to attend Cranbrook Academy of Art outside Detroit where he received an MFA in 2D Design. He is a full-time faculty member in the GD Department at MICA and maintains an active freelance practice with clients including Apple, Disney, Marvel, Booz Allen Hamilton, Marriott, ARTECHOUSE, Recode, and Art of Ed. His most recent project, a kinetic type generator called Space Type Generator, has been featured in The Verge and It’s Nice That.
+
+
+    Check out more of Kiel’s work on Instagram: [@kiel.d.m](https://instagram.com/kiel.d.m)'
+    website: https://www.kielm.com/
 filter-date:
   is-day-2: true
 filter-time:
@@ -45,7 +53,9 @@ The workshop will begin with an introduction to the basics of coding. After layi
 
 COOL STUFF ALERT! 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
 
-‘[!video-title](/uploads/stg_apr25a.mp4)
+<video controls="true" autoplay="true" muted="true" loop="true">
+  <source src="/uploads/stg_apr25a.mp4" type="video/mp4">
+</video>
 
 **Venue Accessibility (elevators, stairs, etc.):**
 ISL is accessible from the back entrance of the building.

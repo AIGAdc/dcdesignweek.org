@@ -4,18 +4,18 @@
         Speakers
     </h2>
     <hr/>
-    {% for speaker in site.speakers %}
-    <div class="speaker">
+    {% for speaker in page.speakers %}
+    <div class="event__speaker">
         <h3>
-            {{ speaker.title }}
+            {{ speaker.name }}
         </h3>
-        {% if speaker.professional-title %}
+        {% if speaker.title %}
         <h4>
-            {{ speaker.professional-title }}
+            {{ speaker.title }}
         </h4>
         {% endif %}
         <p>
-            {{ speaker | markdownify }}
+            {{ speaker.bio | markdownify }}
         </p>
         {% if speaker.website %}
         <a href="{{ speaker.website }}" rel="noopener" target="_blank">
