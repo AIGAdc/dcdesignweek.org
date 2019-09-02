@@ -6,3 +6,4 @@ image-alt: logo for stickeryou
 url: https://www.stickeryou.com/
 is-2019: false
 ---
+

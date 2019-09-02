@@ -6,3 +6,4 @@ image-alt: logo for duke and the duck
 url: https://www.dukeduck.com/
 is-2019: true
 ---
+

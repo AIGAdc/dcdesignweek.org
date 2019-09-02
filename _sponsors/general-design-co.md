@@ -6,3 +6,4 @@ image-alt: logo for general design co
 url: http://www.generaldesignco.com
 is-2019: true
 ---
+

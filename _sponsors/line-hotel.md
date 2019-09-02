@@ -6,3 +6,4 @@ image-alt: logo for line hotel
 url: https://www.thelinehotel.com/dc/
 is-2019: false
 ---
+
