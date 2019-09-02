@@ -10,6 +10,7 @@ event:
   image-alt: 'people running in front of the capitol building '
   start-time: 7:00am
   end-time: 8:00am
+  has-speakers: true
 tickets:
   has-member-button: false
   non-member-button-url: Register for Free
@@ -42,6 +43,8 @@ speakers:
 '
   website-label: Instagram
   website-url: https://www.instagram.com/julienne_devita/
+filter-date:
+  is-day-6: true
 filter-time:
   is-morning: true
 filter-type:
