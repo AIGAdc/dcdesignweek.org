@@ -1,7 +1,7 @@
 <section class="events">
     {% include component-event-filter.html %}
     <ul class="events__list grid grid__3-column mixitup-container">
-        {% assign sorted = (site.events-dcdw | sort: 'date') %}
+        {% assign sorted = (site.events-dcdw | sort: 'event.date' and 'event.start-time') %}
         {% for posts in sorted %}
         <li class="card mix
             {% if posts.filter-date.is-day-1 == true %}
