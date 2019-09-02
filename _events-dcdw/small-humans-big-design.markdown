@@ -40,6 +40,8 @@ filter-date:
   is-day-2: true
 filter-time:
   is-daytime: true
+filter-type:
+  is-family-friendly: true
 filter-location:
   is-dc: true
 ---
