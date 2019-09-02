@@ -46,7 +46,7 @@ filter-location:
   is-dc: true
 ---
 
-Want to make your typography come alive? Join designer and MICA educator Kiel Mutschelknaus’ Space Type Continuum workshop on Saturday, July 21 from 1 - 4 pm at ISL.
+Want to make your typography come alive? Join designer and MICA educator Kiel Mutschelknaus’ Space Type Continuum workshop on Saturday, September 21 from 1:00 - 4:00pm at ISL.
 
 Kiel’s most recent project, an online motion and type generator called *Space Type Generator,* has been featured in *[The Verge](https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding)* and *[It’s Nice That](https://www.itsnicethat.com/articles/kiel-mutschelknaus-space-type-generator-graphic-design-digital-160519)*. Attendees will learn Kiel’s innovative approach to making a typographic generator from (almost) scratch in under 3 hours.
 
@@ -62,3 +62,19 @@ The workshop will begin with an introduction to the basics of coding. After layi
 ISL is accessible from the back entrance of the building.
 
 **Transportation / Helpful Directions to Venue (metro stop, parking availability):** ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW. 
+
+## About DC Design Week
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
+
+100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+
+Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
+
+**Accessibility:**
+If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
+
+**Code of Conduct:**
+All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+
+**Questions?**
+If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
