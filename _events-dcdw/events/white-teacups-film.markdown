@@ -1,7 +1,6 @@
 ---
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-22 17:30:00 -04:00
-permalink: white-teacups-film
 event:
   date: 2019-09-22 17:30:00 -04:00
   description: 'Join for a screening of the documentary Enough White Teacups and a
