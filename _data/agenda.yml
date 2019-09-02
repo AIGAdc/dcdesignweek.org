@@ -53,33 +53,21 @@ filter-time-of-day:
     text-1: Evening
 
 filter-event-type:
-  - filter: .free
-    class: free
-    text-1: Free
-  - filter: .family
+  - filter: .creative-lunch
+    class: creative-lunch
+    text-1: Creative Lunch
+  - filter: .family-friendly
     class: family-friendly
     text-1: Family Friendly
   - filter: .party
     class: party
     text-1: Party
-  - filter: .diy
-    class: diy
-    text-1: DIY
-  - filter: .workshop
-    class: workshop
-    text-1: Workshop
-  - filter: .architecture
-    class: architecture
-    text-1: Architecture
-  - filter: .creative-lunch
-    class: creative-lunch
-    text-1: Creative Lunch
-  - filter: .design-thinking
-    class: design-thinking
-    text-1: Design Thinking
-  - filter: .motion-graphics
-    class: motion-graphics
-    text-1: Motion Graphics
+  - filter: .screening
+    class: screening
+    text-1: Screening
+  - filter: .talk
+    class: talk
+    text-1: Talk
   - filter: .wellness
     class: wellness
     text-1: Wellness

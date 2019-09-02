@@ -30,24 +30,16 @@
             evening
             {% endif %}
 
-            {% if posts.filter-type.is-free == true %}
-            free
+            {% if posts.filter-type.is-talk == true %}
+            talk
+            {% elsif posts.filter-type.is-screening == true %}
+            screening
             {% elsif posts.filter-type.is-party == true %}
             party
-            {% elsif posts.filter-type.is-workshop == true %}
-            workshop
-            {% elsif posts.filter-type.is-creative-lunch == true %}
-            creative-lunch
-            {% elsif posts.filter-type.is-motion-graphics == true %}
-            motion-graphics
             {% elsif posts.filter-type.is-family-friendly == true %}
             family-friendly
-            {% elsif posts.filter-type.is-diy == true %}
-            diy
-            {% elsif posts.filter-type.is-architecture == true %}
-            architecture
-            {% elsif posts.filter-type.is-design-thinking == true %}
-            design-thinking
+            {% elsif posts.filter-type.is-creative-lunch == true %}
+            creative-lunch
             {% elsif posts.filter-type.is-wellness == true %}
             wellness
             {% endif %}

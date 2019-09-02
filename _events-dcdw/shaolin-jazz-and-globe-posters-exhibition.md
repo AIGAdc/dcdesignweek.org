@@ -43,7 +43,8 @@ speakers:
     working on community-oriented projects and more. When not working on Globe Allison
     can be found tinkering on her own presses and working as a Linotype apprentice
     at the Baltimore Museum of the Industry.
-  website: http://www.globeatmica.com/
+  website-label: Website
+  website-url: http://www.globeatmica.com
 - name: Marcus Dowling
   title: Journalist
   bio: As a journalist, native Washingtonian Marcus K. Dowling has written for print
@@ -53,13 +54,14 @@ speakers:
     comfortably at the confluence of the underground and mainstream, Marcus is obsessed
     with history, appreciative of the present, and loving the future. He is a creator,
     curator, and innovator living in a wild new age.
-  website: 
+  website-label: 
+  website-url: 
 filter-date:
   is-day-1: true
 filter-time:
   is-evening: true
 filter-type:
-  is-party: true
+  is-talk: true
 filter-location:
   is-dc: true
 ---
