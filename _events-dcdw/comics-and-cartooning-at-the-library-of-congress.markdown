@@ -11,7 +11,10 @@ event:
   start-time: 8:15am
   end-time: 10:00am
 tickets:
-  has-member-button: false
+  has-member-button: true
+  member-button-url: "$5 Refundable Members"
+  has-non-member-button: true
+  non-member-button-url: "$5 Refundable Non-Members"
 venue:
   name: James Madison Memorial Building
   address: 101 Independence Ave, SE, Washington, DC 20540
