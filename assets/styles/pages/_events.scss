@@ -1,11 +1,4 @@
 /* Events Page */
-
-.events__filter {
-    margin-bottom: $spacing-32;
-}
-.events__filter .control-group {
-    border: none;
-}
 .events__filter-date.control-group, .events__filter-reset.control-group {
     display: flex;
     flex-wrap: wrap;
