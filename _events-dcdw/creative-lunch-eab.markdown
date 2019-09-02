@@ -13,7 +13,7 @@ tickets:
   has-member-button: true
   member-button-label: "$10 Members"
   has-non-member-button: true
-  non-member-button-label: "$15 Non-members"
+  non-member-button-label: "$15 Non-members (On Sale September 10)"
 venue:
   name: EAB
   address: 2445 M St NW, Washington, DC 20037
