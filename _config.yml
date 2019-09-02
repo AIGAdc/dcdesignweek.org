@@ -62,8 +62,7 @@ defaults:
       address: Provide the address of the venue.
       directions: Provide a google maps link with directions to the venue.
     speakers:
-    - speaker: 
-      name: Provide Speaker name.
+    - name: Provide Speaker name.
       title: Provide Speaker title.
       bio: Provide Speaker bio.
       website: Provide Speaker website.
