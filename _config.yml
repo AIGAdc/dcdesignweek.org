@@ -12,6 +12,9 @@ collections:
   posts:
     title: Posts
     output: true
+  partners:
+    title: Partners
+    output: false
   sponsors:
     title: Sponsors
     output: false
@@ -124,21 +127,20 @@ defaults:
     layout: events-single
 - scope:
     path: ''
-    type: speakers
+    type: partners
   values:
-    professional-title: Provide the professional title of the speaker
-    website: Provide a url to the speakers website
+    image: Displays the partners logo
+    image-alt: Provide alt text for partners logo
+    url: Provide link for partners website
+    is-2019: Select True if 2019 partner
 - scope:
     path: ''
     type: sponsors
   values:
-    sponsor-image: Displays the sponsors logo
-    sponsor-url: Provide link for sponsors website
-    is-featured-on-home-page: false
-    is-featured-on-shops-galleries-page: false
-    is-first-tier: false
-    is-second-tier: false
-    is-third-tier: false
+    image: Displays the sponsors logo
+    image-alt: Provide alt text for sponsors logo
+    url: Provide link for sponsors website
+    is-2019: Select True if 2019 sponsor
 exclude:
 - package.json
 - package-lock.json
