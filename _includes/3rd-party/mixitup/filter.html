@@ -42,6 +42,8 @@
             creative-lunch
             {% elsif posts.filter-type.is-wellness == true %}
             wellness
+            {% elsif posts.filter-type.is-workshop == true %}
+            workshop
             {% endif %}
 
             {% if posts.filter-location.is-dc == true %}
