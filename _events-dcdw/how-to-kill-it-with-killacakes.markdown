@@ -19,6 +19,20 @@ venue:
   name: Studio A
   address: 1019 Queen St, Alexandria, VA 22314
   directions: https://goo.gl/maps/btCNhcMceW6MRPLh8
+speakers:
+- name: Bria Taylor
+  title: Baker and Founder/Owner of Killa Cakes
+  bio: 'Bria Taylor is not your typical 25 year old. She''s a sci-fi loving, comic
+    book reading, Gregory Crewdson enthusiast (seriously check out his photography),
+    and Graphic Designer. She''s also the badass baker behind Killa Cakes. As a recent
+    college graduate, her main college focus was her bachelor of fine arts, but cooking
+    and food have always been a passion. Killa Cakes became more than a business idea.
+    It was a way to turn a passion and a learned skill into an artistic exploration
+    of awesomeness. After a year in the game, Bria has turned her cake passion into
+    a full time job. She continues to surprise us with her amazing flavors and cake
+    designs, but it is her perseverance as a young entrepreneur that we truly admire! '
+  website-label: Killa Cakes
+  website-url: https://www.killacakes.com/
 filter-date:
   is-day-3: true
 filter-time:
