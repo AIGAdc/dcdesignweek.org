@@ -1,5 +1,5 @@
-<form class="component-event-filter controls">
-    <div class="component-event-filter__date control-group" data-filter-group="">
+<form class="events__filter controls">
+    <fieldset class="events__filter-date control-group" data-filter-group="">
         {% for control in site.data.agenda.filter-date %}
         <button class="control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
             <span class="control-text-1 script">
@@ -13,9 +13,9 @@
             </span>
         </button>
         {% endfor %}
-    </div>
-    <div class="component-event-filter__additional">
-        <span class="component-event-filter__additional-header" data-houdini-toggle="additional-filters">
+    </fieldset>
+    <div class="events__filter-additional">
+        <span class="events__additional-filters-header" data-houdini-toggle="additional-filters">
             Additional Filters
         </span>
         <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">

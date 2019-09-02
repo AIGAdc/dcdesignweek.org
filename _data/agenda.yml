@@ -71,6 +71,9 @@ filter-event-type:
   - filter: .wellness
     class: wellness
     text-1: Wellness
+  - filter: .workshop
+    class: workshop
+    text-1: Workshop
 
 filter-location:
   - filter: .dc

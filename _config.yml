@@ -87,6 +87,7 @@ defaults:
       is-family-friendly: Select True if event matches type
       is-creative-lunch: Select True if event matches type
       is-wellness: Select True if event matches type
+      is-workshop: Select True if event matches type
     filter-location:
       is-dc: Select True if event is located in DC.
       is-md: Select True if event is located in MD.

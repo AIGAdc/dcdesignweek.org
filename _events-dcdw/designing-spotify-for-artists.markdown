@@ -1,0 +1,71 @@
+---
+title: Designing Spotify for Artists
+date: 2019-09-02 13:23:00 -04:00
+event:
+  date: 2019-09-24 00:00:00 -04:00
+  description: Learn how Senior Product Designer Adriana Rivas approaches UX for Spotify
+    for Artists and hear from a user, Maryland-based artist Shalom Dubas, on how the
+    platform helps her reach out to her fans.
+  image: "/uploads/Header_Spotify.png"
+  image-alt: Photo of Maryland-based performing artist, Shalom Dubas
+  start-time: 6:30pm
+  end-time: 8:30pm
+tickets:
+  has-member-button: true
+  member-button-label: "$15 Members"
+  has-non-member-button: true
+  non-member-button-label: "$25 Non-members (On Sale September 10)"
+venue:
+  name: Optoro
+  address: 1001 G St NW, Washington, DC 20001
+  directions: https://goo.gl/maps/dCRgpfL3KTrha3s9A
+speakers:
+- name: Adriana Rivas
+  title: Senior Product Designer at Spotify
+  bio: Adriana Rivas grew up in the lush jungles of Costa Rica but exchanged the green
+    for the baroque when she left to study Industrial Design in Italy. Today, she
+    lives in the jungle that is NY and focuses on making tools for artists as a Senior
+    Product Designer at Spotify. In the last 4 years, the team has grown from 40 to
+    500 and the platform has evolved from an idea, to being an essential part of an
+    artist’s career. Adriana has always had a passion for music – and finds it rewarding
+    to be close to it every day and to solve problems for those creating it.
+  website-label: Website
+  website-url: http://www.adrianarivas.com
+- name: Shalom Dubas
+  title: 
+  bio: Shalom has distinguished herself as a musician through charismatic and witty
+    vocals, smooth sounds, and unprecedented transitions between rapid-fire verse
+    and an indie/acoustic vibe - Shalom started writing songs at 10 years old, learned
+    to play guitar at 16, and hasn't stopped mixing sounds since.
+  website-label: Website
+  website-url: http://shalomdubas.com/
+filter-date:
+  is-day-5: true
+filter-time:
+  is-evening: true
+filter-type:
+  is-talk: true
+filter-location:
+  is-dc: true
+---
+
+From album covers to music videos to fashion, music has long been a force for setting trends, creating culture, and defining design. Spotify has led the digital age of the record industry, setting the tone for how we visually interact with music today. Come learn how Senior Product Designer Adriana Rivas fell into her role at Spotify for Artists and how UX design helps creators find and grow their audiences. Then hear a creator's perspective from Maryland-based artist Shalom Dubas on how she’s been able to use this tool to reach out to her fans. 
+
+##Event Partner: Women in Music
+Established in 2015, Women in Music DC is a chapter of WIM that is dedicated to fostering equality in the music industry through the support and advancement of women. Providing knowledge, strategy & solutions to our members and the greater community is our driving purpose. [Learn more here.](https://www.womeninmusic.org/wim-dc)
+
+##About DC Design Week
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
+
+100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+
+Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
+
+**Accessibility:**
+If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
+
+**Code of Conduct:**
+All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+
+**Questions?**
+If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.

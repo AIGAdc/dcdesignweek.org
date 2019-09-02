@@ -1,7 +1,7 @@
 <section class="events">
     {% include component-event-filter.html %}
     <ul class="events__list grid grid__3-column mixitup-container">
-        {% assign sorted = (site.events-dcdw | sort: 'event.date') %}
+        {% assign sorted = (site.events-dcdw | sort: 'date') %}
         {% for posts in sorted %}
         <li class="card mix
             {% if posts.filter-date.is-day-1 == true %}
@@ -42,6 +42,8 @@
             creative-lunch
             {% elsif posts.filter-type.is-wellness == true %}
             wellness
+            {% elsif posts.filter-type.is-workshop == true %}
+            workshop
             {% endif %}
 
             {% if posts.filter-location.is-dc == true %}
@@ -63,6 +65,7 @@
             {% if posts.status.is-featured-on-events == true %}
             featured
             {% endif %}
+
             ">
             {% if posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
             <a class="disabled border border--black">
