@@ -1,0 +1,9 @@
+---
+title: Killa Cakes
+date: 2019-09-02 19:12:00 -04:00
+image: "/uploads/partner-killa-cakes.jpg"
+image-alt: logo for killa cakes
+url: https://www.killacakes.com/
+is-2019: true
+---
+
