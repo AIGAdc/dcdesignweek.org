@@ -83,7 +83,7 @@ Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instag
 
 **Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com) and [DJ RB1 SHAOLIN JAZZ](https://www.facebook.com/RonBrown.aka.DJ.RBI), founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
-The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the acappellas from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
+The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappella from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
 
 Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/)
 
