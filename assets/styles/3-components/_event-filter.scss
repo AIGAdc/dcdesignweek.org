@@ -1,9 +1,8 @@
-.component-event-filter>*, 
-.component-event-filter__date>* {
+.component-event-filter>*, .component-event-filter__date>* {
     outline: dashed 1px red;
 }
 .component-event-filter {
-	border: none;
+    border: none;
     margin-bottom: $spacing-32;
 }
 /* date filter */
@@ -14,9 +13,7 @@
 .component-event-filter__date .mixitup-control-active {
     background-color: $mauve;
 }
-.component-event-filter__date .control-text-1, 
-.component-event-filter__date .control-text-2, 
-.component-event-filter__date .control-text-3, {
+.component-event-filter__date .control-text-1, .component-event-filter__date .control-text-2, .component-event-filter__date .control-text-3, {
     display: block;
     text-transform: uppercase;
 }
@@ -24,7 +21,32 @@
 
 .component-event-filter__additional {
     background-color: $mauve-light;
-    padding: $spacing-8;
+    padding: $spacing-16;
+}
+.component-event-filter__additional-header {
+    display: flex;
+    align-items: center;
+}
+.component-event-filter__additional-title {
+    flex-grow: 1;
+}
+.component-event-filter__reset {
+    flex-grow: 0;
+    text-align: right;
+}
+.component-event-filter__additional-content {
+    border-top: solid 2px $mauve;
+    margin-top: $spacing-16;
+    padding: $spacing-8 0;
+}
+.component-event-filter__additional-content .control-group {
+    margin-top: $spacing-16;
+}
+.component-event-filter__additional-content p {
+    margin-bottom: $spacing-8;
+}
+.component-event-filter__additional-content .column:not(:last-of-type) {
+    border-right: solid 2px $mauve;
 }
 .control {
     background: none;
@@ -43,8 +65,7 @@
     position: relative;
 }
 .mixitup-container-failed::after {
-    content: 'No Result 😬';
-    padding: 32px;
+    content: 'No results, please refine your search';
     position: absolute;
     top: 0;
     right: 0;

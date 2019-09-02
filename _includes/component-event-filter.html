@@ -15,63 +15,70 @@
         {% endfor %}
     </div>
     <div class="component-event-filter__additional">
-        <span class="events__additional-filters-header" data-houdini-toggle="additional-filters">
-            Additional Filters
-        </span>
-        <div class="events__additional-filters-content" data-houdini-group="additional-filters" id="additional-filters">
-            <div class="control-group grid grid__4-column" data-filter-group="">
-                <div class="">
-                    <p>
+        <div class="component-event-filter__additional-header">
+            <span class="component-event-filter__additional-title font-size-5 font-weight-700 sans" data-houdini-toggle="additional-filters">
+                Additional Filters
+            </span>
+            <div class="component-event-filter__reset control-group">
+                <button class="control control-text font-size-6 font-weight-700 sans" type="reset">
+                    View All Events
+                </button>
+            </div>
+        </div>
+        <div class="component-event-filter__additional-content" data-houdini-group="additional-filters" id="additional-filters">
+            <div class="component-event-filter__status control-group grid grid__4-column" data-filter-group="">
+                <div class="column">
+                    <p class="font-weight-700">
                         Status
                     </p>
                     {% for control in site.data.agenda.filter-status %}
                     <div class="radio">
-                        <label class="radio-label">
+                        <label class="radio-label font-size-6">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                             {{ control.text-1 }}
                         </label>
                     </div>
                     {% endfor %}
                     <div class="radio">
-                        <label class="radio-label">
+                        <label class="radio-label font-size-6">
                             <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
                             Hide Sold Out
                         </label>
                     </div>
                 </div>
-                <div class="">
-                    <p>
+                <div class="column">
+                    <p class="font-weight-700">
                         Time
                     </p>
                     {% for control in site.data.agenda.filter-time-of-day %}
                     <div class="radio">
-                        <label class="radio-label">
+                        <label class="radio-label font-size-6">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                             {{ control.text-1 }}
                         </label>
                     </div>
                     {% endfor %}
                 </div>
-                <div class="">
-                    <p>
+                <div class="column">
+                    <p class="font-weight-700">
                         Type
                     </p>
                     {% for control in site.data.agenda.filter-event-type %}
                     <div class="radio">
-                        <label class="radio-label">
+                        <label class="radio-label font-size-6">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                             {{ control.text-1 }}
                         </label>
                     </div>
                     {% endfor %}
                 </div>
-                <div class="">
-                    <p>
+                <div class="column">
+                    <p class="font-weight-700">
                         Location
                     </p>
                     {% for control in site.data.agenda.filter-location %}
                     <div class="radio">
-                        <label class="radio-label">
+                        <label class="radio-label font-size-6">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
                             {{ control.text-1 }}
                         </label>
@@ -80,10 +87,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="component-event-filter__reset control-group">
-        <button class="control control-text" type="reset">
-            View All Events
-        </button>
     </div>
 </form>
