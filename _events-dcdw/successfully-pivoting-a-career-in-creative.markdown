@@ -15,7 +15,7 @@ tickets:
   has-member-button: true
   member-button-label: "$10 Members"
   has-non-member-button: true
-  non-member-button-label: "$15 Non-members"
+  non-member-button-label: "$15 Non-members (On Sale September 10)"
 venue:
   name: Brllnt
   address: 1140 3rd Street NE, Suite 375, Washington, DC 20002
