@@ -54,8 +54,8 @@ filter-location:
 
 Limited runs of comics and other works created by artists can easily be lost to time, a reality that led to Small Press Expo developing a collection that is now part of the Library of Congress. During this morning salon, DCDW attendees will join other artists, illustrators, and designers in a private exploration of the Library of Congress and its comic collection. The morning will begin in the Madison Building, where Curator of Popular and Applied Art Sara Duke will give attendees a tour of the Prints & Photographs Division. Next, attendees will take a short walk to the Jefferson Building for a private talk in the Comic Art Exhibit with Small Press Expo Executive Director Warren Bernard.
 
-**Venue Accessibility (elevators, stairs, etc.): **
-https://www.loc.gov/accessibility/
+**Venue Accessibility (elevators, stairs, etc.):**
+[https://www.loc.gov/accessibility/](https://www.loc.gov/accessibility/)
 
 Important! Attendees to this event  will be required to pass through airport style security to enter the building, be sure to double check your bags for benign yet prohibited items, like bottle openers and Swiss army knives.
 
