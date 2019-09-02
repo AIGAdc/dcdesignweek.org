@@ -31,15 +31,31 @@ speakers:
 - speaker: 
   name: Allison Fischer
   title: Manager, Globe Collection and Press at The MICA
-  bio: |-
-    Allison Fisher is a designer and letterpress printer from Baltimore, Maryland. She is the manager of the Globe Collection and Press at MICA (Maryland Institute College of Art). She fell in love with printmaking and letterpress while earning her BFA in Graphic Design at MICA. As a student she was bitten by the DayGlo love of Globe and devoted most of her senior year helping to rally student support for acquisition of the collection. Her love of Globe kept her in Baltimore, lurking around MICA’s campus, helping on projects and spreading the word of Globe until MICA finally hired her. Allison manages all things related to Globe at MICA from the production of Globe’s new projects for clients like Hello Kitty, Smithsonian Institutions and Stax Records, to wrangling Globe interns, overseeing archiving, working on community-oriented projects and more. When not working on Globe Allison can be found tinkering on her own presses and working as a Linotype apprentice at the Baltimore Museum of the Industry.
+  bio: Allison Fisher is a designer and letterpress printer from Baltimore, Maryland.
+    She is the manager of the Globe Collection and Press at MICA (Maryland Institute
+    College of Art). She fell in love with printmaking and letterpress while earning
+    her BFA in Graphic Design at MICA. As a student she was bitten by the DayGlo love
+    of Globe and devoted most of her senior year helping to rally student support
+    for acquisition of the collection. Her love of Globe kept her in Baltimore, lurking
+    around MICA’s campus, helping on projects and spreading the word of Globe until
+    MICA finally hired her. Allison manages all things related to Globe at MICA from
+    the production of Globe’s new projects for clients like Hello Kitty, Smithsonian
+    Institutions and Stax Records, to wrangling Globe interns, overseeing archiving,
+    working on community-oriented projects and more. When not working on Globe Allison
+    can be found tinkering on her own presses and working as a Linotype apprentice
+    at the Baltimore Museum of the Industry.
   website: http://www.globeatmica.com/
 - speaker: 
   name: Marcus Dowling
   title: Journalist
-  bio: |-
-    As a journalist, native Washingtonian Marcus K. Dowling has written for print journals including Vice, Complex, Spotify, The FADER, Bandcamp, Red Bull Magazine, Mixmag, DJ Mag, and innumerable others. Creatively, he is the creative curator behind the development of downtown DC's award-winning Decades Nightclub. Sitting comfortably at the confluence of the underground and mainstream, Marcus is obsessed with history, appreciative of the present, and loving the future. He is a creator, curator, and innovator living in a wild new age.
-  website:
+  bio: As a journalist, native Washingtonian Marcus K. Dowling has written for print
+    journals including Vice, Complex, Spotify, The FADER, Bandcamp, Red Bull Magazine,
+    Mixmag, DJ Mag, and innumerable others. Creatively, he is the creative curator
+    behind the development of downtown DC's award-winning Decades Nightclub. Sitting
+    comfortably at the confluence of the underground and mainstream, Marcus is obsessed
+    with history, appreciative of the present, and loving the future. He is a creator,
+    curator, and innovator living in a wild new age.
+  website: 
 filter-date:
   is-day-1: true
 filter-time:

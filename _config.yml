@@ -43,7 +43,7 @@ defaults:
       image-alt: Provide alt text describing the image above.
       start-time: Select the start time of the event.
       end-time: Select the end time of the event.
-      has-external-url: False
+      has-external-url: false
       external-url: If true, provide external url link.
       has-speakers: Select True is event has speakers
     tickets:
@@ -62,11 +62,11 @@ defaults:
       address: Provide the address of the venue.
       directions: Provide a google maps link with directions to the venue.
     speakers:
-      - speaker: 
-        name: Provide Speaker name.
-        title: Provide Speaker title.
-        bio: Provide Speaker bio.
-        website: Provide Speaker website.
+    - speaker: 
+      name: Provide Speaker name.
+      title: Provide Speaker title.
+      bio: Provide Speaker bio.
+      website: Provide Speaker website.
     filter-date:
       is-day-1: Select True if event occurs on day 1.
       is-day-2: Select True if event occurs on day 2.
