@@ -54,7 +54,6 @@ filter-location:
 
 Limited runs of comics and other works created by artists can easily be lost to time, a reality that led to Small Press Expo developing a collection that is now part of the Library of Congress. During this morning salon, DCDW attendees will join other artists, illustrators, and designers in a private exploration of the Library of Congress and its comic collection. The morning will begin in the Madison Building, where Curator of Popular and Applied Art Sara Duke will give attendees a tour of the Prints & Photographs Division. Next, attendees will take a short walk to the Jefferson Building for a private talk in the Comic Art Exhibit with Small Press Expo Executive Director Warren Bernard.
 
-
 **There is a $5 refundable charge to reserve your spot – you’ll get a refund when you show up and check in.**
 
 **Venue Accessibility (elevators, stairs, etc.):**
@@ -68,19 +67,3 @@ Closest Metro stop: Capitol South (Orange/Blue/Silver Lines) - Exit station usin
 Alternative Stop: Union Station (Red Line) - .5 miles
 
 Parking Options: Limited two-hour zone and metered parking on streets, public parking lots (closest is located at Union Station)
-
-## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
-
-100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
-
-**Accessibility:**
-If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
-
-**Code of Conduct:**
-All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-
-**Questions?**
-If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
