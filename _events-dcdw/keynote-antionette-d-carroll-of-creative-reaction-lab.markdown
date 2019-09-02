@@ -19,6 +19,7 @@ tickets:
   non-member-button-label: "$15 Non-members"
 venue:
   name: TBD
+  address: Location to be announced soon!
 speakers:
 - name: Antionette D. Carroll
   title: Founder and CEO of Creative Reaction Lab
