@@ -10,12 +10,48 @@ event:
   image: "/uploads/Header_Teacups.png"
   image-alt: white teacups film
   start-time: 5:30pm
-  end-time: 8.30pm
+  end-time: 8:30pm
+  has-speakers: true
 tickets:
   has-member-button: true
+  member-button-label: "$10 Members"
   has-non-member-button: true
+  non-member-button-label: "$15 Non-members"
 venue:
+  name: Eaton Workshop (Theater Room)
   address: 201 K St NW, Washington, DC 20005
+  directions: https://goo.gl/maps/kdMACg3ufJhegak57
+speakers:
+- name: Michelle Bauer Carpenter
+  title: Associate Professor of Digital Design in the College of Arts & Media at the
+    University of Colorado Denver
+  bio: 'Michelle Bauer Carpenter is an Associate Professor of Digital Design in the
+    College of Arts & Media at the University of Colorado Denver. Carpenter has produced,
+    directed and edited award-winning experimental and documentary pieces. Carpenter’s
+    creative research consists of two distinct styles of art-making: traditional narrative
+    and experimental video documentary. Her video pieces have screened in numerous
+    international and national film festivals and art galleries. Enough White Teacups
+    Carpenter’s latest film is screening both nationally and internationally and it
+    has won numerous awards including National Academy of Television Arts & Sciences
+    Heartland Chapter for Graphic Design Program, Best Foreign Film Award at the American
+    Conservation Film Festival, Best Success Story at the Ekotopfilm/Envirofilm in
+    Bratislava, Slovakia, and ACFF Foreign Film Award at the American Conservation
+    Film Festival, among others.'
+  website-label: 
+  website-url: http://enoughwhiteteacups.com/
+- name: Vincent Wanga
+  title: Designer, Director, Creative Consultant & Entrepreneur
+  bio: Vincent Wanga is Senior Creative Director at Morning Consult, a global survey
+    research data technology startup. As a Designer, Director, Creative Consultant
+    & Entrepreneur, he has more than 15 years of professional experience in a multitude
+    of creative disciplines. Inspired by art, film, architecture, technology, and
+    travel, he has explored the world collecting creative inspiration while collaborating
+    with a diverse constituency of clients and companies from the newly-founded to
+    the Fortune 500. With an arsenal of aptitudes acquired through the years, he looks
+    at the world with a critical creative eye while empathetically analyzing the eloquence
+    and human consequence of our craft.
+  website-label: 
+  website-url: http://vwanga.com
 filter-date:
   is-day-3: true
 filter-time:
