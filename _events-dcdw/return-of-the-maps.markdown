@@ -52,18 +52,17 @@ speakers:
     National Press Club. In 2017, his team won a Shorty Award for best data visualization.\n\nCurrently,
     he’s exploring the intersection of open-source geodata and motion design and leads
     production of CSIS's High Resolution geospatial video series. He earned his master's
-    degree in multimedia journalism from the University of Miami in Florida in 2010"
+    degree in multimedia journalism from the University of Miami in Florida in 2010."
   website-label: 
   website-url: 
 - name: Lauren Tierney
   title: Graphics Reporter and Cartographer, The Washington Post
-  bio: "Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
+  bio: Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
     who enjoys telling stories with maps and specializes in mapping environment, climate,
     wildlife, and adventure topics. Before joining the Post in 2017, she was a Graphics
     Editor at National Geographic Magazine, and has a masters degree in geography
     from the University of Oregon. She is a board member for the North American Cartographic
-    Information Society, and is a past editor of the Atlas of Design.\n\nInstagram
-    @tierneyl "
+    Information Society, and is a past editor of the Atlas of Design.
   website-label: 
   website-url: 
 - name: Dana Sulit
@@ -99,6 +98,7 @@ Attendees will hear about:
 * Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
 * Map design and data visualizations from Lauren Tierney of The Washington Post
 * Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
+
 
 
 ## About DC Design Week
