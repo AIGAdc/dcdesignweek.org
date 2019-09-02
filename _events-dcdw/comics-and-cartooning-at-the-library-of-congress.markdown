@@ -22,6 +22,10 @@ Important! Attendees to this event  will be required to pass through airport sty
 **Transportation / Helpful Directions to Venue (metro stop, parking availability):**
 Closest Metro stop: Capitol South (Orange/Blue/Silver Lines) - Exit station using main exit, walk approximately two blocks north on First Street SE.
 
+Alternative Stop: Union Station (Red Line) - .5 miles
+
+Parking Options: Limited two-hour zone and metered parking on streets, public parking lots (closest is located at Union Station)
+
 ## About DC Design Week
 Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
 
