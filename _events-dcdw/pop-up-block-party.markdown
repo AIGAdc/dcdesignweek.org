@@ -11,7 +11,7 @@ event:
   end-time: 11:00pm
 tickets:
   has-member-button: true
-  member-button-url: Free Members
+  member-button-label: Free Members
   has-non-member-button: true
   non-member-button-label: Free Non-members
 venue:
@@ -32,7 +32,7 @@ Don’t miss it, because supplies won’t last!
 The Neighborgoods is a one stop shop to pick up witty and unique gifts for any and all occasions based here in Shaw, DC. In this colorful shop you'll find their own line of foodie-themed giftable goods including dish towels, tote bags, baby one-pieces, stickers, and more. In addition, they bring in a selection of home goods and gift products so you are sure to find something for everyone. If you get lucky you might catch their shop dog, Frankie, when he's on duty greeting customers and giving out free pets. The shop is open Tuesday - Saturday 12-8 and Sundays 11-7 at 2130 8th St. NW. [Learn more here.](https://theneighborgoods.com/)
 
 ## Event Partner: Type Industries
-Typecase Industries is the leading full service design and letterpress print shop in Washington, D.C. Founded in 2012 by three close friends with a passion for print, they’re  dedicated to producing high-quality paper goods and fostering creativity. From wedding invitations and business cards, to hand-lettered die-cut masks and hand-bound books, they’re up for anything! [Learn more here.] (http://www.typecaseindustries.com)
+Typecase Industries is the leading full service design and letterpress print shop in Washington, D.C. Founded in 2012 by three close friends with a passion for print, they’re  dedicated to producing high-quality paper goods and fostering creativity. From wedding invitations and business cards, to hand-lettered die-cut masks and hand-bound books, they’re up for anything! [Learn more here.](http://www.typecaseindustries.com)
 
 ## About DC Design Week
 Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
