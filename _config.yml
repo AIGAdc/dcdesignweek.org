@@ -9,12 +9,12 @@ collections:
     title: Events - DCDW
     output: true
     permalink: "/events/:title/"
-  posts:
-    title: Posts
-    output: true
   partners:
     title: Partners
     output: false
+  posts:
+    title: Posts
+    output: true
   sponsors:
     title: Sponsors
     output: false

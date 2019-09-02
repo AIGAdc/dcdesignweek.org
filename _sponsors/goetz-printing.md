@@ -6,3 +6,4 @@ image-alt: logo for goetz
 url: https://www.goetzprinting.com/
 is-2019: false
 ---
+

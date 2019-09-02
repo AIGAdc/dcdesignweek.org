@@ -6,3 +6,4 @@ image-alt: logo for right proper
 url: https://www.rightproperbrewing.com/
 is-2019: false
 ---
+

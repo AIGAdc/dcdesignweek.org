@@ -6,3 +6,4 @@ image-alt: logo for hp
 url: https://www8.hp.com/us/en/commercial-printers/graphic-arts.html
 is-2019: false
 ---
+
