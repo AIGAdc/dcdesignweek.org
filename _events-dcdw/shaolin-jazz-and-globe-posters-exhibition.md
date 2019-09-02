@@ -54,8 +54,8 @@ speakers:
     comfortably at the confluence of the underground and mainstream, Marcus is obsessed
     with history, appreciative of the present, and loving the future. He is a creator,
     curator, and innovator living in a wild new age.
-  website-label:
-  website-url:
+  website-label: 
+  website-url: 
 filter-date:
   is-day-1: true
 filter-time:
