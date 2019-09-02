@@ -14,6 +14,77 @@ venue:
   name: 'General Assembly '
   address: 509 7th St NW, Washington, DC 20004
   directions: https://goo.gl/maps/rfNnSru9XTCYmXnC8
+speakers:
+- name: Dr. Jamika D. Burge
+  title: Artificial Intelligence (AI) Design Team Member at Capital One
+  bio: |-
+    Dr. Jamika D. Burge is part of the Artificial Intelligence (AI) Design team that creates experiences for conversation and intelligent AI at Capital One. Before that, she was a tech consultant the Defense Advanced Research Projects Agency, supporting innovative tech programs that were funded at over $70 million.Jamika is also the co-founder of blackcomputeHER, an organization dedicated to supporting computational and design thinking capacity, as well as workforce development for black women and girls. She is an authority in human-centered design, inclusive research in tech, and the intersectionality of black women and girls in computing+tech. She has consulted for Google, the National Center for Women in Technology (NCWIT), and the American Association of Colleges & Universities (AAC&U). Jamika and her work have been featured in the New York Times and ComputerWorld, and has been recognized by HackBright Academy as a Top Tech Leader to Watch.
+
+    Twitter @jdburge
+  website-label: Website
+  website-url: https://jamikaburge.com/
+- name: Mandy R. Drew
+  title: Artificial Intelligence/Human Experience Researcher at Capital One
+  bio: Mandy R. Drew is an Artificial Intelligence/Human Experience Researcher at
+    Capital One who specializes in using mixed-methods to understand how intelligent
+    assistants can help people manage their finances and impact their lives. Mandy
+    is a staunch advocate for research integrity and is passionate about designing
+    experiments that produce accurate, repeatable, reliable insights leading to innovations
+    in responsible AI, voice UI, and intelligent assistants. She is particularly interested
+    in the disconnect between what people say and what they actually do.
+  website-label: What does the System Usability Scale (SUS) Measure?
+  website-url: https://www.researchgate.net/publication/326606631_What_does_the_System_Usability_Scale_SUS_Measure
+- name: Jamie Wlodinger
+  title: Principal Artificial Intelligence/Human Experience Designer at Capital One
+  bio: Jamie Wlodinguer works with the Artificial Intelligence (AI) design team at
+    Capital One, where she helps develop the UX strategy behind the future of Capital
+    One’s Conversational AI products. She believes that good design means as little
+    design as possible, and often works to simplify complex problems by subtracting
+    clutter and creating reusable patterns. Previously, she helped launch new product
+    features that simplify the wedding planning process at WeddingWire and designed
+    websites, apps, and digital products at Philadelphia design agency, O3 World.
+    In 2012 she graduated with a BFA in Communication Design from Carnegie Mellon
+    University.
+  website-label: Website
+  website-url: http://www.jamiewlodinguer.com/
+- name: Dr. Liwei Dai
+  title: UX Researcher, AI and Machine Learning at Capital One
+  bio: Dr. Liwei Dai works with the Artificial Intelligence (AI) design team at Capital
+    One, where she explores human stories and insights, and uses them to guide and
+    inspire the future of AI in people’s lives. She also teaches Design Thinking to
+    people from different backgrounds and in different roles, with a firm belief that
+    everyone is creative and can become a design thinker. Previously, she led the
+    Design Research team in Nielsen, and also worked in Xerox and IBM as a researcher.
+    She has a Ph.D. in human-computer interaction. She lives in Oakton VA with her
+    husband and two young boys.
+  website-label: LinkedIn
+  website-url: http://www.linkedin.com/in/liweidai
+- name: Brook Smith
+  title: Digital Designer at Capital One
+  bio: Brooke Smith works with the Digital Messaging Team at Capital One, where she
+    supports the Commercial Marketing team with building enterprise email communications.
+    With her extensive background in programming, she brings her passion for technology
+    and facilitation to the forefront of every connection. Previously teaching at
+    Virginia Commonwealth University and Girls Who Code in partnership with Girls
+    For A Change Nonprofit organization, she strongly believes in sharing her path
+    into STEM with young adults and young girls. Brooke currently resides in Woodbridge,
+    VA and enjoys exploring DC in her spare time.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/brooke-smith-51473061/
+- name: Dane Robertson
+  title: Product Design Lead at Capital One
+  bio: Dane Robertson works with the Commercial Card design team at Capital One, where
+    he leads the design team responsible for card and expense management solutions
+    for commercial customers. Prior to joining, he worked on high profile government
+    projects including Healthcare.gov, the DOD/VA integrated Electronic Health Record,
+    and Veteran Benefits Management System. All these projects also ended up on the
+    Daily Show!   Dane’s greatest accomplishment is that his mother was able to find
+    affordable health insurance on an application he designed.  He truly believes
+    in teaching and showing the benefits of creative problem solving to those in the
+    same underserved communities where he grew up.  Dane resides in Centreville, VA
+    with his wife and two boys.
+  website-label: Website
+  website-url: http://www.uxdane.com/
 ---
 
 Novice and expert designers are invited to participate in this not-so-ordinary human-centered design workshop with a focus on designing inclusive experiences. Workshop participants will be encouraged to bring their personal perspectives to embrace a growth mindset when applying design thinking to their daily lives and work.
