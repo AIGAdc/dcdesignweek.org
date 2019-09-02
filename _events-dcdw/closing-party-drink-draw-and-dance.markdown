@@ -2,7 +2,7 @@
 title: 'Closing Party: Drink, Draw & Dance'
 date: 2019-09-02 14:27:00 -04:00
 status:
-  is-featured-on-events: true
+  is-featured-on-events: false
   is-featured-on-home: true
   featured-event-message: End of week, party time!
 event:
