@@ -19,7 +19,7 @@ tickets:
   non-member-button-label: "$15 Non-members"
 venue:
   name: Eaton Workshop (Theater Room)
-  address: 201 K St NW, Washington, DC 20005
+  address: 1201 K St NW, Washington, DC 20005
   directions: https://goo.gl/maps/kdMACg3ufJhegak57
 speakers:
 - name: Michelle Bauer Carpenter
