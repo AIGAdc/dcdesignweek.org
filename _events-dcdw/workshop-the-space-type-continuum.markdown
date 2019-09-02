@@ -4,8 +4,7 @@ date: 2019-09-01 18:36:00 -04:00
 position: 2
 image: "/uploads/Header_KIelGif.gif"
 status:
-  is-coming-soon: true
-  coming-soon-message: Coming Soon!
+  is-coming-soon: false
 event:
   date: 2019-09-21 13:00:00 -04:00
   description: 'Bring your typography to life with designer and MICA educator Kiel
