@@ -64,7 +64,7 @@ ISL is accessible from the back entrance of the building.
 **Transportation / Helpful Directions to Venue (metro stop, parking availability):** ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW. 
 
 ## About DC Design Week
-Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
+Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am.
 
 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/) scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
