@@ -1,0 +1,36 @@
+---
+title: Small Humans, Big Design
+date: 2019-09-02 11:59:00 -04:00
+status:
+  is-coming-soon: false
+event:
+  date: 2019-09-21 10:00:00 -04:00
+  description: Bring your kids and join us at Steadfast Supply at The Yards in DC
+    to work with talented illustrator, Carolyn Sewell, and participate in the creation
+    of a one-of-a-kind art installation.
+  image: "/uploads/Header_Steadfast%20Crafting.png"
+  image-alt: Steadfast Supply
+  start-time: 10:00am
+  end-time: 1:00pm
+  has-speakers: true
+tickets:
+  has-member-button: true
+  member-button-label: "$5 Deposit"
+  has-non-member-button: true
+  non-member-button-label: "$5 Deposit (On Sale September 10)"
+venue:
+  name: 'Steadfast Supply: Yards Location '
+  address: 301 Tingey Street SE, DC 20003 - Entrance on Water Street
+  directions: https://goo.gl/maps/rpKM1Z6ojoG2rXdQ6
+speakers:
+- name: Carolyn Sewell
+  title: 'Designer, illustrator, letterer '
+  bio: |
+    Carolyn Sewell is a designer/illustrator/letterer living in Raleigh, NC. A potty-mouthed lover of all things typographic and bacony, her work is hand-lettered and deep-fried in butter and hugs, topped with shiny, irreverent sprinkles. Her work has been published in Communication Arts, PRINT, Grafik, HOW and The Washington Post. Some of her clients include Dairy Queen, Hillary Clinton, Princess Cruise Lines, Rite Aid, Southern Poverty Law Center, and Starbucks. Her favorite color is glitter and folks say she's nice.
+
+    Instagram @carolynsewell
+---
+
+Join us for an opportunity for kids and parents to get creative together! You’ll meet and design a one-of-a-kind art installation with Carolyn Sewell. Carolyn’s work has been published in Communication Arts, PRINT, Grafik, HOW and The Washington Post. She and her daughter, fondly nick-named “Biscuit”, both have a passion for bright colors and bacon! We’ll gather at Steadfast Supply, a shop whose mission is to bolster the local community by introducing emerging and independent brands and designers into the D.C. market. Bring all of your small ones — whether experienced artists or beginners, everyone is welcome.
+ 
+There is a $5 refundable charge (per family) to reserve your spot – you’ll get a refund when you show up and check-in! 
