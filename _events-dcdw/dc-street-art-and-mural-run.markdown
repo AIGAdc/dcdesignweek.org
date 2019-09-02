@@ -3,7 +3,7 @@ title: DC Street Art & Mural Run
 date: 2019-09-02 13:33:00 -04:00
 status:
   is-featured-on-home: true
-  featured-event-message: Break a sweat! See good stuff! Break a sweat! See good stuff!
+  featured-event-message: 'Break a sweat! See good stuff! '
 event:
   date: 2019-09-25 07:00:00 -04:00
   description: Take to the streets with District Running Club and hit DC’s historic
