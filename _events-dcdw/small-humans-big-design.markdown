@@ -48,15 +48,17 @@ Join us for an opportunity for kids and parents to get creative together! You’
 
 Carolyn’s work has been published in *Communication Arts*, *PRINT*, *Grafik*, *HOW* and *The Washington Post*. She and her daughter, fondly nick-named “Biscuit”, both have a passion for bright colors and bacon! We’ll gather at Steadfast Supply, a shop whose mission is to bolster the local community by introducing emerging and independent brands and designers into the D.C. market. Bring all of your small ones — whether experienced artists or beginners, everyone is welcome.
  
-**There is a $5 refundable charge (per family) to reserve your spot – you’ll get a refund when you show up and check-in! **
+**There is a $5 refundable charge (per family) to reserve your spot – you’ll get a refund when you show up and check-in!**
 
 ## About Steadfast Supply
 
 Steadfast Supply is a conceptual retail store with a mission. Housed in a 3,000 square ft warehouse space at The Yards located in Washington, D.C., Steadfast Supply provides a platform for independent brands and designers from around the country to share their goods and their stories with the denizens of The Yards and beyond. Steadfast Supply is a store with deep roots in creative entrepreneurship that celebrates the triumphs of small businesses by serving as an incubator to independent designers and brands, inspiring them to grow and thrive.
 
-**Venue Accessibility (elevators, stairs, etc.)**: Ground-floor, easily accessible. 
+**Venue Accessibility (elevators, stairs, etc.)**
+Ground-floor, easily accessible. 
 
-**Transportation / Helpful Directions to Venue (metro stop, parking availability)**: Nearby paid parking lots available. Entrance on Water Street. Steadfast Supply is easily accessible via Metro, highway, bus, bike, or on foot. I-295 and I-395 conveniently provide direct access to The Yards.
+**Transportation / Helpful Directions to Venue (metro stop, parking availability)**
+Nearby paid parking lots available. Entrance on Water Street. Steadfast Supply is easily accessible via Metro, highway, bus, bike, or on foot. I-295 and I-395 conveniently provide direct access to The Yards.
 
 ## About DC Design Week
 Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/05 at 10am and the General Public On-Sale begins 9/10 at 10am.
@@ -65,11 +67,11 @@ Built by 100% volunteer power, DC Design Week is an annual celebration of this c
 
 Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)! 
 
-###Accessibility
+**Accessibility**
 If you need any accommodations to fully access the event, please get in touch with us by Monday, September 16, 2019 at: designweek@dc.aiga.org.
 
-###Code of Conduct
+**Code of Conduct**
 All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
 
-###Questions?
+**Questions?**
 If you have any questions, feel free to reach out to us at: designweek@dc.aiga.org.
