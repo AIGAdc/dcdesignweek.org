@@ -7,6 +7,8 @@ event:
     Bring your in-progress projects to the Entrepreneurial Design Accelerator and
     learn how to make it a reality.
   image: "/uploads/Header-Elite-Truong.png"
+  start-time: 8:00am
+  end-time: 10:00am
   has-speakers: true
 tickets:
   has-member-button: true
