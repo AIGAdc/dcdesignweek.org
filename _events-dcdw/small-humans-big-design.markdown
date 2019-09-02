@@ -17,7 +17,7 @@ tickets:
   has-member-button: true
   member-button-label: "$5 Deposit Members"
   has-non-member-button: true
-  non-member-button-label: " $5 Deposit Non-member (On Sale September 10)"
+  non-member-button-label: " $5 Deposit Non-members (On Sale September 10)"
 venue:
   name: 'Steadfast Supply: Yards Location '
   address: 301 Tingey Street SE, DC 20003 - Entrance on Water Street
