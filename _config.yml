@@ -132,7 +132,7 @@ defaults:
     image: Displays the partners logo
     image-alt: Provide alt text for partners logo
     url: Provide link for partners website
-    is-2019: Select True if 2019 partner
+    is-2019: true
 - scope:
     path: ''
     type: sponsors
