@@ -69,7 +69,7 @@ Does this event sound interesting to you, but perhaps too advanced? We’ve got 
 
 **Metro/WMATA** GA DC is accessible from the following Metro Stations: Gallery Place/Chinatown and Metro Center.
 
-##Event Partner: The Duke and the Duck
+## Event Partner: The Duke and the Duck
 Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com)
 
 ## About DC Design Week
