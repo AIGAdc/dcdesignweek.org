@@ -1,11 +1,15 @@
 <div class="sponsors">
-    <h2>
-        Sponsors (Add Updated Copy Again)
-    </h2>
-    <hr/>
-    <p>
-        Sponsors Text (Add Updated Copy Again)
-    </p>
+    {% if page.url == "/" %}
+        {% for section in page.sponsors %}
+        <h2>
+            {{ section.header }}
+        </h2>
+        <hr/>
+        <p>
+            {{ section.body | markdownify }}
+        </p>
+        {% endfor %}
+    {% endif %}
     <ul class="listing__sponsors">
         {% for sponsor in site.sponsors %}
             {% if sponsor.is-2019 == true %}
@@ -20,4 +24,13 @@
 	        {% endif %}
         {% endfor %}
     </ul>
+    {% if page.url == "/" %}
+        {% for section in page.sponsors %}
+            {% if section.has-button == true %}
+                <a class="button button__{{ section.button-type }}--{{ section.button-class }}" style="margin-top: 32px;" href="{{ section.button-url }}" rel="noopener" target="_blank">
+                    {{ section.button-label }}
+                </a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 </div>
