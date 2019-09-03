@@ -15,7 +15,7 @@ event:
 tickets:
   has-member-button: true
   member-button-url: https://www.apple.com/today/event/design-lab-rachel-orr-092219/6573249202036835725/
-  member-button-label: Free
+  member-button-label: Register for Free
 venue:
   name: 'Main Stage at the Apple Store in Carnegie Library '
   address: 801 K St NW First Floor, Washington, DC 20001
