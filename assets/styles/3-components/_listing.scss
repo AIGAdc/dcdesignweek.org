@@ -21,7 +21,7 @@
     .listing__partners {
         grid-template-columns: repeat(6, 1fr);
     }
-    .listing__committee, .listing__events {
+    .listing__committee, .listing__events, .events-layout .listing__events {
         grid-template-columns: repeat(3, 1fr);
     }
 }
