@@ -1,5 +1,7 @@
 /* Events Single Page */
 
+/* hero */
+
 .event-single__hero {
     align-items: center;
     background-position: center;
@@ -29,13 +31,13 @@
 .event-single__hero-content a.button {
     margin-top: 0;
 }
-
+.event-single__hero-content a:first-of-type {
+    margin-bottom: 16px;
+}
+/* details */
 
 .event-single__details {
     background-color: $lightning-yellow-light;
-}
-.event-single__details-content {
-
 }
 .event-single__details-content h3 {
     font-family: $sans;
@@ -49,22 +51,36 @@
 .event-single__details-content p:last-of-type {
     margin-bottom: 0;
 }
-.events-single-layout video {
+/* content */
+
+.event-single__content video {
     margin-bottom: $spacing-32;
 }
-.event__speaker {
-    font-size: $font-size-16;
-}
-.event__speaker h3 {
-    font-size: $font-size-24;
-}
-.event__speaker p {
-    margin-bottom: $spacing-8;
-}
-.events-single-layout ul {
+.event-single__content ul, ol {
     margin-left: 40px;
     margin-bottom: 32px;
 }
-.block__events-information {
-    margin-top: $spacing-32;
+/* speakers */
+
+.event-single__speakers-list {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
+}
+.event-single__speaker {
+    font-size: $font-size-16;
+}
+.event-single__speaker h3 {
+    font-size: $font-size-24;
+}
+.event-single__learn p:last-of-type {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 1023px) {
+    .event-single__hero-content a:first-of-type {
+        margin-bottom: 0;
+    }
+    .event-single__speakers-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
