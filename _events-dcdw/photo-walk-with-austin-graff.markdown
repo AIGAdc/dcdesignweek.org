@@ -33,7 +33,7 @@ speakers:
     community of local photographers, and often documents life in the city via his
     Instagram. He lives in SE DC with his wife, daughter, and friend.'
   website-label: Instagram
-  website-url: http://instagram.com/austin-graff
+  website-url: 'https://www.instagram.com/austinkgraff/ '
 filter-date:
   is-day-4: true
 filter-time:
