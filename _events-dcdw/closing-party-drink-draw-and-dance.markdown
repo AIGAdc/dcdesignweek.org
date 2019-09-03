@@ -4,7 +4,7 @@ date: 2019-09-02 14:27:00 -04:00
 status:
   is-featured-on-events: false
   is-featured-on-home: true
-  featured-event-message: End of week, party time!
+  featured-event-message: End of week, party time! End of week, party time! End of week, party time!
 event:
   date: 2019-09-27 20:00:00 -04:00
   description: Come party at the end of an amazing week with us at Capitol Cider House!
