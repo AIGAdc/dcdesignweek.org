@@ -126,7 +126,7 @@ Novice and expert designers are invited to participate in this not-so-ordinary h
  
 During this hands-on event, you’ll get to work with small-group activities, ethnographic observation, synthesis and insights generation, and principles of inclusion to solve unique design challenges. Once you’re finished, you can expect to leave this workshop having designed experiences that matter for people living in and around the DC area. 
 
-This workshop is co-presented by designers from Capital One’s One Design organization and blackcomputeHER.org. Drinks and light refreshments during the workshop.
+This workshop is co-presented by designers from Capital One’s One Design organization and [blackcomputeHER.org](https://blackcomputeher.org/). Drinks and light refreshments during the workshop.
 
 **Transportation / Helpful Directions:**
 
