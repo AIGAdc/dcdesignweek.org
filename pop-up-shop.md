@@ -1,6 +1,6 @@
 ---
 title: Pop Up Shop
-call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.jpg"
+call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
 call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Shop the Block Party
 call-for-artists-body: "Come and celebrate your local DC design community at the Block
