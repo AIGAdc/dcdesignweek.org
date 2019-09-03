@@ -1,6 +1,7 @@
 ---
 title: Spotify for Artists
 date: 2019-09-02 19:15:00 -04:00
+position: 13
 image: "/uploads/partner-spotofy-for-artisits.jpg"
 image-alt: logo for spotify for artists
 website: https://artists.spotify.com/
