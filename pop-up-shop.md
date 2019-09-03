@@ -7,7 +7,7 @@ call-for-artists-body: "Come and celebrate your local DC design community at the
   Party, have some beer and snacks, and shop all of the awesome goods for sale at
   the DCDW Pop-Up Shop!\n\n"
 call-for-artists-button: RSVP
-call-for-artists-button-url: 
+call-for-artists-button-url: /events/pop-up-block-party/
 layout: pop-up-shop
 ---
 
