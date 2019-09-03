@@ -1,22 +1,14 @@
 /* Events Single Page */
-.events-single-layout .event-hero {
-    min-height: 40vh;
-    display: flex;
+
+.event-single__hero {
     align-items: center;
-    position: relative;
-    background-size: cover;
     background-position: center;
-}
-.event-hero__content {
-    color: $black;
+    background-size: cover;
+    display: flex;
+    min-height: 40vh;
     position: relative;
-    width: 100%;
-    z-index: $index-3;
 }
-.event-hero__content a.button {
-    margin-top: 0;
-}
-.event-hero__overlay {
+.event-single__overlay {
     background-color: $white;
     position: absolute;
     top: 0;
@@ -25,16 +17,37 @@
     left: 0;
     opacity: 0.5;
 }
-.event__details {
+.event-single__hero-content {
+    color: $black;
+    position: relative;
+    width: 100%;
+    z-index: $index-3;
+}
+.event-single__hero-content p {
+    font-weight: 700;
+}
+.event-single__hero-content a.button {
+    margin-top: 0;
+}
+
+
+.event-single__details {
     background-color: $lightning-yellow-light;
 }
-.event__details small {
+.event-single__details-content {
+
+}
+.event-single__details-content h3 {
     font-family: $sans;
     font-size: $font-size-20;
     font-weight: 700;
+    margin-bottom: $spacing-16;
 }
-.event__details p {
-    margin: $spacing-8 0;
+.event-single__details-content p:first-of-type {
+    margin-bottom: $spacing-8;
+}
+.event-single__details-content p:last-of-type {
+    margin-bottom: 0;
 }
 .events-single-layout video {
     margin-bottom: $spacing-32;
@@ -48,12 +61,10 @@
 .event__speaker p {
     margin-bottom: $spacing-8;
 }
-
 .events-single-layout ul {
-        margin-left: 40px;
-        margin-bottom: 32px;
+    margin-left: 40px;
+    margin-bottom: 32px;
 }
-
 .block__events-information {
     margin-top: $spacing-32;
 }
