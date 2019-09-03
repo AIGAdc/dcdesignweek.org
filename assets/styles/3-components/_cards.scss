@@ -31,6 +31,9 @@
     font-weight: 400;
     margin: 0 0 $spacing-8 0;
 }
+.card__sponsors .card-details, .card__partners .card-details {
+    padding: 0;
+}
 .card--committee .card-details h3 {
     margin-top: $spacing-32;
 }
@@ -55,9 +58,9 @@
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    -moz-animation: ticker 5000ms linear infinite;
-    -webkit-animation: ticker 5000ms linear infinite;
-    animation: ticker 5000ms linear infinite;
+    -moz-animation: ticker 10000ms linear infinite;
+    -webkit-animation: ticker 10000ms linear infinite;
+    animation: ticker 10000ms linear infinite;
 }
 /* Move it (define the animation) */
 

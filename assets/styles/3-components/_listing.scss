@@ -1,0 +1,27 @@
+.committee, .sponsors, .partners {
+    margin-top: $spacing-40;
+}
+.listing__sponsors, .listing__partners, .listing__committee, .listing__events {
+    display: grid;
+    grid-gap: $spacing-32;
+    grid-template-columns: 1fr;
+}
+.listing__sponsors, .listing__partners {
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (min-width: 767px) {
+    .listing__committee, .listing__events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1023px) {
+    .committee, .sponsors, .partners {
+        margin-top: $spacing-64;
+    }
+    .listing__partners {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .listing__committee, .listing__events {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

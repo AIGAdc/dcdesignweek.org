@@ -12,7 +12,7 @@
         </p>
 
         {% if section.sub-section == "sponsors" %}
-        <ul class="o-grid o-grid__4-columns">
+        <ul class="listing__sponsors">
             {% for sponsor in site.sponsors %}
             {% if sponsor.is-2019 == true %}
                 <li class="card">
@@ -29,7 +29,7 @@
         {% endif %}
 
         {% if section.sub-section == "partners" %}
-        <ul class="grid grid__6-column">
+        <ul class="listing__partners">
             {% for partner in site.partners %}
             {% if partner.is-2019 == true %}
                 <li class="card">

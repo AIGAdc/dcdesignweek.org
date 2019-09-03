@@ -1,0 +1,23 @@
+<div class="partners">
+    <h2>
+        Partners (Add Updated Copy Again)
+    </h2>
+    <hr/>
+    <p>
+        Partners Text (Add Updated Copy Again)
+    </p>
+    <ul class="listing__partners">
+        {% for partner in site.partners %}
+            {% if partner.is-2019 == true %}
+	        <li class="card card__partners">
+	            <div class="card-details">
+	                <a href="{{ partner.website }}" rel="noopener" target="_blank">
+	                    <img alt="{{ partner.image-alt }}" class="lazyload blur-up" data-src="{{ partner.image }}" src="{{ partner.image }}">
+	                    </img>
+	                </a>
+	            </div>
+	        </li>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,23 @@
+<div class="sponsors">
+    <h2>
+        Sponsors (Add Updated Copy Again)
+    </h2>
+    <hr/>
+    <p>
+        Sponsors Text (Add Updated Copy Again)
+    </p>
+    <ul class="listing__sponsors">
+        {% for sponsor in site.sponsors %}
+            {% if sponsor.is-2019 == true %}
+	        <li class="card card__sponsors">
+	            <div class="card-details">
+	                <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
+	                    <img alt="{{ sponsor.image-alt }}" class="lazyload blur-up" data-src="{{ sponsor.image }}" src="{{ sponsor.image }}">
+	                    </img>
+	                </a>
+	            </div>
+	        </li>
+	        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
