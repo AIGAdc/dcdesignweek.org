@@ -5,7 +5,7 @@
 }
 .call-for-artists .column-2 {
     margin-top: $spacing-24;
-            padding: $spacing-16;
+    padding: $spacing-16;
 }
 .call-for-artists hr {
     border-color: $black;
@@ -24,6 +24,6 @@
         grid-row: 2 / span 2;
         z-index: $index-4;
         background-color: $white;
-                padding: $spacing-32;
+        padding: $spacing-32;
     }
 }

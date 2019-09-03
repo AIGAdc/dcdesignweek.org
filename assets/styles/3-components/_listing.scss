@@ -1,7 +1,7 @@
-.committee, .sponsors, .partners {
-    margin-top: $spacing-40;
+.committee, .sponsors, .partners, .events {
+    margin-top: $spacing-32;
 }
-.listing__sponsors, .listing__partners, .listing__committee, .listing__events {
+.listing__sponsors, .listing__partners, .listing__committee, .listing__events, .home-layout .listing__events {
     display: grid;
     grid-gap: $spacing-32;
     grid-template-columns: 1fr;
@@ -10,7 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 @media screen and (min-width: 767px) {
-    .listing__committee, .listing__events {
+    .listing__committee, .events-layout .listing__events {
         grid-template-columns: repeat(2, 1fr);
     }
 }
