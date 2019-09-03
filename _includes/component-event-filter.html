@@ -96,7 +96,7 @@
     <ul class="events__list mixitup-container">
         {% assign sorted = (site.events-dcdw | sort: 'event.date' and 'event.start-time') %}
         {% for posts in sorted %}
-        <li class="card mix 
+        <li class="card card--event mix 
         {% if posts.filter-date.is-day-1 == true %} day-1
         {% elsif posts.filter-date.is-day-2 == true %} day-2
         {% elsif posts.filter-date.is-day-3 == true %} day-3
