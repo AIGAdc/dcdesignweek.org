@@ -76,6 +76,11 @@
     grid-gap: $spacing-16;
     grid-template-columns: 1fr;
 }
+.mailchimp-button input {
+    font-size: $font-size-20;
+   padding: 0 $spacing-8;
+   margin-top: $spacing-40;
+}
 @media screen and (min-width: 639px) {
     #mc_embed_signup input.button {
         width: auto !important;
