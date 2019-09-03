@@ -1,12 +1,14 @@
 <div class="events">
     {% if page.url == "/" %}
+        {% for section in page.events %}
         <h2>
-            {{ page.events-header }}
+            {{ section.header }}
         </h2>
         <hr/>
         <p>
-            {{ page.events-body | markdownify }}
+            {{ section.body | markdownify }}
         </p>
+        {% endfor %}
     {% endif %}
 
     <!-- listing -->
@@ -206,4 +208,14 @@
         {% endif %}
         {% endfor %}
     </ul>
+
+    {% if page.url == "/" %}
+    {% for section in page.events %}
+    {% if section.has-button == true %}
+    <a class="button button__{{ section.button-type }}--{{ section.button-class }}" style="margin-top: 32px;" href="{{ section.button-url }}" rel="noopener" target="_blank">
+        {{ section.button-label }}
+    </a>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
 </div>

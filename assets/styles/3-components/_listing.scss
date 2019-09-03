@@ -1,7 +1,7 @@
 .committee, .sponsors, .partners, .events {
     margin-top: $spacing-32;
 }
-.listing__sponsors, .listing__partners, .listing__committee, .listing__events, .home-layout .listing__events {
+.listing__sponsors, .listing__partners, .listing__committee, .listing__events {
     display: grid;
     grid-gap: $spacing-32;
     grid-template-columns: 1fr;
