@@ -33,7 +33,7 @@ speakers:
     cultural heritage and emergency management professionals at the local level to
     make sure that repositories can best prepare for emergencies.
   website-label: Learn More
-  website-url:
+  website-url: 
 - name: Jessica Smith
   title: Historical Society of Washington, D.C.
   bio: Jessica Smith is the Research Services Librarian at the Historical Society
