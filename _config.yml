@@ -55,11 +55,13 @@ defaults:
         button is clicked.
       member-button-label: Provide text that will display in the members only ticket
         button.
+      member-button-is-disabled: false
       has-non-member-button: Select true to display the non members ticket button.
       non-member-button-url: Provide link that will open when the non members ticket
         button is clicked.
       non-member-button-label: Provide text that will display in the non members ticket
         button.
+      non-member-button-is-disabled: false
     venue:
       name: Provide the name of the venue.
       address: Provide the address of the venue.
