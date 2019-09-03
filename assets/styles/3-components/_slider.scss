@@ -121,12 +121,12 @@
         max-width: 144px;
     }
     .slides {
-        height: 70vh;
+        height: 100vh;
     }
 }
 @media screen and (min-width: 1439px) {
     .slides {
-        height: 75vh;
+        max-height: 75vh;
     }
     .slide video {
         object-fit: cover;
