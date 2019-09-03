@@ -29,7 +29,7 @@ sections:
   has-button: true
   is-disabled: false
   button: Learn More
-  url: /about/
+  url: "/about/"
   type: border
   color-class: lightning-yellow
 layout: home
