@@ -23,6 +23,9 @@
     flex-grow: 1;
     padding: $spacing-16;
 }
+.card-details hr {
+    border-color: $black;
+}
 .card-details h3 {
     font-size: $font-size-24;
 }
