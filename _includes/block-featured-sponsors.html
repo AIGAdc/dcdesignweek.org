@@ -4,7 +4,9 @@
         <h2>
             {{ section.header }}
         </h2>
+        {% if section.has-heading-rule == true %}
         <hr/>
+        {% endif %}
         <p>
             {{ section.body | markdownify }}
         </p>

@@ -17,6 +17,7 @@ dc-is-factsinating-body: "Sure, we all know DC’s urban layout was designed by 
 sections:
 - sub-section: 
   header: 2019 Sponsors and Partners
+  has-heading-rule: true
   body: |-
     DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
     We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
@@ -29,6 +30,7 @@ sections:
   color-class: lightning-yellow
 - sub-section: sponsors
   header: 2019 Sponsors
+  has-heading-rule: false
   body: This year, we’re making DCDW2019 an even bigger celebration of the entire
     DC community — more events, in more places, featuring even more aspects of DC’s
     curious and creative community. This celebration is only possible because of the
@@ -41,6 +43,7 @@ sections:
   color-class: lightning-yellow
 - sub-section: partners
   header: 'Many thanks to:'
+  has-heading-rule: false
   body: 
   has-button: false
   is-disabled: false
