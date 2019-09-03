@@ -33,8 +33,8 @@ sections:
     DC community — more events, in more places, featuring even more aspects of DC’s
     curious and creative community. This celebration is only possible because of the
     generous support from the following sponsors.
-  has-button: true
-  is-disabled: true
+  has-button: false
+  is-disabled: false
   button: Learn More
   url: mailto:dcdesignweek@aiga.org
   type: border
