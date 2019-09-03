@@ -10,6 +10,10 @@ a {
     text-decoration: none;
     color: $black;
     cursor: pointer;
+    transition: opacity 150ms ease-in;
+}
+a:hover {
+    opacity: 0.6;
 }
 h1, h2, h3, h4, h5, h6, small {
     font-family: $script;
