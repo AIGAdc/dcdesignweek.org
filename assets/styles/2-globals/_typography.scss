@@ -1,7 +1,7 @@
 body {
     color: $black;
     font-family: $sans;
-    font-size: $font-size-20;
+    font-size: $font-size-16;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -34,7 +34,7 @@ h2 {
     font-size: $font-size-32;
 }
 h3 {
-    font-size: $font-size-20;
+    font-size: $font-size-24;
 }
 p {
     margin: 0 0 $spacing-32 0;
@@ -51,17 +51,17 @@ strong, .font-weight-700 {
 .block-featured-events .card hr, .block-committee .card hr {
     border: solid 4px $black;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
+    body {
+        font-size: $font-size-20;
+    }
     .site-container .headline {
         font-size: 80px;
         margin-top: -16px;
         margin-bottom: -36px;
     }
     h1 {
-        font-size: $font-size-48;
-    }
-    h3 {
-        font-size: $font-size-24;
+        font-size: $font-size-56;
     }
 }
 /* font family */
