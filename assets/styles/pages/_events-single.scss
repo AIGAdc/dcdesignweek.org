@@ -80,8 +80,7 @@
     margin-bottom: 0;
 }
 @media screen and (min-width: 1023px) {
-    .event-single__hero-content a:first-of-type,
-    .event-single__hero-content a:last-of-type {
+    .event-single__hero-content a:first-of-type, .event-single__hero-content a:last-of-type {
         margin-bottom: 0;
     }
     .event-single__speakers-list {

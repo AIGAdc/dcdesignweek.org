@@ -1,15 +1,14 @@
 /* used for debugging layout */
+
 * {
     outline: 1px solid red !important;
 }
-
 .disabled {
     cursor: not-allowed !important;
 }
 .enabled {
-	cursor: pointer !important;
+    cursor: pointer !important;
 }
-
 .container, .container--small {
     margin: auto;
     padding: $spacing-16;
