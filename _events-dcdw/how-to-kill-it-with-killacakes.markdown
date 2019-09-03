@@ -50,4 +50,4 @@ Join us for an evening for killer inspiration! The badass baker behind Killa Cak
 **How to find the venue:**
 Studio A is on Queen Street between Route 1 south (Henry Street) and Route 1 north (Patrick Street). We are 7 blocks from the Braddock Street and King Street metro stops (Blue and Yellow lines). There is free on street parking. We are in a bright yellow building on the north side of the street. 
 
-**Please Note: **While we’ve worked to ensure accessibility across all our events during DCDW, this space is not accessible for everyone. Studio A requires the use of stairs to enter, and there is no elevator access. Please make sure you are able to walk up a flight of stairs if you plan to attend this event. We apologize for any inconvenience.
+**Please Note:** While we’ve worked to ensure accessibility across all our events during DCDW, this space is not accessible for everyone. Studio A requires the use of stairs to enter, and there is no elevator access. Please make sure you are able to walk up a flight of stairs if you plan to attend this event. We apologize for any inconvenience.

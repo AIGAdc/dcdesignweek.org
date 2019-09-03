@@ -53,5 +53,5 @@ filter-location:
 
 From album covers to music videos to fashion, music has long been a force for setting trends, creating culture, and defining design. Spotify has led the digital age of the record industry, setting the tone for how we visually interact with music today. Come learn how Senior Product Designer Adriana Rivas fell into her role at Spotify for Artists and how UX design helps creators find and grow their audiences. Then hear a creator's perspective from Maryland-based artist Shalom Dubas on how she’s been able to use this tool to reach out to her fans. 
 
-##Event Partner: Women in Music
+## Event Partner: Women in Music
 Established in 2015, Women in Music DC is a chapter of WIM that is dedicated to fostering equality in the music industry through the support and advancement of women. Providing knowledge, strategy & solutions to our members and the greater community is our driving purpose. [Learn more here.](https://www.womeninmusic.org/wim-dc)

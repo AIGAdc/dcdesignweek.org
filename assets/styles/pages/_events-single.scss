@@ -74,6 +74,13 @@
 .event-single__speaker h3 {
     font-size: $font-size-24;
 }
+.event-single__learn {
+    background-color: $aquamarine-light;
+    margin-bottom: -6rem;
+}
+.event-single__learn hr {
+    border-color: aquamarine;
+}
 .event-single__learn p:last-of-type {
     margin-bottom: 0;
 }
