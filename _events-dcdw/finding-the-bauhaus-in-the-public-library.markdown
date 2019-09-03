@@ -126,7 +126,7 @@ During this DC Design Week event, you’ll learn how a radical design school inf
 
 And if you walk away from this event wanting more, you can continue supporting the program series through exhibits, workshops, screenings and more at the Goethe-Institute, library locations, and other partner sites over the next year.
 
-This event is presented by the DC Public Library, Goethe-Institut, Gensler, AIA | DC, AIGA, and additional partners. 
+This event is presented by the DC Public Library, Goethe-Institut, Gensler, AIA \| DC, AIGA, and additional partners. 
 
 Please arrive 15 minutes prior to the start of the event! Tickets are not guaranteed, and if the event is full, we will begin distributing tickets to walk-ins at that time.
 
