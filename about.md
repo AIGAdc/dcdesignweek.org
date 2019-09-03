@@ -15,20 +15,25 @@ dc-is-factsinating-body: "Sure, we all know DC’s urban layout was designed by 
   wisdom. We can’t wait to learn with them and celebrate this weird and wonderful
   city.\n"
 sponsors:
-  - header: 2019 Sponsors and Partners
-    body: |-
-      DC Design Week is produced by AIGA DC, a 100% volunteer-run, 501(c)3 nonprofit organization, in concert with a consortium of local associations, meetup groups, and small businesses — and planned by a team of creatives from our community (see below!). Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
-    sub-header: 2019 Sponsors
-    sub-body: |-
-      This year, we’re making DCDW2019 an even bigger celebration of the entire DC community — more events, in more places, featuring even more aspects of DC’s curious and creative community. This celebration is only possible because of the generous support from the following sponsors.
+- header: 2019 Sponsors and Partners
+  body: DC Design Week is produced by AIGA DC, a 100% volunteer-run, 501(c)3 nonprofit
+    organization, in concert with a consortium of local associations, meetup groups,
+    and small businesses — and planned by a team of creatives from our community (see
+    below!). Major thanks to the following partners and sponsors for your support
+    and commitment to the DC design community.
+  sub-header: 2019 Sponsors
+  sub-body: This year, we’re making DCDW2019 an even bigger celebration of the entire
+    DC community — more events, in more places, featuring even more aspects of DC’s
+    curious and creative community. This celebration is only possible because of the
+    generous support from the following sponsors.
 partners:
-  - header: 'Many thanks to'
-    body:
-    has-button: false
-    button-label: Learn More
-    button-url: "/about/"
-    button-type: border
-    button-class: lightning-yellow
+- header: Many thanks to
+  body: 
+  has-button: false
+  button-label: Learn More
+  button-url: "/about/"
+  button-type: border
+  button-class: lightning-yellow
 layout: about
 ---
 
