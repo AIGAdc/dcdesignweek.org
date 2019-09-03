@@ -42,7 +42,7 @@ speakers:
     in the disconnect between what people say and what they actually do.
   website-label: What does the System Usability Scale (SUS) Measure?
   website-url: https://www.researchgate.net/publication/326606631_What_does_the_System_Usability_Scale_SUS_Measure
-- name: Jamie Wlodinger
+- name: Jamie Wlodinguer
   title: Principal Artificial Intelligence/Human Experience Designer at Capital One
   bio: Jamie Wlodinguer works with the Artificial Intelligence (AI) design team at
     Capital One, where she helps develop the UX strategy behind the future of Capital
@@ -67,7 +67,7 @@ speakers:
     husband and two young boys.
   website-label: LinkedIn
   website-url: http://www.linkedin.com/in/liweidai
-- name: Brook Smith
+- name: Brooke Smith
   title: Digital Designer at Capital One
   bio: Brooke Smith works with the Digital Messaging Team at Capital One, where she
     supports the Commercial Marketing team with building enterprise email communications.
@@ -106,7 +106,7 @@ speakers:
     their love for visual artistry in design execution.
   website-label: Website
   website-url: http://www.kcooke.com/
-- name: Tina Johnson Marcel
+- name: Tina Johnson-Marcel
   title: Head of Design for Mainstreet Card at Capital One
   bio: Tina Johnson-Marcel is Head of Design for Mainstreet Card at Capital One. With
     more than 20 years of experience in the content space, Tina’s diverse professional
@@ -126,7 +126,7 @@ Novice and expert designers are invited to participate in this not-so-ordinary h
  
 During this hands-on event, you’ll get to work with small-group activities, ethnographic observation, synthesis and insights generation, and principles of inclusion to solve unique design challenges. Once you’re finished, you can expect to leave this workshop having designed experiences that matter for people living in and around the DC area. 
 
-This workshop is co-presented by designers from Capital One’s One Design organization and blackcomputeHER.org. Drinks and light refreshments during the workshop.
+This workshop is co-presented by designers from Capital One’s One Design organization and [blackcomputeHER.org](https://blackcomputeher.org/). Drinks and light refreshments during the workshop.
 
 **Transportation / Helpful Directions:**
 
