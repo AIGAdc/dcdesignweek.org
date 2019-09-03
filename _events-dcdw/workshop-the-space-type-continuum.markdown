@@ -7,8 +7,7 @@ status:
   is-coming-soon: false
   is-featured-on-events: true
   is-featured-on-home: false
-  featured-event-message: Whoa, don't miss this one. Whoa, don't miss this one. Whoa,
-    don't miss this one.
+  featured-event-message: Whoa, don't miss this one.
 event:
   date: 2019-09-21 13:00:00 -04:00
   description: 'Bring your typography to life with designer and MICA educator Kiel
