@@ -5,8 +5,8 @@
 @import "1-tokens/breakpoints";
 @import "1-tokens/colors";
 @import "1-tokens/depth";
-@import "1-tokens/typography";
 @import "1-tokens/spacing";
+@import "1-tokens/typography";
 
 @import "2-globals/reset";
 @import "2-globals/tools";
@@ -25,15 +25,14 @@
 @import "4-utilities/depth";
 @import "4-utilities/shadows";
 
-@import "pages/about";
-@import "pages/events";
-@import "pages/events-single";
-@import "pages/home";
-@import "pages/pop-up-shop";
-
 @import "3rd-party/flickity";
 @import "3rd-party/houdini";
 @import "3rd-party/lazysizes";
 @import "3rd-party/mailchimp";
 @import "3rd-party/offside";
-@import "3rd-party/typeform";
+
+@import "pages/about";
+@import "pages/events";
+@import "pages/events-single";
+@import "pages/home";
+@import "pages/pop-up-shop";
