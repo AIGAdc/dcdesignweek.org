@@ -48,7 +48,7 @@ filter-location:
   is-dc: true
 ---
 
-Join us for an opportunity for kids and parents to get creative together! You’ll meet and design a one-of-a-kind art installation with Carolyn Sewell. 
+Join us for an opportunity for parents and kids of all ages to get creative together! You’ll meet and design a one-of-a-kind art installation with Carolyn Sewell.
 
 Carolyn’s work has been published in *Communication Arts*, *PRINT*, *Grafik*, *HOW* and *The Washington Post*. She and [her daughter, fondly nicknamed “Biscuit”,](https://www.instagram.com/biscuitsewell/) both have a passion for bright colors and bacon! We’ll gather at Steadfast Supply, a shop whose mission is to bolster the local community by introducing emerging and independent brands and designers into the D.C. market. Bring all of your small ones — whether experienced artists or beginners, everyone is welcome.
  
