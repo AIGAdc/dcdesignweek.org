@@ -6,7 +6,7 @@ status:
   is-coming-soon: false
   sold-out-message: Sold Out!
   is-featured-on-events: true
-  featured-event-message: Wowza! This is rad!
+  featured-event-message: 'Wowza! Check it! This is rad! '
 event:
   date: 2019-09-20 18:00:00 -04:00
   description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
