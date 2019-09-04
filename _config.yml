@@ -9,15 +9,9 @@ collections:
     title: Events - DCDW
     output: true
     permalink: "/events/:title/"
-  partners:
-    title: Partners
-    output: false
   posts:
     title: Posts
     output: true
-  sponsors:
-    title: Sponsors
-    output: false
   uploads:
     title: Uploads
     output: true
@@ -127,22 +121,6 @@ defaults:
     is-sold-out: false
     is-featured-on-home-page: false
     layout: events-single
-- scope:
-    path: ''
-    type: partners
-  values:
-    image: Displays the partners logo
-    image-alt: Provide alt text for partners logo
-    website: Provide link for partners website
-    is-2019: true
-- scope:
-    path: ''
-    type: sponsors
-  values:
-    image: Displays the sponsors logo
-    image-alt: Provide alt text for sponsors logo
-    website: Provide link for sponsors website
-    is-2019: Select True if 2019 sponsor
 exclude:
 - package.json
 - package-lock.json
