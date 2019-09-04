@@ -26,7 +26,7 @@ tickets:
 venue:
   name: Eaton Workshop (Theater Room)
   address: 1201 K St NW, Washington, DC 20005
-  directions: https://goo.gl/maps/kdMACg3ufJhegak57
+  directions: https://goo.gl/maps/r5jCRspudSK6BJwx7
 speakers:
 - name: Michelle Bauer Carpenter
   title: Associate Professor of Digital Design in the College of Arts & Media at the
