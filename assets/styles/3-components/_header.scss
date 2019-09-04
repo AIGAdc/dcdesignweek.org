@@ -44,7 +44,7 @@
 .active {
     border-bottom: 4px solid $black;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .site-header__links {
         display: block;
     }

@@ -104,7 +104,7 @@
 .slide__curtain--left>svg, .slide__curtain--right>svg {
     height: 100%;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .home-hero h1 {
         font-size: 72px;
         line-height: 1;

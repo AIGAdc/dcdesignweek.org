@@ -19,7 +19,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .grid__2-column {
         grid-template-columns: repeat(2, 1fr);
     }

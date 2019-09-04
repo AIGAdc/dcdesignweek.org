@@ -19,7 +19,7 @@
 .home-hero__content a {
     margin-bottom: $spacing-40;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .home-hero__content {
         padding: $spacing-48;
     }

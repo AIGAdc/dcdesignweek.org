@@ -19,7 +19,7 @@
 .container--small {
     max-width: 768px;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .container, .container--small {
         padding: $spacing-32;
     }
