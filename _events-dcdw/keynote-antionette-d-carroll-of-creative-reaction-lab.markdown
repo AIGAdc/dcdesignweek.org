@@ -22,8 +22,10 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/dcdw-keynote-antionette-d-carroll-of-creative-reaction-lab-tickets-71301437519
   non-member-button-label: "$15 Non-members"
 venue:
+  is-tbd: true
   name: TBD
   address: Location to be announced soon!
+  directions:
 speakers:
 - name: Antionette D. Carroll
   title: Founder and CEO of Creative Reaction Lab

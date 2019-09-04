@@ -27,9 +27,15 @@
                 <p>
                     <i class="fas fa-map-marker-alt">
                     </i>
+                    {% if page.venue.is-tbd == true %}
+                    <a class="disabled">
+                        {{ page.venue.name }}
+                    </a>
+                    {% else %}
                     <a href="{{ page.venue.directions }}" rel="noopener" target="_blank">
                         {{ page.venue.name }}
                     </a>
+                    {% endif %}
                 </p>
                 <p>
                     {{ page.venue.address }}

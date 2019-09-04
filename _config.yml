@@ -57,6 +57,7 @@ defaults:
         button.
       non-member-button-is-disabled: false
     venue:
+      is-tbd: false
       name: Provide the name of the venue.
       address: Provide the address of the venue.
       directions: Provide a google maps link with directions to the venue.
