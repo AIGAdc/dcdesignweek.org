@@ -1,7 +1,6 @@
 # Allows for easier updating of subscription section in the footer
 subscribe:
-  body: |
-    Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC.
+  body: Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC.
     
 # Allows for easier updating of volunteer section in the footer
 volunteer:

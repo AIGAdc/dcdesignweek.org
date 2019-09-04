@@ -1,9 +1,7 @@
 <footer class="site-footer">
 	<div class="site-footer__mailchimp" id="subscribe">
 		<div class="container--small">
-			<p>
 				{{ site.data.footer.subscribe.body | markdownify }}
-			</p>
 			{% include 3rd-party/mailchimp/form.html %}
 			{% include 3rd-party/mailchimp/scripts.html %}
 		</div>
