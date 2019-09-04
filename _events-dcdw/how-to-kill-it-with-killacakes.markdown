@@ -44,7 +44,8 @@ filter-time:
 filter-type:
   is-talk: true
 filter-location:
-  is-dc: true
+  is-dc: false
+  is-va: true
 ---
 
 Join us for an evening for killer inspiration! The badass baker behind Killa Cakes, Bria Taylor, will shine light on her journey from graphic designer to creative cakes business owner. Killa Cakes was borne out of a desire to merge her passion for food and baking with her learned profession of graphic design — and became an artistic exploration of awesomeness. After a year in the game, Bria has turned her cake passion into a full time job. She continues to surprise us with her amazing flavors and cake designs, but it is her perseverance as a young entrepreneur that we truly admire! (Seriously. She’s only 25, y’all!)
