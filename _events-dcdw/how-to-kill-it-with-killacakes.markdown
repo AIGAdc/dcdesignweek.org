@@ -2,7 +2,7 @@
 title: How to Kill it with KillaCakes!
 date: 2019-09-02 13:01:00 -04:00
 event:
-  date: 2019-09-22 19:00:00 -04:00
+  date: 2019-09-23 19:00:00 -04:00
   description: 'Join us for an evening for killer inspiration! The badass baker behind
     Killa Cakes, Bria Taylor, will shine light on her journey from graphic designer
     to creative cakes business owner. '
@@ -36,7 +36,8 @@ speakers:
   website-label: Killa Cakes
   website-url: https://www.killacakes.com/
 filter-date:
-  is-day-3: true
+  is-day-3: false
+  is-day-4: true
 filter-time:
   is-evening: true
 filter-type:
