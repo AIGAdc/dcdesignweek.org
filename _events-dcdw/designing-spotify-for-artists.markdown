@@ -41,6 +41,16 @@ speakers:
     to play guitar at 16, and hasn't stopped mixing sounds since.
   website-label: Website
   website-url: http://shalomdubas.com/
+- name: Shahier Rahman
+  title: Partnership Director at General Assembly
+  bio: Shahier Rahman is the partnerships specialist for General Assembly DC. He was
+    previously the regional business development manager for DC incubator and venture
+    fund 1776. Before moving to DC, Shahier co-founded Central Florida's first tech
+    incubator, Canvs. When he's not connecting startups with political, intellectual,
+    social and financial capital in Washington, DC, you can find him doing stand-up
+    comedy in dive bars around town.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/shahier-rahman-a25b4296/
 filter-date:
   is-day-5: true
 filter-time:
