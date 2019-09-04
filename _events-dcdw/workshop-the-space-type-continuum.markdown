@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$30 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-the-space-type-continuum-tickets-71305098469
-  non-member-button-label: "$50 Non-members"
+  non-member-button-label: "$50 Non-members (On Sale September 10)"
 venue:
   name: iStrategyLabs (ISL)
   address: |-
