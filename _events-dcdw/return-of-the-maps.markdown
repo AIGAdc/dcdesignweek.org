@@ -101,3 +101,5 @@ Attendees will hear about:
 * Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
 * Map design and data visualizations from Lauren Tierney of The Washington Post
 * Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
+
+Light refreshments and drinks will be provided.
