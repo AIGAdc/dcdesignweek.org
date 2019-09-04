@@ -14,7 +14,7 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-url: https://www.eventbrite.com/e/finding-bauhaus-in-the-public-library-public-kickoff-event-tickets-68195680115
+  member-button-url: https://www.eventbrite.com/e/finding-bauhaus-in-the-public-library-public-kickoff-event-tickets-68195680115?aff=AIGA
   member-button-label: Free Event
   has-non-member-button: false
 venue:
