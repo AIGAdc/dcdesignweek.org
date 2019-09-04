@@ -47,7 +47,6 @@ filter-date:
   is-day-5: true
 filter-time:
   is-morning: true
-  is-evening: false
 filter-type:
   is-talk: true
 filter-location:
