@@ -6,7 +6,7 @@ image: "/uploads/Header_KIelGif.gif"
 status:
   is-coming-soon: false
   is-featured-on-events: true
-  is-featured-on-home: false
+  is-featured-on-home: true
   featured-event-message: 'Whoa, don''t miss out on this. '
 event:
   date: 2019-09-21 13:00:00 -04:00
