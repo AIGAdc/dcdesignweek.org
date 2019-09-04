@@ -12,7 +12,7 @@ event:
   image: "/uploads/Header_Antionette.png"
   image-alt: Antionete Carroll, keynote speaker
   start-time: 5:30pm
-  end-time: 8:30pm
+  end-time: 8:00pm
   has-speakers: true
 tickets:
   has-member-button: true
