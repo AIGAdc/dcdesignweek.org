@@ -60,7 +60,8 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-talk: true
+  is-talk: false
+  is-party: true
 filter-location:
   is-dc: true
 ---
