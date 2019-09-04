@@ -1,5 +1,5 @@
 ---
-title: Small Humans, Big Design
+title: 'Heir Supply: An Art Installation by Future Creatives'
 date: 2019-09-02 11:59:00 -04:00
 status:
   is-coming-soon: false
