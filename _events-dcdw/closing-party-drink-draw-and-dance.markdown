@@ -3,7 +3,7 @@ title: 'Closing Party: Drink, Draw & Dance'
 date: 2019-09-02 14:27:00 -04:00
 status:
   is-featured-on-events: true
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
 event:
   date: 2019-09-27 20:00:00 -04:00
