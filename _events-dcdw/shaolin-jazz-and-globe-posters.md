@@ -6,6 +6,7 @@ status:
   is-coming-soon: false
   sold-out-message: Sold Out!
   is-featured-on-events: true
+  is-featured-on-home: true
   featured-event-message: 'Wowza! Check it! This is rad! '
 event:
   date: 2019-09-20 18:00:00 -04:00
