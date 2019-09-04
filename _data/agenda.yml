@@ -1,4 +1,3 @@
-# This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
 filter-date:
   - filter: .day-1
     class: day-1
