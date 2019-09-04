@@ -63,4 +63,4 @@ Greet the day with a creative yoga practice at the Cheshire. Join your community
 Please bring your own mat for this session, as this event will be hosted in a creative arts space, not a traditional yoga studio. 
 
 ## Outdoor Voices
-[Outdoor Voices](https://www.outdoorvoices.com/pages/visit-us-dc) is a recreation brand on a mission to get the world moving. We're freeing fitness from performance and bringing back Doing Things For Fun, by designing technical apparel for recreation by recreationalists. We are excited to partner with DC Design Week, because Doing Things is always better together with friends. 
+[Outdoor Voices](https://www.outdoorvoices.com/pages/visit-us-dc){:target="_blank" rel="noopener"} is a recreation brand on a mission to get the world moving. We're freeing fitness from performance and bringing back Doing Things For Fun, by designing technical apparel for recreation by recreationalists. We are excited to partner with DC Design Week, because Doing Things is always better together with friends. 

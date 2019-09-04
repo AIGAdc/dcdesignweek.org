@@ -53,7 +53,7 @@ filter-location:
   is-dc: true
 ---
 
-Heads up! This event is Part 1 of a 2-part series. Sign up for this session and then be sure to stick around for [Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)!](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/)
+Heads up! This event is Part 1 of a 2-part series. Sign up for this session and then be sure to stick around for [Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)!](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="_blank" rel="noopener"}
 
 Did you know there is a treasure trove of historical artifacts inside Carnegie Library? We’re talking diary entries, vintage ads, political posters and even the odd love letter. The Historical Society of Washington, D.C. is home to a vast collection of artifacts and materials from our city’s history. 
 
@@ -63,6 +63,6 @@ Historical Society Librarians  Anne McDonough and Jessica Smith will lead a pres
 
 **But wait, there’s more! Participants will become registered library patrons, have hands-on exposure to a selection of original artifacts, and following the workshop, will receive their choice of a set of royalty-free digital assets for use in creative works  ($125 value) 🤑.**
 
-PS. Immediately following this event, [join Rachel Orr in a hands-on workshop in the main atrium at Apple (downstairs)](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/), where she will be leading a live-collaging demonstration using artifacts from the Historical Society of Washington, D.C. 
+PS. Immediately following this event, [join Rachel Orr in a hands-on workshop in the main atrium at Apple (downstairs)](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="_blank" rel="noopener"}, where she will be leading a live-collaging demonstration using artifacts from the Historical Society of Washington, D.C. 
 
 Please refrain from bringing any food or beverages to this event – sorry, no snacks in the library!

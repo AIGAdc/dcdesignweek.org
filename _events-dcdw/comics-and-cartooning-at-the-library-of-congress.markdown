@@ -59,7 +59,7 @@ Limited runs of comics and other works created by artists can easily be lost to 
 **There is a $5 refundable charge to reserve your spot – you’ll get a refund when you show up and check in.**
 
 **Venue Accessibility (elevators, stairs, etc.):**
-[https://www.loc.gov/accessibility/](https://www.loc.gov/accessibility/)
+[https://www.loc.gov/accessibility/](https://www.loc.gov/accessibility/){:target="_blank" rel="noopener"}
 
 Important! Attendees to this event  will be required to pass through airport style security to enter the building, be sure to double check your bags for benign yet prohibited items, like bottle openers and Swiss army knives.
 

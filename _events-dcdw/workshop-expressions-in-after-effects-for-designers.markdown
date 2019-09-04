@@ -57,7 +57,7 @@ This workshop is tailored to motion designers who already use After Effects and 
 
 Participants will be required to bring a laptop with Adobe After Effects already installed.  
 
-Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. [Check out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/) led by Hannah Churn, which will take place the same night.
+Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. [Check out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/){:target="_blank" rel="noopener"} led by Hannah Churn, which will take place the same night.
 
 **Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at dc@ga.co.
 
@@ -67,9 +67,9 @@ Does this event sound interesting to you, but perhaps too advanced? We’ve got 
 (Daily: $19; Evening: $10)
 * Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
 * Lazparking: 600 E St NW, Washington, DC 20004
-* SpotHero(spothero.com): Reserve a space in advance
+* [SpotHero](spothero.com){:target="_blank" rel="noopener"}: Reserve a space in advance
 
 **Metro/WMATA** GA DC is accessible from the following Metro Stations: Gallery Place/Chinatown and Metro Center.
 
 ## Event Partner: The Duke and the Duck
-Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com)
+Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="_blank" rel="noopener"}

@@ -30,7 +30,7 @@ filter-location:
   is-md: true
 ---
 
-Helping nonprofits, foundations, and other mission-driven organizations develop smart communications strategies, [the Hatcher Group](https://www.thehatchergroup.com/) has evolved their capabilities by building design and UX capabilities into the core foundation of the firm. Join them as they share funny stories, lessons learned, how to show the ROI of design, and a bit about their continuing process development.
+Helping nonprofits, foundations, and other mission-driven organizations develop smart communications strategies, [the Hatcher Group](https://www.thehatchergroup.com/){:target="_blank" rel="noopener"} has evolved their capabilities by building design and UX capabilities into the core foundation of the firm. Join them as they share funny stories, lessons learned, how to show the ROI of design, and a bit about their continuing process development.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 

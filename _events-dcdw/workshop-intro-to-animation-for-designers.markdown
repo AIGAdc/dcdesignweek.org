@@ -66,9 +66,9 @@ Led by three motion graphics artists, this hands-on workshop include the followi
 
 *Participants will be required to bring a laptop with Adobe After Effects already installed.* 
 
-Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. [Check out the Expressions Workshop led by David Arbour, which will take place the same night.](https://www.dcdesignweek.org/events/workshop-expressions-in-after-effects-for-designers/) 
+Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. [Check out the Expressions Workshop led by David Arbour, which will take place the same night.](https://www.dcdesignweek.org/events/workshop-expressions-in-after-effects-for-designers/){:target="_blank" rel="noopener"} 
 
-**Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at dc@ga.co.
+**Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at [dc@ga.co](mailto:dc@ga.co).
 
 **Parking** There are a few parking lots around GA DC’s new location:
 * Atlantic Parking: - 450 8th St NW, Washington, DC 20004
@@ -76,9 +76,9 @@ Does this event sound interesting to you, but perhaps too entry-level? We’ve g
 (Daily: $19; Evening: $10)
 * Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
 * Lazparking: 600 E St NW, Washington, DC 20004
-* SpotHero(spothero.com): Reserve a space in advance
+* [SpotHero](https://spothero.com){:target="_blank" rel="noopener"}: Reserve a space in advance
 
 **Metro/WMATA** GA DC is accessible from the following Metro Stations: Gallery Place/Chinatown and Metro Center.
 
 ## Event Partner: The Duke and the Duck
-Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com)
+Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="_blank" rel="noopener"}

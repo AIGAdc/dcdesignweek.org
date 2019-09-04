@@ -31,7 +31,7 @@ filter-location:
   is-va: true
 ---
 
-[Phone2Action](https://phone2action.com) is a comprehensive digital engagement and communications platform for grassroots advocacy, public affairs, and government relations. Their design team works across many departments, with marketing projects including print materials, digital assets, and video. Their product design team focuses on the visual design, UX, and interactions of products and features. Join both of Phone2Action’s creative teams to learn how their teams develop products and integrate them with their branding. 
+[Phone2Action](https://phone2action.com){:target="_blank" rel="noopener"} is a comprehensive digital engagement and communications platform for grassroots advocacy, public affairs, and government relations. Their design team works across many departments, with marketing projects including print materials, digital assets, and video. Their product design team focuses on the visual design, UX, and interactions of products and features. Join both of Phone2Action’s creative teams to learn how their teams develop products and integrate them with their branding. 
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
