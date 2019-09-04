@@ -5,7 +5,8 @@ call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Shop the Block Party
 call-for-artists-body: "Come and celebrate your local DC design community at the Block
   Party, have some beer and snacks, do some live letterpress at [Typecase Industries](http://www.typecaseindustries.com/),
-  and shop all of the awesome goods for sale at the DCDW Pop-Up Shop!\n\n"
+  and shop all of the awesome goods for sale at the DCDW Pop-Up Shop (found inside
+  Cherry Blossom Creative and the Neighborgoods)!\n\n"
 call-for-artists-button: RSVP
 call-for-artists-button-url: "/events/pop-up-block-party/"
 layout: pop-up-shop
