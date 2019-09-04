@@ -33,7 +33,7 @@ filter-location:
   is-md: true
 ---
 
-[Contrast & Co.](http://www.contrastandco.com/) is a brand strategy and design studio driven to create the smartest and most effective brand experiences. From naming and identities to comprehensive brand bibles and rollout strategies, they help clients stand out and get noticed. Join Contrast & Co. in Annapolis, MD for a look at how they help companies define their identities in competitive markets.
+[Contrast & Co.](http://www.contrastandco.com/) is an award-winning brand strategy and design agency determined to create strikingly different brand experiences. From naming and identities to comprehensive brand bibles and rollout strategies, they help clients stand out and get noticed. Join Contrast & Co. in Annapolis, MD for a look at how they help companies define their identities in competitive markets.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
