@@ -2,13 +2,13 @@
 title: 'Creative Lunch: Sustainable Food System Design'
 date: 2019-09-02 14:05:00 -04:00
 event:
-  date: 2019-09-26 12:00:00 -04:00
+  date: 2019-09-26 11:30:00 -04:00
   description: AIGA DC discusses sustainable systems design in this series of creative
     lunches during DC Design Week.
   image: "/uploads/Header-Sustainable-Food.png"
   image-alt: 'group of people standing together '
-  start-time: 12:00pm
-  end-time: 1:15pm
+  start-time: 11:30am
+  end-time: 12:45pm
   has-speakers: false
 tickets:
   has-member-button: true
@@ -21,6 +21,14 @@ venue:
   name: Busboys & Poets, in Takoma Park
   address: 235 Carroll St NW, Washington, DC 20012
   directions: https://goo.gl/maps/ueLkvcGZ2UAiS7zYA
+filter-date:
+  is-day-7: true
+filter-time:
+  is-daytime: true
+filter-type:
+  is-creative-lunch: true
+filter-location:
+  is-md: true
 ---
 
 Join us at Busboys & Poets for lunch and a healthy discussion around sustainable food systems design! 
@@ -37,6 +45,6 @@ Lunch from Busboys & Poets is included, including Vegan and Gluten-Free options 
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 12:00pm.
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:30am.
 
 We cannot accommodate specific dietary restrictions or meal requests for this event; however, attendees may order alternative items from the full Lunch Menu, if preferred. We encourage attendees who wish to order a unique meal to arrive at least 15 minutes early. 
