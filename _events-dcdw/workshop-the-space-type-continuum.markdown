@@ -55,6 +55,8 @@ Kiel’s most recent project, an online motion and type generator called *Space 
 
 The workshop will begin with an introduction to the basics of coding. After laying this important groundwork, we’ll move onto basic motion and typography to create a simple yet robust typographic generator. Various versions of Space Type Generator will be dissected to demonstrate how the presented foundational elements can be built out even further to create a myriad of iterations.
 
+*View additional speaker information for this event on the DC Design Week website.*
+
 **COOL STUFF ALERT!** 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
 
 <video controls="true" autoplay="true" muted="true" loop="true">
