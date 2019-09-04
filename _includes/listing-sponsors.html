@@ -13,13 +13,14 @@
         {{ section.sub-header }}
     </h3>
     {% endif %}
-        {% if section.sub-body %}
+                {% if section.sub-body %}
     <p>
         {{ section.sub-copy | markdownify }}
     </p>
     {% endif %}
         {% endfor %}
     {% endif %}
+    <!-- listing -->
     <ul class="listing__sponsors">
         {% for sponsor in site.sponsors %}
             {% if sponsor.is-2019 == true %}
@@ -37,8 +38,8 @@
     {% if page.url == "/" or "/about/"%}
         {% for section in page.sponsors %}
             {% if section.has-button == true %}
-    <a class="button button__{{ section.button-type }}--{{ section.button-class }}" href="{{ section.button-url }}" rel="noopener" style="margin-top: 32px;" target="_blank">
-        {{ section.button-label }}
+    <a class="button button__{{ section.button-type }}--{{ section.button-class }}" href="{{ section.button-url }}" rel="noopener" style="margin-top: 32px;">
+        {{ section.butt>on-label }}
     </a>
     {% endif %}
         {% endfor %}

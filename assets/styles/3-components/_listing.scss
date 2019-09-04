@@ -21,7 +21,20 @@
     .listing__partners {
         grid-template-columns: repeat(6, 1fr);
     }
-    .listing__committee, .listing__events, .events-layout .listing__events {
+    .listing__committee, .listing__events, .carnegie-layout .listing-events, .events-layout .listing__events {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* special shout out to Andy Bell for this his snippet */
+
+.listing__sponsors, .listing__partners, .listing__committee, .listing__events>* {
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+@supports (display: grid) {
+    .listing__sponsors, .listing__partners, .listing__committee, .listing__events>* {
+        max-width: unset;
+        margin: 0;
     }
 }
