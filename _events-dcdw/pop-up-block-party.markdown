@@ -20,6 +20,14 @@ venue:
   name: Cherry Blossom Creative
   address: 2128 8th St NW, Washington, DC 20001
   directions: https://goo.gl/maps/KYUPfwLmJDNZrNjt5
+filter-date:
+  is-day-6: true
+filter-time:
+  is-evening: true
+filter-type:
+  is-party: true
+filter-location:
+  is-dc: true
 ---
 
 Be there when the Pop-Up pops off! 
