@@ -48,6 +48,18 @@ speakers:
     her music. '
   website-label: Website
   website-url: https://www.shalomdubas.com
+- name: Skyline Hotel
+  title: 
+  bio: 'Like the landmark from which the band takes its name, Washington, DC''s Skyline
+    Hotel has always tried to embody one thing: escapism. What originated as a personal
+    therapeutic project for singer Jon Lee to deal with his adversity soon became
+    a set of songs his brother and lead guitarist/producer Jeff Lee could not ignore.
+    From bedroom demos to local clubs, the brothers began to cultivate a modern blend
+    of pop and rock that was as fun as it was vital. Expanding to include organist/bassist
+    Zack Be and veteran drummer Jason Hayes, the band has become a full blown pop/rock
+    powerhouse.'
+  website-label: Website
+  website-url: http://www.skylinehotelmusic.com
 filter-date:
   is-day-8: true
 filter-time:
