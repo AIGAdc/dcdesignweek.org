@@ -22,8 +22,8 @@
     {% endif %}
     <!-- listing -->
     <ul class="listing__sponsors">
-        {% for sponsor in site.sponsors %}
-            {% if sponsor.is-2019 == true %}
+        {% for sponsor in site.data.sponsors.sponsors %}
+            {% if sponsor.is-active == true %}
         <li class="card card__sponsors">
             <div class="card-details">
                 <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
@@ -35,11 +35,11 @@
         {% endif %}
         {% endfor %}
     </ul>
-    {% if page.url == "/" or "/about/"%}
+    {% if page.url == "/" or "/about/ "%}
         {% for section in page.sponsors %}
             {% if section.has-button == true %}
     <a class="button button__{{ section.button-type }}--{{ section.button-class }}" href="{{ section.button-url }}" rel="noopener" style="margin-top: 32px;">
-        {{ section.butt>on-label }}
+        {{ section.button-label }}
     </a>
     {% endif %}
         {% endfor %}
