@@ -39,6 +39,17 @@ speakers:
     20 Under 40 Artist.
   website-label: antionettecarroll.design
   website-url: https://www.antionettecarroll.design/
+- name: Dr. Miriam Ahmed
+  title: Lecturer, Department of Art, Howard University
+  bio: Dr. Miriam Ahmed teaches graphic design at Howard University in Washington,
+    DC. Her recent publications investigate the role and plerspectives of minority
+    designers within responsible design. She presented her research on “Anatomical
+    Grids” at TypeCon 2019 in Minneapolis, served on the 2020 Advisory Review Panel
+    for the DC Commission on the Arts and Humanities, and was an AIGA DC SHINE 2019
+    mentor. She was previously an Assistant Professor of Visual Communication at the
+    American University in Dubai, UAE, and earned her MFA and doctorate at Howard.
+  website-label: 
+  website-url: 
 filter-date:
   is-day-7: true
 filter-time:
