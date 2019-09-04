@@ -1,4 +1,4 @@
-partners:
+2019-partners:
   - title: Apple
     image: "/uploads/partner-today-at-apple.jpg"
     image-alt: logo for apple today
@@ -32,11 +32,11 @@ partners:
     image-alt: need logo - Capital One
     website: https://medium.com/capitalonedesign
   - title: Cherry Blossom Creative
-    image:
+    image: "/uploads/partner-cherryblossom.jpg"
     image-alt: need logo - Cherry Blossom
     website: https://www.cherryblossomworkshop.com/
   - title: Contrast & Co.
-    image:
+    image: "/uploads/partner-contrastandco.jpg"
     image-alt: need logo - Contrast & Co.
     website: http://www.contrastandco.com/
   - title: Creative Reaction Lab
@@ -59,6 +59,10 @@ partners:
     image: "/uploads/partner-eaton.jpg"
     image-alt: logo for eaton
     website: https://www.eatonworkshop.com/
+  - title: Food Rescues
+    image: "/uploads/partner-food-rescue.jpg"
+    image-alt: logo for food rescue us
+    website: https://foodrescue.us/
   - title: General Assembly
     image: "/uploads/partner-general-general-assembly.jpg"
     image-alt: logo for general assembly
@@ -124,7 +128,7 @@ partners:
     image-alt: logo for spotify for artists
     website: https://artists.spotify.com/
   - title: Studio A
-    image:
+    image: "/uploads/partner-studio-a.jpg"
     image-alt: need logo - Studio A
     website: https://www.studioa.com/
   - title: The Cheshire
@@ -139,6 +143,10 @@ partners:
     image: "/uploads/partner-typecase.jpg"
     image-alt: logo for typecase industries
     website: http://typecaseindustries.com/
+  - title: Uptop Acres
+    image: "/uploads/partner-uptop.jpg"
+    image-alt: logo for uptop acres
+    website: https://uptopacres.com/index.html
   - title: Walmart Labs
     image: "/uploads/partner-walmart-labs.jpg"
     image-alt: logo for walmart labs

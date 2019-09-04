@@ -22,8 +22,7 @@
     {% endif %}
     <!-- listing -->
     <ul class="listing__sponsors">
-        {% for sponsor in site.data.sponsors.sponsors %}
-            {% if sponsor.is-active == true %}
+        {% for sponsor in site.data.sponsors.2019-sponsors %}
         <li class="card card__sponsors">
             <div class="card-details">
                 <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
@@ -32,7 +31,6 @@
                 </a>
             </div>
         </li>
-        {% endif %}
         {% endfor %}
     </ul>
     {% if page.url == "/" or "/about/ "%}
