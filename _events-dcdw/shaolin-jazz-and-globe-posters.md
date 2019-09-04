@@ -31,21 +31,17 @@ venue:
   address: 2002 Fenwick St NE, Washington, DC 20002, USA
   directions: https://goo.gl/maps/vKv9yGoHGRPDwZQQ6
 speakers:
-- name: Allison Fischer
-  title: Manager, Globe Collection and Press at The MICA
+- name: Allison Fisher
+  title: Manager, Globe Collection and Press at MICA
   bio: Allison Fisher is a designer and letterpress printer from Baltimore, Maryland.
     She is the manager of the Globe Collection and Press at MICA (Maryland Institute
     College of Art). She fell in love with printmaking and letterpress while earning
     her BFA in Graphic Design at MICA. As a student she was bitten by the DayGlo love
     of Globe and devoted most of her senior year helping to rally student support
-    for acquisition of the collection. Her love of Globe kept her in Baltimore, lurking
-    around MICA’s campus, helping on projects and spreading the word of Globe until
-    MICA finally hired her. Allison manages all things related to Globe at MICA from
-    the production of Globe’s new projects for clients like Hello Kitty, Smithsonian
-    Institutions and Stax Records, to wrangling Globe interns, overseeing archiving,
-    working on community-oriented projects and more. When not working on Globe Allison
-    can be found tinkering on her own presses and working as a Linotype apprentice
-    at the Baltimore Museum of the Industry.
+    for acquisition of the collection. Allison now manages all things related to Globe
+    at MICA from the production of Globe’s new projects for clients like Hello Kitty,
+    Smithsonian Institutions and Stax Records, to wrangling Globe interns, overseeing
+    archiving, working on community-oriented projects and more.
   website-label: Website
   website-url: http://www.globeatmica.com
 - name: Marcus Dowling
@@ -69,22 +65,22 @@ filter-location:
   is-dc: true
 ---
 
-Join us as we celebrate the start of DC Design Week 2019 with Shaolin Jazz and Globe Posters! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
+Join us, Globe Posters at MICA, and Shaolin Jazz to celebrate the start of DC Design Week 2019 at Big Chief in Ivy City! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
 
-The evening will start with a talk on DC’s musical history alongside a presentation from Globe Posters on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling, stamping and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
+The evening will start with a talk on DC’s musical history alongside a presentation from Globe on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling, making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
 
 RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. 
 
 
-### Poster Exhibit from [Globe Posters](http://www.globeatmica.com)
+### Poster Exhibit of [Globe Posters](http://www.globeatmica.com)
 ---
 
 Founded in 1929 in Baltimore, Maryland, Globe Posters delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research. 
 
 Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/) / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica)
 
-**Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com) and [DJ RB1 SHAOLIN JAZZ](https://www.facebook.com/RonBrown.aka.DJ.RBI), founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
+**Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com) with [DJ RB1](https://www.facebook.com/RonBrown.aka.DJ.RBI), founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
-The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappella from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
+The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappellas from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
 
 Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/)
