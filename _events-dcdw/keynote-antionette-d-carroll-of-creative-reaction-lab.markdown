@@ -13,6 +13,7 @@ event:
   image-alt: Antionete Carroll, keynote speaker
   start-time: 5:30pm
   end-time: 8:30pm
+  has-speakers: true
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-keynote-antionette-d-carroll-of-creative-reaction-lab%2F%3Fredirect_source%3Deventbrite_register
@@ -39,6 +40,17 @@ speakers:
     20 Under 40 Artist.
   website-label: antionettecarroll.design
   website-url: https://www.antionettecarroll.design/
+- name: Dr. Miriam Ahmed
+  title: Lecturer, Department of Art, Howard University
+  bio: Dr. Miriam Ahmed teaches graphic design at Howard University in Washington,
+    DC. Her recent publications investigate the role and plerspectives of minority
+    designers within responsible design. She presented her research on “Anatomical
+    Grids” at TypeCon 2019 in Minneapolis, served on the 2020 Advisory Review Panel
+    for the DC Commission on the Arts and Humanities, and was an AIGA DC SHINE 2019
+    mentor. She was previously an Assistant Professor of Visual Communication at the
+    American University in Dubai, UAE, and earned her MFA and doctorate at Howard.
+  website-label: 
+  website-url: 
 filter-date:
   is-day-7: true
 filter-time:

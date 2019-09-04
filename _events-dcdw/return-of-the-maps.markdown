@@ -68,20 +68,14 @@ speakers:
     @tierneyl "
   website-label: 
   website-url: 
-- name: Dana Sulit
-  title: Product Designer/Developer, Mapbox
-  bio: Dana is a designer and developer at Mapbox, where she designs maps and builds
-    map design tools to make cartography possible for all. She loves solving problems
-    at all stages in the product lifestyle. Before Mapbox, Dana studied graphic design
-    at Syracuse University.
+- name: 
+  title: 
+  bio: 
   website-label: 
   website-url: 
-- name: Alex Parlato
-  title: Frontend Developer, Mapbox
-  bio: Alex Parlato works as a frontend developer with the map design team at Mapbox
-    to create tools that help users design custom maps to meet their needs. He has
-    a background in art and design and recently moved back to the east coast from
-    California.
+- name: 
+  title: 
+  bio: 
   website-label: 
   website-url: 
 filter-date:
@@ -100,4 +94,5 @@ Attendees will hear about:
 * Product and map design within larger design tools and systems like Figma and Framer from Amy Lee Walton of Mapbox and David Wicks of Solutions Architect and Mapbox
 * Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
 * Map design and data visualizations from Lauren Tierney of The Washington Post
-* Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
+
+Light refreshments and drinks will be provided.
