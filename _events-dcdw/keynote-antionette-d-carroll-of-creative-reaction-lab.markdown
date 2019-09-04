@@ -25,7 +25,7 @@ venue:
   is-tbd: true
   name: TBD
   address: Location to be announced soon!
-  directions:
+  directions: 
 speakers:
 - name: Antionette D. Carroll
   title: Founder and CEO of Creative Reaction Lab
