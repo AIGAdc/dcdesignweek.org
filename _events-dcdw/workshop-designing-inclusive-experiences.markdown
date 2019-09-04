@@ -116,6 +116,8 @@ speakers:
   website-url: https://www.linkedin.com/in/tjmarcel/
 filter-date:
   is-day-3: true
+filter-time:
+  is-daytime: true
 filter-type:
   is-workshop: true
 filter-location:
