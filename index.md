@@ -1,10 +1,11 @@
 ---
 title: Home
 permalink: "/"
-description: 
-hero-tagline: Shining a light on DCs most curious & creative.
-hero-header: "#DCDesignWeek 2019"
-hero-subheader: September 20-27
+description:
+hero:
+  - tagline: Shining a light on DCs most curious & creative.
+    header: "#DCDesignWeek 2019"
+    subheader: September 20-27
 hero-slider:
   - type: gogo
     caption: Feel Like Bustin’ Loose
