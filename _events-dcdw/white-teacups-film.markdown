@@ -2,7 +2,7 @@
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-02 12:30:00 -04:00
 status:
-  is-featured-on-events: false
+  is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: 'This film is certified fresh! '
 event:
@@ -43,7 +43,7 @@ speakers:
     Conservation Film Festival, Best Success Story at the Ekotopfilm/Envirofilm in
     Bratislava, Slovakia, and ACFF Foreign Film Award at the American Conservation
     Film Festival, among others.'
-  website-label: Provide label that will appear instead of URL
+  website-label: Website
   website-url: http://enoughwhiteteacups.com/
 - name: Vincent Wanga
   title: Designer, Director, Creative Consultant & Entrepreneur
@@ -56,7 +56,7 @@ speakers:
     the Fortune 500. With an arsenal of aptitudes acquired through the years, he looks
     at the world with a critical creative eye while empathetically analyzing the eloquence
     and human consequence of our craft.
-  website-label: 
+  website-label: Website
   website-url: http://vwanga.com
 filter-date:
   is-day-3: true
