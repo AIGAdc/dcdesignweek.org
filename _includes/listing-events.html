@@ -17,7 +17,7 @@
         {% assign sorted = (site.events-dcdw | sort: 'event.date' and 'event.start-time') %}
         {% for posts in sorted %}
         {% if page.url == "/" %}
-        {% if posts.status.is-featured-on-events == true %}
+        {% if posts.status.is-featured-on-home == true %}
             <li class="card card--event mix 
             {% if posts.filter-date.is-day-1 == true %} day-1
             {% elsif posts.filter-date.is-day-2 == true %} day-2
@@ -48,12 +48,8 @@
             {% elsif posts.filter-location.is-va == true %} va
             {% endif %}
 
-            {% if posts.status.is-sold-out == true %} sold-out
-            {% endif %}
-            {% if posts.status.is-coming-soon == true %} coming-soon
-            {% endif %}
-            {% if posts.status.is-featured-on-events == true %} featured
-            {% endif %}
+            {% if posts.status.is-sold-out == true %} sold-out {% endif %}
+            {% if posts.status.is-featured-on-events == true %} featured {% endif %}
             ">
                 {% if posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
                 <a class="disabled border border--black">
@@ -73,13 +69,6 @@
                         <figure>
                             <img src="{{ posts.event.image }}" alt="{{ posts.event.image-alt }}"/>
                         </figure>
-                        {% if posts.status.is-coming-soon == true %}
-                        <div class="ticker">
-                            <p>
-                                {{ posts.status.coming-soon-message }}
-                            </p>
-                        </div>
-                        {% endif %}
                         {% if posts.status.is-sold-out == true %}
                         <div class="ticker">
                             <p>
