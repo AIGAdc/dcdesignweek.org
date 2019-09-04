@@ -69,7 +69,7 @@ Join us, Globe Posters at MICA, and Shaolin Jazz to celebrate the start of DC De
 
 The evening will start with a talk on DC’s musical history alongside a presentation from Globe on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
 
-RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. 
+RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. **Note: This event is 18+ only.**
 
 
 ### Poster Exhibit of [Globe Posters](http://www.globeatmica.com){:target="_blank" rel="noopener"}
