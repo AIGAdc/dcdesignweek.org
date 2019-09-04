@@ -13,11 +13,11 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-label: "$20 Members"
   member-button-url: https://my.aiga.org/CPBase__custom_login?startURL=%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAWz4vro9ME8wMUgwMDAwMDA0Qzk2AAAA3ILKKCz3OBPhV03TwQLlbHenY6O_jEbXFd-MV2s_SotwlpotF4FL9rNkthtXrrtExV2Dq-COAtN1uGRnIL1cOUjuaUHG_9k1qvrRVET2FtE8Q3AKC3bDtzoAaGVN9hDjF0_hmhcb0HkwSpWWzyyB6EqlLz5Zr9bo-8rAIQQj9LoyHh0KLRAUVPEPvXK7dH-jwFFNbvmk8a0iIc34QkBifYm-LMLSb-xYFuuRBr1wkuZneyHCzUY1D0gKqS0S6qfFtGOuC3qjR5ne2w2c6UBVYSNELYH43uBVDJyXt8BbZCulBtktgJ-MYNZtCmLM-Mkji8B9rPhVwjISkHmFBi-P-6PndxTceAZOnEKNsAezCYXQxY0q-8_-n4ryj89RUxTgwmZuSMcRAfoy3ETMGfvuMpB7E82nWG6-P0yAl9cgckcv6u39Pm3oXXZR_KEKictDBiDMkW-EHjhZAZKElA9uYzo4J2EwAHIOF9al_o2QMbbYp0raJhv0gmTMTVAL45peZMIAQFL0j8ccw81cHiP2gUvFHBeopnOpBAqLP2rh6DHcu1JA43KfeCO3zgA9C0QcLw8tOAJti0aaE2tpkoeVMJ67wQU1Z1IJmtfs67NsvO9yPHE_c0BSj4xmIeYuJx0AvV2jjKmTZMbxENKMpVVoVu_hspmY_yBtkNQr3-kilsL80NM3Nfuq4Er5FYElesPeTlCKOfaEpI_kUTPT1DWxRrBsZJ4oqIL3EqYYa9SaW0vLZpHmiWBeNiyjxWnTe3Ek7Z53yRKS-rICYLK1dLQsSReFlvUtYP7cxD1V_w2ED6YTW8rNGSMUo6smZRYum6LN6L1gDFsy-uaF--mz1Fwqokv5pIr1wGW8cZU94FIR2-AlJmmGhCgguGdzg_AB8QKh6jazUb6Fo5zpfjPBthwTNGPjcSUJc6epEam53oikFR7m
+  member-button-label: "$20 Members"
   has-non-member-button: true
-  non-member-button-label: "$40 Non-members"
   non-member-button-url: https://www.eventbrite.com/e/designing-with-archival-images-carnegie-library-pt-1-tickets-71398720495
+  non-member-button-label: "$40 Non-members (On Sale September 10)"
 venue:
   name: 'Kiplinger Research Library inside Carnegie Library '
   address: 801 K St NW Second Floor, Washington, DC 20001
@@ -32,8 +32,8 @@ speakers:
     also serves as co-chair of the DC Alliance for Response, which brings together
     cultural heritage and emergency management professionals at the local level to
     make sure that repositories can best prepare for emergencies.
-  website-label: 
-  website-url: 
+  website-label: Provide label that will appear instead of URL
+  website-url: Provide Speaker website.
 - name: Jessica Smith
   title: Historical Society of Washington, D.C.
   bio: Jessica Smith is the Research Services Librarian at the Historical Society
