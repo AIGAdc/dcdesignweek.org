@@ -14,7 +14,7 @@
         </svg>
     </span>
     <div class="slides">
-        {% for slide in site.data.slider.slide %}
+        {% for slide in page.hero-slider %}
         <div class="slide slide--{{ slide.type }}" id="{{ slide.type }}">
             <div class="slide__content container--small">
                 <p>
@@ -50,41 +50,6 @@
         hash: true,
         fade: false,
         setGallerySize: false
-    });
-    // element argument can be a selector string
-    //  for an individual element
-    var flkty = new Flickity( '.slides', {
-        // options
-    });
-</script>
-{% endif %}
-
-{% if page.layout == "about" %}
-<div class="slider">
-    <div class="slides">
-        {% for slide in site.data.slider.slide %}
-        <div class="slide slide--{{ slide.type }}" id="{{ slide.type }}">
-            <video autoplay="true" loop="true" muted="true" poster="{{ slide.poster }}" src="{{ slide.video }}">
-            </video>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-<script>
-    // flickity
-    var elem = document.querySelector('.slides');
-    var flkty = new Flickity( elem, {
-        // options
-        cellAlign: 'center',
-        wrapAround: true,
-        pageDots: true,
-        draggable: false,
-        prevNextButtons: false,
-        hash: false,
-        fade: true,
-        setGallerySize: false,
-        autoPlay: 3000,
-        pauseAutoPlayOnHover: true
     });
     // element argument can be a selector string
     //  for an individual element
