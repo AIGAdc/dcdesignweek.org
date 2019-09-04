@@ -86,6 +86,8 @@ If you feel like you’ve hit a wall with your career, need to make a change or 
 
 The event will begin with a panel of experts (Jess Ray, Associate Creative Director at Deloitte Digital; Jessica Pavone, Product Designer at Upside Travel; Erin Lange, Senior Design Manager for Impactual; Kyle Overton, UX Designer at Capital One; and moderated Bailey O’Connell Senior Recruiter with Creative Circle) followed by two sessions of round-table discussions where you can have small group discussions with the speakers.
 
+Light beverages and snacks will be provided.
+
 **Venue Accessibility (elevators, stairs, etc.):**
 Brllnt is accessible from the front entrance of the Uline Arena building.
 
