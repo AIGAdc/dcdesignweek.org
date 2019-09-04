@@ -7,12 +7,10 @@ hero-header: "#DCDesignWeek 2019"
 hero-subheader: September 20-27
 events:
 - header: Featured Events
-  body: We just can’t wait for September 20th to start celebrating DC Design Week!
-    So, we’re ramping up early, with three creative talks at the Apple Carnegie Library.
-    Join us **before DC Design Week** on Sunday 9/8 and 9/15 and **during DC Design
-    Week** on Sunday 9/22 in Mount Vernon Square, when three DC designers will share
-    their craft through this series of not-to-be-missed and highly interactive sessions.
-    All three events are free and open to the public!
+  body: In 2019, we're lifting up new and engaging creative voices and practitioners
+    to share their own unconventional wisdom. This year, we're planning almost 40
+    events across the district, in Virginia, and in Maryland. Check out some of our
+    favorites below, and click through to see everything going on each day!
   has-button: true
   button-label: See More Events
   button-url: "/events/"
