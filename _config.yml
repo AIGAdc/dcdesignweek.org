@@ -20,7 +20,9 @@ defaults:
     path: ''
   values:
     image: "/uploads/og-image.jpg"
-    description: DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!
+    description: DC Design Week is a celebration of creatives, thinkers, and makers
+      in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+      Join us!
 - scope:
     path: ''
     type: events-dcdw

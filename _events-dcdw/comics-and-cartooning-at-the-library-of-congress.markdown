@@ -2,8 +2,8 @@
 title: Comics and Cartooning at the Library of Congress
 date: 2019-09-02 13:20:00 -04:00
 description: Take a private tour the Library of Congress’ Prints & Photographs Division
-    with a library curator, and attend a talk with the executive director of Small
-    Press Expo in the Library’s Comic Art Exhibit.
+  with a library curator, and attend a talk with the executive director of Small Press
+  Expo in the Library’s Comic Art Exhibit.
 event:
   date: 2019-09-24 08:15:00 -04:00
   image: "/uploads/Header_Cartooning%20LOC.png"

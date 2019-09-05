@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: HZDG'
 date: 2019-09-02 13:00:00 -04:00
-description: AIGA DC opens the doors to HZDG in this series of creative lunches during DC Design Week.
+description: AIGA DC opens the doors to HZDG in this series of creative lunches during
+  DC Design Week.
 event:
   date: 2019-09-24 13:00:00 -04:00
   image: "/uploads/Header_HZDG.png"

@@ -2,7 +2,7 @@
 title: 'Creative Lunch: The Hatcher Group'
 date: 2019-09-02 14:55:00 -04:00
 description: AIGA DC opens the doors to The Hatcher Group in this series of creative
-    lunches during DC Design Week.
+  lunches during DC Design Week.
 event:
   date: 2019-09-25 12:00:00 -04:00
   image: "/uploads/Header_Hatcher%20Group.png"

@@ -2,7 +2,7 @@
 title: 'Creative Lunch: Sustainable Food System Design'
 date: 2019-09-02 14:05:00 -04:00
 description: AIGA DC discusses sustainable systems design in this series of creative
-    lunches during DC Design Week.
+  lunches during DC Design Week.
 event:
   date: 2019-09-26 11:30:00 -04:00
   image: "/uploads/Header-Sustainable-Food.png"

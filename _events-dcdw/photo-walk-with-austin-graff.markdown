@@ -2,7 +2,7 @@
 title: North Capitol Photo Walk with Austin Graff
 date: 2019-09-02 12:44:00 -04:00
 description: Take your eyes off your screens—and yourself out of the office—to explore
-    the North Capitol neighborhood on a photo walk with Austin Graff.
+  the North Capitol neighborhood on a photo walk with Austin Graff.
 event:
   date: 2019-09-23 07:00:00 -04:00
   image: "/uploads/Header_Austin%20Photo%20Walk.png"

@@ -1,9 +1,9 @@
 ---
 title: Return of the Maps
 date: 2019-09-02 13:53:00 -04:00
-description: A series of lightning talks that will cover modern and traditional
-    map design, as well as workflow integrations with tools like Figma, Framer, and
-    After Effects.
+description: A series of lightning talks that will cover modern and traditional map
+  design, as well as workflow integrations with tools like Figma, Framer, and After
+  Effects.
 event:
   date: 2019-09-25 18:00:00 -04:00
   image: "/uploads/Header_MapboxGif.gif"

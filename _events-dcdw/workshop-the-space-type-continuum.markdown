@@ -1,10 +1,10 @@
 ---
 title: 'Workshop: The Space Type Continuum'
 date: 2019-09-01 18:36:00 -04:00
-description: 'Bring your typography to life with designer and MICA educator Kiel
-    Mutschelknaus, who will be hosting an interactive workshop at ISL to teach attendees
-    how to build their own kinetic type generators. '
 position: 2
+description: 'Bring your typography to life with designer and MICA educator Kiel Mutschelknaus,
+  who will be hosting an interactive workshop at ISL to teach attendees how to build
+  their own kinetic type generators. '
 image: "/uploads/Header_KIelGif.gif"
 status:
   is-coming-soon: false
