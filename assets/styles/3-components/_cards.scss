@@ -55,7 +55,9 @@
     bottom: 0;
     left: 0;
 }
-.ticker p {
+.home-layout .ticker p,
+.events-layout .ticker p,
+.events-single-layout .ticker p {
     display: inline-block;
     font-size: $font-size-20;
     margin: 0;
@@ -64,9 +66,19 @@
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+    width: 100%;
+}
+.home-layout .ticker p,
+.events-layout .ticker p {
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
+}
+
+.events-single-layout .ticker p {
+    -moz-animation: ticker 20000ms linear infinite;
+    -webkit-animation: ticker 20000ms linear infinite;
+    animation: ticker 20000ms linear infinite;
 }
 /* Move it (define the animation) */
 
