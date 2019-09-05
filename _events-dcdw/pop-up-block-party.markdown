@@ -39,7 +39,7 @@ We’ll have official DCDW swag, cold beers, snacks, letterpress poster printing
 Don’t miss it, because supplies won’t last!
 
 ## Event Partner: Cherry Blossom Creative
-Cherry Blossom Creative is a graphic design company and a retail stationary shop. They specialize in branding strategy, collateral, and awesome analog and digital media. The creative director Torie Partridge is the creator of the DC Neighborhoods Map project, the vibrant and colorful prints found in the home of every cool DC resident. [Learn more here.](https://www.cherryblossomworkshop.com/)
+Cherry Blossom Creative is a stationery shop and design studio based in Washington, DC. We create colorful illustrated maps of neighborhoods and cities that celebrate local community, neighborhood pride, and all the places you call home. Each map is hand-illustrated by owner Torie Partridge, who believes deeply in the power of cities and urban culture. [Learn more here.](https://www.cherryblossomworkshop.com/)
 
 ## Event Partner: The Neighborgoods
 The Neighborgoods is a one stop shop to pick up witty and unique gifts for any and all occasions based here in Shaw, DC. In this colorful shop you'll find their own line of foodie-themed giftable goods including dish towels, tote bags, baby one-pieces, stickers, and more. In addition, they bring in a selection of home goods and gift products so you are sure to find something for everyone. If you get lucky you might catch their shop dog, Frankie, when he's on duty greeting customers and giving out free pets. The shop is open Tuesday - Saturday 12-8 and Sundays 11-7 at 2130 8th St. NW. [Learn more here.](https://theneighborgoods.com/){:target="_blank" rel="noopener"}
