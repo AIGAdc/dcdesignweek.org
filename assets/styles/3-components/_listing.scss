@@ -38,6 +38,6 @@
 @supports (display: grid) {
     .listing__sponsors>*, .listing__partners>*, .listing__committee>*, .listing__events>* {
         max-width: unset;
-        margin: 0;
+        margin: 0 auto;
     }
 }

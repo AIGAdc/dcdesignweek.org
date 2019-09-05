@@ -15,6 +15,15 @@ a {
 a:hover {
     opacity: 0.6;
 }
+button:active,
+button:focus,
+input:active,
+input:focus,
+a:active,
+a:focus {
+    outline: dotted medium $aquamarine !important;
+    outline-offset: medium !important;
+}
 h1, h2, h3, h4, h5, h6, small {
     font-family: $script;
     font-stretch: normal;

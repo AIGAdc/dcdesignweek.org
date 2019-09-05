@@ -1,9 +1,9 @@
 <!-- offside menu -->
-<nav class="mobile-menu db dn-l" id="mobile-menu">
-    <ul class="mobile-menu__list list ma0 pl0 ma4">
+<nav class="mobile-menu" id="mobile-menu">
+    <ul class="mobile-menu__list">
         {% for link in site.data.navigation.primary-nav %}
-        <li class="mobile-menu__item list-none">
-            <a class="monospace ttu white pb3 db" href="{{ link.url }}">
+        <li class="button button__link button__link--black">
+            <a class="" href="{{ link.url }}">
                 {{ link.title }}
             </a>
         </li>
