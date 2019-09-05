@@ -7,7 +7,7 @@ description: For this event, DC-based animation studio The Duke and the Duck wil
 event:
   date: 2019-09-24 18:30:00 -04:00
   image: "/uploads/Header_Motion-Expressions2.gif"
-  image-alt: Example of motion animation from David Arbour
+  image-alt: Example of motion animation from David Arbor
   start-time: 6:30pm
   end-time: 9:30pm
   has-speakers: true
@@ -23,7 +23,7 @@ venue:
   address: 509 7th St NW, Washington, DC 20004
   directions: https://goo.gl/maps/Mda57RqjYiztBA1n9
 speakers:
-- name: David Arbour
+- name: David Arbor
   title: Motion Graphics Designer / Editor
   bio: David is an award-winning motion designer, video editor, and photographer in
     the Washington, D.C. area. He creates all kinds of animations but has found a
