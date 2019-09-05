@@ -4,6 +4,7 @@
 .card a {
     display: inline-block;
     margin: 0;
+    max-width: 32rem;
 }
 .card.card--committee {
     padding-top: 2rem;
@@ -11,7 +12,6 @@
 }
 .card-image {
     position: relative;
-    max-width: 32rem;
     max-width: 100%;
 }
 .card.card--event figure img {
@@ -56,9 +56,7 @@
     bottom: 0;
     left: 0;
 }
-.home-layout .ticker p,
-.events-layout .ticker p,
-.events-single-layout .ticker p {
+.home-layout .ticker p, .events-layout .ticker p, .events-single-layout .ticker p {
     display: inline-block;
     font-size: $font-size-20;
     margin: 0;
@@ -69,13 +67,11 @@
     transform: translateX(100%);
     width: 100%;
 }
-.home-layout .ticker p,
-.events-layout .ticker p {
+.home-layout .ticker p, .events-layout .ticker p {
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
 }
-
 .events-single-layout .ticker p {
     -moz-animation: ticker 20000ms linear infinite;
     -webkit-animation: ticker 20000ms linear infinite;
