@@ -19,7 +19,7 @@ tickets:
   non-member-button-label: "$15 Non-members (On Sale September 10)"
 venue:
   name: The Cheshire
-  address: 2412 18th St NW, Suite R, Adams Morgan, DC 20009
+  address: 2412 18th St NW, Suite R, Washington, DC 20009
   directions: https://g.page/the-cheshire?share
 speakers:
 - name: Kasia Galica
