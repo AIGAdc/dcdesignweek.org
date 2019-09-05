@@ -55,7 +55,7 @@ From the UI on your favorite app to the introduction titles at the latest confer
 
 Whether you’re a designer who wants to add a new skill set, or the mere thought of opening After Effects terrifies you, this event will provide the foundation you need to start animating your ideas to life.
 
-Led by three motion graphics artists, this hands-on workshop include the following topics: 
+Led by two motion graphics artists, this hands-on workshop include the following topics: 
 * The 12 principles of motion
 * Ideal software for motion graphics
 * Transitioning from design to motion
