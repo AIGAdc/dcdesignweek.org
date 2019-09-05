@@ -2,13 +2,13 @@
 title: 'Creative Lunch: HZ'
 date: 2019-09-02 13:00:00 -04:00
 event:
-  date: 2019-09-24 13:00:00 -04:00
-  description: AIGA DC opens the doors to HZ in this series of creative lunches during
-    DC Design Week.
+  date: 2019-09-24 11:00:00 -04:00
   image: "/uploads/Header_HZDG.png"
   image-alt: creative lunch with agency HZ
-  start-time: 1:00pm
-  end-time: 2:00pm
+  start-time: 11:00am
+  end-time: 12:00pm
+  description: AIGA DC opens the doors to HZ in this series of creative lunches during
+    DC Design Week.
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-hzdg%2F%3Fredirect_source%3Deventbrite_register
@@ -34,4 +34,4 @@ HZ combines creative branding and campaigns with data-driven strategy, social, a
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 1:00pm.
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:00am.
