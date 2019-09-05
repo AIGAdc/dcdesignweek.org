@@ -25,7 +25,3 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-/* special shout out to Andy Bell for this his snippet */
-.listing__sponsors>*+*, .listing__partners>*+*, .listing__committee>*+*, .listing__events>*+* {
-    margin-top: $spacing-32;
-}
