@@ -1,8 +1,16 @@
 2019-sponsors:
+  - title: Gallagher & Associates
+    image: "/uploads/sponsor-gallagher.jpg"
+    image-alt: logo for gallagher & associates
+    website: https://www.gallagherdesign.com
   - title: General Design Co.
     image: "/uploads/sponsor-gdc.jpg"
     image-alt: logo for gdc
     website: http://www.generaldesignco.com
+  - title: Line Hotel
+    image: "/uploads/sponsor-line-hotel.jpg"
+    image-alt: logo for line-hotel
+    website: https://www.thelinehotel.com/dc/
   - title: Maclab
     image: "/uploads/sponsor-maclab.jpg"
     image-alt: logo for maclab
@@ -45,10 +53,6 @@ inactive-sponsors:
     image: "/uploads/sponsor-hp.jpg"
     image-alt: logo for hp
     website: https://www8.hp.com/us/en/commercial-printers/graphic-arts.html
-  - title: Line Hotel
-    image: "/uploads/sponsor-line-hotel.jpg"
-    image-alt: logo for line-hotel
-    website: https://www.thelinehotel.com/dc/
   - title: Right Proper
     image: "/uploads/sponsor-right-proper.jpg"
     image-alt: logo for right proper
