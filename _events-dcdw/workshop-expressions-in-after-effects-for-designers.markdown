@@ -54,6 +54,7 @@ This workshop is tailored to motion designers who already use After Effects and 
 * Creating a simple expression
 * Expression control effects
 * Demo and breakdown of an expression used in production
+* Learning Master Properties
 
 Participants will be required to bring a laptop with Adobe After Effects already installed.  
 
