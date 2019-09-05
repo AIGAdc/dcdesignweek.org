@@ -29,14 +29,16 @@ venue:
 speakers:
 - name: Matt Green
   title: Designer /Co- Founder of District Running Collective
-  bio: "Matt is the leader and co-founder of District Running Collective (DRC), an
+  bio: 'Matt is the leader and co-founder of District Running Collective (DRC), an
     urban run crew that elevates running as a sport while positively impacting the
     community. Through DRC, Matt has successfully events that show residents that
     healthy can be fun. He has spent the past five years building a community of runners
     that meet weekly and who would have never thought to run a marathon and now have
     multiple medals from all over the world. Matt has also used the run group to raise
     money for scholarships and non-profits. Matt is committed to bettering all of
-    Washington, DC.\n\nInstagram @marsgreen \n"
+    Washington, DC.
+
+'
   website-label: District Running Collective
   website-url: https://www.districtrunningcollective.com
 - name: Julienne DeVita
@@ -63,7 +65,7 @@ filter-location:
 
 Lace up your sneakers and join us for a morning run past DC’s newest and most exciting street murals! Join the District Running Collective (DRC) to hit DC’s historic neighborhoods on foot, catching a glimpse of the city’s best street murals as you make your way through the District.
 
-Whether you’re an occasional jogger or an experienced runner, all paces and abilities are welcome. Just be sure to stick around for coffee and a morning talk with DC street artists! And while you warm down at the end run, we’ll be showing some of the short films made during this year’s [Pow! Wow! DC](https://www.powwowdc.com/) mural festival 
+Whether you’re an occasional jogger or an experienced runner, all paces and abilities are welcome. Just be sure to stick around for coffee and a morning talk with DC street artists! And while you cool down at the end run, we’ll be showing some of the short films made during this year’s [Pow! Wow! DC](https://www.powwowdc.com/) mural festival 
 
 The run begin will begin at the new HQ of DRC, designed by former Nike creative director and Howard alum, Jason Murphy. Instantly iconic, the space is flush with bold colors, symbolic imagery and typography that distinctly captures the character of DC’s neighborhoods and the spirit of its inhabitants.
 
