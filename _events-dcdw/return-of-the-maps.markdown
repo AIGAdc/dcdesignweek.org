@@ -31,8 +31,8 @@ speakers:
     experiences at Mapbox. Amy Lee thrives in cross-disciplinary environments working
     alongside groups of diverse thinkers and makers. Her work moves complexities into
     delightful, intuitive experiences that users love and rely on. '
-  website-label: Provide label that will appear instead of URL
-  website-url: Provide Speaker website.
+  website-label: 
+  website-url: 
 - name: David Wicks
   title: Solutions Architect, Mapbox
   bio: David Wicks is a wanderer, artist, and software developer. They hold a BA in
@@ -59,23 +59,12 @@ speakers:
   website-url: 
 - name: Lauren Tierney
   title: Graphics Reporter and Cartographer, The Washington Post
-  bio: "Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
+  bio: Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
     who enjoys telling stories with maps and specializes in mapping environment, climate,
     wildlife, and adventure topics. Before joining the Post in 2017, she was a Graphics
     Editor at National Geographic Magazine, and has a masters degree in geography
     from the University of Oregon. She is a board member for the North American Cartographic
-    Information Society, and is a past editor of the Atlas of Design.\n\nInstagram
-    @tierneyl "
-  website-label: 
-  website-url: 
-- name: 
-  title: 
-  bio: 
-  website-label: 
-  website-url: 
-- name: 
-  title: 
-  bio: 
+    Information Society, and is a past editor of the Atlas of Design.
   website-label: 
   website-url: 
 filter-date:
