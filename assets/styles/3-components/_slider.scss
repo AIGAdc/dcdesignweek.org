@@ -4,7 +4,7 @@
 /* carousel height */
 
 .slides {
-    height: 75vh;
+    height: 85vh;
 }
 /* cell inherit height from slider */
 
@@ -126,12 +126,17 @@
 }
 @media screen and (min-width: 1439px) {
     .slides {
-        max-height: 80vh;
+        max-height: 90vh;
     }
     .slide video {
         object-fit: cover;
     }
     .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
         background-size: contain;
+    }
+}
+@media screen and (min-height: 1300px) {
+    .slides {
+        max-height: 75vh;
     }
 }
