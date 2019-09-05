@@ -19,7 +19,7 @@ venue:
   address: 1301 K St NW, Washington, DC 20005
   directions: https://goo.gl/maps/2ddUUX4SftcJfvQP7
 speakers:
-- name: Elite Troung
+- name: Elite Truong
   title: Deputy editor, Strategic Initiatives, Washington Post
   bio: Elite Truong is the deputy editor for strategic initiatives at The Washington
     Post, where she leads experimental storytelling projects working with The Post’s
