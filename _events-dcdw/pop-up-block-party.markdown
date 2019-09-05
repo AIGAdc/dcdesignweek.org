@@ -38,7 +38,7 @@ We’ll have official DCDW swag, cold beers, snacks, letterpress poster printing
 
 Don’t miss it, because supplies won’t last!
 
-## Event Partner: The Neighborgoods
+## Event Partner: Cherry Blossom Creative
 Cherry Blossom Creative is a graphic design company and a retail stationary shop. They specialize in branding strategy, collateral, and awesome analog and digital media. The creative director Torie Partridge is the creator of the DC Neighborhoods Map project, the vibrant and colorful prints found in the home of every cool DC resident. [Learn more here.](https://www.cherryblossomworkshop.com/)
 
 ## Event Partner: The Neighborgoods
