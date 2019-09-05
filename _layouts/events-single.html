@@ -2,10 +2,14 @@
 layout: default
 ---
 
-{% include partials/events/single/section-1.html %}
-{% include partials/events/single/section-2.html %}
-<div class="mw7 center pa3 cf">
-    {% include partials/events/single/section-3.html %}
-	{% include partials/events/single/section-4.html %}
-	{% include partials/events/single/section-5.html %}
-</div>
+<section>
+    {% include event-single-1-hero.html %}
+	{% include event-single-2-details.html %}
+</section>
+<section class="container">
+    {% include event-single-3-content.html %}
+    {% include event-single-4-speakers.html %}
+</section>
+<section class="event-single__learn">
+    {% include event-single-5-about-dcdw.html %}
+</section>

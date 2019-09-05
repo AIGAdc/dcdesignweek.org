@@ -1,9 +1,12 @@
-<nav id="mobile-menu" class="mobile-menu db dn-l bg-dcdw-secondary">
-  <ul class="mobile-menu__list list ma0 pl0 ma4">
-    {% for link in site.data.navigation.live-site %}
-    <li class="mobile-menu__item list-none">
-      <a href="{{ link.url }}" class="monospace ttu white pb3 db">{{ link.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+<!-- offside menu -->
+<nav class="mobile-menu" id="mobile-menu">
+    <ul class="mobile-menu__list">
+        {% for link in site.data.navigation.primary-nav %}
+        <li class="button button__link button__link--black">
+            <a class="" href="{{ link.url }}">
+                {{ link.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </nav>

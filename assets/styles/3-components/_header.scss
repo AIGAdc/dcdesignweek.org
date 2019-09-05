@@ -1,6 +1,7 @@
 .site-header {
     background-color: $white;
     border-bottom: solid 2px $lightning-yellow;
+    padding: $spacing-4 $spacing-8;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -10,6 +11,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+        justify-content: space-between;
 }
 .site-header__logo {
     max-width: 144px;
@@ -17,9 +19,12 @@
 .site-header__logo svg {
     max-height: 72px;
 }
+.site-header ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .site-header__links {
     display: none;
-    flex-grow: 1;
     text-align: right;
 }
 .site-header__links li {
@@ -32,10 +37,13 @@
 }
 .site-header__menu {
     display: block;
-    flex-grow: 1;
     text-align: right;
 }
-@media screen and (min-width: 1023px) {
+
+.active {
+    border-bottom: 4px solid $black;
+}
+@media screen and (min-width: $break-3) {
     .site-header__links {
         display: block;
     }

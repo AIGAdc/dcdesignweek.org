@@ -1,0 +1,45 @@
+<div class="sponsors">
+    {% if page.url == "/" or "/about/" %}
+        {% for section in page.sponsors %}
+    <h2>
+        {{ section.header }}
+    </h2>
+    <hr/>
+    <p>
+        {{ section.body | markdownify }}
+    </p>
+    {% if section.sub-header %}
+    <h3>
+        {{ section.sub-header }}
+    </h3>
+    {% endif %}
+                {% if section.sub-body %}
+    <p>
+        {{ section.sub-copy | markdownify }}
+    </p>
+    {% endif %}
+        {% endfor %}
+    {% endif %}
+    <!-- listing -->
+    <ul class="listing__sponsors">
+        {% for sponsor in site.data.listing-sponsors.2019-sponsors %}
+        <li class="card card__sponsors">
+            <div class="card-details">
+                <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
+                    <img alt="{{ sponsor.image-alt }}" class="lazyload blur-up" data-src="{{ sponsor.image }}" src="{{ sponsor.image }}">
+                    </img>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% if page.url == "/" or "/about/ "%}
+        {% for section in page.sponsors %}
+            {% if section.has-button == true %}
+    <a class="button button__{{ section.button-type }}--{{ section.button-class }}" href="{{ section.button-url }}" rel="noopener" style="margin-top: 32px;">
+        {{ section.button-label }}
+    </a>
+    {% endif %}
+        {% endfor %}
+    {% endif %}
+</div>

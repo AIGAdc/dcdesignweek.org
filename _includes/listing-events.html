@@ -1,0 +1,279 @@
+<div class="events">
+    {% if page.url == "/" or "/carnegie-library/" %}
+        {% for section in page.events %}
+        <h2>
+            {{ section.header }}
+        </h2>
+        <hr/>
+        <p>
+            {{ section.body | markdownify }}
+        </p>
+        {% endfor %}
+    {% endif %}
+
+    {% if page.url == "/" %}
+    <!-- listing -->
+    <ul class="listing__events mixitup-container">
+        {% assign sorted = (site.events-dcdw | sort: 'event.date' and 'event.start-time') %}
+        {% for posts in sorted %}
+        {% if page.url == "/" %}
+        {% if posts.status.is-featured-on-home == true %}
+            <li class="card card--event mix 
+            {% if posts.filter-date.is-day-1 == true %} day-1
+            {% elsif posts.filter-date.is-day-2 == true %} day-2
+            {% elsif posts.filter-date.is-day-3 == true %} day-3
+            {% elsif posts.filter-date.is-day-4 == true %} day-4
+            {% elsif posts.filter-date.is-day-5 == true %} day-5
+            {% elsif posts.filter-date.is-day-6 == true %} day-6
+            {% elsif posts.filter-date.is-day-7 == true %} day-7
+            {% elsif posts.filter-date.is-day-8 == true %} day-8
+            {% endif %}
+
+            {% if posts.filter-time.is-morning == true %} morning
+            {% elsif posts.filter-time.is-daytime == true %} daytime
+            {% elsif posts.filter-time.is-evening == true %} evening
+            {% endif %}
+
+            {% if posts.filter-type.is-talk == true %} talk
+            {% elsif posts.filter-type.is-screening == true %} screening
+            {% elsif posts.filter-type.is-party == true %} party
+            {% elsif posts.filter-type.is-family-friendly == true %} family-friendly
+            {% elsif posts.filter-type.is-creative-lunch == true %} creative-lunch
+            {% elsif posts.filter-type.is-wellness == true %} wellness
+            {% elsif posts.filter-type.is-workshop == true %} workshop
+            {% endif %}
+
+            {% if posts.filter-location.is-dc == true %} dc
+            {% elsif posts.filter-location.is-md == true %} md
+            {% elsif posts.filter-location.is-va == true %} va
+            {% endif %}
+
+            {% if posts.status.is-sold-out == true %} sold-out {% endif %}
+            {% if posts.status.is-featured-on-events == true %} featured {% endif %}
+            ">
+                {% if posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
+                <a class="disabled border border--black">
+                {% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+                <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                {% else %}
+                <a class="enabled border border--black shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                {% endif %}
+                    <div class="card-image">
+                        {% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+                        <div class="ticker bg-hot-pink">
+                            <p>
+                                {{ posts.status.featured-event-message }}
+                            </p>
+                        </div>
+                        {% endif %}
+                        <figure>
+                            <img src="{{ posts.event.image }}" alt="{{ posts.event.image-alt }}"/>
+                        </figure>
+                        {% if posts.status.is-sold-out == true %}
+                        <div class="ticker">
+                            <p>
+                                {{ posts.status.sold-out-message }}
+                            </p>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="card-details">
+                        <h3>
+                            {{ posts.title }}
+                        </h3>
+                        <hr/>
+                        <p>
+                            <i class="fas fa-calendar-day">
+                            </i>
+                            {{ posts.event.date | date: "%A, %B %d"}}
+                        </p>
+                        <p>
+                            <i class="fas fa-clock">
+                            </i>
+                            {{ posts.event.start-time }} - {{ posts.event.end-time }}
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt">
+                            </i>
+                            {{ posts.venue.name }}
+                        </p>
+                    </div>
+                </a>
+            </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+    {% elsif page.url == "/events/" %}
+    <!-- listing -->
+    <ul class="listing__events mixitup-container">
+        {% assign sorted = (site.events-dcdw | sort: 'event.date' and 'event.start-time') %}
+        {% for posts in sorted %}
+        <li class="card card--event mix 
+        {% if posts.filter-date.is-day-1 == true %} day-1
+        {% elsif posts.filter-date.is-day-2 == true %} day-2
+        {% elsif posts.filter-date.is-day-3 == true %} day-3
+        {% elsif posts.filter-date.is-day-4 == true %} day-4
+        {% elsif posts.filter-date.is-day-5 == true %} day-5
+        {% elsif posts.filter-date.is-day-6 == true %} day-6
+        {% elsif posts.filter-date.is-day-7 == true %} day-7
+        {% elsif posts.filter-date.is-day-8 == true %} day-8
+        {% endif %}
+
+        {% if posts.filter-time.is-morning == true %} morning
+        {% elsif posts.filter-time.is-daytime == true %} daytime
+        {% elsif posts.filter-time.is-evening == true %} evening
+        {% endif %}
+
+        {% if posts.filter-type.is-talk == true %} talk
+        {% elsif posts.filter-type.is-screening == true %} screening
+        {% elsif posts.filter-type.is-party == true %} party
+        {% elsif posts.filter-type.is-family-friendly == true %} family-friendly
+        {% elsif posts.filter-type.is-creative-lunch == true %} creative-lunch
+        {% elsif posts.filter-type.is-wellness == true %} wellness
+        {% elsif posts.filter-type.is-workshop == true %} workshop
+        {% endif %}
+
+        {% if posts.filter-location.is-dc == true %} dc
+        {% elsif posts.filter-location.is-md == true %} md
+        {% elsif posts.filter-location.is-va == true %} va
+        {% endif %}
+
+        {% if posts.status.is-sold-out == true %} sold-out
+        {% endif %}
+        {% if posts.status.is-coming-soon == true %} coming-soon
+        {% endif %}
+        {% if posts.status.is-featured-on-events == true %} featured
+        {% endif %}
+        ">
+            {% if posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
+            <a class="disabled border border--black">
+            {% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+            <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            {% else %}
+            <a class="enabled border border--black shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            {% endif %}
+                <div class="card-image">
+                    {% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
+                    <div class="ticker bg-hot-pink">
+                        <p>
+                            {{ posts.status.featured-event-message }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    <figure>
+                        <img src="{{ posts.event.image }}" alt="{{ posts.event.image-alt }}"/>
+                    </figure>
+                    {% if posts.status.is-coming-soon == true %}
+                    <div class="ticker">
+                        <p>
+                            {{ posts.status.coming-soon-message }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    {% if posts.status.is-sold-out == true %}
+                    <div class="ticker">
+                        <p>
+                            {{ posts.status.sold-out-message }}
+                        </p>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="card-details">
+                    <h3>
+                        {{ posts.title }}
+                    </h3>
+                    <hr/>
+                    <p>
+                        <i class="fas fa-calendar-day">
+                        </i>
+                        {{ posts.event.date | date: "%A, %B %d"}}
+                    </p>
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        {{ posts.event.start-time }} - {{ posts.event.end-time }}
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt">
+                        </i>
+                        {{ posts.venue.name }}
+                    </p>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% elsif page.url == "/carnegie-library/" %}
+    <!-- listing -->
+    <ul class="listing__events">
+        {% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
+        {% for posts in sorted_events-carnegie %}
+        <li class="card">
+            {% if posts.event.is-coming-soon == true or posts.event.is-sold-out == true %}
+            <a class="disabled border border--black">
+            {% else %}
+            <a class="border border--black shadow shadow-reverse--mauve" {% if posts.event.external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            {% endif %}
+                <div class="card-image">
+                    <figure>
+                        <img src="{{ posts.image }}" alt="{{ posts.image-alt }}"/>
+                    </figure>
+                    {% if posts.event.is-coming-soon == true %}
+                    <div class="ticker">
+                        <p>
+                            {{ posts.event.coming-soon-message }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    {% if posts.event.is-sold-out == true %}
+                    <div class="ticker">
+                        <p>
+                            {{ posts.event.sold-out-message }}
+                        </p>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="card-details">
+                    <h3>
+                        {{ posts.title }}
+                    </h3>
+                    <hr/>
+                    <p>
+                        <i class="fas fa-calendar-day">
+                        </i>
+                        {{ posts.event.date | date: "%A, %B %d"}}
+                    </p>
+                    <p>
+                        <i class="fas fa-clock">
+                        </i>
+                        {{ posts.event.start-time }} - {{ posts.event.end-time }}
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt">
+                        </i>
+                        {{ posts.event.venue-name }}
+                    </p>
+                    <hr/>
+                    <p>
+                        {{ posts.description }}
+                    </p>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.url == "/" or "/carnegie-library/" %}
+    {% for section in page.events %}
+    {% if section.has-button == true %}
+    <a class="button button__{{ section.button-type }}--{{ section.button-class }}" style="margin-top: 32px;" href="{{ section.button-url }}" rel="noopener">
+        {{ section.button-label }}
+    </a>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+</div>

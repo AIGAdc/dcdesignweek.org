@@ -1,47 +1,96 @@
-# This data yml file will loop through the DCDW Member Portraits and display them in a 3 column grid.
-controls:
-  - filter: .oct-20
-    class: control-oct-20
+filter-date:
+  - filter: .day-1
+    class: day-1
+    text-1:  Fri
+    text-2: Sept
+    text-3: 20
+  - filter: .day-2
+    class: day-2
     text-1: Sat
-    text-2: Oct 20
-    disabled: false
-  - filter: .oct-21
-    class: control-oct-21
+    text-2: Sept
+    text-3: 21
+  - filter: .day-3
+    class: day-3
     text-1: Sun
-    text-2: Oct 21
-    disabled: false
-  - filter: .oct-22
-    class: control-oct-22
+    text-2: Sept
+    text-3: 22
+  - filter: .day-4
+    class: day-4
     text-1: Mon
-    text-2: Oct 22
-    disabled: false
-  - filter: .oct-23
-    class: control-oct-23
+    text-2: Sept
+    text-3: 23
+  - filter: .day-5
+    class: day-5
     text-1: Tue
-    text-2: Oct 23
-    disabled: false
-  - filter: .oct-24
-    class: control-oct-24
+    text-2: Sept
+    text-3: 24
+  - filter: .day-6
+    class: day-6
     text-1: Wed
-    text-2: Oct 24
-    disabled: false
-  - filter: .oct-25
-    class: control-oct-25
+    text-2: Sept
+    text-3: 25
+  - filter: .day-7
+    class: day-7
     text-1: Thu
-    text-2: Oct 25
-    disabled: false
-  - filter: .oct-26
-    class: control-oct-26
+    text-2: Sept
+    text-3: 26
+  - filter: .day-8
+    class: day-8
     text-1: Fri
-    text-2: Oct 26
-    disabled: false
-  - filter: .oct-27
-    class: control-oct-27
-    text-1: Sat
-    text-2: Oct 27
-    disabled: false
-  - filter: .oct-28
-    class: control-oct-28
-    text-1: Sun
-    text-2: Oct 28
-    disabled: false
+    text-2: Sept
+    text-3: 27
+
+filter-time-of-day:
+  - filter: .morning
+    class: morning
+    text-1: Morning
+  - filter: .daytime
+    class: daytime
+    text-1: Daytime
+  - filter: .evening
+    class: evening
+    text-1: Evening
+
+filter-event-type:
+  - filter: .creative-lunch
+    class: creative-lunch
+    text-1: Creative Lunch
+  - filter: .family-friendly
+    class: family-friendly
+    text-1: Family Friendly
+  - filter: .party
+    class: party
+    text-1: Party
+  - filter: .screening
+    class: screening
+    text-1: Screening
+  - filter: .talk
+    class: talk
+    text-1: Talk
+  - filter: .wellness
+    class: wellness
+    text-1: Wellness
+  - filter: .workshop
+    class: workshop
+    text-1: Workshop
+
+filter-location:
+  - filter: .dc
+    class: dc
+    text-1: DC
+  - filter: .md
+    class: md
+    text-1: MD
+  - filter: .va
+    class: va
+    text-1: VA
+
+filter-sold-out:
+  - filter: .sold-out
+    class:  sold-out
+    text-1: Sold Out
+
+filter-status:
+  - filter: .featured
+    class:  featured
+    text-1: Show Featured

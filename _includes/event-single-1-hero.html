@@ -1,0 +1,43 @@
+<section class="event-single__hero" style="background-image:url('{{ page.event.image }}');">
+    <div class="event-single__overlay"></div>
+    <div class="event-single__hero-content container">
+        <h1>
+            {{ page.title }}
+        </h1>
+        <p>
+            {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
+        </p>
+        {% if page.tickets.has-member-button == true %}
+        <a {% if page.tickets.member-button-is-disabled == true %} class="disabled button button__border button__border--crusta bg-white" {% else %} class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}" target="_blank" rel="noopener" {% endif %}>
+            {{ page.tickets.member-button-label }}
+        </a>
+        {% endif %}
+
+        {% if page.tickets.has-non-member-button == true %}
+        <a {% if page.tickets.non-member-button-is-disabled == true %} class="disabled button button__border button__border--crusta bg-white" {% else %} class="button button__border button__border--crusta bg-white" href="{{ page.tickets.non-member-button-url }}" target="_blank" rel="noopener" {% endif %}>
+            {{ page.tickets.non-member-button-label }}
+        </a>
+        {% endif %}
+    </div>
+    {% if page.status.is-sold-out == true %}
+    <div class="ticker ticker--sold-out">
+        <p>
+            {{ page.status.sold-out-message }}
+        </p>
+    </div>
+    {% endif %}
+    {% if page.status.is-coming-soon == true %}
+    <div class="ticker ticker--coming-soon">
+        <p>
+            {{ page.status.coming-soon-message }}
+        </p>
+    </div>
+    {% endif %}
+    {% if page.status.is-featured-on-events == true %}
+    <div class="ticker ticker--featured bg-hot-pink">
+        <p>
+            {{ page.status.featured-event-message }}
+        </p>
+    </div>
+    {% endif %}
+</section>

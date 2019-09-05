@@ -8,7 +8,7 @@
 }
 /* Remove margin and padding from elements */
 
-body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt {
+body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt, fieldset {
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +18,6 @@ body {
     /* Anchor links will transition rather than skip */
     scroll-behavior: smooth;
     /* Reset font size to 1rem, in case it has a pixel value */
-    font-size: 1rem;
     min-height: 100vh;
 }
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -37,8 +36,7 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
     cursor: pointer;
 }
-.button > a:focus,
-a:focus {
+.button>a:focus, a:focus {
     outline: dotted medium $aquamarine !important;
     outline-offset: medium !important;
 }

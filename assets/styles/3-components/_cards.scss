@@ -1,69 +1,84 @@
-.block-committee .card {
-    padding-top: 2rem;
+.card {
+    display: flex;
 }
-.card-image, .block-committee .card-image {
-    position: relative;
+.card a {
+    display: inline-block;
+    margin: 0;
+}
+.card.card--committee {
+    padding-top: 2rem;
+    flex-direction: column;
 }
 .card-image {
-    background-color: $black;
+    position: relative;
+    max-width: 100%;
 }
-.block-committee .card-image {
-    background-color: $white;
+.card.card--event figure img {
+    height: 200px;
+    width: 100vw;
+    object-fit: cover;
 }
 .card-details {
     background-color: $white;
     color: $black;
-    padding: $spacing-32;
-}
-.card a {
-    display: inline-block;
-    font-weight: 900;
-    font-size: $font-size-16;
-    margin: 0;
-    line-height: 1.4rem;
-}
-.block-featured-sponsors .card a {
-    display: block;
-}
-.card-details h3 {
-    line-height: 2.2rem;
-}
-.block-committee .card-details h3 {
-    margin-top: $spacing-48;
+    flex-grow: 1;
+    padding: $spacing-16;
 }
 .card-details hr {
-    margin-bottom: 1rem;
+    border-color: $black;
+}
+.card-details h3 {
+    font-size: $font-size-24;
 }
 .card-details p {
     font-size: $font-size-16;
     font-weight: 400;
-    margin: 0 0 0.25rem 0;
+    margin: 0 0 $spacing-8 0;
 }
+.card__sponsors .card-details, .card__partners .card-details {
+    padding: 0;
+}
+.card--committee .card-details h3 {
+    margin-top: $spacing-32;
+}
+/* ticker */
+
 .ticker {
     background-color: $black;
-    color: $white;
+    color: $black;
     font-family: $script;
     letter-spacing: 1px;
     overflow: hidden;
+    padding: $spacing-4;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
 }
-.ticker p {
+.home-layout .ticker p,
+.events-layout .ticker p,
+.events-single-layout .ticker p {
+    display: inline-block;
     font-size: $font-size-20;
     margin: 0;
-    text-align: center;
-    /*
-
+    text-align: left;
+    white-space: nowrap;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-
+    width: 100%;
+}
+.home-layout .ticker p,
+.events-layout .ticker p {
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
-    */
+}
+
+.events-single-layout .ticker p {
+    -moz-animation: ticker 20000ms linear infinite;
+    -webkit-animation: ticker 20000ms linear infinite;
+    animation: ticker 20000ms linear infinite;
 }
 /* Move it (define the animation) */
 
@@ -99,6 +114,8 @@
         transform: translateX(-100%);
     }
 }
+/* diamond images */
+
 .diamond-image-border {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);

@@ -1,29 +1,16 @@
-/* 
-Special thanks to Rachel Andrew:
-https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
-*/
-
-/*.grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-}
-.grid>* {
-    flex: 1;
-}*/
-
 .grid {
     display: grid;
-    grid-gap: 2rem;
-    /* 
-        Special thanks to this article from Evan Minto on Intrinsically Responsive CSS Grid: http://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/ 
-    */
+    grid-auto-flow: row dense;
+    grid-gap: 1rem;
     margin: 0;
     padding: 0;
 }
 .grid__1-column, .grid__2-column, .grid__3-column, .grid__4-column {
     grid-template-columns: 1fr;
 }
+ .grid__6-column {
+    grid-template-columns: repeat(3, 1fr);
+ }
 @media screen and (min-width: 767px) {
     .grid--items-center {
         align-items: center;
@@ -32,10 +19,7 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (min-width: 1023px) {
-    .grid {
-        grid-auto-rows: 1fr;
-    }
+@media screen and (min-width: $break-3) {
     .grid__2-column {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -44,5 +28,8 @@ https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks;
     }
     .grid__4-column {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .grid__6-column {
+        grid-template-columns: repeat(6, 1fr);
     }
 }

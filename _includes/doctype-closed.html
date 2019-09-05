@@ -1,50 +1,6 @@
-<footer class="site-footer">
-	<div class="site-footer__mailchimp" id="subscribe">
-		<div class="container--small">
-			<p>
-				{{ site.data.footer.subscribe.body | markdownify }}
-			</p>
-			{% include 3rd-party/mailchimp/form.html %}
-			{% include 3rd-party/mailchimp/scripts.html %}
-		</div>
-	</div>
-	<div class="site-footer__volunteer">
-		<div class="container--small">
-			<h2>
-				{{ site.data.footer.volunteer.header }}
-			</h2>
-			<p>
-				{{ site.data.footer.volunteer.body }}
-			</p>
-			<a href="{{ site.data.footer.volunteer.github }}" target="_blank">
-				<i class="fab fa-github">
-				</i>
-			</a>
-		</div>
-	</div>
-	<div class="site-footer__social">
-		<a href="mailto:{{ site.email }}" target="_top">
-			{{ site.data.footer.social.contact }}
-		</a>
-		<ul>
-			{% for link in site.data.footer.social.links %}
-			<li>
-				<a href="{{ link.url }}" rel="noopener" target="_blank">
-					{{ link.icon }}
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<a href="https://dc.aiga.org/about-us/mission/" rel="noopener" target="_blank">
-			{{ site.data.footer.social.copyright }}
-		</a>
-	</div>
-</footer>
-<script>
-	// offside
-	var myOffside = offside('#mobile-menu', {
-		slidingElementsSelector: '#site-container',
-		buttonsSelector: '#mobile-menu-trigger',
-		slidingSide: 'right' // String: Offside element pushed on left or right
-	});
-</script>
+			{% include site-footer.html %}
+        </main>
+    </div>
+    </body>
+    {% include 3rd-party/offside/scripts.html %}
+</html>

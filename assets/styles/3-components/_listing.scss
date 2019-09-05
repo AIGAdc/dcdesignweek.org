@@ -1,0 +1,43 @@
+.committee, .sponsors, .partners, .events {
+    margin-top: $spacing-32;
+}
+.listing__sponsors, .listing__partners, .listing__committee, .listing__events {
+    display: grid;
+    grid-gap: $spacing-32;
+    grid-template-columns: 1fr;
+}
+.listing__sponsors, .listing__partners {
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (min-width: 767px) {
+    .listing__committee, .events-layout .listing__events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: $break-3) {
+    .committee, .sponsors, .partners {
+        margin-top: $spacing-64;
+    }
+    .listing__partners {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .listing__committee, .listing__events, .carnegie-layout .listing-events, .events-layout .listing__events {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* special shout out to Andy Bell for this his snippet */
+
+.listing__sponsors>*, .listing__partners>*, .listing__committee>*, .listing__events>* {
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listing__sponsors>*+*, .listing__partners>*+*, .listing__committee>*+*, .listing__events>*+* {
+    margin-top: $spacing-32;
+}
+@supports (display: grid) {
+    .listing__sponsors>*, .listing__partners>*, .listing__committee>*, .listing__events>* {
+        max-width: unset;
+        margin: 0 auto;
+    }
+}

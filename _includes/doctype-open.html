@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		{% include doctype-head.html %}
-	</head>
-	<!-- offside menu -->
-	<nav class="mobile-menu db dn-l" id="mobile-menu">
-		<ul class="mobile-menu__list list ma0 pl0 ma4">
-			{% for link in site.data.navigation.primary-nav %}
-			<li class="mobile-menu__item list-none">
-				<a class="monospace ttu white pb3 db" href="{{ link.url }}">
-					{{ link.title }}
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</nav>
-	<body>
-		<main class="{{ page.layout }}-layout wysiwyg" id="site-container">
-			{% include site-header.html %}
+    <head>
+        {% include doctype-head.html %}
+    </head>
+    {% include 3rd-party/offside/menu.html %}
+    <body>
+    	<div id="site-container">
+        <main class="{{ page.layout }}-layout wysiwyg">
+            {% include site-header.html %}

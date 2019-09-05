@@ -1,5 +1,9 @@
 # This yml file controls the navigation links across the DC Design Week Website
 primary-nav:
+  - title: "Events"
+    url: /events/
+    button-type: link
+    button-color: black
   - title: "Carnegie Library"
     url: /carnegie-library/
     button-type: link 
@@ -12,13 +16,10 @@ primary-nav:
     url: /pop-up-shop/
     button-type: link 
     button-color: black
-  - title: "Contact Us"
-    url: mailto:designweek@dc.aiga.org
+  - title: "Merch"
+    url: https://shop.spreadshirt.com/aigadc/
     button-type: link 
     button-color: black
-#   url: "/#events"
-#   button-type: link
-#   button-color: black
 # - title: "Sponsors"
 #   url: /sponsors/
 # - title: "Volunteer"

@@ -44,13 +44,51 @@
             </svg>
         </a>
         <ul class="site-header__links">
-            {% for link in site.data.navigation.primary-nav %}
+            {% if page.layout == "events" %}
+            <li class="active">
+            {% else %}
             <li>
-                <a class="button button__{{ link.button-type }} button__{{ link.button-type }}--{{ link.button-color }}" href="{{ link.url }}" tabindex="0">
-                    {{ link.title }}
+            {% endif %}
+                <a class="button button__link button__link--black" href="/events/">
+                    Events
                 </a>
             </li>
-            {% endfor %}
+            
+            {% if page.layout == "carnegie" %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+                 <a class="button button__link button__link--black" href="/carnegie-library/">
+                    Carnegie Library
+                </a>
+            </li>
+            
+            {% if page.layout == "about" %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+                 <a class="button button__link button__link--black" href="/about/">
+                    About
+                </a>
+            </li>
+
+            {% if page.layout == "pop-up-shop" %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+                 <a class="button button__link button__link--black" href="/pop-up-shop/">
+                    Pop-Up Shop
+                </a>
+            </li>
+            
+            <li>
+                 <a class="button button__link button__link--black" href="https://shop.spreadshirt.com/aigadc/" target="_blank" rel="noopener">
+                    Merch
+                </a>
+            </li>
         </ul>
         <button class="site-header__menu" id="mobile-menu-trigger" type="button">
             <i class="fas fa-bars">

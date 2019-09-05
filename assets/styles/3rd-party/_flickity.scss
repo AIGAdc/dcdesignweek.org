@@ -52,7 +52,7 @@ https://flickity.metafizzy.co
     border: none;
     color: $black;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: $break-3) {
     .flickity-button {
         display: block;
     }
@@ -86,6 +86,7 @@ https://flickity.metafizzy.co
     border-radius: 50px;
     /* vertically center */
     transform: translateY(-50%);
+    z-index: $index-4;
 }
 .flickity-prev-next-button.previous {
     left: 64px;

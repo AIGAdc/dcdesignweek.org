@@ -5,36 +5,34 @@
 @import "1-tokens/breakpoints";
 @import "1-tokens/colors";
 @import "1-tokens/depth";
-@import "1-tokens/typography";
 @import "1-tokens/spacing";
+@import "1-tokens/typography";
 
 @import "2-globals/reset";
-@import "2-globals/objects";
 @import "2-globals/tools";
 @import "2-globals/typography";
 
 @import "3-components/buttons";
 @import "3-components/cards";
+@import "3-components/footer";
 @import "3-components/grid";
 @import "3-components/header";
-@import "3-components/block";
-@import "3-components/hero";
+@import "3-components/listing";
 @import "3-components/slider";
-@import "3-components/footer";
 
-@import "pages/home";
-@import "pages/pop-up-shop";
+@import "4-utilities/borders";
+@import "4-utilities/colors";
+@import "4-utilities/depth";
+@import "4-utilities/shadows";
 
 @import "3rd-party/flickity";
+@import "3rd-party/houdini";
 @import "3rd-party/lazysizes";
 @import "3rd-party/mailchimp";
-@import "3rd-party/mixitup";
 @import "3rd-party/offside";
-@import "3rd-party/typeform";
 
-@import "utilities/general";
-@import "utilities/borders";
-@import "utilities/colors";
-@import "utilities/shadows";
-@import "utilities/widths";
-@import "utilities/z-index";
+@import "pages/about";
+@import "pages/events";
+@import "pages/events-single";
+@import "pages/home";
+@import "pages/pop-up-shop";

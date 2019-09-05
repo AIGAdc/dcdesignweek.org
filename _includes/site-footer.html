@@ -1,0 +1,40 @@
+<footer class="site-footer">
+    <div class="site-footer__mailchimp" id="subscribe">
+        <div class="container--small">
+            {{ site.data.blocks.subscribe.body | markdownify }}
+			{% include 3rd-party/mailchimp/form.html %}
+			{% include 3rd-party/mailchimp/scripts.html %}
+        </div>
+    </div>
+    <div class="site-footer__volunteer">
+        <div class="container--small">
+            <h2>
+                {{ site.data.blocks.volunteer.header }}
+            </h2>
+            <p>
+                {{ site.data.blocks.volunteer.body }}
+            </p>
+            <a href="{{ site.data.footer.volunteer.github }}" target="_blank">
+                <i class="fab fa-github">
+                </i>
+            </a>
+        </div>
+    </div>
+    <div class="site-footer__social">
+        <a href="mailto:{{ site.email }}" target="_top">
+            {{ site.social.contact }}
+        </a>
+        <ul>
+            {% for link in site.social.links %}
+            <li>
+                <a href="{{ link.url }}" rel="noopener" target="_blank">
+                    {{ link.icon }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="https://dc.aiga.org/about-us/mission/" rel="noopener" target="_blank">
+            {{ site.social.copyright }}
+        </a>
+    </div>
+</footer>
