@@ -31,8 +31,8 @@ speakers:
     experiences at Mapbox. Amy Lee thrives in cross-disciplinary environments working
     alongside groups of diverse thinkers and makers. Her work moves complexities into
     delightful, intuitive experiences that users love and rely on. '
-  website-label: " "
-  website-url: " "
+  website-label: 
+  website-url: 
 - name: David Wicks
   title: Solutions Architect, Mapbox
   bio: David Wicks is a wanderer, artist, and software developer. They hold a BA in
@@ -65,16 +65,6 @@ speakers:
     Editor at National Geographic Magazine, and has a masters degree in geography
     from the University of Oregon. She is a board member for the North American Cartographic
     Information Society, and is a past editor of the Atlas of Design.
-  website-label: 
-  website-url: 
-- name: 
-  title: 
-  bio: 
-  website-label: 
-  website-url: 
-- name: 
-  title: 
-  bio: 
   website-label: 
   website-url: 
 filter-date:
