@@ -25,19 +25,3 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-/* special shout out to Andy Bell for this his snippet */
-
-.listing__sponsors>*, .listing__partners>*, .listing__committee>*, .listing__events>* {
-    max-width: 32rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-.listing__sponsors>*+*, .listing__partners>*+*, .listing__committee>*+*, .listing__events>*+* {
-    margin-top: $spacing-32;
-}
-@supports (display: grid) {
-    .listing__sponsors>*, .listing__partners>*, .listing__committee>*, .listing__events>* {
-        max-width: unset;
-        margin: 0 auto;
-    }
-}

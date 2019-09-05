@@ -1,10 +1,10 @@
 .card {
     display: flex;
+    flex-direction: column;
 }
 .card a {
-    display: inline-block;
+    display: block;
     margin: 0;
-    max-width: 32rem;
 }
 .card.card--committee {
     padding-top: 2rem;
@@ -16,7 +16,7 @@
 }
 .card.card--event figure img {
     height: 200px;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
 }
 .card-details {
@@ -149,4 +149,12 @@
     position: absolute;
     top: 100px;
     left: -40px;
+}
+@media screen and (min-width: 1023px) {
+    .card {
+        flex-direction: initial;
+    }
+    .card a {
+        display: inline-block;
+    }
 }
