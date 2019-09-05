@@ -59,13 +59,12 @@ speakers:
   website-url: 
 - name: Lauren Tierney
   title: Graphics Reporter and Cartographer, The Washington Post
-  bio: "Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
+  bio: Lauren Tierney is a Graphics Reporter and cartographer at the Washington Post
     who enjoys telling stories with maps and specializes in mapping environment, climate,
     wildlife, and adventure topics. Before joining the Post in 2017, she was a Graphics
     Editor at National Geographic Magazine, and has a masters degree in geography
     from the University of Oregon. She is a board member for the North American Cartographic
-    Information Society, and is a past editor of the Atlas of Design.\n\nInstagram
-    @tierneyl "
+    Information Society, and is a past editor of the Atlas of Design.
   website-label: 
   website-url: 
 - name: 
