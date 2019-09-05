@@ -46,7 +46,8 @@ speakers:
   website-url: http://jessicakatepavone.com
 - name: Kyle Overton
   title: UX Designer at Capital One
-  bio: 
+  bio: Kyle Overton is a UX Designer that enjoys executing complex visual & technical
+    challenges.
   website-label: Website
   website-url: http://kyleoverton.com
 - name: Jess Ray
