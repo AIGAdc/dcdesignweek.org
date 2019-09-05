@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: EAB'
 date: 2019-09-02 12:57:00 -04:00
-description: AIGA DC opens the doors to EAB in this series of creative lunches during DC Design Week.
+description: AIGA DC opens the doors to EAB in this series of creative lunches during
+  DC Design Week.
 event:
   date: 2019-09-23 12:00:00 -04:00
   image: "/uploads/Header_EAB2.png"

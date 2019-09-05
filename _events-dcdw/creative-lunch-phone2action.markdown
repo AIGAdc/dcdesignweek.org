@@ -1,7 +1,8 @@
 ---
 title: 'Creative Lunch: Phone2Action'
 date: 2019-09-02 14:59:00 -04:00
-description: AIGA DC opens the doors to Phone2Action in this series of creative lunches during DC Design Week.
+description: AIGA DC opens the doors to Phone2Action in this series of creative lunches
+  during DC Design Week.
 event:
   date: 2019-09-25 13:00:00 -04:00
   image: "/uploads/Header_P2A-140d02.png"

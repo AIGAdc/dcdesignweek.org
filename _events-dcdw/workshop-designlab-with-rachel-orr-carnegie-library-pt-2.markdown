@@ -1,10 +1,10 @@
 ---
 title: 'Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)'
 date: 2019-09-02 12:26:00 -04:00
-description: Join us at the Apple Carnegie Library for this FREE event made open
-    to the public, where designer Rachel Orr will give a hands-on demonstration of
-    collage art, giving attendees  the chance to create personalized works using the
-    iPad and Apple Pencil.
+description: Join us at the Apple Carnegie Library for this FREE event made open to
+  the public, where designer Rachel Orr will give a hands-on demonstration of collage
+  art, giving attendees  the chance to create personalized works using the iPad and
+  Apple Pencil.
 event:
   date: 2019-09-22 14:30:00 -04:00
   image: "/uploads/Header_Rachel%20Orr.png"

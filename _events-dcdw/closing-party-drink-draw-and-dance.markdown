@@ -1,7 +1,10 @@
 ---
 title: 'Closing Party: Drink, Draw & Dance'
 date: 2019-09-02 14:27:00 -04:00
-description: Come party at the end of an amazing week with us at Capitol Cider House! Drink locally-made cider, sketch in your notebooks, and meet the creative team behind the cidery’s branding and website. Stick around for a special performance of local bands and artists.
+description: Come party at the end of an amazing week with us at Capitol Cider House!
+  Drink locally-made cider, sketch in your notebooks, and meet the creative team behind
+  the cidery’s branding and website. Stick around for a special performance of local
+  bands and artists.
 status:
   is-featured-on-events: true
   is-featured-on-home: false
