@@ -1,7 +1,6 @@
 ---
 title: Home
 permalink: "/"
-description: 
 hero:
 - tagline: Shining a light on DCs most curious & creative.
   header: "#DCDesignWeek 2019"
