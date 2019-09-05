@@ -1,9 +1,9 @@
 ---
 title: Designing with Archival Images (Carnegie Library, Pt. 1)
 date: 2019-09-02 12:15:00 -04:00
-description: Join us at the Kiplinger Research Library located in the Apple Carnegie
-  Library for a deep dive into DC’s most exciting historical artifacts, and learn
-  how you can use these materials for your next art project!
+description: Join us at the DC History Center located in the Apple Carnegie Library
+  for a deep dive into DC’s most exciting historical artifacts, and learn how you
+  can use these materials for your next art project!
 event:
   date: 2019-09-22 13:00:00 -04:00
   image: "/uploads/Header_DC%20Historical.png"
@@ -19,7 +19,7 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/designing-with-archival-images-carnegie-library-pt-1-tickets-71398720495
   non-member-button-label: "$40 Non-members (On Sale September 10)"
 venue:
-  name: 'Kiplinger Research Library inside Carnegie Library '
+  name: 'DC History Center inside Carnegie Library '
   address: 801 K St NW Second Floor, Washington, DC 20001
   directions: https://goo.gl/maps/xoxQLzy5kR69juu59
 speakers:
@@ -55,11 +55,11 @@ filter-location:
 
 Heads up! This event is Part 1 of a 2-part series. Sign up for this session and then be sure to stick around for [Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)!](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="_blank" rel="noopener"}
 
-Did you know there is a treasure trove of historical artifacts inside Carnegie Library? We’re talking diary entries, vintage ads, political posters and even the odd love letter. The Historical Society of Washington, D.C. is home to a vast collection of artifacts and materials from our city’s history. 
+Did you know there is a treasure trove of historical artifacts inside the Carnegie Library? In addition to thousands of manuscript collections, books, maps and photographs, you'll find diary entries, vintage ads, political posters and even the odd love letter.  
 
 This workshop will orient local graphic artists and other creatives to the resources of the Historical Society of Washington, D.C., and demonstrate how the  DC History Center is home to a vast collection of historic materials, now digitally available for use in your next artistic project!
 
-Historical Society Librarians  Anne McDonough and Jessica Smith will lead a presentation and discussion on the use of various aspects of collections to inspire creative work. Discussion will include learning about artists’ needs as well as addressing digital assets request procedures, credit guidelines, copyright resources, and more.
+Historical Society librarians  Anne McDonough and Jessica Smith will lead a presentation and discussion on the use of various aspects of collections to inspire creative work. Discussion will include learning about artists’ needs as well as addressing digital assets request procedures, credit guidelines, copyright resources, and more.
 
 **But wait, there’s more! Participants will become registered library patrons, have hands-on exposure to a selection of original artifacts, and following the workshop, will receive their choice of a set of royalty-free digital assets for use in creative works  ($125 value) 🤑.**
 
