@@ -1,15 +1,15 @@
 ---
 title: DC Street Art & Mural Run
 date: 2019-09-02 13:33:00 -04:00
+description: Take to the streets with District Running Club and hit DC’s historic
+    neighborhoods on foot, catching a glimpse of the city’s best street murals as
+    you make your way through the District.
 status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: Break a sweat! See good stuff!
 event:
   date: 2019-09-25 07:00:00 -04:00
-  description: Take to the streets with District Running Club and hit DC’s historic
-    neighborhoods on foot, catching a glimpse of the city’s best street murals as
-    you make your way through the District.
   image: "/uploads/Header_Mural%20Run%20(1).png"
   image-alt: 'people running in front of the capitol building '
   start-time: 7:00am

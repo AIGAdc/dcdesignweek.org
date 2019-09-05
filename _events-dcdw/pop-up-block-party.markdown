@@ -1,10 +1,10 @@
 ---
 title: Pop-Up Shop Block Party
 date: 2019-09-02 14:00:00 -04:00
+description: Come and celebrate your local DC design community at the Block Party,
+    and get first dibs on the awesome goods for sale at the DCDW Pop-Up Shop!
 event:
   date: 2019-09-25 19:00:00 -04:00
-  description: Come and celebrate your local DC design community at the Block Party,
-    and get first dibs on the awesome goods for sale at the DCDW Pop-Up Shop!
   image: "/uploads/Header-Pop-Up-Shop.jpg"
   image-alt: dc design week pop-up shop block party
   start-time: 7:00pm

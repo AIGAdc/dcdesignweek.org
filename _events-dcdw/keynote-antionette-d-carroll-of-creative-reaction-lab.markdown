@@ -1,14 +1,14 @@
 ---
 title: 'Keynote: Antionette D. Carroll of Creative Reaction Lab'
 date: 2019-09-02 16:05:00 -04:00
+description: 'Join DC Design Week at our Keynote event, featuring Antionette D.
+    Carroll, of Creative Reaction Lab. '
 status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'Our keynote''s gonna be great! '
 event:
   date: 2019-09-26 17:30:00 -04:00
-  description: 'Join DC Design Week at our Keynote event, featuring Antionette D.
-    Carroll, of Creative Reaction Lab. '
   image: "/uploads/Header_Antionette.png"
   image-alt: Antionete Carroll, keynote speaker
   start-time: 5:30pm

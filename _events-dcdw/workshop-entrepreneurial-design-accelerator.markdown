@@ -1,11 +1,11 @@
 ---
 title: 'Workshop: Entrepreneurial Design Accelerator'
 date: 2019-09-02 14:01:00 -04:00
-event:
-  date: 2019-09-26 08:00:00 -04:00
-  description: Calling all entrepreneurs with projects that help underserved communities!
+description: Calling all entrepreneurs with projects that help underserved communities!
     Bring your in-progress projects to the Entrepreneurial Design Accelerator and
     learn how to make it a reality.
+event:
+  date: 2019-09-26 08:00:00 -04:00
   image: "/uploads/Header-Elite-Truong.png"
   start-time: 8:00am
   end-time: 10:00am

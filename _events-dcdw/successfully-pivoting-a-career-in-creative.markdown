@@ -1,11 +1,11 @@
 ---
 title: Successfully Pivoting a Career in Creative
 date: 2019-09-02 13:10:00 -04:00
-event:
-  date: 2019-09-23 18:30:00 -04:00
-  description: Whether you've hit a wall in your career or just want to develop more
+description: Whether you've hit a wall in your career or just want to develop more
     skills, join us for a panel where DC design professionals discuss how they successfully
     pivoted their careers.
+event:
+  date: 2019-09-23 18:30:00 -04:00
   image: "/uploads/Header_Transitions.png"
   image-alt: Headshots of speaker panels.
   start-time: 6:30pm

@@ -1,16 +1,13 @@
 ---
 title: 'Closing Party: Drink, Draw & Dance'
 date: 2019-09-02 14:27:00 -04:00
+description: Come party at the end of an amazing week with us at Capitol Cider House! Drink locally-made cider, sketch in your notebooks, and meet the creative team behind the cidery’s branding and website. Stick around for a special performance of local bands and artists.
 status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
 event:
   date: 2019-09-27 20:00:00 -04:00
-  description: Come party at the end of an amazing week with us at Capitol Cider House!
-    Drink locally-made cider, sketch in your notebooks, and meet the creative team
-    behind the cidery’s branding and website. Stick around for a special performance
-    of local bands and artists.
   image: "/uploads/Header-closing-party.png"
   image-alt: Capitol Cider House branding
   start-time: 8:00pm

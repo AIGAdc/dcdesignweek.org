@@ -1,11 +1,11 @@
 ---
 title: 'Workshop: Expressions in After Effects for Designers'
 date: 2019-09-02 13:53:00 -04:00
-event:
-  date: 2019-09-24 18:30:00 -04:00
-  description: For this event, DC-based animation studio The Duke and the Duck will
+description: For this event, DC-based animation studio The Duke and the Duck will
     lead a workshop exploring expressions in Adobe After Effects, with a curriculum
     tailored to designers.
+event:
+  date: 2019-09-24 18:30:00 -04:00
   image: "/uploads/Header_Motion-Expressions2.gif"
   image-alt: Example of motion animation from David Arbour
   start-time: 6:30pm

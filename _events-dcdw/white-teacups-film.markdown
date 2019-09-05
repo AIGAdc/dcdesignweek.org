@@ -1,16 +1,16 @@
 ---
 title: 'Enough White Teacups: Film Screening and Discussion'
 date: 2019-09-02 12:30:00 -04:00
+description: 'Join for a screening of the documentary Enough White Teacups and a
+    conversation with the director, Michelle Bauer Carpenter, about sustainability,
+    the wicked problems that plague the world, and how design and invention can be
+    used as an antidote. '
 status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'This film is certified fresh! '
 event:
   date: 2019-09-22 17:30:00 -04:00
-  description: 'Join for a screening of the documentary Enough White Teacups and a
-    conversation with the director, Michelle Bauer Carpenter, about sustainability,
-    the wicked problems that plague the world, and how design and invention can be
-    used as an antidote. '
   image: "/uploads/Header_Teacups.png"
   image-alt: white teacups film
   start-time: 5:30pm

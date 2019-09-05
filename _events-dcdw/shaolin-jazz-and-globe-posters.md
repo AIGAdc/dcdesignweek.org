@@ -1,6 +1,9 @@
 ---
 title: 'Shaolin Jazz & Globe Posters: Opening Party!'
 date: 2019-09-01 12:00:00 -04:00
+description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
+    Week 2019 with music from Shaolin Jazz and an exhibition with Globe Posters at
+    Big Chief in Ivy City!
 position: 1
 status:
   is-coming-soon: false
@@ -10,9 +13,6 @@ status:
   featured-event-message: 'Wowza! Check it! This is rad! '
 event:
   date: 2019-09-20 18:00:00 -04:00
-  description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
-    Week 2019 with music from Shaolin Jazz and an exhibition with Globe Posters at
-    Big Chief in Ivy City!
   image: "/uploads/event-opening-party.jpg"
   start-time: 6:00 PM
   end-time: 9:00 PM

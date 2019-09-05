@@ -1,13 +1,13 @@
 ---
 title: 'Heir Supply: An Art Installation by Future Creatives'
 date: 2019-09-02 11:59:00 -04:00
+description: Bring your kids and join us at Steadfast Supply at The Yards in DC
+    to work with talented illustrator, Carolyn Sewell, and participate in the creation
+    of a one-of-a-kind art installation.
 status:
   is-coming-soon: false
 event:
   date: 2019-09-21 10:00:00 -04:00
-  description: Bring your kids and join us at Steadfast Supply at The Yards in DC
-    to work with talented illustrator, Carolyn Sewell, and participate in the creation
-    of a one-of-a-kind art installation.
   image: "/uploads/Header_Steadfast%20Crafting.png"
   image-alt: Steadfast Supply
   start-time: 10:00am

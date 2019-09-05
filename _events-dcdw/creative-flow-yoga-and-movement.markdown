@@ -1,10 +1,9 @@
 ---
 title: 'Creative Flow: Yoga and Movement'
 date: 2019-09-02 13:43:00 -04:00
+description: Start your morning at the Cheshire for a short exploration of storytelling through movement and yoga flow, followed by coffee and a light breakfast.
 event:
   date: 2019-09-25 06:45:00 -04:00
-  description: Start your morning at the Cheshire for a short exploration of storytelling
-    through movement and yoga flow, followed by coffee and a light breakfast.
   image: "/uploads/Header_Yoga.png"
   image-alt: person doing yoga and two smiling faces
   start-time: 6:45am

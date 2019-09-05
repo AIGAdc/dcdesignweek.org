@@ -20,10 +20,12 @@ defaults:
     path: ''
   values:
     image: "/uploads/og-image.jpg"
+    description: DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!
 - scope:
     path: ''
     type: events-dcdw
   values:
+    description: Provide an excerpt of what the event is about. Preferably 1 sentence.
     status:
       is-coming-soon: Select true if the event is coming soon.
       coming-soon-message: Coming Soon!
@@ -35,7 +37,6 @@ defaults:
       featured-event-message: Featured!
     event:
       date: Select date of the event.
-      description: Provide an excerpt of what the event is about. Preferably 1 sentence.
       image: Provide the image that will be used in the event card and event header.
       image-alt: Provide alt text describing the image above.
       start-time: Select the start time of the event.

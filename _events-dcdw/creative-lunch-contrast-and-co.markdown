@@ -1,10 +1,9 @@
 ---
 title: 'Creative Lunch: Contrast & Co.'
 date: 2019-09-02 14:19:00 -04:00
+description: AIGA DC opens the doors to Contrast & Co. in this series of creative lunches during DC Design Week.
 event:
   date: 2019-09-27 13:00:00 -04:00
-  description: AIGA DC opens the doors to Contrast & Co. in this series of creative
-    lunches during DC Design Week.
   image: "/uploads/Header-Contrast-Co.png"
   image-alt: Coffee mug
   start-time: 1:00pm

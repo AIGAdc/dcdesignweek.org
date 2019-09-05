@@ -1,12 +1,12 @@
 ---
 title: Finding the Bauhaus in the Public Library
 date: 2019-09-02 14:12:00 -04:00
-event:
-  date: 2019-09-26 17:30:00 -04:00
-  description: Finding the Bauhaus in the Public Library is a new public program series
+description: Finding the Bauhaus in the Public Library is a new public program series
     celebrating the 100th anniversary of the German Bauhaus school (1919-1933) and
     the modernization of D.C.'s own landmark, the Martin Luther King Jr. Memorial
     Library.
+event:
+  date: 2019-09-26 17:30:00 -04:00
   image: "/uploads/Header-MLK-library-bauhaus.png"
   image-alt: Photos of the Martin Luther King Jr. Memorial Library.
   start-time: 5:30pm
