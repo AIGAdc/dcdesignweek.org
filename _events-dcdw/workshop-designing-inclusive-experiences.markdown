@@ -24,7 +24,7 @@ venue:
   directions: https://goo.gl/maps/rfNnSru9XTCYmXnC8
 speakers:
 - name: Dr. Jamika D. Burge
-  title: Artificial Intelligence (AI) Design Team Member at Capital One
+  title: Conversational AI Learning Experiences at Capital One; Co-Founder of blackcomputeHER.org
   bio: |-
     Dr. Jamika D. Burge is part of the Artificial Intelligence (AI) Design team that creates experiences for conversation and intelligent AI at Capital One. Before that, she was a tech consultant the Defense Advanced Research Projects Agency, supporting innovative tech programs that were funded at over $70 million. Jamika is also the co-founder of blackcomputeHER, an organization dedicated to supporting computational and design thinking capacity, as well as workforce development for black women and girls. She is an authority in human-centered design, inclusive research in tech, and the intersectionality of black women and girls in computing+tech. She has consulted for Google, the National Center for Women in Technology (NCWIT), and the American Association of Colleges & Universities (AAC&U). Jamika and her work have been featured in the New York Times and ComputerWorld, and has been recognized by HackBright Academy as a Top Tech Leader to Watch.
 
