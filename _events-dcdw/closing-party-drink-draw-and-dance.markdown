@@ -29,7 +29,7 @@ venue:
   directions: https://goo.gl/maps/PLNyx6fYmY2EuPKP9
 speakers:
 - name: Shahier Rahman
-  title: Provide Speaker title.
+  title: 
   bio: Shahier Rahman is the partnerships specialist for General Assembly DC, and
     when he's not connecting companies with tech talent in Washington, DC, you can
     find him doing stand-up comedy in dive bars around town.
