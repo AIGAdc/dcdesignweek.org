@@ -4,6 +4,9 @@ date: 2019-09-02 12:43:00 -04:00
 description: Learn how to start designing inclusive experiences in this human-centered
   design workshop with leaders in AI, Machine Learning, UX, Design, and Product from
   Capital One.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out   Sold Out   Sold Out
 event:
   date: 2019-09-22 10:30:00 -04:00
   image: "/uploads/Header_Capital%20One.png"
@@ -15,16 +18,18 @@ tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-workshop-designing-inclusive-experiences%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$15 Members"
+  member-button-is-disabled: true
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-designing-inclusive-experiences-tickets-71289088583
   non-member-button-label: "$20 Non-members (On Sale September 10)"
+  non-member-button-is-disabled: true
 venue:
   name: 'General Assembly '
   address: 509 7th St NW, Washington, DC 20004
   directions: https://goo.gl/maps/rfNnSru9XTCYmXnC8
 speakers:
 - name: Dr. Jamika D. Burge
-  title: Artificial Intelligence (AI) Design Team Member at Capital One
+  title: Conversational AI Learning Experiences at Capital One; Co-Founder of blackcomputeHER.org
   bio: |-
     Dr. Jamika D. Burge is part of the Artificial Intelligence (AI) Design team that creates experiences for conversation and intelligent AI at Capital One. Before that, she was a tech consultant the Defense Advanced Research Projects Agency, supporting innovative tech programs that were funded at over $70 million. Jamika is also the co-founder of blackcomputeHER, an organization dedicated to supporting computational and design thinking capacity, as well as workforce development for black women and girls. She is an authority in human-centered design, inclusive research in tech, and the intersectionality of black women and girls in computing+tech. She has consulted for Google, the National Center for Women in Technology (NCWIT), and the American Association of Colleges & Universities (AAC&U). Jamika and her work have been featured in the New York Times and ComputerWorld, and has been recognized by HackBright Academy as a Top Tech Leader to Watch.
 
