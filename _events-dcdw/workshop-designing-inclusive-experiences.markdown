@@ -18,9 +18,11 @@ tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-workshop-designing-inclusive-experiences%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$15 Members"
+  member-button-is-disabled: true
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-designing-inclusive-experiences-tickets-71289088583
   non-member-button-label: "$20 Non-members (On Sale September 10)"
+  non-member-button-is-disabled: true
 venue:
   name: 'General Assembly '
   address: 509 7th St NW, Washington, DC 20004
