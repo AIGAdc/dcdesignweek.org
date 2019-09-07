@@ -8,15 +8,15 @@
             {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
         </p>
         {% if page.tickets.has-member-button == true %}
-        <a {% if page.tickets.member-button-is-disabled == true %} class="disabled button button__border button__border--crusta bg-white" {% else %} class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}" target="_blank" rel="noopener" {% endif %}>
-            {{ page.tickets.member-button-label }}
-        </a>
+            <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}" target="_blank" rel="noopener">
+                {{ page.tickets.member-button-label }}
+            </a>
         {% endif %}
 
         {% if page.tickets.has-non-member-button == true %}
-        <a {% if page.tickets.non-member-button-is-disabled == true %} class="disabled button button__border button__border--crusta bg-white" {% else %} class="button button__border button__border--crusta bg-white" href="{{ page.tickets.non-member-button-url }}" target="_blank" rel="noopener" {% endif %}>
-            {{ page.tickets.non-member-button-label }}
-        </a>
+            <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.non-member-button-url }}" target="_blank" rel="noopener">
+                {{ page.tickets.non-member-button-label }}
+            </a>
         {% endif %}
     </div>
     {% if page.status.is-sold-out == true %}
