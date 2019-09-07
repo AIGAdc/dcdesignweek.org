@@ -23,7 +23,7 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/dc-street-art-mural-run-tickets-71302651149
   non-member-button-label: Free for Non-members
 venue:
-  name: The DRC Running  Room
+  name: DRC HQ
   address: 733 11th St NE, Washington, DC 20002
   directions: https://goo.gl/maps/rSBjn7n87DfZD3q67
 speakers:

@@ -13,24 +13,15 @@ event:
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-creative-flow-yoga-and-movement%2F%3Fredirect_source%3Deventbrite_register
-  member-button-label: "$10 Members"
+  member-button-label: "$5 Deposit Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-flow-yoga-and-movement-tickets-71299549873
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$5 Deposit (On Sale September 10)"
 venue:
   name: The Cheshire
   address: 2412 Rear 18th St NW, Washington, DC 20009
   directions: https://g.page/the-cheshire?share
 speakers:
-- name: Kasia Galica
-  title: FRC Mobility Specialist and Yoga Instructor
-  bio: 'Kasia Galica is a human being aspiring to do good in the world. She''s also
-    a functional range conditioning mobility specialist, 500 hour trained yoga instructor
-    and personal trainer. Kasia loves to blend her disciplines to guide people towards
-    a better relationship with their bodies. Her goal is to hold space and facilitate
-    growth, resilience, and curiosity. '
-  website-label: Instagram
-  website-url: https://www.instagram.com/kasiagalica/
 - name: Cierra Jade
   title: 
   bio: |-
@@ -53,6 +44,15 @@ speakers:
     to flourish. '
   website-label: Website
   website-url: https://www.rhiadance.com
+- name: Kasia Galica
+  title: FRC Mobility Specialist and Yoga Instructor
+  bio: 'Kasia Galica is a human being aspiring to do good in the world. She''s also
+    a functional range conditioning mobility specialist, 500 hour trained yoga instructor
+    and personal trainer. Kasia loves to blend her disciplines to guide people towards
+    a better relationship with their bodies. Her goal is to hold space and facilitate
+    growth, resilience, and curiosity. '
+  website-label: Instagram
+  website-url: https://www.instagram.com/kasiagalica/
 filter-date:
   is-day-6: true
 filter-time:
@@ -67,5 +67,10 @@ Greet the day with a creative yoga practice at the Cheshire. Join your community
 
 Please bring your own mat for this session, as this event will be hosted in a creative arts space, not a traditional yoga studio. 
 
+**There is a $5 refundable charge to reserve your spot – you’ll get a refund when you show up and check in!**
+
 ## Outdoor Voices
 [Outdoor Voices](https://www.outdoorvoices.com/pages/visit-us-dc){:target="_blank" rel="noopener"} is a recreation brand on a mission to get the world moving. We're freeing fitness from performance and bringing back Doing Things For Fun, by designing technical apparel for recreation by recreationalists. We are excited to partner with DC Design Week, because Doing Things is always better together with friends. 
+
+## Venue Sponsors
+The Cheshire and PAKKE are co-sponsoring the event.
