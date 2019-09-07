@@ -22,15 +22,6 @@ venue:
   address: 2412 Rear 18th St NW, Washington, DC 20009
   directions: https://g.page/the-cheshire?share
 speakers:
-- name: Kasia Galica
-  title: FRC Mobility Specialist and Yoga Instructor
-  bio: 'Kasia Galica is a human being aspiring to do good in the world. She''s also
-    a functional range conditioning mobility specialist, 500 hour trained yoga instructor
-    and personal trainer. Kasia loves to blend her disciplines to guide people towards
-    a better relationship with their bodies. Her goal is to hold space and facilitate
-    growth, resilience, and curiosity. '
-  website-label: Instagram
-  website-url: https://www.instagram.com/kasiagalica/
 - name: Cierra Jade
   title: 
   bio: |-
@@ -53,6 +44,15 @@ speakers:
     to flourish. '
   website-label: Website
   website-url: https://www.rhiadance.com
+- name: Kasia Galica
+  title: FRC Mobility Specialist and Yoga Instructor
+  bio: 'Kasia Galica is a human being aspiring to do good in the world. She''s also
+    a functional range conditioning mobility specialist, 500 hour trained yoga instructor
+    and personal trainer. Kasia loves to blend her disciplines to guide people towards
+    a better relationship with their bodies. Her goal is to hold space and facilitate
+    growth, resilience, and curiosity. '
+  website-label: Instagram
+  website-url: https://www.instagram.com/kasiagalica/
 filter-date:
   is-day-6: true
 filter-time:
