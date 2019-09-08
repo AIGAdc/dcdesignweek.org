@@ -3,8 +3,8 @@ title: 'Shaolin Jazz & Globe Posters: Opening Party!'
 date: 2019-09-01 12:00:00 -04:00
 position: 1
 description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
-  Week 2019 with music from Shaolin Jazz and an exhibition with Globe Posters at Big
-  Chief in Ivy City!
+  Week 2019 with music from Shaolin Jazz and an exhibition with Globe Collection and
+  Press at MICA at Big Chief in Ivy City!
 status:
   is-coming-soon: false
   sold-out-message: Sold Out!
@@ -64,17 +64,17 @@ filter-location:
   is-dc: true
 ---
 
-Join us, Globe Posters at MICA, and Shaolin Jazz to celebrate the start of DC Design Week 2019 at Big Chief in Ivy City! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
+Join us, the Globe Collection and Press at MICA, and Shaolin Jazz to celebrate the start of DC Design Week 2019 at Big Chief in Ivy City! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
 
-The evening will start with a talk on DC’s musical history alongside a presentation from Globe on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
+The evening will start with a talk on DC’s musical history alongside a presentation from the Globe Collection and Press at MICA on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
 
 RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. **Note: This event is 18+ only.**
 
 
-### Poster Exhibit of [Globe Posters](http://www.globeatmica.com){:target="_blank" rel="noopener"}
+### Exhibit of [Globe posters](http://www.globeatmica.com){:target="_blank" rel="noopener"}
 ---
 
-Founded in 1929 in Baltimore, Maryland, Globe Posters delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research. 
+Founded in 1929 in Baltimore, Maryland, Globe Poster delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research. 
 
 Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/){:target="_blank" rel="noopener"} / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica){:target="_blank" rel="noopener"}
 
