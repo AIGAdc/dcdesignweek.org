@@ -6,7 +6,7 @@ description: Learn how to start designing inclusive experiences in this human-ce
   Capital One.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out   Sold Out   Sold Out
+  sold-out-message: 'Sold Out   - Join Waitlist - Sold Out - Join Waitlist - '
 event:
   date: 2019-09-22 10:30:00 -04:00
   image: "/uploads/Header_Capital%20One.png"
