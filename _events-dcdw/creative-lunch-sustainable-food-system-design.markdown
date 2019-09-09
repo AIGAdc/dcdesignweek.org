@@ -33,7 +33,7 @@ filter-location:
 
 Join us at Busboys & Poets for lunch and a healthy discussion around sustainable food systems design! 
 
-Four local experts in the space — Kristof Grina from Uptop Acres, Max Johansen from Busboys and Poets, Kate Urbank of Food Rescue USA, and Jeffrey Neal from Loop Closing — will lead a conversation covering:
+Four local experts in the space — Kristof Grina from Uptop Acres, Max Johansen from Busboys and Poets, Kate Urbank of Food Rescue US, and Jeffrey Neal from Loop Closing — will lead a conversation covering:
 * How to collaborate with others in our area to create a more sustainable food system.
 * The benefits of urban gardening. 
 * Logistics to running sustainable food businesses & cafes.
