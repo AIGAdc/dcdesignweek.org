@@ -14,8 +14,8 @@ status:
 event:
   date: 2019-09-20 18:00:00 -04:00
   image: "/uploads/event-opening-party.jpg"
-  start-time: 6:00 PM
-  end-time: 9:00 PM
+  start-time: 6:00pm
+  end-time: 9:00pm
   has-external-url: false
   has-speakers: true
 tickets:
@@ -67,6 +67,10 @@ filter-location:
 Join us, the Globe Collection and Press at MICA, and Shaolin Jazz to celebrate the start of DC Design Week 2019 at Big Chief in Ivy City! We’re bringing some of Globe’s most iconic entertainment posters under one roof and mixing it up with DCs most creative jazz and hiphop collectives to kick off our favorite week of the year.
 
 The evening will start with a talk on DC’s musical history alongside a presentation from the Globe Collection and Press at MICA on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
+
+* 6.00pm: Doors open & registration
+* 6.30pm: Allison Fisher and Marcus Dowling: Globe Posters and the DC music scene
+* 7.15pm: Shaolin Jazz & DJ RBI
 
 RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. **Note: This event is 18+ only.**
 
