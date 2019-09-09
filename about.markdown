@@ -41,6 +41,6 @@ layout: about
 
 ---
 
-The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals. [Stay tuned in the coming weeks for the announcement of the full schedule of events!](#subscribe) 
+The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals.
 
 Got a question or feedback? Drop us a line over [email](mailto:designweek@dc.aiga.org).

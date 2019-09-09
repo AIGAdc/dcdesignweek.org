@@ -199,6 +199,10 @@ kramdown:
   image: "/uploads/partner-today-at-apple.jpg"
   image-alt: logo for apple today
   website: https://www.apple.com/today/carnegielibrary/
+- title: Ad Hoc
+  image: "/uploads/Untitled-1.png"
+  image-alt: Logo for Ad Hoc
+  website: https://adhocteam.us/
 - title: Big Chief
   image: "/uploads/partner-bigchief.jpg"
   image-alt: logo for big chief
