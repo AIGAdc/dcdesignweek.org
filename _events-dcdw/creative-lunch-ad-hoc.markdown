@@ -4,10 +4,10 @@ date: 2019-09-08 19:01:00 -04:00
 description: AIGA DC opens the doors to Ad Hoc in this series of creative lunches
   during DC Design Week.
 event:
-  date: 2019-09-24 12:30:00 -04:00
+  date: 2019-09-24 12:00:00 -04:00
   image: "/uploads/Header_Ad%20Hoc-9abb58.png"
   image-alt: Photo from Ad Hoc
-  start-time: 12:30pm
+  start-time: 12:00pm
   end-time: 1:30pm
 tickets:
   has-member-button: true
