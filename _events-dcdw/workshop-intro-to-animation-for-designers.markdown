@@ -3,6 +3,9 @@ title: 'Workshop: Intro to Animation for Designers'
 date: 2019-09-02 13:36:00 -04:00
 description: Join us as DC-based animation studio The Duke and the Duck lead a workshop
   teaching introductory Adobe After Effects for designers.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out  —  Join the Waitlist
 event:
   date: 2019-09-24 18:30:00 -04:00
   image: "/uploads/Header_Intro-to-Motion.gif"
