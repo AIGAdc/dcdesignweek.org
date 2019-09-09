@@ -68,9 +68,9 @@ Join us, the Globe Collection and Press at MICA, and Shaolin Jazz to celebrate t
 
 The evening will start with a talk on DC’s musical history alongside a presentation from the Globe Collection and Press at MICA on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
 
-* 6.00 pm: Doors open & registration
-* 6.30 pm: Allison Fisher and Marcus Dowling: Globe Posters and the DC music scene
-* 7.15 pm: Shaolin Jazz & DJ RBI
+* 6:00 pm: Doors open & registration
+* 6:30 pm: Allison Fisher and Marcus Dowling: Globe Posters and the DC music scene
+* 7:15 pm: Shaolin Jazz & DJ RBI
 
 RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. **Note: This event is 18+ only.**
 
