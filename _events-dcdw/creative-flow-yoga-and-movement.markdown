@@ -16,14 +16,14 @@ tickets:
   member-button-label: "$5 Deposit Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-flow-yoga-and-movement-tickets-71299549873
-  non-member-button-label: "$5 Deposit (On Sale September 10)"
+  non-member-button-label: "$5 Deposit Non-members"
 venue:
   name: The Cheshire
   address: 2412 Rear 18th St NW, Washington, DC 20009
   directions: https://g.page/the-cheshire?share
 speakers:
 - name: Cierra Jade
-  title: 
+  title: Provide Speaker title.
   bio: |-
     Cierra Kaler-Jones is a teaching artist, writer, and rising scholar based in Washington, DC. She has had her writing featured in Education Post, Nia Magazine, Midnight and Indigo, and on Ebony.com. She has been recognized internationally for her social justice work with students and was a guest speaker at the White House Initiative on Educational Excellence for African Americans and the United States Department of Education. Most recently she gave a TED talk at the 2018 TEDxFoggyBottom conference.
 
