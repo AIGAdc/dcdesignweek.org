@@ -21,7 +21,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/enough-white-teacups-film-screening-and-discussion-tickets-71291154763
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: Eaton Workshop (Theater Room)
   address: 1201 K St NW, Washington, DC 20005
