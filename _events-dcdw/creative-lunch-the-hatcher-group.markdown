@@ -15,7 +15,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-the-hatcher-group-tickets-71290115655
-  non-member-button-label: "$15 Non-Members (On Sale September 10)"
+  non-member-button-label: "$15 Non-Members"
 venue:
   name: The Hatcher Group
   address: 4340 East West Highway, Suite 912, Bethesda, MD 20814
