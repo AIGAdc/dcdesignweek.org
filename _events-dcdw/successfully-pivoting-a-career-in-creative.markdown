@@ -17,7 +17,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/successfully-pivoting-a-career-in-creative-tickets-71288809749
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: Brllnt
   address: 1140 3rd Street NE, Suite 375, Washington, DC 20002
