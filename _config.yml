@@ -68,8 +68,8 @@ defaults:
     - name: Provide Speaker name.
       title: Provide Speaker title.
       bio: Provide Speaker bio.
-      website-label: Provide label that will appear instead of URL
-      website-url: Provide Speaker website.
+      website-label:
+      website-url:
     filter-date:
       is-day-1: Select True if event occurs on day 1.
       is-day-2: Select True if event occurs on day 2.
