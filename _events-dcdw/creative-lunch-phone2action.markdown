@@ -15,7 +15,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-phone2action-tickets-71292649233
-  non-member-button-label: "$15 Non-Members (On Sale September 10)"
+  non-member-button-label: "$15 Non-Members"
 venue:
   name: Phone2Action
   address: 1500 Wilson Blvd suite 700, Arlington, VA 22209
