@@ -32,8 +32,8 @@ speakers:
     also serves as co-chair of the DC Alliance for Response, which brings together
     cultural heritage and emergency management professionals at the local level to
     make sure that repositories can best prepare for emergencies.
-  website-label: Provide label that will appear instead of URL
-  website-url: Provide Speaker website.
+  website-label: 
+  website-url: 
 - name: Jessica Smith
   title: Historical Society of Washington, D.C.
   bio: Jessica Smith is the Research Services Librarian at the Historical Society
