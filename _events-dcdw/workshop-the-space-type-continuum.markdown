@@ -2,10 +2,10 @@
 title: 'Workshop: The Space Type Continuum'
 date: 2019-09-01 18:36:00 -04:00
 position: 2
+image: "/uploads/Header_KIelGif.gif"
 description: 'Bring your typography to life with designer and MICA educator Kiel Mutschelknaus,
   who will be hosting an interactive workshop at ISL to teach attendees how to build
   their own kinetic type generators. '
-image: "/uploads/Header_KIelGif.gif"
 status:
   is-coming-soon: false
   is-featured-on-events: true
@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$30 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-the-space-type-continuum-tickets-71305098469
-  non-member-button-label: "$50 Non-members (On Sale September 10)"
+  non-member-button-label: "$50 Non-members"
 venue:
   name: iStrategyLabs (ISL)
   address: |-

@@ -17,7 +17,7 @@ tickets:
   member-button-label: "$15 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/designing-spotify-for-artists-tickets-71290460687
-  non-member-button-label: "$20 Non-members (On Sale September 10)"
+  non-member-button-label: "$20 Non-members"
 venue:
   name: Optoro
   address: 1001 G St NW, Washington, DC 20001

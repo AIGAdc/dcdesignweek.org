@@ -16,7 +16,7 @@ tickets:
   member-button-label: "$5 Deposit Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/north-capitol-photo-walk-with-austin-graff-tickets-71290310237
-  non-member-button-label: "$5 Deposit Non-members (On Sale September 10)"
+  non-member-button-label: "$5 Deposit Non-members"
 venue:
   name: Meet Outside Republic Cantina
   address: 43 N St NW, Washington, DC 20001

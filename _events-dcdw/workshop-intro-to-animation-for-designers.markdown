@@ -19,7 +19,7 @@ tickets:
   member-button-label: "$15 Member"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-intro-to-animation-for-designers-tickets-71298081481
-  non-member-button-label: "$20 Non-member (On Sale September 10)"
+  non-member-button-label: "$20 Non-member"
 venue:
   name: General Assembly
   address: 509 7th St NW, Washington, DC 20004
