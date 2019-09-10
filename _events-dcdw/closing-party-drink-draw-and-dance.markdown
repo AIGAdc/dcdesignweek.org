@@ -11,7 +11,7 @@ status:
   featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
 event:
   date: 2019-09-27 20:00:00 -04:00
-  image: "/uploads/Header-closing-party.png"
+  image: "/uploads/capcider.png"
   image-alt: Capitol Cider House branding
   start-time: 8:00pm
   end-time: 11:00pm
@@ -29,7 +29,7 @@ venue:
   directions: https://goo.gl/maps/PLNyx6fYmY2EuPKP9
 speakers:
 - name: Shahier Rahman
-  title: 
+  title: Provide Speaker title.
   bio: Shahier Rahman is the partnerships specialist for General Assembly DC, and
     when he's not connecting companies with tech talent in Washington, DC, you can
     find him doing stand-up comedy in dive bars around town.
