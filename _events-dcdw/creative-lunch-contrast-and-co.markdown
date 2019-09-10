@@ -16,7 +16,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-contrast-co-tickets-71296252009
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: Contrast & Co.
   address: '2200 Somerville Road., Suite 200, Annapolis, MD 21401
