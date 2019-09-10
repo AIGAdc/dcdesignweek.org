@@ -16,7 +16,7 @@ tickets:
   member-button-label: "$20 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-sustainable-food-system-design-tickets-71298075463
-  non-member-button-label: "$25 Non-members (On Sale September 10)"
+  non-member-button-label: "$25 Non-members"
 venue:
   name: Busboys & Poets, in Takoma Park
   address: 235 Carroll St NW, Washington, DC 20012
