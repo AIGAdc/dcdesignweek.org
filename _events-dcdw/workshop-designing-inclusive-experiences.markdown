@@ -21,7 +21,7 @@ tickets:
   member-button-is-disabled: true
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/workshop-designing-inclusive-experiences-tickets-71289088583
-  non-member-button-label: "$20 Non-members (On Sale September 10)"
+  non-member-button-label: "$20 Non-members"
   non-member-button-is-disabled: true
 venue:
   name: 'General Assembly '

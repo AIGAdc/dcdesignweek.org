@@ -17,7 +17,7 @@ tickets:
   member-button-label: "$20 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/designing-with-archival-images-carnegie-library-pt-1-tickets-71398720495
-  non-member-button-label: "$40 Non-members (On Sale September 10)"
+  non-member-button-label: "$40 Non-members"
 venue:
   name: 'DC History Center inside Carnegie Library '
   address: 801 K St NW Second Floor, Washington, DC 20001

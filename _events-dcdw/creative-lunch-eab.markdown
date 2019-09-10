@@ -16,7 +16,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-eab-tickets-71293656245
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: EAB
   address: 2445 M St NW, Washington, DC 20037

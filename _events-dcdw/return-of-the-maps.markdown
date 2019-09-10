@@ -17,7 +17,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/return-of-the-maps-tickets-71291592071
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: Mapbox
   address: '740 15th Street NW, Floor 5, Washington DC, 20005
@@ -31,8 +31,8 @@ speakers:
     experiences at Mapbox. Amy Lee thrives in cross-disciplinary environments working
     alongside groups of diverse thinkers and makers. Her work moves complexities into
     delightful, intuitive experiences that users love and rely on. '
-  website-label: 
-  website-url: 
+  website-label: Provide label that will appear instead of URL
+  website-url: Provide Speaker website.
 - name: David Wicks
   title: Solutions Architect, Mapbox
   bio: David Wicks is a wanderer, artist, and software developer. They hold a BA in

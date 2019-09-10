@@ -19,7 +19,7 @@ tickets:
   member-button-label: "$5 Deposit Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/heir-supply-an-art-installation-by-future-creatives-tickets-71285249099
-  non-member-button-label: " $5 Deposit Non-members (On Sale September 10)"
+  non-member-button-label: " $5 Deposit Non-members"
 venue:
   name: 'Steadfast Supply: Yards Location '
   address: 301 Tingey Street SE, DC 20003 - Entrance on Water Street

@@ -16,7 +16,7 @@ tickets:
   member-button-label: "$5 Refundable Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/comics-and-cartooning-at-the-library-of-congress-tickets-71304974097
-  non-member-button-label: "$5 Refundable Non-Members (On Sale September 10)"
+  non-member-button-label: "$5 Refundable Non-Members"
 venue:
   name: James Madison Memorial Building, Library of Congress
   address: 101 Independence Ave, SE, Washington, DC 20540

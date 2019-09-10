@@ -15,7 +15,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-lunch-hz-tickets-71293790647
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: HZ
   address: 10101 Molecular Drive, Suite 300, Rockville, MD 20850
