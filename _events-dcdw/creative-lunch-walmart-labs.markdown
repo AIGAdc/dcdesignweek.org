@@ -15,7 +15,7 @@ tickets:
   member-button-label: "$10 Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/dcdw-creative-lunch-walmart-labs-tickets-71296677281
-  non-member-button-label: "$15 Non-members (On Sale September 10)"
+  non-member-button-label: "$15 Non-members"
 venue:
   name: Walmart Labs
   address: '10780 Parkridge Blvd #70, Reston, VA 20191'
