@@ -6,7 +6,7 @@ description: 'Join for a screening of the documentary Enough White Teacups and a
   that plague the world, and how design and invention can be used as an antidote. '
 status:
   is-featured-on-events: true
-  is-featured-on-home: false
+  is-featured-on-home: true
   featured-event-message: 'This film is certified fresh! '
 event:
   date: 2019-09-22 17:30:00 -04:00
