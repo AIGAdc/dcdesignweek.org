@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Volkswagen Group of America'
 date: 2019-09-10 20:15:00 -04:00
+published: false
 description: Join the Volkswagen Group of America’s Digital UX team to learn how a
   history of user-centric car design helps transform digital experiences. You’ll hear
   how this team designs experiences that allow drivers to control all of the features
