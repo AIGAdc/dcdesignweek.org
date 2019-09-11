@@ -11,7 +11,7 @@ status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist
   is-featured-on-events: true
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: 'Whoa, don''t miss out on this. '
 event:
   date: 2019-09-21 13:00:00 -04:00
