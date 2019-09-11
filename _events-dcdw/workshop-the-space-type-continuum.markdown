@@ -8,6 +8,8 @@ description: 'Bring your typography to life with designer and MICA educator Kiel
   their own kinetic type generators. '
 status:
   is-coming-soon: false
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: 'Whoa, don''t miss out on this. '
