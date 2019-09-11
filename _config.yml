@@ -351,10 +351,10 @@ kramdown:
   image: "/uploads/partner-uptop.jpg"
   image-alt: logo for uptop acres
   website: https://uptopacres.com/index.html
-- title: Volkswagen
+- title: Volkswagen of America
   image: "/uploads/VW.png"
   image-alt: Logo for Volkswagen Group of America
-  website: https://www.vw.com/
+  website: http://www.volkswagengroupofamerica.com/about
 - title: Walmart Labs
   image: "/uploads/partner-walmart-labs.jpg"
   image-alt: logo for walmart labs
