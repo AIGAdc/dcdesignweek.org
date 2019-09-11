@@ -1,7 +1,6 @@
 ---
 title: Equitable Design with Antionette Carroll
 date: 2019-09-02 16:05:00 -04:00
-published: false
 description: 'Join DC Design Week at our Keynote event, featuring Antionette D. Carroll,
   of Creative Reaction Lab. '
 status:
@@ -10,7 +9,7 @@ status:
   featured-event-message: 'Our keynote''s gonna be great! '
 event:
   date: 2019-09-26 17:30:00 -04:00
-  image: "/uploads/Header_Antionette.png"
+  image: "/uploads/Header_Antionette2.png"
   image-alt: Antionete Carroll, keynote speaker
   start-time: 5:30pm
   end-time: 8:00pm
