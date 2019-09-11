@@ -36,4 +36,4 @@ Parking is provided in the covered lot adjacent to the ManTech building.
  
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:30am.
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:00am.
