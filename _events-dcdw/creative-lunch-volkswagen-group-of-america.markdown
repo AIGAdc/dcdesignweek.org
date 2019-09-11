@@ -6,11 +6,11 @@ description: Join the Volkswagen Group of America’s Digital UX team to learn h
   how this team designs experiences that allow drivers to control all of the features
   in their new electric car via an app or the web.
 event:
-  date: 2019-09-23 11:30:00 -04:00
+  date: 2019-09-23 11:00:00 -04:00
   image: "/uploads/Header_VW.png"
   image-alt: Photo of VW of America's offices
-  start-time: 11:30am
-  end-time: 1:00pm
+  start-time: 11:00am
+  end-time: 12:30pm
 tickets:
   has-member-button: true
   member-button-label: "$10 Members"
