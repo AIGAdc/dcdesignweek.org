@@ -48,7 +48,7 @@ filter-location:
   is-dc: true
 ---
 
-Join us for an opportunity for parents and kids of all ages to get creative together! You’ll meet and design a one-of-a-kind art installation with Carolyn Sewell.
+Join us for an opportunity for parents and kids of all ages to get creative together! You’ll meet and design a one-of-a-kind art installation with Carolyn Sewell and sample parfaits from Vegetable and Butcher (V+B).
 
 Carolyn’s work has been published in *Communication Arts*, *PRINT*, *Grafik*, *HOW* and *The Washington Post*. She and [her daughter, fondly nicknamed “Biscuit”,](https://www.instagram.com/biscuitsewell/) both have a passion for bright colors and bacon! We’ll gather at Steadfast Supply, a shop whose mission is to bolster the local community by introducing emerging and independent brands and designers into the D.C. market. Bring all of your small ones — whether experienced artists or beginners, everyone is welcome.
  
@@ -57,6 +57,9 @@ Carolyn’s work has been published in *Communication Arts*, *PRINT*, *Grafik*, 
 ## About Steadfast Supply
 
 Steadfast Supply is a conceptual retail store with a mission. Housed in a 3,000 square ft warehouse space at The Yards located in Washington, D.C., Steadfast Supply provides a platform for independent brands and designers from around the country to share their goods and their stories with the denizens of The Yards and beyond. Steadfast Supply is a store with deep roots in creative entrepreneurship that celebrates the triumphs of small businesses by serving as an incubator to independent designers and brands, inspiring them to grow and thrive.
+
+## About Vegetable and Butcher
+V+B is a DC-based company that delivers 100% plant-based and plant-forward meals with grass-fed and pasture raised meat and poultry with convenient, reusable and compostable packaging. They’ll be bringing a sample of their wholesome parfaits featuring coconut yogurt, fresh berries, and their housemade muesli.
 
 **Venue Accessibility (elevators, stairs, etc.)**
 Ground-floor, easily accessible. 

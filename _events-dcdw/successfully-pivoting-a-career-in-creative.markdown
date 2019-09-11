@@ -4,6 +4,9 @@ date: 2019-09-02 13:10:00 -04:00
 description: Whether you've hit a wall in your career or just want to develop more
   skills, join us for a panel where DC design professionals discuss how they successfully
   pivoted their careers.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist
 event:
   date: 2019-09-23 18:30:00 -04:00
   image: "/uploads/Header_Transitions.png"
