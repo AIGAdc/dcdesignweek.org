@@ -1,5 +1,5 @@
 ---
-title: 'Keynote: Antionette D. Carroll of Creative Reaction Lab'
+title: Equitable Design with Antionette Carroll
 date: 2019-09-02 16:05:00 -04:00
 published: false
 description: 'Join DC Design Week at our Keynote event, featuring Antionette D. Carroll,
