@@ -10,7 +10,7 @@ status:
 event:
   date: 2019-09-26 17:00:00 -04:00
   image: "/uploads/Header_Antionette2.png"
-  image-alt: Antionete Carroll, keynote speaker
+  image-alt: Antionete Carroll, speaker
   start-time: 5:00pm
   end-time: 7:30pm
   has-speakers: true
@@ -25,18 +25,18 @@ venue:
   address: Location to be announced soon!
 speakers:
 - name: Antionette D. Carroll
-  title: Founder and CEO of Creative Reaction Lab
-  bio: Antionette D. Carroll is the Founder and CEO of Creative Reaction Lab, a social
-    enterprise that empowers and challenges community members to design inclusive
-    cities by developing solutions addressing personal and structural racism. Throughout
-    her career, Antionette has worked for social justice, human rights, and diversity
-    and inclusion nonprofits. She is a TED Fellow. Antionette D. Carroll is the Founder
-    and CEO of Creative Reaction Lab, a social enterprise that empowers and challenges
-    Black and Latinx youth to design healthy and racially equitable communities. Throughout
-    her career, Antionette has worked for social justice, human rights, and diversity
-    and inclusion nonprofits. She is a TED Fellow, 2019 GDUSA Person to Watch, 2018
-    St. Louis Visionary Awards’ Community Impact Artist Honoree, and 2015 Alive Magazine
-    20 Under 40 Artist.
+  title: Founder, President, and CEO of Creative Reaction Lab
+  bio: Antionette D. Carroll is the Founder, President, and CEO of Creative Reaction
+    Lab, a social enterprise that empowers and challenges community members to design
+    inclusive cities by developing solutions addressing personal and structural racism.
+    Throughout her career, Antionette has worked for social justice, human rights,
+    and diversity and inclusion nonprofits. She is a TED Fellow. Antionette D. Carroll
+    is the Founder and CEO of Creative Reaction Lab, a social enterprise that empowers
+    and challenges Black and Latinx youth to design healthy and racially equitable
+    communities. Throughout her career, Antionette has worked for social justice,
+    human rights, and diversity and inclusion nonprofits. She is a TED Fellow, 2019
+    GDUSA Person to Watch, 2018 St. Louis Visionary Awards’ Community Impact Artist
+    Honoree, and 2015 Alive Magazine 20 Under 40 Artist.
   website-label: Website
   website-url: https://www.antionettecarroll.design/
 - name: Dr. Miriam Ahmed
@@ -60,10 +60,10 @@ filter-location:
   is-dc: true
 ---
 
-As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of Creative Reaction Lab, to learn how designers can harness their power to help break down high level constructs like racism, xenophobia, sexism, and capitalism. 
+As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of Creative Reaction Lab, to learn how designers can harness their power to help break down high level constructs like systems of oppression, inequality, and inequity. 
 
 In this talk, Antionette will challenge the design industry to look past tangible (and biased) design, and to value a future forward approach of leadership: one that rethinks the roles of identity, power, and equity. 
 
-Full disclosure: if you’re of the pro-“design thinking” movement, this talk may or may not challenge you! But if there’s anything Washingtonians can handle, it’s definitely a healthy debate.
+Full disclosure: if you’re of the pro-“design thinking” movement, this talk may challenge you! But if there’s anything Washingtonians can handle, it’s definitely a healthy debate.
 
 Antionette D. Carroll's personal mission in life is to challenge standards, make change, and champion approaches resulting in equitable community impact. Throughout her career, she has worked in various roles supporting social justice, human rights, and diversity and inclusion. These experiences led to her background as a social entrepreneur, non-profit leader, and design activist. In addition to sharing about her journey, Carroll will introduce the principles of Equity-Centered Community Design, the award-winning creative problem-solving framework she's pioneered as Founder and CEO of nonprofit organization Creative Reaction Lab.
