@@ -1,11 +1,66 @@
 ---
 layout: default
 ---
+<section style="position: relative">
+    <div class="container">
+    	{% include block-introduction.html %}
+        {% include event-filter.html %}
+	    {% include listing-events.html %}
+    </div>
+    <!--you don't need the "data-step" attr, but can be useful for storing instructions for JS -->
+        <style>
+            .events-layout {
+            position: relative;
+        }
 
-<section class="container">
-    {% include block-introduction.html %}
-    {% include event-filter.html %}
-    {% include listing-events.html %}
+            .toast {
+                width: 400px;
+                background-color: white;
+                text-align: left;
+                -webkit-transform-style: preserve-3d;
+                -moz-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+                -webkit-transition: 250ms all;
+                -moz-transition: 250ms all;
+                transition: 250ms all;
+                transform: translateX(320px);
+                padding: 16px;
+                border: solid 4px #fd813f;
+     position: absolute;
+
+right: 32px;
+
+bottom: 32px;
+    
+            }
+
+            .toast p {
+                font-size: 1em;
+                margin: 0;
+            }
+
+            .toast.entered {
+                transform: translateX(0);
+       
+      
+            }
+        </style>
+        <div class="toast"><p class="script" style="line-height: 1.4;">Which events are you most excited about?</p>
+        	<p>Let us know on twitter!</p>
+<a href="https://twitter.com/intent/tweet?button_hashtag=DCDesignWeek&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #DCDesignWeek</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <script>
+            enterView({
+                selector: '.toast',
+                offset: 0,
+                enter: function (el) {
+                    el.classList.add('entered');
+                },
+                exit: function (el) {
+                    el.classList.remove('entered');
+                }
+            });
+        </script>
 </section>
 <!-- mixitup -->
 <script src="/assets/scripts/mixitup.min.js">
