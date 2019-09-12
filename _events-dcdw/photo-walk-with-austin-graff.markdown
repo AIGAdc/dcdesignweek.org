@@ -35,15 +35,15 @@ speakers:
   website-label: Instagram
   website-url: 'https://www.instagram.com/austinkgraff/ '
 - name: 'Steven Cummings '
-  title: Local photographer and North Capitol long-time resident
+  title: Local photographer and North Capitol area long-time resident
   bio: |-
     Steven Cummings is a photographer and documentarian who has a studio in Northeast, Washington, DC. He was born in Okinawa, Japan in 1965 and traveled through Europe with his military family as a child. Steven has lived in the North Capitol area since 1994.
 
     Steven depicted black life in Washington, DC and shot almost exclusively in black and white. He captured people as they were, outside the studio, in natural light, and going about the business of living.
 
     He graduated from the Maryland Institute College of Art in 2010 with an M.F.A. in Photographic and Electronic Media. Steven’s selected exhibitions included D.C. Undercover: Photographs by Steven M. Cummings, Artuare, and Chocolate City Rest in Peace.
-  website-label: 
-  website-url: 
+  website-label: Instagram
+  website-url: https://www.instagram.com/chocolatecityrip
 filter-date:
   is-day-4: true
 filter-time:
