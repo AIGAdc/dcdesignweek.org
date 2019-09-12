@@ -91,6 +91,7 @@ defaults:
       is-creative-lunch: Select True if event matches type
       is-wellness: Select True if event matches type
       is-workshop: Select True if event matches type
+      has-occured: Select True if event has already happened
     filter-location:
       is-dc: Select True if event is located in DC.
       is-md: Select True if event is located in MD.
@@ -109,6 +110,7 @@ defaults:
       venue-address: Displays the address of the venues.
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
+      has-occured: Select True if event has already happened.
     speakers:
       headshot-image: Displays the speakers portait.
       url: Provide a url to the speakers website.

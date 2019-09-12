@@ -44,6 +44,7 @@ filter-time:
   is-daytime: true
 filter-type:
   is-family-friendly: true
+  has-occurred: true
 filter-location:
   is-dc: true
 ---
