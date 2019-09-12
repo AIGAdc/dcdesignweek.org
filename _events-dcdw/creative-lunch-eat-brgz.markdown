@@ -28,7 +28,7 @@ filter-location:
   is-dc: true
 ---
 
-Making the leap to re-design the “all-American” burger is a bold move that Eat Brgz is ready to take on. Join these creatives turned entrepreneurs, for a talk about how to redefine an American staple, while making a professional pivot into restauranteering from the architecture, analysis, motion design, and branding industries.
+Making the leap to re-design the “all-American” burger is a bold move that [Eat Brgz](https://www.eatbrgz.com/) is ready to take on. Join these creatives-turned-entrepreneurs, for a talk about how to redefine an American staple, while making a professional pivot into restauranteering from the architecture, analysis, motion design, and branding industries.
 
 The founders of Eat Brgz want their food to capture and celebrate the story of American multiculturalism. Much how today’s America is more diverse than in 1900 (that’s when the burger was invented), they believe the “all-American” burger also needs to evolve. Over a delicious lunch, attendees will talk about this process and what it’s like to make a big change in your career.
 
