@@ -59,7 +59,7 @@ filter-location:
   is-dc: true
 ---
 
-As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of Creative Reaction Lab, to learn how designers can harness their power to help break down high level constructs like systems of oppression, inequality, and inequity. 
+As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of [Creative Reaction Lab](http://www.creativereactionlab.com/), to learn how designers can harness their power to help break down high level constructs like systems of oppression, inequality, and inequity. 
 
 In this talk, Antionette will challenge the design industry to look past tangible (and biased) design, and to value a future forward approach of leadership: one that rethinks the roles of identity, power, and equity. 
 
