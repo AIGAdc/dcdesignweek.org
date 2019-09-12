@@ -1,7 +1,6 @@
 ---
 title: Building Equity Through Design with Antionette Carroll
 date: 2019-09-02 16:05:00 -04:00
-published: false
 description: 'Join Antionette Carroll to learn how designers have a responsibility
   to use their influence to lead others toward a path that builds equity. '
 status:
