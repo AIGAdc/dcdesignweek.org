@@ -4,8 +4,9 @@ date: 2019-09-02 16:05:00 -04:00
 description: 'Join Antionette Carroll to learn how designers have a responsibility
   to use their influence to lead others toward a path that builds equity. '
 status:
-  is-featured-on-events: false
-  is-featured-on-home: false
+  is-featured-on-events: true
+  is-featured-on-home: true
+  featured-event-message: " JUST ADDED — DON'T MISS OUT! "
 event:
   date: 2019-09-26 17:00:00 -04:00
   image: "/uploads/Header_Antionette2.png"
