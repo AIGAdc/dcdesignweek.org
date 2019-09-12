@@ -1,5 +1,5 @@
 ---
-title: North Capitol Photo Walk with Austin Graff
+title: North Capitol Photo Walk with Austin Graff and Steven Cummings
 date: 2019-09-02 12:44:00 -04:00
 description: Take your eyes off your screens—and yourself out of the office—to explore
   the North Capitol neighborhood on a photo walk with Austin Graff.
@@ -56,7 +56,7 @@ filter-location:
 
 Take a break from your screen and start your day with a dose of DC inspiration on this morning exploration of the North Capitol neighborhood. 
 
-For this photogenic event, Austin Graff and his co-host, Steven Cummings, will take attendees on a creative tour of the North Capitol area. Along the guided walk will be multiple discovery points, where they will pause to explain the cultural relevance and history of the neighborhood, including murals, statues and architectural features that have made North Capitol a unique fixture in DC. Bring your camera (or camera phone) to capture each stop of the tour!
+For this photogenic event, Austin Graff and Steven Cummings, will take attendees on a creative tour of the North Capitol area. Along the guided walk will be multiple discovery points, where they will pause to explain the cultural relevance and history of the neighborhood, including murals, statues and architectural features that have made North Capitol a unique fixture in DC. Bring your camera (or camera phone) to capture each stop of the tour!
 
 We will be leaving promptly at 7:05am. Please aim to arrive between 6:45 - 7am, to make sure you don’t miss the departure time! 
 
