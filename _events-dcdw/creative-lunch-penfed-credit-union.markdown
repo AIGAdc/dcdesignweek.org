@@ -32,7 +32,7 @@ filter-location:
 
 [PenFed Credit Union](https://www.penfed.org/about-penfed) is the nation’s 2nd largest federal credit union. They have an ‘open charter’ which means that practically anyone can join. As a result, they have members all across the country and in several countries globally. They’re even one of the top banking institutions in Puerto Rico.  So as you can imagine, designing products for an audience diverse as this presents a number of unique challenges.
 
-At this lunch, you’ll learn how PenFed Credit Union organizes design, UI dev, digital product management, and research to work together efficiently to deliver new solutions.
+At this lunch, you’ll learn how PenFed Credit Union organizes design, UI development, digital product management, and research to work together efficiently to deliver new solutions.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
