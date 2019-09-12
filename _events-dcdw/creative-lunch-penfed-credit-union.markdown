@@ -4,7 +4,7 @@ date: 2019-09-11 16:39:00 -04:00
 description: 'Learn how PenFed Credit Union organizes design, UI development, digital
   product management, and research to deliver new solutions for diverse audiences. '
 event:
-  date: 2019-09-26 00:00:00 -04:00
+  date: 2019-09-26 12:00:00 -04:00
   image: "/uploads/Header_PenFed.png"
   image-alt: Photo of PenFed Credit Union
   start-time: 12:00pm
