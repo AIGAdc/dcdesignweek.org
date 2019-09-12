@@ -1,7 +1,6 @@
 ---
 title: Building Equity Through Design with Antionette Carroll
 date: 2019-09-02 16:05:00 -04:00
-published: false
 description: 'Join Antionette Carroll to learn how designers have a responsibility
   to use their influence to lead others toward a path that builds equity. '
 status:
@@ -16,10 +15,8 @@ event:
   has-speakers: true
 tickets:
   has-member-button: true
-  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdcdw-keynote-antionette-d-carroll-of-creative-reaction-lab%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$15 Members"
   has-non-member-button: true
-  non-member-button-url: https://www.eventbrite.com/e/dcdw-keynote-antionette-d-carroll-of-creative-reaction-lab-tickets-71301437519
   non-member-button-label: "$20 Non-members"
 venue:
   is-tbd: true
@@ -61,7 +58,6 @@ filter-type:
 filter-location:
   is-dc: true
 ---
-
 
 As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of Creative Reaction Lab, to learn how designers can harness their power to help break down high level constructs like racism, xenophobia, sexism, and capitalism. 
 
