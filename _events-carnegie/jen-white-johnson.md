@@ -19,6 +19,8 @@ event:
   coming-soon-message: Save the Date!
   is-sold-out: false
   sold-out-message: Sold Out!
+  has-occurred: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
   external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
 buttons:
   has-left-button: true

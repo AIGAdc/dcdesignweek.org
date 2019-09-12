@@ -43,6 +43,9 @@
 .card--committee .card-details h3 {
     margin-top: $spacing-32;
 }
+.past-event {
+    opacity: 0.5;
+}
 /* ticker */
 
 .ticker {
@@ -57,7 +60,7 @@
     bottom: 0;
     left: 0;
 }
-.home-layout .ticker p, .events-layout .ticker p, .events-single-layout .ticker p {
+.carnegie-layout .ticker p, .home-layout .ticker p, .events-layout .ticker p, .events-single-layout .ticker p {
     display: inline-block;
     font-size: $font-size-20;
     margin: 0;
@@ -68,7 +71,7 @@
     transform: translateX(100%);
     width: 100%;
 }
-.home-layout .ticker p, .events-layout .ticker p {
+.carnegie-layout .ticker p, .home-layout .ticker p, .events-layout .ticker p {
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
