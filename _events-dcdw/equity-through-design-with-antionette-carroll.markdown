@@ -21,9 +21,10 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/building-equity-through-design-with-antionette-carroll-tickets-72466939567
   non-member-button-label: "$20 Non-members"
 venue:
-  is-tbd: true
-  name: TBD
-  address: Location to be announced soon!
+  is-tbd: false
+  name: The Eaton Hotel (Crystal Room)
+  address: 1201 K St NW, Washington, DC 20005
+  directions: https://goo.gl/maps/dnDjxR9kEcd29xiD8
 speakers:
 - name: Antionette D. Carroll
   title: Founder, President, and CEO of Creative Reaction Lab

@@ -244,6 +244,10 @@ kramdown:
   image: "/uploads/partner-contrastandco.jpg"
   image-alt: need logo - Contrast & Co.
   website: http://www.contrastandco.com/
+- title: Creative Mornings
+  image: "/uploads/Sponsor_CreativeMornings.png"
+  image-alt: logo for creative mornings
+  website: https://creativemornings.com/cities/dc
 - title: Creative Reaction Lab
   image: "/uploads/partner-creative-reaction-lab.jpg"
   image-alt: logo for creative reaction lab
@@ -415,8 +419,8 @@ kramdown:
   role: Development, AIGA DC
   linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
   linkedin-label: LinkedIn
-  instagram-url: 
-  instagram-label: 
+  instagram-url: https://www.instagram.com/catrellcecilia/
+  instagram-label: "@catrellcecilia"
 - image: "/uploads/committee-an-ly.jpg"
   image-alt: 
   name: An Ly
