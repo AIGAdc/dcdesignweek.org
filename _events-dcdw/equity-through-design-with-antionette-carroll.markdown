@@ -63,6 +63,6 @@ As distributors of information, ideas, and innovation, designers have a responsi
 
 In this talk, Antionette will challenge the design industry to look past tangible (and biased) design, and to value a future forward approach of leadership: one that rethinks the roles of identity, power, and equity. 
 
-Full disclosure: if you’re of the pro-“design thinking” movement, this talk may challenge you! But if there’s anything Washingtonians can handle, it’s definitely a healthy debate.
+Full disclosure: if you’re of the pro-“design thinking” movement, this talk may challenge you! But if there's anything Washingtonians can handle, it's a healthy debate.
 
 Antionette D. Carroll's personal mission in life is to challenge standards, make change, and champion approaches resulting in equitable community impact. Throughout her career, she has worked in various roles supporting social justice, human rights, and diversity and inclusion. These experiences led to her background as a social entrepreneur, non-profit leader, and design activist. In addition to sharing about her journey, Carroll will introduce the principles of Equity-Centered Community Design, the award-winning creative problem-solving framework she's pioneered as Founder and CEO of nonprofit organization Creative Reaction Lab.
