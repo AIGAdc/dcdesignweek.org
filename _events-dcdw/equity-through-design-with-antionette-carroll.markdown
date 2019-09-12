@@ -5,7 +5,7 @@ description: 'Join Antionette Carroll to learn how designers have a responsibili
   to use their influence to lead others toward a path that builds equity. '
 status:
   is-featured-on-events: false
-  is-featured-on-home: true
+  is-featured-on-home: false
 event:
   date: 2019-09-26 17:00:00 -04:00
   image: "/uploads/Header_Antionette2.png"
@@ -21,9 +21,10 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/building-equity-through-design-with-antionette-carroll-tickets-72466939567
   non-member-button-label: "$20 Non-members"
 venue:
-  is-tbd: true
-  name: TBD
-  address: Location to be announced soon!
+  is-tbd: false
+  name: The Eaton Hotel (Crystal Room)
+  address: 1201 K St NW, Washington, DC 20005
+  directions: https://goo.gl/maps/dnDjxR9kEcd29xiD8
 speakers:
 - name: Antionette D. Carroll
   title: Founder, President, and CEO of Creative Reaction Lab
