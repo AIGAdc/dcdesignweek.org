@@ -21,7 +21,7 @@ sponsors:
     and small businesses — and planned by a team of creatives from our community (see
     below!). Major thanks to the following partners and sponsors for your support
     and commitment to the DC design community.
-  sub-header-presenting: 2019 Presenting Sponsors
+  sub-header-presenting: 2019 Presenting Sponsor
   sub-body-presenting: |-
     DC Design Week is proud to name Creative Circle this year's Presenting Sponsor!
     As the largest creative staffing agency in the business, Creative Circle makes people into teams. They connect advertising, creative, marketing, and interactive professionals with top companies throughout the U.S. and Canada, partnering with you on the best fit so that you can make great things happen.
