@@ -22,13 +22,11 @@
         {{ section.sub-header-presenting }}
     </h2>
     <hr/>
-    <p>
-        {{ section.sub-body-presenting | markdownify }}
-    </p>
     <!-- listing -->
-    <ul class="listing__sponsors">
+    <div class="listing__sponsors--presenting">
+            {{ section.sub-body-presenting | markdownify }}
         {% for sponsor in site.2019-presenting-sponsors %}
-        <li class="card card__sponsors card__sponsors--presenting">
+        <li class="card card__sponsors card__sponsors--presenting border border--lightning-yellow shadow shadow--hot-pink">
             <div class="card-details">
                 <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
                     <img alt="{{ sponsor.image-alt }}" class="lazyload blur-up" data-src="{{ sponsor.image }}" src="{{ sponsor.image }}">
@@ -37,7 +35,7 @@
             </div>
         </li>
         {% endfor %}
-    </ul>
+    </div>
     <h2>
         {{ section.sub-header-contributing }}
     </h2>
