@@ -5,6 +5,7 @@
     display: grid;
     grid-gap: $spacing-32;
     grid-template-columns: 1fr;
+    margin-bottom: $spacing-32;
 }
 .listing__sponsors, .listing__partners {
     grid-template-columns: repeat(3, 1fr);
