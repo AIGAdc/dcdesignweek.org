@@ -32,7 +32,7 @@ filter-location:
   is-va: true
 ---
 
-Join the [Volkswagen Group of America](http://www.volkswagengroupofamerica.com/about), which is the world’s largest car manufacturer, and their Digital UX team to learn how a history of user-centric car design and innovation helps transform digital experiences. Focused on creating experiences for those who have purchased a VW car, you’ll hear how this team designs experiences that allow drivers to control all of the features in their new electric car via an app or the web.
+[Volkswagen Group of America, Inc.](http://www.volkswagengroupofamerica.com/about) is a wholly owned subsidiary of Volkswagen AG, one of the world’s leading automobile manufacturers and the largest carmaker in Europe. It operates a manufacturing plant in Chattanooga, Tennessee and houses the U.S. operations of a worldwide family of distinguished and exciting brands including Audi, Bentley, Bugatti, Lamborghini, and Volkswagen, as well as VW Credit, Inc. Come join the Volkswagen Group of America’s Digital UX team and learn how a culture of user-centric design and innovation helps transform digital experiences from the world’s largest car manufacturer.
 
 Parking is provided in the covered lot adjacent to the ManTech building.
  
