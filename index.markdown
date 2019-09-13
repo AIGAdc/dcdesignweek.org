@@ -72,6 +72,11 @@ sponsors:
     DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
     We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
     We couldn’t do it without you!
+  sub-header-presenting: 2019 Presenting Sponsors
+  sub-body-presenting: |-
+    DC Design Week is proud to name Creative Circle this year's Presenting Sponsor!
+    As the largest creative staffing agency in the business, Creative Circle makes people into teams. They connect advertising, creative, marketing, and interactive professionals with top companies throughout the U.S. and Canada, partnering with you on the best fit so that you can make great things happen.
+  sub-header-contributing: 2019 Contributing Sponsors
   has-button: true
   button-label: Learn More
   button-url: "/about/"

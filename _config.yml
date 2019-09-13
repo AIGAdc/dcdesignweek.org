@@ -178,11 +178,16 @@ social:
 markdown: kramdown
 kramdown:
   input: GFM
-2019-sponsors:
-- title: Gallagher & Associates
-  image: "/uploads/sponsor-gallagher.jpg"
-  image-alt: logo for gallagher & associates
-  website: https://www.gallagherdesign.com
+2019-presenting-sponsors:
+- title: Creative Circle
+  image: "/uploads/sponsor-creative-circle.jpg"
+  image-alt: logo for creative circle
+  website: https://www.creativecircle.com
+2019-contributing-sponsors:
+- title: The Duke & the Duck
+  image: "/uploads/sponsor-duke-&-duck.jpg"
+  image-alt: logo for duke & the duck
+  website: http://www.dukeduck.com/
 - title: General Design Co.
   image: "/uploads/sponsor-gdc.jpg"
   image-alt: logo for gdc
@@ -195,10 +200,14 @@ kramdown:
   image: "/uploads/sponsor-maclab.jpg"
   image-alt: logo for maclab
   website: https://maclaboratory.com/
-- title: The Duke & the Duck
-  image: "/uploads/sponsor-duke-&-duck.jpg"
-  image-alt: logo for duke & the duck
-  website: http://www.dukeduck.com/
+- title: Gallagher & Associates
+  image: "/uploads/sponsor-gallagher.jpg"
+  image-alt: logo for gallagher & associates
+  website: https://www.gallagherdesign.com
+- title: Made By We
+  image: "/uploads/sponsor-made-by-we.jpg"
+  image-alt: logo for made by we
+  website: http://madebywe.org/
 2019-partners:
 - title: Apple
   image: "/uploads/partner-today-at-apple.jpg"
