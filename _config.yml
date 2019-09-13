@@ -204,6 +204,10 @@ kramdown:
   image: "/uploads/sponsor-gallagher.jpg"
   image-alt: logo for gallagher & associates
   website: https://www.gallagherdesign.com
+- title: Made By We
+  image: "/uploads/sponsor-made-by-we.jpg"
+  image-alt: logo for made by we
+  website: http://madebywe.org/
 2019-partners:
 - title: Apple
   image: "/uploads/partner-today-at-apple.jpg"
