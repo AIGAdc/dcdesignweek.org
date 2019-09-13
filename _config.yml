@@ -212,6 +212,10 @@ kramdown:
   image: "/uploads/sponsor-made-by-we.jpg"
   image-alt: logo for made by we
   website: http://madebywe.org/
+- title: Deloitte Digital
+  image: "/uploads/Sponsor_DelDig.png"
+  image-alt: Logo for Deloitte Digital
+  website: https://www.deloittedigital.com/
 2019-partners:
 - title: Apple
   image: "/uploads/partner-today-at-apple.jpg"
