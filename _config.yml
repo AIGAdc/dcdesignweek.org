@@ -184,6 +184,10 @@ kramdown:
   image-alt: logo for creative circle
   website: https://www.creativecircle.com
 2019-contributing-sponsors:
+- title: Line Hotel
+  image: "/uploads/sponsor-line-hotel.jpg"
+  image-alt: logo for line-hotel
+  website: https://www.thelinehotel.com/dc/
 - title: The Duke & the Duck
   image: "/uploads/sponsor-duke-&-duck.jpg"
   image-alt: logo for duke & the duck
@@ -192,22 +196,26 @@ kramdown:
   image: "/uploads/sponsor-gdc.jpg"
   image-alt: logo for gdc
   website: http://www.generaldesignco.com
-- title: Line Hotel
-  image: "/uploads/sponsor-line-hotel.jpg"
-  image-alt: logo for line-hotel
-  website: https://www.thelinehotel.com/dc/
-- title: Maclab
-  image: "/uploads/sponsor-maclab.jpg"
-  image-alt: logo for maclab
-  website: https://maclaboratory.com/
-- title: Gallagher & Associates
-  image: "/uploads/sponsor-gallagher.jpg"
-  image-alt: logo for gallagher & associates
-  website: https://www.gallagherdesign.com
+- title: Corporate Communications Group
+  image: "/uploads/Sponsor_CCG2.png"
+  image-alt: logo for CCG
+  website: https://ccgcreates.com/
 - title: Made By We
   image: "/uploads/sponsor-made-by-we.jpg"
   image-alt: logo for made by we
   website: http://madebywe.org/
+- title: Deloitte Digital
+  image: "/uploads/Sponsor_DelDig.png"
+  image-alt: Logo for Deloitte Digital
+  website: https://www.deloittedigital.com/
+- title: Gallagher & Associates
+  image: "/uploads/sponsor-gallagher.jpg"
+  image-alt: logo for gallagher & associates
+  website: https://www.gallagherdesign.com
+- title: Maclab
+  image: "/uploads/sponsor-maclab.jpg"
+  image-alt: logo for maclab
+  website: https://maclaboratory.com/
 2019-partners:
 - title: Apple
   image: "/uploads/partner-today-at-apple.jpg"
