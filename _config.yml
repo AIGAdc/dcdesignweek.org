@@ -184,6 +184,10 @@ kramdown:
   image-alt: logo for creative circle
   website: https://www.creativecircle.com
 2019-contributing-sponsors:
+- title: Corporate Communications Group
+  image: "/uploads/Sponsor_CCG.png"
+  image-alt: logo for CCG
+  website: https://ccgcreates.com/
 - title: The Duke & the Duck
   image: "/uploads/sponsor-duke-&-duck.jpg"
   image-alt: logo for duke & the duck
