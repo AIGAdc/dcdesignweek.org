@@ -10,8 +10,7 @@ hero-slider:
   caption: Feel Like Bustin’ Loose
   body: 'DC’s been mixing, remixing, and adding a funkier beat since Chuck Brown kept
     his fans on the dance floors for hours in the 60s and 70s. In the 80s, the city
-    even re-used its snowmobiles for mobile stages to provide free go-go concerts
-    all summer!
+    used its showmobiles to provide up to four free go-go concerts a day all summer!
 
 '
   video: "/uploads/hero-gogo.mp4"

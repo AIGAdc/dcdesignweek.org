@@ -37,8 +37,8 @@ defaults:
         page.
       is-featured-on-home: Select True if event should be featured on the home page.
       featured-event-message: Featured!
-      has-occured: 
-      has-occured-message: 
+      has-occurred: 
+      has-occurred-message: 
     event:
       date: Select date of the event.
       image: Provide the image that will be used in the event card and event header.
@@ -93,7 +93,7 @@ defaults:
       is-creative-lunch: Select True if event matches type
       is-wellness: Select True if event matches type
       is-workshop: Select True if event matches type
-      has-occured: Select True if event has already happened
+      has-occurred: Select True if event has already happened
     filter-location:
       is-dc: Select True if event is located in DC.
       is-md: Select True if event is located in MD.
@@ -112,7 +112,7 @@ defaults:
       venue-address: Displays the address of the venues.
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
-      has-occured: Select True if event has already happened.
+      has-occurred: Select True if event has already happened.
       has-occurred-message: 
     speakers:
       headshot-image: Displays the speakers portait.

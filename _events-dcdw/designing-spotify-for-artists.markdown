@@ -4,6 +4,9 @@ date: 2019-09-02 13:23:00 -04:00
 description: Learn how Senior Product Designer Adriana Rivas approaches UX for Spotify
   for Artists and hear from a user, Maryland-based artist Shalom Dubas, on how the
   platform helps her reach out to her fans.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist!
 event:
   date: 2019-09-24 18:30:00 -04:00
   image: "/uploads/Header_Spotify.png"

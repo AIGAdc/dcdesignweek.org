@@ -5,7 +5,7 @@ description: AIGA DC opens the doors to Walmart Labs in this series of creative 
   during DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
+  sold-out-message: Sold Out — Join the Waitlist!
 event:
   date: 2019-09-27 12:00:00 -04:00
   image: "/uploads/Header_Walmart.png"
