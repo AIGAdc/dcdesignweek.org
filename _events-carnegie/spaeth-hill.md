@@ -14,7 +14,7 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
-  has-occured: true
+  has-occurred: true
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
   is-coming-soon: false
   coming-soon-message: Coming Soon!
