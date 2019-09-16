@@ -2,12 +2,11 @@
 title: Jill Spaeth & Nathan Hill
 date: 2018-09-26 20:54:00 -04:00
 position: 2
+image: "/uploads/carnegie-spaeth-hill.jpg"
 description: 'Spaeth and Hill are two former graphic designers, now using their powers
   to rethink industrial design.
 
 '
-image: "/uploads/carnegie-spaeth-hill.jpg"
-image-alt: Event photo for Jill Spaeth & Nathan Hill
 event:
   date: 2019-09-15 18:30:00 -04:00
   venue-name: Apple Carnegie Library, </br> Main Atrium
@@ -15,6 +14,8 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
+  has-occured: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
   is-coming-soon: false
   coming-soon-message: Coming Soon!
   is-sold-out: false
@@ -22,11 +23,8 @@ event:
   external-url: https://www.apple.com/today/event/design-lab-spaeth-hill-091519/6568199904706331757
 buttons:
   has-left-button: true
-  button-left-url: 
-  button-left-text: 
   has-right-button: false
-  button-right-url: 
-  button-right-text: 
+image-alt: Event photo for Jill Spaeth & Nathan Hill
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
