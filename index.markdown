@@ -59,7 +59,9 @@ events:
   body: In 2019, we're lifting up new and engaging creative voices and practitioners
     to share their own unconventional wisdom. This year, we're planning almost 40
     events across the district, in Virginia, and in Maryland. Check out some of our
-    favorites below, and click through to see everything going on!
+    favorites below, and click through to see everything going on! [**Want to get
+    into your favorite event for free — even if it's sold out? Sign up to volunteer
+    here!**](https://www.signupgenius.com/go/8050b4faeab22a5fe3-volunteer)
   has-button: true
   button-label: See More Events
   button-url: "/events/"
