@@ -63,7 +63,7 @@ filter-location:
   is-dc: true
 ---
 
-Greet the day with a creative yoga practice at the Cheshire. Join your community for a short exploration of storytelling through movement, led by Cierra Jade. This dynamic introduction will be followed by a 45 minute yoga flow led by Kasia Galia and Rhia Morsenberger. After your flow, you’re free to head off to work or stay and join us for a special giveaway from Outdoor Voices, plus coffee and a light breakfast. 
+Greet the day with a creative yoga practice at the Cheshire. Join your community for a short exploration of storytelling through movement, led by Cierra Jade. This dynamic introduction will be followed by a 45 minute yoga flow led by Kasia Galica and Rhia Morsenberger. After your flow, you’re free to head off to work or stay and join us for a special giveaway from Outdoor Voices, plus coffee and a light breakfast. 
 
 Please bring your own mat for this session, as this event will be hosted in a creative arts space, not a traditional yoga studio. 
 
