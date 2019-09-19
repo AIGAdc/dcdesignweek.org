@@ -54,6 +54,14 @@ speakers:
     curator, and innovator living in a wild new age.
   website-label: 
   website-url: 
+- name: Joshua Cogan
+  title: 
+  bio: |-
+    Joshua Cogan is an Emmy Award-winning photographer and anthropologist whose work has taken him to 60 countries and 5 continents to produce his unique brand of ethnographic storytelling. Using his passion for culture, ecology, and imagery, Cogan has consistently produced work across print, motion and web platforms. Recognition for those projects has come from standard bearers of journalism such as National Academy of Television and Sciences as well SXSW and Webby Awards for his partnerships creating new approaches of storytelling and cultural exchange.
+
+    Joshua specializes in telling portraits of culture and transitions. Whether it be 10th generation Totem carvers from Alaska or hip-hop pioneers in his hometown of DC. He looks to bring people closer through the process of weaving stories. He is a regular contributor to the Smithsonian Institution, Tribeca Film Festival, ESPN, and HBO and works with brands like New Balance, Puma and Apple.This Fall,  Josh will be releasing his first project with National Geographic and his work will be exhibited at the National Portrait Gallery.
+  website-label: Website
+  website-url: www.joshuacogan.com
 filter-date:
   is-day-1: true
 filter-time:

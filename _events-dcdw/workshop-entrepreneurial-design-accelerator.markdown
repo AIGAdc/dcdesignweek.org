@@ -39,6 +39,8 @@ filter-location:
   is-dc: true
 ---
 
+**Important: Applications close on Friday, 9/20. [Apply here!](https://forms.gle/jtbLG6qpRhQpnjg68)**
+
 You’ve put your nights, weekends, sweat, and tears into a passion project that helps underserved communities. How do you set it up for success in the real world?
 
 Bring your in-progress projects to the Entrepreneurial Design Accelerator, where Elite Truong, deputy editor of strategic initiatives at The Washington Post, will help you clarify the intended audience and business purpose of your idea, give feedback on usability, and provide advice on how to move forward with your idea in the market. All this in 90-minutes — what better way to start your day?
