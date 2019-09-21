@@ -18,6 +18,9 @@
 .events-filter__date-button {
     width: 25%;
 }
+.events-filter__date-button--past-event {
+    opacity: 0.5;
+}
 /* additional filters */
 
 .events-filter__additional-filters {
