@@ -59,13 +59,13 @@
             {% endif %}
             ">
                 {% if posts.status.has-occurred == true %}
-                <a class="border border--crusta shadow shadow-reverse--mauve" {% if posts.event.external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                <a class="border border--crusta shadow shadow-reverse--mauve" href="{{posts.url}}">
                 {% elsif posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
-                <a class="enabled border border--aquamarine shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                <a class="enabled border border--aquamarine shadow shadow-reverse--mauve" href="{{posts.url}}">
                 {% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
-                <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" href="{{posts.url}}">
                 {% else %}
-                <a class="enabled border border--black shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+                <a class="enabled border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
                 {% endif %}
                     <div class="card-image">
                         {% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
@@ -167,13 +167,13 @@
         {% endif %}
         ">
             {% if posts.status.has-occurred == true %}
-            <a class="border border--crusta shadow shadow-reverse--mauve" {% if posts.event.external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            <a class="border border--crusta shadow shadow-reverse--mauve" href="{{posts.url}}">
             {% elsif posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
-            <a class="enabled border border--aquamarine shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            <a class="enabled border border--aquamarine shadow shadow-reverse--mauve" href="{{posts.url}}">
             {% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
-            <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            <a class="enabled border border--hot-pink shadow shadow-reverse--mauve" href="{{posts.url}}">
             {% else %}
-            <a class="enabled border border--black shadow shadow-reverse--mauve" {% if posts.event.has-external-url %}href="{{ posts.event.external-url }}" target="_blank" rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
+            <a class="enabled border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
             {% endif %}
                 <div class="card-image">
                     {% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
