@@ -3,7 +3,7 @@
         <!-- filters -->
         <div class="events-filter__dates control-group" data-filter-group="">
             {% for control in site.data.agenda.filter-date %}
-            <button class="events-filter__date-button control {{ control.class }}" data-filter="{{ control.filter }}" type="button">
+            <button class="events-filter__date-button control {{ control.class }} {% if control.has-occurred == true %} events-filter__date-button--past-event {% endif %}" data-filter="{{ control.filter }}" type="button">
                 <span class="control-text-1 font-size-4 script">
                     {{ control.text-1 }}
                 </span>
