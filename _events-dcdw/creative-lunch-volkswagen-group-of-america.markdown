@@ -5,6 +5,9 @@ description: Join the Volkswagen Group of America’s Digital UX team to learn h
   history of user-centric car design helps transform digital experiences. You’ll hear
   how this team designs experiences that allow drivers to control all of the features
   in their new electric car via an app or the web.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist!
 event:
   date: 2019-09-23 11:00:00 -04:00
   image: "/uploads/Header_VW.png"
