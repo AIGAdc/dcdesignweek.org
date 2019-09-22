@@ -13,6 +13,8 @@ status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'Whoa, don''t miss out on this. '
+  has-occurred: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-21 13:00:00 -04:00
   image: "/uploads/Header_KIelGif.gif"
