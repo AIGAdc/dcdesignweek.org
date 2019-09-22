@@ -3,6 +3,10 @@ title: North Capitol Photo Walk with Austin Graff and Steven Cummings
 date: 2019-09-02 12:44:00 -04:00
 description: Take your eyes off your screens—and yourself out of the office—to explore
   the North Capitol neighborhood on a photo walk with Austin Graff.
+status:
+  is-featured-on-events: true
+  is-featured-on-home: true
+  featured-event-message: COME SNAP AWESOME PICS WITH US
 event:
   date: 2019-09-23 07:00:00 -04:00
   image: "/uploads/Header_Austin%20Photo%20Walk.png"
