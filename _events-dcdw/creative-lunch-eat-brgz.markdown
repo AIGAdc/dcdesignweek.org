@@ -3,6 +3,9 @@ title: 'Creative Lunch: Eat Brgz'
 date: 2019-09-12 06:02:00 -04:00
 description: AIGA DC opens the doors to Eat Brgz in this series of creative lunches
   during DC Design Week.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist!
 event:
   date: 2019-09-23 12:00:00 -04:00
   image: "/uploads/Header_brgz2.gif"
