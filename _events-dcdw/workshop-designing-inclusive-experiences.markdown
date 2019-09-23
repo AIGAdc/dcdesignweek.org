@@ -7,6 +7,8 @@ description: Learn how to start designing inclusive experiences in this human-ce
 status:
   is-sold-out: true
   sold-out-message: Sold Out  —  Join the Waitlist
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 10:30:00 -04:00
   image: "/uploads/Header_Capital%20One.png"
