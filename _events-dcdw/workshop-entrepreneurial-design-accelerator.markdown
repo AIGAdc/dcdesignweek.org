@@ -14,6 +14,7 @@ tickets:
   has-member-button: true
   member-button-url: https://forms.gle/jtbLG6qpRhQpnjg68
   member-button-label: Apply for Accelerator Workshop
+  member-button-is-disabled: 'True'
 venue:
   name: Mindspace
   address: 1301 K St NW, Washington, DC 20005
@@ -39,7 +40,7 @@ filter-location:
   is-dc: true
 ---
 
-**Important: Applications close on Friday, 9/20. [Apply here!](https://forms.gle/jtbLG6qpRhQpnjg68)**
+**Applications are closed. Accepted participants will be notified individually.**
 
 You’ve put your nights, weekends, sweat, and tears into a passion project that helps underserved communities. How do you set it up for success in the real world?
 
