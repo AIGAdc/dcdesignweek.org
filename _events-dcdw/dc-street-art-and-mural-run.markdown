@@ -6,7 +6,7 @@ description: Take to the streets with District Running Club and hit DC’s histo
   make your way through the District.
 status:
   is-featured-on-events: true
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: Break a sweat! See good stuff!
 event:
   date: 2019-09-25 07:00:00 -04:00
@@ -53,6 +53,17 @@ speakers:
 '
   website-label: Instagram
   website-url: https://www.instagram.com/julienne_devita/
+- name: Sarah Jamison
+  title: 
+  bio: Sarah Jamison received her BFA in 2010 from the Corcoran College of Art + Design
+    in Washington, DC. In 2017, her work was featured on the Smithsonian’s Folklife
+    website as part of the 50th Anniversary of the Smithsonian Folklife Festival.
+    Sarah’s solo exhibition venues include IA&A at Hillyer and Latela Gallery, both
+    in Washington, DC. She has participated in numerous group exhibitions in and outside
+    the metro area and was voted 2018 Best Visual Artist in the Washington City Paper.
+    Sarah continues to live and create in the Nation’s Capital.
+  website-label: Website
+  website-url: http://www.sarah-jamison.com/
 filter-date:
   is-day-6: true
 filter-time:

@@ -4,6 +4,9 @@ date: 2019-09-02 13:01:00 -04:00
 description: 'Join us for an evening for killer inspiration! The badass baker behind
   Killa Cakes, Bria Taylor, will shine light on her journey from graphic designer
   to creative cakes business owner. '
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out — Join the Waitlist!
 event:
   date: 2019-09-23 19:00:00 -04:00
   image: "/uploads/Header_KillaCakes.png"

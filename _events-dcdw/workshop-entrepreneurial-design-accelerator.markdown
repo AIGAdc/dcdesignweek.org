@@ -11,7 +11,7 @@ event:
   end-time: 10:00am
   has-speakers: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://forms.gle/jtbLG6qpRhQpnjg68
   member-button-label: Apply for Accelerator Workshop
 venue:
@@ -39,7 +39,7 @@ filter-location:
   is-dc: true
 ---
 
-**Important: Applications close on Friday, 9/20. [Apply here!](https://forms.gle/jtbLG6qpRhQpnjg68)**
+**Applications are closed. Accepted participants will be notified individually.**
 
 You’ve put your nights, weekends, sweat, and tears into a passion project that helps underserved communities. How do you set it up for success in the real world?
 

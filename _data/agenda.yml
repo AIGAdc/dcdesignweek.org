@@ -10,13 +10,13 @@ filter-date:
     text-1: Sat
     text-2: Sept
     text-3: 21
-    has-occurred: false
+    has-occurred: true
   - filter: .day-3
     class: day-3
     text-1: Sun
     text-2: Sept
     text-3: 22
-    has-occurred: false
+    has-occurred: true
   - filter: .day-4
     class: day-4
     text-1: Mon
