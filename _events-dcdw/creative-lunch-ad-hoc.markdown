@@ -1,6 +1,7 @@
 ---
 title: 'Creative Lunch: Ad Hoc'
 date: 2019-09-08 19:01:00 -04:00
+published: false
 description: AIGA DC opens the doors to Ad Hoc in this series of creative lunches
   during DC Design Week.
 event:
