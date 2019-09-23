@@ -11,10 +11,9 @@ event:
   end-time: 10:00am
   has-speakers: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://forms.gle/jtbLG6qpRhQpnjg68
   member-button-label: Apply for Accelerator Workshop
-  member-button-is-disabled: 'True'
 venue:
   name: Mindspace
   address: 1301 K St NW, Washington, DC 20005
