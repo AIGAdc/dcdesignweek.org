@@ -30,8 +30,8 @@ speakers:
     Cierra is also an arts education advocate and fitness instructor — she teaches dance classes for all ages, choreographs for local companies, and runs a program that offers culturally-sustaining arts-based programming and curriculum for girls.
   website-label: Website
   website-url: https://www.cierrakalerjones.com/
-- name: Rhia Morsenberger
-  title: Yoga Instructor and Belly Dance Artist
+- name: Rhia Morsberger
+  title: Yoga Instructor & FRC mobility specialist
   bio: 'Rhia is a yoga teacher turned movement educator, traditional Thai yoga practitioner,
     and professional dancer. Her work, in this lifetime, is to help people connect
     to a deeper part of themselves through movement. One of Rhia''s foundational teaching
