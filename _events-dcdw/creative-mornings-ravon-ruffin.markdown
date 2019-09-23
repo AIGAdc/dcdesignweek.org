@@ -12,7 +12,7 @@ event:
 tickets:
   has-member-button: true
   member-button-url: https://creativemornings.com/talks/ravon-ruffin
-  member-button-label: Register (Starting September 23)
+  member-button-label: Register
 venue:
   name: Smithsonian's Hirshhorn Museum
   address: 700 Independence Ave SW Washington, DC 20560
