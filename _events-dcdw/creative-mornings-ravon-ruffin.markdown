@@ -3,6 +3,9 @@ title: 'Creative Mornings: Ravon Ruffin'
 date: 2019-09-12 14:10:00 -04:00
 description: Start the day with Ravon Ruffin, a New York-based museum practitioner,
   community arts organizer, public arts educator, and digital strategist.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out  —  Join the Waitlist
 event:
   date: 2019-09-27 08:30:00 -04:00
   image: "/uploads/Header_CreativeMorning.png"
