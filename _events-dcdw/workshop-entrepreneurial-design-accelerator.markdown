@@ -4,6 +4,9 @@ date: 2019-09-02 14:01:00 -04:00
 description: Calling all entrepreneurs with projects that help underserved communities!
   Bring your in-progress projects to the Entrepreneurial Design Accelerator and learn
   how to make it a reality.
+status:
+  is-sold-out: true
+  sold-out-message: Sold Out  —  Applications Closed
 event:
   date: 2019-09-26 08:00:00 -04:00
   image: "/uploads/Header-Elite-Truong.png"
