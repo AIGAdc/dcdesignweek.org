@@ -5,7 +5,7 @@ description: Take your eyes off your screens—and yourself out of the office—
   the North Capitol neighborhood on a photo walk with Austin Graff.
 status:
   is-featured-on-events: true
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: COME SNAP AWESOME PICS WITH US
   has-occurred: true
   has-occurred-message: Event Passed — Event Passed
