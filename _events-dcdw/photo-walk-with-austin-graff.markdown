@@ -7,6 +7,8 @@ status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: COME SNAP AWESOME PICS WITH US
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 07:00:00 -04:00
   image: "/uploads/Header_Austin%20Photo%20Walk.png"
