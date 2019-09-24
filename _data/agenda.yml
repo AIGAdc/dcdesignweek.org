@@ -22,7 +22,7 @@ filter-date:
     text-1: Mon
     text-2: Sept
     text-3: 23
-    has-occurred: false
+    has-occurred: true
   - filter: .day-5
     class: day-5
     text-1: Tue
