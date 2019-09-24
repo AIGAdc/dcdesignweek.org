@@ -8,6 +8,8 @@ description: Join the Volkswagen Group of America’s Digital UX team to learn h
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 11:00:00 -04:00
   image: "/uploads/Header_VW.png"

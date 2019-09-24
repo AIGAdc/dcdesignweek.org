@@ -6,6 +6,8 @@ description: AIGA DC opens the doors to Eat Brgz in this series of creative lunc
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 12:00:00 -04:00
   image: "/uploads/Header_brgz2.gif"

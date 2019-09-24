@@ -7,6 +7,8 @@ description: Whether you've hit a wall in your career or just want to develop mo
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 18:30:00 -04:00
   image: "/uploads/Header_Transitions.png"
