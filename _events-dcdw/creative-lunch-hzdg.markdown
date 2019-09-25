@@ -6,6 +6,8 @@ description: AIGA DC opens the doors to HZ in this series of creative lunches du
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
+  has-occurred: true
+  has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 11:00:00 -04:00
   image: "/uploads/Header_HZDG.png"
