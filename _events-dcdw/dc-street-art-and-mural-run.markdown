@@ -8,6 +8,8 @@ status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: Break a sweat! See good stuff!
+  has-occurred: true
+  has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 07:00:00 -04:00
   image: "/uploads/Header_Mural%20Run%20(1).png"
