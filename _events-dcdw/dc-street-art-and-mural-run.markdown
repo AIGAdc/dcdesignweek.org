@@ -6,7 +6,7 @@ description: Take to the streets with District Running Club and hit DC’s histo
   make your way through the District.
 status:
   is-featured-on-events: true
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: Break a sweat! See good stuff!
   has-occurred: true
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
