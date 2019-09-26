@@ -6,6 +6,8 @@ description: AIGA DC opens the doors to Phone2Action in this series of creative 
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
+  has-occurred: true
+  has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 13:00:00 -04:00
   image: "/uploads/Header_P2A-140d02.png"

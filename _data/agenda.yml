@@ -34,7 +34,7 @@ filter-date:
     text-1: Wed
     text-2: Sept
     text-3: 25
-    has-occurred: false
+    has-occurred: true
   - filter: .day-7
     class: day-7
     text-1: Thu
