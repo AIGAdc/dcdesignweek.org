@@ -3,6 +3,9 @@ title: 'Creative Lunch: PenFed Credit Union'
 date: 2019-09-11 16:39:00 -04:00
 description: 'Learn how PenFed Credit Union organizes design, UI development, digital
   product management, and research to deliver new solutions for diverse audiences. '
+status:
+  has-occurred: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 12:00:00 -04:00
   image: "/uploads/Header_PenFed.png"
