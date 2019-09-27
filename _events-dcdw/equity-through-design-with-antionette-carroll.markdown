@@ -7,6 +7,8 @@ status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: " JUST ADDED — DON'T MISS OUT! "
+  has-occurred: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 17:00:00 -04:00
   image: "/uploads/Header_Antionette2.png"
