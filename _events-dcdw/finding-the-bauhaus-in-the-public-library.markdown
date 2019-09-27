@@ -7,6 +7,8 @@ description: Finding the Bauhaus in the Public Library is a new public program s
 status:
   is-featured-on-home: true
   featured-event-message: Featured!
+  has-occurred: true
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 17:30:00 -04:00
   image: "/uploads/Header-MLK-library-bauhaus.png"
