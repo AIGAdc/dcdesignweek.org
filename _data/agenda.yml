@@ -46,7 +46,7 @@ filter-date:
     text-1: Fri
     text-2: Sept
     text-3: 27
-    has-occurred: false
+    has-occurred: true
 
 filter-time-of-day:
   - filter: .morning

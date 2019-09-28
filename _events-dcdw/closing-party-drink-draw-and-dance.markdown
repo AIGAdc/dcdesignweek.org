@@ -9,6 +9,8 @@ status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
+  has-occurred: true
+  has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 20:00:00 -04:00
   image: "/uploads/capcider.png"
