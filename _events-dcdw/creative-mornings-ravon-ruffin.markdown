@@ -6,7 +6,7 @@ description: Start the day with Ravon Ruffin, a New York-based museum practition
 status:
   is-sold-out: true
   sold-out-message: Sold Out  —  Join the Waitlist
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 08:30:00 -04:00
