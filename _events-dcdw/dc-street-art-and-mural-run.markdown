@@ -8,7 +8,7 @@ status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: Break a sweat! See good stuff!
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 07:00:00 -04:00
