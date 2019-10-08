@@ -7,7 +7,7 @@ status:
   coming-soon-message: " "
   is-sold-out: true
   sold-out-message: " Sold Out — Join the Waitlist! "
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 11:30:00 -04:00
