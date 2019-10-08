@@ -7,7 +7,7 @@ description: Join us at the DC History Center located in the Apple Carnegie Libr
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 13:00:00 -04:00
