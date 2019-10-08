@@ -2,12 +2,11 @@
 title: Jen White-Johnson
 date: 2018-09-26 20:54:00 -04:00
 position: 1
+image: "/uploads/carnegie-jen-white-johnson.jpg"
 description: 'Jen White-Johnson is the artist, writer and mother behind the remarkably
   poignant zine KNOX ROX.
 
 '
-image: "/uploads/carnegie-jen-white-johnson.jpg"
-image-alt: Event photo for Jen White Johnson
 event:
   date: 2019-09-08 18:30:00 -04:00
   venue-name: Apple Carnegie Library, </br> Main Atrium
@@ -15,20 +14,17 @@ event:
   venue-address: 801 K St NW, Washington, DC 20001
   start-time: 2:30pm
   end-time: 4:00pm
+  has-occurred: false
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
   is-coming-soon: false
   coming-soon-message: Save the Date!
   is-sold-out: false
   sold-out-message: Sold Out!
-  has-occurred: true
-  has-occurred-message: EVENT PASSED! — EVENT PASSED!
   external-url: https://www.apple.com/today/event/photo-lab-jen-white-090819/6569989226447144557/?sn=R516
 buttons:
   has-left-button: true
-  button-left-url: 
-  button-left-text: 
   has-right-button: false
-  button-right-url: 
-  button-right-text: 
+image-alt: Event photo for Jen White Johnson
 ---
 
 **A copy of [Things Are What You Make of Them](http://www.thingsarewhatyoumakeofthem.com/) by Adam JK included in the cost of your ticket purchase.**
