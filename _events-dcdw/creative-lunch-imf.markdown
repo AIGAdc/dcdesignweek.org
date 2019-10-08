@@ -6,7 +6,7 @@ description: AIGA DC opens the doors to IMF in this series of creative lunches d
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 12:00:00 -04:00
