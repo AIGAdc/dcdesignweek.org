@@ -11,7 +11,7 @@ status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'Wowza! Check it! This is rad! '
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-20 18:00:00 -04:00
