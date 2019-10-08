@@ -6,7 +6,7 @@ description: Bring your kids and join us at Steadfast Supply at The Yards in DC 
   of a one-of-a-kind art installation.
 status:
   is-coming-soon: false
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-21 10:00:00 -04:00
