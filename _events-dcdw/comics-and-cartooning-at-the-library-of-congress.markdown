@@ -7,7 +7,7 @@ description: Take a private tour the Library of Congress’ Prints & Photographs
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 08:15:00 -04:00
