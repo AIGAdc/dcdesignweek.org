@@ -7,7 +7,7 @@ description: Calling all entrepreneurs with projects that help underserved commu
 status:
   is-sold-out: true
   sold-out-message: Sold Out  —  Applications Closed
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 08:00:00 -04:00
