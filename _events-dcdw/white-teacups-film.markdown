@@ -8,7 +8,7 @@ status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'This film is certified fresh! '
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 17:30:00 -04:00
