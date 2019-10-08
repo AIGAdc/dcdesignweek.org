@@ -4,7 +4,7 @@ date: 2019-09-02 12:57:00 -04:00
 description: AIGA DC opens the doors to EAB in this series of creative lunches during
   DC Design Week.
 status:
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 12:00:00 -04:00
