@@ -7,7 +7,7 @@ description: 'Join us for an evening for killer inspiration! The badass baker be
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 19:00:00 -04:00
