@@ -8,7 +8,7 @@ description: Join us at the Apple Carnegie Library for this FREE event made open
 status:
   is-sold-out: true
   sold-out-message: Sold Out — Sold Out — Sold Out
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 14:30:00 -04:00
