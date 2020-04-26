@@ -14,39 +14,39 @@ Coming Soon
 
 2018:
 
-- LA Johnson, Illustrator
-- Marcus Relacion, Web Developer
-- Daniel Crane, Motion Artist
-- Rebecca Price, Content Designer
-- Chelsae Blackmon, Web Designer
-- Justin McCarthy, Copywriter
-- Ryan von Dohlen, Cartographer
+-   LA Johnson, Illustrator
+-   Marcus Relacion, Web Developer
+-   Daniel Crane, Motion Artist
+-   Rebecca Price, Content Designer
+-   Chelsae Blackmon, Web Designer
+-   Justin McCarthy, Copywriter
+-   Ryan von Dohlen, Cartographer
 
 2017:
 
-- Daniel Crane, Motion Designer
-- Jen Doyle, Designer
-- JD Deardourff, Illustrator
-- Marcus Relacion, Web Developer
-- Daniel Crane, Motion Artist
-- Justin McCarthy, Copywriter
+-   Daniel Crane, Motion Designer
+-   Jen Doyle, Designer
+-   JD Deardourff, Illustrator
+-   Marcus Relacion, Web Developer
+-   Daniel Crane, Motion Artist
+-   Justin McCarthy, Copywriter
 
 2016:
 
-- Austin Breed, Illustrator
-- Greg Fisk, Designer & b-boy
-- Marcus Relacion, Web Developer
+-   Austin Breed, Illustrator
+-   Greg Fisk, Designer & b-boy
+-   Marcus Relacion, Web Developer
 
 ## Site Archive
 
-- [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
-- [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
-- [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
+-   [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
+-   [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
+-   [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
 
 ## Follow Us
 
-- [AIGA DC Website](https://dc.aiga.org/)
-- [Twitter](https://twitter.com/aigadc)
-- [Facebook](https://www.facebook.com/aigaDC)
-- [Instagram](https://www.instagram.com/aigadc/)
-- [Flickr](https://www.flickr.com/photos/77867183@N00)
+-   [AIGA DC Website](https://dc.aiga.org/)
+-   [Twitter](https://twitter.com/aigadc)
+-   [Facebook](https://www.facebook.com/aigaDC)
+-   [Instagram](https://www.instagram.com/aigadc/)
+-   [Flickr](https://www.flickr.com/photos/77867183@N00)
