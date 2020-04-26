@@ -10,38 +10,30 @@ This repository is the home of the DC Design Week website.
 
 Coming Soon
 
-## DC Design Week / Creative
+## DC Design Week Teams
 
-2018:
+_2019_:
 
--   LA Johnson, Illustrator
--   Marcus Relacion, Web Developer
--   Daniel Crane, Motion Artist
--   Rebecca Price, Content Designer
--   Chelsae Blackmon, Web Designer
--   Justin McCarthy, Copywriter
--   Ryan von Dohlen, Cartographer
+[View Full Team (Coming Soon)](#)
 
-2017:
+_2018_:
 
--   Daniel Crane, Motion Designer
--   Jen Doyle, Designer
--   JD Deardourff, Illustrator
--   Marcus Relacion, Web Developer
--   Daniel Crane, Motion Artist
--   Justin McCarthy, Copywriter
+[View Full Team](https://2018.dcdesignweek.org/about/index.html)
 
-2016:
+_2017_:
 
--   Austin Breed, Illustrator
--   Greg Fisk, Designer & b-boy
--   Marcus Relacion, Web Developer
+[View Full Team](https://2017.dcdesignweek.org/about/)
 
-## Site Archive
+_2016_:
+
+[View Full Team](https://2016.dcdesignweek.org/about/index.html)
+
+## Site Archives
 
 -   [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
 -   [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
 -   [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
+-   [2019 DC Design Week](https://github.com/AIGAdc/2019.dcdesignweek.org)
 
 ## Follow Us
 
