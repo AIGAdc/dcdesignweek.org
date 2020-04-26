@@ -24,7 +24,13 @@ a:focus {
     outline: dotted medium $aquamarine !important;
     outline-offset: medium !important;
 }
-h1, h2, h3, h4, h5, h6, small {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
     font-family: $script;
     font-stretch: normal;
     font-style: normal;
@@ -52,7 +58,8 @@ h3 {
 p {
     margin: 0 0 $spacing-32 0;
 }
-strong, .font-weight-700 {
+strong,
+.font-weight-700 {
     font-weight: 700;
 }
 .font-weight-300 {

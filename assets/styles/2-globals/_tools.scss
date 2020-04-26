@@ -9,7 +9,8 @@
 .enabled {
     cursor: pointer !important;
 }
-.container, .container--small {
+.container,
+.container--small {
     margin: auto;
     padding: $spacing-16;
 }
@@ -20,7 +21,8 @@
     max-width: 768px;
 }
 @media screen and (min-width: $break-3) {
-    .container, .container--small {
+    .container,
+    .container--small {
         padding: $spacing-32;
     }
 }

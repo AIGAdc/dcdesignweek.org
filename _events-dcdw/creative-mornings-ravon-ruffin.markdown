@@ -1,35 +1,36 @@
 ---
-title: 'Creative Mornings: Ravon Ruffin'
+title: "Creative Mornings: Ravon Ruffin"
 date: 2019-09-12 14:10:00 -04:00
-description: Start the day with Ravon Ruffin, a New York-based museum practitioner,
-  community arts organizer, public arts educator, and digital strategist.
+description:
+    Start the day with Ravon Ruffin, a New York-based museum practitioner,
+    community arts organizer, public arts educator, and digital strategist.
 status:
-  is-sold-out: true
-  sold-out-message: Sold Out  —  Join the Waitlist
-  has-occurred: false
-  has-occurred-message: " Event Passed — Event Passed "
+    is-sold-out: true
+    sold-out-message: Sold Out  —  Join the Waitlist
+    has-occurred: false
+    has-occurred-message: " Event Passed — Event Passed "
 event:
-  date: 2019-09-27 08:30:00 -04:00
-  image: "/uploads/Header_CreativeMorning.png"
-  image-alt: photo of Ravon Ruffin
-  start-time: 8:30am
-  end-time: 10:00am
+    date: 2019-09-27 08:30:00 -04:00
+    image: "/uploads/Header_CreativeMorning.png"
+    image-alt: photo of Ravon Ruffin
+    start-time: 8:30am
+    end-time: 10:00am
 tickets:
-  has-member-button: true
-  member-button-url: https://creativemornings.com/talks/ravon-ruffin
-  member-button-label: Register
+    has-member-button: true
+    member-button-url: https://creativemornings.com/talks/ravon-ruffin
+    member-button-label: Register
 venue:
-  name: Smithsonian's Hirshhorn Museum
-  address: 700 Independence Ave SW Washington, DC 20560
-  directions: https://goo.gl/maps/A6fs6Ydq4cGRu62WA
+    name: Smithsonian's Hirshhorn Museum
+    address: 700 Independence Ave SW Washington, DC 20560
+    directions: https://goo.gl/maps/A6fs6Ydq4cGRu62WA
 filter-date:
-  is-day-8: true
+    is-day-8: true
 filter-time:
-  is-morning: true
+    is-morning: true
 filter-type:
-  is-talk: true
+    is-talk: true
 filter-location:
-  is-dc: true
+    is-dc: true
 ---
 
 Ravon Ruffin is a New York-based museum practitioner, community arts organizer, public arts educator, and digital strategist. She strives to make art + culture accessible for and by women and communities of color, both online and IRL.

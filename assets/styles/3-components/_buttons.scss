@@ -5,7 +5,9 @@
     display: inline-block;
     font-weight: 700;
     padding: 0 $spacing-8;
-    &__solid, &__border, &__link {
+    &__solid,
+    &__border,
+    &__link {
         border: solid $spacing-4 transparent;
     }
     &__solid--mauve {

@@ -78,8 +78,8 @@ filter-location:
 
 Lace up your sneakers and join us for a morning run past DC’s newest and most exciting street murals! Join the District Running Collective (DRC) to hit DC’s historic neighborhoods on foot, catching a glimpse of the city’s best street murals as you make your way through the District.
 
-Whether you’re an occasional jogger or an experienced runner, all paces and abilities are welcome. Just be sure to stick around for coffee and a morning talk with DC street artists! And while you cool down at the end run, we’ll be showing some of the short films made during this year’s [Pow! Wow! DC](https://www.powwowdc.com/) mural festival 
+Whether you’re an occasional jogger or an experienced runner, all paces and abilities are welcome. Just be sure to stick around for coffee and a morning talk with DC street artists! And while you cool down at the end run, we’ll be showing some of the short films made during this year’s [Pow! Wow! DC](https://www.powwowdc.com/) mural festival
 
 The run begin will begin at the new HQ of DRC, designed by former Nike creative director and Howard alum, Jason Murphy. Instantly iconic, the space is flush with bold colors, symbolic imagery and typography that distinctly captures the character of DC’s neighborhoods and the spirit of its inhabitants.
 
-The total distance of the run will be approximately 3 miles. The goal is to maintain a  conversational running pace, talking & smiling all the way! We will stop briefly to take pictures and to appreciate the artwork, and there will be spaces available to stow your belongings during the run.
+The total distance of the run will be approximately 3 miles. The goal is to maintain a conversational running pace, talking & smiling all the way! We will stop briefly to take pictures and to appreciate the artwork, and there will be spaces available to stow your belongings during the run.

@@ -3,12 +3,28 @@
 * {
     box-sizing: border-box;
 }
-*:before, *:after {
+*:before,
+*:after {
     box-sizing: inherit;
 }
 /* Remove margin and padding from elements */
 
-body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt, fieldset {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+dd,
+figure,
+figcaption,
+dl,
+dd,
+dt,
+fieldset {
     margin: 0px;
     padding: 0px;
 }
@@ -22,7 +38,8 @@ body {
 }
 /* Remove list styles on ul, ol elements with a class attribute */
 
-ul[class], ol[class] {
+ul[class],
+ol[class] {
     list-style: none;
 }
 ul {
@@ -36,7 +53,8 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
     cursor: pointer;
 }
-.button>a:focus, a:focus {
+.button > a:focus,
+a:focus {
     outline: dotted medium $aquamarine !important;
     outline-offset: medium !important;
 }
@@ -47,17 +65,21 @@ a:not([class]) {
 }
 /* Normalise form field line-height in WebKit */
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
     line-height: normal;
 }
 /* Make a search box appear like a text box */
 
-input[type='search'] {
+input[type="search"] {
     -webkit-appearance: textfield;
 }
 /* Make images responsive */
 
-img, svg, video {
+img,
+svg,
+video {
     max-width: 100%;
     display: block;
     width: 100%;

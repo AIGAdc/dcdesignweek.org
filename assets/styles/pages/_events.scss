@@ -11,7 +11,9 @@
 .events-filter__dates .mixitup-control-active {
     background-color: $mauve;
 }
-.events-filter__dates .control-text-1, .events-filter__dates .control-text-2, .events-filter__dates .control-text-3, {
+.events-filter__dates .control-text-1,
+.events-filter__dates .control-text-2,
+.events-filter__dates .control-text-3 {
     display: block;
     text-transform: uppercase;
 }
@@ -70,7 +72,7 @@
     position: relative;
 }
 .mixitup-container-failed::after {
-    content: 'No results, please refine your search';
+    content: "No results, please refine your search";
     position: absolute;
     top: 0;
     right: 0;
