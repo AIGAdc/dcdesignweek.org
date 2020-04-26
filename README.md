@@ -12,28 +12,17 @@ Coming Soon
 
 ## DC Design Week Teams
 
-**2019**:
-
-[View Full Team](https://2019.dcdesignweek.org/)
-
-**2018**:
-
-[View Full Team](https://2018.dcdesignweek.org/about/index.html)
-
-**2017**:
-
-[View Full Team](https://2017.dcdesignweek.org/about/)
-
-**2016**:
-
-[View Full Team](https://2016.dcdesignweek.org/about/index.html)
+**2019**: [View Full Team](https://2019.dcdesignweek.org/)
+**2018**: [View Full Team](https://2018.dcdesignweek.org/about/index.html)
+**2017**: [View Full Team](https://2017.dcdesignweek.org/about/)
+**2016**: [View Full Team](https://2016.dcdesignweek.org/about/index.html)
 
 ## Site Archives
 
--   [2016 DC Design Week](https://github.com/AIGAdc/2016.dcdesignweek.org)
--   [2017 DC Design Week](https://github.com/AIGAdc/2017.dcdesignweek.org)
--   [2018 DC Design Week](https://github.com/AIGAdc/2018.dcdesignweek.org)
--   [2019 DC Design Week](https://github.com/AIGAdc/2019.dcdesignweek.org)
+-   [2016 DC Design Week](https://2016.dcdesignweek.org)
+-   [2017 DC Design Week](https://2017.dcdesignweek.org)
+-   [2018 DC Design Week](https://2018.dcdesignweek.org)
+-   [2019 DC Design Week](https://2019.dcdesignweek.org)
 
 ## Follow Us
 
