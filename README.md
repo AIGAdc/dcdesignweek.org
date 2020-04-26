@@ -10,12 +10,12 @@ This repository is the home of the DC Design Week website.
 
 Coming Soon
 
-## DC Design Week Teams
+## DC Design Week Committees
 
--   **2019**: [View Full Team](https://2019.dcdesignweek.org/)
--   **2018**: [View Full Team](https://2018.dcdesignweek.org/about/index.html)
--   **2017**: [View Full Team](https://2017.dcdesignweek.org/about/)
--   **2016**: [View Full Team](https://2016.dcdesignweek.org/about/index.html)
+-   **2019 Committee**: [About Page](https://2019.dcdesignweek.org/about)
+-   **2018 Committee**: [About Page](https://2018.dcdesignweek.org/about/index.html)
+-   **2017 Committee**: [About Page](https://2017.dcdesignweek.org/about/)
+-   **2016 Committee**: [About Page](https://2016.dcdesignweek.org/about/index.html)
 
 ## Site Archives
 
