@@ -12,19 +12,19 @@ Coming Soon
 
 ## DC Design Week Teams
 
-_2019_:
+**2019**:
 
-[View Full Team (Coming Soon)](#)
+[View Full Team](https://2019.dcdesignweek.org/)
 
-_2018_:
+**2018**:
 
 [View Full Team](https://2018.dcdesignweek.org/about/index.html)
 
-_2017_:
+**2017**:
 
 [View Full Team](https://2017.dcdesignweek.org/about/)
 
-_2016_:
+**2016**:
 
 [View Full Team](https://2016.dcdesignweek.org/about/index.html)
 
