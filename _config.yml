@@ -2,593 +2,586 @@
 title: DC Design Week 2019
 timezone: America/New_York
 collections:
-    events-carnegie:
-        title: Events - Carnegie
-        output: true
-    events-dcdw:
-        title: Events - DCDW
-        output: true
-        permalink: "/events/:title/"
-    posts:
-        title: Posts
-        output: true
-    uploads:
-        title: Uploads
-        output: true
+  events-carnegie:
+    title: Events - Carnegie
+    output: true
+  events-dcdw:
+    title: Events - DCDW
+    output: true
+    permalink: "/events/:title/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-    - scope:
-          path: ""
-      values:
-          image: "/uploads/og-image.jpg"
-          description:
-              DC Design Week is a celebration of creatives, thinkers, and makers
-              in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
-              Join us!
-    - scope:
-          path: ""
-          type: events-dcdw
-      values:
-          description: Provide an excerpt of what the event is about. Preferably 1 sentence.
-          status:
-              is-coming-soon: Select true if the event is coming soon.
-              coming-soon-message: Coming Soon!
-              is-sold-out: Select true if the event is sold out.
-              sold-out-message: Sold Out!
-              is-featured-on-events:
-                  Select True if event should be featured on the events
-                  page.
-              is-featured-on-home: Select True if event should be featured on the home page.
-              featured-event-message: Featured!
-          event:
-              date: Select date of the event.
-              image: Provide the image that will be used in the event card and event header.
-              image-alt: Provide alt text describing the image above.
-              start-time: Select the start time of the event.
-              end-time: Select the end time of the event.
-              has-external-url: false
-              external-url: If true, provide external url link.
-              has-speakers: Select True is event has speakers
-          tickets:
-              has-member-button: Select true to display the members only ticket button.
-              member-button-url:
-                  Provide link that will open when the members only ticket
-                  button is clicked.
-              member-button-label:
-                  Provide text that will display in the members only ticket
-                  button.
-              member-button-is-disabled: false
-              has-non-member-button: Select true to display the non members ticket button.
-              non-member-button-url:
-                  Provide link that will open when the non members ticket
-                  button is clicked.
-              non-member-button-label:
-                  Provide text that will display in the non members ticket
-                  button.
-              non-member-button-is-disabled: false
-          venue:
-              is-tbd: false
-              name: Provide the name of the venue.
-              address: Provide the address of the venue.
-              directions: Provide a google maps link with directions to the venue.
-          speakers:
-              - name: Provide Speaker name.
-                title: Provide Speaker title.
-                bio: Provide Speaker bio.
-                website-label: Provide label that will appear instead of URL
-                website-url: Provide Speaker website.
-          filter-date:
-              is-day-1: Select True if event occurs on day 1.
-              is-day-2: Select True if event occurs on day 2.
-              is-day-3: Select True if event occurs on day 3.
-              is-day-4: Select True if event occurs on day 4.
-              is-day-5: Select True if event occurs on day 5.
-              is-day-6: Select True if event occurs on day 6.
-              is-day-7: Select True if event occurs on day 7.
-              is-day-8: Select True if event occurs on day 8.
-          filter-time:
-              is-morning: Select True if event occurs in the morning.
-              is-daytime: Select True if event occurs during the morning.
-              is-evening: Select True if event occurs in the evening.
-          filter-type:
-              is-talk: Select True if event matches type
-              is-screening: Select True if event matches type
-              is-party: Select True if event matches type
-              is-family-friendly: Select True if event matches type
-              is-creative-lunch: Select True if event matches type
-              is-wellness: Select True if event matches type
-              is-workshop: Select True if event matches type
-          filter-location:
-              is-dc: Select True if event is located in DC.
-              is-md: Select True if event is located in MD.
-              is-va: Select True if event is located in VA.
-          layout: events-single
-    - scope:
-          path: ""
-          type: events-carnegie
-      values:
-          seo:
-              description: Provide an exceprt of what the event is about.
-          event:
-              date: Displays the date of the event.
-              venue-name: Displays the name of the venue.
-              venue-directions: Provide a url to google maps to help navigate attendees.
-              venue-address: Displays the address of the venues.
-              start-time: Displays the start time of the event.
-              end-time: Displays the end time of the event.
-          speakers:
-              headshot-image: Displays the speakers portait.
-              url: Provide a url to the speakers website.
-              name: Displays the speakers name.
-              title: Displays the speakers professional title
-              bio-text: Displays the speakers bio.
-          buttons:
-              has-left-button: true
-              button-left-url: Provide a url for button on left
-              button-left-text: Provide text for button on left
-              has-right-button: true
-              button-right-url: Provide a url for button on right
-              button-right-text: Provide text for button on right
-          is-sold-out: false
-          is-featured-on-home-page: false
-          layout: events-single
+- scope:
+    path: ''
+  values:
+    image: "/uploads/og-image.jpg"
+    description: DC Design Week is a celebration of creatives, thinkers, and makers
+      in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+      Join us!
+- scope:
+    path: ''
+    type: events-dcdw
+  values:
+    description: Provide an excerpt of what the event is about. Preferably 1 sentence.
+    status:
+      is-coming-soon: Select true if the event is coming soon.
+      coming-soon-message: Coming Soon!
+      is-sold-out: Select true if the event is sold out.
+      sold-out-message: Sold Out!
+      is-featured-on-events: Select True if event should be featured on the events
+        page.
+      is-featured-on-home: Select True if event should be featured on the home page.
+      featured-event-message: Featured!
+    event:
+      date: Select date of the event.
+      image: Provide the image that will be used in the event card and event header.
+      image-alt: Provide alt text describing the image above.
+      start-time: Select the start time of the event.
+      end-time: Select the end time of the event.
+      has-external-url: false
+      external-url: If true, provide external url link.
+      has-speakers: Select True is event has speakers
+    tickets:
+      has-member-button: Select true to display the members only ticket button.
+      member-button-url: Provide link that will open when the members only ticket
+        button is clicked.
+      member-button-label: Provide text that will display in the members only ticket
+        button.
+      member-button-is-disabled: false
+      has-non-member-button: Select true to display the non members ticket button.
+      non-member-button-url: Provide link that will open when the non members ticket
+        button is clicked.
+      non-member-button-label: Provide text that will display in the non members ticket
+        button.
+      non-member-button-is-disabled: false
+    venue:
+      is-tbd: false
+      name: Provide the name of the venue.
+      address: Provide the address of the venue.
+      directions: Provide a google maps link with directions to the venue.
+    speakers:
+    - name: Provide Speaker name.
+      title: Provide Speaker title.
+      bio: Provide Speaker bio.
+      website-label: Provide label that will appear instead of URL
+      website-url: Provide Speaker website.
+    filter-date:
+      is-day-1: Select True if event occurs on day 1.
+      is-day-2: Select True if event occurs on day 2.
+      is-day-3: Select True if event occurs on day 3.
+      is-day-4: Select True if event occurs on day 4.
+      is-day-5: Select True if event occurs on day 5.
+      is-day-6: Select True if event occurs on day 6.
+      is-day-7: Select True if event occurs on day 7.
+      is-day-8: Select True if event occurs on day 8.
+    filter-time:
+      is-morning: Select True if event occurs in the morning.
+      is-daytime: Select True if event occurs during the morning.
+      is-evening: Select True if event occurs in the evening.
+    filter-type:
+      is-talk: Select True if event matches type
+      is-screening: Select True if event matches type
+      is-party: Select True if event matches type
+      is-family-friendly: Select True if event matches type
+      is-creative-lunch: Select True if event matches type
+      is-wellness: Select True if event matches type
+      is-workshop: Select True if event matches type
+    filter-location:
+      is-dc: Select True if event is located in DC.
+      is-md: Select True if event is located in MD.
+      is-va: Select True if event is located in VA.
+    layout: events-single
+- scope:
+    path: ''
+    type: events-carnegie
+  values:
+    seo:
+      description: Provide an exceprt of what the event is about.
+    event:
+      date: Displays the date of the event.
+      venue-name: Displays the name of the venue.
+      venue-directions: Provide a url to google maps to help navigate attendees.
+      venue-address: Displays the address of the venues.
+      start-time: Displays the start time of the event.
+      end-time: Displays the end time of the event.
+    speakers:
+      headshot-image: Displays the speakers portait.
+      url: Provide a url to the speakers website.
+      name: Displays the speakers name.
+      title: Displays the speakers professional title
+      bio-text: Displays the speakers bio.
+    buttons:
+      has-left-button: true
+      button-left-url: Provide a url for button on left
+      button-left-text: Provide text for button on left
+      has-right-button: true
+      button-right-url: Provide a url for button on right
+      button-right-text: Provide text for button on right
+    is-sold-out: false
+    is-featured-on-home-page: false
+    layout: events-single
 exclude:
-    - package.json
-    - package-lock.json
-    - node_modules
-    - README.md
-    - Gemfile
-    - Gemfile.lock
-    - ".jekyll-metadata"
-    - ".sass-cache"
-    - ".ruby-version"
+- package.json
+- package-lock.json
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
+- ".ruby-version"
 plugins:
-    - jekyll-seo-tag
+- jekyll-seo-tag
 sass:
-    sass_dir: "/assets/styles/"
-    style: compressed
+  sass_dir: "/assets/styles/"
+  style: compressed
 encoding: utf-8
 lang: en-US
 twitter:
-    username: aigadc
+  username: aigadc
 facebook:
-    publisher: https://www.facebook.com/aigaDC/
+  publisher: https://www.facebook.com/aigaDC/
 url: https://dcdesignweek.org
-baseurl:
+baseurl: 
 uploadurl: "/uploads/"
 asseturl: "/assets/"
 repository: AIGAdc/DCDW
 email: designweek@dc.aiga.org
-google-analytics:
-    "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
-    \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
+google-analytics: "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
+  \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
 social:
-    links:
-        - title: Twitter
-          url: https://twitter.com/dcdesignweek
-          icon: <i class="fab fa-twitter-square"></i>
-        - title: Instagram
-          url: https://www.instagram.com/dcdesignweek/
-          icon: <i class="fab fa-instagram"></i>
-        - title: Facebook
-          url: https://www.facebook.com/dcdesignweek/
-          icon: <i class="fab fa-facebook-square"></i>
-    contact: designweek@dc.aiga.org
-    copyright: "&copy; AIGA DC | 2019 All Rights Reserved."
+  links:
+  - title: Twitter
+    url: https://twitter.com/dcdesignweek
+    icon: <i class="fab fa-twitter-square"></i>
+  - title: Instagram
+    url: https://www.instagram.com/dcdesignweek/
+    icon: <i class="fab fa-instagram"></i>
+  - title: Facebook
+    url: https://www.facebook.com/dcdesignweek/
+    icon: <i class="fab fa-facebook-square"></i>
+  contact: designweek@dc.aiga.org
+  copyright: "&copy; AIGA DC | 2019 All Rights Reserved."
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 2019-presenting-sponsors:
-    - title: Creative Circle
-      image: "/uploads/sponsor-creative-circle.jpg"
-      image-alt: logo for creative circle
-      website: https://www.creativecircle.com
+- title: Creative Circle
+  image: "/uploads/sponsor-creative-circle.jpg"
+  image-alt: logo for creative circle
+  website: https://www.creativecircle.com
 2019-contributing-sponsors:
-    - title: Line Hotel
-      image: "/uploads/sponsor-line-hotel.jpg"
-      image-alt: logo for line-hotel
-      website: https://www.thelinehotel.com/dc/
-    - title: The Duke & the Duck
-      image: "/uploads/sponsor-duke-&-duck.jpg"
-      image-alt: logo for duke & the duck
-      website: http://www.dukeduck.com/
-    - title: General Design Co.
-      image: "/uploads/sponsor-gdc.jpg"
-      image-alt: logo for gdc
-      website: http://www.generaldesignco.com
-    - title: Corporate Communications Group
-      image: "/uploads/Sponsor_CCG2.png"
-      image-alt: logo for CCG
-      website: https://ccgcreates.com/
-    - title: Made By We
-      image: "/uploads/sponsor-made-by-we.jpg"
-      image-alt: logo for made by we
-      website: http://madebywe.org/
-    - title: Deloitte Digital
-      image: "/uploads/Sponsor_DelDig.png"
-      image-alt: Logo for Deloitte Digital
-      website: https://www.deloittedigital.com/
-    - title: Gallagher & Associates
-      image: "/uploads/sponsor-gallagher.jpg"
-      image-alt: logo for gallagher & associates
-      website: https://www.gallagherdesign.com
-    - title: Maclab
-      image: "/uploads/sponsor-maclab.jpg"
-      image-alt: logo for maclab
-      website: https://maclaboratory.com/
+- title: Line Hotel
+  image: "/uploads/sponsor-line-hotel.jpg"
+  image-alt: logo for line-hotel
+  website: https://www.thelinehotel.com/dc/
+- title: The Duke & the Duck
+  image: "/uploads/sponsor-duke-&-duck.jpg"
+  image-alt: logo for duke & the duck
+  website: http://www.dukeduck.com/
+- title: General Design Co.
+  image: "/uploads/sponsor-gdc.jpg"
+  image-alt: logo for gdc
+  website: http://www.generaldesignco.com
+- title: Corporate Communications Group
+  image: "/uploads/Sponsor_CCG2.png"
+  image-alt: logo for CCG
+  website: https://ccgcreates.com/
+- title: Made By We
+  image: "/uploads/sponsor-made-by-we.jpg"
+  image-alt: logo for made by we
+  website: http://madebywe.org/
+- title: Deloitte Digital
+  image: "/uploads/Sponsor_DelDig.png"
+  image-alt: Logo for Deloitte Digital
+  website: https://www.deloittedigital.com/
+- title: Gallagher & Associates
+  image: "/uploads/sponsor-gallagher.jpg"
+  image-alt: logo for gallagher & associates
+  website: https://www.gallagherdesign.com
+- title: Maclab
+  image: "/uploads/sponsor-maclab.jpg"
+  image-alt: logo for maclab
+  website: https://maclaboratory.com/
 2019-partners:
-    - title: Apple
-      image: "/uploads/partner-today-at-apple.jpg"
-      image-alt: logo for apple today
-      website: https://www.apple.com/today/carnegielibrary/
-    - title: Ad Hoc
-      image: "/uploads/Untitled-1.png"
-      image-alt: Logo for Ad Hoc
-      website: https://adhocteam.us/
-    - title: Big Chief
-      image: "/uploads/partner-bigchief.jpg"
-      image-alt: logo for big chief
-      website: http://www.bigchiefdc.com/
-    - title: blackcomputeher
-      image: "/uploads/partner-bch.jpg"
-      image-alt: logo for blackcomputeher
-      website: https://blackcomputeher.org/
-    - title: Brllnt
-      image: "/uploads/partner-brllnt.jpg"
-      image-alt: logo for brllnt
-      website: https://brllnt.co/
-    - title: Busboys & Poets
-      image: "/uploads/partner-busboys.jpg"
-      image-alt: logo for busboys & poets
-      website: https://www.busboysandpoets.com/
-    - title: Capital Cider House
-      image: "/uploads/partner-cap-cider.jpg"
-      image-alt: logo for capital cider house
-      website: https://capitolciderhouse.com/
-    - title: Capital One
-      image: "/uploads/partner-capital-one.jpg"
-      image-alt: need logo - Capital One
-      website: https://www.capitalone.com/
-    - title: Capital One Design
-      image: "/uploads/partner-capital-one-design.jpg"
-      image-alt: need logo - Capital One
-      website: https://medium.com/capitalonedesign
-    - title: Cherry Blossom Creative
-      image: "/uploads/partner-cherryblossom.jpg"
-      image-alt: need logo - Cherry Blossom
-      website: https://www.cherryblossomworkshop.com/
-    - title: Contrast & Co.
-      image: "/uploads/partner-contrastandco.jpg"
-      image-alt: need logo - Contrast & Co.
-      website: http://www.contrastandco.com/
-    - title: Creative Mornings
-      image: "/uploads/Sponsor_CreativeMornings.png"
-      image-alt: logo for creative mornings
-      website: https://creativemornings.com/cities/dc
-    - title: Creative Reaction Lab
-      image: "/uploads/partner-creative-reaction-lab.jpg"
-      image-alt: logo for creative reaction lab
-      website: http://www.creativereactionlab.com/
-    - title: DC Historical Society
-      image: "/uploads/partner-HSWDC.jpg"
-      image-alt: logo for dc historical society
-      website: http://www.dchistory.org
-    - title: DCPL
-      image: "/uploads/partner-dcpublic-library.jpg"
-      image-alt: logo for dcpl
-      website: https://www.dclibrary.org/
-    - title: District Running Collective
-      image: "/uploads/partner-district-running-collective.jpg"
-      image-alt: logo for district running collective
-      website: https://www.districtrunningcollective.com/
-    - title: Eaton Workshop
-      image: "/uploads/partner-eaton.jpg"
-      image-alt: logo for eaton
-      website: https://www.eatonworkshop.com/
-    - title: Food Rescues
-      image: "/uploads/partner-food-rescue.jpg"
-      image-alt: logo for food rescue us
-      website: https://foodrescue.us/
-    - title: General Assembly
-      image: "/uploads/partner-general-general-assembly.jpg"
-      image-alt: logo for general assembly
-      website: https://generalassemb.ly/
-    - title: Globe at MICA
-      image: "/uploads/partner-globe.jpg"
-      image-alt: logo for globe at mica
-      website: http://globeatmica.com/
-    - title: HGDZ
-      image: "/uploads/partner-hgdz.jpg"
-      image-alt: logo for hgzd
-      website: https://www.hzdg.com/
-    - title: IMF
-      image: "/uploads/partner-IMF.jpg"
-      image-alt: logo for IMF
-      website: https://www.imf.org/external/index.htm
-    - title: iStrategyLabs
-      image: "/uploads/partner-isl.jpg"
-      image-alt: logo for isl
-      website: https://isl.co/
-    - title: Killa Cakes
-      image: "/uploads/partner-killa-cakes.jpg"
-      image-alt: logo for killa cakes
-      website: https://www.killacakes.com/
-    - title: Library of Congress
-      image: "/uploads/partner-library-of-congress.jpg"
-      image-alt: logo for library of congress
-      website: https://www.loc.gov/
-    - title: Mapbox
-      image: "/uploads/partner-mapbox.jpg"
-      image-alt: logo for mapbox
-      website: https://www.mapbox.com/
-    - title: Mindspace
-      image: "/uploads/partner-mindspace.jpg"
-      image-alt: logo for mindspace
-      website: https://www.mindspace.me/
-    - title: Neighborgoods
-      image: "/uploads/partner-neighborgoods.jpg"
-      image-alt: logo for neighborgoods
-      website: https://theneighborgoods.com/
-    - title: Optoro
-      image: "/uploads/partner-optoro.jpg"
-      image-alt: logo for optoro
-      website: https://www.optoro.com/
-    - title: Outdoor Voices
-      image: "/uploads/partner-odv.jpg"
-      image-alt: logo for outdoor voices
-      website: https://www.outdoorvoices.com/
-    - title: Pakke Social
-      image: "/uploads/partner-pakke.jpg"
-      image-alt: logo for pakke social
-      website: https://pakkesocial.com/
-    - title: Phone2Action
-      image: "/uploads/partner-phone2action.jpg"
-      image-alt: logo for phone2action
-      website: https://phone2action.com/
-    - title: Shaolin Jazz
-      image: "/uploads/partner-shaolin.jpg"
-      image-alt: logo for shaolin jazz
-      website: https://shaolinjazz.com/
-    - title: Spaeth/Hill
-      image: "/uploads/partner-spaethhill.jpg"
-      image-alt: logo for spaeth/hill
-      website: https://www.spaethhill.com/
-    - title: Spotify for Artists
-      image: "/uploads/Spotify_Logo.png"
-      image-alt: logo for spotify for artists
-      website: https://artists.spotify.com/
-    - title: Studio A
-      image: "/uploads/partner-studio-a.jpg"
-      image-alt: need logo - Studio A
-      website: https://www.studioa.com/
-    - title: The Cheshire
-      image: "/uploads/partner-cheshire.jpg"
-      image-alt: logo for the cheshire
-      website: https://www.thecheshiredc.org/
-    - title: The Hatcher Group
-      image: "/uploads/partner-hatcher.jpg"
-      image-alt: logo for hatcher group
-      website: https://www.thehatchergroup.com/
-    - title: Typecase Industries
-      image: "/uploads/partner-typecase.jpg"
-      image-alt: logo for typecase industries
-      website: http://typecaseindustries.com/
-    - title: Uptop Acres
-      image: "/uploads/partner-uptop.jpg"
-      image-alt: logo for uptop acres
-      website: https://uptopacres.com/index.html
-    - title: Volkswagen of America
-      image: "/uploads/VW.png"
-      image-alt: Logo for Volkswagen Group of America
-      website: http://www.volkswagengroupofamerica.com/about
-    - title: Walmart Labs
-      image: "/uploads/partner-walmart-labs.jpg"
-      image-alt: logo for walmart labs
-      website: https://www.walmartlabs.com/
-    - title: Women in Music
-      image: "/uploads/partner-women-in-music.jpg"
-      image-alt: logo for women in music
-      website: https://www.womeninmusic.org
+- title: Apple
+  image: "/uploads/partner-today-at-apple.jpg"
+  image-alt: logo for apple today
+  website: https://www.apple.com/today/carnegielibrary/
+- title: Ad Hoc
+  image: "/uploads/Untitled-1.png"
+  image-alt: Logo for Ad Hoc
+  website: https://adhocteam.us/
+- title: Big Chief
+  image: "/uploads/partner-bigchief.jpg"
+  image-alt: logo for big chief
+  website: http://www.bigchiefdc.com/
+- title: blackcomputeher
+  image: "/uploads/partner-bch.jpg"
+  image-alt: logo for blackcomputeher
+  website: https://blackcomputeher.org/
+- title: Brllnt
+  image: "/uploads/partner-brllnt.jpg"
+  image-alt: logo for brllnt
+  website: https://brllnt.co/
+- title: Busboys & Poets
+  image: "/uploads/partner-busboys.jpg"
+  image-alt: logo for busboys & poets
+  website: https://www.busboysandpoets.com/
+- title: Capital Cider House
+  image: "/uploads/partner-cap-cider.jpg"
+  image-alt: logo for capital cider house
+  website: https://capitolciderhouse.com/
+- title: Capital One
+  image: "/uploads/partner-capital-one.jpg"
+  image-alt: need logo - Capital One
+  website: https://www.capitalone.com/
+- title: Capital One Design
+  image: "/uploads/partner-capital-one-design.jpg"
+  image-alt: need logo - Capital One
+  website: https://medium.com/capitalonedesign
+- title: Cherry Blossom Creative
+  image: "/uploads/partner-cherryblossom.jpg"
+  image-alt: need logo - Cherry Blossom
+  website: https://www.cherryblossomworkshop.com/
+- title: Contrast & Co.
+  image: "/uploads/partner-contrastandco.jpg"
+  image-alt: need logo - Contrast & Co.
+  website: http://www.contrastandco.com/
+- title: Creative Mornings
+  image: "/uploads/Sponsor_CreativeMornings.png"
+  image-alt: logo for creative mornings
+  website: https://creativemornings.com/cities/dc
+- title: Creative Reaction Lab
+  image: "/uploads/partner-creative-reaction-lab.jpg"
+  image-alt: logo for creative reaction lab
+  website: http://www.creativereactionlab.com/
+- title: DC Historical Society
+  image: "/uploads/partner-HSWDC.jpg"
+  image-alt: logo for dc historical society
+  website: http://www.dchistory.org
+- title: DCPL
+  image: "/uploads/partner-dcpublic-library.jpg"
+  image-alt: logo for dcpl
+  website: https://www.dclibrary.org/
+- title: District Running Collective
+  image: "/uploads/partner-district-running-collective.jpg"
+  image-alt: logo for district running collective
+  website: https://www.districtrunningcollective.com/
+- title: Eaton Workshop
+  image: "/uploads/partner-eaton.jpg"
+  image-alt: logo for eaton
+  website: https://www.eatonworkshop.com/
+- title: Food Rescues
+  image: "/uploads/partner-food-rescue.jpg"
+  image-alt: logo for food rescue us
+  website: https://foodrescue.us/
+- title: General Assembly
+  image: "/uploads/partner-general-general-assembly.jpg"
+  image-alt: logo for general assembly
+  website: https://generalassemb.ly/
+- title: Globe at MICA
+  image: "/uploads/partner-globe.jpg"
+  image-alt: logo for globe at mica
+  website: http://globeatmica.com/
+- title: HGDZ
+  image: "/uploads/partner-hgdz.jpg"
+  image-alt: logo for hgzd
+  website: https://www.hzdg.com/
+- title: IMF
+  image: "/uploads/partner-IMF.jpg"
+  image-alt: logo for IMF
+  website: https://www.imf.org/external/index.htm
+- title: iStrategyLabs
+  image: "/uploads/partner-isl.jpg"
+  image-alt: logo for isl
+  website: https://isl.co/
+- title: Killa Cakes
+  image: "/uploads/partner-killa-cakes.jpg"
+  image-alt: logo for killa cakes
+  website: https://www.killacakes.com/
+- title: Library of Congress
+  image: "/uploads/partner-library-of-congress.jpg"
+  image-alt: logo for library of congress
+  website: https://www.loc.gov/
+- title: Mapbox
+  image: "/uploads/partner-mapbox.jpg"
+  image-alt: logo for mapbox
+  website: https://www.mapbox.com/
+- title: Mindspace
+  image: "/uploads/partner-mindspace.jpg"
+  image-alt: logo for mindspace
+  website: https://www.mindspace.me/
+- title: Neighborgoods
+  image: "/uploads/partner-neighborgoods.jpg"
+  image-alt: logo for neighborgoods
+  website: https://theneighborgoods.com/
+- title: Optoro
+  image: "/uploads/partner-optoro.jpg"
+  image-alt: logo for optoro
+  website: https://www.optoro.com/
+- title: Outdoor Voices
+  image: "/uploads/partner-odv.jpg"
+  image-alt: logo for outdoor voices
+  website: https://www.outdoorvoices.com/
+- title: Pakke Social
+  image: "/uploads/partner-pakke.jpg"
+  image-alt: logo for pakke social
+  website: https://pakkesocial.com/
+- title: Phone2Action
+  image: "/uploads/partner-phone2action.jpg"
+  image-alt: logo for phone2action
+  website: https://phone2action.com/
+- title: Shaolin Jazz
+  image: "/uploads/partner-shaolin.jpg"
+  image-alt: logo for shaolin jazz
+  website: https://shaolinjazz.com/
+- title: Spaeth/Hill
+  image: "/uploads/partner-spaethhill.jpg"
+  image-alt: logo for spaeth/hill
+  website: https://www.spaethhill.com/
+- title: Spotify for Artists
+  image: "/uploads/Spotify_Logo.png"
+  image-alt: logo for spotify for artists
+  website: https://artists.spotify.com/
+- title: Studio A
+  image: "/uploads/partner-studio-a.jpg"
+  image-alt: need logo - Studio A
+  website: https://www.studioa.com/
+- title: The Cheshire
+  image: "/uploads/partner-cheshire.jpg"
+  image-alt: logo for the cheshire
+  website: https://www.thecheshiredc.org/
+- title: The Hatcher Group
+  image: "/uploads/partner-hatcher.jpg"
+  image-alt: logo for hatcher group
+  website: https://www.thehatchergroup.com/
+- title: Typecase Industries
+  image: "/uploads/partner-typecase.jpg"
+  image-alt: logo for typecase industries
+  website: http://typecaseindustries.com/
+- title: Uptop Acres
+  image: "/uploads/partner-uptop.jpg"
+  image-alt: logo for uptop acres
+  website: https://uptopacres.com/index.html
+- title: Volkswagen of America
+  image: "/uploads/VW.png"
+  image-alt: Logo for Volkswagen Group of America
+  website: http://www.volkswagengroupofamerica.com/about
+- title: Walmart Labs
+  image: "/uploads/partner-walmart-labs.jpg"
+  image-alt: logo for walmart labs
+  website: https://www.walmartlabs.com/
+- title: Women in Music
+  image: "/uploads/partner-women-in-music.jpg"
+  image-alt: logo for women in music
+  website: https://www.womeninmusic.org
 2019-team:
-    - image: "/uploads/committee-liz-rose-chmela.jpg"
-      image-alt: Member Portrait
-      name: Liz Rose Chmela
-      role: Executive Director
-      linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/heylizrose/
-      instagram-label: "@heylizrose"
-    - image: "/uploads/committee-kojo-boateng.jpg"
-      image-alt:
-      name: Kojo Boateng
-      role: Programming Director
-      linkedin-url: https://www.linkedin.com/in/kojoboateng/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/kboateng/
-      instagram-label: "@kboateng"
-    - image: "/uploads/committee-nick-fabiani.jpg"
-      image-alt:
-      name: Nick Fabiani
-      role: Communications Director
-      linkedin-url: https://www.linkedin.com/in/nick-fabiani
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/nickfabiani/
-      instagram-label: "@nickfabiani"
-    - image: "/uploads/committee-kim-arias.jpg"
-      image-alt:
-      name: Kim Arias
-      role: President, AIGA DC
-      linkedin-url: https://www.linkedin.com/in/kimberarias/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/kimberarias/
-      instagram-label: "@kimberarias"
-    - image: "/uploads/committee-cass-olson.jpg"
-      image-alt:
-      name: Cass Olson
-      role: Programming, AIGA DC
-      linkedin-url: https://www.linkedin.com/in/cassolson/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/cjolsonomicon/
-      instagram-label: "@cjolsonomicon"
-    - image: "/uploads/committee-catrell-thomas.jpg"
-      image-alt:
-      name: Catrell Thomas
-      role: Development, AIGA DC
-      linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/catrellcecilia/
-      instagram-label: "@catrellcecilia"
-    - image: "/uploads/committee-an-ly.jpg"
-      image-alt:
-      name: An Ly
-      role: Branding & Art Direction
-      linkedin-url:
-      linkedin-label:
-      instagram-url: https://www.instagram.com/anmadethis/
-      instagram-label: "@anmadethis"
-    - image: "/uploads/committee-amy-almarzar.jpg"
-      image-alt:
-      name: Amy Almazar
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/amy-almazar
-      linkedin-label: LinkedIn
-      instagram-url:
-      instagram-label:
-    - image: "/uploads/committee-chelsae-blackman.jpg"
-      image-alt:
-      name: Chelsae Blackman
-      role: UX & Web Design
-      linkedin-url: https://www.linkedin.com/in/chelsae/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/chelsae.black/
-      instagram-label: "@chelsae.black"
-    - image: "/uploads/committee-jason-bunyan.jpg"
-      image-alt:
-      name: Jason Bunyan
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
-      linkedin-label: LinkedIn
-      instagram-url:
-      instagram-label:
-    - image: "/uploads/committee-yngrid-chacon.jpg"
-      image-alt:
-      name: Yngrid Chacon
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/ecyan/
-      instagram-label: "@ecyan"
-    - image: "/uploads/committee-hannah-churn.jpg"
-      image-alt:
-      name: Hannah Churn
-      role: Animator
-      linkedin-url: https://www.linkedin.com/in/hannah-churn-3a49781a/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/hannamations/
-      instagram-label: "@hannamations"
-    - image: "/uploads/committee-mary-corley.jpg"
-      image-alt:
-      name: Mary Corley
-      role: Volunteer Coordinator
-      linkedin-url:
-      linkedin-label:
-      instagram-url:
-      instagram-label:
-    - image: "/uploads/committee-eliza-duquette.jpg"
-      image-alt:
-      name: Eliza Duquette
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/elizaduquette/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/etothelizerrr/
-      instagram-label: "@etothelizerrr"
-    - image: "/uploads/committee-sophia-finster.jpg"
-      image-alt:
-      name: Sophia Finster
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/sophiafinster/
-      instagram-label: "@sophiafinster"
-    - image: "/uploads/committee-phim-her.jpg"
-      image-alt:
-      name: Phim Her
-      role: Partnerships Chair
-      linkedin-url: https://www.linkedin.com/in/phimher
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/phimher/
-      instagram-label: "@phimher"
-    - image: "/uploads/committee-chanel-james.jpg"
-      image-alt:
-      name: Chanel James
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/chanelnyre/
-      instagram-label: "@chanelnyre"
-    - image: "/uploads/committee-cynthia-kim.jpg"
-      image-alt:
-      name: Cynthia Kim
-      role: Communications
-      linkedin-url: https://www.linkedin.com/in/cynthia-kim-54873010b/
-      linkedin-label: LinkedIn
-      instagram-url:
-      instagram-label:
-    - image: "/uploads/committee-becky-nissel.jpg"
-      image-alt:
-      name: Becky Nissel
-      role: Copywriter
-      linkedin-url:
-      linkedin-label:
-      instagram-url: https://www.instagram.com/beckynissel/
-      instagram-label: "@beckynissel"
-    - image: "/uploads/committee-johanna-ostrich.jpg"
-      image-alt:
-      name: Johanna Ostrich
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/johannaostrich
-      linkedin-label: LinkedIn
-      instagram-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
-      instagram-label: LinkedIn
-    - image: "/uploads/committee-rebecca-perez.jpg"
-      image-alt:
-      name: Rebecca Perez
-      role: Event Lead
-      linkedin-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/rebeccas_work/
-      instagram-label: "@rebeccas_work"
-    - image: "/uploads/committee-khanh-pham.jpg"
-      image-alt:
-      name: Khanh Pham
-      role: Programming Lead
-      linkedin-url: https://www.linkedin.com/in/khanhtbp/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/bkhanhp/
-      instagram-label: "@bkhanhp"
-    - image: "/uploads/committee-rebecca-price.jpg"
-      image-alt:
-      name: Rebecca Price
-      role: Social Media Lead
-      linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/rebeccuhhhhh/
-      instagram-label: "@rebeccuhhhhh"
-    - image: "/uploads/committee-marcus-relacion.jpg"
-      image-alt:
-      name: Marcus Relacion
-      role: Web Developer
-      linkedin-url: https://www.linkedin.com/in/marcusrelacion/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/marcusrelacion/
-      instagram-label: "@marcusrelacion"
-    - image: "/uploads/committee-ariana-rodriguez-gitler.jpg"
-      image-alt:
-      name: Ariana Rodriguez-Gitler
-      role: Programming Lead
-      linkedin-url: https://www.linkedin.com/in/arianarg/
-      linkedin-label: LinkedIn
-      instagram-url: https://www.instagram.com/rgariana/
-      instagram-label: "@rgiana"
+- image: "/uploads/committee-liz-rose-chmela.jpg"
+  image-alt: Member Portrait
+  name: Liz Rose Chmela
+  role: Executive Director
+  linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/heylizrose/
+  instagram-label: "@heylizrose"
+- image: "/uploads/committee-kojo-boateng.jpg"
+  image-alt: 
+  name: Kojo Boateng
+  role: Programming Director
+  linkedin-url: https://www.linkedin.com/in/kojoboateng/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/kboateng/
+  instagram-label: "@kboateng"
+- image: "/uploads/committee-nick-fabiani.jpg"
+  image-alt: 
+  name: Nick Fabiani
+  role: Communications Director
+  linkedin-url: https://www.linkedin.com/in/nick-fabiani
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/nickfabiani/
+  instagram-label: "@nickfabiani"
+- image: "/uploads/committee-kim-arias.jpg"
+  image-alt: 
+  name: Kim Arias
+  role: President, AIGA DC
+  linkedin-url: https://www.linkedin.com/in/kimberarias/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/kimberarias/
+  instagram-label: "@kimberarias"
+- image: "/uploads/committee-cass-olson.jpg"
+  image-alt: 
+  name: Cass Olson
+  role: Programming, AIGA DC
+  linkedin-url: https://www.linkedin.com/in/cassolson/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/cjolsonomicon/
+  instagram-label: "@cjolsonomicon"
+- image: "/uploads/committee-catrell-thomas.jpg"
+  image-alt: 
+  name: Catrell Thomas
+  role: Development, AIGA DC
+  linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/catrellcecilia/
+  instagram-label: "@catrellcecilia"
+- image: "/uploads/committee-an-ly.jpg"
+  image-alt: 
+  name: An Ly
+  role: Branding & Art Direction
+  linkedin-url: 
+  linkedin-label: 
+  instagram-url: https://www.instagram.com/anmadethis/
+  instagram-label: "@anmadethis"
+- image: "/uploads/committee-amy-almarzar.jpg"
+  image-alt: 
+  name: Amy Almazar
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/amy-almazar
+  linkedin-label: LinkedIn
+  instagram-url: 
+  instagram-label: 
+- image: "/uploads/committee-chelsae-blackman.jpg"
+  image-alt: 
+  name: Chelsae Blackman
+  role: UX & Web Design
+  linkedin-url: https://www.linkedin.com/in/chelsae/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/chelsae.black/
+  instagram-label: "@chelsae.black"
+- image: "/uploads/committee-jason-bunyan.jpg"
+  image-alt: 
+  name: Jason Bunyan
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
+  linkedin-label: LinkedIn
+  instagram-url: 
+  instagram-label: 
+- image: "/uploads/committee-yngrid-chacon.jpg"
+  image-alt: 
+  name: Yngrid Chacon
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/ecyan/
+  instagram-label: "@ecyan"
+- image: "/uploads/committee-hannah-churn.jpg"
+  image-alt: 
+  name: Hannah Churn
+  role: Animator
+  linkedin-url: https://www.linkedin.com/in/hannah-churn-3a49781a/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/hannamations/
+  instagram-label: "@hannamations"
+- image: "/uploads/committee-mary-corley.jpg"
+  image-alt: 
+  name: Mary Corley
+  role: Volunteer Coordinator
+  linkedin-url: 
+  linkedin-label: 
+  instagram-url: 
+  instagram-label: 
+- image: "/uploads/committee-eliza-duquette.jpg"
+  image-alt: 
+  name: Eliza Duquette
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/elizaduquette/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/etothelizerrr/
+  instagram-label: "@etothelizerrr"
+- image: "/uploads/committee-sophia-finster.jpg"
+  image-alt: 
+  name: Sophia Finster
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/sophiafinster/
+  instagram-label: "@sophiafinster"
+- image: "/uploads/committee-phim-her.jpg"
+  image-alt: 
+  name: Phim Her
+  role: Partnerships Chair
+  linkedin-url: https://www.linkedin.com/in/phimher
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/phimher/
+  instagram-label: "@phimher"
+- image: "/uploads/committee-chanel-james.jpg"
+  image-alt: 
+  name: Chanel James
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/chanelnyre/
+  instagram-label: "@chanelnyre"
+- image: "/uploads/committee-cynthia-kim.jpg"
+  image-alt: 
+  name: Cynthia Kim
+  role: Communications
+  linkedin-url: https://www.linkedin.com/in/cynthia-kim-54873010b/
+  linkedin-label: LinkedIn
+  instagram-url: 
+  instagram-label: 
+- image: "/uploads/committee-becky-nissel.jpg"
+  image-alt: 
+  name: Becky Nissel
+  role: Copywriter
+  linkedin-url: 
+  linkedin-label: 
+  instagram-url: https://www.instagram.com/beckynissel/
+  instagram-label: "@beckynissel"
+- image: "/uploads/committee-johanna-ostrich.jpg"
+  image-alt: 
+  name: Johanna Ostrich
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/johannaostrich
+  linkedin-label: LinkedIn
+  instagram-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
+  instagram-label: LinkedIn
+- image: "/uploads/committee-rebecca-perez.jpg"
+  image-alt: 
+  name: Rebecca Perez
+  role: Event Lead
+  linkedin-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/rebeccas_work/
+  instagram-label: "@rebeccas_work"
+- image: "/uploads/committee-khanh-pham.jpg"
+  image-alt: 
+  name: Khanh Pham
+  role: Programming Lead
+  linkedin-url: https://www.linkedin.com/in/khanhtbp/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/bkhanhp/
+  instagram-label: "@bkhanhp"
+- image: "/uploads/committee-rebecca-price.jpg"
+  image-alt: 
+  name: Rebecca Price
+  role: Social Media Lead
+  linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/rebeccuhhhhh/
+  instagram-label: "@rebeccuhhhhh"
+- image: "/uploads/committee-marcus-relacion.jpg"
+  image-alt: 
+  name: Marcus Relacion
+  role: Web Developer
+  linkedin-url: https://www.linkedin.com/in/marcusrelacion/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/marcusrelacion/
+  instagram-label: "@marcusrelacion"
+- image: "/uploads/committee-ariana-rodriguez-gitler.jpg"
+  image-alt: 
+  name: Ariana Rodriguez-Gitler
+  role: Programming Lead
+  linkedin-url: https://www.linkedin.com/in/arianarg/
+  linkedin-label: LinkedIn
+  instagram-url: https://www.instagram.com/rgariana/
+  instagram-label: "@rgiana"
