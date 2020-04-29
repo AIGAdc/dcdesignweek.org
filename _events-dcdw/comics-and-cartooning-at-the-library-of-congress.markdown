@@ -6,7 +6,7 @@ description: Take a private tour the Library of Congress’ Prints & Photographs
   Expo in the Library’s Comic Art Exhibit.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
+  sold-out-message: Sold Out — This Event Sold Out
   has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:

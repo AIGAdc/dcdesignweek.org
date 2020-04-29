@@ -19,11 +19,10 @@ event:
   is-coming-soon: false
   coming-soon-message: Coming Soon!
   is-sold-out: true
-  sold-out-message: Sold Out!
+  sold-out-message: Sold Out — This Event Sold Out
   external-url: https://www.apple.com/today/event/design-lab-rachel-orr-092219/6573249202036835725/
 buttons:
   has-left-button: true
   has-right-button: false
 image-alt: Event photo for Rachel Orr
 ---
-

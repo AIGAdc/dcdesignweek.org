@@ -1,47 +1,49 @@
 ---
-title: 'Workshop: Entrepreneurial Design Accelerator'
+title: "Workshop: Entrepreneurial Design Accelerator"
 date: 2019-09-02 14:01:00 -04:00
-description: Calling all entrepreneurs with projects that help underserved communities!
-  Bring your in-progress projects to the Entrepreneurial Design Accelerator and learn
-  how to make it a reality.
+description:
+    Calling all entrepreneurs with projects that help underserved communities!
+    Bring your in-progress projects to the Entrepreneurial Design Accelerator and learn
+    how to make it a reality.
 status:
-  is-sold-out: true
-  sold-out-message: Sold Out  —  Applications Closed
-  has-occurred: false
-  has-occurred-message: EVENT PASSED! — EVENT PASSED!
+    is-sold-out: true
+    sold-out-message: Sold Out — This Event Sold Out
+    has-occurred: false
+    has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
-  date: 2019-09-26 08:00:00 -04:00
-  image: "/uploads/Header-Elite-Truong.png"
-  start-time: 8:00am
-  end-time: 10:00am
-  has-speakers: true
+    date: 2019-09-26 08:00:00 -04:00
+    image: "/uploads/Header-Elite-Truong.png"
+    start-time: 8:00am
+    end-time: 10:00am
+    has-speakers: true
 tickets:
-  has-member-button: false
-  member-button-url: https://forms.gle/jtbLG6qpRhQpnjg68
-  member-button-label: Apply for Accelerator Workshop
+    has-member-button: false
+    member-button-url: https://forms.gle/jtbLG6qpRhQpnjg68
+    member-button-label: Apply for Accelerator Workshop
 venue:
-  name: Mindspace
-  address: 1301 K St NW, Washington, DC 20005
-  directions: https://goo.gl/maps/2ddUUX4SftcJfvQP7
+    name: Mindspace
+    address: 1301 K St NW, Washington, DC 20005
+    directions: https://goo.gl/maps/2ddUUX4SftcJfvQP7
 speakers:
-- name: Elite Truong
-  title: Deputy editor, Strategic Initiatives, Washington Post
-  bio: Elite Truong is the deputy editor for strategic initiatives at The Washington
-    Post, where she leads experimental storytelling projects working with The Post’s
-    journalism, technology and advertising teams. Prior to The Post, Elite led product
-    strategy and development for off-platform storytelling at Vox Media and authored
-    a column on media innovation for Poynter. In her free time, she’s teaching herself
-    to ride motorcycles, fly drones, and pan-fry the perfect dumpling.
-  website-label: Website
-  website-url: http://www.elitetruong.com
+    - name: Elite Truong
+      title: Deputy editor, Strategic Initiatives, Washington Post
+      bio:
+          Elite Truong is the deputy editor for strategic initiatives at The Washington
+          Post, where she leads experimental storytelling projects working with The Post’s
+          journalism, technology and advertising teams. Prior to The Post, Elite led product
+          strategy and development for off-platform storytelling at Vox Media and authored
+          a column on media innovation for Poynter. In her free time, she’s teaching herself
+          to ride motorcycles, fly drones, and pan-fry the perfect dumpling.
+      website-label: Website
+      website-url: http://www.elitetruong.com
 filter-date:
-  is-day-7: true
+    is-day-7: true
 filter-time:
-  is-morning: true
+    is-morning: true
 filter-type:
-  is-workshop: true
+    is-workshop: true
 filter-location:
-  is-dc: true
+    is-dc: true
 ---
 
 **Applications are closed. Accepted participants will be notified individually.**

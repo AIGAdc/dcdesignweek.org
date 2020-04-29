@@ -6,7 +6,7 @@ description: A series of lightning talks that will cover modern and traditional 
   Effects.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
+  sold-out-message: Sold Out — This Event Sold Out
   has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:

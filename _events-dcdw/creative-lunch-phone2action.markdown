@@ -1,39 +1,40 @@
 ---
-title: 'Creative Lunch: Phone2Action'
+title: "Creative Lunch: Phone2Action"
 date: 2019-09-02 14:59:00 -04:00
-description: AIGA DC opens the doors to Phone2Action in this series of creative lunches
-  during DC Design Week.
+description:
+    AIGA DC opens the doors to Phone2Action in this series of creative lunches
+    during DC Design Week.
 status:
-  is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: false
-  has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
+    is-sold-out: true
+    sold-out-message: Sold Out — This Event Sold Out
+    has-occurred: false
+    has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
-  date: 2019-09-25 13:00:00 -04:00
-  image: "/uploads/Header_P2A-140d02.png"
-  image-alt: Photo of the Phone2Action team.
-  start-time: 1:00pm
-  end-time: 2:00pm
+    date: 2019-09-25 13:00:00 -04:00
+    image: "/uploads/Header_P2A-140d02.png"
+    image-alt: Photo of the Phone2Action team.
+    start-time: 1:00pm
+    end-time: 2:00pm
 tickets:
-  has-member-button: true
-  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-phone2action%2F%3Fredirect_source%3Deventbrite_register
-  member-button-label: "$10 Members"
-  has-non-member-button: true
-  non-member-button-url: https://www.eventbrite.com/e/creative-lunch-phone2action-tickets-71292649233
-  non-member-button-label: "$15 Non-Members"
+    has-member-button: true
+    member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-phone2action%2F%3Fredirect_source%3Deventbrite_register
+    member-button-label: "$10 Members"
+    has-non-member-button: true
+    non-member-button-url: https://www.eventbrite.com/e/creative-lunch-phone2action-tickets-71292649233
+    non-member-button-label: "$15 Non-Members"
 venue:
-  name: Phone2Action
-  address: 1500 Wilson Blvd suite 700, Arlington, VA 22209
-  directions: https://goo.gl/maps/Rstzyr46keESYQS18
+    name: Phone2Action
+    address: 1500 Wilson Blvd suite 700, Arlington, VA 22209
+    directions: https://goo.gl/maps/Rstzyr46keESYQS18
 filter-date:
-  is-day-6: true
+    is-day-6: true
 filter-time:
-  is-daytime: true
+    is-daytime: true
 filter-type:
-  is-creative-lunch: true
+    is-creative-lunch: true
 filter-location:
-  is-md: false
-  is-va: true
+    is-md: false
+    is-va: true
 ---
 
 [Phone2Action](https://phone2action.com){:target="\_blank" rel="noopener"} is a comprehensive digital engagement and communications platform for grassroots advocacy, public affairs, and government relations. Their design team works across many departments, with marketing projects including print materials, digital assets, and video. Their product design team focuses on the visual design, UX, and interactions of products and features. Join both of Phone2Action’s creative teams to learn how their teams develop products and integrate them with their branding.
