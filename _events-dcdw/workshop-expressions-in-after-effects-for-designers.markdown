@@ -1,54 +1,52 @@
 ---
-title: "Workshop: Expressions in After Effects for Designers"
+title: 'Workshop: Expressions in After Effects for Designers'
 date: 2019-09-02 13:53:00 -04:00
-description:
-    For this event, DC-based animation studio The Duke and the Duck will
-    lead a workshop exploring expressions in Adobe After Effects, with a curriculum
-    tailored to designers.
+description: For this event, DC-based animation studio The Duke and the Duck will
+  lead a workshop exploring expressions in Adobe After Effects, with a curriculum
+  tailored to designers.
 status:
-    is-sold-out: true
-    sold-out-message: Sold Out — This Event Sold Out
-    has-occurred: false
-    has-occurred-message: Event Passed — Event Passed
+  is-sold-out: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
+  has-occurred-message: Event Passed — Event Passed
 event:
-    date: 2019-09-24 18:30:00 -04:00
-    image: "/uploads/Header_Motion-Expressions2.gif"
-    image-alt: Example of motion animation from David Arbor
-    start-time: 6:30pm
-    end-time: 9:30pm
-    has-speakers: true
+  date: 2019-09-24 18:30:00 -04:00
+  image: "/uploads/Header_Motion-Expressions2.gif"
+  image-alt: Example of motion animation from David Arbor
+  start-time: 6:30pm
+  end-time: 9:30pm
+  has-speakers: true
 tickets:
-    has-member-button: true
-    member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fworkshop-expressions-in-after-effects-for-designers%2F%3Fredirect_source%3Deventbrite_register
-    member-button-label: "$15 Member"
-    has-non-member-button: true
-    non-member-button-url: https://www.eventbrite.com/e/workshop-expressions-in-after-effects-for-designers-tickets-71299423495
-    non-member-button-label: "$20 Non-member"
+  has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fworkshop-expressions-in-after-effects-for-designers%2F%3Fredirect_source%3Deventbrite_register
+  member-button-label: "$15 Member"
+  has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/workshop-expressions-in-after-effects-for-designers-tickets-71299423495
+  non-member-button-label: "$20 Non-member"
 venue:
-    name: General Assembly
-    address: 509 7th St NW, Washington, DC 20004
-    directions: https://goo.gl/maps/Mda57RqjYiztBA1n9
+  name: General Assembly
+  address: 509 7th St NW, Washington, DC 20004
+  directions: https://goo.gl/maps/Mda57RqjYiztBA1n9
 speakers:
-    - name: David Arbor
-      title: Motion Graphics Designer / Editor
-      bio:
-          David is an award-winning motion designer, video editor, and photographer in
-          the Washington, D.C. area. He creates all kinds of animations but has found a
-          focus doing work that promotes public health and other positive messages. He is
-          very involved in the motion design community and is proud to be an Adobe Community
-          Professional. Adobe recognizes his experience and ability to help others, both
-          online and in-person at events such as Adobe MAX, where he attends annually as
-          a teaching assistant for classes of 120 people lead by the world’s top Adobe trainers.
-      website-label: Website
-      website-url: http://www.davidarbor.com/
+- name: David Arbor
+  title: Motion Graphics Designer / Editor
+  bio: David is an award-winning motion designer, video editor, and photographer in
+    the Washington, D.C. area. He creates all kinds of animations but has found a
+    focus doing work that promotes public health and other positive messages. He is
+    very involved in the motion design community and is proud to be an Adobe Community
+    Professional. Adobe recognizes his experience and ability to help others, both
+    online and in-person at events such as Adobe MAX, where he attends annually as
+    a teaching assistant for classes of 120 people lead by the world’s top Adobe trainers.
+  website-label: Website
+  website-url: http://www.davidarbor.com/
 filter-date:
-    is-day-5: true
+  is-day-5: true
 filter-time:
-    is-evening: true
+  is-evening: true
 filter-type:
-    is-workshop: true
+  is-workshop: true
 filter-location:
-    is-dc: true
+  is-dc: true
 ---
 
 If you’re a motion designer, expressions can feel daunting. However, expressions are some of the most powerful tools you can use in After Effects, with the benefit of giving you better control of your motion, as well as speeding up your process.

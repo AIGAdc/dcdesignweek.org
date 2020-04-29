@@ -1,41 +1,40 @@
 ---
-title: "Creative Lunch: Sustainable Food System Design"
+title: 'Creative Lunch: Sustainable Food System Design'
 date: 2019-09-02 14:05:00 -04:00
-description:
-    AIGA DC discusses sustainable systems design in this series of creative
-    lunches during DC Design Week.
+description: AIGA DC discusses sustainable systems design in this series of creative
+  lunches during DC Design Week.
 status:
-    coming-soon-message: " "
-    is-sold-out: true
-    sold-out-message: " Sold Out — This Event Sold Out "
-    has-occurred: false
-    has-occurred-message: EVENT PASSED! — EVENT PASSED!
+  coming-soon-message: " "
+  is-sold-out: true
+  sold-out-message: " Sold Out — This Event Sold Out "
+  has-occurred: false
+  has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
-    date: 2019-09-26 11:30:00 -04:00
-    image: "/uploads/Header-Sustainable-Food.png"
-    image-alt: "group of people standing together "
-    start-time: 11:30am
-    end-time: 12:45pm
-    has-speakers: false
+  date: 2019-09-26 11:30:00 -04:00
+  image: "/uploads/Header-Sustainable-Food.png"
+  image-alt: 'group of people standing together '
+  start-time: 11:30am
+  end-time: 12:45pm
+  has-speakers: false
 tickets:
-    has-member-button: true
-    member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-sustainable-food-system-design%2F%3Fredirect_source%3Deventbrite_register
-    member-button-label: "$20 Members"
-    has-non-member-button: true
-    non-member-button-url: https://www.eventbrite.com/e/creative-lunch-sustainable-food-system-design-tickets-71298075463
-    non-member-button-label: "$25 Non-members"
+  has-member-button: true
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcreative-lunch-sustainable-food-system-design%2F%3Fredirect_source%3Deventbrite_register
+  member-button-label: "$20 Members"
+  has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/creative-lunch-sustainable-food-system-design-tickets-71298075463
+  non-member-button-label: "$25 Non-members"
 venue:
-    name: Busboys & Poets, in Takoma Park
-    address: 235 Carroll St NW, Washington, DC 20012
-    directions: https://goo.gl/maps/ueLkvcGZ2UAiS7zYA
+  name: Busboys & Poets, in Takoma Park
+  address: 235 Carroll St NW, Washington, DC 20012
+  directions: https://goo.gl/maps/ueLkvcGZ2UAiS7zYA
 filter-date:
-    is-day-7: true
+  is-day-7: true
 filter-time:
-    is-daytime: true
+  is-daytime: true
 filter-type:
-    is-creative-lunch: true
+  is-creative-lunch: true
 filter-location:
-    is-md: true
+  is-md: true
 ---
 
 Join us at Busboys & Poets for lunch and a healthy discussion around sustainable food systems design!
