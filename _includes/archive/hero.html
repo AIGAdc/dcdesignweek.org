@@ -1,0 +1,15 @@
+<div class="home-hero">
+	{% for content in page.hero %}
+	<div class="home-hero__content">
+		<p>
+			{{ content.tagline }}
+		</p>
+		<h1>
+			{{ content.header }}
+		</h1>
+		<p>
+			{{ content.subheader }}
+		</p>
+	</div>
+	{% endfor %}
+</div>

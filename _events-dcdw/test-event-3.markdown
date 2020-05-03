@@ -1,5 +1,6 @@
 ---
 title: "Test Event 3"
+published: false
 date: 2019-09-01 12:00:00 -04:00
 position: 1
 description:

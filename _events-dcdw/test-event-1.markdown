@@ -1,5 +1,6 @@
 ---
 title: "Test Event 1"
+published: false
 date: 2019-09-02 14:27:00 -04:00
 description:
     Come party at the end of an amazing week with us at Capitol Cider House!

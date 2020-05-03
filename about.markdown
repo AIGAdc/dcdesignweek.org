@@ -1,5 +1,6 @@
 ---
 title: About
+published: false
 team-header: 2019 DCDW Committee
 dc-is-factsinating-header: "DCDW2019: Unconventional Wisdom"
 dc-is-factsinating-body:

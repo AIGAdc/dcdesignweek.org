@@ -1,5 +1,6 @@
 ---
 title: Pop-Up Shop
+published: false
 call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
 call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Shop the Block Party
