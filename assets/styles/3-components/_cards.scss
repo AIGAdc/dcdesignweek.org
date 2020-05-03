@@ -37,7 +37,8 @@
     font-weight: 400;
     margin: 0 0 $spacing-8 0;
 }
-.card__sponsors .card-details, .card__partners .card-details {
+.card__sponsors .card-details,
+.card__partners .card-details {
     padding: 0;
 }
 .card__sponsors--contributing {
@@ -63,7 +64,10 @@
     bottom: 0;
     left: 0;
 }
-.carnegie-layout .ticker p, .home-layout .ticker p, .events-layout .ticker p, .events-single-layout .ticker p {
+.carnegie-layout .ticker p,
+.home-layout .ticker p,
+.events-layout .ticker p,
+.events-single-layout .ticker p {
     display: inline-block;
     font-size: $font-size-20;
     margin: 0;
@@ -74,7 +78,9 @@
     transform: translateX(100%);
     width: 100%;
 }
-.carnegie-layout .ticker p, .home-layout .ticker p, .events-layout .ticker p {
+.carnegie-layout .ticker p,
+.home-layout .ticker p,
+.events-layout .ticker p {
     -moz-animation: ticker 10000ms linear infinite;
     -webkit-animation: ticker 10000ms linear infinite;
     animation: ticker 10000ms linear infinite;
@@ -138,7 +144,8 @@
     -webkit-transition: -webkit-transform $timing-quick ease-in-out;
     transition: -webkit-transform $timing-quick ease-in-out;
     transition: transform $timing-quick ease-in-out;
-    transition: transform $timing-quick ease-in-out, -webkit-transform $timing-quick ease-in-out;
+    transition: transform $timing-quick ease-in-out,
+        -webkit-transform $timing-quick ease-in-out;
     overflow: hidden;
 }
 .diamond:hover {

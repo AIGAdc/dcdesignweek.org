@@ -5,8 +5,8 @@ description: AIGA DC opens the doors to The Hatcher Group in this series of crea
   lunches during DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 12:00:00 -04:00
@@ -35,7 +35,7 @@ filter-location:
   is-md: true
 ---
 
-Helping nonprofits, foundations, and other mission-driven organizations develop smart communications strategies, [the Hatcher Group](https://www.thehatchergroup.com/){:target="_blank" rel="noopener"} has evolved their capabilities by building design and UX capabilities into the core foundation of the firm. Join them as they share funny stories, lessons learned, how to show the ROI of design, and a bit about their continuing process development.
+Helping nonprofits, foundations, and other mission-driven organizations develop smart communications strategies, [the Hatcher Group](https://www.thehatchergroup.com/){:target="\_blank" rel="noopener"} has evolved their capabilities by building design and UX capabilities into the core foundation of the firm. Join them as they share funny stories, lessons learned, how to show the ROI of design, and a bit about their continuing process development.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 

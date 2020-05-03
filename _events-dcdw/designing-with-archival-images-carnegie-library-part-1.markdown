@@ -6,8 +6,8 @@ description: Join us at the DC History Center located in the Apple Carnegie Libr
   can use these materials for your next art project!
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 13:00:00 -04:00
@@ -58,16 +58,16 @@ filter-location:
   is-dc: true
 ---
 
-Heads up! This event is Part 1 of a 2-part series. Sign up for this session and then be sure to stick around for [Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)!](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="_blank" rel="noopener"}
+Heads up! This event is Part 1 of a 2-part series. Sign up for this session and then be sure to stick around for [Workshop: DesignLab with Rachel Orr (Carnegie Library, Pt. 2)!](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="\_blank" rel="noopener"}
 
-Did you know there is a treasure trove of historical artifacts inside the Carnegie Library? In addition to thousands of manuscript collections, books, maps and photographs, you'll find diary entries, vintage ads, political posters and even the odd love letter.  
+Did you know there is a treasure trove of historical artifacts inside the Carnegie Library? In addition to thousands of manuscript collections, books, maps and photographs, you'll find diary entries, vintage ads, political posters and even the odd love letter.
 
-This workshop will orient local graphic artists and other creatives to the resources of the Historical Society of Washington, D.C., and demonstrate how the  DC History Center is home to a vast collection of historic materials, now digitally available for use in your next artistic project!
+This workshop will orient local graphic artists and other creatives to the resources of the Historical Society of Washington, D.C., and demonstrate how the DC History Center is home to a vast collection of historic materials, now digitally available for use in your next artistic project!
 
-Historical Society librarians  Anne McDonough and Jessica Smith will lead a presentation and discussion on the use of various aspects of collections to inspire creative work. Discussion will include learning about artists’ needs as well as addressing digital assets request procedures, credit guidelines, copyright resources, and more.
+Historical Society librarians Anne McDonough and Jessica Smith will lead a presentation and discussion on the use of various aspects of collections to inspire creative work. Discussion will include learning about artists’ needs as well as addressing digital assets request procedures, credit guidelines, copyright resources, and more.
 
-**But wait, there’s more! Participants will become registered library patrons, have hands-on exposure to a selection of original artifacts, and following the workshop, will receive their choice of a set of royalty-free digital assets for use in creative works  ($125 value) 🤑.**
+**But wait, there’s more! Participants will become registered library patrons, have hands-on exposure to a selection of original artifacts, and following the workshop, will receive their choice of a set of royalty-free digital assets for use in creative works (\$125 value) 🤑.**
 
-PS. Immediately following this event, [join Rachel Orr in a hands-on workshop in the main atrium at Apple (downstairs)](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="_blank" rel="noopener"}, where she will be leading a live-collaging demonstration using artifacts from the Historical Society of Washington, D.C. 
+PS. Immediately following this event, [join Rachel Orr in a hands-on workshop in the main atrium at Apple (downstairs)](https://www.dcdesignweek.org/events/workshop-designlab-with-rachel-orr-carnegie-library-pt-2/){:target="\_blank" rel="noopener"}, where she will be leading a live-collaging demonstration using artifacts from the Historical Society of Washington, D.C.
 
 Please refrain from bringing any food or beverages to this event – sorry, no snacks in the library!

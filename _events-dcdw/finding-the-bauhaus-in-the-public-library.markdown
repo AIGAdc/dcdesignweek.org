@@ -5,9 +5,9 @@ description: Finding the Bauhaus in the Public Library is a new public program s
   celebrating the 100th anniversary of the German Bauhaus school (1919-1933) and the
   modernization of D.C.'s own landmark, the Martin Luther King Jr. Memorial Library.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-event-message: Featured!
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 17:30:00 -04:00
@@ -130,17 +130,18 @@ During this DC Design Week event, you’ll learn how a radical design school inf
 
 And if you walk away from this event wanting more, you can continue supporting the program series through exhibits, workshops, screenings and more at the Goethe-Institute, library locations, and other partner sites over the next year.
 
-This event is presented by the DC Public Library, Goethe-Institut, Gensler, AIA \| DC, AIGA, and additional partners. 
+This event is presented by the DC Public Library, Goethe-Institut, Gensler, AIA \| DC, AIGA, and additional partners.
 
 Please arrive 15 minutes prior to the start of the event! Tickets are not guaranteed, and if the event is full, we will begin distributing tickets to walk-ins at that time.
 
-**5:30–7:00 p.m: Opening Reception for the Exhibition: Designing and Redesigning MLK Library** The MLK Library is a local icon: the only library ever built by Bauhaus architect Mies van der Rohe, and his only building in the District. Learn why the Library was almost torn down, how it was saved, and the reasons for the changes to one of D.C.’s most debated buildings, reopening in fall 2020. 
+**5:30–7:00 p.m: Opening Reception for the Exhibition: Designing and Redesigning MLK Library** The MLK Library is a local icon: the only library ever built by Bauhaus architect Mies van der Rohe, and his only building in the District. Learn why the Library was almost torn down, how it was saved, and the reasons for the changes to one of D.C.’s most debated buildings, reopening in fall 2020.
 
 **7:00-8:30 p.m: Panel Discussion, Designing Utopia? Learning from the Bauhaus Experiment**
 The Bauhaus (1919-1933) was a German art school that imagined a better world and launched some of the greatest architects, designers and artists of the 20th century—including Mies van der Rohe, architect of D.C.’s own MLK Library. Yet the school’s social vision was eclipsed by World War II and the rise of a fascist regime. Today we see traces of Bauhaus design everywhere—but what became of its utopian ideals? Further, what new perspective does this history offer on present-day challenges of inequality and shrinking public space? Join us for a cross-cultural conversation with experts from the fields of art and design, architecture, and education about historical experiments and today’s realities in design for the public good.
 
 **Moderator:** Maryann James-Daley, Assistant Director of Public Services for the Martin Luther King Jr. Memorial Library at DC Public Library
 **Panelists:**
-* Mira Azarm, Innovation Instigator, UMD Academy for Innovation & Entrepreneurship
-* Hazel Edwards, Chair, Howard University Department of Architecture
-* Karen Koehler, Professor of Art History, Hampshire College
+
+-   Mira Azarm, Innovation Instigator, UMD Academy for Innovation & Entrepreneurship
+-   Hazel Edwards, Chair, Howard University Department of Architecture
+-   Karen Koehler, Professor of Art History, Hampshire College

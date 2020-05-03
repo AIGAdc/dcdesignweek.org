@@ -6,8 +6,8 @@ description: Take a private tour the Library of Congress’ Prints & Photographs
   Expo in the Library’s Comic Art Exhibit.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 08:15:00 -04:00
@@ -60,12 +60,12 @@ filter-location:
 
 Limited runs of comics and other works created by artists can easily be lost to time, a reality that led to Small Press Expo developing a collection that is now part of the Library of Congress. During this morning salon, DCDW attendees will join other artists, illustrators, and designers in a private exploration of the Library of Congress and its comic collection. The morning will begin in the Madison Building, where Curator of Popular and Applied Art Sara Duke will give attendees a tour of the Prints & Photographs Division. Next, attendees will take a short walk to the Jefferson Building for a private talk in the Comic Art Exhibit with Small Press Expo Executive Director Warren Bernard.
 
-**There is a $5 refundable charge to reserve your spot – you’ll get a refund when you show up and check in.**
+**There is a \$5 refundable charge to reserve your spot – you’ll get a refund when you show up and check in.**
 
 **Venue Accessibility (elevators, stairs, etc.):**
-[https://www.loc.gov/accessibility/](https://www.loc.gov/accessibility/){:target="_blank" rel="noopener"}
+[https://www.loc.gov/accessibility/](https://www.loc.gov/accessibility/){:target="\_blank" rel="noopener"}
 
-Important! Attendees to this event  will be required to pass through airport style security to enter the building, be sure to double check your bags for benign yet prohibited items, like bottle openers and Swiss army knives.
+Important! Attendees to this event will be required to pass through airport style security to enter the building, be sure to double check your bags for benign yet prohibited items, like bottle openers and Swiss army knives.
 
 **Transportation / Helpful Directions to Venue (metro stop, parking availability):**
 Closest Metro stop: Capitol South (Orange/Blue/Silver Lines) - Exit station using main exit, walk approximately two blocks north on First Street SE.

@@ -21,11 +21,11 @@ sponsors:
     and small businesses — and planned by a team of creatives from our community (see
     below!). Major thanks to the following partners and sponsors for your support
     and commitment to the DC design community.
-  sub-header-presenting: 2019 Presenting Sponsor
-  sub-body-presenting: |-
-    DC Design Week is proud to name Creative Circle this year's Presenting Sponsor!
-    As the largest creative staffing agency in the business, Creative Circle makes people into teams. They connect advertising, creative, marketing, and interactive professionals with top companies throughout the U.S. and Canada, partnering with you on the best fit so that you can make great things happen.
-  sub-header-contributing: 2019 Contributing Sponsors
+  sub-header: 2019 Sponsors
+  sub-body: This year, we’re making DCDW2019 an even bigger celebration of the entire
+    DC community — more events, in more places, featuring even more aspects of DC’s
+    curious and creative community. This celebration is only possible because of the
+    generous support from the following sponsors.
 partners:
 - header: Many thanks to
   body: 
@@ -41,8 +41,6 @@ layout: about
 
 ---
 
-The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals.
-
-In 2019, we were proud to receive official recognition from Mayor Bowser and the government of Washington, DC [when they proclaimed this week DC Design Week in the city.](/uploads/DC%20Design%20Week%2019.pdf)
+The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals. [Stay tuned in the coming weeks for the announcement of the full schedule of events!](#subscribe)
 
 Got a question or feedback? Drop us a line over [email](mailto:designweek@dc.aiga.org).

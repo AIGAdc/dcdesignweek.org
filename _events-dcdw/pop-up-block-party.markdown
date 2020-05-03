@@ -4,7 +4,7 @@ date: 2019-09-02 14:00:00 -04:00
 description: Come and celebrate your local DC design community at the Block Party,
   and get first dibs on the awesome goods for sale at the DCDW Pop-Up Shop!
 status:
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 19:00:00 -04:00

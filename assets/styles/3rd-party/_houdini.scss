@@ -21,7 +21,7 @@
    */
 }
 .houdini[tabindex="-1"]:focus {
-  outline: 0 !important;
+    outline: 0 !important;
 }
 .houdini.is-expanded {
     display: block;
@@ -41,5 +41,5 @@
     color: $black;
 }
 button.houdini-toggle {
-  outline: 0 !important;
+    outline: 0 !important;
 }

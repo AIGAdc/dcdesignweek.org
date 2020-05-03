@@ -3,20 +3,18 @@
         <h2>
             Details
         </h2>
-        <hr/>
+        <hr />
         <div class="grid grid__2-column">
             <div class="grid-item">
                 <h3>
                     Date & Time
                 </h3>
                 <p>
-                    <i class="fas fa-calendar-day">
-                    </i>
+                    <i class="fas fa-calendar-day"> </i>
                     {{ page.event.date | date: "%A, %B %d"}}
                 </p>
                 <p>
-                    <i class="fas fa-clock">
-                    </i>
+                    <i class="fas fa-clock"> </i>
                     {{ page.event.start-time }} - {{ page.event.end-time }}
                 </p>
             </div>
@@ -25,14 +23,17 @@
                     Venue
                 </h3>
                 <p>
-                    <i class="fas fa-map-marker-alt">
-                    </i>
+                    <i class="fas fa-map-marker-alt"> </i>
                     {% if page.venue.is-tbd == true %}
                     <a class="disabled">
                         {{ page.venue.name }}
                     </a>
                     {% else %}
-                    <a href="{{ page.venue.directions }}" rel="noopener" target="_blank">
+                    <a
+                        href="{{ page.venue.directions }}"
+                        rel="noopener"
+                        target="_blank"
+                    >
                         {{ page.venue.name }}
                     </a>
                     {% endif %}

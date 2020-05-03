@@ -6,8 +6,8 @@ description: Learn how Senior Product Designer Adriana Rivas approaches UX for S
   platform helps her reach out to her fans.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 18:30:00 -04:00
@@ -67,7 +67,8 @@ filter-location:
   is-dc: true
 ---
 
-From album covers to music videos to fashion, music has long been a force for setting trends, creating culture, and defining design. Spotify has led the digital age of the record industry, setting the tone for how we visually interact with music today. Come learn how Senior Product Designer Adriana Rivas fell into her role at Spotify for Artists and how UX design helps creators find and grow their audiences. Then hear a creator's perspective from Maryland-based artist Shalom Dubas on how she’s been able to use this tool to reach out to her fans. 
+From album covers to music videos to fashion, music has long been a force for setting trends, creating culture, and defining design. Spotify has led the digital age of the record industry, setting the tone for how we visually interact with music today. Come learn how Senior Product Designer Adriana Rivas fell into her role at Spotify for Artists and how UX design helps creators find and grow their audiences. Then hear a creator's perspective from Maryland-based artist Shalom Dubas on how she’s been able to use this tool to reach out to her fans.
 
 ## Event Partner: Women in Music
-Established in 2015, Women in Music DC is a chapter of WIM that is dedicated to fostering equality in the music industry through the support and advancement of women. Providing knowledge, strategy & solutions to our members and the greater community is our driving purpose. [Learn more here.](https://www.womeninmusic.org/wim-dc){:target="_blank" rel="noopener"}
+
+Established in 2015, Women in Music DC is a chapter of WIM that is dedicated to fostering equality in the music industry through the support and advancement of women. Providing knowledge, strategy & solutions to our members and the greater community is our driving purpose. [Learn more here.](https://www.womeninmusic.org/wim-dc){:target="\_blank" rel="noopener"}

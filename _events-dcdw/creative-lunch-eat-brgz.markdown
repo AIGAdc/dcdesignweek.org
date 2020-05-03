@@ -5,8 +5,8 @@ description: AIGA DC opens the doors to Eat Brgz in this series of creative lunc
   during DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 12:00:00 -04:00
@@ -41,4 +41,4 @@ The founders of Eat Brgz want their food to capture and celebrate the story of A
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
-Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 12:00pm. 
+Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 12:00pm.

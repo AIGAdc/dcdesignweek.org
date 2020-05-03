@@ -3,7 +3,11 @@
         <!-- filters -->
         <div class="events-filter__dates control-group" data-filter-group="">
             {% for control in site.data.agenda.filter-date %}
-            <button class="events-filter__date-button control {{ control.class }} {% if control.has-occurred == true %} events-filter__date-button--past-event {% endif %}" data-filter="{{ control.filter }}" type="button">
+            <button
+                class="events-filter__date-button control {{ control.class }} {% if control.has-occurred == true %} events-filter__date-button--past-event {% endif %}"
+                data-filter="{{ control.filter }}"
+                type="button"
+            >
                 <span class="control-text-1 font-size-4 script">
                     {{ control.text-1 }}
                 </span>
@@ -18,17 +22,30 @@
         </div>
         <div class="events-filter__additional-filters">
             <div class="events-filter__additional-header">
-                <span class="events-filter__additional-title font-size-6 font-weight-700 sans" data-houdini-toggle="additional-filters">
+                <span
+                    class="events-filter__additional-title font-size-6 font-weight-700 sans"
+                    data-houdini-toggle="additional-filters"
+                >
                     Additional Filters
                 </span>
                 <div class="events-filter__reset control-group">
-                    <button class="control control-text font-size-6 font-weight-700 sans" type="reset">
+                    <button
+                        class="control control-text font-size-6 font-weight-700 sans"
+                        type="reset"
+                    >
                         Reset
                     </button>
                 </div>
             </div>
-            <div class="events-filter__additional-content" data-houdini-group="additional-filters" id="additional-filters">
-                <div class="events-filter__status control-group grid grid__4-column" data-filter-group="">
+            <div
+                class="events-filter__additional-content"
+                data-houdini-group="additional-filters"
+                id="additional-filters"
+            >
+                <div
+                    class="events-filter__status control-group grid grid__4-column"
+                    data-filter-group=""
+                >
                     <div class="column">
                         <span class="font-weight-700 font-size-5">
                             Status
@@ -36,20 +53,32 @@
                         {% for control in site.data.agenda.filter-status %}
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value="{{ control.filter }}"
+                                />
                                 {{ control.text-1 }}
                             </label>
                         </div>
                         {% endfor %}
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value=".mix:not(.past-event)"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value=".mix:not(.past-event)"
+                                />
                                 Hide Past Events
                             </label>
                         </div>
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value=".mix:not(.sold-out)"
+                                />
                                 Hide Sold Out
                             </label>
                         </div>
@@ -61,7 +90,11 @@
                         {% for control in site.data.agenda.filter-time-of-day %}
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value="{{ control.filter }}"
+                                />
                                 {{ control.text-1 }}
                             </label>
                         </div>
@@ -74,7 +107,11 @@
                         {% for control in site.data.agenda.filter-event-type %}
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value="{{ control.filter }}"
+                                />
                                 {{ control.text-1 }}
                             </label>
                         </div>
@@ -87,7 +124,11 @@
                         {% for control in site.data.agenda.filter-location %}
                         <div class="radio">
                             <label class="radio-label font-size-6">
-                                <input name="additional-filters" type="radio" value="{{ control.filter }}"/>
+                                <input
+                                    name="additional-filters"
+                                    type="radio"
+                                    value="{{ control.filter }}"
+                                />
                                 {{ control.text-1 }}
                             </label>
                         </div>

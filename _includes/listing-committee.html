@@ -2,7 +2,7 @@
     <h2>
         {{ page.team-header }}
     </h2>
-    <hr/>
+    <hr />
     <ul class="listing__committee">
         {% for member in site.2019-team %}
         <li class="card card--committee">
@@ -10,7 +10,12 @@
                 <div class="diamond-image-border">
                     <div class="diamond">
                         <div class="diamond-los1">
-                            <img alt="{{ member.image-alt }}" class="lazyload blur-up" data-src="{{ member.image }}" src="{{ member.image }}"/>
+                            <img
+                                alt="{{ member.image-alt }}"
+                                class="lazyload blur-up"
+                                data-src="{{ member.image }}"
+                                src="{{ member.image }}"
+                            />
                         </div>
                     </div>
                 </div>
@@ -22,21 +27,26 @@
                 <p>
                     {{ member.role }}
                 </p>
-                <hr/>
+                <hr />
                 {% if member.linkedin-url %}
                 <p>
-                    <i class="fab fa-linkedin">
-                    </i>
-                    <a href="{{ member.linkedin-url }}" rel="noopener" target="_blank">
+                    <i class="fab fa-linkedin"> </i>
+                    <a
+                        href="{{ member.linkedin-url }}"
+                        rel="noopener"
+                        target="_blank"
+                    >
                         {{ member.linkedin-label }}
                     </a>
                 </p>
-                {% endif %}
-                {% if member.instagram-url %}
+                {% endif %} {% if member.instagram-url %}
                 <p>
-                    <i class="fab fa-instagram">
-                    </i>
-                    <a href="{{ member.instagram-url }}" rel="noopener" target="_blank">
+                    <i class="fab fa-instagram"> </i>
+                    <a
+                        href="{{ member.instagram-url }}"
+                        rel="noopener"
+                        target="_blank"
+                    >
                         {{ member.instagram-label }}
                     </a>
                 </p>

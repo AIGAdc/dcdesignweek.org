@@ -9,7 +9,7 @@ status:
   is-featured-on-events: true
   is-featured-on-home: true
   featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 20:00:00 -04:00
@@ -72,13 +72,13 @@ filter-location:
   is-dc: true
 ---
 
-Exchange tales of an action-packed design week over a crisp glass of cider as we close out DC Design Week 2019! Our final event of the week takes place at Capitol Cider House, and you won’t want to miss it! Join us Friday night for one-part drink-and-draw and one-part live-music show (featuring performances by local musicians)! 
+Exchange tales of an action-packed design week over a crisp glass of cider as we close out DC Design Week 2019! Our final event of the week takes place at Capitol Cider House, and you won’t want to miss it! Join us Friday night for one-part drink-and-draw and one-part live-music show (featuring performances by local musicians)!
 
-Drink locally-made cider and sketch in your notebooks while we meet the creative team behind the cidery’s branding and website. Come early and stay til we’re tapped out! There will be drinks and food available for purchase. 
+Drink locally-made cider and sketch in your notebooks while we meet the creative team behind the cidery’s branding and website. Come early and stay til we’re tapped out! There will be drinks and food available for purchase.
 
 This event is open to all skill levels whether you draw regularly, professionally, or just make the occasional doodle. We’ll provide plenty of drawing materials and custom DC Design Week coloring pages (if you don’t know coloring books are for adults too by now, we can’t help you). Plan to bring your own sketchbook and preferred drawing tools if you’re a pro or digital doodler! More into the drinking than the drawing side of this equation? All are welcome to join for the music, food and general good vibes!
 
-Make sure to RSVP early – space is limited and tickets will be $20 at the door (until we sell out)! 
+Make sure to RSVP early – space is limited and tickets will be \$20 at the door (until we sell out)!
 
 **Venue Accessibility:** On street level
 

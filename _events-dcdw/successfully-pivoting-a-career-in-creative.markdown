@@ -6,8 +6,8 @@ description: Whether you've hit a wall in your career or just want to develop mo
   pivoted their careers.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 18:30:00 -04:00
@@ -85,12 +85,13 @@ filter-location:
   is-dc: true
 ---
 
-As creative professionals, we’re always looking for ways to grow and build our skillset to evolve with industry challenges and needs. But even still, sometimes we just feel...stuck. 
+As creative professionals, we’re always looking for ways to grow and build our skillset to evolve with industry challenges and needs. But even still, sometimes we just feel...stuck.
 
 If you feel like you’ve hit a wall with your career, need to make a change or are simply wondering how best you can adapt in your current role, look no further. In this two-part event, a panel of DC-based design professionals will share how they successfully pivoted their careers, diving into touch on topics such as:
-* Evolving with technology by acquiring new skills
-* Reinventing and changing your career path
-* Things to consider when making your next move
+
+-   Evolving with technology by acquiring new skills
+-   Reinventing and changing your career path
+-   Things to consider when making your next move
 
 The event will begin with a panel of experts (Jess Ray, Associate Creative Director at Deloitte Digital; Jessica Pavone, Product Designer at Upside Travel; Erin Lange, Senior Design Manager for Impactual; Kyle Overton, UX Designer at Capital One; and moderated Bailey O’Connell Senior Recruiter with Creative Circle) followed by two sessions of round-table discussions where you can have small group discussions with the speakers.
 

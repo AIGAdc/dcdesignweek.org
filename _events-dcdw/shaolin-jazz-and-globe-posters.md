@@ -7,11 +7,11 @@ description: Join AIGA DC & DC Design Week as we celebrate the start of DC Desig
   Press at MICA at Big Chief in Ivy City!
 status:
   is-coming-soon: false
-  sold-out-message: Sold Out!
+  sold-out-message: Sold Out — This Event Sold Out
   is-featured-on-events: true
-  is-featured-on-home: false
+  is-featured-on-home: true
   featured-event-message: 'Wowza! Check it! This is rad! '
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-20 18:00:00 -04:00
@@ -78,22 +78,22 @@ Join us, the Globe Collection and Press at MICA, and Shaolin Jazz to celebrate t
 
 The evening will start with a talk on DC’s musical history alongside a presentation from the Globe Collection and Press at MICA on creative heritage. But, of course, it wouldn’t be a DCDW party without crafts and swag! As the night goes on, attendees will get to try their hands at spray stencilling and making their own coasters, and be the first to choose from tons of DC Design Week swag and merch. All under the backdrop of great local music. Seriously, can you think of a better way to start your weekend?
 
-* 6:00 pm: Doors open & registration
-* 6:30 pm: Allison Fisher and Marcus Dowling: Globe Posters and the DC music scene
-* 7:15 pm: Shaolin Jazz & DJ RBI
+-   6:00 pm: Doors open & registration
+-   6:30 pm: Allison Fisher and Marcus Dowling: Globe Posters and the DC music scene
+-   7:15 pm: Shaolin Jazz & DJ RBI
 
-RSVP in advance & save! Tickets will be available at the door for $20 until it sells out. **Note: This event is 18+ only.**
+RSVP in advance & save! Tickets will be available at the door for \$20 until it sells out. **Note: This event is 18+ only.**
 
+### Exhibit of [Globe posters](http://www.globeatmica.com){:target="\_blank" rel="noopener"}
 
-### Exhibit of [Globe posters](http://www.globeatmica.com){:target="_blank" rel="noopener"}
 ---
 
-Founded in 1929 in Baltimore, Maryland, Globe Poster delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research. 
+Founded in 1929 in Baltimore, Maryland, Globe Poster delivered eye-catching posters to promote concerts, Go-Go shows, drag races, circuses, carnivals and more. Fluorescent colors, bold wood type, and lettering that shook and shimmied defined Globe’s iconic style, attracting clients from James Brown and Marvin Gaye to Ike and Tina Turner. Globe ceased production in 2010, and the Maryland Institute College of Art (MICA) stepped forward to purchase a substantial portion of Globe, including wood type, letterpress cuts and posters. The acquisition by MICA keeps Globe’s legacy alive as a working press, a teaching tool, and source for research.
 
-Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/){:target="_blank" rel="noopener"} / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica){:target="_blank" rel="noopener"}
+Social Media: <i class="fab fa-instagram"></i> [@globeatmica](https://www.instagram.com/globeatmica/){:target="\_blank" rel="noopener"} / <i class="fab fa-twitter"></i> [@globeatmica](https://twitter.com/globeatmica){:target="\_blank" rel="noopener"}
 
-**Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com){:target="_blank" rel="noopener"} with [DJ RBI](https://www.facebook.com/RonBrown.aka.DJ.RBI){:target="_blank" rel="noopener"}, founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
+**Music by and live stenciling by** [Shaolin Jazz](http://www.shaolinjazz.com){:target="\_blank" rel="noopener"} with [DJ RBI](https://www.facebook.com/RonBrown.aka.DJ.RBI){:target="\_blank" rel="noopener"}, founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
-The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappellas from legendary rap group Wu-Tang Clan.  And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
+The content ranges from conceptually driven artwork to their highly notable mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with the a cappellas from legendary rap group Wu-Tang Clan. And the events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures, where the parallels between hip-hop culture and jazz culture are discussed.
 
-Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/){:target="_blank" rel="noopener"}
+Social Media: <i class="fab fa-instagram"></i> [@shaolinjazz](https://www.instagram.com/shaolinjazz/){:target="\_blank" rel="noopener"}

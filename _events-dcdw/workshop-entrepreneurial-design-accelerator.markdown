@@ -6,8 +6,8 @@ description: Calling all entrepreneurs with projects that help underserved commu
   how to make it a reality.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out  —  Applications Closed
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 08:00:00 -04:00
@@ -50,7 +50,8 @@ You’ve put your nights, weekends, sweat, and tears into a passion project that
 
 Bring your in-progress projects to the Entrepreneurial Design Accelerator, where Elite Truong, deputy editor of strategic initiatives at The Washington Post, will help you clarify the intended audience and business purpose of your idea, give feedback on usability, and provide advice on how to move forward with your idea in the market. All this in 90-minutes — what better way to start your day?
 
-**YOU MUST APPLY TO BE A PART OF THIS WORKSHOP.** Applications will be reviewed on a rolling basis. If you are selected, a ticket for $15 will be released to you at the email address you provide. You will have 24 hours to claim your ticket before it is released to the next applicant. Spots are limited! Accepted participants will be notified no later than September 20th. 
+**YOU MUST APPLY TO BE A PART OF THIS WORKSHOP.** Applications will be reviewed on a rolling basis. If you are selected, a ticket for \$15 will be released to you at the email address you provide. You will have 24 hours to claim your ticket before it is released to the next applicant. Spots are limited! Accepted participants will be notified no later than September 20th.
 
 ## Venue Sponsor: Mindspace
+
 Mindspace is a global-boutique coworking provider. At Mindspace, we get people excited about coming to work so your business can thrive. Member companies see better employee engagement and satisfaction, drive higher productivity and innovation, attract and retain the best talent, and have the peace of mind to focus on their business. [Learn more here.](https://www.mindspace.me/dc-k-street/)

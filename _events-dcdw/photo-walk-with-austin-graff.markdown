@@ -7,7 +7,7 @@ status:
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: COME SNAP AWESOME PICS WITH US
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 07:00:00 -04:00
@@ -60,13 +60,12 @@ filter-location:
   is-dc: true
 ---
 
-Take a break from your screen and start your day with a dose of DC inspiration on this morning exploration of the North Capitol neighborhood. 
+Take a break from your screen and start your day with a dose of DC inspiration on this morning exploration of the North Capitol neighborhood.
 
 For this photogenic event, Austin Graff and Steven Cummings, will take attendees on a creative tour of the North Capitol area. Along the guided walk will be multiple discovery points, where they will pause to explain the cultural relevance and history of the neighborhood, including murals, statues and architectural features that have made North Capitol a unique fixture in DC. Bring your camera (or camera phone) to capture each stop of the tour!
 
 We will be leaving promptly at 7:05am. Please aim to arrive between 6:45 - 7am, to make sure you don’t miss the departure time! If you're a coffee-drinker, arrive early and stop by Cantina Republic – they will be opening early at 6:45am for us! **We'll leave promptly at 7:05.**
 
-The walk will be held at a conversational pace, allowing plenty of time to stop and see the sights along the way, and appreciate a beautiful fall morning. Space is limited for this walk – so be sure to reserve your space! You will be reimbursed IN FULL for your deposit, when you show up in the morning. 
+The walk will be held at a conversational pace, allowing plenty of time to stop and see the sights along the way, and appreciate a beautiful fall morning. Space is limited for this walk – so be sure to reserve your space! You will be reimbursed IN FULL for your deposit, when you show up in the morning.
 
 This is event is pet-friendly. If you don’t have to get to work right away, stick around and join us after the walk for a short coffee mixer at Republic Cantina.
-

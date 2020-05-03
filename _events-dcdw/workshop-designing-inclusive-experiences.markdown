@@ -6,8 +6,8 @@ description: Learn how to start designing inclusive experiences in this human-ce
   Capital One.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out  —  Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 10:30:00 -04:00
@@ -132,10 +132,10 @@ filter-location:
 ---
 
 Novice and expert designers are invited to participate in this not-so-ordinary human-centered design workshop with a focus on designing inclusive experiences. Workshop participants will be encouraged to bring their personal perspectives to embrace a growth mindset when applying design thinking to their daily lives and work.
- 
-During this hands-on event, you’ll get to work with small-group activities, ethnographic observation, synthesis and insights generation, and principles of inclusion to solve unique design challenges. Once you’re finished, you can expect to leave this workshop having designed experiences that matter for people living in and around the DC area. 
 
-This workshop is co-presented by designers from Capital One’s One Design organization and [blackcomputeHER.org](https://blackcomputeher.org/){:target="_blank" rel="noopener"}. Drinks and light refreshments during the workshop.
+During this hands-on event, you’ll get to work with small-group activities, ethnographic observation, synthesis and insights generation, and principles of inclusion to solve unique design challenges. Once you’re finished, you can expect to leave this workshop having designed experiences that matter for people living in and around the DC area.
+
+This workshop is co-presented by designers from Capital One’s One Design organization and [blackcomputeHER.org](https://blackcomputeher.org/){:target="\_blank" rel="noopener"}. Drinks and light refreshments during the workshop.
 
 **Transportation / Helpful Directions:**
 

@@ -32,13 +32,11 @@ defaults:
       is-coming-soon: Select true if the event is coming soon.
       coming-soon-message: Coming Soon!
       is-sold-out: Select true if the event is sold out.
-      sold-out-message: Sold Out!
+      sold-out-message: Sold Out — This Event Sold Out
       is-featured-on-events: Select True if event should be featured on the events
         page.
       is-featured-on-home: Select True if event should be featured on the home page.
       featured-event-message: Featured!
-      has-occurred: 
-      has-occurred-message: 
     event:
       date: Select date of the event.
       image: Provide the image that will be used in the event card and event header.
@@ -70,8 +68,8 @@ defaults:
     - name: Provide Speaker name.
       title: Provide Speaker title.
       bio: Provide Speaker bio.
-      website-label: 
-      website-url: 
+      website-label: Provide label that will appear instead of URL
+      website-url: Provide Speaker website.
     filter-date:
       is-day-1: Select True if event occurs on day 1.
       is-day-2: Select True if event occurs on day 2.
@@ -93,7 +91,6 @@ defaults:
       is-creative-lunch: Select True if event matches type
       is-wellness: Select True if event matches type
       is-workshop: Select True if event matches type
-      has-occurred: Select True if event has already happened
     filter-location:
       is-dc: Select True if event is located in DC.
       is-md: Select True if event is located in MD.
@@ -112,8 +109,6 @@ defaults:
       venue-address: Displays the address of the venues.
       start-time: Displays the start time of the event.
       end-time: Displays the end time of the event.
-      has-occurred: Select True if event has already happened.
-      has-occurred-message: 
     speakers:
       headshot-image: Displays the speakers portait.
       url: Provide a url to the speakers website.

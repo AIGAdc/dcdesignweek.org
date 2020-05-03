@@ -6,8 +6,10 @@ description: 'Join Antionette Carroll to learn how designers have a responsibili
 status:
   is-featured-on-events: true
   is-featured-on-home: true
+  is-sold-out: true
+  sold-out-message: Sold Out — This Event Sold Out
   featured-event-message: " JUST ADDED — DON'T MISS OUT! "
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 17:00:00 -04:00
@@ -65,9 +67,9 @@ filter-location:
   is-dc: true
 ---
 
-As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of [Creative Reaction Lab](http://www.creativereactionlab.com/), to learn how designers can harness their power to help break down high level constructs like systems of oppression, inequality, and inequity. 
+As distributors of information, ideas, and innovation, designers have a responsibility to use their influence to lead others toward a path that builds equity. Join Antionette Carroll, of [Creative Reaction Lab](http://www.creativereactionlab.com/), to learn how designers can harness their power to help break down high level constructs like systems of oppression, inequality, and inequity.
 
-In this talk, Antionette will challenge the design industry to look past tangible (and biased) design, and to value a future forward approach of leadership: one that rethinks the roles of identity, power, and equity. 
+In this talk, Antionette will challenge the design industry to look past tangible (and biased) design, and to value a future forward approach of leadership: one that rethinks the roles of identity, power, and equity.
 
 Full disclosure: if you’re of the pro-“design thinking” movement, this talk may challenge you! But if there's anything Washingtonians can handle, it's a healthy debate.
 

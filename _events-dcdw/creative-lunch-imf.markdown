@@ -5,8 +5,8 @@ description: AIGA DC opens the doors to IMF in this series of creative lunches d
   DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 12:00:00 -04:00
@@ -36,7 +36,7 @@ filter-location:
   is-dc: true
 ---
 
-[The International Monetary Fund ](https://www.imf.org){:target="_blank" rel="noopener"} is an organization of 189 countries, working to foster global monetary cooperation, facilitate international trade, and reduce poverty around the world. Join us to learn how their creative team is helping them reach their goals, communicating complex information, and dealing with what comes along with working for an international institution.
+[The International Monetary Fund ](https://www.imf.org){:target="\_blank" rel="noopener"} is an organization of 189 countries, working to foster global monetary cooperation, facilitate international trade, and reduce poverty around the world. Join us to learn how their creative team is helping them reach their goals, communicating complex information, and dealing with what comes along with working for an international institution.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 

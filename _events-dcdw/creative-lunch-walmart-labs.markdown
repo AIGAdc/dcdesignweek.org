@@ -5,8 +5,8 @@ description: AIGA DC opens the doors to Walmart Labs in this series of creative 
   during DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: " Event Passed — Event Passed "
 event:
   date: 2019-09-27 12:00:00 -04:00
@@ -35,7 +35,7 @@ filter-location:
   is-va: true
 ---
 
-The [Walmart Labs](https://www.walmartlabs.com/){:target="_blank" rel="noopener"} design team creates end-to-end experiences for the world’s largest company. Their users are both customers and Walmart associates, and they work together in an effort to create seamless products for everyone. Attendees can expect to learn more about designing products at the scope required by Walmart and about how to elevate tech retail to the next level. Walmart Labs will walk through a few of their projects in order to share some insights into designing at scale.
+The [Walmart Labs](https://www.walmartlabs.com/){:target="\_blank" rel="noopener"} design team creates end-to-end experiences for the world’s largest company. Their users are both customers and Walmart associates, and they work together in an effort to create seamless products for everyone. Attendees can expect to learn more about designing products at the scope required by Walmart and about how to elevate tech retail to the next level. Walmart Labs will walk through a few of their projects in order to share some insights into designing at scale.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 

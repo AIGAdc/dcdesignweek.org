@@ -6,8 +6,8 @@ description: For this event, DC-based animation studio The Duke and the Duck wil
   tailored to designers.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 18:30:00 -04:00
@@ -52,30 +52,33 @@ filter-location:
 If you’re a motion designer, expressions can feel daunting. However, expressions are some of the most powerful tools you can use in After Effects, with the benefit of giving you better control of your motion, as well as speeding up your process.
 
 This workshop is tailored to motion designers who already use After Effects and want to learn the basics of expressions and how they can incorporate these tools into their work flows. The following topics will be covered:
-* What is an expression
-* When to use expressions
-* When NOT to use expressions
-* The foundation of an expression
-* Creating a simple expression
-* Expression control effects
-* Demo and breakdown of an expression used in production
-* Learning Master Properties
 
-Participants will be required to bring a laptop with Adobe After Effects already installed.  
+-   What is an expression
+-   When to use expressions
+-   When NOT to use expressions
+-   The foundation of an expression
+-   Creating a simple expression
+-   Expression control effects
+-   Demo and breakdown of an expression used in production
+-   Learning Master Properties
 
-Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. [Check out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/){:target="_blank" rel="noopener"} led by Hannah Churn, which will take place the same night.
+Participants will be required to bring a laptop with Adobe After Effects already installed.
+
+Does this event sound interesting to you, but perhaps too advanced? We’ve got you covered. [Check out the Intro to Motion Graphics Workshop](https://www.dcdesignweek.org/events/workshop-intro-to-animation-for-designers/){:target="\_blank" rel="noopener"} led by Hannah Churn, which will take place the same night.
 
 **Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at dc@ga.co.
 
 **Parking** There are a few parking lots around GA DC’s new location:
-* Atlantic Parking: - 450 8th St NW, Washington, DC 20004
-* Atlantic Parking #140: 901 E St NW, Washington, DC 20004
-(Daily: $19; Evening: $10)
-* Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
-* Lazparking: 600 E St NW, Washington, DC 20004
-* [SpotHero](spothero.com){:target="_blank" rel="noopener"}: Reserve a space in advance
+
+-   Atlantic Parking: - 450 8th St NW, Washington, DC 20004
+-   Atlantic Parking #140: 901 E St NW, Washington, DC 20004
+    (Daily: $19; Evening: $10)
+-   Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
+-   Lazparking: 600 E St NW, Washington, DC 20004
+-   [SpotHero](spothero.com){:target="\_blank" rel="noopener"}: Reserve a space in advance
 
 **Metro/WMATA** GA DC is accessible from the following Metro Stations: Gallery Place/Chinatown and Metro Center.
 
 ## Event Partner: The Duke and the Duck
-Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="_blank" rel="noopener"}
+
+Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="\_blank" rel="noopener"}

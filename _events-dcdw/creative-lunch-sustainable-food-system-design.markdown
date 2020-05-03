@@ -6,8 +6,8 @@ description: AIGA DC discusses sustainable systems design in this series of crea
 status:
   coming-soon-message: " "
   is-sold-out: true
-  sold-out-message: " Sold Out — Join the Waitlist! "
-  has-occurred: true
+  sold-out-message: " Sold Out — This Event Sold Out "
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-26 11:30:00 -04:00
@@ -37,15 +37,16 @@ filter-location:
   is-md: true
 ---
 
-Join us at Busboys & Poets for lunch and a healthy discussion around sustainable food systems design! 
+Join us at Busboys & Poets for lunch and a healthy discussion around sustainable food systems design!
 
 Four local experts in the space — Kristof Grina from Uptop Acres, Max Johansen from Busboys and Poets, Kate Urbank of Food Rescue US, and Jeffrey Neal from Loop Closing — will lead a conversation covering:
-* How to collaborate with others in our area to create a more sustainable food system.
-* The benefits of urban gardening. 
-* Logistics to running sustainable food businesses & cafes.
-* Introduction to composting in DMV.
 
-We’ll discuss the many components of creating sustainable food systems in the DMV and invite participants to join in the conversation over lunch. 
+-   How to collaborate with others in our area to create a more sustainable food system.
+-   The benefits of urban gardening.
+-   Logistics to running sustainable food businesses & cafes.
+-   Introduction to composting in DMV.
+
+We’ll discuss the many components of creating sustainable food systems in the DMV and invite participants to join in the conversation over lunch.
 
 Lunch from Busboys & Poets is included, including Vegan and Gluten-Free options (served buffet style). Additional food and beverages will be available for purchase from their lunch menu.
 
@@ -53,4 +54,4 @@ Creative lunches are intimate gatherings that provide guests the opportunity to 
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:30am.
 
-We cannot accommodate specific dietary restrictions or meal requests for this event; however, attendees may order alternative items from the full Lunch Menu, if preferred. We encourage attendees who wish to order a unique meal to arrive at least 15 minutes early. 
+We cannot accommodate specific dietary restrictions or meal requests for this event; however, attendees may order alternative items from the full Lunch Menu, if preferred. We encourage attendees who wish to order a unique meal to arrive at least 15 minutes early.

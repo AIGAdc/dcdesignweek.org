@@ -7,8 +7,8 @@ description: Join the Volkswagen Group of America’s Digital UX team to learn h
   in their new electric car via an app or the web.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 11:00:00 -04:00
@@ -40,7 +40,7 @@ filter-location:
 [Volkswagen Group of America, Inc.](http://www.volkswagengroupofamerica.com/about) is a wholly owned subsidiary of Volkswagen AG, one of the world’s leading automobile manufacturers and the largest carmaker in Europe. It operates a manufacturing plant in Chattanooga, Tennessee and houses the U.S. operations of a worldwide family of distinguished and exciting brands including Audi, Bentley, Bugatti, Lamborghini, and Volkswagen, as well as VW Credit, Inc. Come join the Volkswagen Group of America’s Digital UX team and learn how a culture of user-centric design and innovation helps transform digital experiences from the world’s largest car manufacturer.
 
 Parking is provided in the covered lot adjacent to the ManTech building.
- 
+
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 
 Please plan to arrive 10 minutes early to allow time for registration and grabbing lunch. The presentation will begin promptly at 11:00am.

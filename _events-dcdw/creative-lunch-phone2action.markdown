@@ -5,8 +5,8 @@ description: AIGA DC opens the doors to Phone2Action in this series of creative 
   during DC Design Week.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 13:00:00 -04:00
@@ -36,7 +36,7 @@ filter-location:
   is-va: true
 ---
 
-[Phone2Action](https://phone2action.com){:target="_blank" rel="noopener"} is a comprehensive digital engagement and communications platform for grassroots advocacy, public affairs, and government relations. Their design team works across many departments, with marketing projects including print materials, digital assets, and video. Their product design team focuses on the visual design, UX, and interactions of products and features. Join both of Phone2Action’s creative teams to learn how their teams develop products and integrate them with their branding. 
+[Phone2Action](https://phone2action.com){:target="\_blank" rel="noopener"} is a comprehensive digital engagement and communications platform for grassroots advocacy, public affairs, and government relations. Their design team works across many departments, with marketing projects including print materials, digital assets, and video. Their product design team focuses on the visual design, UX, and interactions of products and features. Join both of Phone2Action’s creative teams to learn how their teams develop products and integrate them with their branding.
 
 Creative lunches are intimate gatherings that provide guests the opportunity to get a behind-the-scenes look at some of the most exciting studios and spaces across the DMV. Expect to leave feeling inspired and full (lunch will be provided)!
 

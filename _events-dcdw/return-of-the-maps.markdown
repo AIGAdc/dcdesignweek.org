@@ -6,8 +6,8 @@ description: A series of lightning talks that will cover modern and traditional 
   Effects.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: " EVENT PASSED! — EVENT PASSED! "
 event:
   date: 2019-09-25 18:00:00 -04:00
@@ -98,12 +98,13 @@ filter-location:
   is-dc: true
 ---
 
-How are designers using design thinking to inform modern map making? How can workflow integrations with tools like Figma, Framer, and After Effects modernize traditional mapmaking? Join us for a series of 5 to 10 minute lightning talks that will explore some of the challenges and design decisions behind building and designing  location based experiences.
+How are designers using design thinking to inform modern map making? How can workflow integrations with tools like Figma, Framer, and After Effects modernize traditional mapmaking? Join us for a series of 5 to 10 minute lightning talks that will explore some of the challenges and design decisions behind building and designing location based experiences.
 
 Attendees will hear about:
-* Product and map design within larger design tools and systems like Figma and Framer from Amy Lee Walton of Mapbox and David Wicks of Solutions Architect and Mapbox
-* Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
-* Map design and data visualizations from Lauren Tierney of The Washington Post
-* Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
+
+-   Product and map design within larger design tools and systems like Figma and Framer from Amy Lee Walton of Mapbox and David Wicks of Solutions Architect and Mapbox
+-   Narrative storytelling with maps for emotion and context from Paul Franz of The Center for Strategic and International Studies
+-   Map design and data visualizations from Lauren Tierney of The Washington Post
+-   Engineering and map design from Dana Sulit and Alex Parlato of Mapbox
 
 Light refreshments and drinks will be provided.

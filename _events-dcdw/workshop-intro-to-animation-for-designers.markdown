@@ -5,8 +5,8 @@ description: Join us as DC-based animation studio The Duke and the Duck lead a w
   teaching introductory Adobe After Effects for designers.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out  —  Join the Waitlist
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-24 18:30:00 -04:00
@@ -60,30 +60,33 @@ From the UI on your favorite app to the introduction titles at the latest confer
 
 Whether you’re a designer who wants to add a new skill set, or the mere thought of opening After Effects terrifies you, this event will provide the foundation you need to start animating your ideas to life.
 
-Led by two motion graphics artists, this hands-on workshop include the following topics: 
-* The 12 principles of motion
-* Ideal software for motion graphics
-* Transitioning from design to motion
-* Pricing & pitch processes
-* Frame-by-frame techniques
-* Resources for further learning
-* A full-length behind the scenes demo of DCDW animated assets
+Led by two motion graphics artists, this hands-on workshop include the following topics:
 
-*Participants will be required to bring a laptop with Adobe After Effects already installed.* 
+-   The 12 principles of motion
+-   Ideal software for motion graphics
+-   Transitioning from design to motion
+-   Pricing & pitch processes
+-   Frame-by-frame techniques
+-   Resources for further learning
+-   A full-length behind the scenes demo of DCDW animated assets
 
-Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. [Check out the Expressions Workshop led by David Arbour, which will take place the same night.](https://www.dcdesignweek.org/events/workshop-expressions-in-after-effects-for-designers/){:target="_blank" rel="noopener"} 
+_Participants will be required to bring a laptop with Adobe After Effects already installed._
+
+Does this event sound interesting to you, but perhaps too entry-level? We’ve got you covered. [Check out the Expressions Workshop led by David Arbour, which will take place the same night.](https://www.dcdesignweek.org/events/workshop-expressions-in-after-effects-for-designers/){:target="\_blank" rel="noopener"}
 
 **Venue Accessibility (elevators, stairs, etc.):** If attendees have any questions, they can contact General Assembly at [dc@ga.co](mailto:dc@ga.co).
 
 **Parking** There are a few parking lots around GA DC’s new location:
-* Atlantic Parking: - 450 8th St NW, Washington, DC 20004
-* Atlantic Parking #140: 901 E St NW, Washington, DC 20004
-(Daily: $19; Evening: $10)
-* Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
-* Lazparking: 600 E St NW, Washington, DC 20004
-* [SpotHero](https://spothero.com){:target="_blank" rel="noopener"}: Reserve a space in advance
+
+-   Atlantic Parking: - 450 8th St NW, Washington, DC 20004
+-   Atlantic Parking #140: 901 E St NW, Washington, DC 20004
+    (Daily: $19; Evening: $10)
+-   Terrell Place Parking Lot: 601 E St NW, Washington, DC 20004
+-   Lazparking: 600 E St NW, Washington, DC 20004
+-   [SpotHero](https://spothero.com){:target="\_blank" rel="noopener"}: Reserve a space in advance
 
 **Metro/WMATA** GA DC is accessible from the following Metro Stations: Gallery Place/Chinatown and Metro Center.
 
 ## Event Partner: The Duke and the Duck
-Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="_blank" rel="noopener"}
+
+Founded in November of 2009, The Duke and the Duck has always been about one thing: telling good stories. Whether for education, entertainment, or inspiration, stories are at the core of our humanity. Our name deliberately evokes this age-old obsession with stories by sounding like a fable, The Duke & the Duck, but without coming with the baggage of an already existing tale. [Learn more here.](https://www.dukeduck.com){:target="\_blank" rel="noopener"}

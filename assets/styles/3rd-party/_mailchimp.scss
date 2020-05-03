@@ -20,7 +20,8 @@
 #mc_embed_signup .asterisk {
     color: $hot-pink !important;
 }
-#mc_embed_signup .asterisk, #mc_embed_signup .indicates-required {
+#mc_embed_signup .asterisk,
+#mc_embed_signup .indicates-required {
     font-size: $font-size-14 !important;
 }
 #mc_embed_signup .clear {
@@ -38,14 +39,15 @@
     color: $white !important;
     font-weight: bold !important;
 }
-#mc_embed_signup #mce-error-response, #mc_embed_signup #mce-success-response {
+#mc_embed_signup #mce-error-response,
+#mc_embed_signup #mce-success-response {
     color: $white !important;
     display: block;
 }
 #mc_embed_signup #num-subscribers span {
-    padding: .5em !important;
+    padding: 0.5em !important;
     border: 1px solid #ccc !important;
-    margin-right: .5em !important;
+    margin-right: 0.5em !important;
     font-weight: bold !important;
 }
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
@@ -78,8 +80,8 @@
 }
 .mailchimp-button input {
     font-size: $font-size-20;
-   padding: 0 $spacing-8;
-   margin-top: $spacing-40;
+    padding: 0 $spacing-8;
+    margin-top: $spacing-40;
 }
 @media screen and (min-width: 639px) {
     #mc_embed_signup input.button {

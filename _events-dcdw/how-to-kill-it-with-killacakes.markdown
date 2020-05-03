@@ -6,8 +6,8 @@ description: 'Join us for an evening for killer inspiration! The badass baker be
   to creative cakes business owner. '
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist!
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-23 19:00:00 -04:00
@@ -56,6 +56,6 @@ filter-location:
 Join us for an evening for killer inspiration! The badass baker behind Killa Cakes, Bria Taylor, will shine light on her journey from graphic designer to creative cakes business owner. Killa Cakes was born out of a desire to merge her passion for food and baking with her learned profession of graphic design — and became an artistic exploration of awesomeness. After a year in the game, Bria has turned her cake passion into a full time job. She continues to surprise us with her amazing flavors and cake designs, but it is her perseverance as a young entrepreneur that we truly admire! (Seriously. She’s only 25, y’all!)
 
 **How to find the venue:**
-Studio A is on Queen Street between Route 1 south (Henry Street) and Route 1 north (Patrick Street). We are 7 blocks from the Braddock Street and King Street metro stops (Blue and Yellow lines). There is free on street parking. We are in a bright yellow building on the north side of the street. 
+Studio A is on Queen Street between Route 1 south (Henry Street) and Route 1 north (Patrick Street). We are 7 blocks from the Braddock Street and King Street metro stops (Blue and Yellow lines). There is free on street parking. We are in a bright yellow building on the north side of the street.
 
 **Please Note:** While we’ve worked to ensure accessibility across all our events during DCDW, this space is not accessible for everyone. Studio A requires the use of stairs to enter, and there is no elevator access. Please make sure you are able to walk up a flight of stairs if you plan to attend this event. We apologize for any inconvenience.

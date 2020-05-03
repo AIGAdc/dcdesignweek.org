@@ -7,8 +7,8 @@ description: Join us at the Apple Carnegie Library for this FREE event made open
   Apple Pencil.
 status:
   is-sold-out: true
-  sold-out-message: Sold Out — Sold Out — Sold Out
-  has-occurred: true
+  sold-out-message: Sold Out — This Event Sold Out
+  has-occurred: false
   has-occurred-message: Event Passed — Event Passed
 event:
   date: 2019-09-22 14:30:00 -04:00
@@ -46,8 +46,8 @@ filter-location:
   is-dc: true
 ---
 
-[Following Part 1](https://www.dcdesignweek.org/events/designing-with-archival-images-carnegie-library-part-1/){:target="_blank" rel="noopener"} of a 2-part series, join us for this FREE event at the main stage of the Apple Carnegie Library. Leading this interactive workshop will be graphic designer Rachel Orr, who will guide attendees through her approach to collage art  using historical assets from the Historical Society of Washington, D.C. 
+[Following Part 1](https://www.dcdesignweek.org/events/designing-with-archival-images-carnegie-library-part-1/){:target="\_blank" rel="noopener"} of a 2-part series, join us for this FREE event at the main stage of the Apple Carnegie Library. Leading this interactive workshop will be graphic designer Rachel Orr, who will guide attendees through her approach to collage art using historical assets from the Historical Society of Washington, D.C.
 
 Sharing her involvement with #The100DayProject and giving attendees a look into how it inspired her creative process, you’ll then get hands-on with an iPad and Apple Pencil to experiment using layers of images, creating a colorful collage of your own!
 
-Note: You don’t need to attend [Part 1](https://www.dcdesignweek.org/events/designing-with-archival-images-carnegie-library-part-1/){:target="_blank" rel="noopener"} to join the fun of Part 2. But, if you’d like to learn more about the Historical Society of Washington, D.C. and come to the Rachel Orr event with an entire set of royalty-free digital assets for your own personal use, be sure to sign up for Part 1 here. 
+Note: You don’t need to attend [Part 1](https://www.dcdesignweek.org/events/designing-with-archival-images-carnegie-library-part-1/){:target="\_blank" rel="noopener"} to join the fun of Part 2. But, if you’d like to learn more about the Historical Society of Washington, D.C. and come to the Rachel Orr event with an entire set of royalty-free digital assets for your own personal use, be sure to sign up for Part 1 here.

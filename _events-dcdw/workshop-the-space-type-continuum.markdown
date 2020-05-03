@@ -9,11 +9,11 @@ description: 'Bring your typography to life with designer and MICA educator Kiel
 status:
   is-coming-soon: false
   is-sold-out: true
-  sold-out-message: Sold Out — Join the Waitlist
+  sold-out-message: Sold Out — This Event Sold Out
   is-featured-on-events: true
   is-featured-on-home: false
   featured-event-message: 'Whoa, don''t miss out on this. '
-  has-occurred: true
+  has-occurred: false
   has-occurred-message: EVENT PASSED! — EVENT PASSED!
 event:
   date: 2019-09-21 13:00:00 -04:00
@@ -55,11 +55,11 @@ filter-location:
 
 Want to make your typography come alive? Join designer and MICA educator Kiel Mutschelknaus’ Space Type Continuum workshop on Saturday, September 21 from 1:00 - 4:00pm at ISL.
 
-Kiel’s most recent project, an online motion and type generator called *Space Type Generator,* has been featured in *[The Verge](https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding){:target="_blank" rel="noopener"}* and *[It’s Nice That](https://www.itsnicethat.com/articles/kiel-mutschelknaus-space-type-generator-graphic-design-digital-160519){:target="_blank" rel="noopener"}*. Attendees will learn Kiel’s innovative approach to making a typographic generator from (almost) scratch in under 3 hours.
+Kiel’s most recent project, an online motion and type generator called _Space Type Generator,_ has been featured in _[The Verge](https://www.theverge.com/2019/3/29/18287129/kiel-mutschelknaus-space-type-generator-animation-design-motion-graphics-coding){:target="\_blank" rel="noopener"}_ and _[It’s Nice That](https://www.itsnicethat.com/articles/kiel-mutschelknaus-space-type-generator-graphic-design-digital-160519){:target="\_blank" rel="noopener"}_. Attendees will learn Kiel’s innovative approach to making a typographic generator from (almost) scratch in under 3 hours.
 
 The workshop will begin with an introduction to the basics of coding. After laying this important groundwork, we’ll move onto basic motion and typography to create a simple yet robust typographic generator. Various versions of Space Type Generator will be dissected to demonstrate how the presented foundational elements can be built out even further to create a myriad of iterations.
 
-*Participants will be required to bring a laptop and charging cord. A basic understanding of JavaScript is recommended but not required.*
+_Participants will be required to bring a laptop and charging cord. A basic understanding of JavaScript is recommended but not required._
 
 **COOL STUFF ALERT!** 🚨 Attendees will walk away with their own generator and the general knowledge necessary to begin customizing their own generator iterations. So you, too, can create graphics like:
 
@@ -70,4 +70,4 @@ The workshop will begin with an introduction to the basics of coding. After layi
 **Venue Accessibility (elevators, stairs, etc.):**
 ISL is accessible from the back entrance of the building.
 
-**Transportation / Helpful Directions to Venue (metro stop, parking availability):** ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW. 
+**Transportation / Helpful Directions to Venue (metro stop, parking availability):** ISL is steps away from the S Street exit of the Shaw - Howard University metro station (Green/Yellow lines). Escalator and elevator from the metro station are located at 7th and S Streets NW.

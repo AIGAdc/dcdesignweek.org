@@ -19,7 +19,7 @@
     position: relative;
     font-weight: 700;
 }
-.slide h2>p {
+.slide h2 > p {
     font-size: $font-size-20;
     line-height: initial;
     margin: $spacing-16 auto;
@@ -54,7 +54,11 @@
     max-width: 110px;
     margin: auto;
 }
-.slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
+.slide--bong,
+.slide--fish,
+.slide--gogo,
+.slide--vader,
+.slide--court {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,12 +78,10 @@
 .slide--vader {
     background-color: $crusta;
     /*background-image: url('/uploads/hero-vader.jpg')*/
-    ;
 }
 .slide--court {
     background-color: $hot-pink;
     /*background-image: url('/uploads/hero-court.jpg')*/
-    ;
 }
 .slide__content {
     align-self: center;
@@ -89,7 +91,8 @@
     position: relative;
     z-index: $index-3;
 }
-.slide__curtain--left, .slide__curtain--right {
+.slide__curtain--left,
+.slide__curtain--right {
     position: absolute;
     top: 0px;
     width: 50%;
@@ -101,7 +104,8 @@
 .slide__curtain--right {
     right: 0;
 }
-.slide__curtain--left>svg, .slide__curtain--right>svg {
+.slide__curtain--left > svg,
+.slide__curtain--right > svg {
     height: 100%;
 }
 @media screen and (min-width: $break-3) {
@@ -113,7 +117,7 @@
         margin-bottom: -1rem;
         margin-top: -1rem;
     }
-    .slide h2>p {
+    .slide h2 > p {
         font-size: $font-size-32;
     }
     .slide__lightbulb {
@@ -131,7 +135,11 @@
     .slide video {
         object-fit: cover;
     }
-    .slide--bong, .slide--fish, .slide--gogo, .slide--vader, .slide--court {
+    .slide--bong,
+    .slide--fish,
+    .slide--gogo,
+    .slide--vader,
+    .slide--court {
         background-size: contain;
     }
 }
