@@ -1,93 +1,93 @@
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 
 #mc_embed_signup form {
-    display: block !important;
-    position: relative !important;
-    text-align: left !important;
+	display: block !important;
+	position: relative !important;
+	text-align: left !important;
 }
 #mc_embed_signup .mc-field-group label {
-    display: block !important;
-    font-weight: 700 !important;
-    padding: $spacing-8 !important;
+	display: block !important;
+	font-weight: 700 !important;
+	padding: $spacing-8 !important;
 }
 #mc_embed_signup .mc-field-group input {
-    border: solid 2px transparent !important;
-    color: $charcoal;
-    display: block !important;
-    padding: $spacing-8 !important;
-    width: 100% !important;
+	border: solid 2px transparent !important;
+	color: $charcoal;
+	display: block !important;
+	padding: $spacing-8 !important;
+	width: 100% !important;
 }
 #mc_embed_signup .asterisk {
-    color: $hot-pink !important;
+	color: $hot-pink !important;
 }
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
-    font-size: $font-size-14 !important;
+	font-size: $font-size-14 !important;
 }
 #mc_embed_signup .clear {
-    clear: both !important;
+	clear: both !important;
 }
 #mc_embed_signup div#mce-responses {
-    clear: both;
+	clear: both;
 }
 #mc_embed_signup div.response {
-    background-color: $hot-pink !important;
-    padding: $spacing-16 !important;
-    z-index: 1 !important;
+	background-color: $hot-pink !important;
+	padding: $spacing-16 !important;
+	z-index: 1 !important;
 }
 #mc_embed_signup div.response a {
-    color: $white !important;
-    font-weight: bold !important;
+	color: $white !important;
+	font-weight: bold !important;
 }
 #mc_embed_signup #mce-error-response,
 #mc_embed_signup #mce-success-response {
-    color: $white !important;
-    display: block;
+	color: $white !important;
+	display: block;
 }
 #mc_embed_signup #num-subscribers span {
-    padding: 0.5em !important;
-    border: 1px solid #ccc !important;
-    margin-right: 0.5em !important;
-    font-weight: bold !important;
+	padding: 0.5em !important;
+	border: 1px solid #ccc !important;
+	margin-right: 0.5em !important;
+	font-weight: bold !important;
 }
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-    background-color: $hot-pink !important;
-    display: block !important;
-    color: $white !important;
-    line-height: 1.7rem !important;
-    font-size: $font-size-14 !important;
-    font-weight: normal !important;
-    margin: 0 !important;
-    padding: $spacing-8 !important;
-    z-index: 1 !important;
+	background-color: $hot-pink !important;
+	display: block !important;
+	color: $white !important;
+	line-height: 1.7rem !important;
+	font-size: $font-size-14 !important;
+	font-weight: normal !important;
+	margin: 0 !important;
+	padding: $spacing-8 !important;
+	z-index: 1 !important;
 }
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 2px solid $hot-pink !important;
+	border: 2px solid $hot-pink !important;
 }
 #mc_embed_signup input.mce_inline_error {
-    border-color: $hot-pink !important;
+	border-color: $hot-pink !important;
 }
 #mc_embed_signup input.button {
-    width: 100%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+	width: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 .mailchimp-grid {
-    display: grid;
-    grid-gap: $spacing-16;
-    grid-template-columns: 1fr;
+	display: grid;
+	grid-gap: $spacing-16;
+	grid-template-columns: 1fr;
 }
 .mailchimp-button input {
-    font-size: $font-size-20;
-    padding: 0 $spacing-8;
-    margin-top: $spacing-40;
+	font-size: $font-size-20;
+	padding: 0 $spacing-8;
+	margin-top: $spacing-40;
 }
 @media screen and (min-width: 639px) {
-    #mc_embed_signup input.button {
-        width: auto !important;
-    }
-    .mailchimp-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	#mc_embed_signup input.button {
+		width: auto !important;
+	}
+	.mailchimp-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

@@ -9,30 +9,30 @@
 /* Off-canvas element CSS */
 
 .offside {
-    position: fixed;
-    /* Does not play well with some old browsers (see: README) */
-    border-left: solid 2px $lightning-yellow;
-    color: $black;
-    padding: $spacing-16;
-    width: 200px;
-    height: 100%;
-    top: 0;
-    z-index: 9999;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    /* enables momentum scrolling in iOS overflow elements */
+	position: fixed;
+	/* Does not play well with some old browsers (see: README) */
+	border-left: solid 2px $lightning-yellow;
+	color: $black;
+	padding: $spacing-16;
+	width: 200px;
+	height: 100%;
+	top: 0;
+	z-index: 9999;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	/* enables momentum scrolling in iOS overflow elements */
 }
 /* Left off-canvas elements default status: out of the page */
 
 .offside,
 .offside--left {
-    left: -200px;
+	left: -200px;
 }
 /* Right off-canvas elements default status: out of the page */
 
 .offside--right {
-    left: auto;
-    right: -200px;
+	left: auto;
+	right: -200px;
 }
 /*
  * Left off-canvas element is open:
@@ -42,11 +42,11 @@
 
 .offside--left.is-open,
 .offside-js--is-left .offside-sliding-element {
-    -webkit-transform: translate3d(200px, 0, 0);
-    -moz-transform: translate3d(200px, 0, 0);
-    -ms-transform: translate3d(200px, 0, 0);
-    -o-transform: translate3d(200px, 0, 0);
-    transform: translate3d(200px, 0, 0);
+	-webkit-transform: translate3d(200px, 0, 0);
+	-moz-transform: translate3d(200px, 0, 0);
+	-ms-transform: translate3d(200px, 0, 0);
+	-o-transform: translate3d(200px, 0, 0);
+	transform: translate3d(200px, 0, 0);
 }
 /*
  * Right off-canvas element is open:
@@ -56,29 +56,29 @@
 
 .offside--right.is-open,
 .offside-js--is-right .offside-sliding-element {
-    -webkit-transform: translate3d(-200px, 0, 0);
-    -moz-transform: translate3d(-200px, 0, 0);
-    -ms-transform: translate3d(-200px, 0, 0);
-    -o-transform: translate3d(-200px, 0, 0);
-    transform: translate3d(-200px, 0, 0);
+	-webkit-transform: translate3d(-200px, 0, 0);
+	-moz-transform: translate3d(-200px, 0, 0);
+	-ms-transform: translate3d(-200px, 0, 0);
+	-o-transform: translate3d(-200px, 0, 0);
+	transform: translate3d(-200px, 0, 0);
 }
 /* Elements Transitions */
 
 .offside-js--interact .offside,
 .offside-js--interact .offside-sliding-element {
-    -webkit-transition: -webkit-transform 0.2s
-        cubic-bezier(0.16, 0.68, 0.43, 0.99);
-    -moz-transition: -moz-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-    -o-transition: -o-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-    transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-    /* improves performance issues on mobile*/
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
+	-webkit-transition: -webkit-transform 0.2s
+		cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	-moz-transition: -moz-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	-o-transition: -o-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	/* improves performance issues on mobile*/
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 }
 /* Body overflow */
 
 .offside-js--init {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 /* Fallback movements for browser not supporting CSS 3d Transitions
 ----------------------------------------------- */
@@ -86,39 +86,39 @@
 /* Modernizr false negative csstransforms3d fix, reset CSS 3d Transitions */
 
 .no-csstransforms3d .offside {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 .no-csstransforms3d .offside-sliding-element {
-    overflow-x: hidden;
-    position: relative;
+	overflow-x: hidden;
+	position: relative;
 }
 /* Element is open: off-canvas element slides in */
 
 .no-csstransforms3d .offside--left.is-open {
-    left: 0;
+	left: 0;
 }
 .no-csstransforms3d .offside--right.is-open {
-    right: 0;
+	right: 0;
 }
 /* Element is open: container elements slide out */
 
 .no-csstransforms3d > .offside-js--is-left .offside-sliding-element {
-    right: -200px;
+	right: -200px;
 }
 .no-csstransforms3d > .offside-js--is-right .offside-sliding-element {
-    left: -200px;
+	left: -200px;
 }
 button#mobile-menu-trigger {
-    background: none !important;
-    border: none !important;
-    margin: 0 !important;
-    font-size: $font-size-32;
-    color: $black;
+	background: none !important;
+	border: none !important;
+	margin: 0 !important;
+	font-size: $font-size-32;
+	color: $black;
 }
 .offside-js--is-open {
-    overflow: hidden;
+	overflow: hidden;
 }
 .mobile-menu__list a {
-    color: $black;
+	color: $black;
 }

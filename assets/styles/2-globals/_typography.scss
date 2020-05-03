@@ -1,19 +1,19 @@
 body {
-    color: $black;
-    font-family: $sans;
-    font-size: $font-size-16;
-    font-weight: 300;
-    line-height: 1.6;
+	color: $black;
+	font-family: $sans;
+	font-size: $font-size-16;
+	font-weight: 300;
+	line-height: 1.6;
 }
 a {
-    font-weight: 700;
-    text-decoration: none;
-    color: $black;
-    cursor: pointer;
-    transition: opacity 150ms ease-in;
+	font-weight: 700;
+	text-decoration: none;
+	color: $black;
+	cursor: pointer;
+	transition: opacity 150ms ease-in;
 }
 a:hover {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 button:active,
 button:focus,
@@ -21,8 +21,8 @@ input:active,
 input:focus,
 a:active,
 a:focus {
-    outline: dotted medium $aquamarine !important;
-    outline-offset: medium !important;
+	outline: dotted medium $aquamarine !important;
+	outline-offset: medium !important;
 }
 h1,
 h2,
@@ -31,90 +31,90 @@ h4,
 h5,
 h6,
 small {
-    font-family: $script;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: 400;
-    line-height: initial;
-    margin: 0;
-    text-rendering: optimizeLegibility;
+	font-family: $script;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 400;
+	line-height: initial;
+	margin: 0;
+	text-rendering: optimizeLegibility;
 }
 hr {
-    border: solid 4px $crusta;
-    border-radius: 50px;
-    margin: 0.5rem 0 2rem 0;
-    max-width: 120px;
-    text-align: left;
+	border: solid 4px $crusta;
+	border-radius: 50px;
+	margin: 0.5rem 0 2rem 0;
+	max-width: 120px;
+	text-align: left;
 }
 h1 {
-    font-size: $font-size-40;
+	font-size: $font-size-40;
 }
 h2 {
-    font-size: $font-size-32;
+	font-size: $font-size-32;
 }
 h3 {
-    font-size: $font-size-24;
+	font-size: $font-size-24;
 }
 p {
-    margin: 0 0 $spacing-32 0;
+	margin: 0 0 $spacing-32 0;
 }
 strong,
 .font-weight-700 {
-    font-weight: 700;
+	font-weight: 700;
 }
 .font-weight-300 {
-    font-weight: 300;
+	font-weight: 300;
 }
 .font-weight-400 {
-    font-weight: 400;
+	font-weight: 400;
 }
 @media screen and (min-width: $break-3) {
-    body {
-        font-size: $font-size-20;
-    }
-    .site-container .headline {
-        font-size: 80px;
-        margin-top: -16px;
-        margin-bottom: -36px;
-    }
-    h1 {
-        font-size: $font-size-56;
-    }
+	body {
+		font-size: $font-size-20;
+	}
+	.site-container .headline {
+		font-size: 80px;
+		margin-top: -16px;
+		margin-bottom: -36px;
+	}
+	h1 {
+		font-size: $font-size-56;
+	}
 }
 /* font family */
 
 .script {
-    font-family: $script;
+	font-family: $script;
 }
 .sans {
-    font-family: $sans;
+	font-family: $sans;
 }
 .font-size-1 {
-    font-size: $font-size-48;
+	font-size: $font-size-48;
 }
 .font-size-2 {
-    font-size: $font-size-40;
+	font-size: $font-size-40;
 }
 .font-size-3 {
-    font-size: $font-size-32;
+	font-size: $font-size-32;
 }
 .font-size-4 {
-    font-size: $font-size-24;
+	font-size: $font-size-24;
 }
 .font-size-5 {
-    font-size: $font-size-20;
+	font-size: $font-size-20;
 }
 .font-size-6 {
-    font-size: $font-size-16;
+	font-size: $font-size-16;
 }
 .font-size-7 {
-    font-size: $font-size-14;
+	font-size: $font-size-14;
 }
 .font-size-8 {
-    font-size: $font-size-12;
+	font-size: $font-size-12;
 }
 .font-size-9 {
-    font-size: $font-size-10;
+	font-size: $font-size-10;
 }
 /*
 .font-weight-300 {

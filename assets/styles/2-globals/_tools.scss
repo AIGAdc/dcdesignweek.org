@@ -4,25 +4,25 @@
     outline: 1px solid red !important;
 }*/
 .disabled {
-    cursor: not-allowed !important;
+	cursor: not-allowed !important;
 }
 .enabled {
-    cursor: pointer !important;
+	cursor: pointer !important;
 }
 .container,
 .container--small {
-    margin: auto;
-    padding: $spacing-16;
+	margin: auto;
+	padding: $spacing-16;
 }
 .container {
-    max-width: 1024px;
+	max-width: 1024px;
 }
 .container--small {
-    max-width: 768px;
+	max-width: 768px;
 }
 @media screen and (min-width: $break-3) {
-    .container,
-    .container--small {
-        padding: $spacing-32;
-    }
+	.container,
+	.container--small {
+		padding: $spacing-32;
+	}
 }

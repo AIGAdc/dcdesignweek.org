@@ -2,18 +2,19 @@
 title: Sundays at Carnegie
 permalink: "/carnegie-library/"
 events:
-- header: Featured Events
-  body: We just can’t wait for September 20th to start celebrating DC Design Week!
-    So, we’re ramping up early, with three creative talks at the Apple Carnegie Library.
-    Join us **before DC Design Week** on Sunday 9/8 and 9/15 and **during DC Design
-    Week** on Sunday 9/22 in Mount Vernon Square, when three DC designers will share
-    their craft through this series of not-to-be-missed and highly interactive sessions.
-    All three events are free and open to the public!
-  has-button: true
-  button-label: See More Events
-  button-url: "/events/"
-  button-type: border
-  button-class: lightning-yellow
+    - header: Featured Events
+      body:
+          We just can’t wait for September 20th to start celebrating DC Design Week!
+          So, we’re ramping up early, with three creative talks at the Apple Carnegie Library.
+          Join us **before DC Design Week** on Sunday 9/8 and 9/15 and **during DC Design
+          Week** on Sunday 9/22 in Mount Vernon Square, when three DC designers will share
+          their craft through this series of not-to-be-missed and highly interactive sessions.
+          All three events are free and open to the public!
+      has-button: true
+      button-label: See More Events
+      button-url: "/events/"
+      button-type: border
+      button-class: lightning-yellow
 layout: carnegie
 ---
 
