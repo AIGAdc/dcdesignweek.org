@@ -6,6 +6,7 @@ permalink: "/"
 published: false
 
 # Hero Section
+has-hero: true
 hero:
     - tagline: Hero Tagline
       header: Hero Header

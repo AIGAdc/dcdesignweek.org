@@ -5,6 +5,14 @@ layout: pop-up-shop
 permalink: "/pop-up-shop/"
 published: false
 
+# Hero Section
+has-hero: true
+hero:
+    - tagline:
+      header: Pop-Up Shop
+      subheader: 
+        The DCDW Pop-Up Shop is back and it’s bigger than ever. That’s right. Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/) AND [The Neighborgoods](https://theneighborgoods.com/) will be stocked with items made by DC locals. Swing by, shop, and support your neighborhood maker and creative community (during business hours, please).
+      
 # Call for Artists Section
 call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
 call-for-artists-image-alt: Pop Up Shop Image Alt
@@ -17,9 +25,3 @@ call-for-artists-body:
 call-for-artists-button: RSVP
 call-for-artists-button-url: "/events/pop-up-block-party/"
 ---
-
-# Pop-Up Shop
-
----
-
-The DCDW Pop-Up Shop is back and it’s bigger than ever. That’s right. Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/) AND [The Neighborgoods](https://theneighborgoods.com/) will be stocked with items made by DC locals. Swing by, shop, and support your neighborhood maker and creative community (during business hours, please).
