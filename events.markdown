@@ -1,8 +1,9 @@
 ---
+# Page Settings
 title: Events
-published: false
-permalink: "/events/"
 layout: events
+permalink: "/events/"
+published: false
 ---
 
 # Events

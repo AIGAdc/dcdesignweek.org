@@ -1,6 +1,11 @@
 ---
+# Page Settings
 title: About
+layout: about
+permalink: "/about/"
 published: false
+
+# Committee Section
 team-header: 2019 DCDW Committee
 dc-is-factsinating-header: "DCDW2019: Unconventional Wisdom"
 dc-is-factsinating-body:
@@ -15,7 +20,9 @@ dc-is-factsinating-body:
     to a healthy dose of lesser-known local trivia, our program of events will lift
     up new and engaging creative voices and practitioners to share their own unconventional
     wisdom. We can’t wait to learn with them and celebrate this weird and wonderful
-    city.\n"
+    city."
+
+# Sponsors Section
 sponsors:
     - header: 2019 Sponsors and Partners
       body:
@@ -30,6 +37,8 @@ sponsors:
           DC community — more events, in more places, featuring even more aspects of DC’s
           curious and creative community. This celebration is only possible because of the
           generous support from the following sponsors.
+
+# Partners Section
 partners:
     - header: Many thanks to
       body:
@@ -38,7 +47,6 @@ partners:
       button-url: "/about/"
       button-type: border
       button-class: lightning-yellow
-layout: about
 ---
 
 # What is #DCDesignWeek ?

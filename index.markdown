@@ -3,6 +3,7 @@
 title: Home - Placeholder
 layout: archive
 permalink: "/"
+published: true
 
 # Hero Section
 has-hero: true

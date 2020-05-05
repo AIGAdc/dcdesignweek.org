@@ -1,19 +1,32 @@
+.site-footer {
+	background-color: $black;
+	display: flex;
+	align-items: center;
+	color: $white;
+	justify-content: space-between;
+	padding: $spacing-8;
+}
+
 .site-footer__mailchimp,
 .site-footer__volunteer {
-	padding: $spacing-48 0;
+	padding: 0;
 }
+
 .site-footer__mailchimp {
 	background-color: $mauve-light;
 }
+
 .site-footer__volunteer {
 	text-align: center;
 }
+
 .site-footer__volunteer a {
 	display: inline-block;
 	font-size: $font-size-48;
 	margin-top: $spacing-16;
 	color: $black;
 }
+
 .site-footer__social {
 	align-items: center;
 	background-color: $black;
@@ -23,25 +36,31 @@
 	padding: $spacing-8;
 	text-align: center;
 }
-.site-footer__social a {
+
+.site-footer a {
 	color: $white;
 	font-size: $font-size-16;
 	text-decoration: none;
 }
-.site-footer__social a svg {
+
+.site-footer a svg {
 	font-size: $font-size-24;
 }
-.site-footer__social li {
+
+.site-footer li {
 	display: inline-block;
 }
+
 @media screen and (min-width: 962px) {
-	.site-footer__social {
+	.site-footer {
 		grid-template-columns: repeat(3, 1fr);
 	}
-	.site-footer__social a:first-of-type {
+	
+	.site-footer a:first-of-type {
 		text-align: left;
 	}
-	.site-footer__social a:last-of-type {
+	
+	.site-footer a:last-of-type {
 		text-align: right;
 	}
 }

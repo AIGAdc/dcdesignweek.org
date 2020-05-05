@@ -1,23 +1,21 @@
-<footer class="site-footer">
-	<div class="site-footer__social">
-		<a href="mailto:{{ site.email }}" target="_top">
-			{{ site.social.contact }}
-		</a>
-		<ul>
-			{% for link in site.social.links %}
-			<li>
-				<a href="{{ link.url }}" rel="noopener" target="_blank">
-					{{ link.icon }}
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<a
-			href="https://dc.aiga.org/about-us/mission/"
-			rel="noopener"
-			target="_blank"
-		>
-			{{ site.social.copyright }}
-		</a>
-	</div>
+<footer>
+	<a href="mailto:{{ site.email }}" target="_top">
+		{{ site.social.contact }}
+	</a>
+	<ul>
+		{% for link in site.social.links %}
+		<li>
+			<a href="{{ link.url }}" rel="noopener" target="_blank">
+				{{ link.icon }}
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+	<a
+		href="https://dc.aiga.org/about-us/mission/"
+		rel="noopener"
+		target="_blank"
+	>
+		{{ site.social.copyright }}
+	</a>
 </footer>

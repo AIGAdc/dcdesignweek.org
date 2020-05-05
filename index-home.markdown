@@ -1,11 +1,17 @@
 ---
-title: Home
-published: false
+# Page Settings
+title: Home - Live 
+layout: home
 permalink: "/"
+published: false
+
+# Hero Section
 hero:
     - tagline: Hero Tagline
       header: Hero Header
       subheader: Hero Subheader
+
+# Events Section
 events:
     - header: Events Header
       body: Events Body
@@ -14,6 +20,8 @@ events:
       button-url: "/events/"
       button-type: border
       button-class: lightning-yellow
+
+# Sponsors Section
 sponsors:
     - header: Sponsors Header
       body: Sponsors Body
@@ -25,5 +33,4 @@ sponsors:
       button-url: "/about/"
       button-type: border
       button-class: lightning-yellow
-layout: home
 ---

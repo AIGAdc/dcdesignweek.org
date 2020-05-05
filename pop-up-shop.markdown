@@ -1,6 +1,11 @@
 ---
+# Page Settings
 title: Pop-Up Shop
+layout: pop-up-shop
+permalink: "/pop-up-shop/"
 published: false
+
+# Call for Artists Section
 call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
 call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Shop the Block Party
@@ -11,7 +16,6 @@ call-for-artists-body:
     Cherry Blossom Creative and the Neighborgoods)!\n\n"
 call-for-artists-button: RSVP
 call-for-artists-button-url: "/events/pop-up-block-party/"
-layout: pop-up-shop
 ---
 
 # Pop-Up Shop

@@ -1,7 +1,7 @@
-<section class="site-footer__mailchimp" id="subscribe">
-	<div class="container--small">
-		{{ site.data.blocks.subscribe.body | markdownify }} {% include
-		3rd-party/mailchimp/form.html %} {% include
-		3rd-party/mailchimp/scripts.html %}
+<section id="subscribe">
+	<div>
+		{{ site.data.blocks.subscribe.body }} 
+		{% include 3rd-party/mailchimp/form.html %} 
+		{% include 3rd-party/mailchimp/scripts.html %}
 	</div>
 </section>
