@@ -1,15 +1,15 @@
-<div class="home-hero">
-	{% for content in page.hero %}
-	<div class="home-hero__content">
-		<p>
-			{{ content.tagline }}
-		</p>
-		<h1>
-			{{ content.header }}
-		</h1>
-		<p>
-			{{ content.subheader }}
-		</p>
+{% if page.has-hero == true %} {% comment %} What is this? True/False option
+that controls visibility of hero section. {% endcomment %}
+<section>
+	<div>
+		{% for content in page.hero %} {% comment %} What is this? Loop that
+		will display content for each variable in the block. {% endcomment %}
+		<div>
+			<p>{{ content.tagline }}</p>
+			<h1>{{ content.header }}</h1>
+			<p>{{ content.subheader }}</p>
+		</div>
+		{% endfor %}
 	</div>
-	{% endfor %}
-</div>
+</section>
+{% endif %}

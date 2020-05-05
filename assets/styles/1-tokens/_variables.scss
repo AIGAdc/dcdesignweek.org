@@ -1,0 +1,74 @@
+/* SECTION - animations */
+$timing-slow: 300ms;
+$timing-default: 200ms;
+$timing-quick: 100ms;
+
+/* SECTION - breakpoints */
+$break-1: 479px;
+$break-2: 767px;
+$break-3: 1023px;
+$break-4: 1279px;
+$break-5: 1658px;
+$break-6: 1919px;
+
+/* SECTION - colors */
+$white: #fff;
+$black: #000;
+$charcoal: #5a5a5a;
+$mauve: #c396ff;
+$crusta: #fd813f;
+$hot-pink: #fb7eb8;
+$lightning-yellow: #f2c22e;
+$aquamarine: #65ecb1;
+$mauve-light: rgba($mauve, 0.15);
+$crusta-light: rgba($crusta, 0.15);
+$hot-pink-light: rgba($hot-pink, 0.15);
+$lightning-yellow-light: rgba($lightning-yellow, 0.15);
+$aquamarine-light: rgba($aquamarine, 0.15);
+
+/* SECTION - depth */
+$index-5: 500;
+$index-4: 400;
+$index-3: 300;
+$index-2: 200;
+$index-1: 100;
+
+/* SECTION - typography */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:wght@400;700&display=swap");
+
+$sans: "Source Sans Pro", monospace;
+$mono: "Source Sans Pro", sans-serif;
+$script: "House Slant", script;
+$font-size-64: 4rem; // 64px
+$font-size-56: 3.5rem; // 56px
+$font-size-48: 3rem; // 48px
+$font-size-40: 2.5rem; // 40px
+$font-size-32: 2rem; // 32px
+$font-size-24: 1.5rem; // 24px
+$font-size-20: 1.25rem; // 20px
+$font-size-16: 1rem; // 16px
+$font-size-14: 0.875rem; // 14px
+$font-size-12: 0.75rem; // 12px
+$font-size-10: 0.625rem; // 10px
+
+/* SECTION - spacing */
+$spacing-96: 6rem; // 96px
+$spacing-64: 4rem; // 64px
+$spacing-48: 3rem; // 48px
+$spacing-40: 2.5rem; // 40px
+$spacing-32: 2rem; // 32px
+$spacing-24: 1.5rem; // 24px
+$spacing-16: 1.25rem; // 20px
+$spacing-8: 0.5rem; // 8px
+$spacing-4: 0.25rem; // 4px
+
+// $theme-copy:
+// $theme-background:
+// $theme-mono:
+// $theme-sans:
+// $theme-serif:
+// $theme-color-1:
+// $theme-color-2:
+// $theme-color-3:
+// $theme-color-4:
+// $theme-border:
