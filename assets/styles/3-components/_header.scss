@@ -1,48 +1,53 @@
 .site-header {
+	align-items: center;
 	background-color: $white;
-	border-bottom: solid 2px $lightning-yellow;
-	padding: $spacing-4 $spacing-8;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: $spacing-8;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
-	z-index: $index-5;
+	z-index: $index-10;
 }
 
 .site-header__navigation {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
+	gap: $spacing-32;
 	justify-content: space-between;
 }
 
 .site-header__logo {
-	max-width: 144px;
+	max-width: 120px;
 }
 
 .site-header__logo svg {
+	display: block;
 	max-height: 72px;
 }
 
-.site-header ul {
-	margin: 0 !important;
-	padding: 0 !important;
+ul {
+	margin: 0;
+	padding: 0;
 }
 
-.site-header__links {
-	display: none;
+.site-header .links {
 	text-align: right;
 }
 
-.site-header__links li {
+.site-header .link {
 	display: inline-block;
 }
 
-.site-header .button {
-	font-size: $font-size-16;
-	letter-spacing: 2px;
-	text-transform: uppercase;
+.site-header .vertical-divider {
+	border: solid 2px lightgray;
+	border-radius: 0;
+	height: 38px;
+	width: auto;
+	margin: 0;
 }
-
 .site-header__menu {
 	display: block;
 	text-align: right;
@@ -56,7 +61,7 @@
 	.site-header__links {
 		display: block;
 	}
-	
+
 	.site-header__menu {
 		display: none;
 	}
