@@ -32,15 +32,6 @@
 
 		{% seo %}
 
-		<script>
-			// if there's a theme id in localstorage, use it on the <html>
-			localStorage.getItem("theme") &&
-				document.documentElement.setAttribute(
-					"data-theme",
-					localStorage.getItem("theme")
-				);
-		</script>
-
 		<!-- styles -->
 		<link
 			href="{{ site.asseturl }}styles/app.css"
@@ -65,9 +56,9 @@
 	<body>
 		<div id="site-container">
 			<main class="{{ page.layout }}-layout wysiwyg">
-				{% include site-header.html %} 
-				{{ content }} 
-				{% include site-footer.html %}
+				{% include site-header.html %}
+				 {{ content }}
+				  {% include site-footer.html %}
 			</main>
 		</div>
 	</body>
