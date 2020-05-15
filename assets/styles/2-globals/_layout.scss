@@ -1,8 +1,6 @@
 /* 
-
 👋🏾 Shoutout: Special thanks to Andy Bell for his helpful responsive grid and wrapper utilities:
 https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
-
 */
 
 .wrapper {
@@ -20,7 +18,7 @@ https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queri
 }
 
 .wrapper--tight {
-	max-width: 48ch;
+	max-width: 72ch;
 }
 
 .full-bleed {

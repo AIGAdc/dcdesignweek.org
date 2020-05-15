@@ -4,6 +4,7 @@
 @import "1-tokens/variables";
 
 @import "2-globals/reset";
+@import "2-globals/custom-reset";
 @import "2-globals/layout";
 @import "2-globals/tools";
 @import "2-globals/typography";
@@ -15,6 +16,7 @@
 @import "3-components/header";
 @import "3-components/hero";
 @import "3-components/listing";
+@import "3-components/sections";
 @import "3-components/slider";
 
 @import "4-utilities/borders";

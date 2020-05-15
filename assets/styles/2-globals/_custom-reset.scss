@@ -1,0 +1,10 @@
+body {
+    font-family: $mono;
+}
+
+hr {
+	border: solid 2px $white;
+	border-radius: 0;
+	margin:  $spacing-16 auto;
+    max-width: 40px;
+}

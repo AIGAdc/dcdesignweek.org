@@ -1,25 +1,31 @@
 /* used for debugging layout */
 
-/** {
-    outline: 1px solid red !important;
-}*/
+* {
+	outline: 1px dashed purple !important;
+}
+
 .disabled {
 	cursor: not-allowed !important;
 }
+
 .enabled {
 	cursor: pointer !important;
 }
+
 .container,
 .container--small {
 	margin: auto;
 	padding: $spacing-16;
 }
+
 .container {
 	max-width: 1024px;
 }
+
 .container--small {
 	max-width: 768px;
 }
+
 @media screen and (min-width: $break-3) {
 	.container,
 	.container--small {
