@@ -1,44 +1,26 @@
 .site-footer {
-	background-color: $black;
-	display: flex;
+	background-color: $white;
+	display: grid;
+	grid-gap: $spacing-16;
+	grid-template-columns: 1fr;
 	align-items: center;
-	color: $white;
+	color: $black;
 	justify-content: space-between;
 	padding: $spacing-8;
-}
-
-.site-footer__mailchimp,
-.site-footer__volunteer {
-	padding: 0;
-}
-
-.site-footer__mailchimp {
-	background-color: $mauve-light;
-}
-
-.site-footer__volunteer {
-	text-align: center;
-}
-
-.site-footer__volunteer a {
-	display: inline-block;
-	font-size: $font-size-48;
-	margin-top: $spacing-16;
-	color: $black;
 }
 
 .site-footer__social {
 	align-items: center;
 	background-color: $black;
 	display: grid;
-	grid-gap: 0.5rem;
+	grid-gap:$spacing-8;
 	grid-template-columns: 1fr;
 	padding: $spacing-8;
 	text-align: center;
 }
 
 .site-footer a {
-	color: $white;
+	color: $black;
 	font-size: $font-size-16;
 	text-decoration: none;
 }
@@ -54,6 +36,7 @@
 @media screen and (min-width: 962px) {
 	.site-footer {
 		grid-template-columns: repeat(3, 1fr);
+		text-align: center;
 	}
 	
 	.site-footer a:first-of-type {
