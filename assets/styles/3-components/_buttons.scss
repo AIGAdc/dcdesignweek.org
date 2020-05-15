@@ -4,7 +4,7 @@
 	color: $black;
 	display: inline-block;
 	font-weight: 700;
-	padding: 0 $spacing-8;
+	padding: $spacing-8 $spacing-16;
 	&__solid,
 	&__border,
 	&__link {
@@ -49,5 +49,15 @@
 	}
 	&__link--black {
 		color: $black;
+	}
+	&__solid--white {
+		background-color: $white;
+	}
+	&__border--white {
+		border: solid $spacing-4 $white;
+		color: $white;
+	}
+	&__link--white {
+		color: $white;
 	}
 }
