@@ -1,78 +1,39 @@
-.white {
-	color: $white;
+$colors: (
+	full-white: $white,
+	full-black: $black,
+	charcoal: $charcoal,
+	mauve: $mauve,
+	crusta: $crusta,
+	hot-pink: $hot-pink,
+	lightning-yellow: $lightning-yellow,
+	aquamarine: $aquamarine,
+	mauve-light: $mauve-light,
+	crusta-light: $crusta-light,
+	hot-pink-light: $hot-pink-light,
+	lightning-yellow-light: $lightning-yellow-light,
+	aquamarine-light: $aquamarine-light,
+);
+
+@mixin color-modifiers($attribute: 'color', $prefix: '--') {
+	@each $name, $value in $colors {
+		&#{$prefix}#{$name} {
+			#{$attribute}: $value;
+		}
+	}
 }
-.black {
-	color: $black;
+
+@mixin background-color-modifiers($attribute: 'background-color', $prefix: '--') {
+	@each $name, $value in $colors {
+		&#{$prefix}#{$name} {
+			#{$attribute}: $value;
+		}
+	}
 }
-.charcoal {
-	color: $charcoal;
+
+.color {
+	@include color-modifiers;
 }
-.mauve {
-	color: $mauve;
-}
-.mauve-light {
-	color: $mauve-light;
-}
-.crusta {
-	color: $crusta;
-}
-.crusta-light {
-	color: $crusta-light;
-}
-.hot-pink {
-	color: $hot-pink;
-}
-.hot-pink-light {
-	color: $hot-pink-light;
-}
-.lightning-yellow {
-	color: $lightning-yellow;
-}
-.lightning-yellow-light {
-	color: $lightning-yellow-light;
-}
-.aquamarine {
-	color: $aquamarine;
-}
-.aquamarine-light {
-	color: $aquamarine-light;
-}
-.bg-white {
-	background-color: $white;
-}
-.bg-black {
-	background-color: $black;
-}
-.bg-charcoal {
-	background-color: $charcoal;
-}
-.bg-mauve {
-	background-color: $mauve;
-}
-.bg-mauve-light {
-	background-color: $mauve-light;
-}
-.bg-crusta {
-	background-color: $crusta;
-}
-.bg-crusta-light {
-	background-color: $crusta-light;
-}
-.bg-hot-pink {
-	background-color: $hot-pink;
-}
-.bg-hot-pink-light {
-	background-color: $hot-pink-light;
-}
-.bg-lightning-yellow {
-	background-color: $lightning-yellow;
-}
-.bg-lightning-yellow-light {
-	background-color: $lightning-yellow-light;
-}
-.bg-aquamarine {
-	background-color: $aquamarine;
-}
-.bg-aquamarine-light {
-	background-color: $aquamarine-light;
+
+.bg-color {
+	@include background-color-modifiers;
 }
