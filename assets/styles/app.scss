@@ -1,28 +1,28 @@
 ---
 ---
 
-@import "1-tokens/variables";
+@import "global/variables";
+@import "global/reset";
+@import "global/mixins";
+@import "global/custom-reset";
+@import "global/layout";
+@import "global/tools";
+@import "global/typography";
 
-@import "2-globals/reset";
-@import "2-globals/custom-reset";
-@import "2-globals/layout";
-@import "2-globals/tools";
-@import "2-globals/typography";
+@import "components/buttons";
+@import "components/cards";
+@import "components/footer";
+@import "components/grid";
+@import "components/header";
+@import "components/hero";
+@import "components/listing";
+@import "components/sections";
+@import "components/slider";
 
-@import "3-components/buttons";
-@import "3-components/cards";
-@import "3-components/footer";
-@import "3-components/grid";
-@import "3-components/header";
-@import "3-components/hero";
-@import "3-components/listing";
-@import "3-components/sections";
-@import "3-components/slider";
-
-@import "4-utilities/borders";
-@import "4-utilities/colors";
-@import "4-utilities/layers";
-@import "4-utilities/shadows";
+@import "utilities/borders";
+@import "utilities/colors";
+@import "utilities/layers";
+@import "utilities/shadows";
 
 @import "3rd-party/flickity";
 @import "3rd-party/houdini";
