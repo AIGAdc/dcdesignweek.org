@@ -8,9 +8,8 @@ published: true
 # Hero Section
 has-hero: true
 hero:
-    - tagline: Hero Tagline
-      header: Hero Header
-      subheader: Hero Subheader
+    - header: DC Design Week is Coming Back in 2020
+      subheader: Stay turned for more, and follow us on Instagram @dcdesignweek.
 
 # Event Sections
 2016-events:

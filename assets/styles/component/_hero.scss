@@ -1,0 +1,6 @@
+.hero {
+	background-color: $white;
+	min-height: 700px;
+	text-align: center;
+	@include flex-align-center;
+}
