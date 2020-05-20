@@ -10,5 +10,5 @@ has-hero: true
 hero:
     - tagline:
       header: Events
-      subheader: 
+      subheader:
 ---

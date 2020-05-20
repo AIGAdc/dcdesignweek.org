@@ -1,3 +1,17 @@
+@mixin button-inline-block {
+	background-color: transparent;
+	border: solid 4px transparent;
+	display: inline-block;
+	padding: $spacing-8 $spacing-16;
+}
+
+@mixin button-block {
+	background-color: transparent;
+	border: solid 4px transparent;
+	display: block;
+	padding: $spacing-8 $spacing-16;
+}
+
 @mixin flex-align-start {
 	display: flex;
 	align-items: start;
@@ -14,6 +28,6 @@
 }
 
 @mixin flex-justify-space-between {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }

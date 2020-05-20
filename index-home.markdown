@@ -1,6 +1,6 @@
 ---
 # Page Settings
-title: Home - Live 
+title: Home - Live
 layout: home
 permalink: "/"
 published: false
