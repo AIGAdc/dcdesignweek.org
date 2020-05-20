@@ -12,22 +12,77 @@
 	padding: $spacing-8 $spacing-16;
 }
 
-@mixin flex-align-start {
+@mixin flex-row {
 	display: flex;
+	flex-direction: row;
+}
+
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin flex-align-start {
 	align-items: start;
 }
 
 @mixin flex-align-center {
-	display: flex;
 	align-items: center;
 }
 
 @mixin flex-align-end {
-	display: flex;
 	align-items: end;
 }
 
 @mixin flex-justify-space-between {
-	display: flex;
 	justify-content: space-between;
+}
+
+@mixin sticky-top {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: $index-10;
+}
+
+@mixin sticky-bottom {
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	z-index: $index-10;
+}
+
+@mixin wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin wrapper--tight {
+	max-width: 400px;
+}
+
+@mixin wrapper--default {
+	max-width: 800px;
+}
+
+@mixin wrapper--loose {
+	max-width: 1200px;
+}
+
+@mixin full-bleed {
+	background-color: var(--theme-color-2);
+	margin-left: calc(50% - 50vw);
+	margin-top: var(--theme-spacing-default);
+	width: 100vw;
+}
+
+@mixin heading-2 {
+	font-family: $sans;
+	font-size: $font-size-32;
+	font-weight: 900;
+}
+
+@mixin section {
+	padding: 96px $spacing-16;
+	text-align: center;
 }

@@ -1,22 +1,17 @@
 .site-header {
-	align-items: center;
+	@include flex-row;
+	@include flex-align-center;
+	@include flex-justify-space-between;
+	@include sticky-top;
 	background-color: $white;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: $spacing-8;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	z-index: $index-10;
+	padding: $spacing-4 $spacing-16;
 }
 
 .site-header__navigation {
-	align-items: center;
-	display: flex;
-	flex-direction: row;
+	@include flex-row;
+	@include flex-align-center;
+	@include flex-justify-space-between;
 	gap: $spacing-32;
-	justify-content: space-between;
 }
 
 .site-header__logo {
@@ -25,7 +20,7 @@
 
 .site-header__logo svg {
 	display: block;
-	max-height: 72px;
+	max-height: 64px;
 }
 
 ul {

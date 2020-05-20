@@ -3,27 +3,21 @@
 https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 */
 
-.wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	padding: $spacing-16;
+.wrapper-tight {
+	@include wrapper;
+	@include wrapper--tight;
 }
 
-.wrapper--loose {
-	max-width: 192ch;
+.wrapper-default {
+	@include wrapper;
+	@include wrapper--default;
 }
 
-.wrapper--default {
-	max-width: 96ch;
-}
-
-.wrapper--tight {
-	max-width: 72ch;
+.wrapper-loose {
+	@include wrapper;
+	@include wrapper--loose;
 }
 
 .full-bleed {
-	background-color: var(--theme-color-2);
-	margin-left: calc(50% - 50vw);
-	margin-top: var(--theme-spacing-default);
-	width: 100vw;
+	@include full-bleed;
 }

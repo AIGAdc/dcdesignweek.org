@@ -16,8 +16,8 @@ input:active,
 input:focus,
 a:active,
 a:focus {
-	outline: dotted medium $aquamarine !important;
-	outline-offset: medium !important;
+	outline: dashed thin $mauve !important;
+	outline-offset: 2px thin !important;
 }
 
 h1,
@@ -27,6 +27,7 @@ h4,
 h5,
 h6,
 small {
+	display: block;
 	font-family: $sans;
 	font-weight: 700;
 	line-height: initial;
@@ -38,7 +39,7 @@ h1 {
 }
 
 h2 {
-	font-size: $font-size-32;
+	@include heading-2;
 }
 
 h3 {
@@ -59,12 +60,6 @@ strong,
 }
 
 @media screen and (min-width: $break-3) {
-	.site-container .headline {
-		font-size: 80px;
-		margin-top: -16px;
-		margin-bottom: -36px;
-	}
-
 	h1 {
 		font-size: $font-size-56;
 	}

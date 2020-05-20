@@ -1,8 +1,8 @@
 .section {
+	@include section;
 }
 
 .section--black {
 	background-color: $black;
 	color: $white;
-	text-align: center;
 }
