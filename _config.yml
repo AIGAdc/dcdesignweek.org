@@ -1,124 +1,122 @@
 ---
 title: DC Design Week 2019
-
-
 collections:
-    events-dcdw:
-        title: Events - DCDW
-        output: true
-        permalink: "/events/:title/"
-    posts:
-        title: Posts
-        output: true
-    uploads:
-        title: Uploads
-        output: true
+  events-dcdw:
+    title: Events - DCDW
+    output: true
+    permalink: "/events/:title/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-    - scope:
-          path: ""
-      values:
-          image: "/uploads/og-image.jpg"
-          description:
-              DC Design Week is a celebration of creatives, thinkers, and makers
-              in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
-              Join us!
-    - scope:
-          path: ""
-          type: events-dcdw
-      values:
-          description: Provide an excerpt of what the event is about. Preferably 1 sentence.
-          status:
-              is-coming-soon: Select true if the event is coming soon.
-              coming-soon-message: Coming Soon!
-              is-sold-out: Select true if the event is sold out.
-              sold-out-message: Sold Out — This Event Sold Out
-              is-featured-on-events:
-                  Select True if event should be featured on the events
-                  page.
-              is-featured-on-home: Select True if event should be featured on the home page.
-              featured-event-message: Featured!
-          event:
-              date: Select date of the event.
-              image: Provide the image that will be used in the event card and event header.
-              image-alt: Provide alt text describing the image above.
-              start-time: Select the start time of the event.
-              end-time: Select the end time of the event.
-              has-external-url: false
-              external-url: If true, provide external url link.
-              has-speakers: Select True is event has speakers
-          tickets:
-              has-member-button: Select true to display the members only ticket button.
-              member-button-url:
-                  Provide link that will open when the members only ticket
-                  button is clicked.
-              member-button-label:
-                  Provide text that will display in the members only ticket
-                  button.
-              member-button-is-disabled: false
-              has-non-member-button: Select true to display the non members ticket button.
-              non-member-button-url:
-                  Provide link that will open when the non members ticket
-                  button is clicked.
-              non-member-button-label:
-                  Provide text that will display in the non members ticket
-                  button.
-              non-member-button-is-disabled: false
-          venue:
-              is-tbd: false
-              name: Provide the name of the venue.
-              address: Provide the address of the venue.
-              directions: Provide a google maps link with directions to the venue.
-          speakers:
-              - name: Provide Speaker name.
-                title: Provide Speaker title.
-                bio: Provide Speaker bio.
-                website-label: Provide label that will appear instead of URL
-                website-url: Provide Speaker website.
-          filter-date:
-              is-day-1: Select True if event occurs on day 1.
-              is-day-2: Select True if event occurs on day 2.
-              is-day-3: Select True if event occurs on day 3.
-              is-day-4: Select True if event occurs on day 4.
-              is-day-5: Select True if event occurs on day 5.
-              is-day-6: Select True if event occurs on day 6.
-              is-day-7: Select True if event occurs on day 7.
-              is-day-8: Select True if event occurs on day 8.
-          filter-time:
-              is-morning: Select True if event occurs in the morning.
-              is-daytime: Select True if event occurs during the morning.
-              is-evening: Select True if event occurs in the evening.
-          filter-type:
-              is-talk: Select True if event matches type
-              is-screening: Select True if event matches type
-              is-party: Select True if event matches type
-              is-family-friendly: Select True if event matches type
-              is-creative-lunch: Select True if event matches type
-              is-wellness: Select True if event matches type
-              is-workshop: Select True if event matches type
-          filter-location:
-              is-dc: Select True if event is located in DC.
-              is-md: Select True if event is located in MD.
-              is-va: Select True if event is located in VA.
-          layout: events-single
+  - scope:
+      path: ""
+    values:
+      image: "/uploads/og-image.jpg"
+      description: "DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      description:
+      status:
+        is-coming-soon:
+        coming-soon-message:
+        is-sold-out:
+        sold-out-message:
+        is-featured-on-events:
+        is-featured-on-home:
+        featured-event-message:
+      event:
+        date:
+        image:
+        image-alt:
+        start-time:
+        end-time:
+        has-external-url: false
+        external-url:
+        has-speakers:
+      tickets:
+        has-member-button:
+        member-button-url:
+        member-button-label:
+        member-button-is-disabled:
+        has-non-member-button:
+        non-member-button-url:
+        non-member-button-label:
+        non-member-button-is-disabled:
+      venue:
+        is-tbd:
+        name:
+        address:
+        directions:
+      speakers:
+        - name:
+          title:
+          bio:
+          website-label:
+          website-url:
+      filter-date:
+        is-day-1:
+        is-day-2:
+        is-day-3:
+        is-day-4:
+        is-day-5:
+        is-day-6:
+        is-day-7:
+        is-day-8:
+      filter-time:
+        is-morning:
+        is-daytime:
+        is-evening:
+      filter-type:
+        is-talk:
+        is-screening:
+        is-party:
+        is-family-friendly:
+        is-creative-lunch:
+        is-wellness:
+        is-workshop:
+      filter-location:
+        is-dc:
+        is-md:
+        is-va:
+      layout: events-single
 2020-presenting-sponsors:
-    - title:
-      image:
-      image-alt:
-      website:
+  - title:
+    image:
+    image-alt:
+    website:
 2020-contributing-sponsors:
-    - title:
-      image:
-      image-alt:
-      website:
+  - title:
+    image:
+    image-alt:
+    website:
 2020-team:
-    - image:
-      image-alt:
-      name:
-      role:
-      linkedin-url:
-      linkedin-label:
-      instagram-url:
-      instagram-label:
+  - image:
+    image-alt:
+    name:
+    role:
+    linkedin-url:
+    linkedin-label:
+    instagram-url:
+    instagram-label:
+2019-featured-events:
+  - title: "Shaloin Jazz & Globe Posters: Opening Party"
+    image:
+    url:
+    border-color:
+  - title: "Event 2"
+    image:
+    url:
+    border-color:
+  - title: "Workshop: The Space Type Continuum"
+    image:
+    url:
+    border-color:
 ignore-everything-below: ignore everything below
 timezone: America/New_York
 encoding: utf-8
@@ -128,45 +126,40 @@ baseurl:
 url: https://dcdesignweek.or
 uploadurl: "/uploads/"
 repository: AIGAdc/dcdesignweek.org
-google-analytics:
-    "<script> \n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
-    \ ga('create', 'UA-84499644-1', 'auto');\n  ga('send', 'pageview');\n</script>"
+google-analytics: UA-84499644-1
 email: designweek@dc.aiga.org
 facebook:
-    publisher: https://www.facebook.com/aigaDC/
+  publisher: https://www.facebook.com/aigaDC/
 social:
-    links:
-        - title: Twitter
-          url: https://twitter.com/dcdesignweek
-          icon: <i class="fab fa-twitter-square"></i>
-        - title: Instagram
-          url: https://www.instagram.com/dcdesignweek/
-          icon: <i class="fab fa-instagram"></i>
-        - title: Facebook
-          url: https://www.facebook.com/dcdesignweek/
-          icon: <i class="fab fa-facebook-square"></i>
-    contact: designweek@dc.aiga.org
-    copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
+  links:
+    - title: Twitter
+      url: https://twitter.com/dcdesignweek
+      icon: <i class="fab fa-twitter-square"></i>
+    - title: Instagram
+      url: https://www.instagram.com/dcdesignweek/
+      icon: <i class="fab fa-instagram"></i>
+    - title: Facebook
+      url: https://www.facebook.com/dcdesignweek/
+      icon: <i class="fab fa-facebook-square"></i>
+  contact: designweek@dc.aiga.org
+  copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 twitter:
-    username: aigadc
+  username: aigadc
 exclude:
-    - package.json
-    - package-lock.json
-    - node_modules
-    - README.md
-    - Gemfile
-    - Gemfile.lock
-    - ".jekyll-metadata"
-    - ".sass-cache"
-    - ".ruby-version"
+  - package.json
+  - package-lock.json
+  - node_modules
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - ".jekyll-metadata"
+  - ".sass-cache"
+  - ".ruby-version"
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 plugins:
-    - jekyll-seo-tag
+  - jekyll-seo-tag
 sass:
-    sass_dir: "/assets/styles/"
-    style: compressed
+  sass_dir: "/assets/styles/"
+  style: compressed
