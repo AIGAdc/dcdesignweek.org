@@ -1,0 +1,37 @@
+<section class="section section--white">
+	<div class="wrapper-default">
+		<h2>Past DCDW 2019 Years</h2>
+		<hr />
+		<p>Morbi tempus varius sagittis sed ullamcorper turpis.</p>
+		<ul class="listing">
+			{% for event in site.past-events %}
+			<li class="card card--event mix day-1 evening party dc featured">
+				<a
+					class="enabled border border--{{ event.border-color }}"
+					href="{{ event.url }}"
+				>
+					<div class="card-image">
+						<figure>
+							<img
+								src="{{ event.image }}"
+								alt="Provide alt text describing the image above."
+							/>
+						</figure>
+					</div>
+					<div class="card-details">
+						<h3>
+							{{ event.title }}
+						</h3>
+					</div>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<a
+			class="button button__border button__border--black"
+			href="https://2019.dcdesignweek.org/events/"
+			target="_blank"
+			>See 2019 Events</a
+		>
+	</div>
+</section>

@@ -1,4 +1,7 @@
 $colors: (
+	dcdw-2016: $dcdw-2016,
+	dcdw-2017: $dcdw-2017,
+	dcdw-2018: $dcdw-2018,
 	full-white: $white,
 	full-black: $black,
 	charcoal: $charcoal,
@@ -14,7 +17,7 @@ $colors: (
 	"aquamarine-light": $aquamarine-light,
 );
 
-@mixin color-modifiers($attribute: 'color', $prefix: '--') {
+@mixin color-modifiers($attribute: "color", $prefix: "--") {
 	@each $name, $value in $colors {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;
@@ -22,7 +25,10 @@ $colors: (
 	}
 }
 
-@mixin background-color-modifiers($attribute: 'background-color', $prefix: '--') {
+@mixin background-color-modifiers(
+	$attribute: "background-color",
+	$prefix: "--"
+) {
 	@each $name, $value in $colors {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;

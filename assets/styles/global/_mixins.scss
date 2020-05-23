@@ -86,3 +86,9 @@
 	padding: 96px $spacing-16;
 	text-align: center;
 }
+
+@mixin three-col-grid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: $spacing-16;
+}

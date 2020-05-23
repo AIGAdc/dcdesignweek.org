@@ -1,123 +1,136 @@
 ---
 title: DC Design Week 2019
 collections:
-  events-dcdw:
-    title: Events - DCDW
-    output: true
-    permalink: "/events/:title/"
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+    events-dcdw:
+        title: Events - DCDW
+        output: true
+        permalink: "/events/:title/"
+    posts:
+        title: Posts
+        output: true
+    uploads:
+        title: Uploads
+        output: true
 defaults:
-  - scope:
-      path: ""
-    values:
-      image: "/uploads/og-image.jpg"
-      description: "DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      description:
-      status:
-        is-coming-soon:
-        coming-soon-message:
-        is-sold-out:
-        sold-out-message:
-        is-featured-on-events:
-        is-featured-on-home:
-        featured-event-message:
-      event:
-        date:
-        image:
-        image-alt:
-        start-time:
-        end-time:
-        has-external-url: false
-        external-url:
-        has-speakers:
-      tickets:
-        has-member-button:
-        member-button-url:
-        member-button-label:
-        member-button-is-disabled:
-        has-non-member-button:
-        non-member-button-url:
-        non-member-button-label:
-        non-member-button-is-disabled:
-      venue:
-        is-tbd:
-        name:
-        address:
-        directions:
-      speakers:
-        - name:
-          title:
-          bio:
-          website-label:
-          website-url:
-      filter-date:
-        is-day-1:
-        is-day-2:
-        is-day-3:
-        is-day-4:
-        is-day-5:
-        is-day-6:
-        is-day-7:
-        is-day-8:
-      filter-time:
-        is-morning:
-        is-daytime:
-        is-evening:
-      filter-type:
-        is-talk:
-        is-screening:
-        is-party:
-        is-family-friendly:
-        is-creative-lunch:
-        is-wellness:
-        is-workshop:
-      filter-location:
-        is-dc:
-        is-md:
-        is-va:
-      layout: events-single
+    - scope:
+          path: ""
+      values:
+          image: "/uploads/og-image.jpg"
+          description: "DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!"
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          description:
+          status:
+              is-coming-soon:
+              coming-soon-message:
+              is-sold-out:
+              sold-out-message:
+              is-featured-on-events:
+              is-featured-on-home:
+              featured-event-message:
+          event:
+              date:
+              image:
+              image-alt:
+              start-time:
+              end-time:
+              has-external-url: false
+              external-url:
+              has-speakers:
+          tickets:
+              has-member-button:
+              member-button-url:
+              member-button-label:
+              member-button-is-disabled:
+              has-non-member-button:
+              non-member-button-url:
+              non-member-button-label:
+              non-member-button-is-disabled:
+          venue:
+              is-tbd:
+              name:
+              address:
+              directions:
+          speakers:
+              - name:
+                title:
+                bio:
+                website-label:
+                website-url:
+          filter-date:
+              is-day-1:
+              is-day-2:
+              is-day-3:
+              is-day-4:
+              is-day-5:
+              is-day-6:
+              is-day-7:
+              is-day-8:
+          filter-time:
+              is-morning:
+              is-daytime:
+              is-evening:
+          filter-type:
+              is-talk:
+              is-screening:
+              is-party:
+              is-family-friendly:
+              is-creative-lunch:
+              is-wellness:
+              is-workshop:
+          filter-location:
+              is-dc:
+              is-md:
+              is-va:
+          layout: events-single
 2020-presenting-sponsors:
-  - title:
-    image:
-    image-alt:
-    website:
+    - title:
+      image:
+      image-alt:
+      website:
 2020-contributing-sponsors:
-  - title:
-    image:
-    image-alt:
-    website:
+    - title:
+      image:
+      image-alt:
+      website:
 2020-team:
-  - image:
-    image-alt:
-    name:
-    role:
-    linkedin-url:
-    linkedin-label:
-    instagram-url:
-    instagram-label:
-2019-featured-events:
-  - title: "Shaloin Jazz & Globe Posters: Opening Party"
-    image:
-    url:
-    border-color:
-  - title: "Event 2"
-    image:
-    url:
-    border-color:
-  - title: "Workshop: The Space Type Continuum"
-    image:
-    url:
-    border-color:
-ignore-everything-below: ignore everything below
+    - image:
+      image-alt:
+      name:
+      role:
+      linkedin-url:
+      linkedin-label:
+      instagram-url:
+      instagram-label:
+past-events:
+    - title: "Shaolin Jazz & Globe Posters: Opening Party!"
+      image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
+      url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
+      border-color: hot-pink
+    - title: "Building Equity Through Design with Antionette Carroll"
+      image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
+      url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
+      border-color: aquamarine
+    - title: "Closing Party: Drink, Draw & Dance "
+      image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+      url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+      border-color: hot-pink
+past-editions:
+    - title: "DCDW 2016"
+      image: "/uploads/dcdw-2016.png"
+      url: https://2016.dcdwsignweek.org
+      border-color: dcdw-2016
+    - title: "DCDW 2017"
+      image: "/uploads/dcdw-2017.png"
+      url: https://2017.dcdesignweek.org
+      border-color: dcdw-2017
+    - title: "DCDW 2018"
+      image: "/uploads/dcdw-2018.png"
+      url: https://2018.dcdesignweek.org
+      border-color: dcdw-2018
+ignore-everything-below: <-- IGNORE EVERYTHING BELOW -->
 timezone: America/New_York
 encoding: utf-8
 lang: en-US
@@ -129,37 +142,37 @@ repository: AIGAdc/dcdesignweek.org
 google-analytics: UA-84499644-1
 email: designweek@dc.aiga.org
 facebook:
-  publisher: https://www.facebook.com/aigaDC/
+    publisher: https://www.facebook.com/aigaDC/
 social:
-  links:
-    - title: Twitter
-      url: https://twitter.com/dcdesignweek
-      icon: <i class="fab fa-twitter-square"></i>
-    - title: Instagram
-      url: https://www.instagram.com/dcdesignweek/
-      icon: <i class="fab fa-instagram"></i>
-    - title: Facebook
-      url: https://www.facebook.com/dcdesignweek/
-      icon: <i class="fab fa-facebook-square"></i>
-  contact: designweek@dc.aiga.org
-  copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
+    links:
+        - title: Twitter
+          url: https://twitter.com/dcdesignweek
+          icon: <i class="fab fa-twitter-square"></i>
+        - title: Instagram
+          url: https://www.instagram.com/dcdesignweek/
+          icon: <i class="fab fa-instagram"></i>
+        - title: Facebook
+          url: https://www.facebook.com/dcdesignweek/
+          icon: <i class="fab fa-facebook-square"></i>
+    contact: designweek@dc.aiga.org
+    copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 twitter:
-  username: aigadc
+    username: aigadc
 exclude:
-  - package.json
-  - package-lock.json
-  - node_modules
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - ".jekyll-metadata"
-  - ".sass-cache"
-  - ".ruby-version"
+    - package.json
+    - package-lock.json
+    - node_modules
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - ".jekyll-metadata"
+    - ".sass-cache"
+    - ".ruby-version"
 markdown: kramdown
 kramdown:
-  input: GFM
+    input: GFM
 plugins:
-  - jekyll-seo-tag
+    - jekyll-seo-tag
 sass:
-  sass_dir: "/assets/styles/"
-  style: compressed
+    sass_dir: "/assets/styles/"
+    style: compressed

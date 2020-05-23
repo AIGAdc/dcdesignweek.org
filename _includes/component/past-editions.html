@@ -1,0 +1,33 @@
+<section class="section section--white">
+	<div class="wrapper-default">
+		<h2>Past DCDW Years</h2>
+		<hr />
+		<p>
+			Curabitur consequat quam mauris eget aliquet tortor pretium.
+		</p>
+		<ul class="listing">
+			{% for event in site.past-editions %}
+			<li class="card card--event mix day-1 evening party dc featured">
+				<a
+					class="enabled border border--{{ event.border-color }}"
+					href="{{ event.url }}"
+				>
+					<div class="card-image">
+						<figure>
+							<img
+								src="{{ event.image }}"
+								alt="Provide alt text describing the image above."
+							/>
+						</figure>
+					</div>
+					<div class="card-details">
+						<h3>
+							{{ event.title }}
+						</h3>
+					</div>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
