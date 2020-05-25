@@ -6,3 +6,8 @@
 	background-color: $black;
 	color: $white;
 }
+
+.section--white .button,
+.section--black .button {
+	margin-top: $spacing-48;
+}
