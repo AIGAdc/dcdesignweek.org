@@ -1,9 +1,9 @@
 <footer class="site-footer">
 	<a href="mailto:{{ site.email }}" target="_top">
-		{{ site.social.contact }}
+		{{ site.footer.contact }}
 	</a>
 	<ul>
-		{% for link in site.footer.social.links %}
+		{% for link in site.footer.links %}
 		<li>
 			<a href="{{ link.url }}" rel="noopener" target="_blank">
 				{{ link.icon }}
@@ -12,6 +12,6 @@
 		{% endfor %}
 	</ul>
 	<a href="https://dc.aiga.org/about-us/mission/" rel="noopener" target="_blank">
-		{{ site.social.copyright }}
+		{{ site.footer.copyright }}
 	</a>
 </footer>

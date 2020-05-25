@@ -1,17 +1,12 @@
 <section class="section section--black">
 	<div class="wrapper-default">
-		<h2>Partner with Us</h2>
+		{% for content in page.partner %}
+		<h2>{{ content.header }}</h2>
 		<hr />
-		<p>
-			Praesent semper aliquet egestas. Pellentesque iaculis tortor sit
-			amet hendrerit consequat, sapien nibh iaculis eros, eget commodo dui
-			massa vitae tellus curabitur vitae ante.
-		</p>
-		<a
-			class="button button__border button__border--white"
-			href="https://dcdesignweek.org"
-			target="_blank"
-			>Become a Partner</a
-		>
+		<p>{{ content.body }}</p>
+		<a class="button button__border button__border--white" href="{{ content.button-url }}" target="_blank"
+			>{{ content.button-label }}
+		</a>
+		{% endfor %}
 	</div>
 </section>

@@ -16,11 +16,3 @@ about-dcdw:
 
     questions-header: Questions?
     questions-text: "If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org)."
-
-subscribe:
-    body: Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC.
-
-volunteer:
-    header: Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC
-    body: Built by 100% volunteer power, we're constantly working to make this site better for you. If you see something, say something.
-    github: https://github.com/AIGAdc/DCDW

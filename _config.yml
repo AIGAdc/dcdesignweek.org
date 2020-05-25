@@ -71,9 +71,7 @@ defaults:
           filter-time:
               is-morning:
               is-daytime:
-              is-evening:
-          filter-type:
-              is-talk:
+              is-evening: markdown
               is-screening:
               is-party:
               is-family-friendly:
@@ -85,16 +83,119 @@ defaults:
               is-md:
               is-va:
           layout: events-single
+# Event List Filter
+filter-date:
+    - filter: .day-1
+      class: day-1
+      text-1: Fri
+      text-2: Sept
+      text-3: 20
+      has-occurred: false
+    - filter: .day-2
+      class: day-2
+      text-1: Sat
+      text-2: Sept
+      text-3: 21
+      has-occurred: false
+    - filter: .day-3
+      class: day-3
+      text-1: Sun
+      text-2: Sept
+      text-3: 22
+      has-occurred: false
+    - filter: .day-4
+      class: day-4
+      text-1: Mon
+      text-2: Sept
+      text-3: 23
+      has-occurred: false
+    - filter: .day-5
+      class: day-5
+      text-1: Tue
+      text-2: Sept
+      text-3: 24
+      has-occurred: false
+    - filter: .day-6
+      class: day-6
+      text-1: Wed
+      text-2: Sept
+      text-3: 25
+      has-occurred: false
+    - filter: .day-7
+      class: day-7
+      text-1: Thu
+      text-2: Sept
+      text-3: 26
+      has-occurred: false
+    - filter: .day-8
+      class: day-8
+      text-1: Fri
+      text-2: Sept
+      text-3: 27
+      has-occurred: false
+filter-time-of-day:
+    - filter: .morning
+      class: morning
+      text-1: Morning
+    - filter: .daytime
+      class: daytime
+      text-1: Daytime
+    - filter: .evening
+      class: evening
+      text-1: Evening
+filter-event-type:
+    - filter: .creative-lunch
+      class: creative-lunch
+      text-1: Creative Lunch
+    - filter: .family-friendly
+      class: family-friendly
+      text-1: Family Friendly
+    - filter: .party
+      class: party
+      text-1: Party
+    - filter: .screening
+      class: screening
+      text-1: Screening
+    - filter: .talk
+      class: talk
+      text-1: Talk
+    - filter: .wellness
+      class: wellness
+      text-1: Wellness
+    - filter: .workshop
+      class: workshop
+      text-1: Workshop
+filter-location:
+    - filter: .dc
+      class: dc
+      text-1: DC
+    - filter: .md
+      class: md
+      text-1: MD
+    - filter: .va
+      class: va
+      text-1: VA
+filter-sold-out:
+    - filter: .sold-out
+      class: sold-out
+      text-1: Sold Out
+filter-status:
+    - filter: .featured
+      class: featured
+      text-1: Show Featured
+# Presenting Sponsors
 2020-presenting-sponsors:
     - title:
       image:
       image-alt:
       website:
+# Contributing Sponsors
 2020-contributing-sponsors:
     - title:
       image:
       image-alt:
       website:
+# DC Design Week Team
 2020-team:
     - image:
       image-alt:
@@ -104,36 +205,29 @@ defaults:
       linkedin-label:
       instagram-url:
       instagram-label:
-past-events:
-    - title: "Shaolin Jazz & Globe Posters: Opening Party!"
-      image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
-      url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
-      border-color: hot-pink
-    - title: "Building Equity Through Design with Antionette Carroll"
-      image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
-      url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
-      border-color: aquamarine
-    - title: "Closing Party: Drink, Draw & Dance "
-      image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
-      url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-      border-color: hot-pink
-past-editions:
-    - title: "DCDW 2016"
-      image: "/uploads/dcdw-2016-pattern.jpg"
-      url: https://2016.dcdwsignweek.org
-      border-color: dcdw-2016
-    - title: "DCDW 2017"
-      image: "/uploads/dcdw-2017-pattern.jpg"
-      url: https://2017.dcdesignweek.org
-      border-color: dcdw-2017
-    - title: "DCDW 2018"
-      image: "/uploads/dcdw-2018-pattern.jpg"
-      url: https://2018.dcdesignweek.org
-      border-color: dcdw-2018
+# Global Navigation
+navigation-placeholder:
+    - url: "https://2016.dcdesignweek.org"
+      label: 2016
+    - url: "https://2017.dcdesignweek.org"
+      label: 2017
+    - url: "https://2018.dcdesignweek.org"
+      label: 2018
+    - url: "https://2019.dcdesignweek.org"
+      label: 2019
+# Global Subscribe
+subscribe:
+    body: Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC.
+# Global Volunteer
+volunteer:
+    header: Made with <span class="made-in-dc-heart"><i class="fas fa-heart"></i></span> in DC
+    body: Built by 100% volunteer power, we're constantly working to make this site better for you. If you see something, say something.
+    github: https://github.com/AIGAdc/dcdesignweek.org
 ignore-everything-below: <-- IGNORE EVERYTHING BELOW -->
 timezone: America/New_York
 encoding: utf-8
 lang: en-US
+theme-color: "#c396ff"
 asseturl: "/assets/"
 baseurl: ""
 url: https://dcdesignweek.org
@@ -145,10 +239,10 @@ facebook:
     publisher: https://www.facebook.com/aigaDC/
 twitter:
     username: aigadc
-social:
+footer:
     links:
         - title: Twitter
-          url: https://twitter.com/dcdesignweek
+          url: https://www.twitter.com/dcdesignweek
           icon: <i class="fab fa-twitter-square"></i>
         - title: Instagram
           url: https://www.instagram.com/dcdesignweek/
@@ -168,6 +262,7 @@ exclude:
     - ".jekyll-metadata"
     - ".sass-cache"
     - ".ruby-version"
+    - _config (copy).yml
 markdown: kramdown
 kramdown:
     input: GFM

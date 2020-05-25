@@ -1,21 +1,21 @@
 <section class="section section--white">
 	<div class="wrapper-default">
-		<h2>Past DCDW 2019 Years</h2>
+		<h2>{{ page.past-events.header }}</h2>
 		<hr />
-		<p>Morbi tempus varius sagittis sed ullamcorper turpis.</p>
+		<p>{{ page.past-events.body }}</p>
 		<ul class="listing">
 			{% comment %} Component: Listing / Use when a list of items are being displayed.{% endcomment %} {% for
-			event in site.past-events %}
+			content in page.past-events.events %}
 			<li class="card card--event mix day-1 evening party dc featured">
-				<a class="enabled border border--{{ event.border-color }}" href="{{ event.url }}">
+				<a class="enabled border border--{{ content.border-color }}" href="{{ content.url }}">
 					<div class="card-image">
 						<figure>
-							<img src="{{ event.image }}" alt="Provide alt text describing the image above." />
+							<img src="{{ content.image }}" alt="Provide alt text describing the image above." />
 						</figure>
 					</div>
 					<div class="card-details">
 						<h3>
-							{{ event.title }}
+							{{ content.title }}
 						</h3>
 					</div>
 				</a>

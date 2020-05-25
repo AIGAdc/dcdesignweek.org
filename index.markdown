@@ -4,90 +4,59 @@ title: Home - Placeholder
 layout: archive
 permalink: "/"
 published: true
-
 # Hero Section
 has-hero: true
 hero:
-    - header: DC Design Week is Coming Back in 2020
-      subheader: Stay turned for more, and follow us on Instagram @dcdesignweek.
-
-# Event Sections
-2016-events:
-    - header: 2016 Events Header
-      body: Events Body
-      has-button: true
-      button-label: See More Events
-      button-url: "/events/"
-      button-type: border
-      button-class: lightning-yellow
-2017-events:
-    - header: 2017 Events Header
-      body: Events Body
-      has-button: true
-      button-label: See More Events
-      button-url: "/events/"
-      button-type: border
-      button-class: lightning-yellow
-2018-events:
-    - header: 2018 Events Header
-      body: Events Body
-      has-button: true
-      button-label: See More Events
-      button-url: "/events/"
-      button-type: border
-      button-class: lightning-yellow
-2019-events:
-    - header: 2019 Events Header
-      body: Events Body
-      has-button: true
-      button-label: See More Events
-      button-url: "/events/"
-      button-type: border
-      button-class: lightning-yellow
-
-# Sponsor Sections
-2016-sponsors:
-    - header: Sponsors Header
-      body: Sponsors Body
-      sub-header-presenting: Sponsors Presenting Header
-      sub-body-presenting: Sponsors Presenting Body
-      sub-header-contributing: Sponsors Contributing Header
-      has-button: true
-      button-label: Learn More
-      button-url: "/about/"
-      button-type: border
-      button-class: lightning-yellow
-2017-sponsors:
-    - header: Sponsors Header
-      body: Sponsors Body
-      sub-header-presenting: Sponsors Presenting Header
-      sub-body-presenting: Sponsors Presenting Body
-      sub-header-contributing: Sponsors Contributing Header
-      has-button: true
-      button-label: Learn More
-      button-url: "/about/"
-      button-type: border
-      button-class: lightning-yellow
-2018-sponsors:
-    - header: Sponsors Header
-      body: Sponsors Body
-      sub-header-presenting: Sponsors Presenting Header
-      sub-body-presenting: Sponsors Presenting Body
-      sub-header-contributing: Sponsors Contributing Header
-      has-button: true
-      button-label: Learn More
-      button-url: "/about/"
-      button-type: border
-      button-class: lightning-yellow
-2019-sponsors:
-    - header: Sponsors Header
-      body: Sponsors Body
-      sub-header-presenting: Sponsors Presenting Header
-      sub-body-presenting: Sponsors Presenting Body
-      sub-header-contributing: Sponsors Contributing Header
-      has-button: true
-      button-label: Learn More
-      button-url: "/about/"
-      button-type: border
-      button-class: lightning-yellow
+    - header: "DC Design Week is Coming Back in 2020"
+      subheader: "Stay turned for more, and follow us on Instagram @dcdesignweek."
+# Subscribe Section
+subscribe:
+    - header: "Subscribe for Updates"
+      body: "Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC."
+      button-url: "#"
+      button-label: "Subscribe"
+# Past Events Section
+past-events:
+    header: "Past DCDW 2019 Years"
+    body: "Morbi tempus varius sagittis sed ullamcorper turpis."
+    button-url: "https://2019.dcdesignweek.org/events/"
+    button-label: "See 2019 Events"
+    events:
+        - title: "Shaolin Jazz & Globe Posters: Opening Party!"
+          image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
+          url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
+          border-color: hot-pink
+        - title: "Building Equity Through Design with Antionette Carroll"
+          image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
+          url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
+          border-color: aquamarine
+        - title: "Closing Party: Drink, Draw & Dance "
+          image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+          url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+          border-color: hot-pink
+# Partner Section
+partner:
+    - header: "Partner with Us"
+      body: "Praesent semper aliquet egestas. Pellentesque iaculis tortor sit amet hendrerit consequat, sapien nibh iaculis eros, eget commodo dui massa vitae tellus curabitur vitae ante. "
+      button-url: "#"
+      button-label: "Become a Partner"
+# Past Editions Section
+past-editions:
+    header: "Past DCDW 2019 Years"
+    body: "Morbi tempus varius sagittis sed ullamcorper turpis."
+    button-url: "https://2019.dcdesignweek.org/events/"
+    button-label: "See 2019 Events"
+    editions:
+        - title: "DCDW 2016"
+          image: "/uploads/dcdw-2016-pattern.jpg"
+          url: https://2016.dcdwsignweek.org
+          border-color: dcdw-2016
+        - title: "DCDW 2017"
+          image: "/uploads/dcdw-2017-pattern.jpg"
+          url: https://2017.dcdesignweek.org
+          border-color: dcdw-2017
+        - title: "DCDW 2018"
+          image: "/uploads/dcdw-2018-pattern.jpg"
+          url: https://2018.dcdesignweek.org
+          border-color: dcdw-2018
 ---
