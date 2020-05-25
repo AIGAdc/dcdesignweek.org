@@ -3,8 +3,7 @@ title: "Test Event 2"
 published: false
 date: 2019-09-01 12:00:00 -04:00
 position: 1
-description:
-    Join AIGA DC & DC Design Week as we celebrate the start of DC Design
+description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
     Week 2019 with music from Shaolin Jazz and an exhibition with Globe Collection and
     Press at MICA at Big Chief in Ivy City!
 status:
@@ -36,8 +35,7 @@ venue:
 speakers:
     - name: Allison Fisher
       title: Manager, Globe Collection and Press at MICA
-      bio:
-          Allison Fisher is a designer and letterpress printer from Baltimore, Maryland.
+      bio: Allison Fisher is a designer and letterpress printer from Baltimore, Maryland.
           She is the manager of the Globe Collection and Press at MICA (Maryland Institute
           College of Art). She fell in love with printmaking and letterpress while earning
           her BFA in Graphic Design at MICA. As a student she was bitten by the DayGlo love
@@ -50,8 +48,7 @@ speakers:
       website-url: http://www.globeatmica.com
     - name: Marcus Dowling
       title: Journalist
-      bio:
-          As a journalist, native Washingtonian Marcus K. Dowling has written for print
+      bio: As a journalist, native Washingtonian Marcus K. Dowling has written for print
           journals including Vice, Complex, Spotify, The FADER, Bandcamp, Red Bull Magazine,
           Mixmag, DJ Mag, and innumerable others. Creatively, he is the creative curator
           behind the development of downtown DC's award-winning Decades Nightclub. Sitting
