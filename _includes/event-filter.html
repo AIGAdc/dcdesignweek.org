@@ -2,7 +2,7 @@
 	<form class="events-filter">
 		<!-- filters -->
 		<div class="events-filter__dates control-group" data-filter-group="">
-			{% for control in site.data.agenda.filter-date %}
+			{% for control in site.agenda.filter-date %}
 			<button
 				class="events-filter__date-button control {{ control.class }} {% if control.has-occurred == true %} events-filter__date-button--past-event {% endif %}"
 				data-filter="{{ control.filter }}"
@@ -44,7 +44,7 @@
 						<span class="font-weight-700 font-size-5">
 							Status
 						</span>
-						{% for control in site.data.agenda.filter-status %}
+						{% for control in site.agenda.filter-status %}
 						<div class="radio">
 							<label class="radio-label font-size-6">
 								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -69,7 +69,7 @@
 						<span class="font-weight-700 font-size-5">
 							Time
 						</span>
-						{% for control in site.data.agenda.filter-time-of-day %}
+						{% for control in site.agenda.filter-time-of-day %}
 						<div class="radio">
 							<label class="radio-label font-size-6">
 								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -82,7 +82,7 @@
 						<span class="font-weight-700 font-size-5">
 							Type
 						</span>
-						{% for control in site.data.agenda.filter-event-type %}
+						{% for control in site.agenda.filter-event-type %}
 						<div class="radio">
 							<label class="radio-label font-size-6">
 								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -95,7 +95,7 @@
 						<span class="font-weight-700 font-size-5">
 							Location
 						</span>
-						{% for control in site.data.agenda.filter-location %}
+						{% for control in site.agenda.filter-location %}
 						<div class="radio">
 							<label class="radio-label font-size-6">
 								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
