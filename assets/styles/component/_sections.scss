@@ -7,7 +7,16 @@
 	color: $white;
 }
 
+.section--white hr {
+	border-color: $black;
+}
+
+.section--black hr {
+	border-color: $white;
+}
+
 .section--white .button,
-.section--black .button {
+.section--black .button,
+.section .listing {
 	margin-top: $spacing-48;
 }
