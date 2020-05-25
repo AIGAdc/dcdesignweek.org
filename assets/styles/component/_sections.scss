@@ -17,6 +17,12 @@
 
 .section--white .button,
 .section--black .button,
-.section .listing {
+.section .listing,
+.section--black svg {
 	margin-top: $spacing-48;
+}
+
+.section--black svg {
+	fill: $white;
+	max-width: 48px;
 }

@@ -241,16 +241,16 @@ twitter:
     username: aigadc
 footer:
     links:
-        - title: Twitter
-          url: https://www.twitter.com/dcdesignweek
+        - title: "Twitter"
+          url: "https://www.twitter.com/dcdesignweek"
           icon: <i class="fab fa-twitter-square"></i>
-        - title: Instagram
-          url: https://www.instagram.com/dcdesignweek/
+        - title: "Instagram"
+          url: "https://www.instagram.com/dcdesignweek/"
           icon: <i class="fab fa-instagram"></i>
-        - title: Facebook
-          url: https://www.facebook.com/dcdesignweek/
+        - title: "Facebook"
+          url: "https://www.facebook.com/dcdesignweek/"
           icon: <i class="fab fa-facebook-square"></i>
-    contact: designweek@dc.aiga.org
+    contact: "designweek@dc.aiga.org"
     copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 exclude:
     - package.json
