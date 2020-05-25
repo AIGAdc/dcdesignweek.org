@@ -89,8 +89,7 @@
 	text-align: center;
 }
 
-@mixin three-col-grid {
+@mixin grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 	grid-gap: $spacing-16;
 }

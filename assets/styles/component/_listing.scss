@@ -50,5 +50,12 @@
 }
 
 .listing {
-	@include three-col-grid;
+	@include grid;
+	grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1023px) {
+	.listing {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
