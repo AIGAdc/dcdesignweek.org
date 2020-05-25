@@ -135,14 +135,16 @@ timezone: America/New_York
 encoding: utf-8
 lang: en-US
 asseturl: "/assets/"
-baseurl:
-url: https://dcdesignweek.or
+baseurl: ""
+url: https://dcdesignweek.org
 uploadurl: "/uploads/"
 repository: AIGAdc/dcdesignweek.org
-google-analytics: UA-84499644-1
 email: designweek@dc.aiga.org
+google-analytics: UA-84499644-1
 facebook:
     publisher: https://www.facebook.com/aigaDC/
+twitter:
+    username: aigadc
 social:
     links:
         - title: Twitter
@@ -156,8 +158,6 @@ social:
           icon: <i class="fab fa-facebook-square"></i>
     contact: designweek@dc.aiga.org
     copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
-twitter:
-    username: aigadc
 exclude:
     - package.json
     - package-lock.json

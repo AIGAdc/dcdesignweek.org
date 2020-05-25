@@ -3,7 +3,7 @@
 		{{ site.social.contact }}
 	</a>
 	<ul>
-		{% for link in site.social.links %}
+		{% for link in site.footer.social.links %}
 		<li>
 			<a href="{{ link.url }}" rel="noopener" target="_blank">
 				{{ link.icon }}
@@ -15,5 +15,3 @@
 		{{ site.social.copyright }}
 	</a>
 </footer>
-
-<!-- TODO: make these settings accessible in the config -->
