@@ -7,14 +7,18 @@
 }
 #mc_embed_signup .mc-field-group label {
 	display: block !important;
-	font-weight: 700 !important;
+	font-weight: 900 !important;
+	font-family: $sans;
 	padding: $spacing-8 !important;
 }
 #mc_embed_signup .mc-field-group input {
 	border: solid 2px transparent !important;
 	color: $black;
 	display: block !important;
-	padding: $spacing-8 !important;
+	font-size: $font-size-16;
+	font-weight: 400;
+	font-family: $sans;
+	padding: $spacing-8 $spacing-16 !important;
 	width: 100% !important;
 }
 #mc_embed_signup .asterisk {
@@ -74,7 +78,7 @@
 	appearance: none;
 }
 .mailchimp-grid {
-@include grid;
+	@include grid;
 	grid-template-columns: 1fr;
 }
 .mailchimp-button input {
@@ -87,6 +91,6 @@
 		width: auto !important;
 	}
 	.mailchimp-grid {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1fr 1fr min-content;
 	}
 }

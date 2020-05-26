@@ -2,6 +2,7 @@
 	@include flex-row;
 	@include flex-align-center;
 	@include flex-justify-space-between;
+	@include sticky;
 	@include sticky-top;
 	background-color: $white;
 	border-bottom: solid 2px $black;
