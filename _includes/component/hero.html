@@ -1,29 +1,33 @@
-{% if page.has-hero == true %} 
-	{% comment %} 
+{%- if page.has-hero == true -%} 
+	{%- comment -%} 
 	What is this? 
 	True/False option that controls visibility of hero section. 
-	{% endcomment %}
+	{%- endcomment -%}
 
-{% if page.layout == 'archive' %}
-	{% comment %} 
+{%- if page.layout == 'archive' -%}
+	{%- comment -%} 
 	What is this? 
 	True/False option that controls visibility of hero section. 
-	{% endcomment %}
+	{%- endcomment -%}
 
 	<section class="hero hero--archive">
-		<div class="wrapper-default">
-			{% for content in page.hero %} 
-				{% comment %} 
+		{%- for content in page.hero -%} 
+			<div class="wrapper-default">
+				{%- comment -%} 
 				What is this? 
 				Loop that will display content for each variable in the block.
-				{% endcomment %}
-				<h1>{{ content.header }}</h1>
-				<p class="wrapper-tight">{{ content.subheader | markdown }}</p>
-			{% endfor %}
-		</div>
+				{%- endcomment -%}
+				<h1>
+					{{ content.header }}
+				</h1>
+				<p class="wrapper-tight">
+					{{ content.subheader | markdown }}
+				</p>
+			</div>
+		{%- endfor -%}
 	</section>
 		
-	{% else %}
-		{% comment %} Show other hero {% endcomment %}
-	{% endif %}
-{% endif %}
+	{%- else -%}
+		{%- comment -%} Show other hero {%- endcomment -%}
+	{%- endif -%}
+{%- endif -%}

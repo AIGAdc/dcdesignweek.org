@@ -16,7 +16,7 @@
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="{{ site.theme-color }}" />
 
-		{% seo %}
+		{%- seo -%}
 
 		<!-- styles -->
 		<link href="{{ site.asseturl }}styles/app.css" media="all" rel="stylesheet" type="text/css" />
@@ -46,16 +46,16 @@
 	</head>
 
 	<!-- mobile menu -->
-	{% include 3rd-party/offside/menu.html %}
+	{%- include 3rd-party/offside/menu.html -%}
 
 	<body>
 		<div id="site-container">
 			<main class="{{ page.layout }}-layout">
-				{% include site-header.html %} {{ content | safe }} {% include site-footer.html %}
+				{%- include site-header.html -%} {{ content | safe }} {%- include site-footer.html -%}
 			</main>
 		</div>
 	</body>
 
 	<!-- mobile menu scripts -->
-	{% include 3rd-party/offside/scripts.html %}
+	{%- include 3rd-party/offside/scripts.html -%}
 </html>

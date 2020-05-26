@@ -1,8 +1,8 @@
 <section class="section section--white">
-	<div class="wrapper-default">
-		<h2>{{ page.past-events.header }}</h2>
+	<div class="wrapper-loose">
+		<h2 class="wrapper-default">{{ page.past-events.header }}</h2>
 		<hr />
-		<p>{{ page.past-events.body }}</p>
+		<p class="wrapper-default">{{ page.past-events.body }}</p>
 		<ul class="listing">
 			{% comment %} Component: Listing / Use when a list of items are being displayed.{% endcomment %} {% for
 			content in page.past-events.events %}
@@ -26,7 +26,8 @@
 			class="button button__border button__border--black"
 			href="https://2019.dcdesignweek.org/events/"
 			target="_blank"
-			>See 2019 Events</a
 		>
+			See 2019 Events
+		</a>
 	</div>
 </section>
