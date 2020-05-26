@@ -18,7 +18,8 @@
 	height: 288px;
 	width: 100%;
 	width: 100vw;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 .card-details {
 	background-color: $white;
@@ -72,33 +73,20 @@
 	margin: 0;
 	text-align: left;
 	white-space: nowrap;
-	-moz-transform: translateX(100%);
-	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 	width: 100%;
 }
 .carnegie-layout .ticker p,
 .home-layout .ticker p,
 .events-layout .ticker p {
-	-moz-animation: ticker 10000ms linear infinite;
 	-webkit-animation: ticker 10000ms linear infinite;
 	animation: ticker 10000ms linear infinite;
 }
 .events-single-layout .ticker p {
-	-moz-animation: ticker 20000ms linear infinite;
 	-webkit-animation: ticker 20000ms linear infinite;
 	animation: ticker 20000ms linear infinite;
 }
 /* Move it (define the animation) */
-
-@-moz-keyframes ticker {
-	0% {
-		-moz-transform: translateX(100%);
-	}
-	100% {
-		-moz-transform: translateX(-100%);
-	}
-}
 @-webkit-keyframes ticker {
 	0% {
 		-webkit-transform: translateX(100%);
@@ -109,16 +97,12 @@
 }
 @keyframes ticker {
 	0% {
-		-moz-transform: translateX(100%);
 		/* Firefox bug fix */
-		-webkit-transform: translateX(100%);
 		/* Firefox bug fix */
 		transform: translateX(100%);
 	}
 	100% {
-		-moz-transform: translateX(-100%);
 		/* Firefox bug fix */
-		-webkit-transform: translateX(-100%);
 		/* Firefox bug fix */
 		transform: translateX(-100%);
 	}
@@ -126,7 +110,6 @@
 /* diamond images */
 
 .diamond-image-border {
-	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	width: 150px;
 	height: 150px;
@@ -134,27 +117,19 @@
 	margin: 0 auto;
 }
 .diamond {
-	-webkit-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 	width: 135px;
 	height: 135px;
-	-webkit-transform: rotate(0deg) translateX(15px) translateY(-15px);
 	transform: rotate(0deg) translateX(15px) translateY(-15px);
-	-webkit-transition: -webkit-transform $timing-quick ease-in-out;
-	transition: -webkit-transform $timing-quick ease-in-out;
 	transition: transform $timing-quick ease-in-out;
-	transition: transform $timing-quick ease-in-out,
-		-webkit-transform $timing-quick ease-in-out;
 	overflow: hidden;
 }
 .diamond:hover {
-	-webkit-transform: rotate(0deg) translateX(2.5px) translateY(2.5px);
 	transform: rotate(0deg) translateX(2.5px) translateY(2.5px);
 }
 .diamond .diamond-los1 {
 	width: 100%;
 	height: 100%;
-	-webkit-transform: rotate(-45deg) translateY(-140px);
 	transform: rotate(-45deg) translateY(-140px);
 }
 .diamond .diamond-los1 img {
