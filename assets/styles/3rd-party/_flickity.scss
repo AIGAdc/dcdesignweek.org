@@ -52,7 +52,7 @@ https://flickity.metafizzy.co
 	border: none;
 	color: $black;
 }
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.flickity-button {
 		display: block;
 	}

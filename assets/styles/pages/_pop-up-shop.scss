@@ -10,7 +10,7 @@
 .call-for-artists hr {
 	border-color: $black;
 }
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.call-for-artists {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 204px 1fr 72px;

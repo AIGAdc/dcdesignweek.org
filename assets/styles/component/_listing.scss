@@ -32,7 +32,7 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.committee,
 	.sponsors,
 	.partners {

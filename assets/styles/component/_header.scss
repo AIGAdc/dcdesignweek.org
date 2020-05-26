@@ -53,7 +53,7 @@ ul {
 	border-bottom: 4px solid $black;
 }
 
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.site-header__links {
 		display: block;
 	}

@@ -4,16 +4,22 @@ $timing-default: 200ms;
 $timing-quick: 100ms;
 
 /* SECTION - breakpoints */
-$break-3: 1023px;
+$small: 479px;
+$medium: 767px;
+$large: 1023px;
+$extra-large: 1439px;
 
 /* SECTION - colors */
+// generic
+$white: #fff;
+$black: #000;
+
+// past editions
 $dcdw-2016: #0000ff;
 $dcdw-2017: #3e07d0;
 $dcdw-2018: #297b76;
 
-$white: #fff;
-$black: #000;
-$charcoal: #5a5a5a;
+// 2019 colors
 $mauve: #c396ff;
 $crusta: #fd813f;
 $hot-pink: #fb7eb8;
@@ -37,6 +43,28 @@ $index-3: 300;
 $index-2: 200;
 $index-1: 100;
 
+/* SECTION - spacing */
+$spacing-96: 6rem; // 96px
+$spacing-64: 4rem; // 64px
+$spacing-48: 3rem; // 48px
+$spacing-40: 2.5rem; // 40px
+$spacing-32: 2rem; // 32px
+$spacing-24: 1.5rem; // 24px
+$spacing-16: 1.25rem; // 20px
+$spacing-8: 0.5rem; // 8px
+$spacing-4: 0.25rem; // 4px
+
+/* SECTION - spacing */
+$spacing-96: 6rem; // 96px
+$spacing-64: 4rem; // 64px
+$spacing-48: 3rem; // 48px
+$spacing-40: 2.5rem; // 40px
+$spacing-32: 2rem; // 32px
+$spacing-24: 1.5rem; // 24px
+$spacing-16: 1.25rem; // 20px
+$spacing-8: 0.5rem; // 8px
+$spacing-4: 0.25rem; // 4px
+
 /* SECTION - typography */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:wght@400;700&display=swap");
 
@@ -53,14 +81,3 @@ $font-size-16: 1rem; // 16px
 $font-size-14: 0.875rem; // 14px
 $font-size-12: 0.75rem; // 12px
 $font-size-10: 0.625rem; // 10px
-
-/* SECTION - spacing */
-$spacing-96: 6rem; // 96px
-$spacing-64: 4rem; // 64px
-$spacing-48: 3rem; // 48px
-$spacing-40: 2.5rem; // 40px
-$spacing-32: 2rem; // 32px
-$spacing-24: 1.5rem; // 24px
-$spacing-16: 1.25rem; // 20px
-$spacing-8: 0.5rem; // 8px
-$spacing-4: 0.25rem; // 4px

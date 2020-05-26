@@ -93,7 +93,7 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.events-filter__additional-filters {
 		display: block;
 	}

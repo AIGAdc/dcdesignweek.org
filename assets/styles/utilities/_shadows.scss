@@ -78,7 +78,7 @@
 		box-shadow: 16px 16px $aquamarine;
 	}
 }
-@media screen and (min-width: $break-3) {
+@media screen and (min-width: $large) {
 	.shadow {
 		&--black {
 			box-shadow: 32px 32px $black;
