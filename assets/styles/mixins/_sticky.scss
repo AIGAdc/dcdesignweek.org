@@ -1,0 +1,13 @@
+@mixin sticky {
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: $index-10;
+}
+
+@mixin sticky-top {
+	top: 0;
+}
+
+@mixin sticky-bottom {
+	bottom: 0;
+}

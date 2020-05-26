@@ -1,6 +1,5 @@
 .button {
 	@include button-inline-block;
-
 	&__solid--mauve {
 		background-color: $mauve;
 	}
