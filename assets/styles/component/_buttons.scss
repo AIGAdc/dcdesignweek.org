@@ -8,12 +8,20 @@
 		border-color: $mauve;
 	}
 
+	&__link--mauve {
+		color: $mauve;
+	}
+
 	&__solid--crusta {
 		background-color: $crusta;
 	}
 
 	&__border--crusta {
 		border-color: $crusta;
+	}
+
+	&__link--crusta {
+		color: $crusta;
 	}
 
 	&__solid--hot-pink {
@@ -24,12 +32,20 @@
 		border-color: $hot-pink;
 	}
 
+	&__link--hot-pink {
+		color: $hot-pink;
+	}
+
 	&__solid--lightning-yellow {
 		background-color: $lightning-yellow;
 	}
 
 	&__border--lightning-yellow {
 		border-color: $lightning-yellow;
+	}
+
+	&__link--lightning-yellow {
+		color: $lightning-yellow;
 	}
 
 	&__solid--aquamarine {
@@ -40,8 +56,13 @@
 		border-color: $aquamarine;
 	}
 
+	&__link--aquamarine {
+		color: $aquamarine;
+	}
+
 	&__solid--black {
 		background-color: $black;
+		color: $white;
 	}
 
 	&__border--black {
