@@ -9,15 +9,16 @@
 /* Off-canvas element CSS */
 
 .offside {
+	background-color: $white;
 	position: fixed;
 	/* Does not play well with some old browsers (see: README) */
-	border-left: solid 2px $lightning-yellow;
+	border-left: solid 2px $black;
 	color: $black;
 	padding: $spacing-16;
-	width: 200px;
+	width: 300px;
 	height: 100%;
 	top: 0;
-	z-index: 9999;
+	z-index:$index-10;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	/* enables momentum scrolling in iOS overflow elements */
@@ -26,13 +27,13 @@
 
 .offside,
 .offside--left {
-	left: -200px;
+	left: -300px;
 }
 /* Right off-canvas elements default status: out of the page */
 
 .offside--right {
 	left: auto;
-	right: -200px;
+	right: -300px;
 }
 /*
  * Left off-canvas element is open:
@@ -42,7 +43,7 @@
 
 .offside--left.is-open,
 .offside-js--is-left .offside-sliding-element {
-	transform: translate3d(200px, 0, 0);
+	transform: translate3d(300px, 0, 0);
 }
 /*
  * Right off-canvas element is open:
@@ -52,13 +53,13 @@
 
 .offside--right.is-open,
 .offside-js--is-right .offside-sliding-element {
-	transform: translate3d(-200px, 0, 0);
+	transform: translate3d(-300px, 0, 0);
 }
 /* Elements Transitions */
 
 .offside-js--interact .offside,
 .offside-js--interact .offside-sliding-element {
-	transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform 250ms ease-in-out;
 	/* improves performance issues on mobile*/
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
@@ -91,10 +92,10 @@
 /* Element is open: container elements slide out */
 
 .no-csstransforms3d > .offside-js--is-left .offside-sliding-element {
-	right: -200px;
+	right: -300px;
 }
 .no-csstransforms3d > .offside-js--is-right .offside-sliding-element {
-	left: -200px;
+	left: -300px;
 }
 button#mobile-menu-trigger {
 	background: none !important;
@@ -108,4 +109,21 @@ button#mobile-menu-trigger {
 }
 .mobile-menu__list a {
 	color: $black;
+}
+
+#my-button {
+	display: block;
+	background-color: transparent;
+	border: none;
+	padding: $spacing-8;
+}
+
+#my-button svg {
+	max-width: 24px;
+	display: block;
+}
+@media screen and (min-width: 1023px) {
+	#my-button {
+		display: none;
+	}
 }

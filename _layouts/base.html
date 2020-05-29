@@ -45,17 +45,30 @@
 		</script>
 	</head>
 
-	<!-- mobile menu -->
-	{%- include 3rd-party/offside/menu.html -%}
+	<!-- Off-canvas element  -->
+	<nav id="my-menu">
+		<ul class="links">
+			{% for link in site.navigation-placeholder %}
+			<li class="link">
+				<a class="button button__link" href="{{ link.url }}" target="_blank" rel="noopener">
+					{{ link.label }}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+		<hr class="vertical-divider" />
+		<a href="https://dcdesignweek.org" class="button button__border button__border--black">
+			Become a Partner
+		</a>
+	</nav>
 
 	<body>
-		<div id="site-container">
-			<main class="{{ page.layout }}-layout">
-				{%- include site-header.html -%} {{ content | safe }} {%- include site-footer.html -%}
-			</main>
-		</div>
+		<main id="my-content-container" class="{{ page.layout }}-layout">
+			{%- include site-header.html -%} {{ content | safe }} {%- include site-footer.html -%}
+		</main>
+
+		{% include /3rd-party/offside/scripts.html %}
 	</body>
 
 	<!-- mobile menu scripts -->
-	{%- include 3rd-party/offside/scripts.html -%}
 </html>

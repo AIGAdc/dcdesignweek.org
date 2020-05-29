@@ -10,10 +10,16 @@
 }
 
 .site-header__navigation {
-	@include flex-row;
-	@include flex-align-center;
-	@include flex-justify-space-between;
-	gap: $spacing-32;
+	display: none;
+}
+
+@media screen and (min-width: 1023px) {
+	.site-header__navigation {
+		@include flex-row;
+		@include flex-align-center;
+		@include flex-justify-space-between;
+		gap: $spacing-32;
+	}
 }
 
 .site-header__logo {
