@@ -11,7 +11,7 @@ $layers: (
 	1: $index-1,
 );
 
-@mixin layer-modifiers($attribute: 'z-index', $prefix: '--') {
+@mixin layer-modifiers($attribute: "z-index", $prefix: "--") {
 	@each $name, $value in $layers {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;

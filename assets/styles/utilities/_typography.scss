@@ -1,23 +1,38 @@
-a {
-	font-weight: 700;
-	text-decoration: none;
+@mixin anchor {
 	color: $black;
 	cursor: pointer;
-	transition: opacity 150ms ease-in;
+	font-weight: 700;
+	text-decoration: none;
+	transition: opacity $timing-default ease-in;
+}
+
+a {
+	@include anchor;
 }
 
 a:hover {
 	opacity: 0.6;
 }
 
+@mixin state-active {
+	outline: 4px dashed $black !important;
+	outline-offset: 2px !important;
+}
+@mixin state-focus {
+	outline: 4px solid $black !important;
+	outline-offset: 2px !important;
+}
+
 button:active,
-button:focus,
 input:active,
+a:active {
+	@include state-active;
+}
+
+button:focus,
 input:focus,
-a:active,
 a:focus {
-	outline: dashed thin $mauve !important;
-	outline-offset: 2px thin !important;
+	@include state-focus;
 }
 
 h1,

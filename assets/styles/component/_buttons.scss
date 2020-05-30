@@ -1,5 +1,7 @@
 .button {
 	@include button-inline-block;
+	padding: $spacing-8 $spacing-16;
+
 	&__solid--mauve {
 		background-color: $mauve;
 	}
