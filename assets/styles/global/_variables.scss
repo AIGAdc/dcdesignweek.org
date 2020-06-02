@@ -14,11 +14,6 @@ $extra-large: 1439px;
 $white: #fff;
 $black: #000;
 
-// past editions
-$dcdw-2016: #0000ff;
-$dcdw-2017: #3e07d0;
-$dcdw-2018: #297b76;
-
 // 2019 colors
 $mauve: #c396ff;
 $crusta: #fd813f;
@@ -30,6 +25,12 @@ $crusta-light: rgba($crusta, 0.15);
 $hot-pink-light: rgba($hot-pink, 0.15);
 $lightning-yellow-light: rgba($lightning-yellow, 0.15);
 $aquamarine-light: rgba($aquamarine, 0.15);
+
+// past editions
+$dcdw-2016: #0000ff;
+$dcdw-2017: #3e07d0;
+$dcdw-2018: #297b76;
+$dcdw-2019: $hot-pink;
 
 /* SECTION - depth */
 $index-10: 1000;

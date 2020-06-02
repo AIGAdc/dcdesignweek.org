@@ -1,6 +1,6 @@
 ---
 # Page Settings
-title: Home - Placeholder
+title: Home
 layout: archive
 permalink: "/"
 published: true
@@ -45,10 +45,6 @@ past-editions:
     header: "DCDW Through the Years"
     body:
     editions:
-        - title: "DCDW 2016"
-          image: "/uploads/dcdw-2016-pattern.jpg"
-          url: https://2016.dcdwsignweek.org
-          border-color: dcdw-2016
         - title: "DCDW 2017"
           image: "/uploads/dcdw-2017-pattern.jpg"
           url: https://2017.dcdesignweek.org
@@ -57,4 +53,8 @@ past-editions:
           image: "/uploads/dcdw-2018-pattern.jpg"
           url: https://2018.dcdesignweek.org
           border-color: dcdw-2018
+        - title: "DCDW 2019"
+          image: "/uploads/dcdw-2019-pattern.png"
+          url: https://2019.dcdesignweek.org
+          border-color: dcdw-2019
 ---
