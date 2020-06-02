@@ -1,6 +1,7 @@
 @mixin wrapper {
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 $spacing-16;
 }
 
 @mixin wrapper--tight {
