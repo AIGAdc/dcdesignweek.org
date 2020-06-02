@@ -7,8 +7,8 @@ published: true
 # Hero Section
 has-hero: true
 hero:
-    - header: "DC Design Week is Coming Back in 2020"
-      subheader: "Stay turned for more, and follow us on Instagram @dcdesignweek."
+    - header: "Hang tight, DC Design Week will be back in a bit."
+      subheader: "You're not going to want to miss our 2020 festivities. Follow @dcdesignweek for the latest. "
 # Subscribe Section
 subscribe:
     - header: "Subscribe for Updates"
@@ -17,8 +17,8 @@ subscribe:
       button-label: "Subscribe"
 # Past Events Section
 past-events:
-    header: "Past DCDW 2019 Years"
-    body: "Morbi tempus varius sagittis sed ullamcorper turpis."
+    header: "2019 Event Highlights"
+    body: "While we work out the details for 2020, take a trip with us down memory lane."
     button-url: "https://2019.dcdesignweek.org/events/"
     button-label: "See 2019 Events"
     events:
@@ -37,15 +37,13 @@ past-events:
 # Partner Section
 partner:
     - header: "Partner with Us"
-      body: "Praesent semper aliquet egestas. Pellentesque iaculis tortor sit amet hendrerit consequat, sapien nibh iaculis eros, eget commodo dui massa vitae tellus curabitur vitae ante. "
-      button-url: "#"
+      body: "DC Design Week relies on the generosity and goodness of partners and sponsors to bring this annual celebration to life. Interested in supporting DC's design community? We'd love to hear from you!"
+      button-url: "mailto:designweek@dc.aiga.org"
       button-label: "Become a Partner"
 # Past Editions Section
 past-editions:
-    header: "Past DCDW 2019 Years"
-    body: "Morbi tempus varius sagittis sed ullamcorper turpis."
-    button-url: "https://2019.dcdesignweek.org/events/"
-    button-label: "See 2019 Events"
+    header: "DCDW Through the Years"
+    body:
     editions:
         - title: "DCDW 2016"
           image: "/uploads/dcdw-2016-pattern.jpg"
