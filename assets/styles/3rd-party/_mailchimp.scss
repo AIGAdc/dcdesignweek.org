@@ -1,5 +1,9 @@
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 
+.mailchimp {
+	margin-top: $spacing-48;
+}
+
 #mc_embed_signup form {
 	display: block !important;
 	position: relative !important;
@@ -18,7 +22,7 @@
 	font-size: $font-size-16;
 	font-weight: 400;
 	font-family: $sans;
-	padding: $spacing-8  !important;
+	padding: $spacing-8 !important;
 	width: 100% !important;
 }
 #mc_embed_signup .asterisk {
@@ -27,6 +31,7 @@
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
 	font-size: $font-size-14 !important;
+	margin-bottom: $spacing-8;
 }
 #mc_embed_signup .clear {
 	clear: both !important;
