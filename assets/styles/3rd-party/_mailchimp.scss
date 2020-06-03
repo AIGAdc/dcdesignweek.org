@@ -16,7 +16,7 @@
 	padding: $spacing-8 !important;
 }
 #mc_embed_signup .mc-field-group input {
-	border: solid 2px transparent !important;
+	border: solid 2px #656565  !important;
 	color: $black;
 	display: block !important;
 	font-size: $font-size-16;
@@ -89,7 +89,7 @@
 .mailchimp-button input {
 	font-size: $font-size-20;
 	padding: 0 $spacing-8;
-	margin-top: $spacing-40;
+	min-height: 44px;
 }
 @media screen and (min-width: 639px) {
 	#mc_embed_signup input.button {
