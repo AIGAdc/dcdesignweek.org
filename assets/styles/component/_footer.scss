@@ -21,7 +21,8 @@
 }
 
 .site-footer a svg {
-	font-size: $font-size-24;
+	max-width: 24px;
+	margin: auto;
 }
 
 .site-footer li {
