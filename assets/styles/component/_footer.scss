@@ -2,7 +2,7 @@
 	@include grid;
 	font-family: $sans;
 	grid-template-columns: 1fr;
-	padding: $spacing-8;
+	padding: $spacing-16;
 	align-items: center;
 	text-align: center;
 }
