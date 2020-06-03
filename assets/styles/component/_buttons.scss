@@ -89,3 +89,95 @@
 		color: $white;
 	}
 }
+
+.button-square {
+	@include button-inline-block;
+	padding: $spacing-8;
+
+	&__solid--mauve {
+		background-color: $mauve;
+	}
+
+	&__border--mauve {
+		border-color: $mauve;
+	}
+
+	&__link--mauve {
+		color: $mauve;
+	}
+
+	&__solid--crusta {
+		background-color: $crusta;
+	}
+
+	&__border--crusta {
+		border-color: $crusta;
+	}
+
+	&__link--crusta {
+		color: $crusta;
+	}
+
+	&__solid--hot-pink {
+		background-color: $hot-pink;
+	}
+
+	&__border--hot-pink {
+		border-color: $hot-pink;
+	}
+
+	&__link--hot-pink {
+		color: $hot-pink;
+	}
+
+	&__solid--lightning-yellow {
+		background-color: $lightning-yellow;
+	}
+
+	&__border--lightning-yellow {
+		border-color: $lightning-yellow;
+	}
+
+	&__link--lightning-yellow {
+		color: $lightning-yellow;
+	}
+
+	&__solid--aquamarine {
+		background-color: $aquamarine;
+	}
+
+	&__border--aquamarine {
+		border-color: $aquamarine;
+	}
+
+	&__link--aquamarine {
+		color: $aquamarine;
+	}
+
+	&__solid--black {
+		background-color: $black;
+		color: $white;
+	}
+
+	&__border--black {
+		border-color: $black;
+		color: $black;
+	}
+
+	&__link--black {
+		color: $black;
+	}
+
+	&__solid--white {
+		background-color: $white;
+	}
+
+	&__border--white {
+		border-color: $white;
+		color: $white;
+	}
+
+	&__link--white {
+		color: $white;
+	}
+}

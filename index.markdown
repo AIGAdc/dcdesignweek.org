@@ -8,10 +8,7 @@ published: true
 has-hero: true
 hero:
     - header: "Hang tight, DC Design Week will be back in a bit."
-      subheader: "You're not going to want to miss our 2020 festivities.
-
-
-          Follow [@dcdesignweek](https://www.instagram.com/dcdesignweek/) for the latest. "
+      subheader: "You're not going to want to miss our 2020 festivities. Follow [@dcdesignweek](https://www.instagram.com/dcdesignweek/) for the latest. "
 # Subscribe Section
 subscribe:
     - header: "Subscribe for Updates"
