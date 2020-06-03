@@ -13,7 +13,7 @@
 	display: block !important;
 	font-weight: 900 !important;
 	font-family: $sans;
-	padding: $spacing-8 !important;
+	padding: $spacing-8 0 !important;
 }
 #mc_embed_signup .mc-field-group input {
 	border: solid 2px #656565  !important;
@@ -86,10 +86,21 @@
 	@include grid;
 	grid-template-columns: 1fr;
 }
+
+.mailchimp-button {
+		align-self: start;
+}
+.mailchimp-button label {
+	display: block;;
+	min-height: 46px;
+}
 .mailchimp-button input {
 	font-size: $font-size-20;
 	padding: 0 $spacing-8;
 	min-height: 44px;
+}
+.mailchimp-button input {
+	margin-top: 0 !important;
 }
 @media screen and (min-width: 639px) {
 	#mc_embed_signup input.button {
