@@ -9,64 +9,36 @@
 	padding: $spacing-4 $spacing-16;
 }
 
+// hide site navigation when screen is < 1023
 .site-header__navigation {
 	display: none;
-}
-
-@media screen and (min-width: 1023px) {
-	.site-header__navigation {
-		@include flex-row;
-		@include flex-align-center;
-		@include flex-justify-space-between;
-		gap: $spacing-32;
-	}
-}
-
-.site-header__logo {
-	max-width: 120px;
 }
 
 .site-header__logo svg {
 	display: block;
 	max-height: 64px;
-	width: 100%;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
+	width: 100%; // ios bug
 }
 
 .site-header .links {
-	text-align: right;
 	margin-right: $spacing-32;
+	text-align: right;
 }
 
 .site-header .link {
 	display: inline-block;
 }
 
-.site-header .vertical-divider {
-	border: solid 2px lightgray;
-	border-radius: 0;
-	height: 38px;
-	width: auto;
-	margin: 0;
-}
-.site-header__menu {
-	display: block;
-	text-align: right;
-}
-
-.active {
-	border-bottom: 4px solid $black;
-}
-
-@media screen and (min-width: $large) {
-	.site-header__links {
-		display: block;
+@media screen and (min-width: 1023px) {
+	// show site navigation when screen is > 1023
+	.site-header__navigation {
+		@include flex-row;
+		@include flex-align-center;
+		@include flex-justify-space-between;
+		gap: $spacing-32;
 	}
 
+	// remove burger menu when screen is > 1023
 	.site-header__menu {
 		display: none;
 	}
