@@ -3,6 +3,7 @@
 	@include flex-align-center;
 	background-color: $white;
 	min-height: 700px;
+	position: relative;
 	text-align: center;
 }
 
@@ -15,4 +16,35 @@
 
 .hero p {
 	font-family: $sans;
+}
+
+.hero--archive::before,
+.hero--archive::after {
+	content: "";
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 340px;
+	width: 100%;
+}
+
+.hero--archive::before {
+	background-image: url("/uploads/pattern-hero-left-1x.png");
+	top: 0;
+	left: 0;
+	background-position: left;
+}
+
+.hero--archive::after {
+	background-image: url("/uploads/pattern-hero-right-1x.png");
+	bottom: 0;
+	right: 0;
+	background-position: right;
+}
+
+@media screen and (min-width: 1023px) {
+	.hero--archive::before,
+	.hero--archive::after {
+		height: 340px;
+		width: 280px;
+	}
 }
