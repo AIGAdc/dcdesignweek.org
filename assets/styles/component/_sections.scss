@@ -1,5 +1,6 @@
 .section {
 	@include section;
+	position: relative;
 }
 
 .section--black {
@@ -25,4 +26,55 @@
 .section--black svg {
 	fill: $white;
 	max-width: 48px;
+}
+
+.section--past-featured::before,
+.section--past-featured::after,
+.section--past::before,
+.section--past::after {
+	content: "";
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 100%;
+}
+
+.section--past-featured::before,
+.section--past::before {
+	background-position: left;
+	left: -100px;
+	top: 0;
+}
+
+.section--past-featured::before {
+	background-image: url("/uploads/pattern-events-left-1x.png");
+}
+
+.section--past::before {
+	background-image: url("/uploads/pattern-past-left-1x.png");
+}
+
+.section--past-featured::after,
+.section--past::after {
+	background-position: right;
+	bottom: 0;
+	right: -100px;
+}
+
+.section--past-featured::after {
+	background-image: url("/uploads/pattern-events-right-1x.png");
+}
+
+.section--past::after {
+	background-image: url("/uploads/pattern-past-right-1x.png");
+}
+
+@media screen and (min-width: 1023px) {
+	.section--past-featured::before,
+	.section--past-featured::after,
+	.section--past::before,
+	.section--past::after {
+		height: 280px;
+		width: 280px;
+	}
 }
