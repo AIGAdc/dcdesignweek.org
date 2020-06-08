@@ -1,6 +1,7 @@
 .section {
 	@include section;
 	position: relative;
+	overflow: hidden;
 }
 
 .section--black {
@@ -36,14 +37,14 @@
 	position: absolute;
 	background-repeat: no-repeat;
 	height: 280px;
-	width: 100%;
+	width: 280px;
 }
 
 .section--past-featured::before,
 .section--past::before {
 	background-position: left;
-	left: -100px;
-	top: 0;
+	left: -48px;
+	top: -144px;
 }
 
 .section--past-featured::before {
@@ -57,8 +58,8 @@
 .section--past-featured::after,
 .section--past::after {
 	background-position: right;
-	bottom: 0;
-	right: -100px;
+	bottom: -144px;
+	right: -48px;
 }
 
 .section--past-featured::after {
@@ -76,5 +77,19 @@
 	.section--past::after {
 		height: 280px;
 		width: 280px;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	.section--past-featured::before,
+	.section--past::before {
+		left: 0;
+		top: 0;
+	}
+
+	.section--past-featured::after,
+	.section--past::after {
+		bottom: 0;
+		right: 0;
 	}
 }

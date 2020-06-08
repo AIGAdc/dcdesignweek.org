@@ -29,15 +29,15 @@
 
 .hero--archive::before {
 	background-image: url("/uploads/pattern-hero-left-1x.png");
-	top: 0;
-	left: 0;
+	top: -184px;
+	left: -48px;
 	background-position: left;
 }
 
 .hero--archive::after {
 	background-image: url("/uploads/pattern-hero-right-1x.png");
-	bottom: 0;
-	right: 0;
+	bottom: -184px;
+	right: -48px;
 	background-position: right;
 }
 
@@ -46,5 +46,25 @@
 	.hero--archive::after {
 		height: 340px;
 		width: 280px;
+	}
+
+	.hero--archive::before {
+		top: -72px;
+		left: 0;
+	}
+
+	.hero--archive::after {
+		bottom: -72px;
+		right: 0;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	.hero--archive::before {
+		top: 0;
+	}
+
+	.hero--archive::after {
+		bottom: 0;
 	}
 }
