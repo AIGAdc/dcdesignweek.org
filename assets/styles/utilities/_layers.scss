@@ -1,0 +1,24 @@
+$layers: (
+	10: $index-10,
+	9: $index-9,
+	8: $index-8,
+	7: $index-7,
+	6: $index-6,
+	5: $index-5,
+	4: $index-4,
+	3: $index-3,
+	2: $index-2,
+	1: $index-1,
+);
+
+@mixin layer-modifiers($attribute: "z-index", $prefix: "--") {
+	@each $name, $value in $layers {
+		&#{$prefix}#{$name} {
+			#{$attribute}: $value;
+		}
+	}
+}
+
+.layer {
+	@include layer-modifiers;
+}

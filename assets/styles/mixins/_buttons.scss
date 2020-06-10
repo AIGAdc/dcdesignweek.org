@@ -1,0 +1,17 @@
+@mixin button {
+	background-color: transparent;
+	border: solid 2px transparent;
+	font-family: $sans;
+	font-weight: 700;
+	font-size: $font-size-16;
+}
+
+@mixin button-block {
+	@include button;
+	display: block;
+}
+
+@mixin button-inline-block {
+	@include button;
+	display: inline-block;
+}

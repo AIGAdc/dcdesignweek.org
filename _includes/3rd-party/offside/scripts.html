@@ -1,8 +1,16 @@
 <script>
-    // offside
-    var myOffside = offside("#mobile-menu", {
-        slidingElementsSelector: "#site-container",
-        buttonsSelector: "#mobile-menu-trigger",
-        slidingSide: "right", // String: Offside element pushed on left or right
-    });
+	var myOffside = offside("#my-menu", {
+		// Global offside options: affect all offside instances
+		slidingElementsSelector: "#my-content-container",
+		// String: Sliding elements selectors ('#foo, #bar')
+		disableCss3dTransforms: false,
+		// Disable CSS 3d Transforms support (for testing purposes)
+		debug: false,
+		// Boolean: If true, print errors in console
+		// Offside instance options: affect only this offside instance
+		buttonsSelector: "#my-button, .another-button",
+		// String: Offside toggle buttons selectors ('#foo, #bar')
+		slidingSide: "right",
+		// String: Offside element pushed on left or right
+	});
 </script>

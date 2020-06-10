@@ -11,35 +11,35 @@
  */
 
 .houdini {
-    display: none;
-    /**
+	display: none;
+	/**
    * Remove focus styles from content
    * @type {String}
    */
-    /**
+	/**
    * Show expanded content
    */
 }
 .houdini[tabindex="-1"]:focus {
-    outline: 0 !important;
+	outline: 0 !important;
 }
 .houdini.is-expanded {
-    display: block;
+	display: block;
 }
 /**
  * Remove button appearance from heading buttons
  */
 
 .houdini-heading .houdini-toggle {
-    background: inherit;
-    border: none;
-    display: block;
-    font: inherit;
-    padding: 0;
-    text-align: inherit;
-    width: 100%;
-    color: $black;
+	background: inherit;
+	border: none;
+	display: block;
+	font: inherit;
+	padding: 0;
+	text-align: inherit;
+	width: 100%;
+	color: $black;
 }
 button.houdini-toggle {
-    outline: 0 !important;
+	outline: 0 !important;
 }

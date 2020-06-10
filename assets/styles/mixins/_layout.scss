@@ -1,0 +1,30 @@
+@mixin wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 $spacing-16;
+}
+
+@mixin wrapper--tight {
+	max-width: 400px;
+}
+
+@mixin wrapper--default {
+	max-width: 768px;
+}
+
+@mixin wrapper--loose {
+	max-width: 960px;
+}
+
+@mixin full-bleed {
+	background-color: var(--theme-color-2);
+	margin-left: calc(50% - 50vw);
+	margin-top: var(--theme-spacing-default);
+	width: 100vw;
+}
+
+@mixin section {
+	padding: 144px $spacing-16;
+	text-align: center;
+	overflow: hiden;
+}

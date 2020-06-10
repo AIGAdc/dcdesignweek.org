@@ -1,0 +1,28 @@
+<section class="section section--white section--past">
+	<div class="wrapper-loose">
+		<h2 class="wrapper-default">{{ page.past-editions.header }}</h2>
+		<hr />
+		{% if page.past-editions.body %}
+		<p class="wrapper-default">{{ page.past-editions.body }}</p>
+		{% endif %}
+		<ul class="listing">
+			{% comment %} Component: Listing / Use when a list of items are being displayed.{% endcomment %} {% for
+			content in page.past-editions.editions %}
+			<li class="card card--event mix day-1 evening party dc featured">
+				<a class="enabled border border--{{ content.border-color }}" href="{{ content.url }}">
+					<div class="card-image border__bottom border__bottom--{{ content.border-color }}">
+						<figure>
+							<img src="{{ content.image }}" alt="Provide alt text describing the image above." />
+						</figure>
+					</div>
+					<div class="card-details">
+						<h3>
+							{{ content.title }}
+						</h3>
+					</div>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

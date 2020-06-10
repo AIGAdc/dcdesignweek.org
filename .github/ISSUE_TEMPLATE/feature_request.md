@@ -1,9 +1,9 @@
 ---
-title: ''
+title: ""
 name: Feature request
 about: Suggest an idea for this project
-labels: ''
-assignees: ''
+labels: ""
+assignees: ""
 ---
 
 **Is your feature request related to a problem? Please describe.**

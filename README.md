@@ -19,10 +19,10 @@ Coming Soon
 
 ## Site Archives
 
--   [2016 DC Design Week](https://2016.dcdesignweek.org)
--   [2017 DC Design Week](https://2017.dcdesignweek.org)
--   [2018 DC Design Week](https://2018.dcdesignweek.org)
 -   [2019 DC Design Week](https://2019.dcdesignweek.org)
+-   [2018 DC Design Week](https://2018.dcdesignweek.org)
+-   [2017 DC Design Week](https://2017.dcdesignweek.org)
+-   [2016 DC Design Week](https://2016.dcdesignweek.org)
 
 ## Follow Us
 

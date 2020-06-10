@@ -1,0 +1,45 @@
+.site-header {
+	@include flex-row;
+	@include flex-align-center;
+	@include flex-justify-space-between;
+	@include sticky;
+	@include sticky-top;
+	background-color: $white;
+	border-bottom: solid 2px $black;
+	padding: $spacing-4 $spacing-16;
+}
+
+// hide site navigation when screen is < 1023
+.site-header__navigation {
+	display: none;
+}
+
+.site-header__logo svg {
+	display: block;
+	max-height: 64px;
+	width: 100%; // ios bug
+}
+
+.site-header .links {
+	margin-right: $spacing-32;
+	text-align: right;
+}
+
+.site-header .link {
+	display: inline-block;
+}
+
+@media screen and (min-width: 1023px) {
+	// show site navigation when screen is > 1023
+	.site-header__navigation {
+		@include flex-row;
+		@include flex-align-center;
+		@include flex-justify-space-between;
+		gap: $spacing-32;
+	}
+
+	// remove burger menu when screen is > 1023
+	.site-header__menu {
+		display: none;
+	}
+}

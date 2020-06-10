@@ -1,9 +1,14 @@
 ---
+# Page Settings
 title: Events
-permalink: "/events/"
 layout: events
----
+permalink: "/events/"
+published: false
 
-# Events
-
+# Hero Section
+has-hero: true
+hero:
+    - tagline:
+      header: Events
+      subheader:
 ---
