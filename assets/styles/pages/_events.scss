@@ -1,104 +1,104 @@
 .events-filter {
-    border: none;
-    margin-bottom: $spacing-32;
+	border: none;
+	margin-bottom: $spacing-32;
 }
 /* date filters */
 
 .events-filter__dates {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .events-filter__dates .mixitup-control-active {
-    background-color: $mauve;
+	background-color: $mauve;
 }
 .events-filter__dates .control-text-1,
 .events-filter__dates .control-text-2,
 .events-filter__dates .control-text-3 {
-    display: block;
-    text-transform: uppercase;
+	display: block;
+	text-transform: uppercase;
 }
 .events-filter__date-button {
-    width: 25%;
+	width: 25%;
 }
 .events-filter__date-button--past-event {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 /* additional filters */
 
 .events-filter__additional-filters {
-    background-color: $mauve-light;
-    padding: $spacing-8;
-    display: none;
+	background-color: $mauve-light;
+	padding: $spacing-8;
+	display: none;
 }
 .events-filter__additional-header {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 .events-filter__additional-title {
-    flex-grow: 1;
+	flex-grow: 1;
 }
 .events-filter__reset {
-    flex-grow: 0;
-    text-align: right;
+	flex-grow: 0;
+	text-align: right;
 }
 .events-filter__additional-content {
-    border-top: solid 2px $mauve;
-    margin-top: $spacing-8;
-    padding: $spacing-8 0;
+	border-top: solid 2px $mauve;
+	margin-top: $spacing-8;
+	padding: $spacing-8 0;
 }
 .events-filter__additional-content .control-group {
-    margin-top: $spacing-8;
+	margin-top: $spacing-8;
 }
 .events-filter__additional-content p {
-    margin-bottom: $spacing-8;
+	margin-bottom: $spacing-8;
 }
 .events-filter__additional-content .column:not(:last-of-type) {
-    border-right: solid 2px $mauve;
+	border-right: solid 2px $mauve;
 }
 .control {
-    background: none;
-    border: none;
-    cursor: pointer;
-    flex-grow: 1;
-    color: $black;
-    padding: 8px;
-    transition: background 150ms;
+	background: none;
+	border: none;
+	cursor: pointer;
+	flex-grow: 1;
+	color: $black;
+	padding: 8px;
+	transition: background 150ms;
 }
 .mix-it-up-container {
-    overflow: hidden;
-    position: relative;
+	overflow: hidden;
+	position: relative;
 }
 .mixitup-container {
-    position: relative;
+	position: relative;
 }
 .mixitup-container-failed::after {
-    content: "No results, please refine your search";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
+	content: "No results, please refine your search";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
 }
 .events__list {
-    display: grid;
-    grid-gap: $spacing-32;
-    grid-template-columns: 1fr;
+	display: grid;
+	grid-gap: $spacing-32;
+	grid-template-columns: 1fr;
 }
 @media screen and (min-width: 767px) {
-    .events-filter__date-button {
-        width: auto;
-    }
-    /* listing */
-    .events__list {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.events-filter__date-button {
+		width: auto;
+	}
+	/* listing */
+	.events__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
-@media screen and (min-width: $break-3) {
-    .events-filter__additional-filters {
-        display: block;
-    }
-    /* listing */
-    .events__list {
-        grid-template-columns: repeat(3, 1fr);
-    }
+@media screen and (min-width: $large) {
+	.events-filter__additional-filters {
+		display: block;
+	}
+	/* listing */
+	.events__list {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }

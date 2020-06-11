@@ -1,38 +1,41 @@
 ---
 ---
 
-@import "1-tokens/animation";
-@import "1-tokens/breakpoints";
-@import "1-tokens/colors";
-@import "1-tokens/depth";
-@import "1-tokens/spacing";
-@import "1-tokens/typography";
+@import "global/variables";
+@import "global/reset";
+@import "global/reset-custom";
 
-@import "2-globals/reset";
-@import "2-globals/tools";
-@import "2-globals/typography";
+@import "mixins/buttons";
+@import "mixins/flexbox";
+@import "mixins/grid";
+@import "mixins/layout";
+@import "mixins/sticky";
+@import "mixins/typography";
 
-@import "3-components/buttons";
-@import "3-components/cards";
-@import "3-components/footer";
-@import "3-components/grid";
-@import "3-components/header";
-@import "3-components/listing";
-@import "3-components/slider";
+@import "utilities/borders";
+@import "utilities/colors";
+@import "utilities/layers";
+@import "utilities/layout";
+@import "utilities/shadows";
+@import "utilities/typography";
 
-@import "4-utilities/borders";
-@import "4-utilities/colors";
-@import "4-utilities/depth";
-@import "4-utilities/shadows";
-
-@import "3rd-party/flickity";
-@import "3rd-party/houdini";
-@import "3rd-party/lazysizes";
-@import "3rd-party/mailchimp";
-@import "3rd-party/offside";
+@import "component/buttons";
+@import "component/cards";
+@import "component/footer";
+@import "component/grid";
+@import "component/header";
+@import "component/hero";
+@import "component/listing";
+@import "component/sections";
+@import "component/slider";
 
 @import "pages/about";
 @import "pages/events";
 @import "pages/events-single";
 @import "pages/home";
 @import "pages/pop-up-shop";
+
+@import "3rd-party/flickity";
+@import "3rd-party/houdini";
+@import "3rd-party/mailchimp";
+@import "3rd-party/offside";

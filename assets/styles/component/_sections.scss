@@ -1,0 +1,95 @@
+.section {
+	@include section;
+	position: relative;
+	overflow: hidden;
+}
+
+.section--black {
+	background-color: $black;
+	color: $white;
+}
+
+.section--white hr {
+	border-color: $black;
+}
+
+.section--black hr {
+	border-color: $white;
+}
+
+.section--white .button,
+.section--black .button,
+.section .listing,
+.section--black svg {
+	margin-top: $spacing-64;
+}
+
+.section--black svg {
+	fill: $white;
+	max-width: 48px;
+}
+
+.section--past-featured::before,
+.section--past-featured::after,
+.section--past::before,
+.section--past::after {
+	content: "";
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 280px;
+}
+
+.section--past-featured::before,
+.section--past::before {
+	background-position: left;
+	left: -48px;
+	top: -144px;
+}
+
+.section--past-featured::before {
+	background-image: url("/uploads/pattern-events-left-1x.png");
+}
+
+.section--past::before {
+	background-image: url("/uploads/pattern-past-left-1x.png");
+}
+
+.section--past-featured::after,
+.section--past::after {
+	background-position: right;
+	bottom: -144px;
+	right: -48px;
+}
+
+.section--past-featured::after {
+	background-image: url("/uploads/pattern-events-right-1x.png");
+}
+
+.section--past::after {
+	background-image: url("/uploads/pattern-past-right-1x.png");
+}
+
+@media screen and (min-width: 1023px) {
+	.section--past-featured::before,
+	.section--past-featured::after,
+	.section--past::before,
+	.section--past::after {
+		height: 280px;
+		width: 280px;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	.section--past-featured::before,
+	.section--past::before {
+		left: 0;
+		top: 0;
+	}
+
+	.section--past-featured::after,
+	.section--past::after {
+		bottom: 0;
+		right: 0;
+	}
+}

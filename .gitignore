@@ -1,3 +1,6 @@
 .DS_Store
 _site
 .sass-cache
+.vscode
+_config (copy).yml
+node_modules

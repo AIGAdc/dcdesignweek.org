@@ -1,5 +1,15 @@
 ---
 title: About
+permalink: "/about/"
+published: false
+layout: about
+has-hero: true
+hero:
+- tagline: 
+  header: 'What is #DCDesignWeek ?'
+  subheader: |-
+    The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals. [Stay tuned in the coming weeks for the announcement of the full schedule of events!](#subscribe)
+    Got a question or feedback? Drop us a line over [email](mailto:designweek@dc.aiga.org).
 team-header: 2019 DCDW Committee
 dc-is-factsinating-header: 'DCDW2019: Unconventional Wisdom'
 dc-is-factsinating-body: "Sure, we all know DC’s urban layout was designed by L’Enfant
@@ -13,7 +23,7 @@ dc-is-factsinating-body: "Sure, we all know DC’s urban layout was designed by 
   to a healthy dose of lesser-known local trivia, our program of events will lift
   up new and engaging creative voices and practitioners to share their own unconventional
   wisdom. We can’t wait to learn with them and celebrate this weird and wonderful
-  city.\n"
+  city."
 sponsors:
 - header: 2019 Sponsors and Partners
   body: DC Design Week is produced by AIGA DC, a 100% volunteer-run, 501(c)3 nonprofit
@@ -34,13 +44,5 @@ partners:
   button-url: "/about/"
   button-type: border
   button-class: lightning-yellow
-layout: about
 ---
 
-# What is #DCDesignWeek ?
-
----
-
-The DC design community is an ever-growing body of professionals, makers, and voices working across disciplines to make our city more curious creative. DC Design Week is an annual celebration of this community, hosted by AIGA DC. Over the course of one week [(and a few bonus days this year!)](/carnegie-library/), our volunteer committee offers a full roster of creative events around the entire DC/Maryland/Virginia region, ranging from major keynotes with renowned graphic artists, to intimate workshops with local makers, to morning runs around the District’s murals. [Stay tuned in the coming weeks for the announcement of the full schedule of events!](#subscribe)
-
-Got a question or feedback? Drop us a line over [email](mailto:designweek@dc.aiga.org).

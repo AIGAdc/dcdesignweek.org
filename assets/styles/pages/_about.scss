@@ -1,12 +1,12 @@
 .about__facts {
-    align-items: center;
-    display: grid;
-    grid-gap: $spacing-32;
-
-    grid-template-columns: 1fr;
+	align-items: center;
+	display: grid;
+	grid-gap: $spacing-32;
+	grid-template-columns: 1fr;
 }
+
 @media screen and (min-width: 767px) {
-    .about__facts {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.about__facts {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

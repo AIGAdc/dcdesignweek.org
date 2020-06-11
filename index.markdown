@@ -1,88 +1,58 @@
 ---
 title: Home
 permalink: "/"
+layout: archive
+has-hero: true
 hero:
-- tagline: Shining a light on DCs most curious & creative.
-  header: "#DCDesignWeek 2019"
-  subheader: September 20-27
-hero-slider:
-- type: gogo
-  caption: Feel Like Bustin’ Loose
-  body: 'DC’s been mixing, remixing, and adding a funkier beat since Chuck Brown kept
-    his fans on the dance floors for hours in the 60s and 70s. In the 80s, the city
-    used its showmobiles to provide up to four free go-go concerts a day all summer!
-
-'
-  video: "/uploads/hero-gogo.mp4"
-  button-url: "#vader"
-- type: vader
-  caption: No Rebel Scum Here
-  body: 'Washington National Cathedral is the 6th largest cathedral in the world,
-    and it’s covered with gargoyles like the Master Carver, the Pretentious Dragon,
-    and...Darth Vader?? I guess he does [find our lack of faith...disturbing](https://www.youtube.com/watch?v=m0XuKORufGk){:target="_blank"
-    rel="noopener"}.
-
-'
-  video: "/uploads/hero-vader.mp4"
-  button-url: "#bong"
-- type: bong
-  caption: Puff, Puff, Free Admission
-  body: 'Did you know you can make a bong out of that?! Arlington’s DEA Museum boasts
-    an extensive collection of bongs, including one made out of a plastic honey bear
-    and another from an imitation mayonnaise jar. You can’t accuse the DMV of not
-    being creative!
-
-'
-  video: "/uploads/hero-bong.mp4"
-  button-url: "#fish"
-- type: fish
-  caption: Something Smells Fishy
-  body: 'The best place for fresh seafood for the last 214 years has been the Maine
-    Ave. Fish Market. The Fish Wharf is the oldest continuously operating fish market
-    in the U.S. — older than the Fulton Fish Market. Take that, NYC!
-
-'
-  video: "/uploads/hero-fish.mp4"
-  button-url: "#court"
-- type: court
-  caption: The Highest Court in the Land
-  body: 'The Nine may be the last word, but if you want to settle things with a little
-    three-on-three there’s an even higher court. Literally. On the top floor of the
-    Supreme Court is the *[actual highest court](https://www.atlasobscura.com/places/highest-court-of-the-land){:target="_blank"
-    rel="noopener"}* in the land.
-
-'
-  video: "/uploads/hero-court.mp4"
-  button-url: "#gogo"
-events:
-- header: Featured Events
-  body: In 2019, we're lifting up new and engaging creative voices and practitioners
-    to share their own unconventional wisdom. This year, we're planning almost 40
-    events across the district, in Virginia, and in Maryland. Check out some of our
-    favorites below, and click through to see everything going on! [**Want to get
-    into your favorite event for free — even if it's sold out? Sign up to volunteer
-    here!**](https://www.signupgenius.com/go/8050b4faeab22a5fe3-volunteer)
-  has-button: true
-  button-label: See More Events
-  button-url: "/events/"
-  button-type: border
-  button-class: lightning-yellow
-sponsors:
-- header: Thanks to Our 2019 Sponsors
-  body: |-
-    DC Design Week is produced by AIGA DC, a volunteer-run, 501(3)c nonprofit organization, in concert with a consortium of local associations, meetup groups and small businesses.
-    We rely on the generosity and goodness of others to make this week of celebration a reality. Major thanks to the following partners and sponsors for your support and commitment to the DC design community.
-    We couldn’t do it without you!
-  sub-header-presenting: 2019 Presenting Sponsor
-  sub-body-presenting: |-
-    DC Design Week is proud to name Creative Circle this year's Presenting Sponsor!
-    As the largest creative staffing agency in the business, Creative Circle makes people into teams. They connect advertising, creative, marketing, and interactive professionals with top companies throughout the U.S. and Canada, partnering with you on the best fit so that you can make great things happen.
-  sub-header-contributing: 2019 Contributing Sponsors
-  has-button: true
-  button-label: Learn More
-  button-url: "/about/"
-  button-type: border
-  button-class: lightning-yellow
-layout: home
+- header: Hang tight, DC Design Week will be back in a bit.
+  subheader: 'You''re not going to want to miss our 2020 festivities. Follow [@dcdesignweek](https://www.instagram.com/dcdesignweek/)
+    for the latest. '
+subscribe:
+- header: Subscribe for Updates
+  body: Stay up to date on everything we have planned to celebrate the DC design community.
+    Follow us on social and sign up below for updates from DCDW and AIGA DC.
+  button-url: "#"
+  button-label: Subscribe
+past-events:
+  header: 2019 Event Highlights
+  body: While we work out the details for 2020, take a trip with us down memory lane.
+  button-url: https://2019.dcdesignweek.org/events/
+  button-label: See 2019 Events
+  events:
+  - title: 'Shaolin Jazz & Globe Posters: Opening Party!'
+    image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
+    url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
+    border-color: hot-pink
+  - title: Building Equity Through Design with Antionette Carroll
+    image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
+    url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
+    border-color: aquamarine
+  - title: 'Closing Party: Drink, Draw & Dance '
+    image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+    url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+    border-color: hot-pink
+partner:
+- header: Partner with Us
+  body: DC Design Week relies on the generosity and goodness of partners and sponsors
+    to bring this annual celebration to life. Interested in supporting DC's design
+    community? We'd love to hear from you!
+  button-url: mailto:designweek@dc.aiga.org
+  button-label: Become a Partner
+past-editions:
+  header: DCDW Through the Years
+  body: 
+  editions:
+  - title: DCDW 2017
+    image: "/uploads/dcdw-2017-pattern.jpg"
+    url: https://2017.dcdesignweek.org
+    border-color: dcdw-2017
+  - title: DCDW 2018
+    image: "/uploads/dcdw-2018-pattern.jpg"
+    url: https://2018.dcdesignweek.org
+    border-color: dcdw-2018
+  - title: DCDW 2019
+    image: "/uploads/dcdw-2019-pattern.png"
+    url: https://2019.dcdesignweek.org
+    border-color: dcdw-2019
 ---
 
