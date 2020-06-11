@@ -1,14 +1,12 @@
 ---
-# Page Settings
 title: Events
-layout: events
 permalink: "/events/"
 published: false
-
-# Hero Section
+layout: events
 has-hero: true
 hero:
-    - tagline:
-      header: Events
-      subheader:
+- tagline: 
+  header: Events
+  subheader: 
 ---
+

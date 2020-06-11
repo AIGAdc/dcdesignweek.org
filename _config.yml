@@ -1,288 +1,298 @@
 ---
 title: DC Design Week 2019
-collections:
-    events-dcdw:
-        title: Events - DCDW
-        output: true
-        permalink: "/events/:title/"
-    posts:
-        title: Posts
-        output: true
-    uploads:
-        title: Uploads
-        output: true
-defaults:
-    - scope:
-          path: ""
-      values:
-          image: "/uploads/og-image.jpg"
-          description: "DC Design Week is a celebration of creatives, thinkers, and makers in the DC metro area. Its a week packed with amazing speakers, events, and meetups. Join us!"
-    - scope:
-          path: ""
-          type: "posts"
-      values:
-          description:
-          status:
-              is-coming-soon:
-              coming-soon-message:
-              is-sold-out:
-              sold-out-message:
-              is-featured-on-events:
-              is-featured-on-home:
-              featured-event-message:
-          event:
-              date:
-              image:
-              image-alt:
-              start-time:
-              end-time:
-              has-external-url: false
-              external-url:
-              has-speakers:
-          tickets:
-              has-member-button:
-              member-button-url:
-              member-button-label:
-              member-button-is-disabled:
-              has-non-member-button:
-              non-member-button-url:
-              non-member-button-label:
-              non-member-button-is-disabled:
-          venue:
-              is-tbd:
-              name:
-              address:
-              directions:
-          speakers:
-              - name:
-                title:
-                bio:
-                website-label:
-                website-url:
-          filter-date:
-              is-day-1:
-              is-day-2:
-              is-day-3:
-              is-day-4:
-              is-day-5:
-              is-day-6:
-              is-day-7:
-              is-day-8:
-          filter-time:
-              is-morning:
-              is-daytime:
-              is-evening: markdown
-              is-screening:
-              is-party:
-              is-family-friendly:
-              is-creative-lunch:
-              is-wellness:
-              is-workshop:
-          filter-location:
-              is-dc:
-              is-md:
-              is-va:
-          layout: events-single
-# Event List Filter
-filter-date:
-    - filter: .day-1
-      class: day-1
-      text-1: Fri
-      text-2: Sept
-      text-3: 20
-      has-occurred: false
-    - filter: .day-2
-      class: day-2
-      text-1: Sat
-      text-2: Sept
-      text-3: 21
-      has-occurred: false
-    - filter: .day-3
-      class: day-3
-      text-1: Sun
-      text-2: Sept
-      text-3: 22
-      has-occurred: false
-    - filter: .day-4
-      class: day-4
-      text-1: Mon
-      text-2: Sept
-      text-3: 23
-      has-occurred: false
-    - filter: .day-5
-      class: day-5
-      text-1: Tue
-      text-2: Sept
-      text-3: 24
-      has-occurred: false
-    - filter: .day-6
-      class: day-6
-      text-1: Wed
-      text-2: Sept
-      text-3: 25
-      has-occurred: false
-    - filter: .day-7
-      class: day-7
-      text-1: Thu
-      text-2: Sept
-      text-3: 26
-      has-occurred: false
-    - filter: .day-8
-      class: day-8
-      text-1: Fri
-      text-2: Sept
-      text-3: 27
-      has-occurred: false
-filter-time-of-day:
-    - filter: .morning
-      class: morning
-      text-1: Morning
-    - filter: .daytime
-      class: daytime
-      text-1: Daytime
-    - filter: .evening
-      class: evening
-      text-1: Evening
-filter-event-type:
-    - filter: .creative-lunch
-      class: creative-lunch
-      text-1: Creative Lunch
-    - filter: .family-friendly
-      class: family-friendly
-      text-1: Family Friendly
-    - filter: .party
-      class: party
-      text-1: Party
-    - filter: .screening
-      class: screening
-      text-1: Screening
-    - filter: .talk
-      class: talk
-      text-1: Talk
-    - filter: .wellness
-      class: wellness
-      text-1: Wellness
-    - filter: .workshop
-      class: workshop
-      text-1: Workshop
-filter-location:
-    - filter: .dc
-      class: dc
-      text-1: DC
-    - filter: .md
-      class: md
-      text-1: MD
-    - filter: .va
-      class: va
-      text-1: VA
-filter-sold-out:
-    - filter: .sold-out
-      class: sold-out
-      text-1: Sold Out
-filter-status:
-    - filter: .featured
-      class: featured
-      text-1: Show Featured
-# Presenting Sponsors
-2020-presenting-sponsors:
-    - title:
-      image:
-      image-alt:
-      website:
-# Contributing Sponsors
-2020-contributing-sponsors:
-    - title:
-      image:
-      image-alt:
-      website:
-# DC Design Week Team
-2020-team:
-    - image:
-      image-alt:
-      name:
-      role:
-      linkedin-url:
-      linkedin-label:
-      instagram-url:
-      instagram-label:
-# Global Navigation
-navigation-placeholder:
-    - url: "https://2016.dcdesignweek.org"
-      label: 2016
-    - url: "https://2017.dcdesignweek.org"
-      label: 2017
-    - url: "https://2018.dcdesignweek.org"
-      label: 2018
-    - url: "https://2019.dcdesignweek.org"
-      label: 2019
-# Global Info
-about-dcdw:
-    header: About DC Design Week
-    text: |-
-        Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-        Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!
-    accessibility-header: Accessibility
-    accessibility-text: |-
-        If you need any accommodations to fully access the event, please get in touch with us by *Monday, September 16, 2019* at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).
-    code-of-conduct-header: Code of Conduct
-    code-of-conduct-text: |-
-        All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-    questions-header: Questions?
-    questions-text: "If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org)."
-# Global Subscribe
-subscribe:
-    body: Stay up to date on everything we have planned to celebrate the DC design community. Follow us on social and sign up below for updates from DCDW and AIGA DC.
-# Global Volunteer
-volunteer:
-    header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg></span> in DC
-    body: Built by 100% volunteer power, we're constantly working to make this site better for you. If you see something, say something.
-    github: https://github.com/AIGAdc/dcdesignweek.org
-ignore-everything-below: <-- IGNORE EVERYTHING BELOW -->
 timezone: America/New_York
+collections:
+  events-dcdw:
+    title: Events - DCDW
+    output: true
+    permalink: "/events/:title/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    image: "/uploads/og-image.jpg"
+    description: DC Design Week is a celebration of creatives, thinkers, and makers
+      in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
+      Join us!
+- scope:
+    path: ''
+    type: posts
+  values:
+    description: 
+    status:
+      is-coming-soon: 
+      coming-soon-message: 
+      is-sold-out: 
+      sold-out-message: 
+      is-featured-on-events: 
+      is-featured-on-home: 
+      featured-event-message: 
+    event:
+      date: 
+      image: 
+      image-alt: 
+      start-time: 
+      end-time: 
+      has-external-url: false
+      external-url: 
+      has-speakers: 
+    tickets:
+      has-member-button: 
+      member-button-url: 
+      member-button-label: 
+      member-button-is-disabled: 
+      has-non-member-button: 
+      non-member-button-url: 
+      non-member-button-label: 
+      non-member-button-is-disabled: 
+    venue:
+      is-tbd: 
+      name: 
+      address: 
+      directions: 
+    speakers:
+    - name: 
+      title: 
+      bio: 
+      website-label: 
+      website-url: 
+    filter-date:
+      is-day-1: 
+      is-day-2: 
+      is-day-3: 
+      is-day-4: 
+      is-day-5: 
+      is-day-6: 
+      is-day-7: 
+      is-day-8: 
+    filter-time:
+      is-morning: 
+      is-daytime: 
+      is-evening: markdown
+      is-screening: 
+      is-party: 
+      is-family-friendly: 
+      is-creative-lunch: 
+      is-wellness: 
+      is-workshop: 
+    filter-location:
+      is-dc: 
+      is-md: 
+      is-va: 
+    layout: events-single
+filter-date:
+- filter: ".day-1"
+  class: day-1
+  text-1: Fri
+  text-2: Sept
+  text-3: 20
+  has-occurred: false
+- filter: ".day-2"
+  class: day-2
+  text-1: Sat
+  text-2: Sept
+  text-3: 21
+  has-occurred: false
+- filter: ".day-3"
+  class: day-3
+  text-1: Sun
+  text-2: Sept
+  text-3: 22
+  has-occurred: false
+- filter: ".day-4"
+  class: day-4
+  text-1: Mon
+  text-2: Sept
+  text-3: 23
+  has-occurred: false
+- filter: ".day-5"
+  class: day-5
+  text-1: Tue
+  text-2: Sept
+  text-3: 24
+  has-occurred: false
+- filter: ".day-6"
+  class: day-6
+  text-1: Wed
+  text-2: Sept
+  text-3: 25
+  has-occurred: false
+- filter: ".day-7"
+  class: day-7
+  text-1: Thu
+  text-2: Sept
+  text-3: 26
+  has-occurred: false
+- filter: ".day-8"
+  class: day-8
+  text-1: Fri
+  text-2: Sept
+  text-3: 27
+  has-occurred: false
+filter-time-of-day:
+- filter: ".morning"
+  class: morning
+  text-1: Morning
+- filter: ".daytime"
+  class: daytime
+  text-1: Daytime
+- filter: ".evening"
+  class: evening
+  text-1: Evening
+filter-event-type:
+- filter: ".creative-lunch"
+  class: creative-lunch
+  text-1: Creative Lunch
+- filter: ".family-friendly"
+  class: family-friendly
+  text-1: Family Friendly
+- filter: ".party"
+  class: party
+  text-1: Party
+- filter: ".screening"
+  class: screening
+  text-1: Screening
+- filter: ".talk"
+  class: talk
+  text-1: Talk
+- filter: ".wellness"
+  class: wellness
+  text-1: Wellness
+- filter: ".workshop"
+  class: workshop
+  text-1: Workshop
+filter-location:
+- filter: ".dc"
+  class: dc
+  text-1: DC
+- filter: ".md"
+  class: md
+  text-1: MD
+- filter: ".va"
+  class: va
+  text-1: VA
+filter-sold-out:
+- filter: ".sold-out"
+  class: sold-out
+  text-1: Sold Out
+filter-status:
+- filter: ".featured"
+  class: featured
+  text-1: Show Featured
+2020-presenting-sponsors:
+- title: 
+  image: 
+  image-alt: 
+  website: 
+2020-contributing-sponsors:
+- title: 
+  image: 
+  image-alt: 
+  website: 
+2020-team:
+- image: 
+  image-alt: 
+  name: 
+  role: 
+  linkedin-url: 
+  linkedin-label: 
+  instagram-url: 
+  instagram-label: 
+navigation-placeholder:
+- url: https://2016.dcdesignweek.org
+  label: 2016
+- url: https://2017.dcdesignweek.org
+  label: 2017
+- url: https://2018.dcdesignweek.org
+  label: 2018
+- url: https://2019.dcdesignweek.org
+  label: 2019
+about-dcdw:
+  header: About DC Design Week
+  text: |-
+    Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+
+    Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!
+  accessibility-header: Accessibility
+  accessibility-text: 'If you need any accommodations to fully access the event, please
+    get in touch with us by *Monday, September 16, 2019* at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
+  code-of-conduct-header: Code of Conduct
+  code-of-conduct-text: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+  questions-header: Questions?
+  questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
+subscribe:
+  body: Stay up to date on everything we have planned to celebrate the DC design community.
+    Follow us on social and sign up below for updates from DCDW and AIGA DC.
+volunteer:
+  header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
+    96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
+    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg></span>
+    in DC
+  body: Built by 100% volunteer power, we're constantly working to make this site
+    better for you. If you see something, say something.
+  github: https://github.com/AIGAdc/dcdesignweek.org
+ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US
 theme-color: "#c396ff"
 asseturl: "/assets/"
-baseurl: ""
+baseurl: ''
 url: https://dcdesignweek.org
 uploadurl: "/uploads/"
 repository: AIGAdc/dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
 facebook:
-    publisher: https://www.facebook.com/aigaDC/
+  publisher: https://www.facebook.com/aigaDC/
 twitter:
-    username: aigadc
+  username: aigadc
 footer:
-    links:
-        - title: "Twitter"
-          url: "https://www.twitter.com/dcdesignweek"
-          icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
-        - title: "Instagram"
-          url: "https://www.instagram.com/dcdesignweek/"
-          icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
-        - title: "Facebook"
-          url: "https://www.facebook.com/dcdesignweek/"
-          icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
-    contact: "designweek@dc.aiga.org"
-    copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
+  links:
+  - title: Twitter
+    url: https://www.twitter.com/dcdesignweek
+    icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400
+      32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9
+      158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4
+      5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1
+      1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447
+      65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5
+      24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2
+      28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
+  - title: Instagram
+    url: https://www.instagram.com/dcdesignweek/
+    icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+  - title: Facebook
+    url: https://www.facebook.com/dcdesignweek/
+    icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400
+      32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15
+      37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42
+      19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48
+      48 0 0 0-48-48z"/></svg>
+  contact: designweek@dc.aiga.org
+  copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 exclude:
-    - package.json
-    - package-lock.json
-    - node_modules
-    - README.md
-    - Gemfile
-    - Gemfile.lock
-    - ".jekyll-metadata"
-    - ".sass-cache"
-    - ".ruby-version"
-    - _config (copy).yml
+- package.json
+- package-lock.json
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
+- ".ruby-version"
+- _config (copy).yml
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 plugins:
-    - jekyll-seo-tag
+- jekyll-seo-tag
 sass:
-    sass_dir: "/assets/styles/"
-    style: compressed
+  sass_dir: "/assets/styles/"
+  style: compressed
