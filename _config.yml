@@ -1,5 +1,5 @@
 ---
-title: DC Design Week 2019
+title: DC Design Week 2020
 timezone: America/New_York
 collections:
   events-dcdw:
@@ -243,7 +243,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#c396ff"
 asseturl: "/assets/"
-baseurl: ''
+baseurl: 
 url: https://dcdesignweek.org
 uploadurl: "/uploads/"
 repository: AIGAdc/dcdesignweek.org
