@@ -4,8 +4,6 @@
 	@include flex-justify-space-between;
 	@include sticky;
 	@include sticky-top;
-	background-color: $white;
-	border-bottom: solid 2px $black;
 	padding: $spacing-4 $spacing-16;
 }
 
@@ -16,6 +14,7 @@
 
 .site-header__logo svg {
 	display: block;
+	fill: $white;
 	max-height: 64px;
 	width: 100%; // ios bug
 }

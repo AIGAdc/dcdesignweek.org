@@ -25,7 +25,10 @@ $colors: (
 	}
 }
 
-@mixin background-color-modifiers($attribute: "background-color", $prefix: "--") {
+@mixin background-color-modifiers(
+	$attribute: "background-color",
+	$prefix: "--"
+) {
 	@each $name, $value in $colors {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;

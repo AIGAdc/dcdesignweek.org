@@ -6,13 +6,21 @@
 		<ul class="links">
 			{% for link in site.navigation-placeholder %}
 			<li class="link">
-				<a class="button-square button-square__link" href="{{ link.url }}" target="_blank" rel="noopener">
+				<a
+					class="button-square button-square__link button-square__link--white"
+					href="{{ link.url }}"
+					target="_blank"
+					rel="noopener"
+				>
 					{{ link.label }}
 				</a>
 			</li>
 			{% endfor %}
 		</ul>
-		<a href="mailto:designweek@dc.aiga.org" class="button button__border button__border--black">
+		<a
+			href="mailto:designweek@dc.aiga.org"
+			class="button button__border button__border--white"
+		>
 			Become a Partner
 		</a>
 	</nav>

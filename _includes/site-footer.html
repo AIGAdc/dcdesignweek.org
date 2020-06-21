@@ -5,13 +5,17 @@
 	<ul>
 		{% for link in site.footer.links %}
 		<li>
-			<a href="{{ link.url }}" rel="noopener" target="_blank">
+			<a href="{{ link.url }}" rel="noopener nofollow" target="_blank">
 				{{ link.icon }}
 			</a>
 		</li>
 		{% endfor %}
 	</ul>
-	<a href="https://dc.aiga.org/about-us/mission/" rel="noopener" target="_blank">
+	<a
+		href="https://dc.aiga.org/about-us/mission/"
+		rel="noopener nofollow"
+		target="_blank"
+	>
 		{{ site.footer.copyright }}
 	</a>
 </footer>

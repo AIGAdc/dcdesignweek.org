@@ -4,17 +4,9 @@
 	overflow: hidden;
 }
 
-.section--black {
-	background-color: $black;
-	color: $white;
-}
-
-.section--white hr {
-	border-color: $black;
-}
-
-.section--black hr {
-	border-color: $white;
+.section h2 {
+	font-size: 32px;
+	margin-bottom: 32px;
 }
 
 .section--white .button,
