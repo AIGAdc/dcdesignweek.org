@@ -1,6 +1,10 @@
 .border {
 	border: solid 2px transparent;
 
+	&--white {
+		border-color: $white;
+	}
+
 	&--mauve {
 		border-color: $mauve;
 	}
@@ -44,6 +48,10 @@
 
 .border__bottom {
 	border-bottom: solid 2px transparent;
+
+	&--white {
+		border-color: $white;
+	}
 
 	&--mauve {
 		border-color: $mauve;

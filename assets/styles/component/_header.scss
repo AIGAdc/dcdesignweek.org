@@ -20,9 +20,9 @@
 	width: 100%; // ios bug
 }
 
-.site-header .links {
-	margin-right: $spacing-32;
+.site-header .links { 
 	text-align: right;
+	text-transform: uppercase;
 }
 
 .site-header .link {

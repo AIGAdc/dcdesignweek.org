@@ -6,12 +6,28 @@
 	transition: opacity $timing-default ease-in;
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
+h2 span:after {
+	content: "_";
+	color: $white;
+	display: inline-block;
+}
+
+h2 span:nth-child(odd),
+h2 span:nth-child(even) {
+	color: $white;
+}
+
 h2 span:nth-child(odd) {
-	color: violet;
+	font-family: $brand-sans;
+	font-weight: 400;
 }
 
 h2 span:nth-child(even) {
-	color: salmon;
+	font-family: $brand-serif;
 }
 
 a {

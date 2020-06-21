@@ -1,9 +1,12 @@
 <section class="section section--black">
-	<div class="wrapper-default">
+	<div class="wrapper-loose">
 		{% for content in page.partner %}
-		<h2>{{ content.header }}</h2>
-		<p>{{ content.body }}</p>
-		<a class="button button__border button__border--white" href="{{ content.button-url }}" target="_blank"
+		<h2 class="wrapper-one-quarter">{{ content.header }}</h2>
+		<p class="wrapper-half">{{ content.body }}</p>
+		<a
+			class="button button__border button__border--white"
+			href="{{ content.button-url }}"
+			target="_blank"
 			>{{ content.button-label }}
 		</a>
 		{% endfor %}

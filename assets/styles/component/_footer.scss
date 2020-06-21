@@ -1,7 +1,9 @@
 .site-footer {
 	@include grid;
-	font-family: $sans;
+	background-color: $white;
+	color: $black;
 	grid-template-columns: 1fr;
+	font-weight: 300;
 	padding: $spacing-16;
 	align-items: center;
 	text-align: center;
@@ -17,7 +19,7 @@
 
 .site-footer a {
 	color: $black;
-	font-size: $font-size-16;
+	font-size: $font-size-14;
 }
 
 .site-footer a svg {

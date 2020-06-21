@@ -1,9 +1,11 @@
 <section id="subscribe" class="section section__subscribe">
-	<h2 class="wrapper-tight">Subscribe for Updates</h2>
-	<div class="wrapper-tight">
-		{{ site.subscribe.body }}
-	</div>
-	<div class="wrapper-tight">
-		{% include 3rd-party/mailchimp/form.html %}
+	<div class="wrapper-loose">
+		<h2 class="wrapper-one-quarter">{{ site.subscribe.header }}</h2>
+		<div class="wrapper-half">
+			{{ site.subscribe.body }}
+		</div>
+		<div class="wrapper-half">
+			{% include 3rd-party/mailchimp/form.html %}
+		</div>
 	</div>
 </section>

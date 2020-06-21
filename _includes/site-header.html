@@ -4,7 +4,7 @@
 	</a>
 	<nav class="site-header__navigation">
 		<ul class="links">
-			{% for link in site.navigation-placeholder %}
+			{% for link in site.navigation-teaser %}
 			<li class="link">
 				<a
 					class="button-square button-square__link button-square__link--white"
@@ -17,12 +17,12 @@
 			</li>
 			{% endfor %}
 		</ul>
-		<a
+		<!-- <a
 			href="mailto:designweek@dc.aiga.org"
 			class="button button__border button__border--white"
 		>
 			Become a Partner
-		</a>
+		</a> -->
 	</nav>
 	<!-- Off-canvas toggle button -->
 	<button type="button" id="my-button">{% include icon/bars.svg %}</button>

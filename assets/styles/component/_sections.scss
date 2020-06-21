@@ -5,7 +5,7 @@
 }
 
 .section:not(:last-child) {
-	border-top: solid 2px $white;
+	border-top: solid 1px $white;
 }
 
 .section h2 {
@@ -13,8 +13,7 @@
 	margin-bottom: 32px;
 }
 
-.section--white .button,
-.section--black .button,
+.section .button,
 .section .listing,
 .section--black svg {
 	margin-top: $spacing-64;
@@ -24,3 +23,5 @@
 	fill: $white;
 	max-width: 48px;
 }
+
+

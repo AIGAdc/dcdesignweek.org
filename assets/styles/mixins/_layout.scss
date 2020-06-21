@@ -3,6 +3,22 @@
 	margin-right: auto;
 }
 
+@mixin wrapper-one-quarter {
+	max-width: 25%;
+}
+
+@mixin wrapper-half {
+	max-width: 50%;
+}
+
+@mixin wrapper-three-quarter {
+	max-width: 75%;
+}
+
+@mixin wrapper-full {
+	max-width: 100%;
+}
+
 @mixin wrapper--tight {
 	max-width: 768px;
 }

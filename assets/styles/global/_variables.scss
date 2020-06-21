@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
 /* SECTION - animations */
 $timing-slow: 300ms;
 $timing-default: 200ms;
@@ -14,9 +16,11 @@ $extra-large: 1439px;
 $white: #fff;
 $black: #000;
 
-// 2020
+// 2020 branding
 $red: #ff0000;
 $green: #4ae725;
+$brand-sans: 'Inter', sans-serif;
+$brand-serif: "sometimes-times-regular", serif;
 
 // 2019 colors
 $mauve: #c396ff;
@@ -73,8 +77,9 @@ $spacing-4: 0.25rem; // 4px
 /* SECTION - typography */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:wght@400;700&display=swap");
 
-$sans: "Source Sans Pro", sans-serif;
-$mono: "Source Code Pro", monospace;
+$sans: $brand-sans;
+$serif: $brand-serif;
+$mono: monospace;
 $font-size-64: 4rem; // 64px
 $font-size-56: 3.5rem; // 56px
 $font-size-48: 3rem; // 48px
@@ -82,6 +87,7 @@ $font-size-40: 2.5rem; // 40px
 $font-size-32: 2rem; // 32px
 $font-size-24: 1.5rem; // 24px
 $font-size-20: 1.25rem; // 20px
+$font-size-18: 1.125rem; // 18px
 $font-size-16: 1rem; // 16px
 $font-size-14: 0.875rem; // 14px
 $font-size-12: 0.75rem; // 12px

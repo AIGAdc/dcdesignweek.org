@@ -14,17 +14,18 @@
 }
 
 .card-image {
+	border: solid 2px $white;
 	position: relative;
 	max-width: 100%;
 }
 
 .card.card--event figure img {
-	height: 288px;
+	height: 400px;
 	width: 100%;
 	width: 100vw;
 	-o-object-fit: cover;
 	object-fit: cover;
-	filter: grayscale(1);
+	filter: grayscale(1) contrast(100%) brightness(75%);
 }
 
 .card-details {
@@ -34,6 +35,8 @@
 
 .card-details h3 {
 	font-size: $font-size-20;
+	font-weight: 400;
+	line-height: initial;
 }
 
 .card-details p {

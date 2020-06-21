@@ -213,8 +213,15 @@ navigation-placeholder:
   label: 2018
 - url: https://2019.dcdesignweek.org
   label: 2019
+navigation-teaser:
+- url: /events
+  label: Events
+- url: /about
+  label: About
+- url: /pop-up-shop
+  label: Pop-Up Shop
 about-dcdw:
-  header: About DC Design Week
+  header: <span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>
   text: |-
     Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
@@ -227,14 +234,15 @@ about-dcdw:
   questions-header: Questions?
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
 subscribe:
+  header: <span>Subscribe</span> <span>for</span> <span>updates</span>
   body: Stay up to date on everything we have planned to celebrate the DC design community.
     Follow us on social and sign up below for updates from DCDW and AIGA DC.
 volunteer:
-  header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
+  header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
     96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
     199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg></span>
-    in DC
+    <span>in</span> <span>DC</span>
   body: Built by 100% volunteer power, we're constantly working to make this site
     better for you. If you see something, say something.
   github: https://github.com/AIGAdc/dcdesignweek.org

@@ -22,19 +22,15 @@ past-events:
         - title: "Shaolin Jazz & Globe Posters: Opening Party!"
           image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
           url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
-          border-color: hot-pink
         - title: Building Equity Through Design with Antionette Carroll
           image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
           url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
-          border-color: aquamarine
         - title: "Closing Party: Drink, Draw & Dance "
           image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
           url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-          border-color: hot-pink
         - title: "Workshop: The Space Type Continuum"
-          image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+          image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
           url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-          border-color: crusta
 partner:
     - header: <span>Partner</span> <span>with</span> <span>AIGA</span>
       body:
@@ -50,17 +46,13 @@ past-editions:
         - title: DCDW 2016
           image: "/uploads/dcdw-2016-pattern.jpg"
           url: https://2016.dcdesignweek.org
-          border-color: dcdw-2016
         - title: DCDW 2017
           image: "/uploads/dcdw-2017-pattern.jpg"
           url: https://2017.dcdesignweek.org
-          border-color: dcdw-2017
         - title: DCDW 2018
           image: "/uploads/dcdw-2018-pattern.jpg"
           url: https://2018.dcdesignweek.org
-          border-color: dcdw-2018
         - title: DCDW 2019
           image: "/uploads/dcdw-2019-pattern.png"
           url: https://2019.dcdesignweek.org
-          border-color: dcdw-2019
 ---
