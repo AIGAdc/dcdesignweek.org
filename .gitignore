@@ -1,5 +1,5 @@
 .DS_Store
-_site
+build
 .sass-cache
 .vscode
 _config (copy).yml
