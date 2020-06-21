@@ -2,55 +2,62 @@
 	display: flex;
 	flex-direction: column;
 }
+
 .card a {
 	display: block;
 	margin: 0;
 }
+
 .card.card--committee {
 	padding-top: 2rem;
 	flex-direction: column;
 }
+
 .card-image {
 	position: relative;
 	max-width: 100%;
 }
+
 .card.card--event figure img {
 	height: 288px;
 	width: 100%;
 	width: 100vw;
 	-o-object-fit: cover;
-	   object-fit: cover;
+	object-fit: cover;
+	filter: grayscale(1);
 }
+
 .card-details {
-	background-color: $white;
-	color: $black;
-	flex-grow: 1;
-	padding: $spacing-16;
+	color: $white;
+	padding: $spacing-16 0;
 }
-.card-details hr {
-	border-color: $black;
-}
+
 .card-details h3 {
-	font-size: $font-size-24;
+	font-size: $font-size-20;
 }
+
 .card-details p {
 	font-size: $font-size-16;
-	font-weight: 400;
 	margin: 0 0 $spacing-8 0;
 }
+
 .card__sponsors .card-details,
 .card__partners .card-details {
 	padding: 0;
 }
+
 .card__sponsors--contributing {
 	padding: 0 $spacing-16;
 }
+
 .card--committee .card-details h3 {
 	margin-top: $spacing-32;
 }
+
 .past-event {
 	opacity: 0.5;
 }
+
 /* ticker */
 
 .ticker {
@@ -64,6 +71,7 @@
 	bottom: 0;
 	left: 0;
 }
+
 .carnegie-layout .ticker p,
 .home-layout .ticker p,
 .events-layout .ticker p,
@@ -76,16 +84,19 @@
 	transform: translateX(100%);
 	width: 100%;
 }
+
 .carnegie-layout .ticker p,
 .home-layout .ticker p,
 .events-layout .ticker p {
 	-webkit-animation: ticker 10000ms linear infinite;
 	animation: ticker 10000ms linear infinite;
 }
+
 .events-single-layout .ticker p {
 	-webkit-animation: ticker 20000ms linear infinite;
 	animation: ticker 20000ms linear infinite;
 }
+
 /* Move it (define the animation) */
 @-webkit-keyframes ticker {
 	0% {
@@ -95,6 +106,7 @@
 		-webkit-transform: translateX(-100%);
 	}
 }
+
 @keyframes ticker {
 	0% {
 		/* Firefox bug fix */
@@ -107,6 +119,7 @@
 		transform: translateX(-100%);
 	}
 }
+
 /* diamond images */
 
 .diamond-image-border {
@@ -116,6 +129,7 @@
 	border: solid 5px $black;
 	margin: 0 auto;
 }
+
 .diamond {
 	transform-origin: 50% 50%;
 	width: 135px;
@@ -124,20 +138,24 @@
 	transition: transform $timing-quick ease-in-out;
 	overflow: hidden;
 }
+
 .diamond:hover {
 	transform: rotate(0deg) translateX(2.5px) translateY(2.5px);
 }
+
 .diamond .diamond-los1 {
 	width: 100%;
 	height: 100%;
 	transform: rotate(-45deg) translateY(-140px);
 }
+
 .diamond .diamond-los1 img {
 	min-width: 155%;
 	position: absolute;
 	top: 100px;
 	left: -40px;
 }
+
 @media screen and (min-width: 1023px) {
 	.card {
 		flex-direction: initial;

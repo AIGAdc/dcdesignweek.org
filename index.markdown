@@ -4,19 +4,17 @@ permalink: "/"
 layout: archive
 has-hero: true
 hero:
-    - header: Hang tight, DC Design Week will be back in a bit.
+    - header:
       subheader:
-          "You're not going to want to miss our 2020 festivities. Follow [@dcdesignweek](https://www.instagram.com/dcdesignweek/)
-          for the latest. "
 subscribe:
-    - header: Subscribe for Updates
+    - header: <span>Subscribe</span> <span>for</span> <span>Updates</span>
       body:
           Stay up to date on everything we have planned to celebrate the DC design community.
           Follow us on social and sign up below for updates from DCDW and AIGA DC.
       button-url: "#"
       button-label: Subscribe
 past-events:
-    header: 2019 Event Highlights
+    header: <span>2019</span> <span>Event</span> <span>Highlights</span>
     body: While we work out the details for 2020, take a trip with us down memory lane.
     button-url: https://2019.dcdesignweek.org/events/
     button-label: See 2019 Events
@@ -33,8 +31,12 @@ past-events:
           image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
           url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
           border-color: hot-pink
+        - title: "Workshop: The Space Type Continuum"
+          image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+          url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+          border-color: crusta
 partner:
-    - header: Partner with Us
+    - header: <span>Partner</span> <span>with</span> <span>AIGA</span>
       body:
           DC Design Week relies on the generosity and goodness of partners and sponsors
           to bring this annual celebration to life. Interested in supporting DC's design
@@ -42,9 +44,13 @@ partner:
       button-url: mailto:designweek@dc.aiga.org
       button-label: Become a Partner
 past-editions:
-    header: DCDW Through the Years
+    header: <span>DCDW</span> <span>Through</span> <span>the</span> <span>Years</span>
     body:
     editions:
+        - title: DCDW 2016
+          image: "/uploads/dcdw-2016-pattern.jpg"
+          url: https://2016.dcdesignweek.org
+          border-color: dcdw-2016
         - title: DCDW 2017
           image: "/uploads/dcdw-2017-pattern.jpg"
           url: https://2017.dcdesignweek.org

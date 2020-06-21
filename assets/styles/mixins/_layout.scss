@@ -1,19 +1,18 @@
 @mixin wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 $spacing-16;
 }
 
 @mixin wrapper--tight {
-	max-width: 400px;
-}
-
-@mixin wrapper--default {
 	max-width: 768px;
 }
 
+@mixin wrapper--default {
+	max-width: 1280px;
+}
+
 @mixin wrapper--loose {
-	max-width: 960px;
+	max-width: 1440px;
 }
 
 @mixin full-bleed {

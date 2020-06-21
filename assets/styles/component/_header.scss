@@ -4,6 +4,7 @@
 	@include flex-justify-space-between;
 	@include sticky;
 	@include sticky-top;
+	background-color: $black;
 	padding: $spacing-4 $spacing-16;
 }
 

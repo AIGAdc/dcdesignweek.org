@@ -6,6 +6,14 @@
 	transition: opacity $timing-default ease-in;
 }
 
+h2 span:nth-child(odd) {
+	color: violet;
+}
+
+h2 span:nth-child(even) {
+	color: salmon;
+}
+
 a {
 	@include anchor;
 }
