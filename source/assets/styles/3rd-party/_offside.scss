@@ -102,7 +102,7 @@ button#mobile-menu-trigger {
 	border: none !important;
 	margin: 0 !important;
 	font-size: $font-size-32;
-	color: $black;
+	color: $white;
 }
 .offside-js--is-open {
 	overflow: hidden;
@@ -122,6 +122,7 @@ button#mobile-menu-trigger {
 	max-width: 24px;
 	width: 24px;
 	display: block;
+	fill: $white;
 }
 @media screen and (min-width: 1023px) {
 	#my-button {
