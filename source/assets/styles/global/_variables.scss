@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-
 /* SECTION - animations */
 $timing-slow: 300ms;
 $timing-default: 200ms;
@@ -19,7 +17,8 @@ $black: #000;
 // 2020 branding
 $red: #ff0000;
 $green: #4ae725;
-$brand-sans: 'Inter', sans-serif;
+//$brand-sans: 'Inter', sans-serif;
+$brand-sans: "fk_groteskregular", sans-serif;
 $brand-serif: "sometimes-times-regular", serif;
 
 // 2019 colors
