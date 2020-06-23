@@ -109,7 +109,7 @@
 }
 
 .mailchimp-button label {
-	display: block;
+	display: none;
 	min-height: 42px;
 }
 
@@ -130,5 +130,9 @@
 
 	.mailchimp-grid {
 		grid-template-columns: 1fr 1fr min-content;
+	}
+
+	.mailchimp-button label {
+		display: block;
 	}
 }
