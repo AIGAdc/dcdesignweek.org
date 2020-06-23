@@ -18,22 +18,24 @@ https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queri
 	@include wrapper--loose;
 }
 
-.wrapper-one-quarter {
-	@include wrapper-one-quarter;
-}
-
-.wrapper-half {
-	@include wrapper-half;
-}
-
-.wrapper-three-quarter {
-	@include wrapper-three-quarter;
-}
-
-.wrapper-full {
-	@include wrapper-full;
-}
-
 .full-bleed {
 	@include full-bleed;
+}
+
+@media screen and (min-width: 1023px) {
+	.wrapper-one-quarter {
+		@include wrapper-one-quarter;
+	}
+
+	.wrapper-half {
+		@include wrapper-half;
+	}
+
+	.wrapper-three-quarter {
+		@include wrapper-three-quarter;
+	}
+
+	.wrapper-full {
+		@include wrapper-full;
+	}
 }
