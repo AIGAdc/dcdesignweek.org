@@ -3,6 +3,10 @@
 https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 */
 
+.full-bleed {
+	@include full-bleed;
+}
+
 .wrapper-tight {
 	@include wrapper;
 	@include wrapper--tight;
@@ -16,10 +20,6 @@ https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queri
 .wrapper-loose {
 	@include wrapper;
 	@include wrapper--loose;
-}
-
-.full-bleed {
-	@include full-bleed;
 }
 
 @media screen and (min-width: 1023px) {
