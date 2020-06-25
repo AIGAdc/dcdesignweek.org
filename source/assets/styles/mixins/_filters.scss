@@ -1,0 +1,7 @@
+@mixin grayscale {
+    filter: grayscale(1);
+}
+
+@mixin no-grayscale {
+    filter: grayscale(0);
+}

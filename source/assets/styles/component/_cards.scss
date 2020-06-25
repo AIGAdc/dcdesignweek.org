@@ -8,6 +8,10 @@
 	margin: 0;
 }
 
+.card a:hover {
+	opacity: 1;
+}
+
 .card.card--committee {
 	padding-top: 2rem;
 	flex-direction: column;
@@ -25,7 +29,12 @@
 	width: 100vw;
 	-o-object-fit: cover;
 	object-fit: cover;
-	filter: grayscale(1) contrast(100%) brightness(75%);
+	transition: filter $timing-quick ease-in;
+	@include grayscale;
+}
+
+.card.card--event figure img:hover {
+	@include no-grayscale;
 }
 
 .card-details {
