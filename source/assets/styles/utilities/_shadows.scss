@@ -4,28 +4,36 @@
 }
 
 .shadow {
+	&--green {
+		box-shadow: 8px 8px $green;
+	}
+
 	&--black {
-		box-shadow: 16px 16px $black;
+		box-shadow: 8px 8px $black;
 	}
 
 	&--mauve {
-		box-shadow: 16px 16px $mauve;
+		box-shadow: 8px 8px $mauve;
 	}
 
 	&--hot-pink {
-		box-shadow: 16px 16px $hot-pink;
+		box-shadow: 8px 8px $hot-pink;
 	}
 
 	&--crusta {
-		box-shadow: 16px 16px $crusta;
+		box-shadow: 8px 8px $crusta;
 	}
 
 	&--lightning-yellow {
-		box-shadow: 16px 16px $lightning-yellow;
+		box-shadow: 8px 8px $lightning-yellow;
 	}
 
 	&--aquamarine {
-		box-shadow: 16px 16px $aquamarine;
+		box-shadow: 8px 8px $aquamarine;
+	}
+
+	&--green:hover {
+		box-shadow: 0 0 $green;
 	}
 
 	&--black:hover {
@@ -54,6 +62,10 @@
 }
 
 .shadow-reverse {
+	&--green {
+		box-shadow: 8px 8px $green;
+	}
+
 	&--black {
 		box-shadow: 0px 0px $black;
 	}
@@ -78,28 +90,32 @@
 		box-shadow: 0px 0px $aquamarine;
 	}
 
+	&--green:hover {
+		box-shadow: 8px 8px $green;
+	}
+
 	&--black:hover {
-		box-shadow: 16px 16px $black;
+		box-shadow: 8px 8px $black;
 	}
 
 	&--mauve:hover {
-		box-shadow: 16px 16px $mauve;
+		box-shadow: 8px 8px $mauve;
 	}
 
 	&--hot-pink:hover {
-		box-shadow: 16px 16px $hot-pink;
+		box-shadow: 8px 8px $hot-pink;
 	}
 
 	&--crusta:hover {
-		box-shadow: 16px 16px $crusta;
+		box-shadow: 8px 8px $crusta;
 	}
 
 	&--lightning-yellow:hover {
-		box-shadow: 16px 16px $lightning-yellow;
+		box-shadow: 8px 8px $lightning-yellow;
 	}
 
 	&--aquamarine:hover {
-		box-shadow: 16px 16px $aquamarine;
+		box-shadow: 8px 8px $aquamarine;
 	}
 }
 

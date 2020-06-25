@@ -25,8 +25,8 @@
     <!-- listing -->
     <div class="listing__sponsors--presenting">
             {{ section.sub-body-presenting | markdownify }}
-        {% for sponsor in site.2019-presenting-sponsors %}
-        <li class="card card__sponsors card__sponsors--presenting border border--lightning-yellow shadow shadow--hot-pink">
+        {% for sponsor in site.2020-presenting-sponsors %}
+        <li class="card card__sponsors card__sponsors--presenting border border--white shadow shadow--green">
             <div class="card-details">
                 <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
                     <img alt="{{ sponsor.image-alt }}" class="" data-src="{{ sponsor.image }}" src="{{ sponsor.image }}">
@@ -42,7 +42,7 @@
     <hr/>
     <!-- listing -->
     <ul class="listing__sponsors">
-        {% for sponsor in site.2019-contributing-sponsors %}
+        {% for sponsor in site.2020-contributing-sponsors %}
         <li class="card card__sponsors card__sponsors--contributing">
             <div class="card-details">
                 <a href="{{ sponsor.website }}" rel="noopener" target="_blank">
