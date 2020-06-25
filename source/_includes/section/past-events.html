@@ -6,9 +6,9 @@
 			{% comment %} Component: Listing / Use when a list of items are
 			being displayed.{% endcomment %} {% for content in
 			page.past-events.events %}
-			<li class="card card--event mix day-1 evening party dc featured">
+			<li class="card card--event shadow-reverse shadow-reverse--green">
 				<a
-					class="enabled border border--{{ content.border-color }}"
+					class="border border--{{ content.border-color }}"
 					href="{{ content.url }}"
 				>
 					<div
@@ -32,7 +32,7 @@
 		</ul>
 		<a
 			style="float: right;"
-			class="button button__border button__border--white"
+			class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 			href="https://2019.dcdesignweek.org/events/"
 			target="_blank"
 		>

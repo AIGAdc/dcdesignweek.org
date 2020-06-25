@@ -9,13 +9,59 @@ hero:
 subscribe:
     - header: <span>Subscribe</span> <span>for</span> <span>Updates</span>
       body:
-          Stay up to date on everything we have planned to celebrate the DC design community.
-          Follow us on social and sign up below for updates from DCDW and AIGA DC.
+          I'mma make a difference, I'm trying to make the thang that makes the difference
+          Wait - let me explain
+          You see it's bigger than the individual
+          My armor stay invisible
+          My efforts you can cite them in the pain
+          (What's realer than that?)
+          Got me feeling like the sentiment is of my own
+          Keep calm carried on like a gentlemen
+          But I'm in the arena, with hyenas
+          And the only way to beat them, that I see is with intelligence
+          (What's realer than that?)
+          Being black with a brain
+          They rather see me asking for the ball than for a raise
+          Yeah I could dumb it down and get a buck
+          Or smarten up and get the grave
+          I'm just tryna make a living in the grade
+          Try to fit me in the space
+          I'll make you comfortable
+          But I was sent to trouble you
+          But when my calling finish, take the survey
+          The pen is mightier than swords
+          Only weapon that I got
+          You're naive to think it's wordplay
+          What's realer than that?
       button-url: "#"
       button-label: Subscribe
 past-events:
     header: <span>2019</span> <span>Event</span> <span>Highlights</span>
-    body: While we work out the details for 2020, take a trip with us down memory lane.
+    body:           
+          I'mma make a difference, I'm trying to make the thang that makes the difference
+          Wait - let me explain
+          You see it's bigger than the individual
+          My armor stay invisible
+          My efforts you can cite them in the pain
+          (What's realer than that?)
+          Got me feeling like the sentiment is of my own
+          Keep calm carried on like a gentlemen
+          But I'm in the arena, with hyenas
+          And the only way to beat them, that I see is with intelligence
+          (What's realer than that?)
+          Being black with a brain
+          They rather see me asking for the ball than for a raise
+          Yeah I could dumb it down and get a buck
+          Or smarten up and get the grave
+          I'm just tryna make a living in the grade
+          Try to fit me in the space
+          I'll make you comfortable
+          But I was sent to trouble you
+          But when my calling finish, take the survey
+          The pen is mightier than swords
+          Only weapon that I got
+          You're naive to think it's wordplay
+          What's realer than that?
     button-url: https://2019.dcdesignweek.org/events/
     button-label: See 2019 Events
     events:
@@ -34,9 +80,30 @@ past-events:
 partner:
     - header: <span>Partner</span> <span>with</span> <span>AIGA</span>
       body:
-          DC Design Week relies on the generosity and goodness of partners and sponsors
-          to bring this annual celebration to life. Interested in supporting DC's design
-          community? We'd love to hear from you!
+          I'mma make a difference, I'm trying to make the thang that makes the difference
+          Wait - let me explain
+          You see it's bigger than the individual
+          My armor stay invisible
+          My efforts you can cite them in the pain
+          (What's realer than that?)
+          Got me feeling like the sentiment is of my own
+          Keep calm carried on like a gentlemen
+          But I'm in the arena, with hyenas
+          And the only way to beat them, that I see is with intelligence
+          (What's realer than that?)
+          Being black with a brain
+          They rather see me asking for the ball than for a raise
+          Yeah I could dumb it down and get a buck
+          Or smarten up and get the grave
+          I'm just tryna make a living in the grade
+          Try to fit me in the space
+          I'll make you comfortable
+          But I was sent to trouble you
+          But when my calling finish, take the survey
+          The pen is mightier than swords
+          Only weapon that I got
+          You're naive to think it's wordplay
+          What's realer than that?
       button-url: mailto:designweek@dc.aiga.org
       button-label: Become a Partner
 past-editions:
