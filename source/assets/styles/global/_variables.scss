@@ -52,26 +52,15 @@ $index-2: 200;
 $index-1: 100;
 
 /* SECTION - spacing */
-$spacing-96: 6rem; // 96px
-$spacing-64: 4rem; // 64px
-$spacing-48: 3rem; // 48px
-$spacing-40: 2.5rem; // 40px
-$spacing-32: 2rem; // 32px
-$spacing-24: 1.5rem; // 24px
-$spacing-16: 1.25rem; // 20px
-$spacing-8: 0.5rem; // 8px
-$spacing-4: 0.25rem; // 4px
-
-/* SECTION - spacing */
-$spacing-96: 6rem; // 96px
-$spacing-64: 4rem; // 64px
-$spacing-48: 3rem; // 48px
-$spacing-40: 2.5rem; // 40px
-$spacing-32: 2rem; // 32px
-$spacing-24: 1.5rem; // 24px
-$spacing-16: 1.25rem; // 20px
-$spacing-8: 0.5rem; // 8px
-$spacing-4: 0.25rem; // 4px
+$spacing-120: 120px;
+$spacing-80: 80px;
+$spacing-60: 60px;
+$spacing-48: 48px;
+$spacing-32: 32px;
+$spacing-24: 24px;
+$spacing-16: 16px;
+$spacing-8: 8px;
+$spacing-4: 4px;
 
 /* SECTION - typography */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:wght@400;700&display=swap");
