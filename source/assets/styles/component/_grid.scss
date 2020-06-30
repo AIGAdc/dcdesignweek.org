@@ -5,19 +5,23 @@
 	margin: 0;
 	padding: 0;
 }
+
 .grid__1-column,
 .grid__2-column,
 .grid__3-column,
 .grid__4-column {
 	grid-template-columns: 1fr;
 }
+
 .grid__6-column {
 	grid-template-columns: repeat(3, 1fr);
 }
+
 @media screen and (min-width: 767px) {
 	.grid--items-center {
 		align-items: center;
 	}
+
 	.grid__1-column,
 	.grid__2-column,
 	.grid__3-column,
@@ -25,16 +29,20 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
 @media screen and (min-width: $large) {
 	.grid__2-column {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
 	.grid__3-column {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
 	.grid__4-column {
 		grid-template-columns: repeat(4, 1fr);
 	}
+
 	.grid__6-column {
 		grid-template-columns: repeat(6, 1fr);
 	}

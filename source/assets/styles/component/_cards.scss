@@ -114,6 +114,7 @@
 	0% {
 		-webkit-transform: translateX(100%);
 	}
+
 	100% {
 		-webkit-transform: translateX(-100%);
 	}
@@ -125,6 +126,7 @@
 		/* Firefox bug fix */
 		transform: translateX(100%);
 	}
+
 	100% {
 		/* Firefox bug fix */
 		/* Firefox bug fix */
@@ -172,6 +174,7 @@
 	.card {
 		flex-direction: initial;
 	}
+
 	.card a {
 		display: inline-block;
 	}

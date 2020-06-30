@@ -1,59 +1,61 @@
 <section class="event-single__hero" style="background-image:url('{{ page.event.image }}');">
-    <div class="event-single__overlay">
-    </div>
-    <div class="event-single__hero-content container">
-        <h1>
-            {{ page.title }}
-        </h1>
-        <p>
-            {{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
-        </p>
-        {% if page.tickets.has-member-button == true %}
-        {% if page.status.has-occurred == true %}
-            <a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
-        {% else %}
-            <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank">
-        {% endif %}
-            {{ page.tickets.member-button-label }}
-        </a>
-        {% endif %}
+	<div class="event-single__overlay">
+	</div>
+	<div class="event-single__hero-content container">
+		<h1>
+			{{ page.title }}
+		</h1>
+		<p>
+			{{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
+		</p>
+		{% if page.tickets.has-member-button == true %}
+		{% if page.status.has-occurred == true %}
+		<a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
+			{% else %}
+			<a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}"
+				rel="noopener" target="_blank">
+				{% endif %}
+				{{ page.tickets.member-button-label }}
+			</a>
+			{% endif %}
 
-        {% if page.tickets.has-non-member-button == true %}
-        {% if page.status.has-occurred == true %}
-        <a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
-        {% else %}
-        <a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank">
-        {% endif %}
-            {{ page.tickets.non-member-button-label }}
-        </a>
-        {% endif %}
-    </div>
-    {% if page.status.is-sold-out == true %}
-    <div class="ticker ticker--sold-out bg-aquamarine">
-        <p>
-            {{ page.status.sold-out-message }}
-        </p>
-    </div>
-    {% endif %}
-    {% if page.status.is-coming-soon == true %}
-    <div class="ticker ticker--coming-soon">
-        <p>
-            {{ page.status.coming-soon-message }}
-        </p>
-    </div>
-    {% endif %}
-    {% if page.status.is-featured-on-events == true %}
-    <div class="ticker ticker--featured bg-hot-pink">
-        <p>
-            {{ page.status.featured-event-message }}
-        </p>
-    </div>
-    {% endif %}
-    {% if page.status.has-occurred == true %}
-    <div class="ticker ticker--past-event bg-crusta">
-        <p>
-            {{ page.status.has-occurred-message }}
-        </p>
-    </div>
-    {% endif %}
+			{% if page.tickets.has-non-member-button == true %}
+			{% if page.status.has-occurred == true %}
+			<a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
+				{% else %}
+				<a class="button button__border button__border--crusta bg-white"
+					href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank">
+					{% endif %}
+					{{ page.tickets.non-member-button-label }}
+				</a>
+				{% endif %}
+	</div>
+	{% if page.status.is-sold-out == true %}
+	<div class="ticker ticker--sold-out bg-aquamarine">
+		<p>
+			{{ page.status.sold-out-message }}
+		</p>
+	</div>
+	{% endif %}
+	{% if page.status.is-coming-soon == true %}
+	<div class="ticker ticker--coming-soon">
+		<p>
+			{{ page.status.coming-soon-message }}
+		</p>
+	</div>
+	{% endif %}
+	{% if page.status.is-featured-on-events == true %}
+	<div class="ticker ticker--featured bg-hot-pink">
+		<p>
+			{{ page.status.featured-event-message }}
+		</p>
+	</div>
+	{% endif %}
+	{% if page.status.has-occurred == true %}
+	<div class="ticker ticker--past-event bg-crusta">
+		<p>
+			{{ page.status.has-occurred-message }}
+		</p>
+	</div>
+	{% endif %}
 </section>

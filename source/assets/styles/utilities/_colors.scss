@@ -1,5 +1,4 @@
-$colors: (
-	dcdw-2016: $dcdw-2016,
+$colors: (dcdw-2016: $dcdw-2016,
 	dcdw-2017: $dcdw-2017,
 	dcdw-2018: $dcdw-2018,
 	full-white: $white,
@@ -18,18 +17,22 @@ $colors: (
 );
 
 @mixin color-modifiers($attribute: "color", $prefix: "--") {
-	@each $name, $value in $colors {
+
+	@each $name,
+	$value in $colors {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;
 		}
 	}
 }
 
-@mixin background-color-modifiers(
-	$attribute: "background-color",
+@mixin background-color-modifiers($attribute: "background-color",
 	$prefix: "--"
+
 ) {
-	@each $name, $value in $colors {
+
+	@each $name,
+	$value in $colors {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;
 		}

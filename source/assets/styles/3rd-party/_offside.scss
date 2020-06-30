@@ -18,23 +18,26 @@
 	width: 300px;
 	height: 100%;
 	top: 0;
-	z-index:$index-10;
+	z-index: $index-10;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 	/* enables momentum scrolling in iOS overflow elements */
 }
+
 /* Left off-canvas elements default status: out of the page */
 
 .offside,
 .offside--left {
 	left: -300px;
 }
+
 /* Right off-canvas elements default status: out of the page */
 
 .offside--right {
 	left: auto;
 	right: -300px;
 }
+
 /*
  * Left off-canvas element is open:
  * - off-canvas element slides in
@@ -45,6 +48,7 @@
 .offside-js--is-left .offside-sliding-element {
 	transform: translate3d(300px, 0, 0);
 }
+
 /*
  * Right off-canvas element is open:
  * - off-canvas element slides in
@@ -55,6 +59,7 @@
 .offside-js--is-right .offside-sliding-element {
 	transform: translate3d(-300px, 0, 0);
 }
+
 /* Elements Transitions */
 
 .offside-js--interact .offside,
@@ -64,11 +69,13 @@
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
 }
+
 /* Body overflow */
 
 .offside-js--init {
 	overflow-x: hidden;
 }
+
 /* Fallback movements for browser not supporting CSS 3d Transitions
 ----------------------------------------------- */
 
@@ -77,26 +84,32 @@
 .no-csstransforms3d .offside {
 	transform: translate3d(0, 0, 0);
 }
+
 .no-csstransforms3d .offside-sliding-element {
 	overflow-x: hidden;
 	position: relative;
 }
+
 /* Element is open: off-canvas element slides in */
 
 .no-csstransforms3d .offside--left.is-open {
 	left: 0;
 }
+
 .no-csstransforms3d .offside--right.is-open {
 	right: 0;
 }
+
 /* Element is open: container elements slide out */
 
-.no-csstransforms3d > .offside-js--is-left .offside-sliding-element {
+.no-csstransforms3d>.offside-js--is-left .offside-sliding-element {
 	right: -300px;
 }
-.no-csstransforms3d > .offside-js--is-right .offside-sliding-element {
+
+.no-csstransforms3d>.offside-js--is-right .offside-sliding-element {
 	left: -300px;
 }
+
 button#mobile-menu-trigger {
 	background: none !important;
 	border: none !important;
@@ -104,9 +117,11 @@ button#mobile-menu-trigger {
 	font-size: $font-size-32;
 	color: $white;
 }
+
 .offside-js--is-open {
 	overflow: hidden;
 }
+
 .mobile-menu__list a {
 	color: $black;
 }
@@ -124,6 +139,7 @@ button#mobile-menu-trigger {
 	display: block;
 	fill: $white;
 }
+
 @media screen and (min-width: 1023px) {
 	#my-button {
 		display: none;

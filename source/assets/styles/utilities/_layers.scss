@@ -1,5 +1,4 @@
-$layers: (
-	10: $index-10,
+$layers: (10: $index-10,
 	9: $index-9,
 	8: $index-8,
 	7: $index-7,
@@ -12,7 +11,9 @@ $layers: (
 );
 
 @mixin layer-modifiers($attribute: "z-index", $prefix: "--") {
-	@each $name, $value in $layers {
+
+	@each $name,
+	$value in $layers {
 		&#{$prefix}#{$name} {
 			#{$attribute}: $value;
 		}

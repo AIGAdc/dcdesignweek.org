@@ -20,7 +20,7 @@
 	width: 100%; // ios bug
 }
 
-.site-header .links { 
+.site-header .links {
 	text-align: right;
 	text-transform: uppercase;
 }
@@ -30,6 +30,7 @@
 }
 
 @media screen and (min-width: 1023px) {
+
 	// show site navigation when screen is > 1023
 	.site-header__navigation {
 		@include flex-row;

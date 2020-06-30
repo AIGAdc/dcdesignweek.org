@@ -20,12 +20,15 @@
    * Show expanded content
    */
 }
+
 .houdini[tabindex="-1"]:focus {
 	outline: 0 !important;
 }
+
 .houdini.is-expanded {
 	display: block;
 }
+
 /**
  * Remove button appearance from heading buttons
  */
@@ -40,6 +43,7 @@
 	width: 100%;
 	color: $black;
 }
+
 button.houdini-toggle {
 	outline: 0 !important;
 }
