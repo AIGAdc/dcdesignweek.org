@@ -1,33 +1,24 @@
-{%- if page.has-hero == true -%}
-{%- comment -%}
-What is this?
-True/False option that controls visibility of hero section.
-{%- endcomment -%}
+{% comment %}
+If page frontmatter key "has-hero" is equal to true, display the hero section
+{% endcomment %}
+{% if page.has-hero == true %}
 
-{%- if page.layout == 'archive' -%}
-{%- comment -%}
-What is this?
-True/False option that controls visibility of hero section.
-{%- endcomment -%}
-
+{% comment %}
+If page layout is equal to "archive" display the archive page hero
+{% endcomment %}
+{% if page.layout == "archive" %}
 <section class="section section__hero">
-	{%- for content in page.hero -%}
-	<div class="wrapper-loose">
-		{%- comment -%}
-		What is this?
-		Loop that will display content for each variable in the block.
-		{%- endcomment -%}
-		<h1>
-			{{ content.header }}
-		</h1>
-		<p class="wrapper-tight">
-			{{ content.subheader | markdownify }}
-		</p>
+	{% for content in page.hero %}
+	<div class="wrapper--loose">
+		This will be an SVG.
 	</div>
-	{%- endfor -%}
+	{% endfor %}
 </section>
+{% else %}
+{% comment %}
+If page layout is not equal to "archive" display this page hero instead
+{% endcomment %}
+<!-- standard hero coming soon -->
+{% endif %}
 
-{%- else -%}
-{%- comment -%} Show other hero {%- endcomment -%}
-{%- endif -%}
-{%- endif -%}
+{% endif %}
