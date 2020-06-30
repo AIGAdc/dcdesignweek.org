@@ -2,10 +2,10 @@
 title: Home
 permalink: "/"
 layout: archive
-has-hero: true
 hero:
-    - header:
-      subheader:
+    - has-hero: true
+      header: Hero Header
+      subheader: Hero Subheader
 subscribe:
     - header: <span>Subscribe</span> <span>for</span> <span>Updates</span>
       body:

@@ -1,18 +1,19 @@
 {% comment %}
 If page frontmatter key "has-hero" is equal to true, display the hero section
 {% endcomment %}
-{% if page.has-hero == true %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
 
 {% comment %}
 If page layout is equal to "archive" display the archive page hero
 {% endcomment %}
 {% if page.layout == "archive" %}
 <section class="section section__hero">
-	{% for content in page.hero %}
 	<div class="wrapper--loose">
-		This will be an SVG.
+		<h1>{{ content.header }}</h1>
+		<p>{{ content.subheader }}</p>
 	</div>
-	{% endfor %}
 </section>
 {% else %}
 {% comment %}
@@ -22,3 +23,4 @@ If page layout is not equal to "archive" display this page hero instead
 {% endif %}
 
 {% endif %}
+{% endfor %}
