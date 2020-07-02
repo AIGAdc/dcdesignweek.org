@@ -186,24 +186,225 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-- title: Hi
-  image: 
-  image-alt: 
-  website: 
+  header: <span>Thanks</span> <span>to</span> <span>our</span> <span>2020</span> <span>sponsors</span>
+  unbranded-header: Thanks to our 2020 sponsors
+  body: 
+    No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
+  sponsor-list:
+    - title: Brand Sponsor
+      image: https://media1.tenor.com/images/44ea73001c2b56f7b51de332cf40b56c/tenor.gif
+      image-alt: Smiling corgi in flowerbed
+      website: https://www.januarythird.co/
+    - title: Animation Sponsor
+      image: https://media1.tenor.com/images/44ea73001c2b56f7b51de332cf40b56c/tenor.gif
+      image-alt: Smiling corgi in flowerbed
+      website: https://www.dukeduck.com/
 2020-contributing-sponsors:
-- title: Hi
+- title:
   image: 
   image-alt: 
   website: 
 2020-team:
-- image: 
-  image-alt: 
-  name: 
-  role: 
-  linkedin-url: 
-  linkedin-label: 
-  instagram-url: 
-  instagram-label: 
+  - image: "/uploads/cat-5.jpg"
+    image-alt: Member Portrait
+    name: Liz Rose Chmela
+    role: Executive Director
+    linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/heylizrose/
+    instagram-label: "@heylizrose"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Kojo Boateng
+    role: Programming Director
+    linkedin-url: https://www.linkedin.com/in/kojoboateng/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/kboateng/
+    instagram-label: "@kboateng"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Nick Fabiani
+    role: Communications Director
+    linkedin-url: https://www.linkedin.com/in/nick-fabiani
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/nickfabiani/
+    instagram-label: "@nickfabiani"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Kim Arias
+    role: President, AIGA DC
+    linkedin-url: https://www.linkedin.com/in/kimberarias/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/kimberarias/
+    instagram-label: "@kimberarias"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Cass Olson
+    role: Programming, AIGA DC
+    linkedin-url: https://www.linkedin.com/in/cassolson/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/cjolsonomicon/
+    instagram-label: "@cjolsonomicon"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Catrell Thomas
+    role: Development, AIGA DC
+    linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/catrellcecilia/
+    instagram-label: "@catrellcecilia"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: An Ly
+    role: Branding & Art Direction
+    linkedin-url: 
+    linkedin-label: 
+    instagram-url: https://www.instagram.com/anmadethis/
+    instagram-label: "@anmadethis"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Amy Almazar
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/amy-almazar
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: 
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Chelsae Blackman
+    role: UX & Web Design
+    linkedin-url: https://www.linkedin.com/in/chelsae/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/chelsae.black/
+    instagram-label: "@chelsae.black"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Jason Bunyan
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: 
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Yngrid Chacon
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/ecyan/
+    instagram-label: "@ecyan"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Hannah Churn
+    role: Animator
+    linkedin-url: https://www.linkedin.com/in/hannah-churn-3a49781a/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/hannamations/
+    instagram-label: "@hannamations"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Mary Corley
+    role: Volunteer Coordinator
+    linkedin-url: 
+    linkedin-label: 
+    instagram-url: 
+    instagram-label: 
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Eliza Duquette
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/elizaduquette/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/etothelizerrr/
+    instagram-label: "@etothelizerrr"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Sophia Finster
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/sophiafinster/
+    instagram-label: "@sophiafinster"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Phim Her
+    role: Partnerships Chair
+    linkedin-url: https://www.linkedin.com/in/phimher
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/phimher/
+    instagram-label: "@phimher"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Chanel James
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/chanelnyre/
+    instagram-label: "@chanelnyre"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Cynthia Kim
+    role: Communications
+    linkedin-url: https://www.linkedin.com/in/cynthia-kim-54873010b/
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: 
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Becky Nissel
+    role: Copywriter
+    linkedin-url: 
+    linkedin-label: 
+    instagram-url: https://www.instagram.com/beckynissel/
+    instagram-label: "@beckynissel"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Johanna Ostrich
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/johannaostrich
+    linkedin-label: LinkedIn
+    instagram-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
+    instagram-label: LinkedIn
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Rebecca Perez
+    role: Event Lead
+    linkedin-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rebeccas_work/
+    instagram-label: "@rebeccas_work"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Khanh Pham
+    role: Programming Lead
+    linkedin-url: https://www.linkedin.com/in/khanhtbp/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/bkhanhp/
+    instagram-label: "@bkhanhp"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Rebecca Price
+    role: Social Media Lead
+    linkedin-url: https://www.linkedin.com/in/rebecca-price-686531b3/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rebeccuhhhhh/
+    instagram-label: "@rebeccuhhhhh"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Marcus Relacion
+    role: Web Developer
+    linkedin-url: https://www.linkedin.com/in/marcusrelacion/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/marcusrelacion/
+    instagram-label: "@marcusrelacion"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Ariana Rodriguez-Gitler
+    role: Programming Lead
+    linkedin-url: https://www.linkedin.com/in/arianarg/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rgariana/
+    instagram-label: "@rgiana"
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -214,12 +415,12 @@ navigation-placeholder:
 - url: https://2019.dcdesignweek.org
   label: 2019
 navigation-teaser:
-- url: /events
-  label: Events
+#- url: /events
+#  label: Events
 - url: /about
   label: About
-- url: /pop-up-shop
-  label: Pop-Up Shop
+#- url: /pop-up-shop
+#  label: Pop-Up Shop
 about-dcdw:
   header: <span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>
   text: |-
@@ -235,26 +436,66 @@ about-dcdw:
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
 subscribe:
   header: <span>Subscribe</span> <span>for</span> <span>updates</span>
-  body: Stay up to date on everything we have planned to celebrate the DC design community.
-    Follow us on social and sign up below for updates from DCDW and AIGA DC.
+  body:
+    No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
+partner:
+  header: <span>Partner</span> <span>with</span> <span>Us</span>
+  body:
+    No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
+  button-url: mailto:designweek@dc.aiga.org
+  button-label: Become a Partner
+past-events:
+    header: <span>2019</span> <span>Event</span> <span>Highlights</span>
+    body:           
+        
+    button-url: https://2019.dcdesignweek.org/events/
+    button-label: See 2019 Events
+    events:
+      - title: "Shaolin Jazz & Globe Posters: Opening Party!"
+        image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
+        url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
+      - title: Building Equity Through Design with Antionette Carroll
+        image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
+        url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
+      - title: "Closing Party: Drink, Draw & Dance "
+        image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+        url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+      - title: "Workshop: The Space Type Continuum"
+        image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
+        url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+past-editions:
+  header: <span>DC</span> <span>Through</span> <span>the</span> <span>Years</span>
+  unbranded-header: DC Through the Years
+  body:
+  editions:
+    - title: DCDW 2016
+      image: "/uploads/dcdw-2016-pattern.jpg"
+      url: https://2016.dcdesignweek.org
+    - title: DCDW 2017
+      image: "/uploads/dcdw-2017-pattern.jpg"
+      url: https://2017.dcdesignweek.org
+    - title: DCDW 2018
+      image: "/uploads/dcdw-2018-pattern.jpg"
+      url: https://2018.dcdesignweek.org
+    - title: DCDW 2019
+      image: "/uploads/dcdw-2019-pattern.png"
+      url: https://2019.dcdesignweek.org
 volunteer:
   header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
     96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
     199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg></span>
     <span>in</span> <span>DC</span>
-  body: Built by 100% volunteer power, we're constantly working to make this site
-    better for you. If you see something, say something.
+  unbranded-header: Made with ♥ in DC
+  body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
   github: https://github.com/AIGAdc/dcdesignweek.org
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US
-theme-color: "#c396ff"
+theme-color: "#000000"
 asseturl: "/assets/"
 baseurl: 
 url: https://dcdesignweek.org
-uploadurl: "/uploads/"
-repository: AIGAdc/dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
 facebook:

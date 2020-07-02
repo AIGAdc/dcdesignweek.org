@@ -1,9 +1,4 @@
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-
-.mailchimp {
-	margin-top: $spacing-48;
-}
-
 #mc_embed_signup form {
 	display: block !important;
 	position: relative !important;
@@ -123,7 +118,7 @@
 	margin-top: 0 !important;
 }
 
-@media screen and (min-width: 639px) {
+@media screen and (min-width: 767px) {
 	#mc_embed_signup input.button {
 		width: auto !important;
 	}

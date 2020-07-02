@@ -3,20 +3,18 @@ title: About
 permalink: "/about/"
 published: true
 layout: about
-has-hero: true
 hero:
-    - tagline:
-      header: "What is #DCDesignWeek ?"
-      subheader: |-
-          Bend, we don't break, we not the bank Switch whips, relocate all the way out of state Tell my queens, "Keep mace" Keep faith, brother man They stable full of sheep, we stayin' on the lam Game isn't cheap
-team-header: 2019 DCDW Committee
+  - has-hero: true
+    header: <span>What</span> <span>is</span> <span>#DCDesignWeek</span> <span>?</span>
+    subheader: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
+team-header: <span>Thanks</span> <span>to</span> <span>2020</span> <span>DCDW</span> <span>Committee</span>
 dc-is-factsinating-header: "DCDW2019: Unconventional Wisdom"
-dc-is-factsinating-body: Bend, we don't break, we not the bank Switch whips, relocate all the way out of state Tell my queens, "Keep mace" Keep faith, brother man They stable full of sheep, we stayin' on the lam Game isn't cheap
+dc-is-factsinating-body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
 sponsors:
     - header: 2019 Sponsors and Partners
-      body: Bend, we don't break, we not the bank Switch whips, relocate all the way out of state Tell my queens, "Keep mace" Keep faith, brother man They stable full of sheep, we stayin' on the lam Game isn't cheap
+      body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
       sub-header: 2019 Sponsors
-      sub-body: Bend, we don't break, we not the bank Switch whips, relocate all the way out of state Tell my queens, "Keep mace" Keep faith, brother man They stable full of sheep, we stayin' on the lam Game isn't cheap
+      sub-body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
 partners:
     - header: Many thanks to
       body:
