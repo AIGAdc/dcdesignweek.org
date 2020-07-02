@@ -29,6 +29,7 @@
 	@include grayscale;
 }
 
+.card figure img:hover,
 .card.card--event figure img:hover {
 	@include no-grayscale;
 }
