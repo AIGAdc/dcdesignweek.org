@@ -7,36 +7,35 @@
 		</div>
 		<div class="grid-col grid-col--span-4">
 			<ul class="sub-grid-four-col grid-col--span-1"">
-		{% for member in site.2020-team %}
-		<li class=" card card--event shadow-reverse shadow-reverse--green sub-grid-col"
-				style="flex-direction: column; text-align: center;">
-				<div class="card-image">
-					<img alt="{{ member.image-alt }}" class="" data-src="{{ member.image }}" src="{{ member.image }}" style="" />
-				</div>
-				<div class="card-details">
-					<h3 style="font-weight: 900;">
-						{{ member.name }}
-					</h3>
-					<p>
-						{{ member.role }}
-					</p>
-					{% if member.linkedin-url %}
-					<p>
-						<i class="fab fa-linkedin"> </i>
-						<a style="color: white;" href="{{ member.linkedin-url }}" rel="noopener" target="_blank">
-							Put LinkedIn Icon
-						</a>
-					</p>
-					{% endif %}
-					{% if member.instagram-url %}
-					<p>
-						<i class="fab fa-instagram"> </i>
-						<a style="color: white;" href="{{ member.instagram-url }}" rel="noopener" target="_blank">
-							Put Instagram Icon
-						</a>
-					</p>
-					{% endif %}
-				</div>
+			{% for member in site.2020-team %}
+			<li class="card card--committee shadow-reverse shadow-reverse--green sub-grid-col">
+					<figure class="card-image">
+						<img alt="{{ member.image-alt }}" class="" data-src="{{ member.image }}" src="{{ member.image }}" style="" />
+					</figure>
+					<div class="card-details">
+						<h3 style="font-weight: 900;">
+							{{ member.name }}
+						</h3>
+						<p>
+							{{ member.role }}
+						</p>
+						{% if member.linkedin-url %}
+						<p>
+							<i class="fab fa-linkedin"> </i>
+							<a style="color: white;" href="{{ member.linkedin-url }}" rel="noopener" target="_blank">
+								Put LinkedIn Icon
+							</a>
+						</p>
+						{% endif %}
+						{% if member.instagram-url %}
+						<p>
+							<i class="fab fa-instagram"> </i>
+							<a style="color: white;" href="{{ member.instagram-url }}" rel="noopener" target="_blank">
+								Put Instagram Icon
+							</a>
+						</p>
+						{% endif %}
+					</div>
 				</li>
 				{% endfor %}
 			</ul>

@@ -16,10 +16,13 @@
 	border: solid 1px $white;
 }
 
-.card.card--event figure img {
-	height: 400px;
+.card--committee {
+	text-align: center;
+}
+
+.card .card-image img {
+	height: 480px;
 	width: 100%;
-	width: 100vw;
 	-o-object-fit: cover;
 	object-fit: cover;
 	transition: filter $timing-quick ease-in;
@@ -53,10 +56,6 @@
 
 .card__sponsors--contributing {
 	padding: 0 $spacing-16;
-}
-
-.card--committee .card-details h3 {
-	margin-top: $spacing-32;
 }
 
 .past-event {
@@ -128,10 +127,6 @@
 }
 
 @media screen and (min-width: 1023px) {
-	.card {
-		flex-direction: initial;
-	}
-
 	.card a {
 		display: inline-block;
 	}
