@@ -1,44 +1,34 @@
-<section class="section section__committee committee">
-	<div class="grid-four-col">
-		<div class="grid-col grid-col--span-1">
-			<h2>
-				{{ page.team-header }}
-			</h2>
-		</div>
-		<div class="grid-col grid-col--span-4">
-			<ul class="sub-grid-four-col grid-col--span-1"">
+<section class="section section__committee committee grid-four-col">
+	<div class="grid-col grid-col--span-2">
+		<h2>
+			{{ page.team-header }}
+		</h2>
+	</div>
+	<div class="grid-col grid-col--span-4">
+		<ul class="sub-grid-four-col grid-col--span-1"">
 			{% for member in site.2020-team %}
-			<li class="card card--committee shadow-reverse shadow-reverse--green sub-grid-col">
-					<figure class="card-image">
-						<img alt="{{ member.image-alt }}" class="" data-src="{{ member.image }}" src="{{ member.image }}" style="" />
-					</figure>
-					<div class="card-details">
-						<h3 style="font-weight: 900;">
-							{{ member.name }}
-						</h3>
-						<p>
-							{{ member.role }}
-						</p>
-						{% if member.linkedin-url %}
-						<p>
-							<i class="fab fa-linkedin"> </i>
-							<a style="color: white;" href="{{ member.linkedin-url }}" rel="noopener" target="_blank">
-								Put LinkedIn Icon
-							</a>
-						</p>
-						{% endif %}
-						{% if member.instagram-url %}
-						<p>
-							<i class="fab fa-instagram"> </i>
-							<a style="color: white;" href="{{ member.instagram-url }}" rel="noopener" target="_blank">
-								Put Instagram Icon
-							</a>
-						</p>
-						{% endif %}
-					</div>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
+			<li class=" card card--committee shadow-reverse shadow-reverse--green sub-grid-col">
+			<figure class="card-image">
+				<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+			</figure>
+			<div class="card-details">
+				<h3>{{ member.name }}</h3>
+				<p>{{ member.role }}</p>
+				{% if member.linkedin-url %}
+				<p>
+					<i class="fab fa-linkedin"> </i> <a style="color: white;" href="{{ member.linkedin-url }}"
+						rel="noopener noreferrer" target="_blank">Put LinkedIn Icon</a>
+				</p>
+				{% endif %}
+				{% if member.instagram-url %}
+				<p>
+					<i class="fab fa-instagram"> </i> <a style="color: white;" href="{{ member.instagram-url }}"
+						rel="noopener noreferrer" target="_blank">Put Instagram Icon</a>
+				</p>
+				{% endif %}
+			</div>
+			</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>

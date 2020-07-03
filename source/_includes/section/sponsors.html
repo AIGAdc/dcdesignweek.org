@@ -1,38 +1,36 @@
-<section class="section section__past-dcdw">
-	<div class="grid-four-col">
-		<div class="grid-col" style="grid-column: span 1">
-			{% if site.2020-presenting-sponsors.header %}
-			<h2>
-				{{ site.2020-presenting-sponsors.header }}
-			</h2>
-			{% endif %}
-		</div>
-		{% if site.2020-presenting-sponsors.body %}
-		<div class="grid-col" style="grid-column: span 2">
-			<p>
-				{{ site.2020-presenting-sponsors.body }}
-			</p>
-		</div>
-		{% endif %}
-		<div class="grid-col" style="grid-column: span 4">
-			<ul class="sub-grid-four-col">
-				{% for content in site.2020-presenting-sponsors.sponsor-list %}
-				<li class="card card--event shadow-reverse shadow-reverse--green sub-grid-col" style="grid-column: span 2;">
-					<a class="border border--{{ content.border-color }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
-						<div class="card-details">
-							<h3>
-								{{ content.title }}
-							</h3>
-						</div>
-						<div class="card-image border__bottom border__bottom--{{ content.border-color }}">
-							<figure>
-								<img src="{{ content.image }}" alt="Provide alt text describing the image above." />
-							</figure>
-						</div>
-					</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
+<section class="section section__past-dcdw grid-four-col">
+	{% if site.2020-presenting-sponsors.header %}
+	<div class="grid-col" style="grid-column: span 1">
+		<h2>
+			{{ site.2020-presenting-sponsors.header }}
+		</h2>
+	</div>
+	{% endif %}
+
+	{% if site.2020-presenting-sponsors.body %}
+	<div class="grid-col" style="grid-column: span 2">
+		<p>
+			{{ site.2020-presenting-sponsors.body }}
+		</p>
+	</div>
+	{% endif %}
+
+	<div class="grid-col" style="grid-column: span 4">
+		<ul class="sub-grid-four-col">
+			{% for content in site.2020-presenting-sponsors.sponsor-list %}
+			<li class="card card--event shadow-reverse shadow-reverse--green sub-grid-col" style="grid-column: span 2;">
+				<div class="card-details">
+					<h3>
+						{{ content.title }}
+					</h3>
+				</div>
+				<a href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+					<figure class="card-image">
+						<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
+					</figure>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>
