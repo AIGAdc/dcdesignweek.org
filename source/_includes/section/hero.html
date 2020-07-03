@@ -2,11 +2,6 @@
 If page frontmatter key "has-hero" is equal to true, display the hero section
 {% endcomment %}
 
-{% comment %}
-If page layout is equal to "archive" display the archive page hero
-{% endcomment %}
-
-{% if page.layout == "archive" %}
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section section__hero"
@@ -19,22 +14,3 @@ If page layout is equal to "archive" display the archive page hero
 </section>
 {% endif %}
 {% endfor %}
-
-{% else %}
-{% comment %}
-If page layout is not equal to "archive" display this page hero instead
-{% endcomment %}
-
-{% for content in page.hero %}
-{% if content.has-hero == true %}
-<section class="section section__hero"
-	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; filter: grayscale(1); background-repeat: no-repeat;">
-	<div class="wrapper--loose">
-		<h1>{{ content.header }}</h1>
-		<p>{{ content.subheader }}</p>
-	</div>
-	<div class="overlay"></div>
-</section>
-{% endif %}
-{% endfor %}
-{% endif %}
