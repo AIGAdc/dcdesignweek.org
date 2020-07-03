@@ -12,16 +12,16 @@
 				<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
 			</figure>
 			<div class="card-details">
-				<h3>{{ member.name }}</h3>
-				<p>{{ member.role }}</p>
+				<h3 class="card-details__member-name">{{ member.name }}</h3>
+				<p class="card-details__member-role">{{ member.role }}</p>
 				{% if member.linkedin-url %}
-				<p>
+				<p class="card-details__linkedin">
 					<i class="fab fa-linkedin"> </i> <a style="color: white;" href="{{ member.linkedin-url }}"
 						rel="noopener noreferrer" target="_blank">Put LinkedIn Icon</a>
 				</p>
 				{% endif %}
 				{% if member.instagram-url %}
-				<p>
+				<p class="card-details__instagram">
 					<i class="fab fa-instagram"> </i> <a style="color: white;" href="{{ member.instagram-url }}"
 						rel="noopener noreferrer" target="_blank">Put Instagram Icon</a>
 				</p>

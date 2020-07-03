@@ -40,21 +40,14 @@
 }
 
 .card-details h3 {
-	font-size: $font-size-20;
-	font-weight: 900;
+	font-family: $brand-sans-alt;
+	font-size: $font-size-16;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
-.card__sponsors .card-details,
-.card__partners .card-details {
-	padding: 0;
-}
-
-.card__sponsors--contributing {
-	padding: 0 $spacing-16;
-}
-
-.past-event {
-	opacity: 0.5;
+.card-details__member-role {
+	padding-bottom: 16px;
 }
 
 /* ticker */
@@ -118,11 +111,5 @@
 		/* Firefox bug fix */
 		/* Firefox bug fix */
 		transform: translateX(-100%);
-	}
-}
-
-@media screen and (min-width: 1023px) {
-	.card a {
-		display: inline-block;
 	}
 }

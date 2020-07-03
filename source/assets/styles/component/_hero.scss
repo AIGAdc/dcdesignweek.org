@@ -5,6 +5,7 @@
 	min-height: 700px;
 	position: relative;
 	text-align: center;
+
 }
 
 .hero h1 {
@@ -39,6 +40,26 @@
 	bottom: -184px;
 	right: -48px;
 	background-position: right;
+}
+
+.section__hero {
+	position: relative;
+	z-index: 100;
+}
+
+.section__hero>div:not(:last-child) {
+	position: relative;
+	z-index: 1000;
+}
+
+.overlay {
+	background: radial-gradient(transparent 0%, #000 90%);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
 }
 
 @media screen and (min-width: 1023px) {

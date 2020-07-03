@@ -9,11 +9,13 @@ If page layout is equal to "archive" display the archive page hero
 {% if page.layout == "archive" %}
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section__hero">
+<section class="section section__hero"
+	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; filter: grayscale(1); background-repeat: no-repeat;">
 	<div class="wrapper--loose">
 		<h1>{{ content.header }}</h1>
 		<p>{{ content.subheader }}</p>
 	</div>
+	<div class="overlay"></div>
 </section>
 {% endif %}
 {% endfor %}
@@ -25,11 +27,13 @@ If page layout is not equal to "archive" display this page hero instead
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section__hero">
+<section class="section section__hero"
+	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; filter: grayscale(1); background-repeat: no-repeat;">
 	<div class="wrapper--loose">
 		<h1>{{ content.header }}</h1>
 		<p>{{ content.subheader }}</p>
 	</div>
+	<div class="overlay"></div>
 </section>
 {% endif %}
 {% endfor %}
