@@ -1,47 +1,3 @@
-.hero {
-	@include flex-row;
-	@include flex-align-center;
-	background-color: $white;
-	min-height: 700px;
-	position: relative;
-	text-align: center;
-
-}
-
-.hero h1 {
-	font-weight: 400;
-	font-style: italic;
-	font-family: $mono;
-	margin-bottom: $spacing-32;
-}
-
-.hero p {
-	font-family: $sans;
-}
-
-.hero--archive::before,
-.hero--archive::after {
-	content: "";
-	position: absolute;
-	background-repeat: no-repeat;
-	height: 340px;
-	width: 100%;
-}
-
-.hero--archive::before {
-	background-image: url("/uploads/pattern-hero-left-1x.png");
-	top: -184px;
-	left: -48px;
-	background-position: left;
-}
-
-.hero--archive::after {
-	background-image: url("/uploads/pattern-hero-right-1x.png");
-	bottom: -184px;
-	right: -48px;
-	background-position: right;
-}
-
 .section__hero {
 	position: relative;
 	z-index: 100;
@@ -60,33 +16,4 @@
 	bottom: 0;
 	left: 0;
 	z-index: 500;
-}
-
-@media screen and (min-width: 1023px) {
-
-	.hero--archive::before,
-	.hero--archive::after {
-		height: 340px;
-		width: 280px;
-	}
-
-	.hero--archive::before {
-		top: -72px;
-		left: 0;
-	}
-
-	.hero--archive::after {
-		bottom: -72px;
-		right: 0;
-	}
-}
-
-@media screen and (min-width: 1439px) {
-	.hero--archive::before {
-		top: 0;
-	}
-
-	.hero--archive::after {
-		bottom: 0;
-	}
 }
