@@ -22,11 +22,19 @@
 
 .card--committee .card__image img,
 .card--event .card__image img {
-	height: 480px;
+	height: 400px;
+}
+
+.card--sponsors .card__image {
+	padding: 24px;
 }
 
 .card--sponsors .card__image img {
-	height: 240px;
+	-o-object-fit: contain;
+	object-fit: contain;
+	height: 200px;
+	max-width: 200px;
+	margin: auto;
 }
 
 .card--committee .card__image img:hover,
