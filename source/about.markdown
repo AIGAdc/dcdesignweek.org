@@ -22,5 +22,5 @@ partners:
       button-label: Learn More
       button-url: "/about/"
       button-type: border
-      button-class: lightning-yellow
+      button-class:
 ---

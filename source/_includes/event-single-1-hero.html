@@ -10,10 +10,10 @@
 		</p>
 		{% if page.tickets.has-member-button == true %}
 		{% if page.status.has-occurred == true %}
-		<a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
+		<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
 			{% else %}
-			<a class="button button__border button__border--crusta bg-white" href="{{ page.tickets.member-button-url }}"
-				rel="noopener" target="_blank">
+			<a class="button button__border button__border--white" href="{{ page.tickets.member-button-url }}" rel="noopener"
+				target="_blank">
 				{% endif %}
 				{{ page.tickets.member-button-label }}
 			</a>
@@ -21,17 +21,17 @@
 
 			{% if page.tickets.has-non-member-button == true %}
 			{% if page.status.has-occurred == true %}
-			<a class="button button__border button__border--crusta bg-white disabled" rel="noopener" target="_blank">
+			<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
 				{% else %}
-				<a class="button button__border button__border--crusta bg-white"
-					href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank">
+				<a class="button button__border button__border--white" href="{{ page.tickets.non-member-button-url }}"
+					rel="noopener" target="_blank">
 					{% endif %}
 					{{ page.tickets.non-member-button-label }}
 				</a>
 				{% endif %}
 	</div>
 	{% if page.status.is-sold-out == true %}
-	<div class="ticker ticker--sold-out bg-aquamarine">
+	<div class="ticker ticker--sold-out">
 		<p>
 			{{ page.status.sold-out-message }}
 		</p>
@@ -45,14 +45,14 @@
 	</div>
 	{% endif %}
 	{% if page.status.is-featured-on-events == true %}
-	<div class="ticker ticker--featured bg-hot-pink">
+	<div class="ticker ticker--featured">
 		<p>
 			{{ page.status.featured-event-message }}
 		</p>
 	</div>
 	{% endif %}
 	{% if page.status.has-occurred == true %}
-	<div class="ticker ticker--past-event bg-crusta">
+	<div class="ticker ticker--past-event">
 		<p>
 			{{ page.status.has-occurred-message }}
 		</p>

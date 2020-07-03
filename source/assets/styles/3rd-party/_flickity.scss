@@ -41,7 +41,7 @@ https://flickity.metafizzy.co
 	width: 8px;
 	height: 8px;
 	margin: $spacing-8;
-	background-color: $crusta;
+	background-color: salmon;
 	border-radius: 50px;
 	opacity: 0.25;
 	cursor: pointer;
@@ -74,7 +74,7 @@ https://flickity.metafizzy.co
 
 .flickity-button:focus {
 	outline: none;
-	box-shadow: 0 0 0 5px $aquamarine;
+	box-shadow: 0 0 0 5px salmon;
 }
 
 .flickity-button:active {

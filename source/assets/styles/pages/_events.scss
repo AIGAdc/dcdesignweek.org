@@ -11,7 +11,7 @@
 }
 
 .events-filter__dates .mixitup-control-active {
-	background-color: $mauve;
+	background-color: salmon;
 }
 
 .events-filter__dates .control-text-1,
@@ -32,7 +32,7 @@
 /* additional filters */
 
 .events-filter__additional-filters {
-	background-color: $mauve-light;
+	background-color: salmon;
 	padding: $spacing-8;
 	display: none;
 }
@@ -52,7 +52,7 @@
 }
 
 .events-filter__additional-content {
-	border-top: solid 2px $mauve;
+	border-top: solid 2px salmon;
 	margin-top: $spacing-8;
 	padding: $spacing-8 0;
 }
@@ -66,7 +66,7 @@
 }
 
 .events-filter__additional-content .column:not(:last-of-type) {
-	border-right: solid 2px $mauve;
+	border-right: solid 2px salmon;
 }
 
 .control {
