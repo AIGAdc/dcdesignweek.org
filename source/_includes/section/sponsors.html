@@ -1,19 +1,19 @@
 <section class="section section__past-dcdw grid-four-col">
-	{% if site.2020-presenting-sponsors.header %}
-	<div class="grid-col" style="grid-column: span 1">
-		<h2>
-			{{ site.2020-presenting-sponsors.header }}
-		</h2>
+	<div class="grid-col grid-col--span-4">
+		<div class="sub-grid-four-col grid-col--span-4">
+			<h2 class="sub-grid-col--span-1">
+				{{ site.2020-presenting-sponsors.header }}
+			</h2>
+			<div class="sub-grid-col--span-3">
+				Icons
+			</div>
+		</div>
+		<div class="sub-grid-col sub-grid-col--span-2">
+			<p>
+				{{ site.2020-presenting-sponsors.body }}
+			</p>
+		</div>
 	</div>
-	{% endif %}
-
-	{% if site.2020-presenting-sponsors.body %}
-	<div class="grid-col" style="grid-column: span 2">
-		<p>
-			{{ site.2020-presenting-sponsors.body }}
-		</p>
-	</div>
-	{% endif %}
 
 	<div class="grid-col" style="grid-column: span 4">
 		<ul class="sub-grid-four-col">

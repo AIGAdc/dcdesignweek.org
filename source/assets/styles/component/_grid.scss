@@ -28,19 +28,23 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.grid-col--span-1 {
+	.grid-col--span-1,
+	.sub-grid-col--span-1 {
 		grid-column: span 1;
 	}
 
-	.grid-col--span-2 {
+	.grid-col--span-2,
+	.sub-grid-col--span-2 {
 		grid-column: span 2;
 	}
 
-	.grid-col--span-3 {
+	.grid-col--span-3,
+	.sub-grid-col--span-3 {
 		grid-column: span 3;
 	}
 
-	.grid-col--span-4 {
+	.grid-col--span-4,
+	.sub-grid-col--span-4 {
 		grid-column: span 4;
 	}
 }
