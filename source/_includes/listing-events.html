@@ -67,7 +67,7 @@
 						{% else %}
 						<a class="enabled border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
 							{% endif %}
-							<div class="card-image">
+							<div class="card__image">
 								{% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
 								<div class="ticker bg-hot-pink">
 									<p>
@@ -175,7 +175,7 @@
 						{% else %}
 						<a class="enabled border border--black shadow shadow-reverse--mauve" href="{{posts.url}}">
 							{% endif %}
-							<div class="card-image">
+							<div class="card__image">
 								{% if posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
 								<div class="ticker bg-hot-pink">
 									<p>
@@ -251,7 +251,7 @@
 						{% if posts.event.external-url %}href="{{ posts.event.external-url }}" target="_blank"
 						rel="noopener" {% else %} href="{{posts.url}}" {% endif %}>
 						{% endif %}
-						<div class="card-image">
+						<div class="card__image">
 							<figure>
 								<img src="{{ posts.image }}" alt="{{ posts.image-alt }}" />
 							</figure>

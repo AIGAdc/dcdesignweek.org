@@ -3,51 +3,45 @@
 	flex-direction: column;
 }
 
-.card a {
-	display: block;
-	margin: 0;
+.card>*+* {
+	padding-top: 16px;
 }
 
-.card a:hover {
-	opacity: 1;
-}
-
-.card-image {
+.card__image {
 	border: solid 1px $white;
 }
 
-.card--committee {
-	text-align: center;
-}
-
-.card .card-image img {
-	height: 480px;
-	width: 100%;
+.card--committee .card__image img,
+.card--event .card__image img,
+.card--sponsors .card__image img {
 	-o-object-fit: cover;
 	object-fit: cover;
 	transition: filter $timing-quick ease-in;
 	@include grayscale;
 }
 
-.card figure img:hover,
-.card.card--event figure img:hover {
+.card--committee .card__image img,
+.card--event .card__image img {
+	height: 480px;
+}
+
+.card--sponsors .card__image img {
+	height: 240px;
+}
+
+.card--committee .card__image img:hover,
+.card--event .card__image img:hover,
+.card--sponsors .card__image img:hover {
 	@include no-grayscale;
 }
 
-.card-details {
-	color: $white;
-	padding: $spacing-16 0;
+.card--committee {
+	text-align: center;
 }
 
 .card-details h3 {
 	font-size: $font-size-20;
-	font-weight: 400;
-	line-height: initial;
-}
-
-.card-details p {
-	font-size: $font-size-16;
-	margin: 0 0 $spacing-8 0;
+	font-weight: 900;
 }
 
 .card__sponsors .card-details,
