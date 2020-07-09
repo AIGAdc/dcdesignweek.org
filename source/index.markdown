@@ -4,7 +4,8 @@ permalink: "/"
 layout: archive
 hero:
   - has-hero: true
-    header: Hero Header
-    subheader: Hero Subheader
-    image: "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/11/12/1415798205235/d7b98df4-68e1-4971-a9fe-a5a5eb9c8a44-2060x1236.jpeg"
+    header: <span>We're</span> <span>Celebrating</span> <span>The</span> <span>Voices</span> <span>of</span> <span>DC's</span> <span>Creative</span> <span>Community</span>
+    subheader:
+    header-color: "#4AE725"
+    image: "/uploads/dc-metro-station.png"
 ---

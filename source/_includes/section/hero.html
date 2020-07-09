@@ -5,7 +5,7 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section section__hero"
-	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; filter: grayscale(1); background-repeat: no-repeat;">
+	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="wrapper--loose">
 		<h1>{{ content.header }}</h1>
 		<p>{{ content.subheader }}</p>
