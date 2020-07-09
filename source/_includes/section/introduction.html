@@ -1,13 +1,32 @@
+{% if page.url == "/" %}
+{% for content in page.introduction %}
+{% if content.has-introduction == true %}
 <section class="section section__partners grid-four-col">
 	<div class="grid-col grid-col--span-1">
-		<h2>{{ site.partner.header }}</h2>
+		<h2>{{ content.header }}</h2>
 	</div>
 	<div class="grid-col grid-col--span-2">
-		<p>{{ site.partner.body }}</p>
+		<p>{{ content.body }}</p>
 	</div>
 	<div class="grid-col grid-col--span-1">
 		<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-			href="{{ site.partner.button-url }}" target="_blank">{{ site.partner.button-label }}
+			href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
 		</a>
 	</div>
 </section>
+{% endif %}
+{% endfor %}
+{% elsif page.url == "/about/" %}
+{% for content in page.introduction %}
+{% if content.has-introduction == true %}
+<section class="section section__partners grid-four-col">
+	<div class="grid-col grid-col--span-1">
+		<h2>{{ content.header }}</h2>
+	</div>
+	<div class="grid-col grid-col--span-2">
+		<p>{{ content.body }}</p>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+{% endif %}
