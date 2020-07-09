@@ -205,175 +205,167 @@ filter-status:
   image-alt: 
   website: 
 2020-team:
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-richard-bentham.jpg"
     image-alt: Member Portrait
-    name: Liz Rose Chmela
-    role: Executive Director
-    linkedin-url: https://www.linkedin.com/in/liz-rose-chmela-52476716/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/heylizrose/
-    instagram-label: "@heylizrose"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Kojo Boateng
-    role: Programming Director
-    linkedin-url: https://www.linkedin.com/in/kojoboateng/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/kboateng/
-    instagram-label: "@kboateng"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Nick Fabiani
-    role: Communications Director
-    linkedin-url: https://www.linkedin.com/in/nick-fabiani
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/nickfabiani/
-    instagram-label: "@nickfabiani"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Kim Arias
-    role: President, AIGA DC
-    linkedin-url: https://www.linkedin.com/in/kimberarias/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/kimberarias/
-    instagram-label: "@kimberarias"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Cass Olson
-    role: Programming, AIGA DC
-    linkedin-url: https://www.linkedin.com/in/cassolson/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/cjolsonomicon/
-    instagram-label: "@cjolsonomicon"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Catrell Thomas
-    role: Development, AIGA DC
-    linkedin-url: https://www.linkedin.com/in/catrell-thomas-4b9172144/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/catrellcecilia/
-    instagram-label: "@catrellcecilia"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: An Ly
-    role: Branding & Art Direction
+    name: Richard Bentham
+    role: Deputy Director
     linkedin-url: 
-    linkedin-label: 
-    instagram-url: https://www.instagram.com/anmadethis/
-    instagram-label: "@anmadethis"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Amy Almazar
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/amy-almazar
     linkedin-label: LinkedIn
     instagram-url: 
-    instagram-label: 
-  - image: "/uploads/cat-5.jpg"
+    instagram-label: Instagram
+  - image: "/uploads/profile-radhika-bhatt.jpg"
     image-alt: 
-    name: Chelsae Blackman
-    role: UX & Web Design
-    linkedin-url: https://www.linkedin.com/in/chelsae/
+    name: Rhadika Bhatt
+    role: Partnerships Director
+    linkedin-url:
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/chelsae.black/
-    instagram-label: "@chelsae.black"
+    instagram-url:
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Jason Bunyan
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/jason-w-bunyan-107a45
+    name: Claire Blaustein
+    role: AIGA DC President
+    linkedin-url:
     linkedin-label: LinkedIn
-    instagram-url: 
-    instagram-label: 
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Yngrid Chacon
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/yngrid-chacon/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/ecyan/
-    instagram-label: "@ecyan"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Hannah Churn
-    role: Animator
-    linkedin-url: https://www.linkedin.com/in/hannah-churn-3a49781a/
-    linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/hannamations/
-    instagram-label: "@hannamations"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Mary Corley
-    role: Volunteer Coordinator
-    linkedin-url: 
-    linkedin-label: 
-    instagram-url: 
-    instagram-label: 
+    instagram-url:
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Eliza Duquette
-    role: Event Lead
+    role: Program Director
     linkedin-url: https://www.linkedin.com/in/elizaduquette/
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/etothelizerrr/
-    instagram-label: "@etothelizerrr"
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Sophia Finster
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/sophia-finster-5258436
+    name: Nick Fabiani
+    role: Executive Director
+    linkedin-url: 
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/sophiafinster/
-    instagram-label: "@sophiafinster"
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
+    image-alt: 
+    name: Ariana Rodriguez-Gitler
+    role: Programming Lead
+    linkedin-url: https://www.linkedin.com/in/arianarg/
+    linkedin-label: LinkedIn
+    instagram-url: https://www.instagram.com/rgariana/
+    instagram-label: "@rgiana"
+  - image: "/uploads/profile-kim-stockley.jpg"
+    image-alt: 
+    name: Kim Stockley
+    role: Communications Director
+    linkedin-url:
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-ben-abraham.jpg"
+    image-alt: 
+    name: Ben Abraham
+    role: Program Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-danni-baker.jpg"
+    image-alt: 
+    name: Danni Baker
+    role: Program Lead
+    linkedin-url:
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-kojo-boateng.jpg"
+    image-alt: 
+    name: Kojo Boateng
+    role: Kickoff Lead
+    linkedin-url:
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Phim Her
-    role: Partnerships Chair
-    linkedin-url: https://www.linkedin.com/in/phimher
+    name: Phil Bolles
+    role: Program Lead
+    linkedin-url: 
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/phimher/
-    instagram-label: "@phimher"
+    instagram-url: 
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Chanel James
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/chanel-james-a5983610b/
+    name: Ash Del Cid
+    role: Program Lead
+    linkedin-url:
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/chanelnyre/
-    instagram-label: "@chanelnyre"
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-devin-draudt-sundeen.jpg"
+    image-alt: 
+    name: Devin Draudt Sundeen
+    role: Program Lead
+    linkedin-url:
+    linkedin-label: LinkedIn
+    instagram-url:
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Dave Ellington
+    role: Duke and The Duck Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/profile-sara-jamshidi.jpg"
+    image-alt: 
+    name: Sara Jamshidi
+    role: Program Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Josh Kim
+    role: Program Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/profile-cynthia-kim.jpg"
     image-alt: 
     name: Cynthia Kim
-    role: Communications
+    role: Marketing Lead
     linkedin-url: https://www.linkedin.com/in/cynthia-kim-54873010b/
     linkedin-label: LinkedIn
     instagram-url: 
     instagram-label: 
-  - image: "/uploads/cat-5.jpg"
-    image-alt: 
-    name: Becky Nissel
-    role: Copywriter
-    linkedin-url: 
-    linkedin-label: 
-    instagram-url: https://www.instagram.com/beckynissel/
-    instagram-label: "@beckynissel"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-johanna-ostrich.jpg"
     image-alt: 
     name: Johanna Ostrich
-    role: Event Lead
+    role: Program Lead
     linkedin-url: https://www.linkedin.com/in/johannaostrich
     linkedin-label: LinkedIn
     instagram-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
     instagram-label: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Rebecca Perez
-    role: Event Lead
-    linkedin-url: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
+    name: Erin Pedati
+    role: Social Media Lead
+    linkedin-url: 
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/rebeccas_work/
-    instagram-label: "@rebeccas_work"
-  - image: "/uploads/cat-5.jpg"
+    instagram-url:
+    instagram-label: Instagram
+  - image: "/uploads/profile-jena-persico.jpg"
+    image-alt: 
+    name: Jena Persico
+    role: Small Events Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/profile-khanh-pham.jpg"
     image-alt: 
     name: Khanh Pham
     role: Programming Lead
@@ -381,7 +373,7 @@ filter-status:
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/bkhanhp/
     instagram-label: "@bkhanhp"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-rebecca-price.jpg"
     image-alt: 
     name: Rebecca Price
     role: Social Media Lead
@@ -397,14 +389,54 @@ filter-status:
     linkedin-label: LinkedIn
     instagram-url: https://www.instagram.com/marcusrelacion/
     instagram-label: "@marcusrelacion"
+  - image: "/uploads/profile-freeman-robinson.jpg"
+    image-alt: 
+    name: Freeman Robinson
+    role: Keynote Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
   - image: "/uploads/cat-5.jpg"
     image-alt: 
-    name: Ariana Rodriguez-Gitler
-    role: Programming Lead
-    linkedin-url: https://www.linkedin.com/in/arianarg/
+    name: Laura Schorr
+    role: Program Lead
+    linkedin-url: 
     linkedin-label: LinkedIn
-    instagram-url: https://www.instagram.com/rgariana/
-    instagram-label: "@rgiana"
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/profile-silvia-script.jpg"
+    image-alt: 
+    name: Silvia Script
+    role: Web Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/profile-rebecca-silverstein.jpg"
+    image-alt: 
+    name: Rebecca Silverstein
+    role: Program Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Arian Wakisa
+    role: Program Lead
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
+  - image: "/uploads/cat-5.jpg"
+    image-alt: 
+    name: Chelsea Wilson
+    role: Web Coordinator
+    linkedin-url: 
+    linkedin-label: LinkedIn
+    instagram-url: 
+    instagram-label: Instagram
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
