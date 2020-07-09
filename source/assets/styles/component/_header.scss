@@ -5,7 +5,7 @@
 	@include sticky;
 	@include sticky-top;
 	background-color: $black;
-	padding: $spacing-4 $spacing-16;
+	padding: $spacing-16;
 }
 
 // hide site navigation when screen is < 1023
@@ -13,11 +13,8 @@
 	display: none;
 }
 
-.site-header__logo svg {
-	display: block;
-	fill: $white;
-	max-height: 64px;
-	width: 100%; // ios bug
+.site-header figure {
+	max-width: 96px;
 }
 
 .links {

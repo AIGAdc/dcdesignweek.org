@@ -1,9 +1,10 @@
 @mixin button {
 	background-color: transparent;
 	border: solid 1px transparent;
-	font-family: $sans;
-	font-weight: 700;
+	font-family: $brand-sans-alt;
+	font-weight: 400;
 	font-size: $font-size-16;
+	text-transform: uppercase;
 }
 
 @mixin button-block {
