@@ -1,11 +1,9 @@
 ---
 title: Pop-Up Shop
 permalink: "/makers/"
-published: true
 layout: makers
-has-hero: true
 hero:
-    - tagline:
+    - has-hero: true
       header: Pop-Up Shop
       subheader:
           The DCDW Pop-Up Shop is back and it’s bigger than ever. That’s right.
@@ -24,7 +22,7 @@ call-for-artists-body:
     "Come and celebrate your local DC design community at the Block
     Party, have some beer and snacks, do some live letterpress at [Typecase Industries](http://www.typecaseindustries.com/),
     and shop all of the awesome goods for sale at the DCDW Pop-Up Shop (found inside
-    Cherry Blossom Creative and the Neighborgoods)!\n\n"
+    Cherry Blossom Creative and the Neighborgoods)!"
 call-for-artists-button: RSVP
 call-for-artists-button-url: "/events/pop-up-block-party/"
 ---
