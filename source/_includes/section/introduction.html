@@ -16,7 +16,7 @@
 </section>
 {% endif %}
 {% endfor %}
-{% elsif page.url == "/about/" %}
+{% elsif page.url == "/about/" or page.url == "/makers/" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
 <section class="section section__partners grid-four-col">

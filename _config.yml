@@ -449,10 +449,10 @@ navigation-placeholder:
 navigation-teaser:
 #- url: /events
 #  label: Events
-- url: /about
+- url: /about/
   label: About
-#- url: /pop-up-shop
-#  label: Pop-Up Shop
+- url: /makers/
+  label: Makers
 about-dcdw:
   header: <span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>
   text: |-
@@ -478,8 +478,7 @@ partner:
   button-label: Become a Partner
 past-events:
     header: <span>2019</span> <span>Event</span> <span>Highlights</span>
-    body:           
-        
+    body:
     button-url: https://2019.dcdesignweek.org/events/
     button-label: See 2019 Events
     events:

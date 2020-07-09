@@ -1,8 +1,8 @@
 ---
 title: Pop-Up Shop
-permalink: "/pop-up-shop/"
-published: false
-layout: pop-up-shop
+permalink: "/makers/"
+published: true
+layout: makers
 has-hero: true
 hero:
     - tagline:
@@ -13,6 +13,10 @@ hero:
           AND [The Neighborgoods](https://theneighborgoods.com/) will be stocked with items
           made by DC locals. Swing by, shop, and support your neighborhood maker and creative
           community (during business hours, please).
+introduction:
+  - has-introduction: true
+    header: <span>Something</span> <span>Different</span>
+    body: The Pop-Up shop has always been a cornerstone of DC Design Week. It’s how we feature and support talented creators – from ceramicists to illustrators –  across the DMV. With our virtual approach to DC Design Week this year comes a unique opportunity to celebrate makers and infuse the infectious DIY energy into every element of the week. Read on for ways that you can participate!
 call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
 call-for-artists-image-alt: Pop Up Shop Image Alt
 call-for-artists-header: Shop the Block Party
