@@ -18,15 +18,15 @@
 					<h3 class="card-details__member-name">{{ member.name }}</h3>
 					<p class="card-details__member-role">{{ member.role }}</p>
 					{% if member.website-url-1 %}
-					<p class="card-details__linkedin">
-						<i class="fab fa-linkedin"> </i> <a style="color: white;" href="{{ member.website-url-1 }}"
-							rel="noopener noreferrer" target="_blank">Put Website Label 1 Icon</a>
+					<p>
+						<a style="color: white;" href="{{ member.website-url-1 }}" rel="noopener noreferrer"
+							target="_blank">{{ member.website-label-1 }}</a>
 					</p>
 					{% endif %}
 					{% if member.website-url-2 %}
-					<p class="card-details__instagram">
-						<i class="fab fa-instagram"> </i> <a style="color: white;" href="{{ member.website-url-2 }}"
-							rel="noopener noreferrer" target="_blank">Put Website Label 2 Icon</a>
+					<p>
+						<a style="color: white;" href="{{ member.website-url-2 }}" rel="noopener noreferrer"
+							target="_blank">{{ member.website-label-2 }}</a>
 					</p>
 					{% endif %}
 				</div>

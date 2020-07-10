@@ -210,231 +210,229 @@ filter-status:
     name: Richard Bentham
     role: Deputy Director
     website-url-1: https://www.instagram.com/richardben/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-radhika-bhatt.jpg"
     image-alt: 
     name: Rhadika Bhatt
     role: Partnerships Director
     website-url-1: https://instagram.com/superbhatt
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/radhika-bhatt
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Claire Blaustein
     role: AIGA DC President
     website-url-1:
-    website-label-1: Website Label 1
+    website-label-1:
     website-url-2:
-    website-label-2: Website Label 2
+    website-label-2:
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Eliza Duquette
     role: Program Director
     website-url-1: https://www.elizaduquette.design/
-    website-label-1: Website
+    website-label-1: <i class="fas fa-globe-americas"></i> Website
     website-url-2: https://www.linkedin.com/in/elizaduquette/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Nick Fabiani
     role: Executive Director
     website-url-1: https://www.instagram.com/nickfabiani/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/nick-fabiani
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
     image-alt: 
     name: Ariana Rodriguez-Gitler
     role: Project Manager
     website-url-1: https://www.instagram.com/rgariana/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/arianarg/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-kim-stockley.jpg"
     image-alt: 
     name: Kim Stockley
     role: Communications Director
     website-url-1: https://www.instagram.com/kimstockley/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/kimstockley/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-ben-abraham.jpg"
     image-alt: 
     name: Ben Abraham
     role: Program Lead
     website-url-1: https://www.instagram.com/benlenciagaaa/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/ben-abraham/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-danni-baker.jpg"
     image-alt: 
     name: Danni Baker
     role: Program Lead
     website-url-1: https://www.instagram.com/visionarydanni5/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/dannibaker/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-kojo-boateng.jpg"
     image-alt: 
     name: Kojo Boateng
     role: Kickoff Lead
     website-url-1: https://kojoboateng.com/
-    website-label-1: Website
+    website-label-1: <i class="fas fa-globe-americas"></i> Website
     website-url-2: https://www.linkedin.com/in/kojoboateng/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Phil Bolles
     role: Program Lead
     website-url-1: https://www.instagram.com/philbolles/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/phil-bolles-45215911/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Ash Del Cid
     role: Program Lead
     website-url-1:
-    website-label-1: Website Label 1
+    website-label-1:
     website-url-2:
-    website-label-2: Website Label 2
+    website-label-2:
   - image: "/uploads/profile-devin-draudt-sundeen.jpg"
     image-alt: 
     name: Devin Draudt Sundeen
     role: Program Lead
     website-url-1: https://www.instagram.com/devin.draudt.sundeen/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Dave Ellington
     role: Duke and The Duck Lead
     website-url-1: 
-    website-label-1: Website Label 1
+    website-label-1:
     website-url-2: 
-    website-label-2: Website Label 2
+    website-label-2:
   - image: "/uploads/profile-sara-jamshidi.jpg"
     image-alt: 
     name: Sara Jamshidi
     role: Program Lead
     website-url-1: https://www.instagram.com/_sarajamshidi_/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/sara-jamshidi-77726559/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Josh Kim
     role: Program and Accessibility Lead
     website-url-1: https://www.joshkimux.com/
-    website-label-1: Website
+    website-label-1: <i class="fas fa-globe-americas"></i> Website
     website-url-2: https://www.linkedin.com/in/joshkimux/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-cynthia-kim.jpg"
     image-alt: 
     name: Cynthia Kim
     role: Marketing Lead
     website-url-1: https://www.linkedin.com/in/cynthia-kim
-    website-label-1: LinkedIn
-    website-url-2: 
-    website-label-2: 
+    website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-johanna-ostrich.jpg"
     image-alt: 
     name: Johanna Ostrich
     role: Pop-Up Shop Lead
     website-url-1:  https://johannaostrich.com
-    website-label-1: Website
+    website-label-1: <i class="fas fa-globe-americas"></i> Website
     website-url-2: www.linkedin.com/in/johannaostrich
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Erin Pedati
     role: Social Media Lead
     website-url-1: https://www.instagram.com/studio_ekp/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: www.linkedin.com/in/erinpedati
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-jena-persico.jpg"
     image-alt: 
     name: Jena Persico
     role: Program Lead
     website-url-1: https://www.instagram.com/alpacayoursuitcase/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/jena-p-6051ab30
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-khanh-pham.jpg"
     image-alt: 
     name: Khanh Pham
     role: Program Lead
     website-url-1: https://www.instagram.com/bkhanhp/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/khanhtbp/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-rebecca-price.jpg"
     image-alt: 
     name: Rebecca Price
     role: Social Media Lead
-    website-url-1: https://www.linkedin.com/in/rebecca-price-686531b3/
-    website-label-1: Website Label 1
-    website-url-2: https://www.instagram.com/rebeccuhhhhh/
-    website-label-2: "@rebeccuhhhhh"
+    website-url-1: https://www.instagram.com/rebeccuhhhhh/
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+    website-url-2: https://www.linkedin.com/in/rebecca-price-686531b3/
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Marcus Relacion
     role: Web Developer
     website-url-1: https://www.instagram.com/marcusrelacion/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/marcusrelacion/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-freeman-robinson.jpg"
     image-alt: 
     name: Freeman Robinson
     role: Keynote Lead
     website-url-1: https://www.instagram.com/freemantheartist/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: http://linkedin.com/in/freemantheartist
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Laura Schorr
     role: Program Lead
     website-url-1: 
-    website-label-1: Website Label 1
+    website-label-1:
     website-url-2: 
-    website-label-2: Website Label 2
+    website-label-2:
   - image: "/uploads/profile-silvia-script.jpg"
     image-alt: 
     name: Silvia Script
     role: Web Lead
     website-url-1: https://www.instagram.com/silscript
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/silscript
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/profile-rebecca-silverstein.jpg"
     image-alt: 
     name: Rebecca Silverstein
     role: Program Lead
     website-url-1: https://www.instagram.com/rebockasilvhairstein/
-    website-label-1: Instagram
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-url-2: https://www.linkedin.com/in/rebecca-silverstein/
-    website-label-2: LinkedIn
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Arian Wakisa
     role: Program Lead
     website-url-1: 
-    website-label-1: Website Label 1
+    website-label-1:
     website-url-2: 
-    website-label-2: Website Label 2
+    website-label-2:
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Chelsea Wilson
     role: Web Coordinator
     website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
-    website-label-1: LinkedIn
+    website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -543,7 +541,7 @@ footer:
       65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5
       24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2
       28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
-  - title: Instagram
+  - title: <i class="fab fa-instagram-square"></i> Instagram
     url: https://www.instagram.com/dcdesignweek/
     icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
   - title: Facebook
