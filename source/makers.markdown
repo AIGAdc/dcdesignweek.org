@@ -12,7 +12,7 @@ introduction:
     body: The Pop-Up shop has always been a cornerstone of DC Design Week. It’s how we feature and support talented creators – from ceramicists to illustrators –  across the DMV. With our virtual approach to DC Design Week this year comes a unique opportunity to celebrate makers and infuse the infectious DIY energy into every element of the week. Read on for ways that you can participate!
 print-designers:
   - has-print-designers: true
-    header: <span>Calling</span> <span>all</span> <span>print</span> <span>designers</span> <span>!</span>
+    header: <span>Calling</span> <span>all</span> <span>emerging</span> <span>designers</span> <span>!</span>
     body: >
       This year is a celebration of the creative voices in our community. We want to hear yours. We’re commissioning up to five designers to design an 11x17 poster that we’ll print and sell along with our DCDW 2020 merch at an online shop hosted by [To Be Determined]. 
       
@@ -23,6 +23,10 @@ print-designers:
       Each designer will receive $500 for their commission as well as 30% of all proceeds from sales of their design. Designers will be selected by a committee of volunteers, including Torie Partridge, Jodi Kostelnik, ABC, and XYZ. We’ll let you know if you’ve been selected by 8/6 Final designs must be submitted by 8/30.
     button-label: Apply Now
     button-url:
+    image-left: /uploads/poster-green-bubble.jpg
+    image-left-alt:
+    image-right: /uploads/poster-black-photo.jpg
+    image-right-alt:
 celebrating-you:
   - has-celebrating-you: true
     header: <span>Celebrating</span> <span>you</span>

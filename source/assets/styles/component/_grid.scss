@@ -13,6 +13,10 @@
 	grid-template-columns: 1fr;
 }
 
+.grid-col>*+* {
+	margin-top: 16px;
+}
+
 .grid-col-span-1,
 .grid-col-span-2,
 .grid-col-span-3,
@@ -28,6 +32,7 @@
 }
 
 @media screen and (min-width: 1023px) {
+
 	.grid,
 	.grid--hero {
 		grid-template-columns: repeat(4, 1fr);
@@ -36,8 +41,8 @@
 	.grid--hero {
 		grid-template-rows: max-content;
 		grid-template-areas:
-		"bubble bubble bubble bubble"
-		"video video bubble bubble";
+			"bubble bubble bubble bubble"
+			"video video bubble bubble";
 	}
 
 	.sub-grid {
@@ -61,7 +66,7 @@
 	}
 
 	.grid-col-span-50 {
-		max-width: 50%;
+		max-width: 60%;
 	}
 }
 
@@ -108,4 +113,65 @@
 	.sub-grid-four-col {
 		grid-template-columns: repeat(4, 1fr);
 	}
+}
+
+.flex {
+	display: flex;
+}
+
+.emerging-designers-posters.flex {
+	margin: auto;
+	max-width: 500px;
+}
+
+.emerging-designers-posters .layer--3 {
+	top: 160px;
+}
+
+.emerging-designers-posters .layer--3 {
+	margin-left: -64px;
+}
+
+.emerging-designers-posters .layer--2 {
+	margin-right: -64px;
+}
+
+.emerging-designers-posters figure img {
+	border: solid 1px white;
+}
+
+.emerging-designers-posters figure,
+.emerging-designers-posters img {
+	position: relative;
+}
+
+.box-top-left,
+.box-top-right,
+.box-bottom-right,
+.box-bottom-left {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	border: solid 1px white;
+	background-color: white;
+}
+
+.box-top-left {
+	top: -6px;
+	left: -6px;
+}
+
+.box-top-right {
+	top: -6px;
+	right: -6px;
+}
+
+.box-bottom-right {
+	bottom: -6px;
+	right: -6px;
+}
+
+.box-bottom-left {
+	bottom: -6px;
+	left: -6px;
 }
