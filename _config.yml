@@ -209,18 +209,18 @@ filter-status:
     image-alt: Member Portrait
     name: Richard Bentham
     role: Deputy Director
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/richardben/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-radhika-bhatt.jpg"
     image-alt: 
     name: Rhadika Bhatt
     role: Partnerships Director
-    website-url-1:
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://instagram.com/superbhatt
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/radhika-bhatt
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Claire Blaustein
@@ -233,66 +233,66 @@ filter-status:
     image-alt: 
     name: Eliza Duquette
     role: Program Director
-    website-url-1: https://www.linkedin.com/in/elizaduquette/
-    website-label-1: Website Label 1
-    website-url-2: https://www.instagram.com/etothelizerrr/
-    website-label-2: Website Label 2
+    website-url-1: https://www.elizaduquette.design/
+    website-label-1: Website
+    website-url-2: https://www.linkedin.com/in/elizaduquette/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Nick Fabiani
     role: Executive Director
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/nickfabiani/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/nick-fabiani
+    website-label-2: LinkedIn
   - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
     image-alt: 
     name: Ariana Rodriguez-Gitler
     role: Project Manager
-    website-url-1: https://www.linkedin.com/in/arianarg/
-    website-label-1: Website Label 1
-    website-url-2: https://www.instagram.com/rgariana/
-    website-label-2: "@rgiana"
+    website-url-1: https://www.instagram.com/rgariana/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/arianarg/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-kim-stockley.jpg"
     image-alt: 
     name: Kim Stockley
     role: Communications Director
-    website-url-1:
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/kimstockley/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/kimstockley/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-ben-abraham.jpg"
     image-alt: 
     name: Ben Abraham
     role: Program Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/benlenciagaaa/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/ben-abraham/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-danni-baker.jpg"
     image-alt: 
     name: Danni Baker
     role: Program Lead
-    website-url-1:
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/visionarydanni5/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/dannibaker/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-kojo-boateng.jpg"
     image-alt: 
     name: Kojo Boateng
     role: Kickoff Lead
-    website-url-1:
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://kojoboateng.com/
+    website-label-1: Website
+    website-url-2: https://www.linkedin.com/in/kojoboateng/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Phil Bolles
     role: Program Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/philbolles/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/phil-bolles-45215911/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Ash Del Cid
@@ -305,10 +305,10 @@ filter-status:
     image-alt: 
     name: Devin Draudt Sundeen
     role: Program Lead
-    website-url-1:
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/devin.draudt.sundeen/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Dave Ellington
@@ -321,58 +321,58 @@ filter-status:
     image-alt: 
     name: Sara Jamshidi
     role: Program Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/_sarajamshidi_/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/sara-jamshidi-77726559/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Josh Kim
     role: Program and Accessibility Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.joshkimux.com/
+    website-label-1: Website
+    website-url-2: https://www.linkedin.com/in/joshkimux/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-cynthia-kim.jpg"
     image-alt: 
     name: Cynthia Kim
     role: Marketing Lead
-    website-url-1: https://www.linkedin.com/in/cynthia-kim-54873010b/
-    website-label-1: Website Label 1
+    website-url-1: https://www.linkedin.com/in/cynthia-kim
+    website-label-1: LinkedIn
     website-url-2: 
     website-label-2: 
   - image: "/uploads/profile-johanna-ostrich.jpg"
     image-alt: 
     name: Johanna Ostrich
     role: Pop-Up Shop Lead
-    website-url-1: https://www.linkedin.com/in/johannaostrich
-    website-label-1: Website Label 1
-    website-url-2: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
-    website-label-2: Website Label 1
+    website-url-1:  https://johannaostrich.com
+    website-label-1: Website
+    website-url-2: www.linkedin.com/in/johannaostrich
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Erin Pedati
     role: Social Media Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2:
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/studio_ekp/
+    website-label-1: Instagram
+    website-url-2: www.linkedin.com/in/erinpedati
+    website-label-2: LinkedIn
   - image: "/uploads/profile-jena-persico.jpg"
     image-alt: 
     name: Jena Persico
     role: Program Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/alpacayoursuitcase/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/jena-p-6051ab30
+    website-label-2: LinkedIn
   - image: "/uploads/profile-khanh-pham.jpg"
     image-alt: 
     name: Khanh Pham
     role: Program Lead
-    website-url-1: https://www.linkedin.com/in/khanhtbp/
-    website-label-1: Website Label 1
-    website-url-2: https://www.instagram.com/bkhanhp/
-    website-label-2: "@bkhanhp"
+    website-url-1: https://www.instagram.com/bkhanhp/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/khanhtbp/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-rebecca-price.jpg"
     image-alt: 
     name: Rebecca Price
@@ -385,18 +385,18 @@ filter-status:
     image-alt: 
     name: Marcus Relacion
     role: Web Developer
-    website-url-1: https://www.linkedin.com/in/marcusrelacion/
-    website-label-1: Website Label 1
-    website-url-2: https://www.instagram.com/marcusrelacion/
-    website-label-2: "@marcusrelacion"
+    website-url-1: https://www.instagram.com/marcusrelacion/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/marcusrelacion/
+    website-label-2: LinkedIn
   - image: "/uploads/profile-freeman-robinson.jpg"
     image-alt: 
     name: Freeman Robinson
     role: Keynote Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/freemantheartist/
+    website-label-1: Instagram
+    website-url-2: http://linkedin.com/in/freemantheartist
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Laura Schorr
@@ -409,18 +409,18 @@ filter-status:
     image-alt: 
     name: Silvia Script
     role: Web Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/silscript
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/silscript
+    website-label-2: LinkedIn
   - image: "/uploads/profile-rebecca-silverstein.jpg"
     image-alt: 
     name: Rebecca Silverstein
     role: Program Lead
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.instagram.com/rebockasilvhairstein/
+    website-label-1: Instagram
+    website-url-2: https://www.linkedin.com/in/rebecca-silverstein/
+    website-label-2: LinkedIn
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Arian Wakisa
@@ -433,10 +433,8 @@ filter-status:
     image-alt: 
     name: Chelsea Wilson
     role: Web Coordinator
-    website-url-1: 
-    website-label-1: Website Label 1
-    website-url-2: 
-    website-label-2: Website Label 2
+    website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
+    website-label-1: LinkedIn
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
