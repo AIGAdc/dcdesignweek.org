@@ -248,7 +248,7 @@ filter-status:
   - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
     image-alt: 
     name: Ariana Rodriguez-Gitler
-    role: Programming Lead
+    role: Project Manager
     website-url-1: https://www.linkedin.com/in/arianarg/
     website-label-1: Website Label 1
     website-url-2: https://www.instagram.com/rgariana/
@@ -328,7 +328,7 @@ filter-status:
   - image: "/uploads/cat-5.jpg"
     image-alt: 
     name: Josh Kim
-    role: Program Lead
+    role: Program and Accessibility Lead
     website-url-1: 
     website-label-1: Website Label 1
     website-url-2: 
@@ -344,7 +344,7 @@ filter-status:
   - image: "/uploads/profile-johanna-ostrich.jpg"
     image-alt: 
     name: Johanna Ostrich
-    role: Program Lead
+    role: Pop-Up Shop Lead
     website-url-1: https://www.linkedin.com/in/johannaostrich
     website-label-1: Website Label 1
     website-url-2: https://www.linkedin.com/in/rebecca-perez-3a8bb313/
@@ -360,7 +360,7 @@ filter-status:
   - image: "/uploads/profile-jena-persico.jpg"
     image-alt: 
     name: Jena Persico
-    role: Small Events Lead
+    role: Program Lead
     website-url-1: 
     website-label-1: Website Label 1
     website-url-2: 
@@ -368,7 +368,7 @@ filter-status:
   - image: "/uploads/profile-khanh-pham.jpg"
     image-alt: 
     name: Khanh Pham
-    role: Programming Lead
+    role: Program Lead
     website-url-1: https://www.linkedin.com/in/khanhtbp/
     website-label-1: Website Label 1
     website-url-2: https://www.instagram.com/bkhanhp/
