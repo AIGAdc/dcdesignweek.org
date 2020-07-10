@@ -1,17 +1,18 @@
 {% if page.url == "/" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__partners grid-four-col">
-	<div class="grid-col grid-col--span-1">
-		<h2>{{ content.header }}</h2>
-	</div>
-	<div class="grid-col grid-col--span-2">
+<section class="section section__partners grid">
+	<div class="grid-col grid-col-span-2">
+		<h2 class="grid-col-span-50">{{ content.header }}</h2>
 		<p>{{ content.body }}</p>
+		<div class="grid-col-span-50">
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
+			</a>
+		</div>
 	</div>
-	<div class="grid-col grid-col--span-1">
-		<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-			href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
-		</a>
+	<div class="grid-col grid-col-span-2">
+		Image Will Go Here
 	</div>
 </section>
 {% endif %}
@@ -19,12 +20,13 @@
 {% elsif page.url == "/about/" or page.url == "/makers/" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__partners grid-four-col">
-	<div class="grid-col grid-col--span-1">
-		<h2>{{ content.header }}</h2>
-	</div>
-	<div class="grid-col grid-col--span-2">
+<section class="section section__partners grid">
+	<div class="grid-col grid-col-span-2">
+		<h2 class="grid-col-span-50">{{ content.header }}</h2>
 		<p>{{ content.body }}</p>
+	</div>
+	<div class="grid-col grid-col-span-2">
+		Image Will Go Here
 	</div>
 </section>
 {% endif %}
