@@ -22,7 +22,7 @@
 		<!-- styles -->
 		<link href="{{ site.asseturl }}styles/app.css" media="all" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://use.typekit.net/dsv8drd.css">
-		
+
 		<!-- scripts -->
 		<script src="{{ site.asseturl }}scripts/offside.min.js" type="text/javascript"></script>
 
@@ -67,13 +67,11 @@
 
 	<body>
 		<main id="my-content-container" class="{{ page.layout }}-layout">
-			{%- include site-header.html -%} {{ content | safe }} {%- include
-			site-footer.html -%}
+			{%- include site-header.html -%}
+			{{ content | safe }}
+			{%- include site-footer.html -%}
 		</main>
-
 		{% include /3rd-party/offside/scripts.html %}
 	</body>
-
-	<!-- mobile menu scripts -->
 
 </html>
