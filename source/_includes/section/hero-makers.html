@@ -1,0 +1,17 @@
+{% comment %}
+If page frontmatter key "has-hero" is equal to true, display the hero section
+{% endcomment %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section section__hero grid"
+	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<div class="grid-col grid-col--span-4">
+		<div class="">
+			<h1>{{ content.header }}</h1>
+		</div>
+	</div>
+	<div class="overlay"></div>
+</section>
+{% endif %}
+{% endfor %}

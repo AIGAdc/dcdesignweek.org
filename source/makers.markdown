@@ -4,13 +4,8 @@ permalink: "/makers/"
 layout: makers
 hero:
     - has-hero: true
-      header: Pop-Up Shop
+      header: Makers
       subheader:
-          The DCDW Pop-Up Shop is back and it’s bigger than ever. That’s right.
-          Every shelf, table and flat surface in [Cherry Blossom Creative](http://www.cherryblossomworkshop.com/)
-          AND [The Neighborgoods](https://theneighborgoods.com/) will be stocked with items
-          made by DC locals. Swing by, shop, and support your neighborhood maker and creative
-          community (during business hours, please).
 introduction:
   - has-introduction: true
     header: <span>Something</span> <span>Different</span>

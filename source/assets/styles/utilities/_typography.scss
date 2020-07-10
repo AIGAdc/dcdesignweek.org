@@ -1,7 +1,6 @@
 @mixin anchor {
-	color: $black;
+	color: $green;
 	cursor: pointer;
-	font-weight: 700;
 	text-decoration: none;
 	transition: opacity $timing-default ease-in;
 }

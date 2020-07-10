@@ -13,18 +13,14 @@
 }
 
 .grid-col {
-	background-color: salmon;
 	padding: 8px;
-}
-
-.grid-col-span-50 {
-	max-width: 50%;
 }
 
 .grid-col-span-1,
 .grid-col-span-2,
 .grid-col-span-3,
-.grid-col-span-4 {
+.grid-col-span-4,
+.grid-col-span-50 {
 	grid-column: span 1;
 }
 
@@ -57,6 +53,10 @@
 
 	.grid-col-span-4 {
 		grid-column: span 4;
+	}
+
+	.grid-col-span-50 {
+		max-width: 50%;
 	}
 }
 
