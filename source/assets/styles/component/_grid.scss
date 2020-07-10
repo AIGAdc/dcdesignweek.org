@@ -1,4 +1,5 @@
-.grid {
+.grid,
+.grid--hero {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 32px;
@@ -27,8 +28,16 @@
 }
 
 @media screen and (min-width: 1023px) {
-	.grid {
+	.grid,
+	.grid--hero {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid--hero {
+		grid-template-rows: max-content;
+		grid-template-areas:
+		"bubble bubble bubble bubble"
+		"video video bubble bubble";
 	}
 
 	.sub-grid {

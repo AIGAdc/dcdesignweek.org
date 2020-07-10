@@ -16,6 +16,7 @@
 	-webkit-clip-path: ellipse(37.40% 42.41% at 50% 50%);
 	clip-path: ellipse(37.40% 42.41% at 50% 50%);
 	transform: rotate(10deg);
+	overflow: hidden;
 }
 
 .card--committee .card__image img,
