@@ -1,7 +1,7 @@
 {% if page.url == "/" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__partners grid">
+<section class="section section__introduction grid">
 	<div class="grid-col grid-col-span-2">
 		<h2 class="grid-col-span-50">{{ content.header }}</h2>
 		<p>{{ content.body }}</p>
@@ -12,7 +12,7 @@
 		</div>
 	</div>
 	<div class="grid-col grid-col-span-2">
-		Image Will Go Here
+		Bubble/Ornament Will Go here
 	</div>
 </section>
 {% endif %}
@@ -20,13 +20,20 @@
 {% elsif page.url == "/about/" or page.url == "/makers/" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__partners grid">
+<section class="section section__introduction grid">
 	<div class="grid-col grid-col-span-2">
 		<h2 class="grid-col-span-50">{{ content.header }}</h2>
 		<p>{{ content.body }}</p>
 	</div>
 	<div class="grid-col grid-col-span-2">
-		Image Will Go Here
+		Bubble/Image Will Go Here
+	</div>
+	<div class="grid-col grid-col-span-2">
+		Bubble/Image Will Go Here
+	</div>
+	<div class="grid-col grid-col-span-2">
+		<h2 class="grid-col-span-50">{{ content.header }}</h2>
+		<p>{{ content.body }}</p>
 	</div>
 </section>
 {% endif %}

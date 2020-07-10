@@ -1,7 +1,7 @@
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 16px;
+	grid-gap: 32px;
 	max-width: 1440px;
 	margin: auto;
 	align-items: start;
@@ -69,30 +69,7 @@
 	grid-template-columns: 1fr;
 }
 
-.auto-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 20rem), 1fr));
-	grid-gap: 1rem;
-}
-
-// .grid-col:nth-child(1) {
-// 	grid-row: 1;
-// }
-
-// .grid-col:nth-child(2) {
-// 	grid-row: 2;
-// }
-
-// .grid-col:nth-child(3) {
-// 	grid-row: 3;
-// }
-
-// .grid-col:nth-child(4) {
-// 	grid-row: 4;
-// }
-
 @media screen and (min-width: 800px) {
-
 	.grid-four-col,
 	.sub-grid-four-col {
 		grid-template-columns: repeat(2, 1fr);

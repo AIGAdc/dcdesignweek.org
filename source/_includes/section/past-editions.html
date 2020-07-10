@@ -1,19 +1,16 @@
-<section class="section section__past-dcdw grid-four-col">
-	{% if site.past-editions.header %}
-	<div class="grid-col grid-col--span-1">
-		<h2>
-			{{ site.past-editions.header }}
-		</h2>
+<section class="section section__past-dcdw grid">
+	<div class="grid-col grid-col--span-2">
+		{% if site.past-editions.header %}
+		<h2 class="grid-col-span-50">{{ site.past-editions.header }}</h2>
+		{% endif %}
+		{% if site.past-editions.body %}
+		<p>{{ site.past-editions.body }}</p>
+		{% endif %}
 	</div>
-	{% endif %}
 
-	{% if site.past-editions.body %}
-	<div class="grid-col grid-col--span-1">
-		<p>
-			{{ site.past-editions.body }}
-		</p>
+	<div class="grid-col grid-col--span-2">
+		Ornaments Will Go Here
 	</div>
-	{% endif %}
 
 	<div class="grid-col grid-col--span-4">
 		<ul class="sub-grid-four-col">
