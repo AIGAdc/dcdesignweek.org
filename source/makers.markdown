@@ -38,14 +38,4 @@ celebrating-you:
       We want DC Design Week to celebrate you too.  That’s why we’re dedicating a section of our site to celebrating the makers of our region. Whether you have an online shop or brick-and-mortar, we want to show the world the amazing things you make. If you’re interested, apply below by [DATE] and include a sample photo of your product and a link you’d like to include on our site.
     button-label: Apply Now
     button-url: 
-call-for-artists-image: "/uploads/pop-up-shop-call-for-artists.png"
-call-for-artists-image-alt: Pop Up Shop Image Alt
-call-for-artists-header: Shop the Block Party
-call-for-artists-body:
-    "Come and celebrate your local DC design community at the Block
-    Party, have some beer and snacks, do some live letterpress at [Typecase Industries](http://www.typecaseindustries.com/),
-    and shop all of the awesome goods for sale at the DCDW Pop-Up Shop (found inside
-    Cherry Blossom Creative and the Neighborgoods)!"
-call-for-artists-button: RSVP
-call-for-artists-button-url: "/events/pop-up-block-party/"
 ---
