@@ -9,6 +9,10 @@
 
 .card__image {
 	border: solid 1px $white;
+	border: solid 2px #fff;
+	-webkit-clip-path: ellipse(37.40% 42.41% at 50% 50%);
+	clip-path: ellipse(37.40% 42.41% at 50% 50%);
+	transform: rotate(10deg);
 }
 
 .card--committee .card__image img,
@@ -16,13 +20,16 @@
 .card--sponsors .card__image img {
 	-o-object-fit: cover;
 	object-fit: cover;
+	transition: -webkit-filter $timing-quick ease-in;
 	transition: filter $timing-quick ease-in;
+	transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
 	@include grayscale;
 }
 
 .card--committee .card__image img,
 .card--event .card__image img {
 	height: 400px;
+	transform: rotate(-10deg);
 }
 
 .card--sponsors .card__image {
