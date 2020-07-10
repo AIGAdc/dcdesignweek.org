@@ -36,7 +36,7 @@ speakers:
   bio: Shahier Rahman is the partnerships specialist for General Assembly DC, and
     when he's not connecting companies with tech talent in Washington, DC, you can
     find him doing stand-up comedy in dive bars around town.
-  website-label: LinkedIn
+  website-label: Website Label 1
   website-url: https://www.linkedin.com/in/shahier-rahman-a25b4296/
 - name: Shalom Dubas
   title: 

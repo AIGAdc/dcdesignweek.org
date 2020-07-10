@@ -17,16 +17,16 @@
 				<div class="card-details">
 					<h3 class="card-details__member-name">{{ member.name }}</h3>
 					<p class="card-details__member-role">{{ member.role }}</p>
-					{% if member.linkedin-url %}
+					{% if member.website-url-1 %}
 					<p class="card-details__linkedin">
-						<i class="fab fa-linkedin"> </i> <a style="color: white;" href="{{ member.linkedin-url }}"
-							rel="noopener noreferrer" target="_blank">Put LinkedIn Icon</a>
+						<i class="fab fa-linkedin"> </i> <a style="color: white;" href="{{ member.website-url-1 }}"
+							rel="noopener noreferrer" target="_blank">Put Website Label 1 Icon</a>
 					</p>
 					{% endif %}
-					{% if member.instagram-url %}
+					{% if member.website-url-2 %}
 					<p class="card-details__instagram">
-						<i class="fab fa-instagram"> </i> <a style="color: white;" href="{{ member.instagram-url }}"
-							rel="noopener noreferrer" target="_blank">Put Instagram Icon</a>
+						<i class="fab fa-instagram"> </i> <a style="color: white;" href="{{ member.website-url-2 }}"
+							rel="noopener noreferrer" target="_blank">Put Website Label 2 Icon</a>
 					</p>
 					{% endif %}
 				</div>
