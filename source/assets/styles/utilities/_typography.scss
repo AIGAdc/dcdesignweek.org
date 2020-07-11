@@ -40,12 +40,12 @@ a {
 }
 
 @mixin state-active {
-	outline: 4px dashed $black !important;
+	outline: 2px dashed $white !important;
 	outline-offset: 2px !important;
 }
 
 @mixin state-focus {
-	outline: 4px solid $black !important;
+	outline: 2px dashed $green !important;
 	outline-offset: 2px !important;
 }
 
