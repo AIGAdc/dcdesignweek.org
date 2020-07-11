@@ -1,0 +1,27 @@
+.bubble-group-subscribe {
+	position: relative;
+	width: 100%;
+}
+
+@media screen and (min-width: 1023px) {
+	.bubble-group-subscribe {
+		position: absolute;
+		top: -220px;
+		left: -900px;
+		width: 1400px;
+	}
+}
+
+@media screen and (min-width: 1279px) {
+	.bubble-group-subscribe {
+		top: -220px;
+		left: -700px;
+	}
+}
+
+@media screen and (min-width: 1365px) {
+	.bubble-group-subscribe {
+		top: -220px;
+		left: -600px;
+	}
+}
