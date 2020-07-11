@@ -553,7 +553,7 @@ past-events:
 past-editions:
   header: <span>DC</span> <span>Through</span> <span>the</span> <span>Years</span>
   unbranded-header: DC Through the Years
-  body:
+  body: We love reminiscing.
   editions:
     - title: DCDW 2016
       image: "/uploads/dcdw-2016-pattern.jpg"
