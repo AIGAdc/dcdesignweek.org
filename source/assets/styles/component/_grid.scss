@@ -39,6 +39,7 @@
 	}
 
 	.grid--hero {
+		grid-template-rows: -webkit-max-content;
 		grid-template-rows: max-content;
 		grid-template-areas:
 			"bubble bubble bubble bubble"
