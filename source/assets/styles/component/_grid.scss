@@ -8,6 +8,10 @@
 	align-items: start;
 }
 
+.grid-col {
+	position: relative;
+}
+
 .grid-col>*+* {
 	margin-top: 16px;
 }

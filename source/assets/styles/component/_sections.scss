@@ -1,7 +1,6 @@
 .section {
 	@include section;
 	position: relative;
-	overflow: hidden;
 }
 
 .section:not(:last-child) {
