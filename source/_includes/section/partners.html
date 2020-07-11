@@ -5,7 +5,7 @@
 		</div>
 		<div class="grid-col grid-col--span-2">
 			<h2 class="grid-col-span-50">{{ site.partner.header }}</h2>
-			<p>{{ site.partner.body }}</p>
+			<p>{{ site.partner.body | markdownify }}</p>
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ site.partner.button-url }}" target="_blank">{{ site.partner.button-label }}
 			</a>
