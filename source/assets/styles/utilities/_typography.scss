@@ -6,6 +6,20 @@
 }
 
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+	display: block;
+	font-family: $sans;
+	font-weight: 700;
+	line-height: initial;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
 h2 {
 	text-transform: uppercase;
 }
@@ -24,6 +38,18 @@ h2 span:nth-child(even) {
 	color: $white;
 }
 
+h1 {
+	font-size: $font-size-40;
+}
+
+h2 {
+	@include heading-2;
+}
+
+h3 {
+	font-size: $font-size-24;
+}
+
 h1 span:nth-child(odd),
 h2 span:nth-child(odd) {
 	font-family: $brand-sans;
@@ -33,6 +59,12 @@ h2 span:nth-child(odd) {
 h1 span:nth-child(even),
 h2 span:nth-child(even) {
 	font-family: $brand-serif;
+}
+
+h3 {
+	font-family: $brand-sans-interactive;
+	font-size: $font-size-16;
+	text-transform: uppercase;
 }
 
 a {
@@ -59,32 +91,6 @@ button:focus,
 input:focus,
 a:focus {
 	@include state-focus;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-small {
-	display: block;
-	font-family: $sans;
-	font-weight: 700;
-	line-height: initial;
-	text-rendering: optimizeLegibility;
-}
-
-h1 {
-	font-size: $font-size-40;
-}
-
-h2 {
-	@include heading-2;
-}
-
-h3 {
-	font-size: $font-size-24;
 }
 
 strong,
