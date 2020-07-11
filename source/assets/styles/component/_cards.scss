@@ -13,10 +13,17 @@
 }
 
 .card--committee .card__image {
-	-webkit-clip-path: ellipse(37.40% 42.41% at 50% 50%);
-	clip-path: ellipse(37.40% 42.41% at 50% 50%);
+	-webkit-clip-path: ellipse(29.33% 49.4% at 50% 50%);
+	clip-path: ellipse(29.33% 49.4% at 50% 50%);
 	transform: rotate(10deg);
 	overflow: hidden;
+}
+
+@media screen and (min-width: 1023px) {
+	.card--committee .card__image {
+		-webkit-clip-path: ellipse(37.40% 42.41% at 50% 50%);
+		clip-path: ellipse(37.40% 42.41% at 50% 50%);
+	}
 }
 
 .card--committee .card__image img,
@@ -33,6 +40,7 @@
 .card--committee .card__image img,
 .card--event .card__image img {
 	height: 400px;
+	width: 100%;
 }
 
 .card--committee .card__image img {

@@ -11,9 +11,9 @@
 			</p>
 		</div>
 		<div class="grid-col grid-col--span-4">
-			<ul class="sub-grid-four-col grid-col--span-1">
+			<ul class="grid">
 				{% for content in site.past-events.events %}
-				<li class="card card--event shadow-reverse shadow-reverse--green sub-grid-col">
+				<li class="card card--event shadow-reverse shadow-reverse--green">
 					<a href="{{ content.url }}">
 						<figure class="card__image  border__bottom border__bottom--{{ content.border-color }}">
 							<img src="{{ content.image }}" alt="Provide alt text describing the image above." />

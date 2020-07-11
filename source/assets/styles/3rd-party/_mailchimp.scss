@@ -25,7 +25,7 @@
 }
 
 #mc_embed_signup .asterisk {
-	color: $red !important;
+	color: $green !important;
 	font-weight: 900;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #mc_embed_signup div.response {
-	background-color: $red !important;
+	background-color: $green !important;
 	padding: $spacing-16 !important;
 	z-index: 1 !important;
 }
@@ -68,9 +68,9 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-	background-color: $red !important;
+	background-color: $green !important;
 	display: block !important;
-	color: $white !important;
+	color: $black !important;
 	line-height: 1.7rem !important;
 	font-size: $font-size-14 !important;
 	font-weight: normal !important;
@@ -80,11 +80,11 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-	border: 1px solid $red !important;
+	border: 1px solid $green !important;
 }
 
 #mc_embed_signup input.mce_inline_error {
-	border-color: $red !important;
+	border-color: $green !important;
 }
 
 #mc_embed_signup input.button {
@@ -122,11 +122,14 @@
 	#mc_embed_signup input.button {
 		width: auto !important;
 	}
+}
 
+@media screen and (min-width: 1142px) {
 	.mailchimp-grid {
+		grid-template-columns: 1fr 1fr -webkit-min-content;
 		grid-template-columns: 1fr 1fr min-content;
 	}
-
+	
 	.mailchimp-button label {
 		display: block;
 	}

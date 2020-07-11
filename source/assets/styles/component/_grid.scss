@@ -8,26 +8,37 @@
 	align-items: start;
 }
 
-.sub-grid {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
 .grid-col>*+* {
 	margin-top: 16px;
 }
 
-.grid-col-span-1,
-.grid-col-span-2,
-.grid-col-span-3,
-.grid-col-span-4,
-.grid-col-span-50 {
+.grid-col--span-1,
+.grid-col--span-2,
+.grid-col--span-3,
+.grid-col--span-4,
+.grid-col--span-50 {
 	grid-column: span 1;
 }
 
-@media screen and (min-width: 639px) {
+@media screen and (min-width: 800px) {
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.grid-col--span-2 {
+		grid-column: span 2;
+	}
+
+	.grid-col--span-3 {
+		grid-column: span 3;
+	}
+
+	.grid-col--span-4 {
+		grid-column: span 4;
+	}
+
+	.grid-col-span-50 {
+		max-width: 60%;
 	}
 }
 
@@ -46,73 +57,20 @@
 			"video video bubble bubble";
 	}
 
-	.sub-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.grid-col-span-1 {
-		grid-column: span 1;
-	}
-
-	.grid-col-span-2 {
+	.grid-col--span-2 {
 		grid-column: span 2;
 	}
 
-	.grid-col-span-3 {
+	.grid-col--span-3 {
 		grid-column: span 3;
 	}
 
-	.grid-col-span-4 {
+	.grid-col--span-4 {
 		grid-column: span 4;
 	}
 
 	.grid-col-span-50 {
 		max-width: 60%;
-	}
-}
-
-
-
-.grid-four-col,
-.sub-grid-four-col {
-	@include grid;
-	@include container;
-	grid-template-columns: 1fr;
-}
-
-@media screen and (min-width: 800px) {
-
-	.grid-four-col,
-	.sub-grid-four-col {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.grid-col--span-1,
-	.sub-grid-col--span-1 {
-		grid-column: span 1;
-	}
-
-	.grid-col--span-2,
-	.sub-grid-col--span-2 {
-		grid-column: span 2;
-	}
-
-	.grid-col--span-3,
-	.sub-grid-col--span-3 {
-		grid-column: span 3;
-	}
-
-	.grid-col--span-4,
-	.sub-grid-col--span-4 {
-		grid-column: span 4;
-	}
-}
-
-@media screen and (min-width: 1023px) {
-
-	.grid-four-col,
-	.sub-grid-four-col {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
@@ -123,6 +81,7 @@
 .emerging-designers-posters.flex {
 	margin: auto;
 	max-width: 500px;
+	margin-bottom: 200px;
 }
 
 .emerging-designers-posters .layer--3 {
@@ -175,4 +134,11 @@
 .box-bottom-left {
 	bottom: -6px;
 	left: -6px;
+}
+
+@media screen and (min-width: 1023px) {
+
+	.emerging-designers-posters.flex {
+		margin-bottom: 0
+	}
 }

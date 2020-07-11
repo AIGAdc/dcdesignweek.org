@@ -40,9 +40,9 @@
 		</div>
 
 		<div class="grid-col grid-col--span-4">
-			<ul class="sub-grid-four-col">
+			<ul class="grid">
 				{% for content in site.past-editions.editions %}
-				<li class="card card--event shadow-reverse shadow-reverse--green sub-grid-col">
+				<li class="card card--event shadow-reverse shadow-reverse--green">
 					<a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
 						<figure class="card__image border__bottom border__bottom--{{ content.border-color }}">
 							<img src="{{ content.image }}" alt="{{ content.image-alt }}" />
