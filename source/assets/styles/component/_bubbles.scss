@@ -18,6 +18,11 @@
 		right: -640px;
 		width: 1400px;
 	}
+
+	.bubble-group-partnerus {
+		position: absolute;
+		top: -200px;
+	}
 }
 
 @media screen and (min-width: 1279px) {
@@ -34,3 +39,7 @@
 	}
 }
 
+.bubble-group-partnerus {
+	position: relative;
+	width: 100%;
+}
