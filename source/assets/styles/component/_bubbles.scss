@@ -1,26 +1,31 @@
 .bubble-group-subscribe,
-.bubble-group-introduction {
+.bubble-group-introduction,
+.bubble-group-partnerus {
 	position: relative;
 	width: 100%;
 }
 
 @media screen and (min-width: 1023px) {
-	.bubble-group-subscribe {
+
+	.bubble-group-subscribe,
+	.bubble-group-introduction,
+	.bubble-group-partnerus {
 		position: absolute;
+	}
+
+	.bubble-group-subscribe {
 		top: -220px;
 		left: -900px;
 		width: 1400px;
 	}
 
 	.bubble-group-introduction {
-		position: absolute;
 		top: -220px;
 		right: -640px;
 		width: 1400px;
 	}
 
 	.bubble-group-partnerus {
-		position: absolute;
 		top: -200px;
 	}
 }
@@ -37,9 +42,4 @@
 		top: -220px;
 		left: -600px;
 	}
-}
-
-.bubble-group-partnerus {
-	position: relative;
-	width: 100%;
 }
