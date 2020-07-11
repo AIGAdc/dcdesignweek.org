@@ -1,15 +1,17 @@
 {% for content in page.celebrating-you %}
 {% if content.has-celebrating-you == true %}
-<section class="section section__partners grid">
-	<div class="grid-col grid-col--span-2">
-		<h2 class="grid-col-span-50">{{ content.header }}</h2>
-		<p>{{ content.body | markdownify }}</p>
-		<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-			href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
-		</a>
-	</div>
-	<div class="grid-col grid-col--span-2">
-		Bubble/Image Will Go Here
+<section class="section section__partners">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col-span-50">{{ content.header }}</h2>
+			<p>{{ content.body | markdownify }}</p>
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
+			</a>
+		</div>
+		<div class="grid-col grid-col--span-2">
+			Bubble/Image Will Go Here
+		</div>
 	</div>
 </section>
 {% endif %}

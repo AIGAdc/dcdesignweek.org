@@ -1,31 +1,31 @@
-<section class="section section__sponsors grid">
+<section class="section section__sponsors">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			<div class="grid-col grid-col--span-4">
+				<h2 class="grid-col-span-50">{{ site.2020-presenting-sponsors.header }}</h2>
+				<p>{{ site.2020-presenting-sponsors.body }}</p>
+			</div>
+		</div>
 
-	<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2">
+			Bubble/Ornament Will Go here
+		</div>
+
 		<div class="grid-col grid-col--span-4">
-			<h2 class="grid-col-span-50">{{ site.2020-presenting-sponsors.header }}</h2>
-			<p>{{ site.2020-presenting-sponsors.body }}</p>
+			<ul class="sub-grid-four-col">
+				{% for content in site.2020-presenting-sponsors.sponsor-list %}
+				<li class="card card--sponsors shadow-reverse shadow-reverse--green sub-grid-col" style="grid-column: span 2;">
+					<div class="card-details">
+						<h3>{{ content.title }}</h3>
+					</div>
+					<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+						<figure class="card__image">
+							<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
+						</figure>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
-
-	<div class="grid-col grid-col--span-2">
-		Bubble/Ornament Will Go here
-	</div>
-
-	<div class="grid-col grid-col--span-4">
-		<ul class="sub-grid-four-col">
-			{% for content in site.2020-presenting-sponsors.sponsor-list %}
-			<li class="card card--sponsors shadow-reverse shadow-reverse--green sub-grid-col" style="grid-column: span 2;">
-				<div class="card-details">
-					<h3>{{ content.title }}</h3>
-				</div>
-				<a href="{{ content.website }}" target="_blank" rel="noopener noferrer">
-					<figure class="card__image">
-						<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
-					</figure>
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-
 </section>

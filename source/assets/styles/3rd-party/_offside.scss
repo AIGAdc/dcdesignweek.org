@@ -9,10 +9,10 @@
 /* Off-canvas element CSS */
 
 .offside {
-	background-color: $white;
+	background-color: $black;
 	position: fixed;
 	/* Does not play well with some old browsers (see: README) */
-	border-left: solid 2px $black;
+	border-left: solid 1px $white;
 	color: $black;
 	padding: $spacing-16;
 	width: 300px;
@@ -143,5 +143,10 @@ button#mobile-menu-trigger {
 @media screen and (min-width: 1023px) {
 	#my-button {
 		display: none;
+		visibility: hidden;
 	}
+}
+
+#my-menu a {
+	color: $white;
 }

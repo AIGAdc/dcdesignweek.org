@@ -8,7 +8,7 @@
 		<ul class="links">
 			{% for link in site.navigation-teaser %}
 			<li class="link">
-				<a class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
+				<a aria-label="{{ link.aria-label }}" class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
 					{{ link.label }}
 				</a>
 			</li>
@@ -16,5 +16,5 @@
 		</ul>
 	</nav>
 	<!-- Off-canvas toggle button -->
-	<button type="button" id="my-button">{% include icon/bars.svg %}</button>
+	<button aria-label="Offscreen Menu Button" type="button" id="my-button">{% include icon/bars.svg %}</button>
 </header>

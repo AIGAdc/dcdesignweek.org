@@ -54,11 +54,11 @@
 	</head>
 
 	<!-- Off-canvas element  -->
-	<nav id="my-menu">
+	<nav aria-label="Offscreen Menu" id="my-menu">
 		<ul class="links">
 			{% for link in site.navigation-teaser %}
 			<li class="link">
-				<a class="button button__link" href="{{ link.url }}">
+				<a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
 					{{ link.label }}
 				</a>
 			</li>
@@ -67,7 +67,7 @@
 	</nav>
 
 	<body>
-		<main id="my-content-container" class="{{ page.layout }}-layout">
+		<main class="{{ page.layout }}-layout" id="my-content-container">
 			{%- include site-header.html -%}
 			{{ content | safe }}
 			{%- include site-footer.html -%}

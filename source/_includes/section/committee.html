@@ -1,37 +1,39 @@
-<section class="section section__committee grid">
-	<div class="grid-col grid-col--span-2">
-		<h2 class="grid-col-span-50">{{ page.team-header }}</h2>
-	</div>
+<section class="section section__committee">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col-span-50">{{ page.team-header }}</h2>
+		</div>
 
-	<div class="grid-col grid-col--span-2">
-		Bubble/Ornament Will Go here
-	</div>
+		<div class="grid-col grid-col--span-2">
+			Bubble/Ornament Will Go here
+		</div>
 
-	<div class="grid-col grid-col--span-4">
-		<ul class="sub-grid-four-col">
-			{% for member in site.2020-team %}
-			<li class=" card card--committee">
-				<figure class="card__image">
-					<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
-				</figure>
-				<div class="card-details">
-					<h3 class="card-details__member-name">{{ member.name }}</h3>
-					<p class="card-details__member-role">{{ member.role }}</p>
-					{% if member.website-url-1 %}
-					<p>
-						<a style="color: white;" href="{{ member.website-url-1 }}" rel="noopener noreferrer"
-							target="_blank">{{ member.website-label-1 }}</a>
-					</p>
-					{% endif %}
-					{% if member.website-url-2 %}
-					<p>
-						<a style="color: white;" href="{{ member.website-url-2 }}" rel="noopener noreferrer"
-							target="_blank">{{ member.website-label-2 }}</a>
-					</p>
-					{% endif %}
-				</div>
-			</li>
-			{% endfor %}
-		</ul>
+		<div class="grid-col grid-col--span-4">
+			<ul class="sub-grid-four-col">
+				{% for member in site.2020-team %}
+				<li class=" card card--committee">
+					<figure class="card__image">
+						<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+					</figure>
+					<div class="card-details">
+						<h3 class="card-details__member-name">{{ member.name }}</h3>
+						<p class="card-details__member-role">{{ member.role }}</p>
+						{% if member.website-url-1 %}
+						<p>
+							<a aria-label="{{ member.website-aria-label-1 }}" style="color: white;" href="{{ member.website-url-1 }}" rel="noopener noreferrer"
+								target="_blank">{{ member.website-label-1 }}</a>
+						</p>
+						{% endif %}
+						{% if member.website-url-2 %}
+						<p>
+							<a aria-label="{{ member.website-aria-label-2 }}" style="color: white;" href="{{ member.website-url-2 }}" rel="noopener noreferrer"
+								target="_blank">{{ member.website-label-2 }}</a>
+						</p>
+						{% endif %}
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </section>

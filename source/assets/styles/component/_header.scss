@@ -22,7 +22,7 @@
 }
 
 .link {
-	display: inline-block;
+	display: block;
 }
 
 @media screen and (min-width: 1023px) {
@@ -38,5 +38,9 @@
 	// remove burger menu when screen is > 1023
 	.site-header__menu {
 		display: none;
+	}
+
+	.link {
+		display: inline-block;
 	}
 }

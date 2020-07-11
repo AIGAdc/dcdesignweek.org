@@ -1,31 +1,35 @@
 {% if page.layout == "archive" %}
-<section id="subscribe" class="section section__subscribe grid">
-	<div class="grid-col grid-col--span-2">
-		Bubble/Image Will Go Here
-	</div>
-	<div class="grid-col grid-col--span-2">
-		<h2 class="grid-col-span-50">
-			{{ site.subscribe.header }}
-		</h2>
-		<p>
-			{{ site.subscribe.body }}
-		</p>
-		{% include 3rd-party/mailchimp/form.html %}
+<section id="subscribe" class="section section__subscribe">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			Bubble/Image Will Go Here
+		</div>
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col-span-50">
+				{{ site.subscribe.header }}
+			</h2>
+			<p>
+				{{ site.subscribe.body }}
+			</p>
+			{% include 3rd-party/mailchimp/form.html %}
+		</div>
 	</div>
 </section>
 {% else %}
-<section id="subscribe" class="section section__subscribe grid">
-	<div class="grid-col grid-col--span-2">
-		Bubble/Image Will Go Here
-	</div>
-	<div class="grid-col grid-col--span-2">
-		<h2 class="grid-col-span-50">
-			{{ site.subscribe.header }}
-		</h2>
-		<p>
-			{{ site.subscribe.body }}
-		</p>
-		{% include 3rd-party/mailchimp/form.html %}
+<section id="subscribe" class="section section__subscribe">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			Bubble/Image Will Go Here
+		</div>
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col-span-50">
+				{{ site.subscribe.header }}
+			</h2>
+			<p>
+				{{ site.subscribe.body }}
+			</p>
+			{% include 3rd-party/mailchimp/form.html %}
+		</div>
 	</div>
 </section>
 {% endif %}
