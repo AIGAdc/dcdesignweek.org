@@ -36,7 +36,7 @@
 	<div class="grid">
 		<div class="grid-col grid-col--span-2">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
-			<p>{{ content.body }}</p>
+			<p>{{ content.body | markdownify }}</p>
 		</div>
 		<div class="grid-col grid-col--span-2">
 			<figure class="bubble-group-introduction">
@@ -58,8 +58,7 @@
 			Bubble/Image Will Go Here
 		</div>
 		<div class="grid-col grid-col--span-2">
-			<h2 class="grid-col--span-50">{{ content.header }}</h2>
-			<p>{{ content.body }}</p>
+			<p>{{ content.body-2 | markdownify }}</p>
 		</div>
 	</div>
 </section>
