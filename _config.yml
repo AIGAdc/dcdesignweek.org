@@ -317,7 +317,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/phil-bolles-45215911/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Phil Bolles' LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-ash-del-cid.png"
     image-alt: Ash Del Cid's Portrait
     name: Ash Del Cid
     role: Program Lead
@@ -384,7 +384,7 @@ filter-status:
     website-url-2: www.linkedin.com/in/johannaostrich
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Johanna Ostrich's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-erin-pedati.png"
     image-alt: Erin Pedati's Portrait
     name: Erin Pedati
     role: Social Media Lead
@@ -474,7 +474,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/rebecca-silverstein/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Rebecca Silverstein's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-arian-wakisa.png"
     image-alt: Arian Wakisa's Portrait
     name: Arian Wakisa
     role: Program Lead
