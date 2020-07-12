@@ -1,6 +1,6 @@
 <section class="section section__past-dcdw">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-2">
 			{% if site.past-editions.header %}
 			<h2 class="grid-col-span-50">{{ site.past-editions.header }}</h2>
 			{% endif %}
@@ -9,7 +9,7 @@
 			{% endif %}
 		</div>
 
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-1">
 			<div class="ornament-group">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<div class="grid-col grid-col--span-4">
+		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
 				{% for content in site.past-editions.editions %}
 				<li class="card card--past-editions">
