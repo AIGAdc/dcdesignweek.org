@@ -24,18 +24,19 @@
 	}
 
 	.bubble-group-subscribe {
-		top: -220px;
-		left: -900px;
-		width: 1400px;
+		width: 1024px;
+		top: -180px;
+		left: -500px;
 	}
 
 	.bubble-group-introduction {
-		top: -220px;
-		right: -640px;
-		width: 1400px;
+		width: 1024px;
+		top: -60px;
+		right: -500px;
 	}
 
 	.bubble-group-partnerus {
+		width: 800px;
 		top: -200px;
 	}
 
@@ -48,14 +49,20 @@
 
 @media screen and (min-width: 1279px) {
 	.bubble-group-subscribe {
-		top: -220px;
-		left: -700px;
+		left: -400px;
+	}
+
+	.bubble-group-introduction {
+		right: -400px;
 	}
 }
 
-@media screen and (min-width: 1365px) {
+@media screen and (min-width: 1649px) {
 	.bubble-group-subscribe {
-		top: -220px;
-		left: -600px;
+		left: -300px;
+	}
+
+	.bubble-group-introduction {
+		right: -350px;
 	}
 }

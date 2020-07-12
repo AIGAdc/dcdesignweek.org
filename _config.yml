@@ -207,7 +207,7 @@ filter-status:
   image-alt: 
   website: 
 2020-team:
-  - image: "/uploads/profile-nick-fabiani.jpg"
+  - image: "/uploads/profile-nick-fabiani.png"
     image-alt: Nick Fabiani's Portrait
     name: Nick Fabiani
     role: Executive Director
@@ -217,7 +217,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/nick-fabiani
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Nick Fabiani's LinkedIn"
-  - image: "/uploads/profile-richard-bentham.jpg"
+  - image: "/uploads/profile-richard-bentham.png"
     image-alt: Richard Bentham's Portrait
     name: Richard Bentham
     role: Deputy Director
@@ -227,7 +227,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Richard Bentham's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-eliza-duquette.png"
     image-alt: Eliza Duquette's Portrait
     name: Eliza Duquette
     role: Program Director
@@ -237,7 +237,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/elizaduquette/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Eliza Duquette's LinkedIn"
-  - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
+  - image: "/uploads/profile-ariana-rodriguez-gitler.png"
     image-alt: Ariana Rodriguez-Gitler's Portrait
     name: Ariana Rodriguez-Gitler
     role: Project Manager
@@ -247,7 +247,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/arianarg/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Ariana Rodriguez-Gitlers's LinkedIn"
-  - image: "/uploads/profile-kim-stockley.jpg"
+  - image: "/uploads/profile-kim-stockley.png"
     image-alt: Kim Stockley's Portrait
     name: Kim Stockley
     role: Communications Director
@@ -257,7 +257,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/kimstockley/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Kim Stockley's LinkedIn"
-  - image: "/uploads/profile-ben-abraham.jpg"
+  - image: "/uploads/profile-ben-abraham.png"
     image-alt: Ben Abraham's Portrait
     name: Ben Abraham
     role: Program Lead
@@ -267,7 +267,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/ben-abraham/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Ben Abraham's LinkedIn"
-  - image: "/uploads/profile-danni-baker.jpg"
+  - image: "/uploads/profile-danni-baker.png"
     image-alt: Danni Baker's Portrait
     name: Danni Baker
     role: Program Lead
@@ -277,7 +277,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/dannibaker/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Danni Baker's LinkedIn"
-  - image: "/uploads/profile-radhika-bhatt.jpg"
+  - image: "/uploads/profile-radhika-bhatt.png"
     image-alt: Rhadika Bhatt's Portrait
     name: Rhadika Bhatt
     role: Partnerships Director
@@ -287,7 +287,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/radhika-bhatt
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Rhadika Bhatt's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-claire-blaustein.png"
     image-alt: Claire Blaustein's Portrait
     name: Claire Blaustein
     role: AIGA DC President
@@ -297,7 +297,7 @@ filter-status:
     website-url-2:
     website-label-2:
     website-aria-label-2: 
-  - image: "/uploads/profile-kojo-boateng.jpg"
+  - image: "/uploads/profile-kojo-boateng.png"
     image-alt: Kojo Boateng's Portrait
     name: Kojo Boateng
     role: Kickoff Lead
@@ -307,7 +307,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/kojoboateng/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Koho Boateng's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-phil-bolles.png"
     image-alt: Phil Bolles' Portrait
     name: Phil Bolles
     role: Program Lead
@@ -327,7 +327,7 @@ filter-status:
     website-url-2:
     website-label-2:
     website-aria-label-2: 
-  - image: "/uploads/profile-devin-draudt-sundeen.jpg"
+  - image: "/uploads/profile-devin-draudt-sundeen.png"
     image-alt: Devin Draudt Sundeen's Portrait
     name: Devin Draudt Sundeen
     role: Program Lead
@@ -337,7 +337,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Devin Draught Sundeen's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-dave-ellington.png"
     image-alt: Dave Ellington's Portrait
     name: Dave Ellington
     role: Duke and The Duck Lead
@@ -347,7 +347,7 @@ filter-status:
     website-url-2: 
     website-label-2: 
     website-aria-label-2: 
-  - image: "/uploads/profile-sara-jamshidi.jpg"
+  - image: "/uploads/profile-sara-jamshidi.png"
     image-alt: Sara Jamshidi's Portrait
     name: Sara Jamshidi
     role: Program Lead
@@ -357,7 +357,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/sara-jamshidi-77726559/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Sara Jamshidi's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-josh-kim.png"
     image-alt: Josh Kim's Portrait
     name: Josh Kim
     role: Program and Accessibility Lead
@@ -367,14 +367,14 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/joshkimux/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Josh Kim's LinkedIn"
-  - image: "/uploads/profile-cynthia-kim.jpg"
+  - image: "/uploads/profile-cynthia-kim.png"
     image-alt: Cynthia Kim's Portrait
     name: Cynthia Kim
     role: Marketing Lead
     website-url-1: https://www.linkedin.com/in/cynthia-kim
     website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-1: "Cynthia Kim's Instagram"
-  - image: "/uploads/profile-johanna-ostrich.jpg"
+  - image: "/uploads/profile-johanna-ostrich.png"
     image-alt: Johanna Ostrich's Portrait
     name: Johanna Ostrich
     role: Pop-Up Shop Lead
@@ -394,7 +394,7 @@ filter-status:
     website-url-2: www.linkedin.com/in/erinpedati
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Erin Pedati's LinkedIn"
-  - image: "/uploads/profile-jena-persico.jpg"
+  - image: "/uploads/profile-jena-persico.png"
     image-alt: Jena Persico's Portrait
     name: Jena Persico
     role: Program Lead
@@ -404,7 +404,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/jena-p-6051ab30
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Jena Persico's LinkedIn"
-  - image: "/uploads/profile-khanh-pham.jpg"
+  - image: "/uploads/profile-khanh-pham.png"
     image-alt: Khanh Pham's Portrait
     name: Khanh Pham
     role: Program Lead
@@ -414,7 +414,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/khanhtbp/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Khanh Pham's LinkedIn"
-  - image: "/uploads/profile-rebecca-price.jpg"
+  - image: "/uploads/profile-rebecca-price.png"
     image-alt: Rebecca Price's Portrait
     name: Rebecca Price
     role: Social Media Lead
@@ -424,7 +424,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/rebecca-price-686531b3/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Rebecca Price's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-marcus-relacion.png"
     image-alt: Marcus Relacion's Portrait
     name: Marcus Relacion
     role: Web Developer
@@ -434,7 +434,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/marcusrelacion/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Marcus Relacion's LinkedIn"
-  - image: "/uploads/profile-freeman-robinson.jpg"
+  - image: "/uploads/profile-freeman-robinson.png"
     image-alt: Freeman Robinson's Portrait
     name: Freeman Robinson
     role: Keynote Lead
@@ -444,7 +444,7 @@ filter-status:
     website-url-2: http://linkedin.com/in/freemantheartist
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Freeman Robinson's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-laura-schorr.png"
     image-alt: Laura Schorr's Portrait
     name: Laura Schorr
     role: Program Lead
@@ -454,7 +454,7 @@ filter-status:
     website-url-2: 
     website-label-2:
     website-aria-label-2: 
-  - image: "/uploads/profile-silvia-script.jpg"
+  - image: "/uploads/profile-silvia-script.png"
     image-alt: Silvia Script's Portrait
     name: Silvia Script
     role: Web Lead
@@ -464,7 +464,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/silscript
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Silvia Script's LinkedIn"
-  - image: "/uploads/profile-rebecca-silverstein.jpg"
+  - image: "/uploads/profile-rebecca-silverstein.png"
     image-alt: Rebecca Sivlerstein's Portrait
     name: Rebecca Silverstein
     role: Program Lead
@@ -484,7 +484,7 @@ filter-status:
     website-url-2: 
     website-label-2:
     website-aria-label-2: "Chelsea Wilson's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
+  - image: "/uploads/profile-chelsea-wilson.png"
     image-alt: Chelsea Wilson's Portrait
     name: Chelsea Wilson
     role: Web Coordinator
@@ -578,7 +578,7 @@ volunteer:
   header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
     96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
-    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg></span>
+    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span>
     <span>in</span> <span>DC</span>
   unbranded-header: Made with ♥ in DC
   body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
