@@ -6,6 +6,24 @@
 		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
 			<p>{{ content.body }}</p>
+			<div class="dcdw-date-badge">
+				<div class="month">
+					<span>S</span>
+					<span>E</span>
+					<span>P</span>
+					<span>T</span>
+				</div>
+				<div class="day">
+					<p>18</p>
+				</div>
+				<div class="divider">
+					<hr>
+				</div>
+				<div class="day">
+					<p>25</p>
+				</div>
+			</div>
+			<p>{{ content.body-2 | markdownify }}</p>
 			<div class="grid-col--span-50">
 				<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 					href="{{ content.button-url }}" target="_blank">{{ content.button-label }}

@@ -61,10 +61,6 @@
 	.grid-col--span-4 {
 		grid-column: span 4;
 	}
-
-	.grid-col-span-50 {
-		max-width: 60%;
-	}
 }
 
 @media screen and (min-width: 1023px) {
@@ -92,10 +88,6 @@
 
 	.grid-col--span-4 {
 		grid-column: span 4;
-	}
-
-	.grid-col-span-50 {
-		max-width: 60%;
 	}
 }
 
