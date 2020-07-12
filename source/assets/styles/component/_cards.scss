@@ -7,25 +7,6 @@
 	margin-top: 16px;
 }
 
-.card__image {
-	border: solid 1px $white;
-	border: solid 2px #fff;
-}
-
-.card--committee .card__image {
-	-webkit-clip-path: ellipse(29.33% 49.4% at 50% 50%);
-	clip-path: ellipse(29.33% 49.4% at 50% 50%);
-	transform: rotate(10deg);
-	overflow: hidden;
-}
-
-@media screen and (min-width: 1023px) {
-	.card--committee .card__image {
-		-webkit-clip-path: ellipse(37.40% 42.41% at 50% 50%);
-		clip-path: ellipse(37.40% 42.41% at 50% 50%);
-	}
-}
-
 .card--committee .card__image img,
 .card--event .card__image img,
 .card--sponsors .card__image img {
@@ -37,15 +18,10 @@
 	@include grayscale;
 }
 
-.card--committee .card__image img,
 .card--event .card__image img {
 	height: 400px;
 	width: 100%;
-}
-
-.card--committee .card__image img {
-	transform: rotate(-10deg);
-}
+}w
 
 .card--sponsors .card__image {
 	padding: 24px;
