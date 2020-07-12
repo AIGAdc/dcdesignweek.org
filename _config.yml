@@ -207,46 +207,6 @@ filter-status:
   image-alt: 
   website: 
 2020-team:
-  - image: "/uploads/profile-richard-bentham.jpg"
-    image-alt: Richard Bentham's Portrait
-    name: Richard Bentham
-    role: Deputy Director
-    website-url-1: https://www.instagram.com/richardben/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Richard Bentham's Instagram"
-    website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Richard Bentham's LinkedIn"
-  - image: "/uploads/profile-radhika-bhatt.jpg"
-    image-alt: Rhadika Bhatt's Portrait
-    name: Rhadika Bhatt
-    role: Partnerships Director
-    website-url-1: https://instagram.com/superbhatt
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Rhadika Bhatt's Instagram"
-    website-url-2: https://www.linkedin.com/in/radhika-bhatt
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Rhadika Bhatt's LinkedIn"
-  - image: "/uploads/cat-5.jpg"
-    image-alt: Claire Blaustein's Portrait
-    name: Claire Blaustein
-    role: AIGA DC President
-    website-url-1:
-    website-label-1:
-    website-aria-label-1: 
-    website-url-2:
-    website-label-2:
-    website-aria-label-2: 
-  - image: "/uploads/cat-5.jpg"
-    image-alt: Eliza Duquette's Portrait
-    name: Eliza Duquette
-    role: Program Director
-    website-url-1: https://www.elizaduquette.design/
-    website-label-1: <i class="fas fa-globe-americas"></i> Website
-    website-aria-label-1: "Eliza Duquette's Website"
-    website-url-2: https://www.linkedin.com/in/elizaduquette/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Eliza Duquette's LinkedIn"
   - image: "/uploads/profile-nick-fabiani.jpg"
     image-alt: Nick Fabiani's Portrait
     name: Nick Fabiani
@@ -257,6 +217,26 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/nick-fabiani
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Nick Fabiani's LinkedIn"
+  - image: "/uploads/profile-richard-bentham.jpg"
+    image-alt: Richard Bentham's Portrait
+    name: Richard Bentham
+    role: Deputy Director
+    website-url-1: https://www.instagram.com/richardben/
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-1: "Richard Bentham's Instagram"
+    website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-2: "Richard Bentham's LinkedIn"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: Eliza Duquette's Portrait
+    name: Eliza Duquette
+    role: Program Director
+    website-url-1: https://www.elizaduquette.design/
+    website-label-1: <i class="fas fa-globe-americas"></i> Website
+    website-aria-label-1: "Eliza Duquette's Website"
+    website-url-2: https://www.linkedin.com/in/elizaduquette/
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-2: "Eliza Duquette's LinkedIn"
   - image: "/uploads/profile-ariana-rodriguez-gitler.jpg"
     image-alt: Ariana Rodriguez-Gitler's Portrait
     name: Ariana Rodriguez-Gitler
@@ -297,6 +277,26 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/dannibaker/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Danni Baker's LinkedIn"
+  - image: "/uploads/profile-radhika-bhatt.jpg"
+    image-alt: Rhadika Bhatt's Portrait
+    name: Rhadika Bhatt
+    role: Partnerships Director
+    website-url-1: https://instagram.com/superbhatt
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-1: "Rhadika Bhatt's Instagram"
+    website-url-2: https://www.linkedin.com/in/radhika-bhatt
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-2: "Rhadika Bhatt's LinkedIn"
+  - image: "/uploads/cat-5.jpg"
+    image-alt: Claire Blaustein's Portrait
+    name: Claire Blaustein
+    role: AIGA DC President
+    website-url-1:
+    website-label-1:
+    website-aria-label-1: 
+    website-url-2:
+    website-label-2:
+    website-aria-label-2: 
   - image: "/uploads/profile-kojo-boateng.jpg"
     image-alt: Kojo Boateng's Portrait
     name: Kojo Boateng
