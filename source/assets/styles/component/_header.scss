@@ -5,6 +5,7 @@
 	@include sticky;
 	@include sticky-top;
 	padding: $spacing-16;
+	z-index: $index-9;
 }
 
 // hide site navigation when screen is < 1023

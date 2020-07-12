@@ -31,15 +31,18 @@
 		<div class="grid-col grid-col--span-4">
 			<ul class="grid">
 				{% for content in site.2020-presenting-sponsors.sponsor-list %}
-				<li class="card card--sponsors shadow-reverse shadow-reverse--green grid-col--span-2">
-					<div class="card-details">
-						<h3>{{ content.title }}</h3>
+				<li class="card card--sponsors grid-col--span-2">
+					<div class="card__header">
+						<h3 class="card__title">{{ content.title }}</h3>
 					</div>
-					<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
-						<figure class="card__image">
-							<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
-						</figure>
-					</a>
+					<div class="card__aside">
+						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
+							rel="noopener noferrer">
+							<figure class="card__image shadow-reverse shadow-reverse--green">
+								<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
+							</figure>
+						</a>
+					</div>
 				</li>
 				{% endfor %}
 			</ul>

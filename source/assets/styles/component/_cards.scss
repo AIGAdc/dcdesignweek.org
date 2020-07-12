@@ -1,27 +1,50 @@
 .card {
-	display: flex;
-	flex-direction: column;
+	@include flex-column;
 }
 
 .card>*+* {
 	margin-top: 16px;
 }
 
-.card--committee .card__image img,
-.card--event .card__image img,
+.card h3 {
+	font-family: $brand-sans-interactive;
+	text-transform: uppercase;
+}
+
+.card__link {
+	color: $white;
+	transition: -webkit-filter $timing-quick ease-in;
+	transition: color $timing-quick ease-in;
+	transition: color $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
+}
+
+.card__link:hover {
+	color: $green;
+}
+
+// specific cards 
+.card--committee {
+	text-align: center;
+}
+
+.card--past-editions .card__image,
+.card--sponsors .card__image {
+	border: solid 1px $white;
+}
+
+.card--past-editions .card__image img,
 .card--sponsors .card__image img {
-	-o-object-fit: cover;
-	object-fit: cover;
 	transition: -webkit-filter $timing-quick ease-in;
 	transition: filter $timing-quick ease-in;
 	transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
 	@include grayscale;
 }
 
-.card--event .card__image img {
+.card--past-editions .card__image img {
 	height: 400px;
-	width: 100%;
-}w
+	-o-object-fit: cover;
+	object-fit: cover;
+}
 
 .card--sponsors .card__image {
 	padding: 24px;
@@ -35,26 +58,12 @@
 	margin: auto;
 }
 
-.card--committee .card__image img:hover,
-.card--event .card__image img:hover,
+.card--past-editions .card__image img:hover,
 .card--sponsors .card__image img:hover {
 	@include no-grayscale;
 }
 
-.card--committee {
-	text-align: center;
-}
-
-.card-details h3 {
-	font-family: $brand-sans-interactive;
-	font-size: $font-size-16;
-	font-weight: 800;
-	text-transform: uppercase;
-}
-
-.card-details__member-role {
-	padding-bottom: 16px;
-}
+// Refactor Everything Below
 
 /* ticker */
 

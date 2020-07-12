@@ -7,6 +7,8 @@
 	padding: $spacing-16;
 	align-items: center;
 	text-align: center;
+	position: relative;
+	z-index: $index-9;
 }
 
 .site-footer__social {
