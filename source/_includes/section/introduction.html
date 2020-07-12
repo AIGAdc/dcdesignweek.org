@@ -3,7 +3,7 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
 			<p>{{ content.body }}</p>
 			<div class="grid-col--span-50">
@@ -12,7 +12,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-1">
 			<div class="ornament-group">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
@@ -34,11 +34,11 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
 			<p>{{ content.body | markdownify }}</p>
 		</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-1">
 			<figure class="bubble-group-introduction">
 				<img aria-hidden="true" src="/uploads/bubble-black-group-introduction.png" alt="Bubble Group for About Page Introduction">
 			</figure>
@@ -54,10 +54,10 @@
 				</figure>
 				</div>
 			</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-3">
 			Bubble/Image Will Go Here
 		</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-4">
 			<p>{{ content.body-2 | markdownify }}</p>
 		</div>
 	</div>
@@ -69,11 +69,11 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-1">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
 			<p>{{ content.body }}</p>
 		</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-2">
 			Bubble/Image Will Go Here
 		</div>
 	</div>

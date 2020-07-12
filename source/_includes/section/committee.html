@@ -1,11 +1,11 @@
 <section class="section section__committee">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col-span-50">{{ page.team-header }}</h2>
 			<p>{{ page.team-body }}</p>
 		</div>
 
-		<div class="grid-col grid-col--span-2">
+		<div class="grid-col grid-col--span-2 order-1">
 			<div class="ornament-group">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 
-		<div class="grid-col grid-col--span-4">
+		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
 				{% for member in site.2020-team %}
 				<li class="card card--committee">
