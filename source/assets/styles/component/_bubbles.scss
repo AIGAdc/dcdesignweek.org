@@ -1,23 +1,25 @@
 .bubble-group-subscribe,
-.bubble-group-introduction,
-.bubble-group-partnerus,
+.bubble-group-introduction-1,
+.bubble-group-introduction-2,
+.bubble-group-partnerus-1,
+.bubble-group-partnerus-2,
 .bubble-capitol-building,
 .bubble-group-sponsors {
 	position: relative;
-	width: 100%;
 	display: none;
 }
 
 @media screen and (min-width: 1023px) {
 
 	.bubble-group-subscribe,
-	.bubble-group-introduction,
-	.bubble-group-partnerus,
+	.bubble-group-introduction-1,
+	.bubble-group-introduction-2,
+	.bubble-group-partnerus-1,
+	.bubble-group-partnerus-2,
 	.bubble-capitol-building,
 	.bubble-group-sponsors {
 		display: block;
 		position: absolute;
-		width: 100%;
 		z-index: $index-5;
 	}
 
@@ -26,8 +28,6 @@
 	}
 
 	.bubble-group-subscribe,
-	.bubble-group-partnerus,
-	.bubble-group-introduction,
 	.bubble-group-sponsors {
 		top: -180px;
 	}
@@ -37,8 +37,24 @@
 		left: -100px;
 	}
 
-	.bubble-group-introduction {
-		right: -100px;
+	.bubble-group-introduction-1 {
+		top: -80px;
+		left: 100px;
+	}
+
+	.bubble-group-introduction-2 {
+		top: 150px;
+		left: 300px;
+	}
+
+	.bubble-group-partnerus-1 {
+		top: -180px;
+		left: -50px;
+	}
+
+	.bubble-group-partnerus-2 {
+		top: 250px;
+		left: 250px;
 	}
 
 	.bubble-capitol-building {
