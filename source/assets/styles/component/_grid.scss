@@ -65,26 +65,6 @@
 	.grid-col--span-4 {
 		grid-column: span 4;
 	}
-
-	.grid-col--span-40 {
-		width: 40%;
-	}
-
-	.grid-col--span-50 {
-		width: 50%;
-	}
-
-	.grid-col--span-60 {
-		width: 60%;
-	}
-
-	.grid-col--span-70 {
-		width: 70%;
-	}
-
-	.grid-col--span-80 {
-		width: 80%;
-	}
 }
 
 @media screen and (min-width: 1023px) {
@@ -112,6 +92,28 @@
 
 	.grid-col--span-4 {
 		grid-column: span 4;
+	}
+}
+
+@media screen and (min-width: 1279px) {
+	.grid-col--span-40 {
+		width: 40%;
+	}
+
+	.grid-col--span-50 {
+		width: 50%;
+	}
+
+	.grid-col--span-60 {
+		width: 60%;
+	}
+
+	.grid-col--span-70 {
+		width: 70%;
+	}
+
+	.grid-col--span-80 {
+		width: 80%;
 	}
 }
 

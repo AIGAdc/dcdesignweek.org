@@ -21,12 +21,12 @@
 	.bubble-group-partnerus,
 	.bubble-capitol-building {
 		position: absolute;
+		width: 100%;
 	}
 
 	.bubble-group-subscribe {
-		width: 1024px;
 		top: -180px;
-		left: -500px;
+		left: -100px;
 	}
 
 	.bubble-group-introduction {
@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 1279px) {
 	.bubble-group-subscribe {
-		left: -400px;
+
 	}
 
 	.bubble-group-introduction {
@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 1649px) {
 	.bubble-group-subscribe {
-		left: -300px;
+	
 	}
 
 	.bubble-group-introduction {
