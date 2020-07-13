@@ -22,22 +22,23 @@
 	.bubble-capitol-building {
 		position: absolute;
 		width: 100%;
+		z-index: $index-5;
 	}
 
-	.bubble-group-subscribe {
+	.bubble-group-subscribe,
+	.bubble-group-partnerus,
+	.bubble-group-introduction {
 		top: -180px;
 		left: -100px;
 	}
 
-	.bubble-group-introduction {
-		width: 1024px;
-		top: -60px;
-		right: -500px;
+	.bubble-group-subscribe,
+	.bubble-group-partnerus {
+		left: -100px;
 	}
 
-	.bubble-group-partnerus {
-		width: 800px;
-		top: -200px;
+	.bubble-group-introduction {
+		right: -100px;
 	}
 
 	.bubble-capitol-building {
@@ -48,21 +49,7 @@
 }
 
 @media screen and (min-width: 1279px) {
-	.bubble-group-subscribe {
-
-	}
-
-	.bubble-group-introduction {
-		right: -400px;
-	}
 }
 
 @media screen and (min-width: 1649px) {
-	.bubble-group-subscribe {
-	
-	}
-
-	.bubble-group-introduction {
-		right: -350px;
-	}
 }
