@@ -634,6 +634,7 @@ exclude:
 - ".sass-cache"
 - ".ruby-version"
 - _config (copy).yml
+- .jekyll-cache
 markdown: kramdown
 kramdown:
   input: GFM

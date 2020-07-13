@@ -4,3 +4,4 @@ build
 .vscode
 node_modules
 /source/_uploads/originals
+.jekyll-cache
