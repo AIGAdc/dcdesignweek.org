@@ -22,7 +22,7 @@ print-designers:
       
       Each designer will receive $500 for their commission as well as 30% of all proceeds from sales of their design. Designers will be selected by a committee of volunteers, including Torie Partridge, Jodi Kostelnik, ABC, and XYZ. We’ll let you know if you’ve been selected by 8/6 Final designs must be submitted by 8/30.
     button-label: Apply Now
-    button-url:
+    button-url: https://forms.gle/coDR12BQs3dGmUEWA
     image-left: /uploads/poster-green-bubble.jpg
     image-left-alt:
     image-right: /uploads/poster-black-photo.jpg
@@ -36,5 +36,5 @@ celebrating-you:
       
       We want DC Design Week to celebrate you too.  That’s why we’re dedicating a section of our site to celebrating the makers of our region. Whether you have an online shop or brick-and-mortar, we want to show the world the amazing things you make. If you’re interested, apply below by [DATE] and include a sample photo of your product and a link you’d like to include on our site.
     button-label: Apply Now
-    button-url: 
+    button-url: https://forms.gle/YfTXtJ69qP6yFuXdA
 ---
