@@ -45,8 +45,6 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    liquid-c (4.0.0)
-      liquid (>= 3.0.0)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -72,7 +70,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll!
   jekyll-seo-tag
-  liquid-c
   tzinfo-data
 
 BUNDLED WITH
