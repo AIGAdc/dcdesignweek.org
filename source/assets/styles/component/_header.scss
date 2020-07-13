@@ -1,11 +1,15 @@
 .site-header {
+	background-color: $black;
+	@include sticky;
+	@include sticky-top;
+	z-index: $index-9;
+}
+
+.site-header>.container {
 	@include flex-row;
 	@include flex-align-center;
 	@include flex-justify-space-between;
-	@include sticky;
-	@include sticky-top;
-	padding: $spacing-16;
-	z-index: $index-9;
+	padding: $spacing-16 0;
 }
 
 // hide site navigation when screen is < 1023

@@ -31,28 +31,8 @@ ul {
 	cursor: pointer !important;
 }
 
-.container,
-.container--small {
-	margin: auto;
-	padding: $spacing-16;
-}
-
 .container {
-	max-width: 1024px;
-}
-
-.container--small {
-	max-width: 768px;
-}
-
-@media screen and (min-width: $large) {
-
-	.container,
-	.container--small {
-		padding: $spacing-32;
-	}
-}
-
-.made-in-dc-heart {
-	margin: 0 $spacing-8;
+	margin: auto;
+	max-width: 1440px;
+	padding: $spacing-16;
 }
