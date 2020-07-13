@@ -61,7 +61,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-iframe {
+iframe,
+video {
 	max-width: 100%;
 	display: block;
 }
@@ -81,7 +82,6 @@ select {
 		animation-duration: 0.01ms !important;
 		-webkit-animation-iteration-count: 1 !important;
 		animation-iteration-count: 1 !important;
-		-webkit-transition-duration: 0.01ms !important;
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}

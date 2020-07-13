@@ -17,3 +17,24 @@
 	left: 0;
 	z-index: 500;
 }
+
+.section__hero--home {
+	max-height: 90vh;
+	padding: 64px 32px !important;
+}
+
+.section__hero--home video {
+	width: 100%;
+	-o-object-position: center;
+	object-position: center;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+@media screen and (min-width: 1023px) {
+	.section__hero--home video {
+		height: 640px;
+		-o-object-fit: contain;
+		object-fit: contain;
+	}
+}

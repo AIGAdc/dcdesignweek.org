@@ -4,33 +4,14 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section__hero">
+<section class="section section__hero section__hero--home">
 	<div class="grid--hero">
-		<div class="grid-col grid-col--span-2" style="position: relative;">
-			<div class="" style="position: absolute;
-			top: -72px;
-			transform: rotate(2deg); max-width: 600px;">
-				<img src="https://i.pinimg.com/originals/61/7b/f4/617bf46522b569e68ea66dceb3457ba8.jpg" alt="Image of corgi puppy">
-			</div>
+		<div class="grid-col grid-col--span-4">
+			<video show-controls="true" muted="true" autoplay="autoplay" loop=""
+				poster="https://d33wubrfki0l68.cloudfront.net/c3f6e252e0f87d7ce836ebc5ac90767c23c2d377/db6fb/uploads/bg-hero.jpg"
+				src="/uploads/dcdw-home-hero-bubbles.mp4">
+			</video>
 		</div>
-		<div class="grid-col grid-col--span-2" style="position: relative;">
-			<div class="">
-				<img src="https://i.pinimg.com/originals/61/7b/f4/617bf46522b569e68ea66dceb3457ba8.jpg" alt="Image of corgi puppy">
-			</div>
-		</div>
-		<div class="grid-col grid-col--span-2">
-			<div class="">
-				<iframe title="Diamond District: March On" width="1024" height="400" src="https://www.youtube-nocookie.com/embed/9TkRswFCZAQ" frameborder="0"
-					autoplay="autoplay" muted="true" loop=""
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-		</div>
-		<div class="grid-col grid-col--span-2" style="position: relative;">
-			<div class="">
-				<img src="https://i.pinimg.com/originals/61/7b/f4/617bf46522b569e68ea66dceb3457ba8.jpg" alt="Image of corgi puppy">
-			</div>
-		</div>
-		<!-- <div class="overlay"></div> -->
 	</div>
 </section>
 {% endif %}
