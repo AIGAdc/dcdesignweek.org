@@ -4,9 +4,9 @@ permalink: "/"
 layout: archive
 hero:
   - has-hero: true
-    header: <span>We're</span> <span>Celebrating</span> <span>The</span> <span>Voices</span> <span>of</span> <span>DC's</span> <span>Creative</span> <span>Community</span>
+    header: Home
     subheader:
-    image: "/uploads/dc-metro-station.png"
+    image: 
 introduction:
   - has-introduction: true
     header: <span>What</span> <span>is</span> <span>DC</span> <span>Design</span> <span>Week</span> <span>?</span>
