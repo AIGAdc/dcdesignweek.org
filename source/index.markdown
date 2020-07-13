@@ -10,7 +10,7 @@ hero:
 introduction:
   - has-introduction: true
     header: <span>What</span> <span>is</span> <span>DC</span> <span>Design</span> <span>Week</span> <span>?</span>
-    body: No state hood rights We live in the police state It's the push and pull that allows us to be great To look this crooked system right in the eyes and still see straight The victory's just ahead, ain't no way we can turn back now Its time to round up your troops and lace up your boots Let us show you how Then put your best foot forward And March On March on Washington March On March on Washington, march on....
+    body: This year we’re gonna have a virtual lineup of creative opportunities, including <strong>keynotes</strong> with renowned creators, digital <strong>workshops</strong>, and unconventional <strong>networking</strong>. 
     body-2: ">
       ### <strong>Who’s invited<strong>?
       

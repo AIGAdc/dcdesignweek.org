@@ -12,7 +12,7 @@ introduction:
     body: The Pop-Up shop has always been a cornerstone of DC Design Week. It’s how we feature and support talented creators – from ceramicists to illustrators –  across the DMV. With our virtual approach to DC Design Week this year comes a unique opportunity to celebrate makers and infuse the infectious DIY energy into every element of the week. Read on for ways that you can participate!
 print-designers:
   - has-print-designers: true
-    header: <span>Calling</span> <span>all</span> <span>emerging</span> <span>designers</span> <span>!</span>
+    header: <span>Calling</span> <span>all</span> <span>emerging</span> <span>artists</span> <span>!</span>
     body: >
       This year is a celebration of the creative voices in our community. We want to hear yours. We’re commissioning up to five designers to design an 11x17 poster that we’ll print and sell along with our DCDW 2020 merch at an online shop hosted by [To Be Determined]. 
       
