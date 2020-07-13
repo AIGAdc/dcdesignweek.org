@@ -1,12 +1,30 @@
 .bubble-group-subscribe,
-.bubble-group-introduction-1,
 .bubble-group-introduction-2,
-.bubble-group-partnerus-1,
 .bubble-group-partnerus-2,
 .bubble-capitol-building,
 .bubble-group-sponsors {
 	position: relative;
 	display: none;
+}
+
+.bubble-group-introduction-1 {
+	position: absolute;
+	bottom: -920px;
+	right: -150px;
+	z-index: $index-8;
+}
+
+@media screen and (min-width: 500px) {
+	.bubble-group-introduction-1 {
+		bottom: -850px;
+	}
+}
+
+@media screen and (min-width: 746px) {
+	.bubble-group-introduction-1 {
+		bottom: -800px;
+		right: 0;
+	}
 }
 
 @media screen and (min-width: 1023px) {
