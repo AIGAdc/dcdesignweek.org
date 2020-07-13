@@ -1,22 +1,49 @@
 .bubble-group-subscribe,
 .bubble-group-introduction-2,
-.bubble-group-partnerus-2,
+.bubble-group-partnerus-1,
 .bubble-capitol-building,
 .bubble-group-sponsors {
 	position: relative;
 	display: none;
 }
 
-.bubble-group-introduction-1 {
+.bubble-group-introduction-1,
+.bubble-group-partnerus-2 {
 	position: absolute;
+	z-index: $index-8;
+}
+
+.bubble-group-introduction-1 {
 	bottom: -920px;
 	right: -150px;
-	z-index: $index-8;
+}
+
+.bubble-group-partnerus-2 {
+	bottom: -770px;
+	right: -20px;
 }
 
 @media screen and (min-width: 500px) {
 	.bubble-group-introduction-1 {
 		bottom: -850px;
+	}
+
+	.bubble-group-partnerus-2 {
+		right: 20px;
+	}
+}
+
+@media screen and (min-width: 530px) {
+	.bubble-group-partnerus-2 {
+		bottom: -730px;
+		right: 20px;
+	}
+}
+
+@media screen and (min-width: 590px) {
+	.bubble-group-partnerus-2 {
+		bottom: -650px;
+		right: 50px;
 	}
 }
 
@@ -24,6 +51,13 @@
 	.bubble-group-introduction-1 {
 		bottom: -800px;
 		right: 0;
+	}
+}
+
+@media screen and (min-width: 799px) {
+	.bubble-group-partnerus-2 {
+		bottom: -550px;
+		right: 50px;
 	}
 }
 

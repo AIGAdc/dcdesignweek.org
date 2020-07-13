@@ -51,6 +51,14 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.order-1 {
+		order: 2;
+	}
+
+	.order-2 {
+		order: 1;
+	}
+
 	.grid-col--span-2 {
 		grid-column: span 2;
 	}
@@ -77,26 +85,6 @@
 		grid-template-areas:
 			"bubble bubble bubble bubble"
 			"video video bubble bubble";
-	}
-
-	.order-1 {
-		order: 2;
-	}
-
-	.order-2 {
-		order: 1;
-	}
-
-	.grid-col--span-2 {
-		grid-column: span 2;
-	}
-
-	.grid-col--span-3 {
-		grid-column: span 3;
-	}
-
-	.grid-col--span-4 {
-		grid-column: span 4;
 	}
 }
 
