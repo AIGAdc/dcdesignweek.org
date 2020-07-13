@@ -1,17 +1,11 @@
 .bubble-group-subscribe,
 .bubble-group-introduction,
 .bubble-group-partnerus,
-.bubble-capitol-building {
+.bubble-capitol-building,
+.bubble-group-sponsors {
 	position: relative;
 	width: 100%;
-}
-
-.bubble-group-subscribe,
-.bubble-group-introduction,
-.bubble-group-partnerus,
-.bubble-capitol-building {
-	width: 300px;
-	margin: auto;
+	display: none;
 }
 
 @media screen and (min-width: 1023px) {
@@ -19,17 +13,23 @@
 	.bubble-group-subscribe,
 	.bubble-group-introduction,
 	.bubble-group-partnerus,
-	.bubble-capitol-building {
+	.bubble-capitol-building,
+	.bubble-group-sponsors {
+		display: block;
 		position: absolute;
 		width: 100%;
 		z-index: $index-5;
 	}
 
+	.bubble-group-sponsors {
+		width: 40%;
+	}
+
 	.bubble-group-subscribe,
 	.bubble-group-partnerus,
-	.bubble-group-introduction {
+	.bubble-group-introduction,
+	.bubble-group-sponsors {
 		top: -180px;
-		left: -100px;
 	}
 
 	.bubble-group-subscribe,
@@ -48,8 +48,6 @@
 	}
 }
 
-@media screen and (min-width: 1279px) {
-}
+@media screen and (min-width: 1279px) {}
 
-@media screen and (min-width: 1649px) {
-}
+@media screen and (min-width: 1649px) {}

@@ -25,8 +25,13 @@
 	order: 3;
 }
 
-.grid-col>*+* {
+.grid-col>*+*,
+.wysiwyg>*+* {
 	margin-top: 32px;
+}
+
+.wysiwyg ul>*+* {
+	margin-top: 16px;
 }
 
 .grid-col--span-1,

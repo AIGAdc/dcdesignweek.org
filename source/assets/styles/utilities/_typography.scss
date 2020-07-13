@@ -108,6 +108,10 @@ strong,
 	font-weight: 400;
 }
 
+.wysiwyg li {
+	margin-left: 32px;
+}
+
 @media screen and (min-width: $large) {
 	h1 {
 		font-size: $font-size-56;
