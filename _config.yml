@@ -186,19 +186,19 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: <span>Meet</span> <span>our</span> <span>sponsors</span>
+  header: <span>Our</span> <span>sponsors</span>
   unbranded-header: Thanks to our 2020 sponsors
   body: 
     DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
   sponsor-list:
     - title: Brand Sponsor
       image: /uploads/sponsor-january-third.svg
-      image-alt: Logo for January Third
+      image-alt: January Third Logo
       website: https://www.januarythird.co/
       aria-label: "January Third Website"
     - title: Animation Sponsor
       image: /uploads/sponsor-duke-and-the-duck.svg
-      image-alt: Logo for Duke and The Duck
+      image-alt: Duke and The Duck Logo
       website: https://www.dukeduck.com/
       aria-label: "Duke and The Duck Website"
 2020-contributing-sponsors:
@@ -337,7 +337,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Devin Draught Sundeen's LinkedIn"
-  - image: "/uploads/profile-dave-ellington.png"
+  - image:
     image-alt: Dave Ellington's Portrait
     name: Dave Ellington
     role: Duke and The Duck Lead
@@ -381,7 +381,7 @@ filter-status:
     website-url-1:  https://johannaostrich.com
     website-label-1: <i class="fas fa-globe-americas"></i> Website
     website-aria-label-1: "Johanna Ostrich's Website"
-    website-url-2: www.linkedin.com/in/johannaostrich
+    website-url-2: https://www.linkedin.com/in/johannaostrich
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Johanna Ostrich's LinkedIn"
   - image: "/uploads/profile-erin-pedati.png"
@@ -391,7 +391,7 @@ filter-status:
     website-url-1: https://www.instagram.com/studio_ekp/
     website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-aria-label-1: "Erin Pedati's Instagram"
-    website-url-2: www.linkedin.com/in/erinpedati
+    website-url-2: https://www.linkedin.com/in/erinpedati
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Erin Pedati's LinkedIn"
   - image: "/uploads/profile-jena-persico.png"
