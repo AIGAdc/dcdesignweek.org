@@ -37,13 +37,16 @@
 .grid-col--span-1,
 .grid-col--span-2,
 .grid-col--span-3,
-.grid-col--span-4,
+.grid-col--span-4 {
+	grid-column: span 1;
+}
+
 .grid-col--span-40,
 .grid-col--span-50,
 .grid-col--span-60,
 .grid-col--span-70,
 .grid-col--span-80 {
-	grid-column: span 1;
+	width: 100%;
 }
 
 @media screen and (min-width: 800px) {

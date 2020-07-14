@@ -15,7 +15,7 @@ introduction:
       ### <strong>Who’s invited<strong>?
       
       
-      You. Your friends. Your co-workers. Anyone and everyone is welcome. We’re celebrating the creative voices of the DMV and we want you to join us. "
+      You. Your friends. Your co-workers. Designers. Not-designers. Everything-in-between. Anyone and everyone is welcome. We’re celebrating the creative voices of the DMV and we want you to join us. "
     image: "/uploads/dc-metro-station.png"
     button-label: Learn About DCDW
     button-url: /about/
