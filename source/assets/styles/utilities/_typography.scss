@@ -74,7 +74,7 @@ a {
 }
 
 @mixin state-active {
-	outline: 2px dashed $white !important;
+	outline: 2px dashed $green !important;
 	outline-offset: 2px !important;
 }
 
