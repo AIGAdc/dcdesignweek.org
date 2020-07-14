@@ -96,6 +96,18 @@
 		width: 550px;
 	}
 
+	.bubble-group-introduction-1 {
+		top: 50px;
+		right: 400px;
+		width: 250px;
+	}
+
+	.bubble-group-introduction-2 {
+		top: 350px;
+		right: -50px;
+		width: 450px;
+	}
+
 	.bubble-group-sponsors {
 		right: 300px;
 	}
@@ -104,6 +116,16 @@
 		top: -60px;
 		left: -80px;
 		width: 700px;
+	}
+
+	.bubble-group-partnerus-1 {
+		top: -60px;
+		left: 200px;
+		width: 400px;
+	}
+
+	.bubble-group-partnerus-2 {
+		left: 400px;
 	}
 }
 
@@ -116,10 +138,22 @@
 	.bubble-group-sponsors {
 		right: 350px;
 	}
+
+	.bubble-capitol-building {
+    left: 150px;
+}
 }
 
 @media screen and (min-width: 1600px) {
 	.bubble-group-introduction-about {
+		right: 150px;
+	}
+
+	.bubble-group-introduction-1 {
+		right: 500px;
+	}
+
+	.bubble-group-introduction-2 {
 		right: 150px;
 	}
 
@@ -131,6 +165,14 @@
 		top: -60px;
 		left: 100px;
 	}
+
+	.bubble-group-partnerus-1 {
+		left: 300px;
+	}
+
+	.bubble-group-partnerus-2 {
+		left: 600px;
+	}
 }
 
 @media screen and (min-width: 1779px) {
@@ -141,6 +183,10 @@
 	.bubble-group-sponsors {
 		right: 450px;
 	}
+
+	.bubble-capitol-building {
+    left: 250px;
+}
 }
 
 @media screen and (min-width: 1879px) {
@@ -158,12 +204,28 @@
 		right: 300px;
 	}
 
+	.bubble-group-introduction-1 {
+		right: 600px;
+	}
+
+	.bubble-group-introduction-2 {
+		right: 250px;
+	}
+
 	.bubble-group-sponsors {
 		right: 550px;
 	}
 
 	.bubble-group-subscribe {
 		left: 200px;
+	}
+
+	.bubble-group-partnerus-1 {
+		left: 400px;
+	}
+
+	.bubble-group-partnerus-2 {
+		left: 800px;
 	}
 }
 
@@ -175,6 +237,10 @@
 	.bubble-group-sponsors {
 		right: 600px;
 	}
+
+	.bubble-capitol-building {
+    left: 450px;
+}
 }
 
 @media screen and (min-width: 2179px) {
@@ -205,6 +271,10 @@
 	.bubble-group-sponsors {
 		right: 900px;
 	}
+
+	.bubble-capitol-building {
+    left: 550px;
+}
 }
 
 @media screen and (min-width: 2479px) {
@@ -212,13 +282,27 @@
 		right: 600px;
 	}
 
+	.bubble-group-introduction-1 {
+		right: 800px;
+	}
+
+	.bubble-group-introduction-2 {
+		right: 450px;
+	}
+
 	.bubble-group-sponsors {
 		right: 1000px;
 	}
 
 	.bubble-group-subscribe {
-		top: -60px;
 		left: 400px;
 	}
 
+	.bubble-group-partnerus-1 {
+		left: 500px;
+	}
+
+	.bubble-group-partnerus-2 {
+		left: 900px;
+	}
 }
