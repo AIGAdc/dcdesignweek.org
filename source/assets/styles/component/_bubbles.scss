@@ -52,7 +52,7 @@
 	}
 
 	.bubble-group-sponsors {
-		width: 20%;
+		width: 200px;
 		top: -50px;
 		right: 250px;
 	}
@@ -87,4 +87,138 @@
 		bottom: -20px;
 		transform: rotate(6deg);
 	}
+}
+
+@media screen and (min-width: 1279px) {
+	.bubble-group-introduction-about {
+		top: -190px;
+		right: 60px;
+		width: 550px;
+	}
+
+	.bubble-group-sponsors {
+		right: 300px;
+	}
+
+	.bubble-group-subscribe {
+		top: -60px;
+		left: -80px;
+		width: 700px;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	.bubble-group-introduction-about {
+		top: -240px;
+		width: 650px;
+	}
+
+	.bubble-group-sponsors {
+		right: 350px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.bubble-group-introduction-about {
+		right: 150px;
+	}
+
+	.bubble-group-sponsors {
+		right: 400px;
+	}
+
+	.bubble-group-subscribe {
+		top: -60px;
+		left: 100px;
+	}
+}
+
+@media screen and (min-width: 1779px) {
+	.bubble-group-introduction-about {
+		right: 200px;
+	}
+
+	.bubble-group-sponsors {
+		right: 450px;
+	}
+}
+
+@media screen and (min-width: 1879px) {
+	.bubble-group-introduction-about {
+		right: 250px;
+	}
+
+	.bubble-group-sponsors {
+		right: 500px;
+	}
+}
+
+@media screen and (min-width: 1979px) {
+	.bubble-group-introduction-about {
+		right: 300px;
+	}
+
+	.bubble-group-sponsors {
+		right: 550px;
+	}
+
+	.bubble-group-subscribe {
+		left: 200px;
+	}
+}
+
+@media screen and (min-width: 2079px) {
+	.bubble-group-introduction-about {
+		right: 350px;
+	}
+
+	.bubble-group-sponsors {
+		right: 600px;
+	}
+}
+
+@media screen and (min-width: 2179px) {
+	.bubble-group-introduction-about {
+		right: 400px;
+	}
+
+	.bubble-group-sponsors {
+		right: 700px;
+	}
+}
+
+@media screen and (min-width: 2279px) {
+	.bubble-group-introduction-about {
+		right: 500px;
+	}
+
+	.bubble-group-sponsors {
+		right: 800px;
+	}
+}
+
+@media screen and (min-width: 2379px) {
+	.bubble-group-introduction-about {
+		right: 550px;
+	}
+
+	.bubble-group-sponsors {
+		right: 900px;
+	}
+}
+
+@media screen and (min-width: 2479px) {
+	.bubble-group-introduction-about {
+		right: 600px;
+	}
+
+	.bubble-group-sponsors {
+		right: 1000px;
+	}
+
+	.bubble-group-subscribe {
+		top: -60px;
+		left: 400px;
+	}
+
 }
