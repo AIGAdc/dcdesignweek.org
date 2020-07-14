@@ -61,6 +61,7 @@ h2 span:nth-child(odd) {
 h1 span:nth-child(even),
 h2 span:nth-child(even) {
 	font-family: $brand-serif;
+	font-weight: 200;
 }
 
 h3 {
