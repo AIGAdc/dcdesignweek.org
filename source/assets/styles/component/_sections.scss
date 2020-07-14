@@ -1,5 +1,7 @@
 .section {
-	@include section;
+	padding: 48px $spacing-32;
+	text-align: left;
+	overflow: hiden;
 	position: relative;
 }
 
@@ -15,4 +17,10 @@
 .section__subscribe {
 	z-index: $index-7;
 	position: relative;
+}
+
+@media screen and (min-width: 1023px) {
+	.section {
+		padding: 120px $spacing-32;
+	}
 }
