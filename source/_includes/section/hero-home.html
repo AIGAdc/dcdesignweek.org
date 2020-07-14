@@ -7,10 +7,33 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 <section class="section section__hero section__hero--home">
 	<div class="grid--hero">
 		<div class="grid-col grid-col--span-4">
-			<video show-controls="true" muted="true" autoplay="autoplay" loop=""
+			<video controls muted="true" autoplay="autoplay" loop=""
 				poster="https://d33wubrfki0l68.cloudfront.net/c3f6e252e0f87d7ce836ebc5ac90767c23c2d377/db6fb/uploads/bg-hero.jpg"
 				src="/uploads/dcdw-home-hero-bubbles.mp4">
 			</video>
+			<button class="button button__solid button__solid--white" id='0.5x'>
+				0.5x
+			</button>
+			<button class="button button__solid button__solid--white" id='1x'>
+				1x
+			</button>
+			<button class="button button__solid button__solid--white" id='1.5x'>
+				1.5x
+			</button>
+			<script>/* play video twice as fast */
+				const video = document.querySelector('video');
+				document.onclick = (e) => {
+					if (e.target.id === '0.5x') {
+						video.playbackRate = 0.5;
+					}
+					if (e.target.id === '1x') {
+						video.playbackRate = 1;
+					}
+					if (e.target.id === '1.5x') {
+						video.playbackRate = 1.5;
+					}
+				}
+			</script>
 		</div>
 	</div>
 </section>
