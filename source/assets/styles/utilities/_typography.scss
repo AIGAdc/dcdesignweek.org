@@ -86,13 +86,16 @@ a {
 
 button:active,
 input:active,
-a:active {
+a:active,
+.houdini-heading:active {
 	@include state-active;
 }
 
 button:focus,
 input:focus,
-a:focus {
+a:focus,
+.houdini-heading:focus,
+video:focus {
 	@include state-focus;
 }
 

@@ -7,25 +7,32 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 <section class="section section__hero section__hero--home">
 	<div class="grid--hero">
 		<div class="grid-col grid-col--span-4">
-			<video controls playsinline muted="true" autoplay="autoplay" loop=""
-				poster="/uploads/dcdw-home-hero-poster.jpg"
+			<video controls playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg"
 				src="/uploads/dcdw-home-hero-bubbles.mp4">
 			</video>
-			<button class="button button__solid button__solid--white" id='0.25x'>
-				0.25x
-			</button>
-			<button class="button button__solid button__solid--white" id='0.5x'>
-				0.5x
-			</button>
-			<button class="button button__solid button__solid--white" id='1x'>
-				1x
-			</button>
-			<button class="button button__solid button__solid--white" id='1.5x'>
-				1.5x
-			</button>
-			<button class="button button__solid button__solid--white" id='2x'>
-				2x
-			</button>
+			<p data-houdini-toggle="playback">Playback Controls</p>
+			<div data-houdini-group="playback-controls" id="playback" class="is-expanded">
+				<button class="button-square button-square__border--white" id='0.25x'>
+					0.25x
+				</button>
+				<button class="button-square button-square__border--white" id='0.5x'>
+					0.5x
+				</button>
+				<button class="button-square button-square__border--white" id='1x'>
+					1x
+				</button>
+				<button class="button-square button-square__border--white" id='1.5x'>
+					1.5x
+				</button>
+				<button class="button-square button-square__border--white" id='2x'>
+					2x
+				</button>
+			</div>
+			<script>
+				var disclosure = new Houdini('[data-houdini-group]', {
+					isAccordion: true
+				});
+			</script>
 			<script>/* play video twice as fast */
 				const video = document.querySelector('video');
 				document.onclick = (e) => {

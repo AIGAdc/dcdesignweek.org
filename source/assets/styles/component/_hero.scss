@@ -19,7 +19,7 @@
 }
 
 .section__hero--home {
-	max-height: 90vh;
+	max-height: 620px;
 	padding: 64px 32px !important;
 }
 
@@ -31,9 +31,28 @@
 	object-fit: cover;
 }
 
+.houdini-heading .houdini-toggle {
+	background: inherit !important;
+	border: none !important;
+	display: block !important;
+	font: inherit !important;
+	padding: 8px !important;
+	text-align: inherit !important;
+	width: 100% !important;
+	color: #fff !important;
+}
+
+.houdini-toggle-icon {
+	margin-left: 8px !important;
+}
+
+#playback {
+	margin-top: 0 !important;
+}
+
 @media screen and (min-width: 1023px) {
 	.section__hero--home video {
-		height: 640px;
+		height: 420px;
 		-o-object-fit: contain;
 		object-fit: contain;
 	}
