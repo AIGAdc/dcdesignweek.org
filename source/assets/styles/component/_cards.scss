@@ -11,6 +11,15 @@
 	text-transform: uppercase;
 }
 
+.card__header a {
+	color: $white;
+	display: inline-block;
+}
+
+.card__header a:hover {
+	color: $green;
+}
+
 .card__link {
 	color: $white;
 	transition: -webkit-filter $timing-quick ease-in;
