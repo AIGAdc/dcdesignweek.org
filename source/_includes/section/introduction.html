@@ -5,7 +5,7 @@
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col--span-60">{{ content.header }}</h2>
-			<p>{{ content.body }}</p>
+			<p>{{ content.body | markdownify }}</p>
 			<div class="dcdw-date-badge">
 				<div class="month">
 					<span>S</span>
@@ -55,9 +55,9 @@
 		</div>
 	</div>
 	<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-group-introduction-1.png"
-		alt="Bubble Group for About Page Introduction 1">
+		alt="Small Floating amorphous bubbles with DC Design Week text inside ">
 	<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-group-introduction-2.png"
-		alt="Bubble Group for About Page Introduction 2">
+		alt="Large Floating amorphous bubbles with DC Design Week text inside ">
 </section>
 {% endif %}
 {% endfor %}
@@ -95,7 +95,7 @@
 		</div>
 		<div class="grid-col grid-col--span-2 order-3">
 			<video controls loop=""
-				poster="https://d33wubrfki0l68.cloudfront.net/c3f6e252e0f87d7ce836ebc5ac90767c23c2d377/db6fb/uploads/bg-hero.jpg"
+				poster="/uploads/dcdw-about-poster.jpg"
 				src="/uploads/dcdw-about-video.mp4">
 			</video>
 			<button class="button button__solid button__solid--white" id='0.25x'>
@@ -151,7 +151,7 @@
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
 			<h2 class="grid-col--span-50">{{ content.header }}</h2>
-			<p>{{ content.body }}</p>
+			<p>{{ content.body | markdownify }}</p>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1">
 			<div class="ornament-group">

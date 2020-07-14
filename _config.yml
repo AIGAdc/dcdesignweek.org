@@ -189,7 +189,7 @@ filter-status:
   header: <span>Meet</span> <span>our</span> <span>sponsors</span>
   unbranded-header: Thanks to our 2020 sponsors
   body: 
-    DC Design Week wouldn’t be the same without you. <strong>Thank you for your support</strong>.
+    DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
   sponsor-list:
     - title: Brand Sponsor
       image: /uploads/sponsor-january-third.svg
@@ -532,9 +532,9 @@ partner:
     You do things. We do things. <strong>Let’s do things together</strong>. 
     
       
-    We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible. If you’re interested in partnering with DC Design Week this year, let us know. 
+    We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible, whether through donations or in-kind gifts. If you’re interested in partnering with DC Design Week this year, let us know. 
   button-url: mailto:designweek@dc.aiga.org
-  button-label: Email Us
+  button-label: Reach Out
 past-events:
     header: <span>2019</span> <span>Event</span> <span>Highlights</span>
     body:
@@ -581,7 +581,7 @@ volunteer:
     199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span>
     <span>in</span> <span>DC</span>
   unbranded-header: Made with ♥ in DC
-  body: DC Design Week runs on 100% volunteer power. We’re always working to make this site better for you. If you see something, say something.
+  body: DC Design Week runs on 100% volunteer power. We’re always working to make this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
