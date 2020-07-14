@@ -186,7 +186,7 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: <span>Thanks</span> <span>to</span> <span>our</span> <span>2020</span> <span>sponsors</span>
+  header: <span>Meet</span> <span>our</span> <span>sponsors</span>
   unbranded-header: Thanks to our 2020 sponsors
   body: 
     DC Design Week wouldn’t be the same without you. <strong>Thank you for your support</strong>.
