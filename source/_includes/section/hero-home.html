@@ -11,7 +11,7 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 				src="/uploads/dcdw-home-hero-bubbles.mp4">
 			</video>
 			<p data-houdini-toggle="playback">Playback Controls</p>
-			<div data-houdini-group="playback-controls" id="playback" class="is-expanded">
+			<div data-houdini-group="playback-controls" id="playback">
 				<button class="button-square button-square__border--white" id='0.25x'>
 					0.25x
 				</button>
@@ -33,7 +33,7 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 					isAccordion: true
 				});
 			</script>
-			<script>/* play video twice as fast */
+			<script>
 				const video = document.querySelector('video');
 				document.onclick = (e) => {
 					if (e.target.id === '0.25x') {

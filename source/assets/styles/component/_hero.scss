@@ -50,6 +50,11 @@
 	margin-top: 0 !important;
 }
 
+.houdini-heading,
+#playback {
+	text-align: right;
+}
+
 @media screen and (min-width: 1023px) {
 	.section__hero--home video {
 		height: 420px;
