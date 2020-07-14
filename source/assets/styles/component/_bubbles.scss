@@ -14,8 +14,8 @@
 }
 
 .bubble-group-introduction-1 {
-	bottom: -850px;
-	right: -110px;
+	right: -80px;
+	bottom: -80px;
 }
 
 .bubble-group-partnerus-2 {
@@ -23,10 +23,12 @@
 	right: 60px;
 }
 
+@media screen and (min-width: 490px) {
+	.bubble-group-introduction-1 {}
+}
+
 @media screen and (min-width: 500px) {
-	.bubble-group-introduction-1 {
-		bottom: -850px;
-	}
+	.bubble-group-introduction-1 {}
 
 	.bubble-group-partnerus-2 {
 		right: 20px;
@@ -47,12 +49,7 @@
 	}
 }
 
-@media screen and (min-width: 746px) {
-	.bubble-group-introduction-1 {
-		bottom: -800px;
-		right: 0;
-	}
-}
+@media screen and (min-width: 746px) {}
 
 @media screen and (min-width: 799px) {
 	.bubble-group-partnerus-2 {
@@ -90,13 +87,13 @@
 	}
 
 	.bubble-group-introduction-1 {
-		top: -80px;
-		left: 100px;
+		right: 250px;
+		top: 70px;
 	}
 
 	.bubble-group-introduction-2 {
-		top: 150px;
-		left: 300px;
+		top: 300px;
+		right: 0px;
 	}
 
 	.bubble-group-partnerus-1 {

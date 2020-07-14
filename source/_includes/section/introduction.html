@@ -30,11 +30,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2 order-1">
-			<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-group-introduction-1.png"
-				alt="Bubble Group for About Page Introduction 1">
-			<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-group-introduction-2.png"
-				alt="Bubble Group for About Page Introduction 2">
+		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
 			<div class="ornament-group">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +54,10 @@
 			</div>
 		</div>
 	</div>
+	<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-group-introduction-1.png"
+		alt="Bubble Group for About Page Introduction 1">
+	<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-group-introduction-2.png"
+		alt="Bubble Group for About Page Introduction 2">
 </section>
 {% endif %}
 {% endfor %}
@@ -71,8 +71,6 @@
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1">
-			<img class="bubble-group-introduction" aria-hidden="true" src="/uploads/bubble-black-group-introduction.png"
-				alt="Bubble Group for About Page Introduction">
 			<div class="ornament-group">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
@@ -105,6 +103,8 @@
 			<div class="wysiwyg">{{ content.body-2 | markdownify }}</div>
 		</div>
 	</div>
+	<img class="bubble-group-introduction" aria-hidden="true" src="/uploads/bubble-black-group-introduction.png"
+		alt="Bubble Group for About Page Introduction">
 </section>
 {% endif %}
 {% endfor %}

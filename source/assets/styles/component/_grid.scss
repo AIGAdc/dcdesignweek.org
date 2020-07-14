@@ -13,6 +13,10 @@
 	order: 4
 }
 
+.grid-col--hide {
+	display: none;
+}
+
 .order-1 {
 	order: 1;
 }
@@ -80,6 +84,10 @@
 	.grid,
 	.grid--hero {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid-col--hide {
+		display: block;
 	}
 
 	.grid--hero {
