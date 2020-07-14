@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 1023px) {
 	.site-header>.container {
-		padding: $spacing-16 0;
+		padding: $spacing-16 $spacing-32;
 	}
 
 	// show site navigation when screen is > 1023

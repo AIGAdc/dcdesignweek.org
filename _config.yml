@@ -320,7 +320,7 @@ filter-status:
   - image: "/uploads/profile-ash-del-cid.png"
     image-alt: Ash Del Cid's Portrait
     name: Ash Del Cid
-    role: Program Lead
+    role: Copywriter
     website-url-1:
     website-label-1:
     website-aria-label-1: 
@@ -417,7 +417,7 @@ filter-status:
   - image: "/uploads/profile-rebecca-price.png"
     image-alt: Rebecca Price's Portrait
     name: Rebecca Price
-    role: Social Media Lead
+    role: Deputy Comms Director
     website-url-1: https://www.instagram.com/rebeccuhhhhh/
     website-label-1: <i class="fab fa-instagram-square"></i> Instagram
     website-aria-label-1: "Rebecca Price's Instagram"
