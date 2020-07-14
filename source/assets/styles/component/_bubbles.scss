@@ -1,4 +1,5 @@
 .bubble-group-subscribe,
+.bubble-group-introduction-about,
 .bubble-group-introduction-2,
 .bubble-group-partnerus-1,
 .bubble-capitol-building,
@@ -33,6 +34,7 @@
 @media screen and (min-width: 1023px) {
 
 	.bubble-group-subscribe,
+	.bubble-group-introduction-about,
 	.bubble-group-introduction-1,
 	.bubble-group-introduction-2,
 	.bubble-group-partnerus-1,
@@ -44,6 +46,11 @@
 		z-index: $index-5;
 	}
 
+	.bubble-group-introduction-about {
+		top: -140px;
+		right: 90px;
+	}
+
 	.bubble-group-sponsors {
 		width: 20%;
 		top: -50px;
@@ -51,12 +58,8 @@
 	}
 
 	.bubble-group-subscribe {
-		top: -180px;
-	}
-
-	.bubble-group-subscribe,
-	.bubble-group-partnerus {
-		left: -120px;
+		top: -30px;
+		left: -80px;
 	}
 
 	.bubble-group-introduction-1 {
