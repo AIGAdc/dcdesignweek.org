@@ -4,8 +4,8 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h2 class="grid-col--span-60">{{ content.header }}</h2>
-			<p>{{ content.body | markdownify }}</p>
+			<h1 class="grid-col--span-60">{{ content.header }}</h1>
+			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 			<div class="dcdw-date-badge">
 				<div class="month">
 					<span>S</span>
@@ -23,7 +23,7 @@
 					<p>25</p>
 				</div>
 			</div>
-			<p>{{ content.body-2 | markdownify }}</p>
+			<p class="wysiwyg">{{ content.body-2 | markdownify }}</p>
 			<div class="grid-col--span-60">
 				<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 					href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
@@ -67,7 +67,7 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h2 class="grid-col--span-70">{{ content.header }}</h2>
+			<h1 class="grid-col--span-70">{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
@@ -94,7 +94,9 @@
 			</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-3">
-			<video controls loop="" poster="/uploads/dcdw-about-poster.jpg" src="/uploads/dcdw-about-video.mp4">
+			<video controls playsinline loop="">>
+				<source src="/uploads/dcdw-about-video.mp4" poster="/uploads/dcdw-about-poster.jpg" type="video/mp4">
+				<track src="/uploads/dcdw-about-video-captions.vtt" kind="captions" srclang="en" label="english">
 			</video>
 			<div class="playback-controls">
 				<p data-houdini-toggle="playback">Playback Controls</p>
@@ -117,6 +119,7 @@
 			</script>
 			<script>
 				const video = document.querySelector('video');
+				document.getElementsByTagName('video')[0].volume = 0.25;
 				document.onclick = (e) => {
 					if (e.target.id === '0.8x') {
 						video.playbackRate = 0.8;
@@ -145,8 +148,8 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h2 class="grid-col--span-50">{{ content.header }}</h2>
-			<p>{{ content.body | markdownify }}</p>
+			<h1 class="grid-col--span-50">{{ content.header }}</h1>
+			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
 			<div class="ornament-group">

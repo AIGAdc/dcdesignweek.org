@@ -11,6 +11,10 @@
 	z-index: $index-9;
 }
 
+.site-footer {
+	grid-gap: 0;
+}
+
 .site-footer__social {
 	@include grid;
 	grid-template-columns: 1fr;

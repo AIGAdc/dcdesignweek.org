@@ -10,7 +10,7 @@
 	@include flex-row;
 	@include flex-align-center;
 	@include flex-justify-space-between;
-	padding: $spacing-16 $spacing-32;
+	padding: $spacing-16;
 }
 
 // hide site navigation when screen is < 1023
@@ -31,10 +31,6 @@
 }
 
 @media screen and (min-width: 1023px) {
-	.site-header>.container {
-		padding: $spacing-16 $spacing-32;
-	}
-
 	// show site navigation when screen is > 1023
 	.site-header__navigation {
 		@include flex-row;

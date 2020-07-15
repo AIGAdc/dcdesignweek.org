@@ -8,6 +8,10 @@
 	z-index: 1000;
 }
 
+.section__introduction {
+	overflow: hidden;
+}
+
 .overlay {
 	background: radial-gradient(transparent 0%, #000 90%);
 	position: absolute;
@@ -30,8 +34,6 @@
 	-o-object-fit: contain;
 	object-fit: contain;
 }
-
-@media screen and (min-width: 699px) {}
 
 .section__hero--home video {
 	width: 100%;
@@ -59,8 +61,6 @@
 		object-fit: contain;
 	}
 }
-
-@media screen and (min-width: 1023px) {}
 
 .houdini-heading .houdini-toggle {
 	background: inherit !important;

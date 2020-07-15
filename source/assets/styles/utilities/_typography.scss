@@ -19,11 +19,13 @@ small {
 	text-rendering: optimizeLegibility;
 }
 
+h1,
 h2 {
 	position: relative;
 	text-transform: uppercase;
 }
 
+h1 span:after
 h2 span:after {
 	content: "";
 	background-color: #fff;
@@ -40,10 +42,7 @@ h2 span:nth-child(even) {
 	color: $white;
 }
 
-h1 {
-	font-size: $font-size-40;
-}
-
+h1,
 h2 {
 	@include heading-2;
 	font-size: $font-size-24;
@@ -51,6 +50,8 @@ h2 {
 }
 
 @media screen and (min-width: 767px) {
+
+	h1,
 	h2 {
 		font-size: $font-size-40;
 	}
@@ -72,6 +73,7 @@ h2 span:nth-child(even) {
 	font-weight: 200;
 }
 
+.wysiwyg h2,
 h3 {
 	font-family: $brand-sans-interactive;
 	font-size: $font-size-16;

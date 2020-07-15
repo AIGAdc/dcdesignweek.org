@@ -7,8 +7,9 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 <section class="section section__hero section__hero--home">
 	<div class="grid--hero">
 		<div class="grid-col grid-col--span-4">
-			<video playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg"
-				src="/uploads/dcdw-home-hero-bubbles.mp4">
+			<video controls playsinline muted="true" autoplay="autoplay" loop="">>
+				<source src="/uploads/dcdw-home-hero-bubbles.mp4" poster="/uploads/dcdw-home-hero-poster.jpg" type="video/mp4">
+				<track src="/uploads/dcdw-home-hero-captions.vtt" kind="captions" srclang="en" label="english">
 			</video>
 			<div class="playback-controls">
 				<p data-houdini-toggle="playback">Playback Controls</p>
@@ -32,7 +33,12 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 			</script>
 			<script>
 				const video = document.querySelector('video');
+				var subtitles = document.getElementById('subtitles');
 				var playButton = document.getElementById("play-pause");
+
+				for (var i = 0; i < video.textTracks.length; i++) {
+					video.textTracks[i].mode = 'hidden';
+				}
 				// Event listener for the play/pause button
 				playButton.addEventListener("click", function () {
 					if (video.paused == true) {
