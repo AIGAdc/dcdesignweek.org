@@ -26,9 +26,9 @@ print-designers:
       Each artist will receive $500 for their commission as well as 60% of all proceeds from sales of their design. Artists will be selected by a committee of established artists, including [Dany Green](http://www.danygreen.com/){:target="_blank"rel="noopener nofollow"}, [Sonia Jones](http://soniajonestheartist.com/){:target="_blank"rel="noopener nofollow"}, [Jodi Kostelnik](https://theneighborgoods.com/){:target="_blank"rel="noopener nofollow"}, and [Torie Partridge](https://www.cherryblossomworkshop.com/){:target="_blank"rel="noopener nofollow"}. We’ll let you know if you’ve been selected by Tuesday, August 4. Final designs must be submitted by Wednesday, August 26.'
     button-label: Apply Now
     button-url: https://forms.gle/coDR12BQs3dGmUEWA
-    image-left: /uploads/poster-green-bubble.jpg
+    image-left: /uploads/poster-green-bubble.png
     image-left-alt: Bright green DC Design Week 2020 promotional poster artwork
-    image-right: /uploads/poster-black-photo.jpg
+    image-right: /uploads/poster-black-photo.png
     image-right-alt: DC Design Week promotional poster artwork with black and white photo
 celebrating-you:
   - has-celebrating-you: true

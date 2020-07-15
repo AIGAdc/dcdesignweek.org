@@ -24,6 +24,12 @@
 	right: 60px;
 }
 
+.gallery-maker-grid {
+	max-width: 60%;
+	position: absolute;
+	top: 24px;
+}
+
 @media screen and (min-width: 799px) {
 	.bubble-group-partnerus-2 {
 		bottom: -60px;
@@ -86,6 +92,12 @@
 		width: 400px;
 		bottom: -20px;
 		transform: rotate(6deg);
+	}
+
+	.gallery-maker-grid {
+		max-width: 100%;
+		position: relative;
+		width: 80%;
 	}
 }
 

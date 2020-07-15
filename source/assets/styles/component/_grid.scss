@@ -121,30 +121,14 @@
 	}
 }
 
-.flex {
+.emerging-designers-posters {
+	margin: auto;
+	max-width: 500px;
 	display: flex;
 }
 
-.emerging-designers-posters.flex {
-	margin: auto;
-	max-width: 500px;
-	margin-bottom: 200px;
-}
-
-.emerging-designers-posters .layer--3 {
-	top: 160px;
-}
-
-.emerging-designers-posters .layer--3 {
-	margin-left: -64px;
-}
-
 .emerging-designers-posters .layer--2 {
-	margin-right: -64px;
-}
-
-.emerging-designers-posters figure img {
-	border: solid 1px white;
+	margin-right: 16px;
 }
 
 .emerging-designers-posters figure,
@@ -152,40 +136,20 @@
 	position: relative;
 }
 
-.box-top-left,
-.box-top-right,
-.box-bottom-right,
-.box-bottom-left {
-	position: absolute;
-	height: 16px;
-	width: 16px;
-	border: solid 1px white;
-	background-color: white;
-}
-
-.box-top-left {
-	top: -6px;
-	left: -6px;
-}
-
-.box-top-right {
-	top: -6px;
-	right: -6px;
-}
-
-.box-bottom-right {
-	bottom: -6px;
-	right: -6px;
-}
-
-.box-bottom-left {
-	bottom: -6px;
-	left: -6px;
-}
-
 @media screen and (min-width: 1023px) {
+	.emerging-designers-posters {
+		margin-bottom: 200px;
+	}
 
-	.emerging-designers-posters.flex {
-		margin-bottom: 0
+	.emerging-designers-posters .layer--3 {
+		top: 160px;
+	}
+
+	.emerging-designers-posters .layer--3 {
+		margin-left: -64px;
+	}
+
+	.emerging-designers-posters .layer--2 {
+		margin-right: -64px;
 	}
 }
