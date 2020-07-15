@@ -20,10 +20,6 @@
 	display: none;
 }
 
-.site-header figure {
-	max-width: 96px;
-}
-
 .links {
 	text-transform: uppercase;
 }
@@ -33,10 +29,6 @@
 }
 
 @media screen and (min-width: 1023px) {
-	.site-header>.container {
-		padding-left: 0;
-		padding-right: 0;
-	}
 
 	// show site navigation when screen is > 1023
 	.site-header__navigation {
@@ -53,5 +45,12 @@
 
 	.link {
 		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1539px) {
+	.site-header>.container {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
