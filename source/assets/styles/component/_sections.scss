@@ -5,7 +5,7 @@
 	position: relative;
 }
 
-.section:not(:last-child) {
+.section:not(:first-of-type) {
 	border-top: solid 1px $white;
 }
 

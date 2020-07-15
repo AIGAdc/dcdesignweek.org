@@ -46,8 +46,14 @@ h1 {
 
 h2 {
 	@include heading-2;
-	font-size: $font-size-40;
+	font-size: $font-size-24;
 	line-height: 0.95;
+}
+
+@media screen and (min-width: 767px) {
+	h2 {
+		font-size: $font-size-40;
+	}
 }
 
 h3 {
