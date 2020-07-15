@@ -96,41 +96,38 @@
 		<div class="grid-col grid-col--span-2 order-3">
 			<video controls loop="" poster="/uploads/dcdw-about-poster.jpg" src="/uploads/dcdw-about-video.mp4">
 			</video>
-			<button class="button button__solid button__solid--white" id='0.25x'>
-				0.25x
-			</button>
-			<button class="button button__solid button__solid--white" id='0.5x'>
-				0.5x
-			</button>
-			<button class="button button__solid button__solid--white" id='1x'>
-				1x
-			</button>
-			<button class="button button__solid button__solid--white" id='1.5x'>
-				1.5x
-			</button>
-			<button class="button button__solid button__solid--white" id='2x'>
-				2x
-			</button>
-			<script>/* play video twice as fast */
+			<div class="playback-speed">
+				<p data-houdini-toggle="playback">Playback Speed</p>
+				<div data-houdini-group="playback-controls" id="playback">
+					<button class="playbackButton button-square button-square__border--white" id='0.8x'>
+						0.8x
+					</button>
+					<button class="playbackButton button-square button-square__border--white" id='1x'>
+						1.0x
+					</button>
+					<button class="playbackButton button-square button-square__border--white" id='1.2x'>
+						1.2x
+					</button>
+				</div>
+			</div>
+			<script>
+				var disclosure = new Houdini('[data-houdini-group]', {
+					isAccordion: true
+				});
+			</script>
+			<script>
 				const video = document.querySelector('video');
 				document.onclick = (e) => {
-					if (e.target.id === '0.25x') {
-						video.playbackRate = 0.25;
-					}
-					if (e.target.id === '0.5x') {
-						video.playbackRate = 0.5;
+					if (e.target.id === '0.8x') {
+						video.playbackRate = 0.8;
 					}
 					if (e.target.id === '1x') {
 						video.playbackRate = 1;
 					}
-					if (e.target.id === '1.5x') {
-						video.playbackRate = 1.5;
-					}
-					if (e.target.id === '2x') {
-						video.playbackRate = 2;
+					if (e.target.id === '1.2x') {
+						video.playbackRate = 1.2;
 					}
 				}
-				document.getElementsByTagName('video')[0].volume = 0.15;
 			</script>
 		</div>
 		<div class="grid-col grid-col--span-2 order-4">

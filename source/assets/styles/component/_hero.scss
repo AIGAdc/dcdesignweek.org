@@ -65,11 +65,11 @@
 .houdini-heading .houdini-toggle {
 	background: inherit !important;
 	border: none !important;
-	display: block !important;
+	display: inline-block !important;
 	font: inherit !important;
 	padding: 8px !important;
 	text-align: inherit !important;
-	width: 100% !important;
+	width: auto !important;
 	color: #fff !important;
 }
 
@@ -85,11 +85,16 @@
 
 .playback-speed {
 	margin-top: 16px !important;
+	text-align: right;
 }
 
 .houdini-heading,
 #playback {
 	text-align: right !important;
+}
+
+.houdini-heading {
+	display: inline-block;
 }
 
 .is-active-speed {
