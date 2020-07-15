@@ -1,11 +1,12 @@
 ---
 title: Events
 permalink: "/events/"
-layout: events
+published: false
 has-hero: true
 hero:
 - tagline: 
   header: Events
   subheader: 
+layout: events
 ---
 
