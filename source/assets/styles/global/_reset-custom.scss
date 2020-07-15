@@ -17,6 +17,10 @@ body {
 	}
 }
 
+main {
+	overflow: hidden;
+}
+
 hr {
 	border: solid 2px $white;
 	border-radius: 0;
