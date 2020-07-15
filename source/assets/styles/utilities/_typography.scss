@@ -19,16 +19,18 @@ small {
 	text-rendering: optimizeLegibility;
 }
 
-h1,
 h2 {
+	position: relative;
 	text-transform: uppercase;
 }
 
-h1 span:after,
 h2 span:after {
-	content: "_";
-	color: $white;
+	content: "";
+	background-color: #fff;
 	display: inline-block;
+	width: 20px;
+	height: 4px;
+	margin-left: 4px;
 }
 
 h1 span:nth-child(odd),
