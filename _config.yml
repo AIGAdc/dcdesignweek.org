@@ -337,7 +337,7 @@ filter-status:
     website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
     website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-2: "Devin Draught Sundeen's LinkedIn"
-  - image:
+  - image: "/uploads/profile-dave-ellington.png"
     image-alt: Dave Ellington's Portrait
     name: Dave Ellington
     role: Duke and The Duck Lead
@@ -345,8 +345,6 @@ filter-status:
     website-label-1:
     website-aria-label-2:
     website-url-2: 
-    website-label-2: 
-    website-aria-label-2: 
   - image: "/uploads/profile-sara-jamshidi.png"
     image-alt: Sara Jamshidi's Portrait
     name: Sara Jamshidi
