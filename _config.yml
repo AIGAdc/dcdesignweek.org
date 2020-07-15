@@ -522,6 +522,8 @@ subscribe:
   header: "<span>Subscribe</span> <span>for</span> <span>updates</span>"
   body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
     updates you need.
+  image-1: /uploads/bubble-black-large-02.png
+  image-1-alt: Floating amorphous bubbles
 partner:
   header: "<span>Partner</span> <span>with</span> <span>Us</span>"
   body: "You do things. We do things. <strong>Let’s do things together</strong>. \n\n
@@ -576,7 +578,7 @@ volunteer:
     15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8
     53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
     53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span> <span>in</span> <span>DC</span>
-  unbranded-header: Made with ♥ in DC
+  unbranded-header: Made with heart in DC
   body: DC Design Week runs on 100% volunteer power. We’re always working to make
     this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org

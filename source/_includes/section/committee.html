@@ -1,7 +1,9 @@
 <section class="section section__committee">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h2 class="grid-col--span-80">{{ page.team-header }}</h2>
+			<h2 class="grid-col--span-80"
+				id="{{ page.team-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ page.team-header }}</h2>
 			<p>{{ page.team-body }}</p>
 		</div>
 

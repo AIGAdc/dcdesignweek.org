@@ -5,7 +5,9 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-60">{{ content.header }}</h1>
+			<h1 class="grid-col--span-60"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 			<div class="dcdw-date-badge">
 				<div class="month">
@@ -70,7 +72,9 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-70">{{ content.header }}</h1>
+			<h1 class="grid-col--span-70"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
@@ -155,7 +159,9 @@
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-50">{{ content.header }}</h1>
+			<h1 class="grid-col--span-50"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
