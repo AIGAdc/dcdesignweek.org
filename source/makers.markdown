@@ -1,7 +1,6 @@
 ---
-title: Pop-Up Shop
+title: Makers
 permalink: "/makers/"
-layout: makers
 hero:
 - has-hero: true
   header: Makers
@@ -48,5 +47,6 @@ celebrating-you:
     link you’d like to include on our site. "
   button-label: Apply Now
   button-url: https://forms.gle/YfTXtJ69qP6yFuXdA
+layout: makers
 ---
 
