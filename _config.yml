@@ -198,9 +198,9 @@ filter-status:
     aria-label: January Third Website
   - title: Motion Sponsor
     image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke and The Duck Logo
+    image-alt: Duke & Duck Logo
     website: https://www.dukeduck.com/
-    aria-label: Duke and The Duck Website
+    aria-label: Duke & Duck Website
 2020-contributing-sponsors:
 - title: 
   image: 
@@ -340,7 +340,7 @@ filter-status:
 - image: "/uploads/profile-dave-ellington.png"
   image-alt: Dave Ellington's Portrait
   name: Dave Ellington
-  role: Duke and The Duck Lead
+  role: Duke & Duck Lead
   website-url-1: 
   website-label-1: 
   website-aria-label-2: 
