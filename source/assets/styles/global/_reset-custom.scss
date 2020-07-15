@@ -7,8 +7,14 @@ body {
 	background-color: $black;
 	color: $white;
 	font-family: $brand-sans-body;
-	font-size: $font-size-18;
+	font-size: $font-size-16;
 	overflow-x: hidden;
+}
+
+@media screen and (min-width: 1023px) {
+	body {
+		font-size: $font-size-18;
+	}
 }
 
 main {
