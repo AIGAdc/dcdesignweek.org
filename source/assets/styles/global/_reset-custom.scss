@@ -6,7 +6,7 @@
 body {
 	background-color: $black;
 	color: $white;
-	font-family: $brand-sans-body;
+	font-family: $brand-font-heebo;
 	font-size: $font-size-16;
 	overflow-x: hidden;
 }
@@ -40,10 +40,4 @@ ul {
 
 .enabled {
 	cursor: pointer !important;
-}
-
-.container {
-	margin: auto;
-	max-width: 1440px;
-	padding: $spacing-16;
 }

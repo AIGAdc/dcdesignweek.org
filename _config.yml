@@ -549,7 +549,7 @@ past-events:
     image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
     url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
 past-editions:
-  header: "<span>DC</span <span>Design</span> <span>Week</span> <span>Through</span>
+  header: "<span>DC</span> <span>Design</span> <span>Week</span> <span>Through</span>
     <span>the</span> <span>Years</span>"
   unbranded-header: DC Through the Years
   body: We love reminiscing.

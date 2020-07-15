@@ -19,11 +19,11 @@ $black: #000;
 
 // 2020 branding
 $green: #4ae725;
-$brand-sans: "fk_groteskregular",
+$brand-font-fk-grotesk: "fk_groteskregular",
 sans-serif;
-$brand-sans-interactive: "Termina";
-$brand-sans-body: heebo, sans-serif; 
-$brand-serif: "sometimes-times-regular",
+$brand-font-terminus: "Termina";
+$brand-font-heebo: heebo, sans-serif; 
+$brand-font-sometimes: "sometimes-times-regular",
 serif;
 
 // past editions
@@ -56,11 +56,6 @@ $spacing-8: 8px;
 $spacing-4: 4px;
 
 /* SECTION - typography */
-
-$sans: $brand-sans;
-$sans-alt: $brand-sans-interactive;
-$serif: $brand-serif;
-$mono: monospace;
 $font-size-64: 4rem; // 64px
 $font-size-56: 3.5rem; // 56px
 $font-size-48: 3rem; // 48px
