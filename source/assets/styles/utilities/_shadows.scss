@@ -1,0 +1,24 @@
+.shadow,
+.shadow-reverse {
+	transition: box-shadow $timing-quick ease-out;
+}
+
+.shadow {
+	&--green {
+		box-shadow: 16px 16px $green;
+	}
+
+	&--green:hover {
+		box-shadow: 0 0 $green;
+	}
+}
+
+.shadow-reverse {
+	&--green {
+		box-shadow: 0 0 $green;
+	}
+
+	&--green:hover {
+		box-shadow: 16px 16px $green;
+	}
+}

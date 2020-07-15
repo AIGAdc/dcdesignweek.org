@@ -1,0 +1,71 @@
+<div class="sponsors">
+	{% if page.url == "/" or "/about/" %}
+	{% for section in page.sponsors %}
+	<h2>
+		{{ section.header }}
+	</h2>
+	<hr />
+	<p>
+		{{ section.body | markdownify }}
+	</p>
+	{% if section.sub-header %}
+	<h3>
+		{{ section.sub-header }}
+	</h3>
+	{% endif %}
+	{% if section.sub-body %}
+	<p>
+		{{ section.sub-copy | markdownify }}
+	</p>
+	{% endif %}
+	<h2>
+		{{ section.sub-header-presenting }}
+	</h2>
+	<hr />
+	<!-- listing -->
+	<div class="listing__sponsors--presenting">
+		{{ section.sub-body-presenting | markdownify }}
+		{% for sponsor in site.2020-presenting-sponsors %}
+		<li class="card card__sponsors card__sponsors--presenting border border--white shadow shadow--green">
+			<div class="card-details">
+				<a href="{{ sponsor.website }}" rel="noopener" target="_blank">
+					<img alt="{{ sponsor.image-alt }}" class="" data-src="{{ sponsor.image }}"
+						src="{{ sponsor.image }}">
+					</img>
+				</a>
+			</div>
+		</li>
+		{% endfor %}
+	</div>
+	<h2>
+		{{ section.sub-header-contributing }}
+	</h2>
+	<hr />
+	<!-- listing -->
+	<ul class="listing__sponsors">
+		{% for sponsor in site.2020-contributing-sponsors %}
+		<li class="card card__sponsors card__sponsors--contributing">
+			<div class="card-details">
+				<a href="{{ sponsor.website }}" rel="noopener" target="_blank">
+					<img alt="{{ sponsor.image-alt }}" class="" data-src="{{ sponsor.image }}"
+						src="{{ sponsor.image }}">
+					</img>
+				</a>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+	{% endfor %}
+	{% endif %}
+
+	{% if page.url == "/" or "/about/ "%}
+	{% for section in page.sponsors %}
+	{% if section.has-button == true %}
+	<a class="button button__{{ section.button-type }}--{{ section.button-class }}" href="{{ section.button-url }}"
+		rel="noopener" style="margin-top: 32px;">
+		{{ section.button-label }}
+	</a>
+	{% endif %}
+	{% endfor %}
+	{% endif %}
+</div>

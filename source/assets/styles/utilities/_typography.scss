@@ -1,0 +1,178 @@
+@mixin anchor {
+	color: $green;
+	cursor: pointer;
+	text-decoration: none;
+	transition: opacity $timing-default ease-in;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+	display: block;
+	font-family: $sans;
+	font-weight: 700;
+	line-height: initial;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2 {
+	position: relative;
+	text-transform: uppercase;
+}
+
+h1 span:after
+h2 span:after {
+	content: "";
+	background-color: #fff;
+	display: inline-block;
+	width: 20px;
+	height: 4px;
+	margin-left: 4px;
+}
+
+h1 span:nth-child(odd),
+h1 span:nth-child(even),
+h2 span:nth-child(odd),
+h2 span:nth-child(even) {
+	color: $white;
+}
+
+h1,
+h2 {
+	@include heading-2;
+	font-size: $font-size-24;
+	line-height: 0.95;
+}
+
+@media screen and (min-width: 767px) {
+
+	h1,
+	h2 {
+		font-size: $font-size-40;
+	}
+}
+
+h3 {
+	font-size: $font-size-24;
+}
+
+h1 span:nth-child(odd),
+h2 span:nth-child(odd) {
+	font-family: $brand-sans;
+	font-weight: 400;
+}
+
+h1 span:nth-child(even),
+h2 span:nth-child(even) {
+	font-family: $brand-serif;
+	font-weight: 200;
+}
+
+.wysiwyg h2,
+h3 {
+	font-family: $brand-sans-interactive;
+	font-size: $font-size-16;
+	text-transform: uppercase;
+}
+
+a {
+	@include anchor;
+}
+
+@mixin state-active {
+	outline: 2px dashed $green !important;
+	outline-offset: 2px !important;
+}
+
+@mixin state-focus {
+	outline: 2px dashed $green !important;
+	outline-offset: 2px !important;
+}
+
+button:active,
+input:active,
+a:active,
+.houdini-heading:active {
+	@include state-active;
+}
+
+button:focus,
+input:focus,
+a:focus,
+.houdini-heading:focus,
+video:focus {
+	@include state-focus;
+}
+
+strong,
+.font-weight-700 {
+	font-weight: 700;
+}
+
+.font-weight-300 {
+	font-weight: 300;
+}
+
+.font-weight-400 {
+	font-weight: 400;
+}
+
+.wysiwyg li {
+	margin-left: 32px;
+}
+
+@media screen and (min-width: $large) {
+	h1 {
+		font-size: $font-size-56;
+	}
+}
+
+/* font family */
+.sans {
+	font-family: $sans;
+}
+
+.font-size-1 {
+	font-size: $font-size-48;
+}
+
+.font-size-2 {
+	font-size: $font-size-40;
+}
+
+.font-size-3 {
+	font-size: $font-size-32;
+}
+
+.font-size-4 {
+	font-size: $font-size-24;
+}
+
+.font-size-5 {
+	font-size: $font-size-20;
+}
+
+.font-size-6 {
+	font-size: $font-size-16;
+}
+
+.font-size-7 {
+	font-size: $font-size-14;
+}
+
+.font-size-8 {
+	font-size: $font-size-12;
+}
+
+.font-size-9 {
+	font-size: $font-size-10;
+}
+
+.site-footer .svg-inline--fa {
+	font-size: 3rem;
+}

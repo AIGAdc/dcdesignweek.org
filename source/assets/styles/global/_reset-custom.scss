@@ -1,0 +1,49 @@
+// * {
+// 	outline: dashed 1px salmon;
+// 	outline-offset: -1px;
+// }
+
+body {
+	background-color: $black;
+	color: $white;
+	font-family: $brand-sans-body;
+	font-size: $font-size-16;
+	overflow-x: hidden;
+}
+
+@media screen and (min-width: 1023px) {
+	body {
+		font-size: $font-size-18;
+	}
+}
+
+main {
+	overflow: hidden;
+}
+
+hr {
+	border: solid 2px $white;
+	border-radius: 0;
+	margin: $spacing-32 auto;
+	max-width: 40px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+// TODO: stuff below needs to be refactored
+.disabled {
+	cursor: not-allowed !important;
+}
+
+.enabled {
+	cursor: pointer !important;
+}
+
+.container {
+	margin: auto;
+	max-width: 1440px;
+	padding: $spacing-16;
+}

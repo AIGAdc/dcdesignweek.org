@@ -1,0 +1,99 @@
+.section__hero {
+	position: relative;
+	z-index: 100;
+}
+
+.section__hero>div:not(:last-child) {
+	position: relative;
+	z-index: 1000;
+}
+
+.overlay {
+	background: radial-gradient(transparent 0%, #000 90%);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
+}
+
+.section__hero--home {
+	// max-height: 640px;
+	padding: 64px 32px !important;
+}
+
+.section__hero--home video {
+	width: 100%;
+	-o-object-position: center;
+	object-position: center;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+.section__hero--home video {
+	width: 100%;
+	-o-object-position: center;
+	object-position: center;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+@media (min-height: 0px) and (max-height: 700px) {
+	.section__hero--home video {
+		height: 400px;
+	}
+}
+
+@media (min-width: 639px) and (min-height: 700px) {
+	.section__hero--home video {
+		height: 580px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	.section__hero--home video {
+		-o-object-fit: contain;
+		object-fit: contain;
+	}
+}
+
+.houdini-heading .houdini-toggle {
+	background: inherit !important;
+	border: none !important;
+	display: inline-block !important;
+	font: inherit !important;
+	padding: 8px !important;
+	text-align: inherit !important;
+	width: auto !important;
+	color: #fff !important;
+}
+
+.houdini-toggle-icon {
+	margin-left: 8px !important;
+	width: 8px !important; // prevents UI shift when changing from plus to minus
+	display: inline-block !important;
+}
+
+#playback {
+	margin-top: 0 !important;
+}
+
+.playback-controls {
+	margin-top: 16px !important;
+	text-align: right;
+}
+
+.houdini-heading,
+#playback {
+	text-align: right !important;
+}
+
+.houdini-heading {
+	display: inline-block;
+}
+
+.is-active-speed {
+	background-color: $white;
+	color: $black;
+}

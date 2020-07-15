@@ -1,0 +1,39 @@
+{% if page.layout == "archive" %}
+<section id="subscribe" class="section section__subscribe">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2 grid-col--hide">
+			&nbsp;
+		</div>
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col--span-70">
+				{{ site.subscribe.header }}
+			</h2>
+			<p>
+				{{ site.subscribe.body }}
+			</p>
+			{% include 3rd-party/mailchimp/form.html %}
+		</div>
+	</div>
+	<img class="bubble-group-subscribe" aria-hidden="true" src="/uploads/bubble-black-large-02.png"
+	alt="Floating amorphous bubbles">
+</section>
+{% else %}
+<section id="subscribe" class="section section__subscribe">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2 grid-col--hide">
+			&nbsp;
+		</div>
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col--span-70">
+				{{ site.subscribe.header }}
+			</h2>
+			<p>
+				{{ site.subscribe.body }}
+			</p>
+			{% include 3rd-party/mailchimp/form.html %}
+		</div>
+	</div>
+	<img class="bubble-group-subscribe" aria-hidden="true" src="/uploads/bubble-black-large-02.png"
+	alt="Floating amorphous bubbles">
+</section>
+{% endif %}

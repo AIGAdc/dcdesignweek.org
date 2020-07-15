@@ -1,0 +1,64 @@
+.ornament-group {
+	text-align: right;
+}
+
+.dcdw-date-badge {
+	display: flex;
+	align-items: center;
+}
+
+.dcdw-date-badge .month {
+	background-color: $green;
+	color: $black;
+	font-family: $brand-sans-interactive;
+	font-weight: 800;
+	padding: 8px;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 24px;
+	grid-template-rows: 24px;
+	grid-column-gap: 6px;
+	grid-row-gap: 0px;
+}
+
+.dcdw-date-badge .month span {
+	font-size: 16px;
+}
+
+.dcdw-date-badge .day {
+	padding: 16px;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+	height: 48px;
+	line-height: 1;
+	left: -4px;
+}
+
+.dcdw-date-badge .day:last-child {
+	left: 4px;
+}
+
+.dcdw-date-badge .day::before {
+	content: '';
+	position: absolute;
+	border: solid 1px #fff;
+	border-radius: 1000px;
+	width: 48px;
+	height: 48px;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: -2;
+}
+
+.dcdw-date-badge .divider hr {
+	border: solid 1px $white;
+	width: 8px;
+	padding-right: 4px;
+}
+
+.ornament-group>figure:not(:first-child) {
+	margin-top: 16px;
+}

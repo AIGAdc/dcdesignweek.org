@@ -1,0 +1,75 @@
+/* SECTION - animations */
+
+$timing-slow: 300ms;
+$timing-default: 200ms;
+$timing-quick: 100ms;
+
+/* SECTION - breakpoints */
+
+$small: 479px;
+$medium: 767px;
+$large: 1023px;
+$extra-large: 1439px;
+
+/* SECTION - colors */
+
+// generic
+$white: #fff;
+$black: #000;
+
+// 2020 branding
+$green: #4ae725;
+$brand-sans: "fk_groteskregular",
+sans-serif;
+$brand-sans-interactive: "Termina";
+$brand-sans-body: heebo, sans-serif; 
+$brand-serif: "sometimes-times-regular",
+serif;
+
+// past editions
+$dcdw-2016: #0000ff;
+$dcdw-2017: #3e07d0;
+$dcdw-2018: #297b76;
+$dcdw-2019: #fb7eb8;
+
+/* SECTION - depth */
+$index-10: 1000;
+$index-9: 900;
+$index-8: 800;
+$index-7: 700;
+$index-6: 600;
+$index-5: 500;
+$index-4: 400;
+$index-3: 300;
+$index-2: 200;
+$index-1: 100;
+
+/* SECTION - spacing */
+$spacing-120: 120px;
+$spacing-80: 80px;
+$spacing-60: 60px;
+$spacing-48: 48px;
+$spacing-32: 32px;
+$spacing-24: 24px;
+$spacing-16: 16px;
+$spacing-8: 8px;
+$spacing-4: 4px;
+
+/* SECTION - typography */
+
+$sans: $brand-sans;
+$sans-alt: $brand-sans-interactive;
+$serif: $brand-serif;
+$mono: monospace;
+$font-size-64: 4rem; // 64px
+$font-size-56: 3.5rem; // 56px
+$font-size-48: 3rem; // 48px
+$font-size-40: 2.5rem; // 40px
+$font-size-32: 2rem; // 32px
+$font-size-24: 1.5rem; // 24px
+$font-size-20: 1.25rem; // 20px
+$font-size-18: 1.125rem; // 18px
+$font-size-16: 1rem; // 16px
+$font-size-14: 0.875rem; // 14px
+$font-size-12: 0.75rem; // 12px
+$font-size-10: 0.625rem; // 10px
