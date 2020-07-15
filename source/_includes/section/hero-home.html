@@ -7,12 +7,13 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 <section class="section section__hero section__hero--home">
 	<div class="grid--hero">
 		<div class="grid-col grid-col--span-4">
-			<video controls playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg"
+			<video playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg"
 				src="/uploads/dcdw-home-hero-bubbles.mp4">
 			</video>
-			<div class="playback-speed">
-				<p data-houdini-toggle="playback">Playback Speed</p>
+			<div class="playback-controls">
+				<p data-houdini-toggle="playback">Playback Controls</p>
 				<div data-houdini-group="playback-controls" id="playback">
+					<button class="button-square button-square__border--white" id="play-pause">Pause</button>
 					<button class="playbackButton button-square button-square__border--white" id='0.8x'>
 						0.8x
 					</button>
@@ -31,6 +32,23 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 			</script>
 			<script>
 				const video = document.querySelector('video');
+				var playButton = document.getElementById("play-pause");
+				// Event listener for the play/pause button
+				playButton.addEventListener("click", function () {
+					if (video.paused == true) {
+						// Play the video
+						video.play();
+
+						// Update the button text to 'Pause'
+						playButton.innerHTML = "Pause";
+					} else {
+						// Pause the video
+						video.pause();
+
+						// Update the button text to 'Play'
+						playButton.innerHTML = "Play";
+					}
+				});
 				document.onclick = (e) => {
 					if (e.target.id === '0.8x') {
 						video.playbackRate = 0.8;
@@ -44,6 +62,7 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 				}
 			</script>
 		</div>
+	</div>
 	</div>
 </section>
 {% endif %}
