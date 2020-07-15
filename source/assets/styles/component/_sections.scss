@@ -1,17 +1,16 @@
 .section {
-	padding: 80px $spacing-32;
-	text-align: left;
-	overflow: hiden;
+	padding: $spacing-80 $spacing-32;
 	position: relative;
 }
 
+// apply border to all elements with .section except for the first
 .section:not(:first-of-type) {
 	border-top: solid 1px $white;
 }
 
-.section.section__volunteers svg {
+.section__volunteers svg {
 	fill: $white;
-	max-width: 48px;
+	max-width: 40px;
 }
 
 .section__subscribe {
@@ -21,6 +20,7 @@
 
 @media screen and (min-width: 1023px) {
 	.section {
-		padding: 120px $spacing-32;
+		padding-bottom: $spacing-120;
+		padding-top: $spacing-120;
 	}
 }
