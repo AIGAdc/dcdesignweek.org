@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Home - Live
 permalink: "/"
-published: true
+published: false 
 layout: home
 hero:
 - has-hero: true

@@ -2,9 +2,11 @@
 layout: base
 ---
 
-{% include home-hero.html %}
+{% include block/home-hero.html %}
 
-<div class="container">
-	{% include listing-events.html %}
-	{% include listing-sponsors.html %}
-</div>
+{% include section/introduction.html %}
+{% include section/mailchimp.html %}
+{% include section/sponsors.html %}
+{% include section/partners.html %}
+{% include section/past-editions.html %}
+{% include section/volunteers.html %}
