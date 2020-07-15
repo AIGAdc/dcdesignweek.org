@@ -186,309 +186,309 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: <span>Our</span> <span>sponsors</span>
+  header: "<span>Our</span> <span>sponsors</span>"
   unbranded-header: Thanks to our 2020 sponsors
-  body: 
-    DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support.
   sponsor-list:
-    - title: Brand Sponsor
-      image: /uploads/sponsor-january-third.svg
-      image-alt: January Third Logo
-      website: https://www.januarythird.co/
-      aria-label: "January Third Website"
-    - title: Animation Sponsor
-      image: /uploads/sponsor-duke-and-the-duck.svg
-      image-alt: Duke and The Duck Logo
-      website: https://www.dukeduck.com/
-      aria-label: "Duke and The Duck Website"
+  - title: Brand Sponsor
+    image: "/uploads/sponsor-january-third.svg"
+    image-alt: January Third Logo
+    website: https://www.januarythird.co/
+    aria-label: January Third Website
+  - title: Animation Sponsor
+    image: "/uploads/sponsor-duke-and-the-duck.svg"
+    image-alt: Duke and The Duck Logo
+    website: https://www.dukeduck.com/
+    aria-label: Duke and The Duck Website
 2020-contributing-sponsors:
-- title:
+- title: 
   image: 
   image-alt: 
   website: 
 2020-team:
-  - image: "/uploads/profile-nick-fabiani.png"
-    image-alt: Nick Fabiani's Portrait
-    name: Nick Fabiani
-    role: Executive Director
-    website-url-1: https://www.instagram.com/nickfabiani/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Nick Fabiani's Instagram"
-    website-url-2: https://www.linkedin.com/in/nick-fabiani
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Nick Fabiani's LinkedIn"
-  - image: "/uploads/profile-richard-bentham.png"
-    image-alt: Richard Bentham's Portrait
-    name: Richard Bentham
-    role: Deputy Director
-    website-url-1: https://www.instagram.com/richardben/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Richard Bentham's Instagram"
-    website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Richard Bentham's LinkedIn"
-  - image: "/uploads/profile-eliza-duquette.png"
-    image-alt: Eliza Duquette's Portrait
-    name: Eliza Duquette
-    role: Program Director
-    website-url-1: https://www.elizaduquette.design/
-    website-label-1: <i class="fas fa-globe-americas"></i> Website
-    website-aria-label-1: "Eliza Duquette's Website"
-    website-url-2: https://www.linkedin.com/in/elizaduquette/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Eliza Duquette's LinkedIn"
-  - image: "/uploads/profile-ariana-rodriguez-gitler.png"
-    image-alt: Ariana Rodriguez-Gitler's Portrait
-    name: Ariana Rodriguez-Gitler
-    role: Project Manager
-    website-url-1: https://www.instagram.com/rgariana/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Ariana Rodriguez-Gitlers's Instagram"
-    website-url-2: https://www.linkedin.com/in/arianarg/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Ariana Rodriguez-Gitlers's LinkedIn"
-  - image: "/uploads/profile-kim-stockley.png"
-    image-alt: Kim Stockley's Portrait
-    name: Kim Stockley
-    role: Communications Director
-    website-url-1: https://www.instagram.com/kimstockley/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Kim Stockley's Instagram"
-    website-url-2: https://www.linkedin.com/in/kimstockley/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Kim Stockley's LinkedIn"
-  - image: "/uploads/profile-ben-abraham.png"
-    image-alt: Ben Abraham's Portrait
-    name: Ben Abraham
-    role: Program Lead
-    website-url-1: https://www.instagram.com/benlenciagaaa/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Ben Abraham's Instagram"
-    website-url-2: https://www.linkedin.com/in/ben-abraham/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Ben Abraham's LinkedIn"
-  - image: "/uploads/profile-danni-baker.png"
-    image-alt: Danni Baker's Portrait
-    name: Danni Baker
-    role: Program Lead
-    website-url-1: https://www.instagram.com/visionarydanni5/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Danni Baker's Instagram"
-    website-url-2: https://www.linkedin.com/in/dannibaker/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Danni Baker's LinkedIn"
-  - image: "/uploads/profile-radhika-bhatt.png"
-    image-alt: Rhadika Bhatt's Portrait
-    name: Rhadika Bhatt
-    role: Partnerships Director
-    website-url-1: https://instagram.com/superbhatt
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Rhadika Bhatt's Instagram"
-    website-url-2: https://www.linkedin.com/in/radhika-bhatt
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Rhadika Bhatt's LinkedIn"
-  - image: "/uploads/profile-claire-blaustein.png"
-    image-alt: Claire Blaustein's Portrait
-    name: Claire Blaustein
-    role: AIGA DC President
-    website-url-1:
-    website-label-1:
-    website-aria-label-1: 
-    website-url-2:
-    website-label-2:
-    website-aria-label-2: 
-  - image: "/uploads/profile-kojo-boateng.png"
-    image-alt: Kojo Boateng's Portrait
-    name: Kojo Boateng
-    role: Kickoff Lead
-    website-url-1: https://kojoboateng.com/
-    website-label-1: <i class="fas fa-globe-americas"></i> Website
-    website-aria-label-1: "Koho Boateng's Website"
-    website-url-2: https://www.linkedin.com/in/kojoboateng/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Koho Boateng's LinkedIn"
-  - image: "/uploads/profile-phil-bolles.png"
-    image-alt: Phil Bolles' Portrait
-    name: Phil Bolles
-    role: Program Lead
-    website-url-1: https://www.instagram.com/philbolles/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Phil Bolles' Instagram"
-    website-url-2: https://www.linkedin.com/in/phil-bolles-45215911/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Phil Bolles' LinkedIn"
-  - image: "/uploads/profile-ash-del-cid.png"
-    image-alt: Ash Del Cid's Portrait
-    name: Ash Del Cid
-    role: Copywriter
-    website-url-1:
-    website-label-1:
-    website-aria-label-1: 
-    website-url-2:
-    website-label-2:
-    website-aria-label-2: 
-  - image: "/uploads/profile-devin-draudt-sundeen.png"
-    image-alt: Devin Draudt Sundeen's Portrait
-    name: Devin Draudt Sundeen
-    role: Program Lead
-    website-url-1: https://www.instagram.com/devin.draudt.sundeen/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Devin Draught Sundeen's Instagram"
-    website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Devin Draught Sundeen's LinkedIn"
-  - image: "/uploads/profile-dave-ellington.png"
-    image-alt: Dave Ellington's Portrait
-    name: Dave Ellington
-    role: Duke and The Duck Lead
-    website-url-1: 
-    website-label-1:
-    website-aria-label-2:
-    website-url-2: 
-  - image: "/uploads/profile-sara-jamshidi.png"
-    image-alt: Sara Jamshidi's Portrait
-    name: Sara Jamshidi
-    role: Program Lead
-    website-url-1: https://www.instagram.com/_sarajamshidi_/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Sara Jamshidi's Instagram"
-    website-url-2: https://www.linkedin.com/in/sara-jamshidi-77726559/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Sara Jamshidi's LinkedIn"
-  - image: "/uploads/profile-josh-kim.png"
-    image-alt: Josh Kim's Portrait
-    name: Josh Kim
-    role: Program and Accessibility Lead
-    website-url-1: https://www.joshkimux.com/
-    website-label-1: <i class="fas fa-globe-americas"></i> Website
-    website-aria-label-1: "Josh Kim's Website"
-    website-url-2: https://www.linkedin.com/in/joshkimux/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Josh Kim's LinkedIn"
-  - image: "/uploads/profile-cynthia-kim.png"
-    image-alt: Cynthia Kim's Portrait
-    name: Cynthia Kim
-    role: Marketing Lead
-    website-url-1: https://www.linkedin.com/in/cynthia-kim
-    website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-1: "Cynthia Kim's Instagram"
-  - image: "/uploads/profile-johanna-ostrich.png"
-    image-alt: Johanna Ostrich's Portrait
-    name: Johanna Ostrich
-    role: Pop-Up Shop Lead
-    website-url-1:  https://johannaostrich.com
-    website-label-1: <i class="fas fa-globe-americas"></i> Website
-    website-aria-label-1: "Johanna Ostrich's Website"
-    website-url-2: https://www.linkedin.com/in/johannaostrich
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Johanna Ostrich's LinkedIn"
-  - image: "/uploads/profile-erin-pedati.png"
-    image-alt: Erin Pedati's Portrait
-    name: Erin Pedati
-    role: Social Media Lead
-    website-url-1: https://www.instagram.com/studio_ekp/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Erin Pedati's Instagram"
-    website-url-2: https://www.linkedin.com/in/erinpedati
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Erin Pedati's LinkedIn"
-  - image: "/uploads/profile-jena-persico.png"
-    image-alt: Jena Persico's Portrait
-    name: Jena Persico
-    role: Program Lead
-    website-url-1: https://www.instagram.com/alpacayoursuitcase/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Jena Persico's Instagram"
-    website-url-2: https://www.linkedin.com/in/jena-p-6051ab30
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Jena Persico's LinkedIn"
-  - image: "/uploads/profile-khanh-pham.png"
-    image-alt: Khanh Pham's Portrait
-    name: Khanh Pham
-    role: Program Lead
-    website-url-1: https://www.instagram.com/bkhanhp/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Khanh Pham's Instagram"
-    website-url-2: https://www.linkedin.com/in/khanhtbp/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Khanh Pham's LinkedIn"
-  - image: "/uploads/profile-rebecca-price.png"
-    image-alt: Rebecca Price's Portrait
-    name: Rebecca Price
-    role: Deputy Comms Director
-    website-url-1: https://www.instagram.com/rebeccuhhhhh/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Rebecca Price's Instagram"
-    website-url-2: https://www.linkedin.com/in/rebecca-price-686531b3/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Rebecca Price's LinkedIn"
-  - image: "/uploads/profile-marcus-relacion.png"
-    image-alt: Marcus Relacion's Portrait
-    name: Marcus Relacion
-    role: Web Developer
-    website-url-1: https://www.instagram.com/marcusrelacion/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Marcus Relacion's Instagram"
-    website-url-2: https://www.linkedin.com/in/marcusrelacion/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Marcus Relacion's LinkedIn"
-  - image: "/uploads/profile-freeman-robinson.png"
-    image-alt: Freeman Robinson's Portrait
-    name: Freeman Robinson
-    role: Keynote Lead
-    website-url-1: https://www.instagram.com/freemantheartist/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Freeman Robinson's Instagram"
-    website-url-2: http://linkedin.com/in/freemantheartist
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Freeman Robinson's LinkedIn"
-  - image: "/uploads/profile-laura-schorr.png"
-    image-alt: Laura Schorr's Portrait
-    name: Laura Schorr
-    role: Program Lead
-    website-url-1: 
-    website-label-1:
-    website-aria-label-1: 
-    website-url-2: 
-    website-label-2:
-    website-aria-label-2: 
-  - image: "/uploads/profile-silvia-script.png"
-    image-alt: Silvia Script's Portrait
-    name: Silvia Script
-    role: Web Lead
-    website-url-1: https://www.instagram.com/silscript
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Silvia Script's Instagram"
-    website-url-2: https://www.linkedin.com/in/silscript
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Silvia Script's LinkedIn"
-  - image: "/uploads/profile-rebecca-silverstein.png"
-    image-alt: Rebecca Sivlerstein's Portrait
-    name: Rebecca Silverstein
-    role: Program Lead
-    website-url-1: https://www.instagram.com/rebockasilvhairstein/
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: "Rebecca Silverstein's Instagram"
-    website-url-2: https://www.linkedin.com/in/rebecca-silverstein/
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: "Rebecca Silverstein's LinkedIn"
-  - image: "/uploads/profile-arian-wakisa.png"
-    image-alt: Arian Wakisa's Portrait
-    name: Arian Wakisa
-    role: Program Lead
-    website-url-1: 
-    website-label-1:
-    website-aria-label-1: "Chelsea Wilson's LinkedIn"
-    website-url-2: 
-    website-label-2:
-    website-aria-label-2: "Chelsea Wilson's LinkedIn"
-  - image: "/uploads/profile-chelsea-wilson.png"
-    image-alt: Chelsea Wilson's Portrait
-    name: Chelsea Wilson
-    role: Web Coordinator
-    website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
-    website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-1: "Chelsea Wilson's LinkedIn"
+- image: "/uploads/profile-nick-fabiani.png"
+  image-alt: Nick Fabiani's Portrait
+  name: Nick Fabiani
+  role: Executive Director
+  website-url-1: https://www.instagram.com/nickfabiani/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Nick Fabiani's Instagram
+  website-url-2: https://www.linkedin.com/in/nick-fabiani
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Nick Fabiani's LinkedIn
+- image: "/uploads/profile-richard-bentham.png"
+  image-alt: Richard Bentham's Portrait
+  name: Richard Bentham
+  role: Deputy Director
+  website-url-1: https://www.instagram.com/richardben/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Richard Bentham's Instagram
+  website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Richard Bentham's LinkedIn
+- image: "/uploads/profile-eliza-duquette.png"
+  image-alt: Eliza Duquette's Portrait
+  name: Eliza Duquette
+  role: Program Director
+  website-url-1: https://www.elizaduquette.design/
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
+  website-aria-label-1: Eliza Duquette's Website
+  website-url-2: https://www.linkedin.com/in/elizaduquette/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Eliza Duquette's LinkedIn
+- image: "/uploads/profile-ariana-rodriguez-gitler.png"
+  image-alt: Ariana Rodriguez-Gitler's Portrait
+  name: Ariana Rodriguez-Gitler
+  role: Project Manager
+  website-url-1: https://www.instagram.com/rgariana/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Ariana Rodriguez-Gitlers's Instagram
+  website-url-2: https://www.linkedin.com/in/arianarg/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Ariana Rodriguez-Gitlers's LinkedIn
+- image: "/uploads/profile-kim-stockley.png"
+  image-alt: Kim Stockley's Portrait
+  name: Kim Stockley
+  role: Communications Director
+  website-url-1: https://www.instagram.com/kimstockley/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Kim Stockley's Instagram
+  website-url-2: https://www.linkedin.com/in/kimstockley/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Kim Stockley's LinkedIn
+- image: "/uploads/profile-ben-abraham.png"
+  image-alt: Ben Abraham's Portrait
+  name: Ben Abraham
+  role: Program Lead
+  website-url-1: https://www.instagram.com/benlenciagaaa/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Ben Abraham's Instagram
+  website-url-2: https://www.linkedin.com/in/ben-abraham/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Ben Abraham's LinkedIn
+- image: "/uploads/profile-danni-baker.png"
+  image-alt: Danni Baker's Portrait
+  name: Danni Baker
+  role: Program Lead
+  website-url-1: https://www.instagram.com/visionarydanni5/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Danni Baker's Instagram
+  website-url-2: https://www.linkedin.com/in/dannibaker/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Danni Baker's LinkedIn
+- image: "/uploads/profile-radhika-bhatt.png"
+  image-alt: Rhadika Bhatt's Portrait
+  name: Rhadika Bhatt
+  role: Partnerships Director
+  website-url-1: https://instagram.com/superbhatt
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Rhadika Bhatt's Instagram
+  website-url-2: https://www.linkedin.com/in/radhika-bhatt
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Rhadika Bhatt's LinkedIn
+- image: "/uploads/profile-claire-blaustein.png"
+  image-alt: Claire Blaustein's Portrait
+  name: Claire Blaustein
+  role: AIGA DC President
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+- image: "/uploads/profile-kojo-boateng.png"
+  image-alt: Kojo Boateng's Portrait
+  name: Kojo Boateng
+  role: Kickoff Lead
+  website-url-1: https://kojoboateng.com/
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
+  website-aria-label-1: Koho Boateng's Website
+  website-url-2: https://www.linkedin.com/in/kojoboateng/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Koho Boateng's LinkedIn
+- image: "/uploads/profile-phil-bolles.png"
+  image-alt: Phil Bolles' Portrait
+  name: Phil Bolles
+  role: Program Lead
+  website-url-1: https://www.instagram.com/philbolles/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Phil Bolles' Instagram
+  website-url-2: https://www.linkedin.com/in/phil-bolles-45215911/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Phil Bolles' LinkedIn
+- image: "/uploads/profile-ash-del-cid.png"
+  image-alt: Ash Del Cid's Portrait
+  name: Ash Del Cid
+  role: Copywriter
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+- image: "/uploads/profile-devin-draudt-sundeen.png"
+  image-alt: Devin Draudt Sundeen's Portrait
+  name: Devin Draudt Sundeen
+  role: Program Lead
+  website-url-1: https://www.instagram.com/devin.draudt.sundeen/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Devin Draught Sundeen's Instagram
+  website-url-2: https://www.linkedin.com/in/devindraudtsundeen/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Devin Draught Sundeen's LinkedIn
+- image: "/uploads/profile-dave-ellington.png"
+  image-alt: Dave Ellington's Portrait
+  name: Dave Ellington
+  role: Duke and The Duck Lead
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-2: 
+  website-url-2: 
+- image: "/uploads/profile-sara-jamshidi.png"
+  image-alt: Sara Jamshidi's Portrait
+  name: Sara Jamshidi
+  role: Program Lead
+  website-url-1: https://www.instagram.com/_sarajamshidi_/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Sara Jamshidi's Instagram
+  website-url-2: https://www.linkedin.com/in/sara-jamshidi-77726559/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Sara Jamshidi's LinkedIn
+- image: "/uploads/profile-josh-kim.png"
+  image-alt: Josh Kim's Portrait
+  name: Josh Kim
+  role: Program and Accessibility Lead
+  website-url-1: https://www.joshkimux.com/
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
+  website-aria-label-1: Josh Kim's Website
+  website-url-2: https://www.linkedin.com/in/joshkimux/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Josh Kim's LinkedIn
+- image: "/uploads/profile-cynthia-kim.png"
+  image-alt: Cynthia Kim's Portrait
+  name: Cynthia Kim
+  role: Marketing Lead
+  website-url-1: https://www.linkedin.com/in/cynthia-kim
+  website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-1: Cynthia Kim's Instagram
+- image: "/uploads/profile-johanna-ostrich.png"
+  image-alt: Johanna Ostrich's Portrait
+  name: Johanna Ostrich
+  role: Pop-Up Shop Lead
+  website-url-1: https://johannaostrich.com
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
+  website-aria-label-1: Johanna Ostrich's Website
+  website-url-2: https://www.linkedin.com/in/johannaostrich
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Johanna Ostrich's LinkedIn
+- image: "/uploads/profile-erin-pedati.png"
+  image-alt: Erin Pedati's Portrait
+  name: Erin Pedati
+  role: Social Media Lead
+  website-url-1: https://www.instagram.com/studio_ekp/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Erin Pedati's Instagram
+  website-url-2: https://www.linkedin.com/in/erinpedati
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Erin Pedati's LinkedIn
+- image: "/uploads/profile-jena-persico.png"
+  image-alt: Jena Persico's Portrait
+  name: Jena Persico
+  role: Program Lead
+  website-url-1: https://www.instagram.com/alpacayoursuitcase/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Jena Persico's Instagram
+  website-url-2: https://www.linkedin.com/in/jena-p-6051ab30
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Jena Persico's LinkedIn
+- image: "/uploads/profile-khanh-pham.png"
+  image-alt: Khanh Pham's Portrait
+  name: Khanh Pham
+  role: Program Lead
+  website-url-1: https://www.instagram.com/bkhanhp/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Khanh Pham's Instagram
+  website-url-2: https://www.linkedin.com/in/khanhtbp/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Khanh Pham's LinkedIn
+- image: "/uploads/profile-rebecca-price.png"
+  image-alt: Rebecca Price's Portrait
+  name: Rebecca Price
+  role: Deputy Comms Director
+  website-url-1: https://www.instagram.com/rebeccuhhhhh/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Rebecca Price's Instagram
+  website-url-2: https://www.linkedin.com/in/rebecca-price-686531b3/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Rebecca Price's LinkedIn
+- image: "/uploads/profile-marcus-relacion.png"
+  image-alt: Marcus Relacion's Portrait
+  name: Marcus Relacion
+  role: Web Developer
+  website-url-1: https://www.instagram.com/marcusrelacion/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Marcus Relacion's Instagram
+  website-url-2: https://www.linkedin.com/in/marcusrelacion/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Marcus Relacion's LinkedIn
+- image: "/uploads/profile-freeman-robinson.png"
+  image-alt: Freeman Robinson's Portrait
+  name: Freeman Robinson
+  role: Keynote Lead
+  website-url-1: https://www.instagram.com/freemantheartist/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Freeman Robinson's Instagram
+  website-url-2: http://linkedin.com/in/freemantheartist
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Freeman Robinson's LinkedIn
+- image: "/uploads/profile-laura-schorr.png"
+  image-alt: Laura Schorr's Portrait
+  name: Laura Schorr
+  role: Program Lead
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+- image: "/uploads/profile-silvia-script.png"
+  image-alt: Silvia Script's Portrait
+  name: Silvia Script
+  role: Web Lead
+  website-url-1: https://www.instagram.com/silscript
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Silvia Script's Instagram
+  website-url-2: https://www.linkedin.com/in/silscript
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Silvia Script's LinkedIn
+- image: "/uploads/profile-rebecca-silverstein.png"
+  image-alt: Rebecca Sivlerstein's Portrait
+  name: Rebecca Silverstein
+  role: Program Lead
+  website-url-1: https://www.instagram.com/rebockasilvhairstein/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Rebecca Silverstein's Instagram
+  website-url-2: https://www.linkedin.com/in/rebecca-silverstein/
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Rebecca Silverstein's LinkedIn
+- image: "/uploads/profile-arian-wakisa.png"
+  image-alt: Arian Wakisa's Portrait
+  name: Arian Wakisa
+  role: Program Lead
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: Chelsea Wilson's LinkedIn
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: Chelsea Wilson's LinkedIn
+- image: "/uploads/profile-chelsea-wilson.png"
+  image-alt: Chelsea Wilson's Portrait
+  name: Chelsea Wilson
+  role: Web Coordinator
+  website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
+  website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-1: Chelsea Wilson's LinkedIn
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -499,16 +499,14 @@ navigation-placeholder:
 - url: https://2019.dcdesignweek.org
   label: 2019
 navigation-teaser:
-#- url: /events
-#  label: Events
-- url: /about/
+- url: "/about/"
   label: About
-  aria-label: "About Page"
-- url: /makers/
+  aria-label: About Page
+- url: "/makers/"
   label: Makers
-  aria-label: "Makers Page"
+  aria-label: Makers Page
 about-dcdw:
-  header: <span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>
+  header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
     Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
@@ -521,65 +519,66 @@ about-dcdw:
   questions-header: Questions?
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
 subscribe:
-  header: <span>Subscribe</span> <span>for</span> <span>updates</span>
-  body:
-    The worst feeling? Missing out. The best feeling? Knowing you’ll get the event updates you need.
+  header: "<span>Subscribe</span> <span>for</span> <span>updates</span>"
+  body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
+    updates you need.
 partner:
-  header: <span>Partner</span> <span>with</span> <span>Us</span>
-  body: >
-    You do things. We do things. <strong>Let’s do things together</strong>. 
-    
-      
-    We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible, whether through donations or in-kind gifts. If you’re interested in partnering with DC Design Week this year, let us know. 
+  header: "<span>Partner</span> <span>with</span> <span>Us</span>"
+  body: "You do things. We do things. <strong>Let’s do things together</strong>. \n\n
+    \ \nWe’re looking for sponsors who can help ensure every event is as accessible
+    and inclusive as possible, whether through donations or in-kind gifts. If you’re
+    interested in partnering with DC Design Week this year, let us know. \n"
   button-url: mailto:designweek@dc.aiga.org
   button-label: Reach Out
 past-events:
-    header: <span>2019</span> <span>Event</span> <span>Highlights</span>
-    body:
-    button-url: https://2019.dcdesignweek.org/events/
-    button-label: See 2019 Events
-    events:
-      - title: "Shaolin Jazz & Globe Posters: Opening Party!"
-        image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
-        url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
-      - title: Building Equity Through Design with Antionette Carroll
-        image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
-        url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
-      - title: "Closing Party: Drink, Draw & Dance "
-        image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
-        url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-      - title: "Workshop: The Space Type Continuum"
-        image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
-        url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+  header: "<span>2019</span> <span>Event</span> <span>Highlights</span>"
+  body: 
+  button-url: https://2019.dcdesignweek.org/events/
+  button-label: See 2019 Events
+  events:
+  - title: 'Shaolin Jazz & Globe Posters: Opening Party!'
+    image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
+    url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
+  - title: Building Equity Through Design with Antionette Carroll
+    image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
+    url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
+  - title: 'Closing Party: Drink, Draw & Dance '
+    image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
+    url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
+  - title: 'Workshop: The Space Type Continuum'
+    image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
+    url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
 past-editions:
-  header: <span>DC</span <span>Design</span> <span>Week</span> <span>Through</span> <span>the</span> <span>Years</span>
+  header: "<span>DC</span <span>Design</span> <span>Week</span> <span>Through</span>
+    <span>the</span> <span>Years</span>"
   unbranded-header: DC Through the Years
   body: We love reminiscing.
   editions:
-    - title: DCDW 2016
-      image: "/uploads/dcdw-2016-pattern.jpg"
-      url: https://2016.dcdesignweek.org
-      aria-label: "2016 DC Design Week Website"
-    - title: DCDW 2017
-      image: "/uploads/dcdw-2017-pattern.jpg"
-      url: https://2017.dcdesignweek.org
-      aria-label: "2017 DC Design Week Website"
-    - title: DCDW 2018
-      image: "/uploads/dcdw-2018-pattern.jpg"
-      url: https://2018.dcdesignweek.org
-      aria-label: "2018 DC Design Week Website"
-    - title: DCDW 2019
-      image: "/uploads/dcdw-2019-pattern.jpg"
-      url: https://2019.dcdesignweek.org
-      aria-label: "2019 DC Design Week Website"
+  - title: DCDW 2016
+    image: "/uploads/dcdw-2016-pattern.jpg"
+    url: https://2016.dcdesignweek.org
+    aria-label: 2016 DC Design Week Website
+  - title: DCDW 2017
+    image: "/uploads/dcdw-2017-pattern.jpg"
+    url: https://2017.dcdesignweek.org
+    aria-label: 2017 DC Design Week Website
+  - title: DCDW 2018
+    image: "/uploads/dcdw-2018-pattern.jpg"
+    url: https://2018.dcdesignweek.org
+    aria-label: 2018 DC Design Week Website
+  - title: DCDW 2019
+    image: "/uploads/dcdw-2019-pattern.jpg"
+    url: https://2019.dcdesignweek.org
+    aria-label: 2019 DC Design Week Website
 volunteer:
-  header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
-    96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
-    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span>
-    <span>in</span> <span>DC</span>
+  header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5
+    15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8
+    53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
+    53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span> <span>in</span> <span>DC</span>
   unbranded-header: Made with ♥ in DC
-  body: DC Design Week runs on 100% volunteer power. We’re always working to make this site better for you. If you see something, <strong>say something</strong>.
+  body: DC Design Week runs on 100% volunteer power. We’re always working to make
+    this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
@@ -599,15 +598,15 @@ footer:
   - title: Twitter
     url: https://www.twitter.com/dcdesignweek
     icon: <i class="fab fa-twitter-square"></i>
-    aria-label: "DC Design Week Twitter Page"
+    aria-label: DC Design Week Twitter Page
   - title: Instagram
     url: https://www.instagram.com/dcdesignweek/
     icon: <i class="fab fa-instagram-square"></i>
-    aria-label: "DC Design Week Instagram Page"
+    aria-label: DC Design Week Instagram Page
   - title: Facebook
     url: https://www.facebook.com/dcdesignweek/
     icon: <i class="fab fa-facebook-square"></i>
-    aria-label: "DC Design Week Facebook Page"
+    aria-label: DC Design Week Facebook Page
   contact: designweek@dc.aiga.org
   copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 exclude:
@@ -621,7 +620,7 @@ exclude:
 - ".sass-cache"
 - ".ruby-version"
 - _config (copy).yml
-- .jekyll-cache
+- ".jekyll-cache"
 markdown: kramdown
 kramdown:
   input: GFM
@@ -630,5 +629,5 @@ plugins:
 sass:
   sass_dir: "/assets/styles/"
   style: compressed
-source: ./source/
-destination: ./build/
+source: "./source/"
+destination: "./build/"
