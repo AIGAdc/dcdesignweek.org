@@ -4,10 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"serve": "bundle exec jekyll serve --livereload",
-		"build": "bundle exec jekyll build",
-		"profile": "bundle exec jekyll build --profile"
+		"clean": "rm -rf build",
+		"profile": "bundle exec jekyll build --profile",
+		"start": "npm run clean && bundle exec jekyll serve --livereload",
+		"build": "bundle exec jekyll build"
 	},
 	"repository": {
 		"type": "git",

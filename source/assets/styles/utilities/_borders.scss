@@ -1,0 +1,55 @@
+.border {
+	border: solid 2px transparent;
+
+	&--white {
+		border-color: $white;
+	}
+
+	&--black {
+		border-color: $black;
+	}
+
+	&--dcdw-2016 {
+		border-color: $dcdw-2016;
+	}
+
+	&--dcdw-2017 {
+		border-color: $dcdw-2017;
+	}
+
+	&--dcdw-2018 {
+		border-color: $dcdw-2018;
+	}
+
+	&--dcdw-2019 {
+		border-color: $dcdw-2019;
+	}
+}
+
+.border__bottom {
+	border-bottom: solid 2px transparent;
+
+	&--white {
+		border-color: $white;
+	}
+
+	&--black {
+		border-color: $black;
+	}
+
+	&--dcdw-2016 {
+		border-color: $dcdw-2016;
+	}
+
+	&--dcdw-2017 {
+		border-color: $dcdw-2017;
+	}
+
+	&--dcdw-2018 {
+		border-color: $dcdw-2018;
+	}
+
+	&--dcdw-2019 {
+		border-color: $dcdw-2019;
+	}
+}

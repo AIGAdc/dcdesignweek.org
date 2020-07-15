@@ -1,0 +1,26 @@
+.section {
+	padding: 80px $spacing-32;
+	text-align: left;
+	overflow: hiden;
+	position: relative;
+}
+
+.section:not(:first-of-type) {
+	border-top: solid 1px $white;
+}
+
+.section.section__volunteers svg {
+	fill: $white;
+	max-width: 48px;
+}
+
+.section__subscribe {
+	z-index: $index-7;
+	position: relative;
+}
+
+@media screen and (min-width: 1023px) {
+	.section {
+		padding: 120px $spacing-32;
+	}
+}

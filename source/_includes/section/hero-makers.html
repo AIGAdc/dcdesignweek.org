@@ -1,0 +1,18 @@
+{% comment %}
+If page frontmatter key "has-hero" is equal to true, display the hero section
+{% endcomment %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section section__hero"
+	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<div class="grid">
+		<div class="grid-col grid-col--span-4">
+			<div class="">
+				<img src="/uploads/hero-maker-desktop-2x.png" alt="Black and white photo of DC Design Week event poster” & “DC Design Week logo on bright green background">
+			</div>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}

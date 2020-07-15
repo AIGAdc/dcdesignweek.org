@@ -1,0 +1,155 @@
+.grid,
+.grid--hero {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 32px;
+	max-width: 1440px;
+	margin: auto;
+	align-items: start;
+}
+
+.grid-col {
+	position: relative;
+	order: 4
+}
+
+.grid-col--hide {
+	display: none;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.order-2 {
+	order: 2;
+}
+
+.order-3 {
+	order: 3;
+}
+
+.grid-col>*+*,
+.wysiwyg>*+* {
+	margin-top: 32px;
+}
+
+.wysiwyg ul>*+* {
+	margin-top: 16px;
+}
+
+.grid-col--span-1,
+.grid-col--span-2,
+.grid-col--span-3,
+.grid-col--span-4 {
+	grid-column: span 1;
+}
+
+.grid-col--span-40,
+.grid-col--span-50,
+.grid-col--span-60,
+.grid-col--span-70,
+.grid-col--span-80 {
+	width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.order-1 {
+		order: 2;
+	}
+
+	.order-2 {
+		order: 1;
+	}
+
+	.grid-col--span-2 {
+		grid-column: span 2;
+	}
+
+	.grid-col--span-3 {
+		grid-column: span 3;
+	}
+
+	.grid-col--span-4 {
+		grid-column: span 4;
+	}
+}
+
+@media screen and (min-width: 1023px) {
+
+	.grid,
+	.grid--hero {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid-col--hide {
+		display: block;
+	}
+
+	.grid--hero {
+		grid-template-rows: -webkit-max-content;
+		grid-template-rows: max-content;
+		grid-template-areas:
+			"bubble bubble bubble bubble"
+			"video video bubble bubble";
+	}
+}
+
+@media screen and (min-width: 1279px) {
+	.grid-col--span-40 {
+		width: 40%;
+	}
+
+	.grid-col--span-50 {
+		width: 50%;
+	}
+
+	.grid-col--span-60 {
+		width: 60%;
+	}
+
+	.grid-col--span-70 {
+		width: 70%;
+	}
+
+	.grid-col--span-80 {
+		width: 80%;
+	}
+}
+
+.emerging-designers-posters {
+	margin: auto;
+	max-width: 500px;
+	display: flex;
+}
+
+.emerging-designers-posters .layer--2 {
+	margin-right: 16px;
+}
+
+.emerging-designers-posters figure,
+.emerging-designers-posters img {
+	position: relative;
+}
+
+@media screen and (min-width: 1023px) {
+	.emerging-designers-posters {
+		margin-bottom: 200px;
+	}
+
+	.emerging-designers-posters .layer--3 {
+		top: 160px;
+	}
+
+	.emerging-designers-posters .layer--3 {
+		margin-left: -64px;
+	}
+
+	.emerging-designers-posters .layer--2 {
+		margin-right: -64px;
+	}
+}

@@ -1,0 +1,41 @@
+/* 
+👋🏾 Shoutout: Special thanks to Andy Bell for his helpful responsive grid and wrapper utilities:
+https://piccalil.li/tutorial/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
+*/
+
+.full-bleed {
+	@include full-bleed;
+}
+
+.wrapper-tight {
+	@include wrapper;
+	@include wrapper--tight;
+}
+
+.wrapper-default {
+	@include wrapper;
+	@include wrapper--default;
+}
+
+.wrapper-loose {
+	@include wrapper;
+	@include wrapper--loose;
+}
+
+@media screen and (min-width: 1023px) {
+	.wrapper-one-quarter {
+		@include wrapper-one-quarter;
+	}
+
+	.wrapper-half {
+		@include wrapper-half;
+	}
+
+	.wrapper-three-quarter {
+		@include wrapper-three-quarter;
+	}
+
+	.wrapper-full {
+		@include wrapper-full;
+	}
+}

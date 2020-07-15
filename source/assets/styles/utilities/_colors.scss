@@ -1,0 +1,38 @@
+$colors: (dcdw-2016: $dcdw-2016,
+	dcdw-2017: $dcdw-2017,
+	dcdw-2018: $dcdw-2018,
+	dcdw-2019: $dcdw-2019,
+	full-white: $white,
+	full-black: $black,
+);
+
+@mixin color-modifiers($attribute: "color", $prefix: "--") {
+
+	@each $name,
+	$value in $colors {
+		&#{$prefix}#{$name} {
+			#{$attribute}: $value;
+		}
+	}
+}
+
+@mixin background-color-modifiers($attribute: "background-color",
+	$prefix: "--"
+
+) {
+
+	@each $name,
+	$value in $colors {
+		&#{$prefix}#{$name} {
+			#{$attribute}: $value;
+		}
+	}
+}
+
+.color {
+	@include color-modifiers;
+}
+
+.bg-color {
+	@include background-color-modifiers;
+}

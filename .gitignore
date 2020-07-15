@@ -1,6 +1,7 @@
 .DS_Store
-_site
+build
 .sass-cache
 .vscode
-_config (copy).yml
 node_modules
+/source/_uploads/originals
+.jekyll-cache

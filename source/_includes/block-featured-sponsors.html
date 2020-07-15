@@ -1,0 +1,60 @@
+<div class="block block-featured-sponsors">
+	{% for section in page.sections %}
+	<div class="">
+		<h2>
+			{{ section.header }}
+		</h2>
+		{% if section.has-heading-rule == true %}
+		<hr />
+		{% endif %}
+		<p>
+			{{ section.body | markdownify }}
+		</p>
+
+		{% if section.sub-section == "sponsors" %}
+		<ul class="listing__sponsors">
+			{% for sponsor in site.sponsors %}
+			{% if sponsor.is-2019 == true %}
+			<li class="card">
+				<div class="card-details">
+					<a href="{{ sponsor.website }}" rel="noopener" target="_blank">
+						<img alt="{{ sponsor.image-alt }}" class="" data-src="{{ sponsor.image }}"
+							src="{{ sponsor.image }}">
+						</img>
+					</a>
+				</div>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		{% endif %}
+
+		{% if section.sub-section == "partners" %}
+		<ul class="listing__partners">
+			{% for partner in site.partners %}
+			{% if partner.is-2019 == true %}
+			<li class="card">
+				<div class="card-details">
+					<a href="{{ partner.website }}" rel="noopener" target="_blank">
+						<img alt="{{ partner.image-alt }}" class="" data-src="{{ partner.image }}"
+							src="{{ partner.image }}">
+						</img>
+					</a>
+				</div>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		{% endif %}
+
+		{% if section.has-button == true %}
+		<a {% if section.is-disabled == true %}
+			class="disabled button button__{{ section.type }}--{{ section.color-class }}" {% else %}
+			class="button button__{{ section.type }}--{{ section.color-class }}" href="{{ section.url }}" rel="noopener"
+			target="_blank" {% endif %}>
+			{{ section.button }}
+		</a>
+		{% endif %}
+	</div>
+	{% endfor %}
+</div>

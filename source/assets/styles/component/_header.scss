@@ -1,0 +1,50 @@
+.site-header {
+	background-color: $black;
+	@include sticky;
+	@include sticky-top;
+	z-index: $index-9;
+	border-bottom: solid 1px $white;
+}
+
+.site-header>.container {
+	@include flex-row;
+	@include flex-align-center;
+	@include flex-justify-space-between;
+	padding: $spacing-16;
+}
+
+// hide site navigation when screen is < 1023
+.site-header__navigation {
+	display: none;
+}
+
+.site-header figure {
+	max-width: 96px;
+}
+
+.links {
+	text-transform: uppercase;
+}
+
+.link {
+	display: block;
+}
+
+@media screen and (min-width: 1023px) {
+	// show site navigation when screen is > 1023
+	.site-header__navigation {
+		@include flex-row;
+		@include flex-align-center;
+		@include flex-justify-space-between;
+		gap: $spacing-32;
+	}
+
+	// remove burger menu when screen is > 1023
+	.site-header__menu {
+		display: none;
+	}
+
+	.link {
+		display: inline-block;
+	}
+}
