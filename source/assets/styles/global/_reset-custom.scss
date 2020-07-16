@@ -7,7 +7,7 @@ body {
 }
 
 main {
-	overflow: hidden;
+	overflow: hidden; // this breaks the headers ability to be position: sticky. Will look into this.
 }
 
 hr {
