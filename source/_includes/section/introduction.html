@@ -4,7 +4,7 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2 order-2">
+		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			<h1 class="grid-col--span-60"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
@@ -33,8 +33,8 @@
 				</a>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
-			<div class="ornament-group">
+		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
+			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -71,14 +71,14 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2 order-2">
+		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			<h1 class="grid-col--span-70"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
-			<div class="ornament-group">
+		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
+			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -158,14 +158,14 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2 order-2">
+		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			<h1 class="grid-col--span-50"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
-			<div class="ornament-group">
+		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
+			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path

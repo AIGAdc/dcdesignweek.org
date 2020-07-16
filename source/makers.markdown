@@ -52,6 +52,8 @@ celebrating-you:
     want to show the world the amazing things you make. If you’re interested, apply
     below by Wednesday, August 5 and include a sample photo of your product and a
     link you’d like to include on our site. "
+  image-1: /uploads/gallery-maker-desktop-2x.png
+  image-1-alt: "From left to right: Black and white photo of DC Design Week buttons, Black and white photo of DC Design Week pop-up shop at Cherry Blossom Creative, Black and white photo of DC Design Week volunteers selling promotional posters, Black and white photo of DC Design Week poster being screenprinted"
   button-label: Apply Now
   button-url: https://forms.gle/YfTXtJ69qP6yFuXdA
 ---

@@ -17,11 +17,11 @@
 	display: none;
 }
 
-.order-1 {
+.grid-col--order-1 {
 	order: 1;
 }
 
-.order-2 {
+.grid-col--order-2 {
 	order: 2;
 }
 
@@ -58,11 +58,11 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.order-1 {
+	.grid-col--order-1 {
 		order: 2;
 	}
 
-	.order-2 {
+	.grid-col--order-2 {
 		order: 1;
 	}
 
