@@ -1,9 +1,9 @@
-.section__hero {
+.hero--home {
 	position: relative;
 	z-index: 100;
 }
 
-.section__hero>div:not(:last-child) {
+.hero--home>div:not(:last-child) {
 	position: relative;
 	z-index: 1000;
 }
@@ -18,12 +18,12 @@
 	z-index: 500;
 }
 
-.section__hero--home {
+.hero--home {
 	// max-height: 640px;
 	padding: 64px 32px !important;
 }
 
-.section__hero--home video {
+.hero--home video {
 	width: 100%;
 	-o-object-position: center;
 	object-position: center;
@@ -31,7 +31,7 @@
 	object-fit: contain;
 }
 
-.section__hero--home video {
+.hero--home video {
 	width: 100%;
 	-o-object-position: center;
 	object-position: center;
@@ -40,19 +40,19 @@
 }
 
 @media (min-height: 0px) and (max-height: 700px) {
-	.section__hero--home video {
+	.hero--home video {
 		height: 400px;
 	}
 }
 
 @media (min-width: 639px) and (min-height: 700px) {
-	.section__hero--home video {
+	.hero--home video {
 		height: 580px;
 	}
 }
 
 @media screen and (min-width: 767px) {
-	.section__hero--home video {
+	.hero--home video {
 		-o-object-fit: contain;
 		object-fit: contain;
 	}

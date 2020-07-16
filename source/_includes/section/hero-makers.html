@@ -4,7 +4,7 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section__hero"
+<section class="section hero--home"
 	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="grid">
 		<div class="grid-col grid-col--span-4">
