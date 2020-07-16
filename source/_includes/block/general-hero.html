@@ -3,13 +3,13 @@
 <!-- hero: home -->
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section hero hero--home">
+<div class="section hero hero--home">
 	<div class="grid">
 		<div class="grid-col grid-col--span-4">
-			<video controls playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg">
+			<video controls playsinline muted autoplay loop poster="/uploads/dcdw-home-hero-poster.jpg">
 				<source src="/uploads/dcdw-home-hero.mp4" type="video/mp4">
 				<source src="/uploads/dcdw-home-hero.webm" type="video/webm">
-				<source src="/uploads/dcdw-home-hero.ogg" twype="video/ogg">
+				<source src="/uploads/dcdw-home-hero.ogg" type="video/ogg">
 				<track src="/uploads/dcdw-home-hero-captions.vtt" kind="subtitles" srclang="en" label="english">
 			</video>
 			<div class="playback-controls">
@@ -57,7 +57,7 @@
 			</script>
 		</div>
 	</div>
-</section>
+</div>
 {% endif %}
 {% endfor %}
 
@@ -66,7 +66,7 @@
 <!-- hero: makers -->
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section hero--makers">
+<div class="section hero--makers">
 	<div class="grid">
 		<div class="grid-col grid-col--span-4">
 			<figure>
@@ -74,7 +74,7 @@
 			</figure>
 		</div>
 	</div>
-</section>
+</div>
 {% endif %}
 {% endfor %}
 

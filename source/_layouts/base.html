@@ -40,8 +40,8 @@
 				{% endfor %}
 			</ul>
 		</nav>
-		
-		<main role="main" class="{{ page.layout }}-layout" id="my-content-container">
+
+		<main class="{{ page.layout }}-layout" id="my-content-container">
 			{%- include site-header.html -%}
 			{{ content | safe }}
 			{%- include site-footer.html -%}
