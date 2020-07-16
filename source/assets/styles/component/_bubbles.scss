@@ -15,8 +15,9 @@
 }
 
 .bubble-group-introduction-1 {
-	right: -80px;
-	bottom: -80px;
+	width: 150px;
+	right: -75px;
+	bottom: -50px;
 }
 
 .bubble-group-partnerus-2 {
@@ -70,7 +71,8 @@
 
 	.bubble-group-introduction-1 {
 		right: 250px;
-		top: 70px;
+		top: 30px;
+		width: 200px;
 	}
 
 	.bubble-group-introduction-2 {
@@ -113,9 +115,7 @@
 	}
 
 	.bubble-group-introduction-1 {
-		top: 50px;
 		right: 400px;
-		width: 250px;
 	}
 
 	.bubble-group-introduction-2 {
@@ -160,8 +160,8 @@
 	}
 
 	.bubble-capitol-building {
-    left: 150px;
-}
+		left: 150px;
+	}
 }
 
 @media screen and (min-width: 1600px) {
@@ -205,8 +205,8 @@
 	}
 
 	.bubble-capitol-building {
-    left: 250px;
-}
+		left: 250px;
+	}
 }
 
 @media screen and (min-width: 1879px) {
@@ -259,8 +259,8 @@
 	}
 
 	.bubble-capitol-building {
-    left: 450px;
-}
+		left: 450px;
+	}
 }
 
 @media screen and (min-width: 2179px) {
@@ -293,8 +293,8 @@
 	}
 
 	.bubble-capitol-building {
-    left: 550px;
-}
+		left: 550px;
+	}
 }
 
 @media screen and (min-width: 2479px) {
@@ -306,6 +306,7 @@
 	.bubble-group-introduction-1 {
 		right: 800px;
 	}
+
 	.makers-layout .bubble-group-introduction-2,
 	.bubble-group-introduction-2 {
 		right: 450px;
