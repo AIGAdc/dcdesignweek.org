@@ -1,9 +1,9 @@
 @mixin grayscale {
 	-webkit-filter: grayscale(1);
-	        filter: grayscale(1);
+	filter: grayscale(1);
 }
 
 @mixin no-grayscale {
 	-webkit-filter: grayscale(0);
-	        filter: grayscale(0);
+	filter: grayscale(0);
 }

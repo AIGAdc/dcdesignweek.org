@@ -1,9 +1,10 @@
 .site-header {
-	@include sticky;
-	@include sticky-top;
 	background-color: $black;
 	border-bottom: solid 1px $white;
-	z-index: $index-9;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: $index-10;
 }
 
 .site-header>.container {
