@@ -46,7 +46,7 @@
 #mc_embed_signup div.response {
 	background-color: $green !important;
 	padding: $spacing-16 !important;
-	z-index: 1 !important;
+	z-index: $index-1 !important;
 }
 
 #mc_embed_signup div.response a {
@@ -62,7 +62,7 @@
 
 #mc_embed_signup #num-subscribers span {
 	padding: 0.5em !important;
-	border: 1px solid #ccc !important;
+	border: 1px solid $white !important;
 	margin-right: 0.5em !important;
 	font-weight: bold !important;
 }
@@ -76,7 +76,7 @@
 	font-weight: normal !important;
 	margin: 0 !important;
 	padding: $spacing-8 !important;
-	z-index: 1 !important;
+	z-index: $index-1 !important;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
