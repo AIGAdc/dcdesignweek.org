@@ -187,7 +187,6 @@ filter-status:
   text-1: Show Featured
 2020-presenting-sponsors:
   header: "<span>Our</span> <span>sponsors</span>"
-  unbranded-header: Thanks to our 2020 sponsors
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
   sponsor-list:
@@ -553,7 +552,6 @@ past-events:
 past-editions:
   header: "<span>DC</span> <span>Design</span> <span>Week</span> <span>Through</span>
     <span>the</span> <span>Years</span>"
-  unbranded-header: DC Through the Years
   body: We love reminiscing.
   editions:
   - title: DCDW 2016
