@@ -187,8 +187,9 @@ filter-status:
   text-1: Show Featured
 2020-presenting-sponsors:
   header: "<span>Our</span> <span>sponsors</span>"
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
-  image-1: /uploads/bubble-black-group-sponsors.png
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support.
+  image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
   sponsor-list:
   - title: Brand Sponsor
@@ -522,7 +523,7 @@ subscribe:
   header: "<span>Subscribe</span> <span>for</span> <span>updates</span>"
   body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
     updates you need.
-  image-1: /uploads/bubble-black-large-02.png
+  image-1: "/uploads/bubble-black-large-02.png"
   image-1-alt: Floating amorphous bubbles
 partner:
   header: "<span>Partner</span> <span>with</span> <span>Us</span>"
@@ -581,7 +582,7 @@ volunteer:
   body: DC Design Week runs on 100% volunteer power. We’re always working to make
     this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
-  image-1: /uploads/glass-capitol-black.png
+  image-1: "/uploads/glass-capitol-black.png"
   image-1-alt: Glass Capital Building
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
