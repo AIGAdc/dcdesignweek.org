@@ -16,46 +16,34 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 			<div class="playback-controls">
 				<p data-houdini-toggle="playback">Playback Speed</p>
 				<div data-houdini-group="playback-controls" id="playback">
-					<button class="playbackButton button-square button-square__border--white" id='0.8x'>
-						0.8x
-					</button>
-					<button class="playbackButton button-square button-square__border--white" id='1x'>
-						1.0x
-					</button>
-					<button class="playbackButton button-square button-square__border--white" id='1.2x'>
-						1.2x
-					</button>
+					<button class="playbackButton button-square button-square__border--white" id='0.8x'>0.8x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1x'>1.0x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1.2x'>1.2x</button>
 				</div>
 			</div>
 			<script>
+				// playback speed accordion
 				var disclosure = new Houdini('[data-houdini-group]', {
 					isAccordion: true
 				});
-			</script>
-			<script>
+				// playback controls
 				const video = document.querySelector('video');
-				var subtitles = document.getElementById('subtitles');
 				var playButton = document.getElementById("play-pause");
-
-				for (var i = 0; i < video.textTracks.length; i++) {
-					video.textTracks[i].mode = 'hidden';
-				}
 				// Event listener for the play/pause button
 				playButton.addEventListener("click", function () {
 					if (video.paused == true) {
 						// Play the video
 						video.play();
-
 						// Update the button text to 'Pause'
 						playButton.innerHTML = "Pause";
 					} else {
 						// Pause the video
 						video.pause();
-
 						// Update the button text to 'Play'
 						playButton.innerHTML = "Play";
 					}
 				});
+				// playback speeds
 				document.onclick = (e) => {
 					if (e.target.id === '0.8x') {
 						video.playbackRate = 0.8;
@@ -69,7 +57,6 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 				}
 			</script>
 		</div>
-	</div>
 	</div>
 </section>
 {% endif %}
