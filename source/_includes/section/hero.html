@@ -8,7 +8,8 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="grid-four-col">
 		<div class="grid-col grid-col--span-3">
-			<h1>{{ content.header }}</h1>
+			<h1 id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 		</div>
 		<p>{{ content.subheader }}</p>
 	</div>

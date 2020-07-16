@@ -1,16 +1,10 @@
 @mixin button {
 	background-color: transparent;
 	border: solid 1px transparent;
-	font-family: $brand-sans-interactive;
+	font-family: $brand-font-terminus;
 	font-weight: 600;
 	font-size: $font-size-14;
-	font-style: normal;
 	text-transform: uppercase;
-}
-
-@mixin button-block {
-	@include button;
-	display: block;
 }
 
 @mixin button-inline-block {

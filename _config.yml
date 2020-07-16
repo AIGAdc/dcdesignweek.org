@@ -187,20 +187,21 @@ filter-status:
   text-1: Show Featured
 2020-presenting-sponsors:
   header: "<span>Our</span> <span>sponsors</span>"
-  unbranded-header: Thanks to our 2020 sponsors
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
+  image-1: "/uploads/bubble-black-group-sponsors.png"
+  image-1-alt: Bubble Group for Partner with Us section
   sponsor-list:
   - title: Brand Sponsor
     image: "/uploads/sponsor-january-third.svg"
     image-alt: January Third Logo
     website: https://www.januarythird.co/
     aria-label: January Third Website
-  - title: Animation Sponsor
+  - title: Motion Sponsor
     image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke and The Duck Logo
+    image-alt: Duke & Duck Logo
     website: https://www.dukeduck.com/
-    aria-label: Duke and The Duck Website
+    aria-label: Duke & Duck Website
 2020-contributing-sponsors:
 - title: 
   image: 
@@ -340,7 +341,7 @@ filter-status:
 - image: "/uploads/profile-dave-ellington.png"
   image-alt: Dave Ellington's Portrait
   name: Dave Ellington
-  role: Duke and The Duck Lead
+  role: Duke & Duck Lead
   website-url-1: 
   website-label-1: 
   website-aria-label-2: 
@@ -522,6 +523,8 @@ subscribe:
   header: "<span>Subscribe</span> <span>for</span> <span>updates</span>"
   body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
     updates you need.
+  image-1: "/uploads/bubble-black-large-02.png"
+  image-1-alt: Floating amorphous bubbles
 partner:
   header: "<span>Partner</span> <span>with</span> <span>Us</span>"
   body: "You do things. We do things. <strong>Let’s do things together</strong>. \n\n
@@ -549,9 +552,8 @@ past-events:
     image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
     url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
 past-editions:
-  header: "<span>DC</span <span>Design</span> <span>Week</span> <span>Through</span>
+  header: "<span>DC</span> <span>Design</span> <span>Week</span> <span>Through</span>
     <span>the</span> <span>Years</span>"
-  unbranded-header: DC Through the Years
   body: We love reminiscing.
   editions:
   - title: DCDW 2016
@@ -576,10 +578,12 @@ volunteer:
     15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8
     53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
     53-154.3-9.8-207.9z" fill="#4ae725"/></svg></span> <span>in</span> <span>DC</span>
-  unbranded-header: Made with ♥ in DC
+  unbranded-header: Made with heart in DC
   body: DC Design Week runs on 100% volunteer power. We’re always working to make
     this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
+  image-1: "/uploads/glass-capitol-black.png"
+  image-1-alt: Glass Capital Building
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US

@@ -2,7 +2,9 @@
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
 			<div class="grid-col grid-col--span-4">
-				<h2 class="grid-col--span-70">{{ site.2020-presenting-sponsors.header }}</h2>
+				<h2 class="grid-col--span-70"
+					id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+					{{ site.2020-presenting-sponsors.header }}</h2>
 				<p>{{ site.2020-presenting-sponsors.body }}</p>
 			</div>
 		</div>
@@ -33,7 +35,9 @@
 				{% for content in site.2020-presenting-sponsors.sponsor-list %}
 				<li class="card card--sponsors grid-col--span-2">
 					<div class="card__header">
-						<h3 class="card__title">{{ content.title }}</h3>
+						<h3 class="card__title"
+							id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+							{{ content.title }}</h3>
 					</div>
 					<div class="card__aside">
 						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
@@ -48,6 +52,6 @@
 			</ul>
 		</div>
 	</div>
-	<img class="bubble-group-sponsors" aria-hidden="true" src="/uploads/bubble-black-group-sponsors.png"
-		alt="Bubble Group for Partner with Us section">
+	<img class="bubble-group-sponsors" aria-hidden="true" src="{{ site.2020-presenting-sponsors.image-1 }}"
+		alt="{{ site.2020-presenting-sponsors.image-1-alt }}">
 </section>

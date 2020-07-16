@@ -1,25 +1,23 @@
 .site-header {
-	background-color: $black;
 	@include sticky;
 	@include sticky-top;
-	z-index: $index-9;
+	background-color: $black;
 	border-bottom: solid 1px $white;
+	z-index: $index-9;
 }
 
 .site-header>.container {
 	@include flex-row;
 	@include flex-align-center;
 	@include flex-justify-space-between;
-	padding: $spacing-16;
+	margin: auto;
+	max-width: 1440px;
+	padding: $spacing-16 $spacing-32;
 }
 
 // hide site navigation when screen is < 1023
 .site-header__navigation {
 	display: none;
-}
-
-.site-header figure {
-	max-width: 96px;
 }
 
 .links {
@@ -31,6 +29,7 @@
 }
 
 @media screen and (min-width: 1023px) {
+
 	// show site navigation when screen is > 1023
 	.site-header__navigation {
 		@include flex-row;
@@ -46,5 +45,12 @@
 
 	.link {
 		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1539px) {
+	.site-header>.container {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

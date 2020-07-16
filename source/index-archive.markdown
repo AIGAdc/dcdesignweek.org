@@ -1,7 +1,8 @@
 ---
-title: Home
+title: Home - Archive
 permalink: "/"
-layout: home
+published: false
+layout: archive
 hero:
 - has-hero: true
   header: Home

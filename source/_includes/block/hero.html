@@ -6,14 +6,13 @@ If page frontmatter key "has-hero" is equal to true, display the hero section
 {% if content.has-hero == true %}
 <section class="section section__hero"
 	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
-			<div class="">
-				<img src="/uploads/hero-maker-desktop-2x.png"
-					alt="Black and white photo of DC Design Week event poster” & “DC Design Week logo on bright green background">
-			</div>
+	<div class="grid-four-col">
+		<div class="grid-col grid-col--span-3">
+			<h1>{{ content.header }}</h1>
 		</div>
+		<p>{{ content.subheader }}</p>
 	</div>
+	<div class="overlay"></div>
 </section>
 {% endif %}
 {% endfor %}

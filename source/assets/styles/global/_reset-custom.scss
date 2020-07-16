@@ -1,20 +1,8 @@
-// * {
-// 	outline: dashed 1px salmon;
-// 	outline-offset: -1px;
-// }
-
 body {
 	background-color: $black;
 	color: $white;
-	font-family: $brand-sans-body;
+	font-family: $brand-font-heebo;
 	font-size: $font-size-16;
-	overflow-x: hidden;
-}
-
-@media screen and (min-width: 1023px) {
-	body {
-		font-size: $font-size-18;
-	}
 }
 
 main {
@@ -33,17 +21,8 @@ ul {
 	padding: 0;
 }
 
-// TODO: stuff below needs to be refactored
-.disabled {
-	cursor: not-allowed !important;
-}
-
-.enabled {
-	cursor: pointer !important;
-}
-
-.container {
-	margin: auto;
-	max-width: 1440px;
-	padding: $spacing-16;
+@media screen and (min-width: 1023px) {
+	body {
+		font-size: $font-size-18;
+	}
 }

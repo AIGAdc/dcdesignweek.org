@@ -1,10 +1,13 @@
 {% if page.url == "/" %}
+<!-- if home page -->
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-60">{{ content.header }}</h1>
+			<h1 class="grid-col--span-60"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 			<div class="dcdw-date-badge">
 				<div class="month">
@@ -23,7 +26,7 @@
 					<p>25</p>
 				</div>
 			</div>
-			<p class="wysiwyg">{{ content.body-2 | markdownify }}</p>
+			<div class="wysiwyg">{{ content.body-2 | markdownify }}</div>
 			<div class="grid-col--span-60">
 				<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 					href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
@@ -54,20 +57,24 @@
 			</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-medium-06.png"
-		alt="Small Floating amorphous bubbles with DC Design Week text inside ">
-	<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-medium-01.png"
-		alt="Large Floating amorphous bubbles with DC Design Week text inside ">
+	<img class="bubble-group-introduction-1" aria-hidden="true" src="{{ content.bubble-1 }}"
+		alt="{{ content.bubble-1-alt }}">
+	<img class="bubble-group-introduction-2" aria-hidden="true" src="{{ content.bubble-2 }}"
+		alt="{{ content.bubble-2-alt }}">
 </section>
 {% endif %}
 {% endfor %}
+
 {% elsif page.url == "/about/" %}
+<!-- if about page -->
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-70">{{ content.header }}</h1>
+			<h1 class="grid-col--span-70"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
@@ -98,10 +105,10 @@
 				<source src="/uploads/dcdw-about-video.mp4" type="video/mp4">
 				<source src="/uploads/dcdw-about-video.webm" type="video/webm">
 				<source src="/uploads/dcdw-about-video.ogg" type="video/ogg">
-				<track src="/uploads/dcdw-about-video-captions.vtt" kind="captions" srclang="en" label="english">
+				<track src="/uploads/dcdw-about-video-captions.vtt" kind="subtitles" srclang="en" label="english">
 			</video>
 			<div class="playback-controls">
-				<p data-houdini-toggle="playback">Playback Controls</p>
+				<p data-houdini-toggle="playback">Playback Speed</p>
 				<div data-houdini-group="playback-controls" id="playback">
 					<button class="playbackButton button-square button-square__border--white" id='0.8x'>
 						0.8x
@@ -144,13 +151,17 @@
 </section>
 {% endif %}
 {% endfor %}
+
 {% elsif page.url == "/makers/" %}
+<!-- if makers page -->
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 order-2">
-			<h1 class="grid-col--span-50">{{ content.header }}</h1>
+			<h1 class="grid-col--span-50"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-1 grid-col--hide">
