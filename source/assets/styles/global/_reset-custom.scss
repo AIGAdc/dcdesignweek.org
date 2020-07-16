@@ -3,10 +3,11 @@ body {
 	color: $white;
 	font-family: $brand-font-heebo;
 	font-size: $font-size-16;
+	overflow-x: hidden;
 }
 
 main {
-	overflow: hidden;
+	overflow: hidden; // this breaks the headers ability to be position: sticky. Will look into this.
 }
 
 hr {

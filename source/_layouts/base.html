@@ -68,11 +68,11 @@
 	</nav>
 
 	<body>
-		{%- include site-header.html -%}
 		<main role="main" class="{{ page.layout }}-layout" id="my-content-container">
+			{%- include site-header.html -%}
 			{{ content | safe }}
+			{%- include site-footer.html -%}
 		</main>
-		{%- include site-footer.html -%}
 		{% include /3rd-party/offside/scripts.html %}
 	</body>
 
