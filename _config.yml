@@ -580,6 +580,8 @@ volunteer:
   body: DC Design Week runs on 100% volunteer power. We’re always working to make
     this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
+  image-1: /uploads/glass-capitol-black.png
+  image-1-alt: Glass Capital Building
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US
