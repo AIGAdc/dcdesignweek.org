@@ -187,8 +187,9 @@ filter-status:
   text-1: Show Featured
 2020-presenting-sponsors:
   header: "<span>Our</span> <span>sponsors</span>"
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support.
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
+  image-1: /uploads/bubble-black-group-sponsors.png
+  image-1-alt: Bubble Group for Partner with Us section
   sponsor-list:
   - title: Brand Sponsor
     image: "/uploads/sponsor-january-third.svg"
