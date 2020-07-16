@@ -127,7 +127,7 @@
 	display: flex;
 }
 
-.emerging-designers-posters .layer--2 {
+.emerging-designers-posters .emerging-designers-posters__image--left {
 	margin-right: 16px;
 }
 
@@ -141,15 +141,15 @@
 		margin-bottom: 200px;
 	}
 
-	.emerging-designers-posters .layer--3 {
+	.emerging-designers-posters .emerging-designers-posters__image--right {
 		top: 160px;
 	}
 
-	.emerging-designers-posters .layer--3 {
+	.emerging-designers-posters .emerging-designers-posters__image--right {
 		margin-left: -64px;
 	}
 
-	.emerging-designers-posters .layer--2 {
+	.emerging-designers-posters .emerging-designers-posters__image--left {
 		margin-right: -64px;
 	}
 }

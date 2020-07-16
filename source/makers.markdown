@@ -16,8 +16,8 @@ introduction:
     \ across the DMV. With our virtual approach to DC Design Week this year comes
     a unique opportunity to celebrate makers and infuse the infectious DIY energy
     into every element of the week. Read on for ways that you can participate!"
-print-designers:
-- has-print-designers: true
+emerging-designers:
+- has-emerging-designers: true
   header: "<span>Calling</span> <span>all</span> <span>emerging</span> <span>artists</span>
     <span>!</span>"
   body: '> This year is a celebration of the creative voices in our community. We want to hear yours. We’re putting our money where our mouth is and commissioning custom poster designs from up to five emerging designers from the DMV. These 11x17” posters will be printed and available for sale (along with our DCDW 2020 merch!) at an online shop hosted by [Cherry Blossom Creative](https://www.cherryblossomworkshop.com/){:target="_blank"rel="noopener nofollow"}.
