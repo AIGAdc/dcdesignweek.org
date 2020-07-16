@@ -28,25 +28,12 @@
 	</head>
 
 	<body>
-		<!-- Off-canvas element  -->
-		<nav aria-label="Offscreen Menu" id="my-menu">
-			<ul class="links">
-				{% for link in site.navigation-teaser %}
-				<li class="link">
-					<a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
-						{{ link.label }}
-					</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</nav>
-
 		<main class="{{ page.layout }}-layout" id="my-content-container">
 			{%- include site-header.html -%}
 			{{ content | safe }}
 			{%- include site-footer.html -%}
-			{% include /3rd-party/offside/scripts.html %}
 		</main>
+		{% include 3rd-party/offside/menu.html %}
 	</body>
 
 </html>
