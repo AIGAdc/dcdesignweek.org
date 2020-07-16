@@ -1,18 +1,81 @@
-{% comment %}
-If page frontmatter key "has-hero" is equal to true, display the hero section
-{% endcomment %}
+{% if page.url == "/" %}
 
+<!-- hero: home -->
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section hero--home"
-	style="background-image: url('{{ content.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-	<div class="grid-four-col">
-		<div class="grid-col grid-col--span-3">
-			<h1>{{ content.header }}</h1>
+<section class="section hero hero--home">
+	<div class="grid">
+		<div class="grid-col grid-col--span-4">
+			<video controls playsinline muted="true" autoplay="autoplay" loop="" poster="/uploads/dcdw-home-hero-poster.jpg">
+				<source src="/uploads/dcdw-home-hero.mp4" type="video/mp4">
+				<source src="/uploads/dcdw-home-hero.webm" type="video/webm">
+				<source src="/uploads/dcdw-home-hero.ogg" twype="video/ogg">
+				<track src="/uploads/dcdw-home-hero-captions.vtt" kind="subtitles" srclang="en" label="english">
+			</video>
+			<div class="playback-controls">
+				<p data-houdini-toggle="playback">Playback Speed</p>
+				<div data-houdini-group="playback-controls" id="playback">
+					<button class="playbackButton button-square button-square__border--white" id='0.8x'>0.8x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1x'>1.0x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1.2x'>1.2x</button>
+				</div>
+			</div>
+			<script>
+				// playback speed accordion
+				var disclosure = new Houdini('[data-houdini-group]', {
+					isAccordion: true
+				});
+				// playback controls
+				const video = document.querySelector('video');
+				var playButton = document.getElementById("play-pause");
+				// Event listener for the play/pause button
+				playButton.addEventListener("click", function () {
+					if (video.paused == true) {
+						// Play the video
+						video.play();
+						// Update the button text to 'Pause'
+						playButton.innerHTML = "Pause";
+					} else {
+						// Pause the video
+						video.pause();
+						// Update the button text to 'Play'
+						playButton.innerHTML = "Play";
+					}
+				});
+				// playback speeds
+				document.onclick = (e) => {
+					if (e.target.id === '0.8x') {
+						video.playbackRate = 0.8;
+					}
+					if (e.target.id === '1x') {
+						video.playbackRate = 1;
+					}
+					if (e.target.id === '1.2x') {
+						video.playbackRate = 1.2;
+					}
+				}
+			</script>
 		</div>
-		<p>{{ content.subheader }}</p>
 	</div>
-	<div class="overlay"></div>
 </section>
 {% endif %}
 {% endfor %}
+
+{% elsif page.url == "/makers/" %}
+
+<!-- hero: makers -->
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section hero--makers">
+	<div class="grid">
+		<div class="grid-col grid-col--span-4">
+			<figure>
+				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
+			</figure>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+
+{% endif %}
