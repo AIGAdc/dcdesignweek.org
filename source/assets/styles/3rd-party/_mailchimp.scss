@@ -8,7 +8,7 @@
 #mc_embed_signup .mc-field-group label {
 	display: block !important;
 	font-weight: 900 !important;
-	font-size: $font-size-14;
+	font-size: $font-size-12;
 	font-family: $brand-font-terminus;
 	text-transform: uppercase;
 	padding: $spacing-8 0 !important;
@@ -32,7 +32,6 @@
 
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
-	font-size: $font-size-16 !important;
 	margin-bottom: 32px;
 }
 
@@ -106,7 +105,7 @@
 
 .mailchimp-button label {
 	display: none;
-	min-height: 40px;
+	min-height: 32px;
 }
 
 .mailchimp-button input {
@@ -131,7 +130,7 @@
 		grid-template-columns: 1fr 1fr -webkit-min-content;
 		grid-template-columns: 1fr 1fr min-content;
 	}
-	
+
 	.mailchimp-button label {
 		display: block;
 	}
