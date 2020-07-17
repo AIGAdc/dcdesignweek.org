@@ -77,8 +77,12 @@
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<div class="grid-col--span-3">
+				<img class="bubble-group-introduction-about" aria-hidden="true" src="/uploads/bubble-black-large-03.png"
+					alt="Floating amorphous bubbles with DC Design Week text inside">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -146,8 +150,6 @@
 			<div class="wysiwyg">{{ content.body-2 | markdownify }}</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-about" aria-hidden="true" src="/uploads/bubble-black-large-03.png"
-		alt="Floating amorphous bubbles with DC Design Week text inside">
 </section>
 {% endif %}
 {% endfor %}

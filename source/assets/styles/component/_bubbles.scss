@@ -3,6 +3,12 @@
 	z-index: $index-9;
 }
 
+.bubble-group-introduction-about,
+.bubble-group-subscribe {
+	display: none;
+}
+
+.bubble-group-introduction-about,
 .bubble-group-introduction-1,
 .bubble-group-subscribe {
 	position: absolute;
@@ -14,11 +20,6 @@
 	right: 50px;
 }
 
-.bubble-group-subscribe {
-	display: none;
-}
-
-.bubble-group-introduction-about,
 .bubble-group-introduction-2,
 .bubble-group-partnerus-1,
 .bubble-capitol-building,
@@ -40,6 +41,8 @@
 }
 
 @media screen and (min-width: 1023px) {
+
+	.bubble-group-introduction-about,
 	.bubble-group-subscribe {
 		display: block;
 	}
@@ -55,12 +58,17 @@
 		right: -150px;
 	}
 
+	.bubble-group-introduction-about {
+		top: -350px;
+		left: 0;
+		width: 90%;
+	}
+
 	.bubble-group-subscribe {
 		top: -150px;
 		left: -100px;
 	}
 
-	.bubble-group-introduction-about,
 	.bubble-group-introduction-1,
 	.bubble-group-introduction-2,
 	.bubble-group-partnerus-1,
@@ -70,11 +78,6 @@
 		display: block;
 		position: absolute;
 		z-index: $index-5;
-	}
-
-	.bubble-group-introduction-about {
-		top: -140px;
-		right: 90px;
 	}
 
 	.bubble-group-sponsors {
@@ -107,12 +110,6 @@
 }
 
 @media screen and (min-width: 1279px) {
-	.bubble-group-introduction-about {
-		top: -190px;
-		right: 60px;
-		width: 550px;
-	}
-
 	.bubble-group-sponsors {
 		right: 300px;
 	}
@@ -129,11 +126,6 @@
 }
 
 @media screen and (min-width: 1439px) {
-	.bubble-group-introduction-about {
-		top: -240px;
-		width: 650px;
-	}
-
 	.bubble-group-sponsors {
 		right: 350px;
 	}
@@ -144,10 +136,6 @@
 }
 
 @media screen and (min-width: 1600px) {
-	.bubble-group-introduction-about {
-		right: 150px;
-	}
-
 	.bubble-group-sponsors {
 		right: 400px;
 	}
@@ -162,10 +150,6 @@
 }
 
 @media screen and (min-width: 1779px) {
-	.bubble-group-introduction-about {
-		right: 200px;
-	}
-
 	.bubble-group-sponsors {
 		right: 450px;
 	}
@@ -176,20 +160,12 @@
 }
 
 @media screen and (min-width: 1879px) {
-	.bubble-group-introduction-about {
-		right: 250px;
-	}
-
 	.bubble-group-sponsors {
 		right: 500px;
 	}
 }
 
 @media screen and (min-width: 1979px) {
-	.bubble-group-introduction-about {
-		right: 300px;
-	}
-
 	.bubble-group-sponsors {
 		right: 550px;
 	}
@@ -204,10 +180,6 @@
 }
 
 @media screen and (min-width: 2079px) {
-	.bubble-group-introduction-about {
-		right: 350px;
-	}
-
 	.bubble-group-sponsors {
 		right: 600px;
 	}
@@ -218,26 +190,12 @@
 }
 
 @media screen and (min-width: 2179px) {
-	.bubble-group-introduction-about {
-		right: 400px;
-	}
-
 	.bubble-group-sponsors {
 		right: 700px;
 	}
 }
 
-@media screen and (min-width: 2279px) {
-	.bubble-group-introduction-about {
-		right: 500px;
-	}
-}
-
 @media screen and (min-width: 2379px) {
-	.bubble-group-introduction-about {
-		right: 550px;
-	}
-
 	.bubble-group-sponsors {
 		right: 900px;
 	}
@@ -248,10 +206,6 @@
 }
 
 @media screen and (min-width: 2479px) {
-	.bubble-group-introduction-about {
-		right: 600px;
-	}
-
 	.bubble-group-sponsors {
 		right: 1000px;
 	}
