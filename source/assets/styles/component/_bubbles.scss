@@ -10,6 +10,7 @@
 
 .bubble-group-introduction-about,
 .bubble-group-introduction-1,
+.bubble-group-sponsors,
 .bubble-group-subscribe {
 	position: absolute;
 }
@@ -20,10 +21,13 @@
 	right: 50px;
 }
 
+.bubble-group-sponsors {
+	top: -125px;
+}
+
 .bubble-group-introduction-2,
 .bubble-group-partnerus-1,
-.bubble-capitol-building,
-.bubble-group-sponsors {
+.bubble-capitol-building {
 	position: relative;
 	display: none;
 }
@@ -64,6 +68,11 @@
 		width: 90%;
 	}
 
+	.bubble-group-sponsors {
+		top: -150px;
+		left: -50px;
+	}
+
 	.bubble-group-subscribe {
 		top: -150px;
 		left: -100px;
@@ -73,17 +82,10 @@
 	.bubble-group-introduction-2,
 	.bubble-group-partnerus-1,
 	.bubble-group-partnerus-2,
-	.bubble-capitol-building,
-	.bubble-group-sponsors {
+	.bubble-capitol-building {
 		display: block;
 		position: absolute;
 		z-index: $index-5;
-	}
-
-	.bubble-group-sponsors {
-		width: 200px;
-		top: -50px;
-		right: 250px;
 	}
 
 	.bubble-group-partnerus-1 {
@@ -110,10 +112,6 @@
 }
 
 @media screen and (min-width: 1279px) {
-	.bubble-group-sponsors {
-		right: 300px;
-	}
-
 	.bubble-group-partnerus-1 {
 		top: -60px;
 		left: 200px;
@@ -126,20 +124,12 @@
 }
 
 @media screen and (min-width: 1439px) {
-	.bubble-group-sponsors {
-		right: 350px;
-	}
-
 	.bubble-capitol-building {
 		left: 150px;
 	}
 }
 
 @media screen and (min-width: 1600px) {
-	.bubble-group-sponsors {
-		right: 400px;
-	}
-
 	.bubble-group-partnerus-1 {
 		left: 300px;
 	}
@@ -150,26 +140,12 @@
 }
 
 @media screen and (min-width: 1779px) {
-	.bubble-group-sponsors {
-		right: 450px;
-	}
-
 	.bubble-capitol-building {
 		left: 250px;
 	}
 }
 
-@media screen and (min-width: 1879px) {
-	.bubble-group-sponsors {
-		right: 500px;
-	}
-}
-
 @media screen and (min-width: 1979px) {
-	.bubble-group-sponsors {
-		right: 550px;
-	}
-
 	.bubble-group-partnerus-1 {
 		left: 400px;
 	}
@@ -180,36 +156,18 @@
 }
 
 @media screen and (min-width: 2079px) {
-	.bubble-group-sponsors {
-		right: 600px;
-	}
-
 	.bubble-capitol-building {
 		left: 450px;
 	}
 }
 
-@media screen and (min-width: 2179px) {
-	.bubble-group-sponsors {
-		right: 700px;
-	}
-}
-
 @media screen and (min-width: 2379px) {
-	.bubble-group-sponsors {
-		right: 900px;
-	}
-
 	.bubble-capitol-building {
 		left: 550px;
 	}
 }
 
 @media screen and (min-width: 2479px) {
-	.bubble-group-sponsors {
-		right: 1000px;
-	}
-
 	.bubble-group-partnerus-1 {
 		left: 500px;
 	}
