@@ -1,7 +1,7 @@
 <section class="section section__committee">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h2 class="grid-col--span-80"
+			<h2 class="grid-col--span-70"
 				id="{{ page.team-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ page.team-header }}</h2>
 			<p>{{ page.team-body }}</p>
@@ -29,7 +29,8 @@
 				</figure>
 			</div>
 		</div>
-
+	</div>
+	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
 				{% for member in site.2020-team %}
