@@ -20,6 +20,18 @@
 	margin-right: auto;
 }
 
+.gallery-maker-grid {
+	max-width: 400px;
+	width: 100%;
+	margin: auto;
+}
+
+@media screen and (min-width: 799px) {
+	.gallery-maker-grid {
+		max-width: 500px;
+	}
+}
+
 @media screen and (min-width: 1023px) {
 	.emerging-designers-posters {
 		position: absolute;
@@ -41,5 +53,15 @@
 
 	.emerging-designers-posters__image--left {
 		right: -32px;
+	}
+
+	.gallery-maker-grid {
+		max-width: 600px;
+	}
+}
+
+@media screen and (min-width: 1439px) {
+	.gallery-maker-grid {
+		max-width: 800px;
 	}
 }
