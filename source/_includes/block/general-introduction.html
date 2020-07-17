@@ -157,14 +157,16 @@
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
-	<div class="grid"><!-- parent grid -->
+	<div class="grid">
+		<!-- parent grid -->
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			<h1 class="grid-col--span-50"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1"> <!-- sub grid -->
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<!-- sub grid -->
 			<div class="bubbles grid-col--span-3">
 				<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-medium-06.png"
 					alt="Small Floating amorphous bubbles with DC Design Week text inside ">
