@@ -1,3 +1,15 @@
+.bubbles {
+	position: relative;
+	z-index: $index-9;
+}
+
+.bubble-group-introduction-1 {
+	position: absolute;
+	max-width: 150px;
+	top: -100px;
+	right: 50px;
+}
+
 .bubble-group-subscribe,
 .bubble-group-introduction-about,
 .bubble-group-introduction-2,
@@ -6,18 +18,6 @@
 .bubble-group-sponsors {
 	position: relative;
 	display: none;
-}
-
-.bubble-group-introduction-1,
-.bubble-group-partnerus-2 {
-	position: absolute;
-	z-index: $index-8;
-}
-
-.bubble-group-introduction-1 {
-	width: 150px;
-	right: -75px;
-	bottom: -50px;
 }
 
 .bubble-group-partnerus-2 {
@@ -39,6 +39,16 @@
 }
 
 @media screen and (min-width: 1023px) {
+	.makers-layout .bubble-group-introduction-1 {
+		max-width: 250px;
+		top: -150px;
+		right: 150px;
+	}
+
+	.makers-layout .bubble-group-introduction-2 {
+		bottom: -200px;
+		right: -150px;
+	}
 
 	.bubble-group-subscribe,
 	.bubble-group-introduction-about,
@@ -69,21 +79,6 @@
 		left: -80px;
 	}
 
-	.bubble-group-introduction-1 {
-		right: 250px;
-		top: 30px;
-		width: 200px;
-	}
-
-	.bubble-group-introduction-2 {
-		top: 300px;
-		right: 0px;
-	}
-
-	.makers-layout .bubble-group-introduction-2 {
-		top: 200px;
-	}
-
 	.bubble-group-partnerus-1 {
 		top: -60px;
 		left: 10px;
@@ -112,20 +107,6 @@
 		top: -190px;
 		right: 60px;
 		width: 550px;
-	}
-
-	.bubble-group-introduction-1 {
-		right: 400px;
-	}
-
-	.bubble-group-introduction-2 {
-		top: 350px;
-		right: -50px;
-		width: 450px;
-	}
-
-	.makers-layout .bubble-group-introduction-2 {
-		top: 200px;
 	}
 
 	.bubble-group-sponsors {
@@ -166,14 +147,6 @@
 
 @media screen and (min-width: 1600px) {
 	.bubble-group-introduction-about {
-		right: 150px;
-	}
-
-	.bubble-group-introduction-1 {
-		right: 500px;
-	}
-
-	.bubble-group-introduction-2 {
 		right: 150px;
 	}
 
@@ -222,14 +195,6 @@
 @media screen and (min-width: 1979px) {
 	.bubble-group-introduction-about {
 		right: 300px;
-	}
-
-	.bubble-group-introduction-1 {
-		right: 600px;
-	}
-
-	.bubble-group-introduction-2 {
-		right: 250px;
 	}
 
 	.bubble-group-sponsors {
@@ -300,16 +265,6 @@
 @media screen and (min-width: 2479px) {
 	.bubble-group-introduction-about {
 		right: 600px;
-	}
-
-	.makers-layout .bubble-group-introduction-1,
-	.bubble-group-introduction-1 {
-		right: 800px;
-	}
-
-	.makers-layout .bubble-group-introduction-2,
-	.bubble-group-introduction-2 {
-		right: 450px;
 	}
 
 	.bubble-group-sponsors {
