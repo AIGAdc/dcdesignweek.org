@@ -1,20 +1,19 @@
 <section class="section section__partners">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2 grid-col--hide">
-			&nbsp;
+		<div class="grid-col grid-col--span-2">
+			<img class="bubble-group-partnerus-1" aria-hidden="true" src="/uploads/bubble-black-medium-03.png"
+				alt="Large Floating amorphous bubbles">
+			<img class="bubble-group-partnerus-2" aria-hidden="true" src="/uploads/bubble-black-group-partnerus-2.png"
+				alt="Small Floating amorphous bubbles">
 		</div>
 		<div class="grid-col grid-col--span-2">
 			<h2 class="grid-col--span-50"
 				id="{{ site.partner.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.partner.header }}</h2>
-			<div>{{ site.partner.body | markdownify }}</div>
+			<div class="wysiwyg">{{ site.partner.body | markdownify }}</div>
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ site.partner.button-url }}" target="_blank">{{ site.partner.button-label }}
 			</a>
 		</div>
 	</div>
-	<img class="bubble-group-partnerus-1" aria-hidden="true" src="/uploads/bubble-black-medium-03.png"
-		alt="Large Floating amorphous bubbles">
-	<img class="bubble-group-partnerus-2" aria-hidden="true" src="/uploads/bubble-black-group-partnerus-2.png"
-		alt="Small Floating amorphous bubbles">
 </section>

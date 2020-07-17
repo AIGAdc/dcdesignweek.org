@@ -527,8 +527,11 @@ subscribe:
   image-1-alt: Floating amorphous bubbles
 partner:
   header: "<span>Partner</span> <span>with</span> <span>Us</span>"
-  body: "You do things. We do things. <strong>Let’s do things together</strong>. \n\n
-    \ \nWe’re looking for sponsors who can help ensure every event is as accessible
+  body: "You do things. We do things. <strong>Let’s do things together</strong>.
+  
+
+
+    We’re looking for sponsors who can help ensure every event is as accessible
     and inclusive as possible, whether through donations or in-kind gifts. If you’re
     interested in partnering with DC Design Week this year, let us know. \n"
   button-url: mailto:designweek@dc.aiga.org
