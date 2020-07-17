@@ -1,6 +1,9 @@
 <section id="subscribe" class="section section__subscribe">
 	<div class="grid">
-		<div class="grid-col grid-col--span-2 grid-col--hide">&nbsp;</div>
+		<div class="grid-col grid-col--span-2">
+			<img class="bubble-group-subscribe" aria-hidden="true" src="{{ site.subscribe.image-1 }}"
+				alt="{{ site.subscribe.image-1-alt }}">
+		</div>
 		<div class="grid-col grid-col--span-2">
 			<h2 class="grid-col--span-70"
 				id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
@@ -9,6 +12,4 @@
 			{% include 3rd-party/mailchimp/form.html %}
 		</div>
 	</div>
-	<img class="bubble-group-subscribe" aria-hidden="true" src="{{ site.subscribe.image-1 }}"
-		alt="{{ site.subscribe.image-1-alt }}">
 </section>

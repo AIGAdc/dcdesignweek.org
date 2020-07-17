@@ -1,11 +1,11 @@
 .hero--home {
 	position: relative;
-	z-index: 100;
+	z-index: $index-1;
 }
 
 .hero--home>div:not(:last-child) {
 	position: relative;
-	z-index: 1000;
+	z-index: $index-10;
 }
 
 .overlay {
@@ -51,7 +51,7 @@
 	}
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 799px) {
 	.hero--home video {
 		-o-object-fit: contain;
 		object-fit: contain;

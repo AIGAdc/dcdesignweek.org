@@ -1,10 +1,16 @@
 .section {
+	
 	padding: $spacing-80 $spacing-32;
 	position: relative;
 }
 
 // apply border to all elements with .section except for the first
 .section:not(:first-of-type) {
+	border-top: solid 1px $white;
+}
+
+.home-layout .section,
+.makers-layout .section {
 	border-top: solid 1px $white;
 }
 

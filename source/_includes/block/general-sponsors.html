@@ -1,16 +1,17 @@
 <section class="section section__sponsors">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<div class="grid-col grid-col--span-4">
-				<h2 class="grid-col--span-70"
-					id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-					{{ site.2020-presenting-sponsors.header }}</h2>
-				<p>{{ site.2020-presenting-sponsors.body }}</p>
-			</div>
+			<h2 class="grid-col--span-70"
+				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.2020-presenting-sponsors.header }}</h2>
+			<div class="wysiwyg">{{ site.2020-presenting-sponsors.body | markdownify }}</div>
 		</div>
-
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<div class="grid-col--span-3">
+				<img class="bubble-group-sponsors" aria-hidden="true" src="{{ site.2020-presenting-sponsors.image-1 }}"
+					alt="{{ site.2020-presenting-sponsors.image-1-alt }}">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -29,7 +30,8 @@
 				</figure>
 			</div>
 		</div>
-
+	</div>
+	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
 				{% for content in site.2020-presenting-sponsors.sponsor-list %}
@@ -52,6 +54,4 @@
 			</ul>
 		</div>
 	</div>
-	<img class="bubble-group-sponsors" aria-hidden="true" src="{{ site.2020-presenting-sponsors.image-1 }}"
-		alt="{{ site.2020-presenting-sponsors.image-1-alt }}">
 </section>

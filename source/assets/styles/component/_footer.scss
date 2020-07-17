@@ -1,26 +1,24 @@
 .site-footer {
 	@include grid;
+	align-items: center;
 	background-color: $white;
 	color: $black;
 	grid-template-columns: 1fr;
-	font-weight: 300;
 	padding: $spacing-16;
-	align-items: center;
-	text-align: center;
 	position: relative;
-	z-index: $index-9;
+	text-align: center;
+	z-index: $index-10;
 }
 
 .site-footer {
-	grid-gap: 0;
+	grid-gap: 16px;
 }
 
 .site-footer__social {
 	@include grid;
+	align-items: center;
 	grid-template-columns: 1fr;
 	padding: $spacing-8;
-	align-items: center;
-	text-align: center;
 }
 
 .site-footer a {
@@ -28,16 +26,15 @@
 	font-size: $font-size-14;
 }
 
-.site-footer a svg {
-	max-width: 24px;
-	margin: auto;
+.site-footer .svg-inline--fa {
+	font-size: $font-size-32;
 }
 
 .site-footer li {
 	display: inline-block;
 }
 
-@media screen and (min-width: 962px) {
+@media screen and (min-width: 1023px) {
 	.site-footer {
 		grid-template-columns: 0.75fr 1fr 0.75fr;
 	}

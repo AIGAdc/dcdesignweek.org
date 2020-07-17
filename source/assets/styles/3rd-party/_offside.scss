@@ -64,7 +64,7 @@
 
 .offside-js--interact .offside,
 .offside-js--interact .offside-sliding-element {
-	transition: transform 250ms ease-in-out;
+	transition: transform $timing-default ease-in;
 	/* improves performance issues on mobile*/
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;

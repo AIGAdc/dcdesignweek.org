@@ -78,11 +78,11 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
 	* {
-		-webkit-animation-duration: 0.01ms !important;
-		animation-duration: 0.01ms !important;
+		-webkit-animation-duration: $timing-quick !important;
+		animation-duration: $timing-quick !important;
 		-webkit-animation-iteration-count: 1 !important;
 		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
+		transition-duration: $timing-quick !important;
 		scroll-behavior: auto !important;
 	}
 }

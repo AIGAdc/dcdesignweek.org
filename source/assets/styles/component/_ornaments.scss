@@ -23,14 +23,14 @@
 }
 
 .dcdw-date-badge .month span {
-	font-size: 16px;
+	font-size: $font-size-16;
 }
 
 .dcdw-date-badge .day {
 	padding: 16px;
-	font-size: 16px;
+	font-size: $font-size-16;
 	position: relative;
-	z-index: 1;
+	z-index: $index-1;
 	height: 48px;
 	line-height: 1;
 	left: -4px;
@@ -49,8 +49,13 @@
 	height: 48px;
 	top: 0;
 	left: 0;
-	background-color: black;
-	z-index: -2;
+	background-color: $black;
+	z-index: $index-1;
+}
+
+.dcdw-date-badge .day p {
+	z-index: $index-2;
+	position: relative;
 }
 
 .dcdw-date-badge .divider hr {

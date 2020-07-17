@@ -33,8 +33,14 @@
 				</a>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<div class="bubbles grid-col--span-3">
+				<img class="bubble-group-introduction-1" aria-hidden="true" src="{{ content.bubble-1 }}"
+					alt="{{ content.bubble-1-alt }}">
+				<img class="bubble-group-introduction-2" aria-hidden="true" src="{{ content.bubble-2 }}"
+					alt="{{ content.bubble-2-alt }}">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -57,10 +63,6 @@
 			</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-1" aria-hidden="true" src="{{ content.bubble-1 }}"
-		alt="{{ content.bubble-1-alt }}">
-	<img class="bubble-group-introduction-2" aria-hidden="true" src="{{ content.bubble-2 }}"
-		alt="{{ content.bubble-2-alt }}">
 </section>
 {% endif %}
 {% endfor %}
@@ -77,8 +79,12 @@
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<div class="grid-col--span-3">
+				<img class="bubble-group-introduction-about" aria-hidden="true" src="/uploads/bubble-black-large-03.png"
+					alt="Floating amorphous bubbles with DC Design Week text inside">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -101,11 +107,11 @@
 			</div>
 		</div>
 		<div class="grid-col grid-col--span-2 order-3">
-			<video controls playsinline loop="" poster="/uploads/dcdw-about-poster.jpg">
+			<video controls playsinline loop poster="/uploads/dcdw-about-poster.jpg">
 				<source src="/uploads/dcdw-about-video.mp4" type="video/mp4">
 				<source src="/uploads/dcdw-about-video.webm" type="video/webm">
 				<source src="/uploads/dcdw-about-video.ogg" type="video/ogg">
-				<track src="/uploads/dcdw-about-video-captions.vtt" kind="subtitles" srclang="en" label="english">
+				<track label="English" kind="subtitles" srclang="en" src="/uploads/dcdw-about-video-captions.vtt">
 			</video>
 			<div class="playback-controls">
 				<p data-houdini-toggle="playback">Playback Speed</p>
@@ -146,8 +152,6 @@
 			<div class="wysiwyg">{{ content.body-2 | markdownify }}</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-about" aria-hidden="true" src="/uploads/bubble-black-large-03.png"
-		alt="Floating amorphous bubbles with DC Design Week text inside">
 </section>
 {% endif %}
 {% endfor %}
@@ -158,14 +162,22 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid">
+		<!-- parent grid -->
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			<h1 class="grid-col--span-50"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<!-- sub grid -->
+			<div class="bubbles grid-col--span-3">
+				<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-medium-06.png"
+					alt="Small Floating amorphous bubbles with DC Design Week text inside ">
+				<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-medium-01.png"
+					alt="Large Floating amorphous bubbles with DC Design Week text inside ">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -188,10 +200,6 @@
 			</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-1" aria-hidden="true" src="/uploads/bubble-black-medium-06.png"
-		alt="Small Floating amorphous bubbles with DC Design Week text inside ">
-	<img class="bubble-group-introduction-2" aria-hidden="true" src="/uploads/bubble-black-medium-01.png"
-		alt="Large Floating amorphous bubbles with DC Design Week text inside ">
 </section>
 {% endif %}
 {% endfor %}

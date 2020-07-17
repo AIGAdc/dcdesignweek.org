@@ -8,8 +8,12 @@
 	align-items: start;
 }
 
-.grid-col {
+.grid-col,
+.sub-grid-col {
 	position: relative;
+}
+
+.grid-col {
 	order: 4
 }
 
@@ -53,17 +57,9 @@
 	width: 100%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 799px) {
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.grid-col--order-1 {
-		order: 2;
-	}
-
-	.grid-col--order-2 {
-		order: 1;
 	}
 
 	.grid-col--span-2 {
@@ -82,12 +78,34 @@
 @media screen and (min-width: 1023px) {
 
 	.grid,
+	.sub-grid,
 	.grid--hero {
 		grid-template-columns: repeat(4, 1fr);
 	}
 
+	.sub-grid {
+		display: grid;
+		grid-gap: 32px;
+		grid-template-rows: 1fr;
+		align-items: start;
+		height: 100%;
+	}
+
+	.grid-col,
+	.sub-grid>div {
+		height: 100%;
+	}
+
 	.grid-col--hide {
 		display: block;
+	}
+
+	.grid-col--order-1 {
+		order: 2;
+	}
+
+	.grid-col--order-2 {
+		order: 1;
 	}
 
 	.grid--hero {
