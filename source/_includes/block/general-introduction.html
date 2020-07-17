@@ -33,8 +33,14 @@
 				</a>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1 grid-col--hide">
-			<div class="ornaments">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
+			<div class="bubbles grid-col--span-3">
+				<img class="bubble-group-introduction-1" aria-hidden="true" src="{{ content.bubble-1 }}"
+					alt="{{ content.bubble-1-alt }}">
+				<img class="bubble-group-introduction-2" aria-hidden="true" src="{{ content.bubble-2 }}"
+					alt="{{ content.bubble-2-alt }}">
+			</div>
+			<div class="ornaments grid-col--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -57,10 +63,6 @@
 			</div>
 		</div>
 	</div>
-	<img class="bubble-group-introduction-1" aria-hidden="true" src="{{ content.bubble-1 }}"
-		alt="{{ content.bubble-1-alt }}">
-	<img class="bubble-group-introduction-2" aria-hidden="true" src="{{ content.bubble-2 }}"
-		alt="{{ content.bubble-2-alt }}">
 </section>
 {% endif %}
 {% endfor %}

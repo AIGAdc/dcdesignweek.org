@@ -47,14 +47,19 @@
 		display: block;
 	}
 
-	.makers-layout .bubble-group-introduction-1 {
+	.bubble-group-introduction-1 {
 		max-width: 250px;
 		top: -150px;
 		right: 150px;
 	}
 
-	.makers-layout .bubble-group-introduction-2 {
+	.bubble-group-introduction-2 {
 		bottom: -200px;
+		right: -150px;
+	}
+
+	.home-layout .bubble-group-introduction-2 {
+		top: 100px;
 		right: -150px;
 	}
 
@@ -97,12 +102,6 @@
 		width: 400px;
 		bottom: -20px;
 		transform: rotate(6deg);
-	}
-
-	.gallery-maker-grid {
-		max-width: 100%;
-		position: relative;
-		width: 80%;
 	}
 }
 
