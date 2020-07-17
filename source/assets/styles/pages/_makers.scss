@@ -1,32 +1,45 @@
 .emerging-designers-posters {
-	margin: auto;
-	max-width: 500px;
 	display: flex;
 }
 
-.emerging-designers-posters .emerging-designers-posters__image--left {
-	margin-right: 16px;
+.emerging-designers-posters__image--left,
+.emerging-designers-posters__image--right {
+	position: relative;
+	width: 100%;
 }
 
-.emerging-designers-posters figure,
-.emerging-designers-posters img {
-	position: relative;
+.emerging-designers-posters__image--left {
+	margin-right: 32px;
+}
+
+.emerging-designers-posters__image--left img {
+	margin-left: auto;
+}
+
+.emerging-designers-posters__image--right img {
+	margin-right: auto;
 }
 
 @media screen and (min-width: 1023px) {
 	.emerging-designers-posters {
-		margin-bottom: 200px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
 	}
 
-	.emerging-designers-posters .emerging-designers-posters__image--right {
-		top: 160px;
+	.emerging-designers-posters__image--left img,
+	.emerging-designers-posters__image--right img {
+		max-width: 240px;
 	}
 
-	.emerging-designers-posters .emerging-designers-posters__image--right {
-		margin-left: -64px;
+	.emerging-designers-posters__image--right {
+		left: -32px;
+		top: 144px;
 	}
 
-	.emerging-designers-posters .emerging-designers-posters__image--left {
-		margin-right: -64px;
+	.emerging-designers-posters__image--left {
+		right: -32px;
 	}
 }
