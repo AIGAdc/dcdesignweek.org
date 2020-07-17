@@ -1,42 +1,42 @@
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {
-	display: block !important;
-	position: relative !important;
-	text-align: left !important;
+	display: block;
+	position: relative;
+	text-align: left;
 }
 
 #mc_embed_signup .mc-field-group label {
-	display: block !important;
-	font-weight: 900 !important;
+	display: block;
+	font-weight: 900;
 	font-size: $font-size-12;
 	font-family: $brand-font-terminus;
 	text-transform: uppercase;
-	padding: $spacing-8 0 !important;
+	padding: $spacing-8 0;
 }
 
 #mc_embed_signup .mc-field-group input {
 	background-color: $black;
-	border: solid 1px $white !important;
+	border: solid 1px $white;
 	color: $white;
-	display: block !important;
+	display: block;
 	font-size: $font-size-16;
 	font-weight: 400;
-	padding: $spacing-8 !important;
-	width: 100% !important;
+	padding: $spacing-8;
+	width: 100%;
 }
 
 #mc_embed_signup .asterisk {
-	color: $green !important;
+	color: $green;
 	font-weight: 900;
 }
 
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
-	margin-bottom: 32px;
+	margin-bottom: $spacing-32;
 }
 
 #mc_embed_signup .clear {
-	clear: both !important;
+	clear: both;
 }
 
 #mc_embed_signup div#mce-responses {
@@ -44,47 +44,47 @@
 }
 
 #mc_embed_signup div.response {
-	background-color: $green !important;
-	padding: $spacing-16 !important;
-	z-index: $index-1 !important;
+	background-color: $green;
+	padding: $spacing-16;
+	z-index: $index-1;
 }
 
 #mc_embed_signup div.response a {
-	color: $white !important;
-	font-weight: bold !important;
+	color: $white;
+	font-weight: bold;
 }
 
 #mc_embed_signup #mce-error-response,
 #mc_embed_signup #mce-success-response {
-	color: $white !important;
+	color: $white;
 	display: block;
 }
 
 #mc_embed_signup #num-subscribers span {
-	padding: 0.5em !important;
-	border: 1px solid $white !important;
-	margin-right: 0.5em !important;
-	font-weight: bold !important;
+	padding: 4px;
+	border: 1px solid $white;
+	margin-right: 4px;
+	font-weight: bold;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-	background-color: $green !important;
-	display: block !important;
-	color: $black !important;
-	line-height: 1.7rem !important;
-	font-size: $font-size-14 !important;
-	font-weight: normal !important;
-	margin: 0 !important;
-	padding: $spacing-8 !important;
-	z-index: $index-1 !important;
+	background-color: $green;
+	display: block;
+	color: $black;
+	line-height: 1.7rem;
+	font-size: $font-size-14;
+	font-weight: normal;
+	margin: 0;
+	padding: $spacing-8;
+	z-index: $index-1;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-	border: 1px solid $green !important;
+	border: 1px solid $green;
 }
 
 #mc_embed_signup input.mce_inline_error {
-	border-color: $green !important;
+	border-color: $green;
 }
 
 #mc_embed_signup input.button {
@@ -116,12 +116,12 @@
 }
 
 .mailchimp-button input {
-	margin-top: 0 !important;
+	margin-top: 0;
 }
 
 @media screen and (min-width: 799px) {
 	#mc_embed_signup input.button {
-		width: auto !important;
+		width: auto;
 	}
 }
 

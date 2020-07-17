@@ -48,7 +48,7 @@ h2 span:after {
 	content: "";
 	display: inline-block;
 	height: 4px;
-	margin-left: 4px;
+	margin-left: $spacing-4;
 	width: 20px;
 }
 
@@ -122,7 +122,7 @@ video:focus,
 }
 
 .wysiwyg li {
-	margin-left: 32px;
+	margin-left: $spacing-32;
 }
 
 ::selection {
