@@ -40,7 +40,7 @@ emerging-designers:
 celebrating-you:
 - has-celebrating-you: true
   header: "<span>Celebrating</span> <span>you</span>"
-  body: "> DC is wfull of creators like you who craft art, jewelry, home goods, ceramics,
+  body: "> DC is full of creators like you who craft art, jewelry, home goods, ceramics,
     furniture, chocolate, cakes, stationery, leather goods, clothing, buttons, and
     more. Whether you do this for a living, as a side hustle, or as a hobby, we see
     you. We’re thrilled you’re part of the creative energy in the DMV.\n\n\nWe want
