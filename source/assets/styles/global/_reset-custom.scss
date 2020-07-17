@@ -6,10 +6,6 @@ body {
 	overflow-x: hidden;
 }
 
-main {
-	overflow: hidden; // this breaks the headers ability to be position: sticky. Will look into this.
-}
-
 hr {
 	border: solid 2px $white;
 	border-radius: 0;
