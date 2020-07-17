@@ -7,11 +7,11 @@
 	padding: $spacing-16;
 	position: relative;
 	text-align: center;
-	z-index: $index-10;
+	z-index: $index-4;
 }
 
 .site-footer {
-	grid-gap: 16px;
+	grid-gap: $spacing-16;
 }
 
 .site-footer__social {

@@ -2,7 +2,7 @@
 .grid--hero {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 32px;
+	grid-gap: $spacing-32;
 	max-width: 1440px;
 	margin: auto;
 	align-items: start;
@@ -35,11 +35,11 @@
 
 .grid-col>*+*,
 .wysiwyg>*+* {
-	margin-top: 32px;
+	margin-top: $spacing-32;
 }
 
 .wysiwyg ul>*+* {
-	margin-top: 16px;
+	margin-top: $spacing-16;
 }
 
 .grid-col--span-1,
@@ -85,7 +85,7 @@
 
 	.sub-grid {
 		display: grid;
-		grid-gap: 32px;
+		grid-gap: $spacing-32;
 		grid-template-rows: 1fr;
 		align-items: start;
 		height: 100%;

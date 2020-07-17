@@ -3,7 +3,7 @@
 }
 
 .card>*+* {
-	margin-top: 16px;
+	margin-top: $spacing-16;
 }
 
 .card h3 {
@@ -61,7 +61,7 @@
 }
 
 .card--sponsors .card__image {
-	padding: 24px;
+	padding: $spacing-32;
 }
 
 .card--sponsors .card__image img {

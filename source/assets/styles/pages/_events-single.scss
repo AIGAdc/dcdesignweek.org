@@ -23,7 +23,7 @@
 	color: $black;
 	position: relative;
 	width: 100%;
-	z-index: $index-3;
+	z-index: $index-2;
 }
 
 .event-single__hero-content p {
@@ -45,7 +45,7 @@
 /* details */
 
 .event-single__details {
-	background-color: salmon;
+	background-color: $green;
 }
 
 .event-single__details-content h3 {
@@ -79,7 +79,7 @@ ol {
 
 .event-single__speakers-list {
 	display: grid;
-	grid-gap: 2rem;
+	grid-gap: $spacing-8;
 	grid-template-columns: 1fr;
 }
 
@@ -92,20 +92,20 @@ ol {
 }
 
 .event-single__learn {
-	background-color: salmon;
+	background-color: $green;
 	margin-bottom: -$spacing-32;
 	padding: $spacing-48 0;
 }
 
 .event-single__learn hr {
-	border-color: salmon;
+	border-color: $green;
 }
 
 .event-single__learn p:last-of-type {
 	margin-bottom: 0;
 }
 
-@media screen and (min-width: $large) {
+@media screen and (min-width: 1023px) {
 	.event-single__hero-content a:first-of-type {
 		margin-bottom: 0;
 	}

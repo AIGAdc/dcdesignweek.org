@@ -61,7 +61,7 @@ https://flickity.metafizzy.co
 	color: $black;
 }
 
-@media screen and (min-width: $large) {
+@media screen and (min-width: 1023px) {
 	.flickity-button {
 		display: block;
 	}
@@ -101,15 +101,15 @@ https://flickity.metafizzy.co
 	border-radius: 50px;
 	/* vertically center */
 	transform: translateY(-50%);
-	z-index: $index-4;
+	z-index: $index-2;
 }
 
 .flickity-prev-next-button.previous {
-	left: 64px;
+	left: $spacing-60;
 }
 
 .flickity-prev-next-button.next {
-	right: 64px;
+	right: $spacing-60;
 }
 
 /* right to left */

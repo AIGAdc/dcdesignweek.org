@@ -12,7 +12,7 @@
 	color: $black;
 	font-family: $brand-font-terminus;
 	font-weight: 800;
-	padding: 8px;
+	padding: $spacing-8;
 	border-radius: 10px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -27,7 +27,7 @@
 }
 
 .dcdw-date-badge .day {
-	padding: 16px;
+	padding: $spacing-16;
 	font-size: $font-size-16;
 	position: relative;
 	z-index: $index-1;
@@ -37,7 +37,7 @@
 }
 
 .dcdw-date-badge .day:last-child {
-	left: 4px;
+	left: $spacing-4;
 }
 
 .dcdw-date-badge .day::before {
@@ -54,16 +54,16 @@
 }
 
 .dcdw-date-badge .day p {
-	z-index: $index-2;
+	z-index: $index-1;
 	position: relative;
 }
 
 .dcdw-date-badge .divider hr {
 	border: solid 1px $white;
 	width: 8px;
-	padding-right: 4px;
+	padding-right: $spacing-4;
 }
 
 .ornaments>figure:not(:first-child) {
-	margin-top: 16px;
+	margin-top: $spacing-16;
 }

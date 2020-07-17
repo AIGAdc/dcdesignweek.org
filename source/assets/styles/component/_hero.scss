@@ -5,22 +5,22 @@
 
 .hero--home>div:not(:last-child) {
 	position: relative;
-	z-index: $index-10;
+	z-index: $index-4;
 }
 
 .overlay {
-	background: radial-gradient(transparent 0%, #000 90%);
+	background: radial-gradient(transparent 0%, $black 90%);
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 500;
+	z-index: $index-4;
 }
 
 .hero--home {
 	// max-height: 640px;
-	padding: 64px 32px !important;
+	padding: $spacing-60 $spacing-32 !important;
 }
 
 .hero--home video {
@@ -63,14 +63,14 @@
 	border: none !important;
 	display: inline-block !important;
 	font: inherit !important;
-	padding: 8px !important;
+	padding: $spacing-8 !important;
 	text-align: inherit !important;
 	width: auto !important;
 	color: #fff !important;
 }
 
 .houdini-toggle-icon {
-	margin-left: 8px !important;
+	margin-left: $spacing-8 !important;
 	width: 8px !important; // prevents UI shift when changing from plus to minus
 	display: inline-block !important;
 }
@@ -80,7 +80,7 @@
 }
 
 .playback-controls {
-	margin-top: 16px !important;
+	margin-top: $spacing-16 !important;
 	text-align: right;
 }
 
