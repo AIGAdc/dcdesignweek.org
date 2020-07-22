@@ -1,0 +1,27 @@
+<section class="section section__faqs">
+	<div class="grid">
+		<ul class="grid-col grid-col--span-4">
+			{% for faq in page.faqs %}
+			<li>
+				<h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
+					{{ faq.heading }}
+					<i class="fas fa-caret-right"></i>
+				</h2>
+				<div class="{% if faq.expanded == true %} is-expanded {% endif %} wysiwyg" data-houdini-group="faq"
+					id="{{ faq.trigger }}">
+					{{ faq.body | markdownify }}
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<script src="/assets/scripts/houdini.min.js"></script>
+<script>
+	var disclosure = new Houdini('[data-houdini-group="faq"]', {
+		isAccordion: true,
+		collapseOthers: true,
+		icon: 0
+	});
+</script>
