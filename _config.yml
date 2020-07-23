@@ -490,6 +490,59 @@ filter-status:
   website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
   website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-1: Chelsea Wilson's LinkedIn
+2020-makers:
+- image: "/uploads/profile-nick-fabiani.png"
+  image-alt: Nick Fabiani's Portrait
+  name: Nick Fabiani
+  role: Executive Director
+  website-url-1: https://www.instagram.com/nickfabiani/
+  website-label-1: <i class="fab fa-instagram-square"></i>
+  website-aria-label-1: Nick Fabiani's Instagram
+  website-url-2: https://www.linkedin.com/in/nick-fabiani
+  website-label-2: <i class="fab fa-linkedin"></i>
+  website-aria-label-2: Nick Fabiani's LinkedIn
+  website-url-3: https://www.linkedin.com/in/nick-fabiani
+  website-label-3: <i class="fab fa-linkedin"></i>
+  website-aria-label-3: Nick Fabiani's LinkedIn
+- image: "/uploads/profile-richard-bentham.png"
+  image-alt: Richard Bentham's Portrait
+  name: Richard Bentham
+  role: Deputy Director
+  website-url-1: https://www.instagram.com/richardben/
+  website-label-1: <i class="fab fa-instagram-square"></i>
+  website-aria-label-1: Richard Bentham's Instagram
+  website-url-2: https://www.linkedin.com/in/richard-bentham-4921a439/
+  website-label-2: <i class="fab fa-linkedin"></i>
+  website-aria-label-2: Richard Bentham's LinkedIn
+  website-url-3: https://www.linkedin.com/in/richard-bentham-4931a439/
+  website-label-3: <i class="fab fa-linkedin"></i>
+  website-aria-label-3: Richard Bentham's LinkedIn
+- image: "/uploads/profile-eliza-duquette.png"
+  image-alt: Eliza Duquette's Portrait
+  name: Eliza Duquette
+  role: Program Director
+  website-url-1: https://www.elizaduquette.design/
+  website-label-1: <i class="fas fa-globe-americas"></i>
+  website-aria-label-1: Eliza Duquette's Website
+  website-url-2: https://www.linkedin.com/in/elizaduquette/
+  website-label-2: <i class="fab fa-linkedin"></i>
+  website-aria-label-2: Eliza Duquette's LinkedIn
+  website-url-3: https://www.linkedin.com/in/elizaduquette/
+  website-label-3: <i class="fab fa-linkedin"></i>
+  website-aria-label-3: Eliza Duquette's LinkedIn
+- image: "/uploads/profile-ariana-rodriguez-gitler.png"
+  image-alt: Ariana Rodriguez-Gitler's Portrait
+  name: Ariana Rodriguez-Gitler
+  role: Project Manager
+  website-url-1: https://www.instagram.com/rgariana/
+  website-label-1: <i class="fab fa-instagram-square"></i>
+  website-aria-label-1: Ariana Rodriguez-Gitlers's Instagram
+  website-url-2: https://www.linkedin.com/in/arianarg/
+  website-label-2: <i class="fab fa-linkedin"></i>
+  website-aria-label-2: Ariana Rodriguez-Gitlers's LinkedIn
+  website-url-3: https://www.linkedin.com/in/arianarg/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Ariana Rodriguez-Gitlers's LinkedIn
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
