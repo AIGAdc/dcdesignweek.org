@@ -45,18 +45,19 @@
 
 #mc_embed_signup div.response {
 	background-color: $green;
+	font-size: $font-size-14;
 	padding: $spacing-16;
 	z-index: $index-1;
 }
 
 #mc_embed_signup div.response a {
-	color: $white;
+	color: $black;
 	font-weight: bold;
 }
 
 #mc_embed_signup #mce-error-response,
 #mc_embed_signup #mce-success-response {
-	color: $white;
+	color: $black;
 	display: block;
 }
 
