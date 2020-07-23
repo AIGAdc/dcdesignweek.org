@@ -322,12 +322,12 @@ filter-status:
   image-alt: Ash Del Cid's Portrait
   name: Ash Del Cid
   role: Copywriter
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: https://www.instagram.com/mjaestic/
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Ash Del Cid's Instagram
+  website-url-2: https://www.linkedin.com/in/ashdelcid
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Ash Del Cid's LinkedIn
 - image: "/uploads/profile-devin-draudt-sundeen.png"
   image-alt: Devin Draudt Sundeen's Portrait
   name: Devin Draudt Sundeen
