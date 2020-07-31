@@ -611,6 +611,10 @@ footer:
     url: https://www.facebook.com/dcdesignweek/
     icon: <i class="fab fa-facebook-square"></i>
     aria-label: DC Design Week Facebook Page
+  - title: Github
+    url: https://github.com/AIGAdc/dcdesignweek.org
+    icon: <i class="fab fa-github-square"></i>
+    aria-label: DC Design Week Github Repository
   contact: designweek@dc.aiga.org
   copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 exclude:
