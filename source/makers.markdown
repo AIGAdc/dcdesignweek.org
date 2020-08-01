@@ -22,15 +22,15 @@ emerging-designers:
   header: "<span>Calling</span> <span>all</span> <span>emerging</span> <span>artists</span>
     <span>!</span>"
   body: |-
-    This year is a celebration of the creative voices in our community. We want to hear yours. We’re putting our money where our mouth is and commissioning custom poster designs from up to five emerging designers from the DMV. These 11x17” posters will be printed and available for sale (along with our DCDW 2020 merch!) at an online shop hosted by [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank" rel="noopener nofollow"}.
+    This year is a celebration of the creative voices in our community. We’re putting our money where our mouth is and commissioning custom poster designs from up to five emerging designers from the DMV. These 11x17" posters will be printed and available for sale (along with our DCDW 2020 merch!) at an online shop hosted by [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank" rel="noopener nofollow"}.
 
+    Posters will capture our theme for 2020: that DC is more than the politics we’re known for — that we know our home city and region to be more diverse, vibrant, and innovative than people could possibly imagine.
 
-    Posters should capture our theme for 2020: that DC is more than the politics we’re known for — that we know our home city and region to be more diverse, vibrant, and innovative than people could possibly imagine. Having a final design isn’t required to apply! In your application, include a link to your portfolio (or anywhere we can get a sense of your style) and a proposed concept for your poster. You’ll have plenty of time to execute your design if and when you’re selected. Applications are due Wednesday, July 29.
+    Each artist will receive $500 for their commission as well as 60% of all proceeds from sales of their design. Artists will be selected by a committee of established artists — [Dany Green <i class="fas fa-external-link-square-alt"></i>](http://www.danygreen.com/){:target="_blank" rel="noopener nofollow"}, [Sonia Jones <i class="fas fa-external-link-square-alt"></i>](http://soniajonestheartist.com/){:target="_blank" rel="noopener nofollow"}, [Jodi Kostelnik <i class="fas fa-external-link-square-alt"></i>](https://theneighborgoods.com/){:target="_blank" rel="noopener nofollow"}, [Josue Martinez <i class="fas fa-external-link-square-alt"></i>](https://corintogallery.com/){:target="_blank" rel="noopener nofollow"}, and [Torie Partridge <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank" rel="noopener nofollow"}.
 
-
-    Each artist will receive $500 for their commission as well as 60% of all proceeds from sales of their design. Artists will be selected by a committee of established artists — [Dany Green <i class="fas fa-external-link-square-alt"></i>](http://www.danygreen.com/){:target="_blank" rel="noopener nofollow"}, [Sonia Jones <i class="fas fa-external-link-square-alt"></i>](http://soniajonestheartist.com/){:target="_blank" rel="noopener nofollow"}, [Jodi Kostelnik <i class="fas fa-external-link-square-alt"></i>](https://theneighborgoods.com/){:target="_blank" rel="noopener nofollow"}, [Josue Martinez <i class="fas fa-external-link-square-alt"></i>](https://corintogallery.com/){:target="_blank" rel="noopener nofollow"}, and [Torie Partridge <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank" rel="noopener nofollow"}. We’ll let you know if you’ve been selected by Tuesday, August 4. Final designs must be submitted by Wednesday, August 26.
-  button-label: Apply Now
-  button-url: https://forms.gle/coDR12BQs3dGmUEWA
+    Applications are now closed.
+  button-label: 
+  button-url: 
   image-left: "/uploads/poster-green-bubble.png"
   image-left-alt: Bright green DC Design Week 2020 promotional poster artwork
   image-right: "/uploads/poster-black-photo.png"
