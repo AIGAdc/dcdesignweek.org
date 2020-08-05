@@ -35,7 +35,6 @@
 
 .houdini-heading .houdini-toggle {
 	background: inherit;
-	border: none;
 	display: block;
 	font: inherit;
 	padding: 0;
@@ -44,6 +43,26 @@
 	color: $black;
 }
 
-button.houdini-toggle {
-	outline: 0 !important;
+
+// FAQs Page
+.faqs-layout .houdini-heading,
+.faqs-layout .houdini-toggle,
+.faqs-layout .houdini.is-expanded {
+	display: block !important;
+}
+
+.faqs-layout .houdini-toggle,
+.faqs-layout .houdini.is-expanded {
+	border: solid 1px $white !important;
+	padding: $spacing-32 !important;
+}
+
+.faqs-layout .houdini-toggle {
+	text-align: left !important;
+	width: 100% !important;
+}
+
+.faqs-layout .houdini.is-expanded {
+	position: relative !important;
+	top: -1px !important;
 }
