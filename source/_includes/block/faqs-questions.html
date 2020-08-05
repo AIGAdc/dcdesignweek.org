@@ -1,6 +1,6 @@
 <section class="section section__faqs">
 	<div class="grid">
-		<ul class="grid-col grid-col--span-4">
+		<ul class="grid-col grid-col--span-3">
 			{% for faq in page.faqs %}
 			<li>
 				<h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
@@ -13,6 +13,27 @@
 			</li>
 			{% endfor %}
 		</ul>
+		<div class="grid-col grid-col--span-1">
+			<h3>Have a Question? Concern? Reach out!</h3>
+			<ul class="faq-contact">
+				<li>
+					<h4>Heading</h4>
+					<a href="">Link</a>
+				</li>
+				<li>
+					<h4>Heading</h4>
+					<a href="">Link</a>
+				</li>
+				<li>
+					<h4>Heading</h4>
+					<a href="">Link</a>
+				</li>
+				<li>
+					<h4>Heading</h4>
+					<a href="">Link</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </section>
 
