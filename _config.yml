@@ -559,6 +559,9 @@ navigation-teaser:
 - url: "/makers/"
   label: Makers
   aria-label: Makers Page
+- url: "/faqs/"
+  label: FAQs
+  aria-label: FAQs Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-

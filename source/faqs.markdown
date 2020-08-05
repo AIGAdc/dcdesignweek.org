@@ -25,7 +25,7 @@ introduction:
   button-label: Learn About DCDW
   button-url: "/about/"
 faqs:
-  - heading: <span>Section</span> <span>1</span>
+  - heading: Question 1
     body: |-
       ### [Verse 1]
 
@@ -47,9 +47,9 @@ faqs:
       Forge a bond with more than hate
       Meet these words with open arms
       And plant your feet the planet shakes
-    trigger: section-1
+    trigger: question-1
     expanded: true
-  - heading: <span>Section</span> <span>2</span>
+  - heading: Question 2
     body: |-
       ### [Verse 1]
 
@@ -71,9 +71,9 @@ faqs:
       Forge a bond with more than hate
       Meet these words with open arms
       And plant your feet the planet shakes
-    trigger: section-2
+    trigger: question-2
     expanded: false
-  - heading: <span>Section</span> <span>3</span>
+  - heading: Question 3
     body: |-
       ### [Verse 1]
 
@@ -95,7 +95,7 @@ faqs:
       Forge a bond with more than hate
       Meet these words with open arms
       And plant your feet the planet shakes
-    trigger: section-3
+    trigger: question-3
     expanded: false
 ---
 
