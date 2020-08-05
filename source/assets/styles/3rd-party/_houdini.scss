@@ -58,11 +58,15 @@
 }
 
 .faqs-layout .houdini-toggle {
+	cursor: pointer;
+	font-size: $font-size-20 !important;
 	text-align: left !important;
+	text-transform: uppercase;
 	width: 100% !important;
 }
 
 .faqs-layout .houdini.is-expanded {
+	font-family: $brand-font-heebo;
 	position: relative !important;
 	top: -1px !important;
 }
