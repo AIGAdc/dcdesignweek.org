@@ -4,7 +4,7 @@
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
 			{% for content in page.introduction %}
 			{% if content.has-introduction == true %}
-			<h1 class="grid-col--span-50"
+			<h1 class="grid-col--span-70"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h1>
 			{% endif %}

@@ -58,6 +58,7 @@ h2 span:nth-child(even) {
 h1 span:nth-child(odd),
 h2 span:nth-child(odd) {
 	font-family: $brand-font-fk-grotesk;
+	font-weight: 400;
 }
 
 h1 span:nth-child(even),
