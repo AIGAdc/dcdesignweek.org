@@ -6,7 +6,8 @@
 			{% if content.has-introduction == true %}
 			<h1 class="grid-col--span-70"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ content.header }}</h1>
+				{{ content.header }}
+			</h1>
 			{% endif %}
 			{% endfor %}
 		</div>
