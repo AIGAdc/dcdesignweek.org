@@ -1,0 +1,17 @@
+// overrides global grid to be 3 columns instead of 4
+.makers-directory-layout ul.grid {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.modal-content {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+}
+
+.modal-content--left {
+	margin-right: $spacing-32;
+}
+
+.modal-content-header button {
+
+}

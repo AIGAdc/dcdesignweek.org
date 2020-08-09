@@ -1,0 +1,79 @@
+/*!
+ * Modals v10.1.2: Simple modal dialogue pop-up windows
+ * (c) 2017 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/modals
+ */
+
+/**
+ * Modal windows
+ */
+/* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+.modal {
+  background-color: $black;
+  display: none;
+  max-width: 100%;
+  padding: $spacing-32;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+@media (min-width: 40em) {
+  /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal {
+    max-width: 98%;
+  }
+}
+
+/* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+.modal.active {
+  display: block;
+  height: 100%;
+  left: 0;
+  max-height: 100%;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: visible;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 30em) {
+  /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal.active {
+    height: auto;
+    left: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 3%;
+    top: 50px;
+  }
+}
+
+@media (min-width: 40em) {
+  /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal.active.modal-medium {
+    width: 50em;
+  }
+}
+
+/* line 54, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+.modal:focus {
+  outline: none;
+}
+
+/**
+ * Modal background
+ */
+/* line 63, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+.modal-bg {
+  background-color: #272727;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  opacity: .9;
+  right: 0;
+  top: 0;
+  z-index: 9998;
+}
