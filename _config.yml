@@ -641,6 +641,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 2
@@ -653,6 +661,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 3
@@ -665,6 +681,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: true
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 4
@@ -677,6 +701,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: true
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 5
@@ -689,6 +721,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: true
+    is-home-goods: false
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 6
@@ -701,6 +741,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: true
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 7
@@ -713,6 +761,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: true
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 8
@@ -725,6 +781,14 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: true
+    is-accessories: false
+    is-home-goods: true
+    is-wild-card: false
 - image: "/uploads/dc-metro-station.png"
   image-alt: Nick Fabiani's Portrait
   name: <span>Business</span> <span>Name</span> <span>or</span> <span>Name</span> 9
@@ -737,6 +801,35 @@ past-editions:
   website-url-2: https://www.linkedin.com/in/nick-fabiani
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Nick Fabiani's LinkedIn
+  maker-type:
+    is-screening: false
+    is-party: false
+    is-family-friendly: true
+    is-creative-lunch: false
+    is-wellness: false
+    is-workshop: false
+2020-filter-maker-type:
+- filter: ".art-prints"
+  class: art-prints
+  text-1: Art + Prints
+- filter: ".paper-goods"
+  class: paper-goods
+  text-1: Paper Goods
+- filter: ".clothing-apparel"
+  class: clothing-apparel
+  text-1: Clothing + Apparel
+- filter: ".food"
+  class: food
+  text-1: Food
+- filter: ".accessories"
+  class: accessories
+  text-1: Accessories
+- filter: ".home-goods"
+  class: home-goods
+  text-1: Home Goods
+- filter: ".wild-cards"
+  class: wild-cards
+  text-1: Wild Cards
 2020-giphys-black:
 - embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via GIPHY <i class="fas fa-external-link-square"></i></a></p>
 - embed: <iframe src="https://giphy.com/embed/TGLkYqn6tNAF8zy9TP" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-d8otCsVsddqFy70jDI">Black Text Version</a><a href="https://giphy.com/gifs/dcdesignweek-transparent-TGLkYqn6tNAF8zy9TP">, via GIPHY <i class="fas fa-external-link-square"></i></a></p>

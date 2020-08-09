@@ -33,71 +33,125 @@
 
 	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-1 order-3">
-			Filter
+			<form class="events-filter">
+				<!-- filters -->
+				<div class="">
+					<div class="">
+						<span class="events-filter__additional-title">
+							Categories
+						</span>
+						<div class="events-filter__reset control-group">
+							<button class="control control-text" data-filter="all">
+								Reset
+							</button>
+						</div>
+					</div>
+					<div class="events-filter__dates control-group" data-filter-group="">
+						{% for control in site.2020-filter-maker-type %}
+						<div class="radio">
+							<label class="radio-label font-size-6">
+								<input name="additional-filters" type="radio" data-filter="{{ control.filter }}" />
+								{{ control.text-1 }}
+							</label>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</form>
+
 		</div>
 		<div class="grid-col grid-col--span-3 order-3">
-			<ul class="grid">
-				{% for member in site.2020-makers %}
-				<li class="card card--makers">
+			<ul class="grid  container mixitup-container">
+				{% for maker in site.2020-makers %}
+				<li class="card card--makers mix              
+				{% if maker.maker-type.is-art-prints == true %} art-prints
+				{% elsif maker.maker-type.is-paper-goods == true %} paper-goods
+				{% elsif maker.maker-type.is-clothing-apparel == true %} clothing-apparel
+				{% elsif maker.maker-type.is-food == true %} food
+				{% elsif maker.maker-type.is-accessories == true %} accessories
+				{% elsif maker.maker-type.is-home-goods == true %} home-goods
+				{% elsif maker.maker-type.is-wild-card == true %} wild-card
+				{% endif %}">
 					<!-- Modal Trigger -->
-					<a data-modal="#{{ member.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}"
-						href="/makers/directory/#{{ member.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
+					<a data-modal="#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}"
+						href="/makers/directory/#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
 						<div class="card__aside">
 							<figure class="card__image">
-								<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+								<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
 							</figure>
 						</div>
 					</a>
 					<div class="card__body">
-						<h3 class="card__title">{{ member.name }}</h3>
-						<p class="card__subtitle">{{ member.description-short }}</p>
+						<h3 class="card__title">{{ maker.name }}</h3>
+						<p class="card__subtitle">{{ maker.description-short }}</p>
+						<p class="card__type">{% if maker.maker-type.is-art-prints == true %} #Art + Prints
+							{% elsif maker.maker-type.is-paper-goods == true %} #Paper Goods
+							{% elsif maker.maker-type.is-clothing-apparel == true %} #Clothing + Apparel
+							{% elsif maker.maker-type.is-food == true %} #Food
+							{% elsif maker.maker-type.is-accessories == true %} #Accessories
+							{% elsif maker.maker-type.is-home-goods == true %} #Home Goods
+							{% elsif maker.maker-type.is-wild-card == true %} #Wild Card
+							{% endif %}</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal modal-medium" data-modal-window
+						id="{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
+						<div class="modal-content">
+							<div class="modal-content--left">
+								<div class="modal__aside">
+									<figure class="modal__image">
+										<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
+									</figure>
+								</div>
+							</div>
+							<div class="modal-content--right">
+								<div class="modal-content-header">
+									<button class="button button__link button__link--white" data-modal-close>Close</button>
+								</div>
+								<h2 class="modal__title">{{ maker.name }}</h2>
+								<div class="modal__links">
+									{% if maker.website-url-1 %}
+									<p>
+										<a aria-label="{{ maker.website-aria-label-1 }}" class="card__link" href="{{ maker.website-url-1 }}"
+											rel="noopener noreferrer" target="_blank">{{ maker.website-label-1 }}</a>
+									</p>
+									{% endif %}
+									{% if maker.website-url-2 %}
+									<p>
+										<a aria-label="{{ maker.website-aria-label-2 }}" class="card__link" href="{{ maker.website-url-2 }}"
+											rel="noopener noreferrer" target="_blank">{{ maker.website-label-2 }}</a>
+									</p>
+									{% endif %}
+									{% if maker.website-url-3 %}
+									<p>
+										<a aria-label="{{ maker.website-aria-label-3 }}" class="card__link" href="{{ maker.website-url-3 }}"
+											rel="noopener noreferrer" target="_blank">{{ maker.website-label-3 }}</a>
+									</p>
+									{% endif %}
+								</div>
+								<p class="card__subtitle">{{ maker.description-long }}</p>
+							</div>
+						</div>
 					</div>
 				</li>
-				<!-- Modal -->
-				<div class="modal modal-medium" data-modal-window
-					id="{{ member.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
-					<div class="modal-content">
-						<div class="modal-content--left">
-							<div class="modal__aside">
-								<figure class="modal__image">
-									<img src="{{ member.image }}" alt="{{ member.image-alt }}" />
-								</figure>
-							</div>
-						</div>
-						<div class="modal-content--right">
-							<div class="modal-content-header">
-								<button class="button button__link button__link--white" data-modal-close>Close</button>
-							</div>
-							<h2 class="modal__title">{{ member.name }}</h2>
-							<div class="modal__links">
-								{% if member.website-url-1 %}
-								<p>
-									<a aria-label="{{ member.website-aria-label-1 }}" class="card__link" href="{{ member.website-url-1 }}"
-										rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
-								</p>
-								{% endif %}
-								{% if member.website-url-2 %}
-								<p>
-									<a aria-label="{{ member.website-aria-label-2 }}" class="card__link" href="{{ member.website-url-2 }}"
-										rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
-								</p>
-								{% endif %}
-								{% if member.website-url-3 %}
-								<p>
-									<a aria-label="{{ member.website-aria-label-3 }}" class="card__link" href="{{ member.website-url-3 }}"
-										rel="noopener noreferrer" target="_blank">{{ member.website-label-3 }}</a>
-								</p>
-								{% endif %}
-							</div>
-							<p class="card__subtitle">{{ member.description-long }}</p>
-						</div>
-					</div>
-				</div>
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
 </section>
+
+<!-- mixitup -->
+<script>
+	var containerEl = document.querySelector(".mixitup-container");
+	var mixer = mixitup(containerEl, {
+		multifilter: {
+			enable: false,
+		},
+		animation: {
+			enable: false,
+		},
+	});
+</script>
 
 <script>
 	modals.init({

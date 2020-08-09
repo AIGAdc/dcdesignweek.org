@@ -1,17 +1,54 @@
 // overrides global grid to be 3 columns instead of 4
-.makers-directory-layout ul.grid {
-	grid-template-columns: repeat(3, 1fr);
-}
-
+.makers-directory-layout ul.grid,
 .modal-content {
 	display: grid;
-	grid-template-columns: repeat(2, 2fr);
+	grid-template-columns: 1fr;
 }
 
 .modal-content--left {
 	margin-right: $spacing-32;
 }
 
-.modal-content-header button {
+.makers-directory-layout .events-filter {
+	position: sticky;
+	top: 116px;
+}
 
+.modal-content-header button {}
+
+.card__type {
+
+	border: solid 1px $white;
+	color: $white;
+	font-family: $brand-font-terminus;
+	display: inline-block;
+	padding: $spacing-8;
+	font-weight: 700;
+	font-size: $font-size-12;
+}
+
+@media screen and (min-width: 639px) {
+	.makers-directory-layout ul.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.modal-content {
+		grid-template-columns: repeat(2, 2fr);
+	}
+}
+
+@media screen and (min-width: 1023px) {
+
+	// overrides global grid to be 3 columns instead of 4
+	.makers-directory-layout ul.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+}
+
+.radio,
+.radio-label {
+	display: block;
+	width: 100%;
+	cursor: pointer;
 }

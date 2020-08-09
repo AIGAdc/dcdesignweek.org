@@ -10,57 +10,61 @@
  */
 /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal {
-  background-color: $black;
-  display: none;
-  max-width: 100%;
-  padding: $spacing-32;
-  visibility: hidden;
-  z-index: 9999;
+	background-color: $black;
+	display: none;
+	max-width: 100%;
+	padding: $spacing-32;
+	visibility: hidden;
+	z-index: 9999;
 }
 
 @media (min-width: 40em) {
-  /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal {
-    max-width: 98%;
-  }
+
+	/* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+	.modal {
+		max-width: 98%;
+	}
 }
 
 /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal.active {
-  display: block;
-  height: 100%;
-  left: 0;
-  max-height: 100%;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  visibility: visible;
-  -webkit-overflow-scrolling: touch;
+	display: block;
+	height: 100%;
+	left: 0;
+	max-height: 100%;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: visible;
+	-webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 30em) {
-  /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal.active {
-    height: auto;
-    left: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    right: 3%;
-    top: 50px;
-  }
+
+	/* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+	.modal.active {
+		height: auto;
+		left: 3%;
+		margin-left: auto;
+		margin-right: auto;
+		right: 3%;
+		top: 50px;
+		box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+	}
 }
 
 @media (min-width: 40em) {
-  /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal.active.modal-medium {
-    width: 50em;
-  }
+
+	/* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+	.modal.active.modal-medium {
+		width: 50em;
+	}
 }
 
 /* line 54, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal:focus {
-  outline: none;
+	outline: none;
 }
 
 /**
@@ -68,12 +72,12 @@
  */
 /* line 63, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal-bg {
-  background-color: #272727;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  opacity: .9;
-  right: 0;
-  top: 0;
-  z-index: 9998;
+	background-color: $black;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	opacity: 0.75;
+	right: 0;
+	top: 0;
+	z-index: 9998;
 }
