@@ -47,7 +47,7 @@
 						</div>
 					</div>
 					<div class="events-filter__dates control-group" data-filter-group="">
-						{% for control in site.2020-filter-maker-type %}
+						{% for control in site.data.makers-filter.tags %}
 						<div class="radio">
 							<label class="radio-label font-size-6">
 								<input name="additional-filters" type="radio" data-filter="{{ control.filter }}" />
@@ -62,16 +62,15 @@
 		</div>
 		<div class="grid-col grid-col--span-3 order-3">
 			<ul class="grid  container mixitup-container">
-				{% for maker in site.2020-makers %}
-				<li class="card card--makers mix              
-				{% if maker.maker-type.is-art-prints == true %} art-prints
-				{% elsif maker.maker-type.is-paper-goods == true %} paper-goods
-				{% elsif maker.maker-type.is-clothing-apparel == true %} clothing-apparel
-				{% elsif maker.maker-type.is-food == true %} food
-				{% elsif maker.maker-type.is-accessories == true %} accessories
-				{% elsif maker.maker-type.is-home-goods == true %} home-goods
-				{% elsif maker.maker-type.is-wild-card == true %} wild-card
-				{% endif %}">
+				{% for maker in site.data.makers.2020-makers %}
+				<li class="card card--makers mix
+				{% if maker.type.is-art-prints == true %} art-prints {% endif %}
+				{% if maker.type.is-paper-goods == true %} paper-goods {% endif %}
+				{% if maker.type.is-clothing-apparel == true %} clothing-apparel {% endif %}
+				{% if maker.type.is-food == true %} food {% endif %}
+				{% if maker.type.is-accessories == true %} accessories {% endif %}
+				{% if maker.type.is-home-goods == true %} home-goods {% endif %}
+				{% if maker.type.is-wild-card == true %} wild-card {% endif %}">
 					<!-- Modal Trigger -->
 					<a data-modal="#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}"
 						href="/makers/directory/#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
@@ -84,31 +83,35 @@
 					<div class="card__body">
 						<h3 class="card__title">{{ maker.name }}</h3>
 						<p class="card__subtitle">{{ maker.description-short }}</p>
-						<p class="card__type">{% if maker.maker-type.is-art-prints == true %} #Art + Prints
-							{% elsif maker.maker-type.is-paper-goods == true %} #Paper Goods
-							{% elsif maker.maker-type.is-clothing-apparel == true %} #Clothing + Apparel
-							{% elsif maker.maker-type.is-food == true %} #Food
-							{% elsif maker.maker-type.is-accessories == true %} #Accessories
-							{% elsif maker.maker-type.is-home-goods == true %} #Home Goods
-							{% elsif maker.maker-type.is-wild-card == true %} #Wild Card
-							{% endif %}</p>
 					</div>
 					<!-- Modal -->
 					<div class="modal modal-medium" data-modal-window
 						id="{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
 						<div class="modal-content">
+
 							<div class="modal-content--left">
+
 								<div class="modal__aside">
 									<figure class="modal__image">
 										<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
 									</figure>
 								</div>
+
 							</div>
+
 							<div class="modal-content--right">
+
 								<div class="modal-content-header">
 									<button class="button button__link button__link--white" data-modal-close>Close</button>
 								</div>
-								<h2 class="modal__title">{{ maker.name }}</h2>
+
+								<div class="modal-content-info">
+									<h2 class="modal__title">{{ maker.name }}</h2>
+									<h3 class="card__title">{{ maker.role }}</h3>
+									<h3 class="card__title">{{ maker.pronouns }}</h3>
+									<h3 class="card__title">{{ maker.price-point }}</h3>
+								</div>
+
 								<div class="modal__links">
 									{% if maker.website-url-1 %}
 									<p>
@@ -129,8 +132,13 @@
 									</p>
 									{% endif %}
 								</div>
-								<p class="card__subtitle">{{ maker.description-long }}</p>
+
+								<div class="modal-content-body">
+									<p class="card__subtitle">{{ maker.description-long }}</p>
+								</div>
+
 							</div>
+
 						</div>
 					</div>
 				</li>

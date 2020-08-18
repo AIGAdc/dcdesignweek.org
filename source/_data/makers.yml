@@ -1,0 +1,150 @@
+2020-makers:
+#  maker-type:
+#    is-art-prints: false
+#    is-paper-goods: false
+#    is-clothing-apparel: false
+#    is-food: true
+#    is-accessories: false
+#    is-home-goods: false
+#    is-wild-card: false
+- image: "/uploads/md-BarcenasVioleta.jpg"
+  image-alt: Violeta Barcenas Chamorro's Artwork
+  name: <span>Violeta</span> <span>Barcenas</span> <span>Chamorro</span>
+  role: Art-Illustration
+  pronouns: She/Her
+  price-point: $5-28
+  website-url-1: https://violetredstudio.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Violeta Barcenas Chamorro's Website
+  description-short: My approach is exploration all the time. But constantly wanting that exploration to lead to a positive place. I enjoy a lot starting over. So making mistakes (on paper) and going back to them is one of my favorite exercises. 
+  description-long: I am from Nicaragua. In 2008, when I first went into business, the concept of an illustration store was never seen there. I was diagnosed with breast cancer the year before, so I guess I was very courageous after my brush with death, and decided to jump in, rent a place and start something new.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-SmithMakeda.jpg"
+  image-alt: Makeda Smith's Artwork
+  name: <span>Sio</span> <span>Ceramics</span>
+  role: Ceramics jewelry and small home goods
+  artist: Makeda Smith
+  pronouns: She/Her
+  price-point: $22 – 65
+  website-url-1: http://www.sioceramics.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Makeda Smith's Website
+  description-short: I make everything by hand with clay. All of the designs I create are made through play and creativity. I get inspiration from color and basic shapes.
+  description-long: I decided to go into business for myself because it’s also been a dream of mine to be a business owner. I always wanted to build something from the ground up that is mine. I wanted to show BIPOC that they can build, create, and be whatever they choose. It's a big statement to be a young black woman owning a business. I want others to be inspired and feel represented when they see my business.
+  type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: true
+    is-food: false
+    is-accessories: true
+    is-home-goods: true
+    is-wild-card: false
+- image: "/uploads/md-HudaAshfaq.jpg"
+  image-alt: Ashfaq Huda's Artwork
+  name: <span>Ashfaq</span> <span>Huda</span>
+  role: Pop art using photoshop on canvas and framed
+  pronouns: He/Him
+  price-point: $400
+  website-url-1: https://www.etsy.com/shop/urbanSutra
+  website-label-1: <i class="fas fa-store"></i> Shop
+  website-aria-label-1: Ashfaq Huda's Website
+  description-short: I make everything by hand with clay. All of the designs I create are made through play and creativity. I get inspiration from color and basic shapes.
+  description-long: I decided to go into business for myself because it’s also been a dream of mine to be a business owner. I always wanted to build something from the ground up that is mine. I wanted to show BIPOC that they can build, create, and be whatever they choose. It's a big statement to be a young black woman owning a business. I want others to be inspired and feel represented when they see my business.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-KingLaura.jpg"
+  image-alt: Laura King Paints' Artwork
+  name: <span>Laura</span> <span>King</span> <span>Paints</span>
+  role: Acrylic paintings inspired by nature and custom pet portraits
+  artist: Laura King
+  pronouns: She/Her
+  price-point: $1-40 (goods), $40-150 (original paintings)
+  website-url-1: http://laurakingpaints.etsy.com/
+  website-label-1: <i class="fas fa-store"></i> Shop
+  website-aria-label-1: Laura King Paints' Shop
+  website-url-2: https://www.instagram.com/laurakingpaints
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Laura King Paints' Instagram
+  description-short: I spend a lot of time outside and am inspired by my favorite plants and animals, including one of my favorite subjects, bees! For my original paintings and custom pet portraits, I use acrylic paint on paper, canvasses, and wood slices. From my art, I create art prints, greeting cards, postcards, and stickers.
+  description-long: I find so much joy in creating pieces that inspire people and remind them to enjoy and find beauty in nature, and in being able to capture pets in a way that their owners will cherish forever.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: true
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-KriebelMarcella.jpg"
+  image-alt: Marcella Kriebel Art + Illustration's Artwork
+  name: <span>Marcella</span> <span>Kriebel</span> <span>Art</span> <span>and</span> <span>Illustration</span>
+  role: Food-themed watercolors
+  artist: Marcella Kriebel 
+  pronouns: She/Her
+  price-point: $5-40
+  website-url-1: http://www.marcellakriebel.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Marcella Kriebel Art + Illustration's Website
+  website-url-2: https://www.instagram.com/marcellakriebel
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Marcella Kriebel Art + Illustration's Instagram
+  description-short: I create watercolors that are designed as a mix and match series of food related art prints. From cocktail recipes and bacon, to blueberries and blue crab, there's something for everybody. In addition to the prints, I offer greeting cards featuring my art, and my illustrated cookbooks that celebrate recipes from my travels. My newest project is Small Batch — a collection of recipes and stories from foodies in the DMV.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: true
+    is-home-goods: true
+    is-wild-card: false
+- image: "/uploads/md-LeviMiriam.jpg"
+  image-alt: Miriam Levi Design's Artwork
+  name: <span>Miriam</span> <span>Levi</span> <span>Design</span>
+  role: Painter and graphic designer
+  artist: Miriam Levi
+  pronouns: She/Her
+  price-point: $50–200
+  website-url-1: https://miriamrlevi.myportfolio.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Miriam Levi Design's Website
+  description-short: My work is whimsical, lighthearted, inspirational, but can be edgy.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-walkerSeshat.jpg"
+  image-alt: FND ART's Artwork
+  name: <span>FND</span> <span>ART</span> 
+  role: Reimagined artifacts and repurposed vintage finds
+  artist: Seshat Walker
+  pronouns: She/Her
+  price-point: $15–300
+  website-url-1: http://www.fndart.co
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: FND ART's Website
+  description-short: I create original art and pieces designed and/or re-imagined in ways that present new narratives and functionalities. 
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: true
+    is-wild-card: true
