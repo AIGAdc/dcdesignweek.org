@@ -1,6 +1,5 @@
 {% if page.url == "/" %}
 
-<!-- hero: home -->
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <div class="section hero hero--home">
@@ -63,7 +62,22 @@
 
 {% elsif page.url == "/makers/" %}
 
-<!-- hero: makers -->
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<div class="section hero--makers">
+	<div class="grid">
+		<div class="grid-col grid-col--span-4">
+			<figure>
+				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
+			</figure>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% elsif page.url == "/makers/directory" %}
+
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <div class="section hero--makers">
