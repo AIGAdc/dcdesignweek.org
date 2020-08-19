@@ -320,8 +320,8 @@
   type:
     is-art-prints: true
     is-clothing-apparel: true
-- image:
-  image-alt:
+- image: "/uploads/md-PurserAshley.jpg"
+  image-alt: Ashley Purser's Artwork
   name: Purser Weddings
   role: Wedding and event stationery
   artist: Ashley Purser
