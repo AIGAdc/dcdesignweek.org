@@ -148,3 +148,44 @@
     is-accessories: false
     is-home-goods: true
     is-wild-card: true
+- image: "/uploads/md-RaderDan.jpg"
+  image-alt: Moon Lighter Ceramics' Artwork
+  name: <span>Moon</span> <span>Lighter</span> <span>Ceramics</span>
+  role: Ceramics
+  artist: Dan Rader
+  pronouns: He/Him
+  price-point: $25-85
+  website-url-1: https://www.instagram.com/moon.lighter.ceramics/
+  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-1: Moon Lighter Ceramics' Instagram
+  description-short: Five-to-nine ceramics for nine-to-five people. Pottery in the pursuit of the beautiful, interesting, and useful.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-NordbergErica.jpg"
+  image-alt: Erica Nordberg's Artwork
+  name: <span>Erica</span> <span>Nordberg</span>
+  role: Painter
+  artist: Erica Nordberg
+  pronouns: She/Her
+  price-point: Originals $100 – 350, Prints $20 – 25
+  website-url-1: http://www.ericanordberg.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Erica Nordberg's Website
+  website-url-2: https://www.instagram.com/erica.nordberg/
+  website-label-2: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-2: Erica Nordberg's Instagram
+  description-short: I paint, mostly in watercolor. I have recently joined the Capital Artist Collective and launched my own website where I post/sell original work and prints. I plan to continue to grow my portfolio and my shop!
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false

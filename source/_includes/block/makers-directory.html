@@ -62,7 +62,8 @@
 		</div>
 		<div class="grid-col grid-col--span-3 order-3">
 			<ul class="grid  container mixitup-container">
-				{% for maker in site.data.makers.2020-makers %}
+				{% assign sorted_makers = site.data.makers.2020-makers | sort: "name"  %}
+				{% for maker in sorted_makers %}
 				<li class="card card--makers mix
 				{% if maker.type.is-art-prints == true %} art-prints {% endif %}
 				{% if maker.type.is-paper-goods == true %} paper-goods {% endif %}
