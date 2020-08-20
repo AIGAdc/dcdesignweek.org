@@ -2,7 +2,8 @@
 	@include flex-column;
 }
 
-.card>*+* {
+.card>*+*,
+.card__body>*+* {
 	margin-top: $spacing-16;
 }
 
@@ -41,7 +42,8 @@
 }
 
 .card--past-editions .card__image,
-.card--sponsors .card__image {
+.card--sponsors .card__image,
+.card--makers .card__image {
 	border: solid 1px $white;
 }
 
@@ -77,8 +79,7 @@
 	@include no-grayscale;
 }
 
-// Refactor Everything Below
-
+// TODO: Refactor Everything Below
 /* ticker */
 
 .ticker {

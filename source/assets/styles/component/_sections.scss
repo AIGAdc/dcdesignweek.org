@@ -1,5 +1,5 @@
 .section {
-	
+
 	padding: $spacing-80 $spacing-32;
 	position: relative;
 }
@@ -26,4 +26,13 @@
 		padding-bottom: $spacing-120;
 		padding-top: $spacing-120;
 	}
+}
+
+.border-0 {
+	border: none !important;
+}
+
+.spacing-top-0 {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
 }

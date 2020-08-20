@@ -1,17 +1,13 @@
-	<div class="grid" style="margin-top: 32px;">
+<section class="section section--maker-grid border-0 spacing-top-0">
+	<div class="grid">
 		<div class="grid-col grid-col--span-1 order-3">
 			<form class="events-filter">
 				<!-- filters -->
-				<div class="">
-					<div class="">
+				<div>
+					<div>
 						<span class="events-filter__additional-title">
 							Categories
 						</span>
-						<div class="events-filter__reset control-group">
-							<button class="control control-text" data-filter="all">
-								Reset
-							</button>
-						</div>
 					</div>
 					<div class="events-filter__dates control-group" data-filter-group="">
 						{% for control in site.data.makers-filter.tags %}
@@ -22,6 +18,11 @@
 							</label>
 						</div>
 						{% endfor %}
+					</div>
+					<div class="events-filter__reset control-group">
+						<button class="control control-text" data-filter="all">
+							Reset
+						</button>
 					</div>
 				</div>
 			</form>
@@ -39,76 +40,8 @@
 				{% if maker.type.is-accessories == true %} accessories {% endif %}
 				{% if maker.type.is-home-goods == true %} home-goods {% endif %}
 				{% if maker.type.is-wild-card == true %} wild-card {% endif %}">
-					<!-- Modal Trigger -->
-					<a data-modal="#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}"
-						href="/makers/directory/#{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
-						<div class="card__aside">
-							<figure class="card__image">
-								<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
-							</figure>
-						</div>
-					</a>
-					<div class="card__body">
-						<h3 class="card__title">{{ maker.name }}</h3>
-						<p class="card__subtitle">{{ maker.description-short }}</p>
-					</div>
-					<!-- Modal -->
-					<div class="modal modal-medium" data-modal-window
-						id="{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
-						<div class="modal-content">
-
-							<div class="modal-content--left">
-
-								<div class="modal__aside">
-									<figure class="modal__image">
-										<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
-									</figure>
-								</div>
-
-							</div>
-
-							<div class="modal-content--right">
-
-								<div class="modal-content-header">
-									<button class="button button__link button__link--white" data-modal-close>Close</button>
-								</div>
-
-								<div class="modal-content-info">
-									<h2 class="modal__title">{{ maker.name }}</h2>
-									<h3 class="card__title">{{ maker.role }}</h3>
-									<h3 class="card__title">{{ maker.pronouns }}</h3>
-									<h3 class="card__title">{{ maker.price-point }}</h3>
-								</div>
-
-								<div class="modal__links">
-									{% if maker.website-url-1 %}
-									<p>
-										<a aria-label="{{ maker.website-aria-label-1 }}" class="card__link" href="{{ maker.website-url-1 }}"
-											rel="noopener noreferrer" target="_blank">{{ maker.website-label-1 }}</a>
-									</p>
-									{% endif %}
-									{% if maker.website-url-2 %}
-									<p>
-										<a aria-label="{{ maker.website-aria-label-2 }}" class="card__link" href="{{ maker.website-url-2 }}"
-											rel="noopener noreferrer" target="_blank">{{ maker.website-label-2 }}</a>
-									</p>
-									{% endif %}
-									{% if maker.website-url-3 %}
-									<p>
-										<a aria-label="{{ maker.website-aria-label-3 }}" class="card__link" href="{{ maker.website-url-3 }}"
-											rel="noopener noreferrer" target="_blank">{{ maker.website-label-3 }}</a>
-									</p>
-									{% endif %}
-								</div>
-
-								<div class="modal-content-body">
-									<p class="card__subtitle">{{ maker.description-long }}</p>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
+					{% include block/partials/makers-directory-modal-trigger.html %}
+					{% include block/partials/makers-directory-modal-content.html %}
 				</li>
 				{% endfor %}
 			</ul>
