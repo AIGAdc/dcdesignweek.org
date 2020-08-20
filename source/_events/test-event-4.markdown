@@ -3,9 +3,7 @@ title: Test Event 4
 date: 2019-09-04 12:00:00 -04:00
 published: true
 position: 1
-description: Join AIGA DC & DC Design Week as we celebrate the start of DC Design
-  Week 2019 with music from Shaolin Jazz and an exhibition with Globe Collection and
-  Press at MICA at Big Chief in Ivy City!
+description: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit
 status:
   is-coming-soon: false
   coming-soon-message: This Event is Coming Soon.
@@ -13,12 +11,12 @@ status:
   sold-out-message: This Event is Sold Out.
   is-featured-on-events: true
   is-featured-on-home: true
-  featured-event-message: This Event is SUPER Special.
+  featured-event-message:
   has-occured: false
   occured-message: This Event has Passed.
 event:
   date: 2019-09-23 18:00:00 -04:00
-  image: "/uploads/dcdw-2016-pattern.jpg"
+  image: "/uploads/Design-for-Cognitive-Bias.png"
   start-time: 6:00pm
   end-time: 9:00pm
   has-external-url: false

@@ -1,61 +1,68 @@
-<section class="section section__landing-hero event-single__hero" style="background-image:url('{{ page.event.image }}');">
-	<div class="event-single__overlay">
-	</div>
-	<div class="event-single__hero-content container">
-		<h1>
-			{{ page.title }}
-		</h1>
-		<p>
-			{{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
-		</p>
-		{% if page.tickets.has-member-button == true %}
-		{% if page.status.has-occurred == true %}
-		<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
-			{% else %}
-			<a class="button button__border button__border--white" href="{{ page.tickets.member-button-url }}" rel="noopener"
-				target="_blank">
-				{% endif %}
-				{{ page.tickets.member-button-label }}
-			</a>
-			{% endif %}
-
-			{% if page.tickets.has-non-member-button == true %}
-			{% if page.status.has-occurred == true %}
-			<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
-				{% else %}
-				<a class="button button__border button__border--white" href="{{ page.tickets.non-member-button-url }}"
-					rel="noopener" target="_blank">
+<section class="section section__event-landing-hero spacing-0">
+	<div class="grid">
+		<div class="[ grid-col grid-col--span-4 ] [ event-landing-hero__content ]"
+			style="background-image:url('/uploads/Design-for-Cognitive-Bias.png'); min-height: 60vh; background-position: center; background-size: cover; background-repeat: no-repeat;">
+			<div class="event-landing-hero__details">
+				<h1>
+					{{ page.title }}
+				</h1>
+				<p>
+					{{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
+				</p>
+				{% if page.tickets.has-member-button == true %}
+				{% if page.status.has-occurred == true %}
+				<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
+					{% else %}
+					<a class="button button__border button__border--white" href="{{ page.tickets.member-button-url }}"
+						rel="noopener" target="_blank">
+						{% endif %}
+						{{ page.tickets.member-button-label }}
+					</a>
 					{% endif %}
-					{{ page.tickets.non-member-button-label }}
-				</a>
-				{% endif %}
+
+					{% if page.tickets.has-non-member-button == true %}
+					{% if page.status.has-occurred == true %}
+					<a class="button button__border button__border--white disabled" rel="noopener" target="_blank">
+						{% else %}
+						<a class="button button__border button__border--white" href="{{ page.tickets.non-member-button-url }}"
+							rel="noopener" target="_blank">
+							{% endif %}
+							{{ page.tickets.non-member-button-label }}
+						</a>
+						{% endif %}
+			</div>
+			<div class="event-landing-hero__overlay spacing-0"></div>
+		</div>
 	</div>
-	{% if page.status.is-sold-out == true %}
-	<div class="ticker ticker--sold-out">
-		<p>
-			{{ page.status.sold-out-message }}
-		</p>
-	</div>
-	{% endif %}
-	{% if page.status.is-coming-soon == true %}
-	<div class="ticker ticker--coming-soon">
-		<p>
-			{{ page.status.coming-soon-message }}
-		</p>
-	</div>
-	{% endif %}
-	{% if page.status.is-featured-on-events == true %}
-	<div class="ticker ticker--featured">
-		<p>
-			{{ page.status.featured-event-message }}
-		</p>
-	</div>
-	{% endif %}
-	{% if page.status.has-occurred == true %}
-	<div class="ticker ticker--past-event">
-		<p>
-			{{ page.status.has-occurred-message }}
-		</p>
-	</div>
-	{% endif %}
 </section>
+
+{% comment %}
+{% if page.status.is-sold-out == true %}
+<div class="ticker ticker--sold-out">
+	<p>
+		{{ page.status.sold-out-message }}
+	</p>
+</div>
+{% endif %}
+{% if page.status.is-coming-soon == true %}
+<div class="ticker ticker--coming-soon">
+	<p>
+		{{ page.status.coming-soon-message }}
+	</p>
+</div>
+{% endif %}
+{% if page.status.is-featured-on-events == true %}
+<div class="ticker ticker--featured">
+	<p>
+		{{ page.status.featured-event-message }}
+	</p>
+</div>
+{% endif %}
+{% if page.status.has-occurred == true %}
+<div class="ticker ticker--past-event">
+	<p>
+		{{ page.status.has-occurred-message }}
+	</p>
+</div>
+{% endif %}
+{% endcomment %}

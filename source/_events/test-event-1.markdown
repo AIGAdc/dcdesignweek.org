@@ -2,10 +2,7 @@
 title: Test Event 1
 date: 2019-09-01 14:27:00 -04:00
 published: true
-description: Come party at the end of an amazing week with us at Capitol Cider House!
-  Drink locally-made cider, sketch in your notebooks, and meet the creative team behind
-  the cidery’s branding and website. Stick around for a special performance of local
-  bands and artists.
+description: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet
 status:
   is-coming-soon: false
   coming-soon-message: 
@@ -18,7 +15,7 @@ status:
   occured-message:
 event:
   date: 2019-09-20 20:00:00 -04:00
-  image: "/uploads/dcdw-2016-pattern.jpg"
+  image: "/uploads/Design-for-Cognitive-Bias.png"
   image-alt: Capitol Cider House branding
   start-time: 8:00pm
   end-time: 11:00pm
