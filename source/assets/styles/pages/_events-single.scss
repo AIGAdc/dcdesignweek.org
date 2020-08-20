@@ -114,3 +114,30 @@ ol {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+
+/* New */
+.events-landing-layout {
+	background: $white;
+	color: $black;
+}
+
+.events-landing-layout h1 span:nth-child(2n+1), 
+.events-landing-layout h1 span:nth-child(2n), 
+.events-landing-layout h2 span:nth-child(2n+1), 
+.events-landing-layout h2 span:nth-child(2n) {
+	color: $black;
+}
+
+.events-landing-layout .section:not(:first-of-type) {
+	border-top: solid 1px $black;
+}
+
+.events-landing-layout .site-footer {
+	background-color: $black;
+	color: $white;
+}
+
+.events-landing-layout .site-footer a {
+	color: $white;
+}
