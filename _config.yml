@@ -2,8 +2,8 @@
 title: DC Design Week 2020
 timezone: America/New_York
 collections:
-  events-dcdw:
-    title: Events - DCDW
+  events:
+    title: Events
     output: true
     permalink: "/events/:title/"
   posts:
@@ -22,7 +22,7 @@ defaults:
       Join us!
 - scope:
     path: ''
-    type: posts
+    type: events
   values:
     description: 
     status:
@@ -39,7 +39,7 @@ defaults:
       image-alt: 
       start-time: 
       end-time: 
-      has-external-url: false
+      has-external-url: 
       external-url: 
       has-speakers: 
     tickets:
@@ -74,7 +74,7 @@ defaults:
     filter-time:
       is-morning: 
       is-daytime: 
-      is-evening: markdown
+      is-evening: 
       is-screening: 
       is-party: 
       is-family-friendly: 
@@ -85,7 +85,7 @@ defaults:
       is-dc: 
       is-md: 
       is-va: 
-    layout: events-single
+    layout: events-landing
 filter-date:
 - filter: ".day-1"
   class: day-1
