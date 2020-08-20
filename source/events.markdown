@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-published: false
+published: true
 has-hero: true
 hero:
 - tagline: 

@@ -4,12 +4,12 @@
 			{% if site.past-editions.header %}
 			<h2 class="grid-col--span-90"
 				id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				Homepage Variable
+				Page Variable
 			</h2>
 			{% endif %}
 			{% if site.past-editions.body %}
 			<p>
-				Homepage Variable
+				Page Variable
 			</p>
 			{% endif %}
 		</div>
@@ -44,6 +44,14 @@
 		</div>
 	</div>
 
+	{% if page.url == "/events/" %}
+	<div class="grid" style="margin-top: 32px">
+		<div class="grid-col grid-col--span-4">
+			{% include event-filter.html %}
+		</div>
+	</div>
+	{% endif %}
+
 	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4">
 			<ul class="grid mixitup-container">
@@ -57,12 +65,13 @@
 		</div>
 	</div>
 
+	{% if page.url == "/" %}
 	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4">
-			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="#Homepage-Variable">
-				Homepage Variable
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="#Page-Variable">
+				Page Variable
 			</a>
 		</div>
 	</div>
+	{% endif %}
 </section>

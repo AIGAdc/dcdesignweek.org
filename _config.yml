@@ -555,6 +555,9 @@ navigation-placeholder:
 - url: https://2019.dcdesignweek.org
   label: 2019
 navigation-teaser:
+- url: "/events/"
+  label: Events
+  aria-label: Events Page
 - url: "/about/"
   label: About
   aria-label: About Page
