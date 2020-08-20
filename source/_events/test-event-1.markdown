@@ -1,20 +1,24 @@
 ---
 title: Test Event 1
-date: 2019-09-02 14:27:00 -04:00
-published: false
+date: 2019-09-01 14:27:00 -04:00
+published: true
 description: Come party at the end of an amazing week with us at Capitol Cider House!
   Drink locally-made cider, sketch in your notebooks, and meet the creative team behind
   the cidery’s branding and website. Stick around for a special performance of local
   bands and artists.
 status:
+  is-coming-soon: false
+  coming-soon-message: 
+  is-sold-out: true
+  sold-out-message: This Event is Sold Out.
   is-featured-on-events: true
   is-featured-on-home: true
-  featured-event-message: 'I WANNA DANCE WITH SOMEBODY ♫ '
-  has-occurred: false
-  has-occurred-message: " Event Passed — Event Passed "
+  featured-event-message:
+  has-occured: false
+  occured-message:
 event:
-  date: 2019-09-27 20:00:00 -04:00
-  image: "/uploads/capcider.png"
+  date: 2019-09-20 20:00:00 -04:00
+  image: "/uploads/dcdw-2016-pattern.jpg"
   image-alt: Capitol Cider House branding
   start-time: 8:00pm
   end-time: 11:00pm

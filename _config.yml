@@ -33,6 +33,8 @@ defaults:
       is-featured-on-events: 
       is-featured-on-home: 
       featured-event-message: 
+      has-occured:
+      occured-message:
     event:
       date: 
       image: 
