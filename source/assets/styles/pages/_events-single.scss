@@ -53,7 +53,7 @@ ol {
 
 .event-single__speakers-list {
 	display: grid;
-	grid-gap: $spacing-8;
+	grid-gap: $spacing-32;
 	grid-template-columns: 1fr;
 }
 
@@ -107,7 +107,7 @@ ol {
 	border-top: solid 1px $black;
 }
 
-.event-landing-hero__content {
+.landing-hero__content {
 	align-items: center;
 	background-position: center;
 	background-size: cover;
@@ -119,50 +119,50 @@ ol {
 	width: 100%;
 }
 
-.event-landing-hero__details>* {
+.landing-hero__details>* {
 	margin-top: 32px;
 }
 
-.event-landing-hero__details {
+.landing-hero__details {
 	position: relative;
 	z-index: $index-2;
 }
 
-.event-landing-hero__tickets {
+.landing-hero__tickets {
 	display: flex;
 	flex-direction: column;
 }
 
-.event-landing-hero__tickets .button:last-child {
+.landing-hero__tickets .button:last-child {
 	margin-top: $spacing-16;
 }
 
 // @media screen and (min-width: 659px) {
-// 	.event-landing-hero__tickets .button:last-child {
+// 	.landing-hero__tickets .button:last-child {
 // 		margin-left: $spacing-16;
 // 		margin-top: 0;
 // 	}
 // }
 
 @media screen and (min-width: 1023px) {
-	.event-landing-hero__tickets {
+	.landing-hero__tickets {
 		flex-direction: row;
 	}
-	
-	.event-landing-hero__tickets .button:last-child {
+
+	.landing-hero__tickets .button:last-child {
 		margin-left: $spacing-48;
 		margin-top: 0;
 	}
 }
 
-.event-landing-hero__overlay {
+.landing-hero__overlay {
 	background-color: $black;
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0.60;
 }
 
 .events-landing-layout .site-footer {

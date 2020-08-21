@@ -90,7 +90,7 @@ h4 {
 @mixin anchor {
 	color: $green;
 	cursor: pointer;
-	text-decoration: none;
+	text-decoration: underline;
 	transition: opacity $timing-default ease-in;
 }
 

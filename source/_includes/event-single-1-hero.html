@@ -1,15 +1,15 @@
-<section class="section section__event-landing-hero spacing-0">
+<section class="section section__landing-hero spacing-0">
 	<div class="grid">
-		<div class="grid-col grid-col--span-4 event-landing-hero__content"
+		<div class="grid-col grid-col--span-4 landing-hero__content"
 			style="background-image:url('/uploads/Design-for-Cognitive-Bias.png');">
-			<div class="event-landing-hero__details">
+			<div class="landing-hero__details">
 				<h1>
 					{{ page.title }}
 				</h1>
 				<p>
 					{{ page.event.date | date: "%A / %B %d / %l:%M %p" }}
 				</p>
-				<div class="event-landing-hero__tickets">
+				<div class="landing-hero__tickets">
 					{% if page.tickets.has-member-button == true %}
 					<a class="button button__border button__border--white {% if page.status.has-occurred == true %} disabled {% endif %}%"
 						href="{% if page.status.has-occurred == true %} {% else %} {{ page.tickets.member-button-url }} {% endif %}"
@@ -22,7 +22,7 @@
 					{% endif %}
 				</div>
 			</div>
-			<div class="event-landing-hero__overlay spacing-0"></div>
+			<div class="landing-hero__overlay spacing-0"></div>
 		</div>
 	</div>
 </section>
