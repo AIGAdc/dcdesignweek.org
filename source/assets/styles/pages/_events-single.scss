@@ -96,6 +96,10 @@ ol {
 	color: $black;
 }
 
+.events-landing-layout a {
+	color: $black;
+}
+
 .events-landing-layout h1 span:nth-child(2n+1),
 .events-landing-layout h1 span:nth-child(2n),
 .events-landing-layout h2 span:nth-child(2n+1),
@@ -129,6 +133,12 @@ ol {
 }
 
 .landing-hero__tickets {
+	display: flex;
+	flex-direction: column;
+}
+
+.landing-hero__tickets a {
+	color: $white;
 	display: flex;
 	flex-direction: column;
 }
