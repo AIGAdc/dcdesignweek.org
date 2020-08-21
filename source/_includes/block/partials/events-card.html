@@ -4,7 +4,7 @@
 	<div class="card__aside">
 		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
 			<figure class="card__image shadow-reverse shadow-reverse--green">
-				<img src="{{ event.event.image }}" alt="{{ event.event.image-alt }}" />
+				<img src="{{ event.image }}" alt="{{ event.image-alt }}" />
 			</figure>
 		</a>
 		{% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
@@ -22,9 +22,9 @@
 			<p>{{ event.status.sold-out-message }}</p>
 		</div>
 		{% endif %}
-		{% if event.status.has-occured == true and event.status.occured-message %}
+		{% if event.status.has-occurred == true and event.status.occurred-message %}
 		<div class="ticker ticker--occured">
-			<p>{{ event.status.occured-message }}</p>
+			<p>{{ event.status.occurred-message }}</p>
 		</div>
 		{% endif %}
 	</div>
@@ -38,15 +38,15 @@
 	<div class="card-details">
 		<div class="card-date">
 			<p class="day">
-				{{ event.event.date | date: "%a"}}
+				{{ event.date-event | date: "%a"}}
 			</p>
 			<p class="date">
-				{{ event.event.date | date: "%m.%d"}}
+				{{ event.date-event | date: "%m.%d"}}
 			</p>
 		</div>
 		<div class="card-info">
 			<p>
-				{{ event.event.start-time }} - {{ event.event.end-time }}
+				{{ event.time-start }}
 			</p>
 			<p>
 				{{ event.venue.name }}

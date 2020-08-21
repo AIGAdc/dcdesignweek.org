@@ -1,4 +1,4 @@
-{% if page.event.has-speakers == true %}
+{% if page.has-speakers == true %}
 <section class="section section--landing-content">
 	<div class="grid">
 		<div class="grid-col grid-col--span-4">
@@ -12,7 +12,7 @@
 						{{ speaker.name }}
 					</h3>
 					{% if speaker.title %}
-					<p class="font-weight-700">
+					<p>
 						{{ speaker.title }}
 					</p>
 					{% endif %}

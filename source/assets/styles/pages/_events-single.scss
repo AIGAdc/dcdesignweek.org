@@ -96,12 +96,17 @@ ol {
 	color: $black;
 }
 
-.events-landing-layout a {
-	color: $black;
+.events-landing-layout path {
+	fill: $black;
 }
 
-.events-landing-layout .link a {
-	color: $white;
+.events-landing-layout .site-header {
+	background-color: $white;
+	border-bottom: solid 1px $black;
+}
+
+.events-landing-layout a {
+	color: $black;
 }
 
 .events-landing-layout h1 span:nth-child(2n+1),
@@ -109,6 +114,11 @@ ol {
 .events-landing-layout h2 span:nth-child(2n+1),
 .events-landing-layout h2 span:nth-child(2n) {
 	color: $black;
+}
+
+.events-landing-layout h1 span::after,
+.events-landing-layout h2 span::after {
+	background-color: $black;
 }
 
 .events-landing-layout .section:not(:first-of-type) {
@@ -120,7 +130,6 @@ ol {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: $white;
 	display: flex;
 	min-height: 60vh;
 	padding: 32px;
@@ -142,7 +151,6 @@ ol {
 }
 
 .landing-hero__tickets a {
-	color: $white;
 	display: flex;
 	flex-direction: column;
 }
@@ -150,13 +158,6 @@ ol {
 .landing-hero__tickets .button:last-child {
 	margin-top: $spacing-16;
 }
-
-// @media screen and (min-width: 659px) {
-// 	.landing-hero__tickets .button:last-child {
-// 		margin-left: $spacing-16;
-// 		margin-top: 0;
-// 	}
-// }
 
 @media screen and (min-width: 1023px) {
 	.landing-hero__tickets {
@@ -170,13 +171,13 @@ ol {
 }
 
 .landing-hero__overlay {
-	background-color: $black;
+	background-color: $white;
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0.60;
+	opacity: 0.5;
 }
 
 .events-landing-layout .site-footer {

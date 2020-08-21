@@ -1,69 +1,63 @@
 ---
-title: Test Event 1
-date: 2019-09-01 14:27:00 -04:00
 published: true
-description: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet
+title: <span>Zine</span> <span>for</span> <span>Change</span>
+date: 2019-09-01 14:27:00 -04:00
+date-event: 2020-09-23 19:00:00 -04:00
+time-start: 7:00 PM
+time-end: 8:00 PM
+image: "/uploads/Design-for-Cognitive-Bias.png"
+image-alt: Image Alt Text
+description: For years, artists have used magazines to communicate their visions and ignite change. Get a closer look at two different approaches for independent publishing and making zines.
 status:
-  is-coming-soon: false
-  coming-soon-message: 
+  is-featured-on-home: true
+  featured-home-message:
+  is-featured-on-events: true
+  featured-event-message:
   is-sold-out: true
   sold-out-message: This Event is Sold Out.
-  is-featured-on-events: true
-  is-featured-on-home: true
-  featured-event-message:
-  has-occured: false
-  occured-message:
-event:
-  date: 2019-09-20 20:00:00 -04:00
-  image: "/uploads/Design-for-Cognitive-Bias.png"
-  image-alt: Capitol Cider House branding
-  start-time: 8:00pm
-  end-time: 11:00pm
-  has-speakers: true
+  is-coming-soon: false
+  coming-soon-message:
+  has-occurred: true
+  occurred-message:
 tickets:
   has-member-button: true
-  member-button-url: #
-  member-button-label: Members (AIGA URL)
+  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-label: $10 - Members
   has-non-member-button: true
-  non-member-button-url: #
-  non-member-button-label: Non-Members (Eventbrite URL)
+  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-label: $15- Non-Members
 venue:
-  name: 'Capitol Cider House '
-  address: 3930 Georgia Ave NW, Washington, DC 20011
-  directions: https://goo.gl/maps/PLNyx6fYmY2EuPKP9
+  name: Zoom
+  info: Description text for Zoom.
+has-speakers: true
 speakers:
-- name: Shahier Rahman
-  title: Provide Speaker title.
-  bio: Shahier Rahman is the partnerships specialist for General Assembly DC, and
-    when he's not connecting companies with tech talent in Washington, DC, you can
-    find him doing stand-up comedy in dive bars around town.
-  website-label: Website Label 1
-  website-url: https://www.linkedin.com/in/shahier-rahman-a25b4296/
-- name: Shalom Dubas
-  title: 
-  bio: 'An artist who has distinguished herself as a musician through charismatic
-    and witty vocals, smooth sounds, and unprecedented transitions between rapid-fire
-    verse and an indie/acoustic vibe - Shalom started writing songs at 10 years old,
-    learned to play guitar at 16, and hasn''t stopped mixing sounds since. As an artist
-    and a student of the game she believes that visual art is a key complement to
-    musical arts - from cover art to visualization of listener data; and as a creative
-    who is very passionate about the intersections of music and business, she spends
-    most of her time applying her entrepreneurial spirit in creative ways to propel
-    her music. '
-  website-label: Website
-  website-url: https://www.shalomdubas.com
-- name: Skyline Hotel
-  title: 
-  bio: 'Like the landmark from which the band takes its name, Washington, DC''s Skyline
-    Hotel has always tried to embody one thing: escapism. What originated as a personal
-    therapeutic project for singer Jon Lee to deal with his adversity soon became
-    a set of songs his brother and lead guitarist/producer Jeff Lee could not ignore.
-    From bedroom demos to local clubs, the brothers began to cultivate a modern blend
-    of pop and rock that was as fun as it was vital. Expanding to include organist/bassist
-    Zack Be and veteran drummer Jason Hayes, the band has become a full blown pop/rock
-    powerhouse.'
-  website-label: Website
-  website-url: http://www.skylinehotelmusic.com
+  - name: Mishele Carlson
+    pronouns: She | Her | Hers
+    title: Michele Carlson is a multidisciplinary practitioner working across the fields of art, writing, publishing, and collective practice.
+    bio: 'Carlson is one of three founding members of the arts collective Related Tactics, which facilitates projects at the intersection of race, art, and culture. Their projects have been supported by the San Francisco Museum of Modern Art, the Chinese Cultural Center of San Francisco, Berkeley Art Center, Kellen Gallery (New York, NY), Augusta University, and Southern Exposure’s Alternative Exposure grant program.'
+    website-label: Instagram
+    website-url: https://www.instagram.com/relatedtactics/
+  - name: Jen White-Johnson
+    pronouns: She | Her | Hers
+    title: Jen White-Johnson is a Designer, Photographer, Art Activist, and Art Educator. 
+    bio: 'Jennifer’s work explores the erasure of black disabled children in digital and literary media. The visuals she makes using photo and design are her own reflections that amplify conversations with the Disability community. It ignites the continued need to develop anti-racist, anti-ableist media.'
+    website-label: Instagram
+    website-url: https://www.instagram.com/jtknoxroxs/
+has-accessibility-notes: true  
+accessibility-notes:
+  - note: '> All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+  
+
+
+  Request an accommodation through this [Google Form](#)
+
+
+
+  Email us at [designweek@dc.aiga.org](#)
+
+
+
+  Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504'
 filter-date:
   is-day-8: true
 filter-time:
@@ -74,14 +68,8 @@ filter-location:
   is-dc: true
 ---
 
-Exchange tales of an action-packed design week over a crisp glass of cider as we close out DC Design Week 2019! Our final event of the week takes place at Capitol Cider House, and you won’t want to miss it! Join us Friday night for one-part drink-and-draw and one-part live-music show (featuring performances by local musicians)!
+When traditional means of publishing — the big houses and editors — aren’t interested in challenging existing narratives or lifting up new voices, designers don’t stop.
 
-Drink locally-made cider and sketch in your notebooks while we meet the creative team behind the cidery’s branding and website. Come early and stay til we’re tapped out! There will be drinks and food available for purchase.
+Zines communicate artistic visions and ignite change. They give historically marginalized voices an avenue and audience to reimagine narratives. They provide a place for the stories that need to be told.
 
-This event is open to all skill levels whether you draw regularly, professionally, or just make the occasional doodle. We’ll provide plenty of drawing materials and custom DC Design Week coloring pages (if you don’t know coloring books are for adults too by now, we can’t help you). Plan to bring your own sketchbook and preferred drawing tools if you’re a pro or digital doodler! More into the drinking than the drawing side of this equation? All are welcome to join for the music, food and general good vibes!
-
-Make sure to RSVP early – space is limited and tickets will be \$20 at the door (until we sell out)!
-
-**Venue Accessibility:** On street level
-
-**Transportation / Helpful Directions to Venue:** 4 min walk/0.2 miles from Georgia-Petworth Metro Station (yellow, green lines)
+Join Jennifer White-Johnson and Mishele Carlson of Related Tactics for a discussion about the power of print and how zines as a medium reimagine and redesign existing narratives. They’ll share how to capture your own voice and bring your project from idea to life, including tips on everything from creation to distribution. We’ll also have time for audience Q+A, so come with questions for these accomplished and acclaimed artists and publishers.

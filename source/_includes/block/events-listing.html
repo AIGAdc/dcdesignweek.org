@@ -55,7 +55,7 @@
 	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4">
 			<ul class="grid mixitup-container">
-				{% assign sorted = site.events | sort: 'event.date' and 'event.start-time' %}
+				{% assign sorted = site.events | sort: 'date-event' and 'date-time' %}
 				{% for event in sorted %}
 				{% if event.status.is-featured-on-home == true %}
 				{% include block/partials/events-card.html %}
@@ -68,7 +68,8 @@
 	{% if page.url == "/" %}
 	<div class="grid" style="margin-top: 32px;">
 		<div class="grid-col grid-col--span-4">
-			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="#Page-Variable">
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="#Page-Variable">
 				Page Variable
 			</a>
 		</div>
