@@ -19,11 +19,11 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: "$30 - Members"
-  member-button-label: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-label: "$30 - Members"
   has-non-member-button: true
-  non-member-button-url: "$45 - Non-Members"
-  non-member-button-label: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-label: "$45 - Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
