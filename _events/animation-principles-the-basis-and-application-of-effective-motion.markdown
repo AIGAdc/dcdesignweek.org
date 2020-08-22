@@ -10,21 +10,49 @@ event-date: 2020-09-20 00:00:00 -04:00
 start-time: 1:00 pm
 end-time: 3:30 pm
 image-alt: 'LAI Video’s art director Rob Kramer and creative director Tiffany Lewis '
+status:
+  is-featured-on-home: false
+  is-featured-on-events: false
+  is-sold-out: false
+  sold-out-message: This Event is Sold Out.
+  is-coming-soon: false
+  has-occurred: false
 tickets:
   has-member-button: true
   member-button-url: "$30 - Members"
   has-non-member-button: true
   non-member-button-url: "$45 - Non-Members"
+venue:
+  name: Zoom
+  additional-header: Platform and Prerequisites
+  additional-info: This event will be streamed via Zoom. In order to participate fully,
+    attendees should plan to join on the Zoom app via their computer, tablet, or mobile
+    device with enough bandwidth to support viewing video. In order to ensure only
+    those who have registered for the event are able to attend — and to create space
+    for intimate conversations — only those whose display name fully matches the name
+    on our registration list will be admitted from the waiting room. You can find
+    more about joining our virtual events, including how to connect, directions to
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Robert Kramer
-  pronouns: he/him
+  pronouns: He | Him | His
   title: Art Director at LAI Video
   bio: Robert is an Art Director at LAI Video with 14 years of animation experience.
     Over his career he’s worked on a smorgasbord of projects for a whole bunch of
     clients. His current quarantine goal is to solve the Rubik’s Cube in under a minute.
   website-label: Website
   website-url: laivideo.com
+- name: Tiffany Lewis
+  pronouns: She | Her | Hers
+  title: Creative Director
+  bio: Tiffany is a Creative Director at LAI Video with a background in motion graphics
+    and an eye for detail. She's been moving and manipulating pixels for just about
+    10 years now and truly enjoys the diversity of experiences video allows her to
+    inhabit. When she’s not at work, she's upping her baking and plant care game so
+    that she can live out that cottagecore lifestyle in her downtime.
+  website-label: Dribbble
+  website-url: https://dribbble.com/leftarrowthree
 accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you
     need any additional accommodations, please contact us before 9/14 by email, through
