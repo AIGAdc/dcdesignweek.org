@@ -7,8 +7,8 @@ description: Start your Tuesday off right and join us for a creative breakfast w
   Artemis Ward, a local creative digital agency committed to supporting DC’s creative
   community.
 event-date: 2020-09-22 09:00:00 -04:00
-start-time: 9:00am
-end-time: 10:00am
+start-time: 9:00AM
+end-time: 10:00AM
 image-alt: Photo of Artemis Ward team
 status:
   is-featured-on-home: false
@@ -20,10 +20,10 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  member-button-label: "$5 - Members"
+  member-button-label: "$5  — Members"
   has-non-member-button: true
   non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  non-member-button-label: "$5- Non-Members"
+  non-member-button-label: "$5 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -38,7 +38,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Joel Daly
-  pronouns: He/Him
+  pronouns: He | Him | His
   title: Partner and Head of Experience Design at Artemis Ward
   bio: 'Joel Daly is a partner at Artemis Ward, and oversees experience design and
     development. He brings more than 20 years of experience as a designer, strategist,
@@ -49,7 +49,7 @@ speakers:
   website-label: "@joeldaly"
   website-url: https://twitter.com/joeldaly
 - name: Danielle McKenrick
-  pronouns: She/Her
+  pronouns: She | Her | Hers
   title: Creative Director at Artemis Ward
   bio: Danielle McKenrick is a creative director at Artemis Ward, and leads the design
     team in building brand and product experiences that live in digital and physical
@@ -60,7 +60,7 @@ speakers:
   website-label: "@dmckenrick"
   website-url: https://twitter.com/dmckenrick
 - name: Chris Maier
-  pronouns: He/Him
+  pronouns: He | Him | His
   title: Creative Director at Artemis Ward
   bio: Chris Maier is a creative director Artemis Ward, where he partners with clients
     and Artemis Ward's multidisciplinary teams to bring brand stories and experiences
@@ -72,6 +72,7 @@ speakers:
     digital daily news site Smile Politely. More at https://artemisward.com/ and https://twitter.com/LittleSalonDC
   website-label: "@cmmaier"
   website-url: https://twitter.com/cmmaier
+has-accessibility-notes: true
 filter-date:
   is-day-5: true
 filter-time:
