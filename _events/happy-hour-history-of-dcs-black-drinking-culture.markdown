@@ -28,14 +28,17 @@ tickets:
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
-  additional-info: This event will be streamed via Zoom. In order to participate fully,
-    attendees should plan to join on the Zoom app via their computer, tablet, or mobile
-    device with enough bandwidth to support viewing video. In order to ensure only
-    those who have registered for the event are able to attend — and to create space
-    for intimate conversations — only those whose display name fully matches the name
-    on our registration list will be admitted from the waiting room. You can find
-    more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+  additional-info: |-
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    *Prerequisites*<br/>
+    If you choose to buy the cocktail kits, make sure to register before September 13 to allow preparation time. A two-person cocktail kit is $50/kit and contains enough ingredients to make six cocktails. A single-person cocktail kit is $35/kit and has enough ingredients to make three cocktails. Each kit also includes black bean dip and chips (vegetarian, gluten-free, nut-free, and contains dairy).
+
+    The cocktail kits will be ready to pick up on Wednesday, September 16, from 12:00 PM to 9:00 PM, at Serenata located inside of the La Cosecha Marketplace, 1280 4th St NE, Washington, DC 20002.
+
+    Shipping is not available but delivery can be placed through [Skip the Line](www.skipthelineus.com). Cost is determined by mileage traveled by drivers. Delivery is scheduled and will come at the day and time you request.
+
+    If you choose not to buy the cocktail kits, the event tickets are available for purchase until they are sold out or up until the start of the event, whichever comes first.
 has-speakers: true
 speakers:
 - name: Andra "AJ" Johnson
