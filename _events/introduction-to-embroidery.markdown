@@ -35,10 +35,11 @@ venue:
     can find more about joining our virtual events, including how to connect, directions
     to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).\n\n*Prerequisites*<br/>\nMake
     sure you’re fully stocked on thread and supplies before the event kicks off! Here’s
-    a list of supplies you’ll need:\n* A plain T-shirt (new/used)\n*Sewing needle\n*Floss
-    (DMC 6 Strand Cotton Floss recommended, patterns and colors will provide later)\n*Water
-    or heat soluble fabric pen (use it to draw patterns on t-shirts) \n*Hand embroidery
-    hoop (optional, but it makes stitching on fabric easier) \n*Scissors"
+    a list of supplies you’ll need:\n* A plain T-shirt (new/used)\n* Sewing needle\n*
+    Floss (DMC 6 Strand Cotton Floss recommended, patterns and colors will provide
+    later)\n* Water or heat soluble fabric pen (use it to draw patterns on t-shirts)
+    \n* Hand embroidery hoop (optional, but it makes stitching on fabric easier) \n*
+    Scissors"
 has-speakers: true
 speakers:
 - name: 'Jo (Xuejiao) Zhu '
