@@ -7,8 +7,8 @@ image: "/uploads/event-Behind-the-Brand-With-January-Third.png"
 description: 'Get an exclusive look at the future of advertising agencies with one
   of DC’s newest studios: January Third.'
 event-date: 2020-09-24 08:00:00 -04:00
-start-time: 8:00am
-end-time: 9:00am
+start-time: 8:00 PM
+end-time: 9:00 PM
 image-alt: Photo of Maggie Winters Gaudaen with a dark background and a serious expression
   on her face.
 status:
@@ -20,11 +20,11 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  member-button-label: "$5"
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fbehind-the-brand-with-january-third%2F%3Fredirect_source%3Deventbrite_register
+  member-button-label: "$5 — Members"
   has-non-member-button: true
-  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  non-member-button-label: "$5"
+  non-member-button-url: https://www.eventbrite.com/e/behind-the-brand-with-january-third-tickets-117846763843
+  non-member-button-label: "$5 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -45,7 +45,7 @@ speakers:
     agency, January Third. She’s passionate about bizarre ideas, breaking taboos around
     sex and women’s health, and building DTC brands.
   website-label: Twitter
-  website-url: "@moonstompmaggie "
+  website-url: https://twitter.com/moonstompmaggie
 has-accessibility-notes: true
 filter-date:
   is-day-7: true
