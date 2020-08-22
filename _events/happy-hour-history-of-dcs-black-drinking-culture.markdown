@@ -67,8 +67,6 @@ filter-time:
   is-workshop: true
 filter-location:
   is-dc: true
-  is-md: true
-  is-va: true
 ---
 
 We’re not saying this is a “Drunk History” workshop… but maybe it is. Join us for a cocktail-making, history-learning session with Andra “AJ” Johnson!
