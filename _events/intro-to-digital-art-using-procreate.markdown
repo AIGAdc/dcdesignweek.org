@@ -1,7 +1,7 @@
 ---
 title: Intro to Digital Art Using Procreate
 date: 2020-08-22 13:25:00 -04:00
-styled-title: "<span>Intro<span><span>to<span><span>Digital</span><span>Art</span><span>Using</span><span>Procreate</span>"
+styled-title: "<span>Intro</span><span>to</span><span>Digital</span><span>Art</span><span>Using</span><span>Procreate</span>"
 image: "/uploads/event-Intro-Digital-Art-with-Procreate.png"
 description: Are you curious about digital art, but don’t know where to start? Grab
   your iPad and join us for this interactive workshop to learn the basics of Procreate.
