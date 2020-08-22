@@ -10,6 +10,13 @@ event-date: 2020-09-25 08:30:00 -04:00
 start-time: 8:30 AM
 end-time: 10:00 AM
 image-alt: DCDW 2020
+status:
+  is-featured-on-home: false
+  is-featured-on-events: false
+  is-sold-out: false
+  sold-out-message: This Event is Sold Out.
+  is-coming-soon: false
+  has-occurred: false
 tickets:
   has-member-button: true
   member-button-label: Free
