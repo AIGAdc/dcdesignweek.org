@@ -1,14 +1,16 @@
 ---
 title: Designing Change
 date: 2020-08-22 12:55:00 -04:00
-styled-title: "<span>Designing Change:</span> <span>How to advocate for diversity
-  in the DC design space</span>"
+styled-title: "<span>Designing</span> <span>Change:</span> <span>How to advocate for
+  diversity in the DC design space</span>"
 image: "/uploads/event-Designing-Change.png"
 description: A panel of senior Black and Brown creatives discuss how they’re working
   to diversify the design space and how to be an ally.
 event-date: 2020-09-19 13:00:00 -04:00
 start-time: 1:00 PM
 end-time: 3:30 PM
+image-alt: Photos of moderator Maurice Cherry and speakers Earl Gray, Elaine Lopez,
+  Marlene Marmolejos, and Jacinda Walker.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -98,6 +100,8 @@ filter-date:
   is-day-2: true
 filter-time:
   is-daytime: true
+filter-location:
+  is-dc: true
 ---
 
 There’s no question about it. Black and Brown designers make a daily impact on creative industries, including design. Yet AIGA’s 2019 Design Census showed only 11% of those surveyed identified as African American or Hispanic.
