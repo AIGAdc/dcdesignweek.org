@@ -1,7 +1,7 @@
 ---
 title: Zine for Change
 date: 2019-09-01 14:27:00 -04:00
-styled-title: Zine for Change
+styled-title: "<span>Zine</span> <span>for</span> <span>Change</span>"
 image: "/uploads/Design-for-Cognitive-Bias.png"
 description: For years, artists have used magazines to communicate their visions and
   ignite change. Get a closer look at two different approaches for independent publishing
