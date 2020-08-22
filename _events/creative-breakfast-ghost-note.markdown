@@ -3,14 +3,8 @@ title: 'Creative Breakfast: Ghost Note'
 date: 2020-08-22 13:31:00 -04:00
 styled-title: "<span>Creative</span><span>Breakfast:</span><span>Ghost</span><span>Note</span>"
 image: "/uploads/event-Breakfast-with-Ghost-Note-Agency.png"
-description: "Monday doesn’t have to mean the slog back to the work week — instead
-  kick off your week with breakfast and creative inspiration.\n\nHaving worked with
-  brands like Google and WeWork, Ghost Note is a creative agency born and based in
-  the District of Columbia. They are made up of honest, inspired, sharp-minded people,
-  and they create truly great brands, digital, strategy, and experiences.  \n\nJoin
-  us for a creative breakfast (virtually, of course) where they will they will tell
-  the story of how they came to be, the unique perspective that they’ve gained along
-  the way, and the ways they’re building out their company."
+description: 'Start your day with local creative agency Ghost Note and learn how their
+  team builds brands, digital products, creative strategies, and customer experiences. '
 event-date: 2020-09-21 08:00:00 -04:00
 start-time: 8:00 am
 end-time: 9:00 am
