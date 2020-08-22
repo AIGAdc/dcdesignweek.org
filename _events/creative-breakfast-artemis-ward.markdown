@@ -21,6 +21,7 @@ tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
   member-button-label: "$5 - Members"
+  has-non-member-button: true
   non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
   non-member-button-label: "$5- Non-Members"
 venue:
