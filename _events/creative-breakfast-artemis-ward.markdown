@@ -39,12 +39,12 @@ speakers:
 - name: Joel Daly
   pronouns: He/Him
   title: Partner and Head of Experience Design at Artemis Ward
-  bio: Joel Daly is a partner at Artemis Ward, and oversees experience design and
+  bio: 'Joel Daly is a partner at Artemis Ward, and oversees experience design and
     development. He brings more than 20 years of experience as a designer, strategist,
     and sought-after user experience expert, having overseen many complex projects
     for clients such as Microsoft, Pepsico, National Geographic, USAID and MasterCard
     Foundation. Joel is the founding host of CreativeMornings/DC, a monthly speaker
-    series for DC creatives. More at https://artemisward.com/
+    series for DC creatives. More at https://artemisward.com/ and https://twitter.com/WashingtonDC_CM. '
   website-label: "@joeldaly"
   website-url: https://twitter.com/joeldaly
 - name: Danielle McKenrick
