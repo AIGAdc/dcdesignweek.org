@@ -647,7 +647,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: ""
+baseurl: ''
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
