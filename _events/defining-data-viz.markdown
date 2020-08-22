@@ -36,7 +36,7 @@ has-speakers: true
 speakers:
 - name: Christina Animashaun
   pronouns: They | Them | Theirs
-  title: Christina Animashaun (they/them) is the news graphics designer for Vox.
+  title: News graphics designer for Vox
   bio: They produce and edit news graphics, data visualization, photography, and illustration
     for breaking news, enterprise and editorial features. Prior to Vox, they worked
     as a graphics reporter at Politico and as a researcher at the Investigative Reporting
