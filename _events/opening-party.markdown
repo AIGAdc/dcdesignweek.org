@@ -9,6 +9,7 @@ description: For the launch of DC Design Week this year, we’re partnering with
 event-date: 2020-09-18 19:15:00 -04:00
 start-time: 7:15 PM
 end-time: 9:00 PM
+image-alt: Photo of a smoky party room.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -26,8 +27,9 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our FAQ.
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 
+    *Prerequisites*<br/>
     The trivia portion for the event will be held on a separate URL, which will be shared during the event and can be accessed via computer or mobile/2nd screen. To participate fully, attendees should plan to have access to a second device for the trivia game.
 has-speakers: true
 speakers:
@@ -107,8 +109,8 @@ The best way to describe this is event is a house party and a games night all ro
 We can’t wait to see you, you won’t want to miss it!
 
 ## Event Partners
-**Artemis Ward**
+**[Artemis Ward](https://artemisward.com/)**<br/>
 Artemis Ward is a digital creative agency proudly founded in Washington, D.C., where we support the local creative community by hosting Creative Mornings and Little Salon.
 
-**Monterosa**
+**[Monterosa](https://www.monterosa.co/)**<br/>
 Monterosa / Interaction Cloud is the technology behind many of the world’s biggest interactive events, TV shows and sports. The Interaction Cloud is the most versatile, scalable platform of its kind,  regularly generating billions of interactions a year with our top-tier customers globally in entertainment and sport.
