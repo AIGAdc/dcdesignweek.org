@@ -20,7 +20,7 @@ tickets:
   has-member-button: true
   member-button-label: "$10 — Members"
   has-non-member-button: true
-  non-member-button-label: "$10 — Nonmembers"
+  non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
