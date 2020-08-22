@@ -31,9 +31,9 @@ venue:
     device with enough bandwidth to support viewing video. In order to ensure only
     those who have registered for the event are able to attend — and to create space
     for intimate conversations — only those whose display name fully matches the name
-    on our registration list will be admitted from the waiting room. [You can find
+    on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.](/faqs)
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs).
 has-speakers: true
 speakers:
 - name: David Dylan Thomas
