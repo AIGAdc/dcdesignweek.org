@@ -31,7 +31,7 @@ venue:
   additional-info: |-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. This event will feature breakout sessions — while not required, we encourage participants to join with their video on to help foster a more intimate space for conversation.
 
-    In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. [You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our FAQ.](/faqs/)
+    In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faqs/)
 has-speakers: true
 speakers:
 - name: Maurice Cherry
