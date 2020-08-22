@@ -8,6 +8,8 @@ description: Join this panel for insights on why diversity in photography matter
 event-date: 2020-09-23 19:00:00 -04:00
 start-time: 7:00 PM
 end-time: 8:00 PM
+image-alt: Photos of speakers Yodith Dammlash, Dana Scruggs, Jared Soares, and Gary
+  Williams.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -30,9 +32,9 @@ venue:
     device with enough bandwidth to support viewing video. In order to ensure only
     those who have registered for the event are able to attend — and to create space
     for intimate conversations — only those whose display name fully matches the name
-    on our registration list will be admitted from the waiting room. [You can find
+    on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.](/faqs)
+    troubleshoot, and information about our refund policy in our [FAQ].(/faqs)
 has-speakers: true
 speakers:
 - name: Yodith Dammlash
@@ -83,6 +85,8 @@ filter-date:
   is-day-6: true
 filter-time:
   is-evening: true
+filter-location:
+  is-dc: true
 ---
 
 The need for diversity in photography goes beyond the subject — it includes the artist behind the lens. Why? Because photographers and subjects alike affect what we capture and how we tell that story. Who is behind the lens affects the final photograph as much as who or what is in front of the lense.
