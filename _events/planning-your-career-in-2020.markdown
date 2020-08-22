@@ -10,6 +10,24 @@ event-date: 2020-09-20 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:00 PM
 image-alt: Bailey O’Connell and Amber Fields
+tickets:
+  has-member-button: true
+  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-label: "$10 — Members"
+  has-non-member-button: true
+  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-label: "$10 — Non-members"
+venue:
+  name: Zoom
+  additional-header: Platform
+  additional-info: This event will be streamed via Zoom. In order to participate fully,
+    attendees should plan to join on the Zoom app via their computer, tablet, or mobile
+    device with enough bandwidth to support viewing video. In order to ensure only
+    those who have registered for the event are able to attend — and to create space
+    for intimate conversations — only those whose display name fully matches the name
+    on our registration list will be admitted from the waiting room. You can find
+    more about joining our virtual events, including how to connect, directions to
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 speakers:
 - name: Bailey O'Connell
   pronouns: She | Her
