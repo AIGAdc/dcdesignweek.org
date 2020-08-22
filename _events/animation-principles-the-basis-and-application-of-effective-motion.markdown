@@ -20,8 +20,10 @@ status:
 tickets:
   has-member-button: true
   member-button-url: "$30 - Members"
+  member-button-label: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
   has-non-member-button: true
   non-member-button-url: "$45 - Non-Members"
+  non-member-button-label: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
