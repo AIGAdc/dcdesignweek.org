@@ -131,7 +131,6 @@ ol {
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
-	min-height: 60vh;
 	padding: 32px;
 	width: 100%;
 }
@@ -160,6 +159,11 @@ ol {
 }
 
 @media screen and (min-width: 1023px) {
+	.landing-hero__content {
+		min-height: 50vh;
+		padding: 32px 0;
+	}
+
 	.landing-hero__tickets {
 		flex-direction: row;
 	}

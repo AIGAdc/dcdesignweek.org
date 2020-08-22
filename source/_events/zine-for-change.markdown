@@ -9,15 +9,15 @@ image: "/uploads/Design-for-Cognitive-Bias.png"
 image-alt: Image Alt Text
 description: For years, artists have used magazines to communicate their visions and ignite change. Get a closer look at two different approaches for independent publishing and making zines.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-home-message:
-  is-featured-on-events: true
+  is-featured-on-events: false
   featured-event-message:
-  is-sold-out: true
+  is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-coming-soon: false
   coming-soon-message:
-  has-occurred: true
+  has-occurred: false
   occurred-message:
 tickets:
   has-member-button: true
