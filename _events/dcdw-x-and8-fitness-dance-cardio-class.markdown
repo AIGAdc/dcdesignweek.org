@@ -39,6 +39,9 @@ speakers:
     a power playlist of hip hop, (t)rap and a dash of Top 40 hits - think Megan, Normani,
     Lizzo, Kendrick and more! \n\nFollow on instagram: and8_fitness, dani_gilly, dom_monetg"
 has-accessibility-notes: true
+accessibility-notes:
+- note: Closed captioning will not be available for this class. We encourage anyone
+    who is interested to follow along and self-modify as needed.
 filter-date:
   is-day-2: true
 filter-time:
