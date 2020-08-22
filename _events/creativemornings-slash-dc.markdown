@@ -7,8 +7,8 @@ description: We’re partnering with CreativeMornings for a special event with t
   creatives. Each speaker will give a 30-second pitch about the word “Spectrum” and
   what it means to them.
 event-date: 2020-09-25 08:30:00 -04:00
-start-time: 8:30 am
-end-time: 10:00 am
+start-time: 8:30 AM
+end-time: 10:00 AM
 image-alt: DCDW 2020
 tickets:
   has-member-button: true
