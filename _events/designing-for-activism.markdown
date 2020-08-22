@@ -69,6 +69,7 @@ speakers:
     with community members and organizations on the frontlines of change.
   website-label: Website
   website-url: www.josephorzal.com
+has-accessibility-notes: true
 filter-date:
   is-day-4: true
 filter-time:
