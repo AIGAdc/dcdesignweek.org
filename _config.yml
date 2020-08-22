@@ -24,67 +24,79 @@ defaults:
     path: ''
     type: events
   values:
-    description: 
+    date-event:
+    time-start:
+    time-end:
+    image:
+    image-alt:
+    description:
     status:
-      is-coming-soon: 
-      coming-soon-message: 
-      is-sold-out: 
-      sold-out-message: 
-      is-featured-on-events: 
-      is-featured-on-home: 
-      featured-event-message: 
-      has-occured:
-      occured-message:
-    event:
-      date: 
-      image: 
-      image-alt: 
-      start-time: 
-      end-time: 
-      has-external-url: 
-      external-url: 
-      has-speakers: 
+      is-featured-on-home:
+      featured-home-message:
+      is-featured-on-events:
+      featured-event-message:
+      is-sold-out:
+      sold-out-message:
+      is-coming-soon:
+      coming-soon-message:
+      has-occurred:
+      occurred-message:
     tickets:
-      has-member-button: 
-      member-button-url: 
-      member-button-label: 
-      member-button-is-disabled: 
-      has-non-member-button: 
-      non-member-button-url: 
-      non-member-button-label: 
-      non-member-button-is-disabled: 
+      has-member-button:
+      member-button-url:
+      member-button-label:
+      has-non-member-button:
+      non-member-button-url:
+      non-member-button-label:
     venue:
-      is-tbd: 
-      name: 
-      address: 
-      directions: 
+      name:
+      info:
+      additional-header:
+      additional-info:
+    has-speakers:
     speakers:
-    - name: 
-      title: 
-      bio: 
-      website-label: 
-      website-url: 
+      - name:
+        pronouns:
+        title:
+        bio:
+        website-label:
+        website-url:
+    has-accessibility-notes:
+    accessibility-notes:
+      - note: '> All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+      
+
+
+      Request an accommodation through this [Google Form](#)
+
+
+
+      Email us at [designweek@dc.aiga.org](#)
+
+
+
+      Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504'
     filter-date:
-      is-day-1: 
-      is-day-2: 
-      is-day-3: 
-      is-day-4: 
-      is-day-5: 
-      is-day-6: 
-      is-day-7: 
-      is-day-8: 
+      is-day-1:
+      is-day-2:
+      is-day-3:
+      is-day-4:
+      is-day-5:
+      is-day-6:
+      is-day-7:
+      is-day-8:
     filter-time:
-      is-morning: 
-      is-daytime: 
-      is-evening: 
-      is-screening: 
-      is-party: 
-      is-family-friendly: 
-      is-creative-lunch: 
-      is-wellness: 
-      is-workshop: 
+      is-morning:
+      is-daytime:
+      is-evening:
+      is-screening:
+      is-party:
+      is-family-friendly:
+      is-creative-lunch:
+      is-wellness:
+      is-workshop:
     filter-location:
-      is-dc: 
+      is-dc:
       is-md: 
       is-va: 
     layout: events-landing

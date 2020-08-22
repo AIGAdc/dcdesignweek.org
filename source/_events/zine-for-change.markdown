@@ -29,6 +29,8 @@ tickets:
 venue:
   name: Zoom
   info: Description text for Zoom.
+  additional-header: Platform and Prerequisites
+  additional-info: Platform and Prerequisite Information
 has-speakers: true
 speakers:
   - name: Mishele Carlson
