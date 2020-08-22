@@ -24,6 +24,7 @@ tickets:
   non-member-button-label: "$7 - Members"
 venue:
   name: Zoom
+has-speakers: true
 speakers:
 - name: 'Danielle and Dominique Gillyard '
   pronouns: she/her/hers
