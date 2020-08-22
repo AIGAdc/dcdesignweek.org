@@ -58,6 +58,7 @@ h2 span:nth-child(even) {
 h1 span:nth-child(odd),
 h2 span:nth-child(odd) {
 	font-family: $brand-font-fk-grotesk;
+	font-weight: 400;
 }
 
 h1 span:nth-child(even),
@@ -67,10 +68,15 @@ h2 span:nth-child(even) {
 }
 
 .wysiwyg h2,
-h3 {
+h3,
+h4 {
 	font-family: $brand-font-terminus;
 	font-size: $font-size-16;
 	text-transform: uppercase;
+}
+
+h4 {
+	font-size: $font-size-14;
 }
 
 @media screen and (min-width: 799px) {
@@ -84,7 +90,7 @@ h3 {
 @mixin anchor {
 	color: $green;
 	cursor: pointer;
-	text-decoration: none;
+	text-decoration: underline;
 	transition: opacity $timing-default ease-in;
 }
 
@@ -115,10 +121,6 @@ input:focus,
 video:focus,
 .houdini-heading:focus {
 	@include state-focus;
-}
-
-.wysiwyg li {
-	margin-left: $spacing-32;
 }
 
 ::selection {

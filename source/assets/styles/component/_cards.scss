@@ -2,13 +2,18 @@
 	@include flex-column;
 }
 
-.card>*+* {
+.card>*+*,
+.card__body>*+* {
 	margin-top: $spacing-16;
 }
 
 .card h3 {
 	font-family: $brand-font-terminus;
 	text-transform: uppercase;
+}
+
+.card__aside {
+	position: relative;
 }
 
 .card__header a {
@@ -41,7 +46,8 @@
 }
 
 .card--past-editions .card__image,
-.card--sponsors .card__image {
+.card--sponsors .card__image,
+.card--makers .card__image {
 	border: solid 1px $white;
 }
 
@@ -72,28 +78,67 @@
 	margin: auto;
 }
 
+.card--event .card__aside {
+	border: solid 1px $white;
+}
+
+.card--event .card__aside .ticker {
+	border-top: solid 1px $white;
+}
+
+.card--event .card-date .day,
+.card--event .card-date .date {
+	font-family: $brand-font-terminus;
+	text-transform: uppercase;
+}
+
+.card--event .card-date {
+	margin-right: $spacing-32;
+}
+
+.card--event .card-details {
+	display: flex;
+	align-items: center;
+}
+
+.card--event .card-info {
+	font-family: $brand-font-fk-grotesk;
+	font-size: $font-size-16;
+}
+
 .card--past-editions .card__image img:hover,
 .card--sponsors .card__image img:hover {
 	@include no-grayscale;
 }
 
-// Refactor Everything Below
-
+// TODO: Refactor Everything Below
 /* ticker */
 
 .ticker {
-	background-color: $black;
-	color: $black;
-	letter-spacing: 1px;
 	overflow: hidden;
 	padding: $spacing-4;
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	border: solid 1px $white;
 }
 
-.carnegie-layout .ticker p,
+.ticker.ticker--occured {
+	background-color: $black;
+	color: $white;
+}
+
+.ticker.ticker--sold-out {
+	background-color: $green;
+	color: $black;
+}
+
+.ticker.ticker--featured {
+	background-color: $white;
+	color: $black;
+}
+
 .home-layout .ticker p,
 .events-layout .ticker p,
 .events-single-layout .ticker p {
@@ -106,7 +151,6 @@
 	width: 100%;
 }
 
-.carnegie-layout .ticker p,
 .home-layout .ticker p,
 .events-layout .ticker p {
 	-webkit-animation: ticker 10000ms ease-in infinite;

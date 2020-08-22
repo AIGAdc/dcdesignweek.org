@@ -1,0 +1,57 @@
+---
+layout: base
+---
+
+{% include block/general-hero.html %}
+{% include block/general-introduction.html %}
+
+<section class="section section__committee">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2 grid-col--order-2">
+			<h2 class="grid-col--span-70"
+				id="{{ page.team-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ page.team-header }}</h2>
+			<p>{{ page.team-body }}</p>
+		</div>
+
+		<div class="grid-col grid-col--span-2 grid-col--order-1">
+			<div class="ornaments">
+				<figure>
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M20 39C30.4934 39 39 30.4934 39 20C39 9.50659 30.4934 1 20 1C9.50659 1 1 9.50659 1 20C1 30.4934 9.50659 39 20 39ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
+							fill="#4ae725" />
+						<path d="M39.5 18H0.5L3 10H37L39.5 18Z" fill="#4ae725" />
+						<path d="M0.5 22H39.5L36.6516 30H3L0.5 22Z" fill="#4ae725" />
+					</svg>
+				</figure>
+				<figure>
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M20 39C30.4934 39 39 30.4934 39 20C39 9.50659 30.4934 1 20 1C9.50659 1 1 9.50659 1 20C1 30.4934 9.50659 39 20 39ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
+							fill="#fff" />
+						<path d="M9.83998 3.35999L8.22998 35.58" stroke="#fff" stroke-miterlimit="10" />
+						<path d="M32.9999 34.5L26.4999 38.5L25.1099 1.16998L29.9999 3L32.9999 34.5Z" fill="#fff" />
+					</svg>
+				</figure>
+			</div>
+		</div>
+	</div>
+	<div class="grid" style="margin-top: 32px;">
+		<div class="grid-col grid-col--span-4 order-3">
+			<ul class="grid">
+				{% for gif in site.2020-giphys-black %}
+				<li class="card card--giphys">
+					<div class="card__aside">
+						<figure class="card__image">
+							{{ gif.embed }}
+						</figure>
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+{% include block/general-subscribe.html %}

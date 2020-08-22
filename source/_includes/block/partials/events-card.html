@@ -1,0 +1,56 @@
+<li
+	class="[ card card--event ][ mix ][ {% if event.filter-date.is-day-1 == true %} day-1 {% endif %}{% if event.filter-date.is-day-2 == true %} day-2 {% endif %}{% if event.filter-date.is-day-3 == true %} day-3 {% endif %}{% if event.filter-date.is-day-4 == true %} day-4 {% endif %}{% if event.filter-date.is-day-5 == true %} day-5 {% endif %}{% if event.filter-date.is-day-6 == true %} day-6 {% endif %}{% if event.filter-date.is-day-7 == true %} day-7 {% endif %}{% if event.filter-date.is-day-8 == true %} day-8 {% endif %} ][ {% if event.filter-time.is-morning == true %} morning {% endif %}{% if event.filter-time.is-daytime == true %} daytime {% endif %}{% if event.filter-time.is-evening == true %} evening {% endif %} ][ {% if event.filter-type.is-talk == true %} talk {% endif %} {% if event.filter-type.is-screening == true %} screening {% endif %} {% if event.filter-type.is-party == true %} party {% endif %} ][ {% if event.filter-type.is-family-friendly == true %} family-friendly {% endif %}{% if event.filter-type.is-creative-lunch == true %} creative-lunch {% endif %}{% if event.filter-type.is-wellness == true %} wellness {% endif %}{% if event.filter-type.is-workshop == true %} workshop {% endif %}{% if event.filter-type.has-occurred == true %} past-event {% endif %} ][ {% if event.filter-location.is-dc == true %} dc {% endif %}{% if event.filter-location.is-md == true %} md {% endif %}{% if event.filter-location.is-va == true %} va {% endif %} ][ {% if event.status.has-occurred == true %} past-event {% endif %}{% if event.status.is-sold-out == true %} sold-out {% endif %}{% if event.status.is-coming-soon == true %} coming-soon {% endif %}{% if event.status.is-featured-on-events == true %} featured {% endif %}]">
+
+	<div class="card__aside">
+		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
+			<figure class="card__image shadow-reverse shadow-reverse--green">
+				<img src="{{ event.image }}" alt="{{ event.image-alt }}" />
+			</figure>
+		</a>
+		{% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ event.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.is-featured-on-home == true and event.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ event.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.is-sold-out == true and event.status.sold-out-message %}
+		<div class="ticker ticker--sold-out">
+			<p>{{ event.status.sold-out-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.has-occurred == true and event.status.occurred-message %}
+		<div class="ticker ticker--occured">
+			<p>{{ event.status.occurred-message }}</p>
+		</div>
+		{% endif %}
+	</div>
+
+	<div class="card__header">
+		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">{{ event.title }}</h3>
+		</a>
+		<p>{{ event.description }}</p>
+	</div>
+	<div class="card-details">
+		<div class="card-date">
+			<p class="day">
+				{{ event.date-event | date: "%a"}}
+			</p>
+			<p class="date">
+				{{ event.date-event | date: "%m.%d"}}
+			</p>
+		</div>
+		<div class="card-info">
+			<p>
+				{{ event.time-start }}
+			</p>
+			<p>
+				{{ event.venue.name }}
+			</p>
+		</div>
+	</div>
+</li>

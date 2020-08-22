@@ -1,0 +1,39 @@
+<section class="section section__landing-details">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			<h3>
+				Details
+			</h3>
+			<div>
+				<h4>
+					Date & Time
+				</h4>
+				<p>
+					{{ page.date-event | date: "%A, %B %d"}}
+				</p>
+				<p>
+					{{ page.time-start }} - {{ page.time-end }}
+				</p>
+			</div>
+			<div>
+				<h4>
+					Location
+				</h4>
+				<p>
+					{{ page.venue.name }}
+				</p>
+				<p>
+					{{ page.venue.info }}
+				</p>
+			</div>
+			<div>
+				<h4>
+					{{ page.venue.additional-header }}
+				</h4>
+				<p>
+					{{ page.venue.additional-info }}
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

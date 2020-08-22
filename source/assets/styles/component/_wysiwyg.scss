@@ -1,0 +1,25 @@
+// WYSIWYG
+.wysiwyg ul,
+.wysiwyg li {
+	margin-left: $spacing-32;
+}
+
+.image-left,
+.image-right {
+	display: flex;
+	flex-direction: column;
+	grid-gap: $spacing-32;
+}
+
+@media screen and (min-width: 799px) {
+
+	.image-left,
+	.image-right {
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.image-right {
+		flex-direction: row-reverse;
+	}
+}

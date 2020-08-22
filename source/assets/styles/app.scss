@@ -7,6 +7,7 @@
 @import "global/reset-custom";
 
 @import "mixins/buttons";
+@import "mixins/effects";
 @import "mixins/filters";
 @import "mixins/flexbox";
 @import "mixins/grid";
@@ -24,14 +25,18 @@
 @import "component/listing";
 @import "component/ornaments";
 @import "component/sections";
+@import "component/wysiwyg";
 
 @import "pages/about";
 @import "pages/events";
 @import "pages/events-single";
+@import "pages/faqs";
 @import "pages/home";
 @import "pages/makers";
+@import "pages/makers-directory";
 
 // @import "3rd-party/flickity";
 @import "3rd-party/houdini";
 @import "3rd-party/mailchimp";
+@import "3rd-party/modals";
 @import "3rd-party/offside";
