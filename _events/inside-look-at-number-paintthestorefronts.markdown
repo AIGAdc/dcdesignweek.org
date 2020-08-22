@@ -82,7 +82,7 @@ speakers:
     The Frederick Douglass National Historic Site, and The Historical Society of Washington,
     DC.
   website-label: Website
-  website-url: 'www.LuisPeraltaGallery.com '
+  website-url: 'http://www.LuisPeraltaGallery.com '
 has-accessibility-notes: true
 filter-date:
   is-day-3: true
