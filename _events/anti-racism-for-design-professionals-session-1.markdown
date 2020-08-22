@@ -56,4 +56,6 @@ Being anti-racist calls for us to support a radical reordering of society to ach
 \
 This intimate workshop and conversation will challenge the way you see yourself and see your work. You’ll get the most out of this event if you come prepared to learn and share with openness and vulnerability.\
 \
-Reading will be provided beforehand to help ground the discussion.
+Reading will be provided beforehand to help ground the discussion.\
+\
+**Please note that this workshop is happening twice - this is for Saturday's event.**
