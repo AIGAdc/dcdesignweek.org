@@ -8,8 +8,8 @@ description: How can designers champion diversity and inclusion in our work? Joi
   us for a hands-on discussion about how to practice design with anti-racist principles
   in mind.
 event-date: 2020-09-20 10:00:00 -04:00
-start-time: 10:00am
-end-time: 11:30am
+start-time: 10:00AM
+end-time: 11:30AM
 image-alt: Image Alt Text
 status:
   is-featured-on-home: false
