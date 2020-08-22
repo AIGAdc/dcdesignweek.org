@@ -39,7 +39,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Dr. Enid Montague
-  pronouns: she/her
+  pronouns: she | her | hers
   title: Engineer/designer/researcher improving health, wellness, equity and social
     justice.
   bio: Dr. Montague is currently an Associate Professor in the college of computing
