@@ -1,7 +1,7 @@
 ---
 title: Planning Your Career in 2020
 date: 2020-08-22 14:23:00 -04:00
-styled-title: "<span>Planning</span><span>Your</span><span>Career<span></span>in<span></span>2020</span>"
+styled-title: "<span>Planning</span><span>Your</span><span>Career</span><span>in</span><span>2020</span>"
 image: "/uploads/event-Planning-Your-Career-in-2020.png"
 description: 'Join experienced career coaches for a conversation that will explore
   the current state of job searching and career planning. The hustle doesn’t stop
@@ -9,7 +9,7 @@ description: 'Join experienced career coaches for a conversation that will explo
 event-date: 2020-09-20 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:00 PM
-image-alt: Bailey O’Connell and Amber Fields
+image-alt: Photos of Bailey O’Connell and Amber Fields.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -38,7 +38,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Bailey O'Connell
-  pronouns: She | Her
+  pronouns: She | Her | Hers
   title: Senior Recruiter
   bio: Bailey O’Connell has been working with Creative Circle for about 13 years.
     She works with advertising, creative, and digital professionals to place them
@@ -47,7 +47,7 @@ speakers:
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/baileydoconnell/
 - name: Amber Fields
-  pronouns: She | Her
+  pronouns: She | Her | Hers
   title: UX Researcher and Founder of Black UX Labs
   bio: Amber is a process driven UX Researcher & Moderator who enjoys solving real
     world problems for niche groups to create inclusive products. Her expertise lies
@@ -61,6 +61,8 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-location:
+  is-dc: true
 ---
 
 2020 hasn’t gone as planned. But that doesn’t mean you can’t plan for your career!
