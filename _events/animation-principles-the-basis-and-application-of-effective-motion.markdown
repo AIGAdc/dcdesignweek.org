@@ -6,7 +6,7 @@ styled-title: "<span>Animation</span> <span>Principles:</span> The basis and app
 image: "/uploads/event-Animation-Principles-bb8d9b.png"
 description: This beginner-friendly workshop will take you through the 12 principles
   of animation and how to apply them in After Effects.
-event-date: 2020-09-20 00:00:00 -04:00
+event-date: 2020-09-20 13:00:00 -04:00
 start-time: 1:00 pm
 end-time: 3:30 pm
 image-alt: 'LAI Video’s art director Rob Kramer and creative director Tiffany Lewis '
