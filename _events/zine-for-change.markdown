@@ -2,14 +2,14 @@
 title: Zine for Change
 date: 2019-09-01 14:27:00 -04:00
 styled-title: "<span>Zine</span> <span>for</span> <span>Change</span>"
-image: "/uploads/Design-for-Cognitive-Bias.png"
+image: "/uploads/event-Zines-for-Change.png"
 description: For years, artists have used magazines to communicate their visions and
   ignite change. Get a closer look at two different approaches for independent publishing
   and making zines.
 event-date: 2020-09-23 19:00:00 -04:00
 start-time: 7:00 PM
 end-time: 8:00 PM
-image-alt: Image Alt Text
+image-alt: A photo of a colorful zine open and showing a photo of a child.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -37,7 +37,7 @@ venue:
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
-- name: Mishele Carlson
+- name: Michele Carlson
   pronouns: She | Her | Hers
   title: Michele Carlson is a multidisciplinary practitioner working across the fields
     of art, writing, publishing, and collective practice.
@@ -71,7 +71,7 @@ filter-time:
 filter-location:
   is-dc: true
 filter-type:
-  is-party: true
+  is-party: false
 ---
 
 When traditional means of publishing — the big houses and editors — aren’t interested in challenging existing narratives or lifting up new voices, designers don’t stop.

@@ -8,8 +8,8 @@ description: How can designers champion diversity and inclusion in our work? Joi
   us for a hands-on discussion about how to practice design with anti-racist principles
   in mind.
 event-date: 2020-09-20 10:00:00 -04:00
-start-time: 10:00am
-end-time: 11:30am
+start-time: 10:00AM
+end-time: 11:30AM
 image-alt: Image Alt Text
 status:
   is-featured-on-home: false
@@ -21,10 +21,10 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  member-button-label: "$15 - Members"
+  member-button-label: "$15 — Members"
   has-non-member-button: true
   non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  non-member-button-label: "$20 - Members"
+  non-member-button-label: "$20 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -39,7 +39,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Dr. Enid Montague
-  pronouns: she/her
+  pronouns: she | her | hers
   title: Engineer/designer/researcher improving health, wellness, equity and social
     justice.
   bio: Dr. Montague is currently an Associate Professor in the college of computing
