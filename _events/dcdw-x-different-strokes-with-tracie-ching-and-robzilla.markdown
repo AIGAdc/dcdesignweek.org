@@ -5,11 +5,11 @@ styled-title: "<span>DCDW x Different Strokes</span><span>with</span><span>Traci
   Ching</span><span>&</span><span>Robzilla</span>"
 image: "/uploads/event-Tracie-Ching-Robzilla-Keynote.png"
 description: Join Tracie Ching and Robert “Robzilla” Generette III for a tutorial
-  and exploration of their vector styles —  and a discussion about how the district
+  and exploration of their vector styles — and a discussion about how the district
   inspires their work.
 event-date: 2020-09-24 19:00:00 -04:00
-start-time: 7:00pm
-end-time: 8:30 pm
+start-time: 7:00 PM
+end-time: 8:30 PM
 image-alt: Graphic of Tracie Ching's portrait of Alexandria Ocasio-Cortez and Robzilla's
   portrait of LeBron James.
 status:
@@ -21,11 +21,11 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  member-button-label: "$5"
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D417022%26redirect_source%3Deventbrite_register
+  member-button-label: "$5 — Members"
   has-non-member-button: true
-  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  non-member-button-label: "$5"
+  non-member-button-url: https://www.eventbrite.com/e/dcdw-x-different-strokes-with-tracie-ching-robzilla-tickets-117844916317
+  non-member-button-label: "$5 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -47,7 +47,7 @@ speakers:
     through vector illustration, resulting in the bold cross-hatching style for which
     she is known.
   website-label: Instagram
-  website-url: "@tracieching"
+  website-url: https://www.instagram.com/tracieching/
 - name: Robert Generette III
   pronouns: He | Him | His
   title: Illustrator
@@ -56,17 +56,14 @@ speakers:
     through lines. With age, he’s honed his skills, sought formal training and mastered
     techniques in traditional and digital media.
   website-label: Instagram
-  website-url: "@rob_zilla_iii"
+  website-url: https://www.instagram.com/rob_zilla_iii/
 has-accessibility-notes: true
 accessibility-notes:
-- note: "All DCDW events will have real-time CART (live captioning) services. If you
-    need any additional accommodations, please contact us before 9/14 by email, through
-    the provided Google Form link, or by phone. We honor your privacy and no personally
-    identifying information (e.g. your name) is required to request an accommodation.\nRequest
-    an accommodation through this Google Form \nEmail us at designweek@dc.aiga.org\nCall
-    our Accessibility Lead, Josh Kim, by phone at 571-302-1504\n\nYou can learn more
-    about how we’re making DC Design Week an accessible experience by visiting our
-    about page."
+- note: |-
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+    * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
   is-day-7: true
 filter-time:
