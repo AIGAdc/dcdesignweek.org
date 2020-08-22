@@ -49,6 +49,7 @@ filter-date:
   is-day-2: true
 filter-time:
   is-daytime: true
+  is-wellness: true
 filter-location:
   is-dc: true
 ---
