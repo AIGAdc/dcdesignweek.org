@@ -91,8 +91,9 @@ As women starting small businesses in the creative industry, we’re always seek
 And make sure you can join on time! Before our panel discussion, we’ll kick off the event with some open networking time.
 
 Topics will include:
-• Best practices on launching a business
-• Growing a sustainable, mission-driven brand
-• Responding to obstacles and barriers
+
+* Best practices on launching a business
+* Growing a sustainable, mission-driven brand
+* Responding to obstacles and barriers
 
 Not only will participants get the chance to hear from speakers at different stages of launching their own businesses, this event will create space for networking and peer learning. Come prepared for an insightful conversation and helpful takeaways.
