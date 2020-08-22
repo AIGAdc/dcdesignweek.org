@@ -5,7 +5,7 @@ styled-title: "<span>Ethics</span><span>in</span><span>Data</span><span>Visualiz
 image: "/uploads/event-Ethics-Data-Visualization.png"
 description: Join us to learn how you can leverage important data to design ethical
   visuals that tell accurate stories.
-event-date: 2020-09-24 00:00:00 -04:00
+event-date: 2020-09-24 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:30 PM
 image-alt: image of a line graph
