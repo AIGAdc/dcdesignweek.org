@@ -1,5 +1,5 @@
 ---
-title: 'Animation Principles: The basis and application of effective motion'
+title: Animation Principles
 date: 2020-08-22 11:24:00 -04:00
 styled-title: "<span>Animation</span> <span>Principles:</span> The basis and application
   of effective motion"
