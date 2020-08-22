@@ -27,15 +27,11 @@ venue:
     more about joining our virtual events, including how to connect, directions to
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 accessibility-notes:
-- note: "All DCDW events will have real-time CART (live captioning) services. If you
-    need any additional accommodations, please contact us before 9/14 by email, through
-    the provided Google Form link, or by phone. We honor your privacy and no personally
-    identifying information (e.g. your name) is required to request an accommodation.\n\n•
-    Request an accommodation through this Google Form. \n• Email us at designweek@dc.aiga.org.\n•
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nYou can learn
-    more about how we’re making DC Design Week an accessible experience by visiting
-    our about page.\n\nPlease note that full participation in this event will require
-    fine motor skills, though the instructor will provide some modifications."
+- note: |-
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+    * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
   is-day-8: true
 filter-time:
