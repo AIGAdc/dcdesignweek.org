@@ -105,8 +105,8 @@ The best way to describe this is event is a house party and a games night all ro
 We can’t wait to see you, you won’t want to miss it!
 
 ## Event Partners
-### Artemis Ward
+**Artemis Ward**
 Artemis Ward is a digital creative agency proudly founded in Washington, D.C., where we support the local creative community by hosting Creative Mornings and Little Salon.
 
-### Monterosa
+**Monterosa**
 Monterosa / Interaction Cloud is the technology behind many of the world’s biggest interactive events, TV shows and sports. The Interaction Cloud is the most versatile, scalable platform of its kind,  regularly generating billions of interactions a year with our top-tier customers globally in entertainment and sport.
