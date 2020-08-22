@@ -9,12 +9,12 @@ description: In this workshop, we’re going to explore data and representation 
 event-date: 2020-09-19 13:00:00 -04:00
 start-time: 1:00 PM
 end-time: 3:30 PM
-image-alt: bar chart
+image-alt: Graphic of a bar chart
 status:
   is-featured-on-home: false
   is-featured-on-events: false
   is-sold-out: false
-  sold-out-message: This Event is Sold Out!
+  sold-out-message: This Event is Sold Out.
   is-coming-soon: false
   has-occurred: false
 tickets:
@@ -30,12 +30,12 @@ venue:
   additional-info: |-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 
-    **Prerequisites**
+    **Prerequisites**<br/>
     The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
 has-speakers: true
 speakers:
 - name: Christina Animashaun
-  pronouns: They | Them
+  pronouns: They | Them | Theirs
   title: Christina Animashaun (they/them) is the news graphics designer for Vox.
   bio: They produce and edit news graphics, data visualization, photography, and illustration
     for breaking news, enterprise and editorial features. Prior to Vox, they worked
@@ -49,6 +49,8 @@ filter-date:
 filter-time:
   is-daytime: true
   is-workshop: true
+filter-location:
+  is-dc: true
 ---
 
 Data visualization. The term may sound boring and jargony – seriously, try saying it 10 times fast – but the meaning is simple and the concept important. Data viz is the art of creating a visual representation of data to identify trends and patterns.
