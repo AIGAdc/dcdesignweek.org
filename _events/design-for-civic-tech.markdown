@@ -25,6 +25,15 @@ tickets:
   non-member-button-label: "$5 — Non-Members"
 venue:
   name: Zoom
+  additional-header: Platform and Prerequisites
+  additional-info: This event will be streamed via Zoom. In order to participate fully,
+    attendees should plan to join on the Zoom app via their computer, tablet, or mobile
+    device with enough bandwidth to support viewing video. In order to ensure only
+    those who have registered for the event are able to attend — and to create space
+    for intimate conversations — only those whose display name fully matches the name
+    on our registration list will be admitted from the waiting room. You can find
+    more about joining our virtual events, including how to connect, directions to
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Nicole Kwoh
