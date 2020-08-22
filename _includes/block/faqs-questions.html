@@ -58,20 +58,8 @@
 				<h3>Have a Question? Concern? Reach out!</h3>
 				<ul>
 					<li>
-						<h4>Heading</h4>
-						<a href="">Link</a>
-					</li>
-					<li>
-						<h4>Heading</h4>
-						<a href="">Link</a>
-					</li>
-					<li>
-						<h4>Heading</h4>
-						<a href="">Link</a>
-					</li>
-					<li>
-						<h4>Heading</h4>
-						<a href="">Link</a>
+						<h4>Email</h4>
+						<a href="mailto:dcdesignweek@aiga.dc">dcdesignweek@aiga.dc</a>
 					</li>
 				</ul>
 			</div>
@@ -84,6 +72,12 @@
 	var disclosure = new Houdini('[data-houdini-group="faq"]', {
 		isAccordion: true,
 		collapseOthers: true,
-		icon: 0
+
+		// Icons
+		icon: 1, // If true, include an expand/collapse icon
+		iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
+		iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
+		iconShow: '+', // The icon to expand an accordion
+		iconHide: '&ndash;', // The icon to collapse an accordion
 	});
 </script>
