@@ -34,7 +34,7 @@ venue:
     for intimate conversations — only those whose display name fully matches the name
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Mishele Carlson
