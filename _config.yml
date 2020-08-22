@@ -2,7 +2,6 @@
 title: DC Design Week 2020
 timezone: America/New_York
 collections:
-  collections_dir: "./source/"
   events:
     title: Events
     output: true
@@ -696,5 +695,4 @@ plugins:
 sass:
   sass_dir: "/assets/styles/"
   style: compressed
-source: "./source/"
 destination: "./build/"
