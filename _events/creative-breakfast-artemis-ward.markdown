@@ -7,8 +7,8 @@ description: Start your Tuesday off right and join us for a creative breakfast w
   Artemis Ward, a local creative digital agency committed to supporting DC’s creative
   community.
 event-date: 2020-09-22 09:00:00 -04:00
-start-time: 9:00AM
-end-time: 10:00AM
+start-time: 9:00 AM
+end-time: 10:00 AM
 image-alt: Photo of Artemis Ward team
 status:
   is-featured-on-home: false
@@ -34,7 +34,7 @@ venue:
     for intimate conversations — only those whose display name fully matches the name
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Joel Daly
@@ -45,7 +45,8 @@ speakers:
     and sought-after user experience expert, having overseen many complex projects
     for clients such as Microsoft, Pepsico, National Geographic, USAID and MasterCard
     Foundation. Joel is the founding host of CreativeMornings/DC, a monthly speaker
-    series for DC creatives. More at https://artemisward.com/ and https://twitter.com/WashingtonDC_CM. '
+    series for DC creatives. More at <a href="https://artemisward.com/">artemisward.com</a>
+    and < a href="https://twitter.com/WashingtonDC_CM">@WashingtonDC_CM</a>. '
   website-label: "@joeldaly"
   website-url: https://twitter.com/joeldaly
 - name: Danielle McKenrick
@@ -56,7 +57,7 @@ speakers:
     spaces. She brings 12+ years of experience producing creative campaigns and insights-driven
     design systems for clients like Microsoft, National Geographic, Nike, MPA, D.C.
     United and Union Market. She also leads special projects for CreativeMornings/DC,
-    a monthly speaker series for DC creatives. More at https://artemisward.com/
+    a monthly speaker series for DC creatives. More at <a href="https://artemisward.com/">artemisward.com</a>.
   website-label: "@dmckenrick"
   website-url: https://twitter.com/dmckenrick
 - name: Chris Maier
@@ -77,6 +78,8 @@ filter-date:
   is-day-5: true
 filter-time:
   is-morning: true
+filter-location:
+  is-dc: true
 ---
 
 Start your Tuesday off right and join us for a creative breakfast with Artemis Ward! You may know them from their digital work for NatGeo or DC United — but the team at Artemis Ward is also committed to supporting DC’s creative community. Staff at the studio help lead a number of local initiatives, including Creative Mornings DC and Little Salon.
