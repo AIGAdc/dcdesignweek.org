@@ -8,10 +8,12 @@ description: 'Join celebrated comic book artist Shawn Martinbrough for a discuss
 event-date: 2020-09-22 19:00:00 -04:00
 start-time: 7:00 PM
 end-time: 8:00 PM
+image-alt: Black and white comic illustrations.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
   is-sold-out: false
+  sold-out-message: This Event is Sold Out.
   is-coming-soon: false
   has-occurred: false
 tickets:
@@ -29,16 +31,16 @@ venue:
     device with enough bandwidth to support viewing video. In order to ensure only
     those who have registered for the event are able to attend — and to create space
     for intimate conversations — only those whose display name fully matches the name
-    on our registration list will be admitted from the waiting room. [You can find
+    on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.](/faqs/)
+    troubleshoot, and information about our refund policy in our [FAQ].(/faqs/)
 has-speakers: true
 speakers:
 - name: Shawn Martinbrough
   pronouns: He | Him | His
   bio: 'Shawn Martinbrough is a critically acclaimed creator/artist/ writer whose
-    DC, Marvel and Dark Horse projects include "Batman: Detective Comics", "Luke Cage
-    Noir", "Captain America", "The Black Panther" and "Hellboy". He is the author
+    DC, Marvel and Dark Horse projects include "Batman: Detective Comics," "Luke Cage
+    Noir," "Captain America," "The Black Panther," and "Hellboy." He is the author
     of "How to Draw Noir Comics: The Art and Technique of Visual Storytelling" published
     by Penguin Random House and is a featured contributor to the September issue of
     Vanity Fair, guest edited by Ta-Nehisi Coates.'
@@ -49,6 +51,8 @@ filter-date:
   is-day-4: true
 filter-time:
   is-evening: true
+filter-location:
+  is-dc: true
 ---
 
 You’ve heard of T’Challa, Captain America, Hellboy, Luke Cage and Batman, right?
