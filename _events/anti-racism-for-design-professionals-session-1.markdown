@@ -7,8 +7,8 @@ image: "/uploads/event-Anti-Racism-for%20Design-Professionals-2-642121.png"
 description: How can designers champion diversity and inclusion in our work? Join
   us for a hands-on discussion about how to practice design with anti-racist principles
   in mind.
-event-date: 2020-09-19 10:30:00 -04:00
-start-time: 10:30 AM
+event-date: 2020-09-19 10:00:00 -04:00
+start-time: 10:00 AM
 end-time: 11:30 AM
 image-alt: Dr. Enid Montague
 tickets:
