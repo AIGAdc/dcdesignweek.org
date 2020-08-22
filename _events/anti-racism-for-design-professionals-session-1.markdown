@@ -1,7 +1,7 @@
 ---
 title: Anti-Racism for Design Professionals [Session 1]
 date: 2020-08-22 13:44:00 -04:00
-styled-title: "<span>Anti-Racism</span><span>for</span><span>Design Professionals</span>[<span>Session
+styled-title: "<span>Anti-Racism</span><span>for</span><span>Design Professionals</span><span>[Session
   1]</span>"
 image: "/uploads/event-Anti-Racism-for%20Design-Professionals-2-642121.png"
 description: How can designers champion diversity and inclusion in our work? Join
