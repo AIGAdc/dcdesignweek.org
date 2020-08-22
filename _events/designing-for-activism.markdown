@@ -9,7 +9,7 @@ description: Don’t miss out on this chance to learn about what designing for a
 event-date: 2020-09-21 19:00:00 -04:00
 start-time: 7:00 PM
 end-time: 8:00 PM
-image-alt: Long Live GoGo
+image-alt: Photo of men at a protest.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
