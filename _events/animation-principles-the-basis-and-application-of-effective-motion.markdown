@@ -1,9 +1,8 @@
 ---
 title: 'Animation Principles: The basis and application of effective motion'
 date: 2020-08-22 11:24:00 -04:00
-styled-title: "<span>Animation</span> <span>Principles:</span> <span>The</span> <span>basis</span>
-  <span>and</span> <span>application</span> <span>of</span> <span>effective</span>
-  <span>motion</span>"
+styled-title: "<span>Animation</span> <span>Principles:</span> The basis and application
+  of effective motion"
 image: "/uploads/event-Animation-Principles-bb8d9b.png"
 description: This beginner-friendly workshop will take you through the 12 principles
   of animation and how to apply them in After Effects.
