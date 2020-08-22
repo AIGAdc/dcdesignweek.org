@@ -2,7 +2,7 @@
 title: DC Design Week 2020
 timezone: America/New_York
 collections:
-  collections_dir: "/source/"
+  collections_dir: "./source/"
   events:
     title: Events
     output: true
