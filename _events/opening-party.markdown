@@ -108,6 +108,7 @@ The best way to describe this is event is a house party and a games night all ro
 
 We can’t wait to see you, you won’t want to miss it!
 
+
 ## Event Partners
 **[Artemis Ward](https://artemisward.com/)**<br/>
 Artemis Ward is a digital creative agency proudly founded in Washington, D.C., where we support the local creative community by hosting Creative Mornings and Little Salon.
