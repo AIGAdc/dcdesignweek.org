@@ -6,7 +6,7 @@ image: "/uploads/event-PaintTheStorefronts.png"
 description: Founder of Busboys and Poets Andy Shallal and local artists Mia DuVall,
   Luther Wright, and Luis Peralta Del Valle will discuss the role of art in activism
   and building community.
-event-date: 2001-09-19 19:00:00 -04:00
+event-date: 2020-09-20 18:00:00 -04:00
 start-time: 6:00 PM
 end-time: 7:00 PM
 image-alt: 'Andy Shallal, Mia DuVall, Luther Wright, and Luis Peralta Del Valle '
@@ -77,7 +77,7 @@ speakers:
   website-url: 'www.LuisPeraltaGallery.com '
 has-accessibility-notes: true
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-time:
   is-evening: true
 ---
