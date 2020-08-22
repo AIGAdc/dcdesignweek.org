@@ -44,6 +44,41 @@ speakers:
     Instagram: @makersforhumankind
   website-label: "@mikeahugley "
   website-url: https://www.instagram.com/mikeahugley
+- name: Amanda Ghobandi
+  pronouns: She | Her | Hers
+  title: CEO of The Branding Babe
+  bio: "Amanda Ghobadi is the CEO of The Branding Babe, a Washington D.C. brand strategy
+    and photography studio catering to female entrepreneurs. Amanda utilizes her background
+    in graphic design and creative writing in her strategic coaching sessions with
+    clients, in addition to planning her client photo sessions. Her mission is to
+    help empowering women of all backgrounds translate their passion & purpose into
+    images that connect & inspire. Her ultimate goal to create a better world through
+    beautiful images that encourage communities of women to reach their true potential.
+    You can learn more about Amanda and her work at \nwww.brandingbabephotography.com"
+  website-label: "@brandingbabephotography"
+  website-url: https://www.instagram.com/brandingbabephotography
+- name: Elise Crawford
+  pronouns: She | Her | Hers
+  title: Founder & CEO, RINGLET
+  bio: 'Elise Crawford Gallagher is the Founder and CEO of RINGLET, a digital marketing
+    agency for women owned businesses based in Washington, D.C.  Elise graduated with
+    her Masters in Communication from Johns Hopkins University in 2014 with concentrations
+    in digital marketing and public relations. With a desire to create more resources
+    for women entrepreneurs in the D.C., Elise started RINGLET in mid-2016. '
+  website-label: "@elisecrawfordgallagher"
+  website-url: https://www.instagram.com/elisecrawfordgallagher
+- name: Jess Washington
+  pronouns: She | Her | Hers
+  title: CEO of The Branding Babe
+  bio: "With 7+ years of digital marketing experience and a perpetual creative itch,
+    Jess Washington helps small businesses, organizations, and content creators meaningfully
+    connect with their audience in ways that boost revenue and build loyalty.\n\nHer
+    projects typically involve helping clients leverage storytelling to build their
+    brand, improve their online presence, and amplify their content marketing strategy.
+    She also share best practices, tips, and tutorials on thriving as your journey
+    as CEO of Your Own Life on YouTube. \n\nYouTube: https://www.youtube.com/c/JessiCanCreate/\n"
+  website-label: "@jessicancreate"
+  website-url: https://www.instagram.com/jessicancreate
 has-accessibility-notes: true
 filter-date:
   is-day-8: true
