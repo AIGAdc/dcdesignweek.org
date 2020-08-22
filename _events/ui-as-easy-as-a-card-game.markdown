@@ -1,8 +1,8 @@
 ---
 title: 'UI: As easy as a card game'
 date: 2020-08-22 14:36:00 -04:00
-styled-title: "<span>UI:</span><span>As</span><span>easy</span><span>as</span><span>a</span><span>card
-  game</span>"
+styled-title: "<span>UI:</span><span>As</span><span>easy</span><span>as</span><span>a</span><span>card</span>
+  <span>game</span>"
 image: "/uploads/event-Heuristic-Evaluatons-using-UI-Tenets-and-Traps%20.png"
 description: What if evaluating user interfaces was as easy as a card game? Jason
   Brier will show you a new way to conduct heuristics evaluations used by companies
@@ -10,7 +10,7 @@ description: What if evaluating user interfaces was as easy as a card game? Jaso
 event-date: 2020-09-23 11:30:00 -04:00
 start-time: 11:30 AM
 end-time: 1:00 PM
-image-alt: tenets and traps cards
+image-alt: UI tenets and traps deck of cards.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -39,7 +39,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Jason Brier
-  pronouns: He | Him
+  pronouns: He | Him | His
   title: Research & Product Design
   bio: Jason here. I use research and design to explore, understand, and improve the
     interaction between humans and the technology they use to enjoy themselves, do
@@ -51,6 +51,9 @@ filter-date:
   is-day-6: true
 filter-time:
   is-daytime: true
+  is-workshop: true
+filter-location:
+  is-dc: true
 ---
 
 Evaluating UI may not be as easy as 1-2-3, but it can be as easy as a card game.
