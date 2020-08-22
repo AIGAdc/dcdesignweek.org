@@ -45,9 +45,9 @@ speakers:
     and sought-after user experience expert, having overseen many complex projects
     for clients such as Microsoft, Pepsico, National Geographic, USAID and MasterCard
     Foundation. Joel is the founding host of CreativeMornings/DC, a monthly speaker
-    series for DC creatives. More at <a href="https://artemisward.com/">artemisward.com</a>
-    and < a href="https://twitter.com/WashingtonDC_CM">@WashingtonDC_CM</a>. '
-  website-label: "@joeldaly"
+    series for DC creatives. More at a [artemisward.com](https://artemisward.com/)
+    and [@WashingtonDC_CM](https://twitter.com/WashingtonDC_CM). '
+  website-label: Twitter
   website-url: https://twitter.com/joeldaly
 - name: Danielle McKenrick
   pronouns: She | Her | Hers
@@ -57,8 +57,8 @@ speakers:
     spaces. She brings 12+ years of experience producing creative campaigns and insights-driven
     design systems for clients like Microsoft, National Geographic, Nike, MPA, D.C.
     United and Union Market. She also leads special projects for CreativeMornings/DC,
-    a monthly speaker series for DC creatives. More at <a href="https://artemisward.com/">artemisward.com</a>.
-  website-label: "@dmckenrick"
+    a monthly speaker series for DC creatives. More at [artemisward.com](https://artemisward.com/).
+  website-label: Twitter
   website-url: https://twitter.com/dmckenrick
 - name: Chris Maier
   pronouns: He | Him | His
@@ -70,14 +70,16 @@ speakers:
     ranging from National Geographic to Ditto Residential and beyond. Chris is the
     founder/operator of DC's Little Salon, founder of the award-winning international
     literary magazine Ninth Letter, and founding editor of the downstate Illinois
-    digital daily news site Smile Politely. More at https://artemisward.com/ and https://twitter.com/LittleSalonDC
-  website-label: "@cmmaier"
+    digital daily news site Smile Politely. More at [artemisward.com](https://artemisward.com/)
+    and [@LittleSalonDC](https://twitter.com/LittleSalonDC).
+  website-label: Twitter
   website-url: https://twitter.com/cmmaier
 has-accessibility-notes: true
 filter-date:
   is-day-5: true
 filter-time:
   is-morning: true
+  is-creative-lunch: true
 filter-location:
   is-dc: true
 ---
