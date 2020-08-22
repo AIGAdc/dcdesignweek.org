@@ -79,5 +79,5 @@ Get ready to make some moves and learn about the 12 principles of animation with
 Initial project files will be distributed to participants. The project files will contain an initial setup that participants can edit along with the presenters if they so choose.
 
 Speakers will provide:
-• Illustrator and After Effects projects beforehand for the demos
-• A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
+* Illustrator and After Effects projects beforehand for the demos
+* A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
