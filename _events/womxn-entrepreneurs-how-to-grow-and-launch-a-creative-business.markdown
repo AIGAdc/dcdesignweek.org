@@ -60,7 +60,7 @@ speakers:
     help empowering women of all backgrounds translate their passion & purpose into
     images that connect & inspire. Her ultimate goal to create a better world through
     beautiful images that encourage communities of women to reach their true potential.
-    You can learn more about Amanda and her work at \n[brandingbabephotography.com](www.brandingbabephotography.com)."
+    You can learn more about Amanda and her work at \n[brandingbabephotography.com](http://www.brandingbabephotography.com)."
   website-label: Instagram
   website-url: https://www.instagram.com/brandingbabephotography
 - name: Elise Crawford
