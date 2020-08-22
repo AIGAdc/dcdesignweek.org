@@ -1,7 +1,8 @@
 ---
 title: 'Womxn Entrepreneurs: How to grow and launch a creative business'
 date: 2020-08-22 13:57:00 -04:00
-styled-title: "<span>Womxn</span><span>Entrepreneurs:</span><span>How</span><span>to</span><span>grow</span><span>and</span><span>launch</span><span>a</span><span>creative</span><span>business</span>"
+styled-title: "<span>Womxn</span><span>Entrepreneurs:</span><span>How to grow and
+  launch a creative business</span>"
 image: "/uploads/event-Womxn-Entrepreneurs.png"
 description: 'Join this panel of women entrepreneurs as they share lessons-learned,
   actionable advice, and perspectives for building your own businesses. '
