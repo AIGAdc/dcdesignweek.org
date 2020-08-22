@@ -1,5 +1,5 @@
 ---
-title: 'and8 Fitness: Dance cardio class'
+title: 'DCDW x and8 Fitness: Dance cardio class'
 date: 2020-08-22 12:07:00 -04:00
 styled-title: "<span>DCDW</span><span>x</span><span>and8</span><span>Fitness:</span><span>Dance</span><span>cardio</span><span>class</span>"
 image: "/uploads/event-and8-fitness.png"
