@@ -68,7 +68,7 @@ speakers:
     Angeles Times, where he worked on the data desk and was briefly the deputy director
     of data visualization. Armand earned a bachelor’s degree in international relations
     and Russian from the University of Southern California, and a master’s degree
-    in journalism from the University of California at Berkeley. Visit http://emamd.net/
+    in journalism from the University of California at Berkeley. Visit [emamd.net](http://emamd.net/)
     for more. '
   website-label: Twitter
   website-url: https://twitter.com/emamd
