@@ -5,10 +5,10 @@ styled-title: "<span>Intro</span><span>to</span><span>Digital</span><span>Art</s
 image: "/uploads/event-Intro-Digital-Art-with-Procreate.png"
 description: Are you curious about digital art, but don’t know where to start? Grab
   your iPad and join us for this interactive workshop to learn the basics of Procreate.
-event-date: 2020-09-24 00:00:00 -04:00
+event-date: 2020-09-24 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:30 PM
-image-alt: 'digital artwork made using procreate '
+image-alt: Digital artwork made using procreate.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -27,11 +27,10 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    Participants will need an iPad with Procreate app installed and (preferably) a stylus to participate. No previous knowledge or experience with the app or digital illustration is required - the purpose of the workshop is to introduce anyone to the possibilities of creating art in Procreate.
-
-    - - -
-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    *Prerequisites*<br/>
+    Participants will need an iPad with Procreate app installed and (preferably) a stylus to participate. No previous knowledge or experience with the app or digital illustration is required — the purpose of the workshop is to introduce anyone to the possibilities of creating art in Procreate.
 has-speakers: true
 speakers:
 - name: Zoë Soriano
@@ -40,14 +39,17 @@ speakers:
   bio: 'Zoë Soriano is a Freelance Motion Designer with a passion for creating animated
     gifs, explainer videos, and colorful illustrations. When she’s not animating,
     she enjoys spending time with her two cats and scoping out new vegan restaurants
-    in the DC metro area. Website:  zoesoriano.com'
-  website-label: "@zoetrope.gif "
+    in the DC metro area. Visit her website:  [zoesoriano.com](http://www.zoesoriano.com).'
+  website-label: Instagram
   website-url: https://www.instagram.com/zoetrope.gif/
 has-accessibility-notes: true
 filter-date:
   is-day-7: true
 filter-time:
   is-daytime: true
+  is-workshop: true
+filter-location:
+  is-dc: true
 ---
 
 Masks? Layers? Textures? When it comes to digital illustration, where do you even start?
