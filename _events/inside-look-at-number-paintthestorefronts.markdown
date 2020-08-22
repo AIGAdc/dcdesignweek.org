@@ -10,12 +10,19 @@ event-date: 2020-09-20 18:00:00 -04:00
 start-time: 6:00 PM
 end-time: 7:00 PM
 image-alt: 'Andy Shallal, Mia DuVall, Luther Wright, and Luis Peralta Del Valle '
+status:
+  is-featured-on-home: false
+  is-featured-on-events: false
+  is-sold-out: false
+  sold-out-message: This Event is Sold Out.
+  is-coming-soon: false
+  has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Finside-look-at-paintthestorefronts%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: " $10 — Members"
   has-non-member-button: true
-  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-url: https://www.eventbrite.com/e/inside-look-at-paintthestorefronts-tickets-117856781807
   non-member-button-label: " $10 — Non-Members"
 venue:
   name: Zoom
