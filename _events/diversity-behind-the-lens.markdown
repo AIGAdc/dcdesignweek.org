@@ -34,7 +34,7 @@ venue:
     for intimate conversations — only those whose display name fully matches the name
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our [FAQ].(/faqs)
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs).
 has-speakers: true
 speakers:
 - name: Yodith Dammlash
@@ -45,7 +45,7 @@ speakers:
     and Design. Her work was exhibited at Gallery 102 in Washington, DC in December
     2016. She specializes in portrait, documentary, commercial, and archival photography. '
   website-label: Website
-  website-url: www.yodithd.com
+  website-url: http://www.yodithd.com
 - name: Dana Scruggs
   pronouns: She | Her | Hers
   title: Photographer
@@ -63,7 +63,7 @@ speakers:
     first Black Person to photograph the cover of Rolling Stone Magazine in its 50-year
     history. '
   website-label: Website
-  website-url: www.danascruggs.com
+  website-url: http://www.danascruggs.com
 - name: Jared Soares
   pronouns: He | Him | His
   title: Photographer
@@ -71,7 +71,7 @@ speakers:
     Soares uses portraiture and long-form essays often through the lens of sports
     and subcultures to create projects based around community and identity. '
   website-label: Website
-  website-url: www.jaredsoares.com
+  website-url: http://www.jaredsoares.com
 - name: Gary Williams
   pronouns: 
   title: 'Photographer and Co-Founder & Chief Creative Officer for Creative Theory
