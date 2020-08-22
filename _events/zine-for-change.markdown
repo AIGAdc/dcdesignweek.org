@@ -60,13 +60,10 @@ speakers:
 has-accessibility-notes: true
 accessibility-notes:
 - note: |-
-    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
-
-    Request an accommodation through this [Google Form](#)
-
-    Email us at [designweek@dc.aiga.org](#)
-
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+    * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
   is-day-8: true
 filter-time:
@@ -81,4 +78,4 @@ When traditional means of publishing — the big houses and editors — aren’t
 
 Zines communicate artistic visions and ignite change. They give historically marginalized voices an avenue and audience to reimagine narratives. They provide a place for the stories that need to be told.
 
-Join Jennifer White-Johnson and Mishele Carlson of Related Tactics for a discussion about the power of print and how zines as a medium reimagine and redesign existing narratives. They’ll share how to capture your own voice and bring your project from idea to life, including tips on everything from creation to distribution. We’ll also have time for audience Q+A, so come with questions for these accomplished and acclaimed artists and publishers.
+Join Jennifer White-Johnson and Mishele Carlson of Related Tactics for a discussion about the power of print and how zines as a medium reimagine and redesign existing narratives. They’ll share how to capture your own voice and bring your project from idea to life, including tips on everything from creation to distribution. We’ll also have time for audience Q\+A, so come with questions for these accomplished and acclaimed artists and publishers.
