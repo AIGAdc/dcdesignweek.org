@@ -73,6 +73,3 @@ filter-time:
 Current events coupled with an upcoming presidential election mean we’ve seen data visualization everywhere, from news outlets to personal social media accounts. Data visualization can help us make sense of complex information — but it can just as easily tell only one part of a story.
 
 In this discussion, data reporter Andrew Tran and graphics assignment editor Armand Emamdjomeh, both from The Washington Post, will share their experience with creating and presenting data through design. You'll learn about best practices that help ensure data is ethically and accurately displayed and how to avoid the misrepresentation of data and the story it tells. 
-
-## Event Partners
-Andrew Tran and Armand Emamdjomeh
