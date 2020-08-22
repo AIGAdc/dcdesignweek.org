@@ -44,7 +44,7 @@ speakers:
     at heart. Katie loves bringing illustrations to life, and has worked on motion
     projects for clients including Geico, Patagonia, Ericsson, and Facebook.
   website-label: Website
-  website-url: KatieTrayte.com
+  website-url: http://www.KatieTrayte.com
 has-accessibility-notes: true
 filter-date:
   is-day-5: true
