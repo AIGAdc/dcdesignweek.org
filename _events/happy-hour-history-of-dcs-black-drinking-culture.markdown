@@ -57,11 +57,11 @@ accessibility-notes:
     need any additional accommodations, please contact us before 9/14 by email, through
     the provided Google Form link, or by phone. We honor your privacy and no personally
     identifying information (e.g. your name) is required to request an accommodation.\n\n•
-    Request an accommodation through this Google Form. \n• Email us at designweek@dc.aiga.org.\n•
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\n*Prerequisites*<br/>\nFull
-    participation in this event will require physical mobility to make a cocktail,
-    including assembling ingredients and shaking a cocktail shaker. The host will
-    provide some modifications."
+    Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6).
+    \n• [Email us](mailto:dcdesignweek@dc.aiga.org) at designweek@dc.aiga.org.\n•
+    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nFull participation
+    in this event will require physical mobility to make a cocktail, including assembling
+    ingredients and shaking a cocktail shaker. The host will provide some modifications."
 filter-date:
   is-day-3: true
 filter-time:
