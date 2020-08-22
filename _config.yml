@@ -552,6 +552,11 @@ self-guided:
   body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor."
   button-url: /events/self-guided/
   button-label: See Self-Guided Events
+makers:
+  header: "<span>Lorem</span> <span>Ipsum</span>"
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor."
+  button-url: /makers/
+  button-label: Makers Community
 past-events:
   header: "<span>2019</span> <span>Event</span> <span>Highlights</span>"
   body: 
