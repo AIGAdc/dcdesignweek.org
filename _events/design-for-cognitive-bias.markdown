@@ -8,6 +8,7 @@ description: Biases. We all have them. Learn how design and content strategy can
 event-date: 2020-09-21 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:30 PM
+image-alt: Photo of speaker David Dylan Thomas.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -48,6 +49,8 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-location:
+  is-dc: true
 ---
 
 Users take shortcuts to get through the day. (Don’t we all?) Usually, they’re harmless. Sometimes they’re helpful. But what happens when they’re not? 
