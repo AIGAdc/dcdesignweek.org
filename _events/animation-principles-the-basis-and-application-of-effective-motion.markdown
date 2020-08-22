@@ -79,3 +79,7 @@ Initial project files will be distributed to participants. The project files wil
 Speakers will provide:
 * Illustrator and After Effects projects beforehand for the demos
 * A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
+
+<h2>Partner & Sponsor</h2>
+**Duke & Duck**
+Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in moving pixels. We believe that absolutely everyone and everything is worth celebrating. Stories are at the core of our humanity and, through animation and motion graphics, we work hard to reach the hearts and eyes of our client’s audience.
