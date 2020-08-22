@@ -14,13 +14,25 @@ status:
   is-featured-on-home: true
 tickets:
   has-member-button: true
+  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-label: "$30 — Members"
   has-non-member-button: true
+  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-label: "$45 — Non-Members"
+venue:
+  name: Zoom
+  additional-header: Platform and Prerequisites
+  additional-info: |-
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    **Prerequisites**
+    The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
 has-speakers: true
 speakers:
 - name: Christina Animashaun
   pronouns: They | Them
-  bio: Christina Animashaun (they/them) is the news graphics designer for Vox. They
-    produce and edit news graphics, data visualization, photography, and illustration
+  title: Christina Animashaun (they/them) is the news graphics designer for Vox.
+  bio: They produce and edit news graphics, data visualization, photography, and illustration
     for breaking news, enterprise and editorial features. Prior to Vox, they worked
     as a graphics reporter at Politico and as a researcher at the Investigative Reporting
     Workshop.
@@ -59,8 +71,7 @@ All DCDW events will have real-time CART (live captioning) services. Learn more 
 **Platform**
 This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. [You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our FAQ](https://dcdesignweek.org/faqs/).
 
-**Prerequisites**
-The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
+
 
 **Code of Conduct**
 All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
