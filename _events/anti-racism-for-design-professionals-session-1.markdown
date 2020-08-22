@@ -51,7 +51,7 @@ speakers:
     and healthcare and is currently the director of the Wellness and Health Enhancement
     Engineering Laboratory (WHEEL).
   website-label: Website
-  website-url: http://enidmontague.com/
+  website-url: http://www.enidmontague.com/
 has-accessibility-notes: true
 filter-date:
   is-day-2: true
