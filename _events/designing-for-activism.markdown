@@ -48,7 +48,7 @@ speakers:
     and within the community, from instagram gif stickers to permanent murals throughout
     DC.
   website-label: Website
-  website-url: www.trapbob.com
+  website-url: http://www.trapbob.com
 - name: Divorce Culture
   pronouns: He | Him | His
   title: Fine Artist, Screenprinter, and Muralist based in Washington, DC
@@ -70,7 +70,7 @@ speakers:
     and strategically underrepresented groups to tell their stories through collaboration
     with community members and organizations on the frontlines of change.
   website-label: Website
-  website-url: www.josephorzal.com
+  website-url: http://www.josephorzal.com
 has-accessibility-notes: true
 filter-date:
   is-day-4: true
