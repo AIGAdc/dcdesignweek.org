@@ -33,6 +33,7 @@ venue:
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+has-accessibility-notes: true
 accessibility-notes:
 - note: |-
     All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
