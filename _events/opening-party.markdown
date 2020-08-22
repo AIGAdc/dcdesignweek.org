@@ -41,7 +41,7 @@ speakers:
     and were recently awarded the 2020 Regional and State Independent Artist Award
     for Performing Arts from the Maryland State Arts Council (MSAC).
   website-label: Website
-  website-url: www.alexandolmsted.com
+  website-url: http://www.alexandolmsted.com
 - name: Charity Blackwell
   pronouns: She | Her | Hers
   title: 
