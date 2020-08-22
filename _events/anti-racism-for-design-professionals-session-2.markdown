@@ -8,9 +8,9 @@ description: How can designers champion diversity and inclusion in our work? Joi
   us for a hands-on discussion about how to practice design with anti-racist principles
   in mind.
 event-date: 2020-09-20 10:00:00 -04:00
-start-time: 10:00AM
-end-time: 11:30AM
-image-alt: Image Alt Text
+start-time: 10:00 AM
+end-time: 11:30 AM
+image-alt: Photo of Dr. Enid Montague.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -39,9 +39,9 @@ venue:
 has-speakers: true
 speakers:
 - name: Dr. Enid Montague
-  pronouns: she | her | hers
+  pronouns: She | Her | Hers
   title: Engineer/designer/researcher improving health, wellness, equity and social
-    justice.
+    justice
   bio: Dr. Montague is currently an Associate Professor in the college of computing
     at DePaul University and adjunct professor at Northwestern University’s Feinberg
     School of Medicine. She received MS and PhD degrees in Industrial and Systems
@@ -53,13 +53,15 @@ speakers:
     reviewed publications on topics at the intersection of human technology interaction
     and healthcare and is currently the director of the Wellness and Health Enhancement
     Engineering Laboratory (WHEEL).
-  website-label: enidmontague.com
+  website-label: Website
   website-url: http://enidmontague.com/
+has-accessibility-notes: true
 filter-date:
   is-day-3: true
 filter-time:
-  is-morning: false
-  is-daytime: true
+  is-morning: true
+filter-location:
+  is-dc: true
 ---
 
 Being anti-racist calls for us to support a radical reordering of society to achieve political, economic, and social equality. As designers, we must ask ourselves: what role can we play to ensure our work isn’t just not racist, but is actively anti-racist? Join Dr. Enid Montague for a hands-on discussion about practicing design with anti-racist principles at the forefront — both how we change the way we do our work as well as the work we do. Dr. Montague will give a short talk and guide a meaningful conversation about how to cultivate anti-racist principles in our own design work.
