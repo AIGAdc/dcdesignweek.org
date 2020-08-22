@@ -20,10 +20,10 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fanti-racism-for-design-professionals-session-2%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$15 — Members"
   has-non-member-button: true
-  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-url: https://www.eventbrite.com/e/anti-racism-for-design-professionals-session-2-tickets-117844356643
   non-member-button-label: "$20 — Non-Members"
 venue:
   name: Zoom
@@ -62,4 +62,10 @@ filter-time:
   is-daytime: true
 ---
 
-Being anti-racist calls for us to support a radical reordering of society to achieve political, economic, and social equality. As designers, we must ask ourselves: what role can we play to ensure our work isn’t just not racist, but is actively anti-racist? Join Dr. Enid Montague for a hands-on discussion about practicing design with anti-racist principles at the forefront — both how we change the way we do our work as well as the work we do. Dr. Montague will give a short talk and guide a meaningful conversation about how to cultivate anti-racist principles in our own design work. 
+Being anti-racist calls for us to support a radical reordering of society to achieve political, economic, and social equality. As designers, we must ask ourselves: what role can we play to ensure our work isn’t just not racist, but is actively anti-racist? Join Dr. Enid Montague for a hands-on discussion about practicing design with anti-racist principles at the forefront — both how we change the way we do our work as well as the work we do. Dr. Montague will give a short talk and guide a meaningful conversation about how to cultivate anti-racist principles in our own design work.
+
+This intimate workshop and conversation will challenge the way you see yourself and see your work. You’ll get the most out of this event if you come prepared to learn and share with openness and vulnerability.
+
+Reading will be provided beforehand to help ground the discussion.
+
+**Please note that this workshop is happening twice - this is for Sunday's event.**

@@ -35,11 +35,8 @@ venue:
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-accessibility-notes: true
 accessibility-notes:
-- note: |-
-    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
-    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
-    * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
-    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+- note: Please visit CreativeMornings/DC’s registration page for more information
+    about accessibility and requests for accommodations.
 filter-date:
   is-day-8: true
 filter-time:

@@ -1,7 +1,7 @@
 ---
 title: Intro to Digital Art Using Procreate
 date: 2020-08-22 13:25:00 -04:00
-styled-title: "<span>Intro<span><span>to<span><span>Digital</span><span>Art</span><span>Using</span><span>Procreate</span>"
+styled-title: "<span>Intro</span><span>to</span><span>Digital</span><span>Art</span><span>Using</span><span>Procreate</span>"
 image: "/uploads/event-Intro-Digital-Art-with-Procreate.png"
 description: Are you curious about digital art, but don’t know where to start? Grab
   your iPad and join us for this interactive workshop to learn the basics of Procreate.
@@ -24,6 +24,13 @@ tickets:
   non-member-button-label: "$15 — Non-Members"
 venue:
   name: Zoom
+  additional-header: Platform and Prerequisites
+  additional-info: |-
+    Participants will need an iPad with Procreate app installed and (preferably) a stylus to participate. No previous knowledge or experience with the app or digital illustration is required - the purpose of the workshop is to introduce anyone to the possibilities of creating art in Procreate.
+
+    - - -
+
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Zoë Soriano
