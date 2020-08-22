@@ -46,7 +46,7 @@ speakers:
     Gardens</a>. Dany is a self-taught artist whose unique approach pushes the boundaries
     of traditional mosaics.
   website-label: Website
-  website-url: 'danygreen.com '
+  website-url: 'http://www.danygreen.com '
 - name: Sonia Jones
   pronouns: She | Her | Hers
   title: Portrait & Figurative Artist
@@ -56,7 +56,7 @@ speakers:
     people. Sonia is also an experienced UX designer currently teaching a capstone
     course at the Maryland Institute College of Art.
   website-label: Website
-  website-url: SoniaJonesTheArtist.com
+  website-url: http://www.SoniaJonesTheArtist.com
 - name: Jodi Kostelnik
   pronouns: She | Her | Hers
   title: Owner, The Neighborgoods
@@ -66,7 +66,7 @@ speakers:
     gifting. She loves to bring a smile to her customers’ faces and create products
     to brighten the everyday.
   website-label: Website
-  website-url: TheNeighborgoods.com
+  website-url: http://www.TheNeighborgoods.com
 - name: Josue Martinez
   pronouns: He | Him | His
   title: Artist, Owner of Corinto Gallery
@@ -76,7 +76,7 @@ speakers:
     Morgan Community Alliance, Josue has worked with a variety of youth and change-making
     organizations.
   website-label: Website
-  website-url: corintogallery.com
+  website-url: http://www.corintogallery.com
 - name: Torie Partridge
   pronouns: She | Her | Hers
   title: Owner, Cherry Blossom Creative
@@ -87,7 +87,7 @@ speakers:
     culture and investing in the place you live. She's also a conscious movement facilitator,
     tarot enthusiast, avid traveler, and lover of city parks.
   website-label: Website
-  website-url: cherryblossomcreative.com
+  website-url: http://www.cherryblossomcreative.com
 has-accessibility-notes: true
 filter-date:
   is-day-5: true
