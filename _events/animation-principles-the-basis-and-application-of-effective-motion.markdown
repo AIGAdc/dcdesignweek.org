@@ -59,10 +59,9 @@ accessibility-notes:
     the provided Google Form link, or by phone. We honor your privacy and no personally
     identifying information (e.g. your name) is required to request an accommodation.\n\n•
     Request an accommodation through this Google Form. \n• Email us at designweek@dc.aiga.org.\n•
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nYou can learn
-    more about how we’re making DC Design Week an accessible experience by visiting
-    our about page.\n\nPlease note that full participation in this event will require
-    fine motor skills, though the instructor will provide some modifications."
+    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nPlease note
+    that full participation in this event will require fine motor skills, though the
+    instructor will provide some modifications."
 filter-date:
   is-day-3: true
 filter-time:
