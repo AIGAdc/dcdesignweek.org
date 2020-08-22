@@ -9,7 +9,7 @@ description: In this workshop, we’re going to explore data and representation 
 event-date: 2020-09-19 13:00:00 -04:00
 start-time: 1:00 PM
 end-time: 3:30 PM
-image-alt: Introduction to Data Viz
+image-alt: bar chart
 status:
   is-featured-on-home: true
 tickets:
@@ -25,7 +25,7 @@ speakers:
     as a graphics reporter at Politico and as a researcher at the Investigative Reporting
     Workshop.
   website-label: Website
-  website-url: christinamta.com
+  website-url: http://www.christinamta.com/
 has-accessibility-notes: true
 filter-date:
   is-day-2: true
