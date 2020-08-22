@@ -547,6 +547,11 @@ partner:
     in partnering with DC Design Week this year, let us know. \n"
   button-url: mailto:designweek@dc.aiga.org
   button-label: Reach Out
+self-guided:
+  header: "<span>Lorem</span> <span>Ipsum</span>"
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor."
+  button-url: /events/self-guided/
+  button-label: See Self-Guided Events
 past-events:
   header: "<span>2019</span> <span>Event</span> <span>Highlights</span>"
   body: 
