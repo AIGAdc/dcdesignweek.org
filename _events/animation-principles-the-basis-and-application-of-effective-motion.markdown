@@ -51,6 +51,7 @@ speakers:
     that she can live out that cottagecore lifestyle in her downtime.
   website-label: Dribbble
   website-url: https://dribbble.com/leftarrowthree
+has-accessibility-notes: true
 accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you
     need any additional accommodations, please contact us before 9/14 by email, through
