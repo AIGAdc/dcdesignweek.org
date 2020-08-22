@@ -24,6 +24,11 @@ tickets:
   non-member-button-label: "$7 — Non-Members"
 venue:
   name: Zoom
+  additional-header: Platform and Prerequisites
+  additional-info: |-
+    Bring water, a mat (optional) and an open mind to try something new!
+
+    This event will be streamed on And8’s platform. To participate fully, attendees should join via computer, tablet, or mobile device on a network with enough bandwidth to support video streaming.
 has-speakers: true
 speakers:
 - name: 'Danielle and Dominique Gillyard '
