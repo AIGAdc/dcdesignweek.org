@@ -8,4 +8,3 @@ hero:
   subheader: 
 layout: events
 ---
-
