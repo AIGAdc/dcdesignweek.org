@@ -44,8 +44,7 @@ speakers:
 - name: Andra "AJ" Johnson
   pronouns: She | Her | Hers
   title: Bar director of Serenata/Zumo concept and author of the forthcoming book
-    White Plates, Black Faces — which tells the stories of people of color in the
-    restaurant industry.
+    White Plates, Black Faces
   bio: |-
     Andra "AJ" Johnson got her start in the restaurant business at a local chain restaurant in Rockville, Maryland. She then headed to DC and became an accomplished barista and bartender, a general manager, an assistant general manager and beverage director, and a managing partner at several popular and fine dining restaurants in the DMV.</br>
     In 2018, Andra became a co-founder of DMV Black Restaurant Week. Andra is currently the bar director of Serenata/Zumo concept in La Cosecha, where she renews her commitment to providing exemplary service and thoughtful cocktails each day. Her forthcoming book, “White Plates, Black Faces,” continues her work telling the stories of people of color in the restaurant industry. Currently, she also heads up a cocktail pop up initiative called “Back to Black” that strives to raise funds to donate to overlooked and underfunded charities and organizations in the DC area.
@@ -56,9 +55,9 @@ accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you
     need any additional accommodations, please contact us before 9/14 by email, through
     the provided Google Form link, or by phone. We honor your privacy and no personally
-    identifying information (e.g. your name) is required to request an accommodation.\n\n•
+    identifying information (e.g. your name) is required to request an accommodation.\n\n*
     Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6).
-    \n• [Email us](mailto:dcdesignweek@dc.aiga.org) at designweek@dc.aiga.org.\n•
+    \n* [Email us](mailto:dcdesignweek@dc.aiga.org) at designweek@dc.aiga.org.\n*
     Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nFull participation
     in this event will require physical mobility to make a cocktail, including assembling
     ingredients and shaking a cocktail shaker. The host will provide some modifications."
