@@ -41,7 +41,7 @@ speakers:
     Over his career he’s worked on a smorgasbord of projects for a whole bunch of
     clients. His current quarantine goal is to solve the Rubik’s Cube in under a minute.
   website-label: Website
-  website-url: laivideo.com
+  website-url: http://www.laivideo.com
 - name: Tiffany Lewis
   pronouns: She | Her | Hers
   title: Creative Director
@@ -51,7 +51,7 @@ speakers:
     inhabit. When she’s not at work, she's upping her baking and plant care game so
     that she can live out that cottagecore lifestyle in her downtime.
   website-label: Dribbble
-  website-url: https://dribbble.com/leftarrowthree
+  website-url: https://www.dribbble.com/leftarrowthree
 has-accessibility-notes: true
 accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you
