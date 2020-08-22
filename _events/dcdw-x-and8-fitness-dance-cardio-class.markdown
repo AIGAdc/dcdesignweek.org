@@ -21,7 +21,7 @@ tickets:
   member-button-label: "$7 - Members"
   has-non-member-button: true
   non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
-  non-member-button-label: "$7 - Members"
+  non-member-button-label: "$7 - Non-Members"
 venue:
   name: Zoom
 has-speakers: true
