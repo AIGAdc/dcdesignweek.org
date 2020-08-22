@@ -53,14 +53,12 @@ speakers:
   website-url: https://www.instagram.com/jtknoxroxs/
 has-accessibility-notes: true
 accessibility-notes:
-- note: All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
-
+- note: |-
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
 
     Request an accommodation through this [Google Form](#)
 
-
     Email us at [designweek@dc.aiga.org](#)
-
 
     Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
