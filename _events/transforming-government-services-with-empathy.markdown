@@ -20,11 +20,11 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: "$5 — Members"
-  member-button-label: https://my.aiga.org/CPBase__custom_login?startURL=%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAXQYHYrAME8wMUgwMDAwMDA0Qzk1AAAA4oSo7dsFvNWljVNT_qsfuxQs1nosCCj7I-pZ0CbAdcTjfj4MatA1O6dMztneC6WADHGS1p3p_SBBKY6L6DpUeRrEN_vTj5c78IGUy-52CGe5-If6xmgyRNX_S4Xt4UBrHBFUrg9cNJ5wnhK3FXAd094Ptb9OoX1-rr3wutKAT0EGCOr45J-Yn0xf8B5GpwZjPjWnAZcLLZQgzTgMskdts0gKf1Zpw4T4u4a61QJVJlfy4lx7l0jpqcFzim5oda0k9MgeO5yx8AfQtXtRJKRyG1qhcmooVXJYcu3lu8wrsyN3aGsbYXc9vm8_mL6s13wWS3BUN_xz8UPLTX1QSC1oWcR2i9kPh8PpZ5qiedkdgPlGKKnUVRYtF0NUQSuFGR3-NIMPggWtiDWI9bx1-1v_31Q72YfHtyvACmRUGtp8A73OQEqu8B-bgL2dM-CTSx6xgNm1ZU2sNt7Rt2a6JCPP4wGnlESvAhORmuF2IDTP5UM3RTmrYObpbigkLRAa2-MT07d8cNQ1GGGL_rEZKxhHD0h1XWSbUX2NmC54OjM2y3NMc08t1aS7ZyRA4JZn7v_cX4xDUAhu3TOS8-rDU824hCTDA-nu1wXl9S71HajiyzWJhQS5nvWKFlAIe-kUu5VMFwmABnbzhBz2PKElCQupWXnV5YCPqQNGqDX5OF06t-sFRlLjjE7JhanrfVi2RbmsBWhsS12O9Wk-_5Jgctnd-gGjB8WFJrB0z7i2GThU6VSPlNliewn7nJxKQabsWfoOYLPwkh1Kpf4JmAH7729MvhrtN2V093KZfE9eYTAMDMDFfykKznbmRFAkgoY-hlN4yVkgudc09QTbuHZG7x1_vlJAGMFrs7BS5aKLFNw_hcEdl2O_kBUAgiRy2M6CkkkNAJxNSmOA4XWvN4HChSxtKLZlPZxDofOj0SvalBbvlbHV
+  member-button-url: https://my.aiga.org/CPBase__custom_login?startURL=%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAXQYHYrAME8wMUgwMDAwMDA0Qzk1AAAA4oSo7dsFvNWljVNT_qsfuxQs1nosCCj7I-pZ0CbAdcTjfj4MatA1O6dMztneC6WADHGS1p3p_SBBKY6L6DpUeRrEN_vTj5c78IGUy-52CGe5-If6xmgyRNX_S4Xt4UBrHBFUrg9cNJ5wnhK3FXAd094Ptb9OoX1-rr3wutKAT0EGCOr45J-Yn0xf8B5GpwZjPjWnAZcLLZQgzTgMskdts0gKf1Zpw4T4u4a61QJVJlfy4lx7l0jpqcFzim5oda0k9MgeO5yx8AfQtXtRJKRyG1qhcmooVXJYcu3lu8wrsyN3aGsbYXc9vm8_mL6s13wWS3BUN_xz8UPLTX1QSC1oWcR2i9kPh8PpZ5qiedkdgPlGKKnUVRYtF0NUQSuFGR3-NIMPggWtiDWI9bx1-1v_31Q72YfHtyvACmRUGtp8A73OQEqu8B-bgL2dM-CTSx6xgNm1ZU2sNt7Rt2a6JCPP4wGnlESvAhORmuF2IDTP5UM3RTmrYObpbigkLRAa2-MT07d8cNQ1GGGL_rEZKxhHD0h1XWSbUX2NmC54OjM2y3NMc08t1aS7ZyRA4JZn7v_cX4xDUAhu3TOS8-rDU824hCTDA-nu1wXl9S71HajiyzWJhQS5nvWKFlAIe-kUu5VMFwmABnbzhBz2PKElCQupWXnV5YCPqQNGqDX5OF06t-sFRlLjjE7JhanrfVi2RbmsBWhsS12O9Wk-_5Jgctnd-gGjB8WFJrB0z7i2GThU6VSPlNliewn7nJxKQabsWfoOYLPwkh1Kpf4JmAH7729MvhrtN2V093KZfE9eYTAMDMDFfykKznbmRFAkgoY-hlN4yVkgudc09QTbuHZG7x1_vlJAGMFrs7BS5aKLFNw_hcEdl2O_kBUAgiRy2M6CkkkNAJxNSmOA4XWvN4HChSxtKLZlPZxDofOj0SvalBbvlbHV
+  member-button-label: "$5 — Members"
   has-non-member-button: true
-  non-member-button-url: "$5 — Non-Members"
-  non-member-button-label: https://www.eventbrite.com/e/transforming-government-services-with-empathy-tickets-117861116773
+  non-member-button-url: https://www.eventbrite.com/e/transforming-government-services-with-empathy-tickets-117861116773
+  non-member-button-label: "$5 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -53,7 +53,7 @@ speakers:
   website-label: Website
   website-url: http://avivaoskow.com/
 - name: Jacklynn Pham
-  pronouns: She | Her | Him
+  pronouns: She | Her | Hers
   title: User experience designer and researcher at 18F
   bio: Jacklynn Pham is a designer and researcher at 18F. The majority of her design
     career has been divided between detailed interaction and communicating systems,
