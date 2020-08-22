@@ -59,6 +59,7 @@ In this talk, David Thomas, creator and host of the Cognitive Bias Podcast, will
 
 In addition to getting to join in for an exciting discussion, all participants will receive a code for a free digital copy of David’s newest book, *Design for Cognitive Bias* from DCDW sponsor **A Book Apart**, to help you put what you’ve learned into practice.
 
+
 <h2>Event Sponsor</h2>
 **[A Book Apart](https://abookapart.com/)**<br/>
 A Book Apart publishes detailed, meticulously edited examinations of single topics. Books come in two formats: Standards (100–150 pages, available in paperback and ebook) and Briefs (50–70 pages, available in ebook and print-on-demand). Both are the perfect size for topics ranging from technical to theory: responsive web design, Git, and JavaScript to content strategy, design principles, management, and more.
