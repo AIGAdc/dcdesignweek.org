@@ -1,7 +1,7 @@
 ---
 title: CreativeMornings/DC
 date: 2020-08-22 12:19:00 -04:00
-styled-title: "<span>Creative</span><span>Mornings</span><span>DC</span>"
+styled-title: "<span>Creative</span><span>Mornings/</span><span>DC</span>"
 image: "/uploads/event-creative-morning.png"
 description: We’re partnering with CreativeMornings for a special event with three
   creatives. Each speaker will give a 30-second pitch about the word “Spectrum” and
@@ -19,9 +19,9 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-label: Free
+  member-button-label: Free — Members
   has-non-member-button: true
-  non-member-button-label: Free
+  non-member-button-label: Free — Members
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
