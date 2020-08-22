@@ -47,3 +47,6 @@ This class is designed to give you an intense, full-body workout while celebrati
 Founders Danielle and Dominique Gillyard will lead you through the “...5, 6, 7, and8” of this 60-minute class (45 mins of dance cardio, 15 mins of stretching and conversation). The final 15 mins will focus on stretching while Danielle and Dominique share about their experience launching a creative business and designing choreography.
 
 Not a great dancer? Have no fear. This isn’t about how you look. It’s about how you feel.
+
+## Event Partner: 
+and8Fitness
