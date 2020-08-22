@@ -58,11 +58,12 @@ filter-time:
 
 2020 hasn’t gone as planned. But that doesn’t mean you can’t plan for your career!
 
-Join us for a conversation that will explore the current state of career planning. Our two speakers — Amber Fields and Bailey O’Connell — are both experienced career coaches and connectors. Amber and Bailey will discuss how the pandemic has affected the job hunt, what fields are hiring and growing (and how to stand out!), and how to plan for the future. 
+Join us for a conversation that will explore the current state of career planning. Our two speakers — Amber Fields and Bailey O’Connell — are both experienced career coaches and connectors. Amber and Bailey will discuss how the pandemic has affected the job hunt, what fields are hiring and growing (and how to stand out!), and how to plan for the future.
 
 The workshop will be structured around the following topics — but we’ll also make time for Q+A:
-- What industries are hiring? Which ones aren’t?
--  How can you stand out as an applicant?
--  How has the virtual hiring process affected perception biases?
--  How can you identify a company with a diverse workforce and a healthy environment?
--  How can BIPOC and persons with disabilities identify and overcome structural challenges of job searching and career progression? 
+
+* What industries are hiring? Which ones aren’t?
+* How can you stand out as an applicant?
+* How has the virtual hiring process affected perception biases?
+* How can you identify a company with a diverse workforce and a healthy environment?
+* How can BIPOC and persons with disabilities identify and overcome structural challenges of job searching and career progression?
