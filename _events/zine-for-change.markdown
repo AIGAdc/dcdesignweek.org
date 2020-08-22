@@ -1,25 +1,21 @@
 ---
-title: "<span>Zine</span> <span>for</span> <span>Change</span>"
+title: Zine for Change
 date: 2019-09-01 14:27:00 -04:00
-date-event: 2020-09-23 19:00:00 -04:00
-time-start: 7:00 PM
-time-end: 8:00 PM
 image: "/uploads/Design-for-Cognitive-Bias.png"
-image-alt: Image Alt Text
 description: For years, artists have used magazines to communicate their visions and
   ignite change. Get a closer look at two different approaches for independent publishing
   and making zines.
+date-event: 2020-09-23 19:00:00 -04:00
+time-start: 7:00 PM
+time-end: 8:00 PM
+image-alt: Image Alt Text
 status:
   is-featured-on-home: false
-  featured-home-message: 
   is-featured-on-events: false
-  featured-event-message: 
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-coming-soon: false
-  coming-soon-message: 
   has-occurred: false
-  occurred-message: 
 tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
@@ -71,10 +67,10 @@ filter-date:
   is-day-8: true
 filter-time:
   is-evening: true
-filter-type:
-  is-party: true
 filter-location:
   is-dc: true
+filter-type:
+  is-party: true
 ---
 
 When traditional means of publishing — the big houses and editors — aren’t interested in challenging existing narratives or lifting up new voices, designers don’t stop.
