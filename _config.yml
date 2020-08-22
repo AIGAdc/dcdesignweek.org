@@ -24,9 +24,9 @@ defaults:
     path: ''
     type: events
   values:
-    date-event: 
-    time-start: 
-    time-end: 
+    event-date: 
+    start-time: 
+    end-time: 
     image: 
     image-alt: 
     description: 

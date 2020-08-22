@@ -38,15 +38,15 @@
 	<div class="card-details">
 		<div class="card-date">
 			<p class="day">
-				{{ event.date-event | date: "%a"}}
+				{{ event.event-date | date: "%a"}}
 			</p>
 			<p class="date">
-				{{ event.date-event | date: "%m.%d"}}
+				{{ event.event-date | date: "%m.%d"}}
 			</p>
 		</div>
 		<div class="card-info">
 			<p>
-				{{ event.time-start }}
+				{{ event.start-time }}
 			</p>
 			<p>
 				{{ event.venue.name }}

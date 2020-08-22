@@ -5,10 +5,10 @@
 			<div class="landing-hero__details">
 				<h1
 					id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-					{{ page.title }}
+					{{ page.styled-title }}
 				</h1>
 				<p>
-					{{ page.date-event | date: "%A | %B %d | %l:%M %p" }}
+					{{ page.event-date | date: "%A | %B %d | %l:%M %p" }}
 				</p>
 				<div class="landing-hero__tickets">
 					{% if page.tickets.has-member-button == true %}

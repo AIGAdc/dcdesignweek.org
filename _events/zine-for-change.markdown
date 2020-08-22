@@ -1,13 +1,14 @@
 ---
 title: Zine for Change
 date: 2019-09-01 14:27:00 -04:00
+styled-title: <span>Zine</span> <span>for</span> <span>Change</span>
 image: "/uploads/Design-for-Cognitive-Bias.png"
 description: For years, artists have used magazines to communicate their visions and
   ignite change. Get a closer look at two different approaches for independent publishing
   and making zines.
-date-event: 2020-09-23 19:00:00 -04:00
-time-start: 7:00 PM
-time-end: 8:00 PM
+event-date: 2020-09-23 19:00:00 -04:00
+start-time: 7:00 PM
+end-time: 8:00 PM
 image-alt: Image Alt Text
 status:
   is-featured-on-home: false
