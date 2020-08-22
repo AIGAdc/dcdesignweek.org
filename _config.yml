@@ -2,6 +2,7 @@
 title: DC Design Week 2020
 timezone: America/New_York
 collections:
+  collections_dir: "/source/"
   events:
     title: Events
     output: true
@@ -647,7 +648,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: 
+baseurl: ""
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
