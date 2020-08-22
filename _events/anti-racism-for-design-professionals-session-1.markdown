@@ -11,6 +11,13 @@ event-date: 2020-09-19 10:00:00 -04:00
 start-time: 10:00 AM
 end-time: 11:30 AM
 image-alt: Dr. Enid Montague
+status:
+  is-featured-on-home: false
+  is-featured-on-events: false
+  is-sold-out: false
+  sold-out-message: This Event is Sold Out.
+  is-coming-soon: false
+  has-occurred: false
 tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
@@ -24,12 +31,12 @@ venue:
   additional-info: |-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 
-    *Prerequisites*
+    *Prerequisites*<br/>
     We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the above pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
 has-speakers: true
 speakers:
 - name: Dr. Enid Montague
-  pronouns: She | Her
+  pronouns: She | Her | Hers
   title: Engineer/designer/researcher improving health, wellness, equity and social
     justice
   bio: Dr. Montague is currently an Associate Professor in the college of computing
@@ -50,6 +57,8 @@ filter-date:
   is-day-2: true
 filter-time:
   is-morning: true
+filter-location:
+  is-dc: true
 ---
 
 Being anti-racist calls for us to support a radical reordering of society to achieve political, economic, and social equality. As designers, we must ask ourselves: what role can we play to ensure our work isn’t just not racist, but is actively anti-racist? Join Dr. Enid Montague for a hands-on discussion about practicing design with anti-racist principles at the forefront — both how we change the way we do our work as well as the work we do. Dr. Montague will give a short talk and guide a meaningful conversation about how to cultivate anti-racist principles in our own design work. 
