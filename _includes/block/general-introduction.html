@@ -67,7 +67,7 @@
 {% endif %}
 {% endfor %}
 
-{% elsif page.url == "/about/" %}
+{% elsif page.url == "/about/" or "/accessibility/" %}
 <!-- if about page -->
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
@@ -79,12 +79,55 @@
 				{{ content.header }}</h1>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
 		</div>
-		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
-			<div class="grid-col--span-3">
+		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-2">
+			<div class="grid-col--span-4">
 				<img class="bubble-group-introduction-about" aria-hidden="true" src="/uploads/bubble-black-large-03.png"
 					alt="Floating amorphous bubbles with DC Design Week text inside">
+				<div class="grid-col grid-col--span-2 order-3" style="z-index: 300; position: relative;">
+					<video controls playsinline loop poster="/uploads/dcdw-about-poster.jpg">
+						<source src="/uploads/dcdw-about-video.mp4" type="video/mp4">
+						<source src="/uploads/dcdw-about-video.webm" type="video/webm">
+						<source src="/uploads/dcdw-about-video.ogg" type="video/ogg">
+						<track label="English" kind="subtitles" srclang="en"
+							src="/uploads/dcdw-about-video-captions.vtt">
+					</video>
+					<div class="playback-controls">
+						<p data-houdini-toggle="playback">Playback Speed</p>
+						<div data-houdini-group="playback-controls" id="playback">
+							<button class="playbackButton button-square button-square__border--white" id='0.8x'>
+								0.8x
+							</button>
+							<button class="playbackButton button-square button-square__border--white" id='1x'>
+								1.0x
+							</button>
+							<button class="playbackButton button-square button-square__border--white" id='1.2x'>
+								1.2x
+							</button>
+						</div>
+					</div>
+					<script>
+						var disclosure = new Houdini('[data-houdini-group]', {
+							isAccordion: true
+						});
+					</script>
+					<script>
+						const video = document.querySelector('video');
+						document.getElementsByTagName('video')[0].volume = 0.25;
+						document.onclick = (e) => {
+							if (e.target.id === '0.8x') {
+								video.playbackRate = 0.8;
+							}
+							if (e.target.id === '1x') {
+								video.playbackRate = 1;
+							}
+							if (e.target.id === '1.2x') {
+								video.playbackRate = 1.2;
+							}
+						}
+					</script>
+				</div>
 			</div>
-			<div class="ornaments grid-col--span-1">
+			<div class="ornaments grid-col--max-content">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -105,51 +148,6 @@
 					</svg>
 				</figure>
 			</div>
-		</div>
-		<div class="grid-col grid-col--span-2 order-3">
-			<video controls playsinline loop poster="/uploads/dcdw-about-poster.jpg">
-				<source src="/uploads/dcdw-about-video.mp4" type="video/mp4">
-				<source src="/uploads/dcdw-about-video.webm" type="video/webm">
-				<source src="/uploads/dcdw-about-video.ogg" type="video/ogg">
-				<track label="English" kind="subtitles" srclang="en" src="/uploads/dcdw-about-video-captions.vtt">
-			</video>
-			<div class="playback-controls">
-				<p data-houdini-toggle="playback">Playback Speed</p>
-				<div data-houdini-group="playback-controls" id="playback">
-					<button class="playbackButton button-square button-square__border--white" id='0.8x'>
-						0.8x
-					</button>
-					<button class="playbackButton button-square button-square__border--white" id='1x'>
-						1.0x
-					</button>
-					<button class="playbackButton button-square button-square__border--white" id='1.2x'>
-						1.2x
-					</button>
-				</div>
-			</div>
-			<script>
-				var disclosure = new Houdini('[data-houdini-group]', {
-					isAccordion: true
-				});
-			</script>
-			<script>
-				const video = document.querySelector('video');
-				document.getElementsByTagName('video')[0].volume = 0.25;
-				document.onclick = (e) => {
-					if (e.target.id === '0.8x') {
-						video.playbackRate = 0.8;
-					}
-					if (e.target.id === '1x') {
-						video.playbackRate = 1;
-					}
-					if (e.target.id === '1.2x') {
-						video.playbackRate = 1.2;
-					}
-				}
-			</script>
-		</div>
-		<div class="grid-col grid-col--span-2 order-4">
-			<div class="wysiwyg">{{ content.body-2 | markdownify }}</div>
 		</div>
 	</div>
 </section>
