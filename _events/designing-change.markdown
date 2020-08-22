@@ -3,7 +3,7 @@ title: Designing Change
 date: 2020-08-22 12:55:00 -04:00
 styled-title: "<span>Designing</span> <span>Change:</span> <span>How to advocate for
   diversity in the DC design space</span>"
-image: "/uploads/event-Designing-Change.png"
+image: "/uploads/event-Designing-Change-7d11ec.png"
 description: A panel of senior Black and Brown creatives discuss how they’re working
   to diversify the design space and how to be an ally.
 event-date: 2020-09-19 13:00:00 -04:00
