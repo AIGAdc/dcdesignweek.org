@@ -57,6 +57,7 @@ If you’re an illustrator or designer who dabbles, get ready to kick your portf
 
 Katie Trayte – a professional art director at a DC-based animation studio — will walk you through the process of creating assets for an animated project. Get ready to learn how she uses a client script to make creative choices, develop storyboard frames, and create animation-ready assets. This workshop is going to give you the basics and get you ready to start animating your work, so come ready to dive in, ask questions, and learn a new skill.
 
+
 <h2>Event Partner & Sponsor</h2>
 **[Duke & Duck](https://www.dukeduck.com/)**<br/>
 Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in moving pixels. We believe that absolutely everyone and everything is worth celebrating. Stories are at the core of our humanity and, through animation and motion graphics, we work hard to reach the hearts and eyes of our client’s audience.
