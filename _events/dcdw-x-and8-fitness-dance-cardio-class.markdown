@@ -62,5 +62,5 @@ Founders Danielle and Dominique Gillyard will lead you through the “...5, 6, 7
 Not a great dancer? Have no fear. This isn’t about how you look. It’s about how you feel.
 
 <h2>Event Partner</h2>
-**and8Fitness**<br/>
+**[and8Fitness](https://www.and8fitness.com/)**<br/>
 Taught by twin sisters Danielle and Dominique Gillyard, and8 Fitness is a dance-based cardio workout designed to get your heart pumping and your whole body moving.
