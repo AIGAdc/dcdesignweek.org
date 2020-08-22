@@ -16,6 +16,7 @@ defaults:
 - scope:
     path: ''
   values:
+    styled-title:
     image: "/uploads/og-image.jpg"
     description: DC Design Week is a celebration of creatives, thinkers, and makers
       in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
@@ -63,8 +64,7 @@ defaults:
       website-url: 
     has-accessibility-notes: 
     accessibility-notes:
-    - note: |-
-        > All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+    - note: All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by [email](#), through the provided Google Form [link](#), or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
 
 
         Request an accommodation through this [Google Form](#)
