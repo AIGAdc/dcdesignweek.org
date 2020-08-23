@@ -25,6 +25,20 @@
 	color: $green;
 }
 
+.card__image {
+	position: relative;
+}
+
+.card__image-overlay {
+	background-color: $black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
 .card__link {
 	color: $white;
 	transition: -webkit-filter $timing-quick ease-in;

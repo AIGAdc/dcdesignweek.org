@@ -5,6 +5,7 @@
 		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
 			<figure class="card__image shadow-reverse shadow-reverse--green">
 				<img src="{{ event.image }}" alt="{{ event.image-alt }}" />
+				<div class="card__image-overlay spacing-0"></div>
 			</figure>
 		</a>
 		{% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
@@ -33,7 +34,6 @@
 		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
 			<h3 class="card__title">{{ event.title }}</h3>
 		</a>
-		<p>{{ event.description }}</p>
 	</div>
 	<div class="card-details">
 		<div class="card-date">
