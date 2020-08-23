@@ -26,20 +26,19 @@ tickets:
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
-  additional-info: "This event will be streamed via Zoom. In order to participate
+  additional-info: "Make sure you’re fully stocked on thread and supplies before the
+    event kicks off! Here’s a list of supplies you’ll need:\n* A plain T-shirt (new/used)\n*
+    Sewing needle\n* Floss (DMC 6 Strand Cotton Floss recommended, patterns and colors
+    will provide later)\n* Water or heat soluble fabric pen (use it to draw patterns
+    on t-shirts) \n* Hand embroidery hoop (optional, but it makes stitching on fabric
+    easier) \n* Scissors\n\nThis event will be streamed via Zoom. In order to participate
     fully, attendees should plan to join on the Zoom app via their computer, tablet,
     or mobile device with enough bandwidth to support viewing video. In order to ensure
     only those who have registered for the event are able to attend — and to create
     space for intimate conversations — only those whose display name fully matches
     the name on our registration list will be admitted from the waiting room. You
     can find more about joining our virtual events, including how to connect, directions
-    to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).\n\n*Prerequisites*<br/>\nMake
-    sure you’re fully stocked on thread and supplies before the event kicks off! Here’s
-    a list of supplies you’ll need:\n* A plain T-shirt (new/used)\n* Sewing needle\n*
-    Floss (DMC 6 Strand Cotton Floss recommended, patterns and colors will provide
-    later)\n* Water or heat soluble fabric pen (use it to draw patterns on t-shirts)
-    \n* Hand embroidery hoop (optional, but it makes stitching on fabric easier) \n*
-    Scissors"
+    to troubleshoot, and information about our refund policy in our [FAQ](/faqs/)."
 has-speakers: true
 speakers:
 - name: 'Jo (Xuejiao) Zhu '
