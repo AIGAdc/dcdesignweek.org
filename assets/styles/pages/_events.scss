@@ -1,5 +1,5 @@
 .events-filter {
-	border: none;
+	border: solid 1px $white;
 	margin-bottom: $spacing-32;
 }
 
@@ -32,7 +32,6 @@
 /* additional filters */
 
 .events-filter__additional-filters {
-	background-color: $green;
 	padding: $spacing-8;
 	display: none;
 }
