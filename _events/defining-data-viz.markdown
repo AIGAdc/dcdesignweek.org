@@ -28,10 +28,9 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
-
-    **Prerequisites**<br/>
     The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
+
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Christina Animashaun
