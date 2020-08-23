@@ -41,14 +41,14 @@
 	</div>
 
 	{% if page.url == "/events/" %}
-	<div class="grid" style="margin-top: 32px">
+	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-4">
 			{% include event-filter.html %}
 		</div>
 	</div>
 	{% endif %}
 
-	<div class="grid" style="margin-top: 32px;">
+	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-4">
 			<ul class="grid mixitup-container">
 				{% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
@@ -65,8 +65,8 @@
 	</div>
 
 	{% if page.url == "/" %}
-	<div class="grid" style="margin-top: 32px;">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid margin-top-60">
+		<div class="grid-col grid-col--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ page.event-button-url }}">
 				{{ page.event-button-label}}
