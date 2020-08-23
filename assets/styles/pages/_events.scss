@@ -1,5 +1,5 @@
 .events-filter {
-	border: none;
+	border: solid 1px $white;
 	margin-bottom: $spacing-32;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .events-filter__dates .mixitup-control-active {
-	background-color: $green;
+    border-top: solid 8px $green;
 }
 
 .events-filter__dates .control-text-1,
@@ -30,10 +30,7 @@
 }
 
 /* additional filters */
-
 .events-filter__additional-filters {
-	background-color: $green;
-	padding: $spacing-8;
 	display: none;
 }
 
@@ -46,37 +43,47 @@
 	flex-grow: 1;
 }
 
-.events-filter__reset {
-	flex-grow: 0;
-	text-align: right;
+.events-filter__additional-header .houdini-heading {
+	text-align: left !important;
+}
+
+.events-filter__additional-header .houdini-toggle {
+	display: flex !important;
+	justify-content: space-between;
 }
 
 .events-filter__additional-content {
-	border-top: solid 2px $green;
-	margin-top: $spacing-8;
-	padding: $spacing-8 0;
-}
-
-.events-filter__additional-content .control-group {
-	margin-top: $spacing-8;
+	border-top: solid 1px $white;
+	padding: $spacing-16;
 }
 
 .events-filter__additional-content p {
 	margin-bottom: $spacing-8;
 }
 
-.events-filter__additional-content .column:not(:last-of-type) {
-	border-right: solid 2px $green;
-}
-
 .control {
 	background: none;
-	border: none;
+	border-top: solid 8px transparent;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
 	cursor: pointer;
 	flex-grow: 1;
-	color: $black;
-	padding: $spacing-8;
-	transition: background $timing-quick;
+	color: $white;
+	padding: $spacing-32;
+	transition: background 100ms;
+}
+
+.events-filter__reset {
+	flex-grow: 0;
+}
+
+.events-filter__reset .control {
+	padding: $spacing-16;
+}
+
+.events-filter__additional-title .houdini-toggle {
+	padding: $spacing-16 !important;
 }
 
 .mix-it-up-container {
@@ -117,6 +124,7 @@
 @media screen and (min-width: 1023px) {
 	.events-filter__additional-filters {
 		display: block;
+		border-top: solid 1px $white;
 	}
 
 	/* listing */
