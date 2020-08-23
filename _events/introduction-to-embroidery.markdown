@@ -76,4 +76,4 @@ It’s Crafternoon: Time to get your stitch on.
 
 This is a hands-on, beginner-friendly workshop led by designer and illustrator, Jo Zhu. Learn how to interpret images through embroidery and practice applying stitches and textures to create illustrative compositions. No previous experience is necessary — and families are encouraged to attend. This will be a fun and creative way to spend the afternoon!
 
-Make sure you’re well stocked ahead of time. We’ll have a shopping list of everything you need right here so you can make sure you’re ready to go!
+Make sure you’re well stocked ahead of time — see below for a list of supplies to make sure you pick up or have on hand!
