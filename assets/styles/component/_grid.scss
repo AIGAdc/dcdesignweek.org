@@ -9,6 +9,10 @@
 	position: relative;
 }
 
+.grid--events {
+	grid-row-gap: $spacing-80;
+}
+
 .grid-col,
 .sub-grid-col {
 	position: relative;

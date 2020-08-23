@@ -50,7 +50,7 @@
 
 	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-4">
-			<ul class="grid mixitup-container">
+			<ul class="grid grid--events mixitup-container">
 				{% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
 				{% for event in sorted %}
 				{% if page.url == "/" %}
