@@ -31,7 +31,6 @@ venue:
   additional-info: |-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 
-    *Prerequisites*<br/>
     This event will kick-off with a networking session. While not mandatory, we highly encourage participants to join with video enabled for at least this initial portion.
 has-speakers: true
 speakers:
