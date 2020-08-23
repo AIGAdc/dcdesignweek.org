@@ -26,10 +26,9 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    This event will be streamed on And8’s platform. To participate fully, attendees should join via computer, tablet, or mobile device on a network with enough bandwidth to support video streaming.
-
-    *Prerequisites*<br/>
     Bring water, a mat (optional) and an open mind to try something new!
+
+    This event will be streamed on And8’s platform. To participate fully, attendees should join via computer, tablet, or mobile device on a network with enough bandwidth to support video streaming.
 has-speakers: true
 speakers:
 - name: 'Danielle and Dominique Gillyard '
@@ -63,6 +62,6 @@ Founders Danielle and Dominique Gillyard will lead you through the “...5, 6, 7
 Not a great dancer? Have no fear. This isn’t about how you look. It’s about how you feel.
 
 
-<h2>Event Partner</h2>
+## Event Partner
 **[and8Fitness](https://www.and8fitness.com/)**<br/>
 Taught by twin sisters Danielle and Dominique Gillyard, and8 Fitness is a dance-based cardio workout designed to get your heart pumping and your whole body moving.
