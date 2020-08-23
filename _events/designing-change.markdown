@@ -17,8 +17,10 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
+  member-button-url: Place URL
   member-button-label: "$10 — Members"
   has-non-member-button: true
+  non-member-button-url: Place URL
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
