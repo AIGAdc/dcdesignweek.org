@@ -27,10 +27,9 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
-
-    *Prerequisites*<br/>
     Participants will need an iPad with Procreate app installed and (preferably) a stylus to participate. No previous knowledge or experience with the app or digital illustration is required — the purpose of the workshop is to introduce anyone to the possibilities of creating art in Procreate.
+
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Zoë Soriano
@@ -56,4 +55,4 @@ Masks? Layers? Textures? When it comes to digital illustration, where do you eve
 
 Zoë Soriano has your back. Grab your iPad and join this beginner-friendly class and learn how to navigate Procreate and transform your sketches into digital illustrations. She’ll even show you how the app’s animation assist can bring your creative work to life. 
 
-This is a small workshop, designed to provide participants with tons of opportunities for hands-on learning, chances to ask questions, and encouragement to share your work. Come prepared to practice and learn!
+This is a small workshop, designed to provide participants with tons of opportunities for hands-on learning, chances to ask questions, and encouragement to share your work. Make sure your iPad battery is charged, Procreate is downloaded, and come prepared to practice and learn!
