@@ -24,5 +24,9 @@ introduction:
   bubble-2-alt: Small Floating amorphous bubbles with DC Design Week text inside
   button-label: Learn About DCDW
   button-url: "/about/"
+event-header: <span>Featured</span> <span>Events</span>
+event-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id lorem eleifend imperdiet in vitae orci.
+event-button-label: See All Events
+event-button-url: /events/
 ---
 

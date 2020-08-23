@@ -520,6 +520,9 @@ navigation-teaser:
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page
+- url: "/shop/"
+  label: Shop
+  aria-label: Shop Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
