@@ -11,7 +11,7 @@
 }
 
 .events-filter__dates .mixitup-control-active {
-    border-top: solid 8px $green;
+	border-top: solid 8px $green;
 }
 
 .events-filter__dates .control-text-1,
@@ -19,6 +19,15 @@
 .events-filter__dates .control-text-3 {
 	display: block;
 	text-transform: uppercase;
+}
+
+.events-filter__dates .control-text-1 {
+	font-family: $brand-font-terminus;
+}
+
+.events-filter__dates .control-text-3 {
+	font-family: $brand-font-fk-grotesk;
+	font-size: $font-size-16;
 }
 
 .events-filter__date-button {
@@ -45,6 +54,12 @@
 
 .events-filter__additional-header .houdini-heading {
 	text-align: left !important;
+	font-family: $brand-font-terminus;
+	font-size: $font-size-14;
+}
+
+.events-filter__additional-header .houdini-heading span {
+	text-transform: uppercase;
 }
 
 .events-filter__additional-header .houdini-toggle {
@@ -74,16 +89,21 @@
 	transition: background 100ms;
 }
 
-.events-filter__reset {
-	flex-grow: 0;
-}
-
 .events-filter__reset .control {
 	padding: $spacing-16;
+	border-top: none;
+	font-family: $brand-font-terminus;
+	text-transform: uppercase;
+	font-size: $font-size-14;
 }
 
 .events-filter__additional-title .houdini-toggle {
 	padding: $spacing-16 !important;
+	cursor: pointer !important;
+}
+
+.events-filter__status.control-group.grid.grid__4-column {
+    font-size: 16px;
 }
 
 .mix-it-up-container {
