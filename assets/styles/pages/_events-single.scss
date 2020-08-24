@@ -177,7 +177,7 @@ ol {
 @media screen and (min-width: 1023px) {
 	.landing-hero__content {
 		min-height: 65vh;
-		padding: 32px 0;
+		padding: 32px;
 	}
 
 	.landing-hero__tickets {
@@ -187,6 +187,12 @@ ol {
 	.landing-hero__tickets .button:last-child {
 		margin-left: $spacing-48;
 		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1539px) {
+	.landing-hero__content {
+		padding: 32px 0;
 	}
 }
 
