@@ -6,8 +6,8 @@
 /* date filters */
 
 .events-filter__dates {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .events-filter__dates .mixitup-control-active {
@@ -28,10 +28,6 @@
 .events-filter__dates .control-text-3 {
 	font-family: $brand-font-fk-grotesk;
 	font-size: $font-size-16;
-}
-
-.events-filter__date-button {
-	width: 25%;
 }
 
 .events-filter__date-button--past-event {
@@ -77,16 +73,16 @@
 }
 
 .control {
-	background: none;
-	border-top: solid 8px transparent;
-	border-right: none;
-	border-bottom: none;
-	border-left: none;
-	cursor: pointer;
-	flex-grow: 1;
-	color: $white;
-	padding: $spacing-32;
-	transition: background 100ms;
+    background: none;
+    border-top: solid 8px transparent;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 16px;
+    transition: background 100ms;
+    text-align: center;
 }
 
 .events-filter__reset .control {
@@ -103,7 +99,7 @@
 }
 
 .events-filter__status.control-group.grid.grid__4-column {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .mix-it-up-container {
@@ -142,6 +138,10 @@
 }
 
 @media screen and (min-width: 1023px) {
+	.events-filter__dates {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
 	.events-filter__additional-filters {
 		display: block;
 		border-top: solid 1px $white;
