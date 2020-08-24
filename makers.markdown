@@ -28,7 +28,7 @@ emerging-designers:
 
     Each artist will receive $500 for their commission as well as 60% of all proceeds from sales of their design. Artists will be selected by a committee of established artists — [Dany Green <i class="fas fa-external-link-square-alt"></i>](http://www.danygreen.com/){:target="_blank" rel="noopener nofollow"}, [Sonia Jones <i class="fas fa-external-link-square-alt"></i>](http://soniajonestheartist.com/){:target="_blank" rel="noopener nofollow"}, [Jodi Kostelnik <i class="fas fa-external-link-square-alt"></i>](https://theneighborgoods.com/){:target="_blank" rel="noopener nofollow"}, [Josue Martinez <i class="fas fa-external-link-square-alt"></i>](https://corintogallery.com/){:target="_blank" rel="noopener nofollow"}, and [Torie Partridge <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank" rel="noopener nofollow"}.
   button-label: Pop Up Shop
-  button-url: /coming-soon/
+  button-url: "/coming-soon/"
   image-left: "/uploads/poster-green-bubble.png"
   image-left-alt: Bright green DC Design Week 2020 promotional poster artwork
   image-right: "/uploads/poster-black-photo.png"
@@ -42,14 +42,12 @@ celebrating-you:
 
 
     We want DC Design Week to celebrate you too. In September, we’ll be launching a directory of makers to help folks in our region (and around the world?!) find awesome people doing awesome things. Whether you have an online shop or brick-and-mortar, we want to show the world the amazing things you make.
-
-
   image-1: "/uploads/gallery-maker-desktop-2x.png"
   image-1-alt: 'From left to right: Black and white photo of DC Design Week buttons,
     Black and white photo of DC Design Week pop-up shop at Cherry Blossom Creative,
     Black and white photo of DC Design Week volunteers selling promotional posters,
     Black and white photo of DC Design Week poster being screenprinted'
   button-label: Makers Directory
-  button-url: /makers/directory/
+  button-url: "/makers/directory/"
 ---
 
