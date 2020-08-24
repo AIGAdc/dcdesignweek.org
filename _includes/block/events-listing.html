@@ -1,17 +1,13 @@
 <section class="section section__events">
 	<div class="grid">
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			{% if site.past-editions.header %}
 			<h2 class="grid-col--span-90"
 				id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				Page Variable
+				{{ page.event-header }}
 			</h2>
-			{% endif %}
-			{% if site.past-editions.body %}
 			<p>
-				Page Variable
+				{{ page.event-body }}
 			</p>
-			{% endif %}
 		</div>
 		<div class="grid-col grid-col--span-2 grid-col--order-1">
 			<div class="ornaments">
@@ -45,16 +41,16 @@
 	</div>
 
 	{% if page.url == "/events/" %}
-	<div class="grid" style="margin-top: 32px">
+	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-4">
 			{% include event-filter.html %}
 		</div>
 	</div>
 	{% endif %}
 
-	<div class="grid" style="margin-top: 32px;">
+	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-4">
-			<ul class="grid mixitup-container">
+			<ul class="grid grid--events mixitup-container">
 				{% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
 				{% for event in sorted %}
 				{% if page.url == "/" %}
@@ -69,11 +65,11 @@
 	</div>
 
 	{% if page.url == "/" %}
-	<div class="grid" style="margin-top: 32px;">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid margin-top-60">
+		<div class="grid-col grid-col--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="#Page-Variable">
-				Page Variable
+				href="{{ page.event-button-url }}">
+				{{ page.event-button-label}}
 			</a>
 		</div>
 	</div>

@@ -9,6 +9,10 @@
 	position: relative;
 }
 
+.grid--events {
+	grid-row-gap: $spacing-80;
+}
+
 .grid-col,
 .sub-grid-col {
 	position: relative;
@@ -56,6 +60,11 @@
 .grid-col--span-70,
 .grid-col--span-80 {
 	width: 100%;
+}
+
+
+.grid-col--max-content {
+	grid-column: max-content;
 }
 
 @media screen and (min-width: 799px) {

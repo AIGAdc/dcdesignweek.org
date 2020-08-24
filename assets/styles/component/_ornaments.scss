@@ -1,5 +1,6 @@
 .ornaments {
 	text-align: right;
+	display: none;
 }
 
 .dcdw-date-badge {
@@ -66,4 +67,10 @@
 
 .ornaments>figure:not(:first-child) {
 	margin-top: $spacing-16;
+}
+
+@media screen and (min-width: 1023px) {
+	.ornaments {
+		display: block;
+	}
 }

@@ -8,7 +8,7 @@
 .faqs-layout .houdini-toggle,
 .faqs-layout .houdini.is-expanded {
 	border: solid 1px $white !important;
-	padding: $spacing-32 !important;
+	padding: $spacing-16 !important;
 }
 
 .faqs-layout .houdini-toggle {
@@ -18,6 +18,12 @@
 	text-align: left !important;
 	text-transform: uppercase;
 	width: 100% !important;
+	display: flex !important;
+	justify-content: space-between;
+}
+
+.faqs-layout .houdini-toggle-icon::after {
+	display: none;
 }
 
 .faqs-layout .houdini.is-expanded {

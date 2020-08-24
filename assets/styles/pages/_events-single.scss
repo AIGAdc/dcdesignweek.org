@@ -121,6 +121,22 @@ ol {
 	background-color: $black;
 }
 
+.events-landing-layout .section__landing-hero {
+	color: $white;
+}
+
+.events-landing-layout .section__landing-hero h1 span:nth-child(2n+1),
+.events-landing-layout .section__landing-hero h1 span:nth-child(2n),
+.events-landing-layout .section__landing-hero h2 span:nth-child(2n+1),
+.events-landing-layout .section__landing-hero h2 span:nth-child(2n) {
+	color: $white;
+}
+
+.events-landing-layout .section__landing-hero h1 span::after,
+.events-landing-layout .section__landing-hero h2 span::after {
+	background-color: $white;
+}
+
 .events-landing-layout .section:not(:first-of-type) {
 	border-top: solid 1px $black;
 }
@@ -160,7 +176,7 @@ ol {
 
 @media screen and (min-width: 1023px) {
 	.landing-hero__content {
-		min-height: 50vh;
+		min-height: 65vh;
 		padding: 32px 0;
 	}
 
@@ -175,7 +191,7 @@ ol {
 }
 
 .landing-hero__overlay {
-	background-color: $white;
+	background-color: $black;
 	position: absolute;
 	top: 0;
 	right: 0;

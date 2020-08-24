@@ -5,6 +5,7 @@
 		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
 			<figure class="card__image shadow-reverse shadow-reverse--green">
 				<img src="{{ event.image }}" alt="{{ event.image-alt }}" />
+				<div class="card__image-overlay spacing-0"></div>
 			</figure>
 		</a>
 		{% if event.status.is-featured-on-events == true and event.status.featured-event-message %}

@@ -1,0 +1,19 @@
+<section class="section section__self-guided">
+	<div class="grid">
+		<div class="grid-col grid-col--span-2">
+			<!-- <img class="bubble-group-partnerus-1" aria-hidden="true" src="/uploads/bubble-black-medium-03.png"
+				alt="Large Floating amorphous bubbles">
+			<img class="bubble-group-partnerus-2" aria-hidden="true" src="/uploads/bubble-black-group-partnerus-2.png"
+				alt="Small Floating amorphous bubbles"> -->
+		</div>
+		<div class="grid-col grid-col--span-2">
+			<h2 class="grid-col--span-50"
+				id="{{ site.self-guided.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.self-guided.header }}</h2>
+			<div class="wysiwyg">{{ site.self-guided.body | markdownify }}</div>
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="{{ site.self-guided.button-url }}" target="_blank">{{ site.self-guided.button-label }}
+			</a>
+		</div>
+	</div>
+</section>
