@@ -36,13 +36,18 @@
 		<p>{{ event.description }}</p>
 	</div>
 	<div class="card-details">
-		<div class="card-date">
+		<div class="card-date" style="background-image: url('/uploads/date_ornament.svg'); background-position: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;">
 			<p class="day">
 				{{ event.event-date | date: "%a"}}
 			</p>
 			<p class="date">
 				{{ event.event-date | date: "%m.%d"}}
 			</p>
+			<figure>
+				<img src="/uploads/date_ornament.svg">
+			</figure>
 		</div>
 		<div class="card-info">
 			<p>
