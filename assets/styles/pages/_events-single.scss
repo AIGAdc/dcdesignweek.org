@@ -96,7 +96,7 @@ ol {
 	color: $black;
 }
 
-.events-landing-layout path {
+.events-landing-layout .site-header path {
 	fill: $black;
 }
 
@@ -213,4 +213,15 @@ ol {
 
 .events-landing-layout .site-footer a {
 	color: $white;
+}
+
+.events-landing-layout #mc_embed_signup .mc-field-group input {
+	background-color: $white;
+	border: solid 1px $black;
+	color: $black;
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: $spacing-8;
+	width: 100%;
 }
