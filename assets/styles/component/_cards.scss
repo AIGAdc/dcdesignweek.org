@@ -29,16 +29,6 @@
 	position: relative;
 }
 
-.card__image-overlay {
-	background-color: $black;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: 0.5;
-}
-
 .card__link {
 	color: $white;
 	transition: -webkit-filter $timing-quick ease-in;
@@ -65,6 +55,7 @@
 	border: solid 1px $white;
 }
 
+.card--event .card__image img,
 .card--past-editions .card__image img,
 .card--sponsors .card__image img {
 	transition: -webkit-filter $timing-quick ease-in;
@@ -133,6 +124,7 @@
 	font-size: $font-size-16;
 }
 
+.card--event .card__image img:hover,
 .card--past-editions .card__image img:hover,
 .card--sponsors .card__image img:hover {
 	@include no-grayscale;
