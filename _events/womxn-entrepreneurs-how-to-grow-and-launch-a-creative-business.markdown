@@ -90,7 +90,7 @@ filter-location:
   is-dc: true
 ---
 
-As women starting small businesses in the creative industry, we’re always seeking agile and growth-oriented strategies when launching and growing our brands. This event will bring together a range of women who will share the advice they’ve learned from their ventures. Whether you’re still figuring out how to quit your day job or already bringing on more staff, this event is for you.
+As womxn starting small businesses in the creative industry, we’re always seeking agile and growth-oriented strategies when launching and growing our brands. This event will bring together a range of womxn who will share the advice they’ve learned from their ventures. Whether you’re still figuring out how to quit your day job or already bringing on more staff, this event is for you.
 
 And make sure you can join on time! Before our panel discussion, we’ll kick off the event with some open networking time.
 
