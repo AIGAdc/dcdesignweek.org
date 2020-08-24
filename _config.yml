@@ -185,12 +185,56 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: "<span>Our</span> <span>sponsors</span>"
+  tier-1-header: "<span>Our</span> <span>sponsors</span>"
+  tier-2-header: "<span>Tier 2</span>"
+  tier-3-header: "<span>Tier 3</span>"
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
   image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
-  sponsor-list:
+  sponsor-tier-1:
+  - title: Brand Sponsor
+    image: "/uploads/sponsor-january-third.svg"
+    image-alt: January Third Logo
+    website: https://www.januarythird.co/
+    aria-label: January Third Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsor-duke-and-the-duck.svg"
+    image-alt: Duke & Duck Logo
+    website: https://www.dukeduck.com/
+    aria-label: Duke & Duck Website
+  sponsor-tier-2:
+  - title: Brand Sponsor
+    image: "/uploads/sponsor-january-third.svg"
+    image-alt: January Third Logo
+    website: https://www.januarythird.co/
+    aria-label: January Third Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsor-duke-and-the-duck.svg"
+    image-alt: Duke & Duck Logo
+    website: https://www.dukeduck.com/
+    aria-label: Duke & Duck Website
+  - title: Brand Sponsor
+    image: "/uploads/sponsor-january-third.svg"
+    image-alt: January Third Logo
+    website: https://www.januarythird.co/
+    aria-label: January Third Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsor-duke-and-the-duck.svg"
+    image-alt: Duke & Duck Logo
+    website: https://www.dukeduck.com/
+    aria-label: Duke & Duck Website
+  sponsor-tier-3:
+  - title: Brand Sponsor
+    image: "/uploads/sponsor-january-third.svg"
+    image-alt: January Third Logo
+    website: https://www.januarythird.co/
+    aria-label: January Third Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsor-duke-and-the-duck.svg"
+    image-alt: Duke & Duck Logo
+    website: https://www.dukeduck.com/
+    aria-label: Duke & Duck Website
   - title: Brand Sponsor
     image: "/uploads/sponsor-january-third.svg"
     image-alt: January Third Logo

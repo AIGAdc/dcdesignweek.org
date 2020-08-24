@@ -32,11 +32,17 @@
 			</div>
 		</div>
 	</div>
-	<!-- tier top -->
+	<!-- tier 1 -->
 	<div class="grid margin-top-32">
+		<div class="grid-col grid-col--span-2 grid-col--order-2">
+			<h2 class="grid-col--span-70"
+				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.2020-presenting-sponsors.tier-1-header }}</h2>
+			<div class="wysiwyg">{{ site.2020-presenting-sponsors.body | markdownify }}</div>
+		</div>
 		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
-				{% for content in site.2020-presenting-sponsors.sponsor-list %}
+				{% for content in site.2020-presenting-sponsors.sponsor-tier-1 %}
 				<li class="card card--sponsors grid-col--span-2">
 					<div class="card__header">
 						<h3 class="card__title"
@@ -56,33 +62,23 @@
 			</ul>
 		</div>
 	</div>
-	<!-- tier 1-->
+	<!-- tier 2 -->
 	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			{% if site.past-editions.header %}
-			<h3 class="grid-col--span-90"
-				id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.past-editions.header }}</h3>
-			{% endif %}
+			<h3 class="grid-col--span-70"
+				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.2020-presenting-sponsors.tier-2-header }}</h3>
 		</div>
-	</div>
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-4">
+		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
-				{% for content in site.past-editions.editions %}
-				<li class="card card--past-editions">
+				{% for content in site.2020-presenting-sponsors.sponsor-tier-2 %}
+				<li class="card card--sponsors grid-col--span-1">
 					<div class="card__aside">
-						<a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank"
-							rel="noopener noreferrer">
+						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
+							rel="noopener noferrer">
 							<figure class="card__image shadow-reverse shadow-reverse--green">
-								<img src="{{ content.image }}" alt="{{ content.image-alt }}" />
+								<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
 							</figure>
-						</a>
-					</div>
-					<div class="card__header">
-						<a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank"
-							rel="noopener noreferrer">
-							<h3 class="card__title">{{ content.title }}</h3>
 						</a>
 					</div>
 				</li>
@@ -91,33 +87,23 @@
 		</div>
 	</div>
 	{% if page.url == "/about/" %}
-	<!-- tier 2-->
+	<!-- tier 3 -->
 	<div class="grid margin-top-32">
 		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			{% if site.past-editions.header %}
-			<h3 class="grid-col--span-90"
-				id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.past-editions.header }}</h3>
-			{% endif %}
+			<h3 class="grid-col--span-70"
+				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.2020-presenting-sponsors.tier-3-header }}</h3>
 		</div>
-	</div>
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-4">
+		<div class="grid-col grid-col--span-4 order-3">
 			<ul class="grid">
-				{% for content in site.past-editions.editions %}
-				<li class="card card--past-editions">
+				{% for content in site.2020-presenting-sponsors.sponsor-tier-3 %}
+				<li class="card card--sponsors grid-col--span-1">
 					<div class="card__aside">
-						<a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank"
-							rel="noopener noreferrer">
+						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
+							rel="noopener noferrer">
 							<figure class="card__image shadow-reverse shadow-reverse--green">
-								<img src="{{ content.image }}" alt="{{ content.image-alt }}" />
+								<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
 							</figure>
-						</a>
-					</div>
-					<div class="card__header">
-						<a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank"
-							rel="noopener noreferrer">
-							<h3 class="card__title">{{ content.title }}</h3>
 						</a>
 					</div>
 				</li>

@@ -81,14 +81,14 @@
 }
 
 .card--sponsors .card__image {
-	padding: $spacing-32;
+	padding: $spacing-16;
 }
 
 .card--sponsors .card__image img {
 	-o-object-fit: contain;
 	object-fit: contain;
 	height: 200px;
-	max-width: 288px;
+	max-width: 200px;
 	margin: auto;
 }
 
@@ -122,6 +122,7 @@
 	left: 0;
 	width: 100%;
 }
+
 .card--event .card-details {
 	display: flex;
 	align-items: center;
