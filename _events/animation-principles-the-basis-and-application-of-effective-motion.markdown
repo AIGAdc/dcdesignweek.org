@@ -28,10 +28,9 @@ venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
-
-    *Prerequisites*<br/>
     In order to follow along with the speakers in editing the template After Effects file, participants will need a laptop or desktop computer with Adobe After Effects installed. No previous experience with After Effects is necessary to get the most out of this event.
+
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
 - name: Robert Kramer
@@ -41,7 +40,7 @@ speakers:
     Over his career he’s worked on a smorgasbord of projects for a whole bunch of
     clients. His current quarantine goal is to solve the Rubik’s Cube in under a minute.
   website-label: Website
-  website-url: laivideo.com
+  website-url: http://www.laivideo.com
 - name: Tiffany Lewis
   pronouns: She | Her | Hers
   title: Creative Director
@@ -51,18 +50,18 @@ speakers:
     inhabit. When she’s not at work, she's upping her baking and plant care game so
     that she can live out that cottagecore lifestyle in her downtime.
   website-label: Dribbble
-  website-url: https://dribbble.com/leftarrowthree
+  website-url: https://www.dribbble.com/leftarrowthree
 has-accessibility-notes: true
 accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you
     need any additional accommodations, please contact us before 9/14 by email, through
     the provided Google Form link, or by phone. We honor your privacy and no personally
-    identifying information (e.g. your name) is required to request an accommodation.\n\n•
-    Request an accommodation through this Google Form. \n• Email us at designweek@dc.aiga.org.\n•
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nYou can learn
-    more about how we’re making DC Design Week an accessible experience by visiting
-    our about page.\n\nPlease note that full participation in this event will require
-    fine motor skills, though the instructor will provide some modifications."
+    identifying information (e.g. your name) is required to request an accommodation.\n\n*
+    Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6).
+    \n* [Email us](mailto:dcdesignweek@dc.aiga.org) at designweek@dc.aiga.org.\n*
+    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504.\n\nPlease note
+    that full participation in this event will require fine motor skills, though the
+    instructor will provide some modifications."
 filter-date:
   is-day-3: true
 filter-time:
@@ -82,6 +81,7 @@ Speakers will provide:
 * Illustrator and After Effects projects beforehand for the demos
 * A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
 
+<br/>
 <h2>Event Partner & Sponsor</h2>
 **[Duke & Duck](https://www.dukeduck.com/)**<br/>
 Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in moving pixels. We believe that absolutely everyone and everything is worth celebrating. Stories are at the core of our humanity and, through animation and motion graphics, we work hard to reach the hearts and eyes of our client’s audience.

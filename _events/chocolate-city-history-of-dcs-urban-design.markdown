@@ -57,7 +57,7 @@ speakers:
     York Times, Washington Post, Baltimore Sun, National Public Radio, and Bloomberg’s
     CityLab.
   website-label: Website
-  website-url: www.willowlungamam.com
+  website-url: http://www.willowlungamam.com
 has-accessibility-notes: true
 filter-date:
   is-day-6: true

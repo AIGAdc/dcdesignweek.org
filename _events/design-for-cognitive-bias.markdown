@@ -8,6 +8,7 @@ description: Biases. We all have them. Learn how design and content strategy can
 event-date: 2020-09-21 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:30 PM
+image-alt: Photo of speaker David Dylan Thomas.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -30,9 +31,9 @@ venue:
     device with enough bandwidth to support viewing video. In order to ensure only
     those who have registered for the event are able to attend — and to create space
     for intimate conversations — only those whose display name fully matches the name
-    on our registration list will be admitted from the waiting room. [You can find
+    on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
-    troubleshoot, and information about our refund policy in our FAQ.](/faqs)
+    troubleshoot, and information about our refund policy in our [FAQ](/faqs).
 has-speakers: true
 speakers:
 - name: David Dylan Thomas
@@ -48,6 +49,8 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-location:
+  is-dc: true
 ---
 
 Users take shortcuts to get through the day. (Don’t we all?) Usually, they’re harmless. Sometimes they’re helpful. But what happens when they’re not? 
@@ -55,3 +58,8 @@ Users take shortcuts to get through the day. (Don’t we all?) Usually, they’r
 In this talk, David Thomas, creator and host of the Cognitive Bias Podcast, will use real-world examples to identify adverse biases that often lead users to make bad decisions. But not all is doom and gloom. We’ll discuss content strategy and design choices we can leverage in our apps, designs, and platforms to redirect or eliminate the impact of those biases. We’ll also explore our own biases as designers and some methods to prevent our own blind spots from hurting users — and have a chance to dig in on your questions.
 
 In addition to getting to join in for an exciting discussion, all participants will receive a code for a free digital copy of David’s newest book, *Design for Cognitive Bias* from DCDW sponsor **A Book Apart**, to help you put what you’ve learned into practice.
+
+<br/>
+<h2>Event Sponsor</h2>
+**[A Book Apart](https://abookapart.com/)**<br/>
+A Book Apart publishes detailed, meticulously edited examinations of single topics. Books come in two formats: Standards (100–150 pages, available in paperback and ebook) and Briefs (50–70 pages, available in ebook and print-on-demand). Both are the perfect size for topics ranging from technical to theory: responsive web design, Git, and JavaScript to content strategy, design principles, management, and more.

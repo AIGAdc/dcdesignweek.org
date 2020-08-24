@@ -50,15 +50,12 @@ speakers:
   website-url: http://linkedin.com/in/reginald-snowden-2a42a531
 has-accessibility-notes: true
 accessibility-notes:
-- note: "Users will be able to submit questions ahead of time or during the meeting
-    over zoom chat. \n\nAll DCDW events will have real-time CART (live captioning)
-    services. If you need any additional accommodations, please contact us before
-    9/14 by email, through the provided Google Form link, or by phone. We honor your
-    privacy and no personally identifying information (e.g. your name) is required
-    to request an accommodation.\n\n* Request an accommodation through this [Google
-    Form](https://forms.gle/gAQviAo5cTwWYGWV6)\n* [Email us] (mailto:designweek@dc.aiga.org)
-    at designweek@dc.aiga.org\n* Call our Accessibility Lead, Josh Kim, by phone at
-    571-302-1504"
+- note: |-
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by email, through the provided Google Form link, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+
+    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+    * [Email us](mailto:designweek@dc.aiga.org) at designweek@dc.aiga.org
+    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
   is-day-4: true
 filter-time:

@@ -1,8 +1,8 @@
 ---
 title: Accessible Voting by Design
 date: 2020-08-22 12:34:00 -04:00
-styled-title: "<span>Accessible</span><span>Voting</span><span>by</span><span> Design</span>A
-  glimpse into tools and methods to improve civic access"
+styled-title: "<span>Accessible</span><span>Voting</span><span>by</span><span> Design:</span>
+  A glimpse into tools and methods to improve civic access"
 image: "/uploads/event-Accessible-Voting-by-Design.png"
 description: With a pandemic changing 2020 elections, we must confront voting challenges.
   Learn about the role of design in accessible voting and how this movement works

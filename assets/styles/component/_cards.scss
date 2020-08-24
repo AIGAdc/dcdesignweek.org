@@ -107,9 +107,21 @@
 }
 
 .card--event .card-date {
-	margin-right: $spacing-32;
+	margin-right: 32px;
+	padding: 16px;
+	padding-top: 24px;
+	padding-right: 24px;
+	position: relative;
 }
 
+.card--event .card-date figure svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
 .card--event .card-details {
 	display: flex;
 	align-items: center;

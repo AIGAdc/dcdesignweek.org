@@ -32,7 +32,7 @@ venue:
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 
     *Prerequisites*<br/>
-    We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the above pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
+    We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the shared pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
 has-speakers: true
 speakers:
 - name: Dr. Enid Montague
@@ -51,7 +51,7 @@ speakers:
     and healthcare and is currently the director of the Wellness and Health Enhancement
     Engineering Laboratory (WHEEL).
   website-label: Website
-  website-url: http://enidmontague.com/
+  website-url: http://www.enidmontague.com/
 has-accessibility-notes: true
 filter-date:
   is-day-2: true

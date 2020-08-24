@@ -8,7 +8,7 @@ description: Join us to learn how you can leverage important data to design ethi
 event-date: 2020-09-24 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:30 PM
-image-alt: image of a line graph
+image-alt: Image of a line graph
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -53,7 +53,7 @@ speakers:
     of The Virginian-Pilot and the Sun-Sentinel. He’s a graduate of the University
     of Texas and teaches data journalism at American University. Andrew is an advocate
     for open data and reproducible research.
-  website-label: "@abtran"
+  website-label: Twitter
   website-url: https://twitter.com/abtran
 - name: Armand Emamdjomeh
   pronouns: He | Him | His
@@ -68,15 +68,17 @@ speakers:
     Angeles Times, where he worked on the data desk and was briefly the deputy director
     of data visualization. Armand earned a bachelor’s degree in international relations
     and Russian from the University of Southern California, and a master’s degree
-    in journalism from the University of California at Berkeley. Visit http://emamd.net/
+    in journalism from the University of California at Berkeley. Visit [emamd.net](http://emamd.net/)
     for more. '
-  website-label: "@emamd"
+  website-label: Twitter
   website-url: https://twitter.com/emamd
 has-accessibility-notes: true
 filter-date:
   is-day-7: true
 filter-time:
   is-daytime: true
+filter-location:
+  is-dc: true
 ---
 
 Current events coupled with an upcoming presidential election mean we’ve seen data visualization everywhere, from news outlets to personal social media accounts. Data visualization can help us make sense of complex information — but it can just as easily tell only one part of a story.

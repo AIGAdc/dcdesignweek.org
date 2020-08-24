@@ -9,7 +9,8 @@ description: Founder of Busboys and Poets Andy Shallal and local artists Mia DuV
 event-date: 2020-09-20 18:00:00 -04:00
 start-time: 6:00 PM
 end-time: 7:00 PM
-image-alt: 'Andy Shallal, Mia DuVall, Luther Wright, and Luis Peralta Del Valle '
+image-alt: Photos of speakers Andy Shallal, Mia DuVall, Luther Wright, and Luis Peralta
+  Del Valle.
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -38,7 +39,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Andy Shallal
-  pronouns: He | Him
+  pronouns: He | Him | His
   title: Activist, Artist, and Founder & CEO of Busboys and Poets
   bio: Anas “Andy” Shallal is an artist and social entrepreneur. He is the founder
     and CEO of Busboys and Poets, a group of restaurants in the Washington Metropolitan
@@ -49,7 +50,7 @@ speakers:
   website-label: Twitter
   website-url: https://twitter.com/andyshallal
 - name: Mia DuVall
-  pronouns: She | Her
+  pronouns: She | Her | Hers
   title: Principal Art Director & Designer at Mia DuVall Studios
   bio: Mia Duvall is best known for her work as a collaborating muralist and art director
     on some of Washington, DC's most highly regarded and appreciated murals. The work
@@ -59,10 +60,10 @@ speakers:
   website-label: Instagram
   website-url: https://www.instagram.com/mia_duvall
 - name: Luther Wright
-  pronouns: He | Him
+  pronouns: He | Him | His
   title: Award Winning Artist, Photographer, Organizer, and Founder of LW Arts and
     Design
-  bio: American Artist Luther Wright, born of Washington D.C, challenges the boundaries
+  bio: American Artist Luther Wright, born of Washington, DC, challenges the boundaries
     of traditional paintings as he merges old formal techniques with new modern techniques
     creating his own genre of art. Luther explores new ways to use color and texture
     and strives to create interesting compositions within all his work. He draws inspiration
@@ -81,14 +82,16 @@ speakers:
     The Frederick Douglass National Historic Site, and The Historical Society of Washington,
     DC.
   website-label: Website
-  website-url: 'www.LuisPeraltaGallery.com '
+  website-url: 'http://www.LuisPeraltaGallery.com '
 has-accessibility-notes: true
 filter-date:
   is-day-3: true
 filter-time:
   is-evening: true
+filter-location:
+  is-dc: true
 ---
 
-When it comes to activism, Busboys and Poets has always supported the DMV’s diverse communities. So it comes as no surprise that the restaurant group hired local artists to paint their storefronts – instead of boarding up – after an act of vandalism. This initiative, now known as #PaintTheStorefronts, has been adopted by other local businesses, including the National Landing BID and Jose Andres’ restaurants. This is a model on how to respond in moments of crisis — by amplifying the skills and creativity of the community. Now more than ever, this is an important lesson to learn. \
-\
+When it comes to activism, Busboys and Poets has always supported the DMV’s diverse communities. So it comes as no surprise that the restaurant group hired local artists to paint their storefronts – instead of boarding up – after an act of vandalism. This initiative, now known as #PaintTheStorefronts, has been adopted by other local businesses, including the National Landing BID and Jose Andres’ restaurants. This is a model on how to respond in moments of crisis — by amplifying the skills and creativity of the community. Now more than ever, this is an important lesson to learn.
+
 Andy Shallal, founder and CEO of Busboys and Poets will facilitate a conversation with some of the artists who have participated in the initiative — Mia DuVall, Luther Wright, and Luis Peralta Del Valle — about how this effort came about, as well as the power that art has in supporting and healing communities. And don’t worry — we’ll have time to answer audience questions too!

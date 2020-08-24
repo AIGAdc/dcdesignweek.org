@@ -45,15 +45,15 @@ speakers:
     of the federal government through human-centered design. She is passionate about
     bringing high quality design and accessible standards to public services and improving
     systems for government workers. She designed the front facing web experience for
-    the first launch of the FBI's Crime Data Explorer, <a href="FOIA.gov">the new
-    Freedom of Information Act portal</a>, and most recently the new Civil Rights
-    Complaint Portal for the Department of Justice, <a href="civilrights.justice.gov">civilrights.justice.gov</a>.
+    the first launch of the FBI's Crime Data Explorer, [the new Freedom of Information
+    Act portal](http://www.FOIA.gov), and most recently the new Civil Rights Complaint
+    Portal for the Department of Justice, [civilrights.justice.gov](http://www.civilrights.justice.gov).
     She regularly presents about civic technology & design at conferences, universities,
     and educational programs.
   website-label: Website
   website-url: http://avivaoskow.com/
 - name: Jacklynn Pham
-  pronouns: She | Her | Him
+  pronouns: She | Her | Hers
   title: User experience designer and researcher at 18F
   bio: Jacklynn Pham is a designer and researcher at 18F. The majority of her design
     career has been divided between detailed interaction and communicating systems,
