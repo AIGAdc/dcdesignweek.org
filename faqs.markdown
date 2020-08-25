@@ -73,11 +73,11 @@ faqs:
   
   
 
-  This year, DC Design Week is donating ALL profit from the week's events to the Design Continuum Fund, which helps launch the next generation of talented artists and designers by offering financial support for minority and economically disadvantaged students. In addition to DCDW's contribution, AIGA DC will continue pledging 10% of all our event revenue to the scholarship fund, too.
+  This year, DC Design Week is donating ALL profit from the week's events to the [Design Continuum Fund](https://www.givecontinuum.org/), which helps launch the next generation of talented artists and designers by offering financial support for minority and economically disadvantaged students. In addition to DCDW's contribution, AIGA DC will continue pledging 10% of all our event revenue to the scholarship fund, too.
   
   
   
-  If the ticket cost is a barrier for you, please reach out to us at designweek@dc.aiga.org and we will offer discounted or free entry, no questions asked."
+  If the ticket cost is a barrier for you, please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org) and we will offer discounted or free entry, no questions asked."
   trigger: question-8
   expanded: false
 ---
