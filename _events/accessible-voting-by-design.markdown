@@ -12,7 +12,7 @@ start-time: 12:00 PM
 end-time: 1:00 PM
 image-alt: A photo of speaker Michelle Bishop smiling.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
