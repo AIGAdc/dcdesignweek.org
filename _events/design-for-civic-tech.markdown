@@ -48,7 +48,7 @@ speakers:
   website-url: https://www.linkedin.com/in/nicolekwoh/
 has-accessibility-notes: true
 filter-date:
-  is-day-2: true
+  is-day-5: true
 filter-time:
   is-morning: true
 filter-location:

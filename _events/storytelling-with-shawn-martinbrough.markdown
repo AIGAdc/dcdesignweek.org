@@ -48,7 +48,7 @@ speakers:
   website-url: https://shawnmartinbrough.com/
 has-accessibility-notes: true
 filter-date:
-  is-day-4: true
+  is-day-5: true
 filter-time:
   is-evening: true
 filter-location:

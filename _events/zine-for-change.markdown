@@ -65,7 +65,7 @@ accessibility-notes:
     * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
     * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
-  is-day-8: true
+  is-day-6: true
 filter-time:
   is-evening: true
 filter-location:
