@@ -8,7 +8,7 @@ description: For years, artists have used magazines to communicate their visions
   and making zines.
 event-date: 2020-09-23 19:00:00 -04:00
 start-time: 7:00 PM
-end-time: 8:00 PM
+end-time: 8:30 PM
 image-alt: A photo of a colorful zine open and showing a photo of a child.
 status:
   is-featured-on-home: false
@@ -68,10 +68,10 @@ filter-date:
   is-day-6: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
 filter-type:
   is-party: false
+filter-location:
+  is-dc: true
 ---
 
 When traditional means of publishing — the big houses and editors — aren’t interested in challenging existing narratives or lifting up new voices, designers don’t stop.
