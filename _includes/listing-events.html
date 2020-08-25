@@ -53,14 +53,14 @@
             {% endif %}
             {% if posts.status.is-sold-out == true %} sold-out
             {% endif %}
-            {% if posts.status.is-coming-soon == true %} coming-soon
+            {% if posts.status.is-limited-supply == true %} coming-soon
             {% endif %}
             {% if posts.status.is-featured-on-events == true %} featured
             {% endif %}
             ">
 			{% if posts.status.has-occurred == true %}
 			<a class="border border--white shadow shadow-reverse--green" href="{{posts.url}}">
-				{% elsif posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
+				{% elsif posts.status.is-limited-supply == true or posts.status.is-sold-out == true %}
 				<a class="enabled border border--white shadow shadow-reverse--green" href="{{posts.url}}">
 					{% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
 					<a class="enabled border border--hot-pink shadow shadow-reverse--green" href="{{posts.url}}">
@@ -161,14 +161,14 @@
         {% endif %}
         {% if posts.status.is-sold-out == true %} sold-out
         {% endif %}
-        {% if posts.status.is-coming-soon == true %} coming-soon
+        {% if posts.status.is-limited-supply == true %} coming-soon
         {% endif %}
         {% if posts.status.is-featured-on-events == true %} featured
         {% endif %}
         ">
 			{% if posts.status.has-occurred == true %}
 			<a class="border border--white shadow shadow-reverse--green" href="{{posts.url}}">
-				{% elsif posts.status.is-coming-soon == true or posts.status.is-sold-out == true %}
+				{% elsif posts.status.is-limited-supply == true or posts.status.is-sold-out == true %}
 				<a class="enabled border border--white shadow shadow-reverse--green" href="{{posts.url}}">
 					{% elsif posts.status.is-featured-on-events == true or posts.status.is-featured-on-home == true %}
 					<a class="enabled border border--hot-pink shadow shadow-reverse--green" href="{{posts.url}}">
@@ -186,10 +186,10 @@
 								<figure>
 									<img src="{{ posts.event.image }}" alt="{{ posts.event.image-alt }}" />
 								</figure>
-								{% if posts.status.is-coming-soon == true %}
+								{% if posts.status.is-limited-supply == true %}
 								<div class="ticker">
 									<p>
-										{{ posts.status.coming-soon-message }}
+										{{ posts.status.limited-supply-message }}
 									</p>
 								</div>
 								{% endif %}
@@ -240,7 +240,7 @@
 		{% assign sorted_events-carnegie = site.events-carnegie | sort:"position" %}
 		{% for posts in sorted_events-carnegie %}
 		<li class="card card--event {% if posts.event.has-occurred == true %} past-event {% endif %}">
-			{% if posts.event.is-coming-soon == true or posts.event.is-sold-out == true %}
+			{% if posts.event.is-limited-supply == true or posts.event.is-sold-out == true %}
 			<a class="disabled border border--black">
 				{% elsif posts.event.has-occurred == true %}
 				<a class="border border--white shadow shadow-reverse--green"
@@ -255,10 +255,10 @@
 							<figure>
 								<img src="{{ posts.image }}" alt="{{ posts.image-alt }}" />
 							</figure>
-							{% if posts.event.is-coming-soon == true %}
+							{% if posts.event.is-limited-supply == true %}
 							<div class="ticker">
 								<p>
-									{{ posts.event.coming-soon-message }}
+									{{ posts.event.limited-supply-message }}
 								</p>
 							</div>
 							{% endif %}

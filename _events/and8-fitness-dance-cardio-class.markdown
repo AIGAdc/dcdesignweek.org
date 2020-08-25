@@ -14,7 +14,7 @@ status:
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
-  is-coming-soon: false
+  is-limited-supply: false
 tickets:
   has-member-button: true
   member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif

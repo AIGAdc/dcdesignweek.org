@@ -33,13 +33,13 @@ defaults:
     description: 
     status:
       is-featured-on-home: 
-      featured-home-message: 
+      featured-home-message: Featured
       is-featured-on-events: 
-      featured-event-message: 
+      featured-event-message: Featured
       is-sold-out: 
-      sold-out-message: 
-      is-coming-soon: 
-      coming-soon-message: 
+      sold-out-message: Sold Out
+      is-limited-supply: 
+      limited-supply-message: Limited Tickets
       has-occurred: 
       occurred-message: 
     tickets:
@@ -603,11 +603,10 @@ self-guided:
   button-url: "/events/self-guided/"
   button-label: See Self-Guided Events
 makers:
-  header: "<span>Lorem</span> <span>Ipsum</span>"
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
+  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span> <span>Directory</span>"
+  body: We’re all about celebrating the DMV’s creative voices — so what better way to do that than showcasing their work? We may not be able to do our IRL Pop-Up Shop this year, but we’ve got the next best thing. Check out our virtual directory for all your fall shopping needs.
   button-url: "/makers/"
-  button-label: Makers Community
+  button-label: Explore Local Artists
 faqs:
   header: "<span>Lorem</span> <span>Ipsum</span>"
   body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id

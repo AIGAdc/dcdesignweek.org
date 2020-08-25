@@ -14,7 +14,7 @@ status:
   is-featured-on-home: false
   is-featured-on-events: false
   is-sold-out: false
-  is-coming-soon: false
+  is-limited-supply: false
   has-occurred: false
 tickets:
   has-member-button: true
