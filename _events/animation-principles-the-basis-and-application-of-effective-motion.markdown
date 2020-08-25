@@ -81,7 +81,7 @@ Speakers will provide:
 * Illustrator and After Effects projects beforehand for the demos
 * A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
 
-<br/>
-<h2>Event Partner & Sponsor</h2>
+
+## Event Partner & Sponsor
 **[Duke & Duck](https://www.dukeduck.com/)**<br/>
-Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in moving pixels. We believe that absolutely everyone and everything is worth celebrating. Stories are at the core of our humanity and, through animation and motion graphics, we work hard to reach the hearts and eyes of our client’s audience.
+Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.
