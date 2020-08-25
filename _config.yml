@@ -69,7 +69,7 @@ defaults:
         * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
         * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
         * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
-        
+
 
 
         You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
@@ -607,8 +607,12 @@ self-guided:
   button-url: "/events/self-guided/"
   button-label: See Self-Guided Events
 makers:
-  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span> <span>Directory</span>"
-  body: We’re all about celebrating the DMV’s creative voices — so what better way to do that than showcasing their work? We may not be able to do our IRL Pop-Up Shop this year, but we’ve got the next best thing. Check out our virtual directory for all your fall shopping needs.
+  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span>
+    <span>Directory</span>"
+  body: We’re all about celebrating the DMV’s creative voices — so what better way
+    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
+    Shop this year, but we’ve got the next best thing. Check out our virtual directory
+    for all your fall shopping needs.
   button-url: "/makers/"
   button-label: Explore Local Artists
 faqs:
