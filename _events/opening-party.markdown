@@ -11,7 +11,7 @@ start-time: 7:15 PM
 end-time: 9:00 PM
 image-alt: Photo of a smoky party room.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   is-limited-supply: false
