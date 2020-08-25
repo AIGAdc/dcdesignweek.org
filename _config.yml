@@ -195,9 +195,9 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  tier-1-header: "<span>Our</span> <span>sponsors</span>"
-  tier-2-header: "<span>Tier 2</span>"
-  tier-3-header: "<span>Tier 3</span>"
+  tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
+  tier-2-header: "<span>Contributing Sponsors</span>"
+  tier-3-header: "<span>Supporting Sponsors</span>"
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
   image-1: "/uploads/bubble-black-group-sponsors.png"

@@ -24,13 +24,16 @@ introduction:
   bubble-2-alt: Small Floating amorphous bubbles with DC Design Week text inside
   button-label: Learn About DCDW
   button-url: "/about/"
-event-header: "<span>Featured</span> <span>Events</span>"
-event-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue
-  id lorem eleifend imperdiet in vitae orci.
+event-header: "<span>Create</span> <span>and</span> <span>Discover</span>"
+event-body: DC Design Week 2020 is all about celebrating the creative voices in the DMV. How do we do that? By creating a virtual lineup of nearly 40 events over 8 days to create and discover. Get ready to connect with local makers, Immerse yourself in meaningful conversations, and experience the District’s creative spirit.
 event-button-label: See All Events
 event-button-url: "/events/"
+self-guided-header: "<span>At</span> <span>Your</span> <span>Own</span> <span>Pace</span>"
+self-guided-body: Take a break from our virtual lineup and get some fresh air by exploring the city with these (free!) self-guided events. Whether you’ve got a busy schedule or no schedule, don’t worry — you can do these whenever you want.
+self-guided-button-label: See Self-Guided Events
+self-guided-button-url: "/events/self-guided/"
 sponsors-header-1: "<span>Featured</span> <span>Events</span>"
-sponsors-header-2: "<span>Featured</span> <span>Events</span>"
+sponsors-header-2: "<span>Contributing</span> <span>Sponsors</span>"
 sponsors-button-label: See All Sponsors
 sponsors-button-url: "/about/#our-sponsors/"
 ---
