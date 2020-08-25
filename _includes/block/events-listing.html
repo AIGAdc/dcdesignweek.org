@@ -54,11 +54,13 @@
 				{% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
 				{% for event in sorted %}
 				{% if page.url == "/" %}
-				{% if event.status.is-featured-on-home == true %}
+					{% if event.status.is-featured-on-home == true %}
+						{% include block/partials/events-card.html %}
+					{% endif %}
+				{% endif %}
+				{% if page.url == "/events/" %}
 				{% include block/partials/events-card.html %}
 				{% endif %}
-				{% endif %}
-				{% include block/partials/events-card.html %}
 				{% endfor %}
 			</ul>
 		</div>
