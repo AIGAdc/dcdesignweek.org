@@ -1,6 +1,5 @@
 ---
-title: 'Animation for User Experience: When and how to use motion to enhance interactive
-  experiences'
+title: Animation for User Experience
 date: 2020-08-25 08:38:00 -04:00
 styled-title: "<span>Animation</span><span>for</span><span>User</span><span>Experience</span>"
 image: "/uploads/event-Animation-for-User-Experience.png"
