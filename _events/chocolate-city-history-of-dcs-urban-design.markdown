@@ -12,7 +12,7 @@ start-time: 6:00 PM
 end-time: 7:00 PM
 image-alt: Aerial view of the White House in DC
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
