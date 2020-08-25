@@ -225,3 +225,15 @@ ol {
 	padding: $spacing-8;
 	width: 100%;
 }
+
+.events-landing-layout .grid-col>*+* {
+	margin-top: $spacing-16;
+}
+
+.events-landing-layout .grid-col>*:last-child {
+	margin-top: 0;
+}
+
+.event-single__speaker.event__speaker>*+* {
+	margin-top: $spacing-16;
+}
