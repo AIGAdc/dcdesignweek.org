@@ -82,18 +82,22 @@ defaults:
       is-morning: 
       is-daytime: 
       is-evening: 
-      is-screening: 
-      is-party: 
+    filter-type:
+      is-creative-breakfast: 
       is-family-friendly: 
-      is-creative-lunch: 
-      is-wellness: 
+      is-keynote: 
+      is-partner-events: 
+      is-party: 
       is-workshop: 
-    filter-location:
-      is-dc: 
-      is-md: 
-      is-va: 
+      is-talk-panel:
+    filter-focus:
+      is-fun: 
+      is-deia: 
+      is-motion:
+      is-skill-building:
+      is-ui-ux:
     layout: events-landing
-filter-date:
+filter-day:
 - filter: ".day-1"
   class: day-1
   text-1: Fri
@@ -134,7 +138,7 @@ filter-date:
   text-1: Fri
   text-3: 25
   has-occurred: false
-filter-time-of-day:
+filter-time:
 - filter: ".morning"
   class: morning
   text-1: Morning
@@ -144,38 +148,44 @@ filter-time-of-day:
 - filter: ".evening"
   class: evening
   text-1: Evening
-filter-event-type:
-- filter: ".creative-lunch"
-  class: creative-lunch
-  text-1: Creative Lunch
+filter-type:
+- filter: ".creative-breakfast"
+  class: creative-breakfast
+  text-1: Creative Breakfast
 - filter: ".family-friendly"
   class: family-friendly
   text-1: Family Friendly
 - filter: ".party"
   class: party
   text-1: Party
-- filter: ".screening"
-  class: screening
-  text-1: Screening
-- filter: ".talk"
-  class: talk
-  text-1: Talk
-- filter: ".wellness"
-  class: wellness
-  text-1: Wellness
+- filter: ".keynote"
+  class: keynote
+  text-1: Keynote
+- filter: ".talk-panel"
+  class: talk-panel
+  text-1: Talk/Panel
+- filter: ".partner-events"
+  class: partner-events
+  text-1: Partner Events
 - filter: ".workshop"
   class: workshop
   text-1: Workshop
-filter-location:
-- filter: ".dc"
-  class: dc
-  text-1: DC
-- filter: ".md"
-  class: md
-  text-1: MD
-- filter: ".va"
-  class: va
-  text-1: VA
+filter-focus:
+- filter: ".fun"
+  class: fun
+  text-1: Fun
+- filter: ".deia"
+  class: deia
+  text-1: Diversity, Equity, Inclusion, and Accessibility
+- filter: ".motion"
+  class: motion
+  text-1: Motion
+- filter: ".skill-building"
+  class: skill-building
+  text-1: Skillbuilding
+- filter: ".ui-ux"
+  class: ui-ux
+  text-1: UI/UX
 filter-sold-out:
 - filter: ".sold-out"
   class: sold-out
