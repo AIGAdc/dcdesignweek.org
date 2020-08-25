@@ -89,13 +89,13 @@ defaults:
       is-partner-events: 
       is-party: 
       is-workshop: 
-      is-talk-panel:
+      is-talk-panel: 
     filter-focus:
       is-fun: 
       is-deia: 
-      is-motion:
-      is-skill-building:
-      is-ui-ux:
+      is-motion: 
+      is-skill-building: 
+      is-ui-ux: 
     layout: events-landing
 filter-day:
 - filter: ".day-1"
