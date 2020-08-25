@@ -10,7 +10,7 @@ start-time: 7:00 PM
 end-time: 8:00 PM
 image-alt: Black and white comic illustrations.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
