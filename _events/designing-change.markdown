@@ -12,7 +12,7 @@ end-time: 3:30 PM
 image-alt: Photos of moderator Maurice Cherry and speakers Earl Gray, Elaine Lopez,
   Marlene Marmolejos, and Jacinda Walker.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
