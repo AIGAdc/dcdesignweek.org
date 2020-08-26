@@ -219,46 +219,51 @@ filter-status:
     aria-label: Duke & Duck Website
   sponsor-tier-2:
   - title: Brand Sponsor
-    image: "/uploads/sponsor-january-third.svg"
-    image-alt: January Third Logo
-    website: https://www.januarythird.co/
-    aria-label: January Third Website
+    image: "/uploads/sponsors-contributing-artemisward.svg"
+    image-alt: Artemis Ward Logo
+    website: https://artemisward.com
+    aria-label: Artemis Ward Website
   - title: Motion Sponsor
-    image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke & Duck Logo
-    website: https://www.dukeduck.com/
-    aria-label: Duke & Duck Website
+    image: "/uploads/sponsors-contributing-icf-next-logo.png"
+    image-alt: ICF Logo
+    website: https://www.icf.com/next
+    aria-label: ICF Website
   - title: Brand Sponsor
-    image: "/uploads/sponsor-january-third.svg"
-    image-alt: January Third Logo
-    website: https://www.januarythird.co/
-    aria-label: January Third Website
+    image: "/uploads/sponsors-contributing-monterosa.png"
+    image-alt: Monterosa Logo
+    website: https://www.monterosa.co
+    aria-label: Monterosa Website
   - title: Motion Sponsor
-    image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke & Duck Logo
-    website: https://www.dukeduck.com/
-    aria-label: Duke & Duck Website
+    image: "/uploads/sponsors-contributing-nclud.png"
+    image-alt: Nclud Logo
+    website: https://nclud.com
+    aria-label: Nclud Website
   sponsor-tier-3:
-  - title: Brand Sponsor
-    image: "/uploads/sponsor-january-third.svg"
-    image-alt: January Third Logo
-    website: https://www.januarythird.co/
-    aria-label: January Third Website
-  - title: Motion Sponsor
-    image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke & Duck Logo
+  - title:
+    image: "/uploads/sponsors-supporting-aba-logo-2.svg"
+    image-alt: ABA Logo
+    website: https://abookapart.com/
+    aria-label: ABA Website
+  - title:
+    image: "/uploads/sponsors-supporting-mapbox.png"
+    image-alt: Mapbox Logo
+    website: https://www.mapbox.com
+    aria-label: Mapbox Website
+  - title:
+    image: "/uploads/sponsors-supporting-basecamp.png"
+    image-alt: Basecamp Logo
+    website: https://www.basecampdc.com/
+    aria-label: Basecamp Website
+  - title:
+    image: "/uploads/sponsors-supporting-boozallenhamilton.svg"
+    image-alt: Booz Allen Hamilton Logo
+    website: https://www.boozallen.com
+    aria-label: Booz Allen Hamilton Website
+  - title:
+    image: "/uploads/sponsors-supporting-URL.png"
+    image-alt: URL Logo
     website: https://www.dukeduck.com/
-    aria-label: Duke & Duck Website
-  - title: Brand Sponsor
-    image: "/uploads/sponsor-january-third.svg"
-    image-alt: January Third Logo
-    website: https://www.januarythird.co/
-    aria-label: January Third Website
-  - title: Motion Sponsor
-    image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke & Duck Logo
-    website: https://www.dukeduck.com/
-    aria-label: Duke & Duck Website
+    aria-label: URL Website
 2020-contributing-sponsors:
 - title: 
   image: 
@@ -570,9 +575,9 @@ navigation-teaser:
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page
-- url: "/shop/"
-  label: Shop
-  aria-label: Shop Page
+# - url: "/shop/"
+#  label: Shop
+#  aria-label: Shop Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
@@ -616,11 +621,10 @@ makers:
   button-url: "/makers/"
   button-label: Explore Local Artists
 faqs:
-  header: "<span>Lorem</span> <span>Ipsum</span>"
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
+  header: "<span>FAQs</span>"
+  body: DC Design Week looks different this year, so you might have questions. Maybe it’s how to find the streaming link or how to get the most out of our remote events. We’ve got answers to those and more.
   button-url: "/faqs/"
-  button-label: See FAQs
+  button-label: Learn More
 past-events:
   header: "<span>2019</span> <span>Event</span> <span>Highlights</span>"
   body: 
