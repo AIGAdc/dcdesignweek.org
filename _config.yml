@@ -239,27 +239,27 @@ filter-status:
     website: https://nclud.com
     aria-label: Nclud Website
   sponsor-tier-3:
-  - title:
+  - title: 
     image: "/uploads/sponsors-supporting-aba-logo-2.svg"
     image-alt: ABA Logo
     website: https://abookapart.com/
     aria-label: ABA Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-supporting-mapbox.png"
     image-alt: Mapbox Logo
     website: https://www.mapbox.com
     aria-label: Mapbox Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-supporting-basecamp.png"
     image-alt: Basecamp Logo
     website: https://www.basecampdc.com/
     aria-label: Basecamp Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-supporting-boozallenhamilton.svg"
     image-alt: Booz Allen Hamilton Logo
     website: https://www.boozallen.com
     aria-label: Booz Allen Hamilton Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-supporting-URL.png"
     image-alt: URL Logo
     website: https://www.dukeduck.com/
@@ -575,9 +575,6 @@ navigation-teaser:
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page
-# - url: "/shop/"
-#  label: Shop
-#  aria-label: Shop Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
@@ -622,7 +619,9 @@ makers:
   button-label: Explore Local Artists
 faqs:
   header: "<span>FAQs</span>"
-  body: DC Design Week looks different this year, so you might have questions. Maybe it’s how to find the streaming link or how to get the most out of our remote events. We’ve got answers to those and more.
+  body: DC Design Week looks different this year, so you might have questions. Maybe
+    it’s how to find the streaming link or how to get the most out of our remote events.
+    We’ve got answers to those and more.
   button-url: "/faqs/"
   button-label: Learn More
 past-events:
