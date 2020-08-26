@@ -1,107 +1,100 @@
 <!-- new -->
-<div class="events-filter">
-	<form>
-		<!-- day filters -->
-		<div class="events-filter__dates control-group" data-filter-group="">
-			{% for control in site.filter-day %}
-			<button
-				class="events-filter__date-button control {{ control.class }} {% if control.has-occurred == true %} events-filter__date-button--past-event {% endif %}"
-				data-filter="{{ control.filter }}" type="button">
-				<span class="control-text-1 font-size-4 script">
-					{{ control.text-1 }}
-				</span>
-				<span class="control-text-2 font-size-6">
-					{{ control.text-2 }}
-				</span>
-				<span class="control-text-3 font-size-5 font-weight-700">
-					{{ control.text-3 }}
-				</span>
-			</button>
-			{% endfor %}
-		</div>
-		<div class="events-filter__additional-filters">
-			<div class="events-filter__additional-header">
-				<span class="events-filter__additional-title"
-					data-houdini-toggle="additional-filters">
-					<span>
+<form class="events-filter">
+	<div class="grid grid--eight-columns gap-none column column--span-4 control-group events-filter__dates"
+		data-filter-group="">
+		{% for control in site.filter-day %}
+		<button
+			class="control {{ control.class }} {% if control.has-occurred == true %} .events-filter__date--occurred {% endif %}"
+			data-filter="{{ control.filter }}" type="button">
+			<span class="control-text-1">
+				{{ control.text-1 }}
+			</span>
+			<span class="control-text-3">
+				{{ control.text-3 }}
+			</span>
+		</button>
+		{% endfor %}
+	</div>
+	<div class="column column--span-4 events-filter__additional-filters">
+		<div class="events-filter__additional-header">
+			<span class="events-filter__additional-title" data-houdini-toggle="additional-filters">
+				<span>
 					Additional Filters
-					</span>
 				</span>
-				<div class="events-filter__reset control-group">
-					<button class="control control-text" type="reset">
-						Reset
-					</button>
-				</div>
+			</span>
+			<div class="events-filter__reset control-group">
+				<button class="control control-text" type="reset">
+					Reset
+				</button>
 			</div>
-			<div class="events-filter__additional-content" data-houdini-group="additional-filters"
-				id="additional-filters">
-				<div class="events-filter__status control-group grid grid__4-column" data-filter-group="">
-					<div class="column">
-						<span class="font-weight-700 font-size-5">
-							Status
-						</span>
-						{% for control in site.agenda.filter-status %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
-								{{ control.text-1 }}
-							</label>
-						</div>
-						{% endfor %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
-								Hide Past Events
-							</label>
-						</div>
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
-								Hide Sold Out
-							</label>
-						</div>
+		</div>
+		<div class="events-filter__additional-content" data-houdini-group="additional-filters" id="additional-filters">
+			<div class="grid grid--four-columns events-filter__status control-group" data-filter-group="">
+				<div class="column column--span-1">
+					<span class="font-weight-700 font-size-5">
+						Status
+					</span>
+					{% for control in site.agenda.filter-status %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
+							{{ control.text-1 }}
+						</label>
 					</div>
-					<div class="column">
-						<span class="font-weight-700 font-size-5">
-							Time
-						</span>
-						{% for control in site.filter-time %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
-								{{ control.text-1 }}
-							</label>
-						</div>
-						{% endfor %}
+					{% endfor %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
+							Hide Past Events
+						</label>
 					</div>
-					<div class="column">
-						<span class="font-weight-700 font-size-5">
-							Type
-						</span>
-						{% for control in site.filter-type %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
-								{{ control.text-1 }}
-							</label>
-						</div>
-						{% endfor %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
+							Hide Sold Out
+						</label>
 					</div>
-					<div class="column">
-						<span class="font-weight-700 font-size-5">
-							Location
-						</span>
-						{% for control in site.filter-focus %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" value="{{ control.filter }}" />
-								{{ control.text-1 }}
-							</label>
-						</div>
-						{% endfor %}
+				</div>
+				<div class="column column--span-1">
+					<span class="font-weight-700 font-size-5">
+						Time
+					</span>
+					{% for control in site.filter-time %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
+							{{ control.text-1 }}
+						</label>
 					</div>
+					{% endfor %}
+				</div>
+				<div class="column column--span-1">
+					<span class="font-weight-700 font-size-5">
+						Type
+					</span>
+					{% for control in site.filter-type %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
+							{{ control.text-1 }}
+						</label>
+					</div>
+					{% endfor %}
+				</div>
+				<div class="column column--span-1">
+					<span class="font-weight-700 font-size-5">
+						Location
+					</span>
+					{% for control in site.filter-focus %}
+					<div class="radio">
+						<label class="radio-label font-size-6">
+							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
+							{{ control.text-1 }}
+						</label>
+					</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
-	</form>
-</div>
+	</div>
+</form>

@@ -44,6 +44,10 @@
 	grid-template-columns: 1fr;
 }
 
+.grid--eight-columns {
+	grid-template-columns: repeat(4, 1fr);
+}
+
 .column {
 	position: relative;
 }
@@ -100,6 +104,10 @@
 		grid-template-columns: repeat(4, 1fr);
 	}
 
+	.grid--eight-columns {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
 	.column--hide {
 		display: block;
 	}
@@ -149,6 +157,10 @@
 
 .flow-none {
 	margin-top: 0;
+}
+
+.gap-none {
+	grid-gap: 0;
 }
 
 // save for now

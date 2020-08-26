@@ -1,36 +1,29 @@
-.events-filter {
+.events-layout .events-filter {
 	border: solid 1px $white;
 	margin-bottom: $spacing-32;
 }
 
 /* date filters */
-
-.events-filter__dates {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-}
-
-.events-filter__dates .mixitup-control-active {
+.events-layout .events-filter__dates .mixitup-control-active {
 	border-top: solid 8px $green;
 }
 
-.events-filter__dates .control-text-1,
-.events-filter__dates .control-text-2,
-.events-filter__dates .control-text-3 {
+.events-layout .events-filter__dates span {
 	display: block;
+	font-size: $font-size-16;
 	text-transform: uppercase;
 }
 
-.events-filter__dates .control-text-1 {
+.events-layout .events-filter__dates .control-text-1 {
 	font-family: $brand-font-terminus;
 }
 
-.events-filter__dates .control-text-3 {
+.events-layout .events-filter__dates .control-text-3 {
 	font-family: $brand-font-fk-grotesk;
-	font-size: $font-size-16;
 }
 
-.events-filter__date-button--past-event {
+.events-layout .events-filter__date--occurred {
+	cursor: not-allowed;
 	opacity: 0.5;
 }
 
@@ -79,8 +72,8 @@
     border-bottom: none;
     border-left: none;
     cursor: pointer;
-    color: #fff;
-    padding: 16px;
+    color: $white;
+    padding: $spacing-16;
     transition: background 100ms;
     text-align: center;
 }
@@ -127,10 +120,6 @@
 }
 
 @media screen and (min-width: 799px) {
-	.events-filter__date-button {
-		width: auto;
-	}
-
 	/* listing */
 	.events__list {
 		grid-template-columns: repeat(2, 1fr);
