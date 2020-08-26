@@ -61,6 +61,10 @@ filter-date:
   is-day-6: true
 filter-time:
   is-daytime: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-deia: true
 filter-location:
   is-dc: true
 ---

@@ -66,9 +66,11 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-type:
   is-workshop: true
-filter-location:
-  is-dc: true
+filter-focus:
+  is-motion: true
+  is-skill-building: true
 ---
 
 Squash and stretch. Staging. Slow in and slow out. Arc. Any of that sound familiar? No? You might want to register for this animation workshop!

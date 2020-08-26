@@ -56,7 +56,15 @@ speakers:
   website-url: DukeDuck.com
 has-accessibility-notes: true
 accessibility-notes:
-- note: 
+- note: |-
+    All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+    * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+    * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+
+
+
+    You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
 - note: There will be a demonstration component to this event that will showcase industry
     standard tools (Principle, Figma, Adobe XD and Adobe After Effects and their respective
     benefits and drawbacks). It is not necessary to have access to and familiarity
@@ -64,7 +72,7 @@ accessibility-notes:
 filter-date:
   is-day-4: true
 filter-time:
-  is-daytime: true
+  is-daytime: false
   is-evening: true
 filter-type:
   is-partner-events: true
