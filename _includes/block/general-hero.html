@@ -2,9 +2,9 @@
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<div class="section hero hero--home">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
+<section class="section hero hero--home">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			<video controls playsinline muted autoplay loop poster="/uploads/dcdw-home-hero-poster.jpg">
 				<source src="/uploads/dcdw-home-hero.mp4" type="video/mp4">
 				<source src="/uploads/dcdw-home-hero.webm" type="video/webm">
@@ -56,7 +56,7 @@
 			</script>
 		</div>
 	</div>
-</div>
+</section>
 {% endif %}
 {% endfor %}
 
@@ -64,15 +64,15 @@
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<div class="section hero--makers">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
+<section class="section hero--makers">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			<figure>
 				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
 			</figure>
 		</div>
 	</div>
-</div>
+</section>
 {% endif %}
 {% endfor %}
 
@@ -81,8 +81,8 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <div class="section hero--makers-directory">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			<figure>
 				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
 			</figure>

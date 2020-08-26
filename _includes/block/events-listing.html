@@ -1,7 +1,7 @@
-<section class="section section__events">
-	<div class="grid">
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h2 class="grid-col--span-90"
+<section class="section section__events flow-large">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-2 flow-large">
+			<h2 class="column--span-90 flow-none"
 				id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ page.event-header }}
 			</h2>
@@ -9,7 +9,7 @@
 				{{ page.event-body }}
 			</p>
 		</div>
-		<div class="grid-col grid-col--span-2 grid-col--order-1">
+		<div class="column column--span-2 column--hide">
 			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,22 +41,22 @@
 	</div>
 
 	{% if page.url == "/events/" %}
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			{% include event-filter.html %}
 		</div>
 	</div>
 	{% endif %}
 
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-4">
-			<ul class="grid grid--events mixitup-container">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
+			<ul class="grid grid--four-columns mixitup-container">
 				{% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
 				{% for event in sorted %}
 				{% if page.url == "/" %}
-					{% if event.status.is-featured-on-home == true %}
-						{% include block/partials/events-card.html %}
-					{% endif %}
+				{% if event.status.is-featured-on-home == true %}
+				{% include block/partials/events-card.html %}
+				{% endif %}
 				{% endif %}
 				{% if page.url == "/events/" %}
 				{% include block/partials/events-card.html %}
@@ -67,8 +67,8 @@
 	</div>
 
 	{% if page.url == "/" %}
-	<div class="grid margin-top-60">
-		<div class="grid-col grid-col--span-4 text-center">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ page.event-button-url }}">
 				{{ page.event-button-label}}

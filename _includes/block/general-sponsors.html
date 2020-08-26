@@ -1,39 +1,21 @@
 <section class="section section__sponsors">
 	<!-- tier 1 -->
-	<div class="grid">
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h2 class="grid-col--span-70"
+	<div class="grid grid--four-columns">
+		<div class="column column--span-2 flow-large">
+			<h2 class="column--span-70 flow-none"
 				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.2020-presenting-sponsors.tier-1-header }}</h2>
-			<div class="wysiwyg">{{ site.2020-presenting-sponsors.body | markdownify }}</div>
+				{{ site.2020-presenting-sponsors.tier-1-header }}
+			</h2>
+			<div class="wysiwyg">
+				{{ site.2020-presenting-sponsors.body | markdownify }}
+			</div>
 		</div>
-		<div class="grid-col grid-col--span-4 order-3">
-			<ul class="grid">
-				{% for content in site.2020-presenting-sponsors.sponsor-tier-1 %}
-				<li class="card card--sponsors grid-col--span-2">
-					<div class="card__header">
-						<h3 class="card__title"
-							id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-							{{ content.title }}</h3>
-					</div>
-					<div class="card__aside">
-						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
-							rel="noopener noferrer">
-							<figure class="card__image shadow-reverse shadow-reverse--green">
-								<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
-							</figure>
-						</a>
-					</div>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
-			<div class="grid-col--span-3">
+		<div class="column column--span-2 column--hide flow-large">
+			<div>
 				<img class="bubble-group-sponsors" aria-hidden="true" src="{{ site.2020-presenting-sponsors.image-1 }}"
 					alt="{{ site.2020-presenting-sponsors.image-1-alt }}">
 			</div>
-			<div class="ornaments grid-col--span-1">
+			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -53,18 +35,38 @@
 				</figure>
 			</div>
 		</div>
+		<div class="column column--span-4">
+			<div class="grid grid--two-columns">
+				{% for content in site.2020-presenting-sponsors.sponsor-tier-1 %}
+				<li class="card card--sponsors column--span-1">
+					<div class="card__header">
+						<h3 class="card__title"
+							id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+							{{ content.title }}</h3>
+					</div>
+					<div class="card__aside">
+						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
+							rel="noopener noferrer">
+							<figure class="card__image shadow-reverse shadow-reverse--green">
+								<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
+							</figure>
+						</a>
+					</div>
+				</li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
 	</div>
 	<!-- tier 2 -->
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h3 class="grid-col--span-70"
+	<div class="grid grid--four-columns flow-extra-large">
+		<div class="column column--span-4 flow-medium">
+			<h3 class="column--span-70 flow-none"
 				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.2020-presenting-sponsors.tier-2-header }}</h3>
-		</div>
-		<div class="grid-col grid-col--span-4 order-3">
-			<ul class="grid">
+			<ul class="grid grid--four-columns margin-top-16">
 				{% for content in site.2020-presenting-sponsors.sponsor-tier-2 %}
-				<li class="card card--sponsors grid-col--span-1">
+				<li class="card card--sponsors column--span-1">
 					<div class="card__aside">
 						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
 							rel="noopener noferrer">
@@ -80,16 +82,16 @@
 	</div>
 	{% if page.url == "/about/" %}
 	<!-- tier 3 -->
-	<div class="grid margin-top-32">
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h3 class="grid-col--span-70"
+	<div class="grid grid--four-columns">
+		<div class="column column--span-2">
+			<h3 class="column--span-70"
 				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.2020-presenting-sponsors.tier-3-header }}</h3>
 		</div>
-		<div class="grid-col grid-col--span-4 order-3">
-			<ul class="grid">
+		<div class="column column--span-4">
+			<ul class="grid grid--four-columns">
 				{% for content in site.2020-presenting-sponsors.sponsor-tier-3 %}
-				<li class="card card--sponsors grid-col--span-1">
+				<li class="card card--sponsors column--span-1">
 					<div class="card__aside">
 						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
 							rel="noopener noferrer">
@@ -106,8 +108,8 @@
 	{% endif %}
 	{% if page.url == "/" %}
 	<!-- sponsors button -->
-	<div class="grid margin-top-60">
-		<div class="grid-col grid-col--span-4 text-center">
+	<div class="grid grid--four-columns margin-top-60">
+		<div class="column column--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ page.sponsors-button-url }}">
 				{{ page.sponsors-button-label}}
