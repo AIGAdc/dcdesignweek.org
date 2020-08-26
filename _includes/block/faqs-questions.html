@@ -1,22 +1,21 @@
 <section class="section section__faqs">
-	<div class="grid">
+	<div class="grid grid--four-columns">
 		<!-- parent grid -->
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
+		<div class="column column--span-2">
 			{% for content in page.introduction %}
 			{% if content.has-introduction == true %}
-			<h1 class="grid-col--span-70"
+			<h1 class="column--span-70"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}
 			</h1>
 			{% endif %}
 			{% endfor %}
 		</div>
-		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
-			<!-- sub grid -->
-			<div class="bubbles grid-col--span-3">
+		<div class="column column--span-2">
+			<div class="bubbles column--span-3">
 				<p>&nbsp;</p>
 			</div>
-			<div class="ornaments grid-col--span-1">
+			<div class="ornaments column--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
 						<path
@@ -39,8 +38,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid" style="margin-top:32px">
-		<ul class="grid-col grid-col--span-3">
+	<div class="grid grid--four-columns margin-top-32">
+		<ul class="grid grid--one-column column--span-3">
 			{% for faq in page.faqs %}
 			<li>
 				<h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
@@ -53,7 +52,7 @@
 			</li>
 			{% endfor %}
 		</ul>
-		<div class="grid-col grid-col--span-1">
+		<div class="column column--span-1">
 			<div class="faq-contact">
 				<h3>Have a Question? Concern? Reach out!</h3>
 				<ul>

@@ -1,9 +1,9 @@
 {% for content in page.celebrating-you %}
 {% if content.has-celebrating-you == true %}
 <section class="section section__celebrating-you">
-	<div class="grid">
-		<div class="grid-col grid-col--span-2 grid-col--order-2">
-			<h2 class="grid-col--span-50"
+	<div class="grid grid--four-columns">
+		<div class="column column--span-2 flow-large">
+			<h2 class="column--span-50 flow-none"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}</h2>
 			<div class="wysiwyg">{{ content.body | markdownify }}</div>
@@ -13,11 +13,8 @@
 			</a>
 			{% endif %}
 		</div>
-		<div class="sub-grid sub-grid-col grid-col--span-2 grid-col--order-1">
-			<div class="bubbles grid-col--span-3">
-				<img class="gallery-maker-grid" src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
-			</div>
-			<div class="ornaments grid-col--span-1">
+		<div class="sub-grid sub-column column--span-2">
+			<div class="ornaments column--span-1">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" clip-rule="evenodd"
@@ -34,6 +31,9 @@
 							fill="white" />
 					</svg>
 				</figure>
+			</div>
+			<div class="bubbles column--span-3">
+				<img class="gallery-maker-grid" src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
 			</div>
 		</div>
 	</div>

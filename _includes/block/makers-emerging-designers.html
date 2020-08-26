@@ -1,8 +1,8 @@
 {% for content in page.emerging-designers %}
 {% if content.has-emerging-designers == true %}
 <section class="section section__makers">
-	<div class="grid">
-		<div class="sub-grid sub-grid-col grid-col--span-2">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-2">
 			<div class="emerging-designers-posters">
 				<figure class="emerging-designers-posters__image--left">
 					<img src="{{ content.image-left }}" alt="{{ content.image-left-alt }}">
@@ -12,14 +12,18 @@
 				</figure>
 			</div>
 		</div>
-		<div class="grid-col grid-col--span-2">
-			<h2 class="grid-col--span-80"
+		<div class="column column--span-2 flow-large">
+			<h2 class="column--span-80 flow-none"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ content.header }}</h2>
-			<div class="wysiwyg">{{ content.body | markdownify }}</div>
+				{{ content.header }}
+			</h2>
+			<div class="wysiwyg">
+				{{ content.body | markdownify }}
+			</div>
 			{% if content.button-label %}
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="{{ content.button-url }}" target="_blank">{{ content.button-label }}
+				href="{{ content.button-url }}" target="_blank">
+				{{ content.button-label }}
 			</a>
 			{% endif %}
 		</div>
