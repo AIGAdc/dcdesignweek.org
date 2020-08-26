@@ -50,6 +50,7 @@ filter-time:
   is-morning: true
 filter-type:
   is-wellness: true
+  is-partner-event: true
 filter-focus:
   is-fun: true
 ---

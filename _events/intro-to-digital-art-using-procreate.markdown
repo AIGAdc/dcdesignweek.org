@@ -46,9 +46,10 @@ filter-date:
   is-day-7: true
 filter-time:
   is-daytime: true
+filter-type:
   is-workshop: true
-filter-location:
-  is-dc: true
+filter-focus:
+  is-skill-building: true
 ---
 
 Masks? Layers? Textures? When it comes to digital illustration, where do you even start?

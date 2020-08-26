@@ -42,7 +42,7 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-partner-event: true
+  is-partner-events: true
 ---
 
 As part of DC Design Week, Service Design DC — home of the Service Design Network (SDN) DC chapter — will be hosting our second installment of five Pecha Kucha presentations, this time centered around the theme “Celebrating the voices of DC’s creative community.” Join us for an evening of Service Design inspiration.

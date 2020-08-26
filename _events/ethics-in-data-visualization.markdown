@@ -77,8 +77,8 @@ filter-date:
   is-day-7: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
 ---
 
 Current events coupled with an upcoming presidential election mean we’ve seen data visualization everywhere, from news outlets to personal social media accounts. Data visualization can help us make sense of complex information — but it can just as easily tell only one part of a story.
