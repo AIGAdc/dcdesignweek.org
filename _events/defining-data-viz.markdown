@@ -47,9 +47,10 @@ filter-date:
   is-day-2: true
 filter-time:
   is-daytime: true
+filter-type:
   is-workshop: true
-filter-location:
-  is-dc: true
+filter-focus:
+  is-skillbuilding: true
 ---
 
 Data visualization. The term may sound boring and jargony – seriously, try saying it 10 times fast – but the meaning is simple and the concept important. Data viz is the art of creating a visual representation of data to identify trends and patterns.

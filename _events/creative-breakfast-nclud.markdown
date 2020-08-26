@@ -57,9 +57,8 @@ filter-date:
   is-day-6: true
 filter-time:
   is-morning: true
-  is-creative-lunch: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-creative-breakfast: true
 ---
 
 Hump day is the perfect day to get some creative inspiration!

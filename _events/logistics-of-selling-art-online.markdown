@@ -93,8 +93,10 @@ filter-date:
   is-day-5: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-skill-building: true
 ---
 
 E-commerce has boomed in recent years and effectively challenged the stereotype of the “starving artist.” That’s even more true now than ever, in the era of socially-distanced shopping. If you’ve ever wanted to sell your art online, now is your chance!. 

@@ -47,10 +47,11 @@ accessibility-notes:
 filter-date:
   is-day-2: true
 filter-time:
-  is-daytime: true
+  is-morning: true
+filter-type:
   is-wellness: true
-filter-location:
-  is-dc: true
+filter-focus:
+  is-fun: true
 ---
 
 Grab some water and tune in to sweat out the stress with a wildly fun, all-levels dance cardio class hosted by and8 Fitness.

@@ -88,8 +88,8 @@ filter-date:
   is-day-3: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
 ---
 
 When it comes to activism, Busboys and Poets has always supported the DMV’s diverse communities. So it comes as no surprise that the restaurant group hired local artists to paint their storefronts – instead of boarding up – after an act of vandalism. This initiative, now known as #PaintTheStorefronts, has been adopted by other local businesses, including the National Landing BID and Jose Andres’ restaurants. This is a model on how to respond in moments of crisis — by amplifying the skills and creativity of the community. Now more than ever, this is an important lesson to learn.

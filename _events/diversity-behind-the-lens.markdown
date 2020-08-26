@@ -85,8 +85,10 @@ filter-date:
   is-day-6: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-deia: true
 ---
 
 The need for diversity in photography goes beyond the subject — it includes the artist behind the lens. Why? Because photographers and subjects alike affect what we capture and how we tell that story. Who is behind the lens affects the final photograph as much as who or what is in front of the lense.

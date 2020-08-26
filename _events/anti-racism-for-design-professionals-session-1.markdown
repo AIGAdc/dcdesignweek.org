@@ -57,8 +57,11 @@ filter-date:
   is-day-2: true
 filter-time:
   is-morning: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-workshop: true
+filter-focus:
+  is-deia: true
+  is-skill-building: true
 ---
 
 Being anti-racist calls for us to support a radical reordering of society to achieve political, economic, and social equality. As designers, we must ask ourselves: what role can we play to ensure our work isn’t just not racist, but is actively anti-racist? Join Dr. Enid Montague for a hands-on discussion about practicing design with anti-racist principles at the forefront — both how we change the way we do our work as well as the work we do. Dr. Montague will give a short talk and guide a meaningful conversation about how to cultivate anti-racist principles in our own design work. 

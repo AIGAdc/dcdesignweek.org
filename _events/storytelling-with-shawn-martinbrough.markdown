@@ -51,8 +51,10 @@ filter-date:
   is-day-5: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-keynote: true
+filter-focus:
+  is-deia: true
 ---
 
 You’ve heard of T’Challa, Captain America, Hellboy, Luke Cage and Batman, right?

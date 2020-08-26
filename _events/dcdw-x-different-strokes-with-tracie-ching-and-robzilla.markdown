@@ -64,8 +64,8 @@ filter-date:
   is-day-7: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-keynote: true
 ---
 
 Ah, vectors. A powerful creative tool that may seem daunting to learn…until you get to learn from the best of the best.

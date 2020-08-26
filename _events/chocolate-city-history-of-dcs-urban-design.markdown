@@ -63,8 +63,10 @@ filter-date:
   is-day-6: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-deia: true
 ---
 
 DC was the nation’s first major city with an African American majority. Today, African Americans make up less than half of the city’s population and a growing proportion of the population in the region’s suburbs, which have also experienced recent rises in poverty rates and immigration. In 2019, the National Community Reinvestment Coalition ranked Washington, DC as “the most intensely gentrified” city in the country. Long-term residents and small businesses are facing an affordability crisis and struggling to remain in place and retain the culture that once defined “the Chocolate City." This process didn't happen purely organically — and these struggles are not new.

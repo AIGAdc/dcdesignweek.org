@@ -50,7 +50,11 @@ filter-date:
   is-day-5: true
 filter-time:
   is-daytime: true
+filter-type:
   is-workshop: true
+filter-focus:
+  is-motion: true
+  is-skill-building: true
 ---
 
 If you’re an illustrator or designer who dabbles, get ready to kick your portfolio up a notch with this workshop on designing for animation.

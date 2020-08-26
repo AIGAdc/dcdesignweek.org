@@ -62,10 +62,10 @@ filter-date:
   is-day-3: true
 filter-time:
   is-evening: true
+filter-type:
   is-party: true
-  is-workshop: true
 filter-location:
-  is-dc: true
+  is-fun: true
 ---
 
 We’re not saying this is a “Drunk History” workshop… but maybe it is. Join us for a cocktail-making, history-learning session with Andra “AJ” Johnson!

@@ -60,9 +60,8 @@ filter-date:
   is-day-4: true
 filter-time:
   is-morning: true
-  is-creative-lunch: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-creative-breakfast: true
 ---
 
 Monday doesn’t have to mean the slog back to the work week — instead kick off your week with breakfast and creative inspiration.

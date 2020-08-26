@@ -79,9 +79,8 @@ filter-date:
   is-day-5: true
 filter-time:
   is-morning: true
-  is-creative-lunch: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-creative-breakfast: true
 ---
 
 Start your Tuesday off right and join us for a creative breakfast with Artemis Ward! You may know them from their digital work for NatGeo or DC United — but the team at Artemis Ward is also committed to supporting DC’s creative community. Staff at the studio help lead a number of local initiatives, including Creative Mornings DC and Little Salon.

@@ -47,9 +47,11 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-type:
   is-workshop: true
-filter-location:
-  is-dc: true
+  is-family-friendly: true
+filter-focus:
+  is-fun: true
 ---
 
 Get your sketch on with illustrator Anthony Jackson during this freeform workshop. Pull out your print (or digital!) sketchpad and follow along as he leads you through an hour of illustration and tips, all inspired by the spirit of DC. You’ll learn how to incorporate a color palette, distinctive elements of the District, and simple shapes to create a full composition.

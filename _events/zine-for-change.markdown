@@ -69,9 +69,7 @@ filter-date:
 filter-time:
   is-evening: true
 filter-type:
-  is-party: false
-filter-location:
-  is-dc: true
+  is-talk-panel: true
 ---
 
 When traditional means of publishing — the big houses and editors — aren’t interested in challenging existing narratives or lifting up new voices, designers don’t stop.

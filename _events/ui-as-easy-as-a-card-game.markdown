@@ -51,9 +51,10 @@ filter-date:
   is-day-6: true
 filter-time:
   is-daytime: true
-  is-workshop: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-skill-building: true
 ---
 
 Evaluating UI may not be as easy as 1-2-3, but it can be as easy as a card game.

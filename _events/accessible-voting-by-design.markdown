@@ -65,8 +65,6 @@ filter-type:
   is-talk-panel: true
 filter-focus:
   is-deia: true
-filter-location:
-  is-dc: true
 ---
 
 Elections have always been fraught with challenges for disabled voters. (Seriously, what good is an audio voting machine if the staff doesn’t know how to turn it on?) With a pandemic radically changing how we approach voting, we must confront those challenges more than ever — and have an opportunity to make big changes for the better.

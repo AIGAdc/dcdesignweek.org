@@ -49,8 +49,10 @@ filter-date:
   is-day-4: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-skillbuilding: true
 ---
 
 Users take shortcuts to get through the day. (Don’t we all?) Usually, they’re harmless. Sometimes they’re helpful. But what happens when they’re not? 

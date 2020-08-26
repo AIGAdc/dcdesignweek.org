@@ -64,12 +64,12 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
+filter-type:
   is-family-friendly: true
   is-workshop: true
-filter-location:
-  is-dc: true
-  is-md: true
-  is-va: true
+filter-focus:
+  is-fun: true
+  is-skill-building: true
 ---
 
 It’s Crafternoon: Time to get your stitch on.

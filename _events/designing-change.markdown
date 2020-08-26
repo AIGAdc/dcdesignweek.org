@@ -100,8 +100,10 @@ filter-date:
   is-day-2: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-workshop: true
+filter-focus:
+  is-deia: true
 ---
 
 There’s no question about it. Black and Brown designers make a daily impact on creative industries, including design. Yet AIGA’s 2019 Design Census showed only 11% of those surveyed identified as African American or Hispanic.

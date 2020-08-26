@@ -76,8 +76,10 @@ filter-date:
   is-day-4: true
 filter-time:
   is-evening: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
+filter-focus:
+  is-deia: true
 ---
 
 There’s no denying it: we are in a moment of profound, societal change. Positive change, driven by people and movements. Art and design have always played a role in efforts to elevate marginalized voices and make the world more just. From signs to murals to social graphics, there are people who help to spread the word and offer a rallying cry through design. Don’t miss out on this chance to learn about what designing for activism looks like today – in our city and in this moment – and how design helps movements succeed. 

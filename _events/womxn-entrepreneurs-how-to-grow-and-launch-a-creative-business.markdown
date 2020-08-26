@@ -86,8 +86,10 @@ filter-date:
   is-day-8: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-workshop: true
+filter-focus:
+  is-skill-building: true
 ---
 
 As womxn starting small businesses in the creative industry, we’re always seeking agile and growth-oriented strategies when launching and growing our brands. This event will bring together a range of womxn who will share the advice they’ve learned from their ventures. Whether you’re still figuring out how to quit your day job or already bringing on more staff, this event is for you.

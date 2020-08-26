@@ -51,8 +51,8 @@ filter-date:
   is-day-5: true
 filter-time:
   is-morning: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-creative-breakfast: true
 ---
 
 It’s no secret. Many local governments were — and still are — unprepared to handle COVID-19. With issues like unemployment, proper testing, and overcapacity in hospitals, pro bono work is crucial for helping our communities thrive. That’s where designers come in. Using your experience, you can create meaningful tools that improve the relationship between citizens and government and creates a lasting impact. 

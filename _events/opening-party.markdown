@@ -97,7 +97,10 @@ filter-date:
   is-day-1: true
 filter-time:
   is-evening: true
+filter-type:
   is-party: true
+filter-focus:
+  is-fun: true
 ---
 
 Join us the launch of DC Design Week 2020. This year we’re partnering with with Little Salon DC for an evening of music, trivia, spoken word and much more.

@@ -61,8 +61,8 @@ filter-date:
   is-day-3: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
 ---
 
 2020 hasn’t gone as planned. But that doesn’t mean you can’t plan for your career!

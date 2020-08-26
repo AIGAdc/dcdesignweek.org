@@ -68,8 +68,8 @@ filter-date:
   is-day-4: true
 filter-time:
   is-daytime: true
-filter-location:
-  is-dc: true
+filter-type:
+  is-talk-panel: true
 ---
 
 In the middle of a global pandemic and historic civil unrest, access to reliable and empathetic government services are more important than ever. While many still use clunky technology, there are also public services that actually reflect the needs of those using them. These products don't come around by accident, but are created by teams of innovative practitioners who are finding ways to make the government just a bit more human-centered.
