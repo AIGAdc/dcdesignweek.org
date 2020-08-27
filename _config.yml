@@ -199,7 +199,7 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: <span>Sponsors</span> <span>and</span> <span>Partners</span>
+  header: "<span>Sponsors</span> <span>and</span> <span>Partners</span>"
   tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
   tier-2-header: "<span>Contributing Sponsors</span>"
   tier-3-header: "<span>Supporting Sponsors</span>"
@@ -570,9 +570,6 @@ navigation-teaser:
 - url: "/about/"
   label: About
   aria-label: About Page
-# - url: "/makers/"
-#   label: Makers
-#   aria-label: Makers Page
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page

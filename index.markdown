@@ -40,3 +40,4 @@ self-guided-button-url: "/events/self-guided/"
 sponsors-button-label: See All Sponsors
 sponsors-button-url: "/about/#sponsors"
 ---
+

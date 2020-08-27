@@ -23,12 +23,14 @@ introduction:
     Working On\n\n\nWe’re working hard behind the scenes to make sure our events are
     as accessible and inclusiveas possible.\n\n- All of our events will have real
     time CART services through [service name here]. Program leads must complete an
-    [event accessibility checklist](https://docs.google.com/spreadsheets/d/1shzlfnSArTG-DbloZYlX8OolOblKoBRh2fxzdQFjMIo/edit?usp=sharing) while planning every event.\n\n- Speakers who
-    use slide presentations must complete a [presentation accessibility checklist](https://docs.google.com/spreadsheets/d/1lLG6J5kqcNqQxOHT7xRfPZSSyeN3FE8Dek-EFS8AyMY/edit?usp=sharing)
+    [event accessibility checklist](https://docs.google.com/spreadsheets/d/1shzlfnSArTG-DbloZYlX8OolOblKoBRh2fxzdQFjMIo/edit?usp=sharing)
+    while planning every event.\n\n- Speakers who use slide presentations must complete
+    a [presentation accessibility checklist](https://docs.google.com/spreadsheets/d/1lLG6J5kqcNqQxOHT7xRfPZSSyeN3FE8Dek-EFS8AyMY/edit?usp=sharing)
     based on [Allison Ravenhall’s article Inclusive Design For Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/).\n\n-
     We’re making our website fully WCAG 2.1 compliant and are open to suggestions
-    for improvement at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).\n\n- We’ve consulted with various
-    accessibility experts, including Nicole Barbuto of LookThink and Charles Hall,
-    an invited expert of the W3C.\n\nIs there anything else we should be doing? Let
-    us know by emailing our Accessibility Team at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org). "
+    for improvement at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).\n\n-
+    We’ve consulted with various accessibility experts, including Nicole Barbuto of
+    LookThink and Charles Hall, an invited expert of the W3C.\n\nIs there anything
+    else we should be doing? Let us know by emailing our Accessibility Team at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org). "
 ---
+
