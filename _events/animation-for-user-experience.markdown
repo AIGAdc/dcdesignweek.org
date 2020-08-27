@@ -7,8 +7,8 @@ description: Interested in the practical application of animation within interac
   experiences? Experts Kristen O’Callaghan and Dave Ellington will give a hands-on,
   1.5 hour workshop on the theory and application of animation within product/UX design.
 event-date: 2020-09-21 18:00:00 -04:00
-start-time: 6:00 pm
-end-time: 7:30 pm
+start-time: 6:00 PM
+end-time: 7:30 PM
 image-alt: Image of a wireframe of a desktop browser window with animation elements
   on the webpage
 status:
@@ -43,7 +43,7 @@ speakers:
     focused on collaboration with product management and engineering in order to create
     innovative, iterative, and practical design solutions. '
   website-label: Website
-  website-url: " kristenocallaghan.com"
+  website-url: http://www.kristenocallaghan.com/
 - name: Dave Ellington
   pronouns: He | Him | His
   title: Dave is an animator at Duke & Duck, a company he co-founded.
@@ -53,7 +53,7 @@ speakers:
     projects that range from some of DC’s largest nonprofits to commercial clients
     across the country.
   website-label: Website
-  website-url: DukeDuck.com
+  website-url: https://www.dukeduck.com/
 has-accessibility-notes: true
 accessibility-notes:
 - note: |-
@@ -65,10 +65,9 @@ accessibility-notes:
 
 
     You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
-- note: There will be a demonstration component to this event that will showcase industry
-    standard tools (Principle, Figma, Adobe XD and Adobe After Effects and their respective
-    benefits and drawbacks). It is not necessary to have access to and familiarity
-    with these tools.
+
+
+    There will be a demonstration component to this event that will showcase industry standard tools (Principle, Figma, Adobe XD and Adobe After Effects and their respective benefits and drawbacks). It is not necessary to have access to and familiarity with these tools.
 filter-date:
   is-day-4: true
 filter-time:
@@ -85,3 +84,8 @@ Learn both the “why” and “how” of interface animation! Experts Kristen O
 The workshop will be divided into two parts: 
 * Part I: We’ll discuss the theory behind animation’s role in UX, explore the benefits motion can provide, and how we can use motion to our advantage as designers when developing a user flow.
 * Part II: The workshop will do a quick refresher of the principles of animation and a discussion on the tools available for prototyping. This discussion will cover the use of prototyping tools such as Principle, Figma, Adobe XD and Adobe After Effects and their respective benefits and drawbacks. This segment will conclude with a demonstration of using After Effects (in conjunction with Bodymovin) to create and export a custom hover state animation for a button.
+
+
+## Event Partner & Sponsor
+**[Duke & Duck](https://www.dukeduck.com/)**<br/>
+Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.
