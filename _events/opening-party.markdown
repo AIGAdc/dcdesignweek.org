@@ -1,5 +1,5 @@
 ---
-title: Opening Party
+title: Opening Party with Little Salon
 date: 2020-08-22 13:30:00 -04:00
 styled-title: "<span>Opening</span> <span>Party</span> <span>with</span> <span>Little</span>
   <span>Salon</span>"
