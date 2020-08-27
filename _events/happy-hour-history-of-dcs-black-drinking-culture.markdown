@@ -20,11 +20,11 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fhappy-hour-history-of-dcs-black-drinking-culture%2F%3Fredirect_source%3Deventbrite_register
-  member-button-label: "$15 + Cocktail Kit — Members"
+  member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893
+  member-button-label: "$50 — Ticket + One Person Cocktail Kit"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893
-  non-member-button-label: "$15 + Cocktail Kit — Non-members"
+  non-member-button-label: "$65 — Ticket + Two Person Cocktail Kit"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
