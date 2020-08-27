@@ -72,7 +72,7 @@ speakers:
   website-url: http://www.boomscat.com/
 - name: Chris Flockton
   pronouns: He | Him | His
-  title: actor, host, writer, and voiceover artist
+  title: 
   bio: |-
     As a performer, Chris was a member of New York's acclaimed Rumble in the RedRoom sketch comedy ensemble, and later wrote and performed with his own sketch comedy group, The Belgian Summers. On stage, he has appeared in roles both serious and comedic at regional theatres around the country, most recently in the 2019 off-Broadway premier of Only Yesterday, which was a New York Times Critics’ Pick.
     In addition, Chris has appeared in featured roles in film and TV, including The Boondock Saints,  Law & Order SVU, and The Guiding Light, in dozens of TV commercials, and has worked extensively as a live host for large events around the world.
