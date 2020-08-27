@@ -225,7 +225,7 @@ filter-status:
     website: https://artemisward.com
     aria-label: Artemis Ward Website
   - title: Motion Sponsor
-    image: "/uploads/sponsors-contributing-icf-next-logo.png"
+    image: "/uploads/sponsors-contributing-icf.svg"
     image-alt: ICF Logo
     website: https://www.icf.com/next
     aria-label: ICF Website
@@ -235,13 +235,13 @@ filter-status:
     website: https://www.monterosa.co
     aria-label: Monterosa Website
   - title: Motion Sponsor
-    image: "/uploads/sponsors-contributing-nclud.png"
+    image: "/uploads/sponsors-contributing-nclud.svg"
     image-alt: Nclud Logo
     website: https://nclud.com
     aria-label: Nclud Website
   sponsor-tier-3:
   - title: 
-    image: "/uploads/sponsors-supporting-aba-logo-2.svg"
+    image: "/uploads/sponsors-supporting-aba.svg"
     image-alt: ABA Logo
     website: https://abookapart.com/
     aria-label: ABA Website
@@ -256,7 +256,7 @@ filter-status:
     website: https://www.basecampdc.com/
     aria-label: Basecamp Website
   - title: 
-    image: "/uploads/sponsors-supporting-boozallenhamilton.svg"
+    image: "/uploads/sponsors-supporting-booz.svg"
     image-alt: Booz Allen Hamilton Logo
     website: https://www.boozallen.com
     aria-label: Booz Allen Hamilton Website

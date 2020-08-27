@@ -47,7 +47,7 @@ faqs:
   trigger: question-4
   expanded: false
 - heading: I’m having issues with my Zoom — what do I do?
-  body: We encourage you to first explore [Zoom’s Help Center](https://support.zoom.us/hc/en-us/articles/206175806).
+  body: We encourage you to first explore [Zoom’s Help Center <i class="fas fa-external-link-square-alt"></i>](https://support.zoom.us/hc/en-us/articles/206175806){:target="_blank" rel="noopener nofollow"}.
     If you aren’t able to resolve the issue that way, please reach out to us.
   trigger: question-5
   expanded: false
