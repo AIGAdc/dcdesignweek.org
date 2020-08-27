@@ -12,8 +12,23 @@
 	text-transform: uppercase;
 }
 
+.card--event h3 {
+	font-family: "fk_groteskregular", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+}
+
+.card--event a {
+	text-decoration: none;
+}
+
 .card__aside {
 	position: relative;
+}
+
+.card--event .card__header {
+	min-height: 88px;
 }
 
 .card__header a {
@@ -47,6 +62,7 @@
 
 .card--committee .card__image img {
 	margin: auto;
+	max-width: 200px;
 }
 
 .card--past-editions .card__image,
@@ -162,10 +178,12 @@
 .events-layout .ticker p,
 .events-single-layout .ticker p {
 	display: inline-block;
-	font-size: $font-size-20;
+	font-family: $brand-font-terminus;
+	font-size: $font-size-14;
 	margin: 0;
 	text-align: left;
 	white-space: nowrap;
+	text-transform: uppercase;
 	transform: translateX(100%);
 	width: 100%;
 }
@@ -179,6 +197,12 @@
 .events-single-layout .ticker p {
 	-webkit-animation: ticker 20000ms ease-in infinite;
 	animation: ticker 20000ms ease-in infinite;
+}
+
+@media screen and (min-width: 1023px) {
+	.card--committee .card__image img {
+		max-width: 280px;
+	}
 }
 
 /* Move it (define the animation) */

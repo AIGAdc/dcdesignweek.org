@@ -40,7 +40,8 @@
 
 .grid--one-columns,
 .grid--two-columns,
-.grid--four-columns {
+.grid--four-columns,
+.grid--five-columns {
 	grid-template-columns: 1fr;
 }
 
@@ -50,6 +51,10 @@
 
 .column {
 	position: relative;
+}
+
+.column>div {
+	height: 100%;
 }
 
 .column--hide {
@@ -67,7 +72,8 @@
 .column--span-1,
 .column--span-2,
 .column--span-3,
-.column--span-4 {
+.column--span-4,
+.column--span-5 {
 	grid-column: span 1;
 }
 
@@ -82,7 +88,8 @@
 @media screen and (min-width: 799px) {
 
 	.grid--two-columns,
-	.grid--four-columns {
+	.grid--four-columns,
+	.grid--five-columns {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
@@ -97,11 +104,19 @@
 	.column--span-4 {
 		grid-column: span 4;
 	}
+
+	.column--span-5 {
+		grid-column: span 5;
+	}
 }
 
 @media screen and (min-width: 1023px) {
 	.grid--four-columns {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid--five-columns {
+		grid-template-columns: repeat(5, 1fr);
 	}
 
 	.grid--eight-columns {
@@ -162,9 +177,3 @@
 .gap-none {
 	grid-gap: 0;
 }
-
-// save for now
-// 	.grid-col,
-// 	.sub-grid>div {
-// 		height: 100%;
-// 	}

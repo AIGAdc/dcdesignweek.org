@@ -37,9 +37,6 @@ self-guided-body: Take a break from our virtual lineup and get some fresh air by
   or no schedule, don’t worry — you can do these whenever you want.
 self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
-sponsors-header-1: "<span>Featured</span> <span>Events</span>"
-sponsors-header-2: "<span>Contributing</span> <span>Sponsors</span>"
 sponsors-button-label: See All Sponsors
-sponsors-button-url: "/about/#our-sponsors/"
+sponsors-button-url: "/about/#sponsors"
 ---
-

@@ -1,10 +1,10 @@
-<section class="section section__sponsors">
+<section id="sponsors" class="section section__sponsors">
 	<!-- tier 1 -->
 	<div class="grid grid--four-columns">
 		<div class="column column--span-2 flow-large">
 			<h2 class="column--span-70 flow-none"
 				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.2020-presenting-sponsors.tier-1-header }}
+				{{ site.2020-presenting-sponsors.header }}
 			</h2>
 			<div class="wysiwyg">
 				{{ site.2020-presenting-sponsors.body | markdownify }}
@@ -35,7 +35,11 @@
 				</figure>
 			</div>
 		</div>
-		<div class="column column--span-4">
+		<div class="column column--span-4 flow-large">
+			<h2 class="column--span-70 flow-none"
+				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ site.2020-presenting-sponsors.tier-1-header }}
+			</h2>
 			<div class="grid grid--two-columns">
 				{% for content in site.2020-presenting-sponsors.sponsor-tier-1 %}
 				<li class="card card--sponsors column--span-1">
@@ -82,12 +86,12 @@
 	</div>
 	{% if page.url == "/about/" %}
 	<!-- tier 3 -->
-	<div class="grid grid--four-columns flow-extra-large">
-		<div class="column column--span-4 flow-medium">
+	<div class="grid grid--five-columns flow-extra-large">
+		<div class="column column--span-5 flow-medium">
 			<h3 class="column--span-70 flow-none"
 				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.2020-presenting-sponsors.tier-3-header }}</h3>
-			<ul class="grid grid--four-columns margin-top-16">
+			<ul class="grid grid--five-columns margin-top-16">
 				{% for content in site.2020-presenting-sponsors.sponsor-tier-3 %}
 				<li class="card card--sponsors column--span-1">
 					<div class="card__aside">

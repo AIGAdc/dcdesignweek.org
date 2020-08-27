@@ -166,13 +166,14 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction">
 	<div class="grid grid--four-columns">
-		<div class="column column--span-2">
-			<h1 class="column--span-70"
-				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ content.header }}</h1>
-		</div>
-		<div class="column column--span-4">
-			<div class="column column--span-2 wysiwyg flow-medium">{{ content.body | markdownify }}</div>
+		<div class="column column--span-2 flow-medium">
+			<h1 class="column--span-70
+				id=" {{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}
+			</h1>
+			<div class="column column--span-2 flow-medium wysiwyg margin-top-32">
+				{{ content.body | markdownify }}
+			</div>
 		</div>
 		<div class="column column--span-2">
 			<div class="column--span-4">
