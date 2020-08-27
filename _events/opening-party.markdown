@@ -129,4 +129,4 @@ We can’t wait to see you, you won’t want to miss it!
 Little Salon curates one-of-a-kind experiences designed to give DCers a non-pretentious dose of the amazing creative talent that surrounds them and to strengthen our city through the power of art.
 
 **[Monterosa](https://www.monterosa.co/)**<br/>
-Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction] Cloud(https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
+Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction Cloud](https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
