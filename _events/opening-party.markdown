@@ -70,6 +70,18 @@ speakers:
     most recent release, Kinetic (2018). '
   website-label: Website
   website-url: http://www.boomscat.com/
+- name: Chris Flockton
+  pronouns: He | Him | His
+  title: actor, host, writer, and voiceover artist
+  bio: |-
+    As a performer, Chris was a member of New York's acclaimed Rumble in the RedRoom sketch comedy ensemble, and later wrote and performed with his own sketch comedy group, The Belgian Summers. On stage, he has appeared in roles both serious and comedic at regional theatres around the country, most recently in the 2019 off-Broadway premier of Only Yesterday, which was a New York Times Critics’ Pick.
+    In addition, Chris has appeared in featured roles in film and TV, including The Boondock Saints,  Law & Order SVU, and The Guiding Light, in dozens of TV commercials, and has worked extensively as a live host for large events around the world.
+
+    As a voiceover talent he has provided the voice for countless TV and radio spots, and from 2003-2015 and 120 episodes was the narrator of VH1’s top-rated show, The Fabulous Life.
+
+    Chris lives in Vermont with his family and 17 animals.
+  website-label: Website
+  website-url: http://chrisflockton.com/
 - name: Chris Maier
   pronouns: He | Him | His
   title: 
@@ -113,8 +125,8 @@ We can’t wait to see you, you won’t want to miss it!
 
 <br/>
 ## Event Partners
-**[Artemis Ward](https://artemisward.com/)**<br/>
-Artemis Ward is a digital creative agency proudly founded in Washington, D.C., where we support the local creative community by hosting Creative Mornings and Little Salon.
+**[Little Salon DC](http://littlesalondc.com/)**<br/>
+Little Salon curates one-of-a-kind experiences designed to give DCers a non-pretentious dose of the amazing creative talent that surrounds them and to strengthen our city through the power of art.
 
 **[Monterosa](https://www.monterosa.co/)**<br/>
-Monterosa / Interaction Cloud is the technology behind many of the world’s biggest interactive events, TV shows and sports. The Interaction Cloud is the most versatile, scalable platform of its kind,  regularly generating billions of interactions a year with our top-tier customers globally in entertainment and sport.
+Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction] Cloud(https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
