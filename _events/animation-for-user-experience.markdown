@@ -76,6 +76,7 @@ filter-type:
 filter-focus:
   is-motion: true
   is-skill-building: true
+  is-ui-ux: true
 ---
 
 Learn both the “why” and “how” of interface animation! Experts Kristen O’Callaghan and Dave Ellington will instruct workshop attendees on when and how to use motion to enhance user experiences. Kristen and Dave will demonstrate the tools and techniques for incorporating animation into a typical product/UX design workflow (access and familiarity with the tools is not required).
