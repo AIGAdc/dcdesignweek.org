@@ -7,8 +7,8 @@ image: "/uploads/event-Behind-the-Brand-With-January-Third.png"
 description: 'Get an exclusive look at the future of advertising agencies with one
   of DC’s newest studios: January Third.'
 event-date: 2020-09-24 08:00:00 -04:00
-start-time: 8:00 PM
-end-time: 9:00 PM
+start-time: 8:00 AM
+end-time: 9:00 AM
 image-alt: Photo of Maggie Winters Gaudaen with a dark background and a serious expression
   on her face.
 status:
