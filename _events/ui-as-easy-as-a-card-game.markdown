@@ -55,6 +55,7 @@ filter-type:
   is-talk-panel: true
 filter-focus:
   is-skill-building: true
+  is-ui-ux: true
 ---
 
 Evaluating UI may not be as easy as 1-2-3, but it can be as easy as a card game.
