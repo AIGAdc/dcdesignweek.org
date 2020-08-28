@@ -72,10 +72,10 @@ We’re not saying this is a “Drunk History” workshop… but maybe it is. Jo
 
 Andra runs the bar program at Seranata, co-founded DMV Black Restaurant Week, and is writing a book about the Black experience in hospitality — so she’s the perfect person to share the history of the Black bar culture in DC and educate us about the racial challenges in the hospitality industry. During the conversation, Andra will also teach us how to make three delicious new cocktails to add to our repertoire.
 
-Along with a ticket, you can purchase a cocktail kit that includes flavorings and mixers handcrafted by Andra.
+Along with a ticket, you can purchase a cocktail kit that includes all the ingredients and spirits you'll need, including flavorings and mixers handcrafted by Andra.
 
 ## About The Kits
-If you choose to buy the cocktail kits, make sure to register before September 13 to allow preparation time. A two-person cocktail kit is $50/kit and contains enough ingredients to make six cocktails. A single-person cocktail kit is $35/kit and has enough ingredients to make three cocktails. Each kit also includes black bean dip and chips (vegetarian, gluten-free, nut-free, and contains dairy).
+If you choose to buy the cocktail kits, make sure to register by September 13 to allow preparation time. A two-person cocktail kit is $50/kit and contains enough ingredients to make six cocktails. A single-person cocktail kit is $35/kit and has enough ingredients to make three cocktails. Each kit also includes black bean dip and chips (vegetarian, gluten-free, nut-free, and contains dairy).
 
 The cocktail kits will be ready to pick up on Wednesday, September 16, from 12:00 PM to 9:00 PM, at Serenata located inside of the La Cosecha Marketplace, 1280 4th St NE, Washington, DC 20002.
 
