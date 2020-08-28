@@ -52,6 +52,8 @@ filter-time:
 filter-type:
   is-talk-panel: true
 filter-focus:
+  is-skill-building: true
+  is-ui-ux: true
   is-skillbuilding: true
 ---
 
