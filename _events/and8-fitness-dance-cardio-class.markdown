@@ -5,9 +5,9 @@ styled-title: "<span>DCDW</span><span>x</span><span>and8</span><span>Fitness:</s
 image: "/uploads/event-and8-fitness.png"
 description: 'Get your best workout in 5, 6, 7, and8! And8 Fitness is a 45-minute
   dance cardio class. '
-event-date: 2020-09-19 11:00:00 -04:00
-start-time: 11:00 AM
-end-time: 12:00 PM
+event-date: 2020-09-21 18:30:00 -04:00
+start-time: 6:30 pm
+end-time: 7:30 pm
 image-alt: and8 fitness photo
 status:
   is-featured-on-home: false
@@ -17,10 +17,10 @@ status:
   is-limited-supply: false
 tickets:
   has-member-button: true
-  member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  member-button-url: https://www.and8fitness.com/and8-x-dcdw.html
   member-button-label: "$7  — Members"
   has-non-member-button: true
-  non-member-button-url: https://cdn2.sbnation.com/assets/4190099/InnocentOddballBeaver.gif
+  non-member-button-url: https://www.and8fitness.com/and8-x-dcdw.html
   non-member-button-label: "$7 — Non-Members"
 venue:
   name: Zoom
