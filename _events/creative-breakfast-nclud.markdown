@@ -59,6 +59,8 @@ filter-time:
   is-morning: true
 filter-type:
   is-creative-breakfast: true
+filter-focus:
+  is-ui-ux: true
 ---
 
 Hump day is the perfect day to get some creative inspiration!
