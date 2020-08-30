@@ -38,6 +38,10 @@
 	position: relative;
 }
 
+.events-layout .grid {
+	grid-gap: 80px 32px;
+}
+
 .grid--one-columns,
 .grid--two-columns,
 .grid--four-columns,
