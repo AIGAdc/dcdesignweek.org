@@ -12,49 +12,35 @@ introduction:
   header: "<span>Frequently</span> <span>asked</span> <span>questions</span>"
 faqs:
 - heading: How can I participate in DCDW 2020?
-  body: "> We've got options—traditional programming will be virtual, but we also offer
-    self-guided events. 
-    
-    
-    
-    
-    All virtual events will be streamed live via Zoom or Zoom
-    Webinar.
-    
-    
-    
-    
-    Each event is ticketed separately to ensure you aren’t paying for any
-    events you don’t want to attend. We’re also hosting a number of free self-guided
-    events that you can participate in based on your own schedule. 
-    
-    
-    
-    These are designed
-    to get you outside and away from your computer, safely exploring the city. (Please
-    wear a mask and socially distance!)"
+  body: |-
+    > We've got options—traditional programming will be virtual, but we also offer self-guided events.
+
+
+
+    All virtual events will be streamed live via Zoom or Zoom Webinar.
+
+
+
+    Each event is ticketed separately to ensure you aren’t paying for any events you don’t want to attend. We’re also hosting a number of free self-guided events that you can participate in based on your own schedule.
+
+
+    These are designed to get you outside and away from your computer, safely exploring the city. (Please wear a mask and socially distance!)
   trigger: question-1
   expanded: true
 - heading: What’s the best way for me to join to get the most out of my event?
-  body: We strongly recommend you join your Zoom session via your computer so you
-    can easily view the presenter and any visuals they may share. Download the Zoom
-    app ahead of time (it’s free!) to make joining your events as smoothly as possible.
-    
-    
-    
+  body: |-
+    We strongly recommend you join your Zoom session via your computer so you can easily view the presenter and any visuals they may share. Download the Zoom app ahead of time (it’s free!) to make joining your events as smoothly as possible.
+
+
     You can also join through your browser.
   trigger: question-2
   expanded: false
 - heading: How do I find the streaming link for the session I registered for?
-  body: Once you’ve registered for your event through Eventbrite, you will receive
-    an email with a link to the live stream. You will receive the link again shortly
-    before the event starts so it’s at the top of your inbox. 
-    
-    
-    
-    If you have any trouble
-    finding the Zoom link for your event, please contact us in the hour leading up
-    to the start time.
+  body: |-
+    Once you’ve registered for your event through Eventbrite, you will receive an email with a link to the live stream. You will receive the link again shortly before the event starts so it’s at the top of your inbox.
+
+
+    If you have any trouble finding the Zoom link for your event, please contact us in the hour leading up to the start time.
   trigger: question-3
   expanded: false
 - heading: I’m stuck in the waiting room — how do I get in?
@@ -74,20 +60,14 @@ faqs:
   trigger: question-5
   expanded: false
 - heading: What’s your refund policy?
-  body: We will honor refunds – no questions asked – up until 24 hours before your
-    event start time. 
-    
-    
-    
-    We will not honor refunds for technical difficulties unless
-    you reach out to us at the start of the event to see if we can help troubleshoot
-    your issue (we’ll likely ask to see what steps from Zoom’s guide you’ve tried
-    to start). 
-    
-    
-    
-    We will not offer refunds if you aren’t admitted from the waiting room
-    because your display name did not match our registration list.
+  body: |-
+    We will honor refunds – no questions asked – up until 24 hours before your event start time.
+
+
+    We will not honor refunds for technical difficulties unless you reach out to us at the start of the event to see if we can help troubleshoot your issue (we’ll likely ask to see what steps from Zoom’s guide you’ve tried to start).
+
+
+    We will not offer refunds if you aren’t admitted from the waiting room because your display name did not match our registration list.
   trigger: question-6
   expanded: false
 - heading: I need accommodation to participate fully — what do I do?
