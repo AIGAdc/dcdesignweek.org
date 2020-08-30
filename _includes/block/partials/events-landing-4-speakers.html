@@ -18,6 +18,11 @@
 						{{ speaker.title }}
 					</p>
 					{% endif %}
+					{% if speaker.pronouns %}
+					<p>
+						{{ speaker.pronouns }}
+					</p>
+					{% endif %}
 					<p>
 						{{ speaker.bio | markdownify }}
 					</p>
