@@ -155,6 +155,8 @@
 	margin-top: $spacing-8;
 }
 
+.wysiwyg>*+*,
+.wysiwyg>*,
 .flow-medium>*+*,
 .flow-medium>* {
 	margin-top: $spacing-16;
