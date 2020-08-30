@@ -107,11 +107,14 @@
 .card--event .card-date .date {
 	font-family: $brand-font-terminus;
 	text-transform: uppercase;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+	left: 8px;
 }
 
 .card--event .card-date {
 	margin-right: 32px;
-	padding: 16px;
 	padding-top: 24px;
 	padding-right: 24px;
 	position: relative;

@@ -47,7 +47,10 @@ speakers:
   title: Bar director of Serenata/Zumo concept and author of the forthcoming book
     White Plates, Black Faces
   bio: |-
-    Andra "AJ" Johnson got her start in the restaurant business at a local chain restaurant in Rockville, Maryland. She then headed to DC and became an accomplished barista and bartender, a general manager, an assistant general manager and beverage director, and a managing partner at several popular and fine dining restaurants in the DMV.</br>
+    Andra "AJ" Johnson got her start in the restaurant business at a local chain restaurant in Rockville, Maryland. She then headed to DC and became an accomplished barista and bartender, a general manager, an assistant general manager and beverage director, and a managing partner at several popular and fine dining restaurants in the DMV.
+
+
+    
     In 2018, Andra became a co-founder of DMV Black Restaurant Week. Andra is currently the bar director of Serenata/Zumo concept in La Cosecha, where she renews her commitment to providing exemplary service and thoughtful cocktails each day. Her forthcoming book, “White Plates, Black Faces,” continues her work telling the stories of people of color in the restaurant industry. Currently, she also heads up a cocktail pop up initiative called “Back to Black” that strives to raise funds to donate to overlooked and underfunded charities and organizations in the DC area.
   website-label: Instagram
   website-url: https://www.instagram.com/backtoblack_popup/
