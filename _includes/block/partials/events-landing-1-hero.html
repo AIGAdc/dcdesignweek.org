@@ -1,7 +1,6 @@
-<section class="[ section section__landing-hero ] [ spacing-0 ]" style="background-color: #000;">
+<section class="[ section section__landing-hero ] [ spacing-0 ] [ vignette-radial ]" style="background-image:url('{{ page.image }}'); background-position: center; background-repeat: repeat-x; background-size: contain; background-color: #000;">
 	<div class="[ grid ]">
-		<div class="[ grid-col grid-col--span-4 ] [ landing-hero__content ] [ vignette-radial ]"
-			style="background-image:url('{{ page.image }}');">
+		<div class="[ grid-col grid-col--span-4 ] [ landing-hero__content ]">
 			<div class="landing-hero__details">
 				<h1
 					id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }} " class="column--width-70">
@@ -24,7 +23,6 @@
 					{% endif %}
 				</div>
 			</div>
-			<div class="landing-hero__overlay spacing-0"></div>
 		</div>
 	</div>
 	{% if page.status.is-sold-out == true and page.status.sold-out-message %}
@@ -32,4 +30,5 @@
 		<p>{{ page.status.sold-out-message }}</p>
 	</div>
 	{% endif %}
+	<div class="landing-hero__overlay spacing-0"></div>
 </section>

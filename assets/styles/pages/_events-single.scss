@@ -96,6 +96,10 @@ ol {
 	color: $black;
 }
 
+.events-landing-layout h1 {
+	text-shadow: 1px 1px 1px black;
+}
+
 .events-landing-layout .site-header path {
 	fill: $black;
 }
@@ -123,6 +127,7 @@ ol {
 
 .events-landing-layout .section__landing-hero {
 	color: $white;
+	filter: grayscale(1);
 }
 
 .events-landing-layout .section__landing-hero h1 span:nth-child(2n+1),
@@ -203,7 +208,7 @@ ol {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0;
 }
 
 .events-landing-layout .site-footer {

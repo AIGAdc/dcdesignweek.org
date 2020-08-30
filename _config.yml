@@ -183,7 +183,7 @@ filter-focus:
   text-1: Diversity, Equity, Inclusion, and Accessibility
 - filter: ".motion"
   class: motion
-  text-1: Motion
+  text-1: Motion Track, by Duke and Duck
 - filter: ".skill-building"
   class: skill-building
   text-1: Skillbuilding
