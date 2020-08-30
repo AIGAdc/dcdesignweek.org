@@ -85,5 +85,4 @@ Speakers will provide:
 
 
 ## Event Partner & Sponsor
-**[Duke & Duck](https://www.dukeduck.com/)**
-Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.
+**[Duke & Duck](https://www.dukeduck.com/)** is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.
