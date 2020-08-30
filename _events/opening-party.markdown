@@ -28,9 +28,11 @@ venue:
   additional-header: Platform and Prerequisites
   additional-info: |-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
-
-    *Prerequisites*<br/>
-    The trivia portion for the event will be held on a separate URL, which will be shared during the event and can be accessed via computer or mobile/2nd screen. To participate fully, attendees should plan to have access to a second device for the trivia game.
+    
+    
+    
+    ### Prerequisites
+    We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the shared pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
 has-speakers: true
 speakers:
 - name: Alex and Olmsted
@@ -123,10 +125,10 @@ The best way to describe this is event is a house party and a games night all ro
 
 We can’t wait to see you, you won’t want to miss it!
 
-<br/>
+
 ## Event Partners
-**[Little Salon DC](http://littlesalondc.com/)**<br/>
+**[Little Salon DC](http://littlesalondc.com/)**
 Little Salon curates one-of-a-kind experiences designed to give DCers a non-pretentious dose of the amazing creative talent that surrounds them and to strengthen our city through the power of art.
 
-**[Monterosa](https://www.monterosa.co/)**<br/>
+**[Monterosa](https://www.monterosa.co/)**
 Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction Cloud](https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.

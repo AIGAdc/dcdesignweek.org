@@ -1,12 +1,12 @@
 {% if page.has-accessibility-notes == true %}
 <section class="section section--landing-content">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			<h2>
 				<span>Accessibility</span> <span>and</span> <span>Accommodations</span>
 			</h2>
 		</div>
-		<div class="grid-col grid-col--span-2">
+		<div class="column column--span-2">
 			{% for note in page.accessibility-notes %}
 			<div class="wysiwyg">
 				{{ note.note | markdownify }}

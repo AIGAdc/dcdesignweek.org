@@ -1,12 +1,12 @@
 {% if page.has-speakers == true %}
 <section class="section section--landing-content">
-	<div class="grid">
-		<div class="grid-col grid-col--span-4">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
 			<h2>
-				Speakers
+				<span>Speakers</span>
 			</h2>
 		</div>
-		<div class="grid-col grid-col--span-4 margin-top-32">
+		<div class="column column--span-4">
 			<div class="event-single__speakers-list">
 				{% for speaker in page.speakers %}
 				<div class="event-single__speaker event__speaker">

@@ -85,7 +85,7 @@ The workshop will be divided into two parts:
 * Part I: We’ll discuss the theory behind animation’s role in UX, explore the benefits motion can provide, and how we can use motion to our advantage as designers when developing a user flow.
 * Part II: The workshop will do a quick refresher of the principles of animation and a discussion on the tools available for prototyping. This discussion will cover the use of prototyping tools such as Principle, Figma, Adobe XD and Adobe After Effects and their respective benefits and drawbacks. This segment will conclude with a demonstration of using After Effects (in conjunction with Bodymovin) to create and export a custom hover state animation for a button.
 
-<br/>
+
 ## Event Partner & Sponsor
-**[Duke & Duck](https://www.dukeduck.com/)**<br/>
+**[Duke & Duck](https://www.dukeduck.com/)**
 Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.

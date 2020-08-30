@@ -1,17 +1,17 @@
 <section class="section section__faqs">
 	<div class="grid grid--four-columns">
 		<!-- parent grid -->
-		<div class="column column--span-2">
+		<div class="column column--span-3">
 			{% for content in page.introduction %}
 			{% if content.has-introduction == true %}
-			<h1 class="column--span-70"
+			<h1 class="column--span-90"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}
 			</h1>
 			{% endif %}
 			{% endfor %}
 		</div>
-		<div class="column column--span-2">
+		<div class="column column--span-1">
 			<div class="bubbles column--span-3">
 				<p>&nbsp;</p>
 			</div>

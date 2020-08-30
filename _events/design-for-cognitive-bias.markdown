@@ -57,13 +57,13 @@ filter-focus:
   is-skillbuilding: true
 ---
 
-Users take shortcuts to get through the day. (Don’t we all?) Usually, they’re harmless. Sometimes they’re helpful. But what happens when they’re not? 
+Users take shortcuts to get through the day. (Don’t we all?) Usually, they’re harmless. Sometimes they’re helpful. But what happens when they’re not?
 
 In this talk, David Thomas, creator and host of the Cognitive Bias Podcast, will use real-world examples to identify adverse biases that often lead users to make bad decisions. But not all is doom and gloom. We’ll discuss content strategy and design choices we can leverage in our apps, designs, and platforms to redirect or eliminate the impact of those biases. We’ll also explore our own biases as designers and some methods to prevent our own blind spots from hurting users — and have a chance to dig in on your questions.
 
 In addition to getting to join in for an exciting discussion, all participants will receive a code for a free digital copy of David’s newest book, *Design for Cognitive Bias* from DCDW sponsor **A Book Apart**, to help you put what you’ve learned into practice.
 
-<br/>
-<h2>Event Sponsor</h2>
-**[A Book Apart](https://abookapart.com/)**<br/>
+## Event Sponsor
+
+**[A Book Apart](https://abookapart.com/)**
 A Book Apart publishes detailed, meticulously edited examinations of single topics. Books come in two formats: Standards (100–150 pages, available in paperback and ebook) and Briefs (50–70 pages, available in ebook and print-on-demand). Both are the perfect size for topics ranging from technical to theory: responsive web design, Git, and JavaScript to content strategy, design principles, management, and more.

@@ -34,6 +34,10 @@ venue:
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+
+
+
 has-speakers: true
 speakers:
 - name: Katie Trayte
@@ -62,5 +66,5 @@ If you’re an illustrator or designer who dabbles, get ready to kick your portf
 Katie Trayte — a professional art director at a DC-based animation studio — will walk you through the process of creating assets for an animated project. Get ready to learn how she uses a client script to make creative choices, develop storyboard frames, and create animation-ready assets. This workshop is going to give you the basics and get you ready to start animating your work, so come ready to dive in, ask questions, and learn a new skill.
 
 ## Event Partner & Sponsor
-**[Duke & Duck](https://www.dukeduck.com/)**<br/>
+**[Duke & Duck](https://www.dukeduck.com/)**
 Duke & Duck is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.

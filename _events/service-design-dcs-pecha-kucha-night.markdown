@@ -36,6 +36,10 @@ venue:
     on our registration list will be admitted from the waiting room. You can find
     more about joining our virtual events, including how to connect, directions to
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+
+
+
 has-accessibility-notes: true
 filter-date:
   is-day-4: true
