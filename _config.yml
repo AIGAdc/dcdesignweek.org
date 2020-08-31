@@ -239,6 +239,16 @@ filter-status:
     image-alt: Nclud Logo
     website: https://nclud.com
     aria-label: Nclud Website
+  - title: Brand Sponsor
+    image: "/uploads/sponsors-contributing-verbit.svg"
+    image-alt: Verbit Logo
+    website: https://verbit.ai/
+    aria-label: Verbit Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsors-contributing-mosaic.png"
+    image-alt: Mosaic Logo
+    website: https://mosaic.buzz/
+    aria-label: Mosaic Website
   sponsor-tier-3:
   - title: 
     image: "/uploads/sponsors-supporting-aba.svg"

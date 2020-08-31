@@ -20,6 +20,7 @@
 	width: 100% !important;
 	display: flex !important;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .faqs-layout .houdini-toggle-icon::after {
@@ -48,4 +49,8 @@
 .faqs-layout .houdini-heading {
 	font-family: $brand-font-terminus;
 	line-height: 1.4;
+}
+
+.faqs-layout .houdini-toggle-icon img {
+	min-width: 16px;
 }

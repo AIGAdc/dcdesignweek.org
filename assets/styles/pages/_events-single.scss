@@ -96,8 +96,9 @@ ol {
 	color: $black;
 }
 
-.events-landing-layout h1 {
-	text-shadow: 1px 1px 1px black;
+.events-landing-layout .landing-hero__details h1,
+.events-landing-layout .landing-hero__details p {
+	text-shadow: 1px 1px 4px $black;
 }
 
 .events-landing-layout .site-header path {
@@ -248,6 +249,10 @@ ol {
 	font-weight: 400;
 	padding: $spacing-8;
 	width: 100%;
+}
+
+.events-landing-layout .asterisk {
+    color: $black !important;
 }
 
 .events-landing-layout .grid-col>*+* {
