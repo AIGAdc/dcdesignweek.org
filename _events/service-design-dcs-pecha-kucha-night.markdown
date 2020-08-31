@@ -20,10 +20,10 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-url: Service Design DC's Meetup link
+  member-button-url: https://www.meetup.com/ServiceDesignDC/events/272920680/
   member-button-label: Free — Members
   has-non-member-button: true
-  non-member-button-url: Service Design DC's Meetup link
+  non-member-button-url: https://www.meetup.com/ServiceDesignDC/events/272920680/
   non-member-button-label: Free — Non-Members
 venue:
   name: Zoom
