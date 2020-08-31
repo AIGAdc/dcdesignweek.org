@@ -123,10 +123,12 @@ Since 2014 Little Salon DC have gathered to curate an eclectic mix of poetry, mu
 
 The best way to describe this is event is a house party and a games night all rolled into a neat little package. This virtual event will be like no other! We’ll will introduce you to some of the DMV’s hottest hidden talents, showcasing snackable performances  from artists including DC based duo BOOMscat, bringing their one-of-a-kind flavor of R&B flavor, Charity Blackwell a spoken word artist, poet, emcee. Entrepreneur and bartender Frank Mills will be helping us conjure up a special cocktail for night. We’re also excited to be joined by and the acclaimed puppeteer company Alex and Olmsted.  Finally, if you like prizes (who doesn’t?) we’ll be testing your general knowledge of DC, Design, music and culture, with an interactive quiz, and giving you the chance to win big on the night if you’re the l person standing.
 
-We can’t wait to see you, you won’t want to miss it!
+We can’t wait to see you, you won’t want to miss it!  
 
+  
 
 ## Event Partners
+
 **[Little Salon DC](http://littlesalondc.com/)**
 Little Salon curates one-of-a-kind experiences designed to give DCers a non-pretentious dose of the amazing creative talent that surrounds them and to strengthen our city through the power of art.
 
