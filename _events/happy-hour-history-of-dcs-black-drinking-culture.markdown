@@ -49,7 +49,7 @@ speakers:
 
     In 2018, Andra became a co-founder of DMV Black Restaurant Week. Andra is currently the bar director of Serenata/Zumo concept in La Cosecha, where she renews her commitment to providing exemplary service and thoughtful cocktails each day. Her forthcoming book, “White Plates, Black Faces,” continues her work telling the stories of people of color in the restaurant industry. Currently, she also heads up a cocktail pop up initiative called “Back to Black” that strives to raise funds to donate to overlooked and underfunded charities and organizations in the DC area.
   website-label: Instagram
-  website-url: https://www.instagram.com/backtoblack_popup/
+  website-url: https://www.instagram.com/whiteplatesblackfaces/
 has-accessibility-notes: true
 accessibility-notes:
 - note: "All DCDW events will have real-time CART (live captioning) services. If you

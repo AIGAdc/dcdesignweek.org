@@ -6,7 +6,7 @@ image: "/uploads/event-Planning-Your-Career-in-2020.png"
 description: 'Join experienced career coaches for a conversation that will explore
   the current state of job searching and career planning. The hustle doesn’t stop
   (read: can’t stop) because of a pandemic, amiright?'
-event-date: 2020-09-20 12:00:00 -04:00
+event-date: 2020-09-21 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:00 PM
 image-alt: Photos of Bailey O’Connell and Amber Fields.
@@ -58,7 +58,7 @@ speakers:
   website-url: https://www.linkedin.com/company/black-ux-labs/
 has-accessibility-notes: true
 filter-date:
-  is-day-3: true
+  is-day-4: true
 filter-time:
   is-daytime: true
 filter-type:

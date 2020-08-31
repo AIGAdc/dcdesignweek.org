@@ -46,9 +46,9 @@ accessibility-notes:
 - note: Closed captioning will not be available for this class. We encourage anyone
     who is interested to follow along and self-modify as needed.
 filter-date:
-  is-day-2: true
+  is-day-4: true
 filter-time:
-  is-morning: true
+  is-evening: true
 filter-type:
   is-wellness: true
   is-partner-event: true
