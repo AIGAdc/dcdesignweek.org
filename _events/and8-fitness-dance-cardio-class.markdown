@@ -7,8 +7,8 @@ image: "/uploads/event-and8-fitness.png"
 description: 'Get your best workout in 5, 6, 7, and8! And8 Fitness is a 45-minute
   dance cardio class. '
 event-date: 2020-09-21 18:30:00 -04:00
-start-time: 6:30 pm
-end-time: 7:30 pm
+start-time: 6:30 PM
+end-time: 7:30 PM
 image-alt: and8 fitness photo
 status:
   is-featured-on-home: false
