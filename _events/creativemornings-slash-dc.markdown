@@ -46,4 +46,5 @@ filter-type:
 
 CreativeMornings will be partnering up with DCDW for the fourth year in a row! September’s theme is “Spectrum.” Similar to last year, three speakers will give a 30 second pitch on the main stage about the theme before a longer talk by a keynote speaker.
 
-Stay tuned for more info and ticket on-sale dates!
+**Stay tuned for more info and ticket on-sale dates!
+**
