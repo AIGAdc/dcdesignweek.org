@@ -19,9 +19,8 @@ status:
   has-occurred: false
 tickets:
   has-member-button: true
-  member-button-label: Free — Members
-  has-non-member-button: true
-  non-member-button-label: Free — Members
+  member-button-url: https://creativemornings.com/cities/dc
+  member-button-label: Learn More
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
