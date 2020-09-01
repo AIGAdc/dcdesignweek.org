@@ -12,7 +12,7 @@ end-time: 9:00 PM
 image-alt: Photo of a smoky party room.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  is-featured-on-events: true
   is-sold-out: false
   is-limited-supply: false
   has-occurred: false
