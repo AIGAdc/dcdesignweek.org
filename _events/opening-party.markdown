@@ -33,7 +33,7 @@ venue:
 
 
     ### Prerequisites
-    We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the shared pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
+    The trivia portion for the event will be held on a separate URL, which will be shared during the event and can be accessed via computer or mobile/2nd screen. To participate fully, attendees should plan to have access to a second device for the trivia game.
 has-speakers: true
 speakers:
 - name: Alex and Olmsted
