@@ -37,7 +37,7 @@ defaults:
       is-featured-on-events: 
       featured-event-message: Featured
       is-sold-out: 
-      sold-out-message: Sold Out
+      sold-out-message: Sold Out! Sold Out! Sold Out!
       is-limited-supply: 
       limited-supply-message: Limited Tickets
       has-occurred: 
