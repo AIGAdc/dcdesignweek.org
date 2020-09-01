@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/transforming-government-services-with-empathy-tickets-117861116773
-  non-member-button-label: "$5 — Non-Members"
+  non-member-button-label: "$5 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
