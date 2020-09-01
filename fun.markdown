@@ -1,8 +1,8 @@
 ---
 title: Fun
 permalink: "/fun/"
-has-hero: true
 published: false
+has-hero: true
 hero:
 - has-hero: true
   header: Home
