@@ -18,12 +18,12 @@ introduction:
     you need an accommodation, please contact us by email through the provided Google
     link below or by phone. We honor your privacy and no identifying information (i.e.
     your name) is required to request an accomodation.\n\n- [Request an accommodation
-    through this Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)\n\n- Email us at [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)\n\n-
-    Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504\n\n\n## What We're
-    Working On\n\n\nWe’re working hard behind the scenes to make sure our events are
-    as accessible and inclusiveas possible.\n\n- All of our events will have real
-    time CART services through [service name here]. Program leads must complete an
-    [event accessibility checklist](https://docs.google.com/spreadsheets/d/1shzlfnSArTG-DbloZYlX8OolOblKoBRh2fxzdQFjMIo/edit?usp=sharing)
+    through this Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)\n\n- Email us at
+    [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)\n\n- Call our Accessibility
+    Lead, Josh Kim, by phone at 571-302-1504\n\n\n## What We're Working On\n\n\nWe’re
+    working hard behind the scenes to make sure our events are as accessible and inclusiveas
+    possible.\n\n- All of our events will have real time CART services through [service
+    name here]. Program leads must complete an [event accessibility checklist](https://docs.google.com/spreadsheets/d/1shzlfnSArTG-DbloZYlX8OolOblKoBRh2fxzdQFjMIo/edit?usp=sharing)
     while planning every event.\n\n- Speakers who use slide presentations must complete
     a [presentation accessibility checklist](https://docs.google.com/spreadsheets/d/1lLG6J5kqcNqQxOHT7xRfPZSSyeN3FE8Dek-EFS8AyMY/edit?usp=sharing)
     based on [Allison Ravenhall’s article Inclusive Design For Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/).\n\n-
