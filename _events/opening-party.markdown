@@ -22,7 +22,7 @@ tickets:
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fkick-off-party-with-little-salon-dc%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: Free — Members
   has-non-member-button: true
-  non-member-button-url: https://www.eventbrite.com/e/kick-off-party-with-little-salon-dc-tickets-117854460865
+  non-member-button-url: https://www.eventbrite.com/e/opening-party-with-little-salon-dc-tickets-117854460865
   non-member-button-label: Free — Non-members
 venue:
   name: Zoom
