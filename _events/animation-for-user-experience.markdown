@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$20 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/animation-for-user-experience-tickets-118155114127
-  non-member-button-label: "$30 — Non-Members"
+  non-member-button-label: "$30 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
