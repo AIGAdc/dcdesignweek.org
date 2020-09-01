@@ -96,6 +96,13 @@ ol {
 	color: $black;
 }
 
+.events-landing-layout .section__landing-hero {
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-color: $black;
+}
+
 .events-landing-layout .landing-hero__details h1,
 .events-landing-layout .landing-hero__details p {
 	text-shadow: 1px 1px 4px $black;
@@ -141,7 +148,7 @@ ol {
 	object-fit: contain;
 	height: 100%;
 	width: 100%;
-	
+
 }
 
 
@@ -172,7 +179,7 @@ ol {
 	width: 100%;
 }
 
-.landing-hero__content a.button{
+.landing-hero__content a.button {
 	filter: none !important;
 }
 
@@ -200,6 +207,10 @@ ol {
 }
 
 @media screen and (min-width: 1023px) {
+	.events-landing-layout .section__landing-hero {
+		background-size: contain;
+	}
+
 	.landing-hero__content {
 		min-height: 65vh;
 		padding: 32px;
@@ -252,7 +263,7 @@ ol {
 }
 
 .events-landing-layout .asterisk {
-    color: $black !important;
+	color: $black !important;
 }
 
 .events-landing-layout .grid-col>*+* {
