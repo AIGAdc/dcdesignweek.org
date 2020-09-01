@@ -12,7 +12,9 @@ end-time: 9:00 PM
 image-alt: Photo of a smoky party room.
 status:
   is-featured-on-home: true
+  featured-home-message: Let’s boogie together, apart!
   is-featured-on-events: true
+  featured-event-message: Let’s boogie together, apart!
   is-sold-out: false
   is-limited-supply: false
   has-occurred: false
@@ -133,7 +135,7 @@ We can’t wait to see you, you won’t want to miss it!
 Little Salon curates one-of-a-kind experiences designed to give DCers a non-pretentious dose of the amazing creative talent that surrounds them and to strengthen our city through the power of art.
 
 **[Monterosa](https://www.monterosa.co/)**
-Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction Cloud](https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
+Monterosa is a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction Cloud](https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
 
 ## Event Sponsor: ICF Next
 [ICF Next](https://www.icf.com/next) is a global marketing agency based in Fairfax, VA continually creating now and next, through accelerated change beautifully delivered.

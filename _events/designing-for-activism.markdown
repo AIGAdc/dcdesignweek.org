@@ -12,7 +12,9 @@ end-time: 8:00 PM
 image-alt: Photo of men at a protest.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  featured-home-message: Inspire people and movements.
+  is-featured-on-events: true
+  featured-event-message: Inspire people and movements.
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false

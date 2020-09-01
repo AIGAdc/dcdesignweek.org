@@ -11,7 +11,9 @@ end-time: 8:00 PM
 image-alt: Black and white comic illustrations.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  featured-home-message: Creating diverse superheroes.
+  is-featured-on-events: true
+  featured-event-message: Creating diverse superheroes.
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
