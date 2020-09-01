@@ -19,10 +19,8 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://www.and8fitness.com/and8-x-dcdw.html
-  member-button-label: "$7  — Members"
-  has-non-member-button: true
-  non-member-button-url: https://www.and8fitness.com/and8-x-dcdw.html
-  non-member-button-label: "$7 — Non-Members"
+  member-button-label: "$7  — General Admission"
+  has-non-member-button: false
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
