@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$15 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/anti-racism-for-design-professionals-session-1-tickets-117846186115
-  non-member-button-label: "$20 — Non-Members"
+  non-member-button-label: "$20 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
