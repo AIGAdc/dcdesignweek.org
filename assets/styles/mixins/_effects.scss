@@ -1,0 +1,19 @@
+/* 
+shout outs to Una Kravets for writing this post on easily adding vignettes to images through CSS:
+https://una.im/vignettes/
+ */
+
+.vignette-radial {
+	position: relative;
+	display: block;
+}
+
+.vignette-radial:after {
+	background: radial-gradient(circle, transparent 0%, $black 100vw);
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}

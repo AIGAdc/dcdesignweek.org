@@ -1,0 +1,95 @@
+{% if page.url == "/" %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section hero hero--home">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
+			<video controls playsinline muted autoplay loop poster="/uploads/dcdw-home-hero-poster.jpg">
+				<source src="/uploads/dcdw-home-hero.mp4" type="video/mp4">
+				<source src="/uploads/dcdw-home-hero.webm" type="video/webm">
+				<source src="/uploads/dcdw-home-hero.ogg" type="video/ogg">
+				<track label="English" kind="subtitles" srclang="en" src="/uploads/dcdw-home-hero-captions.vtt">
+			</video>
+			<div class="playback-controls">
+				<p data-houdini-toggle="playback">Playback Speed</p>
+				<div data-houdini-group="playback-controls" id="playback">
+					<button class="playbackButton button-square button-square__border--white" id='0.8x'>0.8x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1x'>1.0x</button>
+					<button class="playbackButton button-square button-square__border--white" id='1.2x'>1.2x</button>
+				</div>
+			</div>
+			<script>
+				// playback speed accordion
+				var disclosure = new Houdini('[data-houdini-group]', {
+					isAccordion: true
+				});
+				// playback controls
+				const video = document.querySelector('video');
+				var playButton = document.getElementById("play-pause");
+				// Event listener for the play/pause button
+				playButton.addEventListener("click", function () {
+					if (video.paused == true) {
+						// Play the video
+						video.play();
+						// Update the button text to 'Pause'
+						playButton.innerHTML = "Pause";
+					} else {
+						// Pause the video
+						video.pause();
+						// Update the button text to 'Play'
+						playButton.innerHTML = "Play";
+					}
+				});
+				// playback speeds
+				document.onclick = (e) => {
+					if (e.target.id === '0.8x') {
+						video.playbackRate = 0.8;
+					}
+					if (e.target.id === '1x') {
+						video.playbackRate = 1;
+					}
+					if (e.target.id === '1.2x') {
+						video.playbackRate = 1.2;
+					}
+				}
+			</script>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+
+{% elsif page.url == "/makers/" %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section hero--makers">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
+			<figure>
+				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
+			</figure>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+
+{% elsif page.url == "/makers/directory" %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<div class="section hero--makers-directory">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
+			<figure>
+				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}">
+			</figure>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% endif %}

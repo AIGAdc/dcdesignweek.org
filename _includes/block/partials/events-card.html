@@ -1,0 +1,67 @@
+<li
+	class="[ card card--event ][ mix ][ {% if event.filter-date.is-day-1 == true %} day-1 {% endif %}{% if event.filter-date.is-day-2 == true %} day-2 {% endif %}{% if event.filter-date.is-day-3 == true %} day-3 {% endif %}{% if event.filter-date.is-day-4 == true %} day-4 {% endif %}{% if event.filter-date.is-day-5 == true %} day-5 {% endif %}{% if event.filter-date.is-day-6 == true %} day-6 {% endif %}{% if event.filter-date.is-day-7 == true %} day-7 {% endif %}{% if event.filter-date.is-day-8 == true %} day-8 {% endif %} ][ {% if event.filter-time.is-morning == true %} morning {% endif %}{% if event.filter-time.is-daytime == true %} daytime {% endif %}{% if event.filter-time.is-evening == true %} evening {% endif %} ][ {% if event.filter-type.is-talk-panel == true %} talk-panel {% endif %} {% if event.filter-type.is-creative-breakfast == true %} creative-breakfast {% endif %} {% if event.filter-type.is-party == true %} party {% endif %} ][ {% if event.filter-type.is-family-friendly == true %} family-friendly {% endif %}{% if event.filter-type.is-keynote == true %} keynote {% endif %}{% if event.filter-type.is-wellness == true %} wellness {% endif %}{% if event.filter-type.is-workshop == true %} workshop {% endif %}{% if event.filter-type.is-partner-events == true %} partner-events {% endif %}{% if event.filter-type.has-occurred == true %} past-event {% endif %} ][ {% if event.filter-focus.is-fun == true %} fun {% endif %}{% if event.filter-focus.is-deia == true %} deia {% endif %}{% if event.filter-focus.is-motion == true %} motion {% endif %}{% if event.filter-focus.is-skill-building == true %} skill-building {% endif %}{% if event.filter-focus.is-ui-ux == true %} ui-ux {% endif %} ][ {% if event.status.has-occurred == true %} past-event {% endif %}{% if event.status.is-sold-out == true %} sold-out {% endif %}{% if event.status.is-limited-supply == true %} limited-supply {% endif %}{% if event.status.is-featured-on-events == true %} featured {% endif %}]">
+
+	<div class="card__aside">
+		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
+			<figure class="card__image shadow-reverse shadow-reverse--green">
+				<img src="{{ event.image }}" alt="{{ event.image-alt }}" />
+				<div class="card__image-overlay spacing-0"></div>
+			</figure>
+		</a>
+		{% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ event.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.is-featured-on-home == true and event.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ event.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.is-sold-out == true and event.status.sold-out-message %}
+		<div class="ticker ticker--sold-out">
+			<p>{{ event.status.sold-out-message }}</p>
+		</div>
+		{% endif %}
+		{% if event.status.has-occurred == true and event.status.occurred-message %}
+		<div class="ticker ticker--occured">
+			<p>{{ event.status.occurred-message }}</p>
+		</div>
+		{% endif %}
+	</div>
+
+	<div class="card__header">
+		<a aria-label="{{ event.aria-label }}" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
+			<h3 class="card__title">{{ event.title }}</h3>
+		</a>
+	</div>
+	<div class="card-details">
+		<div class="card-date">
+			<p class="day">
+				{{ event.event-date | date: "%a"}}
+			</p>
+			<p class="date">
+				{{ event.event-date | date: "%m.%d"}}
+			</p>
+			<figure>
+				<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd"
+						d="M60.6389 11H12C5.92487 11 1 15.9249 1 22V72C1 78.0751 5.92487 83 12 83H62C68.0751 83 73 78.0751 73 72V23.3611H74V72C74 78.6274 68.6274 84 62 84H12C5.37258 84 0 78.6274 0 72V22C0 15.3726 5.37258 10 12 10H60.6389V11Z"
+						fill="white" />
+					<path fill-rule="evenodd" clip-rule="evenodd"
+						d="M73 0H74V9.29289L80.5711 2.72182L81.2782 3.42893L74.7071 10H84V11H74.7071L81.2782 17.5711L80.5711 18.2782L74 11.7071V21H73V11.7071L66.4289 18.2782L65.7218 17.5711L72.2929 11H63V10H72.2929L65.7218 3.42893L66.4289 2.72182L73 9.29289V0Z"
+						fill="white" />
+				</svg>
+
+			</figure>
+		</div>
+		<div class="card-info">
+			<p>
+				{{ event.start-time }}
+			</p>
+			<p>
+				{{ event.venue.name }}
+			</p>
+		</div>
+	</div>
+</li>

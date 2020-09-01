@@ -1,0 +1,230 @@
+.card {
+	@include flex-column;
+}
+
+.card>*+*,
+.card__body>*+* {
+	margin-top: $spacing-16;
+}
+
+.card h3 {
+	font-family: $brand-font-terminus;
+	text-transform: uppercase;
+}
+
+.card--event h3 {
+	font-family: "fk_groteskregular", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+}
+
+.card--event a {
+	text-decoration: none;
+}
+
+.card__aside {
+	position: relative;
+}
+
+.card__header a {
+	color: $white;
+	display: inline-block;
+}
+
+.card__header a:hover {
+	color: $green;
+}
+
+.card__image {
+	position: relative;
+}
+
+.card__link {
+	color: $green;
+	transition: -webkit-filter $timing-quick ease-in;
+	transition: color $timing-quick ease-in;
+	transition: color $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
+}
+
+.card__link:hover {
+	color: $green;
+}
+
+// specific cards 
+.card--committee {
+	text-align: center;
+}
+
+.card--committee .card__image img {
+	margin: auto;
+	max-width: 200px;
+}
+
+.card--past-editions .card__image,
+.card--sponsors .card__image,
+.card--makers .card__image {
+	border: solid 1px $white;
+}
+
+.card--event .card__image img,
+.card--past-editions .card__image img,
+.card--sponsors .card__image img {
+	transition: -webkit-filter $timing-quick ease-in;
+	transition: filter $timing-quick ease-in;
+	transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
+	@include grayscale;
+}
+
+.card--past-editions .card__image img {
+	height: 400px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+}
+
+.card--sponsors .card__image {
+	padding: $spacing-16;
+}
+
+.card--sponsors .card__image img {
+	-o-object-fit: contain;
+	object-fit: contain;
+	height: 200px;
+	max-width: 200px;
+	margin: auto;
+}
+
+.card--event .card__aside {
+	border: solid 1px $white;
+}
+
+.card--event .card__aside .ticker {
+	border-top: solid 1px $white;
+}
+
+.card--event .card-date .day,
+.card--event .card-date .date {
+	font-family: $brand-font-terminus;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+	left: 8px;
+}
+
+.card--event .card-date {
+	margin-right: 32px;
+	padding-top: 24px;
+	padding-right: 24px;
+	position: relative;
+}
+
+.card--event .card-date figure svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.card--event .card-details {
+	display: flex;
+	align-items: center;
+}
+
+.card--event .card-info {
+	font-family: $brand-font-fk-grotesk;
+	font-size: $font-size-16;
+}
+
+.card--event .card__image img:hover,
+.card--past-editions .card__image img:hover,
+.card--sponsors .card__image img:hover {
+	@include no-grayscale;
+}
+
+// TODO: Refactor Everything Below
+/* ticker */
+
+.ticker {
+	overflow: hidden;
+	padding: $spacing-4;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: solid 1px $white;
+}
+
+.ticker.ticker--occured {
+	background-color: $black;
+	color: $white;
+}
+
+.ticker.ticker--sold-out {
+	background-color: $green;
+	color: $black;
+}
+
+.ticker.ticker--featured {
+	background-color: $white;
+	color: $black;
+}
+
+.home-layout .ticker p,
+.events-layout .ticker p,
+.events-single-layout .ticker p {
+	display: inline-block;
+	font-family: $brand-font-terminus;
+	font-size: $font-size-14;
+	margin: 0;
+	text-align: left;
+	white-space: nowrap;
+	text-transform: uppercase;
+	transform: translateX(100%);
+	width: 100%;
+}
+
+.home-layout .ticker p,
+.events-layout .ticker p {
+	-webkit-animation: ticker 10000ms ease-in infinite;
+	animation: ticker 10000ms ease-in infinite;
+}
+
+.events-single-layout .ticker p {
+	-webkit-animation: ticker 20000ms ease-in infinite;
+	animation: ticker 20000ms ease-in infinite;
+}
+
+@media screen and (min-width: 1023px) {
+	.card--committee .card__image img {
+		max-height: 280px;
+	}
+}
+
+/* Move it (define the animation) */
+@-webkit-keyframes ticker {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+
+	100% {
+		-webkit-transform: translateX(-100%);
+	}
+}
+
+@keyframes ticker {
+	0% {
+		/* Firefox bug fix */
+		/* Firefox bug fix */
+		transform: translateX(100%);
+	}
+
+	100% {
+		/* Firefox bug fix */
+		/* Firefox bug fix */
+		transform: translateX(-100%);
+	}
+}

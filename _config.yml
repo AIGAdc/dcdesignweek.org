@@ -2,8 +2,8 @@
 title: DC Design Week 2020
 timezone: America/New_York
 collections:
-  events-dcdw:
-    title: Events - DCDW
+  events:
+    title: Events
     output: true
     permalink: "/events/:title/"
   posts:
@@ -16,52 +16,63 @@ defaults:
 - scope:
     path: ''
   values:
+    styled-title: 
     image: "/uploads/og-image.jpg"
     description: DC Design Week is a celebration of creatives, thinkers, and makers
       in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
       Join us!
 - scope:
     path: ''
-    type: posts
+    type: events
   values:
+    event-date: 
+    start-time: 
+    end-time: 
+    image: 
+    image-alt: 
     description: 
     status:
-      is-coming-soon: 
-      coming-soon-message: 
-      is-sold-out: 
-      sold-out-message: 
-      is-featured-on-events: 
       is-featured-on-home: 
-      featured-event-message: 
-    event:
-      date: 
-      image: 
-      image-alt: 
-      start-time: 
-      end-time: 
-      has-external-url: false
-      external-url: 
-      has-speakers: 
+      featured-home-message: Featured
+      is-featured-on-events: 
+      featured-event-message: Featured
+      is-sold-out: 
+      sold-out-message: Sold Out! Sold Out! Sold Out!
+      is-limited-supply: 
+      limited-supply-message: Limited Tickets
+      has-occurred: 
+      occurred-message: 
     tickets:
       has-member-button: 
       member-button-url: 
       member-button-label: 
-      member-button-is-disabled: 
       has-non-member-button: 
       non-member-button-url: 
       non-member-button-label: 
-      non-member-button-is-disabled: 
     venue:
-      is-tbd: 
       name: 
-      address: 
-      directions: 
+      info: 
+      additional-header: 
+      additional-info: 
+    has-speakers: 
     speakers:
     - name: 
+      pronouns: 
       title: 
       bio: 
       website-label: 
       website-url: 
+    has-accessibility-notes: 
+    accessibility-notes:
+    - note: |-
+        All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+        * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+        * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+        * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+
+
+
+        You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
     filter-date:
       is-day-1: 
       is-day-2: 
@@ -74,68 +85,64 @@ defaults:
     filter-time:
       is-morning: 
       is-daytime: 
-      is-evening: markdown
-      is-screening: 
-      is-party: 
+      is-evening: 
+    filter-type:
+      is-creative-breakfast: 
       is-family-friendly: 
-      is-creative-lunch: 
-      is-wellness: 
+      is-keynote: 
+      is-partner-events: 
+      is-party: 
       is-workshop: 
-    filter-location:
-      is-dc: 
-      is-md: 
-      is-va: 
-    layout: events-single
-filter-date:
+      is-talk-panel: 
+    filter-focus:
+      is-fun: 
+      is-deia: 
+      is-motion: 
+      is-skill-building: 
+      is-ui-ux: 
+    layout: events-landing
+filter-day:
 - filter: ".day-1"
   class: day-1
   text-1: Fri
-  text-2: Sept
-  text-3: 20
+  text-3: 18
   has-occurred: false
 - filter: ".day-2"
   class: day-2
   text-1: Sat
-  text-2: Sept
-  text-3: 21
+  text-3: 19
   has-occurred: false
 - filter: ".day-3"
   class: day-3
   text-1: Sun
-  text-2: Sept
-  text-3: 22
+  text-3: 20
   has-occurred: false
 - filter: ".day-4"
   class: day-4
   text-1: Mon
-  text-2: Sept
-  text-3: 23
+  text-3: 21
   has-occurred: false
 - filter: ".day-5"
   class: day-5
   text-1: Tue
-  text-2: Sept
-  text-3: 24
+  text-3: 22
   has-occurred: false
 - filter: ".day-6"
   class: day-6
   text-1: Wed
-  text-2: Sept
-  text-3: 25
+  text-3: 23
   has-occurred: false
 - filter: ".day-7"
   class: day-7
   text-1: Thu
-  text-2: Sept
-  text-3: 26
+  text-3: 24
   has-occurred: false
 - filter: ".day-8"
   class: day-8
   text-1: Fri
-  text-2: Sept
-  text-3: 27
+  text-3: 25
   has-occurred: false
-filter-time-of-day:
+filter-time:
 - filter: ".morning"
   class: morning
   text-1: Morning
@@ -145,38 +152,44 @@ filter-time-of-day:
 - filter: ".evening"
   class: evening
   text-1: Evening
-filter-event-type:
-- filter: ".creative-lunch"
-  class: creative-lunch
-  text-1: Creative Lunch
+filter-type:
+- filter: ".creative-breakfast"
+  class: creative-breakfast
+  text-1: Creative Breakfast
 - filter: ".family-friendly"
   class: family-friendly
   text-1: Family Friendly
 - filter: ".party"
   class: party
   text-1: Party
-- filter: ".screening"
-  class: screening
-  text-1: Screening
-- filter: ".talk"
-  class: talk
-  text-1: Talk
-- filter: ".wellness"
-  class: wellness
-  text-1: Wellness
+- filter: ".keynote"
+  class: keynote
+  text-1: Keynote
+- filter: ".talk-panel"
+  class: talk-panel
+  text-1: Talk/Panel
+- filter: ".partner-events"
+  class: partner-events
+  text-1: Partner Events
 - filter: ".workshop"
   class: workshop
   text-1: Workshop
-filter-location:
-- filter: ".dc"
-  class: dc
-  text-1: DC
-- filter: ".md"
-  class: md
-  text-1: MD
-- filter: ".va"
-  class: va
-  text-1: VA
+filter-focus:
+- filter: ".fun"
+  class: fun
+  text-1: Fun
+- filter: ".deia"
+  class: deia
+  text-1: Diversity, Equity, Inclusion, and Accessibility
+- filter: ".motion"
+  class: motion
+  text-1: Motion Track, by Duke and Duck
+- filter: ".skill-building"
+  class: skill-building
+  text-1: Skillbuilding
+- filter: ".ui-ux"
+  class: ui-ux
+  text-1: UI/UX
 filter-sold-out:
 - filter: ".sold-out"
   class: sold-out
@@ -186,22 +199,82 @@ filter-status:
   class: featured
   text-1: Show Featured
 2020-presenting-sponsors:
-  header: "<span>Our</span> <span>sponsors</span>"
+  header: "<span>Sponsors</span> <span>and</span> <span>Partners</span>"
+  tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
+  tier-2-header: "<span>Contributing Sponsors</span>"
+  tier-3-header: "<span>Supporting Sponsors</span>"
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
   image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
-  sponsor-list:
+  sponsor-tier-1:
   - title: Brand Sponsor
     image: "/uploads/sponsor-january-third.svg"
     image-alt: January Third Logo
     website: https://www.januarythird.co/
     aria-label: January Third Website
-  - title: Motion Sponsor
+  - title: Motion Partner
     image: "/uploads/sponsor-duke-and-the-duck.svg"
     image-alt: Duke & Duck Logo
     website: https://www.dukeduck.com/
     aria-label: Duke & Duck Website
+  sponsor-tier-2:
+  - title: Brand Sponsor
+    image: "/uploads/sponsors-contributing-artemisward.svg"
+    image-alt: Artemis Ward Logo
+    website: https://artemisward.com
+    aria-label: Artemis Ward Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsors-contributing-icf.svg"
+    image-alt: ICF Logo
+    website: https://www.icf.com/next
+    aria-label: ICF Website
+  - title: Brand Sponsor
+    image: "/uploads/sponsors-contributing-monterosa.png"
+    image-alt: Monterosa Logo
+    website: https://www.monterosa.co
+    aria-label: Monterosa Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsors-contributing-nclud.svg"
+    image-alt: Nclud Logo
+    website: https://nclud.com
+    aria-label: Nclud Website
+  - title: Brand Sponsor
+    image: "/uploads/sponsors-contributing-verbit.svg"
+    image-alt: Verbit Logo
+    website: https://verbit.ai/
+    aria-label: Verbit Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsors-contributing-mosaic.png"
+    image-alt: Mosaic Logo
+    website: https://mosaic.buzz/
+    aria-label: Mosaic Website
+  sponsor-tier-3:
+  - title: 
+    image: "/uploads/sponsors-supporting-aba.svg"
+    image-alt: ABA Logo
+    website: https://abookapart.com/
+    aria-label: ABA Website
+  - title: 
+    image: "/uploads/sponsors-supporting-mapbox.png"
+    image-alt: Mapbox Logo
+    website: https://www.mapbox.com
+    aria-label: Mapbox Website
+  - title: 
+    image: "/uploads/sponsors-supporting-basecamp.png"
+    image-alt: Basecamp Logo
+    website: https://www.basecampdc.com/
+    aria-label: Basecamp Website
+  - title: 
+    image: "/uploads/sponsors-supporting-booz.svg"
+    image-alt: Booz Allen Hamilton Logo
+    website: https://www.boozallen.com
+    aria-label: Booz Allen Hamilton Website
+  - title: 
+    image: "/uploads/sponsors-supporting-URL.png"
+    image-alt: URL Logo
+    website: https://www.dukeduck.com/
+    aria-label: URL Website
 2020-contributing-sponsors:
 - title: 
   image: 
@@ -490,6 +563,7 @@ filter-status:
   website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
   website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-1: Chelsea Wilson's LinkedIn
+2020-makers: 
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -500,12 +574,15 @@ navigation-placeholder:
 - url: https://2019.dcdesignweek.org
   label: 2019
 navigation-teaser:
+- url: "/events/"
+  label: Events
+  aria-label: Events Page
 - url: "/about/"
   label: About
   aria-label: About Page
-- url: "/makers/"
-  label: Makers
-  aria-label: Makers Page
+- url: "/faqs/"
+  label: FAQs
+  aria-label: FAQs Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
@@ -533,6 +610,28 @@ partner:
     in partnering with DC Design Week this year, let us know. \n"
   button-url: mailto:designweek@dc.aiga.org
   button-label: Reach Out
+self-guided:
+  header: "<span>Lorem</span> <span>Ipsum</span>"
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
+    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
+  button-url: "/events/self-guided/"
+  button-label: See Self-Guided Events
+makers:
+  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span>
+    <span>Directory</span>"
+  body: We’re all about celebrating the DMV’s creative voices — so what better way
+    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
+    Shop this year, but we’ve got the next best thing. Check out our virtual directory
+    for all your fall shopping needs.
+  button-url: "/makers/"
+  button-label: Explore Local Artists
+faqs:
+  header: "<span>FAQs</span>"
+  body: DC Design Week looks different this year, so you might have questions. Maybe
+    it’s how to find the streaming link or how to get the most out of our remote events.
+    We’ve got answers to those and more.
+  button-url: "/faqs/"
+  button-label: Learn More
 past-events:
   header: "<span>2019</span> <span>Event</span> <span>Highlights</span>"
   body: 
@@ -572,6 +671,45 @@ past-editions:
     image: "/uploads/dcdw-2019-pattern.jpg"
     url: https://2019.dcdesignweek.org
     aria-label: 2019 DC Design Week Website
+2020-makers-filter: 
+2020-giphys-black:
+- embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/TGLkYqn6tNAF8zy9TP" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-d8otCsVsddqFy70jDI">Black
+    Text Version</a><a href="https://giphy.com/gifs/dcdesignweek-transparent-TGLkYqn6tNAF8zy9TP">,
+    via GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/SqB5MtqSG6kCpmYGei" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-SqB5MtqSG6kCpmYGei">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/iddW7Zn6mk3Zv0M1I6" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-iddW7Zn6mk3Zv0M1I6">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/fvwnTI4L7s7vKamVzS" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-fvwnTI4L7s7vKamVzS">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/hunPeIBMltBLd4SZkf" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-hunPeIBMltBLd4SZkf">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/UVeL2FgPnhMlrzkDqO" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-UVeL2FgPnhMlrzkDqO">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/YR2bDAEFBhbozqNaOa" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-YR2bDAEFBhbozqNaOa">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/RGXgAyJn16ZWqoogKe" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-f8narwXOxYmeUHHoHN">Black
+    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-RGXgAyJn16ZWqoogKe">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/XEyuJXCyCIgEgWuMNd" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-eM7lNIneokJ2Ztiu37">Black
+    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-XEyuJXCyCIgEgWuMNd">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+- embed: <iframe src="https://giphy.com/embed/KB7Zafsby9vThy17du" width="480" height="480"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-RJgZBdJdza1hAP9tY5">Black
+    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-KB7Zafsby9vThy17du">via
+    GIPHY <i class="fas fa-external-link-square"></i></a></p>
 volunteer:
   header: <span>Made</span> <span>with</span> <span class="made-in-dc-heart"><svg
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5
@@ -589,7 +727,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: 
+baseurl: ''
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
@@ -637,5 +775,4 @@ plugins:
 sass:
   sass_dir: "/assets/styles/"
   style: compressed
-source: "./source/"
 destination: "./build/"

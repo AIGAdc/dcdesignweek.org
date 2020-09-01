@@ -1,0 +1,69 @@
+.button {
+	@include button-inline-block;
+	padding: $spacing-8 $spacing-16;
+
+	&__solid--black {
+		background-color: $black;
+		color: $white;
+	}
+
+	&__border--black {
+		border-color: $black;
+		color: $black;
+	}
+
+	&__link--black {
+		color: $black;
+	}
+
+	&__solid--white {
+		background-color: $white;
+		color: $black;
+	}
+
+	&__border--white {
+		border-color: $white;
+		color: $white;
+	}
+
+	&__link--white {
+		color: $white;
+	}
+}
+
+.button-square {
+	@include button-inline-block;
+	padding: $spacing-8;
+
+	&__solid--black {
+		background-color: $black;
+		color: $white;
+	}
+
+	&__border--black {
+		border-color: $black;
+		color: $black;
+	}
+
+	&__link--black {
+		color: $black;
+	}
+
+	&__solid--white {
+		background-color: $white;
+		color: $black;
+	}
+
+	&__border--white {
+		border-color: $white;
+		color: $white;
+	}
+
+	&__link--white {
+		color: $white;
+	}
+}
+
+.button-square:hover {
+	color: $green;
+}
