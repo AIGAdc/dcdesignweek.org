@@ -75,3 +75,6 @@ If you aren’t following Tracie Ching and Robert “Robzilla” Generette III, 
 Tracie’s been commissioned to make portraits of everyone from Elizabeth Warren and Captain Marvel to Lin Manuel Miranda and Baby Yoda. Robzilla’s been doing work for ESPN, the Golden State Warriors, and the Philadelphia 76ers, all while taking on projects with Adobe and giving back to our local community.
 
 What we’re saying is they’re a big deal. We’re thrilled these two local legends are joining DCDW for a keynote. Over 90 minutes, Tracie and Rob will go in-depth on their approach for creative work, explore how they use the same tools in radically different ways, and share how the District has inspired — and continues to inspire — their work. If you’ve wanted to see how complex and unique illustrations come to life or want to see how to develop your own styles, you won’t want to miss this (heck, why would anyone miss this??).
+
+## Event Sponsor: ICF Next
+[ICF Next](https://www.icf.com/next) is a global marketing agency based in Fairfax, VA continually creating now and next, through accelerated change beautifully delivered.
