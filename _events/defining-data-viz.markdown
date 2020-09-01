@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$30 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/defining-data-viz-tickets-117845255331
-  non-member-button-label: "$45 — Non-Members"
+  non-member-button-label: "$45 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
