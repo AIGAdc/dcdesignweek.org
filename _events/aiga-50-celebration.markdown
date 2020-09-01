@@ -27,7 +27,7 @@ venue:
     on our registration list will be admitted from the waiting room. [You can find
     more about joining our virtual events, including how to connect, directions to
     troubleshoot, and information about our refund policy in our FAQ.](/faqs)
-has-speakers: true
+has-speakers: false
 has-accessibility-notes: true
 filter-date:
   is-day-8: true
@@ -46,3 +46,5 @@ Submissions poured in from across the DMV region and we are honored to close out
 Join our six AIGA 50 judges as they sit down with some select winners — including our inaugural student winners — to reveal the nitty gritty about their process and lessons-learned. Plus, you’ll hear directly from a special winner — someone who won TWO judge’s choice awards and the Design for Good Award. There’ll be plenty of time for Q+A, so you can learn everything you want about the latest design trends how award-winning work gets done.
 
 You won’t want to miss this celebration of our region’s creative past, present and future!
+
+Want to learn more before the event? [Check out the prompt for this year's AIGA 50 and learn more about the judges you'll be hearing from here!](https://www.aiga50dc.org/)
