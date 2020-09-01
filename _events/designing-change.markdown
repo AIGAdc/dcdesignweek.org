@@ -13,7 +13,9 @@ image-alt: Photos of moderator Maurice Cherry and speakers Earl Gray, Elaine Lop
   Marlene Marmolejos, and Jacinda Walker.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  featured-home-message: It starts with you. Yes, you!
+  is-featured-on-events: true
+  featured-event-message: It starts with you. Yes, you!
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
