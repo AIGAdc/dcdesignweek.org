@@ -22,7 +22,7 @@ tickets:
   member-button-label: Free — Member Registration
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/sketch-with-anthony-jackson-tickets-117854565177
-  non-member-button-label: Free — Non-member Registration
+  non-member-button-label: Free — Non-member Registration (On Sale 9/3)
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
