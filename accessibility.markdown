@@ -18,7 +18,7 @@ introduction:
     you need an accommodation, please contact us by email through the provided Google
     link below or by phone. We honor your privacy and no identifying information (i.e.
     your name) is required to request an accomodation.\n\n- [Request an accommodation
-    through this Google Form](#)\n\n- Email us at [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)\n\n-
+    through this Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)\n\n- Email us at [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)\n\n-
     Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504\n\n\n## What We're
     Working On\n\n\nWe’re working hard behind the scenes to make sure our events are
     as accessible and inclusiveas possible.\n\n- All of our events will have real
