@@ -2,6 +2,7 @@
 title: Makers
 permalink: "/makers/"
 layout: makers
+published: false
 hero:
 - has-hero: true
   header: 
