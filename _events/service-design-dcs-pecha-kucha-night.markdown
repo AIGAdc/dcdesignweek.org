@@ -21,10 +21,8 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://www.meetup.com/ServiceDesignDC/events/272920680/
-  member-button-label: Free — Members
-  has-non-member-button: true
-  non-member-button-url: https://www.meetup.com/ServiceDesignDC/events/272920680/
-  non-member-button-label: Free — Non-Members
+  member-button-label: Free — Register Here
+  has-non-member-button: false
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites

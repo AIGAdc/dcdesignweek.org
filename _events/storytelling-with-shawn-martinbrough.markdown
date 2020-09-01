@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/storytelling-with-shawn-martinbrough-tickets-117860874047
-  non-member-button-label: "$5 — Non-members"
+  non-member-button-label: "$5 — Non-members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
@@ -66,3 +66,6 @@ Get ready to meet Shawn Martinbrough, the renowned illustrator and artist who he
 Did we mention he’s doing all this from the DMV?
 
 In this keynote, Shawn will share what it’s like to work in the comics industry drawing these legends and explore the importance of diversity and representation both in pop culture and in the industries that produce the content we consume. 
+
+## Event Sponsor: ICF Next
+[ICF Next](https://www.icf.com/next) is a global marketing agency based in Fairfax, VA continually creating now and next, through accelerated change beautifully delivered.

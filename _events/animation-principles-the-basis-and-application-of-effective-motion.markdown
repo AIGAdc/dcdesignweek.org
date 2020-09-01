@@ -23,14 +23,15 @@ tickets:
   member-button-label: "$30 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/animation-principles-the-basis-and-application-of-effective-motion-tickets-117841827077
-  non-member-button-label: "$45 — Non-Members"
+  non-member-button-label: "$45 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    In order to follow along with the speakers in editing the template After Effects file, participants will need a laptop or desktop computer with Adobe After Effects installed. No previous experience with After Effects is necessary to get the most out of this event.
-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    ### Prerequisites
+    In order to follow along with the speakers in editing the template After Effects file, participants will need a laptop or desktop computer with Adobe After Effects installed. No previous experience with After Effects is necessary to get the most out of this event.
 has-speakers: true
 speakers:
 - name: Robert Kramer
@@ -80,9 +81,13 @@ Get ready to make some moves and learn about the 12 principles of animation with
 Initial project files will be distributed to participants. The project files will contain an initial setup that participants can edit along with the presenters if they so choose.
 
 Speakers will provide:
+
 * Illustrator and After Effects projects beforehand for the demos
+
 * A handout with helpful keyboard shortcuts, expressions, and the list of continued learning resources
 
+In order to follow along with the speakers in editing the template After Effects file, participants will need a laptop or desktop computer with Adobe After Effects installed. No previous experience with After Effects is necessary to get the most out of this event.
 
 ## Event Partner & Sponsor
+
 **[Duke & Duck](https://www.dukeduck.com/)** is a DC-based creative agency with a passion for story-telling and a specialty in animation and motion graphics. Since 2009, we've worked with many organizations in DC and beyond to help them reach their audience and make the world a better place.

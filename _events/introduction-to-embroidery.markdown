@@ -22,23 +22,15 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/introduction-to-embroidery-tickets-117854288349
-  non-member-button-label: "$15 — Non-Members"
+  non-member-button-label: "$15 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
-  additional-info: "Make sure you’re fully stocked on thread and supplies before the
-    event kicks off! Here’s a list of supplies you’ll need:\n* A plain T-shirt (new/used)\n*
-    Sewing needle\n* Floss (DMC 6 Strand Cotton Floss recommended, patterns and colors
-    will provide later)\n* Water or heat soluble fabric pen (use it to draw patterns
-    on t-shirts) \n* Hand embroidery hoop (optional, but it makes stitching on fabric
-    easier) \n* Scissors\n\nThis event will be streamed via Zoom. In order to participate
-    fully, attendees should plan to join on the Zoom app via their computer, tablet,
-    or mobile device with enough bandwidth to support viewing video. In order to ensure
-    only those who have registered for the event are able to attend — and to create
-    space for intimate conversations — only those whose display name fully matches
-    the name on our registration list will be admitted from the waiting room. You
-    can find more about joining our virtual events, including how to connect, directions
-    to troubleshoot, and information about our refund policy in our [FAQ](/faqs/)."
+  additional-info: |-
+    This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    ### Prerequisites
+    No experience is necessary, but make sure you're fully stocked ahead of time — see above for a shopping list of everything you need!
 has-speakers: true
 speakers:
 - name: 'Jo (Xuejiao) Zhu '
@@ -76,4 +68,10 @@ It’s Crafternoon: Time to get your stitch on.
 
 This is a hands-on, beginner-friendly workshop led by designer and illustrator, Jo Zhu. Learn how to interpret images through embroidery and practice applying stitches and textures to create illustrative compositions. No previous experience is necessary — and families are encouraged to attend. This will be a fun and creative way to spend the afternoon!
 
-Make sure you’re well stocked ahead of time — see below for a list of supplies to make sure you pick up or have on hand!
+Make sure you’re fully stocked on thread and supplies before the event kicks off! Here’s a list of supplies you’ll need:
+* A plain T-shirt (new/used)
+* Sewing needle
+* Floss (DMC 6 Strand Cotton Floss recommended, patterns and colors will provide later)
+* Water or heat soluble fabric pen (use it to draw patterns on t-shirts) 
+* Hand embroidery hoop (optional, but it makes stitching on fabric easier) 
+* Scissors

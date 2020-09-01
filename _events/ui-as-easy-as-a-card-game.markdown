@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$10 — Members (Includes Card Set)"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/ui-as-easy-as-a-card-game-tickets-117860222097
-  non-member-button-label: "$15 — Non-members (Includes Card Set)"
+  non-member-button-label: "$15 — Non-members (Includes Card Set) (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform

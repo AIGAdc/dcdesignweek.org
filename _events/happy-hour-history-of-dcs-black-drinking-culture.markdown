@@ -82,6 +82,6 @@ If you choose to buy the cocktail kits, make sure to register by September 13 to
 
 The cocktail kits will be ready to pick up on Wednesday, September 16, from 12:00 PM to 9:00 PM, at Serenata located inside of the La Cosecha Marketplace, 1280 4th St NE, Washington, DC 20002.
 
-Shipping is not available but delivery can be placed through [Skip the Line](www.skipthelineus.com). Cost is determined by mileage traveled by drivers. Delivery is scheduled and will come at the day and time you request.
+Shipping is not available but delivery can be placed through [Skip the Line](http://www.skipthelineus.com). Cost is determined by mileage traveled by drivers. Delivery is scheduled and will come at the day and time you request.
 
 If you choose not to buy the cocktail kits, the event tickets are available for purchase until they are sold out or up until the start of the event, whichever comes first.

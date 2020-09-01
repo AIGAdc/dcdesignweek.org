@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/chocolate-city-the-history-of-dcs-urban-design-tickets-117846555219
-  non-member-button-label: "$10 — Non-members"
+  non-member-button-label: "$10 — Non-members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites

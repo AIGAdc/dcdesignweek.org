@@ -25,14 +25,15 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/dcdw-x-different-strokes-with-tracie-ching-robzilla-tickets-117844916317
-  non-member-button-label: "$5 — Non-members"
+  non-member-button-label: "$5 — Non-members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    No special tools are needed to participate fully in this event, but you may want to have Illustrator open or your iPad with Adobe Fresco or Procreate handy — just in case inspiration strikes!
-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    ### Prerequisites
+    No special tools are needed to participate fully in this event, but you may want to have Illustrator open or your iPad with Adobe Fresco or Procreate handy — just in case inspiration strikes!
 has-speakers: true
 speakers:
 - name: Tracie Ching
@@ -75,3 +76,6 @@ If you aren’t following Tracie Ching and Robert “Robzilla” Generette III, 
 Tracie’s been commissioned to make portraits of everyone from Elizabeth Warren and Captain Marvel to Lin Manuel Miranda and Baby Yoda. Robzilla’s been doing work for ESPN, the Golden State Warriors, and the Philadelphia 76ers, all while taking on projects with Adobe and giving back to our local community.
 
 What we’re saying is they’re a big deal. We’re thrilled these two local legends are joining DCDW for a keynote. Over 90 minutes, Tracie and Rob will go in-depth on their approach for creative work, explore how they use the same tools in radically different ways, and share how the District has inspired — and continues to inspire — their work. If you’ve wanted to see how complex and unique illustrations come to life or want to see how to develop your own styles, you won’t want to miss this (heck, why would anyone miss this??).
+
+## Event Sponsor: ICF Next
+[ICF Next](https://www.icf.com/next) is a global marketing agency based in Fairfax, VA continually creating now and next, through accelerated change beautifully delivered.

@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/zine-for-change-tickets-117862047557
-  non-member-button-label: "$10 — Non-Members"
+  non-member-button-label: "$10 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites

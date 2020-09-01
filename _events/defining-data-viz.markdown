@@ -23,14 +23,15 @@ tickets:
   member-button-label: "$30 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/defining-data-viz-tickets-117845255331
-  non-member-button-label: "$45 — Non-Members"
+  non-member-button-label: "$45 — Non-Members (On Sale 9/3)"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
   additional-info: |-
-    The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
-
     This event will be streamed via Zoom. In order to participate fully, attendees should plan to join on the Zoom app via their computer, tablet, or mobile device with enough bandwidth to support viewing video. In order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations — only those whose display name fully matches the name on our registration list will be admitted from the waiting room. You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
+
+    ### Prerequisites
+    The workshop will be designed for beginners to be able to participate. The instructor will share a data set that participants can open in Excel or Google Sheets. The instructor will screen share and use [Flourish](https://flourish.studio/) for the chart demo. Participants can follow along at home with the free version of Flourish by signing up with their email.
 has-speakers: true
 speakers:
 - name: Christina Animashaun
@@ -68,3 +69,5 @@ In this workshop – which is perfect for beginners – you will learn how:
 And more!
 
 Don’t worry if you’re new to data viz or have lots of questions! This workshop, led by Christina Animashaun from Vox, is designed to be highly engaging and interactive — there will be plenty of opportunities to ask questions and chat with your peers.
+
+The workshop will be designed for beginners to be able to participate. Christina will share a data set that participants can open in Excel or Google Sheets. See below for additional details and prerequisites.

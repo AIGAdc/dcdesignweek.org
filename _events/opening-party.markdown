@@ -12,16 +12,17 @@ end-time: 9:00 PM
 image-alt: Photo of a smoky party room.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  is-featured-on-events: true
   is-sold-out: false
   is-limited-supply: false
   has-occurred: false
+  occurred-message: You Missed Out!
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fkick-off-party-with-little-salon-dc%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: Free — Members
   has-non-member-button: true
-  non-member-button-url: https://www.eventbrite.com/e/kick-off-party-with-little-salon-dc-tickets-117854460865
+  non-member-button-url: https://www.eventbrite.com/e/opening-party-with-little-salon-dc-tickets-117854460865
   non-member-button-label: Free — Non-members
 venue:
   name: Zoom
@@ -32,7 +33,7 @@ venue:
 
 
     ### Prerequisites
-    We want participants to actively participate in the conversation and come in wanting to think, reflect, and share. Please be sure to read the shared pre-reading. While not required, we strongly encourage participants to attend with their video “on” in order to create a more intimate space for conversation.
+    The trivia portion for the event will be held on a separate URL, which will be shared during the event and can be accessed via computer or mobile/2nd screen. To participate fully, attendees should plan to have access to a second device for the trivia game.
 has-speakers: true
 speakers:
 - name: Alex and Olmsted
@@ -124,7 +125,6 @@ Since 2014 Little Salon DC have gathered to curate an eclectic mix of poetry, mu
 The best way to describe this is event is a house party and a games night all rolled into a neat little package. This virtual event will be like no other! We’ll will introduce you to some of the DMV’s hottest hidden talents, showcasing snackable performances  from artists including DC based duo BOOMscat, bringing their one-of-a-kind flavor of R&B flavor, Charity Blackwell a spoken word artist, poet, emcee. Entrepreneur and bartender Frank Mills will be helping us conjure up a special cocktail for night. We’re also excited to be joined by and the acclaimed puppeteer company Alex and Olmsted.  Finally, if you like prizes (who doesn’t?) we’ll be testing your general knowledge of DC, Design, music and culture, with an interactive quiz, and giving you the chance to win big on the night if you’re the l person standing.
 
 We can’t wait to see you, you won’t want to miss it!  
-
   
 
 ## Event Partners
@@ -134,3 +134,6 @@ Little Salon curates one-of-a-kind experiences designed to give DCers a non-pret
 
 **[Monterosa](https://www.monterosa.co/)**
 Monterosais a technology company which helps organisations create interactive experiences for massive audiences. Our platform, [Monterosa / Interaction Cloud](https://www.monterosa.co/interactioncloud), is the technology behind many of the world’s biggest interactive events, TV shows and sports, in use by household-name brands including Love Island, Nickelodeon, Vodafone, EA Sports and Liverpool Football Club.
+
+## Event Sponsor: ICF Next
+[ICF Next](https://www.icf.com/next) is a global marketing agency based in Fairfax, VA continually creating now and next, through accelerated change beautifully delivered.
