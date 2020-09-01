@@ -15,7 +15,7 @@ tickets:
   member-button-label: Free — Member Registration
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/aiga-50-celebration-tickets-118852146971
-  non-member-button-label: Free — Nonmember Registration
+  non-member-button-label: Free — Non-member Registration
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
