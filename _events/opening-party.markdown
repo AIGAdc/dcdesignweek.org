@@ -13,8 +13,8 @@ image-alt: Photo of a smoky party room.
 status:
   is-featured-on-home: true
   is-featured-on-events: true
-  is-sold-out: true
-  is-limited-supply: false
+  is-sold-out: false
+  is-limited-supply: true
   has-occurred: false
 tickets:
   has-member-button: true
