@@ -15,7 +15,7 @@ status:
   is-featured-on-events: true
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
   occurred-message: You Missed Out!
 tickets:
   has-member-button: true
