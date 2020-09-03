@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/behind-the-brand-with-january-third-tickets-117846763843
-  non-member-button-label: "$5 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$5 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites

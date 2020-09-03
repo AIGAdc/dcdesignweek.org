@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$5  — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-breakfast-artemis-ward-tickets-117844966467
-  non-member-button-label: "$5 — Non-Members (On Sale 9/3)"
+  non-member-button-label: "$5 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites

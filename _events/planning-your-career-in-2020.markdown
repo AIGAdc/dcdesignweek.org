@@ -23,7 +23,7 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/planning-your-career-in-2020-tickets-117857235163
-  non-member-button-label: "$10 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform

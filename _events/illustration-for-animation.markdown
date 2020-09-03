@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$20 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/illustration-for-animation-tickets-117851120875
-  non-member-button-label: "$30 — Non-Members (On Sale 9/3)"
+  non-member-button-label: "$30 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
