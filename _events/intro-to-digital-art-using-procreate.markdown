@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$10  — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/intro-to-digital-art-using-procreate-tickets-117856811897
-  non-member-button-label: "$15 — Non-Members (On Sale 9/3)"
+  non-member-button-label: "$15 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
