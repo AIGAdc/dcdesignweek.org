@@ -26,7 +26,7 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/designing-change-how-to-advocate-for-diversity-in-the-dc-design-space-tickets-117848176067
-  non-member-button-label: "$15 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
