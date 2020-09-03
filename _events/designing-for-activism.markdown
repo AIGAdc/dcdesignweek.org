@@ -25,7 +25,7 @@ tickets:
   member-button-label: "$10 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/designing-for-activism-tickets-117849742753
-  non-member-button-label: "$10 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
