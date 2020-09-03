@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$15 — Members (includes e-book)"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/design-for-cognitive-bias-tickets-117847945377
-  non-member-button-label: "$15 — Non-members (includes e-book) (On Sale 9/3)"
+  non-member-button-label: "$15 — Non-members (includes e-book)"
 venue:
   name: Zoom
   additional-header: Platforms and Prerequisites
