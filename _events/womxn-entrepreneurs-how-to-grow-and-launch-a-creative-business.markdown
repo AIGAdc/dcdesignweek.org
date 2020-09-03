@@ -24,7 +24,7 @@ tickets:
   member-button-label: "$10  — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/womxn-entrepreneurs-how-to-grow-and-launch-a-creative-business-tickets-117860250181
-  non-member-button-label: "$15 — Non-Members (On Sale 9/3)"
+  non-member-button-label: "$15 — Non-Members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
