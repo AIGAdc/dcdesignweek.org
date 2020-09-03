@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/creative-breakfast-nclud-tickets-117847347589?utm_source=eventbrite&utm_medium=email&utm_campaign=post_old_publish&utm_content=shortLinkViewMyEvent
-  non-member-button-label: "$5 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$5 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
