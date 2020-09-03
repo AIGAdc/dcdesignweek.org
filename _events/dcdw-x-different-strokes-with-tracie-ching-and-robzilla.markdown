@@ -25,7 +25,7 @@ tickets:
   member-button-label: "$5 — Members"
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/dcdw-x-different-strokes-with-tracie-ching-robzilla-tickets-117844916317
-  non-member-button-label: "$5 — Non-members (On Sale 9/3)"
+  non-member-button-label: "$5 — Non-members"
 venue:
   name: Zoom
   additional-header: Platform and Prerequisites
