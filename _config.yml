@@ -249,6 +249,16 @@ filter-status:
     image-alt: Mosaic Logo
     website: https://mosaic.buzz/
     aria-label: Mosaic Website
+  - title: Brand Sponsor
+    image: "/uploads/sponsors-contributing-nava.png"
+    image-alt: Nava Logo
+    website: https://www.navapbc.com
+    aria-label: Nava Website
+  - title: Motion Sponsor
+    image: "/uploads/sponsors-contributing-dcux.png"
+    image-alt: DCUX Logo
+    website: http://dcux.org
+    aria-label: DCUX Website
   sponsor-tier-3:
   - title: 
     image: "/uploads/sponsors-supporting-aba.svg"
@@ -345,8 +355,8 @@ filter-status:
   image-alt: Danni Baker's Portrait
   name: Danni Baker
   role: Program Lead
-  website-url-1: https://www.instagram.com/visionarydanni5/
-  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-url-1: https://www.dannibakerdesign.com/
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
   website-aria-label-1: Danni Baker's Instagram
   website-url-2: https://www.linkedin.com/in/dannibaker/
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
