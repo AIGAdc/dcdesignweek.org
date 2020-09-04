@@ -81,8 +81,7 @@ speakers:
     graphics and animation. She created the brand Motion Mami with her partner, Frandiego,
     to create spaces where women of color are empowered on the screen and behind the
     scene. She’s worked with globally recognized brands including Amazon, BET, RocNation
-    as well as with established artists like Major Lazor, Alicia Keys, Ceraadi and
-    is also a senior motion designer at Wayfair.
+    as well as with established artists like Major Lazor, Alicia Keys, and Ceraadi.
   website-label: Website
   website-url: http://motionmami.com/
 - name: Jacinda Walker
