@@ -7,7 +7,7 @@ description: Join this panel for insights on why diversity in photography matter
   — not just for the image, but for the entire industry.
 event-date: 2020-09-23 19:00:00 -04:00
 start-time: 7:00 PM
-end-time: 8:00 PM
+end-time: 8:30 PM
 image-alt: Photos of speakers Yodith Dammlash, Dana Scruggs, Jared Soares, and Gary
   Williams.
 status:
