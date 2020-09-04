@@ -46,24 +46,24 @@ speakers:
     2016. She specializes in portrait, documentary, commercial, and archival photography. '
   website-label: Website
   website-url: http://www.yodithd.com
-- name: Dana Scruggs
+- name: Danielle Scruggs
   pronouns: She | Her | Hers
   title: Photographer
-  bio: 'Originally from the Southside of Chicago, Dana Scruggs has been living and
-    working in New York for the past 7 years. In 2016 she launched SCRUGGS Magazine,
+  bio: 'Originally from the Southside of Chicago, Danielle Scruggs has been living
+    and working in New York for the past 7 years. In 2016 she launched SCRUGGS Magazine,
     a print publication dedicated to her vision of the male form. The magazine was
     a way for her to create editorial and creative content because none of the magazines
     that she approached would hire her. She wrote and photographed all of the content
     herself and the seminal issue became more akin to her visual diary and personal
     manifesto. In the spring of  2018, after self assigning for almost six years -
-    Dana was offered the opportunity to shoot ESPN''s Body Issue, which was her first
-    major breakthrough in the industry.  Synonymously Dana then became the first Black
-    female photographer to shoot an athlete for The Body Issue in its 10-year history.
-    Dana broke down even more barriers when, in November of 2018,  she became the
-    first Black Person to photograph the cover of Rolling Stone Magazine in its 50-year
-    history. '
+    Danielle was offered the opportunity to shoot ESPN''s Body Issue, which was her
+    first major breakthrough in the industry.  Synonymously Danielle then became the
+    first Black female photographer to shoot an athlete for The Body Issue in its
+    10-year history. Danielle broke down even more barriers when, in November of 2018,  she
+    became the first Black Person to photograph the cover of Rolling Stone Magazine
+    in its 50-year history. '
   website-label: Website
-  website-url: http://www.danascruggs.com
+  website-url: https://daniellescruggs.com/
 - name: Jared Soares
   pronouns: He | Him | His
   title: Photographer
