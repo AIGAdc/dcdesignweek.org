@@ -1,5 +1,17 @@
+.wrapper {
+	padding: $spacing-16;
+}
+
+@media screen and (min-width: 399px) {}
+
+@media screen and (min-width: 639px) {
+	.wrapper {
+		padding: $spacing-16 $spacing-32;
+	}
+}
+
 .section {
-	padding: $spacing-80 $spacing-32;
+	padding: $spacing-80 $spacing-16;
 	position: relative;
 }
 
@@ -25,6 +37,16 @@
 .section__volunteers svg {
 	fill: $white;
 	max-width: 40px;
+}
+
+.flex {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-justify-between {
+	justify-content: space-between;
 }
 
 .grid {
