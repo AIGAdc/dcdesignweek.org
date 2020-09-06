@@ -20,6 +20,12 @@
 	border-top: solid 1px $white;
 }
 
+@media screen and (min-width: 639px) {
+	.section {
+		padding: $spacing-80 $spacing-32;
+	}
+}
+
 @media screen and (min-width: 1023px) {
 	.section {
 		padding-bottom: $spacing-120;
