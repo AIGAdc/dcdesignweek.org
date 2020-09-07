@@ -3,7 +3,7 @@ title: Behind the Brand with January Third
 date: 2020-08-22 13:09:00 -04:00
 styled-title: "<span>Behind</span><span>the</span><span>Brand</span><span>with</span><span>January
   Third</span>"
-image: "/uploads/event-Behind-the-Brand-With-January-Third.png"
+image: "/uploads/JANUARY-THIRD-IMGAE-ONLY.png"
 description: 'Get an exclusive look at the future of advertising agencies with one
   of DC’s newest studios: January Third.'
 event-date: 2020-09-24 08:00:00 -04:00
