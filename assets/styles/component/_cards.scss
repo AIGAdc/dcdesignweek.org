@@ -83,16 +83,17 @@
 	width: 100%;
 }
 
-.card--sponsors .card__image {
-	padding: $spacing-16;
-}
-
-.card--sponsors .card__image img {
+.card--sponsors .card__image img,
+.card--sponsors-tier-3 .card__image img {
 	-o-object-fit: contain;
 	object-fit: contain;
 	height: 200px;
 	max-width: 200px;
 	margin: auto;
+}
+
+.card--sponsors-tier-3 .card__image img {
+	max-width: 150px;
 }
 
 .card--event .card__aside {
