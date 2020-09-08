@@ -1,6 +1,7 @@
 .bubbles {
 	position: relative;
 	z-index: $index-3;
+	display: none;
 }
 
 .bubble-group-event-introduction-about,
@@ -76,9 +77,9 @@
 	}
 
 	.bubble-group-event-introduction-about {
-		top: -750px;
+		top: -300px;
 		right: -250px;
-		width: 750px;
+		width: 600px;
 	}
 
 	.bubble-group-introduction-about {
@@ -128,7 +129,6 @@
 
 @media screen and (min-width: 1279px) {
 	.bubble-group-event-introduction-about {
-		top: -750px;
 		right: 0;
 		width: 750px;
 	}

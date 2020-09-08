@@ -120,11 +120,11 @@ filter-focus:
   is-fun: true
 ---
 
-Join us the launch of DC Design Week 2020. This year we’re partnering with with Little Salon DC for an evening of music, trivia, spoken word and much more.
+Join us for the launch of DC Design Week 2020. This year we’re partnering with with Little Salon DC for an evening of music, trivia, spoken word and much more.
 
-Since 2014 Little Salon DC have gathered to curate an eclectic mix of poetry, music, art, performance, stories, and even free food and booze.
+Since 2014, Little Salon DC has gathered to curate an eclectic mix of poetry, music, art, performance, stories, and even free food and booze.
 
-The best way to describe this is event is a house party and a games night all rolled into a neat little package. This virtual event will be like no other! We’ll will introduce you to some of the DMV’s hottest hidden talents, showcasing snackable performances  from artists including DC based duo BOOMscat, bringing their one-of-a-kind flavor of R&B flavor, Charity Blackwell a spoken word artist, poet, emcee. Entrepreneur and bartender Frank Mills will be helping us conjure up a special cocktail for night. We’re also excited to be joined by and the acclaimed puppeteer company Alex and Olmsted.  Finally, if you like prizes (who doesn’t?) we’ll be testing your general knowledge of DC, Design, music and culture, with an interactive quiz, and giving you the chance to win big on the night if you’re the last person standing.
+The best way to describe this is event is a house party and a games night all rolled into a neat little package. This virtual event will be like no other! We’ll will introduce you to some of the DMV’s hottest hidden talents, showcasing snackable performances  from artists including DC based duo BOOMscat, bringing their one-of-a-kind flavor of R&B, and Charity Blackwell, a spoken word artist, poet, emcee. Entrepreneur and bartender Frank Mills will be helping us conjure up a special cocktail for the night. We’re also excited to be joined by and the acclaimed puppeteer company Alex and Olmsted.  Finally, if you like prizes (who doesn’t?) we’ll be testing your general knowledge of DC, Design, music and culture, with an interactive quiz, and giving you the chance to win big on the night if you’re the last person standing.
 
 We can’t wait to see you, you won’t want to miss it!  
   

@@ -1,11 +1,29 @@
+.wrapper {
+	padding: $spacing-16;
+}
+
+@media screen and (min-width: 399px) {}
+
+@media screen and (min-width: 639px) {
+	.wrapper {
+		padding: $spacing-16 $spacing-32;
+	}
+}
+
 .section {
-	padding: $spacing-80 $spacing-32;
+	padding: $spacing-80 $spacing-16;
 	position: relative;
 }
 
 // apply border to all elements with .section except for the first
 .section:not(:first-of-type) {
 	border-top: solid 1px $white;
+}
+
+@media screen and (min-width: 639px) {
+	.section {
+		padding: $spacing-80 $spacing-32;
+	}
 }
 
 @media screen and (min-width: 1023px) {
@@ -25,6 +43,16 @@
 .section__volunteers svg {
 	fill: $white;
 	max-width: 40px;
+}
+
+.flex {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-justify-between {
+	justify-content: space-between;
 }
 
 .grid {

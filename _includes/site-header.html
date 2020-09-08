@@ -1,5 +1,5 @@
 <header class="site-header">
-	<div class="container">
+	<div class="flex flex-justify-between wrapper">
 		<a aria-label="DCDW Logo and link to home page" href="/" class="site-header__logo">
 			<svg width="39" height="44" viewBox="0 0 39 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path
@@ -24,8 +24,8 @@
 			<ul class="links">
 				{% for link in site.navigation-teaser %}
 				<li class="link">
-					<a aria-label="{{ link.aria-label }}" class="button-square button-square__link button-square__link--white"
-						href="{{ link.url }}">
+					<a aria-label="{{ link.aria-label }}"
+						class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
 						{{ link.label }}
 					</a>
 				</li>

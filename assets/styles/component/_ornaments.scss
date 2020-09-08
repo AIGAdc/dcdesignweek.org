@@ -65,10 +65,6 @@
 	padding-right: $spacing-4;
 }
 
-.ornaments>figure:not(:first-child) {
-	margin-top: $spacing-16;
-}
-
 @media screen and (min-width: 1023px) {
 	.ornaments {
 		display: block;

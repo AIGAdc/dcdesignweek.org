@@ -2,7 +2,7 @@
 title: Diversity Behind the Lens
 date: 2020-08-22 14:19:00 -04:00
 styled-title: "<span>Diversity</span> <span>Behind</span> <span>the</span> <span>Lens</span>"
-image: "/uploads/event-diversity-behind-the-lens-5f49bf.png"
+image: "/uploads/event-diversity-behind-the-lens-244269.png"
 description: Join this panel for insights on why diversity in photography matters
   — not just for the image, but for the entire industry.
 event-date: 2020-09-23 19:00:00 -04:00

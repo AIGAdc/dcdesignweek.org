@@ -10,11 +10,7 @@
 				{{ site.2020-presenting-sponsors.body | markdownify }}
 			</div>
 		</div>
-		<div class="column column--span-2 column--hide flow-large">
-			<div>
-				<img class="bubble-group-sponsors" aria-hidden="true" src="{{ site.2020-presenting-sponsors.image-1 }}"
-					alt="{{ site.2020-presenting-sponsors.image-1-alt }}">
-			</div>
+		<div class="column column--span-2 column--hide">
 			<div class="ornaments">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +38,8 @@
 					<div class="card__header">
 						<h3 class="card__title"
 							id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-							{{ content.title }}</h3>
+							{{ content.title }}
+						</h3>
 					</div>
 					<div class="card__aside">
 						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
@@ -89,7 +86,7 @@
 				{{ site.2020-presenting-sponsors.tier-3-header }}</h3>
 			<ul class="grid grid--five-columns margin-top-16">
 				{% for content in site.2020-presenting-sponsors.sponsor-tier-3 %}
-				<li class="card card--sponsors column--span-1">
+				<li class="card card--sponsors card--sponsors-tier-3 column--span-1">
 					<div class="card__aside">
 						<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank"
 							rel="noopener noferrer">

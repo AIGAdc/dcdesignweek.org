@@ -19,16 +19,7 @@
 }
 
 .hero--home {
-	// max-height: 640px;
-	padding: $spacing-60 $spacing-32 !important;
-}
-
-.hero--home video {
-	width: 100%;
-	-o-object-position: center;
-	object-position: center;
-	-o-object-fit: contain;
-	object-fit: contain;
+	padding: $spacing-16 !important;
 }
 
 .hero--home video {
@@ -48,6 +39,18 @@
 @media (min-width: 639px) and (min-height: 700px) {
 	.hero--home video {
 		height: 580px;
+	}
+}
+
+@media screen and (min-width: 399px) {
+	.hero--home {
+		padding: $spacing-60 $spacing-16 !important;
+	}
+}
+
+@media screen and (min-width: 639px) {
+	.hero--home {
+		padding: $spacing-60 $spacing-32 !important;
 	}
 }
 
