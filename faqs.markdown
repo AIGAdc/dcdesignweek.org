@@ -80,6 +80,13 @@ faqs:
     Accessibility Lead, Josh Kim, by phone at 571-302-1504 "
   trigger: question-7
   expanded: false
+- heading: Will events be recorded?
+  body: 'Many events will be recorded, but it will be up to the speakers if they wish
+    them to be released after the event. While we hope to share many, we can’t guarantee
+    that a particular event will be available to stream. We would discourage buying
+    a ticket in hopes of a recording being shared after the fact. '
+  trigger: question-9
+  expanded: false
 - heading: When I buy a ticket, where is my money going?
   body: |-
     We know that this year presents unexpected and difficult economic hardship for many of us. We don’t want cost to be a barrier for entry for anyone, so we’ve tried to make our programming as affordable as possible.
@@ -93,13 +100,6 @@ faqs:
 
     If the ticket cost is a barrier for you, please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org) and we will offer discounted or free entry, no questions asked.
   trigger: question-8
-  expanded: false
-- heading: Will events be recorded?
-  body: 'Many events will be recorded, but it will be up to the speakers if they wish
-    them to be released after the event. While we hope to share many, we can’t guarantee
-    that a particular event will be available to stream. We would discourage buying
-    a ticket in hopes of a recording being shared after the fact. '
-  trigger: question-9
   expanded: false
 layout: faqs
 ---
