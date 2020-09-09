@@ -1,7 +1,6 @@
 ---
 title: FAQs
 permalink: "/faqs/"
-layout: faqs
 hero:
 - has-hero: true
   header: FAQs
@@ -95,5 +94,13 @@ faqs:
     If the ticket cost is a barrier for you, please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org) and we will offer discounted or free entry, no questions asked.
   trigger: question-8
   expanded: false
+- heading: Will events be recorded?
+  body: 'Many events will be recorded, but it will be up to the speakers if they wish
+    them to be released after the event. While we hope to share many, we can’t guarantee
+    that a particular event will be available to stream. We would discourage buying
+    a ticket in hopes of a recording being shared after the fact. '
+  trigger: question-9
+  expanded: false
+layout: faqs
 ---
 
