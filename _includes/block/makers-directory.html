@@ -29,10 +29,10 @@
 				</div>
 			</form>
 		</div>
-
+		{% comment %}
 		<div class="column column--span-3">
 			<ul class="grid grid--three-columns container mixitup-container">
-				{% assign sorted_makers = site.2020-makers | sort: "name"  %}
+				{% assign sorted_makers = site.data.makers.2020-makers | sort: "name"  %}
 				{% for maker in sorted_makers %}
 				<li class="card card--makers mix
 				{% if maker.type.is-art-prints == true %} art-prints {% endif %}
@@ -48,6 +48,7 @@
 				{% endfor %}
 			</ul>
 		</div>
+		{% endcomment %}
 	</div>
 </section>
 
