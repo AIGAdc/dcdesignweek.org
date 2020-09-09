@@ -1,5 +1,5 @@
 ---
-title: 'Inside Look at #PaintTheStorefronts'
+title: 'Inside Look at #PaintTheStorefronts with Busboys and Poets'
 date: 2020-08-22 14:08:00 -04:00
 styled-title: "<span>Inside</span><span>Look</span><span>at</span><span>#PaintTheStorefronts</span>"
 image: "/uploads/event-PaintTheStorefronts.png"
