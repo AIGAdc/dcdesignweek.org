@@ -102,8 +102,8 @@ defaults:
   tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
   tier-2-header: "<span>Contributing Sponsors</span>"
   tier-3-header: "<span>Supporting Sponsors</span>"
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support.
+  body: 'DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support. '
   image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
   sponsor-tier-1:
@@ -633,7 +633,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: ''
+baseurl: 
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
