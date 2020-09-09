@@ -16,6 +16,8 @@ tickets:
   non-member-button-label: Watch Live Here
 venue:
   name: YouTube Live
+  additional-header: Platform and Prerequisites
+  additional-info: This event will be livestreamed on Broke Roayls' YouTube page.
 has-speakers: true
 speakers:
 - name: Broke Royals
@@ -29,6 +31,11 @@ speakers:
     Year.”
   website-label: Website
   website-url: http://www.brokeroyals.com/
+has-accessibility-notes: true
+accessibility-notes:
+- note: This event will be live streamed on YouTube live and will featured automated
+    closed captioning. To make an additional accessibility request, please visit [our
+    page on accessibility.](https://www.dcdesignweek.org/accessibility/)
 filter-date:
   is-day-8: true
 filter-time:
