@@ -375,6 +375,18 @@
     is-art-prints: true
     is-clothing-apparel: false
     is-accessories: false
+- image: "/uploads/md-BarcenasVioleta.jpg"
+  image-alt: Grishm’s Gala Land's Artwork
+  name: <span>Gayathri</span> <span>Radhakrishnan</span>
+  role: Handmade DIY greeting card kits for children with eco friendly materials
+  pronouns: She/Her
+  price-point: $20 per kit
+  website-url-1: https://instagram.com/grishmsgalaland
+  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-1: Grishm’s Gala Land's Website
+  description-short: My kidpreneur son and I (his mom) make DIY greeting card kits for kids ages 5+ with eco friendly materials. We took part in kidpreneur fairs, won awards, got featured in the media, and received positive feedback to expand our business! 
+  type:
+    is-paper-goods: true
 # 22
 # Grishm’s Gala Land
 # Handmade DIY greeting card kits for children with eco friendly materials
