@@ -963,7 +963,11 @@ past-editions:
   website-url-1: https://instagram.com/grishmsgalaland
   website-label-1: <i class="fas fa-computer-classic"></i> Instagram
   website-aria-label-1: Grishm’s Gala Land's Website
+  website-url-2:
+  website-label-2:
+  website-aria-label-2:
   description-short: My kidpreneur son and I (his mom) make DIY greeting card kits for kids ages 5+ with eco friendly materials. We took part in kidpreneur fairs, won awards, got featured in the media, and received positive feedback to expand our business! 
+  description-long: 
   type:
     is-art-prints: false
     is-paper-goods: true
