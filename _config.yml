@@ -64,15 +64,11 @@ defaults:
       website-url: 
     has-accessibility-notes: 
     accessibility-notes:
-    - note: "|-
-        All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
-        * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
-        * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
-        * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+    - note: |-
+        |- All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation. * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6) * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org. * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 
 
-
-        You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/)."
+        You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
     filter-date:
       is-day-1: 
       is-day-2: 
@@ -497,10 +493,9 @@ navigation-teaser:
   aria-label: FAQs Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
-  text: "|-
-    Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-    Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!"
+  text: |-
+    |- Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+    Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!
   accessibility-header: Accessibility
   accessibility-text: 'If you need any accommodations to fully access the event, please
     get in touch with us by *Monday, September 16, 2019* at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
