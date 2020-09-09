@@ -965,7 +965,13 @@ past-editions:
   website-aria-label-1: Grishm’s Gala Land's Website
   description-short: My kidpreneur son and I (his mom) make DIY greeting card kits for kids ages 5+ with eco friendly materials. We took part in kidpreneur fairs, won awards, got featured in the media, and received positive feedback to expand our business! 
   type:
+    is-art-prints: false
     is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
 2020-giphys-black:
 - embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
     frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via
