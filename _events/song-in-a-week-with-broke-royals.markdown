@@ -33,7 +33,7 @@ speakers:
   website-url: http://www.brokeroyals.com/
 has-accessibility-notes: true
 accessibility-notes:
-- note: This event will be live streamed on YouTube live and will featured automated
+- note: This event will be live streamed on YouTube live and will feature automated
     closed captioning. To make an additional accessibility request, please visit [our
     page on accessibility.](https://www.dcdesignweek.org/accessibility/)
 filter-date:
