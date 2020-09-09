@@ -1,13 +1,13 @@
 ---
 title: Makers Directory
 permalink: "/makers/directory"
-published: false
+published: true
 layout: makers-directory
 hero:
 - has-hero: true
   header: 
   subheader: 
-  image-1: "/uploads/hero-maker-desktop-2x.png"
+  image-1: "/uploads/makers-directory-header.png"
   image-1-alt: Black and white photo of DC Design Week event poster” & “DC Design
     Week logo on bright green background
 introduction:

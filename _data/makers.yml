@@ -363,23 +363,18 @@
   type:
     is-paper-goods: true
     is-home-goods: true
-# 21
-# Blue Robin Designs
-# Visual creator who works heavily in acrylic and texture
-
-
-# artist: Blue Robin
-
-
-# bluerobincmb.com
-# @bluerobincmb
-
-
-# My art is sensory driven. It is to be consumed and interpreted in ways that leave my audience feeling at the very least: human and alive. It pinches you so that you know you are not dreaming.
-
-
-# type: Art + Print, Clothing + Apparel, Accessories 
-
+- image: "/uploads/md-BlueRobinDesigns.jpg"
+  image-alt: Blue Robin Designs' Artwork
+  name: <span>Blue</span> <span>Robin</span> <span>Designs</span>
+  role: Visual creator who works heavily in acrylic and texture
+  website-url-1: https://www.bluerobincmb.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Blue Robin Designs' Website
+  description-short: "My art is sensory driven. It is to be consumed and interpreted in ways that leave my audience feeling at the very least: human and alive. It pinches you so that you know you are not dreaming."
+  type:
+    is-art-prints: true
+    is-clothing-apparel: false
+    is-accessories: false
 # 22
 # Grishm’s Gala Land
 # Handmade DIY greeting card kits for children with eco friendly materials

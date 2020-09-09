@@ -2,34 +2,36 @@
 	<div class="grid grid--four-columns">
 		<div class="column column--span-1">
 			<form class="events-filter">
-				<!-- filters -->
-				<div>
-					<div>
-						<span class="events-filter__additional-title">
-							Categories
-						</span>
+				<div class="filter-header">
+					<h3>
+						Categories
+					</h3>
+				</div>
+				<div class="events-filter__dates control-group" data-filter-group="">
+					{% for control in site.data.makers-filter.tags %}
+					<div class="radio">
+						<label class="radio-label custom-radio">
+							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
+							<span class="checkmark"></span>
+							{{ control.text-1 }}
+						</label>
 					</div>
-					<div class="events-filter__dates control-group" data-filter-group="">
-						{% for control in site.data.makers-filter.tags %}
-						<div class="radio">
-							<label class="radio-label font-size-6">
-								<input name="additional-filters" type="radio" data-filter="{{ control.filter }}" />
-								{{ control.text-1 }}
-							</label>
+					{% endfor %}
+				</div>
+				<div class="column column--span-4 events-filter__additional-filters">
+					<div class="events-filter__additional-header">
+						<div class="events-filter__reset control-group">
+							<button class="control control-text" type="reset">
+								Reset
+							</button>
 						</div>
-						{% endfor %}
-					</div>
-					<div class="events-filter__reset control-group">
-						<button class="control control-text" data-filter="all">
-							Reset
-						</button>
 					</div>
 				</div>
 			</form>
-
 		</div>
+
 		<div class="column column--span-3">
-			<ul class="grid  container mixitup-container">
+			<ul class="grid grid--three-columns container mixitup-container">
 				{% assign sorted_makers = site.data.makers.2020-makers | sort: "name"  %}
 				{% for maker in sorted_makers %}
 				<li class="card card--makers mix
@@ -50,11 +52,13 @@
 </section>
 
 <!-- mixitup -->
+<script src="/assets/scripts/mixitup.min.js"></script>
+<script src="/assets/scripts/mixitup-multifilter.min.js"></script>
 <script>
 	var containerEl = document.querySelector(".mixitup-container");
 	var mixer = mixitup(containerEl, {
 		multifilter: {
-			enable: false,
+			enable: true,
 		},
 		animation: {
 			enable: false,
