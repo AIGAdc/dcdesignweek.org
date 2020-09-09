@@ -1,14 +1,12 @@
 ---
 title: Makers Directory
 permalink: "/makers/directory"
-layout: makers-directory
 hero:
 - has-hero: true
   header: 
   subheader: 
   image-1: "/uploads/makers-directory-header.png"
-  image-1-alt: Black and white photo of DC Design Week event poster” & “DC Design
-    Week logo on bright green background
+  image-1-alt: 
 introduction:
 - has-introduction: true
   header: "<span>Makers</span> <span>Directory</span>"
@@ -21,5 +19,6 @@ introduction:
     — look no further than the DC Design Week Maker Directory to support your local
     creative community. Check out our list below for access to literally dozens of
     people making and selling amazing things, right here in our beloved city. "
+layout: makers-directory
 ---
 
