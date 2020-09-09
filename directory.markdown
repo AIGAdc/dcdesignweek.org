@@ -1,7 +1,6 @@
 ---
 title: Makers Directory
 permalink: "/makers/directory"
-published: true
 layout: makers-directory
 hero:
 - has-hero: true
