@@ -476,7 +476,6 @@ defaults:
   website-url-1: https://www.linkedin.com/in/chelsea-wilson-6a8702101
   website-label-1: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-1: Chelsea Wilson's LinkedIn
-2020-makers: 
 navigation-placeholder:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -584,7 +583,1345 @@ past-editions:
     image: "/uploads/dcdw-2019-pattern.jpg"
     url: https://2019.dcdesignweek.org
     aria-label: 2019 DC Design Week Website
-2020-makers-filter: 
+2020-makers:
+- image: "/uploads/md-BarcenasVioleta.jpg"
+  image-alt: Violeta Barcenas Chamorro's Artwork
+  name: "<span>Violeta</span> <span>Barcenas</span> <span>Chamorro</span>"
+  role: Art-Illustration
+  pronouns: She/Her
+  price-point: "$5-28"
+  website-url-1: https://violetredstudio.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Violeta Barcenas Chamorro's Website
+  description-short: My approach is exploration all the time. But constantly wanting
+    that exploration to lead to a positive place. I enjoy a lot starting over. So
+    making mistakes (on paper) and going back to them is one of my favorite exercises.
+  description-long: I am from Nicaragua. In 2008, when I first went into business,
+    the concept of an illustration store was never seen there. I was diagnosed with
+    breast cancer the year before, so I guess I was very courageous after my brush
+    with death, and decided to jump in, rent a place and start something new.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-SmithMakeda.jpg"
+  image-alt: Makeda Smith's Artwork
+  name: "<span>Sio</span> <span>Ceramics</span>"
+  role: Ceramics jewelry and small home goods
+  artist: Makeda Smith
+  pronouns: She/Her
+  price-point: "$22 – 65"
+  website-url-1: http://www.sioceramics.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Makeda Smith's Website
+  description-short: I make everything by hand with clay. All of the designs I create
+    are made through play and creativity. I get inspiration from color and basic shapes.
+  description-long: I decided to go into business for myself because it’s also been
+    a dream of mine to be a business owner. I always wanted to build something from
+    the ground up that is mine. I wanted to show BIPOC that they can build, create,
+    and be whatever they choose. It's a big statement to be a young black woman owning
+    a business. I want others to be inspired and feel represented when they see my
+    business.
+  type:
+    is-art-prints: false
+    is-paper-goods: false
+    is-clothing-apparel: true
+    is-food: false
+    is-accessories: true
+    is-home-goods: true
+    is-wild-card: false
+- image: "/uploads/md-HudaAshfaq.jpg"
+  image-alt: Ashfaq Huda's Artwork
+  name: "<span>Ashfaq</span> <span>Huda</span>"
+  role: Pop art using photoshop on canvas and framed
+  pronouns: He/Him
+  price-point: "$400"
+  website-url-1: https://www.etsy.com/shop/urbanSutra
+  website-label-1: <i class="fas fa-store"></i> Shop
+  website-aria-label-1: Ashfaq Huda's Website
+  description-short: I make everything by hand with clay. All of the designs I create
+    are made through play and creativity. I get inspiration from color and basic shapes.
+  description-long: I decided to go into business for myself because it’s also been
+    a dream of mine to be a business owner. I always wanted to build something from
+    the ground up that is mine. I wanted to show BIPOC that they can build, create,
+    and be whatever they choose. It's a big statement to be a young black woman owning
+    a business. I want others to be inspired and feel represented when they see my
+    business.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-KingLaura.jpg"
+  image-alt: Laura King Paints' Artwork
+  name: "<span>Laura</span> <span>King</span> <span>Paints</span>"
+  role: Acrylic paintings inspired by nature and custom pet portraits
+  artist: Laura King
+  pronouns: She/Her
+  price-point: "$1-40 (goods), $40-150 (original paintings)"
+  website-url-1: http://laurakingpaints.etsy.com/
+  website-label-1: <i class="fas fa-store"></i> Shop
+  website-aria-label-1: Laura King Paints' Shop
+  website-url-2: https://www.instagram.com/laurakingpaints
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Laura King Paints' Instagram
+  description-short: I spend a lot of time outside and am inspired by my favorite
+    plants and animals, including one of my favorite subjects, bees! For my original
+    paintings and custom pet portraits, I use acrylic paint on paper, canvasses, and
+    wood slices. From my art, I create art prints, greeting cards, postcards, and
+    stickers.
+  description-long: I find so much joy in creating pieces that inspire people and
+    remind them to enjoy and find beauty in nature, and in being able to capture pets
+    in a way that their owners will cherish forever.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: true
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-KriebelMarcella.jpg"
+  image-alt: Marcella Kriebel Art + Illustration's Artwork
+  name: "<span>Marcella</span> <span>Kriebel</span> <span>Art</span> <span>and</span>
+    <span>Illustration</span>"
+  role: Food-themed watercolors
+  artist: Marcella Kriebel
+  pronouns: She/Her
+  price-point: "$5-40"
+  website-url-1: http://www.marcellakriebel.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Marcella Kriebel Art + Illustration's Website
+  website-url-2: https://www.instagram.com/marcellakriebel
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Marcella Kriebel Art + Illustration's Instagram
+  description-short: I create watercolors that are designed as a mix and match series
+    of food related art prints. From cocktail recipes and bacon, to blueberries and
+    blue crab, there's something for everybody. In addition to the prints, I offer
+    greeting cards featuring my art, and my illustrated cookbooks that celebrate recipes
+    from my travels. My newest project is Small Batch — a collection of recipes and
+    stories from foodies in the DMV.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: true
+    is-home-goods: true
+    is-wild-card: false
+- image: "/uploads/md-LeviMiriam.jpg"
+  image-alt: Miriam Levi Design's Artwork
+  name: "<span>Miriam</span> <span>Levi</span> <span>Design</span>"
+  role: Painter and graphic designer
+  artist: Miriam Levi
+  pronouns: She/Her
+  price-point: "$50–200"
+  website-url-1: https://miriamrlevi.myportfolio.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Miriam Levi Design's Website
+  description-short: My work is whimsical, lighthearted, inspirational, but can be
+    edgy.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-walkerSeshat.jpg"
+  image-alt: FND ART's Artwork
+  name: "<span>FND</span> <span>ART</span>"
+  role: Reimagined artifacts and repurposed vintage finds
+  artist: Seshat Walker
+  pronouns: She/Her
+  price-point: "$15–300"
+  website-url-1: http://www.fndart.co
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: FND ART's Website
+  description-short: I create original art and pieces designed and/or re-imagined
+    in ways that present new narratives and functionalities.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: true
+    is-wild-card: true
+- image: "/uploads/md-RaderDan.jpg"
+  image-alt: Moon Lighter Ceramics' Artwork
+  name: "<span>Moon</span> <span>Lighter</span> <span>Ceramics</span>"
+  role: Ceramics
+  artist: Dan Rader
+  pronouns: He/Him
+  price-point: "$25-85"
+  website-url-1: https://www.instagram.com/moon.lighter.ceramics/
+  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-1: Moon Lighter Ceramics' Instagram
+  description-short: Five-to-nine ceramics for nine-to-five people. Pottery in the
+    pursuit of the beautiful, interesting, and useful.
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-NordbergErica.jpg"
+  image-alt: Erica Nordberg's Artwork
+  name: "<span>Erica</span> <span>Nordberg</span>"
+  role: Painter
+  artist: Erica Nordberg
+  pronouns: She/Her
+  price-point: Originals $100 – 350, Prints $20 – 25
+  website-url-1: http://www.ericanordberg.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Erica Nordberg's Website
+  website-url-2: https://www.instagram.com/erica.nordberg/
+  website-label-2: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-2: Erica Nordberg's Instagram
+  description-short: I paint, mostly in watercolor. I have recently joined the Capital
+    Artist Collective and launched my own website where I post/sell original work
+    and prints. I plan to continue to grow my portfolio and my shop!
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-CivettiAmy.jpg"
+  image-alt: Amy Civetti's Artwork
+  name: "<span>Amy</span> <span>Civetti</span>"
+  role: Graphic designer and illustrator, part-time tie dye enthusiast
+  artist: Amy Civetti
+  pronouns: She/Her
+  price-point: "$25-50"
+  website-url-1: https://www.amycivetti.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Amy Civetti's Website
+  description-short: I am constantly inspired by the city — the people, the events,
+    the nature. I draw by hand or on an iPad before bringing things onto my laptop
+    for editing and layout.
+  type:
+    is-paper-goods: true
+    is-clothing-apparel: true
+    is-accessories: true
+    is-home-goods: true
+- image: "/uploads/md-MorrEliAndValencia.jpg"
+  image-alt: Eli and Valencia Morr's Artwork
+  name: Peacesake Candles & Co.
+  role: Candle maker
+  artist: Eli and Valencia Morr
+  price-point: "$14 – 26"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: We launched our company in 2016 with a goal of creating sustainable
+    products that are kind to the environment. We produce all natural soy wax candles
+    as well as room/linen sprays that are recyclable, made with sustainable ingredients
+    and are phthalate-free. We wanted to create a sustainable business that our kids
+    can run one day.
+  type:
+    is-home-goods: true
+- image: "/uploads/md-IngersollCarlee.jpg"
+  image-alt: Carlee Ingersoll's Artwork
+  name: Carlee Ingersoll Illustrations
+  role: Illustrator
+  artist: Carlee Ingersoll
+  pronouns: She/Her
+  price-point: "$3 – 40"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: I’m inspired by bright colors and things I see that make me happy.
+    I like to recreate items/pets/scenes I encounter on a daily basis.
+  type:
+    is-art-prints: true
+    is-accessories: true
+- image: "/uploads/md-AdamsMadelyne.jpg"
+  image-alt: Madelyne Adams' Artwork
+  name: Good Letters
+  role: Stationery, stickers, prints
+  artist: Madelyne Adams
+  pronouns: She/Her
+  price-point: "$3 – 15"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: I like to make things that are authentic and purposeful, that
+    share a message, whether it’s a sticker on a water bottle or a handwritten letter.
+  type:
+    is-paper-goods: true
+    is-accessories: true
+    is-art-prints: true
+    is-clothing-apparel: true
+- image: "/uploads/md-MosherErika.jpg"
+  image-alt: Erika Mosher's Artwork
+  name: Erika Lee
+  role: Watercolor artist
+  artist: Erika Mosher
+  pronouns: She/Her
+  price-point: "$5 (greeting cards) to $150 (originals)"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: I work in watercolor because of its unpredictable flow. Using
+    a dynamic medium to depict snapshots in time, be it a place I traveled or creating
+    a portrait of a beloved pet, forces quick decision making to create a painting.
+    This lets me focus on the composition and create a feeling of a place or whatever
+    my subject is. Seeing a familiar scene in a new way can ignite a fond memory or
+    have the viewer notice something they never did before. I attempt to bring these
+    perceptions to life and try to expose something new about them to my audience.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+- image: "/uploads/md-ReddyPreeti.jpg"
+  image-alt: Preeti Reddy's Artwork
+  name: Preeti Reddy
+  role: Jewelry maker and custom stationary
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: My jewelry is created with a primitive approach. All pieces are
+    handcrafted and the patterns are created with found objects.
+  type:
+    is-accessories: true
+    is-clothing-apparel: true
+    is-paper-goods: true
+- image: "/uploads/md-PannoneChristina.jpg"
+  image-alt: Christina Pannone's Artwork
+  name: Knieriem Designs
+  role: Clothing Designer
+  artist: Christina Pannone
+  price-point: "$99 – 300"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: I design, pattern, and manufacture clothing in my studio in VA,
+    exclusively using fabrics made in the USA. My style is simple and chic with the
+    goal that each piece can be worn for many different occasions.
+  type:
+    is-clothing-apparel: true
+- image: "/uploads/md-KnoxNora.jpg"
+  image-alt: Nora Knox's Artwork
+  name: Nora Knox Embroidery
+  role: Contemporary embroidery artist
+  artist: Nora Knox
+  pronouns: She/her
+  price-point: "$50"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: Nora Knox creates original hand-stitched embroidery pieces. Each
+    piece is one of a kind, as she allows the thread to guide her through the process.
+    Nora is fascinated with the intersection of humans and nature, and through deliberate
+    stitches Nora uses color to inspire us to see whimsy in familiar subjects.
+  type:
+    is-art-prints: true
+    is-clothing-apparel: true
+- image: "/uploads/md-PurserAshley.jpg"
+  image-alt: Ashley Purser's Artwork
+  name: Purser Weddings
+  role: Wedding and event stationery
+  artist: Ashley Purser
+  pronouns: She/Her
+  price-point: Stationery packages typically start at around $1200
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  description-short: Purser Weddings create unique and contemporary designs for clients
+    who are fans of out-of-the-box and non-cookie cutter design!
+  type:
+    is-paper-goods: true
+- image: "/uploads/md-KirschJesse.jpg"
+  image-alt: Jesse Kirsch's Artwork
+  name: No Plan Press
+  role: Letterpress Prints
+  artist: Jesse Kirsch
+  pronouns: He/Him
+  price-point: "$6 – 36"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  description-short: No Plan prints are modern, fun and guaranteed to make you think.
+    The juxtaposition of modern 21st century digital design printed on 19th century
+    technology.
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+- image: "/uploads/md-AhnDoYoung.jpg"
+  image-alt: Do Young Ahn's Artwork
+  name: Wick and Paper
+  role: Handmade candles and greeting cards
+  artist: Do Young Ahn
+  price-point: "$20 – 28"
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  description-short: My approach is making great quality products and making people
+    smile. As a graphic designer, I always wanted to have my own brand. One day I
+    ordered a candle making DIY kit, and I fell in love with it. So, I decided to
+    create a business around it. This process has been fun so far, from designing
+    my logo, researching  materials, to making good quality candles.
+  type:
+    is-paper-goods: true
+    is-home-goods: true
+- image: "/uploads/md-BlueRobinDesigns.jpg"
+  image-alt: Blue Robin Designs' Artwork
+  name: "<span>Blue</span> <span>Robin</span> <span>Designs</span>"
+  role: Visual creator who works heavily in acrylic and texture
+  website-url-1: https://www.bluerobincmb.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Blue Robin Designs' Website
+  description-short: 'My art is sensory driven. It is to be consumed and interpreted
+    in ways that leave my audience feeling at the very least: human and alive. It
+    pinches you so that you know you are not dreaming.'
+  type:
+    is-art-prints: true
+    is-clothing-apparel: false
+    is-accessories: false
+- image: "/uploads/md-BarcenasVioleta.jpg"
+  image-alt: Grishm’s Gala Land's Artwork
+  name: "<span>Gayathri</span> <span>Radhakrishnan</span>"
+  role: Handmade DIY greeting card kits for children with eco friendly materials
+  artist: 
+  pronouns: She/Her
+  price-point: "$20 per kit"
+  website-url-1: https://instagram.com/grishmsgalaland
+  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-1: Grishm’s Gala Land's Website
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: My kidpreneur son and I (his mom) make DIY greeting card kits
+    for kids ages 5+ with eco friendly materials. We took part in kidpreneur fairs,
+    won awards, got featured in the media, and received positive feedback to expand
+    our business!
+  description-long: 
+  type:
+    is-art-prints: false
+    is-paper-goods: true
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-LandiaGuayi.jpg"
+  image-alt: 
+  name: 'Guayilandia '
+  role: 'Mix media artist, illustrator and photographer '
+  artist: Guayi Fernandez
+  pronouns: She/Her
+  price-point: "$16 – 27"
+  website-url-1: guayilandiaart.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@guayilandia_art"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: "@guayilandia "
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I work with strong colors and simple figures. I combine materials
+    to form textures and depths. On the other hand, I make brightly colored illustrations
+    that reflect the thoughts of many and my own. Also, I do street photography that
+    tells stories that many do not see.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-VillavicencioKatrina.jpg"
+  image-alt: 
+  name: Timpla Creative
+  role: Mixed media artist selling art prints that relate and react to Filipina-American
+    culture
+  artist: Katrina Villavicencio
+  pronouns: She/Her
+  price-point: "$20 – 40"
+  website-url-1: timpladc.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'I''ve been an artist my whole life, and in my adulthood I realized
+    that there wasn''t much exposure of Filipino creatives in the DC area. I saw a
+    lot of products made and sold by west coast artists and wanted to bring that representation
+    and energy to the east coast. As a result, I started designing art prints that
+    proudly represent my culture and selling at vendor events through DC. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-LiuMeiling.jpg"
+  image-alt: 
+  name: Meiling Liu Lettering and Illustration
+  role: Lettering, illustration, and watercolor artist
+  artist: Meiling Liu
+  pronouns: She/Her
+  price-point: 
+  website-url-1: "@letteringwithmei"
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: "Currently I'm working on a digital hand-lettering project in
+    which I make honest and empowering phases for people on the creative journey.
+    People who strive to achieve their scary big goals and dreams, but feel that they
+    are alone in their struggles and self-doubts. I hope that people see a part of
+    themselves in my words and art, and know that we share similar struggles as creative
+    entrepreneurs and artists. We don't have to do this all alone. We can help each
+    other little by little in whatever ways we are able to contribute, push past our
+    limited beliefs, and thrive together. \n"
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-SchulmanAma.jpg"
+  image-alt: 
+  name: All Very Goods
+  role: 'Accessory designer '
+  artist: 'Ama Schulman '
+  pronouns: She/Her
+  price-point: "$22"
+  website-url-1: 'allverygoods.com '
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@allverygoods"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'I draw from personal experience, African, American & European
+    art, textiles, fashion, history and mythology to create accessories that speak
+    to cultural adaptation and evolution. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-BayotSarah.jpg"
+  image-alt: 
+  name: Kicheko Goods
+  role: Jewelry maker
+  artist: Sarah Bayot
+  pronouns: She/Her
+  price-point: "$42 – 100"
+  website-url-1: kichekogoods.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@kichekogoods"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I design mixed media jewelry pieces that articulate a concept,
+    character, or pieces that are an ode to nature and place. With each piece, I balance
+    the jewelry's design between playful sophistication and unrefined boldness. Kicheko's
+    jewelry pieces are strong and statement pieces but lightweight bearing no extra
+    weight for our customers. I work with a network of small manufacturers here in
+    the states and abroad that create or source all of the pieces made in our D.C.-based
+    studio + shop.
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-EdgettKarin.jpg"
+  image-alt: 
+  name: Karin Edgett ~ art ~ food ~ etc
+  role: Painter, poet, photographer and nutritional cook
+  artist: Karin Edgett
+  pronouns: 
+  price-point: Free – $5,000
+  website-url-1: 'KarinEdgett.art '
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@edgempress"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I am a painter, poet, photographer and nutritional cook specializing
+    in what makes us evolve and expand and heal. I can see new energies and use my
+    skills to access them.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: true
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-MurphyBridget.jpg"
+  image-alt: 
+  name: BCMdesign
+  role: 'Printmaker, painter, and educator '
+  artist: Bridget Murphy
+  pronouns: 
+  price-point: "$120 – 300"
+  website-url-1: bcmdesignstudio.com/portfolio/fine-art
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: As a graphic designer and artist, I like to share my work with
+    others. I continue to explore the relationship between the visual communicator
+    and the studio artist through my passion of seeing, creating, educating, and communicating
+    the importance of creativity and design.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-SharonKelly.jpg"
+  image-alt: 
+  name: KellyLovesType
+  role: Typographic prints, mugs, and stationery
+  artist: Kelly Sharon
+  pronouns: She/Her
+  price-point: "$25"
+  website-url-1: 'etsy.com/shop/kellylovestype '
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@kellylovestype"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'Beautiful letters + bold colors + pop culture. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: true
+    is-wild-card: 
+- image: "/uploads/md-GrayMisty.jpg"
+  image-alt: 
+  name: Misty Gray
+  role: Illustrator
+  artist: 
+  pronouns: 
+  price-point: "$15 – 25"
+  website-url-1: "@mistymauvegray"
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I use my life experience to create pieces that express something
+    I've learned or something I want to say. I've always loved to draw. Being able
+    to share that with other people who are interested in something I love doing is
+    pretty amazing.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-EcheverriAlessandra.jpg"
+  image-alt: 
+  name: 'Typecase Industries '
+  role: 'Letterpress & screen-printed paper goods '
+  artist: Alessandra Echeverri
+  pronouns: She/Her
+  price-point: "$5 – 20 for products, custom work varies"
+  website-url-1: "@typecaseind"
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: Everything is designed and printed in-house — with a healthy
+    love for all things print that I love to share with DC through products and workshops.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-JuliannaMiriam.jpg"
+  image-alt: 
+  name: Miriam Julianna
+  role: Multi-disciplinary artist
+  artist: 
+  pronouns: She/Her
+  price-point: Free
+  website-url-1: miriamjsutton.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    I'm a multi-disciplinary artist — ranging from story teller to home decor to fine art to jewelry. The project I'm sharing with you is the COVID-19 safe version of a storytelling practice called Searching for Eon done in memory of trans activist Ian Harris Schroeder.
+
+
+    On my website there is a tab to sign up for a participatory art project called Phone-In. You sign up, I'll call you and tell you a story, and then after I will mail you a paper crane I folded while telling you that story.
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: true
+- image: "/uploads/md-RobertsonShahida.jpg"
+  image-alt: 
+  name: Roots & Roux
+  role: Southern plant-based recipes
+  artist: Shahida Robertson
+  pronouns: She/Her
+  price-point: 
+  website-url-1: "@rootsnroux"
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: My work is creating plant-based recipes that are filling, fun,
+    and southern (like me!) I want people who are looking to transition to a plant-based
+    lifestyle to know that you can still have amazing food with no meat. Even if someone
+    may not be plant-based, my recipes will help them to incorporate more vegetables
+    in their diet in a creative way. Eating this way is an alternative for people
+    who may be struggling with gut, skin, or mood issues.
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: true
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-OBrienMike.jpg"
+  image-alt: 
+  name: Red Table Press
+  role: Painter, printer, illustrator, and comic artist
+  artist: Mike O’Brien
+  pronouns: He/Him
+  price-point: "$50 – 250"
+  website-url-1: redtablepress.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'I paint traditional tattoo flash designs in watercolor on wood. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-ProenzaMary.jpg"
+  image-alt: 
+  name: Mary Proenza
+  role: Painting, drawing, printmaking
+  artist: 
+  pronouns: She/Her
+  price-point: "$60 – $3,000"
+  website-url-1: maryproenza.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'I''m a representational artist, working primarily from observation. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-FerraroBree.jpg"
+  image-alt: 
+  name: Cake Me DC
+  role: Baker
+  artist: Bree Ferraro
+  pronouns: She/Her
+  price-point: "$50+"
+  website-url-1: cakemedc.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@cakemedc"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I am a baker who specializes in unique cake flavors such as blood
+    orange, bourbon brown sugar, etc. My approach to baking and designing cakes is
+    to find unique ingredients to create an unforgettable taste experience! Baking
+    is a science and each ingredient plays an important role and has the ability to
+    alter the end product. I always stay true to my process and procedure so that
+    I get consistent and delicious results. I love working hard each day to create
+    cakes that will be enjoyed at some of life’s most important events!
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: true
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-McBratneySally.jpg"
+  image-alt: 
+  name: Sally McBee
+  role: Artist & illustrator
+  artist: Sally McBratney
+  pronouns: She/Her
+  price-point: "$30 – 55"
+  website-url-1: 'sallymcbee.us '
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@sally_mcbee"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: "I am an artist and illustrator working with digital and analog
+    art to create works that empower womxn to love their bodies, celebrates our diversity,
+    and encourages nostalgia. \n\n\nI draw inspiration from my surroundings and often
+    use myself as a reflective muse. I collect photos and jot notes on scraps of paper
+    to compile my thoughts and inspiration. I am drawn to bright colors, clean lines,
+    and the human form with a focus on womxn's bodies. "
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-MorrisonJenn.jpg"
+  image-alt: 
+  name: Jenn Morrison
+  role: Oil Painter
+  artist: 
+  pronouns: 
+  price-point: 
+  website-url-1: etsy.com/shop/JennMorrisonStudio
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I create with a semi-impressionist style with soft edges and
+    a lighter application of oils than is standard. While most of my art is inspired
+    from real settings or imagery, the end result is an intentionally painterly rendering.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-HaberDan.jpg"
+  image-alt: 
+  name: Diod.design
+  role: Custom real-time LED music-visualizers
+  artist: Dan Haber
+  pronouns: He/Him
+  price-point: "$500"
+  website-url-1: diod.design
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'I try to create speakers, but for your eyes, to transform music
+    into a multi-sensory experience.
+
+'
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: true
+- image: "/uploads/md-DuplainDanielle.jpg"
+  image-alt: 
+  name: Danielle Duplain
+  role: Illustrator, graphic designer, motion graphics designer
+  artist: 
+  pronouns: She/Her
+  price-point: 
+  website-url-1: danielleduplain.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@ddaniellie"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I utilize both digital and analog methods of mark making in my
+    illustrative practice to create editorial, lifestyle, and narrative work typically
+    centering female voices and experiences.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-MorganCarla.jpg"
+  image-alt: 
+  name: The Glass Apothecary
+  role: Stained glass and homemade herbal products
+  artist: Carla Morgan
+  pronouns: She/Her
+  price-point: "$20 – 80"
+  website-url-1: theglassapothecary.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@the_glass_apothecary"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    I create homegrown and homemade products for relaxation and de-stressing. For my stained glass, I like to create unique pieces that are magical and inspirational.
+
+    Since I was young I always knew I wanted to be a business owner. It brings me such joy to create beautiful pieces and have people love them as much as I do.
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: true
+    is-accessories: 
+    is-home-goods: true
+    is-wild-card: 
+- image: "/uploads/md-OboyleKasey.jpg"
+  image-alt: 
+  name: Kasey O'Boyle
+  role: Painter and muralist
+  artist: 
+  pronouns: Ms.
+  price-point: "$300 – 500"
+  website-url-1: kaseyoboyle.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@kaseyoboyle"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I am inspired by children’s art and often borrow their use of
+    color, pattern, and movement. I tend to work with stylized flower shapes. I think
+    our moods influence color and color can influence our moods as well!
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-HarrisonElyse.jpg"
+  image-alt: 
+  name: Aviary Online
+  role: Mixed media wall sculptures of imaginary birds
+  artist: Elyse Harrison
+  pronouns: 
+  price-point: "$250 – 300"
+  website-url-1: aviaryonline.net
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@helloaviary"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'A fascination with object design was the source of inspiration
+    for me in the early 1990’s when I began creating hand built, small mixed media
+    sculptures that could be mounted on a wall.  Each of these artworks include select
+    found objects which add interest to my work through their unique shapes, colors,
+    and textures. '
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: true
+    is-wild-card: 
+- image: "/uploads/md-CarmonamedinaCarlos.jpg"
+  image-alt: 
+  name: DC is My City
+  role: Prints and postcards from Washington DC
+  artist: Carlos Carmonamedina
+  pronouns: He/Him
+  price-point: "$3 – 40"
+  website-url-1: dcismycity.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@carmonamedinastudio"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    During my time in DC, I have come to love the rich diversity of people, past and present, and the quotidian dramas through which they shape their neighborhoods and the collective urban character. My art seeks to document that human presence, in a way that is funny and compelling.
+
+    I love how people make my illustrations part of their lives. I've had people use my work as part of wedding proposals or for connecting with old friends. I want to make art that is accessible and easy to travel.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-CliffordEliza.jpg"
+  image-alt: 
+  name: Lavender Lizard Press [Launching Soon]
+  role: Prints and multidisciplinary art
+  artist: Eliza Clifford
+  pronouns: She/Her
+  price-point: "$20 – 100"
+  website-url-1: elizaclifford.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@eliza_anneee"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I am a printmaker and multidisciplinary artist. I work in a variety
+    of mediums, from screenprinting, intaglio, and relief printing to comics, artist
+    books/zines, and paintings. My works play with organic forms and illustrative
+    figures combined with layers of texture and color.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-BruceOlivia.jpg"
+  image-alt: 
+  name: Original Olivia
+  role: Art | Illustration | Design
+  artist: Olivia Bruce
+  pronouns: She/Her
+  price-point: Original Artwork $75 – 300; Calendar $20; Cards (single) $3.50 – 5;
+    Cards (Box of 10) $15; T-Shirts $20
+  website-url-1: oliviasprints.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@anoriginalolivia"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: My shop Original Olivia showcases original artwork, annual calendars,
+    all occasion cards, and novelty items. I use various mediums and techniques to
+    create socially relevant and uplifting artworks; mediums often used are watercolor,
+    markers, and graphite pencil.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: true
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-5iveCreatives.jpg"
+  image-alt: 
+  name: 5ive Creatives
+  role: Group of multidisciplinary artists
+  artist: Bria Edwards, Kalyne Bruce, Olivia Bruce, Omari Jesse, Roland Lovett, Trevon
+    Wright
+  pronouns: 
+  price-point: "$3 – 200"
+  website-url-1: 5ivecreatives.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@5ivecreatives"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    We are a group of young artists with multidisciplinary backgrounds, promoting black artists and celebrating the black and brown experience through art. We are painters, illustrators, videographers, graphic designers, animators, and street-wear designers. We sell paintings, prints, apparel, keychains and more.
+
+
+    5ive Creatives started as a group of long-term friends who met in a local art program. Through the program we became great friends and have always inspired each other's art.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-KumarPriyanka.jpg"
+  image-alt: 
+  name: Priyanka Kay
+  role: Illustrator, muralist, printmaker
+  artist: Priyanka Kumar
+  pronouns: She/Her
+  price-point: Varies
+  website-url-1: priyankakumar.net
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@priyankakay"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |
+    My work is very storytelling-oriented. It is inspired by cartography, gender, sensuality, transcendentalism. I make prints, murals and comics that are about spaces in the real world, but also about what it means to exist in a physical body and navigate physical spaces not built for you.
+
+
+    I tend to oscillate between bouncy and broody, and will champion all that is handmade and hand-drawn.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-StithKeagoe.jpg"
+  image-alt: 
+  name: Stith Works
+  role: Illustrator and designer
+  artist: Keagoe Stith
+  pronouns: He/Him
+  price-point: "$250 and up | open for commission"
+  website-url-1: kstith1.wixsite.com/keagoestith
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@keagoe"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    Designer, illustrator, puckish rogue. I have many monikers. I like clean lines and strong elements. Words like sophisticated, elegant, heavenly may apply to my work not all the time but it's what I strive for. When I'm not creating the goods, I'm gazing into the distance "meta".
+
+
+    My illustrative work is usually pop-oriented, where I remix old aesthetics and fuse them with a comic/anime feel. Design-wise I focus on identity creation and branding.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-AgapovaMayya.jpg"
+  image-alt: 
+  name: Mayya Agapova
+  role: Illustrator who creates digital, ink, and watercolor art
+  artist: She/Her
+  pronouns: "$15 – 20"
+  price-point: 
+  website-url-1: magapova.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: My work explores the nuances of everyday life and situations
+    through traditional and digital mediums. With every piece I create, whether through
+    illustration, comics or sketches, I aim to understand myself and the people around
+    me more than when I began the piece.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: "/uploads/md-HoyleRian.jpg"
+  image-alt: 
+  name: bEASH
+  role: Womenswear, accessories and home decor
+  artist: Rian Hoyle
+  pronouns: She/Her
+  price-point: "$7 – 89"
+  website-url-1: BEASHplease.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'bEASH is a fashion, interiors and lifestyle brand renewing and
+    remixing classic styles for the new generation. We are currently reworking vintage
+    beads and playing with clay to create a small batch of limited edition collections
+    of upcycled, sustainably made, and unique pieces with a modern feel. We offer
+    womenswear, accessories, and home decor. '
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: true
+    is-wild-card: 
 2020-giphys-black:
 - embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
     frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via
@@ -640,7 +1977,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: ''
+baseurl: 
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
@@ -678,7 +2015,6 @@ exclude:
 - ".jekyll-metadata"
 - ".sass-cache"
 - ".ruby-version"
-- _config.yml
 - ".jekyll-cache"
 markdown: kramdown
 kramdown:
