@@ -1044,7 +1044,7 @@ past-editions:
     is-accessories: false
     is-home-goods: false
     is-wild-card: false
-- image: "/uploads/md-LandiaGuayi.jpg"
+- image: 
   image-alt: 
   name: 'Guayilandia '
   role: 'Mix media artist, illustrator and photographer '
@@ -1073,7 +1073,7 @@ past-editions:
     is-accessories: true
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-VillavicencioKatrina.jpg"
+- image: 
   image-alt: 
   name: Timpla Creative
   role: Mixed media artist selling art prints that relate and react to Filipina-American
@@ -1104,7 +1104,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-LiuMeiling.jpg"
+- image: 
   image-alt: 
   name: Meiling Liu Lettering and Illustration
   role: Lettering, illustration, and watercolor artist
@@ -1137,7 +1137,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-SchulmanAma.jpg"
+- image: 
   image-alt: 
   name: All Very Goods
   role: 'Accessory designer '
@@ -1165,7 +1165,7 @@ past-editions:
     is-accessories: true
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-BayotSarah.jpg"
+- image: 
   image-alt: 
   name: Kicheko Goods
   role: Jewelry maker
@@ -1197,7 +1197,7 @@ past-editions:
     is-accessories: true
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-EdgettKarin.jpg"
+- image: 
   image-alt: 
   name: Karin Edgett ~ art ~ food ~ etc
   role: Painter, poet, photographer and nutritional cook
@@ -1225,7 +1225,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-MurphyBridget.jpg"
+- image: 
   image-alt: 
   name: BCMdesign
   role: 'Printmaker, painter, and educator '
@@ -1254,7 +1254,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-SharonKelly.jpg"
+- image: 
   image-alt: 
   name: KellyLovesType
   role: Typographic prints, mugs, and stationery
@@ -1280,7 +1280,7 @@ past-editions:
     is-accessories: 
     is-home-goods: true
     is-wild-card: 
-- image: "/uploads/md-GrayMisty.jpg"
+- image: 
   image-alt: 
   name: Misty Gray
   role: Illustrator
@@ -1309,7 +1309,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-EcheverriAlessandra.jpg"
+- image: 
   image-alt: 
   name: 'Typecase Industries '
   role: 'Letterpress & screen-printed paper goods '
@@ -1336,7 +1336,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-JuliannaMiriam.jpg"
+- image: 
   image-alt: 
   name: Miriam Julianna
   role: Multi-disciplinary artist
@@ -1366,7 +1366,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: true
-- image: "/uploads/md-RobertsonShahida.jpg"
+- image: 
   image-alt: 
   name: Roots & Roux
   role: Southern plant-based recipes
@@ -1397,7 +1397,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-OBrienMike.jpg"
+- image: 
   image-alt: 
   name: Red Table Press
   role: Painter, printer, illustrator, and comic artist
@@ -1423,7 +1423,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-ProenzaMary.jpg"
+- image: 
   image-alt: 
   name: Mary Proenza
   role: Painting, drawing, printmaking
@@ -1449,7 +1449,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-FerraroBree.jpg"
+- image: 
   image-alt: 
   name: Cake Me DC
   role: Baker
@@ -1481,7 +1481,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-McBratneySally.jpg"
+- image: 
   image-alt: 
   name: Sally McBee
   role: Artist & illustrator
@@ -1512,7 +1512,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-MorrisonJenn.jpg"
+- image: 
   image-alt: 
   name: Jenn Morrison
   role: Oil Painter
@@ -1540,7 +1540,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-HaberDan.jpg"
+- image: 
   image-alt: 
   name: Diod.design
   role: Custom real-time LED music-visualizers
@@ -1569,7 +1569,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: true
-- image: "/uploads/md-DuplainDanielle.jpg"
+- image: 
   image-alt: 
   name: Danielle Duplain
   role: Illustrator, graphic designer, motion graphics designer
@@ -1597,7 +1597,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-MorganCarla.jpg"
+- image: 
   image-alt: 
   name: The Glass Apothecary
   role: Stained glass and homemade herbal products
@@ -1626,7 +1626,7 @@ past-editions:
     is-accessories: 
     is-home-goods: true
     is-wild-card: 
-- image: "/uploads/md-OboyleKasey.jpg"
+- image: 
   image-alt: 
   name: Kasey O'Boyle
   role: Painter and muralist
@@ -1654,7 +1654,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-HarrisonElyse.jpg"
+- image: 
   image-alt: 
   name: Aviary Online
   role: Mixed media wall sculptures of imaginary birds
@@ -1684,7 +1684,7 @@ past-editions:
     is-accessories: 
     is-home-goods: true
     is-wild-card: 
-- image: "/uploads/md-CarmonamedinaCarlos.jpg"
+- image: 
   image-alt: 
   name: DC is My City
   role: Prints and postcards from Washington DC
@@ -1713,7 +1713,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-CliffordEliza.jpg"
+- image: 
   image-alt: 
   name: Lavender Lizard Press [Launching Soon]
   role: Prints and multidisciplinary art
@@ -1742,7 +1742,7 @@ past-editions:
     is-accessories: 
     is-home-goods: 
     is-wild-card: 
-- image: "/uploads/md-BruceOlivia.jpg"
+- image: 
   image-alt: 
   name: Original Olivia
   role: Art | Illustration | Design
@@ -1771,6 +1771,156 @@ past-editions:
     is-food: 
     is-accessories: 
     is-home-goods: 
+    is-wild-card: 
+- image: 
+  image-alt: 
+  name: 5ive Creatives
+  role: Group of multidisciplinary artists
+  artist: Bria Edwards, Kalyne Bruce, Olivia Bruce, Omari Jesse, Roland Lovett, Trevon
+    Wright
+  pronouns: 
+  price-point: "$3 – 200"
+  website-url-1: 5ivecreatives.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@5ivecreatives"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    We are a group of young artists with multidisciplinary backgrounds, promoting black artists and celebrating the black and brown experience through art. We are painters, illustrators, videographers, graphic designers, animators, and street-wear designers. We sell paintings, prints, apparel, keychains and more.
+
+
+    5ive Creatives started as a group of long-term friends who met in a local art program. Through the program we became great friends and have always inspired each other's art.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: 
+    is-wild-card: 
+- image: 
+  image-alt: 
+  name: Priyanka Kay
+  role: Illustrator, muralist, printmaker
+  artist: Priyanka Kumar
+  pronouns: She/Her
+  price-point: Varies
+  website-url-1: priyankakumar.net
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@priyankakay"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |
+    My work is very storytelling-oriented. It is inspired by cartography, gender, sensuality, transcendentalism. I make prints, murals and comics that are about spaces in the real world, but also about what it means to exist in a physical body and navigate physical spaces not built for you.
+
+
+    I tend to oscillate between bouncy and broody, and will champion all that is handmade and hand-drawn.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: 
+  image-alt: 
+  name: Stith Works
+  role: Illustrator and designer
+  artist: Keagoe Stith
+  pronouns: He/Him
+  price-point: "$250 and up | open for commission"
+  website-url-1: kstith1.wixsite.com/keagoestith
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: "@keagoe"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: |-
+    Designer, illustrator, puckish rogue. I have many monikers. I like clean lines and strong elements. Words like sophisticated, elegant, heavenly may apply to my work not all the time but it's what I strive for. When I'm not creating the goods, I'm gazing into the distance "meta".
+
+
+    My illustrative work is usually pop-oriented, where I remix old aesthetics and fuse them with a comic/anime feel. Design-wise I focus on identity creation and branding.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: 
+  image-alt: 
+  name: Mayya Agapova
+  role: Illustrator who creates digital, ink, and watercolor art
+  artist: She/Her
+  pronouns: "$15 – 20"
+  price-point: 
+  website-url-1: magapova.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: My work explores the nuances of everyday life and situations
+    through traditional and digital mediums. With every piece I create, whether through
+    illustration, comics or sketches, I aim to understand myself and the people around
+    me more than when I began the piece.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: 
+    is-clothing-apparel: 
+    is-food: 
+    is-accessories: 
+    is-home-goods: 
+    is-wild-card: 
+- image: 
+  image-alt: 
+  name: bEASH
+  role: Womenswear, accessories and home decor
+  artist: Rian Hoyle
+  pronouns: She/Her
+  price-point: "$7 – 89"
+  website-url-1: BEASHplease.com
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: 'bEASH is a fashion, interiors and lifestyle brand renewing and
+    remixing classic styles for the new generation. We are currently reworking vintage
+    beads and playing with clay to create a small batch of limited edition collections
+    of upcycled, sustainably made, and unique pieces with a modern feel. We offer
+    womenswear, accessories, and home decor. '
+  description-long: 
+  type:
+    is-art-prints: 
+    is-paper-goods: 
+    is-clothing-apparel: true
+    is-food: 
+    is-accessories: true
+    is-home-goods: true
     is-wild-card: 
 2020-giphys-black:
 - embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
