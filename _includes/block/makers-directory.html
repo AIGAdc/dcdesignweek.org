@@ -32,7 +32,7 @@
 
 		<div class="column column--span-3">
 			<ul class="grid grid--three-columns container mixitup-container">
-				{% assign sorted_makers = site.2020-makers | sort: "name"  %}
+				{% assign sorted_makers = site.2020-makers | sort_natural: "name" %}
 				{% for maker in sorted_makers %}
 				<li class="card card--makers mix
 				{% if maker.type.is-art-prints == true %} art-prints {% endif %}

@@ -1,6 +1,6 @@
 <!-- modal content -->
 <div class="modal modal-medium" data-modal-window
-	id="{{ maker.name | downcase | replace: " ", "-" | remove: '<span>' | remove: '</span>' }}">
+	id="{{ maker.name | downcase | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}">
 	<div class="modal-content">
 		<div class="modal-content--left">
 			<div class="modal__aside">
@@ -56,8 +56,9 @@
 			<div class="modal-content-info">
 				<h2 class="modal__title">{{ maker.name }}</h2>
 				<h3 class="card__title">{{ maker.role }}</h3>
-				<h3 class="card__title">{{ maker.pronouns }}</h3>
-				<h3 class="card__title">{{ maker.price-point }}</h3>
+				<p class="card__title" style="margin-top: 32px">{{ maker.artist }}</p>
+				<p class="card__title">{{ maker.pronouns }}</p>
+				<p class="card__title">{{ maker.price-point }}</p>
 			</div>
 			<div class="modal__links">
 				{% if maker.website-url-1 %}
@@ -81,7 +82,7 @@
 			</div>
 			<div class="modal-content-body">
 				<p class="card__subtitle">{{ maker.description-short }}</p>
-				<p class="card__subtitle">{{ maker.description-long }}</p>
+				<p class="card__subtitle" style="margin-top: 16px;">{{ maker.description-long }}</p>
 			</div>
 		</div>
 	</div>

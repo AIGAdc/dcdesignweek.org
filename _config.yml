@@ -820,7 +820,7 @@ past-editions:
     is-home-goods: true
 - image: "/uploads/md-MorrEliAndValencia.jpg"
   image-alt: Eli and Valencia Morr's Artwork
-  name: Peacesake Candles & Co.
+  name: "<span>Peacesake</span> <span>Candles & Co.</span>"
   role: Candle maker
   artist: Eli and Valencia Morr
   price-point: "$14 – 26"
@@ -839,7 +839,7 @@ past-editions:
     is-home-goods: true
 - image: "/uploads/md-IngersollCarlee.jpg"
   image-alt: Carlee Ingersoll's Artwork
-  name: Carlee Ingersoll Illustrations
+  name: <span>Carlee</span> <span>Ingersoll</span> <span>Illustrations</span>
   role: Illustrator
   artist: Carlee Ingersoll
   pronouns: She/Her
@@ -857,7 +857,7 @@ past-editions:
     is-accessories: true
 - image: "/uploads/md-AdamsMadelyne.jpg"
   image-alt: Madelyne Adams' Artwork
-  name: Good Letters
+  name: <span>Good</span> <span>Letters</span>
   role: Stationery, stickers, prints
   artist: Madelyne Adams
   pronouns: She/Her
@@ -877,7 +877,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-MosherErika.jpg"
   image-alt: Erika Mosher's Artwork
-  name: Erika Lee
+  name: <span>Erika</span> <span>Lee</span>
   role: Watercolor artist
   artist: Erika Mosher
   pronouns: She/Her
@@ -900,7 +900,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-ReddyPreeti.jpg"
   image-alt: Preeti Reddy's Artwork
-  name: Preeti Reddy
+  name: <span>Preeti</span> <span>Reddy</span>
   role: Jewelry maker and custom stationary
   website-url-1: 
   website-label-1: 
@@ -916,7 +916,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-PannoneChristina.jpg"
   image-alt: Christina Pannone's Artwork
-  name: Knieriem Designs
+  name: <span>Knieriem</span> <span>Designs</span>
   role: Clothing Designer
   artist: Christina Pannone
   price-point: "$99 – 300"
@@ -933,7 +933,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-KnoxNora.jpg"
   image-alt: Nora Knox's Artwork
-  name: Nora Knox Embroidery
+  name: <span>Nora</span> <span>Knox</span> <span>Embroidery</span>
   role: Contemporary embroidery artist
   artist: Nora Knox
   pronouns: She/her
@@ -953,7 +953,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-PurserAshley.jpg"
   image-alt: Ashley Purser's Artwork
-  name: Purser Weddings
+  name: <span>Purser</span> <span>Weddings</span>
   role: Wedding and event stationery
   artist: Ashley Purser
   pronouns: She/Her
@@ -967,7 +967,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-KirschJesse.jpg"
   image-alt: Jesse Kirsch's Artwork
-  name: No Plan Press
+  name: <span>No</span> <span>Plan</span> <span>Press</span>
   role: Letterpress Prints
   artist: Jesse Kirsch
   pronouns: He/Him
@@ -986,7 +986,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-AhnDoYoung.jpg"
   image-alt: Do Young Ahn's Artwork
-  name: Wick and Paper
+  name: <span>Wick</span> <span>and</span> <span>Paper</span>
   role: Handmade candles and greeting cards
   artist: Do Young Ahn
   price-point: "$20 – 28"
@@ -1015,16 +1015,42 @@ past-editions:
     is-art-prints: true
     is-clothing-apparel: false
     is-accessories: false
-- image: "/uploads/md-BarcenasVioleta.jpg"
-  image-alt: Grishm’s Gala Land's Artwork
-  name: "<span>Gayathri</span> <span>Radhakrishnan</span>"
+- image: "/uploads/md-SwindellJustine.jpg"
+  image-alt: Justine Swindell Art's Artwork
+  name: "<span>Justine</span> <span>Swindell</span> <span>Art</span>"
+  role: Illustrator and Graphic Designer
+  artist: Justine Swindell
+  pronouns: She/Her
+  price-point: "$25 – 60"
+  website-url-1: justineswindell.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-aria-label-1: 
+  website-url-2: "@justineswindellart"
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: 
+  website-label-3: 
+  website-aria-label-3: 
+  description-short: I use digital and analog methods to create illustrations and patterns.
+  description-long: 
+  type:
+    is-art-prints: true
+    is-paper-goods: false
+    is-clothing-apparel: false
+    is-food: false
+    is-accessories: false
+    is-home-goods: false
+    is-wild-card: false
+- image: "/uploads/md-RadhakrishnanGayathri.jpg"
+  image-alt: Grishm’s Gala Lands' Artwork
+  name: "<span>Grishm's</span> <span>Gala</span> <span>Lands</span>"
   role: Handmade DIY greeting card kits for children with eco friendly materials
-  artist: 
+  artist: Gayathri Radhakrishnan
   pronouns: She/Her
   price-point: "$20 per kit"
   website-url-1: https://instagram.com/grishmsgalaland
   website-label-1: <i class="fas fa-computer-classic"></i> Instagram
-  website-aria-label-1: Grishm’s Gala Land's Website
+  website-aria-label-1: Grishm’s Gala Lands' Website
   website-url-2: 
   website-label-2: 
   website-aria-label-2: 
@@ -1046,7 +1072,7 @@ past-editions:
     is-wild-card: false
 - image: "/uploads/md-LandiaGuayi.jpg"
   image-alt: 
-  name: 'Guayilandia '
+  name: "<span>Guayilandia</span>"
   role: 'Mix media artist, illustrator and photographer '
   artist: Guayi Fernandez
   pronouns: She/Her
@@ -1075,7 +1101,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-VillavicencioKatrina.jpg"
   image-alt: 
-  name: Timpla Creative
+  name: <span>Timpla</span> <span>Creative</span>
   role: Mixed media artist selling art prints that relate and react to Filipina-American
     culture
   artist: Katrina Villavicencio
@@ -1106,7 +1132,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-LiuMeiling.jpg"
   image-alt: 
-  name: Meiling Liu Lettering and Illustration
+  name: <span>Meiling</span> <span>Liu</span> <span>Lettering</span> <span>and</span> <span>Illustration</span>
   role: Lettering, illustration, and watercolor artist
   artist: Meiling Liu
   pronouns: She/Her
@@ -1139,7 +1165,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-SchulmanAma.jpg"
   image-alt: 
-  name: All Very Goods
+  name: <span>All</span> <span>Very</span> <span>Goods</span>
   role: 'Accessory designer '
   artist: 'Ama Schulman '
   pronouns: She/Her
@@ -1167,7 +1193,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-BayotSarah.jpg"
   image-alt: 
-  name: Kicheko Goods
+  name: <span>Kicheko</span> <span>Goods</span>
   role: Jewelry maker
   artist: Sarah Bayot
   pronouns: She/Her
@@ -1199,7 +1225,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-EdgettKarin.jpg"
   image-alt: 
-  name: Karin Edgett ~ art ~ food ~ etc
+  name: <span>Karin</span> <span>Edgett</span> ~ <span>art</span> ~ <span>food</span> ~ <span>etc</span>
   role: Painter, poet, photographer and nutritional cook
   artist: Karin Edgett
   pronouns: 
@@ -1227,7 +1253,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-MurphyBridget.jpg"
   image-alt: 
-  name: BCMdesign
+  name: "<span>BCMdesign</span>"
   role: 'Printmaker, painter, and educator '
   artist: Bridget Murphy
   pronouns: 
@@ -1256,7 +1282,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-SharonKelly.jpg"
   image-alt: 
-  name: KellyLovesType
+  name: "<span>KellyLovesType</span>"
   role: Typographic prints, mugs, and stationery
   artist: Kelly Sharon
   pronouns: She/Her
@@ -1282,7 +1308,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-GrayMisty.jpg"
   image-alt: 
-  name: Misty Gray
+  name: <span>Misty</span> <span>Gray</span>
   role: Illustrator
   artist: 
   pronouns: 
@@ -1311,7 +1337,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-EcheverriAlessandra.jpg"
   image-alt: 
-  name: 'Typecase Industries '
+  name: '<span>Typecase</span> <span>Industries</span>'
   role: 'Letterpress & screen-printed paper goods '
   artist: Alessandra Echeverri
   pronouns: She/Her
@@ -1338,7 +1364,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-JuliannaMiriam.jpg"
   image-alt: 
-  name: Miriam Julianna
+  name: <span>Miriam</span> <span>Julianna</span>
   role: Multi-disciplinary artist
   artist: 
   pronouns: She/Her
@@ -1368,7 +1394,7 @@ past-editions:
     is-wild-card: true
 - image: "/uploads/md-RobertsonShahida.jpg"
   image-alt: 
-  name: Roots & Roux
+  name: <span>Roots</span> <span>&</span> <span>Roux</span>
   role: Southern plant-based recipes
   artist: Shahida Robertson
   pronouns: She/Her
@@ -1399,7 +1425,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-OBrienMike.jpg"
   image-alt: 
-  name: Red Table Press
+  name: <span>Red</span> <span>Table</span> <span>Press</span>
   role: Painter, printer, illustrator, and comic artist
   artist: Mike O’Brien
   pronouns: He/Him
@@ -1425,7 +1451,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-ProenzaMary.jpg"
   image-alt: 
-  name: Mary Proenza
+  name: <span>Mary</span> <span>Proenza</span>
   role: Painting, drawing, printmaking
   artist: 
   pronouns: She/Her
@@ -1451,7 +1477,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-FerraroBree.jpg"
   image-alt: 
-  name: Cake Me DC
+  name: <span>Cake</span> <span>Me</span> <span>DC</span>
   role: Baker
   artist: Bree Ferraro
   pronouns: She/Her
@@ -1483,7 +1509,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-McBratneySally.jpg"
   image-alt: 
-  name: Sally McBee
+  name: <span>Sally</span> <span>McBee</span>
   role: Artist & illustrator
   artist: Sally McBratney
   pronouns: She/Her
@@ -1514,7 +1540,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-MorrisonJenn.jpg"
   image-alt: 
-  name: Jenn Morrison
+  name: <span>Jenn</span> <span>Morrison</span>
   role: Oil Painter
   artist: 
   pronouns: 
@@ -1542,7 +1568,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HaberDan.jpg"
   image-alt: 
-  name: Diod.design
+  name: <span>Diod.design</span>
   role: Custom real-time LED music-visualizers
   artist: Dan Haber
   pronouns: He/Him
@@ -1571,7 +1597,7 @@ past-editions:
     is-wild-card: true
 - image: "/uploads/md-DuplainDanielle.jpg"
   image-alt: 
-  name: Danielle Duplain
+  name: <span>Danielle</span> <span>Duplain</span>
   role: Illustrator, graphic designer, motion graphics designer
   artist: 
   pronouns: She/Her
@@ -1599,7 +1625,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-MorganCarla.jpg"
   image-alt: 
-  name: The Glass Apothecary
+  name: <span>The</span> <span>Glass</span> <span>Apothecary</span>
   role: Stained glass and homemade herbal products
   artist: Carla Morgan
   pronouns: She/Her
@@ -1628,7 +1654,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-OboyleKasey.jpg"
   image-alt: 
-  name: Kasey O'Boyle
+  name: <span>Kasey</span> <span>O'Boyle</span>
   role: Painter and muralist
   artist: 
   pronouns: Ms.
@@ -1656,7 +1682,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HarrisonElyse.jpg"
   image-alt: 
-  name: Aviary Online
+  name: <span>Aviary</span> <span>Online</span>
   role: Mixed media wall sculptures of imaginary birds
   artist: Elyse Harrison
   pronouns: 
@@ -1686,7 +1712,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-CarmonamedinaCarlos.jpg"
   image-alt: 
-  name: DC is My City
+  name: <span>DC</span> <span>is</span> <span>My</span> <span>City</span>
   role: Prints and postcards from Washington DC
   artist: Carlos Carmonamedina
   pronouns: He/Him
@@ -1715,7 +1741,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-CliffordEliza.jpg"
   image-alt: 
-  name: Lavender Lizard Press [Launching Soon]
+  name: <span>Lavender</span> <span>Lizard</span> <span>Press [Launching Soon]</span>
   role: Prints and multidisciplinary art
   artist: Eliza Clifford
   pronouns: She/Her
@@ -1744,7 +1770,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-BruceOlivia.jpg"
   image-alt: 
-  name: Original Olivia
+  name: <span>Original</span> <span>Olivia</span>
   role: Art | Illustration | Design
   artist: Olivia Bruce
   pronouns: She/Her
@@ -1774,7 +1800,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-5iveCreatives.jpg"
   image-alt: 
-  name: 5ive Creatives
+  name: <span>5ive</span> <span>Creatives</span>
   role: Group of multidisciplinary artists
   artist: Bria Edwards, Kalyne Bruce, Olivia Bruce, Omari Jesse, Roland Lovett, Trevon
     Wright
@@ -1805,7 +1831,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-KumarPriyanka.jpg"
   image-alt: 
-  name: Priyanka Kay
+  name: <span>Priyanka</span> <span>Kay</span>
   role: Illustrator, muralist, printmaker
   artist: Priyanka Kumar
   pronouns: She/Her
@@ -1835,7 +1861,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-StithKeagoe.jpg"
   image-alt: 
-  name: Stith Works
+  name: <span>Stith</span> <span>Works</span>
   role: Illustrator and designer
   artist: Keagoe Stith
   pronouns: He/Him
@@ -1865,7 +1891,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-AgapovaMayya.jpg"
   image-alt: 
-  name: Mayya Agapova
+  name: <span>Mayya</span> <span>Agapova</span>
   role: Illustrator who creates digital, ink, and watercolor art
   artist: She/Her
   pronouns: "$15 – 20"
@@ -1894,7 +1920,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HoyleRian.jpg"
   image-alt: 
-  name: bEASH
+  name: <span>bEASH</span>
   role: Womenswear, accessories and home decor
   artist: Rian Hoyle
   pronouns: She/Her
