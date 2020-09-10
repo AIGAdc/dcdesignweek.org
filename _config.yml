@@ -65,7 +65,11 @@ defaults:
     has-accessibility-notes: 
     accessibility-notes:
     - note: |-
-        |- All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation. * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6) * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org. * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+        All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
+        * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
+        * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+        * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
+
 
 
         You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
@@ -102,8 +106,8 @@ defaults:
   tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
   tier-2-header: "<span>Contributing Sponsors</span>"
   tier-3-header: "<span>Supporting Sponsors</span>"
-  body: 'DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support. '
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support.
   image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
   sponsor-tier-1:
@@ -494,7 +498,8 @@ navigation-teaser:
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
-    |- Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+    Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
+
     Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!
   accessibility-header: Accessibility
   accessibility-text: 'If you need any accommodations to fully access the event, please
@@ -578,6 +583,401 @@ past-editions:
     image: "/uploads/dcdw-2019-pattern.jpg"
     url: https://2019.dcdesignweek.org
     aria-label: 2019 DC Design Week Website
+2020-makers:
+  - image: "/uploads/md-BarcenasVioleta.jpg"
+    image-alt: Violeta Barcenas Chamorro's Artwork
+    name: <span>Violeta</span> <span>Barcenas</span> <span>Chamorro</span>
+    role: Art-Illustration
+    pronouns: She/Her
+    price-point: $5-28
+    website-url-1: https://violetredstudio.com
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Violeta Barcenas Chamorro's Website
+    description-short: My approach is exploration all the time. But constantly wanting that exploration to lead to a positive place. I enjoy a lot starting over. So making mistakes (on paper) and going back to them is one of my favorite exercises. 
+    description-long: I am from Nicaragua. In 2008, when I first went into business, the concept of an illustration store was never seen there. I was diagnosed with breast cancer the year before, so I guess I was very courageous after my brush with death, and decided to jump in, rent a place and start something new.
+    type:
+      is-art-prints: true
+      is-paper-goods: true
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-SmithMakeda.jpg"
+    image-alt: Makeda Smith's Artwork
+    name: <span>Sio</span> <span>Ceramics</span>
+    role: Ceramics jewelry and small home goods
+    artist: Makeda Smith
+    pronouns: She/Her
+    price-point: $22 – 65
+    website-url-1: http://www.sioceramics.com/
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Makeda Smith's Website
+    description-short: I make everything by hand with clay. All of the designs I create are made through play and creativity. I get inspiration from color and basic shapes.
+    description-long: I decided to go into business for myself because it’s also been a dream of mine to be a business owner. I always wanted to build something from the ground up that is mine. I wanted to show BIPOC that they can build, create, and be whatever they choose. It's a big statement to be a young black woman owning a business. I want others to be inspired and feel represented when they see my business.
+    type:
+      is-art-prints: false
+      is-paper-goods: false
+      is-clothing-apparel: true
+      is-food: false
+      is-accessories: true
+      is-home-goods: true
+      is-wild-card: false
+  - image: "/uploads/md-HudaAshfaq.jpg"
+    image-alt: Ashfaq Huda's Artwork
+    name: <span>Ashfaq</span> <span>Huda</span>
+    role: Pop art using photoshop on canvas and framed
+    pronouns: He/Him
+    price-point: $400
+    website-url-1: https://www.etsy.com/shop/urbanSutra
+    website-label-1: <i class="fas fa-store"></i> Shop
+    website-aria-label-1: Ashfaq Huda's Website
+    description-short: I make everything by hand with clay. All of the designs I create are made through play and creativity. I get inspiration from color and basic shapes.
+    description-long: I decided to go into business for myself because it’s also been a dream of mine to be a business owner. I always wanted to build something from the ground up that is mine. I wanted to show BIPOC that they can build, create, and be whatever they choose. It's a big statement to be a young black woman owning a business. I want others to be inspired and feel represented when they see my business.
+    type:
+      is-art-prints: true
+      is-paper-goods: false
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-KingLaura.jpg"
+    image-alt: Laura King Paints' Artwork
+    name: <span>Laura</span> <span>King</span> <span>Paints</span>
+    role: Acrylic paintings inspired by nature and custom pet portraits
+    artist: Laura King
+    pronouns: She/Her
+    price-point: $1-40 (goods), $40-150 (original paintings)
+    website-url-1: http://laurakingpaints.etsy.com/
+    website-label-1: <i class="fas fa-store"></i> Shop
+    website-aria-label-1: Laura King Paints' Shop
+    website-url-2: https://www.instagram.com/laurakingpaints
+    website-label-2: <i class="fab fa-instagram"></i> Instagram
+    website-aria-label-2: Laura King Paints' Instagram
+    description-short: I spend a lot of time outside and am inspired by my favorite plants and animals, including one of my favorite subjects, bees! For my original paintings and custom pet portraits, I use acrylic paint on paper, canvasses, and wood slices. From my art, I create art prints, greeting cards, postcards, and stickers.
+    description-long: I find so much joy in creating pieces that inspire people and remind them to enjoy and find beauty in nature, and in being able to capture pets in a way that their owners will cherish forever.
+    type:
+      is-art-prints: true
+      is-paper-goods: true
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: true
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-KriebelMarcella.jpg"
+    image-alt: Marcella Kriebel Art + Illustration's Artwork
+    name: <span>Marcella</span> <span>Kriebel</span> <span>Art</span> <span>and</span> <span>Illustration</span>
+    role: Food-themed watercolors
+    artist: Marcella Kriebel 
+    pronouns: She/Her
+    price-point: $5-40
+    website-url-1: http://www.marcellakriebel.com/
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Marcella Kriebel Art + Illustration's Website
+    website-url-2: https://www.instagram.com/marcellakriebel
+    website-label-2: <i class="fab fa-instagram"></i> Instagram
+    website-aria-label-2: Marcella Kriebel Art + Illustration's Instagram
+    description-short: I create watercolors that are designed as a mix and match series of food related art prints. From cocktail recipes and bacon, to blueberries and blue crab, there's something for everybody. In addition to the prints, I offer greeting cards featuring my art, and my illustrated cookbooks that celebrate recipes from my travels. My newest project is Small Batch — a collection of recipes and stories from foodies in the DMV.
+    type:
+      is-art-prints: true
+      is-paper-goods: true
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: true
+      is-home-goods: true
+      is-wild-card: false
+  - image: "/uploads/md-LeviMiriam.jpg"
+    image-alt: Miriam Levi Design's Artwork
+    name: <span>Miriam</span> <span>Levi</span> <span>Design</span>
+    role: Painter and graphic designer
+    artist: Miriam Levi
+    pronouns: She/Her
+    price-point: $50–200
+    website-url-1: https://miriamrlevi.myportfolio.com
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Miriam Levi Design's Website
+    description-short: My work is whimsical, lighthearted, inspirational, but can be edgy.
+    type:
+      is-art-prints: true
+      is-paper-goods: false
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-walkerSeshat.jpg"
+    image-alt: FND ART's Artwork
+    name: <span>FND</span> <span>ART</span> 
+    role: Reimagined artifacts and repurposed vintage finds
+    artist: Seshat Walker
+    pronouns: She/Her
+    price-point: $15–300
+    website-url-1: http://www.fndart.co
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: FND ART's Website
+    description-short: I create original art and pieces designed and/or re-imagined in ways that present new narratives and functionalities. 
+    type:
+      is-art-prints: true
+      is-paper-goods: false
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: true
+      is-wild-card: true
+  - image: "/uploads/md-RaderDan.jpg"
+    image-alt: Moon Lighter Ceramics' Artwork
+    name: <span>Moon</span> <span>Lighter</span> <span>Ceramics</span>
+    role: Ceramics
+    artist: Dan Rader
+    pronouns: He/Him
+    price-point: $25-85
+    website-url-1: https://www.instagram.com/moon.lighter.ceramics/
+    website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+    website-aria-label-1: Moon Lighter Ceramics' Instagram
+    description-short: Five-to-nine ceramics for nine-to-five people. Pottery in the pursuit of the beautiful, interesting, and useful.
+    type:
+      is-art-prints: true
+      is-paper-goods: false
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-NordbergErica.jpg"
+    image-alt: Erica Nordberg's Artwork
+    name: <span>Erica</span> <span>Nordberg</span>
+    role: Painter
+    artist: Erica Nordberg
+    pronouns: She/Her
+    price-point: Originals $100 – 350, Prints $20 – 25
+    website-url-1: http://www.ericanordberg.com/
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Erica Nordberg's Website
+    website-url-2: https://www.instagram.com/erica.nordberg/
+    website-label-2: <i class="fas fa-computer-classic"></i> Instagram
+    website-aria-label-2: Erica Nordberg's Instagram
+    description-short: I paint, mostly in watercolor. I have recently joined the Capital Artist Collective and launched my own website where I post/sell original work and prints. I plan to continue to grow my portfolio and my shop!
+    type:
+      is-art-prints: true
+      is-paper-goods: false
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
+  - image: "/uploads/md-CivettiAmy.jpg"
+    image-alt: Amy Civetti's Artwork
+    name: <span>Amy</span> <span>Civetti</span>
+    role: Graphic designer and illustrator, part-time tie dye enthusiast 
+    artist: Amy Civetti
+    pronouns: She/Her
+    price-point: $25-50
+    website-url-1: https://www.amycivetti.com/
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Amy Civetti's Website
+    description-short: I am constantly inspired by the city — the people, the events, the nature. I draw by hand or on an iPad before bringing things onto my laptop for editing and layout. 
+    type:
+      is-paper-goods: true
+      is-clothing-apparel: true
+      is-accessories: true
+      is-home-goods: true
+  - image: "/uploads/md-MorrEliAndValencia.jpg"
+    image-alt: Eli and Valencia Morr's Artwork
+    name: Peacesake Candles & Co.
+    role: Candle maker
+    artist: Eli and Valencia Morr
+    price-point: $14 – 26
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: We launched our company in 2016 with a goal of creating sustainable products that are kind to the environment. We produce all natural soy wax candles as well as room/linen sprays that are recyclable, made with sustainable ingredients and are phthalate-free. We wanted to create a sustainable business that our kids can run one day.
+    type:
+      is-home-goods: true
+  - image: "/uploads/md-IngersollCarlee.jpg"
+    image-alt: Carlee Ingersoll's Artwork
+    name: Carlee Ingersoll Illustrations
+    role: Illustrator
+    artist: Carlee Ingersoll
+    pronouns: She/Her
+    price-point: $3 – 40
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: I’m inspired by bright colors and things I see that make me happy. I like to recreate items/pets/scenes I encounter on a daily basis.
+    type:
+      is-art-prints: true
+      is-accessories: true
+  - image: "/uploads/md-AdamsMadelyne.jpg"
+    image-alt: Madelyne Adams' Artwork
+    name: Good Letters
+    role: Stationery, stickers, prints
+    artist: Madelyne Adams
+    pronouns: She/Her
+    price-point: $3 – 15
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: I like to make things that are authentic and purposeful, that share a message, whether it’s a sticker on a water bottle or a handwritten letter. 
+    type:
+      is-paper-goods: true
+      is-accessories: true
+      is-art-prints: true
+      is-clothing-apparel: true
+  - image: "/uploads/md-MosherErika.jpg"
+    image-alt: Erika Mosher's Artwork
+    name: Erika Lee
+    role: Watercolor artist
+    artist: Erika Mosher
+    pronouns: She/Her
+    price-point: $5 (greeting cards) to $150 (originals)
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: I work in watercolor because of its unpredictable flow. Using a dynamic medium to depict snapshots in time, be it a place I traveled or creating a portrait of a beloved pet, forces quick decision making to create a painting. This lets me focus on the composition and create a feeling of a place or whatever my subject is. Seeing a familiar scene in a new way can ignite a fond memory or have the viewer notice something they never did before. I attempt to bring these perceptions to life and try to expose something new about them to my audience.
+    type:
+      is-art-prints: true
+      is-paper-goods: true
+  - image: "/uploads/md-ReddyPreeti.jpg"
+    image-alt: Preeti Reddy's Artwork
+    name: Preeti Reddy 
+    role: Jewelry maker and custom stationary 
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: My jewelry is created with a primitive approach. All pieces are handcrafted and the patterns are created with found objects.
+    type: 
+      is-accessories: true
+      is-clothing-apparel: true
+      is-paper-goods: true
+  - image: "/uploads/md-PannoneChristina.jpg"
+    image-alt: Christina Pannone's Artwork
+    name: Knieriem Designs
+    role: Clothing Designer
+    artist: Christina Pannone
+    price-point: $99 – 300
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: I design, pattern, and manufacture clothing in my studio in VA, exclusively using fabrics made in the USA. My style is simple and chic with the goal that each piece can be worn for many different occasions. 
+    type:
+      is-clothing-apparel: true
+  - image: "/uploads/md-KnoxNora.jpg"
+    image-alt: Nora Knox's Artwork
+    name: Nora Knox Embroidery
+    role: Contemporary embroidery artist
+    artist: Nora Knox
+    pronouns: She/her
+    price-point: $50
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: Nora Knox creates original hand-stitched embroidery pieces. Each piece is one of a kind, as she allows the thread to guide her through the process. Nora is fascinated with the intersection of humans and nature, and through deliberate stitches Nora uses color to inspire us to see whimsy in familiar subjects.
+    type:
+      is-art-prints: true
+      is-clothing-apparel: true
+  - image: "/uploads/md-PurserAshley.jpg"
+    image-alt: Ashley Purser's Artwork
+    name: Purser Weddings
+    role: Wedding and event stationery
+    artist: Ashley Purser
+    pronouns: She/Her
+    price-point: Stationery packages typically start at around $1200
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    description-short: Purser Weddings create unique and contemporary designs for clients who are fans of out-of-the-box and non-cookie cutter design! 
+    type:
+      is-paper-goods: true
+  - image: "/uploads/md-KirschJesse.jpg"
+    image-alt: Jesse Kirsch's Artwork
+    name: No Plan Press
+    role: Letterpress Prints 
+    artist: Jesse Kirsch 
+    pronouns: He/Him
+    price-point: $6 – 36
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    description-short: No Plan prints are modern, fun and guaranteed to make you think. The juxtaposition of modern 21st century digital design printed on 19th century technology. 
+    type:
+      is-art-prints: true
+      is-paper-goods: true
+  - image: "/uploads/md-AhnDoYoung.jpg"
+    image-alt: Do Young Ahn's Artwork
+    name: Wick and Paper
+    role: Handmade candles and greeting cards
+    artist: Do Young Ahn
+    price-point: $20 – 28
+    website-url-1:
+    website-label-1:
+    website-aria-label-1:
+    description-short: My approach is making great quality products and making people smile. As a graphic designer, I always wanted to have my own brand. One day I ordered a candle making DIY kit, and I fell in love with it. So, I decided to create a business around it. This process has been fun so far, from designing my logo, researching  materials, to making good quality candles. 
+    type:
+      is-paper-goods: true
+      is-home-goods: true
+  - image: "/uploads/md-BlueRobinDesigns.jpg"
+    image-alt: Blue Robin Designs' Artwork
+    name: <span>Blue</span> <span>Robin</span> <span>Designs</span>
+    role: Visual creator who works heavily in acrylic and texture
+    website-url-1: https://www.bluerobincmb.com/
+    website-label-1: <i class="fas fa-computer-classic"></i> Website
+    website-aria-label-1: Blue Robin Designs' Website
+    description-short: "My art is sensory driven. It is to be consumed and interpreted in ways that leave my audience feeling at the very least: human and alive. It pinches you so that you know you are not dreaming."
+    type:
+      is-art-prints: true
+      is-clothing-apparel: false
+      is-accessories: false
+  - image: "/uploads/md-BarcenasVioleta.jpg"
+    image-alt: Grishm’s Gala Land's Artwork
+    name: <span>Gayathri</span> <span>Radhakrishnan</span>
+    role: Handmade DIY greeting card kits for children with eco friendly materials
+    artist: 
+    pronouns: She/Her
+    price-point: $20 per kit
+    website-url-1: https://instagram.com/grishmsgalaland
+    website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+    website-aria-label-1: Grishm’s Gala Land's Website
+    website-url-2:
+    website-label-2:
+    website-aria-label-2:
+    website-url-3:
+    website-label-3:
+    website-aria-label-3:
+    description-short: My kidpreneur son and I (his mom) make DIY greeting card kits for kids ages 5+ with eco friendly materials. We took part in kidpreneur fairs, won awards, got featured in the media, and received positive feedback to expand our business! 
+    description-long: 
+    type:
+      is-art-prints: false
+      is-paper-goods: true
+      is-clothing-apparel: false
+      is-food: false
+      is-accessories: false
+      is-home-goods: false
+      is-wild-card: false
 2020-giphys-black:
 - embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
     frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via
@@ -633,7 +1033,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000000"
 asseturl: "/assets/"
-baseurl: 
+baseurl: ''
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
