@@ -42,6 +42,6 @@ filter-time:
   is-daytime: true
 ---
 
-Watch DC-based rock band Broke Royals in their DCDW, special edition episode of their weekly livestream series “Alone, Together,” where they write, record, debut, and dissect a brand new song every week! This week’s song will be written using this year’s DCDW theme “Your Creative Voices” in mind. They are joined by fellow DC musician Will Eastman, a DJ and the owner of U Street Music Hall.
+Watch DC-based rock band Broke Royals in their DCDW, special edition episode of their weekly livestream series “Alone, Together,” where they write, record, debut, and dissect a brand new song every week! This week’s song will be written using this year’s DCDW theme “Your Creative Voices” in mind. They are joined by fellow DC musician Will Eastman, a DJ and the owner of U Street Music Hall. 
 
 With this session, Broke Royals wants to encourage collaboration and community in this time of social distancing. Band members will share tips for how to stay creative under a strict deadline.
