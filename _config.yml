@@ -492,6 +492,9 @@ navigation-teaser:
 - url: "/about/"
   label: About
   aria-label: About Page
+- url: "/makers/"
+  label: Makers
+  aria-label: Makers Page
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page
@@ -535,7 +538,7 @@ makers:
     to do that than showcasing their work? We may not be able to do our IRL Pop-Up
     Shop this year, but we’ve got the next best thing. Check out our virtual directory
     for all your fall shopping needs.
-  button-url: "/makers/"
+  button-url: "/maker/directory"
   button-label: Explore Local Artists
 faqs:
   header: "<span>FAQs</span>"

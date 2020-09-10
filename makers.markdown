@@ -1,7 +1,7 @@
 ---
 title: Makers
 permalink: "/makers/"
-published: false
+published: true
 layout: makers
 hero:
 - has-hero: true
@@ -48,7 +48,7 @@ celebrating-you:
     Black and white photo of DC Design Week pop-up shop at Cherry Blossom Creative,
     Black and white photo of DC Design Week volunteers selling promotional posters,
     Black and white photo of DC Design Week poster being screenprinted'
-  button-label: Makers Directory
-  button-url: "/makers/directory/"
+  button-label: Maker Directory
+  button-url: "/maker/directory/"
 ---
 
