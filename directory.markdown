@@ -20,6 +20,6 @@ introduction:
     — look no further than the DC Design Week Maker Directory to support your local
     creative community. Check out our list below for access to literally dozens of
     people making and selling amazing things, right here in our beloved city. "
-layout: makers-directory
+layout: maker-directory
 ---
 
