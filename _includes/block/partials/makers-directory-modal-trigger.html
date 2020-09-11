@@ -1,4 +1,4 @@
-<!-- modal trigger -->
+{% comment %} modal trigger {% endcomment %}
 <a data-modal="#{{ maker.name | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}"
 	href="/maker/directory/#{{ maker.name | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}">
 	<div class="card__aside shadow-reverse shadow-reverse--green">
