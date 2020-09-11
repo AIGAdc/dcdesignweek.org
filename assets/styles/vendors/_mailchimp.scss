@@ -23,8 +23,9 @@
 	font-weight: 400;
 	padding: $spacing-8;
 	width: 100%;
-	-webkit-appearance: none;
-    -moz-appearance: none;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
 }
 
 #mc_embed_signup .asterisk {
@@ -92,9 +93,9 @@
 
 #mc_embed_signup input.button {
 	width: 100%;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
 }
 
 .mailchimp-grid {
@@ -120,9 +121,9 @@
 
 .mailchimp-button input {
 	margin-top: 0;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
 }
 
 @media screen and (min-width: 799px) {
