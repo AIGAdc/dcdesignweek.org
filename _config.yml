@@ -433,12 +433,12 @@ defaults:
   image-alt: Laura Schorr's Portrait
   name: Laura Schorr
   role: Program Lead
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: http://www.thefrauenpower.com/
+  website-label-1: <i class="fas fa-globe-americas"></i> Website
+  website-aria-label-1: Laura Schorr's Website
+  website-url-2: https://www.instagram.com/laura.a.schorr/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Laura Schorr's Instagram
 - image: "/uploads/profile-silvia-script.png"
   image-alt: Silvia Script's Portrait
   name: Silvia Script

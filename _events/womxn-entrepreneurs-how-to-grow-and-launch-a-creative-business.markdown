@@ -74,7 +74,7 @@ speakers:
   website-url: https://www.instagram.com/elisecrawfordgallagher
 - name: Jess Washington
   pronouns: She | Her | Hers
-  title: CEO of The Branding Babe
+  title: Branding and Creative Strategist
   bio: |
     With 7+ years of digital marketing experience and a perpetual creative itch, Jess Washington helps small businesses, organizations, and content creators meaningfully connect with their audience in ways that boost revenue and build loyalty.
 

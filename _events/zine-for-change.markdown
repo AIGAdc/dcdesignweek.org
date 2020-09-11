@@ -76,4 +76,4 @@ When traditional means of publishing — the big houses and editors — aren’t
 
 Zines communicate artistic visions and ignite change. They give historically marginalized voices an avenue and audience to reimagine narratives. They provide a place for the stories that need to be told.
 
-Join Jennifer White-Johnson and Mishele Carlson of Related Tactics for a discussion about the power of print and how zines as a medium reimagine and redesign existing narratives. They’ll share how to capture your own voice and bring your project from idea to life, including tips on everything from creation to distribution. We’ll also have time for audience Q&A, so come with questions for these accomplished and acclaimed artists and publishers.
+Join Jennifer White-Johnson and Michele Carlson of Related Tactics for a discussion about the power of print and how zines as a medium reimagine and redesign existing narratives. They’ll share how to capture your own voice and bring your project from idea to life, including tips on everything from creation to distribution. We’ll also have time for audience Q&A, so come with questions for these accomplished and acclaimed artists and publishers.
