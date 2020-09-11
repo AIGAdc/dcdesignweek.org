@@ -37,11 +37,21 @@
 				<button class="button button__link button__link--white" data-modal-close>Close</button>
 			</div>
 			<div class="modal-content-info">
+				{% if maker.name %}
 				<h2 class="modal__title">{{ maker.name }}</h2>
+				{% endif %}
+				{% if maker.role %}
 				<h3 class="card__title">{{ maker.role }}</h3>
+				{% endif %}
+				{% if maker.artist %}
 				<p class="card__title" style="margin-top: 32px">Artist: {{ maker.artist }}</p>
+				{% endif %}
+				{% if maker.pronouns %}
 				<p class="card__title">Pronouns: {{ maker.pronouns }}</p>
+				{% endif %}
+				{% if maker.price-point %}
 				<p class="card__title">Price of Work: {{ maker.price-point }}</p>
+				{% endif %}
 			</div>
 			<div class="modal__links">
 				{% if maker.website-url-1 %}
