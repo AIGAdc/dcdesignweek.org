@@ -6,6 +6,8 @@
 	font-size: $font-size-14;
 	text-transform: uppercase;
 	text-decoration: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 @mixin button-inline-block {

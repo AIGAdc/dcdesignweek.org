@@ -23,6 +23,8 @@
 	font-weight: 400;
 	padding: $spacing-8;
 	width: 100%;
+	-webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #mc_embed_signup .asterisk {
@@ -118,6 +120,9 @@
 
 .mailchimp-button input {
 	margin-top: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 @media screen and (min-width: 799px) {
