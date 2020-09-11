@@ -122,42 +122,42 @@ defaults:
     website: https://www.dukeduck.com/
     aria-label: Duke & Duck Website
   sponsor-tier-2:
-  - title: Brand Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-artemisward.svg"
     image-alt: Artemis Ward Logo
     website: https://artemisward.com
     aria-label: Artemis Ward Website
-  - title: Motion Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-icf.svg"
     image-alt: ICF Logo
     website: https://www.icf.com/next
     aria-label: ICF Website
-  - title: Brand Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-monterosa.png"
     image-alt: Monterosa Logo
     website: https://www.monterosa.co
     aria-label: Monterosa Website
-  - title: Motion Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-nclud.svg"
     image-alt: Nclud Logo
     website: https://nclud.com
     aria-label: Nclud Website
-  - title: Brand Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-verbit.svg"
     image-alt: Verbit Logo
     website: https://verbit.ai/
     aria-label: Verbit Website
-  - title: Motion Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-mosaic.png"
     image-alt: Mosaic Logo
     website: https://mosaic.buzz/
     aria-label: Mosaic Website
-  - title: Brand Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-nava.png"
     image-alt: Nava Logo
     website: https://www.navapbc.com
     aria-label: Nava Website
-  - title: Motion Sponsor
+  - title:
     image: "/uploads/sponsors-contributing-dcux.png"
     image-alt: DCUX Logo
     website: http://dcux.org
@@ -489,12 +489,12 @@ navigation-teaser:
 - url: "/events/"
   label: Events
   aria-label: Events Page
+- url: "/maker/directory"
+  label: Maker Directory
+  aria-label: Maker Directory Page
 - url: "/about/"
   label: About
   aria-label: About Page
-- url: "/makers/"
-  label: Makers
-  aria-label: Makers Page
 - url: "/faqs/"
   label: FAQs
   aria-label: FAQs Page
