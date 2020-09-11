@@ -10,7 +10,7 @@ hero:
   image-1-alt: 
 introduction:
 - has-introduction: true
-  header: "<span>Maker</span> <span>Directory</span>"
+  header: "<span>Showcasing</span> <span>DC</span> <span>Creators</span>"
   body: "> DC is full of creators who craft art, jewelry, home goods, ceramics, cakes,
     stationery, clothing, and more. Whether for a living, as a side hustle, or as
     a hobby, these makers help power the creative energy in the DMV. We can’t do our

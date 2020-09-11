@@ -17,6 +17,7 @@
 #mc_embed_signup .mc-field-group input {
 	background-color: $black;
 	border: solid 1px $white;
+	border-radius: 0 !important;
 	color: $white;
 	display: block;
 	font-size: $font-size-16;
@@ -93,6 +94,7 @@
 
 #mc_embed_signup input.button {
 	width: 100%;
+	border-radius: 0 !important;
 	-webkit-appearance: none !important;
 	-moz-appearance: none !important;
 	appearance: none !important;
