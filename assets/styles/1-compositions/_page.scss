@@ -207,8 +207,8 @@
 	margin-top: $spacing-16;
 }
 
-.flow-large>*+*,
-.flow-large>* {
+.flow-large>*+*:not(:first-child),
+.flow-large>*:not(:first-child) {
 	margin-top: $spacing-32;
 }
 
