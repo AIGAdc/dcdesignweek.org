@@ -1,11 +1,11 @@
 // overrides global grid to be 3 columns instead of 4
-.makers-directory-layout ul.grid,
+.maker-directory-layout ul.grid,
 .modal-content {
 	display: grid;
 	grid-template-columns: 1fr;
 }
 
-.makers-directory-layout .events-filter {
+.maker-directory-layout .events-filter {
 	position: sticky;
 	top: 116px;
 }
@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 639px) {
-	.makers-directory-layout ul.grid {
+	.maker-directory-layout ul.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
@@ -71,7 +71,7 @@
 @media screen and (min-width: 1023px) {
 
 	// overrides global grid to be 3 columns instead of 4
-	.makers-directory-layout ul.grid {
+	.maker-directory-layout ul.grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
@@ -102,29 +102,29 @@
 	cursor: pointer;
 }
 
-.makers-directory-layout .events-filter__reset.control-group {
+.maker-directory-layout .events-filter__reset.control-group {
 	width: 100%;
 	border: solid 1px $white;
 	position: relative;
 	top: -1px;
 }
 
-.makers-directory-layout .events-filter__reset.control-group button {
+.maker-directory-layout .events-filter__reset.control-group button {
 	width: 100%;
 	text-align: left;
 }
 
-.makers-directory-layout .events-filter__dates.control-group,
-.makers-directory-layout .filter-header {
+.maker-directory-layout .events-filter__dates.control-group,
+.maker-directory-layout .filter-header {
 	padding: $spacing-16;
 	border: solid 1px $white;
 	position: relative;
 }
 
-.makers-directory-layout .filter-header {
+.maker-directory-layout .filter-header {
 	margin-bottom: -1px;
 }
 
-.makers-directory-layout .events-filter__dates.control-group {
+.maker-directory-layout .events-filter__dates.control-group {
 	margin-bottom: -1px;
 }
