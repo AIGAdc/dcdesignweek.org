@@ -1,7 +1,8 @@
 ---
 title: Art and Activism with Busboys and Poets
 date: 2020-08-22 14:08:00 -04:00
-styled-title: "<span>Inside</span><span>Look</span><span>at</span><span>#PaintTheStorefronts</span>"
+styled-title: "<span>Art</span> <span>and</span> <span>Activism</span> <span>with</span>
+  <span>Busboys</span> <span>And</span> <span>Poets</span>"
 image: "/uploads/Mural_Spread%20Love_Mia%20Duval_promo.png"
 description: Founder of Busboys and Poets Andy Shallal and local artists Mia DuVall,
   Luther Wright, and Luis Peralta Del Valle will discuss the role of art in activism
