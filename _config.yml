@@ -540,6 +540,15 @@ makers:
     for all your fall shopping needs.
   button-url: "/maker/directory"
   button-label: Explore Local Artists
+posters:
+  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span>
+    <span>Directory</span>"
+  body: We’re all about celebrating the DMV’s creative voices — so what better way
+    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
+    Shop this year, but we’ve got the next best thing. Check out our virtual directory
+    for all your fall shopping needs.
+  button-url: ""
+  button-label: Posters
 faqs:
   header: "<span>FAQs</span>"
   body: DC Design Week looks different this year, so you might have questions. Maybe
@@ -644,7 +653,7 @@ past-editions:
   pronouns: He/Him
   price-point: "$400"
   website-url-1: https://www.etsy.com/shop/urbanSutra
-  website-label-1: <i class="fas fa-store"></i> Shop
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Ashfaq Huda's Website
   description-short: I make everything by hand with clay. All of the designs I create
     are made through play and creativity. I get inspiration from color and basic shapes.
@@ -670,7 +679,7 @@ past-editions:
   pronouns: She/Her
   price-point: "$1-40 (goods), $40-150 (original paintings)"
   website-url-1: http://laurakingpaints.etsy.com/
-  website-label-1: <i class="fas fa-store"></i> Shop
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Laura King Paints' Shop
   website-url-2: https://www.instagram.com/laurakingpaints
   website-label-2: <i class="fab fa-instagram"></i> Instagram
@@ -767,30 +776,30 @@ past-editions:
   pronouns: He/Him
   price-point: "$25-85"
   website-url-1: https://www.instagram.com/moon.lighter.ceramics/
-  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: Moon Lighter Ceramics' Instagram
   description-short: Five-to-nine ceramics for nine-to-five people. Pottery in the
     pursuit of the beautiful, interesting, and useful.
   type:
-    is-art-prints: true
+    is-art-prints: false
     is-paper-goods: false
     is-clothing-apparel: false
     is-food: false
     is-accessories: false
-    is-home-goods: false
+    is-home-goods: true
     is-wild-card: false
 - image: "/uploads/md-NordbergErica.jpg"
   image-alt: Erica Nordberg's Artwork
   name: "<span>Erica</span> <span>Nordberg</span>"
   role: Painter
-  artist: Erica Nordberg
+  artist:
   pronouns: She/Her
   price-point: Originals $100 – 350, Prints $20 – 25
   website-url-1: http://www.ericanordberg.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Erica Nordberg's Website
   website-url-2: https://www.instagram.com/erica.nordberg/
-  website-label-2: <i class="fas fa-computer-classic"></i> Instagram
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: Erica Nordberg's Instagram
   description-short: I paint, mostly in watercolor. I have recently joined the Capital
     Artist Collective and launched my own website where I post/sell original work
@@ -1007,6 +1016,7 @@ past-editions:
 - image: "/uploads/md-BlueRobinDesigns.jpg"
   image-alt: Blue Robin Designs' Artwork
   name: "<span>Blue</span> <span>Robin</span> <span>Designs</span>"
+  artist: Blue Robin
   role: Visual creator who works heavily in acrylic and texture
   website-url-1: https://www.bluerobincmb.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
@@ -1016,8 +1026,8 @@ past-editions:
     pinches you so that you know you are not dreaming.'
   type:
     is-art-prints: true
-    is-clothing-apparel: false
-    is-accessories: false
+    is-clothing-apparel: true
+    is-accessories: true
 - image: "/uploads/md-SwindellJustine.jpg"
   image-alt: Justine Swindell Art's Artwork
   name: "<span>Justine</span> <span>Swindell</span> <span>Art</span>"
@@ -1025,11 +1035,11 @@ past-editions:
   artist: Justine Swindell
   pronouns: She/Her
   price-point: "$25 – 60"
-  website-url-1: justineswindell.com
-  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
+  website-url-1: https://justineswindell.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@justineswindellart"
-  website-label-2: 
+  website-url-2: "https://www.instagram.com/justineswindellart"
+  website-label-2: <i class="fas fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1045,15 +1055,15 @@ past-editions:
     is-home-goods: false
     is-wild-card: false
 - image: "/uploads/md-RadhakrishnanGayathri.jpg"
-  image-alt: Grishm’s Gala Lands' Artwork
-  name: "<span>Grishm's</span> <span>Gala</span> <span>Lands</span>"
+  image-alt: Grishm’s Gala Land's Artwork
+  name: "<span>Grishm's</span> <span>Gala</span> <span>Land</span>"
   role: Handmade DIY greeting card kits for children with eco friendly materials
   artist: Gayathri Radhakrishnan
-  pronouns: She/Her
+  pronouns:
   price-point: "$20 per kit"
   website-url-1: https://instagram.com/grishmsgalaland
-  website-label-1: <i class="fas fa-computer-classic"></i> Instagram
-  website-aria-label-1: Grishm’s Gala Lands' Website
+  website-label-1: <i class="fas fa-instagram"></i> Instagram
+  website-aria-label-1: Grishm’s Gala Land's Instagram
   website-url-2: 
   website-label-2: 
   website-aria-label-2: 
@@ -1080,14 +1090,14 @@ past-editions:
   artist: Guayi Fernandez
   pronouns: She/Her
   price-point: "$16 – 27"
-  website-url-1: guayilandiaart.com
-  website-label-1: 
+  website-url-1: https://guayilandiaart.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@guayilandia_art"
-  website-label-2: 
+  website-url-2: "https://instagram.com/guayilandia_art"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
-  website-url-3: "@guayilandia "
-  website-label-3: 
+  website-url-3: "https://instagram.com/guayilandia "
+  website-label-3: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-3: 
   description-short: I work with strong colors and simple figures. I combine materials
     to form textures and depths. On the other hand, I make brightly colored illustrations
@@ -1110,8 +1120,8 @@ past-editions:
   artist: Katrina Villavicencio
   pronouns: She/Her
   price-point: "$20 – 40"
-  website-url-1: timpladc.com
-  website-label-1: 
+  website-url-1: https://timpladc.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1140,8 +1150,8 @@ past-editions:
   artist: Meiling Liu
   pronouns: She/Her
   price-point: 
-  website-url-1: "@letteringwithmei"
-  website-label-1: 
+  website-url-1: "https://instagram.com/letteringwithmei"
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1173,11 +1183,11 @@ past-editions:
   artist: 'Ama Schulman '
   pronouns: She/Her
   price-point: "$22"
-  website-url-1: 'allverygoods.com '
-  website-label-1: 
+  website-url-1: 'https://allverygoods.com '
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@allverygoods"
-  website-label-2: 
+  website-url-2: "https://instagram.com/allverygoods"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1201,11 +1211,11 @@ past-editions:
   artist: Sarah Bayot
   pronouns: She/Her
   price-point: "$42 – 100"
-  website-url-1: kichekogoods.com
-  website-label-1: 
+  website-url-1: https://kichekogoods.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@kichekogoods"
-  website-label-2: 
+  website-url-2: "https://instagram.com/kichekogoods"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1233,11 +1243,11 @@ past-editions:
   artist: Karin Edgett
   pronouns: 
   price-point: Free – $5,000
-  website-url-1: 'KarinEdgett.art '
-  website-label-1: 
+  website-url-1: 'https://karinedgett.art '
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@edgempress"
-  website-label-2: 
+  website-url-2: "https://instagram.com/edgempress"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1261,8 +1271,8 @@ past-editions:
   artist: Bridget Murphy
   pronouns: 
   price-point: "$120 – 300"
-  website-url-1: bcmdesignstudio.com/portfolio/fine-art
-  website-label-1: 
+  website-url-1: https://bcmdesignstudio.com/portfolio/fine-art
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1290,11 +1300,11 @@ past-editions:
   artist: Kelly Sharon
   pronouns: She/Her
   price-point: "$25"
-  website-url-1: 'etsy.com/shop/kellylovestype '
-  website-label-1: 
+  website-url-1: 'https://etsy.com/shop/kellylovestype '
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@kellylovestype"
-  website-label-2: 
+  website-url-2: "https://instagram.com/kellylovestype"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1316,8 +1326,8 @@ past-editions:
   artist: 
   pronouns: 
   price-point: "$15 – 25"
-  website-url-1: "@mistymauvegray"
-  website-label-1: 
+  website-url-1: "https://instagram.com/mistymauvegray"
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1345,8 +1355,8 @@ past-editions:
   artist: Alessandra Echeverri
   pronouns: She/Her
   price-point: "$5 – 20 for products, custom work varies"
-  website-url-1: "@typecaseind"
-  website-label-1: 
+  website-url-1: "https://instagram.com/typecaseind"
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1372,8 +1382,8 @@ past-editions:
   artist: 
   pronouns: She/Her
   price-point: Free
-  website-url-1: miriamjsutton.com
-  website-label-1: 
+  website-url-1: https://miriamjsutton.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1402,8 +1412,8 @@ past-editions:
   artist: Shahida Robertson
   pronouns: She/Her
   price-point: 
-  website-url-1: "@rootsnroux"
-  website-label-1: 
+  website-url-1: "https://instagram.com/rootsnroux"
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1433,8 +1443,8 @@ past-editions:
   artist: Mike O’Brien
   pronouns: He/Him
   price-point: "$50 – 250"
-  website-url-1: redtablepress.com
-  website-label-1: 
+  website-url-1: https://redtablepress.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1459,8 +1469,8 @@ past-editions:
   artist: 
   pronouns: She/Her
   price-point: "$60 – $3,000"
-  website-url-1: maryproenza.com
-  website-label-1: 
+  website-url-1: https://maryproenza.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1485,11 +1495,11 @@ past-editions:
   artist: Bree Ferraro
   pronouns: She/Her
   price-point: "$50+"
-  website-url-1: cakemedc.com
-  website-label-1: 
+  website-url-1: https://cakemedc.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@cakemedc"
-  website-label-2: 
+  website-url-2: "https://instagram.com/cakemedc"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1517,11 +1527,11 @@ past-editions:
   artist: Sally McBratney
   pronouns: She/Her
   price-point: "$30 – 55"
-  website-url-1: 'sallymcbee.us '
-  website-label-1: 
+  website-url-1: 'https://sallymcbee.us '
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@sally_mcbee"
-  website-label-2: 
+  website-url-2: "https://instagram.com/sally_mcbee"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1548,8 +1558,8 @@ past-editions:
   artist: 
   pronouns: 
   price-point: 
-  website-url-1: etsy.com/shop/JennMorrisonStudio
-  website-label-1: 
+  website-url-1: https://etsy.com/shop/JennMorrisonStudio
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1576,8 +1586,8 @@ past-editions:
   artist: Dan Haber
   pronouns: He/Him
   price-point: "$500"
-  website-url-1: diod.design
-  website-label-1: 
+  website-url-1: https://diod.design
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1605,11 +1615,11 @@ past-editions:
   artist: 
   pronouns: She/Her
   price-point: 
-  website-url-1: danielleduplain.com
-  website-label-1: 
+  website-url-1: https://danielleduplain.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@ddaniellie"
-  website-label-2: 
+  website-url-2: "https://instagram.com/ddaniellie"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1633,11 +1643,11 @@ past-editions:
   artist: Carla Morgan
   pronouns: She/Her
   price-point: "$20 – 80"
-  website-url-1: theglassapothecary.com
-  website-label-1: 
+  website-url-1: https://theglassapothecary.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@the_glass_apothecary"
-  website-label-2: 
+  website-url-2: "https://instagram.com/the_glass_apothecary"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1662,11 +1672,11 @@ past-editions:
   artist: 
   pronouns: Ms.
   price-point: "$300 – 500"
-  website-url-1: kaseyoboyle.com
-  website-label-1: 
+  website-url-1: https://kaseyoboyle.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@kaseyoboyle"
-  website-label-2: 
+  website-url-2: "https://instagram.com/kaseyoboyle"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1690,11 +1700,11 @@ past-editions:
   artist: Elyse Harrison
   pronouns: 
   price-point: "$250 – 300"
-  website-url-1: aviaryonline.net
-  website-label-1: 
+  website-url-1: https://aviaryonline.net
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@helloaviary"
-  website-label-2: 
+  website-url-2: "https://instagram.com/helloaviary"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1720,11 +1730,11 @@ past-editions:
   artist: Carlos Carmonamedina
   pronouns: He/Him
   price-point: "$3 – 40"
-  website-url-1: dcismycity.com
-  website-label-1: 
+  website-url-1: https://dcismycity.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@carmonamedinastudio"
-  website-label-2: 
+  website-url-2: "https://instagram.com/carmonamedinastudio"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1749,11 +1759,11 @@ past-editions:
   artist: Eliza Clifford
   pronouns: She/Her
   price-point: "$20 – 100"
-  website-url-1: elizaclifford.com
-  website-label-1: 
+  website-url-1: https://elizaclifford.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@eliza_anneee"
-  website-label-2: 
+  website-url-2: "https://instagram.com/eliza_anneee"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1780,10 +1790,10 @@ past-editions:
   price-point: Original Artwork $75 – 300; Calendar $20; Cards (single) $3.50 – 5;
     Cards (Box of 10) $15; T-Shirts $20
   website-url-1: oliviasprints.com
-  website-label-1: 
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@anoriginalolivia"
-  website-label-2: 
+  website-url-2: "https://instagram.com/anoriginalolivia"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1809,11 +1819,11 @@ past-editions:
     Wright
   pronouns: 
   price-point: "$3 – 200"
-  website-url-1: 5ivecreatives.com
-  website-label-1: 
+  website-url-1: https://5ivecreatives.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@5ivecreatives"
-  website-label-2: 
+  website-url-2: "https://instagram.com/5ivecreatives"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1838,12 +1848,12 @@ past-editions:
   role: Illustrator, muralist, printmaker
   artist: Priyanka Kumar
   pronouns: She/Her
-  price-point: Varies
-  website-url-1: priyankakumar.net
-  website-label-1: 
+  price-point: Price Varies
+  website-url-1: https://priyankakumar.net
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@priyankakay"
-  website-label-2: 
+  website-url-2: "https://instagram.com/priyankakay"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1869,11 +1879,11 @@ past-editions:
   artist: Keagoe Stith
   pronouns: He/Him
   price-point: "$250 and up | open for commission"
-  website-url-1: kstith1.wixsite.com/keagoestith
-  website-label-1: 
+  website-url-1: https://kstith1.wixsite.com/keagoestith
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "@keagoe"
-  website-label-2: 
+  website-url-2: "https://instagram.com/keagoe"
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1899,8 +1909,8 @@ past-editions:
   artist: She/Her
   pronouns: "$15 – 20"
   price-point: 
-  website-url-1: magapova.com
-  website-label-1: 
+  website-url-1: https://magapova.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 
@@ -1928,8 +1938,8 @@ past-editions:
   artist: Rian Hoyle
   pronouns: She/Her
   price-point: "$7 – 89"
-  website-url-1: BEASHplease.com
-  website-label-1: 
+  website-url-1: https://BEASHplease.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: 
   website-label-2: 

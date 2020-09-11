@@ -3,17 +3,16 @@
 		<div class="column column--span-2 flow-large">
 			<h2 class="column--width-70 flow-none"
 				id="{{ site.makers.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.makers.header }}</h2>
+				{{ site.makers.header }}
+			</h2>
 			<div class="wysiwyg">{{ site.makers.body | markdownify }}</div>
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 				href="{{ site.makers.button-url }}" target="_blank">{{ site.makers.button-label }}
 			</a>
 		</div>
 		<div class="column column--span-2">
-			<img class="bubble-group-partnerus-1" aria-hidden="true" src="/uploads/bubble-black-medium-03.png"
+			<img class="" aria-hidden="true" src="/uploads/gallery-maker-items.png"
 				alt="Large Floating amorphous bubbles">
-			<img class="bubble-group-partnerus-2" aria-hidden="true" src="/uploads/bubble-black-group-partnerus-2.png"
-				alt="Small Floating amorphous bubbles">
 		</div>
 	</div>
 </section>
