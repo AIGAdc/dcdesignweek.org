@@ -66,16 +66,6 @@
 	.makers-directory-layout ul.grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
-
-	.modal-content {
-		grid-template-columns: repeat(2, 1fr);
-		margin-bottom: 40px;
-	}
-
-	.modal__aside {
-		display: block;
-		margin-bottom: $spacing-16;
-	}
 }
 
 @media screen and (min-width: 1023px) {
@@ -85,12 +75,22 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 
+	.modal-content {
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 40px;
+	}
+
 	.modal-content--left {
 		margin-right: $spacing-48;
 	}
 
 	.modal__image::after {
 		left: -16px;
+	}
+
+	.modal__aside {
+		display: block;
+		margin-bottom: $spacing-16;
 	}
 
 }

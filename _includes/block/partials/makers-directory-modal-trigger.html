@@ -1,5 +1,5 @@
 <!-- modal trigger -->
-<a data-modal="#{{ maker.name | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}" href="/makers/directory/#{{ maker.name | downcase | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}">
+<a data-modal="#{{ maker.name | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}" href="/maker/directory/#{{ maker.name | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}">
 	<div class="card__aside">
 		<figure class="card__image">
 			<img src="{{ maker.image }}" alt="{{ maker.image-alt }}" />
