@@ -56,9 +56,9 @@
 			<div class="modal-content-info">
 				<h2 class="modal__title">{{ maker.name }}</h2>
 				<h3 class="card__title">{{ maker.role }}</h3>
-				<p class="card__title" style="margin-top: 32px">{{ maker.artist }}</p>
-				<p class="card__title">{{ maker.pronouns }}</p>
-				<p class="card__title">{{ maker.price-point }}</p>
+				<p class="card__title" style="margin-top: 32px">Artist: {{ maker.artist }}</p>
+				<p class="card__title">Pronouns: {{ maker.pronouns }}</p>
+				<p class="card__title">Price of Work: {{ maker.price-point }}</p>
 			</div>
 			<div class="modal__links">
 				{% if maker.website-url-1 %}
