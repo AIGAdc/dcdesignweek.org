@@ -22,22 +22,24 @@
 		<link rel="stylesheet" href="https://use.typekit.net/dsv8drd.css">
 
 		<!-- scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="{{ site.asseturl }}scripts/offside.min.js"></script>
 		<script src="{{ site.asseturl }}scripts/houdini.min.js"></script>
 		<script src="{{ site.asseturl }}scripts/modals.min.js"></script>
 		<script src="{{ site.asseturl }}scripts/mixitup.min.js"></script>
 		<script src="{{ site.asseturl }}scripts/mixitup-multifilter.min.js"></script>
 		<script src="https://kit.fontawesome.com/2b8780d76f.js" crossorigin="anonymous"></script>
+		{% if page.url == "/events/self-guided/" %}
 		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		{% endif %}
 	</head>
 
 	<body>
 		<main class="{{ page.layout }}-layout" id="my-content-container">
-			{%- include site-header.html -%}
+			{%- include block/site-header.html -%}
 			{{ content | safe }}
-			{%- include site-footer.html -%}
+			{%- include block/site-footer.html -%}
 		</main>
 		{% include 3rd-party/offside/menu.html %}
 	</body>
