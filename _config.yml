@@ -655,8 +655,7 @@ past-editions:
   website-url-1: https://www.etsy.com/shop/urbanSutra
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Ashfaq Huda's Website
-  description-short: I make everything by hand with clay. All of the designs I create
-    are made through play and creativity. I get inspiration from color and basic shapes.
+  description-short: I use images and manipulate them to make pop art.
   type:
     is-art-prints: true
     is-paper-goods: false
@@ -810,7 +809,7 @@ past-editions:
   image-alt: Amy Civetti's Artwork
   name: "<span>Amy</span> <span>Civetti</span>"
   role: Graphic designer and illustrator, part-time tie dye enthusiast
-  artist: Amy Civetti
+  artist:
   pronouns: She/Her
   price-point: "$25-50"
   website-url-1: https://www.amycivetti.com/
@@ -820,6 +819,7 @@ past-editions:
     the nature. I draw by hand or on an iPad before bringing things onto my laptop
     for editing and layout.
   type:
+    is-art-prints: true
     is-paper-goods: true
     is-clothing-apparel: true
     is-accessories: true
@@ -830,12 +830,12 @@ past-editions:
   role: Candle maker
   artist: Eli and Valencia Morr
   price-point: "$14 – 26"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: http://www.peacesake.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Eli and Valencia Morr's Website
+  website-url-2: https://www.instagram.com/peacesakecandle/?hl=en
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Eli and Valencia Morr's Instagram
   description-short: We launched our company in 2016 with a goal of creating sustainable
     products that are kind to the environment. We produce all natural soy wax candles
     as well as room/linen sprays that are recyclable, made with sustainable ingredients
@@ -850,12 +850,12 @@ past-editions:
   artist: Carlee Ingersoll
   pronouns: She/Her
   price-point: "$3 – 40"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: https://carleeingersoll.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Carlee Ingersoll's Website
+  website-url-2: http://www.instagram.com/carleebird
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Carlee Ingersoll's Instagram
   description-short: I’m inspired by bright colors and things I see that make me happy.
     I like to recreate items/pets/scenes I encounter on a daily basis.
   type:
@@ -868,12 +868,12 @@ past-editions:
   artist: Madelyne Adams
   pronouns: She/Her
   price-point: "$3 – 15"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: https://www.goodlettersdesign.com
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Madelyn Adams' Website
+  website-url-2: http://www.instagram.com/goodlettersdesign/
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Madelyn Adams' Instagram
   description-short: I like to make things that are authentic and purposeful, that
     share a message, whether it’s a sticker on a water bottle or a handwritten letter.
   type:
@@ -888,12 +888,12 @@ past-editions:
   artist: Erika Mosher
   pronouns: She/Her
   price-point: "$5 (greeting cards) to $150 (originals)"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: http://erikalee.co/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Erika Lee's Website
+  website-url-2: https://www.instagram.com/erikapaints/
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Erika Lee's Website
   description-short: I work in watercolor because of its unpredictable flow. Using
     a dynamic medium to depict snapshots in time, be it a place I traveled or creating
     a portrait of a beloved pet, forces quick decision making to create a painting.
@@ -908,12 +908,12 @@ past-editions:
   image-alt: Preeti Reddy's Artwork
   name: <span>Preeti</span> <span>Reddy</span>
   role: Jewelry maker and custom stationary
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: http://lekkalalab.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Preeti Reddy's Website
+  website-url-2: https://www.instagram.com/lekkalalab/
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Preeti Reddy's Website
   description-short: My jewelry is created with a primitive approach. All pieces are
     handcrafted and the patterns are created with found objects.
   type:
@@ -926,12 +926,12 @@ past-editions:
   role: Clothing Designer
   artist: Christina Pannone
   price-point: "$99 – 300"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: http://www.knidesigns.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Christina Pannone's Website
+  website-url-2: http://www.instagram.com/knidesigns
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Christina Pannone's Instagram
   description-short: I design, pattern, and manufacture clothing in my studio in VA,
     exclusively using fabrics made in the USA. My style is simple and chic with the
     goal that each piece can be worn for many different occasions.
@@ -944,12 +944,12 @@ past-editions:
   artist: Nora Knox
   pronouns: She/her
   price-point: "$50"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: https://noraknox.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Nora Knox's Website
+  website-url-2: http://www.instagram.com/noraknoxembroidery
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Nora Knox's Instagram
   description-short: Nora Knox creates original hand-stitched embroidery pieces. Each
     piece is one of a kind, as she allows the thread to guide her through the process.
     Nora is fascinated with the intersection of humans and nature, and through deliberate
@@ -964,9 +964,9 @@ past-editions:
   artist: Ashley Purser
   pronouns: She/Her
   price-point: Stationery packages typically start at around $1200
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
+  website-url-1: https://purserweddings.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Ashley Purser's Website
   description-short: Purser Weddings create unique and contemporary designs for clients
     who are fans of out-of-the-box and non-cookie cutter design!
   type:
@@ -978,12 +978,12 @@ past-editions:
   artist: Jesse Kirsch
   pronouns: He/Him
   price-point: "$6 – 36"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
-  website-aria-label-2: 
+  website-url-1: https://www.noplan.press/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Jesse Kirsch's Website
+  website-url-2: https://www.instagram.com/noplanpress/
+  website-label-2: <i class="fab fa-Instagram"></i> Instagram
+  website-aria-label-2: Jesse Kirsch's Instagram
   description-short: No Plan prints are modern, fun and guaranteed to make you think.
     The juxtaposition of modern 21st century digital design printed on 19th century
     technology.
@@ -996,9 +996,9 @@ past-editions:
   role: Handmade candles and greeting cards
   artist: Do Young Ahn
   price-point: "$20 – 28"
-  website-url-1: 
-  website-label-1: 
-  website-aria-label-1: 
+  website-url-1: https://www.wickandpaper.com/
+  website-label-1: <i class="fas fa-computer-classic"></i> Website
+  website-aria-label-1: Do Young Ahn's Website
   description-short: My approach is making great quality products and making people
     smile. As a graphic designer, I always wanted to have my own brand. One day I
     ordered a candle making DIY kit, and I fell in love with it. So, I decided to
@@ -1015,6 +1015,9 @@ past-editions:
   website-url-1: https://www.bluerobincmb.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Blue Robin Designs' Website
+  website-url-2: https://www.instagram.com/bluerobincmb/
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
+  website-aria-label-2: Blue Robin Designs' Instagram
   description-short: 'My art is sensory driven. It is to be consumed and interpreted
     in ways that leave my audience feeling at the very least: human and alive. It
     pinches you so that you know you are not dreaming.'
@@ -1033,7 +1036,7 @@ past-editions:
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
   website-url-2: "https://www.instagram.com/justineswindellart"
-  website-label-2: <i class="fas fa-instagram"></i> Instagram
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -1056,7 +1059,7 @@ past-editions:
   pronouns:
   price-point: "$20 per kit"
   website-url-1: https://instagram.com/grishmsgalaland
-  website-label-1: <i class="fas fa-instagram"></i> Instagram
+  website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: Grishm’s Gala Land's Instagram
   website-url-2: 
   website-label-2: 
@@ -1664,7 +1667,7 @@ past-editions:
   name: <span>Kasey</span> <span>O'Boyle</span>
   role: Painter and muralist
   artist: 
-  pronouns: Ms.
+  pronouns: She/Her
   price-point: "$300 – 500"
   website-url-1: https://kaseyoboyle.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
@@ -1748,20 +1751,17 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-CliffordEliza.jpg"
   image-alt: 
-  name: <span>Lavender</span> <span>Lizard</span> <span>Press [Launching Soon]</span>
+  name: <span>Lavender</span> <span>Lizard</span> <span>Press</span>
   role: Prints and multidisciplinary art
   artist: Eliza Clifford
   pronouns: She/Her
   price-point: "$20 – 100"
-  website-url-1: https://elizaclifford.com
+  website-url-1: http://www.etsy.com/shop/LavenderLizardPress
   website-label-1: <i class="fas fa-computer-classic"></i> Website
-  website-aria-label-1: 
-  website-url-2: "https://instagram.com/eliza_anneee"
+  website-aria-label-1: Eliza Clifford's Website
+  website-url-2: "http://www.instagram.com/lavender_lizard_press"
   website-label-2: <i class="fab fa-instagram"></i> Instagram
-  website-aria-label-2: 
-  website-url-3: 
-  website-label-3: 
-  website-aria-label-3: 
+  website-aria-label-2: Eliza Clifford's Instagram
   description-short: I am a printmaker and multidisciplinary artist. I work in a variety
     of mediums, from screenprinting, intaglio, and relief printing to comics, artist
     books/zines, and paintings. My works play with organic forms and illustrative
@@ -1783,12 +1783,12 @@ past-editions:
   pronouns: She/Her
   price-point: Original Artwork $75 – 300; Calendar $20; Cards (single) $3.50 – 5;
     Cards (Box of 10) $15; T-Shirts $20
-  website-url-1: oliviasprints.com
+  website-url-1: https://www.oliviasprints.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
-  website-aria-label-1: 
+  website-aria-label-1: Olivia Bruce's Website
   website-url-2: "https://instagram.com/anoriginalolivia"
   website-label-2: <i class="fab fa-instagram"></i> Instagram
-  website-aria-label-2: 
+  website-aria-label-2: Olivia Bruce's Instagram
   website-url-3: 
   website-label-3: 
   website-aria-label-3: 
