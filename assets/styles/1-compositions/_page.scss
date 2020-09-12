@@ -40,7 +40,7 @@
 // Page Specific
 .home-layout .section,
 .makers-layout .section,
-.makers-directory-layout .section {
+.maker-directory-layout .section {
 	border-top: solid 1px $white;
 }
 
@@ -207,8 +207,8 @@
 	margin-top: $spacing-16;
 }
 
-.flow-large>*+*,
-.flow-large>* {
+.flow-large>*+*:not(:first-child),
+.flow-large>*:not(:first-child) {
 	margin-top: $spacing-32;
 }
 
