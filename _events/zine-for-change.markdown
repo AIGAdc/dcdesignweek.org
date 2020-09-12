@@ -50,11 +50,8 @@ speakers:
   website-url: https://www.instagram.com/relatedtactics/
 - name: Jen White-Johnson
   pronouns: She | Her | Hers
-  title: Jen White-Johnson is a Designer, Photographer, Art Activist, and Art Educator.
-  bio: Jennifer’s work explores the erasure of black disabled children in digital
-    and literary media. The visuals she makes using photo and design are her own reflections
-    that amplify conversations with the Disability community. It ignites the continued
-    need to develop anti-racist, anti-ableist media.
+  title: Jen White-Johnson is a Disabled Designer, Photographer, Art Activist, and Art Educator.
+  bio: Jennifer is a disabled designer whose work explores the erasure of black disabled children in digital and literary media. The visuals she makes using photo and design are her own acts of resistance that amplify conversations with the Disability community. It ignites the continued need to develop anti-racist, anti-ableist media. This year her activist work has been featured in the New York Times, Rolling Stone, The Washington Post and she was recently selected as an honoree on the 2020 Diversability’s D-30 Disability Impact List.
   website-label: Instagram
   website-url: https://www.instagram.com/jtknoxroxs/
 has-accessibility-notes: true
