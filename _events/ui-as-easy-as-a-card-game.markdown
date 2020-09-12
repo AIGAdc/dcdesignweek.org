@@ -63,3 +63,6 @@ Evaluating UI may not be as easy as 1-2-3, but it can be as easy as a card game.
 Jason Brier, a Purdue and Amazon alumni, will help elevate your UI evaluation skills with a deck of cards that synthesize 100 years of research on perception, cognition, and ergonomics. Learn how to detect and resolve costly UI problems early in development.
 
 For this hands-on workshop, you’ll learn with and from other participants. We’ll provide a digital version of the cards, explain how to use them, conduct engaging group activities, and conclude with a Q&A. This is a hands-on workshop, where you’ll get to learn with and from other participants in engaging activities.
+
+### Event Sponsor: DCUX
+DCUX is a community for UX, design, and creative professionals. Organized by UXPA DC, DCUX offers innovative meetups, workshops, and conferences that offer professional development, networking, and speaking opportunities for people at any stage of their career. Join us at www.dcux.org to learn more and get involved!
