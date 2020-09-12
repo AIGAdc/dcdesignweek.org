@@ -1,7 +1,6 @@
 ---
 title: Maker Directory
 permalink: "/maker/directory"
-published: true
 hero:
 - has-hero: true
   header: 

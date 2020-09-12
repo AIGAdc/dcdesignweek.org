@@ -122,42 +122,42 @@ defaults:
     website: https://www.dukeduck.com/
     aria-label: Duke & Duck Website
   sponsor-tier-2:
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-artemisward.svg"
     image-alt: Artemis Ward Logo
     website: https://artemisward.com
     aria-label: Artemis Ward Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-icf.svg"
     image-alt: ICF Logo
     website: https://www.icf.com/next
     aria-label: ICF Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-monterosa.png"
     image-alt: Monterosa Logo
     website: https://www.monterosa.co
     aria-label: Monterosa Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-nclud.svg"
     image-alt: Nclud Logo
     website: https://nclud.com
     aria-label: Nclud Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-verbit.svg"
     image-alt: Verbit Logo
     website: https://verbit.ai/
     aria-label: Verbit Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-mosaic.png"
     image-alt: Mosaic Logo
     website: https://mosaic.buzz/
     aria-label: Mosaic Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-nava.png"
     image-alt: Nava Logo
     website: https://www.navapbc.com
     aria-label: Nava Website
-  - title:
+  - title: 
     image: "/uploads/sponsors-contributing-dcux.png"
     image-alt: DCUX Logo
     website: http://dcux.org
@@ -547,7 +547,7 @@ posters:
     to do that than showcasing their work? We may not be able to do our IRL Pop-Up
     Shop this year, but we’ve got the next best thing. Check out our virtual directory
     for all your fall shopping needs.
-  button-url: ""
+  button-url: ''
   button-label: Posters
 faqs:
   header: "<span>FAQs</span>"
@@ -785,7 +785,7 @@ past-editions:
   image-alt: Erica Nordberg's Artwork
   name: "<span>Erica</span> <span>Nordberg</span>"
   role: Painter
-  artist:
+  artist: 
   pronouns: She/Her
   price-point: Originals $100 – 350, Prints $20 – 25
   website-url-1: http://www.ericanordberg.com/
@@ -809,7 +809,7 @@ past-editions:
   image-alt: Amy Civetti's Artwork
   name: "<span>Amy</span> <span>Civetti</span>"
   role: Graphic designer and illustrator, part-time tie dye enthusiast
-  artist:
+  artist: 
   pronouns: She/Her
   price-point: "$25-50"
   website-url-1: https://www.amycivetti.com/
@@ -845,7 +845,7 @@ past-editions:
     is-home-goods: true
 - image: "/uploads/md-IngersollCarlee.jpg"
   image-alt: Carlee Ingersoll's Artwork
-  name: <span>Carlee</span> <span>Ingersoll</span> <span>Illustrations</span>
+  name: "<span>Carlee</span> <span>Ingersoll</span> <span>Illustrations</span>"
   role: Illustrator
   artist: Carlee Ingersoll
   pronouns: She/Her
@@ -863,7 +863,7 @@ past-editions:
     is-accessories: true
 - image: "/uploads/md-AdamsMadelyne.jpg"
   image-alt: Madelyne Adams' Artwork
-  name: <span>Good</span> <span>Letters</span>
+  name: "<span>Good</span> <span>Letters</span>"
   role: Stationery, stickers, prints
   artist: Madelyne Adams
   pronouns: She/Her
@@ -883,7 +883,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-MosherErika.jpg"
   image-alt: Erika Mosher's Artwork
-  name: <span>Erika</span> <span>Lee</span>
+  name: "<span>Erika</span> <span>Lee</span>"
   role: Watercolor artist
   artist: Erika Mosher
   pronouns: She/Her
@@ -906,7 +906,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-ReddyPreeti.jpg"
   image-alt: Preeti Reddy's Artwork
-  name: <span>Preeti</span> <span>Reddy</span>
+  name: "<span>Preeti</span> <span>Reddy</span>"
   role: Jewelry maker and custom stationary
   website-url-1: http://lekkalalab.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
@@ -922,7 +922,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-PannoneChristina.jpg"
   image-alt: Christina Pannone's Artwork
-  name: <span>Knieriem</span> <span>Designs</span>
+  name: "<span>Knieriem</span> <span>Designs</span>"
   role: Clothing Designer
   artist: Christina Pannone
   price-point: "$99 – 300"
@@ -939,7 +939,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-KnoxNora.jpg"
   image-alt: Nora Knox's Artwork
-  name: <span>Nora</span> <span>Knox</span> <span>Embroidery</span>
+  name: "<span>Nora</span> <span>Knox</span> <span>Embroidery</span>"
   role: Contemporary embroidery artist
   artist: Nora Knox
   pronouns: She/her
@@ -959,7 +959,7 @@ past-editions:
     is-clothing-apparel: true
 - image: "/uploads/md-PurserAshley.jpg"
   image-alt: Ashley Purser's Artwork
-  name: <span>Purser</span> <span>Weddings</span>
+  name: "<span>Purser</span> <span>Weddings</span>"
   role: Wedding and event stationery
   artist: Ashley Purser
   pronouns: She/Her
@@ -973,7 +973,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-KirschJesse.jpg"
   image-alt: Jesse Kirsch's Artwork
-  name: <span>No</span> <span>Plan</span> <span>Press</span>
+  name: "<span>No</span> <span>Plan</span> <span>Press</span>"
   role: Letterpress Prints
   artist: Jesse Kirsch
   pronouns: He/Him
@@ -992,7 +992,7 @@ past-editions:
     is-paper-goods: true
 - image: "/uploads/md-AhnDoYoung.jpg"
   image-alt: Do Young Ahn's Artwork
-  name: <span>Wick</span> <span>and</span> <span>Paper</span>
+  name: "<span>Wick</span> <span>and</span> <span>Paper</span>"
   role: Handmade candles and greeting cards
   artist: Do Young Ahn
   price-point: "$20 – 28"
@@ -1035,13 +1035,14 @@ past-editions:
   website-url-1: https://justineswindell.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://www.instagram.com/justineswindellart"
+  website-url-2: https://www.instagram.com/justineswindellart
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
   website-aria-label-3: 
-  description-short: I use digital and analog methods to create illustrations and patterns.
+  description-short: I use digital and analog methods to create illustrations and
+    patterns.
   description-long: 
   type:
     is-art-prints: true
@@ -1056,7 +1057,7 @@ past-editions:
   name: "<span>Grishm's</span> <span>Gala</span> <span>Land</span>"
   role: Handmade DIY greeting card kits for children with eco friendly materials
   artist: Gayathri Radhakrishnan
-  pronouns:
+  pronouns: 
   price-point: "$20 per kit"
   website-url-1: https://instagram.com/grishmsgalaland
   website-label-1: <i class="fab fa-instagram"></i> Instagram
@@ -1090,10 +1091,10 @@ past-editions:
   website-url-1: https://guayilandiaart.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/guayilandia_art"
+  website-url-2: https://instagram.com/guayilandia_art
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
-  website-url-3: "https://instagram.com/guayilandia "
+  website-url-3: 'https://instagram.com/guayilandia '
   website-label-3: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-3: 
   description-short: I work with strong colors and simple figures. I combine materials
@@ -1111,7 +1112,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-VillavicencioKatrina.jpg"
   image-alt: 
-  name: <span>Timpla</span> <span>Creative</span>
+  name: "<span>Timpla</span> <span>Creative</span>"
   role: Mixed media artist selling art prints that relate and react to Filipina-American
     culture
   artist: Katrina Villavicencio
@@ -1142,12 +1143,13 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-LiuMeiling.jpg"
   image-alt: 
-  name: <span>Meiling</span> <span>Liu</span> <span>Lettering</span> <span>and</span> <span>Illustration</span>
+  name: "<span>Meiling</span> <span>Liu</span> <span>Lettering</span> <span>and</span>
+    <span>Illustration</span>"
   role: Lettering, illustration, and watercolor artist
   artist: Meiling Liu
   pronouns: She/Her
   price-point: 
-  website-url-1: "https://instagram.com/letteringwithmei"
+  website-url-1: https://instagram.com/letteringwithmei
   website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
@@ -1175,7 +1177,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-SchulmanAma.jpg"
   image-alt: 
-  name: <span>All</span> <span>Very</span> <span>Goods</span>
+  name: "<span>All</span> <span>Very</span> <span>Goods</span>"
   role: 'Accessory designer '
   artist: 'Ama Schulman '
   pronouns: She/Her
@@ -1183,7 +1185,7 @@ past-editions:
   website-url-1: 'https://allverygoods.com '
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/allverygoods"
+  website-url-2: https://instagram.com/allverygoods
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1203,7 +1205,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-BayotSarah.jpg"
   image-alt: 
-  name: <span>Kicheko</span> <span>Goods</span>
+  name: "<span>Kicheko</span> <span>Goods</span>"
   role: Jewelry maker
   artist: Sarah Bayot
   pronouns: She/Her
@@ -1211,7 +1213,7 @@ past-editions:
   website-url-1: https://kichekogoods.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/kichekogoods"
+  website-url-2: https://instagram.com/kichekogoods
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1235,7 +1237,8 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-EdgettKarin.jpg"
   image-alt: 
-  name: <span>Karin</span> <span>Edgett</span> ~ <span>art</span> ~ <span>food</span> ~ <span>etc</span>
+  name: "<span>Karin</span> <span>Edgett</span> ~ <span>art</span> ~ <span>food</span>
+    ~ <span>etc</span>"
   role: Painter, poet, photographer and nutritional cook
   artist: Karin Edgett
   pronouns: 
@@ -1243,7 +1246,7 @@ past-editions:
   website-url-1: 'https://karinedgett.art '
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/edgempress"
+  website-url-2: https://instagram.com/edgempress
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1300,7 +1303,7 @@ past-editions:
   website-url-1: 'https://etsy.com/shop/kellylovestype '
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/kellylovestype"
+  website-url-2: https://instagram.com/kellylovestype
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1318,12 +1321,12 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-GrayMisty.jpg"
   image-alt: 
-  name: <span>Misty</span> <span>Gray</span>
+  name: "<span>Misty</span> <span>Gray</span>"
   role: Illustrator
   artist: 
   pronouns: 
   price-point: "$15 – 25"
-  website-url-1: "https://instagram.com/mistymauvegray"
+  website-url-1: https://instagram.com/mistymauvegray
   website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
@@ -1347,12 +1350,12 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-EcheverriAlessandra.jpg"
   image-alt: 
-  name: '<span>Typecase</span> <span>Industries</span>'
+  name: "<span>Typecase</span> <span>Industries</span>"
   role: 'Letterpress & screen-printed paper goods '
   artist: Alessandra Echeverri
   pronouns: She/Her
   price-point: "$5 – 20 for products, custom work varies"
-  website-url-1: "https://instagram.com/typecaseind"
+  website-url-1: https://instagram.com/typecaseind
   website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
@@ -1374,7 +1377,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-JuliannaMiriam.jpg"
   image-alt: 
-  name: <span>Miriam</span> <span>Julianna</span>
+  name: "<span>Miriam</span> <span>Julianna</span>"
   role: Multi-disciplinary artist
   artist: 
   pronouns: She/Her
@@ -1404,12 +1407,12 @@ past-editions:
     is-wild-card: true
 - image: "/uploads/md-RobertsonShahida.jpg"
   image-alt: 
-  name: <span>Roots</span> <span>&</span> <span>Roux</span>
+  name: "<span>Roots</span> <span>&</span> <span>Roux</span>"
   role: Southern plant-based recipes
   artist: Shahida Robertson
   pronouns: She/Her
   price-point: 
-  website-url-1: "https://instagram.com/rootsnroux"
+  website-url-1: https://instagram.com/rootsnroux
   website-label-1: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-1: 
   website-url-2: 
@@ -1435,7 +1438,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-OBrienMike.jpg"
   image-alt: 
-  name: <span>Red</span> <span>Table</span> <span>Press</span>
+  name: "<span>Red</span> <span>Table</span> <span>Press</span>"
   role: Painter, printer, illustrator, and comic artist
   artist: Mike O’Brien
   pronouns: He/Him
@@ -1461,7 +1464,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-ProenzaMary.jpg"
   image-alt: 
-  name: <span>Mary</span> <span>Proenza</span>
+  name: "<span>Mary</span> <span>Proenza</span>"
   role: Painting, drawing, printmaking
   artist: 
   pronouns: She/Her
@@ -1487,7 +1490,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-FerraroBree.jpg"
   image-alt: 
-  name: <span>Cake</span> <span>Me</span> <span>DC</span>
+  name: "<span>Cake</span> <span>Me</span> <span>DC</span>"
   role: Baker
   artist: Bree Ferraro
   pronouns: She/Her
@@ -1495,7 +1498,7 @@ past-editions:
   website-url-1: https://cakemedc.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/cakemedc"
+  website-url-2: https://instagram.com/cakemedc
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1519,7 +1522,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-McBratneySally.jpg"
   image-alt: 
-  name: <span>Sally</span> <span>McBee</span>
+  name: "<span>Sally</span> <span>McBee</span>"
   role: Artist & illustrator
   artist: Sally McBratney
   pronouns: She/Her
@@ -1527,7 +1530,7 @@ past-editions:
   website-url-1: 'https://sallymcbee.us '
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/sally_mcbee"
+  website-url-2: https://instagram.com/sally_mcbee
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1550,7 +1553,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-MorrisonJenn.jpg"
   image-alt: 
-  name: <span>Jenn</span> <span>Morrison</span>
+  name: "<span>Jenn</span> <span>Morrison</span>"
   role: Oil Painter
   artist: 
   pronouns: 
@@ -1578,7 +1581,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HaberDan.jpg"
   image-alt: 
-  name: <span>Diod.design</span>
+  name: "<span>Diod.design</span>"
   role: Custom real-time LED music-visualizers
   artist: Dan Haber
   pronouns: He/Him
@@ -1607,7 +1610,7 @@ past-editions:
     is-wild-card: true
 - image: "/uploads/md-DuplainDanielle.jpg"
   image-alt: 
-  name: <span>Danielle</span> <span>Duplain</span>
+  name: "<span>Danielle</span> <span>Duplain</span>"
   role: Illustrator, graphic designer, motion graphics designer
   artist: 
   pronouns: She/Her
@@ -1615,7 +1618,7 @@ past-editions:
   website-url-1: https://danielleduplain.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/ddaniellie"
+  website-url-2: https://instagram.com/ddaniellie
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1635,7 +1638,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-MorganCarla.jpg"
   image-alt: 
-  name: <span>The</span> <span>Glass</span> <span>Apothecary</span>
+  name: "<span>The</span> <span>Glass</span> <span>Apothecary</span>"
   role: Stained glass and homemade herbal products
   artist: Carla Morgan
   pronouns: She/Her
@@ -1643,7 +1646,7 @@ past-editions:
   website-url-1: https://theglassapothecary.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/the_glass_apothecary"
+  website-url-2: https://instagram.com/the_glass_apothecary
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1664,7 +1667,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-OboyleKasey.jpg"
   image-alt: 
-  name: <span>Kasey</span> <span>O'Boyle</span>
+  name: "<span>Kasey</span> <span>O'Boyle</span>"
   role: Painter and muralist
   artist: 
   pronouns: Ms.
@@ -1672,7 +1675,7 @@ past-editions:
   website-url-1: https://kaseyoboyle.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/kaseyoboyle"
+  website-url-2: https://instagram.com/kaseyoboyle
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1692,7 +1695,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HarrisonElyse.jpg"
   image-alt: 
-  name: <span>Aviary</span> <span>Online</span>
+  name: "<span>Aviary</span> <span>Online</span>"
   role: Mixed media wall sculptures of imaginary birds
   artist: Elyse Harrison
   pronouns: 
@@ -1700,7 +1703,7 @@ past-editions:
   website-url-1: https://aviaryonline.net
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/helloaviary"
+  website-url-2: https://instagram.com/helloaviary
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1722,7 +1725,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-CarmonamedinaCarlos.jpg"
   image-alt: 
-  name: <span>DC</span> <span>is</span> <span>My</span> <span>City</span>
+  name: "<span>DC</span> <span>is</span> <span>My</span> <span>City</span>"
   role: Prints and postcards from Washington DC
   artist: Carlos Carmonamedina
   pronouns: He/Him
@@ -1730,7 +1733,7 @@ past-editions:
   website-url-1: https://dcismycity.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/carmonamedinastudio"
+  website-url-2: https://instagram.com/carmonamedinastudio
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1751,7 +1754,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-CliffordEliza.jpg"
   image-alt: 
-  name: <span>Lavender</span> <span>Lizard</span> <span>Press</span>
+  name: "<span>Lavender</span> <span>Lizard</span> <span>Press</span>"
   role: Prints and multidisciplinary art
   artist: Eliza Clifford
   pronouns: She/Her
@@ -1759,7 +1762,7 @@ past-editions:
   website-url-1: http://www.etsy.com/shop/LavenderLizardPress
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Eliza Clifford's Website
-  website-url-2: "http://www.instagram.com/lavender_lizard_press"
+  website-url-2: http://www.instagram.com/lavender_lizard_press
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: Eliza Clifford's Instagram
   description-short: I am a printmaker and multidisciplinary artist. I work in a variety
@@ -1777,7 +1780,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-BruceOlivia.jpg"
   image-alt: 
-  name: <span>Original</span> <span>Olivia</span>
+  name: "<span>Original</span> <span>Olivia</span>"
   role: Art | Illustration | Design
   artist: Olivia Bruce
   pronouns: She/Her
@@ -1786,7 +1789,7 @@ past-editions:
   website-url-1: https://www.oliviasprints.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Olivia Bruce's Website
-  website-url-2: "https://instagram.com/anoriginalolivia"
+  website-url-2: https://instagram.com/anoriginalolivia
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: Olivia Bruce's Instagram
   website-url-3: 
@@ -1807,7 +1810,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-5iveCreatives.jpg"
   image-alt: 
-  name: <span>5ive</span> <span>Creatives</span>
+  name: "<span>5ive</span> <span>Creatives</span>"
   role: Group of multidisciplinary artists
   artist: Bria Edwards, Kalyne Bruce, Olivia Bruce, Omari Jesse, Roland Lovett, Trevon
     Wright
@@ -1816,7 +1819,7 @@ past-editions:
   website-url-1: https://5ivecreatives.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/5ivecreatives"
+  website-url-2: https://instagram.com/5ivecreatives
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1838,7 +1841,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-KumarPriyanka.jpg"
   image-alt: 
-  name: <span>Priyanka</span> <span>Kay</span>
+  name: "<span>Priyanka</span> <span>Kay</span>"
   role: Illustrator, muralist, printmaker
   artist: Priyanka Kumar
   pronouns: She/Her
@@ -1846,7 +1849,7 @@ past-editions:
   website-url-1: https://priyankakumar.net
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/priyankakay"
+  website-url-2: https://instagram.com/priyankakay
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1868,7 +1871,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-StithKeagoe.jpg"
   image-alt: 
-  name: <span>Stith</span> <span>Works</span>
+  name: "<span>Stith</span> <span>Works</span>"
   role: Illustrator and designer
   artist: Keagoe Stith
   pronouns: He/Him
@@ -1876,7 +1879,7 @@ past-editions:
   website-url-1: https://kstith1.wixsite.com/keagoestith
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: "https://instagram.com/keagoe"
+  website-url-2: https://instagram.com/keagoe
   website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
@@ -1898,7 +1901,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-AgapovaMayya.jpg"
   image-alt: 
-  name: <span>Mayya</span> <span>Agapova</span>
+  name: "<span>Mayya</span> <span>Agapova</span>"
   role: Illustrator who creates digital, ink, and watercolor art
   artist: She/Her
   pronouns: "$15 – 20"
@@ -1927,7 +1930,7 @@ past-editions:
     is-wild-card: 
 - image: "/uploads/md-HoyleRian.jpg"
   image-alt: 
-  name: <span>bEASH</span>
+  name: "<span>bEASH</span>"
   role: Womenswear, accessories and home decor
   artist: Rian Hoyle
   pronouns: She/Her
