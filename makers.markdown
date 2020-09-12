@@ -1,8 +1,8 @@
 ---
 title: Makers
 permalink: "/makers/"
-layout: makers
 published: false
+layout: makers
 hero:
 - has-hero: true
   header: 
