@@ -13,6 +13,11 @@ introduction:
     
     
     These 11x17” posters are available for purchase at an online shop hosted by [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/). Read on for details about the artists and their work.'
+sponsors:
+  - header: "<span>Emerging</span> <span>Artist</span> <span>Commission</span> <span>Sponsors</span>"
+    body: "Text Coming Soon."
+    button-label: See All Sponsors
+    button-url: "/about/#sponsors"
 layout: maker-posters
 permalink: "/maker/posters"
 ---

@@ -1,3 +1,4 @@
+{% if page.url == "/" and "/about/" %}
 <section id="sponsors" class="section section__sponsors">
 	{% comment %} tier 1 {% endcomment %}
 	<div class="grid grid--four-columns">
@@ -81,19 +82,21 @@
 	</div>
 	{% endif %}
 </section>
+{% endif %}
 
 {% if page.url == "/maker/posters" %}
 <section id="sponsors" class="section section__sponsors">
 	{% comment %} tier 1 {% endcomment %}
 	<div class="grid grid--four-columns">
 		<div class="column column--span-2 flow-large">
-			<h2
-				id="{{ site.2020-presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.2020-presenting-sponsors.header }}
+			{% for content in page.sponsors %}
+			<h2 id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}
 			</h2>
 			<div class="wysiwyg">
-				{{ site.2020-presenting-sponsors.body | markdownify }}
+				{{ content.body | markdownify }}
 			</div>
+			{% endfor %}
 		</div>
 		<div class="column column--span-2 column--hide">
 			<div class="ornaments">
@@ -125,13 +128,15 @@
 		</div>
 	</div>
 	{% comment %} sponsors button {% endcomment %}
+	{% for content in page.sponsors %}
 	<div class="grid grid--four-columns margin-top-60">
 		<div class="column column--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="{{ page.sponsors-button-url }}">
-				{{ page.sponsors-button-label}}
+				href="{{ content.button-url }}">
+				{{ content.button-label }}
 			</a>
 		</div>
 	</div>
+	{% endfor %}
 </section>
 {% endif %}
