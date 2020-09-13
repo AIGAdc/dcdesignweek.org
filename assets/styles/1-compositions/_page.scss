@@ -40,7 +40,8 @@
 // Page Specific
 .home-layout .section,
 .makers-layout .section,
-.maker-directory-layout .section {
+.maker-directory-layout .section,
+.maker-posters-layout .section {
 	border-top: solid 1px $white;
 }
 
@@ -223,4 +224,12 @@
 
 .gap-none {
 	grid-gap: 0;
+}
+
+.align-items-start {
+	align-items: start;
+}
+
+.align-items-center {
+	align-items: center;
 }

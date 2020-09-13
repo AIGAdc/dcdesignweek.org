@@ -1,24 +1,19 @@
 ---
 title: Maker Posters
-permalink: "/maker/posters"
 hero:
-- has-hero: true
-  header: 
-  subheader: 
-  image-1: "/uploads/makers-directory-header.png"
-  image-1-alt: 
+  - has-hero: true
+    header: 
+    subheader: 
+    image-1: "/uploads/header-posters.png"
+    image-1-alt: 
 introduction:
-- has-introduction: true
-  header: "<span>Showcasing</span> <span>DC</span> <span>Creators</span>"
-  body: "> DC is full of creators who craft art, jewelry, home goods, ceramics, cakes,
-    stationery, clothing, and more. Whether for a living, as a side hustle, or as
-    a hobby, these makers help power the creative energy in the DMV. We can’t do our
-    normal DCDW Pop-Up Shop, but we’re still celebrating everyone who crafts and creates!\n\nIf
-    you’re looking for a one-of-a-kind piece of art, something unique and shiny to
-    wear, a special centerpiece, or even handmade gifts for the upcoming holidays
-    — look no further than the DC Design Week Maker Directory to support your local
-    creative community. Check out our list below for access to literally dozens of
-    people making and selling amazing things, right here in our beloved city. "
+  - has-introduction: true
+    header: "<span>2020</span> <span>DCDW</span> <span>Posters</span>"
+    body: "> This year is a celebration of the creative voices in our community. We’re so excited to feature 5 limited-edition posters. Created by 5 up-and-coming artists in the DMV, these designs capture the diverse, vibrant, and innovative spirit of DC. The artists were selected from a pool of 65 applicants by an amazing committee of established artists — [Dany Green](http://www.danygreen.com/), [Sonia Jones](http://soniajonestheartist.com/), [Jodi Kostelnik](https://theneighborgoods.com/), [Josue Martinez](https://corintogallery.com/), and [Torie Partridge](https://www.cherryblossomworkshop.com/).
+    
+    
+    These 11x17” posters are available for purchase at an online shop hosted by [Cherry Blossom Creative](https://www.cherryblossomworkshop.com/). Read on for details about the artists and their work."
 layout: maker-posters
+permalink: "/maker/posters"
 ---
 

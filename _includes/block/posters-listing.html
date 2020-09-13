@@ -1,0 +1,49 @@
+{% for poster in site.data.maker-posters.2020-posters %}
+<section class="section section__posters">
+	<div class="grid grid--five-columns">
+		<div class="column column--span-4">
+			<h3>
+				{{ poster.artist-name }}
+			</h3>
+		</div>
+		<div class="column column--span-2">
+			<figure>
+				<img src="{{ poster.poster-image }}" alt="">
+			</figure>
+			<p>
+				{{ poster.poster-title }}
+			</p>
+		</div>
+		<div class="column column--span-1">
+			<figure class="column--hide">
+				<img src="{{ poster.artist-portrait }}" alt="">
+			</figure>
+			{% if poster.website-url-1 %}
+			<a style="display: block;" href="{{ poster.website-url-1 }}">
+				{{ poster.website-url-1-label }}
+			</a>
+			{% endif %}
+			{% if poster.website-url-2 %}
+			<a style="display: block;" href="{{ poster.website-url-2 }}">
+				{{ poster.website-url-2-label }}
+			</a>
+			{% endif %}
+			{% if poster.website-url-3 %}
+			<a style="display: block;" href="{{ poster.website-url-3 }}">
+				{{ poster.website-url-3-label }}
+			</a>
+			{% endif %}
+		</div>
+		<div class="column column--span-2 margin-top-0">
+			<div class="wysiwyg">
+				{{ poster.artist-statement | markdownify }}
+			</div>
+		</div>
+		<div class="column column--span-4">
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="#">
+				Purchase Poster
+			</a>
+		</div>
+	</div>
+</section>
+{% endfor %}
