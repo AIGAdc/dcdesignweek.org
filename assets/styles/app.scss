@@ -15,6 +15,7 @@
 @import "2-utilities/shadows";
 @import "2-utilities/spacing";
 @import "2-utilities/tools";
+@import "2-utilities/typography";
 
 // Blocks
 
@@ -43,7 +44,8 @@
 @import "pages/faqs";
 @import "pages/home";
 @import "pages/makers";
-@import "pages/makers-directory";
+@import "pages/maker-directory";
+@import "pages/maker-posters";
 
 // @import "vendors/flickity";
 @import "vendors/houdini";

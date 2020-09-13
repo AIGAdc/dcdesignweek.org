@@ -1,10 +1,15 @@
 <section class="section section__committee">
 	<div class="grid grid--four-columns">
 		<div class="column column--span-2 flow-large">
-			<h2 class="column--width-70 flow-none"
-				id="{{ page.team-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ page.team-header }}</h2>
-			<p>{{ page.team-body }}</p>
+			{% for content in page.team %}
+			<h2 class="column--width-80 flow-none"
+				id="{{ content.team-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.team-header }}
+			</h2>
+			<div class="wysiwyg">
+				{{ content.team-body }}
+			</div>
+			{% endfor %}
 		</div>
 
 		<div class="column column--span-2 column--hide">
