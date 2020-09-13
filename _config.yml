@@ -489,6 +489,9 @@ navigation-teaser:
 - url: "/events/"
   label: Events
   aria-label: Events Page
+- url: "/maker/posters"
+  label: Posters
+  aria-label: Posters Page
 - url: "/maker/directory"
   label: Maker Directory
   aria-label: Maker Directory Page
@@ -1596,9 +1599,7 @@ past-editions:
   website-label-3: 
   website-aria-label-3: 
   description-short: 'I try to create speakers, but for your eyes, to transform music
-    into a multi-sensory experience.
-
-'
+    into a multi-sensory experience.'
   description-long: 
   type:
     is-art-prints: 
@@ -2042,21 +2043,21 @@ footer:
   contact: designweek@dc.aiga.org
   copyright: "&copy; AIGA DC | 2020 All Rights Reserved."
 exclude:
-- package.json
-- package-lock.json
-- node_modules
-- README.md
-- Gemfile
-- Gemfile.lock
-- ".jekyll-metadata"
-- ".sass-cache"
-- ".ruby-version"
-- ".jekyll-cache"
+  - package.json
+  - package-lock.json
+  - node_modules
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - ".jekyll-metadata"
+  - ".sass-cache"
+  - ".ruby-version"
+  - ".jekyll-cache"
 markdown: kramdown
 kramdown:
   input: GFM
 plugins:
-- jekyll-seo-tag
+  - jekyll-seo-tag
 sass:
   sass_dir: "/assets/styles/"
   style: compressed
