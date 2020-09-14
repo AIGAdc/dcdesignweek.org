@@ -9,13 +9,19 @@ hero:
 introduction:
   - has-introduction: true
     header: "<span>2020</span> <span>DCDW</span> <span>Posters</span>"
-    body: '> This year is a celebration of the creative voices in our community. We’re so excited to feature 5 limited-edition posters. Created by 5 up-and-coming artists in the DMV, these designs capture the diverse, vibrant, and innovative spirit of DC. The artists were selected from a pool of 65 applicants by an amazing committee of established artists — [Dany Green <i class="fas fa-external-link-square-alt"></i>](http://www.danygreen.com/), [Sonia Jones <i class="fas fa-external-link-square-alt"></i>](http://soniajonestheartist.com/), [Jodi Kostelnik <i class="fas fa-external-link-square-alt"></i>](https://theneighborgoods.com/), [Josue Martine <i class="fas fa-external-link-square-alt"></i>z](https://corintogallery.com/), and [Torie Partridge <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/).
+    body: '> This year is a celebration of the creative voices in our community. We’re so excited to feature 5 limited-edition posters. Created by 5 up-and-coming artists in the DMV, these designs capture the diverse, vibrant, and innovative spirit of DC. The artists were selected from a pool of 65 applicants by an amazing committee of established artists — [Dany Green <i class="fas fa-external-link-square-alt"></i>](http://www.danygreen.com/){:target="_blank"
+      rel="noopener nofollow"}, [Sonia Jones <i class="fas fa-external-link-square-alt"></i>](http://soniajonestheartist.com/){:target="_blank"
+      rel="noopener nofollow"}, [Jodi Kostelnik <i class="fas fa-external-link-square-alt"></i>](https://theneighborgoods.com/){:target="_blank"
+      rel="noopener nofollow"}, [Josue Martinez <i class="fas fa-external-link-square-alt"></i>](https://corintogallery.com/){:target="_blank"
+      rel="noopener nofollow"}, and [Torie Partridge <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank"
+      rel="noopener nofollow"}.
     
     
-    These 11x17” posters are available for purchase at an online shop hosted by [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/). Read on for details about the artists and their work.'
+    These 11x17” posters are available for purchase at an online shop hosted by [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://www.cherryblossomworkshop.com/){:target="_blank"
+      rel="noopener nofollow"}. Read on for details about the artists and their work.'
 sponsors:
   - header: "<span>Emerging</span> <span>Artist</span> <span>Commission</span> <span>Sponsors</span>"
-    body: "Text Coming Soon."
+    body: "We’re grateful to have the support of organizations who share our values and commitment to diversity, equity, and inclusion. Their support has helped to make this week more inclusive and accessible, and has helped to make this poster commission possible — providing a platform to elevate new voices from DC’s creative community. You rock!"
     button-label: See All Sponsors
     button-url: "/about/#sponsors"
 layout: maker-posters
