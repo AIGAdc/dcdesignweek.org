@@ -484,6 +484,9 @@ navigation-teaser:
   - url: "/events/"
     label: Events
     aria-label: Events Page
+  - url: "/events/self-guided"
+    label: Self Guided
+    aria-label: Events - Self Guided Page
   - url: "/maker/posters"
     label: Posters
     aria-label: Posters Page

@@ -14,5 +14,5 @@ self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
 layout: events-self-guided
 permalink: "/events/self-guided"
-published: false
+published: true
 ---
