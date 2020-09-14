@@ -117,3 +117,6 @@ Join our panel of senior Black and Brown creatives to learn:
 * How to support POC designers in the workplace and our community
 
 Participants will get to hear directly from our speakers, moderated by Maurice Cherry – host of the Revision Path podcast – about these topics and more, and will split up into breakouts for an intimate, in-depth exploration. Make sure to select what topic you’d like to explore further when registering and come prepared for a critically important conversation.
+
+### Event Sponsor: DCUX
+DCUX is a community for UX, design, and creative professionals. Organized by UXPA DC, DCUX offers innovative meetups, workshops, and conferences that offer professional development, networking, and speaking opportunities for people at any stage of their career. Join us at www.dcux.org to learn more and get involved!
