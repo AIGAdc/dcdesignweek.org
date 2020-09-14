@@ -43,12 +43,12 @@ speakers:
   pronouns: She | Her | Hers
   title: Visual Artist, Illustrator and Animator, Founder of Trap Bob World, LLC
   bio: Tenbeete Solomon AKA Trap Bob is a visual artist, illustrator, and animator
-    based in Washington, known for her use of bold colors and gestures to convey both
-    the humor and struggles of everyday life. Her work is socially conscious and frequently
-    inspired by activism and community issues, with an aim to bridge the gap between
-    her audience and her message. Her work can be found in both the digital space
-    and within the community, from instagram gif stickers to permanent murals throughout
-    DC.
+    based in Washington,DC, known for her use of bold colors and gestures to convey
+    both the humor and struggles of everyday life. Her work is socially conscious
+    and frequently inspired by activism and community issues, with an aim to bridge
+    the gap between her audience and her message. Her work can be found in both the
+    digital space and within the community, from instagram gif stickers to permanent
+    murals throughout DC.
   website-label: Website
   website-url: http://www.trapbob.com
 - name: Divorce Culture
