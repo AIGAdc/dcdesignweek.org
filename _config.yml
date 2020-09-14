@@ -2020,9 +2020,9 @@ past-editions:
   image-alt: 
   name: "<span>Mayya</span> <span>Agapova</span>"
   role: Illustrator who creates digital, ink, and watercolor art
-  artist: She/Her
-  pronouns: "$15 – 20"
-  price-point: 
+  artist:
+  pronouns: She/Her
+  price-point: "$15 – 20"
   website-url-1: https://magapova.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
