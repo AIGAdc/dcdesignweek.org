@@ -21,8 +21,8 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893
-  member-button-label: "$50 — Ticket + One Person Cocktail Kit"
-  has-non-member-button: true
+  member-button-label: "$15 — Ticket Only"
+  has-non-member-button: false
   non-member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893
   non-member-button-label: "$65 — Ticket + Two Person Cocktail Kit"
 venue:
