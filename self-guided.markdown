@@ -1,5 +1,7 @@
 ---
 title: Events - Self Guided
+permalink: "/events/self-guided"
+published: false
 hero:
   - has-hero: true
     header: 
@@ -19,3 +21,4 @@ layout: events-self-guided
 permalink: "/events/self-guided"
 published: true
 ---
+
