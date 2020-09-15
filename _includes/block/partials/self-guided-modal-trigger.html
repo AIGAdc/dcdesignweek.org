@@ -32,11 +32,11 @@
 				{{ event.start-time }}
 			</p>
 			<p>
-				{{ event.venue.name }}
+				{{ event.description }}
 			</p>
 		</div>
 	</div>
-	<div class="card-footer">
+	<div class="card-footer margin-top-32">
 		<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
 			data-modal="#{{ event.title | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}"
 			href="/events/self-guided/#{{ event.title | downcase | replace: "&", "-" | replace: "[", "-" | replace: "]", "-" | replace: ".", "-" | replace: "5", "five" | replace: " ", "-" | replace: "~", "-" | replace: "'", "-" | remove: '<span>' | remove: '</span>' }}">
