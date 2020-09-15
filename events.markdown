@@ -1,11 +1,12 @@
 ---
 title: Events
+permalink: "/events/"
 hero:
-  - has-hero: true
-    header: 
-    subheader: 
-    image-1:
-    image-1-alt: 
+- has-hero: true
+  header: 
+  subheader: 
+  image-1: 
+  image-1-alt: 
 event-header: "<span>Events</span>"
 event-body: Maybe your (very cool) friend brought you here for the first time. Or
   maybe you’ve been to every DC Design Week. Either way, we’re thrilled to have you.
@@ -16,6 +17,5 @@ self-guided-body: Take a break from our virtual lineup and get some fresh air by
 self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
 layout: events
-permalink: "/events/"
 ---
 
