@@ -1,33 +1,7 @@
 <section class="section section--maker-grid border-0 spacing-top-0">
 	<div class="grid grid--four-columns">
-		<div class="column column--span-1">
-			<form class="events-filter">
-				<div class="filter-header">
-					<h3>
-						Categories
-					</h3>
-				</div>
-				<div class="events-filter__dates control-group" data-filter-group="">
-					{% for control in site.data.makers-filter.tags %}
-					<div class="radio">
-						<label class="radio-label custom-radio">
-							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
-							<span class="checkmark"></span>
-							{{ control.text-1 }}
-						</label>
-					</div>
-					{% endfor %}
-				</div>
-				<div class="column column--span-4 events-filter__additional-filters">
-					<div class="events-filter__additional-header">
-						<div class="events-filter__reset control-group">
-							<button class="control control-text" type="reset">
-								Reset
-							</button>
-						</div>
-					</div>
-				</div>
-			</form>
+		<div class="column column--span-1 sticky">
+			{% include block/directory-filter.html %}
 		</div>
 
 		<div class="column column--span-3">

@@ -1,7 +1,7 @@
 <form class="events-filter">
 	<div class="grid grid--eight-columns gap-none column column--span-4 control-group events-filter__dates"
 		data-filter-group="">
-		{% for control in site.data.events-filter.day %}
+		{% for control in site.2020-events-filter.day %}
 		<button
 			class="control {{ control.class }} {% if control.has-occurred == true %} .events-filter__date--occurred {% endif %}"
 			data-filter="{{ control.filter }}" type="button">
@@ -61,7 +61,7 @@
 					<span>
 						Time
 					</span>
-					{% for control in site.data.events-filter.time %}
+					{% for control in site.2020-events-filter.time %}
 					<div class="radio">
 						<label class="radio-label custom-radio">
 							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -75,7 +75,7 @@
 					<span>
 						Type
 					</span>
-					{% for control in site.data.events-filter.type %}
+					{% for control in site.2020-events-filter.type %}
 					<div class="radio">
 						<label class="radio-label custom-radio">
 							<input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -89,7 +89,7 @@
 					<span>
 						Focus
 					</span>
-					{% for control in site.data.events-filter.focus %}
+					{% for control in site.2020-events-filter.focus %}
 					<div class="radio">
 						<label class="radio-label custom-radio">
 							<input name="additional-filters" type="radio" value="{{ control.filter }}" />

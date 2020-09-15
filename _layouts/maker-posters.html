@@ -1,15 +1,22 @@
-{% if page.url == "/" or "/about/" %}
+---
+layout: base
+---
+
+{% include block/general-hero.html %}
+{% include block/general-introduction.html %}
+{% include block/posters-listing.html %}
 <section id="sponsors" class="section section__sponsors">
 	{% comment %} tier 1 {% endcomment %}
 	<div class="grid grid--four-columns">
 		<div class="column column--span-2 flow-large">
-			<h2
-				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.sponsors.header }}
+			{% for content in page.sponsors %}
+			<h2 id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}
 			</h2>
 			<div class="wysiwyg">
-				{{ site.sponsors.body | markdownify }}
+				{{ content.body | markdownify }}
 			</div>
+			{% endfor %}
 		</div>
 		<div class="column column--span-2 column--hide">
 			<div class="ornaments">
@@ -33,53 +40,26 @@
 			</div>
 		</div>
 		<div class="column column--span-4 margin-top-16">
-			<ul class="grid grid--two-columns">
-				{% for content in site.sponsors.sponsor-tier-one %}
-				{% include block/partials/card-sponsors.html %}
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-	{% comment %} tier 2 {% endcomment %}
-	<div class="grid grid--four-columns flow-extra-large">
-		<div class="column column--span-4">
-			<h3
-				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.sponsors.tier-two-header }}
-			</h3>
-			<ul class="grid grid--four-columns margin-top-16">
-				{% for content in site.sponsors.sponsor-tier-two %}
-				{% include block/partials/card-sponsors.html %}
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-	{% if page.url == "/about/" %}
-	{% comment %} tier 3 {% endcomment %}
-	<div class="grid grid--five-columns flow-extra-large">
-		<div class="column column--span-5">
-			<h3
-				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.sponsors.tier-three-header }}
-			</h3>
-			<ul class="grid grid--four-columns margin-top-16">
+			<ul class="grid grid--three-columns">
 				{% for content in site.sponsors.sponsor-tier-three %}
+				{% if content.featured-on-posters == true %}
 				{% include block/partials/card-sponsors.html %}
+				{% endif %}
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
-	{% endif %}
-	{% if page.url == "/" %}
-	<!-- sponsors button -->
+	{% comment %} sponsors button {% endcomment %}
+	{% for content in page.sponsors %}
 	<div class="grid grid--four-columns margin-top-60">
 		<div class="column column--span-4 text-center">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="{{ page.sponsors-button-url }}">
-				{{ page.sponsors-button-label}}
+				href="{{ content.button-url }}">
+				{{ content.button-label }}
 			</a>
 		</div>
 	</div>
-	{% endif %}
+	{% endfor %}
 </section>
-{% endif %}
+{% include block/general-makers.html %}
+{% include block/general-subscribe.html %}

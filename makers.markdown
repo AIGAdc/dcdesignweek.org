@@ -2,7 +2,6 @@
 title: Makers
 permalink: "/makers/"
 published: false
-layout: makers
 hero:
 - has-hero: true
   header: 
@@ -50,5 +49,6 @@ celebrating-you:
     Black and white photo of DC Design Week poster being screenprinted'
   button-label: Maker Directory
   button-url: "/maker/directory/"
+layout: makers
 ---
 

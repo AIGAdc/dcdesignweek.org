@@ -128,3 +128,9 @@
 .maker-directory-layout .events-filter__dates.control-group {
 	margin-bottom: -1px;
 }
+
+.faqs-layout .sticky,
+.section--maker-grid .sticky {
+	position: sticky;
+	top: 116px;
+}

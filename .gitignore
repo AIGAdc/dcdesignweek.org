@@ -1,7 +1,7 @@
 .DS_Store
-build
+.jekyll-cache
 .sass-cache
 .vscode
+build
 node_modules
-/source/_uploads/originals
-.jekyll-cache
+/source/*

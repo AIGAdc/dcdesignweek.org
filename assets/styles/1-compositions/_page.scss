@@ -6,8 +6,6 @@
 	padding: $spacing-16;
 }
 
-@media screen and (min-width: 399px) {}
-
 @media screen and (min-width: 639px) {
 	.wrapper {
 		padding: $spacing-16 $spacing-32;
@@ -40,7 +38,8 @@
 // Page Specific
 .home-layout .section,
 .makers-layout .section,
-.maker-directory-layout .section {
+.maker-directory-layout .section,
+.maker-posters-layout .section {
 	border-top: solid 1px $white;
 }
 
@@ -81,8 +80,10 @@
 .grid--one-columns,
 .grid--two-columns,
 .grid--three-columns,
+.section__posters .grid--three-columns,
 .grid--four-columns,
-.grid--five-columns {
+.grid--five-columns,
+.grid--six-columns {
 	grid-template-columns: 1fr;
 }
 
@@ -114,7 +115,8 @@
 .column--span-2,
 .column--span-3,
 .column--span-4,
-.column--span-5 {
+.column--span-5,
+.column--span-6 {
 	grid-column: span 1;
 }
 
@@ -129,17 +131,12 @@
 @media screen and (min-width: 799px) {
 
 	.grid--two-columns,
-	.grid--four-columns,
-	.grid--five-columns {
+	.grid--four-columns {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.column--span-2 {
 		grid-column: span 2;
-	}
-
-	.column--span-3 {
-		grid-column: span 3;
 	}
 
 	.column--span-4 {
@@ -149,11 +146,19 @@
 	.column--span-5 {
 		grid-column: span 5;
 	}
+
+	.column--span-6 {
+		grid-column: span 6;
+	}
 }
 
 @media screen and (min-width: 1023px) {
 	.grid--three-columns {
 		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.section__posters .grid--three-columns {
+		grid-template-columns: 1fr 0.5fr 1fr;
 	}
 
 	.grid--four-columns {
@@ -164,8 +169,16 @@
 		grid-template-columns: repeat(5, 1fr);
 	}
 
+	.grid--six-columns {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
 	.grid--eight-columns {
 		grid-template-columns: repeat(8, 1fr);
+	}
+
+	.column--span-3 {
+		grid-column: span 3;
 	}
 
 	.column--hide {
@@ -200,8 +213,8 @@
 	margin-top: $spacing-8;
 }
 
-.wysiwyg>*+*,
-.wysiwyg>*,
+.wysiwyg>*+*:not(:first-child),
+.wysiwyg>*:not(:first-child),
 .flow-medium>*+*,
 .flow-medium>* {
 	margin-top: $spacing-16;
@@ -223,4 +236,12 @@
 
 .gap-none {
 	grid-gap: 0;
+}
+
+.align-items-start {
+	align-items: start;
+}
+
+.align-items-center {
+	align-items: center;
 }

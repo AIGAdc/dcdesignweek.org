@@ -101,16 +101,16 @@ defaults:
       is-skill-building: 
       is-ui-ux: 
     layout: events-landing
-2020-presenting-sponsors:
+sponsors:
   header: "<span>Sponsors</span> <span>and</span> <span>Partners</span>"
-  tier-1-header: "<span>Presenting</span> <span>sponsors</span>"
-  tier-2-header: "<span>Contributing Sponsors</span>"
-  tier-3-header: "<span>Supporting Sponsors</span>"
+  tier-one-header: "<span>Presenting</span> <span>sponsors</span>"
+  tier-two-header: "<span>Contributing Sponsors</span>"
+  tier-three-header: "<span>Supporting Sponsors</span>"
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
     for your support.
   image-1: "/uploads/bubble-black-group-sponsors.png"
   image-1-alt: Bubble Group for Partner with Us section
-  sponsor-tier-1:
+  sponsor-tier-one:
   - title: Brand Sponsor
     image: "/uploads/sponsor-january-third.svg"
     image-alt: January Third Logo
@@ -121,7 +121,7 @@ defaults:
     image-alt: Duke & Duck Logo
     website: https://www.dukeduck.com/
     aria-label: Duke & Duck Website
-  sponsor-tier-2:
+  sponsor-tier-two:
   - title: 
     image: "/uploads/sponsors-contributing-artemisward.svg"
     image-alt: Artemis Ward Logo
@@ -162,7 +162,7 @@ defaults:
     image-alt: DCUX Logo
     website: http://dcux.org
     aria-label: DCUX Website
-  sponsor-tier-3:
+  sponsor-tier-three:
   - title: 
     image: "/uploads/sponsors-supporting-aba.svg"
     image-alt: ABA Logo
@@ -178,21 +178,29 @@ defaults:
     image-alt: Basecamp Logo
     website: https://www.basecampdc.com/
     aria-label: Basecamp Website
+    featured-on-posters: true
   - title: 
     image: "/uploads/sponsors-supporting-booz.svg"
     image-alt: Booz Allen Hamilton Logo
     website: https://www.boozallen.com
     aria-label: Booz Allen Hamilton Website
+    featured-on-posters: true
   - title: 
     image: "/uploads/sponsors-supporting-URL.png"
     image-alt: URL Logo
     website: http://universalrobotlabs.com/
     aria-label: URL Website
-2020-contributing-sponsors:
-- title: 
-  image: 
-  image-alt: 
-  website: 
+  - title: 
+    image: "/uploads/sponsors-supporting-studioaorta.png"
+    image-alt: Studio Aorta Logo
+    website: https://www.studioaorta.com
+    aria-label: Studio Aorta Website
+    featured-on-posters: true
+  - title: 
+    image: "/uploads/sponsors-supporting-taoticreative.png"
+    image-alt: Taoti Creative Logo
+    website: https://www.taoti.com
+    aria-label: Taoti Creative Website
 2020-team:
 - image: "/uploads/profile-nick-fabiani.png"
   image-alt: Nick Fabiani's Portrait
@@ -489,6 +497,9 @@ navigation-teaser:
 - url: "/events/"
   label: Events
   aria-label: Events Page
+- url: "/maker/posters"
+  label: Posters
+  aria-label: Posters Page
 - url: "/maker/directory"
   label: Maker Directory
   aria-label: Maker Directory Page
@@ -541,14 +552,15 @@ makers:
   button-url: "/maker/directory"
   button-label: Explore Local Artists
 posters:
-  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span>
-    <span>Directory</span>"
-  body: We’re all about celebrating the DMV’s creative voices — so what better way
-    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
-    Shop this year, but we’ve got the next best thing. Check out our virtual directory
-    for all your fall shopping needs.
-  button-url: ''
-  button-label: Posters
+  header: "<span>Limited</span> <span>Edition</span> <span>Posters</span>"
+  body: Looking for even more amazing artwork from local artists? We’re delighted
+    to also be featuring five limited-edition DCDW posters, created by five up-and-coming
+    artists, and available to purchase through [Cherry Blossom Creative <i class="fas
+    fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank"
+    rel="noopener nofollow"}. See them all, learn about the artists, and get yours
+    today!
+  button-url: "/maker/posters"
+  button-label: See All Posters
 faqs:
   header: "<span>FAQs</span>"
   body: DC Design Week looks different this year, so you might have questions. Maybe
@@ -595,6 +607,127 @@ past-editions:
     image: "/uploads/dcdw-2019-pattern.jpg"
     url: https://2019.dcdesignweek.org
     aria-label: 2019 DC Design Week Website
+2020-events-filter:
+  day:
+  - filter: ".day-1"
+    class: day-1
+    text-1: Fri
+    text-3: 18
+    has-occurred: false
+  - filter: ".day-2"
+    class: day-2
+    text-1: Sat
+    text-3: 19
+    has-occurred: false
+  - filter: ".day-3"
+    class: day-3
+    text-1: Sun
+    text-3: 20
+    has-occurred: false
+  - filter: ".day-4"
+    class: day-4
+    text-1: Mon
+    text-3: 21
+    has-occurred: false
+  - filter: ".day-5"
+    class: day-5
+    text-1: Tue
+    text-3: 22
+    has-occurred: false
+  - filter: ".day-6"
+    class: day-6
+    text-1: Wed
+    text-3: 23
+    has-occurred: false
+  - filter: ".day-7"
+    class: day-7
+    text-1: Thu
+    text-3: 24
+    has-occurred: false
+  - filter: ".day-8"
+    class: day-8
+    text-1: Fri
+    text-3: 25
+    has-occurred: false
+  time:
+  - filter: ".morning"
+    class: morning
+    text-1: Morning
+  - filter: ".daytime"
+    class: daytime
+    text-1: Daytime
+  - filter: ".evening"
+    class: evening
+    text-1: Evening
+  type:
+  - filter: ".creative-breakfast"
+    class: creative-breakfast
+    text-1: Creative Breakfast
+  - filter: ".family-friendly"
+    class: family-friendly
+    text-1: Family Friendly
+  - filter: ".party"
+    class: party
+    text-1: Party
+  - filter: ".keynote"
+    class: keynote
+    text-1: Keynote
+  - filter: ".talk-panel"
+    class: talk-panel
+    text-1: Talk/Panel
+  - filter: ".partner-events"
+    class: partner-events
+    text-1: Partner Events
+  - filter: ".workshop"
+    class: workshop
+    text-1: Workshop
+  focus:
+  - filter: ".fun"
+    class: fun
+    text-1: Fun
+  - filter: ".deia"
+    class: deia
+    text-1: Diversity, Equity, Inclusion, and Accessibility
+  - filter: ".motion"
+    class: motion
+    text-1: Motion Track, by Duke and Duck
+  - filter: ".skill-building"
+    class: skill-building
+    text-1: Skillbuilding
+  - filter: ".ui-ux"
+    class: ui-ux
+    text-1: UI/UX
+  sold-out:
+  - filter: ".sold-out"
+    class: sold-out
+    text-1: Sold Out
+  status:
+  - filter: ".featured"
+    class: featured
+    text-1: Show Featured
+2020-makers-filter:
+  tags:
+  - filter: ".art-prints"
+    class: art-prints
+    text-1: Art + Prints
+  - filter: ".paper-goods"
+    class: paper-goods
+    text-1: Paper Goods
+  - filter: ".clothing-apparel"
+    class: clothing-apparel
+    text-1: Clothing + Apparel
+  - filter: ".food"
+    class: food
+    text-1: Food
+  - filter: ".accessories"
+    class: accessories
+    text-1: Accessories
+  - filter: ".home-goods"
+    class: home-goods
+    text-1: Home Goods
+  - filter: ".wild-card"
+    class: wild-card
+    text-1: Wild Cards
 2020-makers:
 - image: "/uploads/md-BarcenasVioleta.jpg"
   image-alt: Violeta Barcenas Chamorro's Artwork
@@ -1595,10 +1728,8 @@ past-editions:
   website-url-3: 
   website-label-3: 
   website-aria-label-3: 
-  description-short: 'I try to create speakers, but for your eyes, to transform music
+  description-short: I try to create speakers, but for your eyes, to transform music
     into a multi-sensory experience.
-
-'
   description-long: 
   type:
     is-art-prints: 
