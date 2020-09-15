@@ -7,12 +7,16 @@
 				alt="Small Floating amorphous bubbles">
 		</div>
 		<div class="column column--span-2 flow-large">
-			<h2 class="column--width-50 flow-none"
+			<h2 class="column--width-80 flow-none"
 				id="{{ site.partner.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.partner.header }}</h2>
-			<div class="wysiwyg">{{ site.partner.body | markdownify }}</div>
+				{{ site.partner.header }}
+			</h2>
+			<div class="wysiwyg">
+				{{ site.partner.body | markdownify }}
+			</div>
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="{{ site.partner.button-url }}" target="_blank">{{ site.partner.button-label }}
+				href="{{ site.partner.button-url }}" target="_blank">
+				{{ site.partner.button-label }}
 			</a>
 		</div>
 	</div>

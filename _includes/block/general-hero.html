@@ -99,4 +99,21 @@ background-image: url('https://www.transparenttextures.com/patterns/asfalt-light
 {% endif %}
 {% endfor %}
 
+{% elsif page.url == "/maker/posters" %}
+
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<div class="section hero--makers-posters" style="background-color: #000000;
+background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');">
+	<div class="grid grid--four-columns">
+		<div class="column column--span-4">
+			<figure>
+				<img src="{{ content.image-1 }}" alt="{{ content.image-1-alt }}" style="width: 100%;">
+			</figure>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
 {% endif %}
