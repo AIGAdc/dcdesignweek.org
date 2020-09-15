@@ -552,14 +552,10 @@ makers:
   button-url: "/maker/directory"
   button-label: Explore Local Artists
 posters:
-  header: "<span>DC</span> <span>Design</span> <span>Week:</span> <span>Maker</span>
-    <span>Directory</span>"
-  body: We’re all about celebrating the DMV’s creative voices — so what better way
-    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
-    Shop this year, but we’ve got the next best thing. Check out our virtual directory
-    for all your fall shopping needs.
-  button-url: ''
-  button-label: Posters
+  header: "<span>Limited</span> <span>Edition</span> <span>Posters</span>"
+  body: Looking for even more amazing artwork from local artists? We’re delighted to also be featuring five limited-edition DCDW posters, created by five up-and-coming artists, and available to purchase through [Cherry Blossom Creative <i class="fas fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank" rel="noopener nofollow"}. See them all, learn about the artists, and get yours today!
+  button-url: '/maker/posters'
+  button-label: See All Posters
 faqs:
   header: "<span>FAQs</span>"
   body: DC Design Week looks different this year, so you might have questions. Maybe
