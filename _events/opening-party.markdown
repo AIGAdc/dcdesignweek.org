@@ -100,16 +100,15 @@ speakers:
   website-label: 
   website-url: 
 - name: Denaya Jones
-  pronouns:
+  pronouns: 
   title: 
-  bio: Denaya Jones is a Washington D.C. native and Virginia Commonwealth University graduate, and has been in hospitality for over nine years. Over the span of her career, an administrative position with black-owned catering and event design company, Charlene’s Kitchen evolved into a true passion for not only hospitality, but cocktails and spirits as a whole.
-  
-  
-  
+  bio: |-
+    Denaya Jones is a Washington D.C. native and Virginia Commonwealth University graduate, and has been in hospitality for over nine years. Over the span of her career, an administrative position with black-owned catering and event design company, Charlene’s Kitchen evolved into a true passion for not only hospitality, but cocktails and spirits as a whole.
+
+
     In addition to operating Deestilled, Denaya has worked behind stick at multiple bars throughout Washington D.C. from Petworth, Dupont, to Georgetown, to most recently at Serenata, in the Union Market area. She is also Operations Director for craft spirits retailer, Seelbach’s, and Content Curator for the D.C. based non-profit, Chocolate City’s Best.
-    
-    
-    
+
+
     In addition to continued work both behind and beyond the bar, Denaya has competed in and won multiple cocktail competitions, including Chocolate City’s Best, 2018 and the Grey Goose Express Your Cocktail Challenge.
   website-label: Instagram
   website-url: https://www.instagram.com/deestilled/?hl=en
