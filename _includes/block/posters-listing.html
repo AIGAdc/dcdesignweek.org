@@ -21,21 +21,21 @@
 			<ul class="poster-links">
 				{% if poster.website-url-1 %}
 				<li>
-					<a class="poster-link" href="{{ poster.website-url-1 }}">
+					<a class="poster-link" href="{{ poster.website-url-1 }}" target="blank" rel="nofollow noreferrer">
 						{{ poster.website-url-1-label }}
 					</a>
 				</li>
 				{% endif %}
 				{% if poster.website-url-2 %}
 				<li>
-					<a class="poster-link" href="{{ poster.website-url-2 }}">
+					<a class="poster-link" href="{{ poster.website-url-2 }}" target="blank" rel="nofollow noreferrer">
 						{{ poster.website-url-2-label }}
 					</a>
 				</li>
 				{% endif %}
 				<li>
 					{% if poster.website-url-3 %}
-					<a class="poster-link" href="{{ poster.website-url-3 }}">
+					<a class="poster-link" href="{{ poster.website-url-3 }}" target="blank" rel="nofollow noreferrer">
 						{{ poster.website-url-3-label }}
 					</a>
 				</li>
@@ -50,7 +50,7 @@
 		<div class="column column--span-3">
 			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="{{ poster.button-url }}"
 				target="blank" rel="nofollow noreferrer">
-				Purchase Poster <i class="fas fa-external-link-square-alt"></i>
+				Purchase "{{ poster.poster-title }}" <i class="fas fa-external-link-square-alt"></i>
 			</a>
 		</div>
 	</div>

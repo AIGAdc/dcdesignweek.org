@@ -40,28 +40,21 @@ speakers:
 - name: Yodith Dammlash
   pronouns: She | Her | Hers
   title: Photographer and Photo Editor for AARP
-  bio: 'Yodith Dammlash is a photographer, archivist, and editor based in the DC Metropolitan
+  bio: Yodith Dammlash is a photographer, archivist, and editor based in the DC Metropolitan
     area. She received a BFA in Fine Art Photography from Corcoran College of Art
-    and Design. Her work was exhibited at Gallery 102 in Washington, DC in December
-    2016. She specializes in portrait, documentary, commercial, and archival photography. '
+    and Design. Her photo-based work explores her own Ethiopian-American ancestry
+    through the lenses of womanhood and collective memory.
   website-label: Website
   website-url: http://www.yodithd.com
 - name: Danielle Scruggs
   pronouns: She | Her | Hers
   title: Photographer
-  bio: 'Originally from the Southside of Chicago, Danielle Scruggs has been living
-    and working in New York for the past 7 years. In 2016 she launched SCRUGGS Magazine,
-    a print publication dedicated to her vision of the male form. The magazine was
-    a way for her to create editorial and creative content because none of the magazines
-    that she approached would hire her. She wrote and photographed all of the content
-    herself and the seminal issue became more akin to her visual diary and personal
-    manifesto. In the spring of  2018, after self assigning for almost six years -
-    Danielle was offered the opportunity to shoot ESPN''s Body Issue, which was her
-    first major breakthrough in the industry.  Synonymously Danielle then became the
-    first Black female photographer to shoot an athlete for The Body Issue in its
-    10-year history. Danielle broke down even more barriers when, in November of 2018,  she
-    became the first Black Person to photograph the cover of Rolling Stone Magazine
-    in its 50-year history. '
+  bio: Danielle A. Scruggs is a freelance photographer, writer, and photo editor for
+    Getty Images based in Chicago, Illinois. She is a graduate of Howard University
+    and the Maryland Institute College of Art. Her photography clients include the
+    New York Times, AARP, Buzzfeed News, ESPN, Financial Times, and the New Republic.
+    She is also the founder of Black Women Directors, a digital library highlighting
+    the work of Black women and non-binary people in film.
   website-label: Website
   website-url: https://daniellescruggs.com/
 - name: Jared Soares

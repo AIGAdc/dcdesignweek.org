@@ -58,3 +58,6 @@ filter-focus:
 Get your sketch on with illustrator Anthony Jackson during this freeform workshop. Pull out your print (or digital!) sketchpad and follow along as he leads you through an hour of illustration and tips, all inspired by the spirit of DC. You’ll learn how to incorporate a color palette, distinctive elements of the District, and simple shapes to create a full composition.
 
 This event is perfect for anyone, regardless of skill — this is a chance to stretch some creative muscles before the weekend ends, hang out with some other cool people, show off what you like to doodle, and learn a thing or two. And don’t worry: whether you want to use pencil, ink, or pixels, this unstructured workshop is tool agnostic. Use what you love most!
+
+### Event Sponsor: Taoti Creative
+[Taoti Creative](https://www.taoti.com/) is a full-service creative agency located on Capitol Hill. Part of the Made in D.C. Program, Taoti is proud to help highlight a local artist like Anthony Jackson—his artwork has been instrumental in powering the DC Love Instagram campaign for our partner, DC Lottery.
