@@ -99,16 +99,21 @@ speakers:
     publication Smile Politely.
   website-label: 
   website-url: 
-- name: Frank Mills
-  pronouns: He | Him | His
+- name: Denaya Jones
+  pronouns: 
   title: 
-  bio: Frank Mills has been a staple of the DC beverage scene for nearly a decade,
-    as a bartender as well as the entrepreneur behind DrinkLock (an anti-tampering
-    beverage coaster) and, his latest venture, Daring Kombucha. Formerly part of the
-    team at Jack Rose, he's now beverage director at Roys Boys in Shaw and a brand
-    ambassador for DC-based BlackLeaf Vodka.
+  bio: |-
+    Denaya Jones is a Washington D.C. native and Virginia Commonwealth University graduate, and has been in hospitality for over nine years. Over the span of her career, an administrative position with black-owned catering and event design company, Charlene’s Kitchen evolved into a true passion for not only hospitality, but cocktails and spirits as a whole.
+
+
+    In addition to operating Deestilled, Denaya has worked behind stick at multiple bars throughout Washington D.C. from Petworth, Dupont, to Georgetown, to most recently at Serenata, in the Union Market area. She is also Operations Director for craft spirits retailer, Seelbach’s, and Content Curator for the D.C. based non-profit, Chocolate City’s Best.
+
+
+    In addition to continued work both behind and beyond the bar, Denaya has competed in and won multiple cocktail competitions, including Chocolate City’s Best, 2018 and the Grey Goose Express Your Cocktail Challenge.
   website-label: Instagram
-  website-url: https://www.instagram.com/drankmills/?hl=en
+  website-url: https://www.instagram.com/deestilled/?hl=en
+  website-label-2: Website
+  website-url-2: https://www.deestilled.co/
 has-accessibility-notes: true
 filter-date:
   is-day-1: true

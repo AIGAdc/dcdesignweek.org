@@ -321,7 +321,7 @@
 {% if content.has-introduction == true %}
 <section class="section section__introduction padding-bottom-80">
 	<div class="grid grid--four-columns">
-		<div class="column column--span-3 flow-medium">
+		<div class="column column--span-3">
 			<h1 class="column--span-50"
 				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ content.header }}
@@ -339,7 +339,12 @@
 							clip-rule="evenodd" /></svg>
 				</figure>
 				<figure>
-					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40"><path fill="#fff" fill-rule="evenodd" d="M20 39C30.4934 39 39 30.4934 39 20C39 9.50659 30.4934 1 20 1C9.50659 1 1 9.50659 1 20C1 30.4934 9.50659 39 20 39ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z" clip-rule="evenodd"/><path fill="#fff" d="M39.5 18H0.5L3 10H37L39.5 18Z"/><path fill="#fff" d="M0.5 22H39.5L36.6516 30H3L0.5 22Z"/></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40">
+						<path fill="#fff" fill-rule="evenodd"
+							d="M20 39C30.4934 39 39 30.4934 39 20C39 9.50659 30.4934 1 20 1C9.50659 1 1 9.50659 1 20C1 30.4934 9.50659 39 20 39ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
+							clip-rule="evenodd" />
+						<path fill="#fff" d="M39.5 18H0.5L3 10H37L39.5 18Z" />
+						<path fill="#fff" d="M0.5 22H39.5L36.6516 30H3L0.5 22Z" /></svg>
 				</figure>
 			</div>
 		</div>
@@ -385,6 +390,35 @@
 					</svg>
 				</figure>
 			</div>
+		</div>
+	</div>
+</section>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if page.url == "/trivia" %}
+{% for content in page.introduction %}
+{% if content.has-introduction == true %}
+<section class="section section__introduction">
+	<div class="grid grid--four-columns align-items-center">
+		<div class="column column--span-2 flow-medium">
+			<h1 class="column--span-80"
+				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ content.header }}
+			</h1>
+			<div class="wysiwyg">
+				{{ content.body | markdownify }}
+			</div>
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="{{ content.button-url }}" target="_blank" rel="nofollow noreferrer">
+				{{ content.button-label }}
+			</a>
+		</div>
+		<div class="column column--span-2">
+			<figure>
+				<img src="/uploads/trivia-cta.png" alt="">
+			</figure>
 		</div>
 	</div>
 </section>

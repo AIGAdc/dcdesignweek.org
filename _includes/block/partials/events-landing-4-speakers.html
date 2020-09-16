@@ -27,9 +27,15 @@
 						{{ speaker.bio | markdownify }}
 					</p>
 					{% if speaker.website-label %}
-					<a href="{{ speaker.website-url }}" rel="noopener" target="_blank">
+					<a href="{{ speaker.website-url }}" rel="noopener" target="_blank" style="display: block">
 						<i class="fas fa-globe-americas"> </i>
 						{{ speaker.website-label }}
+					</a>
+					{% endif %}
+					{% if speaker.website-label-2 %}
+					<a href="{{ speaker.website-url-2 }}" rel="noopener" target="_blank" style="display: block">
+						<i class="fas fa-globe-americas"> </i>
+						{{ speaker.website-label-2 }}
 					</a>
 					{% endif %}
 				</div>
