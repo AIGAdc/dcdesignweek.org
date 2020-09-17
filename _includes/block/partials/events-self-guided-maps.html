@@ -1,77 +1,39 @@
-<section class="section section__landing-details">
-	<div class="grid">
-		<div class="grid-col grid-col--span-2">
-			<h2>
-				Title
+<section class="section section__self-guided-map">
+	<div class="grid grid-four-columns flow-medium">
+		<div class="column column--span-2 flow-medium">
+			<h2 class="column--span-100"
+				id="{{ page.event-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ page.event-header }}
 			</h2>
+			<div class="wysiwyg">
+				{{ page.event-body | markdownify }}
 		</div>
-	</div>
-</section>
-<section class="" style="position: relative;">
-	<div>
-		<style>
-			#map {
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				width: 100%;
-			}
-
-			.mapboxgl-popup-content {
-				font-family: 'Work Sans', sans-serif;
-				font-weight: 400;
-				border-radius: 0 !important;
-				box-shadow: 5px 5px 0px rgba(28, 41, 82, 0.33);
-				max-width: 250px;
-				font-size: 1rem;
-			}
-
-			.mapboxgl-popup-content h3 {
-				font-family: 'Roboto Mono', monospace;
-				font-weight: 700;
-				font-size: 1rem;
-			}
-
-			.mapboxgl-popup-content p {
-				margin: 12px 0;
-			}
-
-		</style>
-		<div id="map" class="mapboxgl-map">
-			<div class="mapboxgl-canary" style="visibility: hidden;"></div>
-			<div
-				class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate">
-				<canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="1265" height="688"
-					style="position: absolute; width: 1265px; height: 688px;"></canvas>
-			</div>
-			<div class="mapboxgl-control-container">
-				<div class="mapboxgl-ctrl-top-left"></div>
-				<div class="mapboxgl-ctrl-top-right"></div>
-				<div class="mapboxgl-ctrl-bottom-left">
-					<div class="mapboxgl-ctrl" style="display: block;">
-						<a class="mapboxgl-ctrl-logo" target="_blank" href="https://www.mapbox.com/"
-							aria-label="Mapbox logo" rel="noopener"></a>
-					</div>
-				</div>
-				<div class="mapboxgl-ctrl-bottom-right">
-					<div class="mapboxgl-ctrl mapboxgl-ctrl-attrib">
-						<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a>
-						<a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a>
-						<a class="mapbox-improve-map"
-							href="https://www.mapbox.com/feedback/?owner=rvondohlen&amp;id=cjnb3ki0p5f2n2rrw5o4c24e8&amp;access_token=pk.eyJ1IjoicnZvbmRvaGxlbiIsImEiOiJ0WHFyM1hRIn0.YNQ1RlsmSD6hAbSqmif7FA"
-							target="_blank">Improve this map</a>
-					</div>
-				</div>
+		<div class="column column--span-2 margin-top-32">
+			<div class="ornaments column--max-content">
+				<figure>
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M20 0C9 0 0 4.71551 0 10.49C0 16.2645 9 21 20 21C31 21 40 16.2945 40 10.49C40 4.68554 31.06 0 20 0ZM13.26 14.9857H8.26V5.99429H13.26C16.71 5.99429 18.91 7.6627 18.91 10.48C18.91 13.2973 16.73 14.9857 13.28 14.9857H13.26ZM26.76 15.2854C23.37 15.2854 21.09 13.5271 21.09 10.5C21.09 7.47288 23.37 5.72455 26.86 5.72455C27.8122 5.67206 28.7624 5.85739 29.6249 6.2638C30.4874 6.67021 31.2349 7.2849 31.8 8.05233L29.55 9.21123C29.2598 8.7647 28.8558 8.40345 28.3795 8.16465C27.9032 7.92585 27.3718 7.81812 26.84 7.85252C24.99 7.85252 23.76 8.78164 23.76 10.5C23.76 12.2184 24.99 13.1575 26.84 13.1575C27.3819 13.199 27.9249 13.0927 28.411 12.8498C28.8971 12.607 29.3081 12.2368 29.6 11.7788L31.84 12.9377C31.2596 13.7197 30.4926 14.3442 29.6088 14.7543C28.725 15.1643 27.7525 15.3469 26.78 15.2854H26.76Z"
+							fill="#4ae725" />
+						<path
+							d="M12.99 8.08002H10.8V12.9H12.99C14.91 12.9 16.17 12.08 16.17 10.49C16.17 8.90002 14.91 8.08002 12.99 8.08002Z"
+							fill="#4ae725" />
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M39 16.8082V10H40V16.8082C40 22.4442 31.0451 27 20 27C8.95492 27 0 22.4544 0 16.8183V10H1V16.8183C1 19.0633 2.80576 21.3483 6.31145 23.1314C9.76297 24.8869 14.6011 26 20 26C25.3985 26 30.2365 24.8845 33.6881 23.1265C37.1937 21.341 39 19.0535 39 16.8082Z"
+							fill="#4ae725" />
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M39 23.4077V17H40V23.4077C40 28.7122 31.0451 33 20 33C8.95492 33 0 28.7122 0 23.4077V17H1V23.4077C1 25.4553 2.76155 27.5997 6.29036 29.2913C9.74725 30.9484 14.5932 32 20 32C25.4068 32 30.2528 30.9484 33.7096 29.2913C37.2385 27.5997 39 25.4553 39 23.4077Z"
+							fill="#4ae725" />
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M39 29.8082V23H40V29.8082C40 35.4442 31.0451 40 20 40C8.95492 40 0 35.4442 0 29.8082V23H1V29.8082C1 32.0535 2.80625 34.341 6.31195 36.1265C9.76346 37.8845 14.6015 39 20 39C25.3985 39 30.2365 37.8845 33.6881 36.1265C37.1937 34.341 39 32.0535 39 29.8082Z"
+							fill="#4ae725" />
+					</svg>
+				</figure>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="section section__landing-details">
-	<div class="grid">
-		<div class="grid-col grid-col--span-2">
-			<p>
-				Button
-			</p>
+		<div class="column column--span-4">
+			<iframe src='https://danasulit.com/dc-design-week/' width='100%' height='800px'>
+			</iframe>
 		</div>
 	</div>
 </section>

@@ -1,0 +1,71 @@
+<section id="events" class="section section__events">
+	<div class="grid grid--four-columns flow-medium">
+		<div class="column column--span-2">
+			<h2 class="column--span-100"
+				id="{{ page.event-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
+				{{ page.self-guided-header }}
+			</h2>
+		</div>
+		<div class="column column--span-2 column--hide">
+			<div class="ornaments">
+				<figure>
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M20 39C30.4934 39 39 30.4934 39 20C39 9.50659 30.4934 1 20 1C9.50659 1 1 9.50659 1 20C1 30.4934 9.50659 39 20 39ZM40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
+							fill="#4ae725" />
+						<path
+							d="M20.02 13.09L18.3 18.39H12.73L17.24 21.66L15.52 26.96L20.02 23.68L24.53 26.96L22.81 21.66L27.32 18.39H21.74L20.02 13.09Z"
+							fill="#4ae725" />
+						<path
+							d="M3.21 27L7.71 23.72L12.22 27L10.5 21.7L15 18.38H9.43L7.71 13.09L6 18.38H0.5V18.44L4.93 21.66L3.21 27Z"
+							fill="#4ae725" />
+						<path
+							d="M32.33 13.09L30.61 18.38H25L29.51 21.66L27.82 27L32.33 23.72L36.84 27L35.12 21.7L39.54 18.48V18.42H34.05L32.33 13.09Z"
+							fill="#4ae725" />
+					</svg>
+				</figure>
+			</div>
+		</div>
+		{% comment %} Show Event Filter on Events Page Only {% endcomment %}
+		{% if page.url == "/events/" %}
+		<div class="column column--span-4">
+			{% include block/events-filter.html %}
+		</div>
+		{% endif %}
+		<div class="column column--span-4">
+			<ul class="grid grid--three-columns mixitup-container">
+				{% assign sorted = site.events-self-guided | sort: 'event-date' and 'date-time' %}
+				{% for event in sorted %}
+				{% include block/partials/self-guided-modal-trigger.html %}
+				{% include block/partials/self-guided-modal-content.html %}
+				{% endfor %}
+			</ul>
+		</div>
+		{% comment %} Show Event CTA Button on Homepage Only {% endcomment %}
+		{% if page.url == "/" %}
+		<div class="column column--span-4 text-center">
+			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+				href="{{ page.event-button-url }}">
+				{{ page.event-button-label}}
+			</a>
+		</div>
+		{% endif %}
+	</div>
+</section>
+
+<script>
+	modals.init({
+		selectorToggle: '[data-modal]', // Modal toggle selector
+		selectorWindow: '[data-modal-window]', // Modal window selector
+		selectorClose: '[data-modal-close]', // Modal window close selector
+		modalActiveClass: 'active', // Class applied to active modal windows
+		modalBGClass: 'modal-bg', // Class applied to the modal background overlay
+		preventBGScroll: true, // Boolean, prevents background content from scroll if true
+		preventBGScrollHtml: false, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
+		preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
+		backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
+		stopVideo: true, // Boolean, if true, stop videos when tab closes
+		callbackOpen: function (toggle, modal) { }, // Functions to run after opening a modal
+		callbackClose: function (toggle, modal) { } // Functions to run after closing a modal
+	});
+</script>
