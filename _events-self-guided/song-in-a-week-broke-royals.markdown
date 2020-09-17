@@ -15,9 +15,9 @@ status:
   is-limited-supply: false
   has-occurred: false
 tickets:
-  has-member-button: false
-  member-button-url:
-  member-button-label:
+  has-member-button: true
+  member-button-url: https://twitter.com/BrokeRoyals
+  member-button-label: "Follow on Twitter"
   has-non-member-button: false
   non-member-button-url:
   non-member-button-label:

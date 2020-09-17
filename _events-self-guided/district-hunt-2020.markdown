@@ -15,12 +15,9 @@ status:
   is-limited-supply: false
   has-occurred: false
 tickets:
-  has-member-button: false
-  member-button-url:
-  member-button-label:
-  has-non-member-button: false
-  non-member-button-url:
-  non-member-button-label:
+  has-member-button: true
+  member-button-url: https://www.eventbrite.com/e/2020-district-hunt-the-mysteries-of-mental-health-tickets-117429582041
+  member-button-label: "Free - Register Today!"
 venue:
   name: Zoom
   additional-header:
@@ -44,4 +41,4 @@ has-accessibility-notes: true
 
 Game Genius hosts their annual District Hunt to showcase the intersection of play and philanthropy. In 2019 (inaugural year), players celebrated the 100th anniversary of Women’s Suffrage as they completed an interactive story puzzle through relevant sites in the city. This year, our focus turns to mental health.
 
-For all of 2020, we have been building a mural of clues on our Instagram @GameGeniusLLC (also located on our website here). After registering on EventBrite, the hunt will start on our website, with players needing to enter the correct passcode. Upon entry, players will have the option of choosing a VA or DC game track. Each track will consist of 3 hidden challenges that align with the 3 segments of Mental Health: Feeling, Thinking, and Acting. Clues online will help players identify and navigate to the physical location of these challenges. When players arrive at a location, they will face a number of fun games/puzzles to earn a key. These keys contain cryptic messages that players must combine to solve the final mystery. 
+For all of 2020, we have been building a mural of clues on our Instagram [@GameGeniusLLC](https://instagram.com/gamegeniusllc) (also located on our website [here](https://www.gamegenius.org)). After registering on EventBrite, the hunt will start on our website, with players needing to enter the correct passcode. Upon entry, players will have the option of choosing a VA or DC game track. Each track will consist of 3 hidden challenges that align with the 3 segments of Mental Health: Feeling, Thinking, and Acting. Clues online will help players identify and navigate to the physical location of these challenges. When players arrive at a location, they will face a number of fun games/puzzles to earn a key. These keys contain cryptic messages that players must combine to solve the final mystery. 

@@ -15,12 +15,12 @@ status:
   is-limited-supply: false
   has-occurred: false
 tickets:
-  has-member-button: false
-  member-button-url:
-  member-button-label:
-  has-non-member-button: false
-  non-member-button-url:
-  non-member-button-label:
+  has-member-button: true
+  member-button-url: https://docs.google.com/forms/d/19i0IatgUJPbbgK0UvVXZ6AiZS3xstqz_oyCSCuVTBQc/edit?usp=sharing_eil&ts=5f36cef4&urp=gmail_link
+  member-button-label: "Download Flipbook Template"
+  has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/accessible-voting-by-design-tickets-117840308535
+  non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
   additional-header:
@@ -44,4 +44,4 @@ has-accessibility-notes: true
 
 With a virtual DC Design Week, we’re going to miss seeing all of you IRL. So we’ve planned the next best thing: a virtual community flipbook featuring all of you!
 
-All week-long, we invite all of you to use a template and create a portrait of yourself. Once you have made your creation and submitted it via this Google Form, we’ll reveal an animation of our community portraits as our favorite file format ever: a GIF. [Google Form](https://docs.google.com/forms/d/19i0IatgUJPbbgK0UvVXZ6AiZS3xstqz_oyCSCuVTBQc/edit?usp=sharing_eil&ts=5f36cef4&urp=gmail_link)
+All week-long, we invite all of you to use a template and create a portrait of yourself. Once you have made your creation and submitted it via this Google Form, we’ll reveal an animation of our community portraits as our favorite file format ever: a GIF.

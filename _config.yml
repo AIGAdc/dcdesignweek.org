@@ -1151,6 +1151,9 @@ past-editions:
   website-url-1: https://www.wickandpaper.com/
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: Do Young Ahn's Website
+  website-url-2: https://www.instagram.com/wickpaper/
+  website-label-2: <i class="fab fa-Instagram"></i> Instagram
+  website-aria-label-2:
   description-short: My approach is making great quality products and making people
     smile. As a graphic designer, I always wanted to have my own brand. One day I
     ordered a candle making DIY kit, and I fell in love with it. So, I decided to
@@ -1741,8 +1744,8 @@ past-editions:
   website-url-1: https://diod.design
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
-  website-url-2: 
-  website-label-2: 
+  website-url-2: https://www.instagram.com/diod.design/
+  website-label-2: <i class="fab fa-instagram"></i> Instagram
   website-aria-label-2: 
   website-url-3: 
   website-label-3: 
@@ -2055,7 +2058,7 @@ past-editions:
   role: Illustrator who creates digital, ink, and watercolor art
   artist: 
   pronouns: She/Her
-  price-point: "$15 – 20"
+  price-point:
   website-url-1: https://magapova.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 
