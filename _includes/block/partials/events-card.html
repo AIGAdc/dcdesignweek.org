@@ -36,6 +36,7 @@
 		</a>
 	</div>
 	<div class="card-details">
+		{% if page.url == "/events/" %}
 		<div class="card-date">
 			<p class="day">
 				{{ event.event-date | date: "%a"}}
@@ -52,9 +53,9 @@
 						d="M73 0H74V9.29289L80.5711 2.72182L81.2782 3.42893L74.7071 10H84V11H74.7071L81.2782 17.5711L80.5711 18.2782L74 11.7071V21H73V11.7071L66.4289 18.2782L65.7218 17.5711L72.2929 11H63V10H72.2929L65.7218 3.42893L66.4289 2.72182L73 9.29289V0Z"
 						fill="white" />
 				</svg>
-
 			</figure>
 		</div>
+		{% endif %}
 		<div class="card-info">
 			<p>
 				{{ event.start-time }}
@@ -64,4 +65,12 @@
 			</p>
 		</div>
 	</div>
+	{% if page.url == "/events/self-guided" %}
+	<div class="card-footer">
+		<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
+			href="{{ content.button-url }}">
+			{{ content.button-label }}
+		</a>
+	</div>
+	{% endif %}
 </li>
