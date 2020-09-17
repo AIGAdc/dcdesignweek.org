@@ -46,17 +46,6 @@ speakers:
     through the lenses of womanhood and collective memory.
   website-label: Website
   website-url: http://www.yodithd.com
-- name: Danielle Scruggs
-  pronouns: She | Her | Hers
-  title: Photographer
-  bio: Danielle A. Scruggs is a freelance photographer, writer, and photo editor for
-    Getty Images based in Chicago, Illinois. She is a graduate of Howard University
-    and the Maryland Institute College of Art. Her photography clients include the
-    New York Times, AARP, Buzzfeed News, ESPN, Financial Times, and the New Republic.
-    She is also the founder of Black Women Directors, a digital library highlighting
-    the work of Black women and non-binary people in film.
-  website-label: Website
-  website-url: https://daniellescruggs.com/
 - name: Jared Soares
   pronouns: He | Him | His
   title: Photographer
