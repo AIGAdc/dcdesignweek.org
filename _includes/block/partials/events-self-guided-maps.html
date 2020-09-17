@@ -1,12 +1,14 @@
 <section class="section section__self-guided-map">
 	<div class="grid grid-four-columns flow-medium">
-		<div class="column column--span-2">
+		<div class="column column--span-2 flow-medium">
 			<h2 class="column--span-100"
 				id="{{ page.event-header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ page.event-header }}
 			</h2>
+			<div class="wysiwyg">
+				{{ page.event-body | markdownify }}
 		</div>
-		<div class="column column--span-2">
+		<div class="column column--span-2 margin-top-32">
 			<div class="ornaments column--max-content">
 				<figure>
 					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
