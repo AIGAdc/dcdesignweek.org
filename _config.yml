@@ -510,24 +510,24 @@ navigation-placeholder:
 - url: https://2019.dcdesignweek.org
   label: 2019
 navigation-teaser:
-  - url: "/events/"
-    label: Events
-    aria-label: Events Page
-  - url: "/events/self-guided"
-    label: Self Guided
-    aria-label: Events - Self Guided Page
-  - url: "/maker/posters"
-    label: Posters
-    aria-label: Posters Page
-  - url: "/maker/directory"
-    label: Maker Directory
-    aria-label: Maker Directory Page
-  - url: "/about/"
-    label: About
-    aria-label: About Page
-  - url: "/faqs/"
-    label: FAQs
-    aria-label: FAQs Page
+- url: "/events/"
+  label: Events
+  aria-label: Events Page
+- url: "/events/self-guided"
+  label: Self Guided
+  aria-label: Events - Self Guided Page
+- url: "/maker/posters"
+  label: Posters
+  aria-label: Posters Page
+- url: "/maker/directory"
+  label: Maker Directory
+  aria-label: Maker Directory Page
+- url: "/about/"
+  label: About
+  aria-label: About Page
+- url: "/faqs/"
+  label: FAQs
+  aria-label: FAQs Page
 about-dcdw:
   header: "<span>About</span> <span>DC</span> <span>Design</span> <span>Week</span>"
   text: |-
@@ -1153,7 +1153,7 @@ past-editions:
   website-aria-label-1: Do Young Ahn's Website
   website-url-2: https://www.instagram.com/wickpaper/
   website-label-2: <i class="fab fa-Instagram"></i> Instagram
-  website-aria-label-2:
+  website-aria-label-2: 
   description-short: My approach is making great quality products and making people
     smile. As a graphic designer, I always wanted to have my own brand. One day I
     ordered a candle making DIY kit, and I fell in love with it. So, I decided to
@@ -2058,7 +2058,7 @@ past-editions:
   role: Illustrator who creates digital, ink, and watercolor art
   artist: 
   pronouns: She/Her
-  price-point:
+  price-point: 
   website-url-1: https://magapova.com
   website-label-1: <i class="fas fa-computer-classic"></i> Website
   website-aria-label-1: 

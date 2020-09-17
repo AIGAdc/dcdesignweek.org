@@ -4,10 +4,11 @@ date: 2020-08-22 14:23:00 -04:00
 styled-title: "<span>Song</span><span>in</span><span>a</span><span>Week</span><span>with</span><span>Broke</span><span>Royals</span>"
 image: "/uploads/BrokeRoyalsPromo.png"
 image-alt: Members of Broke Royals
-description: 'Join Broke Royals as they write, record and debut a new DCDW-themed song that they themselves are also hearing for the first time during the livestream!'
-event-date:
-start-time:
-end-time:
+description: Join Broke Royals as they write, record and debut a new DCDW-themed song
+  that they themselves are also hearing for the first time during the livestream!
+event-date: 
+start-time: 
+end-time: 
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -17,28 +18,28 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://twitter.com/BrokeRoyals
-  member-button-label: "Follow on Twitter"
+  member-button-label: Follow on Twitter
   has-non-member-button: false
-  non-member-button-url:
-  non-member-button-label:
+  non-member-button-url: 
+  non-member-button-label: 
 venue:
   name: Zoom
-  additional-header:
-  additional-info:
+  additional-header: 
+  additional-info: 
 has-speakers: true
 speakers:
-- name:
-  pronouns:
-  title:
-  bio:
-  website-label:
-  website-url:
-- name:
-  pronouns:
-  title:
-  bio:
-  website-label:
-  website-url:
+- name: 
+  pronouns: 
+  title: 
+  bio: 
+  website-label: 
+  website-url: 
+- name: 
+  pronouns: 
+  title: 
+  bio: 
+  website-label: 
+  website-url: 
 has-accessibility-notes: true
 ---
 

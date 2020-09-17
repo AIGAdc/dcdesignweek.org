@@ -3,11 +3,13 @@ title: Community Flipbook
 date: 2020-08-22 14:23:00 -04:00
 styled-title: "<span>Community</span><span>Flipbook</span>"
 image: "/uploads/event-self-guided-community-flipbook.png"
-image-alt:
-description: "Show us the face of DCDW by creating your own self-portrait — we’ll put them all together in an endless loop showcasing the creativity and diversity of our community."
-event-date:
-start-time:
-end-time:
+image-alt: 
+description: Show us the face of DCDW by creating your own self-portrait — we’ll put
+  them all together in an endless loop showcasing the creativity and diversity of
+  our community.
+event-date: 
+start-time: 
+end-time: 
 status:
   is-featured-on-home: false
   is-featured-on-events: false
@@ -17,28 +19,30 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://docs.google.com/forms/d/19i0IatgUJPbbgK0UvVXZ6AiZS3xstqz_oyCSCuVTBQc/edit?usp=sharing_eil&ts=5f36cef4&urp=gmail_link
-  member-button-label: "Download Flipbook Template"
+  member-button-label: Download Flipbook Template
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/accessible-voting-by-design-tickets-117840308535
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-  additional-header:
-  additional-info:
+  additional-header: 
+  additional-info: 
 has-speakers: true
 speakers:
 - name: Peter Williamson
   pronouns: He | Him | His
   title: Senior Recruiter
-  bio: A professional golfer turned social entrepreneur who is passionate about making philanthropy more fun and accessible
-  website-label:
-  website-url:
+  bio: A professional golfer turned social entrepreneur who is passionate about making
+    philanthropy more fun and accessible
+  website-label: 
+  website-url: 
 - name: Roddy McKenzie
   pronouns: He | Him | His
   title: UX Researcher and Founder of Black UX Labs
-  bio: A former financial services professional who believes play and novelty are vital for progress and growth
-  website-label:
-  website-url:
+  bio: A former financial services professional who believes play and novelty are
+    vital for progress and growth
+  website-label: 
+  website-url: 
 has-accessibility-notes: true
 ---
 
