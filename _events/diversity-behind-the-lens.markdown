@@ -39,7 +39,7 @@ has-speakers: true
 speakers:
 - name: Yodith Dammlash
   pronouns: She | Her | Hers
-  title: Photographer and Photo Editor for AARP
+  title: Photographer and Photo Editor
   bio: Yodith Dammlash is a photographer, archivist, and editor based in the DC Metropolitan
     area. She received a BFA in Fine Art Photography from Corcoran College of Art
     and Design. Her photo-based work explores her own Ethiopian-American ancestry
