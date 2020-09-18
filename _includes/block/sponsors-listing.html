@@ -62,7 +62,7 @@
 				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.sponsors.tier-three-header }}
 			</h3>
-			<ul class="grid grid--four-columns margin-top-16">
+			<ul class="grid grid--five-columns margin-top-16">
 				{% for content in site.sponsors.sponsor-tier-three %}
 				{% include block/partials/card-sponsors.html %}
 				{% endfor %}
