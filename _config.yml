@@ -185,6 +185,23 @@ sponsors:
     website: https://abookapart.com/
     aria-label: ABA Website
   - title: 
+    image: "/uploads/sponsors-supporting-ugroup.svg"
+    image-alt: UGroup Logo
+    website: https://abookapart.com/
+    aria-label: UGroup Website
+    featured-on-posters: true
+  - title: 
+    image: "/uploads/sponsors-supporting-volkswagon.svg"
+    image-alt: Volkswagon Logo
+    website: https://abookapart.com/
+    aria-label: Volkswagon Website
+    featured-on-posters: true
+  - title: 
+    image: "/uploads/sponsors-supporting-lwd.svg"
+    image-alt: Ladies Wine & Dine Logo
+    website: https://abookapart.com/
+    aria-label: Ladies Wine & Dine Website
+  - title: 
     image: "/uploads/sponsors-supporting-mapbox.png"
     image-alt: Mapbox Logo
     website: https://www.mapbox.com
