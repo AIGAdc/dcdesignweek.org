@@ -25,10 +25,25 @@
 			</div>
 		</div>
 	</div>
-	{% if page.status.is-sold-out == true and page.status.sold-out-message %}
-	<div class="ticker ticker--sold-out">
-		<p>{{ page.status.sold-out-message }}</p>
-	</div>
-	{% endif %}
+	{% if page.status.is-featured-on-events == true and page.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ page.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if page.status.is-featured-on-home == true and page.status.featured-event-message %}
+		<div class="ticker ticker--featured">
+			<p>{{ page.status.featured-event-message }}</p>
+		</div>
+		{% endif %}
+		{% if page.status.is-sold-out == true and page.status.sold-out-message %}
+		<div class="ticker ticker--sold-out">
+			<p>{{ page.status.sold-out-message }}</p>
+		</div>
+		{% endif %}
+		{% if page.status.has-occurred == true and page.status.occurred-message %}
+		<div class="ticker ticker--occured">
+			<p>{{ page.status.occurred-message }}</p>
+		</div>
+		{% endif %}
 	<div class="landing-hero__overlay spacing-0"></div>
 </section>
