@@ -13,7 +13,7 @@ end-time: 8:30 PM
 image-alt: Graphic of Tracie Ching's portrait of Alexandria Ocasio-Cortez and Robzilla's
   portrait of LeBron James.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
