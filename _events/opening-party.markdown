@@ -11,13 +11,13 @@ start-time: 7:15 PM
 end-time: 9:00 PM
 image-alt: Photo of a smoky party room.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-home-message: Let’s boogie together, apart!
   is-featured-on-events: true
   featured-event-message: Let’s boogie together, apart!
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: false
+  has-occurred: true
   occurred-message: You Missed Out!
 tickets:
   has-member-button: true
