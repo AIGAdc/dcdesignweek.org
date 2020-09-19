@@ -14,7 +14,8 @@ image-alt: Graphic of Tracie Ching's portrait of Alexandria Ocasio-Cortez and Ro
   portrait of LeBron James.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  is-featured-on-events: true
+  featured-event-message: Local Legends, Dueling Vectors
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
