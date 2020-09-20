@@ -157,11 +157,11 @@
   bottom: 0;
   left: 0;
   border: solid 1px $white;
-  z-index: 400;
 }
 
 .events-landing-layout .ticker {
   border: none;
+  z-index: 200;
 }
 
 .ticker.ticker--occured {
@@ -233,4 +233,9 @@
     /* Firefox bug fix */
     transform: translateX(-100%);
   }
+}
+
+.past-event,
+.events-filter__date--occurred {
+	opacity: 0.5 !important;
 }
