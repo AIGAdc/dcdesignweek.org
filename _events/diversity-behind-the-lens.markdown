@@ -11,7 +11,7 @@ end-time: 8:30 PM
 image-alt: Photos of speakers Yodith Dammlash, Dana Scruggs, Jared Soares, and Gary
   Williams.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   is-featured-on-events: false
   is-sold-out: false
   sold-out-message: This Event is Sold Out.

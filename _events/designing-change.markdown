@@ -12,7 +12,7 @@ end-time: 3:30 PM
 image-alt: Photos of moderator Maurice Cherry and speakers Earl Gray, Elaine Lopez,
   Marlene Marmolejos, and Jacinda Walker.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-home-message: It starts with you. Yes, you!
   is-featured-on-events: true
   featured-event-message: It starts with you. Yes, you!
