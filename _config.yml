@@ -649,12 +649,12 @@ past-editions:
     class: day-1
     text-1: Fri
     text-3: 18
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-2"
     class: day-2
     text-1: Sat
     text-3: 19
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-3"
     class: day-3
     text-1: Sun

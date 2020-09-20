@@ -3,7 +3,7 @@
 		data-filter-group="">
 		{% for control in site.2020-events-filter.day %}
 		<button
-			class="control {{ control.class }} {% if control.has-occurred == true %} .events-filter__date--occurred {% endif %}"
+			class="control {{ control.class }} {% if control.has-occurred == true %} events-filter__date--occurred {% endif %}"
 			data-filter="{{ control.filter }}" type="button">
 			<span class="control-text-1">
 				{{ control.text-1 }}

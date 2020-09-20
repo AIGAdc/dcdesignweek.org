@@ -36,7 +36,7 @@
 		</a>
 	</div>
 	<div class="card-details">
-		{% if page.url == "/events/" %}
+		{% if page.url == "/" or "/events/" %}
 		<div class="card-date">
 			<p class="day">
 				{{ event.event-date | date: "%a"}}
