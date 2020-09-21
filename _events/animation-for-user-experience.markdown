@@ -14,8 +14,8 @@ image-alt: Image of a wireframe of a desktop browser window with animation eleme
 status:
   is-featured-on-home: false
   is-featured-on-events: false
-  is-sold-out: false
-  sold-out-message: This Event is Sold Out.
+  is-sold-out: true
+  sold-out-message: Sold Out! Sold Out! Sold Out!
   is-limited-supply: false
   has-occurred: false
 tickets:
