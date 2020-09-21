@@ -659,7 +659,7 @@ past-editions:
     class: day-3
     text-1: Sun
     text-3: 20
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-4"
     class: day-4
     text-1: Mon
