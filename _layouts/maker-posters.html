@@ -41,7 +41,8 @@ layout: base
 		</div>
 		<div class="column column--span-4 margin-top-16">
 			<ul class="grid grid--five-columns">
-				{% for content in site.sponsors.sponsor-tier-three %}
+				{% assign sorted = site.sponsors.sponsor-tier-three | sort: 'aria-label' %}
+				{% for content in sorted %}
 				{% if content.featured-on-posters == true %}
 				{% include block/partials/card-sponsors.html %}
 				{% endif %}

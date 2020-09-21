@@ -185,6 +185,11 @@ sponsors:
     website: https://abookapart.com/
     aria-label: ABA Website
   - title: 
+    image: "/uploads/sponsors-supporting-adastra.png"
+    image-alt: AdAstra Logo
+    website: https://https://ad-astrainc.com/
+    aria-label: AdAstra Website
+  - title: 
     image: "/uploads/sponsors-supporting-ugroup.png"
     image-alt: UGroup Logo
     website: https://u.group/
