@@ -72,7 +72,7 @@ speakers:
     and strategically underrepresented groups to tell their stories through collaboration
     with community members and organizations on the frontlines of change.
   website-label: Website
-  website-url: http://www.josephorzal.com
+  website-url: http://nomunomu.org/
 has-accessibility-notes: true
 filter-date:
   is-day-4: true
