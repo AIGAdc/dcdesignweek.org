@@ -34,7 +34,8 @@
 		</div>
 		<div class="column column--span-4 margin-top-16">
 			<ul class="grid grid--two-columns">
-				{% for content in site.sponsors.sponsor-tier-one %}
+				{% assign sorted = site.sponsors.sponsor-tier-one | sort: 'aria-label' %}
+				{% for content in sorted %}
 				{% include block/partials/card-sponsors.html %}
 				{% endfor %}
 			</ul>
@@ -47,8 +48,9 @@
 				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.sponsors.tier-two-header }}
 			</h3>
-			<ul class="grid grid--four-columns margin-top-16">
-				{% for content in site.sponsors.sponsor-tier-two %}
+			<ul class="grid grid--three-columns margin-top-16">
+				{% assign sorted = site.sponsors.sponsor-tier-two | sort: 'aria-label' %}
+				{% for content in sorted %}
 				{% include block/partials/card-sponsors.html %}
 				{% endfor %}
 			</ul>
@@ -62,8 +64,9 @@
 				id="{{ site.sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
 				{{ site.sponsors.tier-three-header }}
 			</h3>
-			<ul class="grid grid--five-columns margin-top-16">
-				{% for content in site.sponsors.sponsor-tier-three %}
+			<ul class="grid grid--four-columns margin-top-16">
+				{% assign sorted = site.sponsors.sponsor-tier-three | sort: 'aria-label' %}
+				{% for content in sorted %}
 				{% include block/partials/card-sponsors.html %}
 				{% endfor %}
 			</ul>

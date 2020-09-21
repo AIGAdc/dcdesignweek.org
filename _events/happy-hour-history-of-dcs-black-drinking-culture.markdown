@@ -17,7 +17,7 @@ status:
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
-  has-occurred: false
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893

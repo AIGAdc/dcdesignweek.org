@@ -185,6 +185,11 @@ sponsors:
     website: https://abookapart.com/
     aria-label: ABA Website
   - title: 
+    image: "/uploads/sponsors-supporting-adastra.png"
+    image-alt: AdAstra Logo
+    website: https://https://ad-astrainc.com/
+    aria-label: AdAstra Website
+  - title: 
     image: "/uploads/sponsors-supporting-ugroup.png"
     image-alt: UGroup Logo
     website: https://u.group/
@@ -659,7 +664,7 @@ past-editions:
     class: day-3
     text-1: Sun
     text-3: 20
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-4"
     class: day-4
     text-1: Mon
