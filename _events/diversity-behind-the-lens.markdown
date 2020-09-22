@@ -12,7 +12,9 @@ image-alt: Photos of speakers Yodith Dammlash, Dana Scruggs, Jared Soares, and G
   Williams.
 status:
   is-featured-on-home: true
-  is-featured-on-events: false
+  featured-home-message: Who’s behind the lens matters
+  is-featured-on-events: true
+  featured-event-message: Who’s behind the lens matters
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
