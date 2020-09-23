@@ -76,7 +76,8 @@ speakers:
 - name: Caroline Trudeau
   pronouns: She | Her | Hers
   title: 30 Second Pitch
-  bio: Caroline is Slalom DC’s Digital Experience Innovation Leader and a catalyst for change and growth in individuals and collectives.
+  bio: Caroline is Slalom DC’s Digital Experience Innovation Leader and a catalyst
+    for change and growth in individuals and collectives.
   website-label: Website
   website-url: http://thevoicescollection.com/
   website-label-2: Instagram
