@@ -38,6 +38,12 @@
 						{{ speaker.website-label-2 }}
 					</a>
 					{% endif %}
+					{% if speaker.website-label-3 %}
+					<a href="{{ speaker.website-url-3 }}" rel="noopener" target="_blank" style="display: block">
+						<i class="fas fa-globe-americas"> </i>
+						{{ speaker.website-label-3 }}
+					</a>
+					{% endif %}
 				</div>
 				{% endfor %}
 			</div>
