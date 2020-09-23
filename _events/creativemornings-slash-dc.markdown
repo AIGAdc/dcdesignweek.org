@@ -91,3 +91,5 @@ filter-type:
 
 ## September’s Theme is Spectrum
 “A band of colors, expanding definitions, a broad array of identities — we all live within multiple spectrums”
+
+Learn more about this month's theme, speakers, and more at [Creative Mornings DC](https://creativemornings.com/cities/dc){:target="_blank" rel="noopener nofollow"}.
