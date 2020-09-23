@@ -10,7 +10,7 @@ start-time: 7:00 PM
 end-time: 8:00 PM
 image-alt: Black and white comic illustrations.
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-home-message: Creating diverse superheroes.
   is-featured-on-events: true
   featured-event-message: Creating diverse superheroes.
