@@ -12,8 +12,10 @@ end-time: 1:30 PM
 image-alt: Photos of speakers Mikea Hugley, Amanda Ghobandi, Elise Crawford, and Jess
   Washington.
 status:
-  is-featured-on-home: false
-  is-featured-on-events: false
+  is-featured-on-home: true
+  featured-home-message: Inspiration for your business.
+  is-featured-on-events: true
+  featured-event-message: Inspiration for your business.
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
