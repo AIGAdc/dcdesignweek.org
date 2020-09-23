@@ -48,6 +48,7 @@ speakers:
     Union in New York City and MFA from The University of Michigan School of Art and
     Design as a Horace H. Rackham Fellow.
   website-label: Website
+  website-url: http://www.nekishadurrett.com/
   website-url-2: https://www.instagram.com/nekishadurrett/?hl=en
   website-label-2: Instagram
 - name: Amanda Leigh Ponce
@@ -75,8 +76,8 @@ speakers:
 - name: Caroline Trudeau
   pronouns: She | Her | Hers
   title: 30 Second Pitch
-  bio: I am Slalom DC’s Digital Experience Innovation Leader and a catalyst for change
-    and growth in individuals and collectives.
+  bio: Caroline is Slalom DC’s Digital Experience Innovation Leader and a catalyst
+    for change and growth in individuals and collectives.
   website-label: Website
   website-url: http://thevoicescollection.com/
   website-label-2: Instagram
