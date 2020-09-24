@@ -679,7 +679,7 @@ past-editions:
     class: day-6
     text-1: Wed
     text-3: 23
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-7"
     class: day-7
     text-1: Thu

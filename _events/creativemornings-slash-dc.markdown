@@ -11,8 +11,10 @@ start-time: 8:30 AM
 end-time: 10:00 AM
 image-alt: DCDW 2020
 status:
-  is-featured-on-home: false
-  is-featured-on-events: false
+  is-featured-on-home: true
+  featured-home-message: 'September’s theme: “spectrum”'
+  is-featured-on-events: true
+  featured-event-message: 'September’s theme: “spectrum”'
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
