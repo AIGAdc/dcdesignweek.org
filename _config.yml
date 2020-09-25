@@ -684,7 +684,7 @@ past-editions:
     class: day-7
     text-1: Thu
     text-3: 24
-    has-occurred: false
+    has-occurred: true
   - filter: ".day-8"
     class: day-8
     text-1: Fri

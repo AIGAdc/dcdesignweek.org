@@ -10,6 +10,9 @@ event-date: 2020-09-25 16:00:00 -04:00
 start-time: 4:00 PM
 end-time: 4:30 PM
 image-alt: Members of Broke Royals
+status:
+  is-featured-on-home: true
+  is-featured-on-events: true
 tickets:
   has-non-member-button: true
   non-member-button-url: https://www.youtube.com/channel/UCl1u45w6nnNxGNmLxyYM_6Q
