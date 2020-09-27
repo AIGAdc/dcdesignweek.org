@@ -10,7 +10,7 @@ start-time: 7:00 PM
 end-time: 8:00 PM
 image-alt: Black and white comic illustrations.
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   featured-home-message: Creating diverse superheroes.
   is-featured-on-events: true
   featured-event-message: Creating diverse superheroes.
@@ -19,10 +19,10 @@ status:
   is-limited-supply: false
   has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fstorytelling-with-shawn-martinbrough%2F%3Fredirect_source%3Deventbrite_register
   member-button-label: "$5 — Members"
-  has-non-member-button: true
+  has-non-member-button: false
   non-member-button-url: https://www.eventbrite.com/e/storytelling-with-shawn-martinbrough-tickets-117860874047
   non-member-button-label: "$5 — Non-members"
 venue:

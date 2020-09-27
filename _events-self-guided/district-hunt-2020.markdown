@@ -15,9 +15,9 @@ status:
   is-featured-on-events: false
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: false
+  has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://www.eventbrite.com/e/2020-district-hunt-the-mysteries-of-mental-health-tickets-117429582041
   member-button-label: Free - Register Today!
 venue:

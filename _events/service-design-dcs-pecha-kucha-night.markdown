@@ -19,7 +19,7 @@ status:
   is-limited-supply: false
   has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://www.meetup.com/ServiceDesignDC/events/272920680/
   member-button-label: Free — Register Here
   has-non-member-button: false

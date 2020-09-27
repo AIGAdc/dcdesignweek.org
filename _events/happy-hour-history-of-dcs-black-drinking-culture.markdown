@@ -19,7 +19,7 @@ status:
   is-limited-supply: false
   has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://www.eventbrite.com/e/happy-hour-history-of-dcs-black-drinking-culture-tickets-117851126893
   member-button-label: "$15 — Ticket Only"
   has-non-member-button: false

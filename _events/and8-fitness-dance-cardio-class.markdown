@@ -18,7 +18,7 @@ status:
   is-limited-supply: false
   has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://www.and8fitness.com/and8-x-dcdw.html
   member-button-label: "$7  — General Admission"
   has-non-member-button: false

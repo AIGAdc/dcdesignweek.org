@@ -11,16 +11,16 @@ start-time: 8:30 AM
 end-time: 10:00 AM
 image-alt: DCDW 2020
 status:
-  is-featured-on-home: true
+  is-featured-on-home: false
   featured-home-message: 'September’s theme: “spectrum”'
   is-featured-on-events: true
   featured-event-message: 'September’s theme: “spectrum”'
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
-  has-occurred: false
+  has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://creativemornings.com/cities/dc
   member-button-label: Learn More
 venue:

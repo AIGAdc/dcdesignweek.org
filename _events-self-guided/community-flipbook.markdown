@@ -15,12 +15,12 @@ status:
   is-featured-on-events: false
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: false
+  has-occurred: true
 tickets:
-  has-member-button: true
+  has-member-button: false
   member-button-url: https://docs.google.com/forms/d/19i0IatgUJPbbgK0UvVXZ6AiZS3xstqz_oyCSCuVTBQc/edit?usp=sharing_eil&ts=5f36cef4&urp=gmail_link
   member-button-label: Download Flipbook Template
-  has-non-member-button: true
+  has-non-member-button: false
   non-member-button-url: https://www.eventbrite.com/e/accessible-voting-by-design-tickets-117840308535
   non-member-button-label: "$10 — Non-members"
 venue:
