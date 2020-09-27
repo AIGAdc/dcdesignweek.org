@@ -689,7 +689,7 @@ past-editions:
     class: day-8
     text-1: Fri
     text-3: 25
-    has-occurred: false
+    has-occurred: true
   time:
   - filter: ".morning"
     class: morning
