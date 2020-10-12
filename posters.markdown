@@ -1,6 +1,6 @@
 ---
 title: Maker Posters
-permalink: "/maker/posters"
+permalink: "/maker/posters/"
 hero:
 - has-hero: true
   header: 

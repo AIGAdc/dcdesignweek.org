@@ -13,7 +13,7 @@ image-alt: Members of Broke Royals
 status:
   is-featured-on-home: false
   is-featured-on-events: true
-  has-occurred: true
+  has-occurred: false
 tickets:
   has-non-member-button: false
   non-member-button-url: https://www.youtube.com/channel/UCl1u45w6nnNxGNmLxyYM_6Q

@@ -1,6 +1,6 @@
 ---
 title: Maker Directory
-permalink: "/maker/directory"
+permalink: "/maker/directory/"
 hero:
 - has-hero: true
   header: 

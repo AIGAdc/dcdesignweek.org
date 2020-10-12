@@ -14,7 +14,7 @@ status:
   is-featured-on-events: false
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
 tickets:
   has-member-button: false
   member-button-url: https://twitter.com/BrokeRoyals

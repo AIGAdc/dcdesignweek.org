@@ -535,13 +535,13 @@ navigation-teaser:
 - url: "/events/"
   label: Events
   aria-label: Events Page
-- url: "/events/self-guided"
+- url: "/events/self-guided/"
   label: Self Guided
   aria-label: Events - Self Guided Page
-- url: "/maker/posters"
+- url: "/maker/posters/"
   label: Posters
   aria-label: Posters Page
-- url: "/maker/directory"
+- url: "/maker/directory/"
   label: Maker Directory
   aria-label: Maker Directory Page
 - url: "/about/"
@@ -590,7 +590,7 @@ makers:
     to do that than showcasing their work? We may not be able to do our IRL Pop-Up
     Shop this year, but we’ve got the next best thing. Check out our virtual directory
     for all your fall shopping needs.
-  button-url: "/maker/directory"
+  button-url: "/maker/directory/"
   button-label: Explore Local Artists
 posters:
   header: "<span>Limited</span> <span>Edition</span> <span>Posters</span>"
@@ -600,7 +600,7 @@ posters:
     fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank"
     rel="noopener nofollow"}. See them all, learn about the artists, and get yours
     today!
-  button-url: "/maker/posters"
+  button-url: "/maker/posters/"
   button-label: See All Posters
 faqs:
   header: "<span>FAQs</span>"
@@ -654,42 +654,42 @@ past-editions:
     class: day-1
     text-1: Fri
     text-3: 18
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-2"
     class: day-2
     text-1: Sat
     text-3: 19
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-3"
     class: day-3
     text-1: Sun
     text-3: 20
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-4"
     class: day-4
     text-1: Mon
     text-3: 21
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-5"
     class: day-5
     text-1: Tue
     text-3: 22
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-6"
     class: day-6
     text-1: Wed
     text-3: 23
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-7"
     class: day-7
     text-1: Thu
     text-3: 24
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-8"
     class: day-8
     text-1: Fri
     text-3: 25
-    has-occurred: true
+    has-occurred: false
   time:
   - filter: ".morning"
     class: morning

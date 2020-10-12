@@ -18,7 +18,7 @@ status:
   is-sold-out: false
   sold-out-message: This Event is Sold Out.
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
 tickets:
   has-member-button: false
   member-button-url: https://creativemornings.com/cities/dc

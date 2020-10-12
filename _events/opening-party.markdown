@@ -17,7 +17,7 @@ status:
   featured-event-message: Let’s boogie together, apart!
   is-sold-out: false
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
   occurred-message: You Missed Out!
 tickets:
   has-member-button: false

@@ -1,6 +1,6 @@
 ---
 title: Events - Self Guided
-permalink: "/events/self-guided"
+permalink: "/events/self-guided/"
 hero:
 - has-hero: true
   header: 
