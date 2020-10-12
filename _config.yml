@@ -2227,6 +2227,8 @@ exclude:
 - ".sass-cache"
 - ".ruby-version"
 - ".jekyll-cache"
+include:
+- _redirects
 markdown: kramdown
 kramdown:
   input: GFM
