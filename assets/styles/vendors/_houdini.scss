@@ -11,22 +11,22 @@
  */
 
 .houdini {
-	display: none;
-	/**
+    display: none;
+    /**
    * Remove focus styles from content
    * @type {String}
    */
-	/**
+    /**
    * Show expanded content
    */
 }
 
 .houdini[tabindex="-1"]:focus {
-	outline: 0 !important;
+    outline: 0 !important;
 }
 
 .houdini.is-expanded {
-	display: block;
+    display: block;
 }
 
 /**
@@ -34,11 +34,11 @@
  */
 
 .houdini-heading .houdini-toggle {
-	background: inherit;
-	display: block;
-	font: inherit;
-	padding: 0;
-	text-align: inherit;
-	width: 100%;
-	color: $black;
+    background: inherit;
+    display: block;
+    font: inherit;
+    padding: 0;
+    text-align: inherit;
+    width: 100%;
+    color: $black;
 }

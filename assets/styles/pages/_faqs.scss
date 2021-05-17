@@ -2,57 +2,57 @@
 .faqs-layout .houdini-heading,
 .faqs-layout .houdini-toggle,
 .faqs-layout .houdini.is-expanded {
-	display: block !important;
+    display: block !important;
 }
 
 .faqs-layout .houdini-toggle,
 .faqs-layout .houdini.is-expanded {
-	border: solid 1px $white !important;
-	padding: $spacing-16 24px !important;
+    border: solid 1px $white !important;
+    padding: $spacing-16 24px !important;
 }
 
 .faqs-layout .houdini-toggle {
-	cursor: pointer;
-	font-size: $font-size-20 !important;
-	font-weight: 400 !important;
-	text-align: left !important;
-	text-transform: uppercase;
-	width: 100% !important;
-	display: flex !important;
-	justify-content: space-between;
-	align-items: center;
+    cursor: pointer;
+    font-size: $font-size-20 !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    text-transform: uppercase;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .faqs-layout .houdini-toggle-icon::after {
-	display: none;
+    display: none;
 }
 
 .faqs-layout .houdini.is-expanded {
-	font-family: $brand-font-heebo;
-	position: relative !important;
-	top: -1px !important;
+    font-family: $brand-font-heebo;
+    position: relative !important;
+    top: -1px !important;
 }
 
 .faqs-layout .faq-contact {
-	position: sticky;
-	top: 116px;
+    position: sticky;
+    top: 116px;
 }
 
 .faqs-layout .faq-contact h3 {
-	margin-bottom: $spacing-16;
+    margin-bottom: $spacing-16;
 }
 
 .faqs-layout .faq-contact li {
-	display: block;
+    display: block;
 }
 
 .faqs-layout .houdini-heading {
-	font-family: $brand-font-terminus;
-	line-height: 1.4;
+    font-family: $brand-font-terminus;
+    line-height: 1.4;
 }
 
 .faqs-layout .houdini-toggle-icon img {
-	min-width: 16px;
+    min-width: 16px;
 }
 
 .faqs-layout .events-filter__reset.control-group {

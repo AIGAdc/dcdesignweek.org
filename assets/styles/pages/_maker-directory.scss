@@ -1,136 +1,136 @@
 // overrides global grid to be 3 columns instead of 4
 .maker-directory-layout ul.grid,
 .modal-content {
-	display: grid;
-	grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .maker-directory-layout .events-filter {
-	position: sticky;
-	top: 116px;
+    position: sticky;
+    top: 116px;
 }
 
 .modal-content-header button {}
 
 .card__type {
-	border: solid 1px $white;
-	color: $white;
-	font-family: $brand-font-terminus;
-	display: inline-block;
-	padding: $spacing-8;
-	font-weight: 700;
-	font-size: $font-size-12;
+    border: solid 1px $white;
+    color: $white;
+    font-family: $brand-font-terminus;
+    display: inline-block;
+    padding: $spacing-8;
+    font-weight: 700;
+    font-size: $font-size-12;
 }
 
 .modal-content--right>* {
-	margin-top: $spacing-32;
+    margin-top: $spacing-32;
 }
 
 .modal-content-info>* {
-	margin-top: $spacing-8;
+    margin-top: $spacing-8;
 }
 
 .modal-content-header {
-	display: flex;
-	align-items: start;
-	justify-content: space-between;
-	margin-top: 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 0;
 }
 
 .modal__aside {
-	display: none;
+    display: none;
 }
 
 .modal__image {
-	position: relative;
+    position: relative;
 }
 
 .modal__image::after {
-	content: '';
-	position: absolute;
-	height: 100%;
-	border: solid 1px $white;
-	width: 100%;
-	left: -8px;
-	top: 24px;
-	z-index: -1;
+    content: '';
+    position: absolute;
+    height: 100%;
+    border: solid 1px $white;
+    width: 100%;
+    left: -8px;
+    top: 24px;
+    z-index: -1;
 }
 
 .modal__image img {
-	border: solid 1px $white;
-	right: -16px;
-	position: relative;
+    border: solid 1px $white;
+    right: -16px;
+    position: relative;
 }
 
 @media screen and (min-width: 639px) {
-	.maker-directory-layout ul.grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .maker-directory-layout ul.grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 1023px) {
 
-	// overrides global grid to be 3 columns instead of 4
-	.maker-directory-layout ul.grid {
-		grid-template-columns: repeat(3, 1fr);
-	}
+    // overrides global grid to be 3 columns instead of 4
+    .maker-directory-layout ul.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-	.modal-content {
-		grid-template-columns: repeat(2, 1fr);
-		margin-bottom: 40px;
-	}
+    .modal-content {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 40px;
+    }
 
-	.modal-content--left {
-		margin-right: $spacing-48;
-	}
+    .modal-content--left {
+        margin-right: $spacing-48;
+    }
 
-	.modal__image::after {
-		left: -16px;
-	}
+    .modal__image::after {
+        left: -16px;
+    }
 
-	.modal__aside {
-		display: block;
-		margin-bottom: $spacing-16;
-	}
+    .modal__aside {
+        display: block;
+        margin-bottom: $spacing-16;
+    }
 
 }
 
 .radio,
 .radio-label {
-	display: block;
-	width: 100%;
-	cursor: pointer;
+    display: block;
+    width: 100%;
+    cursor: pointer;
 }
 
 .maker-directory-layout .events-filter__reset.control-group {
-	width: 100%;
-	border: solid 1px $white;
-	position: relative;
-	top: -1px;
+    width: 100%;
+    border: solid 1px $white;
+    position: relative;
+    top: -1px;
 }
 
 .maker-directory-layout .events-filter__reset.control-group button {
-	width: 100%;
-	text-align: left;
+    width: 100%;
+    text-align: left;
 }
 
 .maker-directory-layout .events-filter__dates.control-group,
 .maker-directory-layout .filter-header {
-	padding: $spacing-16;
-	border: solid 1px $white;
-	position: relative;
+    padding: $spacing-16;
+    border: solid 1px $white;
+    position: relative;
 }
 
 .maker-directory-layout .filter-header {
-	margin-bottom: -1px;
+    margin-bottom: -1px;
 }
 
 .maker-directory-layout .events-filter__dates.control-group {
-	margin-bottom: -1px;
+    margin-bottom: -1px;
 }
 
 .faqs-layout .sticky,
 .section--maker-grid .sticky {
-	position: sticky;
-	top: 116px;
+    position: sticky;
+    top: 116px;
 }

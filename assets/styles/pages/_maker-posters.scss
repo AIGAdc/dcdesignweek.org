@@ -1,18 +1,18 @@
 .section__posters .artist-name {
-	font-size: $font-size-20;
+    font-size: $font-size-20;
 }
 
 .section__posters .poster-title {
-	font-size: $font-size-20;
-	font-family: $brand-font-fk-grotesk;
-	text-transform: uppercase;
+    font-size: $font-size-20;
+    font-family: $brand-font-fk-grotesk;
+    text-transform: uppercase;
 }
 
 .section__posters .poster-link {
-	display: block;
+    display: block;
 }
 
 .section__posters .artist-portrait {
-	@include grayscale;
-	border: solid 1px $white;
+    @include grayscale;
+    border: solid 1px $white;
 }

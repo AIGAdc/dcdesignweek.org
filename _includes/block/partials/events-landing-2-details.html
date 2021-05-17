@@ -1,31 +1,31 @@
 <section class="section section__landing-details">
-	<div class="grid grid--four-columns">
-		<div class="column column--span-4">
-			<h2>
-				<span>Details</span>
-			</h2>
-		</div>
-		<div class="column column--span-1">
-			<h3>
-				Date & Time
-			</h3>
-			<p>
-				{{ page.event-date | date: "%A, %B %d"}}
-			</p>
-			<p>
-				{{ page.start-time }} - {{ page.end-time }}
-			</p>
-		</div>
-		<div class="column column--span-1">
-			<h3>
-				Location
-			</h3>
-			<p>
-				{{ page.venue.name }}
-			</p>
-			<p>
-				{{ page.venue.info }}
-			</p>
-		</div>
-	</div>
+    <div class="grid grid--four-columns">
+        <div class="column column--span-4">
+            <h2>
+                <span>Details</span>
+            </h2>
+        </div>
+        <div class="column column--span-1">
+            <h3>
+                Date & Time
+            </h3>
+            <p>
+                {{ page.event-date | date: "%A, %B %d"}}
+            </p>
+            <p>
+                {{ page.start-time }} - {{ page.end-time }}
+            </p>
+        </div>
+        <div class="column column--span-1">
+            <h3>
+                Location
+            </h3>
+            <p>
+                {{ page.venue.name }}
+            </p>
+            <p>
+                {{ page.venue.info }}
+            </p>
+        </div>
+    </div>
 </section>

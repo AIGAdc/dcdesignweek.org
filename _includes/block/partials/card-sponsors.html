@@ -1,17 +1,16 @@
 <li class="card card--sponsors column--span-1">
-	{% if content.title %}
-	<div class="card__header">
-		<h3 class="card__title"
-			id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-			{{ content.title }}
-		</h3>
-	</div>
-	{% endif %}
-	<div class="card__aside">
-		<a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
-			<figure class="card__image shadow-reverse shadow-reverse--green">
-				<img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
-			</figure>
-		</a>
-	</div>
+    {% if content.title %}
+    <div class="card__header">
+        <h3 class="card__title" id="{{ content.title | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+            {{ content.title }}
+        </h3>
+    </div>
+    {% endif %}
+    <div class="card__aside">
+        <a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+            <figure class="card__image shadow-reverse shadow-reverse--green">
+                <img src="{{ content.image }}" alt=" {{ content.image-alt }}" />
+            </figure>
+        </a>
+    </div>
 </li>

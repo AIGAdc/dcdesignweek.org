@@ -1,19 +1,17 @@
 <section class="section section__makers">
-	<div class="grid grid--four-columns">
-		<div class="column column--span-2 flow-large">
-			<h2 id="{{ site.makers.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ site.makers.header }}
-			</h2>
-			<div class="wysiwyg">
-				{{ site.makers.body | markdownify }}
-			</div>
-			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green"
-				href="{{ site.makers.button-url }}">{{ site.makers.button-label }}
-			</a>
-		</div>
-		<div class="column column--span-2 column--hide">
-			<img aria-hidden="true" src="/uploads/gallery-maker-items.png"
-				alt="Large Floating amorphous bubbles">
-		</div>
-	</div>
+    <div class="grid grid--four-columns">
+        <div class="column column--span-2 flow-large">
+            <h2 id="{{ site.makers.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+                {{ site.makers.header }}
+            </h2>
+            <div class="wysiwyg">
+                {{ site.makers.body | markdownify }}
+            </div>
+            <a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="{{ site.makers.button-url }}">{{ site.makers.button-label }}
+            </a>
+        </div>
+        <div class="column column--span-2 column--hide">
+            <img aria-hidden="true" src="/uploads/gallery-maker-items.png" alt="Large Floating amorphous bubbles">
+        </div>
+    </div>
 </section>

@@ -1,49 +1,49 @@
 .site-footer {
-	@include grid;
-	align-items: center;
-	background-color: $white;
-	color: $black;
-	grid-template-columns: 1fr;
-	padding: $spacing-16;
-	position: relative;
-	text-align: center;
-	z-index: $index-4;
+    @include grid;
+    align-items: center;
+    background-color: $white;
+    color: $black;
+    grid-template-columns: 1fr;
+    padding: $spacing-16;
+    position: relative;
+    text-align: center;
+    z-index: $index-4;
 }
 
 .site-footer {
-	grid-gap: $spacing-16;
+    grid-gap: $spacing-16;
 }
 
 .site-footer__social {
-	@include grid;
-	align-items: center;
-	grid-template-columns: 1fr;
-	padding: $spacing-8;
+    @include grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding: $spacing-8;
 }
 
 .site-footer a {
-	color: $black;
-	font-size: $font-size-14;
+    color: $black;
+    font-size: $font-size-14;
 }
 
 .site-footer .svg-inline--fa {
-	font-size: $font-size-32;
+    font-size: $font-size-32;
 }
 
 .site-footer li {
-	display: inline-block;
+    display: inline-block;
 }
 
 @media screen and (min-width: 1023px) {
-	.site-footer {
-		grid-template-columns: 0.75fr 1fr 0.75fr;
-	}
+    .site-footer {
+        grid-template-columns: 0.75fr 1fr 0.75fr;
+    }
 
-	.site-footer a:first-of-type {
-		text-align: left;
-	}
+    .site-footer a:first-of-type {
+        text-align: left;
+    }
 
-	.site-footer .dcdw {
-		text-align: right;
-	}
+    .site-footer .dcdw {
+        text-align: right;
+    }
 }

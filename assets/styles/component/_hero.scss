@@ -1,102 +1,102 @@
 .hero--home {
-	position: relative;
-	z-index: $index-1;
+    position: relative;
+    z-index: $index-1;
 }
 
 .hero--home>div:not(:last-child) {
-	position: relative;
-	z-index: $index-4;
+    position: relative;
+    z-index: $index-4;
 }
 
 .overlay {
-	background: radial-gradient(transparent 0%, $black 90%);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: $index-4;
+    background: radial-gradient(transparent 0%, $black 90%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: $index-4;
 }
 
 .hero--home {
-	padding: $spacing-16 !important;
+    padding: $spacing-16 !important;
 }
 
 .hero--home video {
-	width: 100%;
-	-o-object-position: center;
-	object-position: center;
-	-o-object-fit: contain;
-	object-fit: contain;
+    width: 100%;
+    -o-object-position: center;
+    object-position: center;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 @media (min-height: 0px) and (max-height: 700px) {
-	.hero--home video {
-		height: 400px;
-	}
+    .hero--home video {
+        height: 400px;
+    }
 }
 
 @media (min-width: 639px) and (min-height: 700px) {
-	.hero--home video {
-		height: 580px;
-	}
+    .hero--home video {
+        height: 580px;
+    }
 }
 
 @media screen and (min-width: 399px) {
-	.hero--home {
-		padding: $spacing-60 $spacing-16 !important;
-	}
+    .hero--home {
+        padding: $spacing-60 $spacing-16 !important;
+    }
 }
 
 @media screen and (min-width: 639px) {
-	.hero--home {
-		padding: $spacing-60 $spacing-32 !important;
-	}
+    .hero--home {
+        padding: $spacing-60 $spacing-32 !important;
+    }
 }
 
 @media screen and (min-width: 799px) {
-	.hero--home video {
-		-o-object-fit: contain;
-		object-fit: contain;
-	}
+    .hero--home video {
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
 }
 
 .houdini-heading .houdini-toggle {
-	background: inherit !important;
-	border: none !important;
-	display: inline-block !important;
-	font: inherit !important;
-	padding: $spacing-8 !important;
-	text-align: inherit !important;
-	// width: auto !important;
-	color: #fff !important;
+    background: inherit !important;
+    border: none !important;
+    display: inline-block !important;
+    font: inherit !important;
+    padding: $spacing-8 !important;
+    text-align: inherit !important;
+    // width: auto !important;
+    color: #fff !important;
 }
 
 .houdini-toggle-icon {
-	margin-left: $spacing-8 !important;
-	width: 8px !important; // prevents UI shift when changing from plus to minus
-	display: inline-block !important;
+    margin-left: $spacing-8 !important;
+    width: 8px !important; // prevents UI shift when changing from plus to minus
+    display: inline-block !important;
 }
 
 #playback {
-	margin-top: 0 !important;
+    margin-top: 0 !important;
 }
 
 .playback-controls {
-	margin-top: $spacing-16 !important;
-	text-align: right;
+    margin-top: $spacing-16 !important;
+    text-align: right;
 }
 
 .houdini-heading,
 #playback {
-	text-align: right !important;
+    text-align: right !important;
 }
 
 .houdini-heading {
-	display: inline-block;
+    display: inline-block;
 }
 
 .is-active-speed {
-	background-color: $white;
-	color: $black;
+    background-color: $white;
+    color: $black;
 }

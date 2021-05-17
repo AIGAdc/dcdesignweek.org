@@ -1,72 +1,72 @@
 .events-layout .events-filter {
-	border: solid 1px $white;
-	margin-bottom: $spacing-32;
+    border: solid 1px $white;
+    margin-bottom: $spacing-32;
 }
 
 /* date filters */
 .events-layout .events-filter__dates .mixitup-control-active {
-	border-top: solid 8px $green;
+    border-top: solid 8px $green;
 }
 
 .events-layout .events-filter__dates span {
-	display: block;
-	font-size: $font-size-16;
-	text-transform: uppercase;
+    display: block;
+    font-size: $font-size-16;
+    text-transform: uppercase;
 }
 
 .events-layout .events-filter__dates .control-text-1 {
-	font-family: $brand-font-terminus;
+    font-family: $brand-font-terminus;
 }
 
 .events-layout .events-filter__dates .control-text-3 {
-	font-family: $brand-font-fk-grotesk;
+    font-family: $brand-font-fk-grotesk;
 }
 
 .events-layout .events-filter__date--occurred {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 /* additional filters */
 .events-filter__additional-filters {
-	display: none;
+    display: none;
 }
 
 .events-filter__additional-header {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .events-filter__additional-title {
-	flex-grow: 1;
+    flex-grow: 1;
 }
 
 .events-filter__additional-header .houdini-heading {
-	text-align: left !important;
-	font-family: $brand-font-terminus;
-	font-size: $font-size-14;
+    text-align: left !important;
+    font-family: $brand-font-terminus;
+    font-size: $font-size-14;
 }
 
 .events-filter__additional-header .houdini-heading span {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .events-filter__additional-header .houdini-toggle {
-	display: flex !important;
-	justify-content: space-between;
-	align-items: center;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .events-filter__additional-content {
-	border-top: solid 1px $white;
-	padding: $spacing-16;
+    border-top: solid 1px $white;
+    padding: $spacing-16;
 }
 
 .events-filter__additional-content p {
-	margin-bottom: $spacing-8;
+    margin-bottom: $spacing-8;
 }
 
 .events-layout .houdini-toggle-icon img {
-	min-width: 16px;
+    min-width: 16px;
 }
 
 .control {
@@ -83,65 +83,66 @@
 }
 
 .events-filter__reset .control {
-	padding: $spacing-16;
-	border-top: none;
-	font-family: $brand-font-terminus;
-	text-transform: uppercase;
-	font-size: $font-size-14;
+    padding: $spacing-16;
+    border-top: none;
+    font-family: $brand-font-terminus;
+    text-transform: uppercase;
+    font-size: $font-size-14;
 }
 
 .events-filter__additional-title .houdini-toggle {
-	padding: $spacing-16 !important;
-	cursor: pointer !important;
+    padding: $spacing-16 !important;
+    cursor: pointer !important;
 }
 
 .events-filter__status.control-group.grid.grid__4-column {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .mix-it-up-container {
-	overflow: hidden;
-	position: relative;
+    overflow: hidden;
+    position: relative;
 }
 
 .mixitup-container {
-	position: relative;
+    position: relative;
 }
 
 .mixitup-container-failed::after {
-	content: "No results, please refine your search";
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	text-align: center;
+    content: "No results, please refine your search";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
 }
 
 .events__list {
-	display: grid;
-	grid-gap: $spacing-32;
-	grid-template-columns: 1fr;
+    display: grid;
+    grid-gap: $spacing-32;
+    grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 799px) {
-	/* listing */
-	.events__list {
-		grid-template-columns: repeat(2, 1fr);
-	}
+
+    /* listing */
+    .events__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 1023px) {
-	.events-filter__dates {
-		grid-template-columns: repeat(8, 1fr);
-	}
+    .events-filter__dates {
+        grid-template-columns: repeat(8, 1fr);
+    }
 
-	.events-filter__additional-filters {
-		display: block;
-		border-top: solid 1px $white;
-	}
+    .events-filter__additional-filters {
+        display: block;
+        border-top: solid 1px $white;
+    }
 
-	/* listing */
-	.events__list {
-		grid-template-columns: repeat(3, 1fr);
-	}
+    /* listing */
+    .events__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
