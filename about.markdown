@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+published: false
 hero:
 - has-hero: true
   header: 

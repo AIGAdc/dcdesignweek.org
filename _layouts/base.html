@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
     <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
 
-        {%- seo -%}
-
-        <!-- Theme Color for Chrome, Firefox OS and Opera -->
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="{{ site.theme-color }}" />
-        <meta content="{{ site.theme-color }}" name="theme-color" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <script type="module">
+            document.documentElement.classList.remove('no-js');
+            document.documentElement.classList.add('js');
+        </script>
 
         <!-- styles -->
         <link href="{{ site.asseturl }}styles/app.css" media="all" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://use.typekit.net/dsv8drd.css">
+
+        {%- seo -%}
+
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="{{ site.theme-color }}" />
 
         <!-- scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -29,6 +30,7 @@
         <script src="{{ site.asseturl }}scripts/mixitup.min.js"></script>
         <script src="{{ site.asseturl }}scripts/mixitup-multifilter.min.js"></script>
         <script src="https://kit.fontawesome.com/2b8780d76f.js" crossorigin="anonymous"></script>
+
         {% if page.url == "/events/self-guided/" %}
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>

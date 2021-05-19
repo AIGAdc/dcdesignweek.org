@@ -1,6 +1,7 @@
 ---
 title: Trivia
 permalink: "/trivia"
+published: false
 hero:
 - has-hero: true
   header: 

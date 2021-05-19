@@ -1,6 +1,7 @@
 ---
 title: Events - Self Guided
 permalink: "/events/self-guided"
+published: false
 hero:
 - has-hero: true
   header: 
