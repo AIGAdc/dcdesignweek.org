@@ -35,36 +35,6 @@ h2 {
     font-size: $font-size-24;
     line-height: 1;
     position: relative;
-    text-transform: uppercase;
-}
-
-h1 span:after,
-h2 span:after {
-    background-color: $white;
-    content: "";
-    display: inline-block;
-    height: 4px;
-    margin-left: $spacing-4;
-    width: 20px;
-}
-
-h1 span:nth-child(odd),
-h1 span:nth-child(even),
-h2 span:nth-child(odd),
-h2 span:nth-child(even) {
-    color: $white;
-}
-
-h1 span:nth-child(odd),
-h2 span:nth-child(odd) {
-    font-family: $brand-font-fk-grotesk;
-    font-weight: 400;
-}
-
-h1 span:nth-child(even),
-h2 span:nth-child(even) {
-    font-family: $brand-font-sometimes;
-    font-weight: 200;
 }
 
 .wysiwyg h2,
