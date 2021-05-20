@@ -8,7 +8,7 @@
 }
 
 .card h3 {
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     text-transform: uppercase;
 }
 
@@ -106,7 +106,7 @@
 
 .card--event .card-date .day,
 .card--event .card-date .date {
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     text-transform: uppercase;
     text-transform: uppercase;
     display: block;
@@ -183,7 +183,7 @@
 .events-layout .ticker p,
 .events-landing-layout .ticker p {
     display: inline-block;
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     font-size: $font-size-14;
     margin: 0;
     text-align: left;

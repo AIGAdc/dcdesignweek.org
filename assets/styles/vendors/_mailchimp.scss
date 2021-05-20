@@ -9,7 +9,7 @@
     display: block;
     font-weight: 900;
     font-size: $font-size-12;
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     text-transform: uppercase;
     padding: $spacing-8 0;
 }
@@ -115,7 +115,6 @@
 }
 
 .mailchimp-button input {
-    font-size: $font-size-14;
     padding: $spacing-4 $spacing-16;
     font-weight: 800;
     min-height: 44px;

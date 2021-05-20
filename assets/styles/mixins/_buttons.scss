@@ -1,9 +1,8 @@
 @mixin button {
     background-color: transparent;
     border: solid 1px transparent;
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     font-weight: 600;
-    font-size: $font-size-14;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 0 !important;

@@ -1,8 +1,8 @@
 .site-footer {
     @include grid;
     align-items: center;
-    background-color: $white;
-    color: $black;
+    border-top: solid 1px $white;
+    color: $white;
     grid-template-columns: 1fr;
     padding: $spacing-16;
     position: relative;
@@ -22,8 +22,7 @@
 }
 
 .site-footer a {
-    color: $black;
-    font-size: $font-size-14;
+    color: $white;
 }
 
 .site-footer .svg-inline--fa {

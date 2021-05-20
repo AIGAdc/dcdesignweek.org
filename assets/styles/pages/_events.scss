@@ -15,7 +15,7 @@
 }
 
 .events-layout .events-filter__dates .control-text-1 {
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
 }
 
 .events-layout .events-filter__dates .control-text-3 {
@@ -42,7 +42,7 @@
 
 .events-filter__additional-header .houdini-heading {
     text-align: left !important;
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     font-size: $font-size-14;
 }
 
@@ -85,7 +85,7 @@
 .events-filter__reset .control {
     padding: $spacing-16;
     border-top: none;
-    font-family: $brand-font-terminus;
+    font-family: $font-sans;;
     text-transform: uppercase;
     font-size: $font-size-14;
 }
