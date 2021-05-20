@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-layout: home
+layout: archive
 hero:
 - has-hero: true
   header: Home

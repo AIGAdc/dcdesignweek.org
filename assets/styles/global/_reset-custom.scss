@@ -1,16 +1,10 @@
 body {
-    background-color: $black;
-    color: $white;
-    font-family: $brand-font-heebo;
-    font-size: $font-size-16;
+    background-color: $dcdw-2021-red;
+    color: $black;
+    font-family: $font-sans;
+    font-size: $font-size-18;
+    line-height: 1.8;
     overflow-x: hidden;
-}
-
-hr {
-    border: solid 2px $white;
-    border-radius: 0;
-    margin: $spacing-32 auto;
-    max-width: 40px;
 }
 
 ul {
@@ -26,35 +20,7 @@ h5,
 h6,
 small {
     display: block;
-    line-height: initial;
     text-rendering: optimizeLegibility;
-}
-
-h1,
-h2 {
-    font-size: $font-size-24;
-    line-height: 1;
-    position: relative;
-}
-
-.wysiwyg h2,
-h3,
-h4 {
-    font-family: $brand-font-terminus;
-    font-size: $font-size-16;
-    text-transform: uppercase;
-}
-
-h4 {
-    font-size: $font-size-14;
-}
-
-@media screen and (min-width: 799px) {
-
-    h1,
-    h2 {
-        font-size: $font-size-40;
-    }
 }
 
 @mixin anchor {
@@ -115,10 +81,4 @@ video:focus,
 
 *::-webkit-scrollbar-thumb {
     background-color: $green;
-}
-
-@media screen and (min-width: 1023px) {
-    body {
-        font-size: $font-size-18;
-    }
 }

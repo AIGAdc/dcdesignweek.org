@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
 /* SECTION - animations */
 $timing-slow: 300ms;
 $timing-default: 200ms;
@@ -11,6 +13,10 @@ $dcdw-2016: #0000ff;
 $dcdw-2017: #3e07d0;
 $dcdw-2018: #297b76;
 $dcdw-2019: #fb7eb8;
+$dcdw-2020: #4ae725;
+$dcdw-2021-yellow: #f9ff84;
+$dcdw-2021-red: #EC0100;
+$dcdw-2021-purple: #7e48d9;
 
 /* SECTION - depth */
 $index-4: 400;
@@ -37,6 +43,8 @@ $brand-font-heebo: "heebo",
 sans-serif;
 $brand-font-sometimes: "sometimes-times-regular",
 serif;
+
+$font-sans: "Poppins", sans-serif;
 
 $font-size-64: 4rem; // 64px
 $font-size-56: 3.5rem; // 56px
