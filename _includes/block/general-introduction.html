@@ -3,7 +3,7 @@
 {% comment %} if home page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns">
         <div class="column column--span-2 flow-medium">
             <h1 class="column--width-60 flow-none" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
@@ -60,7 +60,7 @@
 {% comment %} if about page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns flow-medium">
         <div class="column column--span-2">
             <h1 class="column--span-80 flow-none
@@ -145,7 +145,7 @@
 {% comment %} if accessibility page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns">
         <div class="column column--span-2 flow-medium">
             <h1 class="column--span-70
@@ -182,7 +182,7 @@
 {% comment %} if self guided page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns">
         <div class="column column--span-2 flow-medium">
             <h1 class="column--span-70
@@ -216,7 +216,7 @@
 {% comment %} if makers page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns">
         <div class="column column--span-2 flow-large">
             <h1 class="column--span-50 flow-none" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
@@ -249,7 +249,7 @@
 {% if page.url == "/maker/directory" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction padding-bottom-80">
+<section class="section section--introduction padding-bottom-80">
     <div class="grid grid--four-columns">
         <div class="column column--span-3">
             <h1 class="column--span-50" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
@@ -293,7 +293,7 @@
 {% if page.url == "/maker/posters" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction padding-bottom-80">
+<section class="section section--introduction padding-bottom-80">
     <div class="grid grid--four-columns">
         <div class="column column--span-3">
             <h1 class="column--span-50" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
@@ -329,7 +329,7 @@
 {% comment %} if faqs page {% endcomment %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns">
         <div class="column column--span-2">
             <h1 class="column--span-50" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
@@ -360,7 +360,7 @@
 {% if page.url == "/trivia" %}
 {% for content in page.introduction %}
 {% if content.has-introduction == true %}
-<section class="section section__introduction">
+<section class="section section--introduction">
     <div class="grid grid--four-columns align-items-center">
         <div class="column column--span-2 flow-medium">
             <h1 class="column--span-80" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">

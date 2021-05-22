@@ -13,13 +13,8 @@
 }
 
 .section {
-    padding: $spacing-80 $spacing-16;
+    padding: $spacing-120 $spacing-16;
     position: relative;
-}
-
-// apply border to all elements with .section except for the first
-.section:not(:first-of-type) {
-    border-top: solid 1px $white;
 }
 
 @media screen and (min-width: 639px) {
@@ -36,15 +31,7 @@
 }
 
 // Page Specific
-.home-layout .section,
-.makers-layout .section,
-.maker-directory-layout .section,
-.maker-posters-layout .section,
-.trivia-layout .section {
-    border-top: solid 1px $white;
-}
-
-.section__volunteers svg {
+.section--volunteers svg {
     fill: $white;
     max-width: 40px;
 }
@@ -81,7 +68,7 @@
 .grid--one-columns,
 .grid--two-columns,
 .grid--three-columns,
-.section__posters .grid--three-columns,
+.section--posters .grid--three-columns,
 .grid--four-columns,
 .grid--five-columns,
 .grid--six-columns {
@@ -158,7 +145,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .section__posters .grid--three-columns {
+    .section--posters .grid--three-columns {
         grid-template-columns: 1fr 0.5fr 1fr;
     }
 
