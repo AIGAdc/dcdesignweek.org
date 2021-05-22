@@ -1,9 +1,6 @@
 {% if page.layout == 'events-landing' %}
 <section id="subscribe" class="section section__subscribe">
     <div class="grid grid--four-columns">
-        <div class="column column--span-2">
-            <img class="bubble-group-subscribe" aria-hidden="true" src="/uploads/bubble-white-large-01.png" alt="{{ site.subscribe.image-1-alt }}">
-        </div>
         <div class="column column--span-2 flow-large">
             <h2 class="column--width-70 flow-none" id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
                 {{ site.subscribe.header }}</h2>
@@ -15,9 +12,6 @@
 {% else %}
 <section id="subscribe" class="section section__subscribe">
     <div class="grid grid--four-columns">
-        <div class="column column--span-2">
-            <img class="bubble-group-subscribe" aria-hidden="true" src="{{ site.subscribe.image-1 }}" alt="{{ site.subscribe.image-1-alt }}">
-        </div>
         <div class="column column--span-2 flow-large">
             <h2 class="column--width-70 flow-none" id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
                 {{ site.subscribe.header }}</h2>

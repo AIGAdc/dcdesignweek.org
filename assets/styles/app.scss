@@ -22,7 +22,6 @@
 // Exceptions
 
 @import "mixins/buttons";
-@import "mixins/effects";
 @import "mixins/filters";
 @import "mixins/flexbox";
 @import "mixins/grid";
@@ -38,11 +37,9 @@
 @import "component/typography";
 @import "component/wysiwyg";
 
-@import "pages/about";
 @import "pages/events";
 @import "pages/events-single";
 @import "pages/faqs";
-@import "pages/home";
 @import "pages/makers";
 @import "pages/maker-directory";
 @import "pages/maker-posters";
