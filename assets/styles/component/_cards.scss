@@ -73,7 +73,7 @@
     transition: -webkit-filter $timing-quick ease-in;
     transition: filter $timing-quick ease-in;
     transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
-    @include grayscale;
+    @include apply-grayscale;
 }
 
 .card--past-editions .card__image img {
@@ -143,7 +143,7 @@
 .card--event .card__image img:hover,
 .card--past-editions .card__image img:hover,
 .card--sponsors .card__image img:hover {
-    @include no-grayscale;
+    @include remove-grayscale;
 }
 
 // TODO: Refactor Everything Below

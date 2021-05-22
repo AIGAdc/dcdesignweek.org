@@ -1,11 +1,11 @@
 @mixin button {
     background-color: transparent;
     border: solid 1px transparent;
+    border-radius: 0 !important;
     font-family: $font-sans;;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 0 !important;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;

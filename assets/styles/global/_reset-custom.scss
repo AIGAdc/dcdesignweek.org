@@ -23,19 +23,19 @@ small {
 }
 
 @mixin anchor {
-    color: $green;
+    color: $dcdw-2021-cinnabar;
     cursor: pointer;
     text-decoration: underline;
     transition: opacity $timing-default ease-in;
 }
 
 @mixin state-active {
-    outline: 1px dashed $green !important;
+    outline: 2px dashed $dcdw-2021-cinnabar !important;
     outline-offset: 1px !important;
 }
 
 @mixin state-focus {
-    outline: 1px dashed $green !important;
+    outline: 2px dashed $dcdw-2021-cinnabar !important;
     outline-offset: 1px !important;
 }
 
@@ -43,18 +43,11 @@ a {
     @include anchor;
 }
 
-a:active,
-button:active,
-input:active,
-.houdini-heading:active {
+a:active{
     @include state-active;
 }
 
-a:focus,
-button:focus,
-input:focus,
-video:focus,
-.houdini-heading:focus {
+a:focus {
     @include state-focus;
 }
 
@@ -66,7 +59,7 @@ video:focus,
 /* The emerging W3C standard that is currently Firefox-only */
 * {
     scrollbar-width: auto;
-    scrollbar-color: $green $black;
+    scrollbar-color: $dcdw-2021-yellow $black;
 }
 
 /* Works on Chrome/Edge/Safari */
@@ -79,5 +72,5 @@ video:focus,
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: $green;
+    background-color: $dcdw-2021-yellow;
 }

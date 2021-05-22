@@ -1,38 +1,11 @@
 .button {
-    @include button-inline-block;
-    padding: $spacing-8 $spacing-16;
-
-    &__solid--black {
-        background-color: $black;
-        color: $white;
-    }
-
-    &__border--black {
-        border-color: $black;
-        color: $black;
-    }
-
-    &__link--black {
-        color: $black;
-    }
-
-    &__solid--white {
-        background-color: $white;
-        color: $black;
-    }
-
-    &__border--white {
-        border-color: $white;
-        color: $white;
-    }
-
-    &__link--white {
-        color: $white;
-    }
-}
-
-.button-square {
-    @include button-inline-block;
+    background-color: transparent;
+    border: solid 1px transparent;
+    border-radius: 0 !important;
+    font-family: $font-sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
     padding: $spacing-8;
 
     &__solid--black {
@@ -49,21 +22,17 @@
         color: $black;
     }
 
-    &__solid--white {
-        background-color: $white;
+    &__solid--yellow {
+        background-color: $dcdw-2021-yellow;
         color: $black;
     }
 
-    &__border--white {
-        border-color: $white;
-        color: $white;
+    &__border--yellow {
+        border-color: $dcdw-2021-yellow;
+        color: $black;
     }
 
-    &__link--white {
-        color: $white;
+    &__link--yellow {
+        color: $dcdw-2021-yellow;
     }
-}
-
-.button-square:hover {
-    color: $green;
 }

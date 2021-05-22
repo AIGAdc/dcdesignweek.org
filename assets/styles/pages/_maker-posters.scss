@@ -13,6 +13,6 @@
 }
 
 .section__posters .artist-portrait {
-    @include grayscale;
+    @include apply-grayscale;
     border: solid 1px $white;
 }
