@@ -1,6 +1,6 @@
 .site-header {
-    background-color: $black;
-    border-bottom: solid 1px $white;
+    background-color: $dcdw-2021-celeste;
+    border-bottom: solid 4px $black;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -21,6 +21,9 @@
     display: none;
 }
 
+.site-header__navigation a {
+    color: $black;
+}
 
 @media screen and (min-width: 1023px) {
 
