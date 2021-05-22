@@ -117,169 +117,6 @@ defaults:
       is-skill-building: 
       is-ui-ux: 
     layout: events-landing
-sponsors:
-  header: "Sponsors and Partners"
-  tier-one-header: "Presenting sponsors"
-  tier-two-header: "Contributing Sponsors"
-  tier-three-header: "Supporting Sponsors"
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support.
-  image-1: ""
-  image-1-alt:
-  sponsor-tier-one:
-  - title: Brand Sponsor
-    image: "/uploads/sponsor-january-third.svg"
-    image-alt: January Third Logo
-    website: https://www.januarythird.co/
-    aria-label: January Third Website
-  - title: Motion Partner
-    image: "/uploads/sponsor-duke-and-the-duck.svg"
-    image-alt: Duke & Duck Logo
-    website: https://www.dukeduck.com/
-    aria-label: Duke & Duck Website
-  sponsor-tier-two:
-  - title: 
-    image: "/uploads/sponsors-contributing-artemisward.svg"
-    image-alt: Artemis Ward Logo
-    website: https://artemisward.com
-    aria-label: Artemis Ward Website
-  - title: 
-    image: "/uploads/sponsors-contributing-icf.svg"
-    image-alt: ICF Logo
-    website: https://www.icf.com/next
-    aria-label: ICF Website
-  - title: 
-    image: "/uploads/sponsors-contributing-monterosa.png"
-    image-alt: Monterosa Logo
-    website: https://www.monterosa.co/?utm_source=sponsorship&utm_medium=event&utm_campaign=dcdesignweek
-    aria-label: Monterosa Website
-  - title: 
-    image: "/uploads/sponsors-contributing-nclud.svg"
-    image-alt: Nclud Logo
-    website: https://nclud.com
-    aria-label: Nclud Website
-  - title: 
-    image: "/uploads/sponsors-contributing-verbit.svg"
-    image-alt: Verbit Logo
-    website: https://verbit.ai/
-    aria-label: Verbit Website
-  - title: 
-    image: "/uploads/sponsors-contributing-mosaic.png"
-    image-alt: Mosaic Logo
-    website: https://mosaic.buzz/
-    aria-label: Mosaic Website
-  - title: 
-    image: "/uploads/sponsors-contributing-nava.png"
-    image-alt: Nava Logo
-    website: https://www.navapbc.com
-    aria-label: Nava Website
-  - title: 
-    image: "/uploads/sponsors-contributing-dcux.png"
-    image-alt: DCUX Logo
-    website: http://dcux.org
-    aria-label: DCUX Website
-  sponsor-tier-three:
-  - title: 
-    image: "/uploads/sponsors-supporting-aba.svg"
-    image-alt: ABA Logo
-    website: https://abookapart.com/
-    aria-label: ABA Website
-  - title: 
-    image: "/uploads/sponsors-supporting-adastra.png"
-    image-alt: AdAstra Logo
-    website: https://https://ad-astrainc.com/
-    aria-label: AdAstra Website
-  - title: 
-    image: "/uploads/sponsors-supporting-ugroup.png"
-    image-alt: UGroup Logo
-    website: https://u.group/
-    aria-label: UGroup Website
-    featured-on-posters: true
-  - title: 
-    image: "/uploads/sponsors-supporting-volkswagen.png"
-    image-alt: Volkswagon Logo
-    website: https://www.volkswagengroupofamerica.com/
-    aria-label: Volkswagon Website
-    featured-on-posters: true
-  - title: 
-    image: "/uploads/sponsors-supporting-lwd.png"
-    image-alt: Ladies Wine & Dine Logo
-    website: https://ladieswinedesign.com/
-    aria-label: Ladies Wine & Dine Website
-  - title: 
-    image: "/uploads/sponsors-supporting-mapbox.png"
-    image-alt: Mapbox Logo
-    website: https://www.mapbox.com
-    aria-label: Mapbox Website
-  - title: 
-    image: "/uploads/sponsors-supporting-basecamp.png"
-    image-alt: Basecamp Logo
-    website: https://www.basecampdc.com/
-    aria-label: Basecamp Website
-    featured-on-posters: true
-  - title: 
-    image: "/uploads/sponsors-supporting-booz.svg"
-    image-alt: Booz Allen Hamilton Logo
-    website: https://www.boozallen.com
-    aria-label: Booz Allen Hamilton Website
-    featured-on-posters: true
-  - title: 
-    image: "/uploads/sponsors-supporting-URL.png"
-    image-alt: URL Logo
-    website: http://universalrobotlabs.com/
-    aria-label: URL Website
-  - title: 
-    image: "/uploads/sponsors-supporting-studioaorta.png"
-    image-alt: Studio Aorta Logo
-    website: https://www.studioaorta.com
-    aria-label: Studio Aorta Website
-    featured-on-posters: true
-  - title: 
-    image: "/uploads/sponsors-supporting-taoticreative.png"
-    image-alt: Taoti Creative Logo
-    website: https://www.taoti.com
-    aria-label: Taoti Creative Website
-2021-team:
-- image: ""
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
-  website-url-1: 
-  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
-  website-url-2: 
-  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
-navigation-placeholder:
-- url: https://2016.dcdesignweek.org
-  label: 2016
-- url: https://2017.dcdesignweek.org
-  label: 2017
-- url: https://2018.dcdesignweek.org
-  label: 2018
-- url: https://2019.dcdesignweek.org
-  label: 2019
-- url: https://2020.dcdesignweek.org
-  label: 2020
-navigation-teaser:
-- url: "/events/"
-  label: Events
-  aria-label: Events Page
-- url: "/events/self-guided"
-  label: Self Guided
-  aria-label: Events - Self Guided Page
-- url: "/maker/posters"
-  label: Posters
-  aria-label: Posters Page
-- url: "/maker/directory"
-  label: Maker Directory
-  aria-label: Maker Directory Page
-- url: "/about/"
-  label: About
-  aria-label: About Page
-- url: "/faqs/"
-  label: FAQs
-  aria-label: FAQs Page
 about-dcdw:
   header: "About DC Design Week"
   text: |-
@@ -293,92 +130,18 @@ about-dcdw:
   code-of-conduct-text: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
   questions-header: Questions?
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
-subscribe:
-  header: "Subscribe for updates"
-  body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
-    news you need. Sign up below to get periodic updates from DCDW and AIGA DC.
-  image-1: "/uploads/bubble-black-large-02.png"
-  image-1-alt: Floating amorphous bubbles
-partner:
-  header: "Partner with Us"
-  body: "You do things. We do things. <strong>Let’s do things together</strong>.\n\n\nWe’re
-    looking for sponsors who can help ensure every event is as accessible and inclusive
-    as possible, whether through donations or in-kind gifts. If you’re interested
-    in partnering with DC Design Week this year, let us know. \n"
-  button-url: mailto:designweek@dc.aiga.org
-  button-label: Reach Out
-self-guided:
-  header: "Lorem Ipsum"
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
-  button-url: "/events/self-guided/"
-  button-label: See Self-Guided Events
-makers:
-  header: "DC Design Week: Maker
-    Directory"
-  body: We’re all about celebrating the DMV’s creative voices — so what better way
-    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
-    Shop this year, but we’ve got the next best thing. Check out our virtual directory
-    for all your fall shopping needs.
-  button-url: "/maker/directory"
-  button-label: Explore Local Artists
-posters:
-  header: "Limited Edition Posters"
-  body: Looking for even more amazing artwork from local artists? We’re delighted
-    to also be featuring five limited-edition DCDW posters, created by five up-and-coming
-    artists, and available to purchase through [Cherry Blossom Creative <i class="fas
-    fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank"
-    rel="noopener nofollow"}. See them all, learn about the artists, and get yours
-    today!
-  button-url: "/maker/posters"
-  button-label: See All Posters
-faqs:
-  header: "FAQs"
-  body: DC Design Week looks different this year, so you might have questions. Maybe
-    it’s how to find the streaming link or how to get the most out of our remote events.
-    We’ve got answers to those and more.
-  button-url: "/faqs/"
-  button-label: Learn More
-past-events:
-  header: "2019 Event Highlights"
-  body: 
-  button-url: https://2019.dcdesignweek.org/events/
-  button-label: See 2019 Events
-  events:
-  - title: 'Shaolin Jazz & Globe Posters: Opening Party!'
-    image: https://d33wubrfki0l68.cloudfront.net/86fb4ce957b1ff38924099781349f7208be9962f/f3971/uploads/event-opening-party.jpg
-    url: https://2019.dcdesignweek.org/events/shaolin-jazz-and-globe-posters/
-  - title: Building Equity Through Design with Antionette Carroll
-    image: https://d33wubrfki0l68.cloudfront.net/2f8e8a2e68ba29b77d6f92023ecb86a98b6fa308/ff564/uploads/header_antionette2.png
-    url: https://2019.dcdesignweek.org/events/equity-through-design-with-antionette-carroll/
-  - title: 'Closing Party: Drink, Draw & Dance '
-    image: https://d33wubrfki0l68.cloudfront.net/cf472de93d9e25a5aaace4458aae4a8297a58c94/3a830/uploads/capcider.png
-    url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-  - title: 'Workshop: The Space Type Continuum'
-    image: https://qph.fs.quoracdn.net/main-qimg-0defc13c488f94648694a56489669527-c
-    url: https://2019.dcdesignweek.org/events/closing-party-drink-draw-and-dance/
-past-editions:
-  header: "DC Design Week Through
-    the Years"
-  body: We love reminiscing.
-  editions:
-  - title: DCDW 2016
-    image: "/uploads/dcdw-2016-pattern.jpg"
-    url: https://2016.dcdesignweek.org
-    aria-label: 2016 DC Design Week Website
-  - title: DCDW 2017
-    image: "/uploads/dcdw-2017-pattern.jpg"
-    url: https://2017.dcdesignweek.org
-    aria-label: 2017 DC Design Week Website
-  - title: DCDW 2018
-    image: "/uploads/dcdw-2018-pattern.jpg"
-    url: https://2018.dcdesignweek.org
-    aria-label: 2018 DC Design Week Website
-  - title: DCDW 2019
-    image: "/uploads/dcdw-2019-pattern.jpg"
-    url: https://2019.dcdesignweek.org
-    aria-label: 2019 DC Design Week Website
-2020-events-filter:
+committee:
+  - image: ""
+    image-alt: Committee Member Image
+    name: Committee Member Name
+    role: Committee Member Role
+    website-url-1: 
+    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-1: Committee Member Instagram
+    website-url-2: 
+    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-2: Committee Member LinkedIn
+events-filter:
   day:
   - filter: ".day-1"
     class: day-1
@@ -476,44 +239,129 @@ past-editions:
   - filter: ".featured"
     class: featured
     text-1: Show Featured
-2020-giphys-black:
-- embed: <iframe src="https://giphy.com/embed/dXExORR5GlNqSThwoI" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-dXExORR5GlNqSThwoI">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/TGLkYqn6tNAF8zy9TP" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-d8otCsVsddqFy70jDI">Black
-    Text Version</a><a href="https://giphy.com/gifs/dcdesignweek-transparent-TGLkYqn6tNAF8zy9TP">,
-    via GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/SqB5MtqSG6kCpmYGei" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-SqB5MtqSG6kCpmYGei">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/iddW7Zn6mk3Zv0M1I6" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-iddW7Zn6mk3Zv0M1I6">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/fvwnTI4L7s7vKamVzS" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-fvwnTI4L7s7vKamVzS">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/hunPeIBMltBLd4SZkf" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-hunPeIBMltBLd4SZkf">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/UVeL2FgPnhMlrzkDqO" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-UVeL2FgPnhMlrzkDqO">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/YR2bDAEFBhbozqNaOa" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-YR2bDAEFBhbozqNaOa">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/RGXgAyJn16ZWqoogKe" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-f8narwXOxYmeUHHoHN">Black
-    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-RGXgAyJn16ZWqoogKe">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/XEyuJXCyCIgEgWuMNd" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-eM7lNIneokJ2Ztiu37">Black
-    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-XEyuJXCyCIgEgWuMNd">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
-- embed: <iframe src="https://giphy.com/embed/KB7Zafsby9vThy17du" width="480" height="480"
-    frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dcdesignweek-transparent-RJgZBdJdza1hAP9tY5">Black
-    Text Version</a>, <a href="https://giphy.com/gifs/dcdesignweek-transparent-KB7Zafsby9vThy17du">via
-    GIPHY <i class="fas fa-external-link-square"></i></a></p>
+faqs:
+  header: "FAQs"
+  body: DC Design Week looks different this year, so you might have questions. Maybe
+    it’s how to find the streaming link or how to get the most out of our remote events.
+    We’ve got answers to those and more.
+  button-url: "/faqs/"
+  button-label: Learn More
+makers:
+  header: "DC Design Week: Maker
+    Directory"
+  body: We’re all about celebrating the DMV’s creative voices — so what better way
+    to do that than showcasing their work? We may not be able to do our IRL Pop-Up
+    Shop this year, but we’ve got the next best thing. Check out our virtual directory
+    for all your fall shopping needs.
+  button-url: "/maker/directory"
+  button-label: Explore Local Artists
+navigation-offseason:
+- url: https://2016.dcdesignweek.org
+  label: 2016
+- url: https://2017.dcdesignweek.org
+  label: 2017
+- url: https://2018.dcdesignweek.org
+  label: 2018
+- url: https://2019.dcdesignweek.org
+  label: 2019
+- url: https://2020.dcdesignweek.org
+  label: 2020
+navigation-production:
+- url: "/events/"
+  label: Events
+  aria-label: Events Page
+- url: "/events/self-guided"
+  label: Self Guided
+  aria-label: Events - Self Guided Page
+- url: "/maker/posters"
+  label: Posters
+  aria-label: Posters Page
+- url: "/maker/directory"
+  label: Maker Directory
+  aria-label: Maker Directory Page
+- url: "/about/"
+  label: About
+  aria-label: About Page
+- url: "/faqs/"
+  label: FAQs
+  aria-label: FAQs Page
+partner:
+  header: "Partner with Us"
+  body: "You do things. We do things. <strong>Let’s do things together</strong>.\n\n\nWe’re
+    looking for sponsors who can help ensure every event is as accessible and inclusive
+    as possible, whether through donations or in-kind gifts. If you’re interested
+    in partnering with DC Design Week this year, let us know. \n"
+  button-url: mailto:designweek@dc.aiga.org
+  button-label: Become a Partner
+past-editions:
+  header: "DC Design Week Through the Years"
+  body: We love reminiscing.
+  editions:
+  - title: DCDW 2016
+    image: "/uploads/dcdw-2016-pattern.jpg"
+    url: https://2016.dcdesignweek.org
+    aria-label: 2016 DC Design Week Website
+  - title: DCDW 2017
+    image: "/uploads/dcdw-2017-pattern.jpg"
+    url: https://2017.dcdesignweek.org
+    aria-label: 2017 DC Design Week Website
+  - title: DCDW 2018
+    image: "/uploads/dcdw-2018-pattern.jpg"
+    url: https://2018.dcdesignweek.org
+    aria-label: 2018 DC Design Week Website
+  - title: DCDW 2019
+    image: "/uploads/dcdw-2019-pattern.jpg"
+    url: https://2019.dcdesignweek.org
+    aria-label: 2019 DC Design Week Website
+posters:
+  header: "Limited Edition Posters"
+  body: Looking for even more amazing artwork from local artists? We’re delighted
+    to also be featuring five limited-edition DCDW posters, created by five up-and-coming
+    artists, and available to purchase through [Cherry Blossom Creative <i class="fas
+    fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank"
+    rel="noopener nofollow"}. See them all, learn about the artists, and get yours
+    today!
+  button-url: "/maker/posters"
+  button-label: See All Posters
+self-guided:
+  header: "Lorem Ipsum"
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
+    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
+  button-url: "/events/self-guided/"
+  button-label: See Self-Guided Events
+sponsors:
+  header: "Sponsors and Partners"
+  tier-one-header: "Presenting sponsors"
+  tier-two-header: "Contributing Sponsors"
+  tier-three-header: "Supporting Sponsors"
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support.
+  image-1: ""
+  image-1-alt:
+  sponsor-tier-one:
+  - title: Sponsor Title
+    image:
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  sponsor-tier-two:
+  - title: Sponsor Title
+    image:
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  sponsor-tier-three:
+  - title: Sponsor Title
+    image:
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+subscribe:
+  header: "Subscribe for updates"
+  body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
+    news you need. Sign up below to get periodic updates from DCDW and AIGA DC.
+  image-1: "/uploads/bubble-black-large-02.png"
+  image-1-alt: Floating amorphous bubbles
 volunteer:
   header: Made with <span class="made-in-dc-heart"><svg
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5
