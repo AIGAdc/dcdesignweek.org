@@ -1,6 +1,19 @@
 .container {
     margin: auto;
-    max-width: 72ch;
+    position: relative;
+    z-index: $index-1;
+
+    &--tight {
+        max-width: 48ch;
+    }
+
+    &--default {
+        max-width: 72ch;
+    }
+
+    &--wide {
+        max-width: 96ch;
+    }
 
     &--center {
         text-align: center;

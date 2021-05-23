@@ -1,6 +1,23 @@
+.section {
+    position: relative;
+}
+
 .section--partners,
 .section--subscribe,
 .section--volunteers {
     background-color: $black;
     color: $dcdw-2021-celeste;
+}
+
+.section--volunteers {
+    padding: 288px $spacing-32;
+}
+
+.section--overlay {
+    background-color: rgba(0,0,0,0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }

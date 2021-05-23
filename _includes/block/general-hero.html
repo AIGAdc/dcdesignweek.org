@@ -3,8 +3,14 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section hero">
-    <div class="grid grid--four-columns">
-        Hero
+    <div class="container container--default">
+        <h1>
+            {{ site.partner.header }}
+        </h1>
+        <hr class="divider divider--black">
+        <div class="wysiwyg">
+            {{ site.partner.body | markdownify }}
+        </div>
     </div>
 </section>
 {% endif %}
@@ -15,8 +21,14 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section hero">
-    <div class="grid grid--four-columns">
-        Hero
+    <div class="container container--default">
+        <h1>
+            {{ site.partner.header }}
+        </h1>
+        <hr class="divider divider--black">
+        <div class="wysiwyg">
+            {{ site.partner.body | markdownify }}
+        </div>
     </div>
 </section>
 {% endif %}
