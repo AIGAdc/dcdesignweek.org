@@ -1,13 +1,11 @@
 <section class="section section--volunteers">
-    <div class="grid">
-        <div class="grid-col grid-col--span-2 grid-col--hide">
-            <img class="bubble-capitol-building" src="{{ site.volunteer.image-1 }}" alt="{{ site.volunteer.image-1-alt }}">
-        </div>
-        <div class="grid-col grid-col--span-2">
-            <h2 class="grid-col--span-50" id="{{ site.volunteer.unbranded-header | downcase | replace: " ", " -" }}">
-                {{ site.volunteer.header }}
-            </h2>
-            <p>{{ site.volunteer.body }}</p>
+    <div class="container">
+        <h2 id="{{ site.volunteer.unbranded-header | downcase | replace: " ", " -" }}">
+            {{ site.volunteer.header }}
+        </h2>
+        <hr class="divider divider--yellow">
+        <div class="wysiwyg">
+            {{ site.volunteer.body }}
         </div>
     </div>
 </section>
