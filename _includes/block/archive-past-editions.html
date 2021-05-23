@@ -1,37 +1,36 @@
 <section class="section section--past-dcdw">
     <div class="container container--wide container--center">
-        <div>
-            {% if site.past-editions.header %}
-            <h2 class="grid-col--span-90" id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
-                {{ site.past-editions.header }}
-            </h2>
-            {% endif %}
-            <hr class="divider divider--black">
-            {% if site.past-editions.body %}
-            <div class="wysiwyg">
-                {{ site.past-editions.body }}
-            </div>
-            {% endif %}
+        {% if site.past-editions.header %}
+        <h2 class="grid-col--span-90" id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+            {{ site.past-editions.header }}
+        </h2>
+        {% endif %}
+        <hr class="divider divider--black">
+        {% if site.past-editions.body %}
+        <div class="wysiwyg">
+            {{ site.past-editions.body }}
         </div>
-        <div>
-            <ul class="grid">
-                {% for content in site.past-editions.editions %}
-                <li class="card card--past-editions">
-                    <div class="card__aside">
-                        <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
-                            <figure class="card__image ">
-                                <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="card__header">
-                        <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
-                            <h3 class="card__title">{{ content.title }}</h3>
-                        </a>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+        {% endif %}
+
+        <ul class="grid grid--three-columns">
+            {% for content in site.past-editions.editions %}
+            <li class="card card--past-editions">
+                <div class="card__aside">
+                    <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
+                        <figure class="card__image ">
+                            <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
+                        </figure>
+                    </a>
+                </div>
+                <div class="card__header">
+                    <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
+                        <h3 class="card__title">
+                            {{ content.title }}
+                        </h3>
+                    </a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </section>
