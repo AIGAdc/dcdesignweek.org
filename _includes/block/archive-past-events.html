@@ -13,7 +13,7 @@
         <div class="grid-col grid-col--span-4">
             <ul class="grid">
                 {% for content in site.past-events.events %}
-                <li class="card card--event shadow-reverse shadow-reverse--green">
+                <li class="card card--event ">
                     <a href="{{ content.url }}">
                         <figure class="card__image  border__bottom border__bottom--{{ content.border-color }}">
                             <img src="{{ content.image }}" alt="Provide alt text describing the image above." />
@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div class="grid-col grid-col--span-1">
-            <a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="https://2019.dcdesignweek.org/events/" target="_blank">
+            <a class="button button__border button__border--white " href="https://2019.dcdesignweek.org/events/" target="_blank">
                 See 2019 Events
             </a>
         </div>

@@ -1,23 +1,12 @@
-{% if page.layout == 'events-landing' %}
 <section id="subscribe" class="section section--subscribe">
-    <div class="grid grid--four-columns">
-        <div class="column column--span-2 flow-large">
-            <h2 class="column--width-70 flow-none" id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
-                {{ site.subscribe.header }}</h2>
-            <div class="wysiwyg">{{ site.subscribe.body }}</div>
-            {% include 3rd-party/mailchimp/form.html %}
+    <div>
+        <h2 id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+            {{ site.subscribe.header }}
+        </h2>
+        <hr class="divider divider--yellow">
+        <div class="wysiwyg">
+            {{ site.subscribe.body }}
         </div>
+        {% include 3rd-party/mailchimp/form.html %}
     </div>
 </section>
-{% else %}
-<section id="subscribe" class="section section--subscribe">
-    <div class="grid grid--four-columns">
-        <div class="column column--span-2 flow-large">
-            <h2 class="column--width-70 flow-none" id="{{ site.subscribe.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
-                {{ site.subscribe.header }}</h2>
-            <div class="wysiwyg">{{ site.subscribe.body }}</div>
-            {% include 3rd-party/mailchimp/form.html %}
-        </div>
-    </div>
-</section>
-{% endif %}

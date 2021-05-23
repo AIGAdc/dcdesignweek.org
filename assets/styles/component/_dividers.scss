@@ -1,0 +1,10 @@
+.divider {
+    display: block;
+    margin: auto;
+    max-width: 40px;
+    height: 4px;
+   
+    &--yellow {
+        background-color: $dcdw-2021-yellow;
+    }
+}

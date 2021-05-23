@@ -9,10 +9,10 @@
 /* Off-canvas element CSS */
 
 .offside {
-    background-color: $black;
+    background-color: $dcdw-2021-celeste;
     position: fixed;
     /* Does not play well with some old browsers (see: README) */
-    border-left: solid 1px $white;
+    border-left: solid 4px $black;
     color: $black;
     padding: $spacing-16;
     width: 300px;
@@ -147,5 +147,5 @@ button#mobile-menu-trigger {
 }
 
 #my-menu a {
-    color: $white;
+    color: $black;
 }

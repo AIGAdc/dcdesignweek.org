@@ -69,7 +69,7 @@
                 <div class="wysiwyg">
                     <div class="margin-top-32">
                         {% if event.tickets.has-member-button == true %}
-                        <a class="button button__solid button__solid button__solid--white shadow-reverse shadow-reverse--green {% if event.status.has-occurred == true %} disabled {% endif %}%" {% if event.status.has-occurred==true %} {% else %} href="{{ event.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ event.tickets.member-button-label }}</a>
+                        <a class="button button__solid button__solid button__solid--white  {% if event.status.has-occurred == true %} disabled {% endif %}%" {% if event.status.has-occurred==true %} {% else %} href="{{ event.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ event.tickets.member-button-label }}</a>
                         {% endif %}
                     </div>
                     {{ event.content }}

@@ -2,7 +2,7 @@
 
     <div class="card__aside">
         <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
-            <figure class="card__image shadow-reverse shadow-reverse--green">
+            <figure class="card__image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />
                 <div class="card__image-overlay spacing-0"></div>
             </figure>
@@ -62,7 +62,7 @@
     </div>
     {% if page.url == "/events/self-guided" %}
     <div class="card-footer">
-        <a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="{{ content.button-url }}">
+        <a class="button button__border button__border--white " href="{{ content.button-url }}">
             {{ content.button-label }}
         </a>
     </div>

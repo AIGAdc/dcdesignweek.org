@@ -10,12 +10,12 @@
                 </p>
                 <div class="landing-hero__tickets">
                     {% if page.tickets.has-member-button == true %}
-                    <a class="button button__solid button__solid button__solid--white shadow-reverse shadow-reverse--green {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.member-button-label }}</a>
+                    <a class="button button__solid button__solid button__solid--white  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.member-button-label }}</a>
                     {% else %}
                     <a class="button button__solid disabled button__solid button__solid--white shadow-reverse ">Ticket Sales Have Ended</a>
                     {% endif %}
                     {% if page.tickets.has-non-member-button == true %}
-                    <a class="button button__solid button__solid button__solid--white shadow-reverse shadow-reverse--green {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.non-member-button-label }}</a>
+                    <a class="button button__solid button__solid button__solid--white  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.non-member-button-label }}</a>
                     {% else %}
                     <a class="button button__solid button__solid disabled button__solid--white shadow-reverse ">Ticket Sales Have Ended</a>
                     {% endif %}

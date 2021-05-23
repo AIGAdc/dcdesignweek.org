@@ -7,21 +7,18 @@
 
 #mc_embed_signup .mc-field-group label {
     display: block;
-    font-weight: 900;
-    font-size: $font-size-12;
-    font-family: $font-sans;;
-    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $font-sans;
+    margin-left: $spacing-8;
     padding: $spacing-8 0;
 }
 
 #mc_embed_signup .mc-field-group input {
-    background-color: $black;
-    border: solid 1px $white;
+    background-color: $dcdw-2021-celeste;
+    border: solid 4px $black;
     border-radius: 0 !important;
-    color: $white;
+    color: $black;
     display: block;
-    font-size: $font-size-16;
-    font-weight: 400;
     padding: $spacing-8;
     width: 100%;
     -webkit-appearance: none !important;
@@ -29,8 +26,13 @@
     appearance: none !important;
 }
 
+#mc_embed_signup .mc-field-group input:focus {
+    outline: dashed 4px $dcdw-2021-cinnabar;
+    outline-offset: -2px;
+}
+
 #mc_embed_signup .asterisk {
-    color: $green;
+    color: $dcdw-2021-cinnabar;
     font-weight: 900;
 }
 
@@ -48,7 +50,7 @@
 }
 
 #mc_embed_signup div.response {
-    background-color: $green;
+    background-color: $dcdw-2021-cinnabar;
     font-size: $font-size-14;
     padding: $spacing-16;
     z-index: $index-1;
@@ -73,7 +75,7 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-    background-color: $green;
+    background-color: $dcdw-2021-cinnabar;
     display: block;
     color: $black;
     line-height: 1.7rem;
@@ -85,11 +87,11 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 1px solid $green;
+    border: 4px solid $dcdw-2021-cinnabar;
 }
 
 #mc_embed_signup input.mce_inline_error {
-    border-color: $green;
+    border-color: $dcdw-2021-cinnabar;
 }
 
 #mc_embed_signup input.button {
@@ -133,10 +135,9 @@
     }
 }
 
-@media screen and (min-width: 1142px) {
+@media screen and (min-width: 1023px) {
     .mailchimp-grid {
-        grid-template-columns: 1fr 1fr -webkit-min-content;
-        grid-template-columns: 1fr 1fr min-content;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .mailchimp-button label {
