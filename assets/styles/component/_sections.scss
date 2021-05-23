@@ -3,6 +3,12 @@
     position: relative;
 }
 
+.section--hero,
+.section--partners,
+.section--subscribe {
+    overflow: unset;
+}
+
 .section--partners,
 .section--subscribe,
 .section--volunteers {
@@ -18,7 +24,10 @@
 .section--texture-1,
 .section--texture-2,
 .section--texture-3,
-.section--texture-4 {
+.section--texture-4,
+.section--texture-5,
+.section--texture-6,
+.section--texture-7 {
     position: absolute;
     top: 0;
     right: 0;
@@ -38,6 +47,8 @@
     right: -500px;
     bottom: -1500px;
     opacity: 0.5;
+    mix-blend-mode: multiply;
+    z-index: $index-3;
 }
 
 .section--texture-3 {
@@ -46,6 +57,8 @@
     transform: rotate(35deg);
     max-width: 1000px;
     margin: auto;
+    mix-blend-mode: multiply;
+    z-index: $index-3;
 }
 
 .section--texture-4 {
@@ -53,4 +66,33 @@
     bottom: -500px;
     max-width: 750px;
     margin: auto;
+    mix-blend-mode: multiply;
+}
+
+.section--texture-5 {
+    top: -500px;
+    right: -1500px;
+    max-width: 1500px;
+    margin: auto;
+    transform: rotate(90deg);
+    mix-blend-mode: multiply;
+}
+
+.section--texture-6 {
+    right: -1500px;
+    bottom: -650px;
+    max-width: 1000px;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index: $index-3;
+    mix-blend-mode: multiply;
+}
+
+.section--texture-7 {
+    top: -750px;
+    left: -1500px;
+    max-width: 1500px;
+    margin: auto;
+    transform: rotate(90deg);
+    mix-blend-mode: multiply;
 }
