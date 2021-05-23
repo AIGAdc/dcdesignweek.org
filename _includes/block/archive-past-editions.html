@@ -1,24 +1,26 @@
 <section class="section section--past-dcdw">
-    <div class="grid">
-        <div class="grid-col grid-col--span-2 grid-col--order-2">
+    <div class="container container--center">
+        <div>
             {% if site.past-editions.header %}
             <h2 class="grid-col--span-90" id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
-                {{ site.past-editions.header }}</h2>
+                {{ site.past-editions.header }}
+            </h2>
             {% endif %}
+            <hr class="divider divider--black">
             {% if site.past-editions.body %}
-            <p>{{ site.past-editions.body }}</p>
+            <div class="wysiwyg">
+                {{ site.past-editions.body }}
+            </div>
             {% endif %}
         </div>
-    </div>
-    <div class="grid" style="margin-top: 32px;">
-        <div class="grid-col grid-col--span-4">
+        <div>
             <ul class="grid">
                 {% for content in site.past-editions.editions %}
                 <li class="card card--past-editions">
                     <div class="card__aside">
                         <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
                             <figure class="card__image ">
-                                <!-- <img src="{{ content.image }}" alt="{{ content.image-alt }}" /> -->
+                                <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
                             </figure>
                         </a>
                     </div>

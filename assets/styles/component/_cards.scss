@@ -27,8 +27,15 @@
     position: relative;
 }
 
+.card__header {
+    background-color: $dcdw-2021-celeste;
+    border: solid 4px $black;
+    margin-top: -4px;
+    padding: $spacing-16;
+}
+
 .card__header a {
-    color: $white;
+    color: $black;
     display: inline-block;
 }
 
@@ -64,7 +71,7 @@
 .card--past-editions .card__image,
 .card--sponsors .card__image,
 .card--makers .card__image {
-    border: solid 1px $white;
+    border: solid 4px $black;
 }
 
 .card--event .card__image img,

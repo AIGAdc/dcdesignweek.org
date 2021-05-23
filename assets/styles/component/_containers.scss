@@ -1,0 +1,20 @@
+.container {
+    margin: auto;
+    max-width: 72ch;
+
+    &--center {
+        text-align: center;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &--right {
+        text-align: right;
+    }
+}
+
+.container > *:not(:first-child) {
+    margin-top: $spacing-24;
+}
