@@ -16,7 +16,9 @@
 
 .section--overlay,
 .section--texture-1,
-.section--texture-2 {
+.section--texture-2,
+.section--texture-3,
+.section--texture-4 {
     position: absolute;
     top: 0;
     right: 0;
@@ -36,4 +38,19 @@
     right: -500px;
     bottom: -1500px;
     opacity: 0.5;
+}
+
+.section--texture-3 {
+    bottom: -250px;
+    left: -1500px;
+    transform: rotate(35deg);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section--texture-4 {
+    right: -1250px;
+    bottom: -500px;
+    max-width: 750px;
+    margin: auto;
 }
