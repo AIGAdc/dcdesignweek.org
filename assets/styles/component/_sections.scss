@@ -1,4 +1,5 @@
 .section {
+    overflow: hidden;
     position: relative;
 }
 
@@ -13,8 +14,9 @@
     padding: 288px $spacing-32;
 }
 
+.section--overlay,
 .section--texture-1,
-.section--overlay {
+.section--texture-2 {
     position: absolute;
     top: 0;
     right: 0;
@@ -23,9 +25,15 @@
 }
 
 .section--overlay {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .section--texture-1 {
     mix-blend-mode: multiply;
+}
+
+.section--texture-2 {
+    right: -500px;
+    bottom: -1500px;
+    opacity: 0.5;
 }
