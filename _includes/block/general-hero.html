@@ -2,16 +2,20 @@
 
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section hero">
+<section class="section section--hero">
     <div class="container container--default">
-        <h1>
-            {{ site.partner.header }}
-        </h1>
+        <figure>
+            <img src="/uploads/stars.png" alt="Three Red Stars">
+        </figure>
         <hr class="divider divider--black">
+        <h1>
+            {{ content.header }}
+        </h1>
         <div class="wysiwyg">
-            {{ site.partner.body | markdownify }}
+            {{ content.subheader | markdownify }}
         </div>
     </div>
+    <div class="section--texture-1" style="background-image: url('/uploads/wheatpaste-texture.png'); background-position: center center; background-size: cover; ">&nbsp;</div>
 </section>
 {% endif %}
 {% endfor %}
