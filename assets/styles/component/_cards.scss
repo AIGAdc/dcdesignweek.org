@@ -8,7 +8,7 @@
 }
 
 .card h3 {
-    font-family: $font-sans;;
+    font-family: $font-poppins;;
     text-transform: uppercase;
 }
 
@@ -113,7 +113,7 @@
 
 .card--event .card-date .day,
 .card--event .card-date .date {
-    font-family: $font-sans;;
+    font-family: $font-poppins;;
     text-transform: uppercase;
     text-transform: uppercase;
     display: block;
@@ -143,7 +143,7 @@
 }
 
 .card--event .card-info {
-    font-family: $font-sans;;
+    font-family: $font-poppins;;
     font-size: $font-size-16;
 }
 
@@ -190,7 +190,7 @@
 .events-layout .ticker p,
 .events-landing-layout .ticker p {
     display: inline-block;
-    font-family: $font-sans;;
+    font-family: $font-poppins;;
     font-size: $font-size-14;
     margin: 0;
     text-align: left;

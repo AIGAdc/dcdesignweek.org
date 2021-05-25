@@ -1,47 +1,54 @@
-.site-header {
-    background-color: $dcdw-2021-celeste;
-    border-bottom: solid 4px $black;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: $index-4;
-}
+// .site-header {
+//     background-color: $black;
+//     padding: $spacing-16;
+//     position: sticky;
+//     position: -webkit-sticky;
+//     top: 0;
+//     z-index: $index-4;
+// }
 
-.site-header>.container {
-    @include flex-row;
-    @include flex-align-center;
-    @include flex-justify-space-between;
-    margin: auto;
-    max-width: 1440px;
-    padding: $spacing-16;
-}
+// .site-header svg {
+//     display: block;
+// }
 
-// hide site navigation when screen is < 1023
-.site-header__navigation {
-    display: none;
-}
+// // hide site navigation when screen is < 1023
+// .site-header__navigation {
+//     display: none;
+// }
 
-.site-header__navigation a {
-    color: $black;
-}
+// .site-header__navigation a {
+//     color: $white;
+//     font-weight: 700;
+//     text-decoration: none;
+// }
 
-@media screen and (min-width: 1023px) {
+// .site-header__navigation .link:not(:last-child) {
+//     margin-right: $spacing-32;
+// }
 
-    // show site navigation when screen is > 1023
-    .site-header__navigation {
-        @include flex-row;
-        @include flex-align-center;
-        @include flex-justify-space-between;
-        gap: $spacing-32;
-    }
+// @media screen and (min-width: 1023px) {
+//     .site-header {
+//         align-items: center;
+//         display: grid;
+//         grid-template-columns: max-content 1fr max-content;
+//         grid-gap: $spacing-32;
+//     }
 
-    // remove burger menu when screen is > 1023
-    .site-header__menu {
-        display: none;
-    }
+//     // show site navigation when screen is > 1023
+//     .site-header__navigation {
+//         @include flex-row;
+//         @include flex-align-center;
+//         @include flex-justify-space-between;
+//         gap: $spacing-32;
+//     }
 
-    .link {
-        display: inline-block;
-    }
-}
+//     // remove burger menu when screen is > 1023
+//     .site-header__menu {
+//         display: none;
+//     }
+
+//     .link {
+//         display: inline-block;
+//     }
+// }
 

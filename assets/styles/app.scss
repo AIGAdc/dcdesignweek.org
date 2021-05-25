@@ -1,29 +1,19 @@
 ---
 ---
 
-// 
 @import "global/variables";
 @import "global/fonts";
 @import "global/reset";
 @import "global/reset-custom";
 
-// Compositions
-@import "1-compositions/page";
+@import "utilities/filters";
+@import "utilities/flexbox";
+@import "utilities/grid";
+@import "utilities/inputs";
+@import "utilities/spacing";
+@import "utilities/tools";
+@import "utilities/typography";
 
-// Utilities
-@import "2-utilities/inputs";
-@import "2-utilities/spacing";
-@import "2-utilities/tools";
-@import "2-utilities/typography";
-
-// Blocks
-
-// Exceptions
-@import "mixins/filters";
-@import "mixins/flexbox";
-@import "mixins/grid";
-
-@import "component/bubbles";
 @import "component/buttons";
 @import "component/cards";
 @import "component/containers";
@@ -32,9 +22,7 @@
 @import "component/header";
 @import "component/hero";
 @import "component/listing";
-@import "component/ornaments";
 @import "component/sections";
-@import "component/typography";
 @import "component/wysiwyg";
 
 @import "pages/events";
@@ -44,7 +32,6 @@
 @import "pages/maker-directory";
 @import "pages/maker-posters";
 
-// @import "vendors/flickity";
 @import "vendors/houdini";
 @import "vendors/mailchimp";
 @import "vendors/modals";

@@ -8,7 +8,7 @@
 #mc_embed_signup .mc-field-group label {
     display: block;
     font-weight: 700;
-    font-family: $font-sans;
+    font-family: $font-poppins;
     margin-left: $spacing-8;
     padding: $spacing-8 0;
 }
@@ -22,7 +22,7 @@
     padding: $spacing-8;
     width: 100%;
     -webkit-appearance: none !important;
-    -moz-appearance: none !important;
+      -moz-appearance: none !important;
     appearance: none !important;
 }
 
@@ -103,7 +103,6 @@
 }
 
 .mailchimp-grid {
-    @include grid;
     grid-template-columns: 1fr;
 }
 

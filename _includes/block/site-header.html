@@ -1,26 +1,23 @@
 <header class="site-header">
-    <div class="flex flex-justify-between wrapper">
-        <a aria-label="DCDW Logo and link to home page" href="/" class="site-header__logo">
-            {% include icon/dcdw-logo.html %}
-        </a>
-        <nav class="site-header__navigation">
-            <ul class="links">
-                {% for link in site.navigation-offseason %}
-                <li class="link">
-                    <a aria-label="{{ link.aria-label }}" class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
-                        {{ link.label }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </nav>
-        <a class="button button__solid--black" href="#">
-            Become a Partner
-        </a>
-        <!-- Off-canvas toggle button -->
-        <button aria-label="Offscreen Menu Button" type="button" id="my-button">
-            <i class="fas fa-bars"></i>
-        </button>
-    </div>
-    <div class="section--texture-1" style="background-image: url('/uploads/wheatpaste-texture.png'); background-position: center center; background-size: cover; ">&nbsp;</div>
+    <a aria-label="DCDW Logo and link to home page" href="/" class="site-header__logo">
+        {% include icon/dcdw-logo.html %}
+    </a>
+    <nav class="site-header__navigation">
+        <ul class="links">
+            {% for link in site.navigation-offseason %}
+            <li class="link">
+                <a aria-label="{{ link.aria-label }}" class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
+                    {{ link.label }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    <a class="button button__solid--yellow" href="#">
+        Become a Partner
+    </a>
+    <!-- Off-canvas toggle button -->
+    <button aria-label="Offscreen Menu Button" type="button" id="my-button">
+        <i class="fas fa-bars"></i>
+    </button>
 </header>
