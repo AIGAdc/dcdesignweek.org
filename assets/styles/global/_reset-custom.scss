@@ -2,10 +2,8 @@ body {
     background-color: $dcdw-2021-celeste;
     color: $black;
     font-family: $font-poppins;
-    font-size: $font-size-18;
-    line-height: 1.8;
-    margin: auto;
-    max-width: 1366px;
+    font-size: $font-size-16;
+    line-height: 1.5;
 }
 
 ul {
@@ -33,12 +31,12 @@ small {
 }
 
 @mixin state-active {
-    outline: 2px dashed $dcdw-2021-cinnabar !important;
+    outline: 4px dashed $dcdw-2021-cinnabar !important;
     outline-offset: 1px !important;
 }
 
 @mixin state-focus {
-    outline: 2px dashed $dcdw-2021-cinnabar !important;
+    outline: 4px dashed $dcdw-2021-cinnabar !important;
     outline-offset: 1px !important;
 }
 
@@ -50,7 +48,8 @@ a:active {
     @include state-active;
 }
 
-a:focus {
+a:focus,
+*:focus {
     @include state-focus;
 }
 
@@ -78,42 +77,15 @@ a:focus {
     background-color: $dcdw-2021-yellow;
 }
 
-.border-0 {
-    border: none !important;
-}
-
-.wrapper {
-    padding: $spacing-16;
-}
-
 @media screen and (min-width: 639px) {
     .wrapper {
         padding: $spacing-16;
     }
 }
 
-.section {
-    padding: $spacing-120 $spacing-16;
-    position: relative;
-}
-
-@media screen and (min-width: 639px) {
-    .section {
-        padding: $spacing-80 $spacing-32;
-    }
-}
-
-@media screen and (min-width: 1023px) {
-    .section {
-        padding-bottom: $spacing-120;
-        padding-top: $spacing-120;
-    }
-}
-
 // Page Specific
 .section--volunteers svg {
-    fill: $white;
-    max-width: 40px;
+    max-width: 32px;
 }
 
 .flex {
@@ -312,4 +284,11 @@ a:focus {
 
 .align-items-center {
     align-items: center;
+}
+
+@media screen and (min-width: 1023px) {
+    body {
+        font-size: $font-size-18;
+        line-height: 1.8;
+    }
 }

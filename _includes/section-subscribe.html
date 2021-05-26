@@ -1,0 +1,12 @@
+<section class="section section--subscribe">
+    <div class="container container--default">
+        <h2>
+            {{ site.subscribe.header }}
+        </h2>
+        <hr class="divider divider--yellow">
+        <div class="wysiwyg">
+            {{ site.subscribe.body | markdownify }}
+        </div>
+        {% include third-party/mailchimp/form.html %}
+    </div>
+</section>

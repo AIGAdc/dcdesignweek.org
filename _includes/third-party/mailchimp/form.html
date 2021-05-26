@@ -2,10 +2,9 @@
     <form action="https://aiga.us5.list-manage.com/subscribe/post?u=a1d74e0d7217ad0690c35dc75&id=0011013dc1" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
         <div id="mc_embed_signup_scroll">
             <div class="indicates-required">
-                <span class="asterisk">
-                    *
-                </span>
-                Indicates Required
+                <p>
+                    <span class="asterisk">*</span>Indicates Required
+                </p>
             </div>
             <div class="mailchimp-grid">
                 <div class="mc-field-group">
@@ -16,22 +15,12 @@
                 </div>
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">
-                        Email Address
-                        <span class="asterisk">
-                            *
-                        </span>
+                        Email Address <span class="asterisk">*</span>
                     </label>
                     <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" />
                 </div>
                 <div class="mailchimp-button">
-                    <label>
-                        &nbsp;
-                    </label>
-                    {% if page.layout == "events-landing" %}
-                    <input class="button button__solid button__solid--black " id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
-                    {% else %}
-                    <input class="button button__solid button__solid--white " id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
-                    {% endif %}
+                    <input class="button button__solid--yellow" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
                 </div>
             </div>
             <!-- hidden fields -->
@@ -65,7 +54,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="clear mt4" id="mce-responses">
+            <div id="mce-responses">
                 <div class="response" id="mce-error-response" style="display: none;"></div>
                 <div class="response" id="mce-success-response" style="display: none;"></div>
             </div>

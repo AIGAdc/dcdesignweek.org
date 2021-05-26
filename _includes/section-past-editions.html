@@ -1,16 +1,12 @@
 <section class="section section--past-dcdw">
     <div class="container container--wide container--center">
-        {% if site.past-editions.header %}
-        <h2 class="grid-col--span-90" id="{{ site.past-editions.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+        <h2>
             {{ site.past-editions.header }}
         </h2>
-        {% endif %}
         <hr class="divider divider--black">
-        {% if site.past-editions.body %}
         <div class="wysiwyg">
-            {{ site.past-editions.body }}
+            {{ site.past-editions.body | markdownify }}
         </div>
-        {% endif %}
 
         <ul class="grid grid--three-columns">
             {% for content in site.past-editions.editions %}
@@ -33,6 +29,4 @@
             {% endfor %}
         </ul>
     </div>
-    <div class="section--texture-1" style="background-image: url('/uploads/wheatpaste-texture.png'); background-position: center center; background-size: cover; ">&nbsp;</div>
-    <div class="section--texture-2" style="background-image: url('/uploads/texture_grit.png'); background-position: center center; background-size: cover; background-repeat: no-repeat;">&nbsp;</div>
 </section>

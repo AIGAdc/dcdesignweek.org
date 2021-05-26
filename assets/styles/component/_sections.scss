@@ -1,12 +1,16 @@
 .section {
     overflow: hidden;
+    padding: $spacing-64 $spacing-16;
     position: relative;
 }
 
-.section--hero,
-.section--partners,
-.section--subscribe {
-    overflow: unset;
+.section__overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .section--partners,
@@ -16,83 +20,8 @@
     color: $dcdw-2021-celeste;
 }
 
-.section--volunteers {
-    padding: 288px $spacing-32;
-}
-
-.section--overlay,
-.section--texture-1,
-.section--texture-2,
-.section--texture-3,
-.section--texture-4,
-.section--texture-5,
-.section--texture-6,
-.section--texture-7 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.section--overlay {
-    background-color: rgba(0, 0, 0, 0.75);
-}
-
-.section--texture-1 {
-    mix-blend-mode: multiply;
-}
-
-.section--texture-2 {
-    right: -500px;
-    bottom: -1500px;
-    opacity: 0.5;
-    mix-blend-mode: multiply;
-    z-index: $index-3;
-}
-
-.section--texture-3 {
-    bottom: -250px;
-    left: -1500px;
-    transform: rotate(35deg);
-    max-width: 1000px;
-    margin: auto;
-    mix-blend-mode: multiply;
-    z-index: $index-3;
-}
-
-.section--texture-4 {
-    right: -1250px;
-    bottom: -500px;
-    max-width: 750px;
-    margin: auto;
-    mix-blend-mode: multiply;
-}
-
-.section--texture-5 {
-    top: -500px;
-    right: -1500px;
-    max-width: 1500px;
-    margin: auto;
-    transform: rotate(90deg);
-    mix-blend-mode: multiply;
-}
-
-.section--texture-6 {
-    right: -1500px;
-    bottom: -650px;
-    max-width: 1000px;
-    margin: auto;
-    transform: rotate(45deg);
-    z-index: $index-3;
-    mix-blend-mode: multiply;
-}
-
-.section--texture-7 {
-    top: -750px;
-    left: -1500px;
-    max-width: 1500px;
-    margin: auto;
-    transform: rotate(90deg);
-    mix-blend-mode: multiply;
+@media screen and (min-width: 1023px) {
+    .section {
+        padding: $spacing-120 $spacing-32;
+    }
 }

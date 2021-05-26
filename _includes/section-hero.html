@@ -1,0 +1,18 @@
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section section--hero">
+    <div class="container container--default">
+        <figure>
+            <img src="/uploads/stars.png" alt="Three Red Stars">
+        </figure>
+        <hr class="divider divider--black">
+        <h1>
+            {{ content.header }}
+        </h1>
+        <div class="wysiwyg">
+            {{ content.subheader | markdownify }}
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endfor %}
