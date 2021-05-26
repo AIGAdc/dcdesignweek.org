@@ -40,7 +40,7 @@
 }
 
 .card__header a:hover {
-    color: $green;
+    color: $dcdw-2021-cinnabar;
 }
 
 .card__image {
@@ -48,14 +48,14 @@
 }
 
 .card__link {
-    color: $green;
+    color: $dcdw-2021-cinnabar;
     transition: -webkit-filter $timing-quick ease-in;
     transition: color $timing-quick ease-in;
     transition: color $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
 }
 
 .card__link:hover {
-    color: $green;
+    color: $dcdw-2021-cinnabar;
 }
 
 // specific cards
@@ -177,7 +177,7 @@
 }
 
 .ticker.ticker--sold-out {
-    background-color: $green;
+    background-color: $dcdw-2021-cinnabar;
     color: $black;
 }
 
