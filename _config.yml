@@ -240,21 +240,19 @@ events-filter:
     class: featured
     text-1: Show Featured
 faqs:
-  header: "FAQs"
-  body: DC Design Week looks different this year, so you might have questions. Maybe
-    it’s how to find the streaming link or how to get the most out of our remote events.
-    We’ve got answers to those and more.
+  header: "FAQ and Answers"
+  body: "We recently held an information session to answer your questions directly. Below are some of the responses from the session:"
   button-url: "/faqs/"
-  button-label: Learn More
+  button-label: "Learn More"
 makers:
   header: "DC Design Week: Maker
     Directory"
-  body: We’re all about celebrating the DMV’s creative voices — so what better way
+  body: "We’re all about celebrating the DMV’s creative voices — so what better way
     to do that than showcasing their work? We may not be able to do our IRL Pop-Up
     Shop this year, but we’ve got the next best thing. Check out our virtual directory
-    for all your fall shopping needs.
+    for all your fall shopping needs."
   button-url: "/maker/directory"
-  button-label: Explore Local Artists
+  button-label: "Explore Local Artists"
 navigation-offseason:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -287,15 +285,12 @@ navigation-production:
   aria-label: FAQs Page
 partner:
   header: "Partner with Us"
-  body: "You do things. We do things. <strong>Let’s do things together</strong>.\n\n\nWe’re
-    looking for sponsors who can help ensure every event is as accessible and inclusive
-    as possible, whether through donations or in-kind gifts. If you’re interested
-    in partnering with DC Design Week this year, let us know. \n"
+  body: "DC Design Week is 100% volunteer-run, in concert with a consortium of local associations, meetup groups, and small businesses. We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible. If you’re interested in partnering with DC Design Week this year, reach out to us here:"
   button-url: mailto:designweek@dc.aiga.org
-  button-label: Become a Partner
+  button-label: "Become a Partner"
 past-editions:
-  header: "DC Design Week Through the Years"
-  body: We love reminiscing.
+  header: "Past DCDW Years"
+  body:
   editions:
   - title: DCDW 2020
     image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
@@ -326,20 +321,31 @@ posters:
     rel="noopener nofollow"}. See them all, learn about the artists, and get yours
     today!
   button-url: "/maker/posters"
-  button-label: See All Posters
+  button-label: "See All Posters"
+proposals:
+  header: "New This Year: Hyperlocal"
+  body: "We’re excited to announce that this year we’re shifting our focus to feature virtual events curated and hosted by our community — so … you!
+
+
+  Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
+
+
+  <strong>Want to submit a proposal?</strong>"
+  button-url: mailto:designweek@dc.aiga.org
+  button-label: "Submit a Proposal"
 self-guided:
   header: "Lorem Ipsum"
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
+    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor."
   button-url: "/events/self-guided/"
-  button-label: See Self-Guided Events
+  button-label: "See Self-Guided Events"
 sponsors:
   header: "Sponsors and Partners"
   tier-one-header: "Presenting sponsors"
   tier-two-header: "Contributing Sponsors"
   tier-three-header: "Supporting Sponsors"
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support.
+  body: "DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support."
   image-1: ""
   image-1-alt:
   sponsor-tier-one:
@@ -362,8 +368,7 @@ sponsors:
     aria-label: Website Aria Label
 subscribe:
   header: "Subscribe for updates"
-  body: The worst feeling? Missing out. The best feeling? Knowing you’ll get the event
-    news you need. Sign up below to get periodic updates from DCDW and AIGA DC.
+  body: "Stay up to date on everything we have planned to celebrate the DC design community. Follow us on Instagram, Twitter, LinkedIn, and and sign up below for updates from DCDW and AIGA DC."
   image-1: "/uploads/bubble-black-large-02.png"
   image-1-alt: Floating amorphous bubbles
 volunteer:
@@ -373,8 +378,8 @@ volunteer:
     53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
     53-154.3-9.8-207.9z" fill="#ec1001"/></svg> in DC
   unbranded-header: Made with heart in DC
-  body: DC Design Week runs on 100% volunteer power. We’re always working to make
-    this site better for you. If you see something, <strong>say something</strong>.
+  body: "DC Design Week runs on 100% volunteer power. We’re always working to make
+    this site better for you. If you see something, <strong>say something</strong>."
   github: https://github.com/AIGAdc/dcdesignweek.org
   image-1: ""
   image-1-alt: 

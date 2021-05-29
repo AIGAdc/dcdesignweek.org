@@ -13,13 +13,6 @@
     left: 0;
 }
 
-.section--partners,
-.section--subscribe,
-.section--volunteers {
-    background-color: $black;
-    color: $dcdw-2021-celeste;
-}
-
 @media screen and (min-width: 1023px) {
     .section {
         padding: $spacing-120 $spacing-32;

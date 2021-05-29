@@ -1,6 +1,7 @@
 .site-header {
     align-items: center;
-    background-color: $black;
+    background-color: $dcdw-2021-celeste;
+    border-bottom: solid 4px $black;
     display: grid;
     grid-template-columns: max-content 1fr max-content;
     padding: $spacing-16;
@@ -15,9 +16,14 @@
 }
 
 .site-header__navigation a {
-    color: $white;
+    color: $black;
     font-weight: 700;
+    padding: $spacing-8;
     text-decoration: none;
+}
+
+.site-header__navigation a:hover {
+    color: $dcdw-2021-cinnabar;
 }
 
 .site-header__navigation .link:not(:last-child) {

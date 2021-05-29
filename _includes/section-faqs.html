@@ -1,0 +1,41 @@
+<section class="section section--faqs background-color-black text-color-celeste">
+  <div class="container container--default">
+    <h2>
+      {{ site.faqs.header }}
+    </h2>
+    <hr class="divider divider--yellow">
+    <div class="wysiwyg">
+      {{ site.faqs.body | markdownify }}
+    </div>
+  </div>
+
+  <div class="grid grid--four-columns margin-top-32">
+    <ul class="grid grid--one-column column--span-3">
+      {% for faq in page.faqs %}
+      <li>
+        <h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
+          {{ faq.heading }}
+        </h2>
+        <div class="{% if faq.expanded == true %} is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
+          {{ faq.body | markdownify }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<script src="/assets/scripts/houdini.min.js"></script>
+<script>
+  var disclosure = new Houdini('[data-houdini-group="faq"]', {
+    isAccordion: true,
+    collapseOthers: true,
+
+    // Icons
+    icon: 1, // If true, include an expand/collapse icon
+    iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
+    iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
+    iconShow: '<img src="/uploads/plus.svg" alt="">', // The icon to expand an accordion
+    iconHide: '<img src="/uploads/minus.svg" alt="">', // The icon to collapse an accordion
+  });
+</script>

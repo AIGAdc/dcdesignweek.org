@@ -22,6 +22,20 @@
         color: $black;
     }
 
+    &__solid--cinnabar {
+        background-color: $dcdw-2021-cinnabar;
+        color: $black;
+    }
+
+    &__border--cinnabar {
+        border-color: $dcdw-2021-cinnabar;
+        color: $dcdw-2021-cinnabar;
+    }
+
+    &__link--cinnabar {
+        color: $dcdw-2021-cinnabar;
+    }
+
     &__solid--yellow {
         background-color: $dcdw-2021-yellow;
         color: $black;

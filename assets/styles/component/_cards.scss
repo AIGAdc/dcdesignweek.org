@@ -84,10 +84,10 @@
 }
 
 .card--past-editions .card__image img {
-    height: 400px;
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .card--sponsors .card__image img,

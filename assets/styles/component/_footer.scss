@@ -7,10 +7,6 @@
     padding: $spacing-16;
 }
 
-.site-footer__social {
-
-}
-
 .site-footer a {
     color: $black;
     font-weight: 700;
@@ -27,10 +23,15 @@
 
 @media screen and (min-width: 1023px) {
     .site-footer {
-        grid-template-columns: max-content 1fr max-content;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .site-footer ul {
         text-align: center;
+    }
+
+    .site-footer a:last-child {
+        display: block;
+        text-align: right;
     }
 }
