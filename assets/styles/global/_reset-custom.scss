@@ -101,7 +101,7 @@ a:focus,
 .grid {
     align-items: start;
     display: grid;
-    grid-gap: $spacing-32;
+    grid-gap: $spacing-24;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +135,7 @@ a:focus,
     position: relative;
 }
 
-.column>div {
+.column > div {
     height: 100%;
 }
 
@@ -169,7 +169,6 @@ a:focus,
 }
 
 @media screen and (min-width: 799px) {
-
     .grid--two-columns,
     .grid--four-columns {
         grid-template-columns: repeat(2, 1fr);
@@ -248,25 +247,25 @@ a:focus,
     }
 }
 
-.flow-small>*+*,
-.flow-small>* {
+.flow-small > * + *,
+.flow-small > * {
     margin-top: $spacing-8;
 }
 
-.wysiwyg>*+*:not(:first-child),
-.wysiwyg>*:not(:first-child),
-.flow-medium>*+*,
-.flow-medium>* {
+.wysiwyg > * + *:not(:first-child),
+.wysiwyg > *:not(:first-child),
+.flow-medium > * + *,
+.flow-medium > * {
     margin-top: $spacing-16;
 }
 
-.flow-large>*+*:not(:first-child),
-.flow-large>*:not(:first-child) {
+.flow-large > * + *:not(:first-child),
+.flow-large > *:not(:first-child) {
     margin-top: $spacing-32;
 }
 
-.flow-extra-large>*+*,
-.flow-extra-large>* {
+.flow-extra-large > * + *,
+.flow-extra-large > * {
     margin-top: $spacing-64;
 }
 

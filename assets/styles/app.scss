@@ -6,32 +6,32 @@
 @import "global/reset";
 @import "global/reset-custom";
 
-@import "utilities/colors";
-@import "utilities/filters";
-@import "utilities/flexbox";
-@import "utilities/grid";
-@import "utilities/inputs";
-@import "utilities/spacing";
-@import "utilities/tools";
-@import "utilities/typography";
+@import "utility/colors";
+@import "utility/filters";
+@import "utility/flexbox";
+@import "utility/grid";
+@import "utility/inputs";
+@import "utility/spacing";
+@import "utility/tools";
+@import "utility/typography";
 
-@import "component/buttons";
-@import "component/cards";
-@import "component/containers";
-@import "component/dividers";
-@import "component/footer";
-@import "component/header";
-@import "component/hero";
-@import "component/listing";
-@import "component/sections";
-@import "component/wysiwyg";
+@import "block/buttons";
+@import "block/cards";
+@import "block/containers";
+@import "block/dividers";
+@import "block/footer";
+@import "block/header";
+@import "block/hero";
+@import "block/listing";
+@import "block/sections";
+@import "block/wysiwyg";
 
-@import "pages/events";
-@import "pages/events-single";
-@import "pages/faqs";
-@import "pages/makers";
-@import "pages/maker-directory";
-@import "pages/maker-posters";
+@import "composition/events";
+@import "composition/events-single";
+@import "composition/faqs";
+@import "composition/makers";
+@import "composition/maker-directory";
+@import "composition/maker-posters";
 
 @import "vendors/houdini";
 @import "vendors/mailchimp";
