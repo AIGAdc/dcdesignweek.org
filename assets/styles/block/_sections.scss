@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.section--faqs {
+    overflow: unset;
+}
+
 .section__overlay {
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;

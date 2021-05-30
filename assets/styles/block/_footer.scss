@@ -5,6 +5,7 @@
     grid-gap: $spacing-16;
     grid-template-columns: 1fr;
     padding: $spacing-16;
+    position: relative;
 }
 
 .site-footer a {

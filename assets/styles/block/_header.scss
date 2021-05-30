@@ -4,6 +4,7 @@
     border-bottom: solid 4px $black;
     display: grid;
     grid-template-columns: max-content 1fr max-content;
+    mix-blend-mode: unset !important;
     padding: $spacing-16;
     position: sticky;
     position: -webkit-sticky;

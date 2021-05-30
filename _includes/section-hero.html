@@ -1,16 +1,23 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section--hero">
+<section class="section section--hero texture texture--paper">
     <div class="container container--default">
-        <figure>
-            <img src="/uploads/stars.png" alt="Three Red Stars">
-        </figure>
-        <hr class="divider divider--black">
-        <h1>
-            {{ content.header }}
-        </h1>
-        <div class="wysiwyg">
-            {{ content.subheader | markdownify }}
+        <div class="hero-teaser">
+            <div class="ornament ornament--stars">
+                <img src="/uploads/ornament-stars.svg" />
+            </div>
+            <div class="ornament ornament--globe">
+                <img src="/uploads/ornament-globe.svg" />
+            </div>
+            <h1 class="title" style="background-image: url('/uploads/hero-red-object.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
+                <span class="font-bayard">DC</span> <span class="font-bayard text-color-white">Design Week</span>
+            </h1>
+            <h2 class="subtitle">
+                is coming back in 2021.
+            </h2>
+            <div class="wysiwyg">
+                {{ content.subheader | markdownify }}
+            </div>
         </div>
     </div>
 </section>

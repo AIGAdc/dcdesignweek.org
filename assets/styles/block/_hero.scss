@@ -1,62 +1,34 @@
-.hero--home {
+.hero-teaser {
     position: relative;
-    z-index: $index-1;
 }
 
-.hero--home>div:not(:last-child) {
-    position: relative;
-    z-index: $index-4;
+.hero-teaser .title {
+    font-size: 188px;
+    padding: 72px;
+    text-align: center;
 }
 
-.overlay {
-    background: radial-gradient(transparent 0%, $black 90%);
+.hero-teaser .subtitle {
+    position: relative;
+    text-align: right;
+    z-index: 100;
+    margin-top: -120px;
+}
+
+.hero-teaser .subtitle::after {
+    content: "";
+    background-image: url("/uploads/hero-yellow-object.svg");
     position: absolute;
+    width: 500px;
     top: 0;
-    right: 0;
     bottom: 0;
-    left: 0;
-    z-index: $index-4;
+    right: -16px;
+    height: 90px;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
-.hero--home {
-    padding: $spacing-16 !important;
-}
-
-.hero--home video {
-    width: 100%;
-    -o-object-position: center;
-    object-position: center;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
-
-@media (min-height: 0px) and (max-height: 700px) {
-    .hero--home video {
-        height: 400px;
-    }
-}
-
-@media (min-width: 639px) and (min-height: 700px) {
-    .hero--home video {
-        height: 580px;
-    }
-}
-
-@media screen and (min-width: 399px) {
-    .hero--home {
-        padding: $spacing-64 $spacing-16 !important;
-    }
-}
-
-@media screen and (min-width: 639px) {
-    .hero--home {
-        padding: $spacing-64 $spacing-32 !important;
-    }
-}
-
-@media screen and (min-width: 799px) {
-    .hero--home video {
-        -o-object-fit: contain;
-        object-fit: contain;
-    }
+.hero-teaser .wysiwyg {
+    margin-top: 56px;
+    text-align: center;
 }

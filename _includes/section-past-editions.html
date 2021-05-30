@@ -1,4 +1,4 @@
-<section class="section section--past-dcdw">
+<section class="section section--past-dcdw texture texture--paper texture--grit">
     <div class="container container--wide container--center">
         <h2>
             {{ site.past-editions.header }}
@@ -8,7 +8,7 @@
             {{ site.past-editions.body | markdownify }}
         </div>
 
-        <ul class="grid grid--three-columns">
+        <ul class="grid grid--three-columns" style="background-image: url('/uploads/hero-red-object.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
             {% for content in site.past-editions.editions %}
             <li class="card card--past-editions">
                 <div class="card__aside">
