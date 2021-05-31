@@ -1,6 +1,6 @@
 .button {
     background-color: transparent;
-    border: solid 1px transparent;
+    border: solid 4px transparent;
     border-radius: 0 !important;
     display: inline-block;
     font-family: $font-poppins;
@@ -22,6 +22,14 @@
         color: $black;
     }
 
+    &__solid--black:hover,
+    &__border--black:hover,
+    &__link--black:hover {
+        background-color: transparent;
+        border: solid 4px $black;
+        color: $black;
+    }
+
     &__solid--cinnabar {
         background-color: $dcdw-2021-cinnabar;
         color: $black;
@@ -36,6 +44,14 @@
         color: $dcdw-2021-cinnabar;
     }
 
+    &__solid--cinnabar:hover,
+    &__border--cinnabar:hover,
+    &__link--cinnabar:hover {
+        background-color: transparent;
+        border: solid 4px $dcdw-2021-cinnabar;
+        color: $dcdw-2021-cinnabar;
+    }
+
     &__solid--yellow {
         background-color: $dcdw-2021-yellow;
         color: $black;
@@ -47,6 +63,14 @@
     }
 
     &__link--yellow {
+        color: $dcdw-2021-yellow;
+    }
+
+    &__solid--yellow:hover,
+    &__border--yellow:hover,
+    &__link--yellow:hover {
+        background-color: transparent;
+        border: solid 4px $dcdw-2021-yellow;
         color: $dcdw-2021-yellow;
     }
 }

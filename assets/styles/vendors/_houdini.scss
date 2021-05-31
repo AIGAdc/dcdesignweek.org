@@ -31,16 +31,17 @@
 
 .houdini-heading .houdini-toggle {
     background: inherit;
-    border: solid 4px $dcdw-2021-celeste;
-    display: block;
+    border: solid 4px #ecece5;
+    display: flex;
     text-align: inherit;
+    justify-content: space-between;
     width: 100%;
-    color: $dcdw-2021-celeste;
+    color: #ecece5;
     padding: 16px;
+    align-items: center;
 }
 
 .houdini-toggle-icon {
-    margin-left: $spacing-8 !important;
-    width: 8px !important; // prevents UI shift when changing from plus to minus
     display: inline-block !important;
+    padding: 8px;
 }

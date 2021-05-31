@@ -1,30 +1,38 @@
 .card {
     @include flex-column;
+    transition: -webkit-filter $timing-quick ease-in;
+    transition: filter $timing-quick ease-in;
+    transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
+    @include apply-grayscale;
 }
 
-.card>*+*,
-.card__body>*+* {
-    margin-top: $spacing-16;
+.card:hover {
+    @include remove-grayscale;
 }
 
-.card h3 {
-    font-family: $font-poppins;;
-    text-transform: uppercase;
-}
-
-.card--event h3 {
-    font-family: "fk_groteskregular", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0.4px;
-}
-
-.card--event a {
+.card a {
+    color: $black;
     text-decoration: none;
 }
 
-.card__aside {
-    position: relative;
+.card a:hover {
+    color: $dcdw-2021-cinnabar;
+}
+
+.card__image {
+    border: solid 4px $black;
+}
+
+.card__image img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.card h3 {
+    font-family: $font-poppins;
+    text-transform: uppercase;
 }
 
 .card__header {
@@ -32,125 +40,6 @@
     border: solid 4px $black;
     margin-top: -4px;
     padding: $spacing-16;
-}
-
-.card__header a {
-    color: $black;
-    display: inline-block;
-}
-
-.card__header a:hover {
-    color: $dcdw-2021-cinnabar;
-}
-
-.card__image {
-    position: relative;
-}
-
-.card__link {
-    color: $dcdw-2021-cinnabar;
-    transition: -webkit-filter $timing-quick ease-in;
-    transition: color $timing-quick ease-in;
-    transition: color $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
-}
-
-.card__link:hover {
-    color: $dcdw-2021-cinnabar;
-}
-
-// specific cards
-.card--committee {
-    text-align: center;
-}
-
-.card--committee .card__image img {
-    margin: auto;
-    max-width: 200px;
-}
-
-.card--past-editions .card__image,
-.card--sponsors .card__image,
-.card--makers .card__image {
-    border: solid 4px $black;
-}
-
-.card--event .card__image img,
-.card--past-editions .card__image img,
-.card--sponsors .card__image img {
-    transition: -webkit-filter $timing-quick ease-in;
-    transition: filter $timing-quick ease-in;
-    transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
-    @include apply-grayscale;
-}
-
-.card--past-editions .card__image img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-}
-
-.card--sponsors .card__image img,
-.card--sponsors-tier-three .card__image img {
-    -o-object-fit: contain;
-    object-fit: contain;
-    height: 200px;
-    max-width: 200px;
-    margin: auto;
-}
-
-.card--sponsors-tier-three .card__image img {
-    max-width: 150px;
-}
-
-.card--event .card__aside {
-    border: solid 1px $white;
-}
-
-.card--event .card__aside .ticker {
-    border-top: solid 1px $white;
-}
-
-.card--event .card-date .day,
-.card--event .card-date .date {
-    font-family: $font-poppins;;
-    text-transform: uppercase;
-    text-transform: uppercase;
-    display: block;
-    position: relative;
-    left: 8px;
-}
-
-.card--event .card-date {
-    margin-right: 32px;
-    padding-top: 24px;
-    padding-right: 24px;
-    position: relative;
-}
-
-.card--event .card-date figure svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.card--event .card-details {
-    display: flex;
-    align-items: center;
-}
-
-.card--event .card-info {
-    font-family: $font-poppins;;
-    font-size: $font-size-16;
-}
-
-.card--event .card__image img:hover,
-.card--past-editions .card__image img:hover,
-.card--sponsors .card__image img:hover {
-    @include remove-grayscale;
 }
 
 // TODO: Refactor Everything Below
@@ -190,7 +79,7 @@
 .events-layout .ticker p,
 .events-landing-layout .ticker p {
     display: inline-block;
-    font-family: $font-poppins;;
+    font-family: $font-poppins;
     font-size: $font-size-14;
     margin: 0;
     text-align: left;
