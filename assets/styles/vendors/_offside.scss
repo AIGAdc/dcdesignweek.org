@@ -102,11 +102,11 @@
 
 /* Element is open: container elements slide out */
 
-.no-csstransforms3d>.offside-js--is-left .offside-sliding-element {
+.no-csstransforms3d > .offside-js--is-left .offside-sliding-element {
     right: -300px;
 }
 
-.no-csstransforms3d>.offside-js--is-right .offside-sliding-element {
+.no-csstransforms3d > .offside-js--is-right .offside-sliding-element {
     left: -300px;
 }
 
@@ -130,13 +130,21 @@ button#mobile-menu-trigger {
     display: block;
     background-color: transparent;
     border: none;
+    padding: 16px;
+}
+
+#my-button:hover {
+    cursor: pointer;
 }
 
 #my-button svg {
-    max-width: 24px;
-    width: 24px;
     display: block;
-    fill: $white;
+}
+
+@media screen and (min-width: 960px) {
+    #my-button {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1023px) {

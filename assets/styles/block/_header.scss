@@ -3,7 +3,8 @@
     background-color: $dcdw-2021-celeste;
     border-bottom: solid 4px $black;
     display: grid;
-    grid-template-columns: max-content 1fr max-content;
+    grid-gap: $spacing-16;
+    grid-template-columns: repeat(2, auto) max-content;
     mix-blend-mode: unset !important;
     padding: $spacing-16;
     position: sticky;
@@ -12,7 +13,7 @@
     z-index: $index-4;
 }
 
-.site-header svg {
+.site-header__logo svg {
     display: block;
 }
 
@@ -28,7 +29,21 @@
 }
 
 .site-header__navigation .link:not(:last-child) {
-    margin-right: $spacing-32;
+    margin-right: $spacing-24;
+}
+
+.site-header__navigation {
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    .site-header__navigation {
+        display: block;
+    }
+
+    .site-header__navigation ul li {
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 1023px) {
@@ -43,11 +58,6 @@
     .site-header__navigation {
         gap: $spacing-32;
         text-align: center;
-    }
-
-    // remove burger menu when screen is > 1023
-    .site-header__menu {
-        display: none;
     }
 
     .link {
