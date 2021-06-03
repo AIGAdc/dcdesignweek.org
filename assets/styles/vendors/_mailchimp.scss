@@ -8,8 +8,6 @@
     display: block;
     font-family: $font-poppins;
     font-weight: 700;
-    margin-left: $spacing-8;
-    padding: $spacing-8 0;
 }
 
 #mc_embed_signup .mc-field-group input {
@@ -87,10 +85,9 @@
 }
 
 .mailchimp-grid {
-
     display: grid;
-align-items: end;
-grid-gap: 32px;
+    align-items: end;
+    grid-gap: 32px;
 }
 
 .mailchimp-button {
