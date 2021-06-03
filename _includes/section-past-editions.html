@@ -8,7 +8,7 @@
             {{ site.past-editions.body | markdownify }}
         </div>
 
-        <ul class="grid grid--three-columns" style="background-image: url('/uploads/hero-red-object.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
+        <ul class="listing listing--past-dcdw" style="background-image: url('/uploads/hero-red-object.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
             {% for content in site.past-editions.editions %}
             <li class="card card--past-editions">
                 <a aria-label="{{ content.aria-label }}" href="{{ content.url }}" target="_blank" rel="noopener noreferrer">
