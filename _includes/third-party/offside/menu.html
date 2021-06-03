@@ -1,12 +1,12 @@
 <!-- Off-canvas element  -->
-<nav aria-label="Offscreen Menu" id="my-menu">
+<nav aria-label="Offscreen Menu" id="my-menu" class="texture texture--paper">
     <a class="button button__solid--cinnabar" href="mailto:designweek@dc.aiga.org">
         Become a Partner
     </a>
     <ul class="links">
         {% for link in site.navigation-offseason %}
         <li class="link">
-            <a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
+            <a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
                 {{ link.label }}
             </a>
         </li>

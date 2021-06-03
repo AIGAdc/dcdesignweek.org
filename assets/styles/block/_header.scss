@@ -39,11 +39,6 @@
 }
 
 @media screen and (min-width: 960px) {
-    .site-header__navigation,
-    .site-header__cta {
-        display: block;
-    }
-
     .site-header__navigation ul li {
         display: inline-block;
     }
@@ -55,6 +50,11 @@
         display: grid;
         grid-template-columns: max-content 1fr max-content;
         grid-gap: $spacing-32;
+    }
+
+    .site-header__navigation,
+    .site-header__cta {
+        display: block;
     }
 
     // show site navigation when screen is > 1023

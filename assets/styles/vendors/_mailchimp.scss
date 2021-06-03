@@ -66,6 +66,10 @@
     font-weight: bold;
 }
 
+.mc-field-group label {
+    margin-bottom: 8px;
+}
+
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
     background-color: $dcdw-2021-cinnabar;
     display: block;
