@@ -74,4 +74,16 @@
         border: solid 4px $dcdw-2021-yellow;
         color: $dcdw-2021-yellow;
     }
+
+    &__solid--black::selection,
+    &__border--black::selection,
+    &__link--black::selection,
+    &__solid--yellow::selection,
+    &__border--yellow::selection,
+    &__link--yellow::selection,
+    &__solid--cinnabar::selection,
+    &__border--cinnabar::selection,
+    &__link--cinnabar::selection {
+        background-color: unset;
+    }
 }
