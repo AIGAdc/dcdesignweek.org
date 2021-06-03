@@ -4,7 +4,8 @@
     border-bottom: solid 4px $black;
     display: grid;
     grid-gap: $spacing-16;
-    grid-template-columns: repeat(2, auto) max-content;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
     mix-blend-mode: unset !important;
     padding: $spacing-16;
     position: sticky;
@@ -32,12 +33,14 @@
     margin-right: $spacing-24;
 }
 
-.site-header__navigation {
+.site-header__navigation,
+.site-header__cta {
     display: none;
 }
 
 @media screen and (min-width: 960px) {
-    .site-header__navigation {
+    .site-header__navigation,
+    .site-header__cta {
         display: block;
     }
 
