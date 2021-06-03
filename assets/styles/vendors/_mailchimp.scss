@@ -1,7 +1,10 @@
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-#mc_embed_signup form {
-    display: block;
-    position: relative;
+
+.grid--mailchimp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    align-items: start;
 }
 
 #mc_embed_signup .mc-field-group label {
@@ -12,7 +15,7 @@
 
 #mc_embed_signup .mc-field-group input {
     background-color: $dcdw-2021-celeste;
-    border: none;
+    border: solid 4px transparent;
     border-radius: none;
     color: $black;
     display: block;
@@ -41,7 +44,8 @@
 // message for when a visitor successfully signs up for the newsletter
 #mc_embed_signup div.response {
     background-color: $dcdw-2021-cinnabar;
-    z-index: $index-1;
+    padding: 8px;
+    z-index: 100;
 }
 
 #mc_embed_signup div.response a {
@@ -69,6 +73,8 @@
     font-size: inherit;
     margin: 0;
     padding: $spacing-8;
+    position: relative;
+    top: -2px;
     z-index: $index-1;
 }
 
@@ -84,20 +90,17 @@
     appearance: none !important;
 }
 
-.mailchimp-grid {
-    display: grid;
-    align-items: end;
-    grid-gap: 32px;
-}
-
-.mailchimp-button {
-    align-self: end;
+#mce-responses {
+    margin-top: $spacing-24;
 }
 
 .mailchimp-button input {
     padding: $spacing-8;
 }
 
+.submit-label {
+    display: none;
+}
 .mailchimp-button input {
     margin-top: 0;
     -webkit-appearance: none !important;
@@ -107,6 +110,15 @@
 
 .mailchimp-button input:hover {
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--mailchimp {
+        grid-template-columns: 1fr 1fr max-content;
+    }
+    .submit-label {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1023px) {

@@ -29,6 +29,7 @@
         background-color: transparent;
         border: solid 4px $black;
         color: $black;
+        cursor: pointer !important;
     }
 
     &__solid--cinnabar {
@@ -51,6 +52,7 @@
         background-color: transparent;
         border: solid 4px $dcdw-2021-cinnabar;
         color: $dcdw-2021-cinnabar;
+        cursor: pointer !important;
     }
 
     &__solid--yellow {
@@ -73,6 +75,7 @@
         background-color: transparent;
         border: solid 4px $dcdw-2021-yellow;
         color: $dcdw-2021-yellow;
+        cursor: pointer !important;
     }
 
     &__solid--black::selection,
