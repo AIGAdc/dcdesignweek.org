@@ -240,7 +240,7 @@ events-filter:
     class: featured
     text-1: Show Featured
 faqs:
-  header: "FAQ and Answers"
+  header: "FAQ"
   body: "We recently held an information session to answer your questions directly. Below are some of the responses from the session:"
   button-url: "/faqs/"
   button-label: "Learn More"
@@ -353,14 +353,14 @@ posters:
   button-label: "See All Posters"
 proposals:
   header: "New This Year: Hyperlocal"
-  body: "We’re excited to announce that this year we’re shifting our focus to feature virtual events curated and hosted by our community — so … you!
+  body: "We’re excited to announce that this year we’re shifting our focus to feature events curated and hosted by our community — so … you!
 
 
   Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
 
 
-  <strong>Want to submit a proposal?</strong>"
-  button-url: mailto:designweek@dc.aiga.org
+  <strong>Interested in planning an event?</strong>"
+  button-url: https://dc.aiga.org/programs-initiatives/dc-design-week/
   button-label: "Submit a Proposal"
 self-guided:
   header: "Lorem Ipsum"
