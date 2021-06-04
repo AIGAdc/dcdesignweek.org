@@ -30,7 +30,7 @@
 }
 
 .site-header__navigation .link:not(:last-child) {
-    margin-right: $spacing-24;
+    margin-right: $spacing-16;
 }
 
 .site-header__navigation,
@@ -60,7 +60,7 @@
     // show site navigation when screen is > 1023
     .site-header__navigation {
         gap: $spacing-32;
-        text-align: center;
+        text-align: right;
     }
 
     .link {
