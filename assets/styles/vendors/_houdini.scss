@@ -11,22 +11,18 @@
  */
 
 .houdini {
-	display: none;
-	/**
-   * Remove focus styles from content
-   * @type {String}
-   */
-	/**
-   * Show expanded content
-   */
+    display: none;
 }
 
 .houdini[tabindex="-1"]:focus {
-	outline: 0 !important;
+    outline: 0 !important;
 }
 
 .houdini.is-expanded {
-	display: block;
+    display: block;
+    border: solid 4px $dcdw-2021-celeste;
+    margin-top: -4px;
+    padding: 16px;
 }
 
 /**
@@ -34,11 +30,18 @@
  */
 
 .houdini-heading .houdini-toggle {
-	background: inherit;
-	display: block;
-	font: inherit;
-	padding: 0;
-	text-align: inherit;
-	width: 100%;
-	color: $black;
+    background: inherit;
+    border: solid 4px #ecece5;
+    display: flex;
+    text-align: inherit;
+    justify-content: space-between;
+    width: 100%;
+    color: #ecece5;
+    padding: 16px;
+    align-items: center;
+}
+
+.houdini-toggle-icon {
+    display: inline-block !important;
+    padding: 8px;
 }

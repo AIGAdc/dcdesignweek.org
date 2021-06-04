@@ -2,7 +2,7 @@
 title: Song in a Week With Broke Royals
 date: 2020-08-22 14:23:00 -04:00
 styled-title: "<span>Song</span><span>in</span><span>a</span><span>Week</span><span>with</span><span>Broke</span><span>Royals</span>"
-image: "/uploads/BrokeRoyalsPromo.png"
+image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 description: Join Broke Royals as they write, record and debut a new DCDW-themed song
   that they themselves are also hearing for the first time during the livestream!
 image-alt: Members of Broke Royals

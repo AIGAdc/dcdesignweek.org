@@ -1,11 +1,11 @@
 ---
 title: Home
 permalink: "/"
-layout: home
+layout: archive
 hero:
 - has-hero: true
-  header: Home
-  subheader: 
+  header: DC Design Week is Coming Back in 2021.
+  subheader: 'Stay turned for more, and follow us on Instagram: <strong>[@dcdesignweek](https://www.instagram.com/dcdesignweek/)</strong>.'
   image: 
 introduction:
 - has-introduction: true

@@ -1,0 +1,38 @@
+.site-footer {
+    align-items: center;
+    color: $black;
+    display: grid;
+    grid-gap: $spacing-16;
+    grid-template-columns: 1fr;
+    padding: $spacing-16;
+    position: relative;
+}
+
+.site-footer a {
+    color: $black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.site-footer .svg-inline--fa {
+    font-size: $font-size-32;
+}
+
+.site-footer li {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1023px) {
+    .site-footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .site-footer ul {
+        text-align: center;
+    }
+
+    .site-footer a:last-child {
+        display: block;
+        text-align: right;
+    }
+}

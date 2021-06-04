@@ -1,0 +1,18 @@
+.texture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--grit {
+        background-image: url('/uploads/texture-grit.png');
+        z-index: 100;
+    }
+    
+    &--paper {
+        background-image: url('/uploads/texture-paper.png');
+    }
+
+    &--wheatpaste {
+        background-image: url('/uploads/texture-wheatpaste.png');
+    }
+}

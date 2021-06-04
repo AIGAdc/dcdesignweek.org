@@ -1,14 +1,14 @@
 <section class="section section--maker-grid border-0 spacing-top-0">
-	<div class="grid grid--four-columns">
-		<div class="column column--span-1 sticky">
-			{% include block/directory-filter.html %}
-		</div>
+    <div class="grid grid--four-columns">
+        <div class="column column--span-1 sticky">
+            {% include block/directory-filter.html %}
+        </div>
 
-		<div class="column column--span-3">
-			<ul class="grid grid--three-columns container mixitup-container">
-				{% assign sorted_makers = site.2020-makers | sort_natural: "name" %}
-				{% for maker in sorted_makers %}
-				<li class="card card--makers mix
+        <div class="column column--span-3">
+            <ul class="grid grid--three-columns container mixitup-container">
+                {% assign sorted_makers = site.2020-makers | sort_natural: "name" %}
+                {% for maker in sorted_makers %}
+                <li class="card card--makers mix
 				{% if maker.type.is-art-prints == true %} art-prints {% endif %}
 				{% if maker.type.is-paper-goods == true %} paper-goods {% endif %}
 				{% if maker.type.is-clothing-apparel == true %} clothing-apparel {% endif %}
@@ -16,43 +16,43 @@
 				{% if maker.type.is-accessories == true %} accessories {% endif %}
 				{% if maker.type.is-home-goods == true %} home-goods {% endif %}
 				{% if maker.type.is-wild-card == true %} wild-card {% endif %}">
-					{% include block/partials/makers-directory-modal-trigger.html %}
-					{% include block/partials/makers-directory-modal-content.html %}
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
+                    {% include block/partials/makers-directory-modal-trigger.html %}
+                    {% include block/partials/makers-directory-modal-content.html %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </section>
 
 <!-- mixitup -->
 <script src="/assets/scripts/mixitup.min.js"></script>
 <script src="/assets/scripts/mixitup-multifilter.min.js"></script>
 <script>
-	var containerEl = document.querySelector(".mixitup-container");
-	var mixer = mixitup(containerEl, {
-		multifilter: {
-			enable: true,
-		},
-		animation: {
-			enable: false,
-		},
-	});
+    var containerEl = document.querySelector(".mixitup-container");
+    var mixer = mixitup(containerEl, {
+        multifilter: {
+            enable: true,
+        },
+        animation: {
+            enable: false,
+        },
+    });
 </script>
 
 <script>
-	modals.init({
-		selectorToggle: '[data-modal]', // Modal toggle selector
-		selectorWindow: '[data-modal-window]', // Modal window selector
-		selectorClose: '[data-modal-close]', // Modal window close selector
-		modalActiveClass: 'active', // Class applied to active modal windows
-		modalBGClass: 'modal-bg', // Class applied to the modal background overlay
-		preventBGScroll: true, // Boolean, prevents background content from scroll if true
-		preventBGScrollHtml: false, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
-		preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
-		backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
-		stopVideo: true, // Boolean, if true, stop videos when tab closes
-		callbackOpen: function (toggle, modal) { }, // Functions to run after opening a modal
-		callbackClose: function (toggle, modal) { } // Functions to run after closing a modal
-	});
+    modals.init({
+        selectorToggle: '[data-modal]', // Modal toggle selector
+        selectorWindow: '[data-modal-window]', // Modal window selector
+        selectorClose: '[data-modal-close]', // Modal window close selector
+        modalActiveClass: 'active', // Class applied to active modal windows
+        modalBGClass: 'modal-bg', // Class applied to the modal background overlay
+        preventBGScroll: true, // Boolean, prevents background content from scroll if true
+        preventBGScrollHtml: false, // Boolean, adds overflow-y: hidden to <html> if true (preventBGScroll must also be true)
+        preventBGScrollBody: true, // Boolean, adds overflow-y: hidden to <body> if true (preventBGScroll must also be true)
+        backspaceClose: true, // Boolean, whether or not to enable backspace/delete button modal closing
+        stopVideo: true, // Boolean, if true, stop videos when tab closes
+        callbackOpen: function (toggle, modal) { }, // Functions to run after opening a modal
+        callbackClose: function (toggle, modal) { } // Functions to run after closing a modal
+    });
 </script>

@@ -1,0 +1,24 @@
+.section {
+    overflow: hidden;
+    padding: $spacing-64 $spacing-16;
+    position: relative;
+}
+
+.section--faqs {
+    overflow: unset;
+}
+
+.section__overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 1023px) {
+    .section {
+        padding: $spacing-120 $spacing-32;
+    }
+}

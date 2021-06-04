@@ -1,0 +1,16 @@
+.divider {
+    border: 0;
+    display: inline-block;
+    height: 4px;
+    margin: auto;
+    max-width: 40px;
+    width: 100%;
+   
+    &--black {
+        background-color: $black;
+    }
+
+    &--yellow {
+        background-color: $dcdw-2021-yellow;
+    }
+}
