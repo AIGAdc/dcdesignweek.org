@@ -1,0 +1,92 @@
+.button {
+    background-color: transparent;
+    border: solid 4px transparent;
+    border-radius: 0 !important;
+    display: inline-block;
+    font-family: $font-poppins;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: $spacing-8 $spacing-16;
+
+    &__solid--black {
+        background-color: $black;
+        color: $dcdw-2021-yellow;
+    }
+
+    &__border--black {
+        border-color: $black;
+        color: $black;
+    }
+
+    &__link--black {
+        color: $black;
+    }
+
+    &__solid--black:hover,
+    &__border--black:hover,
+    &__link--black:hover {
+        background-color: transparent;
+        border: solid 4px $black;
+        color: $black;
+        cursor: pointer !important;
+    }
+
+    &__solid--cinnabar {
+        background-color: $dcdw-2021-cinnabar;
+        color: $black;
+    }
+
+    &__border--cinnabar {
+        border-color: $dcdw-2021-cinnabar;
+        color: $dcdw-2021-cinnabar;
+    }
+
+    &__link--cinnabar {
+        color: $dcdw-2021-cinnabar;
+    }
+
+    &__solid--cinnabar:hover,
+    &__border--cinnabar:hover,
+    &__link--cinnabar:hover {
+        background-color: transparent;
+        border: solid 4px $dcdw-2021-cinnabar;
+        color: $dcdw-2021-cinnabar;
+        cursor: pointer !important;
+    }
+
+    &__solid--yellow {
+        background-color: $dcdw-2021-yellow;
+        color: $black;
+    }
+
+    &__border--yellow {
+        border-color: $dcdw-2021-yellow;
+        color: $black;
+    }
+
+    &__link--yellow {
+        color: $dcdw-2021-yellow;
+    }
+
+    &__solid--yellow:hover,
+    &__border--yellow:hover,
+    &__link--yellow:hover {
+        background-color: transparent;
+        border: solid 4px $dcdw-2021-yellow;
+        color: $dcdw-2021-yellow;
+        cursor: pointer !important;
+    }
+
+    &__solid--black::selection,
+    &__border--black::selection,
+    &__link--black::selection,
+    &__solid--yellow::selection,
+    &__border--yellow::selection,
+    &__link--yellow::selection,
+    &__solid--cinnabar::selection,
+    &__border--cinnabar::selection,
+    &__link--cinnabar::selection {
+        background-color: unset;
+    }
+}

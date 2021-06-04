@@ -1,0 +1,77 @@
+.committee,
+.sponsors,
+.partners,
+.events {
+    margin-top: $spacing-32;
+}
+
+.listing__sponsors,
+.listing__sponsors--presenting,
+.listing__partners,
+.listing__committee,
+.listing__events {
+    display: grid;
+    grid-gap: $spacing-32;
+    grid-template-columns: 1fr;
+    margin-bottom: $spacing-32;
+}
+
+.listing__sponsors,
+.listing__partners {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.listing__sponsors--presenting {
+    align-items: center;
+}
+
+.listing__sponsors--presenting p {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 799px) {
+    .listing__sponsors--presenting,
+    .listing__committee,
+    .events-layout .listing__events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .committee,
+    .sponsors,
+    .partners {
+        margin-top: $spacing-64;
+    }
+
+    .listing__partners {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .listing__committee,
+    .listing__events,
+    .carnegie-layout .listing-events,
+    .events-layout .listing__events {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.listing {
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1023px) {
+    .listing {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+// TODO: Refactor Code Above
+.listing {
+    display: grid;
+    grid-gap: $spacing-32;
+}
+
+.listing--past-dcdw {
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+}

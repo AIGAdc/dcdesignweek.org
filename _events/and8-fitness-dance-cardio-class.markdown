@@ -3,7 +3,7 @@ title: 'DCDW x and8 Fitness: Dance cardio class'
 date: 2020-08-22 12:07:00 -04:00
 styled-title: "<span>DCDW</span> <span>x</span> <span>and8</span> <span>Fitness:</span>
   <span>Dance</span> <span>cardio</span> <span>class</span>"
-image: "/uploads/event-and8-fitness.png"
+image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 description: 'Get your best workout in 5, 6, 7, and8! And8 Fitness is a 45-minute
   dance cardio class. '
 event-date: 2020-09-21 18:30:00 -04:00

@@ -1,89 +1,61 @@
-<section class="section section__faqs">
-	<div class="grid grid--four-columns">
-		<!-- parent grid -->
-		<div class="column column--span-3">
-			{% for content in page.introduction %}
-			{% if content.has-introduction == true %}
-			<h1 class="column--span-90"
-				id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", "-" }}">
-				{{ content.header }}
-			</h1>
-			{% endif %}
-			{% endfor %}
-		</div>
-		<div class="column column--span-1">
-			<div class="bubbles column--span-3">
-				<p>&nbsp;</p>
-			</div>
-			<div class="ornaments column--span-1">
-				<figure>
-					<svg width="40" height="40" viewBox="0 0 40 40" fill="#4ae725" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M20 0C9 0 0 4.71551 0 10.49C0 16.2645 9 21 20 21C31 21 40 16.2945 40 10.49C40 4.68554 31.06 0 20 0ZM13.26 14.9857H8.26V5.99429H13.26C16.71 5.99429 18.91 7.6627 18.91 10.48C18.91 13.2973 16.73 14.9857 13.28 14.9857H13.26ZM26.76 15.2854C23.37 15.2854 21.09 13.5271 21.09 10.5C21.09 7.47288 23.37 5.72455 26.86 5.72455C27.8122 5.67206 28.7624 5.85739 29.6249 6.2638C30.4874 6.67021 31.2349 7.2849 31.8 8.05233L29.55 9.21123C29.2598 8.7647 28.8558 8.40345 28.3795 8.16465C27.9032 7.92585 27.3718 7.81812 26.84 7.85252C24.99 7.85252 23.76 8.78164 23.76 10.5C23.76 12.2184 24.99 13.1575 26.84 13.1575C27.3819 13.199 27.9249 13.0927 28.411 12.8498C28.8971 12.607 29.3081 12.2368 29.6 11.7788L31.84 12.9377C31.2596 13.7197 30.4926 14.3442 29.6088 14.7543C28.725 15.1643 27.7525 15.3469 26.78 15.2854H26.76Z"
-							fill="#4ae725" />
-						<path
-							d="M12.99 8.08002H10.8V12.9H12.99C14.91 12.9 16.17 12.08 16.17 10.49C16.17 8.90002 14.91 8.08002 12.99 8.08002Z"
-							fill="#4ae725" />
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M39 16.8082V10H40V16.8082C40 22.4442 31.0451 27 20 27C8.95492 27 0 22.4544 0 16.8183V10H1V16.8183C1 19.0633 2.80576 21.3483 6.31145 23.1314C9.76297 24.8869 14.6011 26 20 26C25.3985 26 30.2365 24.8845 33.6881 23.1265C37.1937 21.341 39 19.0535 39 16.8082Z"
-							fill="#4ae725" />
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M39 23.4077V17H40V23.4077C40 28.7122 31.0451 33 20 33C8.95492 33 0 28.7122 0 23.4077V17H1V23.4077C1 25.4553 2.76155 27.5997 6.29036 29.2913C9.74725 30.9484 14.5932 32 20 32C25.4068 32 30.2528 30.9484 33.7096 29.2913C37.2385 27.5997 39 25.4553 39 23.4077Z"
-							fill="#4ae725" />
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M39 29.8082V23H40V29.8082C40 35.4442 31.0451 40 20 40C8.95492 40 0 35.4442 0 29.8082V23H1V29.8082C1 32.0535 2.80625 34.341 6.31195 36.1265C9.76346 37.8845 14.6015 39 20 39C25.3985 39 30.2365 37.8845 33.6881 36.1265C37.1937 34.341 39 32.0535 39 29.8082Z"
-							fill="#4ae725" />
-					</svg>
-				</figure>
-			</div>
-		</div>
-	</div>
-	<div class="grid grid--four-columns margin-top-32">
-		<ul class="grid grid--one-column column--span-3">
-			{% for faq in page.faqs %}
-			<li>
-				<h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
-					{{ faq.heading }}
-				</h2>
-				<div class="{% if faq.expanded == true %} is-expanded {% endif %} wysiwyg" data-houdini-group="faq"
-					id="{{ faq.trigger }}">
-					{{ faq.body | markdownify }}
-				</div>
-			</li>
-			{% endfor %}
-		</ul>
-		<div class="column column--span-1 sticky">
-			<div class="faq-contact">
-				<h3>General Questions</h3>
-				<ul>
-					<li>
-						<h4>Email</h4>
-						<a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
-					</li>
-				</ul>
-				<h3 class="margin-top-16">Accessibility Questions</h3>
-				<ul>
-					<li>
-						<h4>Email</h4>
-						<a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<section class="section section--faqs">
+    <div class="grid grid--four-columns">
+        <!-- parent grid -->
+        <div class="column column--span-3">
+            {% for content in page.introduction %}
+            {% if content.has-introduction == true %}
+            <h1 class="column--span-90" id="{{ content.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }}">
+                {{ content.header }}
+            </h1>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="grid grid--four-columns margin-top-32">
+        <ul class="grid grid--one-column column--span-3">
+            {% for faq in page.faqs %}
+            <li>
+                <h2 aria-label="faq" class="" data-houdini-toggle="{{ faq.trigger }}">
+                    {{ faq.heading }}
+                </h2>
+                <div class="{% if faq.expanded == true %} is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
+                    {{ faq.body | markdownify }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="column column--span-1 sticky">
+            <div class="faq-contact">
+                <h3>General Questions</h3>
+                <ul>
+                    <li>
+                        <h4>Email</h4>
+                        <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+                    </li>
+                </ul>
+                <h3 class="margin-top-16">Accessibility Questions</h3>
+                <ul>
+                    <li>
+                        <h4>Email</h4>
+                        <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
 <script src="/assets/scripts/houdini.min.js"></script>
 <script>
-	var disclosure = new Houdini('[data-houdini-group="faq"]', {
-		isAccordion: true,
-		collapseOthers: true,
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+        isAccordion: true,
+        collapseOthers: true,
 
-		// Icons
-		icon: 1, // If true, include an expand/collapse icon
-		iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
-		iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
-		iconShow: '<img src="/uploads/plus.svg" alt="">', // The icon to expand an accordion
-		iconHide: '<img src="/uploads/minus.svg" alt="">', // The icon to collapse an accordion
-	});
+        // Icons
+        icon: 1, // If true, include an expand/collapse icon
+        iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
+        iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
+        iconShow: '<img src="/uploads/plus.svg" alt="">', // The icon to expand an accordion
+        iconHide: '<img src="/uploads/minus.svg" alt="">', // The icon to collapse an accordion
+    });
 </script>

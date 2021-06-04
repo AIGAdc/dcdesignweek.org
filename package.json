@@ -1,24 +1,24 @@
 {
-	"name": "dcdesignweek.org",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"clean": "rm -rf build",
-		"profile": "bundle exec jekyll build --profile",
-		"start": "npm run clean && bundle exec jekyll serve --livereload",
-		"build": "bundle exec jekyll build"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/AIGAdc/dcdesignweek.org.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/AIGAdc/dcdesignweek.org/issues"
-	},
-	"homepage": "https://github.com/AIGAdc/dcdesignweek.org#readme",
-	"dependencies": {},
-	"devDependencies": {}
+    "name": "dcdesignweek.org",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rm -rf build",
+        "profile": "bundle exec jekyll build --profile",
+        "start": "npm run clean && bundle exec jekyll serve --livereload",
+        "build": "bundle exec jekyll build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AIGAdc/dcdesignweek.org.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AIGAdc/dcdesignweek.org/issues"
+    },
+    "homepage": "https://github.com/AIGAdc/dcdesignweek.org#readme",
+    "dependencies": {},
+    "devDependencies": {}
 }

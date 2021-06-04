@@ -1,0 +1,48 @@
+.ornament {
+    margin: 0 !important;
+    position: absolute;
+
+    &--globe {
+        top: 16px;
+        right: 0;
+        width: 96px;
+    }
+
+    &--star {
+        max-width: 120px;
+        top: -144px;
+        right: 0;
+        transform: rotate(20deg);
+        z-index: 150;
+    }
+
+    &--stars {
+        top: 20px;
+        left: 20px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .ornament {
+        &--globe {
+            top: 8px;
+            right: 88px;
+            width: 144px;
+        }
+
+        &--star {
+            max-width: 185px;
+            top: -144px;
+            right: -50px;
+            transform: rotate(20deg);
+            z-index: 150;
+        }
+
+        &--stars {
+            top: 8px;
+            left: 56px;
+            width: 184px;
+        }
+    }
+}

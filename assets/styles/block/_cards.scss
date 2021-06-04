@@ -1,0 +1,137 @@
+.card {
+    @include flex-column;
+    transition: -webkit-filter $timing-quick ease-in;
+    transition: filter $timing-quick ease-in;
+    transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
+    @include apply-grayscale;
+}
+
+.card:hover {
+    @include remove-grayscale;
+}
+
+.card a {
+    color: $black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: $dcdw-2021-cinnabar;
+}
+
+.card__image {
+    border: solid 4px $black;
+}
+
+.card__image img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.card h3 {
+    font-family: $font-poppins;
+    text-transform: uppercase;
+}
+
+.card__header {
+    background-color: $dcdw-2021-celeste;
+    border: solid 4px $black;
+    margin-top: -4px;
+    padding: $spacing-16;
+}
+
+// TODO: Refactor Everything Below
+/* ticker */
+
+.ticker {
+    overflow: hidden;
+    padding: $spacing-4;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: solid 1px $white;
+}
+
+.events-landing-layout .ticker {
+    border: none;
+    z-index: 200;
+}
+
+.ticker.ticker--occured {
+    background-color: $black;
+    color: $white;
+}
+
+.ticker.ticker--sold-out {
+    background-color: $dcdw-2021-cinnabar;
+    color: $black;
+}
+
+.ticker.ticker--featured {
+    background-color: $white;
+    color: $black;
+}
+
+.home-layout .ticker p,
+.events-layout .ticker p,
+.events-landing-layout .ticker p {
+    display: inline-block;
+    font-family: $font-poppins;
+    font-size: $font-size-14;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transform: translateX(100%);
+    width: 100%;
+}
+
+.home-layout .ticker p,
+.events-layout .ticker p {
+    -webkit-animation: ticker 10000ms ease-in infinite;
+    animation: ticker 10000ms ease-in infinite;
+}
+
+.events-landing-layout .ticker p {
+    -webkit-animation: ticker 30000ms ease-in infinite;
+    animation: ticker 30000ms ease-in infinite;
+}
+
+@media screen and (min-width: 1023px) {
+    .card--committee .card__image img {
+        max-height: 280px;
+    }
+}
+
+/* Move it (define the animation) */
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes ticker {
+    0% {
+        /* Firefox bug fix */
+        /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+
+    100% {
+        /* Firefox bug fix */
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}
+
+.past-event,
+.events-filter__date--occurred {
+    opacity: 0.5 !important;
+}

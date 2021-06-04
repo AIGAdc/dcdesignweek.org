@@ -1,0 +1,3 @@
+rules:
+  wcag21aa: true
+  best-practice: true

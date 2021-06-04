@@ -1,53 +1,40 @@
 ---
 ---
 
-// 
 @import "global/variables";
 @import "global/fonts";
 @import "global/reset";
 @import "global/reset-custom";
 
-// Compositions
-@import "1-compositions/page";
+@import "utility/colors";
+@import "utility/filters";
+@import "utility/flexbox";
+@import "utility/grid";
+@import "utility/inputs";
+@import "utility/ornament";
+@import "utility/spacing";
+@import "utility/textures";
+@import "utility/tools";
+@import "utility/typography";
 
-// Utilities
-@import "2-utilities/inputs";
-@import "2-utilities/shadows";
-@import "2-utilities/spacing";
-@import "2-utilities/tools";
-@import "2-utilities/typography";
+@import "block/buttons";
+@import "block/cards";
+@import "block/containers";
+@import "block/dividers";
+@import "block/footer";
+@import "block/header";
+@import "block/hero";
+@import "block/listing";
+@import "block/sections";
+@import "block/wysiwyg";
 
-// Blocks
+@import "composition/events";
+@import "composition/events-single";
+@import "composition/faqs";
+@import "composition/makers";
+@import "composition/maker-directory";
+@import "composition/maker-posters";
 
-// Exceptions
-
-@import "mixins/buttons";
-@import "mixins/effects";
-@import "mixins/filters";
-@import "mixins/flexbox";
-@import "mixins/grid";
-
-@import "component/bubbles";
-@import "component/buttons";
-@import "component/cards";
-@import "component/footer";
-@import "component/header";
-@import "component/hero";
-@import "component/listing";
-@import "component/ornaments";
-@import "component/typography";
-@import "component/wysiwyg";
-
-@import "pages/about";
-@import "pages/events";
-@import "pages/events-single";
-@import "pages/faqs";
-@import "pages/home";
-@import "pages/makers";
-@import "pages/maker-directory";
-@import "pages/maker-posters";
-
-// @import "vendors/flickity";
 @import "vendors/houdini";
 @import "vendors/mailchimp";
 @import "vendors/modals";

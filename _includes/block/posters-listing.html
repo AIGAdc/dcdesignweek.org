@@ -1,58 +1,57 @@
 {% for poster in site.data.maker-posters.2020-posters %}
-<section class="section section__posters border-0 spacing-top-0">
-	<div class="grid grid--three-columns">
-		<div class="column column--span-3">
-			<h3 class="artist-name">
-				{{ poster.artist-name }}
-			</h3>
-		</div>
-		<div class="column column--span-1 flow-large">
-			<figure class="poster-image">
-				<img src="{{ poster.poster-image }}" alt="">
-			</figure>
-			<p class="poster-title">
-				{{ poster.poster-title }}
-			</p>
-		</div>
-		<div class="column column--span-1">
-			<figure class="artist-portrait column--hide margin-bottom-32">
-				<img src="{{ poster.artist-portrait }}" alt="">
-			</figure>
-			<ul class="poster-links">
-				{% if poster.website-url-1 %}
-				<li>
-					<a class="poster-link" href="{{ poster.website-url-1 }}" target="blank" rel="nofollow noreferrer">
-						{{ poster.website-url-1-label }}
-					</a>
-				</li>
-				{% endif %}
-				{% if poster.website-url-2 %}
-				<li>
-					<a class="poster-link" href="{{ poster.website-url-2 }}" target="blank" rel="nofollow noreferrer">
-						{{ poster.website-url-2-label }}
-					</a>
-				</li>
-				{% endif %}
-				<li>
-					{% if poster.website-url-3 %}
-					<a class="poster-link" href="{{ poster.website-url-3 }}" target="blank" rel="nofollow noreferrer">
-						{{ poster.website-url-3-label }}
-					</a>
-				</li>
-				{% endif %}
-			</ul>
-		</div>
-		<div class="column column--span-1">
-			<div class="wysiwyg">
-				{{ poster.artist-statement | markdownify }}
-			</div>
-		</div>
-		<div class="column column--span-3">
-			<a class="button button__border button__border--white shadow-reverse shadow-reverse--green" href="{{ poster.button-url }}"
-				target="blank" rel="nofollow noreferrer">
-				Purchase "{{ poster.poster-title }}" <i class="fas fa-external-link-square-alt"></i>
-			</a>
-		</div>
-	</div>
+<section class="section section--posters border-0 spacing-top-0">
+    <div class="grid grid--three-columns">
+        <div class="column column--span-3">
+            <h3 class="artist-name">
+                {{ poster.artist-name }}
+            </h3>
+        </div>
+        <div class="column column--span-1 flow-large">
+            <figure class="poster-image">
+                <img src="{{ poster.poster-image }}" alt="">
+            </figure>
+            <p class="poster-title">
+                {{ poster.poster-title }}
+            </p>
+        </div>
+        <div class="column column--span-1">
+            <figure class="artist-portrait column--hide margin-bottom-32">
+                <img src="{{ poster.artist-portrait }}" alt="">
+            </figure>
+            <ul class="poster-links">
+                {% if poster.website-url-1 %}
+                <li>
+                    <a class="poster-link" href="{{ poster.website-url-1 }}" target="blank" rel="nofollow noreferrer">
+                        {{ poster.website-url-1-label }}
+                    </a>
+                </li>
+                {% endif %}
+                {% if poster.website-url-2 %}
+                <li>
+                    <a class="poster-link" href="{{ poster.website-url-2 }}" target="blank" rel="nofollow noreferrer">
+                        {{ poster.website-url-2-label }}
+                    </a>
+                </li>
+                {% endif %}
+                <li>
+                    {% if poster.website-url-3 %}
+                    <a class="poster-link" href="{{ poster.website-url-3 }}" target="blank" rel="nofollow noreferrer">
+                        {{ poster.website-url-3-label }}
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="column column--span-1">
+            <div class="wysiwyg">
+                {{ poster.artist-statement | markdownify }}
+            </div>
+        </div>
+        <div class="column column--span-3">
+            <a class="button button__border button__border--white " href="{{ poster.button-url }}" target="blank" rel="nofollow noreferrer">
+                Purchase "{{ poster.poster-title }}" <i class="fas fa-external-link-square-alt"></i>
+            </a>
+        </div>
+    </div>
 </section>
 {% endfor %}
