@@ -29,8 +29,7 @@ defaults:
     path: ''
     type: events-self-guided
   values:
-    header: "DC Design Week: Maker
-      Directory"
+    header: 'DC Design Week: Maker Directory'
     body: We’re all about celebrating the DMV’s creative voices — so what better way
       to do that than showcasing their work? We may not be able to do our IRL Pop-Up
       Shop this year, but we’ve got the next best thing. Check out our virtual directory
@@ -118,7 +117,7 @@ defaults:
       is-ui-ux: 
     layout: events-landing
 about-dcdw:
-  header: "About DC Design Week"
+  header: About DC Design Week
   text: |-
     Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
 
@@ -131,16 +130,16 @@ about-dcdw:
   questions-header: Questions?
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
 committee:
-  - image: ""
-    image-alt: Committee Member Image
-    name: Committee Member Name
-    role: Committee Member Role
-    website-url-1: 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Committee Member Instagram
-    website-url-2: 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Committee Member LinkedIn
+- image: ''
+  image-alt: Committee Member Image
+  name: Committee Member Name
+  role: Committee Member Role
+  website-url-1: 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Committee Member Instagram
+  website-url-2: 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Committee Member LinkedIn
 events-filter:
   day:
   - filter: ".day-1"
@@ -240,48 +239,50 @@ events-filter:
     class: featured
     text-1: Show Featured
 faqs:
-  header: "FAQ"
-  body: "We recently held an information session to answer your questions directly. Below are some of the responses from the session:"
+  header: FAQ
+  body: 'We recently held an information session to answer your questions directly.
+    Below are some of the responses from the session:'
   button-url: "/faqs/"
-  button-label: "Learn More"
+  button-label: Learn More
   questions:
   - question: Do I have to be a designer to submit an event proposal for consideration?
-    answer: "No, you don’t have to be a designer to submit an event proposal. 
-    
-    
-    If you are a floral artist, cake decorator, architect, or any kind of creative, we want to hear from you, so [submit your ideas](https://docs.google.com/forms/d/e/1FAIpQLSeAC1FU3ai5MsumhCs5cFa27g2t_ScaSyfgFmtFDcO3dF1zyg/viewform)."
+    answer: |-
+      No, you don’t have to be a designer to submit an event proposal.
+
+      If you are a floral artist, cake decorator, architect, or any kind of creative, we want to hear from you, so [submit your ideas](https://docs.google.com/forms/d/e/1FAIpQLSeAC1FU3ai5MsumhCs5cFa27g2t_ScaSyfgFmtFDcO3dF1zyg/viewform).
     trigger: question-1
     expanded: true
   - question: What are some successful event topics from the past?
-    answer: "Last year, event topics that were in line with what was going on in the world were very successful. Specifically, popular events focused on anti-racism, social justice, and accessibility.
-    
-    
-    Craft-based workshops were also wildly successful. Nonetheless, event success depends on the expertise and enthusiasm of the hosting community members and speakers."
+    answer: |-
+      Last year, event topics that were in line with what was going on in the world were very successful. Specifically, popular events focused on anti-racism, social justice, and accessibility.
+
+      Craft-based workshops were also wildly successful. Nonetheless, event success depends on the expertise and enthusiasm of the hosting community members and speakers.
     trigger: question-2
     expanded: true
-  - question: Will you offer support for logistics? For example, could you assist in finding an event location?
-    answer: "Yes. If your event is selected, you will be confirmed as an event within the DCDW 2021 calendar.
-    
-    
-    One of the many things you’ll get from us to assist with your event is a volunteer Event Lead from early summer through DCDW to support you with event planning, logistics, and marketing."
+  - question: Will you offer support for logistics? For example, could you assist
+      in finding an event location?
+    answer: |-
+      Yes. If your event is selected, you will be confirmed as an event within the DCDW 2021 calendar.
+
+      One of the many things you’ll get from us to assist with your event is a volunteer Event Lead from early summer through DCDW to support you with event planning, logistics, and marketing.
     trigger: question-3
     expanded: true
-  - question: Are there any volunteer opportunities if I don’t want to pitch an idea for an event?
-    answer: "Yes, DCDW is completely organized by volunteers, so there are small, medium, and large volunteer time commitment opportunities available if you’re looking for other ways to get involved.
-    
-    
-    Learn more about DCDW 2021, and take a look at the recording from our information session [here](https://dc.aiga.org/programs-initiatives/dc-design-week/)."
+  - question: Are there any volunteer opportunities if I don’t want to pitch an idea
+      for an event?
+    answer: |-
+      Yes, DCDW is completely organized by volunteers, so there are small, medium, and large volunteer time commitment opportunities available if you’re looking for other ways to get involved.
+
+      Learn more about DCDW 2021, and take a look at the recording from our information session [here](https://dc.aiga.org/programs-initiatives/dc-design-week/).
     trigger: question-4
     expanded: true
 makers:
-  header: "DC Design Week: Maker
-    Directory"
-  body: "We’re all about celebrating the DMV’s creative voices — so what better way
+  header: 'DC Design Week: Maker Directory'
+  body: We’re all about celebrating the DMV’s creative voices — so what better way
     to do that than showcasing their work? We may not be able to do our IRL Pop-Up
     Shop this year, but we’ve got the next best thing. Check out our virtual directory
-    for all your fall shopping needs."
+    for all your fall shopping needs.
   button-url: "/maker/directory"
-  button-label: "Explore Local Artists"
+  button-label: Explore Local Artists
 navigation-offseason:
 - url: https://2016.dcdesignweek.org
   label: 2016
@@ -313,13 +314,17 @@ navigation-production:
   label: FAQs
   aria-label: FAQs Page
 partner:
-  header: "Partner with Us"
-  body: "DC Design Week is 100% volunteer-run, in concert with a consortium of local associations, meetup groups, and small businesses. We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible. If you’re interested in partnering with DC Design Week this year, reach out to us here:"
+  header: Partner with Us
+  body: 'DC Design Week is 100% volunteer-run, in concert with a consortium of local
+    associations, meetup groups, and small businesses. We’re looking for sponsors
+    who can help ensure every event is as accessible and inclusive as possible. If
+    you’re interested in partnering with DC Design Week this year, reach out to us
+    here:'
   button-url: mailto:designweek@dc.aiga.org
-  button-label: "Become a Partner"
+  button-label: Become a Partner
 past-editions:
-  header: "Past DCDW Years"
-  body:
+  header: Past DCDW Years
+  body: 
   editions:
   - title: DCDW 2020
     image: "/uploads/past-edition-2020.jpg"
@@ -342,7 +347,7 @@ past-editions:
     url: https://2016.dcdesignweek.org
     aria-label: 2016 DC Design Week Website
 posters:
-  header: "Limited Edition Posters"
+  header: Limited Edition Posters
   body: Looking for even more amazing artwork from local artists? We’re delighted
     to also be featuring five limited-edition DCDW posters, created by five up-and-coming
     artists, and available to purchase through [Cherry Blossom Creative <i class="fas
@@ -350,67 +355,68 @@ posters:
     rel="noopener nofollow"}. See them all, learn about the artists, and get yours
     today!
   button-url: "/maker/posters"
-  button-label: "See All Posters"
+  button-label: See All Posters
 proposals:
-  header: "New This Year: Hyperlocal"
-  body: "We’re excited to announce that this year we’re shifting our focus to feature events curated and hosted by our community — so … you!
+  header: 'New This Year: Hyperlocal'
+  body: |-
+    We’re excited to announce that this year we’re shifting our focus to feature events curated and hosted by our community — so … you!
 
+    Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
 
-  Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
-
-
-  <strong>Interested in planning an event?</strong>"
+    <strong>Interested in planning an event?</strong>
   button-url: https://dc.aiga.org/programs-initiatives/dc-design-week/
-  button-label: "Submit a Proposal"
+  button-label: Submit a Proposal
 self-guided:
-  header: "Lorem Ipsum"
-  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor."
+  header: Lorem Ipsum
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
+    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
   button-url: "/events/self-guided/"
-  button-label: "See Self-Guided Events"
+  button-label: See Self-Guided Events
 sponsors:
-  header: "Sponsors and Partners"
-  tier-one-header: "Presenting sponsors"
-  tier-two-header: "Contributing Sponsors"
-  tier-three-header: "Supporting Sponsors"
-  body: "DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support."
-  image-1: ""
-  image-1-alt:
+  header: Sponsors and Partners
+  tier-one-header: Presenting sponsors
+  tier-two-header: Contributing Sponsors
+  tier-three-header: Supporting Sponsors
+  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
+    for your support.
+  image-1: ''
+  image-1-alt: 
   sponsor-tier-one:
   - title: Sponsor Title
-    image:
+    image: 
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-two:
   - title: Sponsor Title
-    image:
+    image: 
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-three:
   - title: Sponsor Title
-    image:
+    image: 
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
 subscribe:
-  header: "Subscribe for updates"
-  body: "Stay up to date on everything we have planned to celebrate the DC design community. Follow us on Instagram, Twitter, LinkedIn, and and sign up below for updates from DCDW and AIGA DC."
+  header: Subscribe for updates
+  body: Stay up to date on everything we have planned to celebrate the DC design community.
+    Follow us on Instagram, Twitter, LinkedIn, and and sign up below for updates from
+    DCDW and AIGA DC.
   image-1: "/uploads/bubble-black-large-02.png"
   image-1-alt: Floating amorphous bubbles
 volunteer:
-  header: Made with <span class="made-in-dc-heart"><svg
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M462.3 62.6C407.5
-    15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8
-    53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1
-    53-154.3-9.8-207.9z" fill="#ec1001"/></svg> in DC
+  header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
+    96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
+    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="#ec1001"/></svg>
+    in DC
   unbranded-header: Made with heart in DC
-  body: "DC Design Week runs on 100% volunteer power. We’re always working to make
-    this site better for you. If you see something, <strong>say something</strong>."
+  body: DC Design Week runs on 100% volunteer power. We’re always working to make
+    this site better for you. If you see something, <strong>say something</strong>.
   github: https://github.com/AIGAdc/dcdesignweek.org
-  image-1: ""
+  image-1: ''
   image-1-alt: 
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8

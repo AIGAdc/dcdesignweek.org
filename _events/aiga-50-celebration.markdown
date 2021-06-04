@@ -2,7 +2,7 @@
 title: AIGA 50 Celebration
 date: 2020-08-31 22:10:00 -04:00
 styled-title: "<span>AIGA</span> <span>50</span> <span>Celebration</span>"
-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 description: Join us as we unveil AIGA 50’s 2020 winners and get a rare (never done
   before!) behind-the-curtain look at AIGA 50’s judging process.
 event-date: 2020-09-25 18:30:00 -04:00

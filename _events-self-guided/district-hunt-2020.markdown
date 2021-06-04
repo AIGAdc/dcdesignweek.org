@@ -2,7 +2,7 @@
 title: District Hunt 2020 – The Mysteries of Mental Health with Game Genius
 date: 2020-08-22 14:23:00 -04:00
 styled-title: "<span>District</span><span>Hunt</span><span>2020</span>"
-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 image-alt: 
 description: An annual puzzle hunt that takes place digitally on Game Genius' website
   and through physical clues hidden around the DMV region that aims to build awareness

@@ -2,7 +2,7 @@
 title: Animation for User Experience
 date: 2020-08-25 08:38:00 -04:00
 styled-title: "<span>Animation</span><span>for</span><span>User</span><span>Experience</span>"
-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 description: Interested in the practical application of animation within interactive
   experiences? Experts Kristen O’Callaghan and Dave Ellington will give a hands-on,
   1.5 hour workshop on the theory and application of animation within product/UX design.

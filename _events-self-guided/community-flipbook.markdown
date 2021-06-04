@@ -2,7 +2,7 @@
 title: Community Flipbook
 date: 2020-08-22 14:23:00 -04:00
 styled-title: "<span>Community</span><span>Flipbook</span>"
-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 image-alt: 
 description: Show us the face of DCDW by creating your own self-portrait — we’ll put
   them all together in an endless loop showcasing the creativity and diversity of
