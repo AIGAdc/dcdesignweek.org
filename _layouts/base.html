@@ -39,9 +39,9 @@
 
     <body>
         <main class="{{ page.layout }}-layout" id="my-content-container">
-            {%- include block/site-header.html -%}
+            {%- include site-header.html -%}
             {{ content | safe }}
-            {%- include block/site-footer.html -%}
+            {%- include site-footer.html -%}
         </main>
         {% include third-party/offside/menu.html %}
     </body>

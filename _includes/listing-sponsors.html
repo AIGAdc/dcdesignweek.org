@@ -1,0 +1,66 @@
+{% if page.url == "/" or "/about/" %}
+
+<section id="sponsors" class="section section--sponsors background-dcdw-2021-celeste color-black">
+
+    {% comment %} tier 1 {% endcomment %}
+    <div>
+        <h2 id="Replace with Variable">
+            {{ site.sponsors.header }}
+        </h2>
+        <div class="wysiwyg">
+            {{ site.sponsors.body | markdownify }}
+        </div>
+        <ul class="gap-top-400">
+            {% assign sorted = site.sponsors.sponsor-tier-one | sort: 'aria-label' %}
+            {% for content in sorted %}
+            {% include partials/card-sponsors.html %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% comment %} tier 2 {% endcomment %}
+    <div class="gap-top-400">
+        <h2 id="Replace with Variable">
+            {{ site.sponsors.tier-two-header }}
+        </h2>
+        <div class="wysiwyg">
+            {{ site.sponsors.body | markdownify }}
+        </div>
+        <ul class="gap-top-400">
+            {% assign sorted = site.sponsors.sponsor-tier-two | sort: 'aria-label' %}
+            {% for content in sorted %}
+            {% include partials/card-sponsors.html %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if page.url == "/about/" %}
+
+    {% comment %} tier 3 {% endcomment %}
+    <div>
+        <h2 id="Replace with Variable">
+            {{ site.sponsors.tier-three-header }}
+        </h2>
+        <div class="wysiwyg">
+            {{ site.sponsors.body | markdownify }}
+        </div>
+        <ul class="gap-top-400">
+            {% assign sorted = site.sponsors.sponsor-tier-three | sort: 'aria-label' %}
+            {% for content in sorted %}
+            {% include partials/card-sponsors.html %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if page.url == "/" %}
+    <div class="grid grid--four-columns margin-top-60">
+        <a class="button button__solid--cinnabar " href="{{ page.sponsors-button-url }}">
+            {{ page.sponsors-button-label}}
+        </a>
+    </div>
+    {% endif %}
+
+</section>
+
+{% endif %}

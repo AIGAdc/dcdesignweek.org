@@ -12,22 +12,22 @@ $gorko-base-size: 1.25rem;
 /// your whole project.
 ///
 $gorko-size-scale: (
-    "000": 0.25rem, // 4px
-    "100": 0.5rem, // 8px
-    "200": 1rem, // 16px
-    "300": 1.5rem, // 24px
-    "400": 2rem, // 32px
-    "500": 2.5rem, // 40px
-    "600": 3rem, // 48px
-    "700": 3.5rem, // 56px
-    "800": 4rem, // 64px
-    "900": 4.5rem, // 72px
-    "1000": 5rem, // 80px
-    "1100": 5.5rem, // 88px
-    "1200": 6rem, // 96px
-    "1300": 6.5rem, // 104px
-    "1400": 7rem, // 112px
-    "1500": 7.5rem // 120px
+    "000": 0.25rem !important, // 4px
+    "100": 0.5rem !important, // 8px
+    "200": 1rem !important, // 16px
+    "300": 1.5rem !important, // 24px
+    "400": 2rem !important, // 32px
+    "500": 2.5rem !important, // 40px
+    "600": 3rem !important, // 48px
+    "700": 3.5rem !important, // 56px
+    "800": 4rem !important, // 64px
+    "900": 4.5rem !important, // 72px
+    "1000": 5rem !important, // 80px
+    "1100": 5.5rem !important, // 88px
+    "1200": 6rem !important, // 96px
+    "1300": 6.5rem !important, // 104px
+    "1400": 7rem !important, // 112px
+    "1500": 7.5rem !important, // 120px
 );
 
 /// COLORS
@@ -35,17 +35,17 @@ $gorko-size-scale: (
 /// You can also use them to power borders, fills or shadows, for example.
 ///
 $gorko-colors: (
-    "white": #ffffff,
-    "black": #000000,
-    "green": #4ae725,
-    "dcdw-2016": #0000ff,
-    "dcdw-2017": #3e07d0,
-    "dcdw-2018": #297b76,
-    "dcdw-2019": #fb7eb8,
-    "dcdw-2020": #4ae725,
-    "dcdw-2021-yellow": #ffff00,
-    "dcdw-2021-cinnabar": #ec1001,
-    "dcdw-2021-celeste": #ecece5,
+    "white": #ffffff !important,
+    "black": #000000 !important,
+    "green": #4ae725 !important,
+    "dcdw-2016": #0000ff !important,
+    "dcdw-2017": #3e07d0 !important,
+    "dcdw-2018": #297b76 !important,
+    "dcdw-2019": #fb7eb8 !important,
+    "dcdw-2020": #4ae725 !important,
+    "dcdw-2021-yellow": #ffff00 !important,
+    "dcdw-2021-cinnabar": #ec1001 !important,
+    "dcdw-2021-celeste": #ecece5 !important,
 );
 
 /// CORE CONFIG

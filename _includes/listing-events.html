@@ -1,0 +1,41 @@
+<section id="events" class="section section--events background-dcdw-2021-celeste color-black">
+    <div>
+        <h2 class="" id="Replace with Variable">
+            Events Heading Level 2
+        </h2>
+        <div class="wysiwyg">
+            Events Body Text
+        </div>
+    </div>
+
+    {% comment %} Show Event Filter on Events Page Only {% endcomment %}
+    {% if page.url == "/events/" %}
+    <div class="column column--span-4">
+        {% include block/events-filter.html %}
+    </div>
+    {% endif %}
+
+    <div class="gap-top-400">
+        <ul class="mixitup-container">
+            {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
+            {% for event in sorted %}
+            {% if page.url == "/" %}
+            {% if event.status.is-featured-on-home == true %}
+            {% include block/partials/events-card.html %}
+            {% endif %}
+            {% endif %}
+            {% if page.url == "/events/" %}
+            {% include block/partials/events-card.html %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% comment %} Show Event CTA Button on Homepage Only {% endcomment %}
+    {% if page.url == "/" %}
+    <div class="column column--span-4 text-center">
+        <a class="button button__solid--cinnabar " href="{{ page.event-button-url }}">
+            {{ page.event-button-label}}
+        </a>
+    </div>
+    {% endif %}
+</section>
