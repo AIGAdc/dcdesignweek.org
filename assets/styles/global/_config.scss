@@ -1,0 +1,169 @@
+/// BASE SIZE
+/// All calculations are based on this. It’s recommended that
+/// you keep it at 1rem because that is the root font size. You
+/// can set it to whatever you like and whatever unit you like.
+///
+$gorko-base-size: 1.25rem;
+
+/// SIZE SCALE
+/// This is a Major Third scale that powers all the utilities that
+/// it is relevant for (font-size, margin, padding). All items are
+/// calcuated off the base size, so change that and cascade across
+/// your whole project.
+///
+$gorko-size-scale: (
+    "000": 0.25rem, // 4px
+    "100": 0.5rem, // 8px
+    "200": 1rem, // 16px
+    "300": 1.5rem, // 24px
+    "400": 2rem, // 32px
+    "500": 2.5rem, // 40px
+    "600": 3rem, // 48px
+    "700": 3.5rem, // 56px
+    "800": 4rem, // 64px
+    "900": 4.5rem, // 72px
+    "1000": 5rem, // 80px
+    "1100": 5.5rem, // 88px
+    "1200": 6rem, // 96px
+    "1300": 6.5rem, // 104px
+    "1400": 7rem, // 112px
+    "1500": 7.5rem // 120px
+);
+
+/// COLORS
+/// Colors are shared between backgrounds and text by default.
+/// You can also use them to power borders, fills or shadows, for example.
+///
+$gorko-colors: (
+    "white": #ffffff,
+    "black": #000000,
+    "green": #4ae725,
+    "dcdw-2016": #0000ff,
+    "dcdw-2017": #3e07d0,
+    "dcdw-2018": #297b76,
+    "dcdw-2019": #fb7eb8,
+    "dcdw-2020": #4ae725,
+    "dcdw-2021-yellow": #ffff00,
+    "dcdw-2021-cinnabar": #ec1001,
+    "dcdw-2021-celeste": #ecece5,
+);
+
+/// CORE CONFIG
+/// This powers everything from utility class generation to breakpoints
+/// to enabling/disabling pre-built components/utilities.
+///
+$gorko-config: (
+    "background": (
+        "items": $gorko-colors,
+        "output": "standard",
+        "property": "background-color",
+    ),
+    "color": (
+        "items": $gorko-colors,
+        "output": "standard",
+        "property": "color",
+    ),
+    "box": (
+        "items": (
+            "block": "block",
+            "flex": "flex",
+            "grid": "grid",
+            "hide": "none",
+            "show": "inherit",
+        ),
+        "output": "responsive",
+        "property": "display",
+    ),
+    "font": (
+        "items": (
+            "base": "Helvetica, Arial, sans-serif",
+        ),
+        "output": "standard",
+        "property": "font-family",
+    ),
+    "gap-top": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "margin-top",
+    ),
+    "gap-right": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "margin-right",
+    ),
+    "gap-bottom": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "margin-bottom",
+    ),
+    "gap-left": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "margin-left",
+    ),
+    "pad-top": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "padding-top",
+    ),
+    "pad-right": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "padding-right",
+    ),
+    "pad-bottom": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "padding-bottom",
+    ),
+    "pad-left": (
+        "items": $gorko-size-scale,
+        "output": "standard",
+        "property": "padding-left",
+    ),
+    "layer": (
+        "items": (
+            "100": 100,
+            "200": 200,
+            "300": 300,
+            "400": 400,
+            "500": 500,
+            "600": 600,
+            "700": 700,
+            "800": 800,
+            "900": 900,
+            "1000": 1000,
+        ),
+        "output": "standard",
+        "property": "z-index",
+    ),
+    "text": (
+        "items": $gorko-size-scale,
+        "output": "responsive",
+        "property": "font-size",
+    ),
+    "weight": (
+        "items": (
+            "light": "300",
+            "regular": "400",
+            "bold": "700",
+        ),
+        "output": "standard",
+        "property": "font-weight",
+    ),
+    "width": (
+        "items": (
+            "full": "100%",
+            "half": percentage(1/2),
+            "quarter": percentage(1/4),
+            "third": percentage(1/3),
+        ),
+        "output": "responsive",
+        "property": "width",
+    ),
+    "breakpoints": (
+        "sm": "(min-width: 36em)",
+        "md": "(min-width: 48em)",
+        "lg": "(min-width: 62em)",
+    ),
+);

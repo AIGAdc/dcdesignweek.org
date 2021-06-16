@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
 
 /* SECTION - animations */
 $timing-slow: 300ms;
@@ -17,7 +16,7 @@ $dcdw-2019: #fb7eb8;
 $dcdw-2020: #4ae725;
 $dcdw-2021-yellow: #ffff00;
 $dcdw-2021-cinnabar: #ec1001;
-$dcdw-2021-celeste: #ECECE5;
+$dcdw-2021-celeste: #ecece5;
 
 /* SECTION - depth */
 $index-1: 100;
@@ -27,31 +26,30 @@ $index-4: 400;
 $index-5: 500;
 
 /* SECTION - spacing */
-$spacing-4: 4px;
-$spacing-8: 8px;
-$spacing-16: 16px;
-$spacing-24: 24px;
-$spacing-32: 32px;
-$spacing-48: 48px;
-$spacing-56: 56px;
-$spacing-56: 56px;
-$spacing-64: 64px;
-$spacing-72: 72px;
-$spacing-80: 80px;
-$spacing-88: 88px;
-$spacing-96: 96px;
-$spacing-120: 120px;
+$spacing-4: 0.25rem; // 4px
+$spacing-8: 0.5rem; // 8px
+$spacing-16: 1rem; // 16px
+$spacing-20: 1.25rem; // 20px
+$spacing-24: 1.5rem; // 24px
+$spacing-32: 2rem; // 32px
+$spacing-40: 2.5rem; // 40px
+$spacing-48: 3rem; // 48px
+$spacing-56: 3.5rem; // 56px
+$spacing-64: 4rem; // 64px
+$spacing-72: 4.5rem; // 72px
+$spacing-80: 5rem; // 80px
+$spacing-88: 5.5rem; // 88px
+$spacing-96: 6rem; // 96px
+$spacing-104: 6.5rem; // 104px
+$spacing-112: 7rem; // 112px
+$spacing-120: 7.5rem; // 120px
 
 /* SECTION - typography */
-$font-bayard: 'Bayard Regular', sans-serif;
+$font-bayard: "Bayard Regular", sans-serif;
 $font-poppins: "Poppins", sans-serif;
-$font-londrina-shadow: 'Londrina Shadow', cursive;
-$font-londrina-solid: 'Londrina Solid', cursive;
-$font-size-10: 0.625rem; // 10px
-$font-size-12: 0.75rem; // 12px
-$font-size-14: 0.875rem; // 14px
+
+$font-size-8: 0.5rem; // 8px
 $font-size-16: 1rem; // 16px
-$font-size-18: 1.125rem; // 18px
 $font-size-20: 1.25rem; // 20px
 $font-size-24: 1.5rem; // 24px
 $font-size-32: 2rem; // 32px
@@ -59,3 +57,10 @@ $font-size-40: 2.5rem; // 40px
 $font-size-48: 3rem; // 48px
 $font-size-56: 3.5rem; // 56px
 $font-size-64: 4rem; // 64px
+$font-size-72: 4.5rem; // 72px
+$font-size-80: 5rem; // 80px
+$font-size-88: 5.5rem; // 88px
+$font-size-96: 6rem; // 96px
+$font-size-104: 6.5rem; // 104px
+$font-size-112: 7rem; // 112px
+$font-size-160: 7.5rem; // 120px

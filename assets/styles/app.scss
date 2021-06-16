@@ -1,18 +1,18 @@
 ---
 ---
 
+@import 'global/config';
+@import 'node_modules/gorko/gorko.scss';
+
 @import "global/variables";
 @import "global/fonts";
 @import "global/reset";
 @import "global/reset-custom";
 
-@import "utility/colors";
 @import "utility/filters";
 @import "utility/flexbox";
-@import "utility/grid";
 @import "utility/inputs";
 @import "utility/ornament";
-@import "utility/spacing";
 @import "utility/textures";
 @import "utility/tools";
 @import "utility/typography";

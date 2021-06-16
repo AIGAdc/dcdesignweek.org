@@ -1,39 +1,37 @@
-<section class="section section--faqs background-color-black text-color-celeste">
-  <div class="container container--default">
-    <h2>
-      {{ site.faqs.header }}
-    </h2>
-    <hr class="divider divider--yellow">
-    <div class="wysiwyg">
-      {{ site.faqs.body | markdownify }}
+<section class="[ section section--faqs ] [ background-color-black color-dcdw-2021-celeste ]">
+    <div class="container container--default">
+        <h2>
+            {{ site.faqs.header }}
+        </h2>
+        <hr class="divider divider--yellow">
+        <div class="wysiwyg">
+            {{ site.faqs.body | markdownify }}
+        </div>
+        <ul class="grid grid--one-column column--span-3">
+            {% for faq in site.faqs.questions %}
+            <li>
+                <h3 aria-label="faq" class="faq-question" data-houdini-toggle="{{ faq.trigger }}">
+                    {{ faq.question }}
+                </h3>
+                <div class="{% if faq.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
+                    {{ faq.answer | markdownify }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <img class="ornament ornament--star" src="/uploads/ornament-star-yellow.svg" alt="Decorative image of yellow star that contains the DCDW logo." />
     </div>
-    <ul class="grid grid--one-column column--span-3">
-        {% for faq in site.faqs.questions %}
-        <li>
-          <h3 aria-label="faq" class="faq-question" data-houdini-toggle="{{ faq.trigger }}">
-            {{ faq.question }}
-          </h3>
-          <div class="{% if faq.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
-            {{ faq.answer | markdownify }}
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
-      <img class="ornament ornament--star" src="/uploads/ornament-star-yellow.svg" alt="Decorative image of yellow star that contains the DCDW logo."/>
-  </div>
 </section>
 
 <script src="/assets/scripts/houdini.min.js"></script>
 <script>
-  var disclosure = new Houdini('[data-houdini-group="faq"]', {
-    isAccordion: true,
-    collapseOthers: false,
-
-    // Icons
-    icon: 1, // If true, include an expand/collapse icon
-    iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
-    iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
-    iconShow: '<i class="fas fa-chevron-right"></i>', // The icon to expand an accordion
-    iconHide: '<i class="fas fa-chevron-down"></i>', // The icon to collapse an accordion
-  });
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+        isAccordion: true,
+        collapseOthers: false,
+        icon: 1, // If true, include an expand/collapse icon
+        iconClass: 'houdini-toggle-icon', // The class to use for the expand/collapse icon
+        iconAttribute: 'data-houdini-icon', // The data attribute to use for the expand/collapse icon
+        iconShow: '<i class="fas fa-chevron-right"></i>', // The icon to expand an accordion
+        iconHide: '<i class="fas fa-chevron-down"></i>', // The icon to collapse an accordion
+    });
 </script>

@@ -1,63 +1,3 @@
-body {
-    background-color: $black;
-    color: $black;
-    font-family: $font-poppins;
-    font-size: $font-size-16;
-    line-height: 1.5;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-small {
-    display: block;
-    line-height: initial;
-    text-rendering: optimizeLegibility;
-}
-
-@mixin anchor {
-    color: $dcdw-2021-cinnabar;
-    cursor: pointer;
-    text-decoration: underline;
-    transition: opacity $timing-default ease-in;
-}
-
-@mixin state-active {
-    outline: 4px dashed $dcdw-2021-cinnabar !important;
-    outline-offset: 1px !important;
-}
-
-@mixin state-focus {
-    outline: 4px dashed $dcdw-2021-cinnabar !important;
-    outline-offset: 1px !important;
-}
-
-a {
-    @include anchor;
-}
-
-a:active {
-    @include state-active;
-}
-
-a:focus,
-*:focus {
-    @include state-focus;
-}
-
-::selection {
-    background-color: $dcdw-2021-cinnabar;
-    color: $black;
-}
-
 /* The emerging W3C standard that is currently Firefox-only */
 * {
     scrollbar-width: auto;
@@ -77,13 +17,60 @@ a:focus,
     background-color: $dcdw-2021-yellow;
 }
 
-@media screen and (min-width: 639px) {
-    .wrapper {
-        padding: $spacing-16;
+::selection {
+    background-color: $dcdw-2021-cinnabar;
+    color: $black;
+}
+
+a {
+    color: $dcdw-2021-cinnabar;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: opacity $timing-default ease-in;
+}
+
+a:active {
+    outline: 4px dashed $dcdw-2021-cinnabar !important;
+    outline-offset: 1px !important;
+}
+
+*:focus,
+a:focus {
+    outline: 4px dashed $dcdw-2021-cinnabar !important;
+    outline-offset: 1px !important;
+}
+
+body {
+    background-color: $black;
+    color: $black;
+    font-family: $font-poppins;
+    font-size: $font-size-16;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    display: block;
+    line-height: initial;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1023px) {
+    body {
+        font-size: $font-size-20;
+        line-height: 32px;
     }
 }
 
-// Page Specific
 .section--volunteers svg {
     max-width: 32px;
     margin: 0 8px;
@@ -284,11 +271,4 @@ a:focus,
 
 .align-items-center {
     align-items: center;
-}
-
-@media screen and (min-width: 1023px) {
-    body {
-        font-size: $font-size-20;
-        line-height: 1.8;
-    }
 }

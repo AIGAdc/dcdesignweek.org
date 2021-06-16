@@ -19,6 +19,7 @@
         "url": "https://github.com/AIGAdc/dcdesignweek.org/issues"
     },
     "homepage": "https://github.com/AIGAdc/dcdesignweek.org#readme",
-    "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "gorko": "^0.4.1"
+    }
 }
