@@ -363,9 +363,35 @@ proposals:
 
     Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
 
-    <strong>Interested in planning an event?</strong>
-  button-url: https://dc.aiga.org/programs-initiatives/dc-design-week/
-  button-label: Submit a Proposal
+    <strong>The event proposal window is closed. Please stay tuned for this year's calendar of events. If you are interested in volunteering, let us know <a href="https://docs.google.com/forms/d/e/1FAIpQLScgPaJeTiKd_CezxfQw2JaIGeQYSqJffbBipjZKXmotXLm28w/viewform">through this form</a>!</strong>
+
+    <hr class="divider divider--black">
+    
+    <strong>I submitted an event proposal. What happens next?</strong>
+
+    <strong>If your event is selected</strong>, it will be confirmed as an event within the DC Design Week 2021 calendar. <strong>Yahoo!</strong> 🎉
+
+    <strong>We may work with you to refine some big picture event details</strong>, such as the overall goals for the event, your intended audiences, etc. We may also work with you to understand more of what you need from us in order to meet our mutual goals in planning and executing a fabulous event.
+
+    <strong>What you get from us:</strong>
+
+    - Your event will be included as part of the official DC Design Week 2021 line up and you (or your organization) will be listed as a partner. We will promote your event as a part of DCDW across our communication channels, which may include: shoutouts on our social media channels, promotion on our website, listed on our events calendar and other promotions scheduled for the week.
+    - A toolkit of event planning and marketing resources to support you with putting on an impactful event.
+    - A DCDW Event Lead (volunteer) to support you from early summer until DCDW with event planning, logistics, and marketing. 
+      - While our volunteers will offer support, you will be responsible for planning and execution, and we expect you to meet us halfway in marketing your event through your own communications channels. Your DCDW Event Lead can work with you on what is the most effective way to do this.
+    - Event registration administration (via Eventbrite)
+    - Event accessibility support in compliance with ADA guidelines (e.g., closed captioning, verbit)
+    - Event technical support (e.g., access to Zoom, volunteers to help staff the virtual events, etc.)
+    - Access to additional volunteer support (week-of or day-of the event) as-needed
+
+    <strong>What we get from you:</strong>
+
+    - Commitment to hosting the event during DC Design Week 2021. We understand that life happens, but if you’re submitting an event proposal, it means you’re committed to making this event happen against most odds. 
+    - Agreement to follow the Terms & Conditions of proposing and holding an event for DC Design Week 2021.
+    - Commitment to our code of conduct.
+    - Commitment to your event idea. We know that ideas and plans can change, but DCDW selects its events with the entire week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to evolve in a constructive way.
+  button-url:
+  button-label:
 self-guided:
   header: Lorem Ipsum
   body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id

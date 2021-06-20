@@ -7,8 +7,10 @@
     <div class="wysiwyg">
       {{ site.proposals.body | markdownify }}
     </div>
+    {% if site.proposals.button-label %}
     <a class="button button__solid--cinnabar" href="{{ site.proposals.button-url }}" rel="noopener nofollow" target="_blank">
       {{ site.proposals.button-label }}
     </a>
+    {% endif %}
   </div>
 </section>
