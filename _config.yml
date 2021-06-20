@@ -364,11 +364,11 @@ proposals:
     Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
 
     <strong>The event proposal window is closed. Please stay tuned for this year's calendar of events. If you are interested in volunteering, let us know <a href="https://docs.google.com/forms/d/e/1FAIpQLScgPaJeTiKd_CezxfQw2JaIGeQYSqJffbBipjZKXmotXLm28w/viewform">through this form</a>!</strong>
-
-    <hr class="divider divider--black">
-    
-    <strong>I submitted an event proposal. What happens next?</strong>
-
+  button-url:
+  button-label:
+proposals2:
+  header: I submitted an event proposal. What happens next?
+  body: |-
     <strong>If your event is selected</strong>, it will be confirmed as an event within the DC Design Week 2021 calendar. <strong>Yahoo!</strong> 🎉
 
     <strong>We may work with you to refine some big picture event details</strong>, such as the overall goals for the event, your intended audiences, etc. We may also work with you to understand more of what you need from us in order to meet our mutual goals in planning and executing a fabulous event.
@@ -390,8 +390,6 @@ proposals:
     - Agreement to follow the [Terms & Conditions](https://dc.aiga.org/programs-initiatives/dc-design-week/event-partner-terms-conditions/) of proposing and holding an event for DC Design Week 2021.
     - Commitment to our [code of conduct](https://dc.aiga.org/events/code-of-conduct/#:~:text=AIGA%20DC%20is%20dedicated%20to,%2C%20religion%2C%20or%20political%20affiliation.).
     - Commitment to your event idea. We know that ideas and plans can change, but DCDW selects its events with the entire week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to evolve in a constructive way.
-  button-url:
-  button-label:
 self-guided:
   header: Lorem Ipsum
   body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id

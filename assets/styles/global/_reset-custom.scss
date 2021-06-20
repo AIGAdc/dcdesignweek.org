@@ -292,3 +292,37 @@ a:focus,
         line-height: 1.8;
     }
 }
+
+.section--introduction {
+    overflow: unset !important;
+}
+.section--proposals {
+    padding-top: 144px !important;
+}
+
+@media screen and (min-width: 640px) {
+    .section--proposals {
+        padding-top: 200px !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .section--proposals {
+        padding-top: 240px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section--proposals {
+        padding-top: 340px !important;
+    }
+}
+
+.spray {
+    position: absolute;
+    top: -16px;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    width: 100%;
+}

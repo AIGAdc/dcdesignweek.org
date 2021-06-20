@@ -1,16 +1,17 @@
 <section class="section section--proposals background-color-celeste text-color-black texture texture--paper">
-  <div class="container container--default">
-    <h2>
-      {{ site.proposals.header }}
-    </h2>
-    <hr class="divider divider--black">
-    <div class="wysiwyg">
-      {{ site.proposals.body | markdownify }}
+    <img class="spray" src="/uploads/spray_paint.svg" alt="">
+    <div class="container container--default">
+        <h2>
+            {{ site.proposals.header }}
+        </h2>
+        <hr class="divider divider--black">
+        <div class="wysiwyg">
+            {{ site.proposals.body | markdownify }}
+        </div>
+        {% if site.proposals.button-label %}
+        <a class="button button__solid--cinnabar" href="{{ site.proposals.button-url }}" rel="noopener nofollow" target="_blank">
+            {{ site.proposals.button-label }}
+        </a>
+        {% endif %}
     </div>
-    {% if site.proposals.button-label %}
-    <a class="button button__solid--cinnabar" href="{{ site.proposals.button-url }}" rel="noopener nofollow" target="_blank">
-      {{ site.proposals.button-label }}
-    </a>
-    {% endif %}
-  </div>
 </section>
