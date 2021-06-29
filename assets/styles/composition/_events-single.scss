@@ -96,7 +96,7 @@ ol {
     color: $black;
 }
 
-.events-landing-layout .section--landing-hero {
+.events-landing-layout .section-landing-hero {
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
@@ -133,13 +133,13 @@ ol {
     background-color: $black;
 }
 
-.events-landing-layout .section--landing-hero {
+.events-landing-layout .section-landing-hero {
     color: $white;
     position: relative;
     overflow: hidden;
 }
 
-.events-landing-layout .section--landing-hero figure img {
+.events-landing-layout .section-landing-hero figure img {
     position: absolute;
     top: 0;
     right: 0;
@@ -153,15 +153,15 @@ ol {
 
 
 
-.events-landing-layout .section--landing-hero h1 span:nth-child(2n+1),
-.events-landing-layout .section--landing-hero h1 span:nth-child(2n),
-.events-landing-layout .section--landing-hero h2 span:nth-child(2n+1),
-.events-landing-layout .section--landing-hero h2 span:nth-child(2n) {
+.events-landing-layout .section-landing-hero h1 span:nth-child(2n+1),
+.events-landing-layout .section-landing-hero h1 span:nth-child(2n),
+.events-landing-layout .section-landing-hero h2 span:nth-child(2n+1),
+.events-landing-layout .section-landing-hero h2 span:nth-child(2n) {
     color: $white;
 }
 
-.events-landing-layout .section--landing-hero h1 span::after,
-.events-landing-layout .section--landing-hero h2 span::after {
+.events-landing-layout .section-landing-hero h1 span::after,
+.events-landing-layout .section-landing-hero h2 span::after {
     background-color: $white;
 }
 
@@ -207,7 +207,7 @@ ol {
 }
 
 @media screen and (min-width: 1023px) {
-    .events-landing-layout .section--landing-hero {
+    .events-landing-layout .section-landing-hero {
         background-size: contain;
     }
 

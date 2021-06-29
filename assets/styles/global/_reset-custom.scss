@@ -41,10 +41,11 @@ a:focus {
 }
 
 body {
-    background-color: $black;
+    background-color: $dcdw-2021-celeste;
     color: $black;
     font-family: $font-poppins;
     font-size: $font-size-16;
+    border: solid 16px $dcdw-2021-celeste;
 }
 
 h1,
@@ -71,7 +72,7 @@ ul {
     }
 }
 
-.section--volunteers svg {
+.section-volunteers svg {
     max-width: 32px;
     margin: 0 8px;
 }
@@ -108,7 +109,7 @@ ul {
 .grid--one-columns,
 .grid--two-columns,
 .grid--three-columns,
-.section--posters .grid--three-columns,
+.section-posters .grid--three-columns,
 .grid--four-columns,
 .grid--five-columns,
 .grid--six-columns {
@@ -184,7 +185,7 @@ ul {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .section--posters .grid--three-columns {
+    .section-posters .grid--three-columns {
         grid-template-columns: 1fr 0.5fr 1fr;
     }
 
@@ -271,4 +272,9 @@ ul {
 
 .align-items-center {
     align-items: center;
+}
+
+
+.rotate-180 {
+    transform: rotate(180deg);
 }

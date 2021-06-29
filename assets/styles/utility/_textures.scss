@@ -4,15 +4,90 @@
     background-size: cover;
 
     &--grit {
-        background-image: url('/uploads/texture-grit.png');
+        background-image: url("/uploads/texture-grit.png");
         z-index: 100;
     }
-    
+
     &--paper {
-        background-image: url('/uploads/texture-paper.png');
+        background-image: url("/uploads/texture-paper.png");
     }
 
     &--wheatpaste {
-        background-image: url('/uploads/texture-wheatpaste.png');
+        background-image: url("/uploads/texture-wheatpaste.png");
+    }
+}
+
+.ripped-paper {
+    position: absolute;
+}
+
+.ripped-paper-8-A {
+    width: 100%;
+    min-height: 40px;
+    top: -40px;
+    max-width: 1366px;
+    left: 0;
+    right: 0;
+}
+.ripped-paper-8-B.rotate-180 {
+    width: 100%;
+    min-height: 40px;
+    bottom: -40px;
+    max-width: 1366px;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 640px) {
+    .ripped-paper-8-A {
+        top: -40px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ripped-paper-8-A {
+        top: -56px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -56px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .ripped-paper-8-A {
+        top: -72px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -72px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ripped-paper-8-A {
+        top: -88px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -88px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .ripped-paper-8-A {
+        top: -112px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -112px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .ripped-paper-8-A {
+        top: -128px;
+    }
+    .ripped-paper-8-B.rotate-180 {
+        bottom: -128px;
     }
 }
