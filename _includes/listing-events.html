@@ -1,8 +1,9 @@
-<section id="events" class="section section--events background-dcdw-2021-celeste color-black">
+<section id="events" class="section section--events background-dcdw-2021-black color-dcdw-2021-celeste">
     <div>
         <h2 class="" id="Replace with Variable">
             Events Heading Level 2
         </h2>
+        <hr class="divider divider--cinnabar">
         <div class="wysiwyg">
             Events Body Text
         </div>
@@ -11,7 +12,7 @@
     {% comment %} Show Event Filter on Events Page Only {% endcomment %}
     {% if page.url == "/events/" %}
     <div class="column column--span-4">
-        {% include block/events-filter.html %}
+        {% include events-filter.html %}
     </div>
     {% endif %}
 
@@ -21,19 +22,22 @@
             {% for event in sorted %}
             {% if page.url == "/" %}
             {% if event.status.is-featured-on-home == true %}
-            {% include block/partials/events-card.html %}
+            {% include partials/events-card.html %}
+            {% else %}
+            {% include partials/events-card.html %}
             {% endif %}
             {% endif %}
             {% if page.url == "/events/" %}
-            {% include block/partials/events-card.html %}
+            {% include partials/events-card.html %}
             {% endif %}
             {% endfor %}
         </ul>
     </div>
+
     {% comment %} Show Event CTA Button on Homepage Only {% endcomment %}
     {% if page.url == "/" %}
     <div class="column column--span-4 text-center">
-        <a class="button button__solid--cinnabar " href="{{ page.event-button-url }}">
+        <a class="button button__solid--yellow" href="{{ page.event-button-url }}">
             {{ page.event-button-label}}
         </a>
     </div>
