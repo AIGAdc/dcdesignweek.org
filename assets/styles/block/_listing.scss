@@ -2,7 +2,7 @@
 .sponsors,
 .partners,
 .events {
-    margin-top: $spacing-32;
+    margin-top: var(--spacing-32);
 }
 
 .listing__sponsors,
@@ -11,9 +11,9 @@
 .listing__committee,
 .listing__events {
     display: grid;
-    grid-gap: $spacing-32;
+    grid-gap: var(--spacing-32);
     grid-template-columns: 1fr;
-    margin-bottom: $spacing-32;
+    margin-bottom: var(--spacing-32);
 }
 
 .listing__sponsors,
@@ -37,11 +37,11 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .committee,
     .sponsors,
     .partners {
-        margin-top: $spacing-64;
+        margin-top: var(--spacing-64);
     }
 
     .listing__partners {
@@ -60,7 +60,7 @@
     grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .listing {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -69,7 +69,7 @@
 // TODO: Refactor Code Above
 .listing {
     display: grid;
-    grid-gap: $spacing-32;
+    grid-gap: var(--spacing-32);
 }
 
 .listing--past-dcdw {

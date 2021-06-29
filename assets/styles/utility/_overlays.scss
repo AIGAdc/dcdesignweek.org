@@ -1,0 +1,28 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.overlay-black {
+    background-color: var(--black);
+}
+
+.overlay-celeste {
+    background-color: var(--dcdw-2021-celeste);
+}
+
+.overlay-cinnabar {
+    background-color: var(--dcdw-2021-cinnabar);
+}
+
+.overlay-yellow {
+    background-color: var(--dcdw-2021-yellow);
+}
+
+.overlay-purple {
+    background-color: var(--dcdw-2021-purple);
+}

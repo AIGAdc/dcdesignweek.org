@@ -1,24 +1,19 @@
 .section > .container {
-    padding: $spacing-64 $spacing-16;
+    padding: var(--spacing-64) var(--spacing-16);
     position: relative;
 }
-
 
 .section-faqs {
     overflow: unset;
 }
 
-.section__overlay {
-    background-color: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.section-volunteers svg {
+    max-width: 32px;
+    margin: 0 8px;
 }
 
 @media screen and (min-width: 1023px) {
     .section > .container {
-        padding: $spacing-120 $spacing-32;
+        padding: var(--spacing-144) var(--spacing-32);
     }
 }

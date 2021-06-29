@@ -1,0 +1,73 @@
+// Shoutouts to Mary Lou for the awesome write up to build a css only marquee:
+// https://tympanus.net/codrops/2020/03/31/css-only-marquee-effect/
+
+:root {
+    --offset: 15vw;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-75% + var(--offset));
+}
+
+.banner {
+    border: solid 4px var(--black);
+    color: var(--black);
+    font-family: var(--font-bayard);
+    padding: 8px;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.banner-inner {
+    display: grid;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: banner 10s linear infinite;
+    animation-play-state: running;
+    grid-template-columns: repeat(4, max-content);
+}
+
+.banner:hover .banner-inner {
+    animation-play-state: paused;
+}
+
+@keyframes banner {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}
+
+.banner-black {
+    background-color: var(--black);
+    color: var(--dcdw-2021-celeste);
+}
+
+.banner-celeste {
+    background-color: var(--dcdw-2021-celeste);
+}
+
+.banner-cinnabar {
+    background-color: var(--dcdw-2021-cinnabar);
+}
+
+.banner-purple {
+    background-color: var(--dcdw-2021-purple);
+}
+
+.banner-white {
+    background-color: var(--white);
+}
+
+.banner-yellow {
+    background-color: var(--dcdw-2021-yellow);
+}
+
+// Specific Banner Stylings
+
+// Card Event
+.card-event .banner {
+    margin-top: -4px;
+}

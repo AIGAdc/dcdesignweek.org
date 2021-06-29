@@ -7,13 +7,13 @@
 
 .faqs-layout .houdini-toggle,
 .faqs-layout .houdini.is-expanded {
-    border: solid 1px $white !important;
-    padding: $spacing-16 24px !important;
+    border: solid 1px var(--white) !important;
+    padding: var(--spacing-16) 24px !important;
 }
 
 .faqs-layout .houdini-toggle {
     cursor: pointer;
-    font-size: $font-size-20 !important;
+    font-size: var(--font-size-20) !important;
     font-weight: 400 !important;
     text-align: left !important;
     text-transform: uppercase;
@@ -28,7 +28,7 @@
 }
 
 .faqs-layout .houdini.is-expanded {
-    font-family: $font-poppins;;
+    font-family: var(--font-poppins);
     position: relative !important;
     top: -1px !important;
 }
@@ -39,7 +39,7 @@
 }
 
 .faqs-layout .faq-contact h3 {
-    margin-bottom: $spacing-16;
+    margin-bottom: var(--spacing-16);
 }
 
 .faqs-layout .faq-contact li {
@@ -47,7 +47,7 @@
 }
 
 .faqs-layout .houdini-heading {
-    font-family: $font-poppins;;
+    font-family: var(--font-poppins);
     line-height: 1.4;
 }
 
@@ -55,7 +55,7 @@
     min-width: 16px;
 }
 
-.faqs-layout .filter-events__reset.control-group {
+.faqs-layout .events-filter__reset.control-group {
     width: 100%;
-    border: solid 1px $white;
+    border: solid 1px var(--white);
 }

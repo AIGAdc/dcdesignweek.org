@@ -1,17 +1,17 @@
 .font-bayard {
-    font-family: $font-bayard;
+    font-family: var(--font-bayard);
 }
 
 .font-poppins {
-    font-family: $font-poppins;
+    font-family: var(--font-poppins);
 }
 
 h1 {
-    font-size: $font-size-56;
+    font-size: var(--font-size-56);
 }
 
 h2 {
-    font-size: $font-size-32;
+    font-size: var(--font-size-32);
 }
 
 .text-center {

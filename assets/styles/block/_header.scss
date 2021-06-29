@@ -1,14 +1,14 @@
 .site-header {
     align-items: center;
-    background-color: $dcdw-2021-celeste;
-    border-bottom: solid 4px $black;
+    background-color: var(--dcdw-2021-celeste);
+    border-bottom: solid 4px var(--black);
     display: grid;
-    grid-gap: $spacing-16;
+    grid-gap: var(--spacing-16);
     grid-template-columns: max-content max-content;
     justify-content: space-between;
     mix-blend-mode: unset !important;
-    padding: $spacing-16;
-    z-index: $index-4;
+    padding: var(--spacing-16);
+    z-index: var(--index-4);
 }
 
 .site-header__logo svg {
@@ -16,18 +16,18 @@
 }
 
 .site-header__navigation a {
-    color: $black;
+    color: var(--black);
     font-weight: 700;
-    padding: $spacing-8;
+    padding: var(--spacing-8);
     text-decoration: none;
 }
 
 .site-header__navigation a:hover {
-    color: $dcdw-2021-cinnabar;
+    color: var(--dcdw-2021-cinnabar);
 }
 
 .site-header__navigation .link:not(:last-child) {
-    margin-right: $spacing-16;
+    margin-right: var(--spacing-16);
 }
 
 .site-header__navigation,
@@ -41,12 +41,12 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .site-header {
         align-items: center;
         display: grid;
         grid-template-columns: max-content 1fr max-content;
-        grid-gap: $spacing-32;
+        grid-gap: var(--spacing-32);
     }
 
     .site-header__navigation,
@@ -56,7 +56,7 @@
 
     // show site navigation when screen is > 1023
     .site-header__navigation {
-        gap: $spacing-32;
+        gap: var(--spacing-32);
         text-align: right;
     }
 

@@ -7,14 +7,14 @@
     width: 100%;
    
     &--black {
-        background-color: $black;
+        background-color: var(--black);
     }
 
     &--cinnabar {
-        background-color: $dcdw-2021-cinnabar;
+        background-color: var(--dcdw-2021-cinnabar);
     }
 
     &--yellow {
-        background-color: $dcdw-2021-yellow;
+        background-color: var(--dcdw-2021-yellow);
     }
 }

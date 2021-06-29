@@ -9,28 +9,28 @@
 }
 
 .event-single__hero-content a:first-of-type {
-    margin-bottom: $spacing-16;
+    margin-bottom: var(--spacing-16);
 }
 
 .event-single__hero-content a:last-of-type {
-    margin-bottom: $spacing-32;
+    margin-bottom: var(--spacing-32);
 }
 
 /* details */
 
 .event-single__details {
-    background-color: $green;
+    background-color: var(--green);
 }
 
 .event-single__details-content h3 {
-    font-family: $font-poppins;;
-    font-size: $font-size-20;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-20);
     font-weight: 700;
-    margin-bottom: $spacing-16;
+    margin-bottom: var(--spacing-16);
 }
 
 .event-single__details-content p:first-of-type {
-    margin-bottom: $spacing-8;
+    margin-bottom: var(--spacing-8);
 }
 
 .event-single__details-content p:last-of-type {
@@ -40,46 +40,46 @@
 /* content */
 
 .event-single__content video {
-    margin-bottom: $spacing-32;
+    margin-bottom: var(--spacing-32);
 }
 
 .event-single__content ul,
 ol {
-    margin-left: $spacing-32;
-    margin-bottom: $spacing-32;
+    margin-left: var(--spacing-32);
+    margin-bottom: var(--spacing-32);
 }
 
 /* speakers */
 
 .event-single__speakers-list {
     display: grid;
-    grid-gap: $spacing-32;
+    grid-gap: var(--spacing-32);
     grid-template-columns: 1fr;
 }
 
 .event-single__speaker {
-    font-size: $font-size-16;
+    font-size: var(--font-size-16);
 }
 
 .event-single__speaker h3 {
-    font-size: $font-size-24;
+    font-size: var(--font-size-24);
 }
 
 .event-single__learn {
-    background-color: $green;
-    margin-bottom: -$spacing-32;
-    padding: $spacing-48 0;
+    background-color: var(--green);
+    margin-bottom: var(--spacing-32);
+    padding: var(--spacing-4);
 }
 
 .event-single__learn hr {
-    border-color: $green;
+    border-color: var(--green);
 }
 
 .event-single__learn p:last-of-type {
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .event-single__hero-content a:first-of-type {
         margin-bottom: 0;
     }
@@ -92,49 +92,49 @@ ol {
 
 /* New */
 .events-landing-layout {
-    background: $white;
-    color: $black;
+    background: var(--white);
+    color: var(--black);
 }
 
 .events-landing-layout .section-landing-hero {
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
-    background-color: $black;
+    background-color: var(--black);
 }
 
 .events-landing-layout .landing-hero__details h1,
 .events-landing-layout .landing-hero__details p {
-    text-shadow: 1px 1px 4px $black;
+    text-shadow: 1px 1px 4px var(--black);
 }
 
 .events-landing-layout .site-header path {
-    fill: $black;
+    fill: var(--black);
 }
 
 .events-landing-layout .site-header {
-    background-color: $white;
-    border-bottom: solid 1px $black;
+    background-color: var(--white);
+    border-bottom: solid 1px var(--black);
 }
 
 .events-landing-layout a {
-    color: $black;
+    color: var(--black);
 }
 
 .events-landing-layout h1 span:nth-child(2n+1),
 .events-landing-layout h1 span:nth-child(2n),
 .events-landing-layout h2 span:nth-child(2n+1),
 .events-landing-layout h2 span:nth-child(2n) {
-    color: $black;
+    color: var(--black);
 }
 
 .events-landing-layout h1 span::after,
 .events-landing-layout h2 span::after {
-    background-color: $black;
+    background-color: var(--black);
 }
 
 .events-landing-layout .section-landing-hero {
-    color: $white;
+    color: var(--white);
     position: relative;
     overflow: hidden;
 }
@@ -157,16 +157,16 @@ ol {
 .events-landing-layout .section-landing-hero h1 span:nth-child(2n),
 .events-landing-layout .section-landing-hero h2 span:nth-child(2n+1),
 .events-landing-layout .section-landing-hero h2 span:nth-child(2n) {
-    color: $white;
+    color: var(--white);
 }
 
 .events-landing-layout .section-landing-hero h1 span::after,
 .events-landing-layout .section-landing-hero h2 span::after {
-    background-color: $white;
+    background-color: var(--white);
 }
 
 .events-landing-layout .section:not(:first-of-type) {
-    border-top: solid 1px $black;
+    border-top: solid 1px var(--black);
 }
 
 .landing-hero__content {
@@ -189,7 +189,7 @@ ol {
 
 .landing-hero__details {
     position: relative;
-    z-index: $index-2;
+    z-index: var(--index-2);
 }
 
 .landing-hero__tickets {
@@ -203,10 +203,10 @@ ol {
 }
 
 .landing-hero__tickets .button:last-child {
-    margin-top: $spacing-16;
+    margin-top: var(--spacing-16);
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .events-landing-layout .section-landing-hero {
         background-size: contain;
     }
@@ -221,7 +221,7 @@ ol {
     }
 
     .landing-hero__tickets .button:last-child {
-        margin-left: $spacing-48;
+        margin-left: var(--spacing-4)8;
         margin-top: 0;
     }
 }
@@ -233,7 +233,7 @@ ol {
 }
 
 .landing-hero__overlay {
-    background-color: $black;
+    background-color: var(--black);
     position: absolute;
     top: 0;
     right: 0;
@@ -243,31 +243,31 @@ ol {
 }
 
 .events-landing-layout .site-footer {
-    background-color: $black;
-    color: $white;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .events-landing-layout .site-footer a {
-    color: $white;
+    color: var(--white);
 }
 
 .events-landing-layout #mc_embed_signup .mc-field-group input {
-    background-color: $white;
-    border: solid 1px $black;
-    color: $black;
+    background-color: var(--white);
+    border: solid 1px var(--black);
+    color: var(--black);
     display: block;
     font-size: 1rem;
     font-weight: 400;
-    padding: $spacing-8;
+    padding: var(--spacing-8);
     width: 100%;
 }
 
 .events-landing-layout .asterisk {
-    color: $black !important;
+    color: var(--black) !important;
 }
 
 .events-landing-layout .grid-col>*+* {
-    margin-top: $spacing-16;
+    margin-top: var(--spacing-16);
 }
 
 .events-landing-layout .grid-col>*:last-child {
@@ -275,5 +275,5 @@ ol {
 }
 
 .event-single__speaker.event__speaker>*+* {
-    margin-top: $spacing-16;
+    margin-top: var(--spacing-16);
 }

@@ -4,19 +4,20 @@
     background-size: cover;
 
     &--grit {
-        background-image: url("/uploads/texture-grit.png");
+        background-image: url('/uploads/texture-grit.png');
         z-index: 100;
     }
-
+    
     &--paper {
-        background-image: url("/uploads/texture-paper.png");
+        background-image: url('/uploads/texture-paper.png');
     }
 
     &--wheatpaste {
-        background-image: url("/uploads/texture-wheatpaste.png");
+        background-image: url('/uploads/texture-wheatpaste.png');
     }
 }
 
+// Ripped Paper
 .ripped-paper {
     position: absolute;
 }

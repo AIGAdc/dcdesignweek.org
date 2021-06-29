@@ -9,16 +9,16 @@
 /* Off-canvas element CSS */
 
 .offside {
-    background-color: $dcdw-2021-celeste;
+    background-color: var(--dcdw-2021-celeste);
     position: fixed;
     /* Does not play well with some old browsers (see: README) */
-    border-left: solid 4px $black;
-    color: $black;
-    padding: $spacing-16;
+    border-left: solid 4px var(--black);
+    color: var(--black);
+    padding: var(--spacing-16);
     width: 300px;
     height: 100%;
     top: 0;
-    z-index: $index-4;
+    z-index: var(--index-4);
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     /* enables momentum scrolling in iOS overflow elements */
@@ -108,8 +108,8 @@ button#mobile-menu-trigger {
     background: none !important;
     border: none !important;
     margin: 0 !important;
-    font-size: $font-size-32;
-    color: $white;
+    font-size: var(--font-size-32);
+    color: var(--white);
 }
 
 .offside-js--is-open {
@@ -117,7 +117,7 @@ button#mobile-menu-trigger {
 }
 
 .mobile-menu__list a {
-    color: $black;
+    color: var(--black);
 }
 
 #my-button {
@@ -143,5 +143,5 @@ button#mobile-menu-trigger {
 }
 
 #my-menu a {
-    color: $black;
+    color: var(--black);
 }

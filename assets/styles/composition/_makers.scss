@@ -9,7 +9,7 @@
 }
 
 .emerging-designers-posters__image--left {
-    margin-right: $spacing-32;
+    margin-right: var(--spacing-32);
 }
 
 .emerging-designers-posters__image--left img {
@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .emerging-designers-posters {
         position: absolute;
         left: 0;

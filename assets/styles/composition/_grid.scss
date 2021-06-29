@@ -1,0 +1,116 @@
+.grid {
+    display: grid;
+    grid-gap: 32px;
+
+    &--align-center {
+        align-items: center;
+    }
+
+    &--align-end {
+        align-items: end;
+    }
+
+    &--align-start {
+        align-items: start;
+    }
+}
+
+.grid--one-column,
+.grid--two-column,
+.grid--three-column,
+.grid--four-column,
+.grid--five-column,
+.grid--six-column,
+.grid--seven-column,
+.grid--eight-column {
+    grid-template-columns: 1fr;
+}
+
+.grid--one-column-span,
+.grid--two-column-span,
+.grid--three-column-span,
+.grid--four-column-span,
+.grid--five-column-span,
+.grid--six-column-span,
+.grid--seven-column-span,
+.grid--eight-column-span {
+    grid-column: span 1;
+}
+
+@media screen and (min-width: 800px) {
+    .grid--two-column,
+    .grid--three-column,
+    .grid--four-column,
+    .grid--five-column,
+    .grid--six-column,
+    .grid--seven-column,
+    .grid--eight-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .grid--one-column {
+        grid-template-columns: 1fr;
+    }
+
+    .grid--two-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--three-column {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid--four-column {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid--five-column {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .grid--six-column {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .grid--seven-column {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .grid--eight-column {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .grid--one-column-span {
+        grid-column: span 1;
+    }
+
+    .grid--two-column-span {
+        grid-column: span 2;
+    }
+
+    .grid--three-column-span {
+        grid-column: span 3;
+    }
+
+    .grid--four-column-span {
+        grid-column: span 4;
+    }
+
+    .grid--five-column-span {
+        grid-column: span 5;
+    }
+
+    .grid--six-column-span {
+        grid-column: span 6;
+    }
+
+    .grid--seven-column-span {
+        grid-column: span 7;
+    }
+
+    .grid--eight-column-span {
+        grid-column: span 8;
+    }
+}

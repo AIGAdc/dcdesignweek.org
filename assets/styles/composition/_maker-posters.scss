@@ -1,10 +1,10 @@
 .section-posters .artist-name {
-    font-size: $font-size-20;
+    font-size: var(--font-size-20);
 }
 
 .section-posters .poster-title {
-    font-size: $font-size-20;
-    font-family: $font-poppins;;
+    font-size: var(--font-size-20);
+    font-family: var(--font-poppins);
     text-transform: uppercase;
 }
 
@@ -13,6 +13,7 @@
 }
 
 .section-posters .artist-portrait {
-    @include apply-grayscale;
-    border: solid 1px $white;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    border: solid 1px var(--white);
 }

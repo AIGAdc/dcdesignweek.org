@@ -5,29 +5,29 @@
     grid-template-columns: 1fr;
 }
 
-.maker-directory-layout .filter-events {
+.maker-directory-layout .events-filter {
     position: sticky;
     top: 116px;
 }
 
 .modal-content-header button {}
 
-.card__type {
-    border: solid 1px $white;
-    color: $white;
-    font-family: $font-poppins;;
+.card-type {
+    border: solid 1px var(--white);
+    color: var(--white);
+    font-family: var(--font-poppins);
     display: inline-block;
-    padding: $spacing-8;
+    padding: var(--spacing-8);
     font-weight: 700;
-    font-size: $font-size-16;
+    font-size: var(--font-size-16);
 }
 
 .modal-content--right>* {
-    margin-top: $spacing-32;
+    margin-top: var(--spacing-32);
 }
 
 .modal-content-info>* {
-    margin-top: $spacing-8;
+    margin-top: var(--spacing-8);
 }
 
 .modal-content-header {
@@ -49,7 +49,7 @@
     content: '';
     position: absolute;
     height: 100%;
-    border: solid 1px $white;
+    border: solid 1px var(--white);
     width: 100%;
     left: -8px;
     top: 24px;
@@ -57,7 +57,7 @@
 }
 
 .modal__image img {
-    border: solid 1px $white;
+    border: solid 1px var(--white);
     right: -16px;
     position: relative;
 }
@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
 
     // overrides global grid to be 3 columns instead of 4
     .maker-directory-layout ul.grid {
@@ -81,7 +81,7 @@
     }
 
     .modal-content--left {
-        margin-right: $spacing-48;
+        margin-right: var(--spacing-4)8;
     }
 
     .modal__image::after {
@@ -90,7 +90,7 @@
 
     .modal__aside {
         display: block;
-        margin-bottom: $spacing-16;
+        margin-bottom: var(--spacing-16);
     }
 
 }
@@ -102,22 +102,22 @@
     cursor: pointer;
 }
 
-.maker-directory-layout .filter-events__reset.control-group {
+.maker-directory-layout .events-filter__reset.control-group {
     width: 100%;
-    border: solid 1px $white;
+    border: solid 1px var(--white);
     position: relative;
     top: -1px;
 }
 
-.maker-directory-layout .filter-events__reset.control-group button {
+.maker-directory-layout .events-filter__reset.control-group button {
     width: 100%;
     text-align: left;
 }
 
-.maker-directory-layout .filter-events__dates.control-group,
+.maker-directory-layout .events-filter__dates.control-group,
 .maker-directory-layout .filter-header {
-    padding: $spacing-16;
-    border: solid 1px $white;
+    padding: var(--spacing-16);
+    border: solid 1px var(--white);
     position: relative;
 }
 
@@ -125,7 +125,7 @@
     margin-bottom: -1px;
 }
 
-.maker-directory-layout .filter-events__dates.control-group {
+.maker-directory-layout .events-filter__dates.control-group {
     margin-bottom: -1px;
 }
 

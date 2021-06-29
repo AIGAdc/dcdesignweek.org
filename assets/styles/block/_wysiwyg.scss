@@ -1,18 +1,17 @@
 // WYSIWYG
 .wysiwyg ul,
 .wysiwyg li {
-    margin-left: $spacing-16;
+    margin-left: var(--spacing-16);
 }
 
 .image-left,
 .image-right {
     display: flex;
     flex-direction: column;
-    grid-gap: $spacing-32;
+    grid-gap: var(--spacing-32);
 }
 
 @media screen and (min-width: 799px) {
-
     .image-left,
     .image-right {
         align-items: center;

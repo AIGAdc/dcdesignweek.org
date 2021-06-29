@@ -1,28 +1,28 @@
 .site-footer {
     align-items: center;
-    color: $black;
+    color: var(--black);
     display: grid;
-    grid-gap: $spacing-16;
+    grid-gap: var(--spacing-16);
     grid-template-columns: 1fr;
-    padding: $spacing-16;
+    padding: var(--spacing-16);
     position: relative;
 }
 
 .site-footer a {
-    color: $black;
+    color: var(--black);
     font-weight: 700;
     text-decoration: none;
 }
 
 .site-footer .svg-inline--fa {
-    font-size: $font-size-32;
+    font-size: var(--font-size-32);
 }
 
 .site-footer li {
     display: inline-block;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1280px) {
     .site-footer {
         grid-template-columns: repeat(3, 1fr);
     }

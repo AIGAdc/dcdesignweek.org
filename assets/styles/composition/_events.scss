@@ -1,68 +1,63 @@
-.events-layout .filter-events {
-    border: solid 1px $white;
-    margin-bottom: $spacing-32;
+.events-layout .events-filter {
+    border: solid 1px var(--black);
+    margin-bottom: var(--spacing-32);
 }
 
 /* date filters */
-.events-layout .filter-events__dates .mixitup-control-active {
-    border-top: solid 8px $green;
+.events-layout .events-filter__dates .mixitup-control-active {
+    border-top: solid 8px var(--dcdw-2020);
 }
 
-.events-layout .filter-events__dates span {
+.events-layout .events-filter__dates span {
     display: block;
-    font-size: $font-size-16;
     text-transform: uppercase;
 }
 
-.events-layout .filter-events__dates .control-text-1 {
-    font-family: $font-poppins;;
+.events-layout .events-filter__dates .control-text-1 {
 }
 
-.events-layout .filter-events__dates .control-text-3 {
-    font-family: $font-poppins;;
+.events-layout .events-filter__dates .control-text-3 {
 }
 
-.events-layout .filter-events__date--occurred {
+.events-layout .events-filter__date--occurred {
     opacity: 0.5;
 }
 
 /* additional filters */
-.filter-events__additional-filters {
+.events-filter__additional-filters {
     display: none;
 }
 
-.filter-events__additional-header {
+.events-filter__additional-header {
     display: flex;
     align-items: center;
 }
 
-.filter-events__additional-title {
+.events-filter__additional-title {
     flex-grow: 1;
 }
 
-.filter-events__additional-header .houdini-heading {
+.events-filter__additional-header .houdini-heading {
     text-align: left !important;
-    font-family: $font-poppins;;
-    font-size: $font-size-16;
 }
 
-.filter-events__additional-header .houdini-heading span {
+.events-filter__additional-header .houdini-heading span {
     text-transform: uppercase;
 }
 
-.filter-events__additional-header .houdini-toggle {
+.events-filter__additional-header .houdini-toggle {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
 }
 
-.filter-events__additional-content {
-    border-top: solid 1px $white;
-    padding: $spacing-16;
+.events-filter__additional-content {
+    border-top: solid 1px var(--black);
+    padding: var(--spacing-16);
 }
 
-.filter-events__additional-content p {
-    margin-bottom: $spacing-8;
+.events-filter__additional-content p {
+    margin-bottom: var(--spacing-8);
 }
 
 .events-layout .houdini-toggle-icon img {
@@ -71,31 +66,27 @@
 
 .control {
     background: none;
+    border: solid 1px var(--black);
     border-top: solid 8px transparent;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
     cursor: pointer;
-    color: $white;
-    padding: $spacing-16;
+    color: var(--black);
+    padding: var(--spacing-16);
     transition: background 100ms;
     text-align: center;
 }
 
-.filter-events__reset .control {
-    padding: $spacing-16;
+.events-filter__reset .control {
+    padding: var(--spacing-16);
     border-top: none;
-    font-family: $font-poppins;;
     text-transform: uppercase;
-    font-size: $font-size-16;
 }
 
-.filter-events__additional-title .houdini-toggle {
-    padding: $spacing-16 !important;
+.events-filter__additional-title .houdini-toggle {
+    padding: var(--spacing-16) !important;
     cursor: pointer !important;
 }
 
-.filter-events__status.control-group.grid.grid__4-column {
+.events-filter__status.control-group.grid.grid__4-column {
     font-size: 16px;
 }
 
@@ -119,26 +110,25 @@
 
 .events__list {
     display: grid;
-    grid-gap: $spacing-32;
+    grid-gap: var(--spacing-32);
     grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 799px) {
-
     /* listing */
     .events__list {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 1023px) {
-    .filter-events__dates {
+@media screen and (min-width: 1280px) {
+    .events-filter__dates {
         grid-template-columns: repeat(8, 1fr);
     }
 
-    .filter-events__additional-filters {
+    .events-filter__additional-filters {
         display: block;
-        border-top: solid 1px $white;
+        border-top: solid 1px var(--black);
     }
 
     /* listing */
