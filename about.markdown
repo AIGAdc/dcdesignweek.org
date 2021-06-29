@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-published: false
+published: true
 hero:
 - has-hero: true
   header: 
@@ -22,6 +22,6 @@ team:
 - team-header: "<span>DCDW</span> <span>2020</span> <span>Committee</span>"
   team-body: DC Design Week is planned by a committee of volunteers who plan each
     event, do all the outreach, and more. We’re so grateful for their contributions.
-layout: about
+layout: 2021-about
 ---
 

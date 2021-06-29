@@ -140,7 +140,7 @@ committee:
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Committee Member LinkedIn
-events-filter:
+filter-events:
   day:
   - filter: ".day-1"
     class: day-1
@@ -298,21 +298,9 @@ navigation-production:
 - url: "/events/"
   label: Events
   aria-label: Events Page
-- url: "/events/self-guided"
-  label: Self Guided
-  aria-label: Events - Self Guided Page
-- url: "/maker/posters"
-  label: Posters
-  aria-label: Posters Page
-- url: "/maker/directory"
-  label: Maker Directory
-  aria-label: Maker Directory Page
 - url: "/about/"
   label: About
   aria-label: About Page
-- url: "/faqs/"
-  label: FAQs
-  aria-label: FAQs Page
 partner:
   header: Partner with Us
   body: 'DC Design Week is 100% volunteer-run, in concert with a consortium of local

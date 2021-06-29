@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: "/events/"
-published: false
+published: true
 hero:
 - has-hero: true
   header: 
@@ -17,6 +17,5 @@ self-guided-body: Take a break from our virtual lineup and get some fresh air by
   or no schedule, don’t worry — you can do these whenever you want.
 self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
-layout: events
+layout: 2021-events
 ---
-

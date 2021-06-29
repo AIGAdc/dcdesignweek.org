@@ -1,7 +1,7 @@
-<form class="events-filter">
-    <div class="grid grid--eight-columns gap-none column column--span-4 control-group events-filter__dates" data-filter-group="">
-        {% for control in site.events-filter.day %}
-        <button class="control {{ control.class }} {% if control.has-occurred == true %} events-filter__date--occurred {% endif %}" data-filter="{{ control.filter }}" type="button">
+<form class="filter-events">
+    <div class="grid grid--eight-columns gap-none column column--span-4 control-group filter-events__dates" data-filter-group="">
+        {% for control in site.filter-events.day %}
+        <button class="control {{ control.class }} {% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" data-filter="{{ control.filter }}" type="button">
             <span class="control-text-1">
                 {{ control.text-1 }}
             </span>
@@ -11,21 +11,21 @@
         </button>
         {% endfor %}
     </div>
-    <div class="column column--span-4 events-filter__additional-filters">
-        <div class="events-filter__additional-header">
-            <span class="events-filter__additional-title" data-houdini-toggle="additional-filters">
+    <div class="column column--span-4 filter-events__additional-filters">
+        <div class="filter-events__additional-header">
+            <span class="filter-events__additional-title" data-houdini-toggle="additional-filters">
                 <span>
                     Additional Filters
                 </span>
             </span>
-            <div class="events-filter__reset control-group">
+            <div class="filter-events__reset control-group">
                 <button class="control control-text" type="reset">
                     Reset
                 </button>
             </div>
         </div>
-        <div class="events-filter__additional-content" data-houdini-group="additional-filters" id="additional-filters">
-            <div class="grid grid--four-columns events-filter__status control-group" data-filter-group="">
+        <div class="filter-events__additional-content" data-houdini-group="additional-filters" id="additional-filters">
+            <div class="grid grid--four-columns filter-events__status control-group" data-filter-group="">
                 <div class="column column--span-1">
                     <span>
                         Status
@@ -58,7 +58,7 @@
                     <span>
                         Time
                     </span>
-                    {% for control in site.events-filter.time %}
+                    {% for control in site.filter-events.time %}
                     <div class="radio">
                         <label class="radio-label custom-radio">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -72,7 +72,7 @@
                     <span>
                         Type
                     </span>
-                    {% for control in site.events-filter.type %}
+                    {% for control in site.filter-events.type %}
                     <div class="radio">
                         <label class="radio-label custom-radio">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}" />
@@ -86,7 +86,7 @@
                     <span>
                         Focus
                     </span>
-                    {% for control in site.events-filter.focus %}
+                    {% for control in site.filter-events.focus %}
                     <div class="radio">
                         <label class="radio-label custom-radio">
                             <input name="additional-filters" type="radio" value="{{ control.filter }}" />

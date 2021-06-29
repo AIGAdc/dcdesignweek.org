@@ -1,10 +1,10 @@
-<form class="events-filter">
+<form class="filter-events">
     <div class="filter-header">
         <h3>
             Categories
         </h3>
     </div>
-    <div class="events-filter__dates control-group" data-filter-group="">
+    <div class="filter-events__dates control-group" data-filter-group="">
         {% for control in site.2020-makers-filter.tags %}
         <div class="radio">
             <label class="radio-label custom-radio">
@@ -15,9 +15,9 @@
         </div>
         {% endfor %}
     </div>
-    <div class="column column--span-4 events-filter__additional-filters">
-        <div class="events-filter__additional-header">
-            <div class="events-filter__reset control-group">
+    <div class="column column--span-4 filter-events__additional-filters">
+        <div class="filter-events__additional-header">
+            <div class="filter-events__reset control-group">
                 <button class="control control-text" type="reset">
                     Reset
                 </button>
