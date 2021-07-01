@@ -4,10 +4,12 @@ permalink: "/events/"
 published: true
 hero:
 - has-hero: true
-  header: 
-  subheader: 
+  header: "H2: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
+  subheader: "Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
   image-1: 
   image-1-alt: 
+  button-label: "Lorem Ipsum"
+  button-url:
 event-header: "<span>Events</span>"
 event-body: Maybe your (very cool) friend brought you here for the first time. Or
   maybe you’ve been to every DC Design Week. Either way, we’re thrilled to have you.
@@ -17,5 +19,5 @@ self-guided-body: Take a break from our virtual lineup and get some fresh air by
   or no schedule, don’t worry — you can do these whenever you want.
 self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
-layout: 2021-events
+layout: events
 ---

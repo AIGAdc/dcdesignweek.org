@@ -1,25 +1,48 @@
 <footer class="site-footer texture texture--paper">
-    <a aria-label="Send an email to designweek@dc.aiga.org" href="mailto:{{ site.email }}" target="_top">
-        {{ site.footer.contact }}
-    </a>
-    <ul>
-        {% for link in site.footer.links %}
-        <li>
-            <a aria-label="{{ link.aria-label }}" href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-                {{ link.icon }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-    <span>
-        <!-- <a aria-label="Learn more about DCDW's Accessibility Statement" href="/accessibility/">
+    <section class="section section-subscribe">
+        <div class="container grid grid--two-column grid--align-center">
+            <div>
+                <figure style="z-index: var(--index-2); position: relative;">
+                    <img src="/uploads/sample-collage-1.png" alt="Oddisee Collage">
+                </figure>
+                {% include pattern-inspired.html %}
+            </div>
+            <div class="flow-large">
+                <h2>
+                    {{ site.subscribe.header }}
+                </h2>
+                <hr class="divider divider--black">
+                <div class="wysiwyg">
+                    {{ site.subscribe.body | markdownify }}
+                </div>
+                {% include third-party/mailchimp/form.html %}
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-content">
+        <a aria-label="Send an email to designweek@dc.aiga.org" href="mailto:{{ site.email }}" target="_top">
+            {{ site.footer.contact }}
+        </a>
+        <ul>
+            {% for link in site.footer.links %}
+            <li>
+                <a aria-label="{{ link.aria-label }}" href="{{ link.url }}" rel="noopener nofollow" target="_blank">
+                    {{ link.icon }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <span>
+            <!-- <a aria-label="Learn more about DCDW's Accessibility Statement" href="/accessibility/">
             Accessibility
         </a> |
         <a aria-label="Learn more about AIGA DC's Code of Conduct" href="https://dc.aiga.org/events/code-of-conduct/" rel="noopener nofollow" target="_blank">
             Code of Conduct
         </a> | -->
-        <a aria-label="Learn more about AIGA DC's Mission" href="https://dc.aiga.org/about-us/mission/" rel="noopener nofollow" target="_blank">
-            {{ site.footer.copyright }}
-        </a>
-    </span>
+            <a aria-label="Learn more about AIGA DC's Mission" href="https://dc.aiga.org/about-us/mission/" rel="noopener nofollow" target="_blank">
+                {{ site.footer.copyright }}
+            </a>
+        </span>
+    </section>
 </footer>

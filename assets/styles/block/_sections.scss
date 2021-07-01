@@ -1,19 +1,34 @@
-.section > .container {
-    padding: var(--spacing-64) var(--spacing-16);
+.section {
     position: relative;
 }
 
-.section-faqs {
-    overflow: unset;
+.section > .container {
+    padding: var(--spacing-64) var(--spacing-32);
+    position: relative;
 }
 
-.section-volunteers svg {
-    max-width: 32px;
-    margin: 0 8px;
+.section-committee,
+.section-events,
+.section-faqs,
+.section-hero ,
+.section-sponsors {
+    z-index: var(--index-6);
+}
+
+.events-layout .section-events {
+    z-index: var(--index-5);
+}
+
+.section-subscribe {
+    overflow: hidden;
 }
 
 @media screen and (min-width: 1023px) {
     .section > .container {
-        padding: var(--spacing-144) var(--spacing-32);
+        padding: var(--spacing-144) var(--spacing-64);
+    }
+
+    .section-subscribe > .container {
+        padding: var(--spacing-144) var(--spacing-64) var(--spacing-72) var(--spacing-64);
     }
 }

@@ -1,14 +1,16 @@
 .site-header {
     align-items: center;
     background-color: var(--dcdw-2021-celeste);
-    border-bottom: solid 4px var(--black);
+    border-bottom: solid 1px var(--black);
     display: grid;
     grid-gap: var(--spacing-16);
     grid-template-columns: max-content max-content;
     justify-content: space-between;
     mix-blend-mode: unset !important;
     padding: var(--spacing-16);
-    z-index: var(--index-4);
+    position: sticky;
+    top: 0;
+    z-index: var(--index-10);
 }
 
 .site-header__logo svg {

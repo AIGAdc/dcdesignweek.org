@@ -1,11 +1,6 @@
 .site-footer {
-    align-items: center;
-    color: var(--black);
-    display: grid;
-    grid-gap: var(--spacing-16);
-    grid-template-columns: 1fr;
-    padding: var(--spacing-16);
     position: relative;
+    z-index: var(--index-1);
 }
 
 .site-footer a {
@@ -22,8 +17,18 @@
     display: inline-block;
 }
 
+.footer-content {
+    align-items: center;
+    border-top: solid 1px var(--black);
+    color: var(--black);
+    display: grid;
+    grid-gap: var(--spacing-16);
+    grid-template-columns: 1fr;
+    padding: var(--spacing-16);
+    position: relative;
+}
 @media screen and (min-width: 1280px) {
-    .site-footer {
+    .footer-content {
         grid-template-columns: repeat(3, 1fr);
     }
 

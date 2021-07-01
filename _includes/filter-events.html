@@ -1,5 +1,5 @@
 <form class="filter-events">
-    <div class="grid grid--eight-columns gap-none column column--span-4 control-group filter-events__dates" data-filter-group="">
+    <div class="grid grid--eight-column gap-none column column--span-4 control-group filter-events__dates" data-filter-group="">
         {% for control in site.filter-events.day %}
         <button class="control {{ control.class }} {% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" data-filter="{{ control.filter }}" type="button">
             <span class="control-text-1">

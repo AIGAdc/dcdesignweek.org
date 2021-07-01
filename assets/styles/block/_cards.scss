@@ -80,28 +80,28 @@
 }
 
 // Card Committee
-.card-committee-member {
+.card-committee {
     text-align: center;
 }
 
-.card-committee-member .card-image {
+.card-committee .card-image {
     max-height: 200px;
 }
 
-.card-committee-member .card-title {
+.card-committee .card-title {
     border: none;
     margin-top: 0;
 }
 
-.card-committee-member .card-links {
+.card-committee .card-links {
     padding: 0 var(--spacing-16);
 }
 
-.card-committee-member .card-links li {
+.card-committee .card-links li {
     list-style: none;
 }
 
-.card-committee-member .card-links .anchor {
+.card-committee .card-links .anchor {
     align-items: center;
     display: flex;
     gap: 8px;
@@ -109,7 +109,7 @@
     margin: auto;
 }
 
-.card-committee-member .card-links .svg-inline--fa {
+.card-committee .card-links .svg-inline--fa {
     height: 16px;
     width: 16px;
     text-align: center;

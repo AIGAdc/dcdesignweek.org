@@ -1,0 +1,19 @@
+<section class="section section-partners background-dcdw-2021-celeste color-dcdw-2021-black ">
+    <div class="container grid grid--two-column grid--align-center">
+        <div>
+           Image
+        </div>
+        <div class="flow-large">
+            <h2>
+                {{ site.partner.header | markdownify }}
+            </h2>
+            <hr class="divider divider--cinnabar">
+            <div class="wysiwyg">
+                {{ site.partner.body | markdownify }}
+            </div>
+            <a class="button button-solid--cinnabar" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
+                {{ site.partner.button-label | markdownify }}
+            </a>
+        </div>
+    </div>
+</section>

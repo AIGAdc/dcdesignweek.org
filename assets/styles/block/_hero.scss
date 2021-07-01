@@ -18,7 +18,7 @@
 
 .hero-teaser .subtitle::after {
     content: "";
-    background-image: url('/uploads/hero-yellow-object.svg');
+    background-image: url("/uploads/hero-yellow-object.svg");
     position: absolute;
     width: 350px;
     top: -10px;
@@ -90,4 +90,13 @@
         margin-top: 56px;
         text-align: center;
     }
+}
+
+.hero-image {
+    position: absolute !important;
+    width: 800px;
+    transform: translateY(72px);
+    right: -80px;
+    bottom: 0;
+    height: 700px;
 }

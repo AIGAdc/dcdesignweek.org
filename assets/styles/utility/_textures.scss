@@ -22,21 +22,38 @@
     position: absolute;
 }
 
-.ripped-paper-8-A {
+.ripped-paper-1-A,
+.ripped-paper-1-B,
+.ripped-paper-2-A,
+.ripped-paper-2-B,
+.ripped-paper-3-A,
+.ripped-paper-3-B,
+.ripped-paper-4-A,
+.ripped-paper-4-B,
+.ripped-paper-5-A,
+.ripped-paper-5-B,
+.ripped-paper-6-A,
+.ripped-paper-6-B,
+.ripped-paper-7-A,
+.ripped-paper-7-B,
+.ripped-paper-8-A,
+.ripped-paper-8-B,
+.ripped-paper-9-A,
+.ripped-paper-9-B,
+.ripped-paper-10-A,
+.ripped-paper-10-B {
     width: 100%;
     min-height: 40px;
-    top: -40px;
     max-width: 1366px;
     left: 0;
     right: 0;
 }
+
+.ripped-paper-8-A {
+    top: -40px;
+}
 .ripped-paper-8-B.rotate-180 {
-    width: 100%;
-    min-height: 40px;
     bottom: -40px;
-    max-width: 1366px;
-    left: 0;
-    right: 0;
 }
 
 @media screen and (min-width: 640px) {

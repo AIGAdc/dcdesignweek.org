@@ -1,3 +1,7 @@
+.flow-large {
+    position: relative;
+    z-index: var(--index-5);
+}
 .flow-large>*:not(:first-child) {
     margin-top: var(--spacing-32);
 }

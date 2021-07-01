@@ -1,0 +1,35 @@
+.shape {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    text-align: center;
+    height: 100%;
+    max-height: 300px;
+    max-width: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.shape-headshot-1 {
+    background-image: url("/assets/images/shape-headshot-1.svg");
+}
+
+.shape-headshot-2 {
+    background-image: url("/assets/images/shape-headshot-2.svg");
+}
+
+.shape-headshot-3 {
+    background-image: url("/assets/images/shape-headshot-3.svg");
+}
+
+.shape-headshot-4 {
+    background-image: url("/assets/images/shape-headshot-4.svg");
+}
+
+.shape-headshot-5 {
+    background-image: url("/assets/images/shape-headshot-5.svg");
+}

@@ -1,25 +1,57 @@
+{% if page.url == "/about/" %}
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section section-hero texture texture--paper">
-    <div class="container container--default">
-        <div class="hero-teaser">
-            <div class="ornament ornament--stars">
-                <img src="/uploads/ornament-stars.svg" alt="Decorative image of three red stars in a row." />
-            </div>
-            <div class="ornament ornament--globe">
-                <img src="/uploads/ornament-globe.svg" alt="Decorative image of outline globe." />
-            </div>
-            <h1 class="title" style="background-image: url('/uploads/hero-red-object.svg'); background-repeat: no-repeat; background-size: contain; background-position: center;">
-                <span class="font-bayard">DC</span> <span class="font-bayard text-color-white">Design Week</span>
-            </h1>
-            <h2 class="subtitle">
-                is coming back in 2021.
+    <div class="container grid grid--two-column grid--align-center">
+        <div class="flow-large">
+            <h2>
+                {{ content.header | markdownify }}
             </h2>
+            <hr class="divider divider--cinnabar">
             <div class="wysiwyg">
                 {{ content.subheader | markdownify }}
             </div>
+            <a class="button button-solid--cinnabar" href="{{ content.button-url }}" rel="noopener nofollow" target="_blank">
+                {{ content.button-label | markdownify }}
+            </a>
+        </div>
+        <div>
+            <figure class="hero-image" style="z-index: var(--index-2); position: relative;">
+                <img src="/uploads/sample-collage-3.png" alt="Oddisee Collage">
+            </figure>
+            {% include pattern-hyperlocal.html %}
         </div>
     </div>
 </section>
 {% endif %}
 {% endfor %}
+
+{% elsif page.url == "/events/" %}
+{% for content in page.hero %}
+{% if content.has-hero == true %}
+<section class="section section-hero background-black color-dcdw-2021-celeste">
+    <div class="container grid grid--two-column grid--align-center">
+        <div class="flow-large">
+            <h2>
+                {{ content.header | markdownify }}
+            </h2>
+            <hr class="divider divider--cinnabar">
+            <div class="wysiwyg">
+                {{ content.subheader | markdownify }}
+            </div>
+            <a class="button button-solid--cinnabar" href="{{ content.button-url }}" rel="noopener nofollow" target="_blank">
+                {{ content.button-label | markdownify }}
+            </a>
+        </div>
+        <div>
+            <figure class="hero-image" style="z-index: var(--index-2); position: relative;">
+                <img src="/uploads/sample-collage-3.png" alt="Oddisee Collage">
+            </figure>
+            {% include pattern-hyperlocal.html %}
+        </div>
+        <img class="ripped-paper ripped-paper-8-B rotate-180" src="/uploads/optimized-texture-ripped-paper-8.png" alt="Ripped Paper Texture Style 8">
+    </div>
+</section>
+{% endif %}
+{% endfor %}
+{% endif %}

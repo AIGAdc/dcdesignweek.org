@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-layout: 2021-home
+layout: home
 hero:
 - has-hero: true
   header: DC Design Week is Coming Back in 2021.

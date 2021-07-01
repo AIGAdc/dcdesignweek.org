@@ -1,0 +1,18 @@
+.pattern {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0.5;
+    overflow: hidden;
+    z-index: var(--index-1);
+}
+
+.pattern-hyperlocal {
+    top: 0;
+    right: 0;
+}
+
+.pattern-inspired {
+    top: 0;
+    left: 0;
+}
