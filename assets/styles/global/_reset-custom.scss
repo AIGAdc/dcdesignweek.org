@@ -48,7 +48,7 @@ body {
     color: var(--black);
     font-family: var(--font-poppins);
     font-size: var(--font-size-16);
-    margin: 32px auto;
+    margin: auto;
     max-width: 1366px;
 }
 
@@ -74,5 +74,6 @@ ul {
         border: solid 16px var(--white);
         font-size: var(--font-size-20);
         line-height: 32px;
+        margin: 32px auto;
     }
 }
