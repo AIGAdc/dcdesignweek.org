@@ -19,7 +19,7 @@
     border-radius: none;
     color: var(--black);
     display: block;
-    padding: var(--spacing-8) var(--spacing-16);
+    padding: var(--space-8) var(--space-16);
     width: 100%;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
@@ -38,7 +38,7 @@
 
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--space-32);
 }
 
 // message for when a visitor successfully signs up for the newsletter
@@ -77,7 +77,7 @@
     color: var(--black);
     font-size: inherit;
     margin: 0;
-    padding: var(--spacing-8);
+    padding: var(--space-8);
     position: relative;
     top: -2px;
     z-index: var(--index-1);
@@ -96,11 +96,11 @@
 }
 
 #mce-responses {
-    margin-top: var(--spacing-24);
+    margin-top: var(--space-24);
 }
 
 .mailchimp-button input {
-    padding: var(--spacing-8);
+    padding: var(--space-8);
 }
 
 .submit-label {

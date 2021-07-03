@@ -22,9 +22,9 @@
     border-top: solid 1px var(--black);
     color: var(--black);
     display: grid;
-    grid-gap: var(--spacing-16);
+    grid-gap: var(--space-16);
     grid-template-columns: 1fr;
-    padding: var(--spacing-16);
+    padding: var(--space-16);
     position: relative;
 }
 @media screen and (min-width: 1280px) {

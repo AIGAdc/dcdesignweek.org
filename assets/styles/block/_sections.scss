@@ -3,7 +3,7 @@
 }
 
 .section > .container {
-    padding: var(--spacing-64) var(--spacing-32);
+    padding: var(--space-64) var(--space-32);
     position: relative;
 }
 
@@ -25,10 +25,10 @@
 
 @media screen and (min-width: 1023px) {
     .section > .container {
-        padding: var(--spacing-144) var(--spacing-64);
+        padding: var(--space-144) var(--space-64);
     }
 
     .section-subscribe > .container {
-        padding: var(--spacing-144) var(--spacing-64) var(--spacing-72) var(--spacing-64);
+        padding: var(--space-144) var(--space-64) var(--space-72) var(--space-64);
     }
 }

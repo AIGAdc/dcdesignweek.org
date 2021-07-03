@@ -2,7 +2,7 @@
 .sponsors,
 .partners,
 .events {
-    margin-top: var(--spacing-32);
+    margin-top: var(--space-32);
 }
 
 .listing__sponsors,
@@ -11,9 +11,9 @@
 .listing__committee,
 .listing__events {
     display: grid;
-    grid-gap: var(--spacing-32);
+    grid-gap: var(--space-32);
     grid-template-columns: 1fr;
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--space-32);
 }
 
 .listing__sponsors,
@@ -41,7 +41,7 @@
     .committee,
     .sponsors,
     .partners {
-        margin-top: var(--spacing-64);
+        margin-top: var(--space-64);
     }
 
     .listing__partners {
@@ -69,7 +69,7 @@
 // TODO: Refactor Code Above
 .listing {
     display: grid;
-    grid-gap: var(--spacing-32);
+    grid-gap: var(--space-32);
 }
 
 .listing--past-dcdw {

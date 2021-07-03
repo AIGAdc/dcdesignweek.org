@@ -1,6 +1,6 @@
 .events-layout .events-filter {
     border: solid 1px var(--black);
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--space-32);
 }
 
 /* date filters */
@@ -53,11 +53,11 @@
 
 .events-filter__additional-content {
     border-top: solid 1px var(--black);
-    padding: var(--spacing-16);
+    padding: var(--space-16);
 }
 
 .events-filter__additional-content p {
-    margin-bottom: var(--spacing-8);
+    margin-bottom: var(--space-8);
 }
 
 .events-layout .houdini-toggle-icon img {
@@ -70,19 +70,19 @@
     border-top: solid 8px transparent;
     cursor: pointer;
     color: var(--black);
-    padding: var(--spacing-16);
+    padding: var(--space-16);
     transition: background 100ms;
     text-align: center;
 }
 
 .events-filter__reset .control {
-    padding: var(--spacing-16);
+    padding: var(--space-16);
     border-top: none;
     text-transform: uppercase;
 }
 
 .events-filter__additional-title .houdini-toggle {
-    padding: var(--spacing-16) !important;
+    padding: var(--space-16) !important;
     cursor: pointer !important;
 }
 
@@ -110,7 +110,7 @@
 
 .events__list {
     display: grid;
-    grid-gap: var(--spacing-32);
+    grid-gap: var(--space-32);
     grid-template-columns: 1fr;
 }
 

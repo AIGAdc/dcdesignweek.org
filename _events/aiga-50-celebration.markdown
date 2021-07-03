@@ -10,7 +10,7 @@ start-time: 6:30 PM
 end-time: 7:30 PM
 image-alt: Rendering of the AIGA 50 award
 status:
-  is-featured-on-home: false
+  is-featured-on-home: true
   featured-home-message: Come see the best of the best
   is-featured-on-events: true
   featured-event-message: Come see the best of the best

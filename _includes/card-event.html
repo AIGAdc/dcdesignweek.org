@@ -4,34 +4,47 @@
         <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
             <figure class="card__image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />
-                <div class="card__image-overlay spacing-0"></div>
             </figure>
         </a>
+
         {% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
-        <div class="ticker ticker--featured">
-            <p>{{ event.status.featured-event-message }}</p>
+        <div class="banner banner--featured banner-black">
+            <div class="banner-inner" aria-hidden="true">
+                <p>{{ event.status.featured-event-message }}</p>
+            </div>
         </div>
         {% endif %}
+
         {% if event.status.is-featured-on-home == true and event.status.featured-event-message %}
-        <div class="ticker ticker--featured">
-            <p>{{ event.status.featured-event-message }}</p>
+        <div class="banner banner--featured banner-black">
+            <div class="banner-inner" aria-hidden="true">
+                <p>{{ event.status.featured-event-message }}</p>
+            </div>
         </div>
         {% endif %}
+
         {% if event.status.is-sold-out == true and event.status.sold-out-message %}
-        <div class="ticker ticker--sold-out">
-            <p>{{ event.status.sold-out-message }}</p>
+        <div class="banner banner--sold-out banner-cinnabar">
+            <div class="banner-inner" aria-hidden="true">
+                <p>{{ event.status.sold-out-message }}</p>
+            </div>
         </div>
         {% endif %}
+
         {% if event.status.has-occurred == true and event.status.occurred-message %}
-        <div class="ticker ticker--occured">
-            <p>{{ event.status.occurred-message }}</p>
+        <div class="banner banner--occurred banner-yellow">
+            <div class="banner-inner" aria-hidden="true">
+                <p>{{ event.status.occurred-message }}</p>
+            </div>
         </div>
         {% endif %}
     </div>
 
     <div class="card__header">
         <a aria-label="{{ event.aria-label }}" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
-            <h3 class="card__title">{{ event.title }}</h3>
+            <h3 class="card__title">
+                {{ event.title }}
+            </h3>
         </a>
     </div>
     <div class="card-details">

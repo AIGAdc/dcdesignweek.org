@@ -9,28 +9,28 @@
 }
 
 .event-single__hero-content a:first-of-type {
-    margin-bottom: var(--spacing-16);
+    margin-bottom: var(--space-16);
 }
 
 .event-single__hero-content a:last-of-type {
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--space-32);
 }
 
 /* details */
 
 .event-single__details {
-    background-color: var(--green);
+    background-color: var(--dcdw-2020);
 }
 
 .event-single__details-content h3 {
     font-family: var(--font-poppins);
     font-size: var(--font-size-20);
     font-weight: 700;
-    margin-bottom: var(--spacing-16);
+    margin-bottom: var(--space-16);
 }
 
 .event-single__details-content p:first-of-type {
-    margin-bottom: var(--spacing-8);
+    margin-bottom: var(--space-8);
 }
 
 .event-single__details-content p:last-of-type {
@@ -40,20 +40,20 @@
 /* content */
 
 .event-single__content video {
-    margin-bottom: var(--spacing-32);
+    margin-bottom: var(--space-32);
 }
 
 .event-single__content ul,
 ol {
-    margin-left: var(--spacing-32);
-    margin-bottom: var(--spacing-32);
+    margin-left: var(--space-32);
+    margin-bottom: var(--space-32);
 }
 
 /* speakers */
 
 .event-single__speakers-list {
     display: grid;
-    grid-gap: var(--spacing-32);
+    grid-gap: var(--space-32);
     grid-template-columns: 1fr;
 }
 
@@ -66,13 +66,13 @@ ol {
 }
 
 .event-single__learn {
-    background-color: var(--green);
-    margin-bottom: var(--spacing-32);
-    padding: var(--spacing-4);
+    background-color: var(--dcdw-2020);
+    margin-bottom: var(--space-32);
+    padding: var(--space-4);
 }
 
 .event-single__learn hr {
-    border-color: var(--green);
+    border-color: var(--dcdw-2020);
 }
 
 .event-single__learn p:last-of-type {
@@ -203,7 +203,7 @@ ol {
 }
 
 .landing-hero__tickets .button:last-child {
-    margin-top: var(--spacing-16);
+    margin-top: var(--space-16);
 }
 
 @media screen and (min-width: 1280px) {
@@ -221,7 +221,7 @@ ol {
     }
 
     .landing-hero__tickets .button:last-child {
-        margin-left: var(--spacing-4)8;
+        margin-left: var(--space-4)8;
         margin-top: 0;
     }
 }
@@ -258,7 +258,7 @@ ol {
     display: block;
     font-size: 1rem;
     font-weight: 400;
-    padding: var(--spacing-8);
+    padding: var(--space-8);
     width: 100%;
 }
 
@@ -267,7 +267,7 @@ ol {
 }
 
 .events-landing-layout .grid-col>*+* {
-    margin-top: var(--spacing-16);
+    margin-top: var(--space-16);
 }
 
 .events-landing-layout .grid-col>*:last-child {
@@ -275,5 +275,5 @@ ol {
 }
 
 .event-single__speaker.event__speaker>*+* {
-    margin-top: var(--spacing-16);
+    margin-top: var(--space-16);
 }

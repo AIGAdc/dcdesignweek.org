@@ -1,14 +1,14 @@
 // WYSIWYG
 .wysiwyg ul,
 .wysiwyg li {
-    margin-left: var(--spacing-16);
+    margin-left: var(--space-16);
 }
 
 .image-left,
 .image-right {
     display: flex;
     flex-direction: column;
-    grid-gap: var(--spacing-32);
+    grid-gap: var(--space-32);
 }
 
 @media screen and (min-width: 799px) {

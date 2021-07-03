@@ -1,10 +1,12 @@
-{% comment %} On homepage, show featured events and apply black background and paper tears {% endcomment %}
+{% comment %}
+On homepage, show featured events and apply black background and paper tears
+{% endcomment %}
 {% if page.url == "/" %}
 <section id="events" class="section section-events background-black color-dcdw-2021-celeste">
     <div class="container">
         <img class="ripped-paper ripped-paper-8-A" src="/uploads/optimized-texture-ripped-paper-8.png" alt="Ripped Paper Texture Style 8">
         <div class="flow-large">
-            <h2 class="" id="Replace with Variable">
+            <h2 id="Replace with Variable">
                 Events Heading Level 2
             </h2>
             <hr class="divider divider--cinnabar">
@@ -17,15 +19,8 @@
             <ul class="mixitup-container grid grid--four-column">
                 {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
                 {% for event in sorted | limit: 4 %}
-                {% if page.url == "/" %}
                 {% if event.status.is-featured-on-home == true %}
-                {% include partials/events-card.html %}
-                {% else %}
-                {% include partials/events-card.html %}
-                {% endif %}
-                {% endif %}
-                {% if page.url == "/events/" %}
-                {% include partials/events-card.html %}
+                {% include card-event.html %}
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -46,7 +41,7 @@
 <section id="events" class="section section-events color-black texture texture--paper">
     <div class="container">
         <div class="flow-large">
-            <h2 class="" id="Replace with Variable">
+            <h2 id="Replace with Variable">
                 Events Heading Level 2
             </h2>
             <hr class="divider divider--cinnabar">
@@ -55,7 +50,7 @@
             </div>
         </div>
 
-        <div class="column column--span-4">
+        <div>
             {% include filter-events.html %}
         </div>
 
@@ -63,16 +58,7 @@
             <ul class="mixitup-container grid grid--four-column">
                 {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
                 {% for event in sorted %}
-                {% if page.url == "/" %}
-                {% if event.status.is-featured-on-home == true %}
-                {% include partials/events-card.html %}
-                {% else %}
-                {% include partials/events-card.html %}
-                {% endif %}
-                {% endif %}
-                {% if page.url == "/events/" %}
-                {% include partials/events-card.html %}
-                {% endif %}
+                {% include card-event.html %}
                 {% endfor %}
             </ul>
         </div>

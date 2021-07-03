@@ -28,13 +28,13 @@ https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
 /* Create a custom custom-radio button */
 .checkmark {
     position: absolute;
-    top: var(--spacing-4);
+    top: var(--space-4);
     left: 0;
     height: 16px;
     width: 16px;
     background-color: var(--black);
     border-radius: 50%;
-    border: solid 1px var(--green);
+    border: solid 1px var(--dcdw-2020);
 }
 
 //  /* On mouse-over, add a grey background color */
@@ -66,5 +66,5 @@ https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--green);
+    background: var(--dcdw-2020);
 }
