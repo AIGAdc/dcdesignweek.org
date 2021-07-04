@@ -11,12 +11,11 @@ start-time: 6:30 PM
 end-time: 7:30 PM
 image-alt: and8 fitness photo
 status:
-  is-featured-on-home: false
-  is-featured-on-events: false
+  is-featured-home: false
+  is-featured-event: false
   is-sold-out: false
-  sold-out-message: This Event is Sold Out.
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
 tickets:
   has-member-button: false
   member-button-url: https://www.and8fitness.com/and8-x-dcdw.html

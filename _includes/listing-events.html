@@ -19,7 +19,7 @@ On homepage, show featured events and apply black background and paper tears
             <ul class="mixitup-container grid grid--four-column">
                 {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
                 {% for event in sorted | limit: 4 %}
-                {% if event.status.is-featured-on-home == true %}
+                {% if event.status.is-featured-home == true %}
                 {% include card-event.html %}
                 {% endif %}
                 {% endfor %}

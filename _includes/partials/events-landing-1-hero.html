@@ -23,12 +23,12 @@
             </div>
         </div>
     </div>
-    {% if page.status.is-featured-on-events == true and page.status.featured-event-message %}
+    {% if page.status.is-featured-event == true and page.status.featured-event-message %}
     <div class="ticker ticker--featured">
         <p>{{ page.status.featured-event-message }}</p>
     </div>
     {% endif %}
-    {% if page.status.is-featured-on-home == true and page.status.featured-event-message %}
+    {% if page.status.is-featured-home == true and page.status.featured-event-message %}
     <div class="ticker ticker--featured">
         <p>{{ page.status.featured-event-message }}</p>
     </div>

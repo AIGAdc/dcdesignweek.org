@@ -47,16 +47,16 @@ defaults:
     image-alt: 
     description: 
     status:
-      is-featured-on-home: 
-      featured-home-message: Featured
-      is-featured-on-events: 
-      featured-event-message: Featured
+      is-featured-home: 
+      featured-home-message: This event will standout and appear on the home page
+      is-featured-event: 
+      featured-event-message: This event will standout on the events page
       is-sold-out: 
-      sold-out-message: Sold Out! Sold Out! Sold Out!
+      sold-out-message: This event is now sold out
       is-limited-supply: 
-      limited-supply-message: Limited Tickets
+      limited-supply-message: The event is running low on tickets
       has-occurred: 
-      occurred-message: 
+      occurred-message: This event has occurred
     tickets:
       has-member-button: 
       member-button-url: 
@@ -256,42 +256,42 @@ filter-events:
     class: day-1
     text-1: Fri
     text-3: 18
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-2"
     class: day-2
     text-1: Sat
     text-3: 19
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-3"
     class: day-3
     text-1: Sun
     text-3: 20
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-4"
     class: day-4
     text-1: Mon
     text-3: 21
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-5"
     class: day-5
     text-1: Tue
     text-3: 22
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-6"
     class: day-6
     text-1: Wed
     text-3: 23
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-7"
     class: day-7
     text-1: Thu
     text-3: 24
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-8"
     class: day-8
     text-1: Fri
     text-3: 25
-    has-occurred: true
+    has-occurred: false
   time:
   - filter: ".morning"
     class: morning

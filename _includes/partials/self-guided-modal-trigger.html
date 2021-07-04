@@ -7,12 +7,12 @@
                 <div class="card__image-overlay spacing-0"></div>
             </figure>
         </a>
-        {% if event.status.is-featured-on-events == true and event.status.featured-event-message %}
+        {% if event.status.is-featured-event == true and event.status.featured-event-message %}
         <div class="ticker ticker--featured">
             <p>{{ event.status.featured-event-message }}</p>
         </div>
         {% endif %}
-        {% if event.status.is-featured-on-home == true and event.status.featured-event-message %}
+        {% if event.status.is-featured-home == true and event.status.featured-event-message %}
         <div class="ticker ticker--featured">
             <p>{{ event.status.featured-event-message }}</p>
         </div>

@@ -10,14 +10,11 @@ start-time: 6:30 PM
 end-time: 7:30 PM
 image-alt: Rendering of the AIGA 50 award
 status:
-  is-featured-on-home: true
-  featured-home-message: Come see the best of the best
-  is-featured-on-events: true
-  featured-event-message: Come see the best of the best
+  is-featured-home: true
+  is-featured-event: false
   is-sold-out: false
-  sold-out-message: This Event is Sold Out.
   is-limited-supply: false
-  has-occurred: true
+  has-occurred: false
 tickets:
   has-member-button: false
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Faiga-50-celebration%2F%3Fredirect_source%3Deventbrite_register
