@@ -7,21 +7,25 @@
     position: relative;
 }
 
-.section-committee,
-.section-events,
-.section-faqs,
-.section-hero ,
-.section-sponsors {
-    z-index: var(--index-6);
-}
+// .section-hero {
+//     overflow: hidden;
+// }
 
-.events-layout .section-events {
-    z-index: var(--index-5);
-}
+// // .section-committee,
+// // .section-events,
+// // .section-faqs,
+// // .section-hero ,
+// // .section-sponsors {
+// //     z-index: var(--index-6);
+// // }
 
-.section-subscribe {
-    overflow: hidden;
-}
+// // .events-layout .section-events {
+// //     z-index: var(--index-5);
+// // }
+
+// .section-subscribe {
+//     overflow: hidden;
+// }
 
 @media screen and (min-width: 1023px) {
     .section > .container {

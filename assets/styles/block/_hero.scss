@@ -93,10 +93,21 @@
 }
 
 .hero-image {
-    position: absolute !important;
-    width: 800px;
-    transform: translateY(72px);
-    right: -80px;
-    bottom: 0;
-    height: 700px;
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    .hero-image {
+        // display: block;
+        position: absolute !important;
+        width: 800px;
+        transform: translateY(72px);
+        right: -80px;
+        bottom: 0;
+        height: 700px;
+        -webkit-transform: translateY(72px);
+        -moz-transform: translateY(72px);
+        -ms-transform: translateY(72px);
+        -o-transform: translateY(72px);
+}    
 }

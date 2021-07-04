@@ -19,6 +19,7 @@
 
 // Ripped Paper
 .ripped-paper {
+    margin-top: 0 !important;
     position: absolute;
 }
 
@@ -47,6 +48,7 @@
     max-width: 1366px;
     left: 0;
     right: 0;
+    z-index: -10;
 }
 
 .ripped-paper-8-A {
