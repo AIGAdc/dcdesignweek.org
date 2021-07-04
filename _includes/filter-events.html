@@ -1,5 +1,8 @@
 <form class="filter-events">
-    <div class="grid grid--eight-column gap-none column column--span-4 control-group filter-events__dates" data-filter-group="">
+    <div class="grid grid--nine-column gap-none control-group filter-events__dates" data-filter-group="">
+        <button class="control control-text" type="reset">
+            All Days
+        </button>
         {% for control in site.filter-events.day %}
         <button class="control {{ control.class }} {% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" data-filter="{{ control.filter }}" type="button">
             <span class="control-text-1">
@@ -11,16 +14,16 @@
         </button>
         {% endfor %}
     </div>
-    <div class="column column--span-4 filter-events__additional-filters">
-        <div class="filter-events__additional-header">
+    <div class="filter-events__additional-filters">
+        <div class="filter-events__additional-header grid grid--two-column gap-none">
             <span class="filter-events__additional-title" data-houdini-toggle="additional-filters">
                 <span>
                     Additional Filters
                 </span>
             </span>
             <div class="filter-events__reset control-group">
-                <button class="control control-text" type="reset">
-                    Reset
+                <button class=" button button-solid--cinnabar" type="reset">
+                    Clear Filters
                 </button>
             </div>
         </div>

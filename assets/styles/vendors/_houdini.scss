@@ -6,42 +6,34 @@
  * http://github.com/cferdinandi/houdini
  */
 
-/**
- * Hide content
- */
-
 .houdini {
     display: none;
 }
 
 .houdini[tabindex="-1"]:focus {
-    outline: 0 !important;
+}
+
+.houdini-heading .houdini-toggle {
+    // background: transparent;
+    // border: solid 1px var(--black);
+    // display: flex;
+    // text-align: inherit;
+    // justify-content: space-between;
+    // width: 100%;
+    // color: var(--black);
+    // padding: 8px 16px;
+    // align-items: center;
+    // margin-top: -1px;
+}
+
+.houdini-toggle-icon {
+    // display: inline-block !important;
+    // padding: 3.5px 8px;
 }
 
 .houdini.is-expanded {
     display: block;
-    border: solid 4px var(--dcdw-2021-celeste);
-    margin-top: -4px;
+    border: solid 1px var(--black);
+    margin-top: -1px;
     padding: 16px;
-}
-
-/**
- * Remove button appearance from heading buttons
- */
-
-.houdini-heading .houdini-toggle {
-    background: inherit;
-    border: solid 4px #ecece5;
-    display: flex;
-    text-align: inherit;
-    justify-content: space-between;
-    width: 100%;
-    color: #ecece5;
-    padding: 16px;
-    align-items: center;
-}
-
-.houdini-toggle-icon {
-    display: inline-block !important;
-    padding: 8px;
 }

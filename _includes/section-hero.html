@@ -3,7 +3,7 @@
 {% if content.has-hero == true %}
 <section class="section section-hero texture texture--paper">
     <div class="container grid grid--two-column grid--align-center">
-        <div class="flow-large">
+        <div class="column-one flow-large">
             <h2>
                 {{ content.header | markdownify }}
             </h2>
@@ -15,12 +15,12 @@
                 {{ content.button-label | markdownify }}
             </a>
         </div>
-        <div>
+        <div class="column-two">
             <figure class="hero-image" style="z-index: var(--index-2); position: relative;">
                 <img src="/uploads/sample-collage-3.png" alt="Oddisee Collage">
             </figure>
-            {% include pattern-hyperlocal.html %}
         </div>
+        {% include pattern-hyperlocal.html %}
     </div>
 </section>
 {% endif %}
@@ -31,7 +31,7 @@
 {% if content.has-hero == true %}
 <section class="section section-hero background-black color-dcdw-2021-celeste">
     <div class="container grid grid--two-column grid--align-center">
-        <div class="column-1 flow-large">
+        <div class="column-one flow-large">
             <h2>
                 {{ content.header | markdownify }}
             </h2>

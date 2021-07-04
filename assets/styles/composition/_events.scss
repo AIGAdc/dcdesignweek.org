@@ -41,6 +41,10 @@
     text-align: left !important;
 }
 
+.filter-events__additional-header {
+    grid-template-columns: 1fr max-content !important;
+}
+
 .events-filter__additional-header .houdini-heading span {
     text-transform: uppercase;
 }
@@ -64,15 +68,26 @@
     min-width: 16px;
 }
 
+.filter-events__dates > *:not(:first-child) {
+    margin-left: -1px;
+}
+
 .control {
     background: none;
     border: solid 1px var(--black);
-    border-top: solid 8px transparent;
+    border-top: solid 4px var(--black);
     cursor: pointer;
     color: var(--black);
     padding: var(--space-16);
     transition: background 100ms;
     text-align: center;
+    position: relative;
+}
+
+.mixitup-control-active {
+    border: solid 1px var(--dcdw-2021-cinnabar);
+    border-top: solid 4px var(--dcdw-2021-cinnabar);
+    z-index: var(--index-5);
 }
 
 .events-filter__reset .control {
