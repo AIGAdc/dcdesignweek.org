@@ -33,3 +33,55 @@
 .shape-headshot-5 {
     background-image: url("/assets/images/shape-headshot-5.svg");
 }
+
+.svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.clipped-0,
+.clipped-1,
+.clipped-6 {
+ /*rotation:;
+ 0degrees*/clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+ transition: all 100ms ease-in-out;
+ -webkit-transition: all 100ms ease-in-out;
+ -moz-transition: all 100ms ease-in-out;
+ -ms-transition: all 100ms ease-in-out;
+ -o-transition: all 100ms ease-in-out;
+}
+
+.clipped-2,
+.clipped-7 {
+    /* rotation: 25 degress */
+    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+}
+
+.clipped-3,
+.clipped-8 {
+    /* rotation: 50 degress */
+    clip-path: polygon(56% 9%, 78% 14%, 100% 45%, 70% 89%, 73% 93%, 40% 100%, 0 60%, 40% 0);
+}
+
+.clipped-4,
+.clipped-9 {
+    /* rotation: 75 degress */
+    clip-path: polygon(79% 0, 84% 17%, 96% 25%, 99% 67%, 45% 95%, 46% 100%, 22% 89%, 0 22%);
+}
+
+.clipped-5,
+.clipped-10,
+.clipped-11 {
+    /* rotation: 100 degress */
+    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+}
+
+// Hover
+
+.clipped-0:hover,
+.clipped-1:hover,
+.clipped-6:hover {
+    /* rotation: 0 degrees */
+    clip-path: polygon(79% 0, 84% 17%, 96% 25%, 99% 67%, 45% 95%, 46% 100%, 22% 89%, 0 22%);
+}
