@@ -43,13 +43,16 @@ a:focus {
 body {
     background-color: var(--dcdw-2021-celeste);
     background-image: url('/uploads/brick.png');
-    background-size: cover;
-    border: solid 8px var(--white);
+    background-size: contain;
     color: var(--black);
     font-family: var(--font-poppins);
     font-size: var(--font-size-16);
     margin: auto;
     max-width: 1366px;
+}
+
+main {
+    background-color: var(--dcdw-2021-celeste);
 }
 
 h1,
@@ -71,7 +74,7 @@ ul {
 
 @media screen and (min-width: 1280px) {
     body {
-        border: solid 16px var(--white);
+        border: solid 32px var(--white);
         font-size: var(--font-size-20);
         line-height: 32px;
         margin: 32px auto;

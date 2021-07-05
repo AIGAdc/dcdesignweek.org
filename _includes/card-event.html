@@ -1,5 +1,5 @@
 <li class="
-[ card card--event ]
+[ card card--event flow-small ]
 
 [ mix ]
 
@@ -99,13 +99,13 @@
 
     <div class="card__aside">
         <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
-            <figure class="card__image ">
+            <figure class="card-image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />
             </figure>
         </a>
 
         {% if event.status.is-featured-event == true and event.status.featured-event-message %}
-        <div class="banner banner--featured banner-black">
+        <div class="banner banner-featured banner-black">
             <div class="banner-inner" aria-hidden="true">
                 <p>{{ event.status.featured-event-message }}</p>
             </div>
@@ -113,7 +113,7 @@
         {% endif %}
 
         {% if event.status.is-featured-home == true and event.status.featured-event-message %}
-        <div class="banner banner--featured banner-black">
+        <div class="banner banner-featured banner-black">
             <div class="banner-inner" aria-hidden="true">
                 <p>{{ event.status.featured-event-message }}</p>
             </div>
@@ -121,7 +121,7 @@
         {% endif %}
 
         {% if event.status.is-sold-out == true and event.status.sold-out-message %}
-        <div class="banner banner--sold-out banner-cinnabar">
+        <div class="banner banner-sold-out banner-cinnabar">
             <div class="banner-inner" aria-hidden="true">
                 <p>{{ event.status.sold-out-message }}</p>
             </div>
@@ -129,7 +129,7 @@
         {% endif %}
 
         {% if event.status.has-occurred == true and event.status.occurred-message %}
-        <div class="banner banner--occurred banner-yellow">
+        <div class="banner banner-occurred banner-yellow">
             <div class="banner-inner" aria-hidden="true">
                 <p>{{ event.status.occurred-message }}</p>
             </div>
