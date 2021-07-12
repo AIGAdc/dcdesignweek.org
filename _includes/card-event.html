@@ -97,7 +97,7 @@
   {% endif %} ]
 ">
 
-    <div class="card__aside">
+    <div class="card-aside">
         <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
             <figure class="card-image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />
@@ -137,9 +137,9 @@
         {% endif %}
     </div>
 
-    <div class="card__header">
-        <a aria-label="{{ event.aria-label }}" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
-            <h3 class="card__title">
+    <div class="card-header">
+        <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
+            <h3>
                 {{ event.title }}
             </h3>
         </a>
@@ -148,10 +148,10 @@
         {% if page.url == "/" or "/events/" %}
         <div class="card-date">
             <p class="day">
-                {{ event.event-date | date: "%a"}}
+                {{ event.event-date | date: "%a" }}
             </p>
             <p class="date">
-                {{ event.event-date | date: "%m.%d"}}
+                {{ event.event-date | date: "%m.%d" }}
             </p>
             <figure>
                 <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -170,11 +170,4 @@
             </p>
         </div>
     </div>
-    {% if page.url == "/events/self-guided" %}
-    <div class="card-footer">
-        <a class="button button__solid--cinnabar" href="{{ content.button-url }}">
-            {{ content.button-label }}
-        </a>
-    </div>
-    {% endif %}
 </li>

@@ -5,13 +5,21 @@
     margin: auto;
     max-width: 40px;
     width: 100%;
-   
+
     &--black {
         background-color: var(--black);
     }
 
+    &--celeste {
+        background-color: var(--dcdw-2021-celeste);
+    }
+
     &--cinnabar {
         background-color: var(--dcdw-2021-cinnabar);
+    }
+
+    &--purple {
+        background-color: var(--dcdw-2021-purple);
     }
 
     &--yellow {

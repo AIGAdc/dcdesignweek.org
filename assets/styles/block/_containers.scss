@@ -1,34 +1,13 @@
 .container {
     margin: auto;
     max-width: 1366px;
+    padding: var(--space-64) var(--space-32);
     position: relative;
     z-index: var(--index-1);
-
-    &--tight {
-        max-width: 48ch;
-    }
-
-    &--default {
-        max-width: 72ch;
-    }
-
-    &--wide {
-        max-width: 96ch;
-    }
-
-    &--center {
-        text-align: center;
-    }
-
-    &--left {
-        text-align: left;
-    }
-
-    &--right {
-        text-align: right;
-    }
 }
 
-.container > *:not(:first-child) {
-    margin-top: var(--space-24);
+@media screen and (min-width: 1023px) {
+    .container {
+        padding: var(--space-144) var(--space-64);
+    }
 }

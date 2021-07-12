@@ -49,8 +49,6 @@
         display: grid;
         grid-template-columns: max-content 1fr max-content;
         grid-gap: var(--space-32);
-        border-top: 32px solid var(--white);
-margin-top: -32px;
     }
 
     .site-header__navigation,

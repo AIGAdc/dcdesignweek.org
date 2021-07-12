@@ -42,7 +42,7 @@ a:focus {
 
 body {
     background-color: var(--dcdw-2021-celeste);
-    background-image: url('/uploads/brick.png');
+    background-image: url("/uploads/brick.png");
     background-size: contain;
     color: var(--black);
     font-family: var(--font-poppins);
@@ -72,11 +72,13 @@ ul {
     padding: 0;
 }
 
+section {
+    position: relative;
+}
+
 @media screen and (min-width: 1280px) {
     body {
-        border: solid 32px var(--white);
         font-size: var(--font-size-20);
         line-height: 32px;
-        margin: 32px auto;
     }
 }

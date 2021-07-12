@@ -1,6 +1,41 @@
+.card-aside {
+    position: relative;
+}
+
 .card-image {
     border: solid 1px var(--black);
     margin-bottom: -1px;
+}
+
+.card h3 {
+    color: var(--black);
+    font-weight: 400;
+}
+
+.card-details {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+}
+
+.card-date {
+    position: relative;
+}
+
+.card .card-date {
+    font-size: var(--font-size-16);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card .card-date figure {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 // .card {

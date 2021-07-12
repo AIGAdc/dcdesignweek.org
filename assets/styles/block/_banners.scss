@@ -12,7 +12,10 @@
     color: var(--black);
     font-family: var(--font-bayard);
     padding: 8px;
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     overflow: hidden;
     text-transform: uppercase;
 }

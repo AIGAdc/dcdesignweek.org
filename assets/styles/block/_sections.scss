@@ -1,46 +1,7 @@
-.section {
-    position: relative;
-}
-
-.section > .container {
-    padding: var(--space-64) var(--space-32);
-    position: relative;
-}
-
 .events-layout .section-hero {
     overflow: hidden;
 }
 
 .section-subscribe {
     overflow: hidden;
-}
-
-// .section-hero {
-//     overflow: hidden;
-// }
-
-// // .section-committee,
-// // .section-events,
-// // .section-faqs,
-// // .section-hero ,
-// // .section-sponsors {
-// //     z-index: var(--index-6);
-// // }
-
-// // .events-layout .section-events {
-// //     z-index: var(--index-5);
-// // }
-
-// .section-subscribe {
-//     overflow: hidden;
-// }
-
-@media screen and (min-width: 1023px) {
-    .section > .container {
-        padding: var(--space-144) var(--space-64);
-    }
-
-    .section-subscribe > .container {
-        padding: var(--space-144) var(--space-64) var(--space-72) var(--space-64);
-    }
 }
