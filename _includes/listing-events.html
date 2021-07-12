@@ -1,17 +1,20 @@
 {% comment %}
 On homepage, show featured events and apply black background and paper tears
 {% endcomment %}
+
 {% if page.url == "/" %}
-<section id="events" class="section section-events background-black color-dcdw-2021-celeste">
+<section id="events" class="section section-events background-black color-dcdw-2021-celeste texture texture--paper">
+    <div class="ripped-paper ripped-paper-light-1-A" style="fill: var(--dcdw-black);">
+        {% include textures/rip-2.svg %}
+    </div>
     <div class="container">
-        <img class="ripped-paper ripped-paper-dark-8-A" src="/uploads/optimized-texture-ripped-paper-dark-8.png" alt="Ripped Paper Texture Style 8">
         <div class="flow-large">
             <h2 id="Replace with Variable">
-                Events Heading Level 2
+                H2: Events Heading
             </h2>
             <hr class="divider divider--cinnabar">
             <div class="wysiwyg">
-                Events Body Text
+                P: Events Body Text
             </div>
         </div>
 
@@ -31,23 +34,25 @@ On homepage, show featured events and apply black background and paper tears
                 {{ page.event-button-label}}
             </a>
         </div>
-
-        <img class="ripped-paper ripped-paper-dark-8-B rotate-180" src="/uploads/optimized-texture-ripped-paper-dark-8.png" alt="Ripped Paper Texture Style 8">
+    </div>
+    <div class="ripped-paper ripped-paper-light-1-B rotate-180" style="fill: var(--dcdw-black); z-index:100;">
+        {% include textures/rip-3.svg %}
     </div>
 </section>
 
 {% elsif page.url == "/events/" %}
-
-<section id="events" class="section section-events color-black ">
-    <img class="ripped-paper ripped-paper-light-1-A" src="/uploads/optimized-texture-ripped-paper-light-1.png" alt="Ripped Paper Texture Style Light 1">
+<section id="events" class="section section-events color-black texture texture--paper">
+    <div class="ripped-paper ripped-paper-light-1-A" style="fill: var(--dcdw-2021-celeste);">
+        {% include textures/rip-2.svg %}
+    </div>
     <div class="container">
         <div class="flow-large">
             <h2 id="Replace with Variable">
-                Events Heading Level 2
+                H2: Events Heading
             </h2>
             <hr class="divider divider--cinnabar">
             <div class="wysiwyg">
-                Events Body Text
+                P: Events Body Text
             </div>
         </div>
 
