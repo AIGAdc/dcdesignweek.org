@@ -1,20 +1,25 @@
-
 <section class="section section-partners background-dcdw-2021-celeste color-dcdw-2021-black texture texture--paper">
+    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
+        {% include textures/rip-1.svg %}
+    </div>
     <div class="container grid grid--two-column grid--align-center">
         <div>
-           Image
+            Image
         </div>
         <div class="flow-large">
             <h2>
-                {{ site.partner.header | markdownify }}
+                H2: {{ site.partner.header }}
             </h2>
             <hr class="divider divider--cinnabar">
             <div class="wysiwyg">
-                {{ site.partner.body | markdownify }}
+                P: {{ site.partner.body | markdownify }}
             </div>
             <a class="button button-solid--cinnabar" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
                 {{ site.partner.button-label | markdownify }}
             </a>
         </div>
+    </div>
+    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
+        {% include textures/rip-2.svg %}
     </div>
 </section>

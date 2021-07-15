@@ -76,6 +76,11 @@ section {
     position: relative;
 }
 
+svg {
+    display: block;
+    width: 100%;
+}
+
 @media screen and (min-width: 1280px) {
     body {
         font-size: var(--font-size-20);

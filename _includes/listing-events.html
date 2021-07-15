@@ -4,9 +4,6 @@ On homepage, show featured events and apply black background and paper tears
 
 {% if page.url == "/" %}
 <section data-section="celeste" id="events" class="section section-events background-black color-dcdw-2021-celeste texture texture--paper">
-    <div class="ripped-paper ripped-paper-light-1-A" style="fill: var(--dcdw-black);">
-        {% include textures/rip-2.svg %}
-    </div>
     <div class="container">
         <div class="flow-large">
             <h2 id="Replace with Variable">
@@ -42,9 +39,6 @@ On homepage, show featured events and apply black background and paper tears
 
 {% elsif page.url == "/events/" %}
 <section data-section="celeste" id="events" class="section section-events color-black texture texture--paper">
-    <div class="ripped-paper ripped-paper-light-1-A" style="fill: var(--dcdw-2021-celeste);">
-        {% include textures/rip-2.svg %}
-    </div>
     <div class="container">
         <div class="flow-large">
             <h2 id="Replace with Variable">
@@ -68,6 +62,9 @@ On homepage, show featured events and apply black background and paper tears
                 {% endfor %}
             </ul>
         </div>
+    </div>
+    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
+        {% include textures/rip-2.svg %}
     </div>
 </section>
 {% endif %}

@@ -1,49 +1,48 @@
-<section class="section section-committee background-black texture texture--paper">
-    <div class="container color-dcdw-2021-celeste">
-        <img class="ripped-paper ripped-paper-dark-8-A" src="/uploads/optimized-texture-ripped-paper-dark-8.png" alt="Ripped Paper Texture Style 8">
-        <div>
-            <h2 class="" id="Replace with Variable">
-                Committee Heading Level 2
-            </h2>
-            <div class="wysiwyg">
-                Committee Body Text
-            </div>
+<section class="section-committee background-black color-dcdw-2021-celeste texture texture--paper">
+    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
+        {% include textures/rip-1.svg %}
+    </div>
+    <div class="container">
+        <h2 class="" id="Replace with Variable">
+            H2: Committee Heading Level 2
+        </h2>
+        <div class="wysiwyg">
+            P: Committee Body Text
         </div>
-        <div class="gap-top-400">
-            <ul class="grid grid--four-column margin-top-60">
-                {% for member in site.committee %}
-                <li class="card card-committee">
-                    <div class="card__aside">
-                        {% assign min = 0 %}
-                        {% assign max = 10 %}
-                        {% assign diff = max | minus: min %}
-                        {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-                        <figure class="card-image clipped-{{ randomNumber }}">
-                            <img src="{{ member.image }}" alt="{{ member.image-alt }}" />
-                        </figure>
+    </div>
+    <div class="gap-top-400">
+        <ul class="grid grid--four-column margin-top-60">
+            {% for member in site.committee %}
+            <li class="card card-committee">
+                <div class="card__aside">
+                    {% assign min = 0 %}
+                    {% assign max = 10 %}
+                    {% assign diff = max | minus: min %}
+                    {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+                    <figure class="card-image clipped-{{ randomNumber }}">
+                        <img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+                    </figure>
+                </div>
+                <div class="card__header">
+                    <h3 class="card__title">{{ member.name }}</h3>
+                    <p class="card__subtitle">{{ member.role }}</p>
+                </div>
+                <div class="card__footer">
+                    <div class="card__links">
+                        {% if member.website-url-1 %}
+                        <p>
+                            <a aria-label="{{ member.website-aria-label-1 }}" class="card__link" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
+                        </p>
+                        {% endif %}
+                        {% if member.website-url-2 %}
+                        <p>
+                            <a aria-label="{{ member.website-aria-label-2 }}" class="card__link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
+                        </p>
+                        {% endif %}
                     </div>
-                    <div class="card__header">
-                        <h3 class="card__title">{{ member.name }}</h3>
-                        <p class="card__subtitle">{{ member.role }}</p>
-                    </div>
-                    <div class="card__footer">
-                        <div class="card__links">
-                            {% if member.website-url-1 %}
-                            <p>
-                                <a aria-label="{{ member.website-aria-label-1 }}" class="card__link" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
-                            </p>
-                            {% endif %}
-                            {% if member.website-url-2 %}
-                            <p>
-                                <a aria-label="{{ member.website-aria-label-2 }}" class="card__link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
-                            </p>
-                            {% endif %}
-                        </div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <img class="ripped-paper ripped-paper-dark-8-B rotate-180" src="/uploads/optimized-texture-ripped-paper-dark-8.png" alt="Ripped Paper Texture Style 8">
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </section>
