@@ -115,7 +115,7 @@ defaults:
       is-motion: 
       is-skill-building: 
       is-ui-ux: 
-    layout: events-landing
+    layout: events-single
 about-dcdw:
   header: About DC Design Week
   text: |-

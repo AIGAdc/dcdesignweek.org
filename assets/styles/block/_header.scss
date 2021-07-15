@@ -1,7 +1,8 @@
-.site-header {
+header {
     align-items: center;
     background-color: var(--dcdw-2021-celeste);
     border-bottom: solid 1px var(--black);
+    color: var(--black);
     display: grid;
     grid-gap: var(--space-16);
     grid-template-columns: max-content max-content;
@@ -13,51 +14,50 @@
     z-index: var(--index-10);
 }
 
-.site-header__logo svg {
+header svg {
     display: block;
+    fill: var(--black);
 }
 
-.site-header__navigation a {
+header nav a {
     color: var(--black);
     font-weight: 700;
     padding: var(--space-8);
     text-decoration: none;
 }
 
-.site-header__navigation a:hover {
+header nav a:hover {
     color: var(--dcdw-2021-cinnabar);
 }
 
-.site-header__navigation .link:not(:last-child) {
+header nav .link:not(:last-child) {
     margin-right: var(--space-16);
 }
 
-.site-header__navigation,
-.site-header__cta {
+header nav {
     display: none;
 }
 
 @media screen and (min-width: 960px) {
-    .site-header__navigation ul li {
+    header nav ul li {
         display: inline-block;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .site-header {
+    header {
         align-items: center;
         display: grid;
         grid-template-columns: max-content 1fr max-content;
         grid-gap: var(--space-32);
     }
 
-    .site-header__navigation,
-    .site-header__cta {
+    header nav {
         display: block;
     }
 
     // show site navigation when screen is > 1023
-    .site-header__navigation {
+    header nav {
         gap: var(--space-32);
         text-align: right;
     }

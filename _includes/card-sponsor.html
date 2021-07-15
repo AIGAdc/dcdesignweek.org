@@ -1,8 +1,8 @@
 <li class="card card--sponsors column--span-1">
     {% if content.title %}
     <div class="card__header">
-        <h4 class="card__title" id="{{ content.title | downcase | replace: " ", "-" }}">
-            {{ content.title }}
+        <h4 class="card__title" id="{{ content.title | downcase | replace: " ", " -" }}">
+            H4: {{ content.title }}
         </h4>
     </div>
     {% endif %}

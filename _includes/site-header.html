@@ -1,23 +1,18 @@
-<header class="site-header texture texture--paper">
-    <a aria-label="DCDW Logo and link to home page" href="/" class="site-header__logo">
+<header class="texture texture--paper">
+    <a aria-label="DCDW Logo and link to home page" href="/" class="logo">
         {% include icon/dcdw-logo.html %}
     </a>
-    <nav class="site-header__navigation">
+    <nav class="navigation">
         <ul class="links">
             {% for link in site.navigation-production %}
             <li class="link">
-                <a aria-label="{{ link.aria-label }}" class="button-square button-square__link button-square__link--white" href="{{ link.url }}">
+                <a aria-label="{{ link.aria-label }}" class="anchor" href="{{ link.url }}">
                     {{ link.label }}
                 </a>
             </li>
             {% endfor %}
         </ul>
     </nav>
-    <div class="site-header__cta">
-        <a class="button button__solid--cinnabar" href="mailto:designweek@dc.aiga.org">
-            Become a Partner
-        </a>
-    </div>
     <!-- Off-canvas toggle button -->
     <button aria-label="Offscreen Menu Button" type="button" id="my-button">
         <i class="fas fa-bars"></i>
