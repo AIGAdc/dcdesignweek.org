@@ -91,3 +91,17 @@
     /* rotation: 0 degress / clipped-1 */
     clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
 }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    .clipped-1,
+    .clipped-2,
+    .clipped-3,
+    .clipped-4 {
+        transition: none !important;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+    }
+}

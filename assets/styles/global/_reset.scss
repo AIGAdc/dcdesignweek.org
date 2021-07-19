@@ -76,7 +76,7 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
     * {
-        -webkit-animation-duration: var(--timing-quick) !important;
+        -webkit-animation-duration: 0 !important;
         animation-duration: var(--timing-quick) !important;
         -webkit-animation-iteration-count: 1 !important;
         animation-iteration-count: 1 !important;

@@ -55,6 +55,11 @@
     mix-blend-mode: luminosity;
 }
 
+.card-committee h3,
+.card-committee p {
+    font-size: var(--font-size-16);
+}
+
 // .card {
 //     @include flex-column;
 //     transition: -webkit-filter var(--timing-quick) ease-in;

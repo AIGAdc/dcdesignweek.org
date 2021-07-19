@@ -2,9 +2,17 @@
 // https://tympanus.net/codrops/2020/03/31/css-only-marquee-effect/
 
 :root {
-    --offset: 15vw;
+    --offset: 4vw;
     --move-initial: calc(-25% + var(--offset));
     --move-final: calc(-75% + var(--offset));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --offset: 4vw;
+        --move-initial: calc(-25% + var(--offset));
+        --move-final: calc(-75% + var(--offset));
+    }
 }
 
 .banner {
