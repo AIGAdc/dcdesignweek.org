@@ -4,5 +4,23 @@ layout: base
 
 {% include section-hero.html %}
 {% include listing-sponsors.html %}
-{% include section-text-image-left.html %}
 {% include listing-committee.html %}
+<section class="section-partners background-black color-dcdw-2021-celeste texture texture--paper">
+    <div class="container grid grid--two-column grid--align-center">
+        <div>
+            Image
+        </div>
+        <div class="flow-2">
+            <h2>
+                {{ page.title | markdownify }}
+            </h2>
+            <hr class="divider divider--yellow">
+            <div class="wysiwyg">
+                {{ page.description | markdownify }}
+            </div>
+            <a class="button button-solid--yellow" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
+                {{ site.partner.button-label | markdownify }}
+            </a>
+        </div>
+    </div>
+</section>
