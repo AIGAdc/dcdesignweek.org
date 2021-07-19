@@ -134,6 +134,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 1
+  color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -144,6 +146,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 1
+  color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -154,6 +158,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 2
+  color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -164,6 +170,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 4
+  color: cinnabar
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -174,6 +182,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 3
+  color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -184,6 +194,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 2
+  color: cinnabar
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -194,6 +206,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 4
+  color: beige
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -204,6 +218,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 2
+  color: black
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -214,6 +230,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 1
+  color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -224,6 +242,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 4
+  color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -234,6 +254,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 3
+  color: black
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram
@@ -244,6 +266,8 @@ committee:
   image-alt: Committee Member Image
   name: Committee Member Name
   role: Committee Member Role
+  number: 1
+  color: beige
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Committee Member Instagram

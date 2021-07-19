@@ -51,6 +51,10 @@
     left: 0;
 }
 
+.card-committee img {
+    mix-blend-mode: luminosity;
+}
+
 // .card {
 //     @include flex-column;
 //     transition: -webkit-filter var(--timing-quick) ease-in;

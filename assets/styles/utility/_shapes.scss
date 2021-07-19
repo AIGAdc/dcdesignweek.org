@@ -40,85 +40,54 @@
     height: 0;
 }
 
-.clipped-0,
 .clipped-1,
 .clipped-2,
 .clipped-3,
-.clipped-4,
-.clipped-5,
-.clipped-6,
-.clipped-8,
-.clipped-9,
-.clipped-10 {
-    transition: all 100ms ease-in-out;
-    -webkit-transition: all 100ms ease-in-out;
-    -moz-transition: all 100ms ease-in-out;
-    -ms-transition: all 100ms ease-in-out;
-    -o-transition: all 100ms ease-in-out;
+.clipped-4 {
+    transition: clip-path 250ms ease-in-out;
+    -webkit-transition: clip-path 250ms ease-in-out;
+    -moz-transition: clip-path 250ms ease-in-out;
+    -ms-transition: clip-path 250ms ease-in-out;
+    -o-transition: clip-path 250ms ease-in-out;
 }
 
-.clipped-0,
-.clipped-1,
-.clipped-6 {
+.clipped-1 {
     /* rotation: 0 degrees*/
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
 }
 
-.clipped-2,
-.clipped-7 {
+.clipped-2 {
     /* rotation: 25 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+    clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
 }
 
-.clipped-3,
-.clipped-8 {
+.clipped-3 {
     /* rotation: 50 degress */
-    clip-path: polygon(57% 10%, 75% 11%, 100% 34%, 68% 91%, 72% 94%, 45% 100%, 0% 70%, 46% 0);
+    clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
 }
 
-.clipped-4,
-.clipped-9 {
+.clipped-4 {
     /* rotation: 75 degress */
-    clip-path: polygon(79% 0, 84% 17%, 96% 25%, 99% 67%, 45% 95%, 46% 100%, 22% 89%, 0 22%);
-}
-
-.clipped-5,
-.clipped-10,
-.clipped-11 {
-    /* rotation: 100 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+    clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
 }
 
 // Hover
-
-.clipped-0:hover,
-.clipped-1:hover,
-.clipped-6:hover {
-    /* rotation: 100 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+.clipped-1:hover {
+    /* rotation: 75 degress / clipped-4 */
+    clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
 }
 
-.clipped-2:hover,
-.clipped-7:hover {
-    /* rotation: 75 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+.clipped-2:hover {
+    /* rotation: 50 degress / clipped-3 */
+    clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
 }
 
-.clipped-3:hover,
-.clipped-8:hover {
-    /* rotation: 25 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+.clipped-3:hover {
+    /* rotation: 25 degress / clipped-2 */
+    clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
 }
 
-.clipped-4:hover,
-.clipped-9:hover {
-    /* rotation: 50 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
-}
-
-.clipped-5:hover,
-.clipped-10:hover,
-.clipped-11:hover {
-    /* rotation: 0 degress */
-    clip-path: polygon(92% 16%, 90% 32%, 100% 49%, 91% 90%, 26% 94%, 25% 100%, 0% 70%, 12% 0);
+.clipped-4:hover {
+    /* rotation: 0 degress / clipped-1 */
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
 }
