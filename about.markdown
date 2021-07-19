@@ -4,8 +4,8 @@ permalink: "/about/"
 published: true
 hero:
 - has-hero: true
-  header: "H2: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
-  subheader: "Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
+  header: "H1: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
+  subheader: "P: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
   image-1: 
   image-1-alt: 
   button-label: "Lorem Ipsum"
