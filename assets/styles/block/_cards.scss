@@ -7,8 +7,11 @@
     margin-bottom: -1px;
 }
 
-.card h3 {
-    color: var(--black);
+.home-layout .section-events .card-header a {
+    color: var(--dcdw-2021-celeste);
+}
+
+.home-layout .section-events .card-header h3 {
     font-weight: 400;
 }
 
