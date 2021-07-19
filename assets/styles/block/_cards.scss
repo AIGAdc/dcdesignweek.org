@@ -7,7 +7,14 @@
     margin-bottom: -1px;
 }
 
-.home-layout .section-events .card-header a {
+.card-image img {
+    min-height: 288px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-layout .section-events .card--event a {
+    display: block;
     color: var(--dcdw-2021-celeste);
 }
 
@@ -23,17 +30,14 @@
 }
 
 .card-date {
-    position: relative;
-}
-
-.card .card-date {
     font-size: var(--font-size-16);
     font-weight: 700;
-    text-align: center;
+    letter-spacing: -0.5px;
+    position: relative;
     text-transform: uppercase;
 }
 
-.card .card-date figure {
+.card-date figure {
     position: absolute;
     top: -16px;
     right: 0;
