@@ -2,7 +2,7 @@
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--dcdw-black);">
         {% include textures/rip-1.svg %}
     </div>
-    <section class="section section-subscribe">
+    <section class="section-subscribe">
         <div class="container grid grid--two-column grid--align-center">
             <div>
                 <figure style="z-index: var(--index-2); position: relative;">
@@ -11,7 +11,7 @@
             </div>
             <div class="flow-2">
                 <h2>
-                    {{ site.subscribe.header }}
+                    {{ site.subscribe.header | markdownify }}
                 </h2>
                 <hr class="divider divider--cinnabar">
                 <div class="wysiwyg">
