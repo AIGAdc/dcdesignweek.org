@@ -1,0 +1,23 @@
+.filter-events fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    background-color: var(--dcdw-2021-celeste);
+    border: 1px solid var(--black);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: var(--space-24);
+}
+
+.control:not(:last-child) {
+    margin-right: -1px;
+}
+
+.mixitup-control-active {
+    border-top: 4px solid var(--dcdw-2021-cinnabar);
+}

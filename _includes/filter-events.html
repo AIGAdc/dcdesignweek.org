@@ -1,105 +1,99 @@
 <form class="filter-events">
-    <div class="grid grid--nine-column gap-none control-group filter-events__dates" data-filter-group="">
-        <button class="control control-text" type="reset">
-            All Days
-        </button>
+    <fieldset data-filter-group>
+        <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+            <h2 class="govuk-fieldset__heading">
+                Event Date
+            </h2>
+        </legend>
         {% for control in site.filter-events.day %}
-        <button class="control {{ control.class }} {% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" data-filter="{{ control.filter }}" type="button">
+        <label>
+            <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" name="color" value="{{ control.filter }}" />
             <span class="control-text-1">
                 {{ control.text-1 }}
             </span>
             <span class="control-text-3">
                 {{ control.text-3 }}
             </span>
-        </button>
+        </label>
         {% endfor %}
-    </div>
-    <div class="filter-events__additional-filters">
-        <div class="filter-events__additional-header grid grid--two-column gap-none">
-            <span class="filter-events__additional-title" data-houdini-toggle="additional-filters">
-                <span>
-                    Additional Filters
-                </span>
-            </span>
-            <div class="filter-events__reset control-group">
-                <button class=" button button-solid--cinnabar" type="reset">
-                    Clear Filters
-                </button>
-            </div>
+    </fieldset>
+
+    <fieldset data-filter-group>
+        <legend>
+            <h2>
+                Event Status
+            </h2>
+        </legend>
+        <div class="radio">
+            <label class="radio-label custom-radio">
+                <input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
+                <span class="checkmark"></span>
+                Hide Past Events
+            </label>
         </div>
-        <div class="filter-events__additional-content" data-houdini-group="additional-filters" id="additional-filters">
-            <div class="grid grid--four-columns filter-events__status control-group" data-filter-group="">
-                <div class="column column--span-1">
-                    <span>
-                        Status
-                    </span>
-                    {% for control in site.agenda.status %}
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                            <span class="checkmark"></span>
-                            {{ control.text-1 }}
-                        </label>
-                    </div>
-                    {% endfor %}
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
-                            <span class="checkmark"></span>
-                            Hide Past Events
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
-                            <span class="checkmark"></span>
-                            Hide Sold Out
-                        </label>
-                    </div>
-                </div>
-                <div class="column column--span-1">
-                    <span>
-                        Time
-                    </span>
-                    {% for control in site.filter-events.time %}
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                            <span class="checkmark"></span>
-                            {{ control.text-1 }}
-                        </label>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div class="column column--span-1">
-                    <span>
-                        Type
-                    </span>
-                    {% for control in site.filter-events.type %}
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                            <span class="checkmark"></span>
-                            {{ control.text-1 }}
-                        </label>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div class="column column--span-1">
-                    <span>
-                        Focus
-                    </span>
-                    {% for control in site.filter-events.focus %}
-                    <div class="radio">
-                        <label class="radio-label custom-radio">
-                            <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                            <span class="checkmark"></span>
-                            {{ control.text-1 }}
-                        </label>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
+        <div class="radio">
+            <label class="radio-label custom-radio">
+                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
+                <span class="checkmark"></span>
+                Hide Sold Out
+            </label>
         </div>
+    </fieldset>
+
+    <fieldset data-filter-group>
+        <legend>
+            <h2>
+                Event Time
+            </h2>
+        </legend>
+        {% for control in site.filter-events.time %}
+        <div class="radio">
+            <label class="radio-label custom-radio">
+                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
+                <span class="checkmark"></span>
+                {{ control.text-1 }}
+            </label>
+        </div>
+        {% endfor %}
+    </fieldset>
+
+    <fieldset data-filter-group>
+        <legend>
+            <h2>
+                Event Type
+            </h2>
+        </legend>
+        {% for control in site.filter-events.type %}
+        <div class="radio">
+            <label class="radio-label custom-radio">
+                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
+                <span class="checkmark"></span>
+                {{ control.text-1 }}
+            </label>
+        </div>
+        {% endfor %}
+    </fieldset>
+
+    <fieldset data-filter-group>
+        <legend>
+            <h2>
+                Event Focus
+            </h2>
+        </legend>
+        {% for control in site.filter-events.focus %}
+        <div class="radio">
+            <label class="radio-label custom-radio">
+                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
+                <span class="checkmark"></span>
+                {{ control.text-1 }}
+            </label>
+        </div>
+        {% endfor %}
+    </fieldset>
+
+    <div class="filter-events__reset control-group">
+        <button class=" button button-solid--cinnabar" type="reset">
+            Clear Filters
+        </button>
     </div>
 </form>
