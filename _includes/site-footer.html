@@ -13,14 +13,16 @@
                 <h2>
                     {{ site.subscribe.header }}
                 </h2>
-                <hr class="divider divider--black">
+                <hr class="divider divider--cinnabar">
                 <div class="wysiwyg">
                     {{ site.subscribe.body | markdownify }}
                 </div>
                 {% include third-party/mailchimp/form.html %}
             </div>
         </div>
-        {% include pattern/inspired.html %}
+        <div class="pattern pattern-inspired" style="fill: var(--black);">
+            {% include pattern/inspired.html %}
+        </div>
     </section>
 
     <section class="footer-content">
