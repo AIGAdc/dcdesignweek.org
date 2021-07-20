@@ -39,16 +39,18 @@ On homepage, show featured events and apply black background and paper tears
 {% elsif page.url == "/events/" %}
 <section id="events" class="section-events background-dcdw-2021-celeste color-black texture texture--paper">
     <div class="container">
-        <div>
-            {% include filter-events.html %}
-        </div>
-        <div class="gap-top-1000">
-            <ul class="grid grid--four-column mixitup-container">
-                {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
-                {% for event in sorted %}
-                {% include card-event.html %}
-                {% endfor %}
-            </ul>
+        <div class="grid grid--four-column">
+            <div class="grid--one-column-span">
+                {% include filter-events.html %}
+            </div>
+            <div class="grid--three-column-span">
+                <ul class="grid grid--three-column mixitup-container">
+                    {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
+                    {% for event in sorted %}
+                    {% include card-event.html %}
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </section>
