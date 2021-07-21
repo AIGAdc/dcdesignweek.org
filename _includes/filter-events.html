@@ -1,21 +1,21 @@
-<form class="filter-events">
+<form class="filter-events flow-2">
     <fieldset data-filter-group>
         <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
             <h2 class="govuk-fieldset__heading">
                 Event Date
             </h2>
         </legend>
-        {% for control in site.filter-events.day %}
-        <label>
-            <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" name="color" value="{{ control.filter }}" />
-            <span class="control-text-1">
-                {{ control.text-1 }}
-            </span>
-            <span class="control-text-3">
-                {{ control.text-3 }}
-            </span>
-        </label>
-        {% endfor %}
+        <div class="flow-0">
+            {% for control in site.filter-events.day %}
+            <label class="radio-label custom-radio">
+                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" name="color" value="{{ control.filter }}" />
+                <span class="checkmark"></span>
+                <span class="control-text-1">
+                    {{ control.text-1 }} {{ control.text-3 }}
+                </span>
+            </label>
+            {% endfor %}
+        </div>
     </fieldset>
 
     <fieldset data-filter-group>
@@ -24,14 +24,12 @@
                 Event Status
             </h2>
         </legend>
-        <div class="radio">
+        <div class="flow-0">
             <label class="radio-label custom-radio">
                 <input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
                 <span class="checkmark"></span>
                 Hide Past Events
             </label>
-        </div>
-        <div class="radio">
             <label class="radio-label custom-radio">
                 <input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
                 <span class="checkmark"></span>
@@ -46,15 +44,15 @@
                 Event Time
             </h2>
         </legend>
-        {% for control in site.filter-events.time %}
-        <div class="radio">
+        <div class="flow-0">
+            {% for control in site.filter-events.time %}
             <label class="radio-label custom-radio">
                 <input name="additional-filters" type="radio" value="{{ control.filter }}" />
                 <span class="checkmark"></span>
                 {{ control.text-1 }}
             </label>
+            {% endfor %}
         </div>
-        {% endfor %}
     </fieldset>
 
     <fieldset data-filter-group>
@@ -63,15 +61,15 @@
                 Event Type
             </h2>
         </legend>
-        {% for control in site.filter-events.type %}
-        <div class="radio">
+        <div class="flow-0">
+            {% for control in site.filter-events.type %}
             <label class="radio-label custom-radio">
                 <input name="additional-filters" type="radio" value="{{ control.filter }}" />
                 <span class="checkmark"></span>
                 {{ control.text-1 }}
             </label>
+            {% endfor %}
         </div>
-        {% endfor %}
     </fieldset>
 
     <fieldset data-filter-group>
@@ -80,15 +78,15 @@
                 Event Focus
             </h2>
         </legend>
-        {% for control in site.filter-events.focus %}
-        <div class="radio">
+        <div class="flow-0">
+            {% for control in site.filter-events.focus %}
             <label class="radio-label custom-radio">
                 <input name="additional-filters" type="radio" value="{{ control.filter }}" />
                 <span class="checkmark"></span>
                 {{ control.text-1 }}
             </label>
+            {% endfor %}
         </div>
-        {% endfor %}
     </fieldset>
 
     <div class="filter-events__reset control-group">

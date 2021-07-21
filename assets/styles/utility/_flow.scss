@@ -5,6 +5,10 @@
     z-index: var(--index-5);
 }
 
+.flow-0>*:not(:first-child) {
+    margin-top: var(--space-8);
+}
+
 .flow-1>*:not(:first-child) {
     margin-top: var(--space-16);
 }
