@@ -1,6 +1,6 @@
 .button {
     border: solid 4px transparent;
-    display: inline-block;
+    display: block;
     font-weight: 700;
     padding: var(--space-8) var(--space-16);
     text-align: center;
@@ -86,4 +86,10 @@
 .button-border--cinnabar::selection,
 .button-link--cinnabar::selection {
     background-color: unset;
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
 }
