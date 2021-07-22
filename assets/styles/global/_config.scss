@@ -3,7 +3,7 @@
 /// you keep it at 1rem because that is the root font size. You
 /// can set it to whatever you like and whatever unit you like.
 ///
-$gorko-base-size: 1.25rem;
+$gorko-base-size: 1rem;
 
 /// SIZE SCALE
 /// This is a Major Third scale that powers all the utilities that
@@ -12,23 +12,40 @@ $gorko-base-size: 1.25rem;
 /// your whole project.
 ///
 $gorko-size-scale: (
-    "000": 0.25rem !important, // 4px
-    "100": 0.5rem !important, // 8px
-    "200": 1rem !important, // 16px
-    "300": 1.125rem !important, // 18px
-    "400": 1.5rem !important, // 24px
-    "500": 2rem !important, // 32px
-    "600": 2.5rem !important, // 40px
-    "700": 3rem !important, // 48px
-    "800": 3.5rem !important, // 56px
-    "900": 4rem !important, // 64px
-    "1000": 4.5rem !important, // 72px
-    "1100": 5rem !important, // 80px
-    "1200": 5.5rem !important, // 88px
-    "1300": 6rem !important, // 96px
-    "1400": 6.5rem !important, // 104px
-    "1500": 7rem !important, // 112px
-    "1600": 7.5rem !important, // 120px
+    "000": 0.25rem !important,
+    // 4px
+    "100": 0.5rem !important,
+    // 8px
+    "200": 1rem !important,
+    // 16px
+    "300": 1.125rem !important,
+    // 18px
+    "400": 1.5rem !important,
+    // 24px
+    "500": 2rem !important,
+    // 32px
+    "600": 2.5rem !important,
+    // 40px
+    "700": 3rem !important,
+    // 48px
+    "800": 3.5rem !important,
+    // 56px
+    "900": 4rem !important,
+    // 64px
+    "1000": 4.5rem !important,
+    // 72px
+    "1100": 5rem !important,
+    // 80px
+    "1200": 5.5rem !important,
+    // 88px
+    "1300": 6rem !important,
+    // 96px
+    "1400": 6.5rem !important,
+    // 104px
+    "1500": 7rem !important,
+    // 112px
+    "1600": 7.5rem !important,
+    // 120px
 );
 
 /// COLORS
@@ -36,19 +53,12 @@ $gorko-size-scale: (
 /// You can also use them to power borders, fills or shadows, for example.
 ///
 $gorko-colors: (
-    "white": #ffffff !important,
+    "beige": #d1d1c5 !important,
     "black": #000000 !important,
-    "green": #4ae725 !important,
-    "dcdw-2016": #0000ff !important,
-    "dcdw-2017": #3e07d0 !important,
-    "dcdw-2018": #297b76 !important,
-    "dcdw-2019": #fb7eb8 !important,
-    "dcdw-2020": #4ae725 !important,
-    "dcdw-2021-beige": #D1D1C5 !important,
-    "dcdw-2021-celeste": #ecece5 !important,
-    "dcdw-2021-cinnabar": #ec1001 !important,
-    "dcdw-2021-purple": #ac7aff !important,
-    "dcdw-2021-yellow": #ffff00 !important
+    "celeste": #ecece5 !important,
+    "cinnabar": #ec1001 !important,
+    "purple": #ac7aff !important,
+    "yellow": #ffff00 !important,
 );
 
 /// CORE CONFIG
@@ -56,12 +66,12 @@ $gorko-colors: (
 /// to enabling/disabling pre-built components/utilities.
 ///
 $gorko-config: (
-    "background": (
+    "background-dcdw-2021": (
         "items": $gorko-colors,
         "output": "standard",
         "property": "background-color",
     ),
-    "color": (
+    "color-dcdw-2021": (
         "items": $gorko-colors,
         "output": "standard",
         "property": "color",
@@ -77,49 +87,42 @@ $gorko-config: (
         "output": "responsive",
         "property": "display",
     ),
-    "font": (
-        "items": (
-            "base": "Helvetica, Arial, sans-serif",
-        ),
-        "output": "standard",
-        "property": "font-family",
-    ),
-    "gap-top": (
+    "gap-margin-top": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "margin-top",
     ),
-    "gap-right": (
+    "gap-margin-right": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "margin-right",
     ),
-    "gap-bottom": (
+    "gap-margin-bottom": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "margin-bottom",
     ),
-    "gap-left": (
+    "gap-margin-left": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "margin-left",
     ),
-    "pad-top": (
+    "gap-padding-top": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "padding-top",
     ),
-    "pad-right": (
+    "gap-padding-right": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "padding-right",
     ),
-    "pad-bottom": (
+    "gap-padding-bottom": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "padding-bottom",
     ),
-    "pad-left": (
+    "gap-padding-left": (
         "items": $gorko-size-scale,
         "output": "standard",
         "property": "padding-left",
@@ -140,12 +143,29 @@ $gorko-config: (
         "output": "standard",
         "property": "z-index",
     ),
-    "text": (
+    "font-align": (
+        "items": (
+            "left": "left",
+            "center": "center",
+            "right": "right",
+        ),
+        "output": "standard",
+        "property": "text-align",
+    ),
+    "font-family": (
+        "items": (
+            "poppins": "'Poppins', sans-serif",
+            "bayard": "'Bayard Regular', sans-serif",
+        ),
+        "output": "standard",
+        "property": "font-family",
+    ),
+    "font-size": (
         "items": $gorko-size-scale,
         "output": "responsive",
         "property": "font-size",
     ),
-    "weight": (
+    "font-weight": (
         "items": (
             "light": "300",
             "regular": "400",

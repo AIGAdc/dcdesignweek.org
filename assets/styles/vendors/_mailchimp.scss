@@ -14,7 +14,7 @@
 }
 
 #mc_embed_signup .mc-field-group input {
-    background-color: var(--dcdw-2021-celeste);
+    background-color: var(--celeste);
     border: solid 4px var(--black);
     border-radius: none;
     color: var(--black);
@@ -27,12 +27,12 @@
 }
 
 #mc_embed_signup .mc-field-group input:focus {
-    outline: solid 4px var(--dcdw-2021-cinnabar);
+    outline: solid 4px var(--cinnabar);
     outline-offset: -4px;
 }
 
 #mc_embed_signup .asterisk {
-    color: var(--dcdw-2021-cinnabar);
+    color: var(--cinnabar);
     font-weight: 700;
 }
 
@@ -43,7 +43,7 @@
 
 // message for when a visitor successfully signs up for the newsletter
 #mc_embed_signup div.response {
-    background-color: var(--dcdw-2021-cinnabar);
+    background-color: var(--cinnabar);
     padding: 8px;
     z-index: 100;
 }
@@ -72,7 +72,7 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-    background-color: var(--dcdw-2021-cinnabar);
+    background-color: var(--cinnabar);
     display: block;
     color: var(--black);
     font-size: inherit;
@@ -84,7 +84,7 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 4px solid var(--dcdw-2021-cinnabar);
+    border: 4px solid var(--cinnabar);
 }
 
 #mc_embed_signup input.button {

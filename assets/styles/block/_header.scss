@@ -1,6 +1,6 @@
 header {
     align-items: center;
-    background-color: var(--dcdw-2021-celeste);
+    background-color: var(--celeste);
     border-bottom: solid 1px var(--black);
     color: var(--black);
     display: grid;
@@ -27,7 +27,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: var(--dcdw-2021-cinnabar);
+    color: var(--cinnabar);
 }
 
 header nav .link:not(:last-child) {
@@ -48,8 +48,9 @@ header nav {
     header {
         align-items: center;
         display: grid;
-        grid-template-columns: max-content 1fr max-content;
+        grid-template-columns: max-content 1fr;
         grid-gap: var(--space-32);
+        padding: var(--space-16) var(--space-64);
     }
 
     header nav {

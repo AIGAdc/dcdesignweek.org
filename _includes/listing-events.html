@@ -3,7 +3,7 @@ On homepage, show featured events and apply black background and paper tears
 {% endcomment %}
 
 {% if page.url == "/" %}
-<section id="events" class="section-events background-black color-dcdw-2021-celeste texture texture--paper">
+<section id="events" class="section-events background-dcdw-2021-black color-dcdw-2021-celeste texture texture--paper">
     <div class="container flow-4">
         <div class="grid grid--four-column">
             <div class="grid--three-column-span flow-2">
@@ -28,7 +28,7 @@ On homepage, show featured events and apply black background and paper tears
             </ul>
         </div>
 
-        <div class="gap-top-1000">
+        <div class="gap-margin-top-1000">
             <a class="button button-solid--yellow" href="{{ page.event-button-url }}">
                 {{ page.event-button-label }}
             </a>
@@ -37,7 +37,7 @@ On homepage, show featured events and apply black background and paper tears
 </section>
 
 {% elsif page.url == "/events/" %}
-<section id="events" class="section-events background-dcdw-2021-celeste color-black texture texture--paper">
+<section id="events" class="section-events background-celeste color-black texture texture--paper">
     <div class="container">
         <div class="grid grid--four-column">
             <div class="grid--one-column-span">

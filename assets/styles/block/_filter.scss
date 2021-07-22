@@ -6,7 +6,7 @@
 }
 
 .mixitup-control-active {
-    border-top: 4px solid var(--dcdw-2021-cinnabar);
+    border-top: 4px solid var(--cinnabar);
 }
 
 .custom-radio {
@@ -35,12 +35,12 @@
     height: 32px;
     width: 32px;
     border-radius: 50%;
-    border: solid 8px var(--dcdw-2021-cinnabar);
+    border: solid 8px var(--cinnabar);
     background-color: transparent;
 }
 
 .custom-radio input:checked~.checkmark {
-    background-color: var(--dcdw-2021-cinnabar);
+    background-color: var(--cinnabar);
 }
 
 .custom-radio .checkmark::after {

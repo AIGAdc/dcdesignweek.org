@@ -4,25 +4,29 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -10;
+    z-index: var(--index-10);
 }
 
-.overlay-black {
+.overlay--beige {
+    background-color: var(--beige);
+}
+
+.overlay--black {
     background-color: var(--black);
 }
 
-.overlay-celeste {
-    background-color: var(--dcdw-2021-celeste);
+.overlay--celeste {
+    background-color: var(--celeste);
 }
 
-.overlay-cinnabar {
-    background-color: var(--dcdw-2021-cinnabar);
+.overlay--cinnabar {
+    background-color: var(--cinnabar);
 }
 
-.overlay-yellow {
-    background-color: var(--dcdw-2021-yellow);
+.overlay--purple {
+    background-color: var(--purple);
 }
 
-.overlay-purple {
-    background-color: var(--dcdw-2021-purple);
+.overlay--yellow {
+    background-color: var(--yellow);
 }
