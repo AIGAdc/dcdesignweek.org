@@ -15,6 +15,17 @@
             </div>
             {% endfor %}
         </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    {% for control in site.filter-events.day %}
+                    <option name="event-date" value="{{ control.filter }}">
+                        {{ control.text-1 }} {{ control.text-3 }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
     </fieldset>
 
     <fieldset data-filter-group>
@@ -24,31 +35,60 @@
             </h2>
         </legend>
         <div class="radio-group">
-            <label for="hide-past-events">
-                <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
-                Hide Past Events
-            </label>
-            <label for="hide-sold-out">
-                <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
-                Hide Sold Out
-            </label>
+            <div class="mambo-radio">
+                <label for="hide-past-events">
+                    <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
+                    Hide Past Events
+                </label>
+            </div>
+            <div class="mambo-radio">
+                <label for="hide-sold-out">
+                    <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
+                    Hide Sold Out
+                </label>
+            </div>
+        </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    <option name="event-date" value=".mix:not(.past-event)">
+                        Hide Past Events
+                    </option>
+                    <option name="event-date" value=".mix:not(.sold-out)"">
+                        Hide Sold Out
+                    </option>
+                </select>
+            </div>
         </div>
     </fieldset>
 
     <fieldset data-filter-group>
         <legend>
-            <h2 aria-label="Filter: Event Time">
-                Event Time
-            </h2>
-        </legend>
-        <div class="radio-group">
-            {% for control in site.filter-events.time %}
-            <label for="{{ control.text-1 }}">
-                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
-                {{ control.text-1 }}
-            </label>
-            {% endfor %}
-        </div>
+            <h2 aria-label=" Filter: Event Time">
+                        Event Time
+                        </h2>
+                        </legend>
+                        <div class="radio-group">
+                            {% for control in site.filter-events.time %}
+                            <div class="mambo-radio">
+                                <label for="{{ control.text-1 }}">
+                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
+                                    {{ control.text-1 }}
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="select-group">
+                            <div class="mambo-select">
+                                <select>
+                                    {% for control in site.filter-events.time %}
+                                    <option name="event-time" value="{{ control.filter }}">
+                                        {{ control.text-1 }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
     </fieldset>
 
     <fieldset data-filter-group>
@@ -59,11 +99,24 @@
         </legend>
         <div class="radio-group">
             {% for control in site.filter-events.type %}
-            <label for="{{ control.text-1 }}">
-                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
-                {{ control.text-1 }}
-            </label>
+            <div class="mambo-radio">
+                <label for="{{ control.text-1 }}">
+                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
+                    {{ control.text-1 }}
+                </label>
+            </div>
             {% endfor %}
+        </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    {% for control in site.filter-events.type %}
+                    <option name="event-type" value="{{ control.filter }}">
+                        {{ control.text-1 }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
         </div>
     </fieldset>
 
