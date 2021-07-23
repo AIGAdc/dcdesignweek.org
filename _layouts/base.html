@@ -37,8 +37,15 @@ layout: compress
     </head>
 
     <body>
-        <main class="{{ page.layout }}-layout" id="my-content-container">
+        <main class="{{ page.layout }}-layout" id="main-content">
             {%- include site-header.html -%}
+            {% if page.url == "/" %}
+            {%- include section-hero-home.html -%}
+            {% elsif page.layout == "events-single" %}
+            {% include events-single-1-hero.html %}
+            {% else %}
+            {% include section-hero.html %}
+            {% endif %}
             {{ content | safe }}
             {%- include site-footer.html -%}
         </main>
