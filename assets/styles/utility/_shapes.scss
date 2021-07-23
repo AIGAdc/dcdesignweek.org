@@ -61,4 +61,18 @@
         -ms-transition: none !important;
         -o-transition: none !important;
     }
+
+    // sets the hover of the clipped shapes to be the default state to ensure no flipping occurs when this selected on a visitors machine
+    .clipped-1:hover {
+        clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
+    }
+    .clipped-2:hover {
+        clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
+    }
+    .clipped-3:hover {
+        clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
+    }
+    .clipped-4:hover {
+        clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
+    }
 }
