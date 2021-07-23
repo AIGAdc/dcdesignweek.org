@@ -1,47 +1,73 @@
-<section class="[ section section-landing-hero ] [ spacing-0 ] [ vignette-radial ]" style="background-image:url('{{ page.image }}');">
-    <div class="[ grid ]">
-        <div class="[ grid-col grid-col--span-4 ] [ landing-hero__content ]">
-            <div class="landing-hero__details">
-                <h1 id="{{ site.presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }} " class=" column--width-70">
-                    {{ page.styled-title }}
-                </h1>
+<section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste texture texture--paper" style="position: relative;">
+    {% if page.status.is-featured-event == true and page.status.featured-event-message %}
+    <div class="banner banner-featured banner--black">
+        <div class="banner-inner" aria-hidden="true">
+            <p>{{ page.status.featured-event-message }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.status.is-featured-home == true and page.status.featured-event-message %}
+    <div class="banner banner-featured banner--black">
+        <div class="banner-inner" aria-hidden="true">
+            <p>{{ page.status.featured-event-message }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.status.is-sold-out == true and page.status.sold-out-message %}
+    <div class="banner banner-sold-out banner--cinnabar">
+        <div class="banner-inner" aria-hidden="true">
+            <p>{{ page.status.sold-out-message }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if page.status.has-occurred == true and page.status.occurred-message %}
+    <div class="banner banner-occurred banner--yellow">
+        <div class="banner-inner" aria-hidden="true">
+            <p>{{ page.status.occurred-message }}</p>
+        </div>
+    </div>
+    {% endif %}
+    <div class="container grid grid--two-column grid--align-center">
+        <div class="column-one flow-2">
+            <h1 id="{{ site.presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }} ">
+                {{ page.title | markdownify }}
+            </h1>
+            <hr class=" divider divider--cinnabar" aria-hidden="true">
                 <p>
                     {{ page.event-date | date: "%A / %B %d / %l:%M %p" }}
                 </p>
+                <div class="wysiwyg">
+                    {{ content.subheader | markdownify }}
+                </div>
                 <div class="landing-hero__tickets">
                     {% if page.tickets.has-member-button == true %}
-                    <a class="button button__solid button__solid button__solid--white  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.member-button-label }}</a>
+                    <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                        {{ page.tickets.member-button-label }}
+                    </a>
                     {% else %}
-                    <a class="button button__solid disabled button__solid button__solid--white shadow-reverse ">Ticket Sales Have Ended</a>
+                    <a class="button button__solid disabled button-solid--cinnabar shadow-reverse ">
+                        Ticket Sales Have Ended
+                    </a>
                     {% endif %}
                     {% if page.tickets.has-non-member-button == true %}
-                    <a class="button button__solid button__solid button__solid--white  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>{{ page.tickets.non-member-button-label }}</a>
+                    <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                        {{ page.tickets.non-member-button-label }}
+                    </a>
                     {% else %}
-                    <a class="button button__solid button__solid disabled button__solid--white shadow-reverse ">Ticket Sales Have Ended</a>
+                    <a class="button button-solid disabled button__solid--cinnabar shadow-reverse ">
+                        Ticket Sales Have Ended
+                    </a>
                     {% endif %}
                 </div>
-            </div>
+        </div>
+        <div class="column-two">
+            Image?
         </div>
     </div>
-    {% if page.status.is-featured-event == true and page.status.featured-event-message %}
-    <div class="ticker ticker--featured">
-        <p>{{ page.status.featured-event-message }}</p>
+    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
+        {% include textures/rip-2.svg %}
     </div>
-    {% endif %}
-    {% if page.status.is-featured-home == true and page.status.featured-event-message %}
-    <div class="ticker ticker--featured">
-        <p>{{ page.status.featured-event-message }}</p>
-    </div>
-    {% endif %}
-    {% if page.status.is-sold-out == true and page.status.sold-out-message %}
-    <div class="ticker ticker--sold-out">
-        <p>{{ page.status.sold-out-message }}</p>
-    </div>
-    {% endif %}
-    {% if page.status.has-occurred == true and page.status.occurred-message %}
-    <div class="ticker ticker--occured">
-        <p>{{ page.status.occurred-message }}</p>
-    </div>
-    {% endif %}
-    <div class="landing-hero__overlay spacing-0"></div>
 </section>

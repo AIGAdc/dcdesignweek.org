@@ -28,6 +28,12 @@
     text-transform: uppercase;
 }
 
+.events-single-layout .banner {
+    top: 0;
+    bottom: unset;
+    border: solid 4px var(--celeste);
+}
+
 .banner-inner {
     display: grid;
     position: relative;
