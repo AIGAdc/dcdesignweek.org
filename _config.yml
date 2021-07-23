@@ -278,42 +278,42 @@ filter-events:
   day:
   - filter: ".day-1"
     class: day-1
-    text-1: Fri
+    text-1: Friday
     text-3: 18
     has-occurred: false
   - filter: ".day-2"
     class: day-2
-    text-1: Sat
+    text-1: Saturday
     text-3: 19
     has-occurred: false
   - filter: ".day-3"
     class: day-3
-    text-1: Sun
+    text-1: Sunday
     text-3: 20
     has-occurred: false
   - filter: ".day-4"
     class: day-4
-    text-1: Mon
+    text-1: Monday
     text-3: 21
     has-occurred: false
   - filter: ".day-5"
     class: day-5
-    text-1: Tue
+    text-1: Tuesday
     text-3: 22
     has-occurred: false
   - filter: ".day-6"
     class: day-6
-    text-1: Wed
+    text-1: Wednesday
     text-3: 23
     has-occurred: false
   - filter: ".day-7"
     class: day-7
-    text-1: Thu
+    text-1: Thursday
     text-3: 24
     has-occurred: false
   - filter: ".day-8"
     class: day-8
-    text-1: Fri
+    text-1: Friday
     text-3: 25
     has-occurred: false
   time:

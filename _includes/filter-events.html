@@ -1,38 +1,35 @@
 <form class="filter-events flow-2">
     <fieldset data-filter-group>
-        <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
-            <h2 class="govuk-fieldset__heading">
+        <legend>
+            <h2 aria-label="Filter: Event Date">
                 Event Date
             </h2>
         </legend>
-        <div class="flow-0">
+        <div class="radio-group">
             {% for control in site.filter-events.day %}
-            <label class="radio-label custom-radio">
-                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" name="color" value="{{ control.filter }}" />
-                <span class="checkmark"></span>
-                <span class="control-text-1">
+            <div class="mambo-radio">
+                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
+                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
                     {{ control.text-1 }} {{ control.text-3 }}
-                </span>
-            </label>
+                </label>
+            </div>
             {% endfor %}
         </div>
     </fieldset>
 
     <fieldset data-filter-group>
         <legend>
-            <h2>
+            <h2 aria-label="Filter: Event Status">
                 Event Status
             </h2>
         </legend>
-        <div class="flow-0">
-            <label class="radio-label custom-radio">
-                <input name="additional-filters" type="radio" value=".mix:not(.past-event)" />
-                <span class="checkmark"></span>
+        <div class="radio-group">
+            <label for="hide-past-events">
+                <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
                 Hide Past Events
             </label>
-            <label class="radio-label custom-radio">
-                <input name="additional-filters" type="radio" value=".mix:not(.sold-out)" />
-                <span class="checkmark"></span>
+            <label for="hide-sold-out">
+                <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
                 Hide Sold Out
             </label>
         </div>
@@ -40,15 +37,14 @@
 
     <fieldset data-filter-group>
         <legend>
-            <h2>
+            <h2 aria-label="Filter: Event Time">
                 Event Time
             </h2>
         </legend>
-        <div class="flow-0">
+        <div class="radio-group">
             {% for control in site.filter-events.time %}
-            <label class="radio-label custom-radio">
-                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                <span class="checkmark"></span>
+            <label for="{{ control.text-1 }}">
+                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
                 {{ control.text-1 }}
             </label>
             {% endfor %}
@@ -57,37 +53,37 @@
 
     <fieldset data-filter-group>
         <legend>
-            <h2>
+            <h2 aria-label="Filter: Event Type">
                 Event Type
             </h2>
         </legend>
-        <div class="flow-0">
+        <div class="radio-group">
             {% for control in site.filter-events.type %}
-            <label class="radio-label custom-radio">
-                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                <span class="checkmark"></span>
+            <label for="{{ control.text-1 }}">
+                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
                 {{ control.text-1 }}
             </label>
             {% endfor %}
         </div>
     </fieldset>
 
+    {% comment %}
     <fieldset data-filter-group>
         <legend>
             <h2>
                 Event Focus
             </h2>
         </legend>
-        <div class="flow-0">
+        <div class="radio-group">
             {% for control in site.filter-events.focus %}
-            <label class="radio-label custom-radio">
-                <input name="additional-filters" type="radio" value="{{ control.filter }}" />
-                <span class="checkmark"></span>
+            <label for="{{ control.text-1 }}">
+                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-focus" value="{{ control.filter }}">
                 {{ control.text-1 }}
             </label>
             {% endfor %}
         </div>
     </fieldset>
+    {% endcomment %}
 
     <div class="filter-events__reset control-group">
         <button class=" button button-solid--cinnabar" type="reset">
