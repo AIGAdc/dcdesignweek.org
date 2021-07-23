@@ -1,20 +1,22 @@
 {% if page.has-accessibility-notes == true %}
 <section class="section section-landing-content">
-    <div class="grid grid--four-columns">
-        <div>
-            <img class="bubble-group-a11y" aria-hidden="true" src="/uploads/bubble-white-medium-03.png" alt="{{ site.presenting-sponsors.image-1-alt }}">
-        </div>
-        <div class="column column--span-4">
-            <h2 class="column--width-50">
-                <span>Accessibility</span> <span>and</span> <span>Accommodations</span>
-            </h2>
-        </div>
-        <div class="column column--span-2">
-            {% for note in page.accessibility-notes %}
-            <div class="wysiwyg">
-                {{ note.note | markdownify }}
+    <div class="container">
+        <div class="grid grid--four-column">
+            <div class="grid--three-column-span flow-2">
+                <div class="column column--span-4">
+                    <h2 class="column--width-50">
+                        <span>Accessibility</span> <span>and</span> <span>Accommodations</span>
+                    </h2>
+                    <hr class=" divider divider--cinnabar" aria-hidden="true">
+                </div>
+                <div class="column column--span-2">
+                    {% for note in page.accessibility-notes %}
+                    <div class="wysiwyg flow-2">
+                        {{ note.note | markdownify }}
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>

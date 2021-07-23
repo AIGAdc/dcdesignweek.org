@@ -6,8 +6,16 @@
     z-index: var(--index-1);
 }
 
+.events-single-layout .section-landing-content .container {
+    padding: var(--space-32);
+}
+
 @media screen and (min-width: 1023px) {
     .container {
         padding: var(--space-144) var(--space-64);
+    }
+
+    .events-single-layout .section-landing-content .container {
+        padding: var(--space-16) var(--space-64);
     }
 }

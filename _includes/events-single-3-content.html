@@ -1,17 +1,17 @@
 <section class="section section-landing-content" style="overflow: hidden;">
-    <div class="grid grid--four-columns">
-        <div class="column column--span-4">
-            <h2>
-                <span>Description</span>
-            </h2>
-        </div>
-        <div class="column column--span-2">
-            <div class="wysiwyg">
-                {{ page.content | markdownify }}
+    <div class="container">
+        <div class="grid grid--four-column">
+            <div class="grid--three-column-span flow-2">
+                <h2>
+                    Description
+                </h2>
+                <hr class=" divider divider--cinnabar" aria-hidden="true">
             </div>
-        </div>
-        <div class="column column--span-2 flow-none">
-            <img class="bubble-group-event-introduction-about" aria-hidden="true" src="/uploads/bubble-white-large-03.png" alt="Floating amorphous bubbles with DC Design Week text inside">
+            <div class="grid--three-column-span flow-2">
+                <div class="wysiwyg flow-2">
+                    {{ page.content | markdownify }}
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -1,52 +1,56 @@
 {% if page.has-speakers == true %}
 <section class="section section-landing-content">
-    <div class="grid grid--four-columns">
-        <div class="column column--span-4">
-            <h2>
-                <span>Speakers</span>
-            </h2>
-        </div>
-        <div class="column column--span-4">
-            <div class="event-single__speakers-list">
-                {% for speaker in page.speakers %}
-                <div class="event-single__speaker event__speaker">
-                    <h3>
-                        {{ speaker.name }}
-                    </h3>
-                    {% if speaker.title %}
-                    <p>
-                        {{ speaker.title }}
-                    </p>
-                    {% endif %}
-                    {% if speaker.pronouns %}
-                    <p>
-                        {{ speaker.pronouns }}
-                    </p>
-                    {% endif %}
-                    <p>
-                        {{ speaker.bio | markdownify }}
-                    </p>
-                    {% if speaker.website-label %}
-                    <a href="{{ speaker.website-url }}" rel="noopener" target="_blank" style="display: block">
-                        <i class="fas fa-globe-americas"> </i>
-                        {{ speaker.website-label }}
-                    </a>
-                    {% endif %}
-                    {% if speaker.website-label-2 %}
-                    <a href="{{ speaker.website-url-2 }}" rel="noopener" target="_blank" style="display: block">
-                        <i class="fas fa-globe-americas"> </i>
-                        {{ speaker.website-label-2 }}
-                    </a>
-                    {% endif %}
-                    {% if speaker.website-label-3 %}
-                    <a href="{{ speaker.website-url-3 }}" rel="noopener" target="_blank" style="display: block">
-                        <i class="fas fa-globe-americas"> </i>
-                        {{ speaker.website-label-3 }}
-                    </a>
-                    {% endif %}
+    <div class="container">
+        <div class="grid grid--four-column">
+            <div class="grid--three-column-span flow-2">
+                <h2>
+                    <span>Speakers</span>
+                </h2>
+                <hr class=" divider divider--cinnabar" aria-hidden="true">
+            </div>
+            <div class="grid--three-column-span">
+                <div class="event-single__speakers-list flow-2">
+                    {% for speaker in page.speakers %}
+                    <div class="event-single__speaker event__speaker flow-1">
+                        <h3>
+                            {{ speaker.name }}
+                        </h3>
+                        {% if speaker.title %}
+                        <p>
+                            {{ speaker.title }}
+                        </p>
+                        {% endif %}
+                        {% if speaker.pronouns %}
+                        <p>
+                            {{ speaker.pronouns }}
+                        </p>
+                        {% endif %}
+                        <p>
+                            {{ speaker.bio | markdownify }}
+                        </p>
+                        {% if speaker.website-label %}
+                        <a href="{{ speaker.website-url }}" rel="noopener" target="_blank" style="display: block">
+                            <i class="fas fa-globe-americas"> </i>
+                            {{ speaker.website-label }}
+                        </a>
+                        {% endif %}
+                        {% if speaker.website-label-2 %}
+                        <a href="{{ speaker.website-url-2 }}" rel="noopener" target="_blank" style="display: block">
+                            <i class="fas fa-globe-americas"> </i>
+                            {{ speaker.website-label-2 }}
+                        </a>
+                        {% endif %}
+                        {% if speaker.website-label-3 %}
+                        <a href="{{ speaker.website-url-3 }}" rel="noopener" target="_blank" style="display: block">
+                            <i class="fas fa-globe-americas"> </i>
+                            {{ speaker.website-label-3 }}
+                        </a>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
         </div>
+    </div>
 </section>
 {% endif %}
