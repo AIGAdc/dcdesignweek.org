@@ -71,3 +71,15 @@
         bottom: -8px;
     }
 }
+
+@media (prefers-reduced-data: reduce) {
+    .pattern,
+    .ripped-paper {
+        display: none;
+    }
+    .texture {
+        &--paper {
+            background-image: none;
+        }
+    }
+}

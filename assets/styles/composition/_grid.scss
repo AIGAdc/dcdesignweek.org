@@ -128,3 +128,16 @@
         grid-column: span 8;
     }
 }
+
+.column-image figure figcaption {
+    display: none;
+}
+
+@media (prefers-reduced-data: reduce) {
+    .column-image figure img {
+        display: none;
+    }
+    .column-image figure figcaption {
+        display: block;
+    }
+}
