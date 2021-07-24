@@ -1,0 +1,12 @@
+.section-hero h1 {
+    font-size: var(--font-size-64);
+    font-family: var(--font-bayard);
+    font-weight: 400;
+    line-height: 0.75;
+}
+
+@media screen and (min-width: 1024px) {
+    .section-hero h1 {
+        font-size: var(--font-size-200);
+    }
+}

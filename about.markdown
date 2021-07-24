@@ -4,7 +4,7 @@ permalink: "/about/"
 published: true
 hero:
 - has-hero: true
-  header: "H1: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
+  header: "About"
   subheader: "P: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
   image-1: 
   image-1-alt: 

@@ -2,8 +2,8 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section section-hero texture texture--paper">
-    <div class="container grid grid--two-column grid--align-center">
-        <div class="column-one flow-2">
+    <div class="container grid grid--four-column grid--align-center">
+        <div class="column-one grid--four-column-span flow-2">
             <h1>
                 {{ content.header | markdownify }}
             </h1>
@@ -14,12 +14,6 @@
             <a class="button button-solid--cinnabar" href="{{ content.button-url }}" rel="noopener nofollow" target="_blank">
                 {{ content.button-label | markdownify }}
             </a>
-        </div>
-        <div class="column-two column-image">
-            <figure class="hero-image" style="z-index: var(--index-2); position: relative;">
-                <img src="/uploads/sample-collage-3.png" alt="Oddisee Collage">
-                <figcaption>Image Collage featuring musician Oddisee with a yellow polygonal shape, tape and a DCDW sticker.</figcaption>
-            </figure>
         </div>
         <div class="pattern pattern-hyperlocal" style="fill: var(--black);">
             {% include pattern/hyperlocal.html %}
@@ -36,8 +30,8 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 <section class="section section-hero background-dcdw-2021-black color-dcdw-2021-celeste">
-    <div class="container grid grid--two-column grid--align-center">
-        <div class="column-one flow-2">
+    <div class="container grid grid--four-column grid--align-center">
+        <div class="column-one grid--four-column-span flow-2">
             <h1>
                 {{ content.header | markdownify }}
             </h1>
@@ -48,12 +42,6 @@
             <a class="button button-solid--yellow" href="{{ content.button-url }}" rel="noopener nofollow" target="_blank">
                 {{ content.button-label | markdownify }}
             </a>
-        </div>
-        <div class="column-two column-image">
-            <figure style="z-index: var(--index-2); position: relative;">
-                <img src="/uploads/sample-collage-1.png" alt="Oddisee Collage">
-                <figcaption>Image Collage featuring musician Oddisee with a yellow polygonal shape, tape and a DCDW sticker.</figcaption>
-            </figure>
         </div>
         <div class="pattern pattern-hyperlocal" style="fill: var(--celeste);">
             {% include pattern/hyperlocal.html %}

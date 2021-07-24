@@ -1,4 +1,5 @@
 <section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste texture texture--paper" style="position: relative;">
+
     {% if page.status.is-featured-event == true and page.status.featured-event-message %}
     <div class="banner banner-featured banner--black">
         <div class="banner-inner" aria-hidden="true">
@@ -30,45 +31,42 @@
         </div>
     </div>
     {% endif %}
-    <div class="container grid grid--two-column grid--align-center">
-        <div class="column-one flow-2">
+
+    <div class="container grid grid--four-column grid--align-center">
+        <div class="column-one grid--four-column-span flow-2">
             <h1 id="{{ site.presenting-sponsors.header | downcase | remove: '<span>' | remove: '</span>' | replace: " ", " -" }} ">
                 {{ page.title | markdownify }}
             </h1>
-            <hr class=" divider divider--cinnabar" aria-hidden="true">
-                <p>
-                    {{ page.event-date | date: "%A / %B %d / %l:%M %p" }}
-                </p>
-                <div class="wysiwyg">
-                    {{ content.subheader | markdownify }}
-                </div>
-                <div class="landing-hero__tickets">
-                    {% if page.tickets.has-member-button == true %}
-                    <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
-                        {{ page.tickets.member-button-label }}
-                    </a>
-                    {% else %}
-                    <a class="button button__solid disabled button-solid--cinnabar shadow-reverse ">
-                        Ticket Sales Have Ended
-                    </a>
-                    {% endif %}
-                    {% if page.tickets.has-non-member-button == true %}
-                    <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>
-                        {{ page.tickets.non-member-button-label }}
-                    </a>
-                    {% else %}
-                    <a class="button button-solid disabled button__solid--cinnabar shadow-reverse ">
-                        Ticket Sales Have Ended
-                    </a>
-                    {% endif %}
-                </div>
+            <hr class=" divider divider--cinnabar" aria-hidden="true" />
+            <p>
+                {{ page.event-date | date: "%A / %B %d / %l:%M %p" }}
+            </p>
+            <div class="wysiwyg">
+                {{ content.subheader | markdownify }}
+            </div>
+            <div class="landing-hero__tickets">
+                {% if page.tickets.has-member-button == true %}
+                <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                    {{ page.tickets.member-button-label }}
+                </a>
+                {% else %}
+                <a class="button button__solid disabled button-solid--cinnabar  ">
+                    Ticket Sales Have Ended
+                </a>
+                {% endif %}
+                {% if page.tickets.has-non-member-button == true %}
+                <a class="
+                    button button-solid button__solid--cinnabar {% if page.status.has-occurred == true %} disabled {% endif %}" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                    {{ page.tickets.non-member-button-label }}
+                </a>
+                {% else %}
+                <a class="button button-solid disabled button__solid--cinnabar">
+                    Ticket Sales Have Ended
+                </a>
+                {% endif %}
+            </div>
         </div>
-        <div class="column-two column-image">
-            <figure style="z-index: var(--index-2); position: relative;">
-                <img src="/uploads/sample-collage-1.png" alt="Oddisee Collage">
-                <figcaption>Image Collage featuring musician Oddisee with a yellow polygonal shape, tape and a DCDW sticker.</figcaption>
-            </figure>
-        </div>
+    </div>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
         {% include textures/rip-2.svg %}
