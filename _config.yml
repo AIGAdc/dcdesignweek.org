@@ -534,12 +534,23 @@ self-guided:
 sponsors:
   header: Sponsors and Partners
   body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong> for your support.
-  tier-one-header: Tier One Sponsors
-  tier-two-header: Tier Two Sponsors
-  tier-three-header: Tier Three Sponsors
+  tier-one-header: "Chita Rivera"
+  tier-two-header: 'Cool "Disco" Dan'
+  tier-three-header: "Duke Ellington"
+  tier-four-header: "Chuck Brown"
   image-1: 'https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg'
   image-1-alt: ''
   sponsor-tier-one:
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
   - title: Sponsor Title
     image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
     image-alt: Logo Alt
@@ -572,6 +583,27 @@ sponsors:
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-three:
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  sponsor-tier-four:
   - title: Sponsor Title
     image: https://d33wubrfki0l68.cloudfront.net/3ca3da1335588ca657c449c8a975cfd929a0361d/7b867/uploads/committee-marcus-relacion.jpg
     image-alt: Logo Alt
