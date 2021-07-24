@@ -316,6 +316,13 @@ filter-events:
     text-1: Friday
     text-3: 25
     has-occurred: false
+  location:
+  - filter: ".in-person"
+    class: in-person
+    text-1: In-Person
+  - filter: ".zoom"
+    class: zoom
+    text-1: Zoom
   time:
   - filter: ".morning"
     class: morning
@@ -333,18 +340,18 @@ filter-events:
   - filter: ".family-friendly"
     class: family-friendly
     text-1: Family Friendly
-  - filter: ".party"
-    class: party
-    text-1: Party
   - filter: ".keynote"
     class: keynote
     text-1: Keynote
-  - filter: ".talk-panel"
-    class: talk-panel
-    text-1: Talk/Panel
+  - filter: ".party"
+    class: party
+    text-1: Party
   - filter: ".partner-events"
     class: partner-events
     text-1: Partner Events
+  - filter: ".talk-panel"
+    class: talk-panel
+    text-1: Talk/Panel
   - filter: ".workshop"
     class: workshop
     text-1: Workshop

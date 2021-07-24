@@ -58,6 +58,8 @@ accessibility-notes:
     * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
 filter-date:
   is-day-6: true
+filter-location:
+  is-in-person: true
 filter-time:
   is-daytime: true
 filter-type:

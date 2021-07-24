@@ -66,6 +66,8 @@ accessibility-notes:
     You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
 filter-date:
   is-day-4: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-evening: true
 filter-type:

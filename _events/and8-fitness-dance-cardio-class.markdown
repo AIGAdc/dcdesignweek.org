@@ -45,6 +45,8 @@ accessibility-notes:
     who is interested to follow along and self-modify as needed.
 filter-date:
   is-day-4: true
+filter-location:
+  is-in-person: true
 filter-time:
   is-evening: true
 filter-type:

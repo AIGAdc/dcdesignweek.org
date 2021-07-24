@@ -26,6 +26,13 @@
     day-8 
   {% endif %} ]
   
+  [ {% if event.filter-location.is-in-person == true %} 
+      in-person 
+    {% endif %} 65
+    {% if event.filter-location.is-zoom == true %} 
+      zoom 
+    {% endif %} ]
+
   [ {% if event.filter-time.is-morning == true %} 
     morning 
   {% endif %} 
@@ -97,10 +104,19 @@
 
     <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
         <div class="card-aside">
-            <div class="sticker sticker--zoom">
-                <i class="fas fa-camera-home"></i> 
-                <span>Zoom</span>
+            {% if event.filter-location.is-in-person == true %}
+            <div class="sticker sticker--in-person">
+                <i class="fas fa-users"></i>
+                <!-- <span>In-Person</span> -->
             </div>
+            {% endif %}
+
+            {% if event.filter-location.is-zoom == true %}
+            <div class="sticker sticker--zoom">
+                <i class="fas fa-camera-home"></i>
+                <!-- <span>Zoom</span> -->
+            </div>
+            {% endif %}
 
             <figure class="card-image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />

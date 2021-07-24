@@ -1,5 +1,5 @@
 <form class="filter-events flow-2">
-    <fieldset data-filter-group>
+    <fieldset class="filter-event-date" data-filter-group>
         <legend>
             <h2 aria-label="Filter: Event Date">
                 Event Date
@@ -28,7 +28,94 @@
         </div>
     </fieldset>
 
-    <fieldset data-filter-group>
+    <fieldset class="filter-event-location" data-filter-group>
+        <legend>
+            <h2 aria-label="Filter: Event Date">
+                Event Location
+            </h2>
+        </legend>
+        <div class="radio-group">
+            {% for control in site.filter-events.location %}
+            <div class="mambo-radio">
+                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
+                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
+                    {{ control.text-1 }} {{ control.text-3 }}
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    {% for control in site.filter-events.day %}
+                    <option name="event-date" value="{{ control.filter }}">
+                        {{ control.text-1 }} {{ control.text-3 }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="filter-event-time" data-filter-group>
+        <legend>
+            <h2 aria-label=" Filter: Event Time">
+                Event Time
+            </h2>
+        </legend>
+        <div class="radio-group">
+            {% for control in site.filter-events.time %}
+            <div class="mambo-radio">
+                <label for="{{ control.text-1 }}">
+                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
+                    {{ control.text-1 }}
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    {% for control in site.filter-events.time %}
+                    <option name="event-time" value="{{ control.filter }}">
+                        {{ control.text-1 }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="filter-event-type" data-filter-group>
+        <legend>
+            <h2 aria-label="Filter: Event Type">
+                Event Type
+            </h2>
+        </legend>
+        <div class="radio-group">
+            {% for control in site.filter-events.type %}
+            <div class="mambo-radio">
+                <label for="{{ control.text-1 }}">
+                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
+                    {{ control.text-1 }}
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="select-group">
+            <div class="mambo-select">
+                <select>
+                    {% for control in site.filter-events.type %}
+                    <option name="event-type" value="{{ control.filter }}">
+                        {{ control.text-1 }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="filter-event-status" data-filter-group>
         <legend>
             <h2 aria-label="Filter: Event Status">
                 Event Status
@@ -62,64 +149,6 @@
         </div>
     </fieldset>
 
-    <fieldset data-filter-group>
-        <legend>
-            <h2 aria-label=" Filter: Event Time">
-                        Event Time
-                        </h2>
-                        </legend>
-                        <div class="radio-group">
-                            {% for control in site.filter-events.time %}
-                            <div class="mambo-radio">
-                                <label for="{{ control.text-1 }}">
-                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
-                                    {{ control.text-1 }}
-                                </label>
-                            </div>
-                            {% endfor %}
-                        </div>
-                        <div class="select-group">
-                            <div class="mambo-select">
-                                <select>
-                                    {% for control in site.filter-events.time %}
-                                    <option name="event-time" value="{{ control.filter }}">
-                                        {{ control.text-1 }}
-                                    </option>
-                                    {% endfor %}
-                                </select>
-                            </div>
-                        </div>
-    </fieldset>
-
-    <fieldset data-filter-group>
-        <legend>
-            <h2 aria-label="Filter: Event Type">
-                Event Type
-            </h2>
-        </legend>
-        <div class="radio-group">
-            {% for control in site.filter-events.type %}
-            <div class="mambo-radio">
-                <label for="{{ control.text-1 }}">
-                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
-                    {{ control.text-1 }}
-                </label>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="select-group">
-            <div class="mambo-select">
-                <select>
-                    {% for control in site.filter-events.type %}
-                    <option name="event-type" value="{{ control.filter }}">
-                        {{ control.text-1 }}
-                    </option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
-    </fieldset>
-
     {% comment %}
     <fieldset data-filter-group>
         <legend>
@@ -127,14 +156,14 @@
                 Event Focus
             </h2>
         </legend>
-        <div class="radio-group">
-            {% for control in site.filter-events.focus %}
-            <label for="{{ control.text-1 }}">
-                <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-focus" value="{{ control.filter }}">
-                {{ control.text-1 }}
-            </label>
-            {% endfor %}
-        </div>
+        <div class=" radio-group">
+                        {% for control in site.filter-events.focus %}
+                        <label for="{{ control.text-1 }}">
+                            <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-focus" value="{{ control.filter }}">
+                            {{ control.text-1 }}
+                        </label>
+                        {% endfor %}
+            </div>
     </fieldset>
     {% endcomment %}
 

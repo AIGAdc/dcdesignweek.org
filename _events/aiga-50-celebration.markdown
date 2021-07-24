@@ -37,6 +37,8 @@ has-speakers: false
 has-accessibility-notes: true
 filter-date:
   is-day-8: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-evening: true
 filter-type:
