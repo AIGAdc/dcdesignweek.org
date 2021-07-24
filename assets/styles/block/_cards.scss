@@ -3,8 +3,8 @@
 }
 
 .card-image {
-    border: solid 1px var(--black);
-    margin-bottom: -1px;
+    border: solid 4px currentColor;
+    margin-bottom: -4px;
 }
 
 .card-image img {
@@ -41,6 +41,23 @@
     letter-spacing: -0.5px;
     position: relative;
     text-transform: uppercase;
+}
+
+.home-layout .card-date {
+    color: var(--black);
+}
+
+.card-date::before {
+    content: '';
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    inset: 0;
+    top: -10px;
+    left: -16px;
+    background-color: var(--beige);
+    z-index: -10;
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
 }
 
 .card-date figure {

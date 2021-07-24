@@ -16,7 +16,7 @@
 }
 
 .banner {
-    border: solid 1px var(--black);
+    border: solid 4px currentColor;
     color: var(--black);
     font-family: var(--font-bayard);
     padding: 8px;
@@ -55,11 +55,6 @@
     100% {
         transform: translate3d(var(--move-final), 0, 0);
     }
-}
-
-.banner--black {
-    background-color: var(--black);
-    color: var(--celeste);
 }
 
 .banner--beige {

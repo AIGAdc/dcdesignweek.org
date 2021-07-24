@@ -102,7 +102,7 @@
             </figure>
 
             {% if event.status.is-featured-event == true and event.status.featured-event-message %}
-            <div class="banner banner-featured banner--black">
+            <div class="banner banner-featured banner--celeste">
                 <div class="banner-inner" aria-hidden="true">
                     <p>{{ event.status.featured-event-message }}</p>
                 </div>
@@ -110,7 +110,7 @@
             {% endif %}
 
             {% if event.status.is-featured-home == true and event.status.featured-event-message %}
-            <div class="banner banner-featured banner--black">
+            <div class="banner banner-featured banner--celeste">
                 <div class="banner-inner" aria-hidden="true">
                     <p>{{ event.status.featured-event-message }}</p>
                 </div>
@@ -149,12 +149,6 @@
                 <p class="date">
                     {{ event.event-date | date: "%m.%d" }}
                 </p>
-                <figure>
-                    <svg width="84" height="84" viewBox="0 0 84 84" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M60.6389 11H12C5.92487 11 1 15.9249 1 22V72C1 78.0751 5.92487 83 12 83H62C68.0751 83 73 78.0751 73 72V23.3611H74V72C74 78.6274 68.6274 84 62 84H12C5.37258 84 0 78.6274 0 72V22C0 15.3726 5.37258 10 12 10H60.6389V11Z" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M73 0H74V9.29289L80.5711 2.72182L81.2782 3.42893L74.7071 10H84V11H74.7071L81.2782 17.5711L80.5711 18.2782L74 11.7071V21H73V11.7071L66.4289 18.2782L65.7218 17.5711L72.2929 11H63V10H72.2929L65.7218 3.42893L66.4289 2.72182L73 9.29289V0Z" />
-                    </svg>
-                </figure>
             </div>
             {% endif %}
 
