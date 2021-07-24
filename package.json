@@ -22,6 +22,12 @@
     "homepage": "https://github.com/AIGAdc/dcdesignweek.org#readme",
     "devDependencies": {
         "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.2.0",
         "gorko": "^0.4.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }
