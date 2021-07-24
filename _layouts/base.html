@@ -14,7 +14,7 @@ layout: compress
         </script>
         <!-- styles -->
         <link href="{{ site.asseturl }}styles/app-min.css" media="all" rel="stylesheet" type="text/css" />
-        {%- seo -%}
+        {% seo %}
         <link rel="icon" href="/favicon.ico">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -27,16 +27,9 @@ layout: compress
 
     <body>
         <main class="{{ page.layout }}-layout" id="main-content">
-            {%- include site-header.html -%}
-            {% if page.url == "/" %}
-            {%- include section-hero-home.html -%}
-            {% elsif page.layout == "events-single" %}
-            {% include events-single-1-hero.html %}
-            {% else %}
-            {% include section-hero.html %}
-            {% endif %}
+            {% include site-header.html %}
             {{ content | safe }}
-            {%- include site-footer.html -%}
+            {% include site-footer.html %}
         </main>
         {% include third-party/offside/menu.html %}
     </body>
