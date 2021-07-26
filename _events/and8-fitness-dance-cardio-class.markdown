@@ -22,7 +22,7 @@ tickets:
   member-button-label: "$7  — General Admission"
   has-non-member-button: false
 venue:
-  name: Zoom
+  name: In-Person
   additional-header: Platform and Prerequisites
   additional-info: |-
     Bring water, a mat (optional) and an open mind to try something new!

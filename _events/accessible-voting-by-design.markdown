@@ -25,7 +25,7 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/accessible-voting-by-design-tickets-117840308535
   non-member-button-label: "$10 — Non-members"
 venue:
-  name: Zoom
+  name: In-Person
   additional-header: Platform and Prerequisites
   additional-info: This event will be streamed via Zoom. In order to participate fully,
     attendees should plan to join on the Zoom app via their computer, tablet, or mobile
