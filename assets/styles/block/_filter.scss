@@ -1,10 +1,4 @@
-.filter-events fieldset {
-    border: solid 4px var(--black);
-    display: flex;
-    flex-direction: column;
-    margin: unset 0 !important;
-    padding: var(--space-16) !important;
-}
+
 
 .filter-events .button {
     width: 100%;
@@ -23,9 +17,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .radio-group {
-        display: block;
-    }
+    // .radio-group {
+    //     display: block;
+    // }
     
     .select-group {
         display: none;

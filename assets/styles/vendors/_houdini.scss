@@ -6,34 +6,4 @@
  * http://github.com/cferdinandi/houdini
  */
 
-.houdini {
-    display: none;
-}
 
-.houdini[tabindex="-1"]:focus {
-}
-
-.houdini-heading .houdini-toggle {
-    // background: transparent;
-    // border: solid 1px var(--black);
-    // display: flex;
-    // text-align: inherit;
-    // justify-content: space-between;
-    // width: 100%;
-    // color: var(--black);
-    // padding: 8px 16px;
-    // align-items: center;
-    // margin-top: -1px;
-}
-
-.houdini-toggle-icon {
-    // display: inline-block !important;
-    // padding: 3.5px 8px;
-}
-
-.houdini.is-expanded {
-    display: block;
-    border: solid 1px var(--black);
-    margin-top: -1px;
-    padding: 16px;
-}

@@ -113,6 +113,13 @@ small {
     text-rendering: optimizeLegibility;
 }
 
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend,
 ul {
     margin: 0;
     padding: 0;

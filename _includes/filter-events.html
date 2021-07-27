@@ -1,13 +1,13 @@
-<form class="filter-events flow-2">
-    <fieldset class="filter-event-date" data-filter-group>
-        <legend>
-            <h2 aria-label="Filter: Event Date">
+<form class="mambo-accordion-group">
+    <fieldset class="mambo-accordion" data-filter-group>
+        <legend aria-label="Filter: Event Date" class="mambo-accordion__header" data-houdini-toggle="event-date">
+            <h3>
                 Event Date
-            </h2>
+            </h3>
         </legend>
-        <div class="radio-group">
+        <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-date">
             {% for control in site.filter-events.day %}
-            <div class="mambo-radio">
+            <div class="mambo-input-radio">
                 <label for="{{ control.text-1 }}-{{ control.text-3 }}">
                     <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
                     {{ control.text-1 }} {{ control.text-3 }}
@@ -15,8 +15,9 @@
             </div>
             {% endfor %}
         </div>
+        {% comment %}
         <div class="select-group">
-            <div class="mambo-select">
+            <div class="mambo-input-select">
                 <select>
                     {% for control in site.filter-events.day %}
                     <option name="event-date" value="{{ control.filter }}">
@@ -26,17 +27,18 @@
                 </select>
             </div>
         </div>
+        {% endcomment %}
     </fieldset>
 
-    <fieldset class="filter-event-location" data-filter-group>
-        <legend>
-            <h2 aria-label="Filter: Event Date">
+    <fieldset class="mambo-accordion" data-filter-group>
+        <legend aria-label="Filter: Event Locations" class="mambo-accordion__header" data-houdini-toggle="event-location">
+            <h3>
                 Event Location
-            </h2>
+            </h3>
         </legend>
-        <div class="radio-group">
+        <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-location">
             {% for control in site.filter-events.location %}
-            <div class="mambo-radio">
+            <div class="mambo-input-radio">
                 <label for="{{ control.text-1 }}-{{ control.text-3 }}">
                     <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
                     {{ control.text-1 }} {{ control.text-3 }}
@@ -45,7 +47,7 @@
             {% endfor %}
         </div>
         <div class="select-group">
-            <div class="mambo-select">
+            <div class="mambo-input-select">
                 <select>
                     {% for control in site.filter-events.day %}
                     <option name="event-date" value="{{ control.filter }}">
@@ -57,15 +59,15 @@
         </div>
     </fieldset>
 
-    <fieldset class="filter-event-time" data-filter-group>
-        <legend>
-            <h2 aria-label=" Filter: Event Time">
+    <fieldset class="mambo-accordion" data-filter-group>
+        <legend aria-label="Filter: Event Time" class="mambo-accordion__header" data-houdini-toggle="event-time">
+            <h3>
                 Event Time
-            </h2>
+            </h3>
         </legend>
-        <div class="radio-group">
+        <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-time">
             {% for control in site.filter-events.time %}
-            <div class="mambo-radio">
+            <div class="mambo-input-radio">
                 <label for="{{ control.text-1 }}">
                     <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
                     {{ control.text-1 }}
@@ -74,7 +76,7 @@
             {% endfor %}
         </div>
         <div class="select-group">
-            <div class="mambo-select">
+            <div class="mambo-input-select">
                 <select>
                     {% for control in site.filter-events.time %}
                     <option name="event-time" value="{{ control.filter }}">
@@ -86,15 +88,15 @@
         </div>
     </fieldset>
 
-    <fieldset class="filter-event-type" data-filter-group>
-        <legend>
-            <h2 aria-label="Filter: Event Type">
+    <fieldset class="mambo-accordion" data-filter-group>
+        <legend aria-label="Filter: Event Type" class="mambo-accordion__header" data-houdini-toggle="event-type">
+            <h3>
                 Event Type
-            </h2>
+            </h3>
         </legend>
-        <div class="radio-group">
+        <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-type">
             {% for control in site.filter-events.type %}
-            <div class="mambo-radio">
+            <div class="mambo-input-radio">
                 <label for="{{ control.text-1 }}">
                     <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
                     {{ control.text-1 }}
@@ -103,7 +105,7 @@
             {% endfor %}
         </div>
         <div class="select-group">
-            <div class="mambo-select">
+            <div class="mambo-input-select">
                 <select>
                     {% for control in site.filter-events.type %}
                     <option name="event-type" value="{{ control.filter }}">
@@ -115,20 +117,20 @@
         </div>
     </fieldset>
 
-    <fieldset class="filter-event-status" data-filter-group>
-        <legend>
-            <h2 aria-label="Filter: Event Status">
+    <fieldset class="mambo-accordion" data-filter-group>
+        <legend aria-label="Filter: Event Status" class="mambo-accordion__header" data-houdini-toggle="event-status">
+            <h3>
                 Event Status
-            </h2>
+            </h3>
         </legend>
-        <div class="radio-group">
-            <div class="mambo-radio">
+        <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-status">
+            <div class="mambo-input-radio">
                 <label for="hide-past-events">
                     <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
                     Hide Past Events
                 </label>
             </div>
-            <div class="mambo-radio">
+            <div class="mambo-input-radio">
                 <label for="hide-sold-out">
                     <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
                     Hide Sold Out
@@ -136,7 +138,7 @@
             </div>
         </div>
         <div class="select-group">
-            <div class="mambo-select">
+            <div class="mambo-input-select">
                 <select>
                     <option name="event-date" value=".mix:not(.past-event)">
                         Hide Past Events
@@ -149,9 +151,21 @@
         </div>
     </fieldset>
 
-    <div class="filter-events__reset control-group">
-        <button class=" button button-solid--cinnabar" type="reset">
-            Clear Filters
-        </button>
-    </div>
+    <div class=" filter-events__reset control-group gap-margin-top-500">
+                        <button class=" button button-solid--cinnabar" type="reset">
+                            Clear Filters
+                        </button>
+            </div>
 </form>
+
+<script>
+    var disclosure = new Houdini('[data-houdini-group="event-filter"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1, /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon', /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon', /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>', /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
+    });
+</script>

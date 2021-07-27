@@ -1,0 +1,39 @@
+/*!
+ * houdinijs v11.0.2
+ * A simple collapse-and-expand script
+ * (c) 2019 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/houdini
+ */
+.mambo-accordion-group > *:not(:last-child) {
+    margin-bottom: -1px;
+}
+
+.mambo-accordion__header {
+    width: 100%;
+}
+
+.houdini-heading .houdini-toggle {
+    align-items: center;
+    border: solid 1px var(--black);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 100%;
+}
+
+.houdini-toggle-icon {
+    display: inline-block !important;
+}
+
+.mambo-accordion__content {
+    display: none;
+}
+
+.mambo-accordion__content.is-expanded,
+.houdini.is-expanded {
+    display: block;
+    border: solid 1px var(--black);
+    margin-top: -1px;
+    padding: 16px;
+}
