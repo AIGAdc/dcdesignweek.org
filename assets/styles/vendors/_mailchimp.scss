@@ -15,7 +15,7 @@
 
 #mc_embed_signup .mc-field-group input {
     background-color: var(--celeste);
-    border: solid 4px var(--black);
+    border: solid 1px var(--black);
     border-radius: none;
     color: var(--black);
     display: block;
@@ -27,8 +27,8 @@
 }
 
 #mc_embed_signup .mc-field-group input:focus {
-    outline: solid 4px var(--cinnabar);
-    outline-offset: -4px;
+    outline: solid 1px var(--cinnabar);
+    outline-offset: -1px;
 }
 
 #mc_embed_signup .asterisk {
