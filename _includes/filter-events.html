@@ -15,19 +15,6 @@
             </div>
             {% endfor %}
         </div>
-        {% comment %}
-        <div class="select-group">
-            <div class="mambo-input-select">
-                <select>
-                    {% for control in site.filter-events.day %}
-                    <option name="event-date" value="{{ control.filter }}">
-                        {{ control.text-1 }} {{ control.text-3 }}
-                    </option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
-        {% endcomment %}
     </fieldset>
 
     <fieldset class="mambo-accordion" data-filter-group>
@@ -45,17 +32,6 @@
                 </label>
             </div>
             {% endfor %}
-        </div>
-        <div class="select-group">
-            <div class="mambo-input-select">
-                <select>
-                    {% for control in site.filter-events.day %}
-                    <option name="event-date" value="{{ control.filter }}">
-                        {{ control.text-1 }} {{ control.text-3 }}
-                    </option>
-                    {% endfor %}
-                </select>
-            </div>
         </div>
     </fieldset>
 
@@ -75,17 +51,6 @@
             </div>
             {% endfor %}
         </div>
-        <div class="select-group">
-            <div class="mambo-input-select">
-                <select>
-                    {% for control in site.filter-events.time %}
-                    <option name="event-time" value="{{ control.filter }}">
-                        {{ control.text-1 }}
-                    </option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
     </fieldset>
 
     <fieldset class="mambo-accordion" data-filter-group>
@@ -103,17 +68,6 @@
                 </label>
             </div>
             {% endfor %}
-        </div>
-        <div class="select-group">
-            <div class="mambo-input-select">
-                <select>
-                    {% for control in site.filter-events.type %}
-                    <option name="event-type" value="{{ control.filter }}">
-                        {{ control.text-1 }}
-                    </option>
-                    {% endfor %}
-                </select>
-            </div>
         </div>
     </fieldset>
 
@@ -137,25 +91,13 @@
                 </label>
             </div>
         </div>
-        <div class="select-group">
-            <div class="mambo-input-select">
-                <select>
-                    <option name="event-date" value=".mix:not(.past-event)">
-                        Hide Past Events
-                    </option>
-                    <option name="event-date" value=".mix:not(.sold-out)"">
-                        Hide Sold Out
-                    </option>
-                </select>
-            </div>
-        </div>
     </fieldset>
 
     <div class=" filter-events__reset control-group gap-margin-top-500">
-                        <button class=" button button-solid--cinnabar" type="reset">
-                            Clear Filters
-                        </button>
-            </div>
+        <button class=" button button-solid--cinnabar" type="reset">
+            Clear Filters
+        </button>
+    </div>
 </form>
 
 <script>
