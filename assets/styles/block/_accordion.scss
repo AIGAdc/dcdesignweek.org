@@ -1,25 +1,21 @@
-/*!
- * houdinijs v11.0.2
- * A simple collapse-and-expand script
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/houdini
- */
+// TODO: Update references to Houdini
+
 .mambo-accordion-group > *:not(:last-child) {
     margin-bottom: -1px;
 }
 
-.mambo-accordion__header {
+.mambo-accordion__header,
+.houdini-heading .houdini-toggle {
     width: 100%;
 }
 
 .houdini-heading .houdini-toggle {
     align-items: center;
+    background-color: transparent;
     border: solid 1px var(--black);
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    width: 100%;
+    padding: var(--space-16);
 }
 
 .houdini-toggle-icon {
@@ -35,5 +31,5 @@
     display: block;
     border: solid 1px var(--black);
     margin-top: -1px;
-    padding: 16px;
+    padding: var(--space-16);
 }
