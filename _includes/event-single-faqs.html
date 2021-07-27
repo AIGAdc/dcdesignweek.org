@@ -1,25 +1,19 @@
-<section class="section section-partners background-celeste color-black ">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        {% include textures/rip-1.svg %}
-    </div>
+<section class="section section-partners background-dcdw-2021-black color-dcdw-2021-celeste ">
     <div class="container grid grid--two-column grid--align-center">
-        <div>
-            Image
-        </div>
         <div class="flow-2">
             <h2>
-                H2: {{ site.partner.header }}
+                FAQs
             </h2>
             <hr class="divider divider--cinnabar" aria-hidden="true">
             <div class="wysiwyg">
-                P: {{ site.partner.body | markdownify }}
+                Body Text
             </div>
             <a class="button button-solid--cinnabar" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
                 {{ site.partner.button-label | markdownify }}
             </a>
         </div>
-    </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        {% include textures/rip-2.svg %}
+        <div>
+            Image
+        </div>
     </div>
 </section>
