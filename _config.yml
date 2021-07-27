@@ -416,6 +416,9 @@ navigation-production:
 - url: "/about/"
   label: About
   aria-label: About Page
+- url: "/faqs/"
+  label: FAQs
+  aria-label: Frequently Asked Questions Page
 partner:
   header: Partner with Us
   body: 'DC Design Week is 100% volunteer-run, in concert with a consortium of local

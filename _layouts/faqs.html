@@ -5,7 +5,31 @@ layout: base
 <article>
     {% include section-hero.html %}
     <span id="skip-to-content">
-        {% include block/faqs-questions.html %}
+        {% include section-faqs.html %}
     </span>
-    {% include section-subscribe.html %}
+    <section class="section-a11y background-celeste background-dcdw-2021-black color-dcdw-2021-celeste texture texture--paper">
+        <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
+            {% include textures/rip-1.svg %}
+        </div>
+        <div class="container grid grid--two-column grid--align-center">
+            <div>
+                Image
+            </div>
+            <div class="flow-2">
+                <h2>
+                    Accessibility
+                </h2>
+                <hr class="divider divider--cinnabar" aria-hidden="true">
+                <div class="wysiwyg">
+                    P: Accessibility Body Text
+                </div>
+                <a class="button button-solid--cinnabar" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
+                    {{ site.partner.button-label | markdownify }}
+                </a>
+            </div>
+        </div>
+        <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
+            {% include textures/rip-2.svg %}
+        </div>
+    </section>
 </article>

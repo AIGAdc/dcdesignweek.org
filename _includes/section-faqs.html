@@ -1,28 +1,30 @@
+{% if page.url == "/events/" %}
 <section class="section section-faqs background-dcdw-2021-black color-dcdw-2021-celeste texture texture--paper">
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--celeste);">
         {% include textures/rip-1.svg %}
     </div>
-    <div class="container background-dcdw-2021-black color-dcdw-2021-celeste">
-        <h2>
-            {{ site.faqs.header }}
-        </h2>
-        <hr class="divider divider--yellow" aria-hidden="true">
-        <div class="wysiwyg">
-            {{ site.faqs.body | markdownify }}
+    <div class="container flow-4 background-dcdw-2021-black color-dcdw-2021-celeste">
+        <div>
+            <h2>
+                {{ site.faqs.header }}
+            </h2>
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg">
+                {{ site.faqs.body | markdownify }}
+            </div>
         </div>
         <ul class="grid grid--one-column column--span-3">
             {% for faq in site.faqs.questions %}
-            <li>
-                <h3 aria-label="faq" class="faq-question" data-houdini-toggle="{{ faq.trigger }}">
+            <li class="mambo-accordion">
+                <h3 aria-label="" class="mambo-accordion__header border-dcdw-2021-celeste" data-houdini-toggle="{{ faq.trigger }}" style="border: solid 1px transparent;">
                     {{ faq.question }}
                 </h3>
-                <div class="{% if faq.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
+                <div class="mambo-accordion__content border-dcdw-2021-celeste {% if faq.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
                     {{ faq.answer | markdownify }}
                 </div>
             </li>
             {% endfor %}
         </ul>
-        <img class="ornament ornament--star" src="/uploads/ornament-star-yellow.svg" alt="Decorative image of yellow star that contains the DCDW logo." />
     </div>
 </section>
 
@@ -37,3 +39,47 @@
         iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
     });
 </script>
+
+{% elsif page.url == "/faqs/" %}
+
+<section class="section section-faqs background-dcdw-2021-celeste color-dcdw-2021-black texture texture--paper">
+    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--celeste);">
+        {% include textures/rip-1.svg %}
+    </div>
+    <div class="container flow-4">
+        <div>
+            <h2>
+                {{ site.faqs.header }}
+            </h2>
+            <hr class="divider divider--cinnabar" aria-hidden="true">
+            <div class="wysiwyg">
+                {{ site.faqs.body | markdownify }}
+            </div>
+        </div>
+        <ul class="grid grid--one-column column--span-3 gap-margin-top-500">
+            {% for faq in site.faqs.questions %}
+            <li class="mambo-accordion">
+                <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ faq.trigger }}">
+                    {{ faq.question }}
+                </h3>
+                <div class="mambo-accordion__content {% if faq.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ faq.trigger }}">
+                    {{ faq.answer | markdownify }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<script>
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+        isAccordion: true,
+        collapseOthers: false,
+        icon: 1, /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon', /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon', /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>', /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
+    });
+</script>
+{% endif %}

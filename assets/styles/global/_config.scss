@@ -72,6 +72,11 @@ $gorko-config: (
         "output": "standard",
         "property": "background-color",
     ),
+    "border-dcdw-2021": (
+        "items": $gorko-colors,
+        "output": "standard",
+        "property": "border-color",
+    ),
     "color-dcdw-2021": (
         "items": $gorko-colors,
         "output": "standard",

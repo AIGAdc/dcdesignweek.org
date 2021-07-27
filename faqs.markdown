@@ -1,7 +1,7 @@
 ---
 title: FAQs
 permalink: "/faqs/"
-published: false
+published: true
 hero:
 - has-hero: true
   header: FAQs
