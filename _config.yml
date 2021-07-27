@@ -103,18 +103,11 @@ defaults:
       is-evening: 
     filter-type:
       is-creative-breakfast: 
-      is-family-friendly: 
+      is-creative-lunch: 
       is-keynote: 
-      is-partner-events: 
       is-party: 
-      is-workshop: 
       is-talk-panel: 
-    filter-focus:
-      is-fun: 
-      is-deia: 
-      is-motion: 
-      is-skill-building: 
-      is-ui-ux: 
+      is-workshop: 
     layout: events-single
 about-dcdw:
   header: About DC Design Week
@@ -337,40 +330,21 @@ filter-events:
   - filter: ".creative-breakfast"
     class: creative-breakfast
     text-1: Creative Breakfast
-  - filter: ".family-friendly"
-    class: family-friendly
-    text-1: Family Friendly
+  - filter: ".creative-lunch"
+    class: creative-lunch
+    text-1: Creative Lunch
   - filter: ".keynote"
     class: keynote
     text-1: Keynote
   - filter: ".party"
     class: party
     text-1: Party
-  - filter: ".partner-events"
-    class: partner-events
-    text-1: Partner Events
   - filter: ".talk-panel"
     class: talk-panel
     text-1: Talk/Panel
   - filter: ".workshop"
     class: workshop
     text-1: Workshop
-  focus:
-  - filter: ".fun"
-    class: fun
-    text-1: Fun
-  - filter: ".deia"
-    class: deia
-    text-1: Diversity, Equity, Inclusion, and Accessibility
-  - filter: ".motion"
-    class: motion
-    text-1: Motion Track, by Duke and Duck
-  - filter: ".skill-building"
-    class: skill-building
-    text-1: Skillbuilding
-  - filter: ".ui-ux"
-    class: ui-ux
-    text-1: UI/UX
   sold-out:
   - filter: ".sold-out"
     class: sold-out

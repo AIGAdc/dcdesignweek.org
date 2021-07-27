@@ -149,24 +149,6 @@
         </div>
     </fieldset>
 
-    {% comment %}
-    <fieldset data-filter-group>
-        <legend>
-            <h2>
-                Event Focus
-            </h2>
-        </legend>
-        <div class=" radio-group">
-                        {% for control in site.filter-events.focus %}
-                        <label for="{{ control.text-1 }}">
-                            <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-focus" value="{{ control.filter }}">
-                            {{ control.text-1 }}
-                        </label>
-                        {% endfor %}
-            </div>
-    </fieldset>
-    {% endcomment %}
-
     <div class="filter-events__reset control-group">
         <button class=" button button-solid--cinnabar" type="reset">
             Clear Filters
