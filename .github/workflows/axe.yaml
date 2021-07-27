@@ -10,9 +10,8 @@ jobs:
         with:
           node-version: 12.x
       - run: npm ci
-      - run: npm run build --if-present
-      - run: npm start & npx wait-on http://localhost:8080
+      - run: npm run start --if-present
       - name: Run axe
         run: |
           npm install -g @axe-core/cli
-          axe http://localhost:8080 --exit
+          axe 127.0.0.1:4000 --exit
