@@ -14,7 +14,7 @@
         "type": "git",
         "url": "git+https://github.com/AIGAdc/dcdesignweek.org.git"
     },
-    "author": "",
+    "author": "Marcus Relacion",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/AIGAdc/dcdesignweek.org/issues"
