@@ -1,3 +1,4 @@
 rules:
+  wcag21a: true
   wcag21aa: true
   best-practice: true

@@ -1,178 +1,25 @@
-<li class="
-[ card card--event ]
-[ mix ]
-[ {% if event.filter-date.is-day-1 == true %} 
-    day-1 
-  {% endif %} 
-  {% if event.filter-date.is-day-2 == true %} 
-    day-2 
-  {% endif %} 
-  {% if event.filter-date.is-day-3 == true %} 
-    day-3 
-  {% endif %} 
-  {% if event.filter-date.is-day-4 == true %} 
-    day-4 
-  {% endif %} 
-    {% if event.filter-date.is-day-5 == true %} 
-    day-5 
-  {% endif %} 
-  {% if event.filter-date.is-day-6 == true %} 
-    day-6 
-  {% endif %} 
-  {% if event.filter-date.is-day-7 == true %} 
-    day-7 
-  {% endif %} 
-  {% if event.filter-date.is-day-8 == true %} 
-    day-8 
-  {% endif %} ]
-  
-  [ {% if event.filter-location.is-in-person == true %} 
-      in-person 
-    {% endif %} 65
-    {% if event.filter-location.is-zoom == true %} 
-      zoom 
-    {% endif %} ]
-
-  [ {% if event.filter-time.is-morning == true %} 
-    morning 
-  {% endif %} 
-  {% if event.filter-time.is-daytime == true %} 
-    daytime 
-  {% endif %} 
-  {% if event.filter-time.is-evening == true %} 
-    evening 
-  {% endif %} ]
-  
-  [ {% if event.filter-type.is-talk-panel == true %} 
-    talk-panel 
-  {% endif %} 
-  {% if event.filter-type.is-creative-breakfast == true %} 
-    creative-breakfast 
-  {% endif %} 
-  {% if event.filter-type.is-party == true %} 
-    party 
-  {% endif %} ]
-  
-  [ {% if event.filter-type.is-family-friendly == true %} 
-    family-friendly
-  {% endif %} 
-  {% if event.filter-type.is-keynote == true %} 
-    keynote
-  {% endif %} 
-  {% if event.filter-type.is-wellness == true %} 
-    wellness
-  {% endif %} 
-  {% if event.filter-type.is-workshop == true %} 
-    workshop
-  {% endif %} 
-  {% if event.filter-type.is-partner-events == true %} 
-    partner-events
-  {% endif %} 
-  {% if event.filter-type.has-occurred == true %} 
-    past-event
-  {% endif %} ]
-
-  [ {% if event.filter-focus.is-fun == true %}
-    fun
-  {% endif %} 
-  {% if event.filter-focus.is-deia == true %} 
-    deia
-  {% endif %} 
-  {% if event.filter-focus.is-motion == true %} 
-    motion
-  {% endif %} 
-  {% if event.filter-focus.is-skill-building == true %} 
-    skill-building
-  {% endif %} 
-  {% if event.filter-focus.is-ui-ux == true %} 
-    ui-ux
-  {% endif %} ]
-
-  [ {% if event.status.has-occurred == true %} 
-    past-event
-  {% endif %}
-  {% if event.status.is-sold-out == true %} 
-    sold-out
-  {% endif %}
-  {% if event.status.is-limited-supply == true %} 
-    limited-supply
-  {% endif %}
-  {% if event.status.is-featured-event == true %} 
-    featured
-  {% endif %} ]
-">
-
+<li class="card card--event mix {%- include liquid/card-event-filter.html -%}">
     <a aria-label="{{ event.aria-label }}" href="{{ event.url }}">
         <div class="card-aside">
-            {% if event.filter-location.is-in-person == true %}
-            <div class="sticker sticker--in-person">
-                <i class="fas fa-users"></i>
-                <!-- <span>In-Person</span> -->
-            </div>
-            {% endif %}
-
             <figure class="card-image ">
                 <img src="{{ event.image }}" alt="{{ event.image-alt }}" />
             </figure>
-
-            {% if event.status.is-featured-event == true and event.status.featured-event-message %}
-            <div class="banner banner-featured banner--celeste">
-                <div class="banner-inner" aria-hidden="true">
-                    <p>{{ event.status.featured-event-message }}</p>
-                </div>
-            </div>
-            {% endif %}
-
-            {% if event.status.is-featured-home == true and event.status.featured-event-message %}
-            <div class="banner banner-featured banner--celeste">
-                <div class="banner-inner" aria-hidden="true">
-                    <p>{{ event.status.featured-event-message }}</p>
-                </div>
-            </div>
-            {% endif %}
-
-            {% if event.status.is-sold-out == true and event.status.sold-out-message %}
-            <div class="banner banner-sold-out banner--cinnabar">
-                <div class="banner-inner" aria-hidden="true">
-                    <p>{{ event.status.sold-out-message }}</p>
-                </div>
-            </div>
-            {% endif %}
-
-            {% if event.status.has-occurred == true and event.status.occurred-message %}
-            <div class="banner banner-occurred banner--yellow">
-                <div class="banner-inner" aria-hidden="true">
-                    <p>{{ event.status.occurred-message }}</p>
-                </div>
-            </div>
-            {% endif %}
+            {%- include liquid/card-event-person-sticker.html -%}
+            {%- include liquid/card-event-status.html -%}
         </div>
 
         <div class="card-header gap-margin-top-100">
-            <h3>
-                H3: {{ event.title }}
-            </h3>
+            <h3>{{ event.title }}</h3>
         </div>
 
         <div class="card-details gap-margin-top-500">
-            {% if page.url == "/" or "/events/" %}
             <div class="card-date">
-                <p class="day">
-                    {{ event.event-date | date: "%a" }}
-                </p>
-                <p class="date">
-                    {{ event.event-date | date: "%m.%d" }}
-                </p>
+                <p class="day">{{ event.event-date | date: "%a" }}</p>
+                <p class="date">{{ event.event-date | date: "%m.%d" }}</p>
             </div>
-            {% endif %}
-
             <div class="card-info">
-                <p>
-                    {{ event.start-time }}
-                </p>
-                <p>
-                    {{ event.venue.name }}
-                </p>
+                <p>{{ event.start-time }}</p>
+                <p>{{ event.venue.name }}</p>
             </div>
         </div>
     </a>
