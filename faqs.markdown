@@ -1,19 +1,21 @@
 ---
 title: FAQs
+layout: faqs
 permalink: "/faqs/"
 published: true
+
 hero:
 - has-hero: true
-  header: FAQs
-  subheader: 
-  image: 
-introduction:
-- has-introduction: true
-  header: "<span>Frequently</span> <span>asked</span> <span>questions</span>"
+  header: "FAQS"
+  subheader: "P: Lorem Ipsum dolor Sit Amet Consectetur Adipiscing elit."
+  image-1: 
+  image-1-alt: 
+  button-label: "Lorem Ipsum"
+  button-url:
+
 faqs:
 - heading: How can I participate in DCDW 2020?
-  body: |-
-    > We've got options—traditional programming will be virtual, but we also offer self-guided events.
+  body: We've got options—traditional programming will be virtual, but we also offer self-guided events.
 
 
 
@@ -28,16 +30,14 @@ faqs:
   trigger: question-1
   expanded: true
 - heading: What’s the best way for me to join to get the most out of my event?
-  body: |-
-    We strongly recommend you join your Zoom session via your computer so you can easily view the presenter and any visuals they may share. Download the Zoom app ahead of time (it’s free!) to make joining your events as smoothly as possible.
+  body: We strongly recommend you join your Zoom session via your computer so you can easily view the presenter and any visuals they may share. Download the Zoom app ahead of time (it’s free!) to make joining your events as smoothly as possible.
 
 
     You can also join through your browser.
   trigger: question-2
   expanded: false
 - heading: How do I find the streaming link for the session I registered for?
-  body: |-
-    Once you’ve registered for your event through Eventbrite, you will receive an email with a link to the live stream. You will receive the link again shortly before the event starts so it’s at the top of your inbox.
+  body: Once you’ve registered for your event through Eventbrite, you will receive an email with a link to the live stream. You will receive the link again shortly before the event starts so it’s at the top of your inbox.
 
 
     If you have any trouble finding the Zoom link for your event, please contact us in the hour leading up to the start time.
@@ -60,7 +60,7 @@ faqs:
   trigger: question-5
   expanded: false
 - heading: What’s your refund policy?
-  body: |-
+  body:
     We will honor refunds – no questions asked – up until 24 hours before your event start time.
 
 
@@ -89,7 +89,7 @@ faqs:
   trigger: question-9
   expanded: false
 - heading: When I buy a ticket, where is my money going?
-  body: |-
+  body:
     We know that this year presents unexpected and difficult economic hardship for many of us. We don’t want cost to be a barrier for entry for anyone, so we’ve tried to make our programming as affordable as possible.
 
 
@@ -102,6 +102,4 @@ faqs:
     If the ticket cost is a barrier for you, please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org) and we will offer discounted or free entry, no questions asked.
   trigger: question-8
   expanded: false
-layout: faqs
 ---
-

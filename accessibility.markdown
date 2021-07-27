@@ -1,12 +1,15 @@
 ---
 title: Accessibility
 permalink: "/accessibility/"
+layout: accessibility
+
 hero:
 - has-hero: true
   header: 
   subheader: 
   image-1: 
   image-1-alt: 
+
 introduction:
 - has-introduction: true
   header: "<span>Accessibility</span> <span>Statement</span>"
@@ -30,6 +33,4 @@ introduction:
     We’ve consulted with various accessibility experts, including Nicole Barbuto of
     LookThink and Charles Hall, an invited expert of the W3C.\n\nIs there anything
     else we should be doing? Let us know by emailing our Accessibility Team at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org). "
-layout: accessibility
 ---
-

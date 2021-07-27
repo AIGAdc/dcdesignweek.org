@@ -2,6 +2,7 @@
 title: Home
 permalink: "/"
 layout: home
+published: true
 
 hero:
 - has-hero: true
@@ -34,13 +35,10 @@ event-button-label: See All Events
 event-button-url: "/events/"
 
 self-guided-header: "At Your Own Pace"
-self-guided-body: Take a break from our virtual lineup and get some fresh air by exploring
-  the city with these (free!) self-guided events. Whether you’ve got a busy schedule
-  or no schedule, don’t worry — you can do these whenever you want.
+self-guided-body: Take a break from our virtual lineup and get some fresh air by exploring the city with these (free!) self-guided events. Whether you’ve got a busy schedule or no schedule, don’t worry — you can do these whenever you want.
 self-guided-button-label: See Self-Guided Events
 self-guided-button-url: "/events/self-guided/"
 
 sponsors-button-label: See All Sponsors
 sponsors-button-url: "/about/#sponsors"
 ---
-
