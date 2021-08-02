@@ -26,12 +26,12 @@ text-right:
   button-label: Button Label
   button-url: "#"
 
-event-header: "Create and Discover"
-event-body: DC Design Week 2020 is all about celebrating the creative voices in the
-  DMV. How do we do that? By creating a virtual lineup of nearly 40 events over 8
-  days to create and discover. Get ready to connect with local makers, Immerse yourself
-  in meaningful conversations, and experience the District’s creative spirit.
-event-button-label: See All Events
+event-header: "Events"
+event-body: "This year, we’re doing even more to foster conversations to challenge, and promote the grassroots history of the District, with a focus on the DMV’s unique local flavor and its impact."
+event-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+event-imageAlt: "Provide Image Alt"
+show-featured-events: false
+event-button-label: "Explore All Events"
 event-button-url: "/events/"
 
 self-guided-header: "At Your Own Pace"

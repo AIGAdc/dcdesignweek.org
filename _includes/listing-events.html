@@ -3,36 +3,43 @@ On homepage, show featured events and apply black background and paper tears
 {% endcomment %}
 
 {% if page.url == "/" %}
-<section id="events" class="section-events background-dcdw-2021-black color-dcdw-2021-celeste ">
+<section id="events" class="section-events background-dcdw-2021-black color-dcdw-2021-celeste">
     <div class="container flow-4">
-        <div class="grid grid--four-column">
-            <div class="grid--three-column-span flow-2">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span flow-2">
                 <h2 id="Replace with Variable">
-                    H2: Events Heading
+                    {{ page.event-header }}
                 </h2>
                 <hr class="divider divider--yellow" aria-hidden="true">
                 <div class="wysiwyg">
-                    P: Events Body Text
+                    {{ page.event-body }}
                 </div>
+            </div>
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.event-image }}" alt="{{ page.event-imageAlt }}">
+                    <figcaption>{{ page.event-imageAlt }}</figcaption>
+                </figure>
             </div>
         </div>
 
-        <div>
-            <ul class="grid grid--four-column mixitup-container">
-                {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
-                {% for event in sorted | limit: 4 %}
-                {% if event.status.is-featured-home == true %}
-                {% include card-event.html %}
-                {% endif %}
-                {% endfor %}
+        {% if page.show-featured-events == true %}
+        <div <ul class="grid grid--four-column mixitup-container">
+            {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
+            {% for event in sorted | limit: 4 %}
+            {% if event.status.is-featured-home == true %}
+            {% include card-event.html %}
+            {% endif %}
+            {% endfor %}
             </ul>
         </div>
-
         <div class="gap-margin-top-1000">
             <a class="button button-solid--yellow" href="{{ page.event-button-url }}">
                 {{ page.event-button-label }}
             </a>
         </div>
+    </div>
+    {% endif%}
     </div>
 </section>
 
