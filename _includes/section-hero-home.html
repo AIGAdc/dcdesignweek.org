@@ -1,6 +1,12 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section-hero ">
+<section class="section-hero">
+    <div class="pattern pattern-left pattern-hyperlocal" style="fill: var(--black);">
+        {% include pattern/hyperlocal.html %}
+    </div>
+    <div class="pattern pattern-right pattern-hyperlocal" style="fill: var(--black);">
+        {% include pattern/hyperlocal.html %}
+    </div>
     <div class="container">
         <figure class="hero-collage">
             <img src="/uploads/hero-collage.png" alt="" />

@@ -2,33 +2,35 @@
     align-items: start;
     display: flex;
     flex-direction: column;
-    position: absolute;
     opacity: 0.1;
+    position: absolute;
 }
 
-.pattern-hyperlocal svg {
-    width: 95vw;
-    height: 100%;
-}
-
-.pattern-inspired {
-    top: 0;
+.pattern-left {
     left: 0;
 }
 
-@media screen and (min-width: 960px) {
-    .pattern-hyperlocal svg {
-        width: 50vw;
-    }
-
-    .pattern-hyperlocal {
-        left: 0;
-        top: -24px;
-    }
+.pattern-right {
+    right: 0;
+    display: none;
 }
 
-@media screen and (min-width: 1366px) {
+.pattern-hyperlocal svg {
+    width: 100vw;
+    height: 100%;
+}
+
+.pattern-hyperlocal,
+.pattern-inspired {
+    top: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .pattern-right {
+        display: block;
+    }
+
     .pattern-hyperlocal svg {
-        width: 680px;
+        width: 580px;
     }
 }
