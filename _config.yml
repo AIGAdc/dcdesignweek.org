@@ -593,12 +593,12 @@ sponsors:
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
 subscribe:
-  header: Subscribe for updates
+  header: Sign up for our Newsletter
   body: Stay up to date on everything we have planned to celebrate the DC design community.
     Follow us on Instagram, Twitter, LinkedIn, and and sign up below for updates from
     DCDW and AIGA DC.
-  image-1: "/uploads/bubble-black-large-02.png"
-  image-1-alt: Floating amorphous bubbles
+  image-1:
+  image-1-alt:
 volunteer:
   header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
