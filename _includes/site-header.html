@@ -1,8 +1,4 @@
-<div class="background-dcdw-2021-purple color-dcdw-2021-black">
-    <a style="display: block !important; color: black !important;padding: 16px; text-align: center !important; font-weight: 700; text-decoration: none;" href="https://airtable.com/shrarXuP7qeRUQsGM" target="_blank" rel="noopener nofollow">
-        QA Feedback
-    </a>
-</div>
+{% include section-qa.html %}
 <header class="">
     <a aria-label="Skip to Content Link" class="skip-to-content" href="#skip-to-content">
         Skip to main content
@@ -12,7 +8,7 @@
     </a>
     <nav class="navigation">
         <ul class="links">
-            {% for link in site.navigation-production %}   
+            {% for link in site.navigation-production %}
             <li class="link">
                 <a aria-label="{{ link.aria-label }}" class="anchor" href="{{ link.url }}">
                     {{ link.label }}
