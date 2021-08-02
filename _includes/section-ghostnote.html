@@ -4,20 +4,24 @@
     </div>
     <div class="container flow-4">
         <div class="grid grid--align-center grid--four-column">
+            {% if page.show-ghostnote-image == true %}
             <div class="grid--two-column-span">
                 <figure>
-                    <img src="{{ page.event-image }}" alt="{{ page.event-imageAlt }}">
-                    <figcaption>{{ page.event-imageAlt }}</figcaption>
+                    <img src="{{ page.ghostnote-image }}" alt="{{ page.ghostnote-imageAlt }}">
+                    <figcaption>{{ page.ghostnote-imageAlt }}</figcaption>
                 </figure>
             </div>
+            {% endif %}
             <div class="grid--two-column-span flow-2">
-                <h2>
+                <h2 id="{{ page.ghostnote-header | downcase | replace: " ", " -" }}">
                     {{ page.ghostnote-header | markdownify }}
                 </h2>
+                {% if page.ghostnote-body %}
                 <hr class="divider divider--black" aria-hidden="true">
                 <div class="wysiwyg">
                     {{ page.ghostnote-body | markdownify }}
                 </div>
+                {% endif %}
                 <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
                     {{ page.ghostnote-button-label }}
                 </a>

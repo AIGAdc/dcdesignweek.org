@@ -1,15 +1,26 @@
 {% if page.url == "/" %}
-
-<section id="sponsors" class="section-sponsors background-dcdw-2021-celeste color-dcdw-2021-black ">
-    <div class="container">
-        <div class="flow-2">
-            <h2 id="Replace with Variable">
-                H2: Sponsors
-            </h2>
-            <hr class="divider divider--cinnabar" aria-hidden="true">
-            <div class="wysiwyg flow-2">
-                P: Sponsors Body Text
+<section id="sponsors" class="section-sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.sponsors-header | downcase | replace: " ", "-" }}">
+                    {{ page.sponsors-header | markdownify }}
+                </h2>
+                {% if page.sponsors-body %}
+                <hr class="divider divider--yellow" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.sponsors-body | markdownify }}
+                </div>
+                {% endif %}
             </div>
+            {% if page.show-sponsors-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.sponsors-image }}" alt="{{ page.sponsors-imageAlt }}">
+                    <figcaption>{{ page.sponsors-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
         </div>
 
         {% comment %} tier 1 {% endcomment %}
@@ -25,48 +36,9 @@
             </ul>
         </div>
 
-        {% comment %} tier 2 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-beige">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
-                {{ site.sponsors.tier-two-header }}
-            </h3>
-            <ul class="gap-margin-top-500 grid grid--four-column">
-                {% assign sorted = site.sponsors.sponsor-tier-two | sort: 'aria-label' %}
-                {% for content in sorted %}
-                {% include card-sponsor.html %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        {% comment %} tier 3 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-yellow">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
-                {{ site.sponsors.tier-three-header }}
-            </h3>
-            <ul class="gap-margin-top-500 grid grid--four-column">
-                {% assign sorted = site.sponsors.sponsor-tier-three | sort: 'aria-label' %}
-                {% for content in sorted %}
-                {% include card-sponsor.html %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        {% comment %} tier 4 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-purple">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
-                {{ site.sponsors.tier-four-header }}
-            </h3>
-            <ul class="gap-margin-top-500 grid grid--four-column">
-                {% assign sorted = site.sponsors.sponsor-tier-four | sort: 'aria-label' %}
-                {% for content in sorted %}
-                {% include card-sponsor.html %}
-                {% endfor %}
-            </ul>
-        </div>
-
         <div class="gap-margin-top-1000">
-            <a class="button button-solid--cinnabar" href="{{ page.sponsors-button-url }}">
-                {{ page.sponsors-button-label}}
+            <a class="button button-solid--yellow" href="{{ page.sponsors-button-url }}">
+                {{ page.sponsors-button-label }}
             </a>
         </div>
     </div>
