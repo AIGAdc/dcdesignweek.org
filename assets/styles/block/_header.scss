@@ -4,11 +4,9 @@ header {
     border-bottom: solid 1px var(--black);
     color: var(--black);
     display: grid;
-    grid-gap: var(--space-16);
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    mix-blend-mode: unset !important;
-    padding: var(--space-16);
+    padding: var(--space-24);
     position: sticky;
     top: 0;
     z-index: var(--index-10);
@@ -31,7 +29,7 @@ header nav a:hover {
 }
 
 header nav .link:not(:last-child) {
-    margin-right: var(--space-16);
+    margin-right: var(--space-32);
 }
 
 header nav {
@@ -50,14 +48,14 @@ header nav {
         display: grid;
         grid-template-columns: max-content 1fr;
         grid-gap: var(--space-32);
-        padding: var(--space-16) var(--space-64);
+        padding: var(--space-32) var(--space-64);
     }
 
     header nav {
         display: block;
     }
 
-    // show site navigation when screen is > 1023
+    // show site navigation when screen is > 1024px
     header nav {
         gap: var(--space-32);
         text-align: right;
