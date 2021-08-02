@@ -46,16 +46,28 @@
 
 {% elsif page.url == "/about/" %}
 
-<section id="sponsors" class="section-sponsors background-dcdw-2021-black color-dcdw-2021-celeste ">
-    <div class="container">
-        <div class="flow-2">
-            <h2 id="Replace with Variable">
-                H2: Sponsors
-            </h2>
-            <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg flow-2">
-                P: Sponsors Body Text
+<section id="sponsors" class="section-sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.sponsors-header | downcase | replace: " ", "-" }}">
+                    {{ page.sponsors-header | markdownify }}
+                </h2>
+                {% if page.sponsors-body %}
+                <hr class="divider divider--yellow" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.sponsors-body | markdownify }}
+                </div>
+                {% endif %}
             </div>
+            {% if page.show-sponsors-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.sponsors-image }}" alt="{{ page.sponsors-imageAlt }}">
+                    <figcaption>{{ page.sponsors-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
         </div>
 
         {% comment %} tier 1 {% endcomment %}
