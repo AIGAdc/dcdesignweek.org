@@ -6,10 +6,6 @@ collections:
     title: Events
     output: true
     permalink: "/events/:title/"
-  events-self-guided:
-    title: Events - Self Guided
-    output: true
-    permalink: "/events/self-guided/:title/"
   posts:
     title: Posts
     output: true
@@ -20,22 +16,10 @@ defaults:
 - scope:
     path: ''
   values:
-    styled-title: 
     image: "/uploads/og-image.jpg"
     description: DC Design Week is a celebration of creatives, thinkers, and makers
       in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
       Join us!
-- scope:
-    path: ''
-    type: events-self-guided
-  values:
-    header: 'DC Design Week: Maker Directory'
-    body: We’re all about celebrating the DMV’s creative voices — so what better way
-      to do that than showcasing their work? We may not be able to do our IRL Pop-Up
-      Shop this year, but we’ve got the next best thing. Check out our virtual directory
-      for all your fall shopping needs.
-    button-url: ''
-    button-label: Posters
 - scope:
     path: ''
     type: events
