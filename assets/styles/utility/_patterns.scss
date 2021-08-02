@@ -15,7 +15,8 @@
     display: none;
 }
 
-.pattern-hyperlocal svg {
+.pattern-hyperlocal svg,
+.pattern-inspired svg {
     width: 100vw;
     height: 100%;
 }
@@ -30,7 +31,8 @@
         display: block;
     }
 
-    .pattern-hyperlocal svg {
+    .pattern-hyperlocal svg,
+    .pattern-inspired svg {
         width: 580px;
     }
 }
