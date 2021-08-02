@@ -34,6 +34,14 @@ show-featured-events: false
 event-button-label: "Explore All Events"
 event-button-url: "/events/"
 
+ghostnote-header: "Ghost Note Agency"
+ghostnote-body: "Ghost Note is a creative agency born + based in the District of Columbia. We believe that when good people come together they create truly great things."
+ghostnote-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+ghostnote-imageAlt: "Provide Image Alt"
+ghostnote-button-label: "Visit Site"
+ghostnote-button-url: "https://www.ghostnoteagency.com/"
+ghostnote-button-is-external-url: true
+
 self-guided-header: "At Your Own Pace"
 self-guided-body: Take a break from our virtual lineup and get some fresh air by exploring the city with these (free!) self-guided events. Whether you’ve got a busy schedule or no schedule, don’t worry — you can do these whenever you want.
 self-guided-button-label: See Self-Guided Events

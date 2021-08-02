@@ -7,6 +7,11 @@
     text-decoration: none;
 }
 
+.button-solid--black {
+    background-color: var(--black);
+    color: var(--celeste);
+}
+
 .button-solid--cinnabar {
     background-color: var(--cinnabar);
     color: var(--black);
@@ -19,6 +24,13 @@
 
 .button-link--cinnabar {
     color: var(--cinnabar);
+}
+
+.button-solid--black:hover {
+    background-color: transparent;
+    border: solid 4px var(--black);
+    color: var(--black);
+    cursor: pointer;
 }
 
 .button-solid--cinnabar:hover,

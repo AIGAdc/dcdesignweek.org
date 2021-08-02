@@ -1,0 +1,30 @@
+<section class="section-ghostnote background-celeste color-black ">
+    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
+        {% include textures/rip-1.svg %}
+    </div>
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.event-image }}" alt="{{ page.event-imageAlt }}">
+                    <figcaption>{{ page.event-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            <div class="grid--two-column-span flow-2">
+                <h2>
+                    {{ page.ghostnote-header | markdownify }}
+                </h2>
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.ghostnote-body | markdownify }}
+                </div>
+                <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                    {{ page.ghostnote-button-label }}
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
+        {% include textures/rip-2.svg %}
+    </div>
+</section>
