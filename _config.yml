@@ -343,37 +343,6 @@ faqs:
     Below are some of the responses from the session:'
   button-url: "/faqs/"
   button-label: Learn More
-  questions:
-  - question: Do I have to be a designer to submit an event proposal for consideration?
-    answer: |-
-      No, you don’t have to be a designer to submit an event proposal.
-
-      If you are a floral artist, cake decorator, architect, or any kind of creative, we want to hear from you, so [submit your ideas](https://docs.google.com/forms/d/e/1FAIpQLSeAC1FU3ai5MsumhCs5cFa27g2t_ScaSyfgFmtFDcO3dF1zyg/viewform).
-    trigger: question-1
-    expanded: true
-  - question: What are some successful event topics from the past?
-    answer: |-
-      Last year, event topics that were in line with what was going on in the world were very successful. Specifically, popular events focused on anti-racism, social justice, and accessibility.
-
-      Craft-based workshops were also wildly successful. Nonetheless, event success depends on the expertise and enthusiasm of the hosting community members and speakers.
-    trigger: question-2
-    expanded: true
-  - question: Will you offer support for logistics? For example, could you assist
-      in finding an event location?
-    answer: |-
-      Yes. If your event is selected, you will be confirmed as an event within the DCDW 2021 calendar.
-
-      One of the many things you’ll get from us to assist with your event is a volunteer Event Lead from early summer through DCDW to support you with event planning, logistics, and marketing.
-    trigger: question-3
-    expanded: true
-  - question: Are there any volunteer opportunities if I don’t want to pitch an idea
-      for an event?
-    answer: |-
-      Yes, DCDW is completely organized by volunteers, so there are small, medium, and large volunteer time commitment opportunities available if you’re looking for other ways to get involved.
-
-      Learn more about DCDW 2021, and take a look at the recording from our information session [here](https://dc.aiga.org/programs-initiatives/dc-design-week/).
-    trigger: question-4
-    expanded: true
 makers:
   header: 'DC Design Week: Maker Directory'
   body: We’re all about celebrating the DMV’s creative voices — so what better way
