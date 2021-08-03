@@ -1,0 +1,28 @@
+<section id="hyperlocal" class="section-hyperlocal background-color-dcdw-2021-celeste color-dcdw-2021-black">
+    <div class="container flow-4">
+        <div class="grid grid--four-column grid--align-center">
+            {% if page.show-hyperlocal-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.hyperlocal-image }}" alt="{{ page.hyperlocal-imageAlt }}">
+                    <figcaption>{{ page.hyperlocal-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.hyperlocal-header | downcase | replace: " ", "-" }}">
+                    {{ page.hyperlocal-header | markdownify }}
+                </h2>
+                {% if page.hyperlocal-body %}
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.hyperlocal-body | markdownify }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
+        {% include textures/rip-2.svg %}
+    </div>
+</section>
