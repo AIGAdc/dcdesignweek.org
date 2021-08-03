@@ -106,151 +106,151 @@ about-dcdw:
   code-of-conduct-text: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
   questions-header: Questions?
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
-committee:
+staff:
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Imagenpm run start
+  name: Staff Member Name
+  role: Staff Member Role
   number: 1
   color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 1
   color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 2
   color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 4
   color: cinnabar
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 3
   color: purple
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 2
   color: cinnabar
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 4
   color: beige
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 2
   color: black
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 1
   color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 4
   color: yellow
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 3
   color: black
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
+  image-alt: Staff Member Image
+  name: Staff Member Name
+  role: Staff Member Role
   number: 1
   color: beige
   website-url-1: 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
+  website-aria-label-1: Staff Member Instagram
   website-url-2: 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
 filter-events:
   day:
   - filter: ".day-1"
@@ -451,7 +451,7 @@ proposals:
   body: |-
     We’re excited to announce that this year we’re shifting our focus to feature events curated and hosted by our community — so … you!
 
-    Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
+    Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW Staff, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
 
     <strong>The event proposal window is closed. Please stay tuned for this year's calendar of events.</strong>
 

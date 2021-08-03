@@ -28,4 +28,13 @@ staff-body: "We’re all about celebrating the DMV’s creative voices — so wh
 show-staff-image: false
 staff-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 staff-imageAlt: "Provide Image Alt"
+
+photographer-header: "Photographer"
+photographer-body: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis. Integer nibh tellus, mollis nec luctus sed."
+show-photographer-image: true
+photographer-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+photographer-imageAlt: "Provide Image Alt"
+photographer-button-label: "Visit Site"
+photographer-button-url: "https://photos.marcusrelacion.com/"
+photographer-button-is-external-url: true
 ---
