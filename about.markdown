@@ -23,8 +23,9 @@ show-sponsors-image: false
 sponsors-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 sponsors-imageAlt: "Provide Image Alt"
 
-team:
-- team-header: "DCDW 2020 Committee"
-  team-body: DC Design Week is planned by a committee of volunteers who plan each
-    event, do all the outreach, and more. We’re so grateful for their contributions.
+staff-header: "Staff"
+staff-body: "We’re all about celebrating the DMV’s creative voices — so what better way to do that than showcasing their work? This year, we’re going HyperLocal: Featuring what DC looks like and that includes you."
+show-staff-image: false
+staff-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+staff-imageAlt: "Provide Image Alt"
 ---

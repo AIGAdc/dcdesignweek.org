@@ -1,48 +1,59 @@
-<section class="section-committee background-celeste color-black ">
+<section class="section-committee background-dcdw-2021-celeste color-dcdw-2021-black ">
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
         {% include textures/rip-1.svg %}
     </div>
-    <div class="container">
-        <div class="flow-2">
-            <h2 class="" id="Replace with Variable">
-                H2: Committee
-            </h2>
-            <hr class="divider divider--cinnabar" aria-hidden="true">
-            <div class="wysiwyg">
-                P: Committee Body Text
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.staff-header | downcase | replace: " ", " -" }}">
+                    {{ page.staff-header | markdownify }}
+                </h2>
+                {% if page.staff-body %}
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.staff-body | markdownify }}
+                </div>
+                {% endif %}
             </div>
+            {% if page.show-staff-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.staff-image }}" alt="{{ page.staff-imageAlt }}">
+                    <figcaption>{{ page.staff-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
         </div>
-        <div class="gap-margin-top-1000">
-            <ul class="grid grid--four-column margin-top-60">
-                {% for member in site.committee %}
-                <li class="card card-committee text-center">
-                    <div class="card-aside">
-                        <figure class="card-image background-dcdw-2021-{{ member.color }} clipped-{{ member.number }}">
-                            <img src="{{ member.image }}" alt="{{ member.image-alt }}" />
-                        </figure>
+
+        <ul class="grid grid--four-column margin-top-60">
+            {% for member in site.committee %}
+            <li class="card card-committee text-center">
+                <div class="card-aside">
+                    <figure class="card-image background-dcdw-2021-{{ member.color }} clipped-{{ member.number }}">
+                        <img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+                    </figure>
+                </div>
+                <div class="card-header gap-margin-top-300">
+                    <h3 class="card-title">{{ member.name }}</h3>
+                    <p class="card-subtitle">{{ member.role }}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="card-links">
+                        {% if member.website-url-1 %}
+                        <p>
+                            <a aria-label="{{ member.website-aria-label-1 }}" class="card-link" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
+                        </p>
+                        {% endif %}
+                        {% if member.website-url-2 %}
+                        <p>
+                            <a aria-label="{{ member.website-aria-label-2 }}" class="card-link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
+                        </p>
+                        {% endif %}
                     </div>
-                    <div class="card-header gap-margin-top-300">
-                        <h3 class="card-title">{{ member.name }}</h3>
-                        <p class="card-subtitle">{{ member.role }}</p>
-                    </div>
-                    <div class="card-footer">
-                        <div class="card-links">
-                            {% if member.website-url-1 %}
-                            <p>
-                                <a aria-label="{{ member.website-aria-label-1 }}" class="card-link" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
-                            </p>
-                            {% endif %}
-                            {% if member.website-url-2 %}
-                            <p>
-                                <a aria-label="{{ member.website-aria-label-2 }}" class="card-link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
-                            </p>
-                            {% endif %}
-                        </div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
         {% include textures/rip-2.svg %}
