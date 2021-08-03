@@ -1,18 +1,23 @@
 {% if page.url == "/faqs/" %}
 <section id="faqs" class="section-faqs background-dcdw-2021-celeste color-dcdw-2021-black">
     <div class="container">
-        <ul class="grid grid--one-column column--span-3">
-            {% for question in page.questions %}
-            <li class="mambo-accordion">
-                <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}" style="border: solid 1px transparent;">
-                    {{ question.question }}
-                </h3>
-                <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ question.trigger }}">
-                    {{ question.answer | markdownify }}
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
+        <div class="grid grid--four-column">
+            <ul class="grid--three-column-span">
+                {% for question in page.questions %}
+                <li class="mambo-accordion">
+                    <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}" style="border: solid 1px transparent;">
+                        {{ question.question | markdownify }}
+                    </h3>
+                    <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ question.trigger }}">
+                        {{ question.answer | markdownify }}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="grid--one-column-span">
+                Sticky Sidebar
+            </div>
+        </div>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
         {% include textures/rip-2.svg %}
