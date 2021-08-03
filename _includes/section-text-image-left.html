@@ -1,22 +1,33 @@
-<section class="section section-partners background-celeste color-black ">
+<section class="section-image-left background-celeste color-black">
+    {% comment %}
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
         {% include textures/rip-1.svg %}
     </div>
-    <div class="container grid grid--two-column grid--align-center">
-        <div>
-            Image
-        </div>
-        <div class="flow-2">
-            <h2>
-                H2: {{ site.partner.header }}
-            </h2>
-            <hr class="divider divider--cinnabar" aria-hidden="true">
-            <div class="wysiwyg">
-                P: {{ site.partner.body | markdownify }}
+    {% endcomment %}
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            {% if page.show-image-left-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.image-left-image }}" alt="{{ page.image-left-imageAlt }}">
+                    <figcaption>{{ page.image-left-imageAlt }}</figcaption>
+                </figure>
             </div>
-            <a class="button button-solid--cinnabar" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
-                {{ site.partner.button-label | markdownify }}
-            </a>
+            {% endif %}
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.image-left-header | downcase | replace: " ", " -" }}">
+                    {{ page.image-left-header | markdownify }}
+                </h2>
+                {% if page.image-left-body %}
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.image-left-body | markdownify }}
+                </div>
+                {% endif %}
+                <a class="button button-solid--black" href="{{ page.image-left-button-url }}" {% if page.image-left-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                    {{ page.image-left-button-label }}
+                </a>
+            </div>
         </div>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
