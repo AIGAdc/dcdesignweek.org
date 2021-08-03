@@ -1,7 +1,7 @@
 {% if page.url == "/about/" or "/events/" or "/faqs/" %}
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section section-hero background-dcdw-2021-black color-dcdw-2021-celeste">
+<section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste">
     <div class="container grid grid--four-column grid--align-center">
         <div class="grid--two-column-span flow-2">
             <h1 id="{{ content.header | downcase | replace: " ", " -" }}">
@@ -13,6 +13,9 @@
                 {{ content.subheader | markdownify }}
             </div>
             {% endif %}
+        </div>
+        <div class="pattern pattern-right pattern-hyperlocal" style="fill: var(--beige);">
+            {% include pattern/hyperlocal.html %}
         </div>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
