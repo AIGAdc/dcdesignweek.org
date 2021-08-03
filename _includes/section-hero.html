@@ -3,6 +3,11 @@
 {% if content.has-hero == true %}
 <section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste">
     <div class="container grid grid--four-column grid--align-center">
+        {% if page.url == "/about/" and "/faqs/" %}
+        <div class="ornament ornament-diagonal-red-shape">
+            {% include ornament/diagonal-red-shape.svg %}
+        </div>
+        {% endif %}
         <div class="grid--two-column-span flow-2">
             {% if page.url == "/events/" %}
             <div class="ornament ornament-three-stars" style="fill: var(--purple);">

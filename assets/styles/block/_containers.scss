@@ -8,7 +8,8 @@
 
 .about-layout .container,
 .events-layout .container,
-.faqs-layout .container {
+.faqs-layout .container,
+.makers-layout .container {
     padding: var(--space-64) var(--space-32);
 }
 
@@ -19,7 +20,8 @@
 
     .about-layout .container,
     .events-layout .container,
-    .faqs-layout .container {
+    .faqs-layout .container,
+    .makers-layout .container {
         padding: var(--space-96) var(--space-64) var(--space-200) var(--space-64);
     }
 }
