@@ -337,6 +337,14 @@ filter-events:
   - filter: ".featured"
     class: featured
     text-1: Show Featured
+accessibility:
+  header: Accessibility
+  body: "DC Design Week is committed to improving accessibility and inclusion efforts each year. We recognize this is a journey and we are still far from our ideal. Read more about our accessibility efforts."
+  show-image: true
+  image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+  imageAlt: "Provide Image Alt"
+  button-url: "/accessibility/"
+  button-label: View Accessibility Statement
 faqs:
   header: FAQ
   body: 'We recently held an information session to answer your questions directly.
