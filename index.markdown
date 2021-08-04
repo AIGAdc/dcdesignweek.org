@@ -1,7 +1,7 @@
 ---
 title: Home
-permalink: /
-layout: home
+permalink: "/"
+layout: "home"
 published: true
 
 hero:

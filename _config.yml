@@ -108,149 +108,397 @@ about-dcdw:
   questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
 staff:
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Imagenpm run start
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Richard Bentham
+  role: Executive Director
+  pronouns: he / him / his
   number: 1
-  color: purple
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Ariana Rodriguez-Gitler
+  role: Deputy Executive Director
+  pronouns: she / her / hers
   number: 1
-  color: purple
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Joe Greeley
+  role: Board Liasion
+  pronouns: he / him / his
   number: 2
-  color: yellow
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Danni Baker
+  role: Program Director
+  pronouns: she / her / hers
   number: 4
-  color: cinnabar
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Eliza Duquette
+  role: Program Director
+  pronouns: she / her / hers
   number: 3
-  color: purple
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: David Dunston
+  role: Communications Director
+  pronouns: he / him / his
   number: 2
-  color: cinnabar
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Cynthia Kim
+  role: Deputy Communications Director
+  pronouns: she / her / hers 
   number: 4
-  color: beige
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Radhika Bhatt
+  role: Partnerships Director
+  pronouns: she / her / hers
   number: 2
-  color: black
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Claire Blaustein
+  role: AIGA DC President
+  pronouns: she / her / hers
   number: 1
-  color: yellow
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Ben Abraham
+  role: Community-Curated Events Manager
+  pronouns: he / him / his
   number: 4
-  color: yellow
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Sydney Adams
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
   number: 3
-  color: black
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
-  image-alt: Staff Member Image
-  name: Staff Member Name
-  role: Staff Member Role
+  name: Janessa Arrington
+  role: Keynote Event Lead
+  pronouns: she / her / hers
   number: 1
-  color: beige
-  website-url-1: 
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
   website-label-1: <i class="fab fa-instagram-square"></i> Instagram
   website-aria-label-1: Staff Member Instagram
-  website-url-2: 
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
   website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Kojo Boateng
+  role: Kickoff Event Lead
+  pronouns: he / him / his
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Jelena Budjevac
+  role: Copywriter
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Cara Campbell
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Benneth Chukwu
+  role: Designer
+  pronouns: he / him / his
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Elaine Heinzman
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Jessica Josey
+  role: Social Media Lead
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Josh Kim
+  role: Accessibility Lead
+  pronouns: he / him / his
+  number: 3
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Nicole McKinney
+  role: Keynote Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Danielle "Dee" Mouledoux
+  role: Workshop Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Johanna Ostrich
+  role: Pop-Up Event Lead 
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Jena Persico
+  role: Pop-Up Event Lead
+  pronouns: he / him / his
+  number: 3
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Khanh Pham
+  role: Marketing Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Kristin Rafael
+  role: Design Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Marcus Relacion
+  role: Web Developer
+  pronouns: he / him / his
+  number: 4
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Silvia Script
+  role: Web Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
+- image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  name: Chelsea Wilson
+  role: Web Designer
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: https://www.instagram.com/marcusrelacion/ 
+  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-1: Staff Member Instagram
+  website-url-2: https://www.instagram.com/marcusrelacion/ 
+  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-2: Staff Member LinkedIn
+  website-url-3: https://www.instagram.com/marcusrelacion/ 
+  website-label-3: <i class="fas fa-globe"></i> Website
+  website-aria-label-3: Staff Member Website
 filter-events:
   day:
   - filter: ".day-1"

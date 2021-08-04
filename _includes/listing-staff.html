@@ -1,6 +1,6 @@
 <section class="section-committee background-dcdw-2021-celeste color-dcdw-2021-black ">
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        {% include textures/rip-1.svg %}
+        {% include textures/rip-B.svg %}
     </div>
     <div class="container flow-4">
         <div class="grid grid--align-center grid--four-column">
@@ -34,8 +34,15 @@
                     </figure>
                 </div>
                 <div class="card-header gap-margin-top-300">
+                    {% if member.name %}
                     <h3 class="card-title">{{ member.name }}</h3>
+                    {% endif %}
+                    {% if member.role %}
                     <p class="card-subtitle">{{ member.role }}</p>
+                    {% endif %}
+                    {% if member.pronouns %}
+                    <p class="card-subtitle">{{ member.pronouns }}</p>
+                    {% endif %}
                 </div>
                 <div class="card-footer">
                     <div class="card-links">
@@ -49,6 +56,11 @@
                             <a aria-label="{{ member.website-aria-label-2 }}" class="card-link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
                         </p>
                         {% endif %}
+                        {% if member.website-url-3 %}
+                        <p>
+                            <a aria-label="{{ member.website-aria-label-3 }}" class="card-link" href="{{ member.website-url-3 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-3 }}</a>
+                        </p>
+                        {% endif %}
                     </div>
                 </div>
             </li>
@@ -56,6 +68,6 @@
         </ul>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        {% include textures/rip-2.svg %}
+        {% include textures/rip-A.svg %}
     </div>
 </section>
