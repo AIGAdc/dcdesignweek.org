@@ -9,6 +9,49 @@
     line-height: 0.75;
 }
 
+.home-layout .section-hero h1,
+.home-layout .section-hero p {
+    position: relative;
+    z-index: var(--index-10);
+}
+
+.home-layout .section-hero h1:before {
+}
+
+.home-layout .section-hero {
+    min-height: 480px;
+}
+
+.home-layout .section-hero .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--space-200) var(--space-64) 288px var(--space-64);
+}
+
+.home-layout .section-hero .container:before {
+    content: "";
+    position: absolute;
+    background-image: url(/uploads/hero-collage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.home-layout .hero-collage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1px;
+}
+
 @media screen and (min-width: 1024px) {
     .section-hero h1 {
         font-size: 9.5rem;
