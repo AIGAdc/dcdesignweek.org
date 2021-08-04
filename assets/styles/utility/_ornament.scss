@@ -7,8 +7,14 @@
 
 .ornament-diagonal-red-shape {
     position: absolute;
-    top: 32px;
+    top: -32px;
     left: -120px;
     height: 600px;
     z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+    .ornament-diagonal-red-shape {
+        top: 144px;
+    }
 }
