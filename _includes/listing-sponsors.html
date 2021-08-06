@@ -1,10 +1,10 @@
 {% if page.url == "/" %}
-<section id="sponsors" class="section-sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
-    <div class="container flow-4">
+<section id="sponsors" class="sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
+    <div class="container">
         <div class="grid grid--align-center grid--four-column">
             <div class="grid--two-column-span flow-2">
-                <h2 id="{{ page.sponsors-header | downcase | replace: " ", "-" }}">
-                    {{ page.sponsors-header | markdownify }}
+                <h2 id="{{ page.sponsors-header | downcase | replace: " ", " -" }}">
+                    {{ page.sponsors-header }}
                 </h2>
                 {% if page.sponsors-body %}
                 <hr class="divider divider--yellow" aria-hidden="true">
@@ -24,15 +24,17 @@
         </div>
 
         {% comment %} tier 1 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-cinnabar">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
+        <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
+            <h3 class="font-family-bayard font-size-1100" id="Replace with Variable">
                 {{ site.sponsors.tier-one-header }}
+                {% include textures/sponsor-header-1.svg %}
             </h3>
             <ul class="gap-margin-top-500 grid grid--four-column">
                 {% assign sorted = site.sponsors.sponsor-tier-one | sort: 'aria-label' %}
                 {% for content in sorted %}
                 {% include card-sponsor.html %}
                 {% endfor %}
+                {% include textures/sponsor-1.svg %}
             </ul>
         </div>
 
@@ -46,12 +48,12 @@
 
 {% elsif page.url == "/about/" %}
 
-<section id="sponsors" class="section-sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
+<section id="sponsors" class="sponsors background-dcdw-2021-black color-dcdw-2021-celeste">
     <div class="container flow-4">
         <div class="grid grid--align-center grid--four-column">
             <div class="grid--two-column-span flow-2">
-                <h2 id="{{ page.sponsors-header | downcase | replace: " ", "-" }}">
-                    {{ page.sponsors-header | markdownify }}
+                <h2 id="{{ page.sponsors-header | downcase | replace: " ", " -" }}">
+                    {{ page.sponsors-header }}
                 </h2>
                 {% if page.sponsors-body %}
                 <hr class="divider divider--yellow" aria-hidden="true">
@@ -71,54 +73,62 @@
         </div>
 
         {% comment %} tier 1 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-cinnabar">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
+        <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
+            <h3 class="font-family-bayard font-size-1100" id="Replace with Variable">
                 {{ site.sponsors.tier-one-header }}
+                {% include textures/sponsor-header-1.svg %}
             </h3>
             <ul class="gap-margin-top-500 grid grid--four-column">
                 {% assign sorted = site.sponsors.sponsor-tier-one | sort: 'aria-label' %}
                 {% for content in sorted %}
                 {% include card-sponsor.html %}
                 {% endfor %}
+                {% include textures/sponsor-1.svg %}
             </ul>
         </div>
 
         {% comment %} tier 2 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-beige">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
+        <div class="sponsors-tier sponsors-tier-2 gap-margin-top-1000">
+            <h3 class="font-family-bayard font-size-1100" id="Replace with Variable">
                 {{ site.sponsors.tier-two-header }}
+                {% include textures/sponsor-header-2.svg %}
             </h3>
             <ul class="gap-margin-top-500 grid grid--four-column">
                 {% assign sorted = site.sponsors.sponsor-tier-two | sort: 'aria-label' %}
                 {% for content in sorted %}
                 {% include card-sponsor.html %}
                 {% endfor %}
+                {% include textures/sponsor-2.svg %}
             </ul>
         </div>
 
         {% comment %} tier 3 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-yellow">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
+        <div class="sponsors-tier sponsors-tier-3 gap-margin-top-1000">
+            <h3 class="font-family-bayard font-size-1100" id="Replace with Variable">
                 {{ site.sponsors.tier-three-header }}
+                {% include textures/sponsor-header-3.svg %}
             </h3>
             <ul class="gap-margin-top-500 grid grid--four-column">
                 {% assign sorted = site.sponsors.sponsor-tier-three | sort: 'aria-label' %}
                 {% for content in sorted %}
                 {% include card-sponsor.html %}
                 {% endfor %}
+                {% include textures/sponsor-3.svg %}
             </ul>
         </div>
 
         {% comment %} tier 4 {% endcomment %}
-        <div class="gap-margin-top-1000 background-dcdw-2021-purple">
-            <h3 class="font-family-bayard font-size-1000" id="Replace with Variable">
+        <div class="sponsors-tier sponsors-tier-4 gap-margin-top-1000">
+            <h3 class="font-family-bayard font-size-1100" id="Replace with Variable">
                 {{ site.sponsors.tier-four-header }}
+                {% include textures/sponsor-header-4.svg %}
             </h3>
             <ul class="gap-margin-top-500 grid grid--four-column">
                 {% assign sorted = site.sponsors.sponsor-tier-four | sort: 'aria-label' %}
                 {% for content in sorted %}
                 {% include card-sponsor.html %}
                 {% endfor %}
+                {% include textures/sponsor-4.svg %}
             </ul>
         </div>
     </div>

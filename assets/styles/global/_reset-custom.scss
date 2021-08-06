@@ -113,6 +113,10 @@ small {
     text-rendering: optimizeLegibility;
 }
 
+h2 {
+    font-size: var(--font-size-32);
+}
+
 fieldset {
     border: none;
     margin: 0;
