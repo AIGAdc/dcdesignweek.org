@@ -51,6 +51,7 @@ speakers:
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
   color-background: cinnabar
   color-text: celeste
+  default-expanded: true
 - name: Michelle Bishop 2
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
@@ -65,6 +66,7 @@ speakers:
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
   color-background: purple
   color-text: black
+  default-expanded: false
 - name: Michelle Bishop 3
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
@@ -79,6 +81,7 @@ speakers:
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
   color-background: yellow
   color-text: black
+  default-expanded: false
 - name: Michelle Bishop 4
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
@@ -93,6 +96,7 @@ speakers:
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
   color-background: beige
   color-text: black
+  default-expanded: false
 has-accessibility-notes: true
 accessibility-notes:
 - note: |-

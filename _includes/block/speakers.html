@@ -12,48 +12,52 @@
                 <ul data-tabs class="speaker-tabs grid grid--four-column">
                     {% for speaker in page.speakers %}
                     <li class="speaker-tab">
-                        <a href="#{{ speaker.name | downcase | replace: " ", "-" }}">
+                        <a {% if speaker.default-expanded %} data-tabby-default {% endif %} class="flow-2" href="#{{ speaker.name | downcase | replace: " ", "-" }}">
                             <figure>
                                 <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
                             </figure>
-                            <h3>{{ speaker.name }}</h3>
-                            {% if speaker.title %}
-                            <p>{{ speaker.title }}</p>
-                            {% endif %}
+                            <div>
+                                <h3>{{ speaker.name }}</h3>
+                                {% if speaker.title %}
+                                <p>{{ speaker.title }}</p>
+                                {% endif %}
+                            </div>
                         </a>
                     </li>
                     {% endfor %}
                 </ul>
 
                 {% for speaker in page.speakers %}
-                <div class="speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }}" id="{{ speaker.name | downcase | replace: " ", "-" }}" >
-                    <h4>About <h3>{{ speaker.name }}</h3></h4>
+                <div class="speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }}" id="{{ speaker.name | downcase | replace: " ", "-" }}">
+                    <h4>About</h4>
 
                     {% if speaker.pronouns %}
                     <p>{{ speaker.pronouns }}</p>
                     {% endif %}
-                    <div class="wysiwyg">{{ speaker.bio | markdownify }}</div>
+                    <div class="wysiwyg">
+                        {{ speaker.bio | markdownify }}
+                    </div>
                     {% if speaker.website-label %}
-                            <a href="{{ speaker.website-url }}" rel="noopener" target="_blank" style="display: block">
-                                <i class="fas fa-globe-americas"> </i>
-                                {{ speaker.website-label }}
-                            </a>
-                            {% endif %}
-                            {% if speaker.website-label-2 %}
-                            <a href="{{ speaker.website-url-2 }}" rel="noopener" target="_blank" style="display: block">
-                                <i class="fas fa-globe-americas"> </i>
-                                {{ speaker.website-label-2 }}
-                            </a>
-                            {% endif %}
-                            {% if speaker.website-label-3 %}
-                            <a href="{{ speaker.website-url-3 }}" rel="noopener" target="_blank" style="display: block">
-                                <i class="fas fa-globe-americas"> </i>
-                                {{ speaker.website-label-3 }}
-                            </a>
-                            {% endif %}
-                            <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
-                                {% include textures/rip-C.svg %}
-                            </div>
+                    <a href="{{ speaker.website-url }}" rel="noopener" target="_blank" style="display: block">
+                        <i class="fas fa-globe-americas"> </i>
+                        {{ speaker.website-label }}
+                    </a>
+                    {% endif %}
+                    {% if speaker.website-label-2 %}
+                    <a href="{{ speaker.website-url-2 }}" rel="noopener" target="_blank" style="display: block">
+                        <i class="fas fa-globe-americas"> </i>
+                        {{ speaker.website-label-2 }}
+                    </a>
+                    {% endif %}
+                    {% if speaker.website-label-3 %}
+                    <a href="{{ speaker.website-url-3 }}" rel="noopener" target="_blank" style="display: block">
+                        <i class="fas fa-globe-americas"> </i>
+                        {{ speaker.website-label-3 }}
+                    </a>
+                    {% endif %}
+                    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
+                        {% include textures/rip-C.svg %}
+                    </div>
                 </div>
                 {% endfor %}
             </div>
