@@ -27,9 +27,9 @@ layout: compress
 
     <body>
         <main class="{{ page.layout }}-layout" id="main-content">
-            {% include site-header.html %}
+            {% include block/header.html %}
             {{ content | safe }}
-            {% include site-footer.html %}
+            {% include block/footer.html %}
         </main>
         {% include third-party/offside/menu.html %}
     </body>
