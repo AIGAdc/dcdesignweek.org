@@ -2,10 +2,10 @@
 <section id="faqs" class="section-faqs background-dcdw-2021-celeste color-dcdw-2021-black">
     <div class="container">
         <div class="grid grid--four-column">
-            <ul class="grid--three-column-span">
+            <ul class="grid--three-column-span flow-4">
                 {% for question in page.questions %}
                 <li class="mambo-accordion">
-                    <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}" style="border: solid 1px transparent;">
+                    <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">
                         {{ question.question | markdownify }}
                     </h3>
                     <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ question.trigger }}">
@@ -15,7 +15,20 @@
                 {% endfor %}
             </ul>
             <div class="grid--one-column-span">
-                Sticky Sidebar
+                <div class="faq-contact">
+                    <h4>General Questions</h4>
+                    <ul>
+                        <li>
+                            Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+                        </li>
+                    </ul>
+                    <h4 class="margin-top-16">Accessibility Questions</h4>
+                    <ul>
+                        <li>
+                            Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
