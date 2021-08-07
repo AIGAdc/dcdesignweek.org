@@ -7,7 +7,7 @@
             <h1 id="{{ page.title | downcase | replace: " ", " -" }} ">
                 {{ page.title | markdownify }}
             </h1>
-            <hr class=" divider divider--cinnabar" aria-hidden="true" />
+            <hr class=" divider divider--yellow" aria-hidden="true" />
             <p>
                 {{ page.event-date | date: "%A / %B %d / %l:%M %p" }}
             </p>
@@ -17,21 +17,21 @@
 
             <div class="landing-hero__tickets">
                 {% if page.tickets.has-member-button == true %}
-                <a class="button button-solid button__solid--cinnabar  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                <a class="button button-solid button__solid--yellow  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
                     {{ page.tickets.member-button-label }}
                 </a>
                 {% else %}
-                <a class="button button__solid disabled button-solid--cinnabar  ">
+                <a class="button button__solid disabled button-solid--yellow  ">
                     Ticket Sales Have Ended
                 </a>
                 {% endif %}
                 {% if page.tickets.has-non-member-button == true %}
                 <a class="
-                    button button-solid button__solid--cinnabar {% if page.status.has-occurred == true %} disabled {% endif %}" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                    button button-solid button__solid--yellow {% if page.status.has-occurred == true %} disabled {% endif %}" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.non-member-button-url }}" rel="noopener" target="_blank" {% endif %}>
                     {{ page.tickets.non-member-button-label }}
                 </a>
                 {% else %}
-                <a class="button button-solid disabled button__solid--cinnabar">
+                <a class="button button-solid disabled button-solid--yellow">
                     Ticket Sales Have Ended
                 </a>
                 {% endif %}

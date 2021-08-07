@@ -1,31 +1,28 @@
-<section class="section-ghostnote background-celeste color-black ">
+<section class="[ ghostnote ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] flow-4" id="ghostnote">
     <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
         {% include textures/rip-B.svg %}
     </div>
-    <div class="container flow-4">
-        <div class="grid grid--align-center grid--four-column">
-            {% if page.show-ghostnote-image == true %}
-            <div class="grid--two-column-span">
-                <figure>
-                    <img src="{{ page.ghostnote-image }}" alt="{{ page.ghostnote-imageAlt }}">
-                    <figcaption>{{ page.ghostnote-imageAlt }}</figcaption>
-                </figure>
+    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+        {% if page.show-ghostnote-image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ page.ghostnote-image }}" alt="{{ page.ghostnote-imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.ghostnote-header | downcase | replace: " ", " -" }}">
+                {{ page.ghostnote-header | markdownify }}
+            </h2>
+            {% if page.ghostnote-body %}
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg">
+                {{ page.ghostnote-body | markdownify }}
             </div>
             {% endif %}
-            <div class="grid--two-column-span flow-2">
-                <h2 id="{{ page.ghostnote-header | downcase | replace: " ", "-" }}">
-                    {{ page.ghostnote-header | markdownify }}
-                </h2>
-                {% if page.ghostnote-body %}
-                <hr class="divider divider--black" aria-hidden="true">
-                <div class="wysiwyg">
-                    {{ page.ghostnote-body | markdownify }}
-                </div>
-                {% endif %}
-                <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
-                    {{ page.ghostnote-button-label }}
-                </a>
-            </div>
+            <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ page.ghostnote-button-label }}
+            </a>
         </div>
     </div>
     <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
