@@ -37,7 +37,7 @@ venue:
     troubleshoot, and information about our refund policy in our [FAQ](/faqs/).
 has-speakers: true
 speakers:
-- name: Michelle Bishop
+- name: Michelle Bishop 1
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
   bio: Michelle Bishop provides training and technical assistance to the P&A network
@@ -49,6 +49,50 @@ speakers:
     and GOTV activities for eight years.
   website-label: LinkedIn
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
+  color-background: cinnabar
+  color-text: celeste
+- name: Michelle Bishop 2
+  pronouns: She | Her | Hers
+  title: Voter Access & Engagement Manager, National Disability Rights Network
+  bio: Michelle Bishop provides training and technical assistance to the P&A network
+    regarding voting rights and access for voters with disabilities. Michelle also
+    works in coalition with the civil rights community in Washington, DC to ensure
+    strong federal policy regarding voting rights and election administration. Previously,
+    Michelle worked as the Assistant Director of Public Policy & Advocacy at Paraquad
+    Center for Independent Living in St. Louis, where she led their voting rights
+    and GOTV activities for eight years.
+  website-label: LinkedIn
+  website-url: 'https://www.linkedin.com/in/michellebishopmsw '
+  color-background: purple
+  color-text: black
+- name: Michelle Bishop 3
+  pronouns: She | Her | Hers
+  title: Voter Access & Engagement Manager, National Disability Rights Network
+  bio: Michelle Bishop provides training and technical assistance to the P&A network
+    regarding voting rights and access for voters with disabilities. Michelle also
+    works in coalition with the civil rights community in Washington, DC to ensure
+    strong federal policy regarding voting rights and election administration. Previously,
+    Michelle worked as the Assistant Director of Public Policy & Advocacy at Paraquad
+    Center for Independent Living in St. Louis, where she led their voting rights
+    and GOTV activities for eight years.
+  website-label: LinkedIn
+  website-url: 'https://www.linkedin.com/in/michellebishopmsw '
+  color-background: yellow
+  color-text: black
+- name: Michelle Bishop 4
+  pronouns: She | Her | Hers
+  title: Voter Access & Engagement Manager, National Disability Rights Network
+  bio: Michelle Bishop provides training and technical assistance to the P&A network
+    regarding voting rights and access for voters with disabilities. Michelle also
+    works in coalition with the civil rights community in Washington, DC to ensure
+    strong federal policy regarding voting rights and election administration. Previously,
+    Michelle worked as the Assistant Director of Public Policy & Advocacy at Paraquad
+    Center for Independent Living in St. Louis, where she led their voting rights
+    and GOTV activities for eight years.
+  website-label: LinkedIn
+  website-url: 'https://www.linkedin.com/in/michellebishopmsw '
+  color-background: beige
+  color-text: black
 has-accessibility-notes: true
 accessibility-notes:
 - note: |-

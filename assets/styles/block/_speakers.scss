@@ -1,0 +1,14 @@
+.speakers .container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.speaker-tabs {
+    padding: 0 var(--space-64) !important;
+}
+
+.speaker-bio {
+    padding: var(--space-64) var(--space-64) var(--space-120) var(--space-64);
+    position: relative;
+}
