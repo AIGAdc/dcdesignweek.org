@@ -1,36 +1,37 @@
 {% if page.has-speakers == true %}
-<section class="speakers background-dcdw-2021-black color-dcdw-2021-celeste" id="speakers">
-    <div class="container">
-        <div class="grid grid--four-column">
-            <div class="grid--three-column-span flow-2">
-                <h2>
-                    Speakers
-                </h2>
-                <hr class="divider divider--yellow" aria-hidden="true">
-            </div>
-            <div class="grid--four-column-span">
-                <ul data-tabs class="speaker-tabs grid grid--four-column">
-                    {% for speaker in page.speakers %}
-                    <li class="speaker-tab">
-                        <a {% if speaker.default-expanded %} data-tabby-default {% endif %} class="flow-2" href="#{{ speaker.name | downcase | replace: " ", "-" }}">
-                            <figure>
-                                <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
-                            </figure>
-                            <div>
-                                <h3>{{ speaker.name }}</h3>
-                                {% if speaker.title %}
-                                <p>{{ speaker.title }}</p>
-                                {% endif %}
-                            </div>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-
+<section class="[ speakers ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] flow-4" id="speakers">
+    <div class="grid grid--four-column gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900">
+        <div class="grid--three-column-span flow-2">
+            <h2 class="font-size-500 font-weight-bold">
+                Speakers
+            </h2>
+            <hr class="divider divider--yellow" aria-hidden="true">
+        </div>
+    </div>
+    <div class="grid grid--four-column">
+        <div class="grid--four-column-span">
+            <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-900 md:gap-padding-bottom-900 md:gap-padding-left-900">
                 {% for speaker in page.speakers %}
-                <div class="speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }}" id="{{ speaker.name | downcase | replace: " ", "-" }}">
-                    <h4>About</h4>
-
+                <li class="mambo-accordion gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-none md:gap-padding-left-none flow-3">
+                        <figure>
+                            <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
+                        </figure>
+                        <div class="gap-margin-bottom-500">
+                            <h3 class="font-size-400 font-weight-bold">{{ speaker.name }}</h3>
+                            {% if speaker.title %}
+                            <p>{{ speaker.title }}</p>
+                            {% endif %}
+                        </div>
+                        <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", "-" }}">
+                            View Bio
+                        </a>
+                </li>
+                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
+                    <!-- <div class="ripped-paper ripped-paper-1-A" style="fill: var(--celeste);">
+                        {% include textures/rip-A.svg %}
+                    </div> -->
+                    <p class="font-size-400 font-weight-bold">About</p>
+                    <hr class="divider divider--{{ speaker.color-text }}" aria-hidden="true">
                     {% if speaker.pronouns %}
                     <p>{{ speaker.pronouns }}</p>
                     {% endif %}
@@ -60,14 +61,30 @@
                     </div>
                 </div>
                 {% endfor %}
-            </div>
+            </ul>
+
+            {% for speaker in page.speakers %}
+
+            {% endfor %}
         </div>
     </div>
 </section>
 
-<script src="/assets/scripts/tabby.min.js"></script>
+<!-- <script src="/assets/scripts/tabby.min.js"></script>
 
 <script>
     var tabs = new Tabby('[data-tabs]');
+</script> -->
+
+<script>
+    var disclosure = new Houdini('[data-houdini-group="speaker"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1, /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon', /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon', /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>', /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
+    });
 </script>
 {% endif %}

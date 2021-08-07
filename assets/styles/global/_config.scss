@@ -12,41 +12,34 @@ $gorko-base-size: 1rem;
 /// your whole project.
 ///
 $gorko-size-scale: (
+    "none": 0 !important,
     "000": 0.25rem !important,
-    // 4px
     "100": 0.5rem !important,
-    // 8px
     "200": 1rem !important,
-    // 16px
     "300": 1.125rem !important,
-    // 18px
     "400": 1.5rem !important,
-    // 24px
     "500": 2rem !important,
-    // 32px
     "600": 2.5rem !important,
-    // 40px
     "700": 3rem !important,
-    // 48px
     "800": 3.5rem !important,
-    // 56px
     "900": 4rem !important,
-    // 64px
     "1000": 4.5rem !important,
-    // 72px
     "1100": 5rem !important,
-    // 80px
     "1200": 5.5rem !important,
-    // 88px
     "1300": 6rem !important,
-    // 96px
     "1400": 6.5rem !important,
-    // 104px
     "1500": 7rem !important,
-    // 112px
     "1600": 7.5rem !important,
-    // 120px
-    "1700": 12.5rem !important,
+    "1700": 8rem !important,
+    "1800": 8.5rem !important,
+    "1900": 9rem !important,
+    "2000": 9.5rem !important,
+    "2100": 10rem !important,
+    "2200": 10.5rem !important,
+    "2300": 11rem !important,
+    "2400": 11.5rem !important,
+    "2500": 12rem !important,
+    "2600": 12.5rem !important,
 );
 
 /// COLORS
@@ -82,59 +75,59 @@ $gorko-config: (
         "output": "standard",
         "property": "color",
     ),
-    "box": (
-        "items": (
-            "block": "block",
-            "flex": "flex",
-            "grid": "grid",
-            "hide": "none",
-            "show": "inherit",
-        ),
+    "gap-margin-all": (
+        "items": $gorko-size-scale,
         "output": "responsive",
-        "property": "display",
+        "property": "margin",
     ),
     "gap-margin-top": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "margin-top",
     ),
     "gap-margin-right": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "margin-right",
     ),
     "gap-margin-bottom": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "margin-bottom",
     ),
     "gap-margin-left": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "margin-left",
+    ),
+    "gap-padding-all": (
+        "items": $gorko-size-scale,
+        "output": "responsive",
+        "property": "padding",
     ),
     "gap-padding-top": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "padding-top",
     ),
     "gap-padding-right": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "padding-right",
     ),
     "gap-padding-bottom": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "padding-bottom",
     ),
     "gap-padding-left": (
         "items": $gorko-size-scale,
-        "output": "standard",
+        "output": "responsive",
         "property": "padding-left",
     ),
     "layer": (
         "items": (
+            "000": -100,
             "100": 100,
             "200": 200,
             "300": 300,
@@ -191,8 +184,8 @@ $gorko-config: (
         "property": "width",
     ),
     "breakpoints": (
-        "sm": "(min-width: 36em)",
-        "md": "(min-width: 48em)",
-        "lg": "(min-width: 62em)",
+        "sm": "(min-width: 768px)",
+        "md": "(min-width: 1024px)",
+        "lg": "(min-width: 1366px)",
     ),
 );

@@ -31,7 +31,27 @@
 .mambo-accordion__content.is-expanded,
 .houdini.is-expanded {
     display: block;
-    border: solid 1px var(--black);
     margin-top: -1px;
     padding: var(--space-16);
+    left: 0;
+}
+
+.speakers .houdini-heading .houdini-toggle {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: currentColor;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+    .mambo-accordion__content.is-expanded,
+    .houdini.is-expanded {
+        position: absolute;
+        bottom: -210px;
+        z-index: 10000;
+    }
 }
