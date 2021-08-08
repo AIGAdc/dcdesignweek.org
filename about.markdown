@@ -18,19 +18,19 @@ hyperlocal-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch
 hyperlocal-imageAlt: "Provide Image Alt"
 
 sponsors-header: "Sponsors and Partners"
-sponsors-body: "DC Design Week is 100% volunteer-run, in concert with a consortium of local associations, meetup groups, and small businesses. We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible, whether through donations or in-kind gifts. If you’re interested in partnering with DC Design Week this year, let us know."
+sponsors-body: "DC Design Week wouldn’t be the same without you. Thank you for your support."
 show-sponsors-image: false
 sponsors-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 sponsors-imageAlt: "Provide Image Alt"
 
-staff-header: "Staff"
-staff-body: "We’re all about celebrating the DMV’s creative voices — so what better way to do that than showcasing their work? This year, we’re going HyperLocal: Featuring what DC looks like and that includes you."
+staff-header: "DCDW 2021 Committee"
+staff-body: "DC Design Week is planned by a committee of volunteers who plan each event, do all the outreach, and more. We’re so grateful for their contributions."
 show-staff-image: false
 staff-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 staff-imageAlt: "Provide Image Alt"
 
-photographer-header: "Photographer"
-photographer-body: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis. Integer nibh tellus, mollis nec luctus sed."
+photographer-header: "Photos"
+photographer-body: "Marcus Relacion is a designer, developer, and photographer in the DMV area. Thank you for helping us feature DC through your lens and capturing hyperlocal in such vivid and impactful moments."
 show-photographer-image: true
 photographer-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
 photographer-imageAlt: "Provide Image Alt"

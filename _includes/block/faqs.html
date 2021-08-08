@@ -1,34 +1,13 @@
-{% if page.layout == "events-single" %}
-<section class="[ faqs ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] flow-4" id="faqs">
-    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
-        <div class="grid--two-column-span flow-2">
-            <h2>
-                FAQs
-            </h2>
-            <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg">
-                Body Text
-            </div>
-            <a class="button button-solid--yellow" href="{{ site.partner.button-url }}" rel="noopener nofollow" target="_blank">
-                {{ site.partner.button-label | markdownify }}
-            </a>
-        </div>
-        <div>
-            <p class="font-align-center">Image</p>
-        </div>
-    </div>
-</section>
-
-{% elsif page.url == "/faqs/" %}
+{% if page.url == "/faqs/" %}
 
 <section class="[ faqs ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] flow-4" id="faqs">
     <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
             <ul class="grid--three-column-span flow-4">
                 {% for question in page.questions %}
                 <li class="mambo-accordion">
-                    <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">
+                    <h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">
                         {{ question.question | markdownify }}
-                    </h3>
+                    </h2>
                     <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ question.trigger }}">
                         {{ question.answer | markdownify }}
                     </div>
@@ -37,13 +16,13 @@
             </ul>
             <div class="grid--one-column-span">
                 <div class="faq-contact">
-                    <h4>General Questions</h4>
+                    <p>General Questions</p>
                     <ul>
                         <li>
                             Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
                         </li>
                     </ul>
-                    <h4 class="margin-top-16">Accessibility Questions</h4>
+                    <p class="margin-top-16">Accessibility Questions</p>
                     <ul>
                         <li>
                             Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
@@ -69,4 +48,35 @@
         iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
     });
 </script>
+
+{% elsif page.layout == "events-single" or "events" %}
+
+<section class="[ faqs ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 background-dcdw-2021-black color-dcdw-2021-celeste ] flow-4" id="faqs">
+    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.faqs-header | downcase | replace: " ", " -" }}">
+                {{ page.faqs-header | markdownify }}
+            </h2>
+            {% if page.faqs-body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">
+                {{ page.faqs-body | markdownify }}
+            </div>
+            {% endif %}
+            <a class="button button-solid--yellow" href="{{ page.faqs-button-url }}" {% if page.faqs-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ page.faqs-button-label }}
+            </a>
+        </div>
+        {% if page.show-faqs-image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ page.faqs-image }}" alt="{{ page.faqs-imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
 {% endif %}
+
+

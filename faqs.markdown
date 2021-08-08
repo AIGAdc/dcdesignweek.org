@@ -6,7 +6,7 @@ published: true
 
 hero:
 - has-hero: true
-  header: FaQ
+  header: Frequently Asked Questions
   subheader:
   image:
   image-alt:
