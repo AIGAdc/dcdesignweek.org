@@ -1,55 +1,33 @@
 {% if page.layout == "events-single" %}
-{% if page.has-accessibility-notes == true %}
+
 <section class="[ accessibility ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="accessibility">
     <div class="[ grid grid--four-column ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
-        <div class="grid--three-column-span flow-2">
-            <div class="column column--span-4">
-                <h2 class="column--width-50">
-                    <span>Accessibility</span> <span>and</span> <span>Accommodations</span>
-                </h2>
-                <hr class=" divider divider--yellow" aria-hidden="true">
-            </div>
-            <div class="column column--span-2">
-                {% for note in page.accessibility-notes %}
-                <div class="wysiwyg flow-2">
-                    {{ note.note | markdownify }}
-                </div>
-                {% endfor %}
-            </div>
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
+            <h2>{{ page.accessibility.header }}</h2>
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.accessibility.body | markdownify }}</div>
         </div>
     </div>
 </section>
-{% endif %}
 
 {% else %}
-<section class="accessibility [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="accessibility">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        {% include textures/rip-B.svg %}
-    </div>
-    <div class="grid grid--four-column grid--align-center gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900">
-        <div class="grid--two-column-span flow-2">
-            <h2 id="{{ site.accessibility.header | downcase | replace: " ", " -" }}">
-                {{ site.accessibility.header | markdownify }}
-            </h2>
+
+<section class="[ accessibility ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="accessibility">
+    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+        <div class="[ grid--two-column-span ] [ flow-2 ]">
+            <h2>{{ site.accessibility.header }}</h2>
             <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg">
-                {{ site.accessibility.body | markdownify }}
-            </div>
-            <a class="button button-solid--yellow" href="{{ site.accessibility.button-url }}">
-                {{ site.accessibility.button-label | markdownify }}
-            </a>
+            <div class="wysiwyg flow-2">{{ site.accessibility.body | markdownify }}</div>
+            <a class="button button-solid--yellow" href="{{ site.accessibility.button-url }}">{{ site.accessibility.button-label | markdownify }}</a>
         </div>
         {% if site.accessibility.show-image == true %}
         <div class="grid--two-column-span">
             <figure>
                 <img src="{{ site.accessibility.image }}" alt="{{ site.accessibility.imageAlt }}">
-                <figcaption>{{ site.accessibility.imageAlt }}</figcaption>
             </figure>
         </div>
         {% endif %}
     </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        {% include textures/rip-A.svg %}
-    </div>
 </section>
+
 {% endif %}

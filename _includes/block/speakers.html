@@ -1,4 +1,5 @@
 {% if page.has-speakers == true %}
+
 <section class="[ speakers ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] flow-4" id="speakers">
     <div class="grid grid--four-column gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900">
         <div class="grid--three-column-span flow-2">
@@ -13,20 +14,20 @@
             <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-900 md:gap-padding-bottom-900 md:gap-padding-left-900">
                 {% for speaker in page.speakers %}
                 <li class="mambo-accordion gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-none md:gap-padding-left-none flow-3">
-                        <figure>
-                            <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
-                        </figure>
-                        <div class="gap-margin-bottom-500">
-                            <h3 class="font-size-400 font-weight-bold">{{ speaker.name }}</h3>
-                            {% if speaker.title %}
-                            <p>{{ speaker.title }}</p>
-                            {% endif %}
-                        </div>
-                        <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", "-" }}">
-                            View Bio
-                        </a>
+                    <figure>
+                        <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
+                    </figure>
+                    <div class="gap-margin-bottom-500">
+                        <h3 class="font-size-400 font-weight-bold">{{ speaker.name }}</h3>
+                        {% if speaker.title %}
+                        <p>{{ speaker.title }}</p>
+                        {% endif %}
+                    </div>
+                    <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", " -" }}">
+                        View Bio
+                    </a>
                 </li>
-                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
+                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", " -" }}">
                     <!-- <div class="ripped-paper ripped-paper-1-A" style="fill: var(--celeste);">
                         {% include textures/rip-A.svg %}
                     </div> -->
@@ -62,10 +63,6 @@
                 </div>
                 {% endfor %}
             </ul>
-
-            {% for speaker in page.speakers %}
-
-            {% endfor %}
         </div>
     </div>
 </section>
@@ -87,4 +84,5 @@
         iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
     });
 </script>
+
 {% endif %}
