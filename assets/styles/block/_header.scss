@@ -29,17 +29,14 @@ header nav a:hover {
 }
 
 header nav .link:not(:last-child) {
-    margin-right: var(--space-32);
+    margin-right: var(--space-16);
 }
 
-header nav {
-    display: none;
+header nav ul li {
+    display: inline-block;
 }
 
 @media screen and (min-width: 960px) {
-    header nav ul li {
-        display: inline-block;
-    }
 }
 
 @media screen and (min-width: 1280px) {

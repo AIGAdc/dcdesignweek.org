@@ -1,18 +1,4 @@
 <!-- Off-canvas element  -->
-<nav aria-label="Offscreen Menu" id="my-menu" class="">
-    <a class="button button__solid--cinnabar" href="mailto:designweek@dc.aiga.org">
-        Become a Partner
-    </a>
-    <ul class="links">
-        {% for link in site.navigation-production %}
-        <li class="link">
-            <a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
-                {{ link.label }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
 <script>
     var myOffside = offside("#my-menu", {
         /* Global offside options: affect all offside instances */

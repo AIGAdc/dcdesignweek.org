@@ -15,8 +15,18 @@
             {% endfor %}
         </ul>
     </nav>
-    <!-- Off-canvas toggle button -->
-    <button aria-label="Offscreen Menu Button" type="button" id="my-button">
-        <i class="fas fa-bars"></i>
-    </button>
+    <!-- <details>
+        <summary>
+            Menu
+        </summary>
+            <ul class="links">
+                {% for link in site.navigation-production %}
+                <li class="link">
+                    <a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
+                        {{ link.label }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+    </details> -->
 </header>
