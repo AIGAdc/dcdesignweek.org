@@ -1,6 +1,6 @@
 {% include block/banner-qa.html %}
+{% include block/banner-skip-link.html %}
 <header>
-    {% include block/banner-skip-link.html %}
     <a aria-label="DCDW Logo and link to home page" href="/" class="logo">
         {% include icon/dcdw-logo.html %}
     </a>
@@ -15,18 +15,4 @@
             {% endfor %}
         </ul>
     </nav>
-    <!-- <details>
-        <summary>
-            Menu
-        </summary>
-            <ul class="links">
-                {% for link in site.navigation-production %}
-                <li class="link">
-                    <a aria-label="{{ link.aria-label }}" class="button button__link" href="{{ link.url }}">
-                        {{ link.label }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-    </details> -->
 </header>
