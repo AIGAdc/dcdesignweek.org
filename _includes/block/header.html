@@ -1,10 +1,10 @@
 {% include block/banner-qa.html %}
-{% include block/banner-skip-link.html %}
-<header>
-    <a aria-label="DCDW Logo and link to home page" href="/" class="logo">
+<header class="site-header">
+    {% include block/banner-skip-link.html %}
+    <a aria-label="DC Design Week logomark" class="logo" href="/">
         {% include icon/dcdw-logo.html %}
     </a>
-    <nav class="navigation">
+    <nav class="site-navigation">
         <ul class="links">
             {% for link in site.navigation-production %}
             <li class="link">
