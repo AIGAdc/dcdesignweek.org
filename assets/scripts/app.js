@@ -1,4 +1,3 @@
-// @codekit-append  "offside.min.js"
 // @codekit-append  "houdini.min.js"
 // @codekit-append  "houdini.polyfills.min.js"
 // @codekit-append  "mixitup.min.js"
