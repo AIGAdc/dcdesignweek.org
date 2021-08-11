@@ -49,6 +49,9 @@
             {% include filter-events.html %}
         </div>
         <div class="grid--three-column-span">
+            <h2 class="sr-only">
+                Events
+            </h2>
             <ul class="grid grid--three-column mixitup-container">
                 {% assign sorted = site.events | sort: 'events-date' and 'date-time' %}
                 {% for event in sorted %}
