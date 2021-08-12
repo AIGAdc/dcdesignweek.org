@@ -778,7 +778,7 @@ subscribe:
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US
-theme-color: "#000000"
+theme-color: "#000"
 asseturl: "/assets/"
 baseurl: ""
 url: https://dcdesignweek.org

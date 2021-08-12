@@ -8,7 +8,7 @@
 
     /* SECTION - colors */
     // AIGA DC/DCDW Brand Colors
-    --brand-aiga-dc: #1d7b75;
+    --brand-aiga-dc: #297b76;
 
     // DCDW Past Colors
     --dcdw-2016: #0000ff;
@@ -19,11 +19,11 @@
 
     // DCDW 2021 Colors
     --beige: #d1d1c5;
-    --black: #000000;
+    --black: #000;
     --celeste: #ecece5;
-    --cinnabar: #e6503c;
+    --cinnabar: #ec1001;
     --purple: #ac7aff;
-    --yellow: #ffff00;
+    --yellow: #ff0;
 
     /* SECTION - depth */
     --index-1: 100;
@@ -61,10 +61,8 @@
     --space-200: 12.5rem; //200px
 
     /* SECTION - typography */
-    --font-bayard: "Bayard Regular", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-bayard: "Bayard Regular", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
     --font-size-8: 0.5rem; // 8px
     --font-size-16: 1rem; // 16px

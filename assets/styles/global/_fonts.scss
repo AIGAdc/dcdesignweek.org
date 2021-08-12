@@ -1,7 +1,8 @@
 @font-face {
-    font-family: "Bayard Regular";
+    font-family: "Bayard Regular", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     src: url("../../uploads/fonts/BAYARD-Regular.woff2") format("woff2"), url("../../uploads/fonts/BAYARD-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
     font-display: swap;
+    font-style: normal;
+    font-weight: normal;
 }

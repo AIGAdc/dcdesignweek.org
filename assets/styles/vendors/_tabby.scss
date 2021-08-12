@@ -10,7 +10,7 @@
  * The tablist
  */
 [role="tablist"] {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #ecece5;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@
    */
 [role="tab"] {
     border: 1px solid transparent;
-    border-top-color: lightgray;
+    border-top-color: #ecece5;
     display: block;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -58,24 +58,24 @@
 }
 
 [role="tab"][aria-selected="true"] {
-    background-color: lightgray;
+    background-color: #ecece5;
 }
 
 @media (min-width: 30em) {
     [role="tab"][aria-selected="true"] {
         background-color: transparent;
-        border: 1px solid lightgray;
+        border: 1px solid #ecece5;
         border-bottom-color: #ffffff;
     }
 }
 
 [role="tab"]:hover:not([aria-selected="true"]) {
-    background-color: #f7f7f7;
+    background-color: #ecece5;
 }
 
 @media (min-width: 30em) {
     [role="tab"]:hover:not([aria-selected="true"]) {
-        border: 1px solid lightgray;
+        border: 1px solid #ecece5;
     }
 }
 
