@@ -5,21 +5,13 @@ Siteleaf true/false toggle that allows an editor to control wether to display a 
 {% if page.platform.is-in-person == true %}
 
 <!-- Block: Platform - In-Person -->
-<section class="[ platforms-in-person ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ]" id="platforms-in-person">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        <!-- Rip: Top -->
-        {% include textures/rip-D.svg %}
-    </div>
-    <div class="[ grid grid--four-column ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
-        <div class="[ grid--three-column-span ] [ flow-3 ]">
+<section class="[ platforms-in-person ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ flow-4 ]" id="platforms-in-person">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
             <h2>{{ page.platform.in-person-header }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.platform.in-person-body | markdownify }}</div>
         </div>
-    </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        <!-- Rip: Bottom -->
-        {% include textures/rip-C.svg %}
     </div>
 </section>
 
@@ -28,21 +20,13 @@ Siteleaf true/false toggle that allows an editor to control wether to display a 
 {% if page.platform.is-remote == true %}
 
 <!-- Block: Platform - Remote -->
-<section class="[ platforms-remote ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ]" id="platforms-remote">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        <!-- Rip: Top -->
-        {% include textures/rip-D.svg %}
-    </div>
-    <div class="[ grid grid--four-column ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
-        <div class="[ grid--three-column-span ] [ flow-3 ]">
+<section class="[ platforms-remote ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ flow-4 ]" id="platforms-remote">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
             <h2>{{ page.platform.remote-header }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.platform.remote-body | markdownify }}</div>
         </div>
-    </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        <!-- Rip: Bottom -->
-        {% include textures/rip-C.svg %}
     </div>
 </section>
 

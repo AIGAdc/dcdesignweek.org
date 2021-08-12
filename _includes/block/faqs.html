@@ -1,7 +1,7 @@
 {% if page.url == "/faqs/" %}
 
-<section class="[ faqs ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ]" id="faqs">
-    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ flow-4 ]" id="faqs">
+    <div class="[ grid grid--align-start grid--four-column ]">
         <ul class="grid--three-column-span flow-4">
             {% for question in page.questions %}
             <li class="mambo-accordion">
@@ -25,10 +25,6 @@
             </div>
         </div>
     </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        <!-- Rip: Bottom -->
-        {% include textures/rip-C.svg %}
-    </div>
 </section>
 
 <script>
@@ -50,9 +46,9 @@ Global default set in config.yml -> `faqs`
 {% endcomment %}
 
 <!-- Block: FAQs -->
-<section class="[ faqs ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 background-dcdw-2021-black color-dcdw-2021-celeste ]" id="faqs">
-    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
-        <div class="[ grid--two-column-span ] [ flow-3 ]">
+<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="faqs">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--two-column-span ] [ flow-2 ]">
             <h2 id="{{ site.faqs.header | downcase | replace: " ", " -" }}">{{ site.faqs.header }}</h2>
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ site.faqs.body | markdownify }}</div>

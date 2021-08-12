@@ -1,14 +1,10 @@
-<section class="[ staff ] [ gap-padding-top-1100 gap-padding-bottom-3400 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-3000 md:gap-padding-right-1600 md:gap-padding-left-1600 ]" id="staff">
-    <div class="grid grid--align-center grid--four-column">
+<section class="[ staff ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ flow-4 ]" id="staff">
+    <div class="[ grid--four-column ]">
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.staff-header | downcase | replace: " ", " -" }}">
-                {{ page.staff-header | markdownify }}
-            </h2>
+            <h2 id="{{ page.staff-header | downcase | replace: " ", " -" }}">{{ page.staff-header }}</h2>
             {% if page.staff-body %}
             <hr class="divider divider--black" aria-hidden="true">
-            <div class="wysiwyg">
-                {{ page.staff-body | markdownify }}
-            </div>
+            <div class="wysiwyg flow-2">{{ page.staff-body | markdownify }}</div>
             {% endif %}
         </div>
         {% if page.show-staff-image == true %}

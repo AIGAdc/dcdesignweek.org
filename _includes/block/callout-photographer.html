@@ -1,34 +1,21 @@
-<section class="photographer background-dcdw-2021-black color-dcdw-2021-celeste">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        {% include textures/rip-B.svg %}
-    </div>
-    <div class="container flow-4">
-        <div class="grid grid--align-center grid--four-column">
-            {% if page.show-photographer-image == true %}
-            <div class="grid--two-column-span">
-                <figure>
-                    <img src="{{ page.photographer-image }}" alt="{{ page.photographer-imageAlt }}">
-                    <figcaption>{{ page.photographer-imageAlt }}</figcaption>
-                </figure>
-            </div>
-            {% endif %}
-            <div class="grid--two-column-span flow-2">
-                <h2 id="{{ page.photographer-header | downcase | replace: " ", " -" }}">
-                    {{ page.photographer-header | markdownify }}
-                </h2>
-                {% if page.photographer-body %}
-                <hr class="divider divider--yellow" aria-hidden="true">
-                <div class="wysiwyg">
-                    {{ page.photographer-body | markdownify }}
-                </div>
-                {% endif %}
-                <a class="button button-solid--yellow" href="{{ page.photographer-button-url }}" {% if page.photographer-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
-                    {{ page.photographer-button-label }}
-                </a>
-            </div>
+<section class="[ photographer ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="photographer">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        {% if page.show-photographer-image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ page.photographer-image }}" alt="{{ page.photographer-imageAlt }}">
+            </figure>
         </div>
-    </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        {% include textures/rip-B.svg %}
+        {% endif %}
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.photographer-header | downcase | replace: " ", " -" }}">{{ page.photographer-header }}</h2>
+            {% if page.photographer-body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.photographer-body | markdownify }}</div>
+            {% endif %}
+            <a class="button button-solid--yellow" href="{{ page.photographer-button-url }}" {% if page.photographer-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ page.photographer-button-label }}
+            </a>
+        </div>
     </div>
 </section>

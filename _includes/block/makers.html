@@ -1,18 +1,13 @@
-<section class="[ makers ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 background-dcdw-2021-black color-dcdw-2021-celeste ] flow-4" id="makers">
-    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+<section class="[ makers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="makers">
+    <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.makers-header | downcase | replace: " ", "-" }}">
-                {{ page.makers-header }}
-            </h2>
+            <h2 id="{{ page.makers-header | downcase | replace: " ", " -" }}">{{ page.makers-header }}</h2>
             {% if page.makers-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg flow-2">
-                {{ page.makers-body | markdownify }}
+            <div class="wysiwyg flow-2">{{ page.makers-body | markdownify }}
             </div>
             {% endif %}
-            <a class="button button-solid--yellow" href="{{ page.makers-button-url }}" {% if page.makers-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
-                {{ page.makers-button-label }}
-            </a>
+            <a class="button button-solid--yellow" href="{{ page.makers-button-url }}" {% if page.makers-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.makers-button-label }}</a>
         </div>
         {% if page.show-makers-image == true %}
         <div class="grid--two-column-span">
