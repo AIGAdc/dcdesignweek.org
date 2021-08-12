@@ -1,4 +1,8 @@
 <section class="[ photographer ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="photographer">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
     <div class="[ grid grid--align-center grid--four-column ]">
         {% if page.show-photographer-image == true %}
         <div class="grid--two-column-span">
@@ -17,5 +21,9 @@
                 {{ page.photographer-button-label }}
             </a>
         </div>
+    </div>
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% include textures/rip-B.svg %}
     </div>
 </section>

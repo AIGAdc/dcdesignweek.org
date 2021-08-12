@@ -1,6 +1,10 @@
 {% if page.has-speakers == true %}
 
 <section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="speakers">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--three-column-span flow-2">
             <h2 class="font-size-500 font-weight-bold">Speakers</h2>
@@ -26,7 +30,7 @@
                     </a>
                 </li>
                 <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", " -" }}">
-                    <!-- <div class="ripped-paper ripped-paper-1-A" style="fill: var(--celeste);">
+                    <!-- <div class="ripped-paper ripped-paper-top" style="fill: var(--celeste);">
                         {% include textures/rip-A.svg %}
                     </div> -->
                     <p class="font-size-400 font-weight-bold">About</p>
@@ -55,13 +59,17 @@
                         {{ speaker.website-label-3 }}
                     </a>
                     {% endif %}
-                    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
+                    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--celeste);">
                         {% include textures/rip-C.svg %}
                     </div>
                 </div>
                 {% endfor %}
             </ul>
         </div>
+    </div>
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% include textures/rip-B.svg %}
     </div>
 </section>
 

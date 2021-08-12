@@ -12,64 +12,58 @@
 .ripped-paper {
     position: absolute;
     left: 0;
-    z-index: var(--index-1);
+    right: 0;
+    z-index: var(--index-5);
 }
 
-.ripped-paper-1-A {
-    top: -48px;
+.ripped-paper-top {
+    top: -52px;
 }
 
-.ripped-paper-1-B {
-    bottom: -48px;
+.ripped-paper-bottom {
+    bottom: -52px;
 }
 
 @media screen and (min-width: 640px) {
-    .ripped-paper-1-A {
-        top: -40px;
-    }
-
-    .ripped-paper-1-B {
-        bottom: -40px;
-    }
 }
 
 @media screen and (min-width: 768px) {
-    .ripped-paper-1-A {
-        top: -32px;
+    .ripped-paper-top {
+        top: -58px;
     }
 
-    .ripped-paper-1-B {
-        bottom: -32px;
+    .ripped-paper-bottom {
+        bottom: -58px;
     }
 }
 
 @media screen and (min-width: 960px) {
-    .ripped-paper-1-A {
-        top: -24px;
+    .ripped-paper-top {
+        top: -64px;
     }
 
-    .ripped-paper-1-B {
-        bottom: -24px;
+    .ripped-paper-bottom {
+        bottom: -64px;
     }
 }
 
 @media screen and (min-width: 1180px) {
-    .ripped-paper-1-A {
-        top: -16px;
+    .ripped-paper-top {
+        top: -70px;
     }
 
-    .ripped-paper-1-B {
-        bottom: -16px;
+    .ripped-paper-bottom {
+        bottom: -70px;
     }
 }
 
 @media screen and (min-width: 1366px) {
-    .ripped-paper-1-A {
-        top: -8px;
+    .ripped-paper-top {
+        top: -72px;
     }
 
-    .ripped-paper-1-B {
-        bottom: -8px;
+    .ripped-paper-bottom {
+        bottom: -72px;
     }
 }
 

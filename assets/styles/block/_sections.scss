@@ -33,3 +33,21 @@
 //         display: block;
 //     }
 // }
+
+// Black Sections
+.about-layout #hero,
+.about-layout #sponsors,
+.events-single-layout #hero,
+.home-layout #makers,
+.home-layout #sponsors,
+#photographer {
+    z-index: var(--index-5);
+}
+
+// Celeste Sections
+.home-layout #hero,
+#ghostnote,
+#staff,
+#subscribe {
+    z-index: var(--index-4);
+}

@@ -47,6 +47,10 @@ Global default set in config.yml -> `faqs`
 
 <!-- Block: FAQs -->
 <section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="faqs">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="[ grid--two-column-span ] [ flow-2 ]">
             <h2 id="{{ site.faqs.header | downcase | replace: " ", " -" }}">{{ site.faqs.header }}</h2>
@@ -63,6 +67,10 @@ Global default set in config.yml -> `faqs`
             </figure>
         </div>
         {% endif %}
+    </div>
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% include textures/rip-B.svg %}
     </div>
 </section>
 
