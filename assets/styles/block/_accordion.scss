@@ -30,6 +30,7 @@
 
 // Custom
 .mambo-accordion__header {
+    text-align: left;
     width: 100%;
 }
 
@@ -42,6 +43,7 @@
     justify-content: space-between;
     margin-top: -1px;
     padding: var(--space-16);
+    text-align: left;
     width: 100%;
 }
 

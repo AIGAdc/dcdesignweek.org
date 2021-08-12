@@ -1,12 +1,12 @@
 {% if page.url == "/faqs/" %}
 
-<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ texture texture--paper ] [ flow-4 ]" id="faqs">
+<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-200 gap-padding-left-200 sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ flow-4 ]" id="faqs">
     <div class="[ grid grid--align-start grid--four-column ]">
         <ul class="grid--three-column-span flow-4">
             {% for question in page.questions %}
             <li class="mambo-accordion">
-                <h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">{{ question.question }}</h2>
-                <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg" data-houdini-group="faq" id="{{ question.trigger }}">
+                <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">{{ question.question }}</h3>
+                <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg flow-2" data-houdini-group="faq" id="{{ question.trigger }}">
                     {{ question.answer | markdownify }}
                 </div>
             </li>
