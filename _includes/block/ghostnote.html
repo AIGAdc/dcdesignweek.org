@@ -1,9 +1,5 @@
-<section class="[ ghostnote ] [ gap-padding-top-1600 gap-padding-bottom-1600 md:gap-padding-top-2500 md:gap-padding-bottom-2500 ]" id="ghostnote">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        <!-- Rip: Top -->
-        {% include textures/rip-D.svg %}
-    </div>
-    <div class="[ grid grid--four-column grid--align-center ] [ gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-900 md:gap-padding-left-900 ]">
+<section class="[ ghostnote ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ]" id="ghostnote">
+    <div class="[ grid grid--four-column grid--align-center ]">
         {% if page.show-ghostnote-image == true %}
         <div class="grid--two-column-span">
             <figure>
@@ -17,9 +13,5 @@
             <div class="wysiwyg flow-2">{{ page.ghostnote-body | markdownify }}</div>
             <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.ghostnote-button-label }}</a>
         </div>
-    </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--black);">
-        <!-- Rip: Bottom -->
-        {% include textures/rip-C.svg %}
     </div>
 </section>
