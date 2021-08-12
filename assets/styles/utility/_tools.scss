@@ -1,3 +1,8 @@
+* {
+    outline: solid 1px purple;
+    outline-offset: -1px;
+}
+
 .disabled {
     cursor: not-allowed !important;
 }
