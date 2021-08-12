@@ -13,6 +13,16 @@
     object-position: center;
 }
 
+.about-layout .card-image {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.about-layout .card-image:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
 .home-layout .section-events .card--event a {
     display: block;
     color: var(--celeste);

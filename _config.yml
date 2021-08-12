@@ -383,393 +383,393 @@ staff:
     role: Executive Director
     pronouns: he / him / his
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://rbentham.com/about
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2:
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/richard-bentham-4921a439/ 
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_ArianaRodriguezGitler.jpg'
     name: Ariana Rodriguez-Gitler
     role: Deputy Executive Director
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1:
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/rgariana/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/arianarg/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_JoeGreeley.jpg'
     name: Joe Greeley
     role: Board Liasion
     pronouns: he / him / his
     number: 2
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1:
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/jgreeleyjr/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/joe-greeley-7677798/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_DanniBaker.jpg'
     name: Danni Baker
     role: Program Director
     pronouns: she / her / hers
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1:
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/visionarydanni5/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/dannibaker/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_ElizaDuquette.jpg'
     name: Eliza Duquette
     role: Program Director
     pronouns: she / her / hers
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: https://www.elizaduquette.design/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2:
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/elizaduquette/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_DavidDunston.jpg'
     name: David Dunston
     role: Communications Director
     pronouns: he / him / his
     number: 2
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://davdun.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/daviddunston/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_CynthiaKim.jpg'
     name: Cynthia Kim
     role: Deputy Communications Director
     pronouns: she / her / hers 
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1:  
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2:  
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/cynthia-kim/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_RadhikaBhatt.jpg'
     name: Radhika Bhatt
     role: Partnerships Director
     pronouns: she / her / hers
     number: 2
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://www.radhikabhatt.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://twitter.com/superbhatt
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/radhika-bhatt/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_ClaireBlaustein.jpg'
     name: Claire Blaustein
     role: AIGA DC President
     pronouns: she / her / hers
     number: 1
     website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
     website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
     website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Ben Abraham
     role: Community-Curated Events Manager
     pronouns: he / him / his
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/benlenciagaaa
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/ben-abraham
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_SydneyAdams.jpg'
     name: Sydney Adams
     role: Community-Curated Event Lead
     pronouns: she / her / hers
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/sydadams211/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/sydney-adams/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_JanessaArrington.jpg'
     name: Janessa Arrington
     role: Keynote Event Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/janessa-arrington/?trk=people_directory
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_KojoBoateng.jpg'
     name: Kojo Boateng
     role: Kickoff Event Lead
     pronouns: he / him / his
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://kojoboateng.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/kojoboateng/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_JelenaBudjevac.jpg'
     name: Jelena Budjevac
     role: Copywriter
     pronouns: she / her / hers
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/mllebonvivant/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/jelenabudjevac/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Cara Campbell
     role: Community-Curated Event Lead
     pronouns: she / her / hers
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: https://www.caracampbell.design
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/cara-campbell56
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_BennethChukwu.jpg'
     name: Benneth Chukwu
     role: Designer
     pronouns: he / him / his
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/benneth-chukwu/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Elaine Heinzman
     role: Community-Curated Event Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://elaineheinzman.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: http://linkedin.com/in/elaineheinzman
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_JessicaJosey.jpg'
     name: Jessica Josey
     role: Social Media Lead
     pronouns: she / her / hers
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://www.jessicajosey.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/jes.josey/
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/jessica-josey
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_JoshKim.jpg'
     name: Josh Kim
     role: Accessibility Lead
     pronouns: he / him / his
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://www.joshkimux.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/joshkimux/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_NicoleMcKinney.jpg'
     name: Nicole McKinney
     role: Keynote Event Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://nicolewmckinney.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/mckinney-nicole/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Danielle "Dee" Mouledoux
     role: Workshop Event Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://mouledoux.com
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/dmouledoux/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Johanna Ostrich
     role: Pop-Up Event Lead 
     pronouns: she / her / hers
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://johannaostrich.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/johannaostrich/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Jena Persico
     role: Pop-Up Event Lead
     pronouns: he / him / his
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: https://www.instagram.com/alpacayoursuitcase
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: http://www.linkedin.com/in/jena-p-6051ab30
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/Headshot_KhanhPham.jpg'
     name: Khanh Pham
     role: Marketing Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://www.khanhp.com
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/bkhanhp
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Kristin Rafael
     role: Design Lead
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://krafael.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: http://linkedin.com/in/kristin-rafael-a2552985
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Marcus Relacion
     role: Web Developer
     pronouns: he / him / his
     number: 4
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
+    website-url-1: https://www.marcusrelacion.com
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
     website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/marcusrelacion/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Silvia Script
     role: Web Lead
     pronouns: she / her / hers
     number: 3
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: http://silviascript.com/
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: https://www.linkedin.com/in/silscript/
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
   - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
     name: Chelsea Wilson
     role: Web Designer
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
-    website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-1: Staff Member Instagram
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
-    website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-2: Staff Member LinkedIn
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
-    website-label-3: <i class="fas fa-globe"></i> Website
-    website-aria-label-3: Staff Member Website
+    website-url-1: 
+    website-label-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Staff Member Website
+    website-url-2: 
+    website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+    website-aria-label-2: Staff Member Instagram
+    website-url-3: 
+    website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+    website-aria-label-3: Staff Member LinkedIn
 subscribe:
   header: "Subscribe"
   body: "Don’t miss out! Sign up below to get updates on DCDW and AIGA DC."
