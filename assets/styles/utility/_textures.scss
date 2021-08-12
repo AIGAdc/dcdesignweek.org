@@ -1,10 +1,10 @@
 .texture {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: 150%;
 
     &--paper {
-        background-image: url("/uploads/texture-transparent-paper.png");
+        background-image: url("/uploads/texture-paper.png");
     }
 }
 
