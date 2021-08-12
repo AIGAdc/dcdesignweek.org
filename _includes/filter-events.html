@@ -1,12 +1,8 @@
 <form class="mambo-accordion-group">
-    <h2 class="sr-only">
-        Events Filter
-    </h2>
+    <h2 class="sr-only">Events Filter</h2>
     <fieldset class="mambo-accordion" data-filter-group>
         <legend aria-label="Filter: Event Date" class="mambo-accordion__header" data-houdini-toggle="event-date">
-            <h3>
-                Date
-            </h3>
+            <h3>Date</h3>
         </legend>
         <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-date">
             {% for control in site.filter-events.day %}

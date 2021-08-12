@@ -1,57 +1,53 @@
-// TODO: Update references to Houdini
+/*!
+ * houdinijs v11.0.4
+ * A simple collapse-and-expand script
+ * (c) 2019 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/houdini
+ */
 
-.mambo-accordion-group > *:not(:last-child) {
-    margin-bottom: -1px;
+/**
+ * Hide content
+ */
+.houdini {
+    display: none;
+    /**
+       * Remove focus styles from content
+       * @type {String}
+       */
+    /**
+       * Show expanded content
+       */
 }
 
-.mambo-accordion__header,
-.houdini-heading .houdini-toggle {
+.houdini[tabindex="-1"]:focus {
+    outline: none;
+}
+
+.houdini.is-expanded {
+    display: block;
+}
+
+// Custom
+.mambo-accordion__header {
     width: 100%;
 }
 
-.houdini-heading .houdini-toggle {
-    align-items: center;
+.mambo-accordion__header .houdini-toggle {
     background-color: transparent;
     border: solid 1px var(--black);
-    color: currentColor;
     display: flex;
+    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    margin-top: -1px;
     padding: var(--space-16);
-    text-align: left;
-}
-
-.houdini-toggle-icon {
-    display: inline-block !important;
+    width: 100%;
 }
 
 .mambo-accordion__content {
-    display: none;
-}
-
-.mambo-accordion__content.is-expanded,
-.houdini.is-expanded {
-    display: block;
+    border: solid 1px var(--black);
     margin-top: -1px;
     padding: var(--space-16);
-    left: 0;
-}
-
-.speakers .houdini-heading .houdini-toggle {
-    align-items: center;
-    background-color: transparent;
-    border: 0;
-    color: currentColor;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    text-align: left;
-}
-
-@media screen and (min-width: 1024px) {
-    .mambo-accordion__content.is-expanded,
-    .houdini.is-expanded {
-        position: absolute;
-        bottom: -210px;
-        z-index: 10000;
-    }
+    position: relative;
 }
