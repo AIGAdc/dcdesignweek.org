@@ -1,0 +1,18 @@
+<section class="[ subscribe ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ]" id="subscribe">
+    <div class="[ grid grid--four-column grid--align-center ]">
+        <div class="grid--two-column-span">
+            <figure style="z-index: var(--index-2); position: relative;">
+                <img src="/uploads/image-subscribe.png" alt="Oddisee Collage">
+            </figure>
+        </div>
+        <div class="grid--two-column-span flow-2">
+            <h2>{{ site.subscribe.header }}</h2>
+            <hr class="divider divider--cinnabar" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ site.subscribe.body | markdownify }}</div>
+            {% include third-party/mailchimp/form.html %}
+        </div>
+    </div>
+    <div class="pattern pattern-left pattern-inspired" style="fill: var(--beige);">
+        {% include pattern/inspired.html %}
+    </div>
+</section>

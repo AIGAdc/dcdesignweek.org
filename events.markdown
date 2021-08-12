@@ -9,10 +9,13 @@ hero:
   header: "Events"
   subheader: |-
     Maybe your (very cool) friend brought you here for the first time. Or maybe you’ve been to every DC Design Week. Either way, we’re thrilled to have you.
-  image-1: 
+  image-1: /uploads/image-ghost.png
   image-1-alt: 
   button-label: "Lorem Ipsum"
   button-url:
+
+events-header: Events
+events-body: "Maybe your (very cool) friend brought you here for the first time. Or maybe you’ve been to every DC Design Week. Either way, we’re thrilled to have you."
 
 faqs-header: "FAQs"
 faqs-body: "DC Design Week is planned by a committee of volunteers who plan each event, do all the outreach, and more. We’re so grateful for their contributions."

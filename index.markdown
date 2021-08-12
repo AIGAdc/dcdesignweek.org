@@ -9,6 +9,8 @@ hero:
   header: "DC DESIGN WEEK  2021:"
   subheader: |-
     HYPERLOCAL. GROWN LOCALLY. INSPIRE GLOBALLY. October 1 - 8
+  body: |-
+    What kind of future can we build together? Hyperlocal is a launching pad to empower the DC Design Week community to get involved and share crowd-sourced design perspectives. When we celebrate the dynamism and resolve of our vibrant community locally, we have the opportunity to elevate everyone’s voice to a global level.
   image: /uploads/hero-collage.png
   imageAlt: Provide Alt
 
@@ -19,7 +21,7 @@ makers-body: |-
   
   Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
 show-makers-image: true
-makers-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+makers-image: /uploads/image-makers.png
 makers-imageAlt: Provide Image Alt
 show-featured-events: false
 makers-button-label: Apply to sell your work at the DCDW Pop-Up Shop.
@@ -38,7 +40,7 @@ events-button-url: /events/
 ghostnote-header: Ghost Note Agency
 ghostnote-body: Ghost Note is a creative agency born + based in the District of Columbia. We believe that when good people come together they create truly great things.
 show-ghostnote-image: true
-ghostnote-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+ghostnote-image: /uploads/image-ghost.png
 ghostnote-imageAlt: Provide Image Alt
 ghostnote-button-label: Visit Site
 ghostnote-button-url: https://www.ghostnoteagency.com/

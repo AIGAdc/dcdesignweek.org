@@ -1,12 +1,13 @@
 {% if page.url == "/about/" or "/events/" or "/faqs/" %}
 {% for content in page.hero %}
 {% if content.has-hero == true %}
-<section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste">
-    <div class="container grid grid--four-column grid--align-center">
+
+<section class="[ hero ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="hero">
+    <div class="ornament ornament-diagonal-red-shape">
+        {% include ornament/diagonal-red-shape.svg %}
+    </div>
+    <div class="[ grid grid--align-center grid--four-column ]">
         {% if page.url == "/about/" and "/faqs/" %}
-        <div class="ornament ornament-diagonal-red-shape">
-            {% include ornament/diagonal-red-shape.svg %}
-        </div>
         {% endif %}
         <div class="grid--two-column-span flow-2">
             {% if page.url == "/events/" %}
@@ -19,23 +20,22 @@
                 {% include ornament/three-star.html %}
             </div>
             {% endif %}
-            <h1 id="{{ content.header | downcase | replace: " ", " -" }}">
-                {{ content.header | markdownify }}
-            </h1>
+            <h1 id="{{ content.header | downcase | replace: " ", " -" }}">{{ content.header }}</h1>
             {% if content.subheader %}
-            <div class="wysiwyg">
-                {{ content.subheader | markdownify }}
-            </div>
+            <div class="wysiwyg flow-2">{{ content.subheader | markdownify }}</div>
             {% endif %}
         </div>
-        <div class="pattern pattern-right pattern-hyperlocal" style="fill: var(--beige);">
-            {% include pattern/hyperlocal.html %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ content.image }}" alt="{{ content.imageAlt }}">
+            </figure>
         </div>
     </div>
-    <div class="ripped-paper ripped-paper-1-B" style="fill: var(--celeste);">
-        {% include textures/rip-A.svg %}
+    <div class="pattern pattern-right pattern-hyperlocal" style="fill: var(--beige);">
+        {% include pattern/hyperlocal.html %}
     </div>
 </section>
+
 {% endif %}
 {% endfor %}
 {% endif %}

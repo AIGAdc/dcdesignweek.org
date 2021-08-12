@@ -1,33 +1,4 @@
 <footer class="site-footer">
-    <div class="ripped-paper ripped-paper-1-A" style="fill: var(--black);">
-        <!-- Rip: Top -->
-        {% include textures/rip-D.svg %}
-    </div>
-    <section class="section-subscribe">
-        
-        <div class="container grid grid--two-column grid--align-center">
-            <div class="column-one column-image">
-                <figure style="z-index: var(--index-2); position: relative;">
-                    <img src="/uploads/sample-collage-1.png" alt="Oddisee Collage">
-                    <figcaption>Image Collage featuring musician Oddisee with a yellow polygonal shape, tape and a DCDW sticker.</figcaption>
-                </figure>
-            </div>
-            <div class="flow-2">
-                <h2>
-                    {{ site.subscribe.header | markdownify }}
-                </h2>
-                <hr class="divider divider--cinnabar" aria-hidden="true">
-                <div class="wysiwyg">
-                    {{ site.subscribe.body | markdownify }}
-                </div>
-                {% include third-party/mailchimp/form.html %}
-            </div>
-        </div>
-        <div class="pattern pattern-left pattern-inspired" style="fill: var(--beige);">
-            {% include pattern/inspired.html %}
-        </div>
-    </section>
-
     <section class="footer-content">
         <a aria-label="Send an email to designweek@dc.aiga.org" href="mailto:{{ site.email }}" target="_top">
             {{ site.footer.contact }}

@@ -121,5 +121,22 @@
             {% include textures/sponsor-4.svg %}
         </ul>
     </div>
+
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.partners-header | downcase | replace: " ", " -" }}">{{ page.partners-header }}</h2>
+            {% if page.partners-body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.partners-body | markdownify }}</div>
+            {% endif %}
+        </div>
+        {% if page.show-sponsors-image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ page.sponsors-image }}" alt="{{ page.sponsors-imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+    </div>
 </section>
 {% endif %}
