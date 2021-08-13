@@ -1,19 +1,19 @@
 {% if page.has-speakers == true %}
 
 <section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-none gap-padding-left-none sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="speakers">
+
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
     </div>
-    <div class="[ grid grid--align-center grid--four-column ] [ gap-padding-right-200 gap-padding-left-200 ]">
-        <div class="grid--three-column-span flow-2">
+
+    <div class="[ grid grid--four-column grid--align-center ]">
+        <div class="grid--two-column-span flow-2">
             <h2 class="font-size-500 font-weight-bold">Speakers</h2>
             <hr class="divider divider--yellow" aria-hidden="true">
         </div>
-    </div>
-    <div class="grid grid--four-column">
-        <div class="grid--four-column-span">
-            <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-900 md:gap-padding-bottom-900 md:gap-padding-left-900">
+        <div class="grid--four-column-span flow-2">
+            <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-none md:gap-padding-bottom-none md:gap-padding-left-none">
                 {% for speaker in page.speakers %}
                 <li class="mambo-accordion gap-padding-right-200 gap-padding-left-200 md:gap-padding-right-none md:gap-padding-left-none flow-3">
                     <figure>
@@ -61,6 +61,7 @@
             </ul>
         </div>
     </div>
+
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}

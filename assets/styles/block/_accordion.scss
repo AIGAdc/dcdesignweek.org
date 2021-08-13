@@ -73,3 +73,33 @@
     position: relative;
     top: var(--space-32);
 }
+
+.speakers ul {
+    position: relative;
+}
+
+.speakers .houdini-heading .houdini-toggle {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: currentColor;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    text-align: left;
+}
+
+.speakers .mambo-accordion__content {
+    border: none;
+    padding: var(--space-16);
+    position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+    .speakers .mambo-accordion__content.is-expanded {
+        position: absolute !important;
+        bottom: -532px !important;
+        top: unset !important;
+        z-index: var(--index-9) !important;
+    }
+}

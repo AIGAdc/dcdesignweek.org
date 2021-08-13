@@ -38,10 +38,11 @@
 .about-layout #hero,
 .about-layout #sponsors,
 .events-single-layout #hero,
+.events-single-layout #speakers,
 .home-layout #makers,
 .home-layout #sponsors,
 #photographer {
-    z-index: var(--index-5);
+    z-index: var(--index-9);
 }
 
 // Celeste Sections
