@@ -15,7 +15,7 @@
                 {{ content.subheader | markdownify }}
             </div>
 
-            <div class="landing-hero__tickets">
+            <div class="[ landing-hero__tickets ] [ flow-2 ]">
                 {% if page.tickets.has-member-button == true %}
                 <a class="button button-solid button__solid--yellow  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
                     {{ page.tickets.member-button-label }}
