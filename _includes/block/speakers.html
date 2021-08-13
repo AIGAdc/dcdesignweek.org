@@ -1,11 +1,11 @@
 {% if page.has-speakers == true %}
 
-<section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="speakers">
+<section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-none gap-padding-left-none sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="speakers">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
     </div>
-    <div class="[ grid grid--align-center grid--four-column ]">
+    <div class="[ grid grid--align-center grid--four-column ] [ gap-padding-right-200 gap-padding-left-200 ]">
         <div class="grid--three-column-span flow-2">
             <h2 class="font-size-500 font-weight-bold">Speakers</h2>
             <hr class="divider divider--yellow" aria-hidden="true">
@@ -15,7 +15,7 @@
         <div class="grid--four-column-span">
             <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-900 md:gap-padding-bottom-900 md:gap-padding-left-900">
                 {% for speaker in page.speakers %}
-                <li class="mambo-accordion gap-padding-right-500 gap-padding-left-500 md:gap-padding-right-none md:gap-padding-left-none flow-3">
+                <li class="mambo-accordion gap-padding-right-200 gap-padding-left-200 md:gap-padding-right-none md:gap-padding-left-none flow-3">
                     <figure>
                         <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
                     </figure>
@@ -25,14 +25,11 @@
                         <p>{{ speaker.title }}</p>
                         {% endif %}
                     </div>
-                    <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", " -" }}">
+                    <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", "-" }}">
                         View Bio
                     </a>
                 </li>
-                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", " -" }}">
-                    <!-- <div class="ripped-paper ripped-paper-top" style="fill: var(--celeste);">
-                        {% include textures/rip-A.svg %}
-                    </div> -->
+                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
                     <p class="font-size-400 font-weight-bold">About</p>
                     <hr class="divider divider--{{ speaker.color-text }}" aria-hidden="true">
                     {% if speaker.pronouns %}
@@ -59,9 +56,6 @@
                         {{ speaker.website-label-3 }}
                     </a>
                     {% endif %}
-                    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--celeste);">
-                        {% include textures/rip-C.svg %}
-                    </div>
                 </div>
                 {% endfor %}
             </ul>
