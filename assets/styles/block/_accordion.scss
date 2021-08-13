@@ -47,6 +47,10 @@
     width: 100%;
 }
 
+.mambo-accordion__header .houdini-toggle:hover {
+    cursor: pointer;
+}
+
 .mambo-accordion__content {
     border: solid 1px var(--black);
     margin-top: -1px;
