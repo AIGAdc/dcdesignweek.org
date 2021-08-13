@@ -53,6 +53,7 @@
     z-index: var(--index-4);
 }
 
+.faqs figure,
 .ghostnote figure,
 .makers figure,
 .subscribe figure {
@@ -60,6 +61,7 @@
 }
 
 @media screen and (min-width: 768px) {
+    .faqs figure,
     .ghostnote figure,
     .makers figure,
     .subscribe figure {
