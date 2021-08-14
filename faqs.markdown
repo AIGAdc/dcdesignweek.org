@@ -50,7 +50,7 @@ questions:
     expanded: true
   - question: I’m having trouble with my Zoom. What can I do? 
     answer: |-
-      We encourage you to explore Zoom’s Help Center first. If you aren’t able to resolve the issue that way, reach out to us. 
+      We encourage you to explore Zoom’s [Help Center](https://support.zoom.us/hc/en-us/articles/206175806) first. If you aren’t able to resolve the issue that way, reach out to us. 
     trigger: question-5
     expanded: true
   - question: What’s your refund policy?
@@ -74,9 +74,9 @@ questions:
     expanded: true
   - question: Will events be recorded? 
     answer: |- 
-      All virtual and hybrid events will be recorded unless technical issues occur or recording the content disrupts the intimacy and privacy required for an event. The recordings will be shared in the AIGA DC recordings archive for AIGA members to rewatch or catch up on at a later date. 
+      All virtual and hybrid events will be recorded unless technical issues occur or recording the content disrupts the intimacy and privacy required for an event. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. 
       
-      If you’re not an AIGA member, you can register for a membership on our website for just $50 for a year. We’re a 100% non-revenue generating entity, so this goes a long way to keeping us afloat. 
+      If you’re not an AIGA member, you can register for a [membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year. We’re a 100% non-revenue generating entity, so this goes a long way to keeping us afloat. 
     trigger: question-10
     expanded: true
   - question: When I buy a ticket, where is the money going?
