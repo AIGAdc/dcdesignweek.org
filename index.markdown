@@ -6,9 +6,12 @@ published: true
 
 hero:
 - has-hero: true
-  header: "DC DESIGN WEEK  2021:"
-  subheader: |-
-    HYPERLOCAL. GROWN LOCALLY. INSPIRE GLOBALLY. October 1 - 8
+  header: |-
+    <span class="color-dcdw-2021-celeste">DC</span> DESIGN WEEK <span class="color-dcdw-2021-celeste">2021</span>
+  text-1: |-
+    HYPERLOCAL. GROWN LOCALLY. INSPIRE GLOBALLY.
+  text-2: |-
+    October 1 - 8
   body: |-
     What kind of future can we build together? Hyperlocal is a launching pad to empower the DC Design Week community to get involved and share crowd-sourced design perspectives. When we celebrate the dynamism and resolve of our vibrant community locally, we have the opportunity to elevate everyone’s voice to a global level.
   image: /uploads/hero-collage.png
