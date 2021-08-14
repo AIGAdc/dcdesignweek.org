@@ -1,7 +1,7 @@
 {% if page.url == "/faqs/" %}
 
 <section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-200 gap-padding-left-200 sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-4 ]" id="faqs">
-    <div class="[ grid grid--align-start grid--four-column ] [ flow-3 ]">
+    <div class="[ grid grid--align-start grid--four-column ]">
         <ul class="grid--three-column-span flow-4">
             {% for question in page.questions %}
             <li class="mambo-accordion">
@@ -13,15 +13,21 @@
             {% endfor %}
         </ul>
         <div class="grid--one-column-span">
-            <div class="faq-contact">
-                <p>General Questions</p>
-                <ul>
-                    <li>Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a></li>
-                </ul>
-                <p class="margin-top-16">Accessibility Questions</p>
-                <ul>
-                    <li>Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a></li>
-                </ul>
+            <div class="faq-contact flow-2">
+                <h3>Contact</h3>
+                <hr class="divider divider--black" aria-hidden="true">
+                <div>
+                    <p class="font-weight-bold">General Questions</p>
+                    <ul>
+                        <li>Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-weight-bold gap-margin-top-200">Accessibility Questions</p>
+                    <ul>
+                        <li>Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
