@@ -2,13 +2,13 @@
 {% if content.has-hero == true %}
 
 <section class="[ hero-home ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-200 gap-padding-left-200 sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ]" id="hero-home">
-    <div class="[ grid grid--align-center grid--four-column ] [ flow-3 ]">
-        <div class="[ headline ] [ grid--four-column-span ] font-align-center">
-            <h1 class="font-size-600">{{ content.header }}</h1>
+    <div class="[ grid grid--align-center grid--one-column ] [ flow-3 ]">
+        <div class="[ headline ] [ grid--one-span ] font-align-center">
+            <h1>{{ content.header }}</h1>
             <div class="subtitle-1">{{ content.text-1 | markdownify }}</div>
             <div class="subtitle-2">{{ content.text-2 | markdownify }}</div>
         </div>
-        <div class="[ grid--four-column-span ]">
+        <div class="[ grid--one-span ]">
             <div>{{ content.body | markdownify }}</div>
         </div>
     </div>

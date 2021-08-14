@@ -1,6 +1,7 @@
 .hero h1,
 .hero-home h1 {
     font-family: var(--font-bayard);
+    font-size: var(--font-size-18);
 }
 
 .hero-home {
@@ -36,4 +37,98 @@
     right: -4px;
     bottom: 40px;
     transform: rotate(-3deg);
+}
+
+@media screen and (min-width: 480px) {
+    .hero h1,
+    .hero-home h1 {
+        font-size: var(--font-size-56);
+    }
+
+    .hero-home .headline {
+        padding: var(--space-96) 0;
+    }
+
+    .subtitle-2 {
+        right: 0px;
+        bottom: 52px;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .hero h1,
+    .hero-home h1 {
+        font-size: var(--font-size-72);
+    }
+
+    .subtitle-2 {
+        right: 24px;
+        bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .hero h1,
+    .hero-home h1 {
+        font-size: var(--font-size-80);
+    }
+
+    .subtitle-1,
+    .subtitle-2 {
+        font-size: var(--font-size-20);
+    }
+
+    .subtitle-2 {
+        right: 24px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .subtitle-2 {
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .hero-home .headline {
+        padding: var(--space-120) 0;
+    }
+
+    .subtitle-2 {
+        bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero h1,
+    .hero-home h1 {
+        font-size: var(--font-size-120);
+        position: relative;
+        top: -16px;
+    }
+
+    .subtitle-1 {
+        position: relative;
+        top: -16px;
+    }
+    .subtitle-1,
+    .subtitle-2 {
+        font-size: var(--font-size-32);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero h1,
+    .hero-home h1 {
+        font-size: 10rem;
+    }
+    .hero-home .headline {
+        padding: var(--space-200) 0;
+    }
+
+    .subtitle-2 {
+        bottom: 115px;
+        right: 100px;
+    }
 }
