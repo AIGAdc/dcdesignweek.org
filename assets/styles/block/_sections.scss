@@ -57,19 +57,23 @@
     z-index: var(--index-4);
 }
 
+.accessibility figure,
 .faqs figure,
 .ghostnote figure,
 .hero figure,
 .makers figure,
+.photographer figure,
 .subscribe figure {
     display: none;
 }
 
 @media screen and (min-width: 1024px) {
+    .accessibility figure,
     .faqs figure,
     .ghostnote figure,
     .hero figure,
     .makers figure,
+    .photographer figure,
     .subscribe figure {
         display: block;
     }
