@@ -9,8 +9,8 @@ hero:
   header: "Events"
   subheader: |-
     Maybe your (very cool) friend brought you here for the first time. Or maybe you’ve been to every DC Design Week. Either way, we’re thrilled to have you.
-  image-1: /uploads/image-ghost.png
-  image-1-alt: 
+  image: /uploads/image-events-hero.png
+  imageAlt: 
   button-label: "Lorem Ipsum"
   button-url:
 
