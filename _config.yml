@@ -378,7 +378,7 @@ sponsors:
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
 staff:
-  - image: '/uploads/Headshot_RichardBentham.jpg'
+  - image: '/uploads/headshot_richardbentham.jpg'
     name: Richard Bentham
     role: Executive Director
     pronouns: he / him / his
@@ -392,7 +392,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/richard-bentham-4921a439/ 
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_ArianaRodriguezGitler.jpg'
+  - image: '/uploads/headshot_arianarodriguezgitler.jpg'
     name: Ariana Rodriguez-Gitler
     role: Deputy Executive Director
     pronouns: she / her / hers
@@ -406,7 +406,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/arianarg/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_JoeGreeley.jpg'
+  - image: '/uploads/headshot_joegreeley.jpg'
     name: Joe Greeley
     role: Board Liasion
     pronouns: he / him / his
@@ -420,7 +420,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/joe-greeley-7677798/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_DanniBaker.jpg'
+  - image: '/uploads/headshot_dannibaker.jpg'
     name: Danni Baker
     role: Program Director
     pronouns: she / her / hers
@@ -434,7 +434,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/dannibaker/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_ElizaDuquette.jpg'
+  - image: '/uploads/headshot_elizaduquette.jpg'
     name: Eliza Duquette
     role: Program Director
     pronouns: she / her / hers
@@ -448,7 +448,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/elizaduquette/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_DavidDunston.jpg'
+  - image: '/uploads/headshot_daviddunston.jpg'
     name: David Dunston
     role: Communications Director
     pronouns: he / him / his
@@ -462,7 +462,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/daviddunston/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_CynthiaKim.jpg'
+  - image: '/uploads/headshot_cynthiakim.jpg'
     name: Cynthia Kim
     role: Deputy Communications Director
     pronouns: she / her / hers 
@@ -476,7 +476,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/cynthia-kim/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_RadhikaBhatt.jpg'
+  - image: '/uploads/headshot_radhikabhatt.jpg'
     name: Radhika Bhatt
     role: Partnerships Director
     pronouns: she / her / hers
@@ -490,7 +490,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/radhika-bhatt/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_ClaireBlaustein.jpg'
+  - image: '/uploads/headshot_claireblaustein.jpg'
     name: Claire Blaustein
     role: AIGA DC President
     pronouns: she / her / hers
@@ -504,7 +504,7 @@ staff:
     website-url-3: https://www.instagram.com/marcusrelacion/ 
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_benabraham.jpg'
     name: Ben Abraham
     role: Community-Curated Events Manager
     pronouns: he / him / his
@@ -518,7 +518,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/ben-abraham
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_SydneyAdams.jpg'
+  - image: '/uploads/headshot_sydneyadams.jpg'
     name: Sydney Adams
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -532,7 +532,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/sydney-adams/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_JanessaArrington.jpg'
+  - image: '/uploads/headshot_janessaarrington.jpg'
     name: Janessa Arrington
     role: Keynote Event Lead
     pronouns: she / her / hers
@@ -546,7 +546,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/janessa-arrington/?trk=people_directory
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_KojoBoateng.jpg'
+  - image: '/uploads/headshot_kojoboateng.jpg'
     name: Kojo Boateng
     role: Kickoff Event Lead
     pronouns: he / him / his
@@ -560,7 +560,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/kojoboateng/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_JelenaBudjevac.jpg'
+  - image: '/uploads/headshot_jelenabudjevac.jpg'
     name: Jelena Budjevac
     role: Copywriter
     pronouns: she / her / hers
@@ -574,7 +574,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/jelenabudjevac/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_caracampbell.jpg'
     name: Cara Campbell
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -588,7 +588,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/cara-campbell56
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_BennethChukwu.jpg'
+  - image: '/uploads/headshot_bennethchukwu.jpg'
     name: Benneth Chukwu
     role: Designer
     pronouns: he / him / his
@@ -602,7 +602,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/benneth-chukwu/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_elaineheinzman.jpg'
     name: Elaine Heinzman
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -616,7 +616,7 @@ staff:
     website-url-3: http://linkedin.com/in/elaineheinzman
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_JessicaJosey.jpg'
+  - image: '/uploads/headshot_jessicajosey.jpg'
     name: Jessica Josey
     role: Social Media Lead
     pronouns: she / her / hers
@@ -630,7 +630,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/jessica-josey
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_JoshKim.jpg'
+  - image: '/uploads/headshot_joshkim.jpg'
     name: Josh Kim
     role: Accessibility Lead
     pronouns: he / him / his
@@ -644,7 +644,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/joshkimux/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_NicoleMcKinney.jpg'
+  - image: '/uploads/headshot_nicolemckinney.jpg'
     name: Nicole McKinney
     role: Keynote Event Lead
     pronouns: she / her / hers
@@ -658,7 +658,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/mckinney-nicole/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_daniellemouledoux.jpg'
     name: Danielle "Dee" Mouledoux
     role: Workshop Event Lead
     pronouns: she / her / hers
@@ -672,7 +672,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/dmouledoux/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_johannaostrich.jpg'
     name: Johanna Ostrich
     role: Pop-Up Event Lead 
     pronouns: she / her / hers
@@ -686,7 +686,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/johannaostrich/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_jenapersico.jpg'
     name: Jena Persico
     role: Pop-Up Event Lead
     pronouns: he / him / his
@@ -700,7 +700,7 @@ staff:
     website-url-3: http://www.linkedin.com/in/jena-p-6051ab30
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: '/uploads/Headshot_KhanhPham.jpg'
+  - image: '/uploads/headshot_khanhpham.jpg'
     name: Khanh Pham
     role: Marketing Lead
     pronouns: she / her / hers
@@ -714,7 +714,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/bkhanhp
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_kristinrafael.jpg'
     name: Kristin Rafael
     role: Design Lead
     pronouns: she / her / hers
@@ -728,7 +728,7 @@ staff:
     website-url-3: http://linkedin.com/in/kristin-rafael-a2552985
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_marcusrelacion.jpg'
     name: Marcus Relacion
     role: Web Developer
     pronouns: he / him / his
@@ -742,7 +742,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/marcusrelacion/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_silviascript.jpg'
     name: Silvia Script
     role: Web Lead
     pronouns: she / her / hers
@@ -756,7 +756,7 @@ staff:
     website-url-3: https://www.linkedin.com/in/silscript/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
-  - image: 'https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg'
+  - image: '/uploads/headshot_chelseawilson.jpg'
     name: Chelsea Wilson
     role: Web Designer
     pronouns: she / her / hers
