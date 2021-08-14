@@ -26,11 +26,23 @@ layout: compress
     </head>
 
     <body>
+        {% comment %}
+        <div class="ripped-paper ripped-paper-left" style="fill: var(--celeste);">
+            <!-- top rip -->
+            {% include textures/rip-E.svg %}
+        </div>
+        {% endcomment %}
         {% include block/header.html %}
         <main class="{{ page.layout }}-layout" id="main-content">
             {{ content | safe }}
         </main>
         {% include block/footer.html %}
+        {% comment %}
+        <div class="ripped-paper ripped-paper-right" style="fill: var(--celeste);">
+            <!-- top rip -->
+            {% include textures/rip-F.svg %}
+        </div>
+        {% endcomment %}
     </body>
 
 </html>

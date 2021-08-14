@@ -75,6 +75,8 @@ a:focus {
 }
 
 body {
+    border-left: solid 16px var(--celeste);
+    border-right: solid 16px var(--celeste);
     background-color: var(--beige);
     color: var(--black);
     font-family: var(--font-poppins);
