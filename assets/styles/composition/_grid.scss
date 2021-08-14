@@ -1,5 +1,6 @@
 .grid {
     display: grid;
+    grid-gap: var(--space-32);
     position: relative;
     z-index: var(--index-5);
 
