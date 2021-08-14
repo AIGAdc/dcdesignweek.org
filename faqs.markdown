@@ -83,9 +83,9 @@ questions:
     answer: |- 
       The ticket sales cover our expenses, including streaming platforms and for live closed captioning. We’re also doing a revenue share to ensure our speakers receive some compensation for bringing their talent, expertise, and time to our community. 
       
-      DC Design Week donates all profit from the week’s events to the Design Continuum Fund, which helps launch the next generation of talented artists and designers by offering financial support for minority and economically disadvantaged students. In addition to the DCDW’s contribution, AIGA pledges 10% of all our event revenue to the scholarship fund as well. 
+      DC Design Week donates all profit from the week’s events to the [Design Continuum Fund](https://www.givecontinuum.org/), which helps launch the next generation of talented artists and designers by offering financial support for minority and economically disadvantaged students. In addition to the DCDW’s contribution, AIGA pledges 10% of all our event revenue to the scholarship fund as well. 
       
-      We have tried to make our programming as affordable and therefore accessible to all. If you find the cost prohibitive, barring you from participating, please reach out to us at designweek@dc.aiga.org so we can work together to find a solution that works for you!
+      We have tried to make our programming as affordable and therefore accessible to all. If you find the cost prohibitive, barring you from participating, please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org) so we can work together to find a solution that works for you!
     trigger: question-11
     expanded: true
   - question: I need accommodation to participate fully – What do I do?
@@ -94,7 +94,7 @@ questions:
       
       If you need additional accommodation, please contact us. We ask that you request your accommodation as early as possible, as we may not be able to fulfill all requests made after September 27. We honor your privacy and no identifying information (ie, your name) is required to request an accomodation
         - Request an accommodation (via Google forms)
-        - Email us at accessbility@dc.aiga.org
+        - Email us at [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)
         - Call our Accessibility Lead, Josh Kim, at 571-302-1504.
     trigger: question-12
     expanded: true

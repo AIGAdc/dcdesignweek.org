@@ -1,7 +1,7 @@
 .hero h1,
 .hero-home h1 {
     font-family: var(--font-bayard);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-40);
 }
 
 .hero,
@@ -38,6 +38,31 @@
     right: -4px;
     bottom: 40px;
     transform: rotate(-3deg);
+}
+
+.about-layout .hero img,
+.events-layout .hero img,
+.ghostnote img,
+.makers img,
+.subscribe img {
+    min-width: 680px !important;
+    display: block;
+}
+
+.about-layout .hero figure {
+    right: -48px;
+}
+
+.ghostnote figure {
+    left: -120px;
+}
+
+.makers figure {
+    right: 32px;
+}
+
+.subscribe figure {
+    left: -144px;
 }
 
 @media screen and (min-width: 480px) {

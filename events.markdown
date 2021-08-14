@@ -20,7 +20,7 @@ events-body: "Maybe your (very cool) friend brought you here for the first time.
 faqs-header: "FAQs"
 faqs-body: "DC Design Week is planned by a committee of volunteers who plan each event, do all the outreach, and more. We’re so grateful for their contributions."
 show-faqs-image: true
-faqs-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+faqs-image: /uploads/image-faqs.png
 faqs-imageAlt: "Provide Image Alt"
 faqs-button-label: "Visit FAQs"
 faqs-button-url: "/faqs/"

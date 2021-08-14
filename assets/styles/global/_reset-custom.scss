@@ -85,6 +85,10 @@ body {
     max-width: 1366px;
 }
 
+figure {
+    position: relative;
+}
+
 @media (prefers-reduced-data: no-preference) {
     body {
         background-image: url("/uploads/brick.png");
