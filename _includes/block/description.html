@@ -5,9 +5,11 @@
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.content | markdownify }}</div>
 
+            {% if page.partners.header %}
             <h2>{{ page.partners.header }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.partners.body | markdownify }}</div>
+            {% endif %}
         </div>
         <div class="[ grid--one-column-span ] [ flow-2 ]">
             <div class="flow-2">

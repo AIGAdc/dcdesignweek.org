@@ -38,6 +38,7 @@ venue:
 has-speakers: true
 speakers:
 - name: Michelle Bishop 1
+  number: 1
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
   bio: Michelle Bishop provides training and technical assistance to the P&A network
@@ -53,6 +54,7 @@ speakers:
   color-text: celeste
   default-expanded: true
 - name: Michelle Bishop 2
+  number: 2
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
   bio: Michelle Bishop provides training and technical assistance to the P&A network
@@ -68,6 +70,7 @@ speakers:
   color-text: black
   default-expanded: false
 - name: Michelle Bishop 3
+  number: 3
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
   bio: Michelle Bishop provides training and technical assistance to the P&A network
@@ -83,6 +86,7 @@ speakers:
   color-text: black
   default-expanded: false
 - name: Michelle Bishop 4
+  number: 4
   pronouns: She | Her | Hers
   title: Voter Access & Engagement Manager, National Disability Rights Network
   bio: Michelle Bishop provides training and technical assistance to the P&A network
