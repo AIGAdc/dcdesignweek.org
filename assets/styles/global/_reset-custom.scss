@@ -120,7 +120,7 @@ small {
 }
 
 h2 {
-    font-size: var(--font-size-32);
+    font-size: var(--font-size-24);
 }
 
 fieldset {
@@ -149,5 +149,9 @@ svg {
     body {
         font-size: var(--font-size-18);
         line-height: 32px;
+    }
+
+    h2 {
+        font-size: var(--font-size-32);
     }
 }

@@ -1,21 +1,23 @@
 {% if page.has-speakers == true %}
 
-<section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-none gap-padding-left-none sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="speakers">
-
+<section class="tear tear-top">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
     </div>
+</section>
+
+<section class="[ speakers ] [ gap-padding-top-1100 gap-padding-bottom-1100 md:gap-padding-top-1600 md:gap-padding-bottom-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="speakers">
 
     <div class="[ grid grid--four-column grid--align-center ]">
-        <div class="grid--two-column-span flow-2 [ gap-padding-right-200 gap-padding-left-200 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ]">
+        <div class="grid--two-column-span flow-2 [ gap-padding-right-400 gap-padding-left-400 md:gap-padding-right-1600 md:gap-padding-left-1600 ]">
             <h2 class="font-size-500 font-weight-bold">Speakers</h2>
             <hr class="divider divider--yellow" aria-hidden="true">
         </div>
         <div class="grid--four-column-span flow-2">
-            <ul class="grid grid--four-column gap-padding-bottom-500 md:gap-padding-right-none md:gap-padding-bottom-none md:gap-padding-left-none">
+            <ul class="grid grid--four-column gap-padding-bottom-500  md:gap-padding-bottom-none md:gap-padding-right-none md:gap-padding-left-none lg:gap-padding-right-1600 lg:gap-padding-left-1600">
                 {% for speaker in page.speakers %}
-                <li class="mambo-accordion gap-padding-right-200 gap-padding-left-200 md:gap-padding-right-none md:gap-padding-left-none flow-3">
+                <li class="mambo-accordion [ gap-padding-right-400 gap-padding-left-400 md:gap-padding-right-1600 md:gap-padding-left-1600 lg:gap-padding-right-none lg:gap-padding-left-none ] [ flow-3 ]">
                     <figure class="clipped-{{ speaker.number }}">
                         <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
                     </figure>
@@ -29,7 +31,7 @@
                         View Bio
                     </a>
                 </li>
-                <div class="grid--four-column-span  gap-padding-all-500 md:gap-padding-all-900 mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
+                <div class="grid--four-column-span  [ gap-padding-top-1100 gap-padding-bottom-1100 lg:gap-padding-left-1600 lg:gap-padding-right-1600 ] mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
                     <p class="font-size-400 font-weight-bold">About</p>
                     <hr class="divider divider--{{ speaker.color-text }}" aria-hidden="true">
                     {% if speaker.pronouns %}
@@ -56,23 +58,25 @@
                         {{ speaker.website-label-3 }}
                     </a>
                     {% endif %}
+                    <div class="tear tear-bottom">
+                        <div class="ripped-paper ripped-paper-bottom" style="fill: var(--{{ speaker.color-background }});">
+                            <!-- bottom rip -->
+                            {% include textures/rip-B.svg %}
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </ul>
         </div>
     </div>
+</section>
 
+<section class="tear tear-bottom">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
     </div>
 </section>
-
-<!-- <script src="/assets/scripts/tabby.min.js"></script>
-
-<script>
-    var tabs = new Tabby('[data-tabs]');
-</script> -->
 
 <script>
     var disclosure = new Houdini('[data-houdini-group="speaker"]', {

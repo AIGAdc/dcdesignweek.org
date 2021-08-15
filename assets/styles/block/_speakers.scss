@@ -49,6 +49,11 @@
 }
 
 .speaker-bio {
-    padding: var(--space-64) var(--space-64) var(--space-120) var(--space-64);
     position: relative;
+}
+
+.speaker-bio a {
+    color: currentColor;
+    text-decoration: none;
+    font-size: 16px;
 }
