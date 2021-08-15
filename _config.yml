@@ -46,6 +46,9 @@ defaults:
       has-non-member-button: 
       non-member-button-url: 
       non-member-button-label: 
+    partners:
+      header:
+      body:
     venue:
       name: 
       info: 
