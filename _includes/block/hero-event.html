@@ -1,4 +1,4 @@
-<section class="section-hero background-dcdw-2021-black color-dcdw-2021-celeste ">
+<section class="hero-event background-dcdw-2021-black color-dcdw-2021-celeste " id="hero-event">
 
     {% include liquid/event-single-hero-status.html %}
 
@@ -11,17 +11,19 @@
             <p>
                 {{ page.event-date | date: "%A / %B %d / %l:%M %p" }}
             </p>
-            <div class="wysiwyg">
+            {% if content.subheader %}
+            <div class="wysiwyg flow-3">
                 {{ content.subheader | markdownify }}
             </div>
+            {% endif %}
 
-            <div class="[ landing-hero__tickets ] [ flow-2 ]">
+            <div class="[ landing-hero__tickets ]">
                 {% if page.tickets.has-member-button == true %}
-                <a class="button button-solid button__solid--yellow  {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
+                <a class="button button-solid button__solid--yellow {% if page.status.has-occurred == true %} disabled {% endif %}%" {% if page.status.has-occurred==true %} {% else %} href="{{ page.tickets.member-button-url }}" rel="noopener" target="_blank" {% endif %}>
                     {{ page.tickets.member-button-label }}
                 </a>
                 {% else %}
-                <a class="button button__solid disabled button-solid--yellow  ">
+                <a class="button button__solid disabled button-solid--yellow">
                     Ticket Sales Have Ended
                 </a>
                 {% endif %}

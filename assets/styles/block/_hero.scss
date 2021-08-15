@@ -1,5 +1,6 @@
 .hero h1,
-.hero-home h1 {
+.hero-home h1,
+.hero-event h1 {
     font-family: var(--font-bayard);
     font-size: var(--font-size-40);
 }
@@ -67,7 +68,8 @@
 
 @media screen and (min-width: 480px) {
     .hero h1,
-    .hero-home h1 {
+    .hero-home h1,
+    .hero-event h1 {
         font-size: var(--font-size-56);
     }
 
@@ -83,7 +85,8 @@
 
 @media screen and (min-width: 580px) {
     .hero h1,
-    .hero-home h1 {
+    .hero-home h1,
+    .hero-event h1 {
         font-size: var(--font-size-72);
     }
 
@@ -95,7 +98,8 @@
 
 @media screen and (min-width: 640px) {
     .hero h1,
-    .hero-home h1 {
+    .hero-home h1,
+    .hero-event h1 {
         font-size: var(--font-size-80);
     }
 
@@ -128,7 +132,8 @@
 
 @media screen and (min-width: 1024px) {
     .hero h1,
-    .hero-home h1 {
+    .hero-home h1,
+    .hero-event h1 {
         font-size: var(--font-size-120);
         position: relative;
         top: -16px;
@@ -146,7 +151,8 @@
 
 @media screen and (min-width: 1280px) {
     .hero h1,
-    .hero-home h1 {
+    .hero-home h1,
+    .hero-event h1 {
         font-size: 9rem;
     }
     .hero-home .headline {
