@@ -10,7 +10,7 @@
 <section class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="sponsors">
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.sponsors-header | downcase | replace: " ", " -" }}">{{ page.sponsors-header }}</h2>
+            <h2>{{ page.sponsors-header }}</h2>
             {% if page.sponsors-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.sponsors-body | markdownify }}</div>
@@ -27,7 +27,7 @@
 
     {% comment %} tier 1 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
-        <h3 class="font-family-bayard font-size-1100">
+        <h3 class="font-family-bayard">
             {{ site.sponsors.tier-one-header }}
             {% include textures/sponsor-header-1.svg %}
         </h3>
@@ -68,9 +68,7 @@
     </div>
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.sponsors-header | downcase | replace: " ", " -" }}">
-                {{ page.sponsors-header }}
-            </h2>
+            <h2>{{ page.sponsors-header }}</h2>
             {% if page.sponsors-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg">
@@ -90,7 +88,7 @@
 
     {% comment %} tier 1 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
-        <h3 class="font-family-bayard font-size-1100">
+        <h3 class="font-family-bayard">
             {{ site.sponsors.tier-one-header }}
             {% include textures/sponsor-header-1.svg %}
         </h3>
@@ -105,7 +103,7 @@
 
     {% comment %} tier 2 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-2 gap-margin-top-1000">
-        <h3 class="font-family-bayard font-size-1100">
+        <h3 class="font-family-bayard">
             {{ site.sponsors.tier-two-header }}
             {% include textures/sponsor-header-2.svg %}
         </h3>
@@ -120,7 +118,7 @@
 
     {% comment %} tier 3 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-3 gap-margin-top-1000">
-        <h3 class="font-family-bayard font-size-1100">
+        <h3 class="font-family-bayard">
             {{ site.sponsors.tier-three-header }}
             {% include textures/sponsor-header-3.svg %}
         </h3>
@@ -135,7 +133,7 @@
 
     {% comment %} tier 4 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-4 gap-margin-top-1000">
-        <h3 class="font-family-bayard font-size-1100">
+        <h3 class="font-family-bayard">
             {{ site.sponsors.tier-four-header }}
             {% include textures/sponsor-header-4.svg %}
         </h3>

@@ -5,22 +5,30 @@
 .sponsors-tier h3 {
     color: var(--black);
     position: relative;
+    font-size: 56px;
 }
 
 .sponsors-tier h3 svg {
     position: absolute;
     top: -32px;
     bottom: 0;
-    left: -40px;
+    right: 0;
+    left: -32px;
     z-index: -10;
-    width: 100%;
+    min-width: 120%;
     max-width: 400px;
-    height: 120px;
 }
 
 .sponsors-tier-1 h3 svg,
-.sponsors-tier-3 h3 svg,
 .sponsors-tier-4 h3 svg {
+    top: -32px;
+}
+
+.sponsors-tier-2 h3 svg {
+    top: -40px;
+}
+
+.sponsors-tier-3 h3 svg {
     top: -16px;
 }
 
