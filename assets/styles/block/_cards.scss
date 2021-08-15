@@ -31,7 +31,7 @@
 }
 
 .card-header h3 {
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .card-details {
@@ -56,8 +56,8 @@
     width: 80px;
     position: absolute;
     inset: 0;
-    top: -10px;
-    left: -16px;
+    top: -16px;
+    left: 0;
     background-color: var(--beige);
     z-index: -10;
     clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
@@ -69,4 +69,14 @@
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.card-date p {
+    position: relative;
+    left: 16px;
+}
+
+.card-date p,
+.card-info p {
+    line-height: 1.6;
 }
