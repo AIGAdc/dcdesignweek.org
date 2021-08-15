@@ -15,7 +15,7 @@
 }
 
 .card-image img {
-    min-height: 288px;
+    min-height: 240px;
     object-fit: cover;
     object-position: center;
 }
@@ -32,6 +32,11 @@
 
 .card-header h3 {
     font-weight: 700;
+    font-size: 16px;
+}
+
+.card-header p {
+    font-size: 16px;
 }
 
 .card-details {
@@ -79,4 +84,9 @@
 .card-date p,
 .card-info p {
     line-height: 1.6;
+}
+
+.card-link {
+    color: var(--black);
+    text-decoration: none;
 }

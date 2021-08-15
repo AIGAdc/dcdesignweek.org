@@ -17,7 +17,7 @@
         {% endif %}
     </div>
 
-    <ul class="[ grid grid--four-column ] [ flow-3 ]">
+    <ul class="[ grid grid--four-column ]">
         {% for member in site.staff %}
         <li class="card card-committee text-center">
             <div class="card-aside">
@@ -36,7 +36,7 @@
                 <p class="card-subtitle">{{ member.pronouns }}</p>
                 {% endif %}
             </div>
-            <div class="card-footer">
+            <div class="card-footer gap-margin-top-300">
                 <div class="card-links">
                     {% if member.website-url-1 %}
                     <p>
