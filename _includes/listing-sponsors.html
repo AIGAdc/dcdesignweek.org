@@ -135,6 +135,7 @@
         </ul>
     </div>
 
+    {% comment %}
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--two-column-span flow-2">
             <h2 id="{{ page.partners-header | downcase | replace: " ", " -" }}">{{ page.partners-header }}</h2>
@@ -151,6 +152,7 @@
         </div>
         {% endif %}
     </div>
+    {% endcomment %}
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
