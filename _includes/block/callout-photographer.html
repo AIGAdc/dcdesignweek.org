@@ -15,7 +15,7 @@
         </div>
         {% endif %}
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.photographer-header | downcase | replace: " ", " -" }}">{{ page.photographer-header }}</h2>
+            <h2>{{ page.photographer-header }}</h2>
             {% if page.photographer-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.photographer-body | markdownify }}</div>
