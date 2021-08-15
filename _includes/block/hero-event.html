@@ -1,14 +1,13 @@
-<section class="[ hero-event ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="hero-event">
+<section class="[ hero-event ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="hero-event">
     {% include liquid/event-single-hero-status.html %}
     <div class="[ grid grid--align-center grid--four-column ]">
+
         <div class="column-one grid--four-column-span flow-2">
             <h1 id="{{ page.title | downcase | replace: " ", "-" }} ">{{ page.title }}</h1>
             <hr class=" divider divider--yellow" aria-hidden="true" />
             <p>{{ page.event-date | date: "%A / %B %d / %l:%M %p" }}</p>
             {% if content.subheader %}
-            <div class="wysiwyg flow-3">
-                {{ content.subheader | markdownify }}
-            </div>
+            <div class="wysiwyg flow-3">{{ content.subheader | markdownify }}</div>
             {% endif %}
 
             <div class="[ landing-hero__tickets ]">

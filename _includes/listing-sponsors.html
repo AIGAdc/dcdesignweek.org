@@ -1,9 +1,13 @@
 {% if page.url == "/" %}
-<section class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-200 gap-padding-left-200 sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="sponsors">
+
+<section class="tear tear-top">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
     </div>
+</section>
+
+<section class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="sponsors">
     <div class="[ grid grid--align-center grid--four-column ]">
         <div class="grid--two-column-span flow-2">
             <h2 id="{{ page.sponsors-header | downcase | replace: " ", " -" }}">{{ page.sponsors-header }}</h2>
@@ -39,7 +43,9 @@
     <a class="button button-solid--yellow" href="{{ page.sponsors-button-url }}">
         {{ page.sponsors-button-label }}
     </a>
+</section>
 
+<section class="tear tear-bottom">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
@@ -48,7 +54,14 @@
 
 {% elsif page.url == "/about/" %}
 
-<section class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-200 gap-padding-left-200 sm:gap-padding-top-1600 sm:gap-padding-bottom-1600 sm:gap-padding-right-800 sm:gap-padding-left-800 lg:gap-padding-top-1600 lg:gap-padding-bottom-1600 lg:gap-padding-right-1600 lg:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ] [ flow-4 ]" id="sponsors">
+<section class="tear tear-top">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
+</section>
+
+<section class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="sponsors">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
@@ -134,28 +147,13 @@
             {% include textures/sponsor-4.svg %}
         </ul>
     </div>
+</section>
 
-    {% comment %}
-    <div class="[ grid grid--align-center grid--four-column ]">
-        <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.partners-header | downcase | replace: " ", " -" }}">{{ page.partners-header }}</h2>
-            {% if page.partners-body %}
-            <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg flow-2">{{ page.partners-body | markdownify }}</div>
-            {% endif %}
-        </div>
-        {% if page.show-sponsors-image == true %}
-        <div class="grid--two-column-span">
-            <figure>
-                <img src="{{ page.sponsors-image }}" alt="{{ page.sponsors-imageAlt }}">
-            </figure>
-        </div>
-        {% endif %}
-    </div>
-    {% endcomment %}
+<section class="tear tear-bottom">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
     </div>
 </section>
+
 {% endif %}

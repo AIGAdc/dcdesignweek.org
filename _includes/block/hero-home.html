@@ -1,7 +1,7 @@
 {% for content in page.hero %}
 {% if content.has-hero == true %}
 
-<section class="[ hero-home ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ]" id="hero-home">
+<section class="[ hero-home ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ]" id="hero-home">
     <!-- [ texture texture--paper ] -->
 
     <div class="[ grid grid--align-center grid--one-column ]">
@@ -11,7 +11,7 @@
             <div class="subtitle-2">{{ content.text-2 | markdownify }}</div>
         </div>
         <div class="[ grid--one-span ]">
-            <div>{{ content.body | markdownify }}</div>
+            <div class="wysiwyg flow-3">{{ content.body | markdownify }}</div>
         </div>
     </div>
     <div class="pattern pattern-left pattern-hyperlocal" style="fill: var(--beige);">
