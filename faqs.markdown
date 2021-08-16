@@ -9,13 +9,7 @@ hero:
   header: FAQs
   subheader:
   image: "/uploads/spray-paint.svg"
-  image-alt:
-
-faqs-header:
-faqs-body:
-show-faqs-image: false
-faqs-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-faqs-imageAlt: Provide Image Alt
+  imageAlt: 
 
 questions:
   - question: How can I participate in DC Design Week?

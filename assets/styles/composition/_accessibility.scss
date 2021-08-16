@@ -1,0 +1,30 @@
+.accessibility-layout .hero-standard h1 {
+    font-size: var(--font-size-72);
+}
+
+.accessibility figure {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .accessibility-layout .hero-standard h1 {
+        font-size: var(--font-size-88);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .accessibility-layout .hero-standard h1 {
+        font-size: var(--font-size-168);
+    }
+
+    .accessibility figure {
+        display: block;
+        right: 158px;
+        top: -350px;
+    }
+
+    .accessibility img {
+        min-width: 800px;
+        position: absolute;
+    }
+}
