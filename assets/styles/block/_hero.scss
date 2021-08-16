@@ -47,24 +47,33 @@
 .ghostnote img,
 .makers img,
 .subscribe img {
-    min-width: 680px !important;
     display: block;
 }
 
-.about-layout .hero figure {
-    right: -48px;
-}
+@media screen and (min-width: 1366px) {
+    .about-layout .hero img,
+    .events-layout .hero img,
+    .ghostnote img,
+    .makers img,
+    .subscribe img {
+        min-width: 680px !important;
+    }
 
-.ghostnote figure {
-    left: -120px;
-}
-
-.makers figure {
-    right: 32px;
-}
-
-.subscribe figure {
-    left: -144px;
+    .about-layout .hero figure {
+        right: -48px;
+    }
+    
+    .ghostnote figure {
+        left: -120px;
+    }
+    
+    .makers figure {
+        right: 32px;
+    }
+    
+    .subscribe figure {
+        left: -144px;
+    }
 }
 
 @media screen and (min-width: 480px) {
