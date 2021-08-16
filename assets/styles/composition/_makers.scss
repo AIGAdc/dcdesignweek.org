@@ -2,6 +2,10 @@
     font-size: var(--font-size-72);
 }
 
+.makers figure {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .makers-layout h1 {
         font-size: var(--font-size-88);
@@ -11,5 +15,16 @@
 @media screen and (min-width: 1366px) {
     .makers-layout h1 {
         font-size: var(--font-size-168);
+    }
+
+    .makers figure {
+        display: block;
+        right: 240px;
+        top: -340px;
+    }
+
+    .makers img {
+        min-width: 875px;
+        position: absolute;
     }
 }

@@ -45,22 +45,25 @@
 .about-layout .hero img,
 .events-layout .hero img,
 .ghostnote img,
-.makers img,
 .subscribe img {
     display: block;
 }
 
-
 .hero-standard p {
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-16);
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-standard p {
+        font-size: var(--font-size-24);
+    }
 }
 
 @media screen and (min-width: 1366px) {
     .about-layout .hero img,
     .events-layout .hero img,
     .ghostnote img,
-    .makers img,
     .subscribe img {
         min-width: 680px !important;
     }
@@ -71,10 +74,6 @@
     
     .ghostnote figure {
         left: -120px;
-    }
-    
-    .makers figure {
-        right: 32px;
     }
     
     .subscribe figure {
