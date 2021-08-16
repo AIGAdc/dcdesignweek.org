@@ -14,19 +14,29 @@
     z-index: var(--index-6);
 }
 
-.ornament-combined-shape {
-
-}
-
 .ornament-diagonal-red-shape {
     position: absolute;
-    top: -32px;
+    top: -10px;
     left: -320px;
-    height: 600px;
+}
+
+@media screen and (min-width: 768px) {
+    .ornament-diagonal-red-shape {
+        top: -20px;
+        left: -450px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .ornament-diagonal-red-shape {
-        top: 144px;
+        top: 10px;
+        left: -400px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .ornament-diagonal-red-shape {
+        top: 90px;
+        left: -140px;
     }
 }

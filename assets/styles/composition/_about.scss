@@ -6,9 +6,27 @@
     display: none;
 }
 
+.about-layout .hero-standard .ornament-diagonal-red-shape {
+    position: absolute;
+    top: -10px;
+    left: -320px;
+}
+
 @media screen and (min-width: 768px) {
     .about-layout .hero-standard h1 {
         font-size: var(--font-size-88);
+    }
+
+    .about-layout .hero-standard .ornament-diagonal-red-shape {
+        top: -20px;
+        left: -450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-layout .hero-standard .ornament-diagonal-red-shape {
+        top: 10px;
+        left: -400px;
     }
 }
 
@@ -26,5 +44,10 @@
     .about-layout .hero-standard img {
         min-width: 700px;
         position: absolute;
+    }
+
+    .about-layout .hero-standard .ornament-diagonal-red-shape {
+        top: 90px;
+        left: -140px;
     }
 }
