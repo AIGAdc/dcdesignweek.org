@@ -1,5 +1,5 @@
-<section class="[ hyperlocal ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste ] [ flow-4 ]" id="hyperlocal">
-    <div class="[ grid grid--align-center grid--four-column ]">
+<section class="[ hyperlocal ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="hyperlocal">
+    <div class="[ grid grid--four-column grid--align-center ]">
         {% if page.show-hyperlocal-image == true %}
         <div class="grid--two-column-span">
             <figure>
@@ -8,11 +8,10 @@
         </div>
         {% endif %}
         <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.hyperlocal-header | downcase | replace: " ", " -" }}">{{ page.hyperlocal-header }}</h2>
-            {% if page.hyperlocal-body %}
+            <h2>{{ page.hyperlocal-header | markdownify }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.hyperlocal-body | markdownify }}</div>
-            {% endif %}
+            <a class="button button-solid--black" href="{{ page.hyperlocal-button-url }}" {% if page.hyperlocal-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.hyperlocal-button-label }}</a>
         </div>
     </div>
 </section>

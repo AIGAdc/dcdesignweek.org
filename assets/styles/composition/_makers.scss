@@ -2,19 +2,54 @@
     font-size: var(--font-size-72);
 }
 
+.makers-layout .hero-standard figure,
 .makers figure {
     display: none;
+}
+
+.makers-layout .hero-standard .ornament-diagonal-red-shape {
+    position: absolute;
+    top: -10px;
+    left: -320px;
 }
 
 @media screen and (min-width: 768px) {
     .makers-layout h1 {
         font-size: var(--font-size-88);
     }
+
+    .makers-layout .hero-standard .ornament-diagonal-red-shape {
+        top: -20px;
+        left: -450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .makers-layout .hero-standard .ornament-diagonal-red-shape {
+        top: 10px;
+        left: -400px;
+    }
 }
 
 @media screen and (min-width: 1366px) {
     .makers-layout h1 {
-        font-size: var(--font-size-168);
+        font-size: var(--font-size-136);
+    }
+
+    .makers-layout .hero-standard figure {
+        display: block;
+        right: 75px;
+        top: -300px;
+    }
+
+    .makers-layout .hero-standard img {
+        min-width: 700px;
+        position: absolute;
+    }
+
+    .makers-layout .hero-standard .ornament-diagonal-red-shape {
+        top: 90px;
+        left: -140px;
     }
 
     .makers figure {
