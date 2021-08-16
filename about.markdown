@@ -6,7 +6,7 @@ published: true
 
 hero:
 - has-hero: true
-  header: "About DC Design Week"
+  header: "About DCDW"
   subheader: |-
     DC Design Week (DCDW) is an annual celebration of DC’s creative community: an ever-growing body of professionals, makers, and voices working across disciplines. This year, we’re shifting our focus to feature events curated and hosted by our community.
     
