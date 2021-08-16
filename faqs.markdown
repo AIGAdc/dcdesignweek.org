@@ -8,7 +8,7 @@ hero:
 - has-hero: true
   header: FAQs
   subheader:
-  image:
+  image: "/uploads/spray-paint.svg"
   image-alt:
 
 faqs-header:
