@@ -43,9 +43,7 @@
 }
 
 .about-layout .hero img,
-.events-layout .hero img,
-.ghostnote img,
-.subscribe img {
+.events-layout .hero img {
     display: block;
 }
 
@@ -62,17 +60,12 @@
 
 @media screen and (min-width: 1366px) {
     .about-layout .hero img,
-    .events-layout .hero img,
-    .subscribe img {
+    .events-layout .hero img {
         min-width: 680px !important;
     }
 
     .about-layout .hero figure {
         right: -48px;
-    }
-    
-    .subscribe figure {
-        left: -144px;
     }
 }
 

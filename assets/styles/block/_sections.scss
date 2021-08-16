@@ -31,8 +31,7 @@
 .accessibility figure,
 .faqs figure,
 .hero-standard figure,
-.photographer figure,
-.subscribe figure {
+.photographer figure {
     display: none;
 }
 
@@ -40,8 +39,7 @@
     .accessibility figure,
     .faqs figure,
     .hero-standard figure,
-    .photographer figure,
-    .subscribe figure {
+    .photographer figure{
         display: block;
     }
 }
