@@ -1,3 +1,19 @@
+.faqs-layout h1 {
+    font-size: var(--font-size-72);
+}
+
+@media screen and (min-width: 768px) {
+    .faqs-layout h1 {
+        font-size: var(--font-size-88);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .faqs-layout h1 {
+        font-size: var(--font-size-168);
+    }
+}
+
 .faq-contact {
     position: sticky;
     top: 144px;

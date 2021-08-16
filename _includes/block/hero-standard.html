@@ -23,7 +23,7 @@
             {% endif %}
             <h1 id="{{ content.header | downcase | replace: " ", " -" }}">{{ content.header }}</h1>
             {% if content.subheader %}
-            <div class="wysiwyg flow-2">{{ content.subheader | markdownify }}</div>
+            <div class="wysiwyg flow-2 gap-margin-top-none">{{ content.subheader | markdownify }}</div>
             {% endif %}
         </div>
         <div class="grid--two-column-span">
