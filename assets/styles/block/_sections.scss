@@ -30,9 +30,7 @@
 
 .accessibility figure,
 .faqs figure,
-.ghostnote figure,
 .hero-standard figure,
-.makers figure,
 .photographer figure,
 .subscribe figure {
     display: none;
@@ -41,21 +39,9 @@
 @media screen and (min-width: 1366px) {
     .accessibility figure,
     .faqs figure,
-    .ghostnote figure,
     .hero-standard figure,
-    .makers figure,
     .photographer figure,
     .subscribe figure {
         display: block;
     }
-
-    // .accessibility figure img,
-    // .faqs figure img,
-    // .ghostnote figure img,
-    // .hero-standard figure img,
-    // .makers figure img,
-    // .photographer figure img,
-    // .subscribe figure img {
-    //     min-width: 115%;
-    // }
 }

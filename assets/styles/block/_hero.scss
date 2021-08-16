@@ -63,17 +63,12 @@
 @media screen and (min-width: 1366px) {
     .about-layout .hero img,
     .events-layout .hero img,
-    .ghostnote img,
     .subscribe img {
         min-width: 680px !important;
     }
 
     .about-layout .hero figure {
         right: -48px;
-    }
-    
-    .ghostnote figure {
-        left: -120px;
     }
     
     .subscribe figure {
