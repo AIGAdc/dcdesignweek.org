@@ -1,15 +1,30 @@
-.events-layout h1 {
+.events-layout .hero-standard h1 {
     font-size: var(--font-size-72);
 }
 
+.events-layout .hero-standard figure {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
-    .events-layout h1 {
+    .events-layout .hero-standard h1 {
         font-size: var(--font-size-88);
     }
 }
 
 @media screen and (min-width: 1366px) {
-    .events-layout h1 {
+    .events-layout .hero-standard h1 {
         font-size: var(--font-size-168);
+    }
+
+    .events-layout .hero-standard figure {
+        display: block;
+        right: 75px;
+        top: -300px;
+    }
+
+    .events-layout .hero-standard img {
+        min-width: 700px;
+        position: absolute;
     }
 }

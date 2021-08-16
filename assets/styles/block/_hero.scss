@@ -42,8 +42,7 @@
     transform: rotate(-3deg);
 }
 
-.about-layout .hero img,
-.events-layout .hero img {
+.about-layout .hero img {
     display: block;
 }
 
@@ -59,8 +58,7 @@
 }
 
 @media screen and (min-width: 1366px) {
-    .about-layout .hero img,
-    .events-layout .hero img {
+    .about-layout .hero img {
         min-width: 680px !important;
     }
 
