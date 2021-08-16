@@ -32,11 +32,15 @@
     text-align: center;
 }
 
+.site-header .link:not(:last-child) {
+    margin-right: var(--space-16);
+}
+
 .site-header .link a {
     display: block;
     color: var(--black);
     font-weight: 700;
-    padding: var(--space-16);
+    padding: var(--space-8);
     text-decoration: none;
 }
 
@@ -54,6 +58,10 @@
 
     .site-header .logo {
         padding: 0;
+    }
+
+    .site-header .links {
+        grid-template-columns: repeat(4, auto);
     }
 }
 
