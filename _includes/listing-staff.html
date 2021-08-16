@@ -1,14 +1,15 @@
-<section class="[ staff ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="staff">
-    <div class="grid grid--four-column">
-        <div class="grid--two-column-span flow-2">
-            <h2 id="{{ page.staff-header | downcase | replace: " ", " -" }}">{{ page.staff-header }}</h2>
+<section class="[ staff ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-4 ]" id="staff">
+
+    <div class="[ grid grid--four-column ]">
+        <div class="[ grid--two-column-span ] [ flow-2 ]">
+            <h2>{{ page.staff-header }}</h2>
             {% if page.staff-body %}
-            <hr class="divider divider--black" aria-hidden="true">
-            <div class="wysiwyg flow-2">{{ page.staff-body | markdownify }}</div>
+            <hr aria-hidden="true" class="[ divider divider--black ]">
+            <div class="[ wysiwyg ] [ flow-2 ]">{{ page.staff-body | markdownify }}</div>
             {% endif %}
         </div>
         {% if page.show-staff-image == true %}
-        <div class="grid--two-column-span">
+        <div class="[ grid--two-column-span ]">
             <figure>
                 <img src="{{ page.staff-image }}" alt="{{ page.staff-imageAlt }}">
                 <figcaption>{{ page.staff-imageAlt }}</figcaption>
@@ -19,39 +20,33 @@
 
     <ul class="[ grid grid--four-column ]">
         {% for member in site.staff %}
-        <li class="card card-committee text-center">
-            <div class="card-aside">
-                <figure class="card-image background-dcdw-2021-{{ member.color }} clipped-{{ member.number }}">
-                    <img src="{{ member.image }}" alt="{{ member.image-alt }}" />
+        <li class="[ card card-staff ] [ flow-1 ]">
+            <div class="[ card-aside ]">
+                <figure class="[ card-image ] [ clipped-{{ member.number }} ]">
+                    <img src="{{ member.image }}" alt="{{ member.imageAlt }}" />
                 </figure>
             </div>
-            <div class="card-header gap-margin-top-300">
+            <div class="[ card-header ]">
                 {% if member.name %}
-                <h3 class="card-title">{{ member.name }}</h3>
+                <h3 class="[ card-title ]">{{ member.name }}</h3>
                 {% endif %}
                 {% if member.role %}
-                <p class="card-subtitle">{{ member.role }}</p>
+                <p class="[ card-role ]">{{ member.role }}</p>
                 {% endif %}
                 {% if member.pronouns %}
-                <p class="card-subtitle">{{ member.pronouns }}</p>
+                <p class="[ card-pronouns ]">{{ member.pronouns }}</p>
                 {% endif %}
             </div>
-            <div class="card-footer gap-margin-top-300">
-                <div class="card-links">
+            <div class="[ card-footer ]">
+                <div class="[ card-links ]">
                     {% if member.website-url-1 %}
-                    <p>
-                        <a aria-label="{{ member.website-aria-label-1 }}" class="card-link" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
-                    </p>
+                    <a aria-label="{{ member.website-aria-label-1 }}" class="[ card-link ]" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-1 }}</a>
                     {% endif %}
                     {% if member.website-url-2 %}
-                    <p>
-                        <a aria-label="{{ member.website-aria-label-2 }}" class="card-link" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
-                    </p>
+                    <a aria-label="{{ member.website-aria-label-2 }}" class="[ card-link ]" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-2 }}</a>
                     {% endif %}
                     {% if member.website-url-3 %}
-                    <p>
-                        <a aria-label="{{ member.website-aria-label-3 }}" class="card-link" href="{{ member.website-url-3 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-3 }}</a>
-                    </p>
+                    <a aria-label="{{ member.website-aria-label-3 }}" class="[ card-link ]" href="{{ member.website-url-3 }}" rel="noopener noreferrer" target="_blank">{{ member.website-label-3 }}</a>
                     {% endif %}
                 </div>
             </div>

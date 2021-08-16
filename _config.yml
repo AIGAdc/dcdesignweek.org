@@ -385,6 +385,7 @@ sponsors:
     aria-label: Website Aria Label
 staff:
   - image: '/uploads/headshot_richardbentham.jpg'
+    imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut with a fade and rounder face.
     name: Richard Bentham
     role: Executive Director
     pronouns: he / him / his
@@ -399,6 +400,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_arianarodriguezgitler.jpg'
+    imageAlt: A smiling young Latina woman with wavy dark brown hair.
     name: Ariana Rodriguez-Gitler
     role: Deputy Executive Director
     pronouns: she / her / hers
@@ -413,6 +415,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_joegreeley.jpg'
+    imageAlt: A white man with brown hair and glasses with a blue sweater vest and red tie.
     name: Joe Greeley
     role: Board Liasion
     pronouns: he / him / his
@@ -427,6 +430,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_dannibaker.jpg'
+    imageAlt: A young, African American woman with a short tapered fade, wearing large framed glasses and smiling.
     name: Danni Baker
     role: Program Director
     pronouns: she / her / hers
@@ -441,6 +445,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_elizaduquette.jpg'
+    imageAlt: A young white woman with blonde hair with great posture :) and a black jumpsuit laughing towards the camera.
     name: Eliza Duquette
     role: Program Director
     pronouns: she / her / hers
@@ -455,6 +460,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_daviddunston.jpg'
+    imageAlt:
     name: David Dunston
     role: Communications Director
     pronouns: he / him / his
@@ -469,6 +475,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_cynthiakim.jpg'
+    imageAlt: A young, smiling, Korean-American woman with big hoop earrings.
     name: Cynthia Kim
     role: Deputy Communications Director
     pronouns: she / her / hers 
@@ -483,6 +490,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_radhikabhatt.jpg'
+    imageAlt:
     name: Radhika Bhatt
     role: Partnerships Director
     pronouns: she / her / hers
@@ -497,20 +505,22 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_claireblaustein.jpg'
+    imageAlt: A young African American man with an afro and wearing glasses, pictured in front of a wall with a pink glow, looking away from the camera.
     name: Claire Blaustein
     role: AIGA DC President
     pronouns: she / her / hers
     number: 1
-    website-url-1: https://www.instagram.com/marcusrelacion/ 
+    website-url-1:
     website-label-1: <i class="fas fa-globe"></i> Website
     website-aria-label-1: Staff Member Website
-    website-url-2: https://www.instagram.com/marcusrelacion/ 
+    website-url-2:
     website-label-2: <i class="fab fa-instagram-square"></i> Instagram
     website-aria-label-2: Staff Member Instagram
-    website-url-3: https://www.instagram.com/marcusrelacion/ 
+    website-url-3:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_benabraham.jpg'
+    imageAlt:
     name: Ben Abraham
     role: Community-Curated Events Manager
     pronouns: he / him / his
@@ -525,6 +535,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_sydneyadams.jpg'
+    imageAlt: A young, African American woman wearing a cute pink blazer, pictured in front of a baby pink background, smiling at the camera.
     name: Sydney Adams
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -539,6 +550,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_janessaarrington.jpg'
+    imageAlt:
     name: Janessa Arrington
     role: Keynote Event Lead
     pronouns: she / her / hers
@@ -553,6 +565,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_kojoboateng.jpg'
+    imageAlt: A Black man with a shaved head who is smiling.
     name: Kojo Boateng
     role: Kickoff Event Lead
     pronouns: he / him / his
@@ -567,6 +580,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_jelenabudjevac.jpg'
+    imageAlt:
     name: Jelena Budjevac
     role: Copywriter
     pronouns: she / her / hers
@@ -581,6 +595,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_caracampbell.jpg'
+    imageAlt: An African American woman with afro puffs, smiling at the camera.
     name: Cara Campbell
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -595,6 +610,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_bennethchukwu.jpg'
+    imageAlt:
     name: Benneth Chukwu
     role: Designer
     pronouns: he / him / his
@@ -609,6 +625,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_elaineheinzman.jpg'
+    imageAlt:
     name: Elaine Heinzman
     role: Community-Curated Event Lead
     pronouns: she / her / hers
@@ -623,6 +640,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_jessicajosey.jpg'
+    imageAlt:
     name: Jessica Josey
     role: Social Media Lead
     pronouns: she / her / hers
@@ -637,6 +655,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_joshkim.jpg'
+    imageAlt:
     name: Josh Kim
     role: Accessibility Lead
     pronouns: he / him / his
@@ -651,6 +670,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_nicolemckinney.jpg'
+    imageAlt:
     name: Nicole McKinney
     role: Keynote Event Lead
     pronouns: she / her / hers
@@ -665,6 +685,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_daniellemouledoux.jpg'
+    imageAlt:
     name: Danielle "Dee" Mouledoux
     role: Workshop Event Lead
     pronouns: she / her / hers
@@ -679,6 +700,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_johannaostrich.jpg'
+    imageAlt: A woman with short curly hair, glasses, and fabulous earrings.
     name: Johanna Ostrich
     role: Pop-Up Event Lead 
     pronouns: she / her / hers
@@ -693,6 +715,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_jenapersico.jpg'
+    imageAlt: A smiling woman wearing a shirt patterned with hot air balloons, sitting in front of a purple wall.
     name: Jena Persico
     role: Pop-Up Event Lead
     pronouns: he / him / his
@@ -707,6 +730,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_khanhpham.jpg'
+    imageAlt:
     name: Khanh Pham
     role: Marketing Lead
     pronouns: she / her / hers
@@ -721,6 +745,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_kristinrafael.jpg'
+    imageAlt:
     name: Kristin Rafael
     role: Design Lead
     pronouns: she / her / hers
@@ -735,6 +760,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_marcusrelacion.jpg'
+    imageAlt:
     name: Marcus Relacion
     role: Web Developer
     pronouns: he / him / his
@@ -749,6 +775,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_silviascript.jpg'
+    imageAlt: A young, smiling, South American indigenous woman with long black hair.
     name: Silvia Script
     role: Web Lead
     pronouns: she / her / hers
@@ -763,6 +790,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Staff Member LinkedIn
   - image: '/uploads/headshot_chelseawilson.jpg'
+    imageAlt:
     name: Chelsea Wilson
     role: Web Designer
     pronouns: she / her / hers
