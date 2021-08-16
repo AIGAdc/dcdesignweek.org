@@ -4,6 +4,7 @@
     flex-direction: column;
     opacity: 1;
     position: absolute;
+    display: none;
 }
 
 .pattern-left {
@@ -31,6 +32,10 @@
 }
 
 @media screen and (min-width: 1366px) {
+    .pattern {
+        display: block;
+    }
+    
     .pattern-right {
         display: block;
     }
