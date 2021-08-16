@@ -49,7 +49,7 @@ staff-imageAlt: "Provide Image Alt"
 photographer-header: "Photos"
 photographer-body: "Marcus Relacion is a designer, developer, and photographer in the DMV area. Thank you for helping us feature DC through your lens and capturing hyperlocal in such vivid and impactful moments."
 show-photographer-image: true
-photographer-image: "https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg"
+photographer-image: "/uploads/image-photographer.png"
 photographer-imageAlt: "Provide Image Alt"
 photographer-button-label: "Visit Site"
 photographer-button-url: "https://photos.marcusrelacion.com/"
