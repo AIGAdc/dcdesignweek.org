@@ -246,9 +246,9 @@ navigation-offseason:
   - url: https://2020.dcdesignweek.org
     label: 2020
 navigation-production:
-  - url: "/events/"
-    label: Events
-    aria-label: Events Page
+#  - url: "/events/"
+#    label: Events
+#   aria-label: Events Page
   - url: "/about/"
     label: About
     aria-label: About Page

@@ -7,6 +7,7 @@ image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Ab
 description: With a pandemic changing 2020 elections, we must confront voting challenges.
   Learn about the role of design in accessible voting and how this movement works
   to break down barriers.
+published: false
 event-date: 2020-09-23 12:00:00 -04:00
 start-time: 12:00 PM
 end-time: 1:00 PM
