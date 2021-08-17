@@ -50,7 +50,7 @@
     .events ul,
     .sponsors ul,
     .staff ul {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -89,6 +89,12 @@
 
     .grid--four-column-span {
         grid-column: span 4;
+    }
+
+    .events ul,
+    .sponsors ul,
+    .staff ul {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 

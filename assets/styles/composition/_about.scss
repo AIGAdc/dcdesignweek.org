@@ -12,6 +12,14 @@
     left: -320px;
 }
 
+.about-layout .ornament-purple-sticker-and-tape {
+    position: absolute;
+    top: -55px;
+    z-index: var(--index-9) !important;
+    right: 10px;
+    max-width: 200px;
+}
+
 @media screen and (min-width: 768px) {
     .about-layout .hero-standard h1 {
         font-size: var(--font-size-88);
@@ -20,6 +28,12 @@
     .about-layout .hero-standard .ornament-diagonal-red-shape {
         top: -20px;
         left: -450px;
+    }
+
+    .about-layout .ornament-purple-sticker-and-tape {
+        top: -65px;
+        right: 60px;
+        max-width: 300px;
     }
 }
 
@@ -49,5 +63,11 @@
     .about-layout .hero-standard .ornament-diagonal-red-shape {
         top: 90px;
         left: -140px;
+    }
+
+    .about-layout .ornament-purple-sticker-and-tape {
+        top: -100px;
+        right: 175px;
+        max-width: 450px;
     }
 }
