@@ -21,13 +21,12 @@ makers-header: Call for Makers
 makers-body: |-
   The DCDW Pop-up shop is back! We'll be doing things a little differently: a 1-evening Pop-Up Block Party on Friday, October 8, 6–10 pm, in a new location — the beautiful Brookland Arts Walk. 
   
-  
   Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
 show-makers-image: true
 makers-image: /uploads/image-makers.png
 makers-imageAlt: Provide Image Alt
 show-featured-events: false
-makers-button-label: Apply to sell your work at the DCDW Pop-Up Shop.
+makers-button-label: Apply Here
 makers-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
 makers-button-is-external-url: true
 
