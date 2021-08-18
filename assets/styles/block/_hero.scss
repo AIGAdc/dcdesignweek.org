@@ -50,12 +50,14 @@ section#hero-standard {
     display: block;
 }
 
+.hero-home p,
 .hero-standard p {
     font-size: var(--font-size-16);
     font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
+    .hero-home p,
     .hero-standard p {
         font-size: var(--font-size-24);
     }
