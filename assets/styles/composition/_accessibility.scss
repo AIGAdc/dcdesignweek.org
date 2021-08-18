@@ -1,7 +1,9 @@
 .accessibility-layout .hero-standard h1 {
     font-size: var(--font-size-72);
+    line-height: 0.8;
 }
 
+.accessibility-layout .hero-standard figure,
 .accessibility figure {
     display: none;
 }
@@ -17,12 +19,14 @@
         font-size: var(--font-size-136);
     }
 
+    .accessibility-layout .hero-standard figure,
     .accessibility figure {
         display: block;
         right: 140px;
         top: -330px;
     }
 
+    .accessibility-layout .hero-standard img,
     .accessibility img {
         min-width: 780px;
         position: absolute;

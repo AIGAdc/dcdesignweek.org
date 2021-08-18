@@ -14,7 +14,7 @@ hero:
     - List accommodations we can and cannot provide
     - Provide contacts to request any accommodations that may have been missed or undocumented
     - Encourage feedback from the community on how we can evolve to be more inclusive in the future.
-  image: 
+  image: /uploads/image-a11y.png
   imageAlt: 
 
 a11y-working-on-header: What We're Working On
