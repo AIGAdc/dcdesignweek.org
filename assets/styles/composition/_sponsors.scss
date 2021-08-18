@@ -81,6 +81,22 @@
     top: -112px;
 }
 
+.sponsors-tier-1 .card-image,
+.sponsors-tier-2 .card-image,
+.sponsors-tier-3 .card-image,
+.sponsors-tier-4 .card-image {
+    border: none;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.sponsors-tier-1 .card-image img,
+.sponsors-tier-2 .card-image img,
+.sponsors-tier-3 .card-image img,
+.sponsors-tier-4 .card-image img {
+    min-height: 88px;
+}
+
 @media screen and (min-width: 768px) {
     .sponsors-tier h3 {
         font-size: var(--font-size-72);
