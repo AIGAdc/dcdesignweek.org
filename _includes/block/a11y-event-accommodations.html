@@ -8,21 +8,13 @@
 <section class="[ a11y-event-accommodations ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="a11y-event-accommodations">
     <div class="[ grid grid--align-center grid--four-column ]">
 
-        <div class="grid--two-column-span flow-2">
+        <div class="grid--four-column-span flow-2">
             <h2>{{ page.a11y-event-accommodations-header }}</h2>
             {% if page.a11y-event-accommodations-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.a11y-event-accommodations-body | markdownify }}</div>
             {% endif %}
         </div>
-
-        {% if page.show-a11y-event-accommodations-image == true %}
-        <div class="grid--two-column-span">
-            <figure>
-                <img src="{{ page.a11y-event-accommodations-image }}" alt="{{ page.a11y-event-accommodations-imageAlt }}">
-            </figure>
-        </div>
-        {% endif %}
 
     </div>
 </section>
