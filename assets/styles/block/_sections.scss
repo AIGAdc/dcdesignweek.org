@@ -20,19 +20,16 @@
     z-index: var(--index-9);
 }
 
-// // Celeste Sections
-// .home-layout #hero,
-// #ghostnote,
-// #staff,
-// #subscribe {
-//     z-index: var(--index-4);
-// }
-
 .accessibility figure,
 .faqs figure,
 .hero-standard figure,
 .photographer figure {
     display: none;
+}
+
+section#a11y-event-accommodations a,
+section#a11y-requests a {
+    color: var(--yellow);
 }
 
 @media screen and (min-width: 1366px) {
