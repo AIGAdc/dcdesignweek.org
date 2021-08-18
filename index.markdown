@@ -41,7 +41,7 @@ events-button-label: Explore All Events
 events-button-url: /events/
 
 ghostnote-header: Ghost Note Agency
-ghostnote-body: Ghost Note is a creative agency born + based in the District of Columbia. We believe that when good people come together they create truly great things.
+ghostnote-body: Big thanks to the Ghost Note Agency for developing the DCDW 2021 brand! Ghost Note Agency is a creative agency born and based in the District of Columbia. 
 show-ghostnote-image: true
 ghostnote-image: /uploads/image-ghost.png
 ghostnote-imageAlt: Provide Image Alt

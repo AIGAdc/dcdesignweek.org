@@ -8,23 +8,28 @@ hero:
 - has-hero: true
   header: "Call for Makers"
   subheader: |-
-    The DCDW Pop-up shop is back! We'll be doing things a little differently: a 1-evening Pop-Up Block Party on Friday, October 8, 6–10 pm, in a new location — the beautiful Brookland Arts Walk — which has a lot more space.  
+    The DCDW Pop-Up Shop is back! We'll be doing things a little differently: a 1-evening Pop-Up Block Party on Friday, October 8, 6–10 pm, in a new location — the beautiful Brookland Arts Walk — which has a lot more space.
     
     Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
   image: "/uploads/image-makers-hero.png"
   image-alt:
+  button-label: Apply Today
+  button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+  button-is-external-url: true
 
 hyperlocal-header: Options for Participating in the Pop-Up
 hyperlocal-body: |-
   There are 2 options for participating this year:  
   
-  1) Consignment with Terratorie Maps + Goods — If you have a small amount of merchandise to sell (max 3 SKUs, with 6 items per SKU) and would prefer someone else handles the transactions, this is the right fit for you. Items will be sold on consignment, and anything unsold will be returned to you. Artists keep 60% of sale price.  
+  ### 1) Consignment with Terratorie Maps + Goods
+  If you have a small amount of merchandise to sell (max 3 SKUs, with 6 items per SKU) and would prefer someone else handles the transactions, this is the right fit for you. Items will be sold on consignment, and anything unsold will be returned to you. Artists keep 60% of sale price.  
   
-  2) Hosted by a Brookland Arts Walk studio — If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing artists up with the 27 different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
+  ### 2) Hosted by a Brookland Arts Walk studio
+  If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing artists up with the 27 different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
 show-hyperlocal-image: true
 hyperlocal-image: /uploads/image-hyperlocal.png
 hyperlocal-imageAlt: Provide Image Alt
 hyperlocal-button-label: Apply Today
-hyperlocal-button-url: 
-hyperlocal-button-is-external-url: false
+hyperlocal-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+hyperlocal-button-is-external-url: true
 ---

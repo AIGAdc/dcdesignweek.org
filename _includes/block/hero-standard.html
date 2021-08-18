@@ -26,6 +26,9 @@
             {% if content.subheader %}
             <div class="wysiwyg flow-2 gap-margin-top-none">{{ content.subheader | markdownify }}</div>
             {% endif %}
+            {% if content.button-url %}
+            <a class="button button-solid--yellow" href="{{ content.button-url }}" {% if content.button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ content.button-label }}</a>
+            {% endif %}
         </div>
         <div class="grid--two-column-span">
             <figure>
