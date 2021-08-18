@@ -28,9 +28,9 @@ questions:
     expanded: true
   - question: How do I find the link for the event?
     answer: |-
-      Once you’ve registered for your event through Eventbrite, you will receive an email with a link to the Zoom. You will receive the link again shortly before the event starts so it’s at the top of your inbox.
-      
-      If you have any trouble finding the Zoom link for the event, please contact us in the hour leading up to the start time.
+      Once you’ve registered for your event through Eventbrite, you will receive an email from DC Design Week via Eventbrite with a link to the Zoom. You will receive the link again shortly before the event starts so it’s at the top of your inbox.
+
+      If you have any trouble finding the Zoom link for the event, please contact us at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org) in the hour leading up to the start time. 
     trigger: question-3
     expanded: true
   - question: I’m in a waiting room. How do I get in?
@@ -44,27 +44,32 @@ questions:
     expanded: true
   - question: I’m having trouble with my Zoom. What can I do? 
     answer: |-
-      We encourage you to explore Zoom’s [Help Center](https://support.zoom.us/hc/en-us/articles/206175806) first. If you aren’t able to resolve the issue that way, reach out to us. 
+      We encourage you to explore Zoom’s [Help Center](https://support.zoom.us/hc/en-us/articles/206175806) first. If you aren’t able to resolve the issue that way, [reach out to us](mailto:dcdw@dc.aiga.org). 
     trigger: question-5
     expanded: true
   - question: What’s your refund policy?
     answer: |-
       We will honor refunds up until 24 hours before your event’s start time. 
       
-      We will not honor refunds:
-      - for technical difficulties unless you reach out to us at the start of the event to see if we can help troubleshoot your issue (We’ll likely ask to see what steps from Zoom’s guide you’ve tried to start.)
-      - if you aren’t admitted from the waiting room because your display name did not match our registration list.
+      We will **not** honor refunds:
+      - For technical difficulties unless you [reach out to us](mailto:dcdw@dc.aiga.org) at the start of the event to see if we can help troubleshoot your issue (We’ll likely ask to see what steps from Zoom’s guide you’ve tried to start.)
+      - If you aren’t admitted from the waiting room because your display name did not match our registration list.
     trigger: question-6
     expanded: true
   - question: "COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?"
     answer: |- 
-      You will be notified immediately and refunds will be issued. When possible, in-person events will be moved to Zoom.
+      When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
     trigger: question-7
     expanded: true
   - question: Are there capacity restrictions for in-person events?
     answer: |- 
       Capacity restrictions will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
     trigger: question-8
+    expanded: true
+  - question: What is the mask policy for in-person events?
+    answer: |- 
+      For community-curated events, event partners who are putting on the event will have the final say, but we are encouraging those not speaking, drinking, or eating to wear a mask. When in doubt, review the information on the webpage for your event. 
+    trigger: question-9
     expanded: true
   - question: Will events be recorded? 
     answer: |- 
@@ -90,6 +95,8 @@ questions:
         - Request an accommodation (via Google forms)
         - Email us at [accessbility@dc.aiga.org](mailto:accessbility@dc.aiga.org)
         - Call our Accessibility Lead, Josh Kim, at 571-302-1504.
+
+      DC Design Week is committed to improving accessibility and inclusion efforts each year. We recognize this is a journey and we are still far from our ideal. Read more about our accessibility efforts.
     trigger: question-12
     expanded: true
 ---
