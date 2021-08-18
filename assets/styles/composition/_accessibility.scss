@@ -22,13 +22,17 @@
     .accessibility-layout .hero-standard figure,
     .accessibility figure {
         display: block;
-        right: 140px;
+        right: 75px;
+        top: -350px;
+    }
+
+    .accessibility figure {
         top: -330px;
     }
 
     .accessibility-layout .hero-standard img,
     .accessibility img {
-        min-width: 780px;
+        min-width: 750px;
         position: absolute;
     }
 }
