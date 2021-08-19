@@ -5,7 +5,7 @@
         <ul class="grid--three-column-span flow-4">
             {% for question in page.questions %}
             <li class="mambo-accordion">
-                <h3 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">{{ question.question }}</h3>
+                <h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">{{ question.question }}</h2>
                 <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg flow-2" data-houdini-group="faq" id="{{ question.trigger }}">
                     {{ question.answer | markdownify }}
                 </div>
@@ -18,15 +18,11 @@
                 <hr class="divider divider--black" aria-hidden="true">
                 <div>
                     <p class="font-weight-bold">General Questions</p>
-                    <ul>
-                        <li>Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a></li>
-                    </ul>
+                    <p>Email:</p> <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
                 </div>
                 <div>
                     <p class="font-weight-bold gap-margin-top-200">Accessibility Questions</p>
-                    <ul>
-                        <li>Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a></li>
-                    </ul>
+                    <p>Email:</p> <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
                 </div>
             </div>
         </div>

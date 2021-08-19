@@ -9,7 +9,7 @@ hero:
   header: FAQs
   subheader:
   image: "/uploads/spray-paint.svg"
-  imageAlt: 
+  imageAlt:  A purple spraypainted streak that branches off in different directions with cast-off spray surrounding it.
 
 questions:
   - question: How can I participate in DC Design Week?

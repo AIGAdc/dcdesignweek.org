@@ -106,7 +106,7 @@ accessibility:
   body: "DC Design Week is committed to improving accessibility and inclusion efforts each year. We recognize this is a journey and we are still far from our ideal. Read more about our accessibility efforts."
   show-image: true
   image: "/uploads/image-a11y.png"
-  imageAlt: "Provide Image Alt"
+  imageAlt: Collage made up of purple abstract shapes, transparent tape flanking a photograph of a three people going down an escalator with a man holding a newspaper.
   button-url: "/accessibility/"
   button-label: View Accessibility Statement
 conduct:
