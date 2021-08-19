@@ -327,43 +327,18 @@ sponsors:
   sponsor-tier-two:
   - title: UXPA DC
     image: /uploads/sponsor-uxpa.svg
-    image-alt: Logo for UXPA DC
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
+    image-alt: White UXPA DC Logo
+    website: https://www.uxpadc.org/
+    aria-label: UXPA DC's Website
   - title: This Could Be You
     image: /uploads/sponsor-this-could-be-you.png
-    image-alt: Become a DCDW sponsor today
+    image-alt: Email us to become a DCDW Sponsor today!
     website: "mailto:dcdw@aiga.dc.org"
-    aria-label: Website Aria Label
-  - title:
-    image:
-    image-alt:
-    website:
-    aria-label:
-  - title:
-    image:
-    image-alt:
-    website:
-    aria-label:
+    aria-label: Email us to become a DCDW Sponsor today!
   sponsor-tier-three:
   - title: Eaton
     image: /uploads/sponsor-eaton.svg
-    image-alt: Logo for the Eaton Hotel
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
+    image-alt: White Eaton Hoten Logo
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-four:

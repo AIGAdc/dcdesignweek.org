@@ -1,6 +1,6 @@
 {% if page.url == "/" %}
 
-<section class="tear tear-top">
+<section class="tear tear-top" aria-hidden="true">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
@@ -51,7 +51,7 @@
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-two-header }}</span>
             {% include textures/sponsor-header-2.svg %}
-            <figure>
+            <figure aria-hidden="true">
                 <img src="/uploads/sticker-sponsor-cool-disco-dan.png" alt="">
             </figure>
         </h3>
@@ -70,7 +70,7 @@
     </a>
 </section>
 
-<section class="tear tear-bottom">
+<section class="tear tear-bottom" aria-hidden="true">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
@@ -79,7 +79,7 @@
 
 {% elsif page.url == "/about/" %}
 
-<section class="tear tear-top">
+<section class="tear tear-top" aria-hidden="true">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
@@ -105,7 +105,6 @@
         <div class="grid--two-column-span">
             <figure>
                 <img src="{{ page.sponsors-image }}" alt="{{ page.sponsors-imageAlt }}">
-                <figcaption>{{ page.sponsors-imageAlt }}</figcaption>
             </figure>
         </div>
         {% endif %}
@@ -117,7 +116,7 @@
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-one-header }}</span>
             {% include textures/sponsor-header-1.svg %}
-            <figure>
+            <figure aria-hidden="true">
                 <img src="/uploads/sticker-sponsor-chita-rivera.png" alt="">
             </figure>
         </h3>
@@ -137,7 +136,7 @@
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-two-header }}</span>
             {% include textures/sponsor-header-2.svg %}
-            <figure>
+            <figure aria-hidden="true">
                 <img src="/uploads/sticker-sponsor-cool-disco-dan.png" alt="">
             </figure>
         </h3>
@@ -157,7 +156,7 @@
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-three-header }}</span>
             {% include textures/sponsor-header-3.svg %}
-            <figure>
+            <figure aria-hidden="true">
                 <img src="/uploads/sticker-sponsor-duke-ellington.png" alt="">
             </figure>
         </h3>
@@ -177,7 +176,7 @@
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-four-header }}</span>
             {% include textures/sponsor-header-4.svg %}
-            <figure>
+            <figure aria-hidden="true">
                 <img src="/uploads/sticker-sponsor-chuck-brown.png" alt="">
             </figure>
         </h3>
@@ -192,7 +191,7 @@
     {% endif %}
 </section>
 
-<section class="tear tear-bottom">
+<section class="tear tear-bottom" aria-hidden="true">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}
