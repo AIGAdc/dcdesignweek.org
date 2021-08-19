@@ -24,7 +24,7 @@ makers-body: |-
   Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
 show-makers-image: true
 makers-image: /uploads/image-makers.png
-makers-imageAlt: Provide Image Alt
+makers-imageAlt: Collage made up of red abstract shapes, transparent tape and a outlined globe icon, flanking a photograph of an AIGA member making buttons with a button maker.
 show-featured-events: false
 makers-button-label: Apply Here
 makers-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
@@ -44,11 +44,11 @@ ghostnote-header: Ghost Note Agency
 ghostnote-body: Big thanks to the Ghost Note Agency for developing the DCDW 2021 brand! Ghost Note Agency is a creative agency born and based in the District of Columbia. 
 show-ghostnote-image: true
 ghostnote-image: /uploads/image-ghost.png
-ghostnote-imageAlt: Provide Image Alt
-ghostnote-button-label: Visit Site
+ghostnote-imageAlt: Collage made up of yellow and red abstract shapes, transparent tape and a sticker that says 2019, flanking a black abstract shape with the Ghost Note Agency logo.
+ghostnote-button-label: Ghostnote's Website
 ghostnote-button-url: https://www.ghostnoteagency.com/
 ghostnote-button-is-external-url: true
-ghostnote-button-aria: Visit Ghostnote's Website
+ghostnote-button-aria:
 
 sponsors-header: Sponsors and Partners
 sponsors-body: DC Design Week wouldn’t be the same without you. Thank you for your support.

@@ -696,13 +696,13 @@ staff:
     number: 1
     website-url-1: http://mouledoux.com
     website-label-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Danielle "Dee" Mouledoux's Website
+    website-aria-label-1: Danielle Mouledoux's Website
     website-url-2: 
     website-label-2: <i class="fab fa-instagram-square"></i> Instagram
-    website-aria-label-2: Danielle "Dee" Mouledoux's Instagram
+    website-aria-label-2: Danielle Mouledoux's Instagram
     website-url-3: https://www.linkedin.com/in/dmouledoux/
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
-    website-aria-label-3: Danielle "Dee" Mouledoux's LinkedIn
+    website-aria-label-3: Danielle Mouledoux's LinkedIn
   - image: '/uploads/headshot_johannaostrich.jpg'
     imageAlt: A woman with short curly hair, glasses, and fabulous earrings.
     name: Johanna Ostrich

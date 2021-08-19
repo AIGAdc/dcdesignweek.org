@@ -9,7 +9,7 @@
     <div class="[ grid grid--align-center grid--four-column ]">
 
         <div class="grid--two-column-span flow-2">
-            <h2>{{ page.makers-header }}</h2>
+            <h2 aria-label="{{ page.makers-header }}">{{ page.makers-header }}</h2>
             {% if page.makers-body %}
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.makers-body | markdownify }}</div>
@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<section class="tear tear-bottom">
+<section class="tear tear-bottom" aria-hidden="true">
     <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
         <!-- bottom rip -->
         {% include textures/rip-B.svg %}

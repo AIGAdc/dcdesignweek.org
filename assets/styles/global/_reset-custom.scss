@@ -78,6 +78,10 @@ body {
     // border-left: solid 16px var(--celeste);
     // border-right: solid 16px var(--celeste);
     background-color: var(--beige);
+    background-image: url("/uploads/brick.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat-y;;
     color: var(--black);
     font-family: var(--font-poppins);
     font-size: var(--font-size-16);
@@ -89,12 +93,12 @@ figure {
     position: relative;
 }
 
-@media (prefers-reduced-data: no-preference) {
-    body {
-        background-image: url("/uploads/brick.png");
-        background-size: contain;
-    }
-}
+// @media (prefers-reduced-data: no-preference) {
+//     body {
+//         background-image: url("/uploads/brick.png");
+//         background-size: contain;
+//     }
+// }
 
 @media (prefers-reduced-data: reduce) {
     body {
