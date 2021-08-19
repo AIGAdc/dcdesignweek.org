@@ -25,6 +25,7 @@
         {% endif %}
     </div>
 
+    {% if site.sponsors.show-sponsor-tier-one == true %}
     {% comment %} tier 1 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
         <h3 class="font-family-bayard">
@@ -42,6 +43,27 @@
             {% include textures/sponsor-1.svg %}
         </ul>
     </div>
+    {% endif %}
+
+    {% if site.sponsors.show-sponsor-tier-two == true %}
+    {% comment %} tier 2 {% endcomment %}
+    <div class="sponsors-tier sponsors-tier-2 gap-margin-top-1000">
+        <h3 class="font-family-bayard">
+            <span>{{ site.sponsors.tier-two-header }}</span>
+            {% include textures/sponsor-header-2.svg %}
+            <figure>
+                <img src="/uploads/sticker-sponsor-cool-disco-dan.png" alt="">
+            </figure>
+        </h3>
+        <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
+            {% assign sorted = site.sponsors.sponsor-tier-two | sort: 'aria-label' %}
+            {% for content in sorted %}
+            {% include card-sponsor.html %}
+            {% endfor %}
+            {% include textures/sponsor-2.svg %}
+        </ul>
+    </div>
+    {% endif %}
 
     <a class="button button-solid--yellow" href="{{ page.sponsors-button-url }}">
         {{ page.sponsors-button-label }}
@@ -89,6 +111,7 @@
         {% endif %}
     </div>
 
+    {% if site.sponsors.show-sponsor-tier-one == true %}
     {% comment %} tier 1 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
         <h3 class="font-family-bayard">
@@ -106,7 +129,9 @@
             {% include textures/sponsor-1.svg %}
         </ul>
     </div>
+    {% endif %}
 
+    {% if site.sponsors.show-sponsor-tier-two == true %}
     {% comment %} tier 2 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-2 gap-margin-top-1000">
         <h3 class="font-family-bayard">
@@ -124,7 +149,9 @@
             {% include textures/sponsor-2.svg %}
         </ul>
     </div>
+    {% endif %}
 
+    {% if site.sponsors.show-sponsor-tier-three == true %}
     {% comment %} tier 3 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-3 gap-margin-top-1000">
         <h3 class="font-family-bayard">
@@ -142,7 +169,9 @@
             {% include textures/sponsor-3.svg %}
         </ul>
     </div>
+    {% endif %}
 
+    {% if site.sponsors.show-sponsor-tier-four == true %}
     {% comment %} tier 4 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-4 gap-margin-top-1000">
         <h3 class="font-family-bayard">
@@ -160,6 +189,7 @@
             {% include textures/sponsor-4.svg %}
         </ul>
     </div>
+    {% endif %}
 </section>
 
 <section class="tear tear-bottom">

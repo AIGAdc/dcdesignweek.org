@@ -299,6 +299,10 @@ sponsors:
   tier-two-header: 'Cool "Disco" Dan'
   tier-three-header: "Duke Ellington"
   tier-four-header: "Chuck Brown"
+  show-sponsor-tier-one: false
+  show-sponsor-tier-two: true
+  show-sponsor-tier-three: false
+  show-sponsor-tier-four: false
   sponsor-tier-one:
   - title: Sponsor Title
     image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
@@ -326,20 +330,20 @@ sponsors:
     image-alt: Logo for UXPA DC
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
+  - title: This Could Be You
+    image: /uploads/sponsor-this-could-be-you.png
+    image-alt: Become a DCDW sponsor today
+    website: "mailto:dcdw@aiga.dc.org"
     aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
+  - title: This Could Be You
+    image: /uploads/sponsor-this-could-be-you.png
+    image-alt: Become a DCDW sponsor today
+    website: "mailto:dcdw@aiga.dc.org"
     aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
+  - title: This Could Be You
+    image: /uploads/sponsor-this-could-be-you.png
+    image-alt: Become a DCDW sponsor today
+    website: "mailto:dcdw@aiga.dc.org"
     aria-label: Website Aria Label
   sponsor-tier-three:
   - title: Eaton

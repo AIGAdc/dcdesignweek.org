@@ -96,6 +96,7 @@
 .sponsors-tier-4 .card-image img {
     min-height: 88px;
     margin: auto;
+    object-fit: contain;
 }
 
 @media screen and (min-width: 768px) {
