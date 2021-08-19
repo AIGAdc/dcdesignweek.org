@@ -344,9 +344,10 @@ sponsors:
     aria-label: UXPA DC's Website
   - title: This Could Be You
     image: "/uploads/sponsor-this-could-be-you.png"
-    image-alt: Email us to become a DCDW Sponsor today!
+    image-alt: Temporary sponsor logo
     website: mailto:dcdw@aiga.dc.org
     aria-label: Email us to become a DCDW Sponsor today!
+    show-caption: true
   sponsor-tier-three:
   - title: Eaton
     image: "/uploads/sponsor-eaton.svg"
