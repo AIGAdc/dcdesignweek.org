@@ -777,10 +777,10 @@ staff:
     website-url-1: 
     website-label-1: <i class="fas fa-globe"></i> Website
     website-aria-label-1: Chelsea Wilson's Website
-    website-url-2: 
+    website-url-2: https://www.instagram.com/yxxko.jpg/
     website-label-2: <i class="fab fa-instagram-square"></i> Instagram
     website-aria-label-2: Chelsea Wilson's Instagram
-    website-url-3: 
+    website-url-3: https://www.linkedin.com/in/chelsea-wilson-6a8702101
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Chelsea Wilson's LinkedIn
 subscribe:

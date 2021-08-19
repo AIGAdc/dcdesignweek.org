@@ -47,7 +47,7 @@ photographer-body: "Marcus Relacion is a designer, developer, and photographer i
 show-photographer-image: true
 photographer-image: "/uploads/image-photographer.png"
 photographer-imageAlt: Collage made up of red abstract shapes, a sticker with a photograph of Marcus Relacion, photograph of MLK monument in DC, photograph of people getting off a Metro train, and a photograph of two men standing in a Metro train doorway.
-photographer-button-label: "Visit Site"
-photographer-button-url: "https://photos.marcusrelacion.com/"
-photographer-button-is-external-url: true
+#photographer-button-label: "Visit Site"
+#photographer-button-url: "https://photos.marcusrelacion.com/"
+#photographer-button-is-external-url: true
 ---

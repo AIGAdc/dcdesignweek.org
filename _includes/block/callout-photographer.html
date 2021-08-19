@@ -13,9 +13,11 @@
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.photographer-body | markdownify }}</div>
             {% endif %}
+            {% if page.photographer-button-label %}
             <a class="button button-solid--yellow" href="{{ page.photographer-button-url }}" {% if page.photographer-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
                 {{ page.photographer-button-label }}
             </a>
+            {% endif %}
         </div>
         {% if page.show-photographer-image == true %}
         <div class="grid--two-column-span">
