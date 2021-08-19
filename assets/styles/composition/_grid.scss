@@ -92,9 +92,12 @@
     }
 
     .events ul,
-    .sponsors ul,
+    // .sponsors ul,
     .staff ul {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .sponsors ul {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

@@ -29,6 +29,7 @@ show-featured-events: false
 makers-button-label: Apply Here
 makers-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
 makers-button-is-external-url: true
+makers-button-aria: 
 
 events-header: Events
 events-body: This year, we’re doing even more to foster conversations to challenge, and promote the grassroots history of the District, with a focus on the DMV’s unique local flavor and its impact.
@@ -47,6 +48,7 @@ ghostnote-imageAlt: Provide Image Alt
 ghostnote-button-label: Visit Site
 ghostnote-button-url: https://www.ghostnoteagency.com/
 ghostnote-button-is-external-url: true
+ghostnote-button-aria: Visit Ghostnote's Website
 
 sponsors-header: Sponsors and Partners
 sponsors-body: DC Design Week wouldn’t be the same without you. Thank you for your support.

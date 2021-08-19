@@ -1,4 +1,4 @@
-<section class="tear tear-top">
+<section class="tear tear-top" aria-hidden="true">
     <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
         <!-- top rip -->
         {% include textures/rip-A.svg %}
@@ -14,7 +14,7 @@
             <hr class="divider divider--yellow" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.makers-body | markdownify }}</div>
             {% endif %}
-            <a class="button button-solid--yellow" href="{{ page.makers-button-url }}" {% if page.makers-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.makers-button-label }}</a>
+            <a aria-label="{{ page.makers-button-aria }}" class="button button-solid--yellow" href="{{ page.makers-button-url }}" {% if page.makers-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.makers-button-label }}</a>
         </div>
 
         {% if page.show-makers-image == true %}

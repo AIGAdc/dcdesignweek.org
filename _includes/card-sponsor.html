@@ -1,5 +1,6 @@
+{% if content.image %}
 <li class="[ card card-sponsors ] [ flow-1 ]">
-    <a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+    <a href="{{ content.website }}" target="_blank" rel="noopener noferrer">
         <div class="[ card-aside ]">
             <figure class="[ card-image ]">
                 <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
@@ -7,3 +8,4 @@
         </div>
     </a>
 </li>
+{% endif %}

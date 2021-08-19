@@ -11,7 +11,7 @@
             <h2>{{ page.ghostnote-header | markdownify }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
             <div class="wysiwyg flow-2">{{ page.ghostnote-body | markdownify }}</div>
-            <a class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.ghostnote-button-label }}</a>
+            <a aria-label="{{ page.ghostnote-button-aria }}" class="button button-solid--black" href="{{ page.ghostnote-button-url }}" {% if page.ghostnote-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>{{ page.ghostnote-button-label }}</a>
         </div>
     </div>
 </section>
