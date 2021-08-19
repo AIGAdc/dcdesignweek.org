@@ -719,7 +719,7 @@ staff:
     in front of a purple wall.
   name: Jena Persico
   role: Pop-Up Event Lead
-  pronouns: he / him / his
+  pronouns: she / her
   number: 3
   website-url-1: 
   website-label-1: <i class="fas fa-globe"></i> Website
@@ -816,7 +816,7 @@ encoding: utf-8
 lang: en-US
 theme-color: "#000"
 asseturl: "/assets/"
-baseurl: ''
+baseurl: 
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
