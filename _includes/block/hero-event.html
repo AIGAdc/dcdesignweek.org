@@ -3,7 +3,9 @@
     <div class="[ grid grid--align-center grid--four-column ]">
 
         <div class="column-one grid--four-column-span flow-2">
-            <h1 id="{{ page.title | downcase | replace: " ", "-" }} ">{{ page.title }}</h1>
+            <span id="skip-to-content">
+                <h1>{{ page.title }}</h1>
+            </span>
             <hr class=" divider divider--yellow" aria-hidden="true" />
             <p>{{ page.event-date | date: "%A / %B %d / %l:%M %p" }}</p>
             {% if content.subheader %}

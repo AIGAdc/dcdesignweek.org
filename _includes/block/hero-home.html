@@ -5,7 +5,9 @@
 
     <div class="[ grid grid--align-center grid--one-column ]">
         <div class="[ headline ] [ grid--one-span ] font-align-center">
-            <h1>{{ content.header }}</h1>
+            <span id="skip-to-content">
+                <h1>{{ content.header }}</h1>
+            </span>
             <div class="subtitle-1">{{ content.text-1 | markdownify }}</div>
             <div class="subtitle-2">{{ content.text-2 | markdownify }}</div>
         </div>

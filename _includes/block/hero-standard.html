@@ -22,7 +22,9 @@
                 {% include ornament/three-star.html %}
             </div>
             {% endif %}
-            <h1 id="{{ content.header | downcase | replace: " ", " -" }}">{{ content.header }}</h1>
+            <span id="skip-to-content">
+                <h1>{{ content.header }}</h1>
+            </span>
             {% if content.subheader %}
             <div class="wysiwyg flow-2 gap-margin-top-none">{{ content.subheader | markdownify }}</div>
             {% endif %}
