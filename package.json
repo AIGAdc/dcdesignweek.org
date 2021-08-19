@@ -7,18 +7,27 @@
         "clean": "rm -rf build",
         "profile": "bundle exec jekyll build --profile",
         "start": "npm run clean && bundle exec jekyll serve --livereload",
-        "build": "bundle exec jekyll build"
+        "build": "bundle exec jekyll build",
+        "commit": "cz"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AIGAdc/dcdesignweek.org.git"
     },
-    "author": "",
+    "author": "Marcus Relacion",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/AIGAdc/dcdesignweek.org/issues"
     },
     "homepage": "https://github.com/AIGAdc/dcdesignweek.org#readme",
-    "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.2.0",
+        "gorko": "^0.4.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
 }

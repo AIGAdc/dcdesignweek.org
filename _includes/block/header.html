@@ -1,0 +1,18 @@
+<!-- {% include block/banner-qa.html %} -->
+<header class="[ site-header ] [ texture texture--paper ]">
+    {% include block/banner-skip-link.html %}
+    <a aria-label="DCDW logomark" class="logo" href="/">
+        {% include icon/dcdw-logo.html %}
+    </a>
+    <nav class="site-navigation">
+        <ul class="links">
+            {% for link in site.navigation-production %}
+            <li class="link">
+                <a aria-label="{{ link.aria-label }}" class="anchor" href="{{ link.url }}">
+                    {{ link.label }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

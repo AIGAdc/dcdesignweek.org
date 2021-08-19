@@ -1,43 +1,60 @@
 ---
 title: Home
 permalink: "/"
-layout: archive
+layout: "home"
+published: true
+
 hero:
 - has-hero: true
-  header: DC Design Week is Coming Back in 2021.
-  subheader: 'Stay tuned for more, and follow us on Instagram: <strong>[@dcdesignweek](https://www.instagram.com/dcdesignweek/)</strong>.'
-  image: 
-introduction:
-- has-introduction: true
-  header: "<span>What</span> <span>is</span> <span>DC</span> <span>Design</span> <span>Week</span>
-    <span>?</span>"
+  header: |-
+    <span class="color-dcdw-2021-celeste">DC</span> DESIGN WEEK <span class="color-dcdw-2021-celeste">2021</span>
+  text-1: |-
+    HYPERLOCAL. GROWN LOCALLY. INSPIRE GLOBALLY.
+  text-2: |-
+    October 1 - 8
   body: |-
-    We’ve said it before, and we’ll say it again: <strong>the District is more than just politics</strong>.
+    What kind of future can we build together? Hyperlocal is a launching pad to empower the DC Design Week community to get involved and share crowd-sourced design perspectives. When we celebrate the dynamism and resolve of our vibrant community locally, we have the opportunity to elevate everyone’s voice to a global level.
+  image: /uploads/hero-collage.png
+  imageAlt: Provide Alt
 
-    It’s a hub for performing arts and the birthplace of go-go music. It’s full of art and artists. It’s the diverse city that gives us energy and perspective. <strong>We’re here to remind everyone that the DMV is full of people who possess that creative magic that leaves us all inspired</strong>.
-  body-2: |-
-    ## <strong>Who’s invited?</strong>
-    You. Your friends. Your co-workers. Designers. Not-designers. Everything-in-between. <strong>Anyone and everyone is welcome</strong>. We’re celebrating the creative voices of the DMV, and we want you to join us.
-  bubble-1: "/uploads/bubble-black-medium-06.png"
-  bubble-1-alt: Small Floating amorphous bubbles with DC Design Week text inside
-  bubble-2: "/uploads/bubble-black-medium-01.png"
-  bubble-2-alt: Small Floating amorphous bubbles with DC Design Week text inside
-  button-label: Learn About DCDW
-  button-url: "/about/"
-event-header: "<span>Create</span> <span>and</span> <span>Discover</span>"
-event-body: DC Design Week 2020 is all about celebrating the creative voices in the
-  DMV. How do we do that? By creating a virtual lineup of nearly 40 events over 8
-  days to create and discover. Get ready to connect with local makers, Immerse yourself
-  in meaningful conversations, and experience the District’s creative spirit.
-event-button-label: See All Events
-event-button-url: "/events/"
-self-guided-header: "<span>At</span> <span>Your</span> <span>Own</span> <span>Pace</span>"
-self-guided-body: Take a break from our virtual lineup and get some fresh air by exploring
-  the city with these (free!) self-guided events. Whether you’ve got a busy schedule
-  or no schedule, don’t worry — you can do these whenever you want.
-self-guided-button-label: See Self-Guided Events
-self-guided-button-url: "/events/self-guided/"
-sponsors-button-label: See All Sponsors
-sponsors-button-url: "/about/#sponsors"
+makers-header: Call for Makers
+makers-body: |-
+  The DCDW Pop-up shop is back! We'll be doing things a little differently: a 1-evening Pop-Up Block Party on Friday, October 8, 6–10 pm, in a new location — the beautiful Brookland Arts Walk. 
+  
+  Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
+show-makers-image: true
+makers-image: /uploads/image-makers.png
+makers-imageAlt: Collage made up of red abstract shapes, transparent tape and a outlined globe icon, flanking a photograph of an AIGA member making buttons with a button maker.
+show-featured-events: false
+makers-button-label: Apply Here
+makers-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+makers-button-is-external-url: true
+makers-button-aria: 
+
+events-header: Events
+events-body: This year, we’re doing even more to foster conversations to challenge, and promote the grassroots history of the District, with a focus on the DMV’s unique local flavor and its impact.
+show-events-image: true
+events-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+events-imageAlt: Provide Image Alt
+show-featured-events: false
+events-button-label: Explore All Events
+events-button-url: /events/
+
+ghostnote-header: Ghost Note Agency
+ghostnote-body: Big thanks to the Ghost Note Agency for developing the DCDW 2021 brand! Ghost Note Agency is a creative agency born and based in the District of Columbia. 
+show-ghostnote-image: true
+ghostnote-image: /uploads/image-ghost.png
+ghostnote-imageAlt: Collage made up of yellow and red abstract shapes, transparent tape and a sticker that says 2019, flanking a black abstract shape with the Ghost Note Agency logo.
+ghostnote-button-label: Ghostnote's Website
+ghostnote-button-url: https://www.ghostnoteagency.com/
+ghostnote-button-is-external-url: true
+ghostnote-button-aria:
+
+sponsors-header: Sponsors and Partners
+sponsors-body: DC Design Week wouldn’t be the same without you. Thank you for your support.
+show-sponsors-image: false
+sponsors-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+sponsors-imageAlt: Provide Image Alt
+sponsors-button-label: Explore All Sponsors
+sponsors-button-url: /about/#sponsors
 ---
-

@@ -3,5 +3,6 @@
 .sass-cache
 .vscode
 build
+config.codekit3
 node_modules
 /source/*

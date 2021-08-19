@@ -1,0 +1,18 @@
+<section class="[ subscribe ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ]" id="subscribe">
+    <div class="[ grid grid--four-column grid--align-center ]">
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="/uploads/image-subscribe.png" alt="Collage made of transparent tape and a yellow abstract shape with a red sticker that says DC DESIGN WEEK flanking a photograph of a hand holding a sign.">
+            </figure>
+        </div>
+        <div class="grid--two-column-span flow-2">
+            <h2>{{ site.subscribe.header }}</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ site.subscribe.body | markdownify }}</div>
+            {% include third-party/mailchimp/form.html %}
+        </div>
+    </div>
+    <div class="pattern pattern-left pattern-inspired" style="fill: var(--beige);">
+        {% include pattern/inspired.html %}
+    </div>
+</section>

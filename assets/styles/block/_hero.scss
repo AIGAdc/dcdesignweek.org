@@ -1,93 +1,173 @@
-.hero-teaser {
+section#hero-standard {
+    overflow: hidden;
+}
+
+.hero-standard h1,
+.hero-home h1,
+.hero-event h1 {
+    font-family: var(--font-bayard);
+    font-size: var(--font-size-40);
+}
+
+.hero,
+.hero-home {
+    overflow: hidden;
+}
+
+.hero-home .headline {
     position: relative;
+    padding: var(--space-64) 0;
 }
 
-.hero-teaser .title {
-    font-size: 3rem;
-    padding: 56px;
-    text-align: center;
-}
-
-.hero-teaser .subtitle {
-    font-size: 1.2rem;
-    position: relative;
-    text-align: right;
-    z-index: 100;
-    margin-top: -56px;
-}
-
-.hero-teaser .subtitle::after {
+.hero-home .headline::after {
     content: "";
-    background-image: url(/uploads/hero-yellow-object.svg);
     position: absolute;
-    width: 350px;
-    top: -10px;
+    top: 0;
+    right: -48px;
     bottom: 0;
-    right: -16px;
-    height: 96px;
+    left: -48px;
+    background-image: url(/uploads/hero-collage.png);
+    background-size: 100%;
     background-repeat: no-repeat;
-    z-index: -1;
+    background-position: center center;
+    z-index: -10;
 }
 
-.hero-teaser .wysiwyg {
-    margin-top: 56px;
-    text-align: center;
+.subtitle-1,
+.subtitle-2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.subtitle-2 {
+    position: absolute;
+    right: -4px;
+    bottom: 40px;
+    transform: rotate(-3deg);
+}
+
+.about-layout .hero img {
+    display: block;
+}
+
+.hero-home p,
+.hero-standard p {
+    font-size: var(--font-size-16);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-home p,
+    .hero-standard p {
+        font-size: var(--font-size-24);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .about-layout .hero img {
+        min-width: 680px !important;
+    }
+
+    .about-layout .hero figure {
+        right: -48px;
+    }
 }
 
 @media screen and (min-width: 480px) {
-    .hero-teaser {
-        margin: auto;
-        max-width: 56ch;
+    .hero-standard h1,
+    .hero-home h1,
+    .hero-event h1 {
+        font-size: var(--font-size-72);
     }
 
-    .hero-teaser .title {
-        font-size: 5rem;
+    .hero-home .headline {
+        padding: var(--space-96) 0;
     }
 
-    .hero-teaser .subtitle {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .hero-teaser {
-        max-width: 72ch;
-    }
-
-    .hero-teaser .title {
-        font-size: 8rem;
+    .subtitle-2 {
+        right: 0px;
+        bottom: 52px;
     }
 }
 
-@media screen and (min-width: 960px) {
-    .hero-teaser .title {
-        font-size: 9rem;
-        padding: 72px;
+@media screen and (min-width: 580px) {
+    .hero-standard h1,
+    .hero-home h1,
+    .hero-event h1 {
+        font-size: var(--font-size-72);
     }
 
-    .hero-teaser .subtitle {
-        font-size: 1.8rem;
+    .subtitle-2 {
+        right: 24px;
+        bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .hero-standard h1,
+    .hero-home h1,
+    .hero-event h1 {
+        font-size: var(--font-size-80);
+    }
+
+    .subtitle-1,
+    .subtitle-2 {
+        font-size: var(--font-size-20);
+    }
+
+    .subtitle-2 {
+        right: 24px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .subtitle-2 {
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .hero-home .headline {
+        padding: var(--space-120) 0;
+    }
+
+    .subtitle-2 {
+        bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-standard h1,
+    .hero-home h1,
+    .hero-event h1 {
+        font-size: var(--font-size-120);
         position: relative;
-        text-align: right;
-        z-index: 100;
-        margin-top: -88px;
+        top: -16px;
     }
 
-    .hero-teaser .subtitle::after {
-        content: "";
-        background-image: url("/uploads/hero-yellow-object.svg");
-        position: absolute;
-        width: 500px;
-        top: 0;
-        bottom: 0;
-        right: -16px;
-        height: 90px;
-        background-repeat: no-repeat;
-        z-index: -1;
+    .subtitle-1 {
+        position: relative;
+        top: -16px;
+    }
+    .subtitle-1,
+    .subtitle-2 {
+        font-size: var(--font-size-32);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-standard h1,
+    .hero-home h1,
+    .hero-event h1 {
+        font-size: 9rem;
+    }
+    .hero-home .headline {
+        padding: var(--space-200) 0;
     }
 
-    .hero-teaser .wysiwyg {
-        margin-top: 56px;
-        text-align: center;
+    .subtitle-2 {
+        bottom: 115px;
+        right: 100px;
     }
 }

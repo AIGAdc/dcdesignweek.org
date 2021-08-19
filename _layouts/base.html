@@ -1,49 +1,48 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-
         <script type="module">
             document.documentElement.classList.remove('no-js');
             document.documentElement.classList.add('js');
         </script>
-
         <!-- styles -->
-        <link href="{{ site.asseturl }}styles/app.css" media="all" rel="stylesheet" type="text/css" />
-        <script src="https://kit.fontawesome.com/2b8780d76f.js" crossorigin="anonymous"></script>
-
-        {%- seo -%}
-
+        <link href="{{ site.asseturl }}styles/app-min.css" media="all" rel="stylesheet" type="text/css" />
+        {% seo %}
         <link rel="icon" href="/favicon.ico">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="{{ site.theme-color }}" />
-
         <!-- scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="{{ site.asseturl }}scripts/offside.min.js"></script>
-        <script src="{{ site.asseturl }}scripts/houdini.min.js"></script>
-        <script src="{{ site.asseturl }}scripts/modals.min.js"></script>
-        <script src="{{ site.asseturl }}scripts/mixitup.min.js"></script>
-        <script src="{{ site.asseturl }}scripts/mixitup-multifilter.min.js"></script>
+        <script src="{{ site.asseturl }}scripts/app-min.js"></script>
         <script src="https://kit.fontawesome.com/2b8780d76f.js" crossorigin="anonymous"></script>
-
-        {% if page.url == "/events/self-guided/" %}
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-        {% endif %}
     </head>
 
     <body>
-        <main class="{{ page.layout }}-layout" id="my-content-container">
-            {%- include block/site-header.html -%}
+        {% comment %}
+        <div class="ripped-paper ripped-paper-left" style="fill: var(--celeste);">
+            <!-- top rip -->
+            {% include textures/rip-E.svg %}
+        </div>
+        {% endcomment %}
+        {% include block/header.html %}
+        <main class="{{ page.layout }}-layout" id="main-content">
             {{ content | safe }}
-            {%- include block/site-footer.html -%}
         </main>
-        {% include third-party/offside/menu.html %}
+        {% include block/footer.html %}
+        {% comment %}
+        <div class="ripped-paper ripped-paper-right" style="fill: var(--celeste);">
+            <!-- top rip -->
+            {% include textures/rip-F.svg %}
+        </div>
+        {% endcomment %}
     </body>
 
 </html>

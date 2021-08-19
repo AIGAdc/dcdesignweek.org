@@ -1,0 +1,16 @@
+.subscribe figure {
+    display: none;
+}
+
+@media screen and (min-width: 1366px) {
+    .subscribe figure {
+        display: block;
+        left: -180px;
+        top: -300px;
+    }
+
+    .subscribe img {
+        min-width: 750px;
+        position: absolute;
+    }
+}

@@ -1,0 +1,78 @@
+.clipped-1,
+.clipped-2,
+.clipped-3,
+.clipped-4 {
+    transition: clip-path 250ms ease-in-out;
+    -webkit-transition: clip-path 250ms ease-in-out;
+    -moz-transition: clip-path 250ms ease-in-out;
+    -ms-transition: clip-path 250ms ease-in-out;
+    -o-transition: clip-path 250ms ease-in-out;
+}
+
+.clipped-1 {
+    /* rotation: 0 degrees*/
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
+}
+
+.clipped-2 {
+    /* rotation: 25 degress */
+    clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
+}
+
+.clipped-3 {
+    /* rotation: 50 degress */
+    clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
+}
+
+.clipped-4 {
+    /* rotation: 75 degress */
+    clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
+}
+
+.clipped-1:hover {
+    /* rotation: 75 degress / clipped-4 */
+    clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
+}
+
+.clipped-2:hover {
+    /* rotation: 50 degress / clipped-3 */
+    clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
+}
+
+.clipped-3:hover {
+    /* rotation: 25 degress / clipped-2 */
+    clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
+}
+
+.clipped-4:hover {
+    /* rotation: 0 degress / clipped-1 */
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    .clipped-1,
+    .clipped-2,
+    .clipped-3,
+    .clipped-4 {
+        transition: none !important;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+    }
+
+    // sets the hover of the clipped shapes to be the default state to ensure no flipping occurs when this selected on a visitors machine
+    .clipped-1:hover {
+        clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
+    }
+    .clipped-2:hover {
+        clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
+    }
+    .clipped-3:hover {
+        clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
+    }
+    .clipped-4:hover {
+        clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
+    }
+}

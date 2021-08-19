@@ -1,92 +1,84 @@
 .button {
-    background-color: transparent;
     border: solid 4px transparent;
-    border-radius: 0 !important;
-    display: inline-block;
-    font-family: $font-poppins;
+    display: block;
     font-weight: 700;
+    padding: var(--space-8) var(--space-16);
     text-align: center;
     text-decoration: none;
-    padding: $spacing-8 $spacing-16;
+}
 
-    &__solid--black {
-        background-color: $black;
-        color: $dcdw-2021-yellow;
-    }
+.button-solid--black {
+    background-color: var(--black);
+    color: var(--celeste);
+}
 
-    &__border--black {
-        border-color: $black;
-        color: $black;
-    }
+.button-solid--cinnabar {
+    background-color: var(--cinnabar);
+    color: var(--black);
+}
 
-    &__link--black {
-        color: $black;
-    }
+.button-border--cinnabar {
+    border-color: var(--cinnabar);
+    color: var(--cinnabar);
+}
 
-    &__solid--black:hover,
-    &__border--black:hover,
-    &__link--black:hover {
-        background-color: transparent;
-        border: solid 4px $black;
-        color: $black;
-        cursor: pointer !important;
-    }
+.button-link--cinnabar {
+    color: var(--cinnabar);
+}
 
-    &__solid--cinnabar {
-        background-color: $dcdw-2021-cinnabar;
-        color: $black;
-    }
+.button-solid--black:hover {
+    background-color: transparent;
+    border: solid 4px var(--black);
+    color: var(--black);
+    cursor: pointer;
+}
 
-    &__border--cinnabar {
-        border-color: $dcdw-2021-cinnabar;
-        color: $dcdw-2021-cinnabar;
-    }
+.button-solid--cinnabar:hover,
+.button-border--cinnabar:hover,
+.button-link--cinnabar:hover {
+    background-color: transparent;
+    border: solid 4px var(--cinnabar);
+    color: var(--cinnabar);
+    cursor: pointer;
+}
 
-    &__link--cinnabar {
-        color: $dcdw-2021-cinnabar;
-    }
+.button-solid--yellow {
+    background-color: var(--yellow);
+    color: var(--black);
+}
 
-    &__solid--cinnabar:hover,
-    &__border--cinnabar:hover,
-    &__link--cinnabar:hover {
-        background-color: transparent;
-        border: solid 4px $dcdw-2021-cinnabar;
-        color: $dcdw-2021-cinnabar;
-        cursor: pointer !important;
-    }
+.button-border--yellow {
+    border-color: var(--yellow);
+    color: var(--black);
+}
 
-    &__solid--yellow {
-        background-color: $dcdw-2021-yellow;
-        color: $black;
-    }
+.button-link--yellow {
+    color: var(--yellow);
+}
 
-    &__border--yellow {
-        border-color: $dcdw-2021-yellow;
-        color: $black;
-    }
+.button-solid--yellow:hover,
+.button-border--yellow:hover,
+.button-link--yellow:hover {
+    background-color: transparent;
+    border: solid 4px var(--yellow);
+    color: var(--yellow);
+    cursor: pointer;
+}
 
-    &__link--yellow {
-        color: $dcdw-2021-yellow;
-    }
+.button-solid--black::selection,
+.button-border--black::selection,
+.button-link--black::selection,
+.button-solid--yellow::selection,
+.button-border--yellow::selection,
+.button-link--yellow::selection,
+.button-solid--cinnabar::selection,
+.button-border--cinnabar::selection,
+.button-link--cinnabar::selection {
+    background-color: unset;
+}
 
-    &__solid--yellow:hover,
-    &__border--yellow:hover,
-    &__link--yellow:hover {
-        background-color: transparent;
-        border: solid 4px $dcdw-2021-yellow;
-        color: $dcdw-2021-yellow;
-        cursor: pointer !important;
-    }
-
-    &__solid--black::selection,
-    &__border--black::selection,
-    &__link--black::selection,
-    &__solid--yellow::selection,
-    &__border--yellow::selection,
-    &__link--yellow::selection,
-    &__solid--cinnabar::selection,
-    &__border--cinnabar::selection,
-    &__link--cinnabar::selection {
-        background-color: unset;
+@media screen and (min-width: 768px) {
+    .button {
+        display: inline-block;
     }
 }

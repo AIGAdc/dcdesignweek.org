@@ -9,17 +9,17 @@
 
 #mc_embed_signup .mc-field-group label {
     display: block;
-    font-family: $font-poppins;
+    font-family: var(--font-poppins);
     font-weight: 700;
 }
 
 #mc_embed_signup .mc-field-group input {
-    background-color: $dcdw-2021-celeste;
-    border: solid 4px transparent;
+    background-color: var(--celeste);
+    border: solid 1px var(--black);
     border-radius: none;
-    color: $black;
+    color: var(--black);
     display: block;
-    padding: $spacing-8 $spacing-16;
+    padding: var(--space-8) var(--space-16);
     width: 100%;
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
@@ -27,41 +27,41 @@
 }
 
 #mc_embed_signup .mc-field-group input:focus {
-    outline: solid 4px $dcdw-2021-cinnabar;
-    outline-offset: -4px;
+    outline: solid 1px var(--cinnabar);
+    outline-offset: -1px;
 }
 
 #mc_embed_signup .asterisk {
-    color: $dcdw-2021-cinnabar;
+    color: var(--cinnabar);
     font-weight: 700;
 }
 
 #mc_embed_signup .asterisk,
 #mc_embed_signup .indicates-required {
-    margin-bottom: $spacing-32;
+    margin-bottom: var(--space-32);
 }
 
 // message for when a visitor successfully signs up for the newsletter
 #mc_embed_signup div.response {
-    background-color: $dcdw-2021-cinnabar;
+    background-color: var(--cinnabar);
     padding: 8px;
     z-index: 100;
 }
 
 #mc_embed_signup div.response a {
-    color: $black;
+    color: var(--black);
     font-weight: bold;
 }
 
 #mc_embed_signup #mce-error-response,
 #mc_embed_signup #mce-success-response {
-    color: $black;
+    color: var(--black);
     display: block;
 }
 
 #mc_embed_signup #num-subscribers span {
     padding: 4px;
-    border: 1px solid $white;
+    border: 1px solid var(--white);
     margin-right: 4px;
     font-weight: bold;
 }
@@ -72,19 +72,19 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-    background-color: $dcdw-2021-cinnabar;
+    background-color: var(--cinnabar);
     display: block;
-    color: $black;
+    color: var(--black);
     font-size: inherit;
     margin: 0;
-    padding: $spacing-8;
+    padding: var(--space-8);
     position: relative;
     top: -2px;
-    z-index: $index-1;
+    z-index: var(--index-1);
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-    border: 4px solid $dcdw-2021-cinnabar;
+    border: 1px solid var(--cinnabar);
 }
 
 #mc_embed_signup input.button {
@@ -96,11 +96,11 @@
 }
 
 #mce-responses {
-    margin-top: $spacing-24;
+    margin-top: var(--space-24);
 }
 
 .mailchimp-button input {
-    padding: $spacing-8;
+    padding: var(--space-8);
 }
 
 .submit-label {
@@ -119,15 +119,9 @@
 
 @media screen and (min-width: 768px) {
     .grid--mailchimp {
-        grid-template-columns: 1fr 1fr max-content;
+        grid-template-columns: repeat(2, 1fr);
     }
     .submit-label {
         display: block;
-    }
-}
-
-@media screen and (min-width: 1023px) {
-    .mailchimp-grid {
-        grid-template-columns: repeat(2, 1fr) min-content;
     }
 }

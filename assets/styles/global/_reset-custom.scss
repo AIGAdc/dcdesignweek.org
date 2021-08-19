@@ -1,14 +1,114 @@
-body {
-    background-color: $black;
-    color: $black;
-    font-family: $font-poppins;
-    font-size: $font-size-16;
-    line-height: 1.5;
+/* The emerging W3C standard that is currently Firefox-only */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--cinnabar) var(--celeste);
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--celeste);
+    border-left: 1px solid var(--black);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cinnabar);
+}
+
+::selection {
+    background-color: var(--cinnabar);
+    color: var(--black);
+}
+
+#skip-to-content {
+    scroll-margin-top: 80px;
+}
+
+.skip-to-content:not(:focus):not(:hover) {
+    transform: translateY(-200px);
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+}
+
+.skip-to-content {
+    align-items: center;
+    background-color: var(--cinnabar);
+    color: var(--black);
+    display: flex;
+    font-weight: 700;
+    height: 74px;
+    justify-content: space-around;
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: var(--index-10);
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+a {
+    color: var(--cinnabar);
+    cursor: pointer;
+    transition: opacity var(--timing-default) ease-in;
+}
+
+a:active {
+    outline: 4px dashed var(--cinnabar);
+    outline-offset: 4px;
+}
+
+*:focus,
+a:focus {
+    outline: 4px dashed var(--cinnabar);
+    outline-offset: 4px;
+}
+
+body {
+    // border-left: solid 16px var(--celeste);
+    // border-right: solid 16px var(--celeste);
+    background-color: var(--beige);
+    background-image: url("/uploads/brick.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat-y;;
+    color: var(--black);
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-16);
+    margin: auto;
+    max-width: 1366px;
+}
+
+figure {
+    position: relative;
+}
+
+// @media (prefers-reduced-data: no-preference) {
+//     body {
+//         background-image: url("/uploads/brick.png");
+//         background-size: contain;
+//     }
+// }
+
+@media (prefers-reduced-data: reduce) {
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+            "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+}
+
+main {
+    background-color: var(--black);
 }
 
 h1,
@@ -23,272 +123,39 @@ small {
     text-rendering: optimizeLegibility;
 }
 
-@mixin anchor {
-    color: $dcdw-2021-cinnabar;
-    cursor: pointer;
-    text-decoration: underline;
-    transition: opacity $timing-default ease-in;
+h2 {
+    font-size: var(--font-size-24);
 }
 
-@mixin state-active {
-    outline: 4px dashed $dcdw-2021-cinnabar !important;
-    outline-offset: 1px !important;
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
-@mixin state-focus {
-    outline: 4px dashed $dcdw-2021-cinnabar !important;
-    outline-offset: 1px !important;
+legend,
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    @include anchor;
-}
-
-a:active {
-    @include state-active;
-}
-
-a:focus,
-*:focus {
-    @include state-focus;
-}
-
-::selection {
-    background-color: $dcdw-2021-cinnabar;
-    color: $black;
-}
-
-/* The emerging W3C standard that is currently Firefox-only */
-* {
-    scrollbar-width: auto;
-    scrollbar-color: $dcdw-2021-yellow $black;
-}
-
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-    width: 24px;
-}
-
-*::-webkit-scrollbar-track {
-    background: $black;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: $dcdw-2021-yellow;
-}
-
-@media screen and (min-width: 639px) {
-    .wrapper {
-        padding: $spacing-16;
-    }
-}
-
-// Page Specific
-.section--volunteers svg {
-    max-width: 32px;
-    margin: 0 8px;
-}
-
-.flex {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex-justify-between {
-    justify-content: space-between;
-}
-
-.grid {
-    align-items: start;
-    display: grid;
-    grid-gap: $spacing-24;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1440px;
+section {
     position: relative;
 }
 
-.events-layout .grid {
-    grid-gap: 80px 32px;
-}
-
-.events-filter .grid {
-    grid-gap: 0;
-}
-
-.grid--one-columns,
-.grid--two-columns,
-.grid--three-columns,
-.section--posters .grid--three-columns,
-.grid--four-columns,
-.grid--five-columns,
-.grid--six-columns {
-    grid-template-columns: 1fr;
-}
-
-.grid--eight-columns {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.column {
-    position: relative;
-}
-
-.column > div {
-    height: 100%;
-}
-
-.column--hide {
-    display: none;
-}
-
-.column--max-content {
-    grid-column: max-content;
-}
-
-.column--min-content {
-    grid-column: min-content;
-}
-
-.column--span-1,
-.column--span-2,
-.column--span-3,
-.column--span-4,
-.column--span-5,
-.column--span-6 {
-    grid-column: span 1;
-}
-
-.column--width-40,
-.column--width-50,
-.column--width-60,
-.column--width-70,
-.column--width-80 {
+svg {
+    display: block;
+    vertical-align: middle;
     width: 100%;
 }
 
-@media screen and (min-width: 799px) {
-    .grid--two-columns,
-    .grid--four-columns {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .column--span-2 {
-        grid-column: span 2;
-    }
-
-    .column--span-4 {
-        grid-column: span 4;
-    }
-
-    .column--span-5 {
-        grid-column: span 5;
-    }
-
-    .column--span-6 {
-        grid-column: span 6;
-    }
-}
-
-@media screen and (min-width: 1023px) {
-    .grid--three-columns {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .section--posters .grid--three-columns {
-        grid-template-columns: 1fr 0.5fr 1fr;
-    }
-
-    .grid--four-columns {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .grid--five-columns {
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .grid--six-columns {
-        grid-template-columns: repeat(6, 1fr);
-    }
-
-    .grid--eight-columns {
-        grid-template-columns: repeat(8, 1fr);
-    }
-
-    .column--span-3 {
-        grid-column: span 3;
-    }
-
-    .column--hide {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1279px) {
-    .column--width-40 {
-        width: 40%;
-    }
-
-    .column--width-50 {
-        width: 50%;
-    }
-
-    .column--width-60 {
-        width: 60%;
-    }
-
-    .column--width-70 {
-        width: 70%;
-    }
-
-    .column--width-80 {
-        width: 80%;
-    }
-}
-
-.flow-small > * + *,
-.flow-small > * {
-    margin-top: $spacing-8;
-}
-
-.wysiwyg > * + *:not(:first-child),
-.wysiwyg > *:not(:first-child),
-.flow-medium > * + *,
-.flow-medium > * {
-    margin-top: $spacing-16;
-}
-
-.flow-large > * + *:not(:first-child),
-.flow-large > *:not(:first-child) {
-    margin-top: $spacing-32;
-}
-
-.flow-extra-large > * + *,
-.flow-extra-large > * {
-    margin-top: $spacing-64;
-}
-
-.flow-none {
-    margin-top: 0;
-}
-
-.gap-none {
-    grid-gap: 0;
-}
-
-.align-items-start {
-    align-items: start;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1366px) {
     body {
-        font-size: $font-size-20;
-        line-height: 1.8;
+        font-size: var(--font-size-18);
+        line-height: 32px;
+    }
+
+    h2 {
+        font-size: var(--font-size-32);
     }
 }

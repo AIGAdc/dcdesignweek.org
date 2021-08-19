@@ -1,66 +1,76 @@
 .site-header {
-    align-items: center;
-    background-color: $dcdw-2021-celeste;
-    border-bottom: solid 4px $black;
-    display: grid;
-    grid-gap: $spacing-16;
-    grid-template-columns: max-content max-content;
+    background-color: var(--celeste);
+    border-bottom: solid 1px var(--black);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-16);
     justify-content: space-between;
-    mix-blend-mode: unset !important;
-    padding: $spacing-16;
-    z-index: $index-4;
+    padding: var(--space-16);
+    position: sticky;
+    top: 0;
+    z-index: var(--index-10);
 }
 
-.site-header__logo svg {
+.site-header .logo {
+    padding: var(--space-8);
+}
+
+.site-header svg {
     display: block;
+    fill: var(--black);
+    margin: auto;
+    max-width: 120px;
 }
 
-.site-header__navigation a {
-    color: $black;
+.site-header .links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.site-header .link {
+    text-align: center;
+}
+
+.site-header .link:not(:last-child) {
+    margin-right: var(--space-16);
+}
+
+.site-header .link a {
+    display: block;
+    color: var(--black);
     font-weight: 700;
-    padding: $spacing-8;
+    padding: var(--space-8);
     text-decoration: none;
 }
 
-.site-header__navigation a:hover {
-    color: $dcdw-2021-cinnabar;
+.site-header .link a:hover {
+    color: var(--cinnabar);
 }
 
-.site-header__navigation .link:not(:last-child) {
-    margin-right: $spacing-16;
-}
-
-.site-header__navigation,
-.site-header__cta {
-    display: none;
-}
-
-@media screen and (min-width: 960px) {
-    .site-header__navigation ul li {
-        display: inline-block;
-    }
-}
-
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 768px) {
     .site-header {
         align-items: center;
-        display: grid;
-        grid-template-columns: max-content 1fr max-content;
-        grid-gap: $spacing-32;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: var(--space-24) var(--space-56);
     }
 
-    .site-header__navigation,
-    .site-header__cta {
-        display: block;
+    .site-header .logo {
+        padding: 0;
     }
 
-    // show site navigation when screen is > 1023
-    .site-header__navigation {
-        gap: $spacing-32;
-        text-align: right;
+    .site-header .links {
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .site-header {
+        padding: var(--space-16) var(--space-120);
     }
 
-    .link {
-        display: inline-block;
+    .site-header svg {
+        max-width: 200px;
     }
 }

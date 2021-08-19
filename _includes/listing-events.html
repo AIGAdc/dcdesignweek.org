@@ -1,0 +1,70 @@
+{% if page.url == "/" %}
+<section class="[ events ] [ gap-padding-top-1100 gap-padding-bottom-3400 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-3000 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ texture texture--paper ]" id="events">
+    <div class="[ grid grid--four-column grid--align-center ]">
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.events-header | downcase | replace: " ", " -" }}">
+                {{ page.events-header | markdownify }}
+            </h2>
+            {% if page.events-body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg">
+                {{ page.events-body | markdownify }}
+            </div>
+            {% endif %}
+        </div>
+        {% if page.show-events-image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ page.events-image }}" alt="{{ page.events-imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+
+        {% if page.show-featured-events == true %}
+        <div>
+            <ul class="grid grid--four-column mixitup-container">
+                {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
+                {% for event in sorted | limit: 4 %}
+                {% if event.status.is-featured-home == true %}
+                {% include card-event.html %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="gap-margin-top-1000">
+            <a class="button button-solid--yellow" href="{{ page.events-button-url }}">
+                {{ page.events-button-label }}
+            </a>
+        </div>
+    </div>
+    {% endif%}
+    </div>
+</section>
+
+{% elsif page.url == "/events/" %}
+<section class="[ events ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="events">
+    <div class="[ grid grid--align-start grid--four-column ]">
+        <div class="grid--two-column-span flow-2">
+            <h2 id="{{ page.events-header | downcase | replace: " ", " -" }}">{{ page.events-header }}</h2>
+            {% if page.events-body %}
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.events-body | markdownify }}</div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="[ grid grid--align-start grid--four-column ]">
+        <div class="grid--one-column-span">
+            {% include filter-events.html %}
+        </div>
+        <div class="grid--three-column-span">
+            <ul class="[ grid grid--three-column mixitup-container ]">
+                {% assign sorted = site.events | sort: 'events-date' and 'date-time' %}
+                {% for event in sorted %}
+                {% include card-event.html %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+{% endif %}
