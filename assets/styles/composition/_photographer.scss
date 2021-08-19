@@ -1,0 +1,16 @@
+.photographer figure {
+    display: none;
+}
+
+@media screen and (min-width: 1366px) {
+    .photographer figure {
+        display: block;
+        right: 157px;
+        top: -370px;
+    }
+
+    .photographer img {
+        min-width: 800px;
+        position: absolute;
+    }
+}

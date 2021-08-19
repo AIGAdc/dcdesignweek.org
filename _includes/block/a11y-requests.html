@@ -1,0 +1,27 @@
+<section class="tear tear-top">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
+</section>
+
+<section class="[ a11y-requests ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="a11y-requests">
+    <div class="[ grid grid--align-center grid--four-column ]">
+
+        <div class="grid--four-column-span flow-2">
+            <h2>{{ page.a11y-requests-header }}</h2>
+            {% if page.a11y-requests-body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.a11y-requests-body | markdownify }}</div>
+            {% endif %}
+        </div>
+
+    </div>
+</section>
+
+<section class="tear tear-bottom">
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% include textures/rip-B.svg %}
+    </div>
+</section>

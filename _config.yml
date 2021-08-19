@@ -1,15 +1,11 @@
 ---
-title: DC Design Week 2021
+title: DCDW 2021
 timezone: America/New_York
 collections:
   events:
     title: Events
     output: true
     permalink: "/events/:title/"
-  events-self-guided:
-    title: Events - Self Guided
-    output: true
-    permalink: "/events/self-guided/:title/"
   posts:
     title: Posts
     output: true
@@ -20,22 +16,10 @@ defaults:
 - scope:
     path: ''
   values:
-    styled-title: 
     image: "/uploads/og-image.jpg"
     description: DC Design Week is a celebration of creatives, thinkers, and makers
       in the DC metro area. Its a week packed with amazing speakers, events, and meetups.
       Join us!
-- scope:
-    path: ''
-    type: events-self-guided
-  values:
-    header: 'DC Design Week: Maker Directory'
-    body: We’re all about celebrating the DMV’s creative voices — so what better way
-      to do that than showcasing their work? We may not be able to do our IRL Pop-Up
-      Shop this year, but we’ve got the next best thing. Check out our virtual directory
-      for all your fall shopping needs.
-    button-url: ''
-    button-label: Posters
 - scope:
     path: ''
     type: events
@@ -47,16 +31,16 @@ defaults:
     image-alt: 
     description: 
     status:
-      is-featured-on-home: 
-      featured-home-message: Featured
-      is-featured-on-events: 
-      featured-event-message: Featured
+      is-featured-home: 
+      featured-home-message: This event will standout and appear on the home page
+      is-featured-event: 
+      featured-event-message: This event will standout on the events page
       is-sold-out: 
-      sold-out-message: Sold Out! Sold Out! Sold Out!
+      sold-out-message: This event is now sold out
       is-limited-supply: 
-      limited-supply-message: Limited Tickets
+      limited-supply-message: The event is running low on tickets
       has-occurred: 
-      occurred-message: 
+      occurred-message: This event has occurred
     tickets:
       has-member-button: 
       member-button-url: 
@@ -64,30 +48,45 @@ defaults:
       has-non-member-button: 
       non-member-button-url: 
       non-member-button-label: 
+    partners:
+      header: 
+      body: 
     venue:
       name: 
       info: 
       additional-header: 
       additional-info: 
-    has-speakers: 
-    speakers:
-    - name: 
-      pronouns: 
-      title: 
-      bio: 
-      website-label: 
-      website-url: 
-    has-accessibility-notes: 
-    accessibility-notes:
-    - note: |-
-        All DCDW events will have real-time CART (live captioning) services. If you need any additional accommodations, please contact us before 9/14 by, through the provided Google Form, or by phone. We honor your privacy and no personally identifying information (e.g. your name) is required to request an accommodation.
-        * Request an accommodation through this [Google Form](https://forms.gle/gAQviAo5cTwWYGWV6)
-        * [Email us](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
-        * Call our Accessibility Lead, Josh Kim, by phone at 571-302-1504
-
-
-
-        You can learn more about how we’re making DC Design Week an accessible experience by visiting our page on [accessibility](/accessibility/).
+    has-speakers:
+      speakers:
+      - name: 
+        pronouns: 
+        title: 
+        bio: 
+        website-label: 
+        website-url: 
+    accessibility:
+      header: Accessibility and Accommodations
+      body: "All virtual events will have real time CART (live captioning) services
+        and transcriptions for virtual events. If you need any additional accommodations,
+        please contact us using a method that works best for you:\n- [Email our accessibility
+        team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.\n- [Call
+        or text our accessibility lead](tel link to 5 Josh Kim at 571-422-2656.\n-
+        [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)\n\nWe
+        honor your privacy. No identifying information like your name is required
+        to request an accomodation, and all details will be deleted once completed.
+        \n\nYou can learn more about how we’re making DC Design Week an accessible
+        experience by visiting our page on [accessibility](/accessibility)."
+    platform:
+      is-in-person: true
+      in-person-header: In-Person Safety Guidance
+      in-person-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+        iaculis dolor at nisi dictum sagittis. Nunc nunc tellus, dictum non ante in,
+        porttitor imperdiet est.
+      is-remote: true
+      remote-header: Platforms and Prerequisites
+      remote-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+        iaculis dolor at nisi dictum sagittis. Nunc nunc tellus, dictum non ante in,
+        porttitor imperdiet est.
     filter-date:
       is-day-1: 
       is-day-2: 
@@ -103,85 +102,85 @@ defaults:
       is-evening: 
     filter-type:
       is-creative-breakfast: 
-      is-family-friendly: 
+      is-creative-lunch: 
       is-keynote: 
-      is-partner-events: 
       is-party: 
-      is-workshop: 
       is-talk-panel: 
-    filter-focus:
-      is-fun: 
-      is-deia: 
-      is-motion: 
-      is-skill-building: 
-      is-ui-ux: 
-    layout: events-landing
-about-dcdw:
-  header: About DC Design Week
-  text: |-
-    Built by 100% volunteer power, DC Design Week is an annual celebration of this community, hosted by AIGA DC. AIGA Member On-Sale begins 9/5 at 10:00am and the General Public On-Sale begins 9/10 at 10:00am. 100% of the proceeds from DCDW events go toward future AIGA DC programming and the [Design Continuum Fund (DCF) ](https://www.givecontinuum.org/)  scholarship fund. We believe in fostering the next generation of designers through helping local design-minded and underrepresented students as they pursue their education.
-
-    Interested in becoming a member? To gain early access to our most exclusive events and year-long discounts, [sign up to become a member today](https://my.aiga.org/)!
-  accessibility-header: Accessibility
-  accessibility-text: 'If you need any accommodations to fully access the event, please
-    get in touch with us by *Monday, September 16, 2019* at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
-  code-of-conduct-header: Code of Conduct
-  code-of-conduct-text: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
-  questions-header: Questions?
-  questions-text: 'If you have any questions, feel free to reach out to us at: [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).'
-committee:
-- image: ''
-  image-alt: Committee Member Image
-  name: Committee Member Name
-  role: Committee Member Role
-  website-url-1: 
-  website-label-1: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-1: Committee Member Instagram
-  website-url-2: 
-  website-label-2: <i class="fab fa-linkedin"></i> LinkedIn
-  website-aria-label-2: Committee Member LinkedIn
-events-filter:
+      is-workshop: 
+    layout: events-single
+accessibility:
+  header: Accessibility
+  body: DC Design Week is committed to improving accessibility and inclusion efforts
+    each year. We recognize this is a journey and we are still far from our ideal.
+    Read more about our accessibility efforts.
+  show-image: true
+  image: "/uploads/image-a11y.png"
+  imageAlt: Collage made up of purple abstract shapes, transparent tape flanking a
+    photograph of a three people going down an escalator with a man holding a newspaper.
+  button-url: "/accessibility/"
+  button-label: View Accessibility Statement
+conduct:
+  header: Code of Conduct
+  body: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+faqs:
+  header: FAQs
+  body: DC Design Week looks different this year, so you might have questions. Maybe
+    it’s how to find the streaming link or how to get the most out of our remote events.
+    We’ve got answers to those and more FAQs.
+  show-faqs-image: true
+  image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+  imageAlt: Baptiste
+  button-url: "/faqs/"
+  button-label: View FAQs
+filter-events:
   day:
   - filter: ".day-1"
     class: day-1
-    text-1: Fri
+    text-1: Friday
     text-3: 18
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-2"
     class: day-2
-    text-1: Sat
+    text-1: Saturday
     text-3: 19
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-3"
     class: day-3
-    text-1: Sun
+    text-1: Sunday
     text-3: 20
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-4"
     class: day-4
-    text-1: Mon
+    text-1: Monday
     text-3: 21
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-5"
     class: day-5
-    text-1: Tue
+    text-1: Tuesday
     text-3: 22
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-6"
     class: day-6
-    text-1: Wed
+    text-1: Wednesday
     text-3: 23
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-7"
     class: day-7
-    text-1: Thu
+    text-1: Thursday
     text-3: 24
-    has-occurred: true
+    has-occurred: false
   - filter: ".day-8"
     class: day-8
-    text-1: Fri
+    text-1: Friday
     text-3: 25
-    has-occurred: true
+    has-occurred: false
+  location:
+  - filter: ".in-person"
+    class: in-person
+    text-1: In-Person
+  - filter: ".zoom"
+    class: zoom
+    text-1: Zoom
   time:
   - filter: ".morning"
     class: morning
@@ -196,40 +195,21 @@ events-filter:
   - filter: ".creative-breakfast"
     class: creative-breakfast
     text-1: Creative Breakfast
-  - filter: ".family-friendly"
-    class: family-friendly
-    text-1: Family Friendly
-  - filter: ".party"
-    class: party
-    text-1: Party
+  - filter: ".creative-lunch"
+    class: creative-lunch
+    text-1: Creative Lunch
   - filter: ".keynote"
     class: keynote
     text-1: Keynote
+  - filter: ".party"
+    class: party
+    text-1: Party
   - filter: ".talk-panel"
     class: talk-panel
     text-1: Talk/Panel
-  - filter: ".partner-events"
-    class: partner-events
-    text-1: Partner Events
   - filter: ".workshop"
     class: workshop
     text-1: Workshop
-  focus:
-  - filter: ".fun"
-    class: fun
-    text-1: Fun
-  - filter: ".deia"
-    class: deia
-    text-1: Diversity, Equity, Inclusion, and Accessibility
-  - filter: ".motion"
-    class: motion
-    text-1: Motion Track, by Duke and Duck
-  - filter: ".skill-building"
-    class: skill-building
-    text-1: Skillbuilding
-  - filter: ".ui-ux"
-    class: ui-ux
-    text-1: UI/UX
   sold-out:
   - filter: ".sold-out"
     class: sold-out
@@ -238,43 +218,26 @@ events-filter:
   - filter: ".featured"
     class: featured
     text-1: Show Featured
-faqs:
-  header: FAQ
-  body: 'We recently held an information session to answer your questions directly.
-    Below are some of the responses from the session:'
-  button-url: "/faqs/"
-  button-label: Learn More
-  questions:
-  - question: Do I have to be a designer to submit an event proposal for consideration?
-    answer: |-
-      No, you don’t have to be a designer to submit an event proposal.
-
-      If you are a floral artist, cake decorator, architect, or any kind of creative, we want to hear from you, so [submit your ideas](https://docs.google.com/forms/d/e/1FAIpQLSeAC1FU3ai5MsumhCs5cFa27g2t_ScaSyfgFmtFDcO3dF1zyg/viewform).
-    trigger: question-1
-    expanded: true
-  - question: What are some successful event topics from the past?
-    answer: |-
-      Last year, event topics that were in line with what was going on in the world were very successful. Specifically, popular events focused on anti-racism, social justice, and accessibility.
-
-      Craft-based workshops were also wildly successful. Nonetheless, event success depends on the expertise and enthusiasm of the hosting community members and speakers.
-    trigger: question-2
-    expanded: true
-  - question: Will you offer support for logistics? For example, could you assist
-      in finding an event location?
-    answer: |-
-      Yes. If your event is selected, you will be confirmed as an event within the DCDW 2021 calendar.
-
-      One of the many things you’ll get from us to assist with your event is a volunteer Event Lead from early summer through DCDW to support you with event planning, logistics, and marketing.
-    trigger: question-3
-    expanded: true
-  - question: Are there any volunteer opportunities if I don’t want to pitch an idea
-      for an event?
-    answer: |-
-      Yes, DCDW is completely organized by volunteers, so there are small, medium, and large volunteer time commitment opportunities available if you’re looking for other ways to get involved.
-
-      Learn more about DCDW 2021, and take a look at the recording from our information session [here](https://dc.aiga.org/programs-initiatives/dc-design-week/).
-    trigger: question-4
-    expanded: true
+footer:
+  links:
+  - title: Twitter
+    url: https://www.twitter.com/dcdesignweek
+    icon: <i class="fab fa-twitter-square"></i>
+    aria-label: DCDW Twitter
+  - title: Instagram
+    url: https://www.instagram.com/dcdesignweek/
+    icon: <i class="fab fa-instagram-square"></i>
+    aria-label: DCDW Instagram
+  - title: Facebook
+    url: https://www.facebook.com/dcdesignweek/
+    icon: <i class="fab fa-facebook-square"></i>
+    aria-label: DCDW Facebook
+  - title: Github
+    url: https://github.com/AIGAdc/dcdesignweek.org
+    icon: <i class="fab fa-github-square"></i>
+    aria-label: DCDW Github
+  contact: designweek@dc.aiga.org
+  copyright: "&copy; AIGA DC | 2021 All Rights Reserved."
 makers:
   header: 'DC Design Week: Maker Directory'
   body: We’re all about celebrating the DMV’s creative voices — so what better way
@@ -295,24 +258,15 @@ navigation-offseason:
 - url: https://2020.dcdesignweek.org
   label: 2020
 navigation-production:
-- url: "/events/"
-  label: Events
-  aria-label: Events Page
-- url: "/events/self-guided"
-  label: Self Guided
-  aria-label: Events - Self Guided Page
-- url: "/maker/posters"
-  label: Posters
-  aria-label: Posters Page
-- url: "/maker/directory"
-  label: Maker Directory
-  aria-label: Maker Directory Page
 - url: "/about/"
   label: About
-  aria-label: About Page
+  aria-label: 
+- url: "/makers/"
+  label: Makers
+  aria-label: 
 - url: "/faqs/"
   label: FAQs
-  aria-label: FAQs Page
+  aria-label: 
 partner:
   header: Partner with Us
   body: 'DC Design Week is 100% volunteer-run, in concert with a consortium of local
@@ -346,121 +300,523 @@ past-editions:
     image: "/uploads/past-edition-2016.jpg"
     url: https://2016.dcdesignweek.org
     aria-label: 2016 DC Design Week Website
-posters:
-  header: Limited Edition Posters
-  body: Looking for even more amazing artwork from local artists? We’re delighted
-    to also be featuring five limited-edition DCDW posters, created by five up-and-coming
-    artists, and available to purchase through [Cherry Blossom Creative <i class="fas
-    fa-external-link-square-alt"></i>](https://cherryblossomcreative.com/){:target="_blank"
-    rel="noopener nofollow"}. See them all, learn about the artists, and get yours
-    today!
-  button-url: "/maker/posters"
-  button-label: See All Posters
-proposals:
-  header: 'New This Year: Hyperlocal'
-  body: |-
-    We’re excited to announce that this year we’re shifting our focus to feature events curated and hosted by our community — so … you!
-
-    Have no fear, some of your favorite annual events will still be on the calendar (including inspiring keynotes, fun parties, and more!) But this year, because bringing the creative community together is more important than ever, we want to pass the mic to you. While larger events like the kick-off party and keynotes will continue to be planned by the DCDW committee, the goal for the community-curated model is to provide value through partnership by supporting the community in planning their own events for DCDW.
-
-    <strong>The event proposal window is closed. Please stay tuned for this year's calendar of events.</strong>
-
-
-     If you are interested in volunteering, let us know <a href="https://docs.google.com/forms/d/e/1FAIpQLScgPaJeTiKd_CezxfQw2JaIGeQYSqJffbBipjZKXmotXLm28w/viewform">through this form</a>!
-  button-url: 
-  button-label: 
-proposals2:
-  header: I submitted an event proposal. What happens next?
-  body: "<strong>If your event is selected</strong>, it will be confirmed as an event
-    within the DC Design Week 2021 calendar. <strong>Yahoo!</strong> \U0001F389\n\n<strong>We
-    may work with you to refine some big picture event details</strong>, such as the
-    overall goals for the event, your intended audiences, etc. We may also work with
-    you to understand more of what you need from us in order to meet our mutual goals
-    in planning and executing a fabulous event.\n\n<strong>What you get from us:</strong>\n\n-
-    Your event will be included as part of the official DC Design Week 2021 line up
-    and you (or your organization) will be listed as a partner. We will promote your
-    event as a part of DCDW across our communication channels, which may include:
-    shoutouts on our social media channels, promotion on our website, listed on our
-    events calendar and other promotions scheduled for the week.\n- A toolkit of event
-    planning and marketing resources to support you with putting on an impactful event.\n-
-    A DCDW Event Lead (volunteer) to support you from early summer until DCDW with
-    event planning, logistics, and marketing. \n  - While our volunteers will offer
-    support, you will be responsible for planning and execution, and we expect you
-    to meet us halfway in marketing your event through your own communications channels.
-    Your DCDW Event Lead can work with you on what is the most effective way to do
-    this.\n- Event registration administration (via Eventbrite)\n- Event accessibility
-    support in compliance with ADA guidelines (e.g., closed captioning, verbit)\n-
-    Event technical support (e.g., access to Zoom, volunteers to help staff the virtual
-    events, etc.)\n- Access to additional volunteer support (week-of or day-of the
-    event) as-needed\n\n<strong>What we get from you:</strong>\n\n- Commitment to
-    hosting the event during DC Design Week 2021. We understand that life happens,
-    but if you’re submitting an event proposal, it means you’re committed to making
-    this event happen against most odds. \n- Agreement to follow the [Terms & Conditions](https://dc.aiga.org/programs-initiatives/dc-design-week/event-partner-terms-conditions/)
-    of proposing and holding an event for DC Design Week 2021.\n- Commitment to our
-    [code of conduct](https://dc.aiga.org/events/code-of-conduct/#:~:text=AIGA%20DC%20is%20dedicated%20to,%2C%20religion%2C%20or%20political%20affiliation.).\n-
-    Commitment to your event idea. We know that ideas and plans can change, but DCDW
-    selects its events with the entire week of programming in mind. We hope you understand
-    that in order to ensure we’re offering a diverse range of events to our community,
-    we will expect the event’s overall approach and scope to evolve in a constructive
-    way."
-self-guided:
-  header: Lorem Ipsum
-  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac augue id
-    lorem eleifend imperdiet in vitae orci. Cras molestie at nisi non porttitor.
-  button-url: "/events/self-guided/"
-  button-label: See Self-Guided Events
 sponsors:
   header: Sponsors and Partners
-  tier-one-header: Presenting sponsors
-  tier-two-header: Contributing Sponsors
-  tier-three-header: Supporting Sponsors
-  body: DC Design Week wouldn’t be the same without you. <strong>Thank you</strong>
-    for your support.
-  image-1: ''
-  image-1-alt: 
+  body: '"DC Design Week is 100% volunteer-run, in concert with a consortium of local
+    associations, meetup groups, and small businesses. We’re looking for sponsors
+    who can help ensure every event is as accessible and inclusive as possible, whether
+    through donations or in-kind gifts. If you’re interested in partnering with DC
+    Design Week this year, let us know."'
+  tier-one-header: Chita Rivera
+  tier-two-header: Cool "Disco" Dan
+  tier-three-header: Duke Ellington
+  tier-four-header: Chuck Brown
+  show-sponsor-tier-one: false
+  show-sponsor-tier-two: true
+  show-sponsor-tier-three: false
+  show-sponsor-tier-four: false
   sponsor-tier-one:
   - title: Sponsor Title
-    image: 
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-two:
-  - title: Sponsor Title
-    image: 
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
+  - title: UXPA DC
+    image: "/uploads/sponsor-uxpa.svg"
+    image-alt: White UXPA DC Logo
+    website: https://www.uxpadc.org/
+    aria-label: UXPA DC's Website
+  - title: This Could Be You
+    image: "/uploads/sponsor-this-could-be-you.png"
+    image-alt: Email us to become a DCDW Sponsor today!
+    website: mailto:dcdw@aiga.dc.org
+    aria-label: Email us to become a DCDW Sponsor today!
   sponsor-tier-three:
+  - title: Eaton
+    image: "/uploads/sponsor-eaton.svg"
+    image-alt: White Eaton Hoten Logo
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  sponsor-tier-four:
   - title: Sponsor Title
-    image: 
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+  - title: Sponsor Title
+    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image-alt: Logo Alt
+    website: https://dcdesignweek.org
+    aria-label: Website Aria Label
+staff:
+- image: "/uploads/headshot_richardbentham.jpg"
+  imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut
+    with a fade and rounder face.
+  name: Richard Bentham
+  role: Executive Director
+  pronouns: he / him / his
+  number: 1
+  website-url-1: http://rbentham.com/about
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Richard Bentham's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: 
+  website-url-3: https://www.linkedin.com/in/richard-bentham-4921a439/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Richard Bentham's LinkedIn
+- image: "/uploads/headshot_arianarodriguezgitler.jpg"
+  imageAlt: A smiling young Latina woman with wavy dark brown hair.
+  name: Ariana Rodriguez-Gitler
+  role: Deputy Executive Director
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Ariana Rodriguez-Gitler's Website
+  website-url-2: https://www.instagram.com/rgariana/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Ariana Rodriguez-Gitler's Instagram
+  website-url-3: https://www.linkedin.com/in/arianarg/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Ariana Rodriguez-Gitler's LinkedIn
+- image: "/uploads/headshot_joegreeley.jpg"
+  imageAlt: A white man with brown hair and glasses with a blue sweater vest and red
+    tie.
+  name: Joe Greeley
+  role: Board Liasion
+  pronouns: he / him / his
+  number: 2
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Joe Greeley's Website
+  website-url-2: https://www.instagram.com/jgreeleyjr/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Joe Greeley's Instagram
+  website-url-3: https://www.linkedin.com/in/joe-greeley-7677798/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Joe Greeley's LinkedIn
+- image: "/uploads/headshot_dannibaker.jpg"
+  imageAlt: A young, African American woman with a short tapered fade, wearing large
+    framed glasses and smiling.
+  name: Danni Baker
+  role: Program Director
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Danni Baker's Website
+  website-url-2: https://www.instagram.com/visionarydanni5/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Danni Baker's Instagram
+  website-url-3: https://www.linkedin.com/in/dannibaker/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Danni Baker's LinkedIn
+- image: "/uploads/headshot_elizaduquette.jpg"
+  imageAlt: A young white woman with blonde hair with great posture :) and a black
+    jumpsuit laughing towards the camera.
+  name: Eliza Duquette
+  role: Program Director
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.elizaduquette.design/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Eliza Duquette's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Eliza Duquette's Instagram
+  website-url-3: https://www.linkedin.com/in/elizaduquette/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Eliza Duquette's LinkedIn
+- image: "/uploads/headshot_daviddunston.jpg"
+  imageAlt: A young Black American man with a haircut known as the low-cut Caesar
+    wearing a white t-shirt and double-breasted black blazer smiling
+  name: David Dunston
+  role: Communications Director
+  pronouns: he / him / his
+  number: 2
+  website-url-1: http://davdun.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: David Dunston's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: David Dunston's Instagram
+  website-url-3: https://www.linkedin.com/in/daviddunston/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: David Dunston's LinkedIn
+- image: "/uploads/headshot_cynthiakim.jpg"
+  imageAlt: A young, smiling, Korean-American woman with big hoop earrings.
+  name: Cynthia Kim
+  role: Deputy Communications Director
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Cynthia Kim's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Cynthia Kim's Instagram
+  website-url-3: https://www.linkedin.com/in/cynthia-kim/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Cynthia Kim's LinkedIn
+- image: "/uploads/headshot_radhikabhatt.jpg"
+  imageAlt: 
+  name: Radhika Bhatt
+  role: Partnerships Director
+  pronouns: she / her / hers
+  number: 2
+  website-url-1: http://www.radhikabhatt.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Radhika Bhatt's Website
+  website-url-2: https://twitter.com/superbhatt
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Radhika Bhatt's Instagram
+  website-url-3: https://www.linkedin.com/in/radhika-bhatt/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Radhika Bhatt's LinkedIn
+- image: "/uploads/headshot_claireblaustein.jpg"
+  imageAlt: A young African American man with an afro and wearing glasses, pictured
+    in front of a wall with a pink glow, looking away from the camera.
+  name: Claire Blaustein
+  role: AIGA DC President
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Claire Blaustein's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Claire Blaustein's Instagram
+  website-url-3: 
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Claire Blaustein's LinkedIn
+- image: "/uploads/headshot_benabraham.jpg"
+  imageAlt: 
+  name: Ben Abraham
+  role: Community-Curated Events Manager
+  pronouns: he / him / his
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Ben Abraham's Website
+  website-url-2: https://www.instagram.com/benlenciagaaa
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Ben Abraham's Instagram
+  website-url-3: https://www.linkedin.com/in/ben-abraham
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Ben Abraham's LinkedIn
+- image: "/uploads/headshot_sydneyadams.jpg"
+  imageAlt: A young, African American woman wearing a cute pink blazer, pictured in
+    front of a baby pink background, smiling at the camera.
+  name: Sydney Adams
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Sydney Adams' Website
+  website-url-2: https://www.instagram.com/sydadams211/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Sydney Adams' Instagram
+  website-url-3: https://www.linkedin.com/in/sydney-adams/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Sydney Adams' LinkedIn
+- image: "/uploads/headshot_janessaarrington.jpg"
+  imageAlt: A young, African-American woman with cornrows, smiling into the camera
+    and wearing glasses.
+  name: Janessa Arrington
+  role: Keynote Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Janessa Arrington's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Janessa Arrington's Instagram
+  website-url-3: https://www.linkedin.com/in/janessa-arrington/?trk=people_directory
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Janessa Arrington's LinkedIn
+- image: "/uploads/headshot_kojoboateng.jpg"
+  imageAlt: A Black man with a shaved head who is smiling.
+  name: Kojo Boateng
+  role: Kickoff Event Lead
+  pronouns: he / him / his
+  number: 1
+  website-url-1: http://kojoboateng.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Kojo Boateng's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Kojo Boateng's Instagram
+  website-url-3: https://www.linkedin.com/in/kojoboateng/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Kojo Boateng's LinkedIn
+- image: "/uploads/headshot_jelenabudjevac.jpg"
+  imageAlt: 
+  name: Jelena Budjevac
+  role: Copywriter
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jelena Budjevac's Website
+  website-url-2: https://www.instagram.com/mllebonvivant/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jelena Budjevac's Instagram
+  website-url-3: https://www.linkedin.com/in/jelenabudjevac/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jelena Budjevac's LinkedIn
+- image: "/uploads/headshot_caracampbell.jpg"
+  imageAlt: An African American woman with afro puffs, smiling at the camera.
+  name: Cara Campbell
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.caracampbell.design
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Cara Campbell's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Cara Campbell's Instagram
+  website-url-3: https://www.linkedin.com/in/cara-campbell56
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Cara Campbell's LinkedIn
+- image: "/uploads/headshot_bennethchukwu.jpg"
+  imageAlt: A young, African-American male with long black dreads and wearing a pink
+    graphic t-shirt and glasses, smiling into the camera.
+  name: Benneth Chukwu
+  role: Designer
+  pronouns: he / him / his
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Benneth Chukwu's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Benneth Chukwu's Instagram
+  website-url-3: https://www.linkedin.com/in/benneth-chukwu/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Benneth Chukwu's LinkedIn
+- image: "/uploads/headshot_elaineheinzman.jpg"
+  imageAlt: 
+  name: Elaine Heinzman
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://elaineheinzman.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Elaine Heinzman's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Elaine Heinzman's Instagram
+  website-url-3: http://linkedin.com/in/elaineheinzman
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Elaine Heinzman's LinkedIn
+- image: "/uploads/headshot_jessicajosey.jpg"
+  imageAlt: 
+  name: Jessica Josey
+  role: Social Media Lead
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: http://www.jessicajosey.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jessica Josey's Website
+  website-url-2: https://www.instagram.com/jes.josey/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jessica Josey's Instagram
+  website-url-3: https://www.linkedin.com/in/jessica-josey
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jessica Josey's LinkedIn
+- image: "/uploads/headshot_joshkim.jpg"
+  imageAlt: 
+  name: Josh Kim
+  role: Accessibility Lead
+  pronouns: he / him / his
+  number: 3
+  website-url-1: http://www.joshkimux.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Josh Kim's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Josh Kim's Instagram
+  website-url-3: https://www.linkedin.com/in/joshkimux/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Josh Kim's LinkedIn
+- image: "/uploads/headshot_nicolemckinney.jpg"
+  imageAlt: 
+  name: Nicole McKinney
+  role: Keynote Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://nicolewmckinney.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Nicole McKinney's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Nicole McKinney's Instagram
+  website-url-3: https://www.linkedin.com/in/mckinney-nicole/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Nicole McKinney's LinkedIn
+- image: "/uploads/headshot_daniellemouledoux.jpg"
+  imageAlt: 
+  name: Danielle "Dee" Mouledoux
+  role: Workshop Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://mouledoux.com
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Danielle Mouledoux's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Danielle Mouledoux's Instagram
+  website-url-3: https://www.linkedin.com/in/dmouledoux/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Danielle Mouledoux's LinkedIn
+- image: "/uploads/headshot_johannaostrich.jpg"
+  imageAlt: A woman with short curly hair, glasses, and fabulous earrings.
+  name: Johanna Ostrich
+  role: Pop-Up Event Lead
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: http://johannaostrich.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Johanna Ostrich's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Johanna Ostrich's Instagram
+  website-url-3: https://www.linkedin.com/in/johannaostrich/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Johanna Ostrich's LinkedIn
+- image: "/uploads/headshot_jenapersico.jpg"
+  imageAlt: A smiling woman wearing a shirt patterned with hot air balloons, sitting
+    in front of a purple wall.
+  name: Jena Persico
+  role: Pop-Up Event Lead
+  pronouns: he / him / his
+  number: 3
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jena Persico's Website
+  website-url-2: https://www.instagram.com/alpacayoursuitcase
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jena Persico's Instagram
+  website-url-3: http://www.linkedin.com/in/jena-p-6051ab30
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jena Persico's LinkedIn
+- image: "/uploads/headshot_khanhpham.jpg"
+  imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces
+    who’s smiling and looking directly into the camera
+  name: Khanh Pham
+  role: Marketing Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://www.khanhp.com
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Khanh Pham's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Khanh Pham's Instagram
+  website-url-3: https://www.linkedin.com/in/bkhanhp
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Khanh Pham's LinkedIn
+- image: "/uploads/headshot_kristinrafael.jpg"
+  imageAlt: 
+  name: Kristin Rafael
+  role: Design Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://krafael.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Kristin Rafael's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Kristin Rafael's Instagram
+  website-url-3: http://linkedin.com/in/kristin-rafael-a2552985
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Kristin Rafael's LinkedIn
+- image: "/uploads/headshot_marcusrelacion.jpg"
+  imageAlt: 
+  name: Marcus Relacion
+  role: Web Developer
+  pronouns: he / him / his
+  number: 4
+  website-url-1: https://www.marcusrelacion.com
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Marcus Relacion's Website
+  website-url-2: https://www.instagram.com/marcusrelacion/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Marcus Relacion's Instagram
+  website-url-3: https://www.linkedin.com/in/marcusrelacion/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Marcus Relacion's LinkedIn
+- image: "/uploads/headshot_silviascript.jpg"
+  imageAlt: A young, smiling, South American indigenous woman with long black hair.
+  name: Silvia Script
+  role: Web Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: http://silviascript.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Silvia Script's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Silvia Script's Instagram
+  website-url-3: https://www.linkedin.com/in/silscript/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Silvia Script's LinkedIn
+- image: "/uploads/headshot_chelseawilson.jpg"
+  imageAlt: 
+  name: Chelsea Wilson
+  role: Web Designer
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Chelsea Wilson's Website
+  website-url-2: https://www.instagram.com/yxxko.jpg/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Chelsea Wilson's Instagram
+  website-url-3: https://www.linkedin.com/in/chelsea-wilson-6a8702101
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Chelsea Wilson's LinkedIn
 subscribe:
-  header: Subscribe for updates
-  body: Stay up to date on everything we have planned to celebrate the DC design community.
-    Follow us on Instagram, Twitter, LinkedIn, and and sign up below for updates from
-    DCDW and AIGA DC.
-  image-1: "/uploads/bubble-black-large-02.png"
-  image-1-alt: Floating amorphous bubbles
-volunteer:
-  header: Made with <span class="made-in-dc-heart"><svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256
-    96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5
-    199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" fill="#ec1001"/></svg>
-    in DC
-  unbranded-header: Made with heart in DC
-  body: DC Design Week runs on 100% volunteer power. We’re always working to make
-    this site better for you. If you see something, <strong>say something</strong>.
-  github: https://github.com/AIGAdc/dcdesignweek.org
-  image-1: ''
-  image-1-alt: 
+  header: Subscribe
+  body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
+  image: 
+  imageAlt: 
 ignore-everything-below: "<-- IGNORE EVERYTHING BELOW -->"
 encoding: utf-8
 lang: en-US
-theme-color: "#000000"
+theme-color: "#000"
 asseturl: "/assets/"
-baseurl: 
+baseurl: ''
 url: https://dcdesignweek.org
 email: designweek@dc.aiga.org
 google-analytics: UA-84499644-1
@@ -468,26 +824,6 @@ facebook:
   publisher: https://www.facebook.com/aigaDC/
 twitter:
   username: aigadc
-footer:
-  links:
-  - title: Twitter
-    url: https://www.twitter.com/dcdesignweek
-    icon: <i class="fab fa-twitter-square"></i>
-    aria-label: DC Design Week Twitter Page
-  - title: Instagram
-    url: https://www.instagram.com/dcdesignweek/
-    icon: <i class="fab fa-instagram-square"></i>
-    aria-label: DC Design Week Instagram Page
-  - title: Facebook
-    url: https://www.facebook.com/dcdesignweek/
-    icon: <i class="fab fa-facebook-square"></i>
-    aria-label: DC Design Week Facebook Page
-  - title: Github
-    url: https://github.com/AIGAdc/dcdesignweek.org
-    icon: <i class="fab fa-github-square"></i>
-    aria-label: DC Design Week Github Repository
-  contact: designweek@dc.aiga.org
-  copyright: "&copy; AIGA DC | 2021 All Rights Reserved."
 exclude:
 - package.json
 - package-lock.json
@@ -499,6 +835,8 @@ exclude:
 - ".sass-cache"
 - ".ruby-version"
 - ".jekyll-cache"
+- config.codekit3
+- axe-linter.yml
 include:
 - _redirects
 markdown: kramdown

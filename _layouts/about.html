@@ -2,7 +2,13 @@
 layout: base
 ---
 
-{% include block/sponsors-listing.html %}
-{% include block/general-partners.html %}
-{% include block/committee-listing.html %}
-{% include section-subscribe.html %}
+{% include block/hero-standard.html %}
+<span id="skip-to-content">
+    {% include block/ghostnote.html %}
+    <!-- {% include block/hyperlocal.html %} -->
+</span>
+{% include listing-sponsors.html %}
+{% include listing-staff.html %}
+{% include block/callout-photographer.html %}
+{% include block/subscribe.html %}
+

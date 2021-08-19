@@ -1,137 +1,87 @@
-.card {
-    @include flex-column;
-    transition: -webkit-filter $timing-quick ease-in;
-    transition: filter $timing-quick ease-in;
-    transition: filter $timing-quick ease-in, -webkit-filter $timing-quick ease-in;
-    @include apply-grayscale;
-}
-
-.card:hover {
-    @include remove-grayscale;
-}
-
 .card a {
-    color: $black;
+    color: var(--black);
+    display: block;
     text-decoration: none;
 }
 
 .card a:hover {
-    color: $dcdw-2021-cinnabar;
+    color: var(--cinnabar);
 }
 
-.card__image {
-    border: solid 4px $black;
+.card-image {
+    border: solid 1px var(--black);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    margin-bottom: -1px;
 }
 
-.card__image img {
-    -o-object-fit: cover;
+.card-image:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.card-image img {
+    min-height: 200px;
     object-fit: cover;
-    width: 100%;
-    aspect-ratio: 1 / 1;
+    object-position: center;
 }
 
-.card h3 {
-    font-family: $font-poppins;
+.card-event .card-image {
+    filter: unset;
+}
+
+.card-header h3 {
+    font-weight: 700;
+}
+
+.card-header h3,
+.card-header p {
+    font-size: var(--font-size-16);
+}
+
+.card-details {
+    align-content: center;
+    display: grid;
+    grid-gap: var(--space-32);
+    grid-template-columns: 1fr 3fr;
+}
+
+.card-date {
+    color: var(--black);
+    font-size: var(--font-size-16);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    position: relative;
     text-transform: uppercase;
 }
 
-.card__header {
-    background-color: $dcdw-2021-celeste;
-    border: solid 4px $black;
-    margin-top: -4px;
-    padding: $spacing-16;
+.card-date::before {
+    content: "";
+    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
+    background-color: var(--beige);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    inset: 0;
+    top: -16px;
+    left: 0;
+    z-index: -10;
 }
 
-// TODO: Refactor Everything Below
-/* ticker */
-
-.ticker {
-    overflow: hidden;
-    padding: $spacing-4;
+.card-date figure {
     position: absolute;
+    top: -16px;
     right: 0;
     bottom: 0;
     left: 0;
-    border: solid 1px $white;
 }
 
-.events-landing-layout .ticker {
-    border: none;
-    z-index: 200;
+.card-date p {
+    position: relative;
+    left: 16px;
 }
 
-.ticker.ticker--occured {
-    background-color: $black;
-    color: $white;
-}
-
-.ticker.ticker--sold-out {
-    background-color: $dcdw-2021-cinnabar;
-    color: $black;
-}
-
-.ticker.ticker--featured {
-    background-color: $white;
-    color: $black;
-}
-
-.home-layout .ticker p,
-.events-layout .ticker p,
-.events-landing-layout .ticker p {
-    display: inline-block;
-    font-family: $font-poppins;
-    font-size: $font-size-14;
-    margin: 0;
-    text-align: left;
-    white-space: nowrap;
-    text-transform: uppercase;
-    transform: translateX(100%);
-    width: 100%;
-}
-
-.home-layout .ticker p,
-.events-layout .ticker p {
-    -webkit-animation: ticker 10000ms ease-in infinite;
-    animation: ticker 10000ms ease-in infinite;
-}
-
-.events-landing-layout .ticker p {
-    -webkit-animation: ticker 30000ms ease-in infinite;
-    animation: ticker 30000ms ease-in infinite;
-}
-
-@media screen and (min-width: 1023px) {
-    .card--committee .card__image img {
-        max-height: 280px;
-    }
-}
-
-/* Move it (define the animation) */
-@-webkit-keyframes ticker {
-    0% {
-        -webkit-transform: translateX(100%);
-    }
-
-    100% {
-        -webkit-transform: translateX(-100%);
-    }
-}
-
-@keyframes ticker {
-    0% {
-        /* Firefox bug fix */
-        /* Firefox bug fix */
-        transform: translateX(100%);
-    }
-
-    100% {
-        /* Firefox bug fix */
-        /* Firefox bug fix */
-        transform: translateX(-100%);
-    }
-}
-
-.past-event,
-.events-filter__date--occurred {
-    opacity: 0.5 !important;
+.card-date p,
+.card-info p {
+    line-height: 1.6;
 }

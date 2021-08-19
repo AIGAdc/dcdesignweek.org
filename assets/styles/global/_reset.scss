@@ -1,8 +1,6 @@
-/* SECTION - reset 
-
+/* 
 👋🏾 Shoutout: Special thanks to Andy Bell for his helpful minimal reset:
 https://hankchizljaw.com/wrote/a-modern-css-reset/
-
 */
 
 /* Box sizing rules */
@@ -78,11 +76,11 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
     * {
-        -webkit-animation-duration: $timing-quick !important;
-        animation-duration: $timing-quick !important;
+        -webkit-animation-duration: 0 !important;
+        animation-duration: var(--timing-default) !important;
         -webkit-animation-iteration-count: 1 !important;
         animation-iteration-count: 1 !important;
-        transition-duration: $timing-quick !important;
+        transition-duration: var(--timing-default) !important;
         scroll-behavior: auto !important;
     }
 }

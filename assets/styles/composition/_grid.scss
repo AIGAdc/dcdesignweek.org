@@ -1,0 +1,123 @@
+.grid {
+    display: grid;
+    grid-gap: var(--space-32);
+    position: relative;
+    z-index: var(--index-5);
+
+    &--align-center {
+        align-items: center;
+    }
+
+    &--align-end {
+        align-items: end;
+    }
+
+    &--align-start {
+        align-items: start;
+    }
+
+    &--gap-none {
+        grid-gap: 0;
+    }
+}
+
+.grid--one-column,
+.grid--two-column,
+.grid--three-column,
+.grid--four-column {
+    grid-template-columns: 1fr;
+}
+
+.grid--one-column-span,
+.grid--two-column-span,
+.grid--three-column-span,
+.grid--four-column-span {
+    grid-column: span 1;
+}
+
+@media screen and (min-width: 768px) {
+    .grid {
+        grid-gap: var(--space-32);
+    }
+
+    .grid--one-column-span,
+    .grid--two-column-span,
+    .grid--three-column-span,
+    .grid--four-column-span {
+        grid-column: span 1;
+    }
+
+    .events ul,
+    .sponsors ul,
+    .staff ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .grid {
+        grid-gap: var(--space-64);
+    }
+
+    .grid--one-column {
+        grid-template-columns: 1fr;
+    }
+
+    .grid--two-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--three-column {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid--four-column {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid--one-column-span {
+        grid-column: span 1;
+    }
+
+    .grid--two-column-span {
+        grid-column: span 2;
+    }
+
+    .grid--three-column-span {
+        grid-column: span 3;
+    }
+
+    .grid--four-column-span {
+        grid-column: span 4;
+    }
+
+    .events ul,
+    // .sponsors ul,
+    .staff ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .sponsors ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.column-image figure figcaption {
+    display: none;
+}
+
+@media (prefers-reduced-data: reduce) {
+    .column-image figure img {
+        display: none;
+    }
+    .column-image figure figcaption {
+        display: block;
+    }
+}
+
+// .events .grid,
+// .ghostnote .grid,
+// .makers .grid,
+// .sponsors .grid,
+// .subscribe .grid {
+//     grid-template-columns: 1fr;
+// }

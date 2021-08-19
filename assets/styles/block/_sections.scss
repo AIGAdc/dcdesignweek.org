@@ -1,24 +1,42 @@
-.section {
+.subscribe {
     overflow: hidden;
-    padding: $spacing-64 $spacing-16;
-    position: relative;
 }
 
-.section--faqs {
-    overflow: unset;
+// Black Sections
+.about-layout #hero,
+.about-layout #sponsors,
+.about-layout .tear,
+.events-layout #faqs,
+.events-layout .tear,
+.events-single-layout #accessibility,
+.events-single-layout #faqs,
+.events-single-layout #hero,
+.events-single-layout #speakers,
+.faqs-layout #accessibility,
+.faqs-layout .tear,
+.home-layout #makers,
+.home-layout #sponsors,
+#photographer {
+    z-index: var(--index-9);
 }
 
-.section__overlay {
-    background-color: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.accessibility figure,
+.faqs figure,
+.hero-standard figure,
+.photographer figure {
+    display: none;
 }
 
-@media screen and (min-width: 1023px) {
-    .section {
-        padding: $spacing-120 $spacing-32;
+section#a11y-event-accommodations a,
+section#a11y-requests a {
+    color: var(--yellow);
+}
+
+@media screen and (min-width: 1366px) {
+    .accessibility figure,
+    .faqs figure,
+    .hero-standard figure,
+    .photographer figure {
+        display: block;
     }
 }

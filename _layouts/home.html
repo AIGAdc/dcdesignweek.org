@@ -2,12 +2,10 @@
 layout: base
 ---
 
-{% include section-hero.html %}
-{% include block/events-listing.html %}
-{% include block/general-makers.html %}
-{% include block/sponsors-listing.html %}
-{% include block/general-self-guided.html %}
-{% include section-subscribe.html %}
-{% include block/sponsors-listing.html %}
-{% include block/general-partners.html %}
-{% include block/committee-listing.html %}
+{% include block/hero-home.html %}
+<span id="skip-to-content">
+    {% include block/makers.html %}
+</span>
+{% include block/ghostnote.html %}
+{% include listing-sponsors.html %}
+{% include block/subscribe.html %}
