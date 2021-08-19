@@ -10,14 +10,14 @@ hero:
   subheader: |-
     DC Design Week (DCDW) is an annual celebration of DC’s creative community: an ever-growing body of professionals, makers, and voices working across disciplines.  We aspire to foster conversations that will challenge, excite, and promote change. This year, we’re shifting our focus to feature events curated and hosted by our community. Local makers can expect our vision for the future to be pluralistic and our art and design practices to contain a multitude of perspectives and experiences.
   image: /uploads/image-about-hero.png
-  imageAlt: 
+  imageAlt: Collage made up of a yellow abstract shape, and transparent tape flanking a photograph of a blurred Metro train in motion.
 
 ghostnote-header: Ghost Note Agency
 ghostnote-body: Ghost Note is a creative agency born + based in the District of Columbia. We believe that when good people come together they create truly great things.
 show-ghostnote-image: true
 ghostnote-image: /uploads/image-ghost.png
-ghostnote-imageAlt: Provide Image Alt
-ghostnote-button-label: Visit Site
+ghostnote-imageAlt: Collage made up of yellow and red abstract shapes, transparent tape and a sticker that says 2019, flanking a black abstract shape with the Ghost Note Agency logo.
+ghostnote-button-label: Ghostnote's Website
 ghostnote-button-url: https://www.ghostnoteagency.com/
 ghostnote-button-is-external-url: true
 
@@ -46,7 +46,7 @@ photographer-header: "Photos"
 photographer-body: "Marcus Relacion is a designer, developer, and photographer in the DMV area. Thank you for helping us feature DC through your lens and capturing hyperlocal in such vivid and impactful moments."
 show-photographer-image: true
 photographer-image: "/uploads/image-photographer.png"
-photographer-imageAlt: "Provide Image Alt"
+photographer-imageAlt: Collage made up of red abstract shapes, a sticker with a photograph of Marcus Relacion, photograph of MLK monument in DC, photograph of people getting off a Metro train, and a photograph of two men standing in a Metro train doorway.
 photographer-button-label: "Visit Site"
 photographer-button-url: "https://photos.marcusrelacion.com/"
 photographer-button-is-external-url: true
