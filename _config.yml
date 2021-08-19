@@ -464,7 +464,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Eliza Duquette's LinkedIn
   - image: '/uploads/headshot_daviddunston.jpg'
-    imageAlt:
+    imageAlt: A young Black American man with a haircut known as the low-cut Caesar wearing a white t-shirt and double-breasted black blazer smiling
     name: David Dunston
     role: Communications Director
     pronouns: he / him / his
@@ -554,7 +554,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Sydney Adams' LinkedIn
   - image: '/uploads/headshot_janessaarrington.jpg'
-    imageAlt:
+    imageAlt: A young, African-American woman with cornrows, smiling into the camera and wearing glasses.
     name: Janessa Arrington
     role: Keynote Event Lead
     pronouns: she / her / hers
@@ -614,7 +614,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Cara Campbell's LinkedIn
   - image: '/uploads/headshot_bennethchukwu.jpg'
-    imageAlt:
+    imageAlt: A young, African-American male with long black dreads and wearing a pink graphic t-shirt and glasses, smiling into the camera.
     name: Benneth Chukwu
     role: Designer
     pronouns: he / him / his
@@ -734,7 +734,7 @@ staff:
     website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
     website-aria-label-3: Jena Persico's LinkedIn
   - image: '/uploads/headshot_khanhpham.jpg'
-    imageAlt:
+    imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces who’s smiling and looking directly into the camera
     name: Khanh Pham
     role: Marketing Lead
     pronouns: she / her / hers
