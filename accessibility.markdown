@@ -15,7 +15,7 @@ hero:
     - Provide contacts to request any accommodations that may have been missed or undocumented
     - Encourage feedback from the community on how we can evolve to be more inclusive in the future.
   image: /uploads/image-a11y.png
-  imageAlt: 
+  imageAlt: Collage made up of purple abstract shapes, transparent tape flanking a photograph of a three people going down an escalator with a man holding a newspaper.
 
 a11y-working-on-header: What We're Working On
 a11y-working-on-body: |-

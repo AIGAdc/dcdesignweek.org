@@ -12,7 +12,7 @@ hero:
     
     Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1.
   image: "/uploads/image-makers-hero.png"
-  image-alt:
+  imageAlt: Collage made up of purple abstract shapes, and transparent tape, flanking a photograph of an AIGA member making buttons with a button maker.
   button-label: Apply Today
   button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
   button-is-external-url: true
@@ -28,7 +28,7 @@ hyperlocal-body: |-
   If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing artists up with the 27 different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
 show-hyperlocal-image: true
 hyperlocal-image: /uploads/image-hyperlocal.png
-hyperlocal-imageAlt: Provide Image Alt
+hyperlocal-imageAlt: Collage made up of purple abstract shapes, and transparent tape, flanking a photograph of two people walking with a large fountain spraying in the background.
 hyperlocal-button-label: Apply Today
 hyperlocal-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
 hyperlocal-button-is-external-url: true
