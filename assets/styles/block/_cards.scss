@@ -26,6 +26,12 @@
     object-position: center;
 }
 
+.card-image a {
+    color: var(--celeste);
+    text-align: center;
+    text-decoration: underline;
+}
+
 .card-event .card-image {
     filter: unset;
 }
