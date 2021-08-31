@@ -13,7 +13,7 @@ hero:
   imageAlt: Collage made up of purple abstract shapes, and transparent tape, flanking
     a photograph of an AIGA member making buttons with a button maker.
   button-label: Apply Today
-  button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+  button-url: https://forms.gle/WeW1QbHHyQeFN8Z9A
   button-is-external-url: true
 hyperlocal-header: Options for Participating in the Pop-Up
 hyperlocal-body: "There are 2 options for participating this year:  \n\n### 1) Consignment
@@ -32,7 +32,7 @@ hyperlocal-imageAlt: Collage made up of purple abstract shapes, and transparent 
   flanking a photograph of two people walking with a large fountain spraying in the
   background.
 hyperlocal-button-label: Apply Today
-hyperlocal-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+hyperlocal-button-url: https://forms.gle/WeW1QbHHyQeFN8Z9A
 hyperlocal-button-is-external-url: true
 ---
 
