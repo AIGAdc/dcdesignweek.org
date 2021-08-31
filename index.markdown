@@ -25,7 +25,7 @@ makers-imageAlt: Collage made up of red abstract shapes, transparent tape and a 
   maker.
 show-featured-events: false
 makers-button-label: Apply Here
-makers-button-url: https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/edit
+makers-button-url: https://forms.gle/WeW1QbHHyQeFN8Z9A
 makers-button-is-external-url: true
 makers-button-aria: 
 events-header: Events
