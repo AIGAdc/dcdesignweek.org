@@ -39,7 +39,7 @@ sponsors-header: Sponsors and Partners
 sponsors-body: DC Design Week is 100% volunteer-run, and it wouldn’t be the same without
   our partners and sponsors. We’re looking for sponsors who can help ensure every
   event is as accessible and inclusive as possible. If you’re interested in partnering
-  with DC Design Week this year, let us know.
+  with DC Design Week this year, let us know. For this year's sponsorship levels, we chose to pay tribute to some of DC's most famous artists.
 show-sponsors-image: false
 sponsors-image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
 sponsors-imageAlt: Provide Image Alt
