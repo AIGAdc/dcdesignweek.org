@@ -1,7 +1,6 @@
 ---
 title: The FUNdamentals of Creativity
 date: 2021-09-10 17:28:00 -04:00
-published: false
 image: "/uploads/The-FUNdamentals-of-Creativity_Hero.png"
 description: A crash course in creative theory, actionable creative principles and
   techniques to elevate the levels of creativity for both yourself and your team.
