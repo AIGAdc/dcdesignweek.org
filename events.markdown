@@ -1,7 +1,6 @@
 ---
 title: Events
 permalink: "/events/"
-published: true
 layout: events
 hero:
 - has-hero: true
