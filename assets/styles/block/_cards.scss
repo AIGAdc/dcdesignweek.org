@@ -26,6 +26,11 @@
     object-position: center;
 }
 
+.card-sponsors .card-image img {
+    max-width: 144px;
+    max-height: 120px;
+}
+
 .card-image a {
     color: var(--celeste);
     text-align: center;
