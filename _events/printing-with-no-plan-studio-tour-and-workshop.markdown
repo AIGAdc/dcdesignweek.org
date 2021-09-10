@@ -32,27 +32,27 @@ has-speakers:
       printing equipment. Originally from New Jersey, Kirsch now lives in Takoma Park,
       Maryland with his wife, two boys and cat Penny.
 accessibility:
-  body: "- A sign language interpreter will not be present unless requested. If requested,
-    we will do our best to employ a sign language interpreter for the event.\n- Location
+  body: "* A sign language interpreter will not be present unless requested. If requested,
+    we will do our best to employ a sign language interpreter for the event.\n* Location
     is not ADA accessible \nShop is at the end of Jesse's driveway. There are no steps
     and everything is at ground level. The shop itself is pretty tight, but people
     will be sitting on the driveway. This is at my private residence and trying to
-    keep people out of the house!\n- Bathrooms are unavailable at this location.\n\nIf
+    keep people out of the house!\n* Bathrooms are unavailable at this location.\n\nIf
     you need any additional accommodations, please contact us using a method that
-    works best for you:\n- <a href=”mailto:accessibility@dc.aiga.org”>Email our accessibility
-    team</a> at accessibility@dc.aiga.org.\n- <a href=\"tel:571-422-2656\">Call or
-    text our accessibility lead</a> Josh Kim at 571-422-2656.\n- <a href=”https://forms.gle/VTys8LzewYs2isUm7”>Request
-    an accommodation through our Google Form.</a>\nWe honor your privacy. No identifying
-    information like your name is required to request an accomodation, and all details
-    will be deleted once completed. \nYou can learn more about how we’re making DC
-    Design Week an accessible experience by visiting our <a href=”https://dcdesignweek.org/accessibility/”>accessibility
-    statement</a>."
+    works best for you:\n* <a href=”mailto:accessibility@dc.aiga.org”>Email our accessibility
+    team</a> at accessibility@dc.aiga.org.\n* <a href=\"tel:571-422-2656\">Call or
+    text our accessibility lead</a> Josh Kim at 571-422-2656.\n* [Request an accommodation
+    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe honor your
+    privacy. No identifying information like your name is required to request an accommodation,
+    and all details will be deleted once completed. \nYou can learn more about how
+    we’re making DC Design Week an accessible experience by visiting our [accessibility
+    statement](https://dcdesignweek.org/accessibility/)."
 platform:
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
-    <i>What COVID precautions are being taken for this event?</i>
+    *What COVID precautions are being taken for this event?*
     We are encouraging those not drinking or eating to wear a mask.
-    <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
+    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
 filter-date:
   is-day-2: true
@@ -69,4 +69,4 @@ Having “no plan” of where the business would ultimately take him, Jesse star
 The morning will conclude with a fun, hands-on project allowing guests to get their hands on a vintage 1940s Vandercook proofing press and bring home their own letterpress poster.
 
 
-<i>This event was put together in partnership with <a href="https://www.noplan.press/">No Plan Press</a></i>
+*This event was put together in partnership with [No Plan Press](https://www.noplan.press/).*
