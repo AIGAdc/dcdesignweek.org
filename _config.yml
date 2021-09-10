@@ -258,6 +258,9 @@ navigation-offseason:
 - url: https://2020.dcdesignweek.org
   label: 2020
 navigation-production:
+- url: "/events/"
+  label: Events
+  aria-label: 
 - url: "/about/"
   label: About
   aria-label: 
@@ -311,28 +314,13 @@ sponsors:
   tier-two-header: Cool "Disco" Dan
   tier-three-header: Duke Ellington
   tier-four-header: Chuck Brown
-  show-sponsor-tier-one: false
+  show-sponsor-tier-one: true
   show-sponsor-tier-two: true
   show-sponsor-tier-three: false
-  show-sponsor-tier-four: false
+  show-sponsor-tier-four: true
   sponsor-tier-one:
   - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image: uploads/sponsor-fjord.png
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
@@ -341,6 +329,16 @@ sponsors:
     image: "/uploads/sponsor-uxpa.svg"
     image-alt: White UXPA DC Logo
     website: https://www.uxpadc.org/
+    aria-label: UXPA DC's Website
+  - title: UXPA DC
+    image: "/uploads/sponsor-eaton.png"
+    image-alt: White Eaton Hotel Logo
+    website: https://www.eatonworkshop.com/hotel/dc
+    aria-label: UXPA DC's Website
+  - title: UXPA DC
+    image: "/uploads/sponsor-bixal.svg"
+    image-alt: White Bixal Logo
+    website: https://www.bixal.com/
     aria-label: UXPA DC's Website
   - title: This Could Be You
     image: "/uploads/sponsor-this-could-be-you.png"
@@ -356,7 +354,7 @@ sponsors:
     aria-label: Website Aria Label
   sponsor-tier-four:
   - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image: uploads/sponsor-lions-den.svg
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
