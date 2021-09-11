@@ -6,8 +6,8 @@ description: What guides you to create your best work or a better life?  We’ll
   you identify, develop & incorporate your own keywords to drive you to success in
   whatever you do.
 event-date: 2021-10-01 11:30:00 -04:00
-start-time: 11:30 AM
-end-time: 1:30 PM
+start-time: 11:30 am
+end-time: 1:00 pm
 image-alt: 'Collage of photos including: Dan Banks, a caucasian adult male with a
   buzzed head, rounded glasses, in a navy sweater and down vest, sitting outside;
   Kerri Sarembock, a caucasian adult female with shoulder-length auburn hair, red
@@ -57,25 +57,26 @@ has-speakers:
     website-url: https://www.linkedin.com/in/eliza-lubetkin
 platform:
   is-in-person: false
-  remote-body: "This event will be streamed via Zoom: \n- In order to participate
+  remote-header: Virtual Platform & How to Prepare
+  remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video.\n* Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
-    unless technical issues occur. The <a href=”https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/”>recordings
-    will be shared in the AIGA DC recordings archive</a> for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can <a href=”https://dc.aiga.org/membership/membership-rates/”>register
-    for a membership</a> on our website for just $50 for a year.)</i>\n- Zoom’s breakout
-    room technology will be used for this event. If you use assistive technology,
-    such as a screen reader or need live captioning, let us know before or during
-    the event and you can opt to stay in the primary room. The primary room will retain
-    live captioning and will require no additional navigation.\n\n- Questions for
-    the speaker can be asked live during the event through the chat or by speaking
-    off mute during the Q&A portion of the event.\n-You can find more about joining
-    our virtual events, including how to connect, directions to troubleshoot, and
-    information about our refund policy, in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a>.\n\n<b>How
-    to Prepare</b>\n- Have paper and pen/pencil on hand. \n- Markers or colored pencils
+    — and to create space for intimate conversations.\n* This event will be recorded
+    unless technical issues occur. The [recordings will be shared in the AIGA DC recordings
+    archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/)
+    for AIGA members to rewatch or catch up on at a later date. *(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website
+    for just $50 for a year.)*\n* Zoom’s breakout room technology will be used for
+    this event. If you use assistive technology, such as a screen reader or need live
+    captioning, let us know before or during the event and you can opt to stay in
+    the primary room. The primary room will retain live captioning and will require
+    no additional navigation.\n* Questions for the speaker can be asked live during
+    the event through the chat or by speaking off mute during the Q&A portion of the
+    event.\nYou can find more about joining our virtual events, including how to connect,
+    directions to troubleshoot, and information about our refund policy, in our [FAQs](https://2020.dcdesignweek.org/faqs/).\n\n**How
+    to Prepare**\n* Have paper and pen/pencil on hand. \n* Markers or colored pencils
     could be handy but not required."
 filter-date:
   is-day-1: true
