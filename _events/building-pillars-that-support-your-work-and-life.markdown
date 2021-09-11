@@ -86,22 +86,21 @@ filter-type:
   is-workshop: true
 ---
 
-What guides you to create your best work or a better life? 
+What guides you to create your best work or a better life?  <br>
 
-At Project Design Co, we asked ourselves this question and dove into a month-long team retreat to find our core values. What was what we call our Pillars of Design, a set of six words that flow through all our work. They guide us when we face a blank screen, a new proposal, a crushing deadline, ourselves and each other. 
+At Project Design Co, we asked ourselves this question and dove into a month-long team retreat to find our core values. What was what we call our Pillars of Design, a set of six words that flow through all our work. They guide us when we face a blank screen, a new proposal, a crushing deadline, ourselves and each other.  <br>
 
-Whether in your work or personal life, you can benefit from establishing clearer signs to point the way.  This workshop will guide you through a condensed journey to establish or hone your own set of pillars that resonate with you. We’ll help you identify, develop & incorporate your own keywords to drive you to success in all you do.
+Whether in your work or personal life, you can benefit from establishing clearer signs to point the way.  This workshop will guide you through a condensed journey to establish or hone your own set of pillars that resonate with you. We’ll help you identify, develop & incorporate your own keywords to drive you to success in all you do.  <br>
 
 In this workshop, you'll:
--  start building a foundation based on passion, drive, curiosity, experience, and goals. 
-- identify times you made a big change, what made it successful, and learn how you can apply this knowledge. 
-- identify your "why's" of what you do. 
-- learn about the importance of word choice and intent.
-- gain insights to your core values.
-- brainstorm and review your ideas in small breakout groups.
-- walk away with a set of pillars that you can take back to your team or start implementing now.
+*  Start building a foundation based on passion, drive, curiosity, experience, and goals. 
+* Identify times you made a big change, what made it successful, and learn how you can apply this knowledge. 
+* Identify your "why's" of what you do. 
+* Learn about the importance of word choice and intent.
+* Gain insights to your core values.
+* Brainstorm and review your ideas in small breakout groups.
+* Walk away with a set of pillars that you can take back to your team or start implementing now.  <br>
 
-This workshop is for any designer (freelance or part of a team), manager, or leader who is looking to strengthen their own brand, gain focus, and connect with purpose.
+This workshop is for any designer (freelance or part of a team), manager, or leader who is looking to strengthen their own brand, gain focus, and connect with purpose.  <br><br> 
 
-
-<i>This event was put together in partnership with <a href="https://www.projectdesigncompany.com/">Project Design Co.</a>.</i>
+*This event was put together in partnership with [Project Design Co.](https://www.projectdesigncompany.com/).*
