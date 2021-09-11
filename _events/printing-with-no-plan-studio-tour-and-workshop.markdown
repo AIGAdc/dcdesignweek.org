@@ -45,11 +45,11 @@ accessibility:
     works best for you:\n* <a href=”mailto:accessibility@dc.aiga.org”>Email our accessibility
     team</a> at accessibility@dc.aiga.org.\n* <a href=\"tel:571-422-2656\">Call or
     text our accessibility lead</a> Josh Kim at 571-422-2656.\n* [Request an accommodation
-    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe honor your
-    privacy. No identifying information like your name is required to request an accommodation,
-    and all details will be deleted once completed. \nYou can learn more about how
-    we’re making DC Design Week an accessible experience by visiting our [accessibility
-    statement](https://dcdesignweek.org/accessibility/)."
+    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).  <br>\nWe honor
+    your privacy. No identifying information like your name is required to request
+    an accommodation, and all details will be deleted once completed. \nYou can learn
+    more about how we’re making DC Design Week an accessible experience by visiting
+    our [accessibility statement](https://dcdesignweek.org/accessibility/)."
 platform:
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
