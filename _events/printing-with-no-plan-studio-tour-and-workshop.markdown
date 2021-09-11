@@ -4,7 +4,7 @@ date: 2021-09-10 17:48:00 -04:00
 image: "/uploads/No-Plan-Press-hero.jpg"
 description: Jesse Kirsch discusses his letterpress print shop, how the pandemic impacted
   his business, and offers a workshop for guests to print their own letterpress posters.
-event-date: 2021-10-02 00:00:00 -04:00
+event-date: 2021-10-02 09:00:00 -04:00
 start-time: 9:00 am
 end-time: 10:00 am
 image-alt: A collage of images of a printing press.
@@ -17,7 +17,10 @@ tickets:
   non-member-button-label: "$20 — Non-members"
 venue:
   name: No Plan Press
-  info: "7419 Baltimore Ave \nTakoma Park, MD 20912\n(Garage / Driveway)"
+  info: |-
+    7419 Baltimore Ave   <br>
+    Takoma Park, MD 20912  <br>
+    (Garage / Driveway)
 has-speakers:
   speakers:
   - name: Jesse Kirsch
