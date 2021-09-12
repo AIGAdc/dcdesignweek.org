@@ -316,21 +316,21 @@ sponsors:
   tier-four-header: Chuck Brown
   show-sponsor-tier-one: true
   show-sponsor-tier-two: true
-  show-sponsor-tier-three: false
+  show-sponsor-tier-three: true
   show-sponsor-tier-four: true
   sponsor-tier-one:
   - title: Sponsor Title
-    image: uploads/sponsor-fjord.png
+    image: /uploads/sponsor-fjord.png
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-two:
-  - title: UXPA DC
-    image: "/uploads/sponsor-uxpa.svg"
-    image-alt: White UXPA DC Logo
-    website: https://www.uxpadc.org/
-    aria-label: UXPA DC's Website
-  - title: UXPA DC
+  # - title: UXPA DC
+  #   image: "/uploads/sponsor-uxpa.svg"
+  #   image-alt: White UXPA DC Logo
+  #   website: https://www.uxpadc.org/
+  #   aria-label: UXPA DC's Website
+  - title: Eaton Hotel 
     image: "/uploads/sponsor-eaton.png"
     image-alt: White Eaton Hotel Logo
     website: https://www.eatonworkshop.com/hotel/dc
@@ -340,36 +340,16 @@ sponsors:
     image-alt: White Bixal Logo
     website: https://www.bixal.com/
     aria-label: UXPA DC's Website
+  sponsor-tier-three:
   - title: This Could Be You
     image: "/uploads/sponsor-this-could-be-you.png"
     image-alt: Temporary sponsor logo
     website: mailto:dcdw@aiga.dc.org
     aria-label: Email us to become a DCDW Sponsor today!
     show-caption: true
-  sponsor-tier-three:
-  - title: Eaton
-    image: "/uploads/sponsor-eaton.svg"
-    image-alt: White Eaton Hoten Logo
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
   sponsor-tier-four:
   - title: Sponsor Title
-    image: uploads/sponsor-lions-den.svg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
-    aria-label: Website Aria Label
-  - title: Sponsor Title
-    image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+    image: /uploads/sponsor-lions-den.svg
     image-alt: Logo Alt
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
