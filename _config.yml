@@ -325,21 +325,21 @@ sponsors:
     website: https://dcdesignweek.org
     aria-label: Website Aria Label
   sponsor-tier-two:
-  # - title: UXPA DC
-  #   image: "/uploads/sponsor-uxpa.svg"
-  #   image-alt: White UXPA DC Logo
-  #   website: https://www.uxpadc.org/
-  #   aria-label: UXPA DC's Website
   - title: Eaton Hotel 
-    image: "/uploads/sponsor-eaton.png"
+    image: /uploads/sponsor-eaton.png
     image-alt: White Eaton Hotel Logo
     website: https://www.eatonworkshop.com/hotel/dc
     aria-label: UXPA DC's Website
-  - title: UXPA DC
-    image: "/uploads/sponsor-bixal.svg"
+  - title: Bixal
+    image: /uploads/sponsor-bixal.svg
     image-alt: White Bixal Logo
     website: https://www.bixal.com/
     aria-label: UXPA DC's Website
+  - title: Adobe
+    image: "/uploads/sponsor-adobe.png"
+    image-alt: White Adobe Logo
+    website: https://www.adobe.com/
+    aria-label: Adobe's Website
   sponsor-tier-three:
   - title: This Could Be You
     image: "/uploads/sponsor-this-could-be-you.png"
