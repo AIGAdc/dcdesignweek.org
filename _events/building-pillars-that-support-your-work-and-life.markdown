@@ -34,6 +34,9 @@ speakers:
     in 2002 and brings strategy, empathy, and creativity to every user-focused project.
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/danbanks/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 - name: Kerri Sarembock
   pronouns: 
   title: Art Director, Project Manager
