@@ -16,29 +16,35 @@ tickets:
   non-member-button-label: Free — Non-members
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Alissa (Al) Millenson
-    pronouns: she | her
-    title: Senior Service and Interaction Designer, Fjord
-    bio: Al Millenson is a Senior Service and Interaction Designer with Fjord, who
-      has held previous roles in service design at Phillips, Booz Allen Hamilton and
-      Peer Insight.
-    website-label: Website
-    website-url: https://alissamillenson.com
-  - name: Tarek Kouddous
-    pronouns: he | him
-    title: Founder/Creative Director, Radical Empathy
-    bio: Tarek Kouddous is the Founder and Creative Director of Radical Empathy, an
-      art production startup charged with co-creating transformative experiences to
-      vitalize community belonging. Focusing on unconventional spaces across the city,
-      his launch production this summer targets 20 utility box murals in his residential
-      neighborhood Logan Circle, assembling 15 local DMV artists and three community
-      non-profits. Last year, he organized 23 plywood murals amidst social demonstrations.
-      Born and raised in Egypt, Kouddous believes in transforming space into place
-      with diversity of personality and hyper-local harmony of neighborhood and workhood.
-    website-label: Website
-    website-url: https://radicalempathynow.com/
+has-speakers: true
+speakers:
+- name: Alissa (Al) Millenson
+  pronouns: she | her
+  title: Senior Service and Interaction Designer, Fjord
+  bio: Al Millenson is a Senior Service and Interaction Designer with Fjord, who
+    has held previous roles in service design at Phillips, Booz Allen Hamilton and
+    Peer Insight.
+  website-label: Website
+  website-url: https://alissamillenson.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Tarek Kouddous
+  pronouns: he | him
+  title: Founder/Creative Director, Radical Empathy
+  bio: Tarek Kouddous is the Founder and Creative Director of Radical Empathy, an
+    art production startup charged with co-creating transformative experiences to
+    vitalize community belonging. Focusing on unconventional spaces across the city,
+    his launch production this summer targets 20 utility box murals in his residential
+    neighborhood Logan Circle, assembling 15 local DMV artists and three community
+    non-profits. Last year, he organized 23 plywood murals amidst social demonstrations.
+    Born and raised in Egypt, Kouddous believes in transforming space into place
+    with diversity of personality and hyper-local harmony of neighborhood and workhood.
+  website-label: Website
+  website-url: https://radicalempathynow.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   in-person-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

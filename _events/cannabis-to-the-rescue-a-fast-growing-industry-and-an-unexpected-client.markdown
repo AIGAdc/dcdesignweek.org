@@ -22,35 +22,44 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Julia Ames
-    pronouns: she | her
-    title: Founder & Chief Creative Officer
-    bio: An award-winning designer and creative director, Julia founded Spoolia Design
-      in 2008. Her vision drives what is now Humankind Studio to create memorable
-      work with impact. Julia earned an MFA from SVA and has worked for Design Army
-      and The New York Times Co, among others.
-    website-label: 
-    website-url: 
-  - name: Micah Greenberg
-    pronouns: he | him
-    title: Content Lead
-    bio: Micah is Humankind Studio’s resident brand guru and wordsmith. He names companies
-      and builds breakthrough strategies for brand launches and creative campaigns.
-      He’s worked at NPR and The Atlantic, and holds a BA from Brown University in
-      Media Studies and Creative Writing.
-    website-label: 
-    website-url: 
-  - name: Patti Look
-    pronouns: she | her
-    title: Art Director
-    bio: Patti is an NYC-based art director who loves to see branding, CPG, and retail
-      design come alive in the real world. She enjoys seeking out other DMV/Terp transplants,
-      running, and ice cream. Patti earned a BA from the University of Maryland and
-      has worked for UMD, Daily Burn, and New York Road Runners, among others.
-    website-label: 
-    website-url: 
+has-speakers: true
+speakers:
+- name: Julia Ames
+  pronouns: she | her
+  title: Founder & Chief Creative Officer
+  bio: An award-winning designer and creative director, Julia founded Spoolia Design
+    in 2008. Her vision drives what is now Humankind Studio to create memorable
+    work with impact. Julia earned an MFA from SVA and has worked for Design Army
+    and The New York Times Co, among others.
+  website-label: 
+  website-url: 
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Micah Greenberg
+  pronouns: he | him
+  title: Content Lead
+  bio: Micah is Humankind Studio’s resident brand guru and wordsmith. He names companies
+    and builds breakthrough strategies for brand launches and creative campaigns.
+    He’s worked at NPR and The Atlantic, and holds a BA from Brown University in
+    Media Studies and Creative Writing.
+  website-label: 
+  website-url:
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Patti Look
+  pronouns: she | her
+  title: Art Director
+  bio: Patti is an NYC-based art director who loves to see branding, CPG, and retail
+    design come alive in the real world. She enjoys seeking out other DMV/Terp transplants,
+    running, and ice cream. Patti earned a BA from the University of Maryland and
+    has worked for UMD, Daily Burn, and New York Road Runners, among others.
+  website-label: 
+  website-url: 
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   remote-body: "This event will be streamed via Zoom: \n- In order to participate

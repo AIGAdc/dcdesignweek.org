@@ -17,15 +17,18 @@ tickets:
 venue:
   name: Heurich House Museum
   info: 1921 Sunderland PL NW,  Washington, DC 20036
-has-speakers:
-  speakers:
-  - name: Rina Alfonso
-    pronouns: she | they
-    title: Founder and Creative Director
-    bio: Rina Alfonso, RGD is an exhibit designer, small business owner, and artist
-      from Manila, Philippines, and based in Washington, DC.
-    website-label: LinkedIn
-    website-url: http://linkedin.com/in/alfonsorina
+has-speakers: true
+speakers:
+- name: Rina Alfonso
+  pronouns: she | they
+  title: Founder and Creative Director
+  bio: Rina Alfonso, RGD is an exhibit designer, small business owner, and artist
+    from Manila, Philippines, and based in Washington, DC.
+  website-label: LinkedIn
+  website-url: http://linkedin.com/in/alfonsorina
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "- A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n-The

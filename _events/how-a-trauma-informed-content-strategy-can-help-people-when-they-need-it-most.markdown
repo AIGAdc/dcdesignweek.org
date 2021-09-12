@@ -17,15 +17,18 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Tamar Fox
-    pronouns: she | her
-    title: Senior content strategist
-    bio: Tamar Fox is a senior content strategist at Nava PBC, where she focuses on
-      bringing a trauma-informed approach to digital government services.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/foxtamar/
+has-speakers: true
+speakers:
+- name: Tamar Fox
+  pronouns: she | her
+  title: Senior content strategist
+  bio: Tamar Fox is a senior content strategist at Nava PBC, where she focuses on
+    bringing a trauma-informed approach to digital government services.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/foxtamar/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   remote-body: "This event will be streamed via Zoom: \n- In order to participate

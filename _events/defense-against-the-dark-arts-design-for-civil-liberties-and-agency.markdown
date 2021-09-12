@@ -18,15 +18,18 @@ tickets:
   non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Kiran Wattamwar
-    pronouns: she | they
-    title: Privacy and Civil Liberties Engineer @ Palantir Technologies
-    bio: 'Kiran Wattamwar (MIT ’17, Harvard MDE ‘19) is a designer and technologist
-      working on human rights, civil liberties, and privacy protections at Palantir. '
-    website-label: Website
-    website-url: https://kiranw.github.io/design-guide/
+has-speakers: true
+speakers:
+- name: Kiran Wattamwar
+  pronouns: she | they
+  title: Privacy and Civil Liberties Engineer @ Palantir Technologies
+  bio: 'Kiran Wattamwar (MIT ’17, Harvard MDE ‘19) is a designer and technologist
+    working on human rights, civil liberties, and privacy protections at Palantir. '
+  website-label: Website
+  website-url: https://kiranw.github.io/design-guide/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-remote: true
   remote-body: "This event will be streamed via Zoom: \n* In order to participate

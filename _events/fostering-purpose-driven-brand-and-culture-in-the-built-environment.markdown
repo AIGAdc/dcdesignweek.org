@@ -23,49 +23,64 @@ tickets:
   non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Steven Joswick
-    pronouns: he | him
-    title: Studio Director, Senior Associate, Gensler
-    bio: 'Steven is a Design Director and Co-Director of the Brand Design studio in
-      Gensler’s Washington DC office. He works closely with his clients, asking hard
-      questions to help bring clarity to complex problems and design delightful experiences
-      that add value to their business. '
-    website-label: LinkedIn
-    website-url: " https://www.linkedin.com/in/steven-joswick-a539b35/"
-  - name: Laurent Odde
-    pronouns: 
-    title: Program Manager, Art in Transit, Washington Metropolitan Area Transit Authority
-      (WMATA)
-    bio: Laurent Odde leads the WMATA's Art in Transit Program and works with artists,
-      jurisdictional arts councils, developers, architects, engineers, and community
-      representatives to develop projects and performances that reflect the spirit
-      and vitality of communities served by Metro.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/laurent-odde-521b0191/
-  - name: Patrick (Kevin) Dixon
-    pronouns: he | him
-    title: Deputy Director for Outreach and Advancement, US Army War College
-    bio: After a career of service in uniform, Kevin now serves as the Assistant Commandant
-      for Outreach at the United States Army War College.
-    website-label: Website
-    website-url: https://www.armywarcollege.edu/
-  - name: Danielle Covert
-    pronouns: she | her
-    title: Lead Project Coordinator, Healthy Spaces, Armstrong World Industries
-    bio: 'Danielle Covert is passionate about building happy and successful teams,
-      through authentic conversation, humor and hard work.  '
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/danielle-martin-covert-264549169/
-  - name: Jonny Peterson
-    pronouns: he | him
-    title: Brand Designer, Gensler
-    bio: Jonny brings design leadership in crafting unique, highly creative solutions
-      across all touch-points from traditional branding, to digital formats, to the
-      built environment.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/jonny-peterson-a1855b44/
+has-speakers: true
+speakers:
+- name: Steven Joswick
+  pronouns: he | him
+  title: Studio Director, Senior Associate, Gensler
+  bio: 'Steven is a Design Director and Co-Director of the Brand Design studio in
+    Gensler’s Washington DC office. He works closely with his clients, asking hard
+    questions to help bring clarity to complex problems and design delightful experiences
+    that add value to their business. '
+  website-label: LinkedIn
+  website-url: " https://www.linkedin.com/in/steven-joswick-a539b35/"
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Laurent Odde
+  pronouns: 
+  title: Program Manager, Art in Transit, Washington Metropolitan Area Transit Authority
+    (WMATA)
+  bio: Laurent Odde leads the WMATA's Art in Transit Program and works with artists,
+    jurisdictional arts councils, developers, architects, engineers, and community
+    representatives to develop projects and performances that reflect the spirit
+    and vitality of communities served by Metro.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/laurent-odde-521b0191/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Patrick (Kevin) Dixon
+  pronouns: he | him
+  title: Deputy Director for Outreach and Advancement, US Army War College
+  bio: After a career of service in uniform, Kevin now serves as the Assistant Commandant
+    for Outreach at the United States Army War College.
+  website-label: Website
+  website-url: https://www.armywarcollege.edu/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Danielle Covert
+  pronouns: she | her
+  title: Lead Project Coordinator, Healthy Spaces, Armstrong World Industries
+  bio: 'Danielle Covert is passionate about building happy and successful teams,
+    through authentic conversation, humor and hard work.  '
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/danielle-martin-covert-264549169/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Jonny Peterson
+  pronouns: he | him
+  title: Brand Designer, Gensler
+  bio: Jonny brings design leadership in crafting unique, highly creative solutions
+    across all touch-points from traditional branding, to digital formats, to the
+    built environment.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/jonny-peterson-a1855b44/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   remote-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

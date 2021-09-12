@@ -18,16 +18,19 @@ tickets:
   non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Kelly Tsao
-    pronouns: she | her
-    title: UX Designer
-    bio: Kelly Tsao is a hybrid UX designer, researcher, and facilitator with experience
-      in data-heavy enterprise software products and complex services. Her interests
-      include service design, designing with data/AI, and strategic foresight.
-    website-label: Website
-    website-url: https://ktsaodesigns.myportfolio.com/
+has-speakers: true
+speakers:
+- name: Kelly Tsao
+  pronouns: she | her
+  title: UX Designer
+  bio: Kelly Tsao is a hybrid UX designer, researcher, and facilitator with experience
+    in data-heavy enterprise software products and complex services. Her interests
+    include service design, designing with data/AI, and strategic foresight.
+  website-label: Website
+  website-url: https://ktsaodesigns.myportfolio.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   remote-body: "This event will be streamed via Zoom: \n- In order to participate

@@ -18,13 +18,16 @@ tickets:
   non-member-button-label: "$20 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Emer McPolin
-    pronouns: she | her
-    title: UX and UI Designer
-    website-label: Website
-    website-url: http://www.emermcpol.in
+has-speakers: true
+speakers:
+- name: Emer McPolin
+  pronouns: she | her
+  title: UX and UI Designer
+  website-label: Website
+  website-url: http://www.emermcpol.in
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   is-remote: true

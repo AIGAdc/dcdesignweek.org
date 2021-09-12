@@ -21,30 +21,39 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Ally Fouts
-    pronouns: " she | her | hers"
-    title: Creative Director
-    bio: 'Ally leads the branding team at Viget as they help clients solve their most
-      intractable communication challenges and reshape their core organizational narratives. '
-    website-label: Website
-    website-url: https://allyfouts.com/
-  - name: Elliott Muñoz
-    pronouns: he | him | his
-    title: Art Director
-    bio: 'Elliott is an art director whose work includes web design, front-end development,
-      and brand design for clients like The World Wildlife Fund, ESPN, and PUMA. '
-    website-label: Website
-    website-url: https://dribbble.com/elliottmunoz
-  - name: 'Elyse Kamibayashi '
-    pronouns: she | her | hers
-    title: Brand Strategist
-    bio: 'Elyse is a brand strategist and writer who uses a blend of strategic problem-solving
-      and creative storytelling to help organizations uncover and communicate their
-      core story. '
-    website-label: Website
-    website-url: https://elysekamibayashi.com/
+has-speakers: true
+speakers:
+- name: Ally Fouts
+  pronouns: " she | her | hers"
+  title: Creative Director
+  bio: 'Ally leads the branding team at Viget as they help clients solve their most
+    intractable communication challenges and reshape their core organizational narratives. '
+  website-label: Website
+  website-url: https://allyfouts.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Elliott Muñoz
+  pronouns: he | him | his
+  title: Art Director
+  bio: 'Elliott is an art director whose work includes web design, front-end development,
+    and brand design for clients like The World Wildlife Fund, ESPN, and PUMA. '
+  website-label: Website
+  website-url: https://dribbble.com/elliottmunoz
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: 'Elyse Kamibayashi '
+  pronouns: she | her | hers
+  title: Brand Strategist
+  bio: 'Elyse is a brand strategist and writer who uses a blend of strategic problem-solving
+    and creative storytelling to help organizations uncover and communicate their
+    core story. '
+  website-label: Website
+  website-url: https://elysekamibayashi.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

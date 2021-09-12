@@ -19,16 +19,19 @@ tickets:
   non-member-button-label: "$22 — Non-members"
 venue:
   name: " Gather"
-has-speakers:
-  speakers:
-  - name: Peter Williamson
-    pronouns: he | him
-    title: Executive Director
-    bio: 'Peter Williamson is a professional golfer turned social entrepreneur who
-      uses his love for knowledge of games, design, and philanthropy to catalyze change
-      in communities. '
-    website-label: LinkedIn
-    website-url: linkedin.com/in/peterwilliamson23
+has-speakers: true
+speakers:
+- name: Peter Williamson
+  pronouns: he | him
+  title: Executive Director
+  bio: 'Peter Williamson is a professional golfer turned social entrepreneur who
+    uses his love for knowledge of games, design, and philanthropy to catalyze change
+    in communities. '
+  website-label: LinkedIn
+  website-url: linkedin.com/in/peterwilliamson23
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: true
   is-remote: true

@@ -18,40 +18,49 @@ tickets:
 venue:
   name: Brookland Arts Walk
   info: "716 Monroe St NE \nWashington, DC 20017"
-has-speakers:
-  speakers:
-  - name: Terratorie Maps + Goods
-    pronouns: 
-    title: 
-    bio: We celebrate provenance & place through our colorful collection of illustrated
-      city & neighborhood maps.
-    website-label: Website
-    website-url: https://terratorie.com/
-  - name: Globe Collection and Press at MICA
-    pronouns: 
-    title: 
-    bio: " For more than 80 years Globe Poster Printing Corp. promoted the people’s
-      entertainment, including vaudeville, burlesque, movies, circus and carnival
-      acts, and found its groove in the 1960s with posters for top R&B and rock acts
-      like Mavis Staples, Otis Redding, Marvin Gaye and the Beach Boys. When they
-      closed shop in 2011, the Maryland Institute College of Art stepped in to preserve
-      the archive and to ensure the Globe story didn’t end. Today, Globe's legacy
-      endures as the Globe Collection and Press at MICA, a working press, a teaching
-      tool, and a source for research."
-    website-label: Website
-    website-url: https://globeatmica.com/
-  - name: Chalk Riot
-    pronouns: 
-    title: 
-    bio: Chalk Riot creates pavement art and murals for special events, campaigns,
-      placemaking initiatives and decor. Founded in St. Louis in 2013, the all-women
-      street art crew is now based in Washington, D.C. and have created nearly 350
-      pieces in 4 countries and 12 states to date. When not creating commissions with
-      corporate clients, Chalk Riot advocates for the strategic use of sidewalk chalk
-      as a tool for positive social change. Notable clients include Google, Vevo,
-      Bleacher Report, Greenpeace, and Lime.
-    website-label: Website
-    website-url: http://www.chalkriotart.com/
+has-speakers: true
+speakers:
+- name: Terratorie Maps + Goods
+  pronouns: 
+  title: 
+  bio: We celebrate provenance & place through our colorful collection of illustrated
+    city & neighborhood maps.
+  website-label: Website
+  website-url: https://terratorie.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Globe Collection and Press at MICA
+  pronouns: 
+  title: 
+  bio: " For more than 80 years Globe Poster Printing Corp. promoted the people’s
+    entertainment, including vaudeville, burlesque, movies, circus and carnival
+    acts, and found its groove in the 1960s with posters for top R&B and rock acts
+    like Mavis Staples, Otis Redding, Marvin Gaye and the Beach Boys. When they
+    closed shop in 2011, the Maryland Institute College of Art stepped in to preserve
+    the archive and to ensure the Globe story didn’t end. Today, Globe's legacy
+    endures as the Globe Collection and Press at MICA, a working press, a teaching
+    tool, and a source for research."
+  website-label: Website
+  website-url: https://globeatmica.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Chalk Riot
+  pronouns: 
+  title: 
+  bio: Chalk Riot creates pavement art and murals for special events, campaigns,
+    placemaking initiatives and decor. Founded in St. Louis in 2013, the all-women
+    street art crew is now based in Washington, D.C. and have created nearly 350
+    pieces in 4 countries and 12 states to date. When not creating commissions with
+    corporate clients, Chalk Riot advocates for the strategic use of sidewalk chalk
+    as a tool for positive social change. Notable clients include Google, Vevo,
+    Bleacher Report, Greenpeace, and Lime.
+  website-label: Website
+  website-url: http://www.chalkriotart.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "- A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n- The

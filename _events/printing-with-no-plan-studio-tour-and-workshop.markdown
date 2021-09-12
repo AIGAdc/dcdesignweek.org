@@ -21,19 +21,22 @@ venue:
     7419 Baltimore Ave   <br>
     Takoma Park, MD 20912  <br>
     (Garage / Driveway)
-has-speakers:
-  speakers:
-  - name: Jesse Kirsch
-    pronouns: he | him
-    bio: Jesse Kirsch is an award-winning graphic designer, art director, and owner
-      of No Plan Press, a boutique letterpress and design studio. A graduate of the
-      School of Visual Arts in New York City, he has been working professionally in
-      the arts for over 20 years. Jesse enjoys finding new methods of using geometry,
-      color, and typography, often in a way that explores everyday subjects from a
-      different perspective. Inspired by the juxtaposition of new and old technologies,
-      his work combines the latest in modern design software with century-old vintage
-      printing equipment. Originally from New Jersey, Kirsch now lives in Takoma Park,
-      Maryland with his wife, two boys and cat Penny.
+has-speakers: true
+speakers:
+- name: Jesse Kirsch
+  pronouns: he | him
+  bio: Jesse Kirsch is an award-winning graphic designer, art director, and owner
+    of No Plan Press, a boutique letterpress and design studio. A graduate of the
+    School of Visual Arts in New York City, he has been working professionally in
+    the arts for over 20 years. Jesse enjoys finding new methods of using geometry,
+    color, and typography, often in a way that explores everyday subjects from a
+    different perspective. Inspired by the juxtaposition of new and old technologies,
+    his work combines the latest in modern design software with century-old vintage
+    printing equipment. Originally from New Jersey, Kirsch now lives in Takoma Park,
+    Maryland with his wife, two boys and cat Penny.
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n* Location

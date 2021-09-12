@@ -56,14 +56,14 @@ defaults:
       info: 
       additional-header: 
       additional-info: 
-    has-speakers:
-      speakers:
-      - name: 
-        pronouns: 
-        title: 
-        bio: 
-        website-label: 
-        website-url: 
+    has-speakers: 
+    speakers:
+    - name: 
+      pronouns: 
+      title: 
+      bio: 
+      website-label: 
+      website-url: 
     accessibility:
       header: Accessibility and Accommodations
       body: "All virtual events will have real time CART (live captioning) services

@@ -26,45 +26,60 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Iva Hutson
-    pronouns: she | her
-    title: Sr. Manager of Experience Strategy
-    bio: Iva helps organizations build successful digital products and services by
-      aligning cross-functional teams around a deep understanding of the end-user.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/iva-hutson-07619541/
-  - name: Asha Singh
-    pronouns: she | her
-    title: Project Manager
-    bio: Asha has served federal, commercial, and nonprofit clients as a Project Manager
-      by day and moonlights as a design event organizer.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/asharsingh/
-  - name: Jason Glisson
-    pronouns: he | him
-    title: Drupal Developer
-    bio: Jason has been navigating web development for nearly 20 years and enjoys
-      collaborating with designers and data specialists.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/jasonglisson/
-  - name: Michelle McLain
-    pronouns: she | her
-    title: Program Manager
-    bio: 'Michelle is a Program Manager with over 20 years of experience managing
-      federal government projects for digital, training, and communications on design
-      and development. '
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/michellemclain/
-  - name: Anne McCombe
-    pronouns: she | her
-    title: Business Relationship Manager
-    bio: Anne is a Business Relationship Manager who fosters connections between MetroStar
-      and the Midwest. She enjoys growing relationships with community organizations,
-      educational institutions, and potential customers.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/anne-mccombe/
+has-speakers: true
+speakers:
+- name: Iva Hutson
+  pronouns: she | her
+  title: Sr. Manager of Experience Strategy
+  bio: Iva helps organizations build successful digital products and services by
+    aligning cross-functional teams around a deep understanding of the end-user.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/iva-hutson-07619541/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Asha Singh
+  pronouns: she | her
+  title: Project Manager
+  bio: Asha has served federal, commercial, and nonprofit clients as a Project Manager
+    by day and moonlights as a design event organizer.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/asharsingh/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Jason Glisson
+  pronouns: he | him
+  title: Drupal Developer
+  bio: Jason has been navigating web development for nearly 20 years and enjoys
+    collaborating with designers and data specialists.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/jasonglisson/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Michelle McLain
+  pronouns: she | her
+  title: Program Manager
+  bio: 'Michelle is a Program Manager with over 20 years of experience managing
+    federal government projects for digital, training, and communications on design
+    and development. '
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/michellemclain/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Anne McCombe
+  pronouns: she | her
+  title: Business Relationship Manager
+  bio: Anne is a Business Relationship Manager who fosters connections between MetroStar
+    and the Midwest. She enjoys growing relationships with community organizations,
+    educational institutions, and potential customers.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/anne-mccombe/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   remote-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

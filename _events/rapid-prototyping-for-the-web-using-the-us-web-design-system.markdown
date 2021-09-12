@@ -23,31 +23,40 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Philip Levy
-    pronouns: 
-    title: Director of Experience Design
-    bio: Philip leads a team of designers and researchers at Bixal, using human-centered
-      design and agile mindsets and methods to improve the customer experience of
-      the federal government.
-    website-label: Website
-    website-url: https://philiplevy.design/
-  - name: Brianna Naolu
-    pronouns: she | her
-    title: UX Designer
-    bio: Brianna is a chihuahua-loving, research-driven, user experience designer
-      at Bixal where she specializes in creating and testing reusable and purposeful
-      prototypes.
-    website-label: Website
-    website-url: https://www.briannanaolu.com/
-  - name: Kayla Chumley
-    pronouns: 
-    title: UI Designer
-    bio: As a multifaceted designer, Kayla specializes in UI, product design, and
-      branding.
-    website-label: Website
-    website-url: http://kaylachumley.com/
+has-speakers: true
+speakers:
+- name: Philip Levy
+  pronouns: 
+  title: Director of Experience Design
+  bio: Philip leads a team of designers and researchers at Bixal, using human-centered
+    design and agile mindsets and methods to improve the customer experience of
+    the federal government.
+  website-label: Website
+  website-url: https://philiplevy.design/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Brianna Naolu
+  pronouns: she | her
+  title: UX Designer
+  bio: Brianna is a chihuahua-loving, research-driven, user experience designer
+    at Bixal where she specializes in creating and testing reusable and purposeful
+    prototypes.
+  website-label: Website
+  website-url: https://www.briannanaolu.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Kayla Chumley
+  pronouns: 
+  title: UI Designer
+  bio: As a multifaceted designer, Kayla specializes in UI, product design, and
+    branding.
+  website-label: Website
+  website-url: http://kaylachumley.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   in-person-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

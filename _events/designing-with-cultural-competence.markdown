@@ -16,17 +16,20 @@ tickets:
   non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Jessica Bantom
-    pronouns: she | her | hers
-    title: DEIB Officer & Consultant
-    bio: Jessica Bantom is a Diversity, Equity, Inclusion & Belonging practitioner
-      and interior design/color consultant who uses her facilitation, coaching, change
-      management, and design thinking expertise to help individuals and organizations
-      become more culturally competent.
-    website-label: Website
-    website-url: https://www.jessicabantom.com/
+has-speakers: true
+speakers:
+- name: Jessica Bantom
+  pronouns: she | her | hers
+  title: DEIB Officer & Consultant
+  bio: Jessica Bantom is a Diversity, Equity, Inclusion & Belonging practitioner
+    and interior design/color consultant who uses her facilitation, coaching, change
+    management, and design thinking expertise to help individuals and organizations
+    become more culturally competent.
+  website-label: Website
+  website-url: https://www.jessicabantom.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   remote-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

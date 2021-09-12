@@ -17,24 +17,30 @@ tickets:
   non-member-button-label: "$15 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Dr. Natalie Hopkinson
-    pronouns: she | her | hers
-    title: Co-Founder of Don’t Mute DC, Activist and Scholar
-    bio: Dr. Natalie Hopkinson is a writer, scholar, and advocate for history, culture,
-      and the arts across the Black Diaspora. She has been a writer, editor and columnist
-      at the Washington Post, The Root and Huffington Post, and her major books are
-      "Go-Go Live" (2012 Duke Univ. ) and "A Mouth is Always Muzzled" (2018, The New
-      Press).
-    website-label: Website
-    website-url: https://www.nataliehopkinson.com/
-  - name: Allison Fisher
-    pronouns: she | her | hers
-    title: Manager, Globe Collection and Press at MICA
-    bio: Allison is a designer, letterpress printer, and fluorescent color enthusiast.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/allison-fisher-693a5776/
+has-speakers: true
+speakers:
+- name: Dr. Natalie Hopkinson
+  pronouns: she | her | hers
+  title: Co-Founder of Don’t Mute DC, Activist and Scholar
+  bio: Dr. Natalie Hopkinson is a writer, scholar, and advocate for history, culture,
+    and the arts across the Black Diaspora. She has been a writer, editor and columnist
+    at the Washington Post, The Root and Huffington Post, and her major books are
+    "Go-Go Live" (2012 Duke Univ. ) and "A Mouth is Always Muzzled" (2018, The New
+    Press).
+  website-label: Website
+  website-url: https://www.nataliehopkinson.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Allison Fisher
+  pronouns: she | her | hers
+  title: Manager, Globe Collection and Press at MICA
+  bio: Allison is a designer, letterpress printer, and fluorescent color enthusiast.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/allison-fisher-693a5776/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   in-person-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with

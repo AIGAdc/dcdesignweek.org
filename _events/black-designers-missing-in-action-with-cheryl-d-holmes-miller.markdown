@@ -20,18 +20,21 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Cheryl D. Holmes Miller
-    pronouns: she | her
-    title: Dr. Cheryl D. Miller
-    bio: Dr. Miller is recognized for her outsized influence within the profession
-      to end the marginalization of BIPOC designers through her civil rights activism,
-      industry exposé trade writing, research rigor, and archival vision. Dr. Miller
-      is a national leader of minority rights, gender, race diversity, equality, equity
-      and inclusion advocacy in graphic design.
-    website-label: Website
-    website-url: http://cdholmesmiller.com
+has-speakers: true
+speakers:
+- name: Cheryl D. Holmes Miller
+  pronouns: she | her
+  title: Dr. Cheryl D. Miller
+  bio: Dr. Miller is recognized for her outsized influence within the profession
+    to end the marginalization of BIPOC designers through her civil rights activism,
+    industry exposé trade writing, research rigor, and archival vision. Dr. Miller
+    is a national leader of minority rights, gender, race diversity, equality, equity
+    and inclusion advocacy in graphic design.
+  website-label: Website
+  website-url: http://cdholmesmiller.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   remote-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
