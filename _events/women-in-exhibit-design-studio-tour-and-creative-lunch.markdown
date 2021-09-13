@@ -27,24 +27,24 @@ has-speakers:
     website-label: LinkedIn
     website-url: http://linkedin.com/in/alfonsorina
 accessibility:
-  body: "- A sign language interpreter will not be present unless requested. If requested,
-    we will do our best to employ a sign language interpreter for the event.\n-The
-    venue, an old building, is not ADA accessible.\n-Bathrooms are available on site.
+  body: "* A sign language interpreter will not be present unless requested. If requested,
+    we will do our best to employ a sign language interpreter for the event.\n* The
+    venue, an old building, is not ADA accessible.\n* Bathrooms are available on site.
     \nIf you need any additional accommodations, please contact us using a method
-    that works best for you:\n- <a href=”mailto:accessibility@dc.aiga.org”>Email our
-    accessibility team</a> at accessibility@dc.aiga.org.\n- <a href=\"tel:571-422-2656\">Call
-    or text our accessibility lead</a> Josh Kim at 571-422-2656.\n- <a href=”https://forms.gle/VTys8LzewYs2isUm7”>Request
-    an accommodation through our Google Form.</a>\nWe honor your privacy. No identifying
-    information like your name is required to request an accomodation, and all details
-    will be deleted once completed. \nYou can learn more about how we’re making DC
-    Design Week an accessible experience by visiting our <a href=”https://dcdesignweek.org/accessibility/”>accessibility
-    statement</a>."
+    that works best for you:\n* Email our accessibility team at accessibility@dc.aiga.org.\n-
+    Call or text our accessibility lead Josh Kim at 571-422-2656.\n- [Request an accommodation
+    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe honor your
+    privacy. No identifying information like your name is required to request an accommodation,
+    and all details will be deleted once completed. \nYou can learn more about how
+    we’re making DC Design Week an accessible experience by visiting our [accessibility
+    statement](https://dcdesignweek.org/accessibility/)."
 platform:
+  is-in-person: true
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
-    <i>What COVID precautions are being taken for this event?</i>
-    All attendees must bring proof of vaccination for entry. Masks are required inside the studio.
-    <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
+    *What COVID precautions are being taken for this event?*
+    **All attendees must bring proof of vaccination for entry. Masks are required inside the studio.**
+    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
@@ -57,4 +57,4 @@ filter-type:
 
 Studio Aorta is a small, woman- and minority-owned design studio specializing in exhibition design. This creative lunch will be a conversation on the field of exhibit design and the challenges of being a small, minority and woman-owned design studio. We’ll also take a tour of Home/Brewed, an exhibit project focused on local DC history and knowledge through the lens of Chr. Heurich Brewing Co., at the Heurich House Museum led by Rina Alfonso, RGD, founder and creative director of Studio Aorta.
 
-<i>This event was put together in partnership with <a href="https://www.studioaorta.com/">Studio Aorta</a>.</i>
+*This event was put together in partnership with [Studio Aorta](https://www.studioaorta.com/).*
