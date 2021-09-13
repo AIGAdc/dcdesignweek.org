@@ -4,9 +4,9 @@ date: 2021-09-10 18:02:00 -04:00
 image: "/uploads/Creative-Care-for-burnt-out-Artist_hero.jpg"
 description: Not your average Zoom room, Creative care for burnt out artists is a
   workshop for creatives to engage in introspection, connection, and mindfulness!
-event-date: 2021-10-03 13:00:00 -04:00
-start-time: 1:00 pm
-end-time: 2:30 pm
+event-date: 2021-10-03 15:00:00 -04:00
+start-time: 3:00 pm
+end-time: 4:30 pm
 image-alt: Photo collage of legs in socks wearing sneakers.
 tickets:
   has-member-button: true
