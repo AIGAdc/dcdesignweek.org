@@ -29,7 +29,7 @@ has-speakers:
 accessibility:
   body: "* A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n* The
-    venue, an old building, is not ADA accessible.\n* Bathrooms are available on site.
+    venue, an old building, is not ADA accessible.\n* Bathrooms are available on site.\n
     \nIf you need any additional accommodations, please contact us using a method
     that works best for you:\n* Email our accessibility team at accessibility@dc.aiga.org.\n-
     Call or text our accessibility lead Josh Kim at 571-422-2656.\n- [Request an accommodation
