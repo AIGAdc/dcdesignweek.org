@@ -10,7 +10,7 @@ Siteleaf true/false toggle that allows an editor to control wether to display a 
         <div class="[ grid--three-column-span ] [ flow-2 ]">
             <h2>{{ page.platform.in-person-header }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
-            <div class="wysiwyg flow-2">{{ page.platform.in-person-body }}</div>
+            <div class="wysiwyg flow-2">{{ page.platform.in-person-body | markdownify }}</div>
         </div>
     </div>
 </section>
@@ -25,7 +25,7 @@ Siteleaf true/false toggle that allows an editor to control wether to display a 
         <div class="[ grid--three-column-span ] [ flow-2 ]">
             <h2>{{ page.platform.remote-header }}</h2>
             <hr class="divider divider--black" aria-hidden="true">
-            <div class="wysiwyg flow-2">{{ page.platform.remote-body }}</div>
+            <div class="wysiwyg flow-2">{{ page.platform.remote-body | markdownify }}</div>
         </div>
     </div>
 </section>

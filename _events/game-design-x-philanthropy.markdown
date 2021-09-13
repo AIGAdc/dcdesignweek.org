@@ -18,7 +18,7 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/game-design-x-philanthropy-tickets-170371616090
   non-member-button-label: "$22 — Non-members"
 venue:
-  name: " Gather"
+  name: "Gather"
 has-speakers: true
 speakers:
 - name: Peter Williamson
@@ -33,19 +33,19 @@ speakers:
   color-text: celeste
   default-expanded: false
 platform:
-  is-in-person: true
+  is-in-person: false
   is-remote: true
   remote-body: |
-    This event will be streamed via <a href="http://gather.town">Gather</a>:
-    - Sign up for an account with a href="http://gather.town">Gather</a> in advance of the event.
+    This event will be streamed via [Gather](http://gather.town):
+    - Sign up for an account with [Gather](http://gather.town) in advance of the event.
     - In order to participate fully, plan to join via a computer with enough bandwidth to support viewing video.
     - Please make your display name fully match the name on our registration list in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
     - This event will not be recorded.
-    - You can <a href="mailto:accessibility@dc.aiga.org">send the speaker questions ahead of time</a> which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
-    You can find more about joining our virtual events, including our refund policy, in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a> and help with <a href="https://support.gather.town/help">troubleshooting Gather on their support page</a>.
+    - You can [send the speaker questions ahead of time](mailto:accessibility@dc.aiga.org) which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
+    You can find more about joining our virtual events, including our refund policy, in our [FAQs](https://2020.dcdesignweek.org/faqs/) and help with [troubleshooting Gather on their support page](https://support.gather.town/help).
 
     <b>How to Prepare</b>
-    - Register on <a href="http://gather.town">Gather.town</a>.
+    - Register on [Gather.town](http://gather.town).
     - Ensure that you have a computer available.
     - Materials will be posted on the Gather platform before the event.
 filter-date:

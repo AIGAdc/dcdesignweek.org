@@ -17,7 +17,10 @@ tickets:
   non-member-button-label: Free — Non-members
 venue:
   name: Brookland Arts Walk
-  info: "716 Monroe St NE \nWashington, DC 20017"
+  info: "716 Monroe St NE 
+  
+  
+  Washington, DC 20017"
 has-speakers: true
 speakers:
 - name: Terratorie Maps + Goods
@@ -63,31 +66,65 @@ speakers:
   default-expanded: false
 accessibility:
   body: "- A sign language interpreter will not be present unless requested. If requested,
-    we will do our best to employ a sign language interpreter for the event.\n- The
+    we will do our best to employ a sign language interpreter for the event.
+    
+    
+    The
     venue is ADA accessible. The Brookland Arts Walk is a dedicated pedestrian zone
-    with a flat and wide walkway. \n- Brookland-CUA metro stop on the red line opens
-    to the Arts Walk. \n- Bike racks are available in the area.  Street parking is
-    also available along Monroe Street. \n- Accessible, indoor bathrooms are available
+    with a flat and wide walkway. 
+    
+    
+    Brookland-CUA metro stop on the red line opens
+    to the Arts Walk. 
+    
+    
+    Bike racks are available in the area.  Street parking is
+    also available along Monroe Street. 
+    
+    
+    Accessible, indoor bathrooms are available
     on the ground floor of the Arts Walk via a ramp. There are two private, single-stall
-    bathrooms.\nIf you need any additional accommodations, please contact us using
-    a method that works best for you:\n- <a href=”mailto:accessibility@dc.aiga.org”>Email
-    our accessibility team</a> at accessibility@dc.aiga.org.\n- <a href=\"tel:571-422-2656\">Call
-    or text our accessibility lead</a> Josh Kim at 571-422-2656.\n- <a href=”https://forms.gle/VTys8LzewYs2isUm7”>Request
-    an accommodation through our Google Form.</a>\nWe honor your privacy. No identifying
+    bathrooms.
+    
+    
+    If you need any additional accommodations, please contact us using
+    a method that works best for you:
+    
+    
+    [Email our accessibility team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    
+    
+    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
+    
+    
+    [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+    
+    
+    We honor your privacy. No identifying
     information like your name is required to request an accommodation, and all details
-    will be deleted once completed. \nYou can learn more about how we’re making DC
-    Design Week an accessible experience by visiting our <a href=”https://dcdesignweek.org/accessibility/”>accessibility
-    statement</a>."
+    will be deleted once completed. 
+    
+    
+    You can learn more about how we’re making DC
+    Design Week an accessible experience by visiting our [accessibility
+    statement](https://dcdesignweek.org/accessibility/)."
 platform:
-  is-in-person: false
-  remote-body: |-
+  is-in-person: true
+  is-remote: false
+  is-in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
+
+
     <i>What COVID precautions are being taken for this event?</i>
     We are encouraging those not drinking or eating to wear a mask on the Arts Walk.
+
+
     <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
 filter-date:
   is-day-8: true
+filter-location:
+  is-in-person: true
 filter-time:
   is-evening: true
 filter-type:

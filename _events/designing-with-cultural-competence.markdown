@@ -31,26 +31,44 @@ speakers:
   color-text: celeste
   default-expanded: false
 platform:
-  remote-body: "This event will be streamed via Zoom: \n- In order to participate
+  is-in-person: false
+  is-remote: true
+  remote-body: "This event will be streamed via Zoom: 
+  
+  In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video.
+    
+    
+    Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
-    unless technical issues occur. The <a href=”https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/”>recordings
-    will be shared in the AIGA DC recordings archive</a> for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can <a href=”https://dc.aiga.org/membership/membership-rates/”>register
-    for a membership</a> on our website for just $50 for a year.)</i>\n- Zoom’s breakout
+    — and to create space for intimate conversations.
+    
+
+    This event will be recorded
+    unless technical issues occur. The [recordings
+    will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
+    or catch up on at a later date. <i>(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+    
+
+    Zoom’s breakout
     room technology will be used for this event. If you use assistive technology,
     such as a screen reader or need live captioning, let us know before or during
     the event and you can opt to stay in the primary room. The primary room will retain
-    live captioning and will require no additional navigation.\n- Questions for the
+    live captioning and will require no additional navigation.
+    
+
+    Questions for the
     speaker can be asked live during the event through the chat or by speaking off
     mute during the Q&A portion of the event.\nYou can find more about joining our
     virtual events, including how to connect, directions to troubleshoot, and information
-    about our refund policy in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a>."
+    about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/)."
 filter-date:
   is-day-3: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-daytime: true
 filter-type:

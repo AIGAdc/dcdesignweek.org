@@ -69,6 +69,7 @@ speakers:
   default-expanded: false
 platform:
   is-in-person: false
+  is-remote: true
   remote-header: Virtual Platform & How to Prepare
   remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
@@ -92,6 +93,9 @@ platform:
     could be handy but not required."
 filter-date:
   is-day-1: true
+filter-location:
+  is-zoom: true
+  is-in-person:
 filter-time:
   is-daytime: true
 filter-type:

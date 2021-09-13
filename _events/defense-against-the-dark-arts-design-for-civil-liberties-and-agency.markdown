@@ -31,6 +31,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 platform:
+  is-in-person: false
   is-remote: true
   remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
@@ -48,6 +49,8 @@ platform:
     refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/)."
 filter-date:
   is-day-3: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-evening: true
 filter-type:

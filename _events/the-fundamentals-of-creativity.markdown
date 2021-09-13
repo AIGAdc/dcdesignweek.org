@@ -44,6 +44,8 @@ platform:
     to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs).\n"
 filter-date:
   is-day-2: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-daytime: true
 filter-type:
