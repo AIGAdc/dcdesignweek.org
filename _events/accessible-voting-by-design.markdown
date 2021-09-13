@@ -53,7 +53,7 @@ speakers:
   website-url: 'https://www.linkedin.com/in/michellebishopmsw '
   color-background: cinnabar
   color-text: celeste
-  default-expanded: true
+  default-expanded: false
 - name: Michelle Bishop 2
   number: 2
   pronouns: She | Her | Hers

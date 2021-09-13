@@ -36,7 +36,7 @@
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-one  %}
+            {% assign sorted = site.sponsors.sponsor-tier-one %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}
@@ -56,7 +56,7 @@
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-two  %}
+            {% assign sorted = site.sponsors.sponsor-tier-two %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}
@@ -110,18 +110,19 @@
         {% endif %}
     </div>
 
+
     {% if site.sponsors.show-sponsor-tier-one == true %}
     {% comment %} tier 1 {% endcomment %}
     <div class="sponsors-tier sponsors-tier-1 gap-margin-top-1000">
         <h3 class="font-family-bayard">
             <span>{{ site.sponsors.tier-one-header }}</span>
             {% include textures/sponsor-header-1.svg %}
-            <figure aria-hidden="true">
+            <figure>
                 <img src="/uploads/sticker-sponsor-chita-rivera.png" alt="">
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-one  %}
+            {% assign sorted = site.sponsors.sponsor-tier-one %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}
@@ -141,7 +142,7 @@
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-two  %}
+            {% assign sorted = site.sponsors.sponsor-tier-two %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}
@@ -161,7 +162,7 @@
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-three  %}
+            {% assign sorted = site.sponsors.sponsor-tier-three %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}
@@ -181,7 +182,7 @@
             </figure>
         </h3>
         <ul class="gap-margin-top-500 grid grid--four-column grid--align-center">
-            {% assign sorted = site.sponsors.sponsor-tier-four  %}
+            {% assign sorted = site.sponsors.sponsor-tier-four %}
             {% for content in sorted %}
             {% include card-sponsor.html %}
             {% endfor %}

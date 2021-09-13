@@ -27,8 +27,8 @@
 }
 
 .card-sponsors .card-image img {
-    max-width: 144px;
-    max-height: 120px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .card-image a {
@@ -53,7 +53,7 @@
 .card-details {
     align-content: center;
     display: grid;
-    grid-gap: var(--space-32);
+    grid-gap: var(--space-48);
     grid-template-columns: 1fr 3fr;
 }
 

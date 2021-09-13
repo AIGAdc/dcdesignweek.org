@@ -25,36 +25,48 @@ tickets:
   non-member-button-label: "$20 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Dan Banks
-    pronouns: he | him
-    title: Founder, Creative Director
-    bio: Dan, a creative director, teacher, and mentor, launched Project Design Co
-      in 2002 and brings strategy, empathy, and creativity to every user-focused project.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/danbanks/
-  - name: Kerri Sarembock
-    pronouns: 
-    title: Art Director, Project Manager
-    bio: Kerri's passion and tenacity for building brands and telling meaningful stories
-      demonstrates how her strategic thinking and collaboration connects communities.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/kerri-sarembock-0695099
-  - name: David Spears
-    pronouns: he | him
-    title: Senior Designer
-    bio: David's obsession with writing stories as a child drives his passion for
-      crafting stories and bringing life to language as a designer.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/davidspearsmfa
-  - name: Eliza Lubetkin
-    pronouns: she | her
-    title: Junior Designer
-    bio: Eliza is currently a designer at Project Design Company, after completing
-      her MA at Academy of Art University.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/eliza-lubetkin
+has-speakers: true
+speakers:
+- name: Dan Banks
+  pronouns: he | him
+  title: Founder, Creative Director
+  bio: Dan, a creative director, teacher, and mentor, launched Project Design Co
+    in 2002 and brings strategy, empathy, and creativity to every user-focused project.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/danbanks/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Kerri Sarembock
+  pronouns: 
+  title: Art Director, Project Manager
+  bio: Kerri's passion and tenacity for building brands and telling meaningful stories
+    demonstrates how her strategic thinking and collaboration connects communities.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/kerri-sarembock-0695099
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: David Spears
+  pronouns: he | him
+  title: Senior Designer
+  bio: David's obsession with writing stories as a child drives his passion for
+    crafting stories and bringing life to language as a designer.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/davidspearsmfa
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Eliza Lubetkin
+  pronouns: she | her
+  title: Junior Designer
+  bio: Eliza is currently a designer at Project Design Company, after completing
+    her MA at Academy of Art University.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/eliza-lubetkin
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   is-remote: true
@@ -81,6 +93,9 @@ platform:
     could be handy but not required."
 filter-date:
   is-day-1: true
+filter-location:
+  is-zoom: true
+  is-in-person:
 filter-time:
   is-daytime: true
 filter-type:

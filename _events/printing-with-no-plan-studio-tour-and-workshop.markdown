@@ -21,40 +21,69 @@ venue:
     7419 Baltimore Ave   <br>
     Takoma Park, MD 20912  <br>
     (Garage / Driveway)
-has-speakers:
-  speakers:
-  - name: Jesse Kirsch
-    pronouns: he | him
-    bio: Jesse Kirsch is an award-winning graphic designer, art director, and owner
-      of No Plan Press, a boutique letterpress and design studio. A graduate of the
-      School of Visual Arts in New York City, he has been working professionally in
-      the arts for over 20 years. Jesse enjoys finding new methods of using geometry,
-      color, and typography, often in a way that explores everyday subjects from a
-      different perspective. Inspired by the juxtaposition of new and old technologies,
-      his work combines the latest in modern design software with century-old vintage
-      printing equipment. Originally from New Jersey, Kirsch now lives in Takoma Park,
-      Maryland with his wife, two boys and cat Penny.
+has-speakers: true
+speakers:
+- name: Jesse Kirsch
+  pronouns: he | him
+  bio: Jesse Kirsch is an award-winning graphic designer, art director, and owner
+    of No Plan Press, a boutique letterpress and design studio. A graduate of the
+    School of Visual Arts in New York City, he has been working professionally in
+    the arts for over 20 years. Jesse enjoys finding new methods of using geometry,
+    color, and typography, often in a way that explores everyday subjects from a
+    different perspective. Inspired by the juxtaposition of new and old technologies,
+    his work combines the latest in modern design software with century-old vintage
+    printing equipment. Originally from New Jersey, Kirsch now lives in Takoma Park,
+    Maryland with his wife, two boys and cat Penny.
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* A sign language interpreter will not be present unless requested. If requested,
-    we will do our best to employ a sign language interpreter for the event.\n* Location
-    is not ADA accessible \nShop is at the end of Jesse's driveway. There are no steps
+    we will do our best to employ a sign language interpreter for the event.
+    
+    * Location
+    is not ADA accessible 
+    
+    Shop is at the end of Jesse's driveway. There are no steps
     and everything is at ground level. The shop itself is pretty tight, but people
     will be sitting on the driveway. This is at my private residence and trying to
-    keep people out of the house!\n* Bathrooms are unavailable at this location.\n\nIf
+    keep people out of the house!
+    
+    * Bathrooms are unavailable at this location.
+    
+
+    
+    If
     you need any additional accommodations, please contact us using a method that
-    works best for you:\n* <a href=”mailto:accessibility@dc.aiga.org”>Email our accessibility
-    team</a> at accessibility@dc.aiga.org.\n* <a href=\"tel:571-422-2656\">Call or
-    text our accessibility lead</a> Josh Kim at 571-422-2656.\n* [Request an accommodation
-    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).  <br>\nWe honor
+    works best for you:
+    
+    * [Email our accessibility
+    team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    
+    * Call or
+    text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
+    
+    * [Request an accommodation
+    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).  <br>
+    
+    We honor
     your privacy. No identifying information like your name is required to request
-    an accommodation, and all details will be deleted once completed. \nYou can learn
+    an accommodation, and all details will be deleted once completed. 
+    
+    You can learn
     more about how we’re making DC Design Week an accessible experience by visiting
     our [accessibility statement](https://dcdesignweek.org/accessibility/)."
 platform:
+  is-in-person: true
+  is-remote: false
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
+
+
     *What COVID precautions are being taken for this event?*
     We are encouraging those not drinking or eating to wear a mask.
+
+
     *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
 filter-date:

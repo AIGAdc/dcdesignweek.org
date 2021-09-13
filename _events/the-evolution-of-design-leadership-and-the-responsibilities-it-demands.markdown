@@ -26,62 +26,92 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Iva Hutson
-    pronouns: she | her
-    title: Sr. Manager of Experience Strategy
-    bio: Iva helps organizations build successful digital products and services by
-      aligning cross-functional teams around a deep understanding of the end-user.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/iva-hutson-07619541/
-  - name: Asha Singh
-    pronouns: she | her
-    title: Project Manager
-    bio: Asha has served federal, commercial, and nonprofit clients as a Project Manager
-      by day and moonlights as a design event organizer.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/asharsingh/
-  - name: Jason Glisson
-    pronouns: he | him
-    title: Drupal Developer
-    bio: Jason has been navigating web development for nearly 20 years and enjoys
-      collaborating with designers and data specialists.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/jasonglisson/
-  - name: Michelle McLain
-    pronouns: she | her
-    title: Program Manager
-    bio: 'Michelle is a Program Manager with over 20 years of experience managing
-      federal government projects for digital, training, and communications on design
-      and development. '
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/michellemclain/
-  - name: Anne McCombe
-    pronouns: she | her
-    title: Business Relationship Manager
-    bio: Anne is a Business Relationship Manager who fosters connections between MetroStar
-      and the Midwest. She enjoys growing relationships with community organizations,
-      educational institutions, and potential customers.
-    website-label: LinkedIn
-    website-url: https://www.linkedin.com/in/anne-mccombe/
+has-speakers: true
+speakers:
+- name: Iva Hutson
+  pronouns: she | her
+  title: Sr. Manager of Experience Strategy
+  bio: Iva helps organizations build successful digital products and services by
+    aligning cross-functional teams around a deep understanding of the end-user.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/iva-hutson-07619541/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Asha Singh
+  pronouns: she | her
+  title: Project Manager
+  bio: Asha has served federal, commercial, and nonprofit clients as a Project Manager
+    by day and moonlights as a design event organizer.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/asharsingh/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Jason Glisson
+  pronouns: he | him
+  title: Drupal Developer
+  bio: Jason has been navigating web development for nearly 20 years and enjoys
+    collaborating with designers and data specialists.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/jasonglisson/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Michelle McLain
+  pronouns: she | her
+  title: Program Manager
+  bio: 'Michelle is a Program Manager with over 20 years of experience managing
+    federal government projects for digital, training, and communications on design
+    and development. '
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/michellemclain/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Anne McCombe
+  pronouns: she | her
+  title: Business Relationship Manager
+  bio: Anne is a Business Relationship Manager who fosters connections between MetroStar
+    and the Midwest. She enjoys growing relationships with community organizations,
+    educational institutions, and potential customers.
+  website-label: LinkedIn
+  website-url: https://www.linkedin.com/in/anne-mccombe/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
-  remote-body: "This event will be streamed via Zoom: \n- In order to participate
+  is-in-person: false
+  is-remote: true
+  remote-body: "This event will be streamed via Zoom: 
+  
+  
+  In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video.
+    
+    
+    Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
-    unless technical issues occur. The <a href=”https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/”>recordings
-    will be shared in the AIGA DC recordings archive</a> for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can <a href=”https://dc.aiga.org/membership/membership-rates/”>register
-    for a membership</a> on our website for just $50 for a year.)</i>\n- Questions
-    for the speaker can be asked live during the event through the chat during the
-    Q&A portion of the event.\nYou can find more about joining our virtual events,
-    including how to connect, directions to troubleshoot, and information about our
-    refund policy in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a>."
+    — and to create space for intimate conversations.
+    
+    
+    This event will be recorded
+    unless technical issues occur. The [recordings
+    will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
+    or catch up on at a later date. <i>(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+
+
+    Questions
+    for the speaker can be asked live during the event through the chat.\nYou can
+    find more about joining our virtual events, including how to connect, directions
+    to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/)."
 filter-date:
   is-day-5: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-daytime: true
 filter-type:

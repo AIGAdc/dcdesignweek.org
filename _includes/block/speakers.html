@@ -18,20 +18,20 @@
             <ul class="grid grid--four-column gap-padding-bottom-500  md:gap-padding-bottom-none md:gap-padding-right-none md:gap-padding-left-none lg:gap-padding-right-1600 lg:gap-padding-left-1600">
                 {% for speaker in page.speakers %}
                 <li class="mambo-accordion [ gap-padding-right-400 gap-padding-left-400 md:gap-padding-right-1600 md:gap-padding-left-1600 lg:gap-padding-right-none lg:gap-padding-left-none ] [ flow-3 ]">
-                    <figure class="clipped-{{ speaker.number }}">
+                    <!-- <figure class="clipped-{{ speaker.number }}">
                         <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg" alt="speaker">
-                    </figure>
-                    <div class="gap-margin-bottom-500">
+                    </figure> -->
+                    <div class="speaker-info gap-margin-bottom-500">
                         <h3 class="font-size-400 font-weight-bold">{{ speaker.name }}</h3>
                         {% if speaker.title %}
                         <p>{{ speaker.title }}</p>
                         {% endif %}
                     </div>
-                    <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | downcase | replace: " ", "-" }}">
+                    <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | replace: "+", "" | replace: ".", "" | downcase | replace: "(", "" | replace: ")", "" | replace: " ", "-" }}">
                         View Bio
                     </a>
                 </li>
-                <div class="grid--four-column-span  [ gap-padding-top-1100 gap-padding-bottom-1100 lg:gap-padding-left-1600 lg:gap-padding-right-1600 ] mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: " ", "-" }}">
+                <div class="grid--four-column-span  [ gap-padding-top-1100 gap-padding-bottom-1100 lg:gap-padding-left-1600 lg:gap-padding-right-1600 ] mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: "+", "" | replace: ".", "" | replace: "(", "" | replace: ")", "" | replace: " ", "-" }}">
                     <p class="font-size-400 font-weight-bold">About</p>
                     <hr class="divider divider--{{ speaker.color-text }}" aria-hidden="true">
                     {% if speaker.pronouns %}

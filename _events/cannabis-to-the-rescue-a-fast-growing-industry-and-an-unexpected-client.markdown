@@ -22,51 +22,72 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Julia Ames
-    pronouns: she | her
-    title: Founder & Chief Creative Officer
-    bio: An award-winning designer and creative director, Julia founded Spoolia Design
-      in 2008. Her vision drives what is now Humankind Studio to create memorable
-      work with impact. Julia earned an MFA from SVA and has worked for Design Army
-      and The New York Times Co, among others.
-    website-label: 
-    website-url: 
-  - name: Micah Greenberg
-    pronouns: he | him
-    title: Content Lead
-    bio: Micah is Humankind Studio’s resident brand guru and wordsmith. He names companies
-      and builds breakthrough strategies for brand launches and creative campaigns.
-      He’s worked at NPR and The Atlantic, and holds a BA from Brown University in
-      Media Studies and Creative Writing.
-    website-label: 
-    website-url: 
-  - name: Patti Look
-    pronouns: she | her
-    title: Art Director
-    bio: Patti is an NYC-based art director who loves to see branding, CPG, and retail
-      design come alive in the real world. She enjoys seeking out other DMV/Terp transplants,
-      running, and ice cream. Patti earned a BA from the University of Maryland and
-      has worked for UMD, Daily Burn, and New York Road Runners, among others.
-    website-label: 
-    website-url: 
+has-speakers: true
+speakers:
+- name: Julia Ames
+  pronouns: she | her
+  title: Founder & Chief Creative Officer
+  bio: An award-winning designer and creative director, Julia founded Spoolia Design
+    in 2008. Her vision drives what is now Humankind Studio to create memorable
+    work with impact. Julia earned an MFA from SVA and has worked for Design Army
+    and The New York Times Co, among others.
+  website-label: 
+  website-url: 
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Micah Greenberg
+  pronouns: he | him
+  title: Content Lead
+  bio: Micah is Humankind Studio’s resident brand guru and wordsmith. He names companies
+    and builds breakthrough strategies for brand launches and creative campaigns.
+    He’s worked at NPR and The Atlantic, and holds a BA from Brown University in
+    Media Studies and Creative Writing.
+  website-label: 
+  website-url:
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Patti Look
+  pronouns: she | her
+  title: Art Director
+  bio: Patti is an NYC-based art director who loves to see branding, CPG, and retail
+    design come alive in the real world. She enjoys seeking out other DMV/Terp transplants,
+    running, and ice cream. Patti earned a BA from the University of Maryland and
+    has worked for UMD, Daily Burn, and New York Road Runners, among others.
+  website-label: 
+  website-url: 
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
-  remote-body: "This event will be streamed via Zoom: \n- In order to participate
+  is-remote: true
+  remote-body: "This event will be streamed via Zoom: 
+  
+  
+  In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video.
+    
+    
+    Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
-    unless technical issues occur. The <a href=”https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/”>recordings
-    will be shared in the AIGA DC recordings archive</a> for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can <a href=”https://dc.aiga.org/membership/membership-rates/”>register
-    for a membership</a> on our website for just $50 for a year.)</i>\n- Questions
-    for the speaker can be asked live during the event through the chat or by speaking
-    off mute during the Q&A portion of the event.\nYou can find more about joining
-    our virtual events, including how to connect, directions to troubleshoot, and
-    information about our refund policy, in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a>."
+    — and to create space for intimate conversations.
+    
+    
+    This event will be recorded
+    unless technical issues occur. The [recordings
+    will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
+    or catch up on at a later date. <i>(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+    
+    
+    Questions
+    for the speaker can be asked live during the event through the chat.\nYou can
+    find more about joining our virtual events, including how to connect, directions
+    to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/)."
 filter-date:
   is-day-8: true
 filter-time:

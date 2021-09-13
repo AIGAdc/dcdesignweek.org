@@ -17,15 +17,18 @@ tickets:
 venue:
   name: Heurich House Museum
   info: 1921 Sunderland PL NW,  Washington, DC 20036
-has-speakers:
-  speakers:
-  - name: Rina Alfonso
-    pronouns: she | they
-    title: Founder and Creative Director
-    bio: Rina Alfonso, RGD is an exhibit designer, small business owner, and artist
-      from Manila, Philippines, and based in Washington, DC.
-    website-label: LinkedIn
-    website-url: http://linkedin.com/in/alfonsorina
+has-speakers: true
+speakers:
+- name: Rina Alfonso
+  pronouns: she | they
+  title: Founder and Creative Director
+  bio: Rina Alfonso, RGD is an exhibit designer, small business owner, and artist
+    from Manila, Philippines, and based in Washington, DC.
+  website-label: LinkedIn
+  website-url: http://linkedin.com/in/alfonsorina
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n* The
@@ -43,15 +46,18 @@ platform:
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
-    *What COVID precautions are being taken for this event?*
 
-    **All attendees must bring proof of vaccination for entry. Masks are required inside the studio.**
+    <i>What COVID precautions are being taken for this event?</i>
+    All attendees must bring proof of vaccination for entry. Masks are required inside the studio.
 
-    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
+    
+    <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
   is-day-8: true
+filter-location:
+  is-in-person: true
 filter-time:
   is-daytime: true
 filter-type:

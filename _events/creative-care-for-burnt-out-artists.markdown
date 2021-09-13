@@ -17,25 +17,32 @@ tickets:
   non-member-button-label: "$20 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Lauren DeVera
-    pronouns: she | her
-    title: Founder, Certified Life Coach & Choreographer
-    bio: Lauren is a multi-hyphenate, purpose-driven creative with a heart for people
-      and passion for the arts. She can be found reading, drinking coffee or dancing!
-    website-label: Website
-    website-url: http://www.lauren-devera.com
-  - name: Phuong-Anh Nguyen
-    pronouns: she | her
-    title: UX/UI and brand designer
-    bio: 'Phuong-Anh is a UX/UI and brand designer with way too many hobbies, her
-      life’s motto is: “The greatest skill you have is the ability to learn new ones
-      ⚡️" '
-    website-label: Website
-    website-url: http://www.nguyenpa.com
+has-speakers: true
+speakers:
+- name: Lauren DeVera
+  pronouns: she | her
+  title: Founder, Certified Life Coach & Choreographer
+  bio: Lauren is a multi-hyphenate, purpose-driven creative with a heart for people
+    and passion for the arts. She can be found reading, drinking coffee or dancing!
+  website-label: Website
+  website-url: http://www.lauren-devera.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Phuong-Anh Nguyen
+  pronouns: she | her
+  title: UX/UI and brand designer
+  bio: 'Phuong-Anh is a UX/UI and brand designer with way too many hobbies, her
+    life’s motto is: “The greatest skill you have is the ability to learn new ones
+    ⚡️" '
+  website-label: Website
+  website-url: http://www.nguyenpa.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
+  is-remote: true
   remote-body: "This event will be streamed via Zoom: \n- In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
     enough bandwidth to support viewing video.\n- Only those whose display name fully
@@ -53,6 +60,8 @@ platform:
     to Prepare**\n- Wear comfy clothes and bring your notebook and pen!"
 filter-date:
   is-day-2: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-daytime: true
 filter-type:

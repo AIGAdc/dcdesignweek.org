@@ -23,52 +23,82 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Zoom
-has-speakers:
-  speakers:
-  - name: Philip Levy
-    pronouns: 
-    title: Director of Experience Design
-    bio: Philip leads a team of designers and researchers at Bixal, using human-centered
-      design and agile mindsets and methods to improve the customer experience of
-      the federal government.
-    website-label: Website
-    website-url: https://philiplevy.design/
-  - name: Brianna Naolu
-    pronouns: she | her
-    title: UX Designer
-    bio: Brianna is a chihuahua-loving, research-driven, user experience designer
-      at Bixal where she specializes in creating and testing reusable and purposeful
-      prototypes.
-    website-label: Website
-    website-url: https://www.briannanaolu.com/
-  - name: Kayla Chumley
-    pronouns: 
-    title: UI Designer
-    bio: As a multifaceted designer, Kayla specializes in UI, product design, and
-      branding.
-    website-label: Website
-    website-url: http://kaylachumley.com/
+has-speakers: true
+speakers:
+- name: Philip Levy
+  pronouns: 
+  title: Director of Experience Design
+  bio: Philip leads a team of designers and researchers at Bixal, using human-centered
+    design and agile mindsets and methods to improve the customer experience of
+    the federal government.
+  website-label: Website
+  website-url: https://philiplevy.design/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Brianna Naolu
+  pronouns: she | her
+  title: UX Designer
+  bio: Brianna is a chihuahua-loving, research-driven, user experience designer
+    at Bixal where she specializes in creating and testing reusable and purposeful
+    prototypes.
+  website-label: Website
+  website-url: https://www.briannanaolu.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Kayla Chumley
+  pronouns: 
+  title: UI Designer
+  bio: As a multifaceted designer, Kayla specializes in UI, product design, and
+    branding.
+  website-label: Website
+  website-url: http://kaylachumley.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
-  in-person-body: "This event will be streamed via Zoom: \n- In order to participate
+  is-in-person: false
+  is-remote: true
+  remote-body: "This event will be streamed via Zoom:
+    In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video. 
+
+
+    Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
-    unless technical issues occur. The <a href=”https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/”>recordings
-    will be shared in the AIGA DC recordings archive</a> for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can <a href=”https://dc.aiga.org/membership/membership-rates/”>register
-    for a membership</a> on our website for just $50 for a year.)</i>\n- Questions
-    for the speaker can be asked live during the event through the chat.\nYou can
+    — and to create space for intimate conversations. 
+
+
+    This event will be recorded
+    unless technical issues occur. The [recordings
+    will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
+    or catch up on at a later date. <i>(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+
+
+    Questions
+    for the speaker can be asked live during the event through the chat.
+    You can
     find more about joining our virtual events, including how to connect, directions
-    to troubleshoot, and information about our refund policy in our <a href=”https://2020.dcdesignweek.org/faqs/”>FAQs</a>.\n\n<b>How
-    to Prepare</b>\nFor the best experience of our event, we suggest you: \n- Use
-    a laptop or desktop computer\n- Have a good internet connection\n- Download the
-    latest version of Zoom\n- Use a headset\n- <a href=\"https://github.com/signup\">Create
-    a GitHub account</a>"
-  is-remote: false
+    to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
+
+    
+
+    <b>How
+    to Prepare</b>
+    For the best experience of our event, we suggest you: 
+    - Use a laptop or desktop computer
+    - Have a good internet connection
+    - Download the latest version of Zoom
+    - Use a headset
+    - [Create a GitHub account](https://github.com/signup)"
 filter-date:
   is-day-7: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-morning: true
 filter-type:

@@ -19,15 +19,18 @@ venue:
   info: |-
     1201 K St NW, 2nd Floor
     Washington, DC 20005
-has-speakers:
-  speakers:
-  - name: SHAOLIN JAZZ
-    bio: |-
-      SHAOLIN JAZZ, founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
+has-speakers: true
+speakers:
+- name: SHAOLIN JAZZ
+  bio: |-
+    SHAOLIN JAZZ, founded by Gerald C Watson II and DJ 2-Tone Jones, is a multimedia company that creates content and produces events that highlight the parallels and cultural intersections between hip-hop, jazz, and martial arts.
 
-      Their content ranges from conceptually driven artwork, to their critically acclaimed mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with acappellas from the legendary rap group Wu-Tang Clan. Their events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures that explore the parallels between hip-hop culture and jazz culture.
-    website-label: website
-    website-url: https://shaolinjazz.com/
+    Their content ranges from conceptually driven artwork, to their critically acclaimed mixtapes that feature instrumentals from hand-selected jazz greats, such as Miles Davis and Nancy Wilson, which are cleverly fused with acappellas from the legendary rap group Wu-Tang Clan. Their events range from movie screening events which are scored live by a DJ, live performances featuring a DJ led live band, art shows, and multimedia lectures that explore the parallels between hip-hop culture and jazz culture.
+  website-label: website
+  website-url: https://shaolinjazz.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "- A sign language interpreter will not be present unless requested. If requested,
     we will do our best to employ a sign language interpreter for the event.\n- The
