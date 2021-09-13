@@ -32,42 +32,21 @@ speakers:
 platform:
   is-in-person: false
   is-remote: true
-  remote-body: "This event will be streamed via Zoom: 
-  
-  In order to participate
-    fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.
-    
-    
-    Only those whose display name fully
-    matches the name on our registration list will be admitted from the waiting room,
-    in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.
-    
+  remote-body: |-
+    This event will be streamed via Zoom:
+    In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
 
-    This event will be recorded
-    unless technical issues occur. The [recordings
-    will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
-    or catch up on at a later date. <i>(You can [register
-    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+    Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
+
+    This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+
+    Questions for the speaker can be asked live during the event through the chat.
+
+    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
 
 
-    Questions
-    for the speaker can be asked live during the event through the chat.
-    
-
-    You can
-    find more about joining our virtual events, including how to connect, directions
-    to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
-    
-
-    
-    <b>How
-    to Prepare</b>
-    
-    Participants will have the option of trying out trauma-informed
-    content strategy and putting their attempts into the Zoom chat. Joining the event
-    from a laptop may make it easier to type and edit your responses."
+    <b>How to Prepare</b>
+    Participants will have the option of trying out trauma-informed content strategy and putting their attempts into the Zoom chat. Joining the event from a laptop may make it easier to type and edit your responses.
 filter-date:
   is-day-6: true
 filter-location:

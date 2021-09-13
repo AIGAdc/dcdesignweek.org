@@ -32,9 +32,8 @@ speakers:
 - name: Phuong-Anh Nguyen
   pronouns: she | her
   title: UX/UI and brand designer
-  bio: 'Phuong-Anh is a UX/UI and brand designer with way too many hobbies, her
-    life’s motto is: “The greatest skill you have is the ability to learn new ones
-    ⚡️" '
+  bio: 'Phuong-Anh is a UX/UI and brand designer with way too many hobbies, her life’s
+    motto is: “The greatest skill you have is the ability to learn new ones ⚡️" '
   website-label: Website
   website-url: http://www.nguyenpa.com
   color-background: cinnabar

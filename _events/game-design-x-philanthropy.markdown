@@ -5,7 +5,7 @@ image: "/uploads/Web%20Banner_Game%20Design%20x%20Philanthropy_2.png"
 description: Want to have fun while creating games for social good? Join Game Genius
   for an interactive workshop to learn game design’s best practices and how to use
   games to generate positive social impact.
-event-date: 0002-10-01 00:03:58 -04:56
+event-date: 0002-10-01 00:03:56 -04:56
 start-time: '12:00'
 end-time: 1:30 pm
 image-alt: A headshot of Peter Williamson posing in what he remembers as healthy,
@@ -18,15 +18,15 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/game-design-x-philanthropy-tickets-170371616090
   non-member-button-label: "$22 — Non-members"
 venue:
-  name: "Gather"
+  name: Gather
 has-speakers: true
 speakers:
 - name: Peter Williamson
   pronouns: he | him
   title: Executive Director
-  bio: 'Peter Williamson is a professional golfer turned social entrepreneur who
-    uses his love for knowledge of games, design, and philanthropy to catalyze change
-    in communities. '
+  bio: 'Peter Williamson is a professional golfer turned social entrepreneur who uses
+    his love for knowledge of games, design, and philanthropy to catalyze change in
+    communities. '
   website-label: LinkedIn
   website-url: linkedin.com/in/peterwilliamson23
   color-background: cinnabar

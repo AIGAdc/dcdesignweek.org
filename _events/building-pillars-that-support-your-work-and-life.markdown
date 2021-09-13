@@ -30,8 +30,8 @@ speakers:
 - name: Dan Banks
   pronouns: he | him
   title: Founder, Creative Director
-  bio: Dan, a creative director, teacher, and mentor, launched Project Design Co
-    in 2002 and brings strategy, empathy, and creativity to every user-focused project.
+  bio: Dan, a creative director, teacher, and mentor, launched Project Design Co in
+    2002 and brings strategy, empathy, and creativity to every user-focused project.
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/danbanks/
   color-background: cinnabar
@@ -50,8 +50,8 @@ speakers:
 - name: David Spears
   pronouns: he | him
   title: Senior Designer
-  bio: David's obsession with writing stories as a child drives his passion for
-    crafting stories and bringing life to language as a designer.
+  bio: David's obsession with writing stories as a child drives his passion for crafting
+    stories and bringing life to language as a designer.
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/davidspearsmfa
   color-background: cinnabar
@@ -60,8 +60,8 @@ speakers:
 - name: Eliza Lubetkin
   pronouns: she | her
   title: Junior Designer
-  bio: Eliza is currently a designer at Project Design Company, after completing
-    her MA at Academy of Art University.
+  bio: Eliza is currently a designer at Project Design Company, after completing her
+    MA at Academy of Art University.
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/eliza-lubetkin
   color-background: cinnabar
@@ -95,7 +95,7 @@ filter-date:
   is-day-1: true
 filter-location:
   is-zoom: true
-  is-in-person:
+  is-in-person: 
 filter-time:
   is-daytime: true
 filter-type:

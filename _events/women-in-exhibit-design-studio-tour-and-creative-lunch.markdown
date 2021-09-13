@@ -50,7 +50,7 @@ platform:
     <i>What COVID precautions are being taken for this event?</i>
     All attendees must bring proof of vaccination for entry. Masks are required inside the studio.
 
-    
+
     <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
