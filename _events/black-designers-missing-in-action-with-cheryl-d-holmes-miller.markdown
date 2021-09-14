@@ -5,8 +5,8 @@ image: "/uploads/WebBanner_BlackDesignersMissingInAction_SpeakerEventPost.jpg"
 description: Keynote highlighting Dr. Cheryl D. Holmes Miller of PRINT publications
   advocating for diversity, equity, and inclusion in the design industry.
 event-date: 2021-10-06 19:00:00 -04:00
-start-time: 07:00 PM
-end-time: '08:00 PM'
+start-time: 7:00 pm
+end-time: 8:00 pm
 image-alt: Cooper Hewitt National Design Awardee, Design Visionary, AIGA MEDALIST
   2021, Dr. Cheryl D. Miller “Expanding access.” Recognized for her outsized influence
   within the profession to end the marginalization of BIPOC designers through her
@@ -38,15 +38,20 @@ speakers:
 platform:
   is-in-person: false
   is-remote: true
-  remote-body: |-
-    This event will be streamed via Zoom: In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
-
-    Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
-
-    This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
-
-    Questions for the speaker can be asked live during the event through the chat.
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
+  remote-body: "This event will be streamed via Zoom: \n* In order to participate
+    fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
+    enough bandwidth to support viewing video.\n* Only those whose display name fully
+    matches the name on our registration list will be admitted from the waiting room,
+    in order to ensure only those who have registered for the event are able to attend
+    — and to create space for intimate conversations.\n* This event will be recorded
+    unless technical issues occur. The [recordings will be shared in the AIGA DC recordings
+    archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/)
+    for AIGA members to rewatch or catch up on at a later date. *(You can [register
+    for a membership](https://dc.aiga.org/membership/membership-rates/) on our website
+    for just $50 for a year.)*\n* Questions for the speaker can be asked live during
+    the event through the chat.\n\nYou can find more about joining our virtual events,
+    including how to connect, directions to troubleshoot, and information about our
+    refund policy in our [FAQs](https://dcdesignweek.org/faqs/)."
 filter-date:
   is-day-6: true
 filter-location:
@@ -55,13 +60,14 @@ filter-time:
   is-evening: true
 filter-type:
   is-keynote: true
+  is-talk-panel: true
 ---
 
 Cheryl D. Holmes Miller is a fourth-generation Washington, DC native and second-generation graduate of DC public schools. As one of the first designers to pioneer the Where Are the Black Designers movement, she is well known in the design industry for her inclusion, diversity, and equity contributions. She is also an AIGA 2021 Expanding Access Medalist.
 
 In this keynote, we will explore what events inspired Miller to address the lack of black designers, and consequences thereof. We will also explore: 
-Whether things have actually changed or if history is repeating itself 
-How BIPOC designers can start taking control of their careers
-How companies and individuals can become real allies and not just follow the current trends.
+* Whether things have actually changed or if history is repeating itself 
+* How BIPOC designers can start taking control of their careers
+* How companies and individuals can become real allies and not just follow the current trends.
 
 Don’t miss out!
