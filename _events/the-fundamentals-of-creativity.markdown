@@ -38,7 +38,7 @@ platform:
     in order to ensure only those who have registered for the event are able to attend
     — and to create space for intimate conversations.\n* This event will not be recorded
     and shared after the event has passed to protect the intimacy and privacy required
-    for the event.\n*Questions for the speaker can be asked live during the event
+    for the event.\n* Questions for the speaker can be asked live during the event
     through the chat or by speaking off mute during the Q&A portion of the event.<br>\n\nYou
     can find more about joining our virtual events, including how to connect, directions
     to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs).\n"
