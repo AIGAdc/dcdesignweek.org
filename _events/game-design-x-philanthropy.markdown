@@ -5,7 +5,7 @@ image: "/uploads/Web%20Banner_Game%20Design%20x%20Philanthropy_2.png"
 description: Want to have fun while creating games for social good? Join Game Genius
   for an interactive workshop to learn game design’s best practices and how to use
   games to generate positive social impact.
-event-date: 0002-10-01 00:03:54 -04:56
+event-date: 0002-10-01 00:02:58 -04:56
 start-time: '12:00'
 end-time: 1:30 pm
 image-alt: A headshot of Peter Williamson posing in what he remembers as healthy,
@@ -32,22 +32,34 @@ speakers:
   color-background: cinnabar
   color-text: celeste
   default-expanded: false
+accessibility:
+  body: "* To get live captioning for this event, we recommend using Chrome as the
+    web browser and the Live Captioning extension.\n* A sign language interpreter
+    will not be present unless requested. If requested, we will do our best to employ
+    a sign language interpreter for the event.\n\nIf you need any additional accommodations,
+    please contact us using a method that works best for you:\n* Email our accessibility
+    team at accessibility@dc.aiga.org.\n* Call or text our accessibility lead Josh
+    Kim at 571-422-2656.\n* [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)\n\nWe
+    honor your privacy. No identifying information like your name is required to request
+    an accommodation, and all details will be deleted once completed. \n\nYou can
+    learn more about how we’re making DC Design Week an accessible experience by visiting
+    our accessibility statement."
 platform:
   is-in-person: false
   is-remote: true
-  remote-body: |
-    This event will be streamed via [Gather](http://gather.town):
-    - Sign up for an account with [Gather](http://gather.town) in advance of the event.
-    - In order to participate fully, plan to join via a computer with enough bandwidth to support viewing video.
-    - Please make your display name fully match the name on our registration list in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
-    - This event will not be recorded.
-    - You can [send the speaker questions ahead of time](mailto:accessibility@dc.aiga.org) which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
+  remote-body: |-
+    This event will be streamed via Gather:
+    * Sign up for an account with [Gather](http://gather.town) in advance of the event.
+    * In order to participate fully, plan to join via a computer with enough bandwidth to support viewing video.
+    * Please make your display name fully match the name on our registration list in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
+    * This event will not be recorded.
+    * You can [send the speaker questions ahead of time](mailto:accessibility@dc.aiga.org) which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
     You can find more about joining our virtual events, including our refund policy, in our [FAQs](https://dcdesignweek.org/faqs/) and help with [troubleshooting Gather on their support page](https://support.gather.town/help).
 
-    <b>How to Prepare</b>
-    - Register on [Gather.town](http://gather.town).
-    - Ensure that you have a computer available.
-    - Materials will be posted on the Gather platform before the event.
+    **How to Prepare**
+    * Register on [Gather.town](http://gather.town).
+    * Ensure that you have a computer available.
+    * Materials will be posted on the Gather platform before the event.
 filter-date:
   is-day-1: is day-Saturday
 filter-time:
