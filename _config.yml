@@ -66,109 +66,60 @@ defaults:
       website-url: 
     accessibility:
       header: Accessibility and Accommodations
-      body: "This event will have real time CART (live captioning) services and transcriptions
-        provided by Verbit.
-        
+      body: |-
+        This event will have real time CART (live captioning) services and transcriptions provided by Verbit.
 
-        
-        A sign language interpreter will not be present unless
-        requested. If requested, we will do our best to employ a sign language interpreter
-        for the event.
-        
 
-        
-        If you need any additional accommodations, please contact
-        us using a method that works best for you:
-        
-        - [Email our accessibility team
-        at accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
-        
+        A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+
+        If you need any additional accommodations, please contact us using a method that works best for you:
+        - [Email our accessibility team at accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
         - Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
-        
         - [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).
-        
 
-        
-        We
-        honor your privacy. No identifying information like your name is required
-        to request an accommodation, and all details will be deleted once completed.
-        
-        
 
-        
-        You can learn more about how we’re making DC Design Week an accessible
-        experience by visiting our [page on accessibility](https://dcdesignweek.org/accessibility/)."
+        We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+
+
+
+        You can learn more about how we’re making DC Design Week an accessible experience by visiting our [page on accessibility](https://dcdesignweek.org/accessibility/).
     platform:
       is-in-person: true
       in-person-header: In-Person Safety Guidance & How to Prepare
-      in-person-body: "Capacity restrictions for in-person events will be officially
-        decided about two weeks out from DCDW and posted on the specific event pages
-        in order to follow the latest CDC guidance.
-        
+      in-person-body: |-
+        Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
-        
-        ### What COVID-19 precautions
-        will be taken for this event? 
-        
-        We are encouraging those not speaking, drinking,
-        or eating to wear a mask. 
-        
 
-        
-        ### COVID-19 is rapidly changing: What happens
-        if in-person events need to be cancelled?
-        
-        When possible, in-person events
-        will be moved to Zoom and a refund should not be expected. If an event is
-        canceled in its entirety a refund will be issued. In either scenario you will
-        be notified immediately."
+        ### What COVID-19 precautions will be taken for this event?
+        We are encouraging those not speaking, drinking, or eating to wear a mask.
+
+
+        ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
+        When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
       is-remote: true
       remote-header: Platforms and Prerequisites
-      remote-body: "In order to participate fully, plan to join on the Zoom app via
-        a computer, tablet, or mobile device withenough bandwidth to support viewing
-        video. 
-        
+      remote-body: |-
+        In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device withenough bandwidth to support viewing video.
 
-        
+
         Only those whose display name fully
-        
-        matches the name on our registration
-        list will be admitted from the waiting room,
-        
-        in order to ensure only those
-        who have registered for the event are able to attend
-        
-        — and to create space
-        for intimate conversations. 
-        
+        matches the name on our registration list will be admitted from the waiting room,
+        in order to ensure only those who have registered for the event are able to attend
+        — and to create space for intimate conversations.
 
-        
+
         This event will be recorded
-        
-        unless technical
-        issues occur. The [recordings
-        
-        will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/)
-        for AIGA members to rewatch
-        
+        unless technical issues occur. The [recordings
+        will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch
         or catch up on at a later date. <i>(You can [register
-        
-        for
-        a membership](https://dc.aiga.org/membership/membership-rates/) on our website
-        for just $50 for a year.)</i>
-        
+        for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
 
-        
+
         Questions
-        
-        for the speaker can be asked live
-        during the event through the chat. You can
-        
-        find more about joining our virtual
-        events, including how to connect, directions
-        
-        to troubleshoot, and information
-        about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/)."
+        for the speaker can be asked live during the event through the chat. You can
+        find more about joining our virtual events, including how to connect, directions
+        to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
     filter-date:
       is-day-1: 
       is-day-2: 

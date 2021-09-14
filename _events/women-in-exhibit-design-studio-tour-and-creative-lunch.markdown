@@ -35,12 +35,12 @@ accessibility:
     venue, an old building, is not ADA accessible.\n* Bathrooms are available on site.\n
     \nIf you need any additional accommodations, please contact us using a method
     that works best for you:\n* Email our accessibility team at accessibility@dc.aiga.org.\n-
-    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).\n- [Request an accommodation
-    through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe honor your
-    privacy. No identifying information like your name is required to request an accommodation,
-    and all details will be deleted once completed. \nYou can learn more about how
-    we’re making DC Design Week an accessible experience by visiting our [accessibility
-    statement](https://dcdesignweek.org/accessibility/)."
+    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).\n-
+    [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe
+    honor your privacy. No identifying information like your name is required to request
+    an accommodation, and all details will be deleted once completed. \nYou can learn
+    more about how we’re making DC Design Week an accessible experience by visiting
+    our [accessibility statement](https://dcdesignweek.org/accessibility/)."
 platform:
   is-in-person: true
   in-person-body: |-
