@@ -1,7 +1,6 @@
 ---
 title: DCDW Opening Party with SHAOLIN JAZZ
 date: 2021-09-10 17:45:00 -04:00
-published: false
 image: "/uploads/WebBanner_DCDW%20OpeningParty_with_SHAOLINJAZZ%20.jpg"
 description: DC Design Week 2021 is kicking off with a party and pop-up exhibition
   celebrating 10 years of the DC-based creative collective SHAOLIN JAZZ.
