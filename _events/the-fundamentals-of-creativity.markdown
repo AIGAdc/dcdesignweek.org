@@ -47,7 +47,7 @@ filter-date:
 filter-location:
   is-zoom: true
 filter-time:
-  is-daytime: true
+  is-morning: true
 filter-type:
   is-workshop: true
 ---
