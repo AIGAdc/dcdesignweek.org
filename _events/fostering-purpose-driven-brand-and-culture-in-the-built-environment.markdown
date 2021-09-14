@@ -1,6 +1,7 @@
 ---
 title: Fostering Purpose-Driven Brand and Culture in the Built Environment
 date: 2021-09-10 18:10:00 -04:00
+image: "/uploads/WebBanner_Fostering%20Purpose-Driven_Brand%20and%20Culture_in_the_Built_Environment.jpg"
 description: Learn how spaces that drive culture, showcase rich history, and celebrate
   shared values can foster connection and belonging with a brand in today’s world.
 event-date: 2021-10-04 12:00:00 -04:00
@@ -87,13 +88,11 @@ platform:
   remote-body: |-
     This event will be streamed via Zoom:
 
-    In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
+    * In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
+    * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
+    * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
+    * Questions for the speaker can be asked live during the event through the chat.
 
-    Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
-
-    This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
-
-    Questions for the speaker can be asked live during the event through the chat.
     You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 filter-date:
   is-day-4: true
@@ -107,4 +106,4 @@ filter-type:
 
 From the isolation of the pandemic to demands for social justice, we’ve been collectively grappling with complex social issues. Across the globe, people have used this time to re-evaluate what’s important to them, and now they’re looking to align with brands that share their values and provide a strong culture. By connecting organizations’ rich histories, employee’s personal beliefs, and aspirations for continued meaningful action, brands can foster belonging and community based on shared values. Organizations that invest in spaces that go beyond four walls and function to express shared values and celebrate who they are and, more importantly, what they believe in, will ultimately strengthen their culture and bring their brand to life. In this panel, we will hear from diverse voices across history-rich organizations like WMATA, Armstrong World Industries, US Army War College, and brand designers at Gensler, on the increasingly important role brand plays in building culture, storytelling, and getting people back to shared spaces. We’ll share examples of brand experiences in the built environment that encourage human connection, inclusion, and communicate shared values and a collective mission. The audience will have a chance to ask our experts questions on how to drive culture and satisfy the desire for connection and belonging through visceral in-person brand experiences. 
 
-<i>This event was put together in partnership with <a href="https://www.gensler.com/">Gensler</a>.</i>
+*This event was put together in partnership with [Gensler](https://www.gensler.com/).*
