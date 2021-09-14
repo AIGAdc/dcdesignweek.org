@@ -4,7 +4,7 @@ date: 2021-09-10 17:42:00 -04:00
 image: "/uploads/Women-in-Exhibit-Design_hero.jpg"
 description: Join this creative lunch conversation about exhibit design and a tour
   of the Home/Brewed exhibit at Heurich House Museum. Hosted by Studio Aorta.
-event-date: 2021-10-08 00:00:00 -04:00
+event-date: 2021-10-08 12:00:00 -04:00
 start-time: 12:00 pm
 end-time: 1:30 pm
 tickets:
@@ -34,12 +34,12 @@ accessibility:
     we will do our best to employ a sign language interpreter for the event.\n* The
     venue, an old building, is not ADA accessible.\n* Bathrooms are available on site.\n
     \nIf you need any additional accommodations, please contact us using a method
-    that works best for you:\n* Email our accessibility team at accessibility@dc.aiga.org.\n-
-    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).\n-
-    [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe
+    that works best for you:\n* Email our accessibility team at accessibility@dc.aiga.org.\n*
+    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).\n*
+    [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\n\nWe
     honor your privacy. No identifying information like your name is required to request
-    an accommodation, and all details will be deleted once completed. \nYou can learn
-    more about how we’re making DC Design Week an accessible experience by visiting
+    an accommodation, and all details will be deleted once completed. \n\nYou can
+    learn more about how we’re making DC Design Week an accessible experience by visiting
     our [accessibility statement](https://dcdesignweek.org/accessibility/)."
 platform:
   is-in-person: true
@@ -47,12 +47,12 @@ platform:
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
 
-    <i>What COVID precautions are being taken for this event?</i>
-    All attendees must bring proof of vaccination for entry. Masks are required inside the studio.
+    ### What COVID precautions are being taken for this event?
+    **All attendees must bring proof of vaccination for entry. Masks are required inside the studio.**
 
 
-    <i>COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?</i>
-    When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
+    ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
+    ***When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
   is-day-8: true
