@@ -4,7 +4,7 @@ date: 2021-09-10 18:18:00 -04:00
 image: "/uploads/Web%20Banner_Defence_Against_The_Dark_Arts.png"
 description: A guided tour of design’s unintended consequences, misuse, and potential
   to protect our civil liberties, safety, and equity.
-event-date: 2021-09-03 00:00:00 -04:00
+event-date: 2021-10-03 00:00:00 -04:00
 start-time: 7:00 pm
 end-time: 8:00 pm
 image-alt: "[Kiran Wattamwar] A young, temporarily-abled South Asian American woman
