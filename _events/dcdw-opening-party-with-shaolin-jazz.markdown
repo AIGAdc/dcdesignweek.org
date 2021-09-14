@@ -37,11 +37,11 @@ accessibility:
     we will do our best to employ a sign language interpreter for the event.\n* The
     event space is accessible by an elevator or stairs to the second floor.\n* All
     artwork displayed will be clearly captioned. \n* Accessible and gender-neutral
-    bathrooms are available at the location. \nIf you need any additional accommodations,
+    bathrooms are available at the location. \n\nIf you need any additional accommodations,
     please contact us using a method that works best for you:\n* [Email our accessibility
     team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)\n* Call
     or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).\n*
-    [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\nWe
+    [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\n\nWe
     honor your privacy. No identifying information like your name is required to request
     an accommodation, and all details will be deleted once completed. \n\nYou can
     learn more about how we’re making DC Design Week an accessible experience by visiting
@@ -51,10 +51,10 @@ platform:
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
-    *What COVID precautions are being taken for this event?*
+    ###What COVID precautions are being taken for this event?
     **Masks will be required at this event.**
 
-    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
+    ###COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
