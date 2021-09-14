@@ -66,6 +66,8 @@ platform:
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
 filter-date:
   is-day-2: true
+filter-location:
+  is-in-person: true
 filter-time:
   is-morning: true
 filter-type:

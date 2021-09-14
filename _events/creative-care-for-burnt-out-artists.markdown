@@ -58,7 +58,7 @@ platform:
     directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How
     to Prepare**\n- Wear comfy clothes and bring your notebook and pen!"
 filter-date:
-  is-day-2: true
+  is-day-3: true
 filter-location:
   is-zoom: true
 filter-time:
