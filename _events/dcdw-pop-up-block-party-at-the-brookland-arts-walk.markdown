@@ -11,7 +11,10 @@ image-alt: Brick building with the word “Brookland” on it.
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
-  member-button-label: Free — Members & Non-members
+  member-button-label: Free — Members
+  has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
+  non-member-button-label: Free — Non-members
 venue:
   name: Brookland Arts Walk
   info: |-
