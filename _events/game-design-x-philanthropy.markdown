@@ -5,7 +5,7 @@ image: "/uploads/Web%20Banner_Game%20Design%20x%20Philanthropy_2.png"
 description: Want to have fun while creating games for social good? Join Game Genius
   for an interactive workshop to learn game design’s best practices and how to use
   games to generate positive social impact.
-event-date: 0002-10-01 00:03:56 -04:56
+event-date: 0002-10-01 00:03:54 -04:56
 start-time: '12:00'
 end-time: 1:30 pm
 image-alt: A headshot of Peter Williamson posing in what he remembers as healthy,
