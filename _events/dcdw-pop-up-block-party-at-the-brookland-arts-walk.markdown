@@ -87,7 +87,8 @@ platform:
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
     ### What COVID precautions are being taken for this event?
-    **We are encouraging those not drinking or eating to wear a mask on the Arts Walk.**
+    *We are encouraging those not drinking or eating to wear a mask on the Arts Walk.*
+
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
