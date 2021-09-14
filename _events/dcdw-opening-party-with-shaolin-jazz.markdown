@@ -53,7 +53,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    **Masks will be required at this event.**
+    *Masks will be required at this event.*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
