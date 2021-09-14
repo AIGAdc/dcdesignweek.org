@@ -357,8 +357,8 @@ sponsors:
   sponsor-tier-one:
   - title: Sponsor Title
     image: "/uploads/sponsor-fjord.png"
-    image-alt: Logo Alt
-    website: https://dcdesignweek.org
+    image-alt: White Fjord logo
+    website: https://www.fjordnet.com/
     aria-label: Website Aria Label
   sponsor-tier-two:
   - title: Eaton Hotel
