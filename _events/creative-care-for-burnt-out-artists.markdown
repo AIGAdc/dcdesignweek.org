@@ -42,21 +42,21 @@ speakers:
 platform:
   is-in-person: false
   is-remote: true
-  remote-body: "This event will be streamed via Zoom: \n- In order to participate
+  remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
-    enough bandwidth to support viewing video.\n- Only those whose display name fully
+    enough bandwidth to support viewing video.\n* Only those whose display name fully
     matches the name on our registration list will be admitted from the waiting room,
     in order to ensure only those who have registered for the event are able to attend
-    — and to create space for intimate conversations.\n- This event will be recorded
+    — and to create space for intimate conversations.\n* This event will be recorded
     unless technical issues occur. The [recordings will be shared in the AIGA DC recordings
     archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/)
     for AIGA members to rewatch or catch up on at a later date. *(You can [register
     for a membership on our website](https://dc.aiga.org/membership/membership-rates/)
-    for just $50 for a year.)*\n- Questions for the speaker can be asked live during
+    for just $50 for a year.)*\n* Questions for the speaker can be asked live during
     the event through the chat or by speaking off mute during the Q&A portion of the
     event.\nYou can find more about joining our virtual events, including how to connect,
     directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How
-    to Prepare**\n- Wear comfy clothes and bring your notebook and pen!"
+    to Prepare**\n* Wear comfy clothes and bring your notebook and pen!"
 filter-date:
   is-day-3: true
 filter-location:
@@ -77,4 +77,4 @@ With the aid of gentle movement, mindfulness, and introspective journaling, this
 Come join us for an event to feel more connected to yourself and others!
 
 
-*This event was put together in partnership with <a href="https://www.lauren-devera.com/thelionsden">The Lion's Den</a>.*
+*This event was put together in partnership with [The Lion's Den](https://www.lauren-devera.com/thelionsden).*
