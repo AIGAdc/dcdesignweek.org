@@ -78,9 +78,9 @@
     top: var(--space-32);
 }
 
-.speakers ul {
-    position: relative;
-}
+// .speakers ul {
+//     position: relative;
+// }
 
 .speakers .houdini-heading .houdini-toggle {
     align-items: center;
@@ -114,6 +114,7 @@
         top: unset !important;
         z-index: var(--index-9) !important;
         left: -120px;
+        left: 0;
         right: 0;
         min-height: 460px;
     }

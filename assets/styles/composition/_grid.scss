@@ -35,6 +35,10 @@
     grid-column: span 1;
 }
 
+.events-single-layout .speakers .grid {
+    position: unset;
+}
+
 @media screen and (min-width: 768px) {
     .grid {
         grid-gap: var(--space-32);
