@@ -5,7 +5,7 @@ image: "/uploads/Cannabis-to-the-rescue_hero.png"
 description: We work in weed! Who knew!? Hear from Humankind Studio, the agency of
   record for a cannabis company with multiple brands. Discover a new industry, spark
   your curiosity, and get high on design!
-event-date: 2021-10-08 00:00:00 -04:00
+event-date: 2021-10-08 12:00:00 -04:00
 start-time: 12:00 pm
 end-time: 1:30 pm
 image-alt: 'Collage of photos of the speakers including: a photo of Julia Ames, a
@@ -65,17 +65,16 @@ platform:
   is-remote: true
   remote-body: |-
     This event will be streamed via Zoom:
+    * In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
+    * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
+    * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. *(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)*
+    * Questions for the speaker can be asked live during the event through the chat.
 
-    In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
-
-    Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
-
-    This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
-
-    Questions for the speaker can be asked live during the event through the chat.
     You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 filter-date:
   is-day-8: true
+filter-location:
+  is-zoom: true
 filter-time:
   is-daytime: true
 filter-type:
@@ -84,9 +83,9 @@ filter-type:
 
 We’re Humankind Studio and we work in weed! It started as a small project, designing a single piece of packaging. Seven years later, we’re the creative agency of record for the largest privately-held cannabis company in America. In this interactive session, including polls and Q&A, we will light up the screen and spark your curiosity with: 
 
-- How we weathered the pandemic (and grew the studio) by embracing an unexpected opportunity
-- Increased competition and opportunities in cannabis
-- Our own work with four leading retail and wholesale brands, including:
+* How we weathered the pandemic (and grew the studio) by embracing an unexpected opportunity
+* Increased competition and opportunities in cannabis
+* Our own work with four leading retail and wholesale brands, including:
      + Brand strategy and design
      + Retail design
      + Digital advertising
@@ -96,4 +95,4 @@ We’re Humankind Studio and we work in weed! It started as a small project, des
 Harvest what it means to work in today’s cannabis business and get high on design.
 
 
-<i>This event was put together in partnership with <a href="https://www.humankindstudio.com/">Humankind Studio</a>.</i>
+*This event was put together in partnership with [Humankind Studio](https://www.humankindstudio.com/).*
