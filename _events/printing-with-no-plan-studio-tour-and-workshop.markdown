@@ -47,9 +47,9 @@ accessibility:
     for you:\n* [Email our accessibility team](mailto:accessibility@dc.aiga.org) at
     accessibility@dc.aiga.org.\n* Call or text our accessibility lead Josh Kim at
     [571-422-2656](tel:571-422-2656).\n* [Request an accommodation through our Google
-    Form](https://forms.gle/VTys8LzewYs2isUm7).  <br>\nWe honor your privacy. No identifying
+    Form](https://forms.gle/VTys8LzewYs2isUm7).\n\nWe honor your privacy. No identifying
     information like your name is required to request an accommodation, and all details
-    will be deleted once completed.\nYou can learn more about how we’re making DC
+    will be deleted once completed.\n\nYou can learn more about how we’re making DC
     Design Week an accessible experience by visiting our [accessibility statement](https://dcdesignweek.org/accessibility/)."
 platform:
   is-in-person: true
@@ -57,11 +57,13 @@ platform:
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
 
-    *What COVID precautions are being taken for this event?*
+    ###What COVID precautions are being taken for this event?
+
     **We are encouraging those not drinking or eating to wear a mask.**
 
 
-    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
+    ###COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
+
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
