@@ -42,7 +42,8 @@ platform:
     You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 
 
-    **How to Prepare**
+    ### How to Prepare
+
     Participants will have the option of trying out trauma-informed content strategy and putting their attempts into the Zoom chat. Joining the event from a laptop may make it easier to type and edit your responses.
 filter-date:
   is-day-6: true
