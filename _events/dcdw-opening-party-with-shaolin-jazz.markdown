@@ -51,9 +51,11 @@ platform:
   in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
+
     *What COVID precautions are being taken for this event?*
 
     **Masks will be required at this event.**
+
 
     *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
 
