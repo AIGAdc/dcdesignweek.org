@@ -11,10 +11,7 @@ image-alt: Photos of people at previous SHAOLIN JAZZ events with text saying "10
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
-  member-button-label: Free — Members
-  has-non-member-button: true
-  non-member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
-  non-member-button-label: Free — Non-members
+  member-button-label: Free — Members & Non-members
 venue:
   name: Eaton Hotel
   info: |-
