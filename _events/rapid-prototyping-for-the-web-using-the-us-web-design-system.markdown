@@ -73,7 +73,7 @@ platform:
     including how to connect, directions to troubleshoot, and information about our
     refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n### How to Prepare\nFor
     the best experience of our event, we suggest you:\n* Use a laptop or desktop computer\n*
-    Have a good internet connection * Download the latest version of Zoom \n* Use
+    Have a good internet connection \n* Download the latest version of Zoom \n* Use
     a headset \n*[Create a GitHub account](https://github.com/signup)"
 filter-date:
   is-day-7: true
