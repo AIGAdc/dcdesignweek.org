@@ -10,7 +10,10 @@ end-time: 8:00 pm
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
-  member-button-label: Free — Members & Non-members
+  member-button-label: Free — Members
+  has-non-member-button: true
+  non-member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
+  non-member-button-label: Free — Non-members
 venue:
   name: Zoom
 has-speakers: true
