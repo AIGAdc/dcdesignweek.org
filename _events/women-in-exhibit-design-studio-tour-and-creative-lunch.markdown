@@ -16,7 +16,7 @@ tickets:
   non-member-button-label: "$10 — Non-members"
 venue:
   name: Heurich House Museum
-  info: 1921 Sunderland PL NW,  Washington, DC 20036
+  info: "1921 Sunderland PL NW,  \nWashington, DC 20036"
 has-speakers: true
 speakers:
 - name: Rina Alfonso
@@ -52,7 +52,7 @@ platform:
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
-    ***When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
+    When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
   is-day-8: true
