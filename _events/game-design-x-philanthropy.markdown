@@ -42,7 +42,7 @@ platform:
     - Please make your display name fully match the name on our registration list in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
     - This event will not be recorded.
     - You can [send the speaker questions ahead of time](mailto:accessibility@dc.aiga.org) which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
-    You can find more about joining our virtual events, including our refund policy, in our [FAQs](https://2020.dcdesignweek.org/faqs/) and help with [troubleshooting Gather on their support page](https://support.gather.town/help).
+    You can find more about joining our virtual events, including our refund policy, in our [FAQs](https://dcdesignweek.org/faqs/) and help with [troubleshooting Gather on their support page](https://support.gather.town/help).
 
     <b>How to Prepare</b>
     - Register on [Gather.town](http://gather.town).

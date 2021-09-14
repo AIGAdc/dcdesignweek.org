@@ -46,7 +46,7 @@ platform:
     for just $50 for a year.)*\n* Questions for the speaker can be asked live during
     the event through the chat.\nYou can find more about joining our virtual events,
     including how to connect, directions to troubleshoot, and information about our
-    refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/)."
+    refund policy in our [FAQs](https://dcdesignweek.org/faqs/)."
 filter-date:
   is-day-3: true
 filter-location:

@@ -46,7 +46,7 @@ platform:
     This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
 
     Questions for the speaker can be asked live during the event through the chat.
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
+    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 filter-date:
   is-day-6: true
 filter-location:

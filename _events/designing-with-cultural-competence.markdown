@@ -44,7 +44,7 @@ platform:
     Zoom’s breakout room technology will be used for this event. If you use assistive technology, such as a screen reader or need live captioning, let us know before or during the event and you can opt to stay in the primary room. The primary room will retain live captioning and will require no additional navigation.
 
     Questions for the speaker can be asked live during the event through the chat or by speaking off mute during the Q&A portion of the event.
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
+    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 filter-date:
   is-day-3: true
 filter-location:

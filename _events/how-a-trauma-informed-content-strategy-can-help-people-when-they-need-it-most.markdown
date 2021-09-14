@@ -42,7 +42,7 @@ platform:
 
     Questions for the speaker can be asked live during the event through the chat.
 
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://2020.dcdesignweek.org/faqs/).
+    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 
 
     <b>How to Prepare</b>
