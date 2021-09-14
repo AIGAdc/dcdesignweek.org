@@ -54,9 +54,10 @@ platform:
     for a membership on our website](https://dc.aiga.org/membership/membership-rates/)
     for just $50 for a year.)*\n* Questions for the speaker can be asked live during
     the event through the chat or by speaking off mute during the Q&A portion of the
-    event.\nYou can find more about joining our virtual events, including how to connect,
-    directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How
-    to Prepare**\n* Wear comfy clothes and bring your notebook and pen!"
+    event.\n\nYou can find more about joining our virtual events, including how to
+    connect, directions to troubleshoot, and information about our refund policy in
+    our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How to Prepare**\n* Wear comfy
+    clothes and bring your notebook and pen!"
 filter-date:
   is-day-3: true
 filter-location:
