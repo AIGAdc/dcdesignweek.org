@@ -4,7 +4,7 @@ date: 2021-09-10 17:53:00 -04:00
 image: "/uploads/Web%20Banner_Uncertain%20Futures.png"
 description: Uncertain Futures is an introduction to futurism in relation to service
   design and strategy, and the real life application.
-event-date: 2021-10-07 00:00:00 -04:00
+event-date: 2021-10-07 12:00:00 -04:00
 start-time: 12:00 pm
 end-time: 1:00 pm
 image-alt: Kelly Tsao, a slightly smiling Chinese-American woman dressed in a professional
@@ -36,14 +36,11 @@ platform:
   is-remote: true
   remote-body: |-
     This event will be streamed via Zoom:
+    * In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
+    * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
+    * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. *(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)*
+    * Questions for the speaker can be asked live during the event through the chat.
 
-    In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
-
-    Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
-
-    This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. <i>(You can [register for a membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year.)</i>
-
-    Questions for the speaker can be asked live during the event through the chat.
     You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQs](https://dcdesignweek.org/faqs/).
 filter-date:
   is-day-7: true
@@ -56,6 +53,7 @@ filter-type:
 ---
 
 What do you do when tomorrow is changing faster than yesterday? 
+
 Nobody can predict the future, but futurists don’t try. Instead, they use wide-ranging qualitative research, trend analysis, and strategic foresight to proactively move toward preferred futures instead of reacting to emergencies. By using our creative abilities to bring possible futures to life, designers can help drive organizational motivation to “back-cast” how to prepare for otherwise unexpected events. 
 
 Presented by Kelly Tsao, a UX designer with a passion for research and design theory,  this presentation is an introduction to futurism in relation to service design and strategy, and how creative people are uniquely skilled to envision a more desirable future.
