@@ -52,13 +52,11 @@ platform:
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
 
 
-    *What COVID precautions are being taken for this event?*
-
+    ### What COVID precautions are being taken for this event?
     **Masks will be required at this event.**
 
 
-    *COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?*
-
+    ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
