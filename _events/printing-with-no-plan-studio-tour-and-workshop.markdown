@@ -58,7 +58,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    **We are encouraging those not drinking or eating to wear a mask.**
+    *We are encouraging those not drinking or eating to wear a mask.*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
