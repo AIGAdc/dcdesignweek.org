@@ -58,12 +58,10 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-
     **We are encouraging those not drinking or eating to wear a mask.**
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
-
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
   is-remote: false
 filter-date:
