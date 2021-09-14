@@ -4,7 +4,7 @@ date: 2021-09-10 17:57:00 -04:00
 image: "/uploads/Web%20Banner_DCDW%20Pop-up%20Block%20Party.png"
 description: Join us at the Pop-Up Block Party to celebrate local artists and connect
   with friends old and new from the DMV creative community.
-event-date: 2021-10-08 00:00:00 -04:00
+event-date: 2021-10-08 18:00:00 -04:00
 start-time: 6:00 pm
 end-time: 10:00 pm
 image-alt: Brick building with the word “Brookland” on it.
@@ -66,32 +66,35 @@ speakers:
   default-expanded: false
 accessibility:
   body: |-
-    - A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
-
-    The venue is ADA accessible. The Brookland Arts Walk is a dedicated pedestrian zone with a flat and wide walkway.
-
-    Brookland-CUA metro stop on the red line opens to the Arts Walk.
-
-    Bike racks are available in the area.  Street parking is also available along Monroe Street.
-
-    Accessible, indoor bathrooms are available on the ground floor of the Arts Walk via a ramp. There are two private, single-stall bathrooms.
+    * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+    * The venue is ADA accessible. The Brookland Arts Walk is a dedicated pedestrian zone with a flat and wide walkway.
+    * Brookland-CUA metro stop on the red line opens to the Arts Walk.
+    * Bike racks are available in the area.
+    * Street parking is also available along Monroe Street.
+    * Accessible, indoor bathrooms are available on the ground floor of the Arts Walk via a ramp. There are two private, single-stall bathrooms.
 
     If you need any additional accommodations, please contact us using a method that works best for you:
-
-    [Email our accessibility team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
-
-    Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
-
-    [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+    * [Email our accessibility team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
+    * Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
+    * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
 
     We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
 
     You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](https://dcdesignweek.org/accessibility/).
 platform:
   is-in-person: true
-  is-remote: false
-  is-in-person-body: |-
+  in-person-body: |-
     Capacity restrictions for in-person events will be officially decided about two weeks out from DCDW and posted on the specific event pages in order to follow the latest CDC guidance.
+
+    ### What COVID precautions are being taken for this event?
+
+    **We are encouraging those not drinking or eating to wear a mask on the Arts Walk.**
+
+    ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
+
+    When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
+  is-remote: false
+  is-in-person-body: |2-
 
 
     <i>What COVID precautions are being taken for this event?</i>
