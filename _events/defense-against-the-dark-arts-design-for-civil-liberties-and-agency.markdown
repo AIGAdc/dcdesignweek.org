@@ -44,7 +44,7 @@ platform:
     for AIGA members to rewatch or catch up on at a later date. *(You can [register
     for a membership on our website](https://dc.aiga.org/membership/membership-rates/)
     for just $50 for a year.)*\n* Questions for the speaker can be asked live during
-    the event through the chat.\nYou can find more about joining our virtual events,
+    the event through the chat.\n\nYou can find more about joining our virtual events,
     including how to connect, directions to troubleshoot, and information about our
     refund policy in our [FAQs](https://dcdesignweek.org/faqs/)."
 filter-date:
@@ -61,6 +61,6 @@ Defensive design is the application of design to anticipate and minimize room fo
 
 What would it look like to apply this kind of defensiveness to products (and design, broadly) to protect them from misuse on a social dimension? How can we use design to protect civil liberties, safety, equity, and agency? How can we perform Critical Design Thinking?
 
-So often, especially in the realm of digital product design, we are taught to optimize for certain heuristics: minimize the number of clicks to get from one point to another, make information discoverable, reduce friction… the list goes on. 
+So often, especially in the realm of digital product design, we are taught to optimize for certain heuristics: minimize the number of clicks to get from one point to another, make information discoverable, reduce friction … the list goes on. 
 
 Designers have an incredible amount of agency to both challenge and develop people’s visions of the future. In this talk, we’ll learn about what it means to prioritize ethics in design, especially as these visions introduce unintended (and at times, exploitative) consequences.
