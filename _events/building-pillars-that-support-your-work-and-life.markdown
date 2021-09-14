@@ -87,26 +87,26 @@ platform:
     the primary room. The primary room will retain live captioning and will require
     no additional navigation.\n* Questions for the speaker can be asked live during
     the event through the chat or by speaking off mute during the Q&A portion of the
-    event.\nYou can find more about joining our virtual events, including how to connect,
-    directions to troubleshoot, and information about our refund policy, in our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How
-    to Prepare**\n* Have paper and pen/pencil on hand. \n* Markers or colored pencils
-    could be handy but not required."
+    event.\n\nYou can find more about joining our virtual events, including how to
+    connect, directions to troubleshoot, and information about our refund policy,
+    in our [FAQs](https://dcdesignweek.org/faqs/).\n\n**How to Prepare**\n* Have paper
+    and pen/pencil on hand. \n* Markers or colored pencils could be handy but not
+    required."
 filter-date:
   is-day-1: true
 filter-location:
   is-zoom: true
-  is-in-person: 
 filter-time:
   is-daytime: true
 filter-type:
   is-workshop: true
 ---
 
-What guides you to create your best work or a better life?  <br>
+What guides you to create your best work or a better life?
 
-At Project Design Co, we asked ourselves this question and dove into a month-long team retreat to find our core values. What was what we call our Pillars of Design, a set of six words that flow through all our work. They guide us when we face a blank screen, a new proposal, a crushing deadline, ourselves and each other.  <br>
+At Project Design Co, we asked ourselves this question and dove into a month-long team retreat to find our core values. What was what we call our Pillars of Design, a set of six words that flow through all our work. They guide us when we face a blank screen, a new proposal, a crushing deadline, ourselves and each other.
 
-Whether in your work or personal life, you can benefit from establishing clearer signs to point the way.  This workshop will guide you through a condensed journey to establish or hone your own set of pillars that resonate with you. We’ll help you identify, develop & incorporate your own keywords to drive you to success in all you do.  <br>
+Whether in your work or personal life, you can benefit from establishing clearer signs to point the way.  This workshop will guide you through a condensed journey to establish or hone your own set of pillars that resonate with you. We’ll help you identify, develop & incorporate your own keywords to drive you to success in all you do.
 
 In this workshop, you'll:
 *  Start building a foundation based on passion, drive, curiosity, experience, and goals. 
@@ -115,8 +115,9 @@ In this workshop, you'll:
 * Learn about the importance of word choice and intent.
 * Gain insights to your core values.
 * Brainstorm and review your ideas in small breakout groups.
-* Walk away with a set of pillars that you can take back to your team or start implementing now.  <br>
+* Walk away with a set of pillars that you can take back to your team or start implementing now.
 
-This workshop is for any designer (freelance or part of a team), manager, or leader who is looking to strengthen their own brand, gain focus, and connect with purpose.  <br><br> 
+This workshop is for any designer (freelance or part of a team), manager, or leader who is looking to strengthen their own brand, gain focus, and connect with purpose.
+
 
 *This event was put together in partnership with [Project Design Co.](https://www.projectdesigncompany.com/).*
