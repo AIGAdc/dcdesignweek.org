@@ -4,7 +4,7 @@ date: 2021-09-10 18:24:00 -04:00
 image: "/uploads/Web%20Banner_How%20to%20Overhaul%20a%20Coorporate%20Brand.png"
 description: Is it possible to overhaul a 20 year-old brand in six months without
   making everyone involved miserable? Yes. But you need a plan.
-event-date: 2021-10-05 00:00:00 -04:00
+event-date: 2021-10-05 09:00:00 -04:00
 start-time: 9:00 am
 end-time: 10:00 am
 image-alt: "Collage of photos of event speakers Elliott Muñoz, an art director wearing
