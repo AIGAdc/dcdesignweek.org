@@ -71,7 +71,7 @@ platform:
     for just $50 for a year.)*\n* Questions for the speaker can be asked live during
     the event through the chat. \n\nYou can find more about joining our virtual events,
     including how to connect, directions to troubleshoot, and information about our
-    refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n\n**How to Prepare**\nFor
+    refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n### How to Prepare\nFor
     the best experience of our event, we suggest you:\n* Use a laptop or desktop computer\n*
     Have a good internet connection * Download the latest version of Zoom \n* Use
     a headset \n*[Create a GitHub account](https://github.com/signup)"
