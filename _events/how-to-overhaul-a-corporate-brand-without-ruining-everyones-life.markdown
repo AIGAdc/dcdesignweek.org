@@ -68,7 +68,7 @@ platform:
     for AIGA members to rewatch or catch up on at a later date. *(You can register
     for [a membership on our website](https://dc.aiga.org/membership/membership-rates/)
     for just $50 for a year.)*\n* Questions for the speaker can be asked live during
-    the event through the chat.\nYou can find more about joining our virtual events,
+    the event through the chat.\n\nYou can find more about joining our virtual events,
     including how to connect, directions to troubleshoot, and information about our
     refund policy in our [FAQs](https://dcdesignweek.org/faqs/)."
 filter-date:
