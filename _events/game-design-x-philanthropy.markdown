@@ -10,10 +10,10 @@ start-time: 12:00 pm
 end-time: 1:30 pm
 image-alt: Image that says Game Design and Philanthropy with Game Genius.
 tickets:
-  has-member-button: 'True'
+  has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D447801%26redirect_source%3Deventbrite_register
   member-button-label: " $17 — Members"
-  has-non-member-button: 'True'
+  has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/game-design-x-philanthropy-tickets-170371616090
   non-member-button-label: "$22 — Non-members"
 venue:
@@ -53,6 +53,7 @@ platform:
     * Please make your display name fully match the name on our registration list in order to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
     * This event will not be recorded.
     * You can [send the speaker questions ahead of time](mailto:accessibility@dc.aiga.org) which may be answered during the event or ask questions live during the event through the chat or by speaking off mute during the Q&A portion of the event.
+
     You can find more about joining our virtual events, including our refund policy, in our [FAQs](https://dcdesignweek.org/faqs/) and help with [troubleshooting Gather on their support page](https://support.gather.town/help).
 
     **How to Prepare**
