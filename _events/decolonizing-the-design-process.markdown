@@ -29,6 +29,9 @@ speakers:
   title: Director of Trendcasting at Hickok Cole, a DC-based design consultancy
   website-label: LinkedIn
   website-url: https://www.linkedin.com/in/rhea-vaflor-a607a8
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* The virtual streaming of this event will have real time CART (live captioning)
     services and transcriptions provided by Verbit.\n* A sign language interpreter
