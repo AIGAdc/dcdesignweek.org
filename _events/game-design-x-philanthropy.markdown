@@ -46,6 +46,7 @@ accessibility:
 platform:
   is-in-person: false
   is-remote: true
+  remote-header: Virtual Platform & How to Prepare
   remote-body: |-
     This event will be streamed via Gather:
     * Sign up for an account with [Gather](http://gather.town) in advance of the event.
