@@ -85,6 +85,7 @@ speakers:
 platform:
   is-in-person: false
   is-remote: true
+  remote-header: Virtual Platform & How to Prepare
   remote-body: |-
     This event will be streamed via Zoom:
 
