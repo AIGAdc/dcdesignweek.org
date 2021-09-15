@@ -48,7 +48,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    **All attendees must bring proof of vaccination for entry. Masks are required inside the studio.**
+    *All attendees must bring proof of vaccination for entry. Masks are required inside the studio.*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
