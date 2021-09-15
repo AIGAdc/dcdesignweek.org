@@ -56,6 +56,21 @@ section#hero-standard {
     font-weight: 700;
 }
 
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: var(--index-1);
+}
+
+.hero-event .column-one {
+    position: relative;
+    z-index: var(--index-6);
+}
+
 @media screen and (min-width: 768px) {
     .hero-home p,
     .hero-standard p {
@@ -141,7 +156,7 @@ section#hero-standard {
     .hero-standard h1,
     .hero-home h1,
     .hero-event h1 {
-        font-size: var(--font-size-120);
+        font-size: var(--font-size-96);
         position: relative;
         top: -16px;
     }

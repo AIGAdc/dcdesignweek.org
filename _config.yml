@@ -164,8 +164,8 @@ faqs:
     it’s how to find the streaming link or how to get the most out of our remote events.
     We’ve got answers to those and more FAQs.
   show-faqs-image: true
-  image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
-  imageAlt: Baptiste
+  image: "/uploads/image-faqs.png"
+  imageAlt: Man walking down escaltor holding newspaper
   button-url: "/faqs/"
   button-label: View FAQs
 filter-events:
@@ -387,7 +387,7 @@ sponsors:
   - title: Sponsor Title
     image: "/uploads/sponsor-lions-den.svg"
     image-alt: Logo Alt
-    website: https://dcdesignweek.org
+    website: https://www.lauren-devera.com/thelionsden
     aria-label: Website Aria Label
 staff:
 - image: "/uploads/headshot_richardbentham.jpg"

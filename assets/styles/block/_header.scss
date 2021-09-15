@@ -7,8 +7,6 @@
     gap: var(--space-16);
     justify-content: space-between;
     padding: var(--space-16);
-    position: sticky;
-    top: 0;
     z-index: var(--index-10);
 }
 
@@ -25,7 +23,7 @@
 
 .site-header .links {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
 }
 
 .site-header .link {
@@ -48,6 +46,17 @@
     color: var(--cinnabar);
 }
 
+@media screen and (min-width: 640px) {
+    .site-header {
+        position: sticky;
+        top: 0;
+    }
+
+    .site-header .links {
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
 @media screen and (min-width: 768px) {
     .site-header {
         align-items: center;
@@ -58,10 +67,6 @@
 
     .site-header .logo {
         padding: 0;
-    }
-
-    .site-header .links {
-        grid-template-columns: repeat(4, auto);
     }
 }
 
