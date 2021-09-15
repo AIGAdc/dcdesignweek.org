@@ -27,8 +27,8 @@ tickets:
   non-member-button-url: https://www.eventbrite.com/e/innovative-internships-in-person-virtual-options-tickets-171579738617
   non-member-button-label: "$10 — Non-members"
 venue:
-  name: Virtual attendance via Zoom; In-person attendance at Marymount University
-  info: "Marymount University\n1000 North Glebe Road; \n2nd floor; \nArlington, VA
+  name: Zoom &  in-person at Marymount University
+  info: "Marymount University:\n1000 North Glebe Road; \n2nd floor; \nArlington, VA
     22201"
 has-speakers: true
 speakers:
