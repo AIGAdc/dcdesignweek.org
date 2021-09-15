@@ -69,6 +69,7 @@ filter-location:
 filter-time:
   is-evening: true
 filter-type:
+  is-keynote: true
   is-talk-panel: true
 ---
 
