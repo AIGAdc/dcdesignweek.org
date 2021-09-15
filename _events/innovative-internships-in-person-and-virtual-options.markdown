@@ -74,12 +74,12 @@ accessibility:
     services and transcriptions provided by Verbit.\n* A sign language interpreter
     will not be present unless requested. If requested, we will do our best to employ
     a sign language interpreter for the event.\n* The main entrance (1000 N. Glebe
-    Rd) is ADA accessible.\n* Take the elevator to the second floor for the event.\n*
-    Accessible and gender-neutral bathrooms are available on the third floor (accessible
-    by elevators and stairs).\n\nIf you need any additional accommodations, please
-    contact us using a method that works best for you:\n* [Email our accessibility
-    team at accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).\n* [Call
-    or text our accessibility lead Josh Kim at 571-422-2656](tel:571-422-2656).\n*
+    Rd) for in-person attendance is ADA accessible.\n* Take the elevator to the second
+    floor for the event.\n* Accessible and gender-neutral bathrooms are available
+    on the third floor (accessible by elevators and stairs).\n\nIf you need any additional
+    accommodations, please contact us using a method that works best for you:\n* [Email
+    our accessibility team at accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).\n*
+    [Call or text our accessibility lead Josh Kim at 571-422-2656](tel:571-422-2656).\n*
     [Request an accommodation through our Google Form](https://forms.gle/VTys8LzewYs2isUm7).\n\nWe
     honor your privacy. No identifying information like your name is required to request
     an accommodation, and all details will be deleted once completed. \n\nYou can
@@ -96,6 +96,9 @@ platform:
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
     When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety a refund will be issued. In either scenario you will be notified immediately.
+
+    ### How to prepare
+    In-person attendees can submit questions for the speakers via the Zoom Q&A feature.
   is-remote: true
   remote-header: Virtual Platform
   remote-body: "This event will be streamed via Zoom: \n* In order to participate
