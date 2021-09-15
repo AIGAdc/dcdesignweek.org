@@ -78,19 +78,23 @@
     top: var(--space-32);
 }
 
-.speakers ul {
-    position: relative;
-}
+// .speakers ul {
+//     position: relative;
+// }
 
 .speakers .houdini-heading .houdini-toggle {
     align-items: center;
     background-color: transparent;
     border: 0;
-    color: currentColor;
+    color: var(--yellow);
     display: flex;
     justify-content: space-between;
     padding: 0;
     text-align: left;
+}
+
+.speakers .houdini-heading .houdini-toggle:focus {
+    outline: dashed 4px currentColor;
 }
 
 .speakers .mambo-accordion__content {
@@ -99,11 +103,19 @@
     position: relative;
 }
 
+.speaker-info {
+    min-height: 120px;
+}
+
 @media screen and (min-width: 1024px) {
     .speakers .mambo-accordion__content.is-expanded {
         position: absolute !important;
-        bottom: -570px !important;
+        bottom: -540px !important;
         top: unset !important;
         z-index: var(--index-9) !important;
+        left: -120px;
+        left: 0;
+        right: 0;
+        min-height: 460px;
     }
 }

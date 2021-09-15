@@ -59,7 +59,7 @@
         </div>
         <div class="grid--three-column-span">
             <ul class="[ grid grid--three-column mixitup-container ]">
-                {% assign sorted = site.events | sort: 'events-date' and 'date-time' %}
+                {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
                 {% for event in sorted %}
                 {% include card-event.html %}
                 {% endfor %}

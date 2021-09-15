@@ -2,14 +2,14 @@
 // https://tympanus.net/codrops/2020/03/31/css-only-marquee-effect/
 
 :root {
-    --offset: 4vw;
-    --move-initial: calc(-25% + var(--offset));
-    --move-final: calc(-75% + var(--offset));
+    --offset: 5vw;
+    --move-initial: calc(25% + var(--offset));
+    --move-final: calc(-150% + var(--offset));
 }
 
 @media (prefers-reduced-motion: reduce) {
     :root {
-        --offset: 4vw;
+        --offset: 90vw;
         --move-initial: calc(-25% + var(--offset));
         --move-final: calc(-75% + var(--offset));
     }
@@ -26,6 +26,7 @@
     left: 0;
     overflow: hidden;
     text-transform: uppercase;
+    z-index: var(--index-6);
 }
 
 .events-single-layout .banner {

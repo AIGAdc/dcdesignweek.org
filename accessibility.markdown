@@ -82,7 +82,7 @@ a11y-requests-header: Request an Accommodation
 a11y-requests-body: |-
   If you need an accommodation that is unlisted above, please contact us using a method that works best for you:
   - [Email our accessibility](mailto:accessibility@dc.aiga.org) team at accessibility@dc.aiga.org.
-  - Call or text our accessibility lead Josh Kim at 571-422-2656.
+  - Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
   - [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
 
   We honor your privacy. No identifying information like your name is required to request an accomodation, and all details will be deleted once completed.

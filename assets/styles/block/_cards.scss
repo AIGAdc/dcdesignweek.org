@@ -8,6 +8,10 @@
     color: var(--cinnabar);
 }
 
+.card-aside {
+    position: relative;
+}
+
 .card-image {
     border: solid 1px var(--black);
     filter: grayscale(1);
@@ -21,9 +25,14 @@
 }
 
 .card-image img {
-    min-height: 200px;
+    min-height: 144px;
     object-fit: cover;
     object-position: center;
+}
+
+.card-sponsors .card-image img {
+    max-width: 144px;
+    max-height: 120px;
 }
 
 .card-image a {
@@ -48,7 +57,7 @@
 .card-details {
     align-content: center;
     display: grid;
-    grid-gap: var(--space-32);
+    grid-gap: var(--space-48);
     grid-template-columns: 1fr 3fr;
 }
 

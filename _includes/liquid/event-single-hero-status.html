@@ -1,12 +1,12 @@
-{% if page.status.is-featured-event == true and page.status.featured-event-message %}
-<div class="banner banner-featured banner--black">
+{% if page.status.is-featured-event == true %}
+<div class="banner banner-featured banner--celeste">
     <div class="banner-inner" aria-hidden="true">
         <p>{{ page.status.featured-event-message }}</p>
     </div>
 </div>
 {% endif %}
 
-{% if page.status.is-featured-home == true and page.status.featured-event-message %}
+{% if page.status.is-featured-home == true %}
 <div class="banner banner-featured banner--black">
     <div class="banner-inner" aria-hidden="true">
         <p>{{ page.status.featured-event-message }}</p>

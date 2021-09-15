@@ -6,7 +6,9 @@
                 <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
             </a>
             {% if content.show-caption == true %}
-            <a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">{{ content.aria-label }}</a>
+            <a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+                {{ content.aria-label }}
+            </a>
             {% endif %}
         </figure>
     </div>
