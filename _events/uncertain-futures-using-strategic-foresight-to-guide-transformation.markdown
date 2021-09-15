@@ -34,6 +34,7 @@ speakers:
 platform:
   is-in-person: false
   is-remote: true
+  remote-header: Virtual Platform & How to Prepare
   remote-body: |-
     This event will be streamed via Zoom:
     * In order to participate fully, plan to join on the Zoom app via a computer, tablet, or mobile device with enough bandwidth to support viewing video.
