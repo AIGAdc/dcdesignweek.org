@@ -8,6 +8,10 @@
     color: var(--cinnabar);
 }
 
+.card-aside {
+    position: relative;
+}
+
 .card-image {
     border: solid 1px var(--black);
     filter: grayscale(1);

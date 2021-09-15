@@ -8,6 +8,9 @@ event-date: 2021-10-01 19:00:00 -04:00
 start-time: 7:00 pm
 end-time: 10:00 pm
 image-alt: Photos of people at previous SHAOLIN JAZZ events with text saying "10 years".
+status:
+  is-featured-home: false
+  is-featured-event: false
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
