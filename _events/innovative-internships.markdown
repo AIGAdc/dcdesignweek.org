@@ -100,7 +100,7 @@ platform:
     ### How to prepare
     In-person attendees can submit questions for the speakers via the Zoom Q&A feature.
   is-remote: true
-  remote-header: Virtual Platform
+  remote-header: Virtual Platform & How to Prepare
   remote-body: "This event will be streamed via Zoom: \n* In order to participate
     fully, plan to join on the Zoom app via a computer, tablet, or mobile device with
     enough bandwidth to support viewing video.\n* Only those whose display name fully
