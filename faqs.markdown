@@ -24,7 +24,7 @@ questions:
     DC. \n\nOnce chosen, event planners from the community were partnered with members
     of our committee to plan events that will take place this October."
   trigger: question-2
-  expanded: true
+  expanded: false
 - question: How do I find the link for the event?
   answer: "Once you’ve registered for your event through Eventbrite, you will receive
     an email from DC Design Week via Eventbrite with a link to the Zoom. You will
@@ -33,7 +33,7 @@ questions:
     contact us at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org) in the hour leading
     up to the start time. "
   trigger: question-3
-  expanded: true
+  expanded: false
 - question: I’m in a waiting room. How do I get in?
   answer: "We want to create a more intimate space for conversations, ensuring only
     those who register for the event can join.\n\nMake sure your full name on Zoom
@@ -43,12 +43,12 @@ questions:
     will send reminders as people join the waiting room and will only admit those
     whose display name matches our registration list. "
   trigger: question-4
-  expanded: true
+  expanded: false
 - question: I’m having trouble with my Zoom. What can I do?
   answer: 'We encourage you to explore Zoom’s [Help Center](https://support.zoom.us/hc/en-us/articles/206175806)
     first. If you aren’t able to resolve the issue that way, [reach out to us](mailto:dcdw@dc.aiga.org). '
   trigger: question-5
-  expanded: true
+  expanded: false
 - question: What’s your refund policy?
   answer: "We will honor refunds up until 24 hours before your event’s start time.
     \n\nWe will **not** honor refunds:\n- For technical difficulties unless you [reach
@@ -57,27 +57,27 @@ questions:
     you’ve tried to start.)\n- If you aren’t admitted from the waiting room because
     your display name did not match our registration list."
   trigger: question-6
-  expanded: true
+  expanded: false
 - question: 'COVID-19 is rapidly changing: What happens if in-person events need to
     be cancelled?'
   answer: When possible, in-person events will be moved to Zoom and a refund should
     not be expected. If an event is canceled in its entirety a refund will be issued.
     In either scenario you will be notified immediately.
   trigger: question-7
-  expanded: true
+  expanded: false
 - question: Are there capacity restrictions for in-person events?
   answer: Capacity restrictions will be officially decided about two weeks out from
     DCDW and posted on the specific event pages in order to follow the latest CDC
     guidance.
   trigger: question-8
-  expanded: true
+  expanded: false
 - question: What is the mask policy for in-person events?
   answer: 'For community-curated events, event partners who are putting on the event
     will have the final say, but we are encouraging those not speaking, drinking,
     or eating to wear a mask. When in doubt, review the information on the webpage
     for your event. '
   trigger: question-9
-  expanded: true
+  expanded: false
 - question: Will events be recorded?
   answer: "All virtual and hybrid events will be recorded unless technical issues
     occur or recording the content disrupts the intimacy and privacy required for
@@ -87,7 +87,7 @@ questions:
     on our website for just $50 for a year. We’re a 100% non-revenue generating entity,
     so this goes a long way to keeping us afloat. "
   trigger: question-10
-  expanded: true
+  expanded: false
 - question: When I buy a ticket, where is the money going?
   answer: "The ticket sales cover our expenses, including streaming platforms and
     for live closed captioning. We’re also doing a revenue share to ensure our speakers
@@ -102,7 +102,7 @@ questions:
     please reach out to us at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org)
     so we can work together to find a solution that works for you!"
   trigger: question-11
-  expanded: true
+  expanded: false
 - question: I need accommodation to participate fully – What do I do?
   answer: "All of our virtual events will include live captioning. \n\nIf you need
     additional accommodation, please contact us. We ask that you request your accommodation
@@ -115,6 +115,6 @@ questions:
     this is a journey and we are still far from our ideal. Read more about our accessibility
     efforts."
   trigger: question-12
-  expanded: true
+  expanded: false
 ---
 
