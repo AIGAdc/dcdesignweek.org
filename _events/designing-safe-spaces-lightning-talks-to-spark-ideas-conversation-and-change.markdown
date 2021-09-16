@@ -1,6 +1,7 @@
 ---
 title: 'Designing Safe Spaces: Lightning Talks to Spark Ideas, Conversation, and Change'
 date: 2021-09-10 18:43:00 -04:00
+image: "/uploads/DesignSafeSpaces_HeroBanner%20copy.png.jpg"
 description: Join DCDW, in partnership with Service Design DC, for a cross-disciplinary
   series of lightning talks around designing safe spaces.
 event-date: 2021-10-05 18:30:00 -04:00
