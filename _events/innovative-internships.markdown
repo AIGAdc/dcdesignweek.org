@@ -1,7 +1,7 @@
 ---
 title: Innovative Internships (IN-PERSON & VIRTUAL OPTIONS)
 date: 2021-09-14 21:43:00 -04:00
-image: "/uploads/WebBanner-innovative%20internships.jpg"
+image: "/uploads/WebBanner-innovative%20internships.jpg.png"
 description: A discussion between diverse members of the Marymount creative community
   addressing the mutually beneficial value of internship experiences.
 event-date: 2021-10-04 09:00:00 -04:00
