@@ -47,10 +47,6 @@
     <div class="[ grid grid--align-start grid--four-column ]">
         <div class="grid--two-column-span flow-2">
             <h2 id="{{ page.events-header | downcase | replace: " ", " -" }}">{{ page.events-header }}</h2>
-            {% if page.events-body %}
-            <hr class="divider divider--black" aria-hidden="true">
-            <div class="wysiwyg flow-2">{{ page.events-body | markdownify }}</div>
-            {% endif %}
         </div>
     </div>
     <div class="[ grid grid--align-start grid--four-column ]">

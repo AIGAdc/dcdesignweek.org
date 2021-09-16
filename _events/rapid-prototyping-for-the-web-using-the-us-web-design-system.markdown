@@ -1,7 +1,7 @@
 ---
 title: Rapid Prototyping for the Web Using the US Web Design System
 date: 2021-09-10 18:28:00 -04:00
-image: "/uploads/WebBanner_RapidPrototypingfortheWebUsingtheUSWebDesignSystem.jpg"
+image: "/uploads/WebBanner_RapidPrototypingfortheWebUsingtheUSWebDesignSystem-7f3b7f.jpg"
 description: Learn how to make your ideas more tangible more quickly by designing
   and prototyping in the browser with USWDS and GitHub.
 event-date: 2021-10-07 09:00:00 -04:00
