@@ -23,14 +23,14 @@ speakers:
   title: 
   bio: 
   website-label: 
-  website-url:
+  website-url: 
   is-tba: true
 - name: 
   pronouns: 
   title: 
   bio: 
   website-label: 
-  website-url:
+  website-url: 
   is-tba: true
 platform:
   is-in-person: false
