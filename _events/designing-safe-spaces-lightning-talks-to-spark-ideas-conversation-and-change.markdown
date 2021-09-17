@@ -16,32 +16,23 @@ tickets:
   non-member-button-label: Free — Non-members
 venue:
   name: Zoom
-has-speakers: true
+has-speakers: false
 speakers:
-- name: Alissa (Al) Millenson
-  pronouns: she | her
-  title: Senior Service and Interaction Designer, Fjord
-  bio: Al Millenson is a Senior Service and Interaction Designer with Fjord, who has
-    held previous roles in service design at Phillips, Booz Allen Hamilton and Peer
-    Insight.
-  website-label: Website
-  website-url: https://alissamillenson.com
+- name: 
+  pronouns: 
+  title: 
+  bio: 
+  website-label: 
+  website-url: 
   color-background: cinnabar
   color-text: celeste
   default-expanded: false
-- name: Tarek Kouddous
-  pronouns: he | him
-  title: Founder/Creative Director, Radical Empathy
-  bio: Tarek Kouddous is the Founder and Creative Director of Radical Empathy, an
-    art production startup charged with co-creating transformative experiences to
-    vitalize community belonging. Focusing on unconventional spaces across the city,
-    his launch production this summer targets 20 utility box murals in his residential
-    neighborhood Logan Circle, assembling 15 local DMV artists and three community
-    non-profits. Last year, he organized 23 plywood murals amidst social demonstrations.
-    Born and raised in Egypt, Kouddous believes in transforming space into place with
-    diversity of personality and hyper-local harmony of neighborhood and workhood.
-  website-label: Website
-  website-url: https://radicalempathynow.com/
+- name: 
+  pronouns: 
+  title: 
+  bio: 
+  website-label: 
+  website-url: 
   color-background: cinnabar
   color-text: celeste
   default-expanded: false
