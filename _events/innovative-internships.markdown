@@ -84,6 +84,15 @@ speakers:
   color-background: cinnabar
   color-text: celeste
   default-expanded: false
+- name: Liga Brige
+  pronouns: she | her
+  title: Small Business Counselor, Northern Virginia Family Service
+  bio: Liga is a multilingual senior expert in international relations, small business and higher education with more than 15 years of professional experience in public and private sectors in Europe and the Americas.
+  website-label: Website
+  website-url: https://www.nvfs.org
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* The virtual streaming of this event will have real time CART (live captioning)
     services and transcriptions provided by Verbit.\n* A sign language interpreter
