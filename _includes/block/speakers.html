@@ -27,10 +27,15 @@
                         <p>{{ speaker.title }}</p>
                         {% endif %}
                     </div>
+                    {% if speaker.is-tba == true %}
+                    {% else %}
                     <a aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ speaker.name | replace: "+", "" | replace: ".", "" | downcase | replace: "(", "" | replace: ")", "" | replace: " ", "-" }}">
                         View Bio
                     </a>
+                    {% endif %}
                 </li>
+                {% if speaker.is-tba == true %}
+                {% else %}
                 <div class="grid--four-column-span  [ gap-padding-top-1100 gap-padding-bottom-1100 lg:gap-padding-left-1600 lg:gap-padding-right-1600 ] mambo-accordion__content speaker-bio background-dcdw-2021-{{ speaker.color-background }} color-dcdw-2021-{{ speaker.color-text }} flow-2" data-houdini-group="speaker" id="{{ speaker.name | downcase | replace: "+", "" | replace: ".", "" | replace: "(", "" | replace: ")", "" | replace: " ", "-" }}">
                     <p class="font-size-400 font-weight-bold">About</p>
                     <hr class="divider divider--{{ speaker.color-text }}" aria-hidden="true">
@@ -65,6 +70,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
