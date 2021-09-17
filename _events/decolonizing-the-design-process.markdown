@@ -59,7 +59,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    *We are encouraging those not drinking or eating to wear a mask.*
+    *Masks are required for visitors at all times while inside the building, regardless of vaccination status.*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?

@@ -39,6 +39,9 @@ speakers:
     University and is an established, award-winning artist and designer.
   website-label: Website
   website-url: http://www.bcmdesignstudio.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 - name: Jessica Bonness
   pronouns: she | her | hers
   title: Assistant Professor, Interior Design
@@ -48,6 +51,9 @@ speakers:
     on equity and human-centered design processes.
   website-label: Website
   website-url: https://www.profjessicabonness.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 - name: James Sanders
   pronouns: 
   title: Interior Design Student & Professional
@@ -55,6 +61,9 @@ speakers:
     of Arts at Marymount University - Phi Kappa Phi Honor Society.
   website-label: LinkedIn
   website-url: http://www.linkedin.com/in/james-sanders-b19047169
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 - name: Alexandra Rivera
   pronouns: she | her
   title: Graphic Designer
@@ -62,6 +71,9 @@ speakers:
     for graphic design at a young age.
   website-label: Website
   website-url: https://aportafolio.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 - name: Isabella Palomo
   pronouns: she | her
   title: Graphic and media designer
@@ -69,6 +81,20 @@ speakers:
     and is currently living in Guatemala.
   website-label: Website
   website-url: http://isabellapalomo.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Liga Brige
+  pronouns: she | her
+  title: Small Business Counselor, Northern Virginia Family Service
+  bio: Liga is a multilingual senior expert in international relations, small business
+    and higher education with more than 15 years of professional experience in public
+    and private sectors in Europe and the Americas.
+  website-label: Website
+  website-url: https://www.nvfs.org
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 accessibility:
   body: "* The virtual streaming of this event will have real time CART (live captioning)
     services and transcriptions provided by Verbit.\n* A sign language interpreter
@@ -96,7 +122,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    *We are encouraging those not drinking or eating to wear a mask.*
+    *Masks are required for visitors at all times while inside the building, regardless of vaccination status.*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
