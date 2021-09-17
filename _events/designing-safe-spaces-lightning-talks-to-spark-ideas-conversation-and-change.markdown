@@ -23,19 +23,15 @@ speakers:
   title: 
   bio: 
   website-label: 
-  website-url: 
-  color-background: cinnabar
-  color-text: celeste
-  default-expanded: false
+  website-url:
+  is-tba: true
 - name: 
   pronouns: 
   title: 
   bio: 
   website-label: 
-  website-url: 
-  color-background: cinnabar
-  color-text: celeste
-  default-expanded: false
+  website-url:
+  is-tba: true
 platform:
   is-in-person: false
   is-remote: true
