@@ -16,9 +16,9 @@ tickets:
   non-member-button-label: Free — Non-members
 venue:
   name: Zoom
-has-speakers: false
+has-speakers: true
 speakers:
-- name: 
+- name: To Be Announced
   pronouns: 
   title: 
   bio: 
