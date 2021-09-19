@@ -361,22 +361,32 @@ sponsors:
     website: https://www.fjordnet.com/
     aria-label: Website Aria Label
   sponsor-tier-two:
-  - title: Eaton Hotel
-    image: "/uploads/sponsor-eaton.png"
-    image-alt: White Eaton Hotel Logo
-    website: https://www.eatonworkshop.com/hotel/dc
-    aria-label: UXPA DC's Website
   - title: Bixal
     image: "/uploads/sponsor-bixal.svg"
     image-alt: White Bixal Logo
     website: https://www.bixal.com/
     aria-label: UXPA DC's Website
+  - title: Marymount University
+    image: "/uploads/sponsor-marymount.svg"
+    image-alt: White Bixal Logo
+    website: https://www.bixal.com/
+    aria-label: UXPA DC's Website
+  - title: UXPA
+    image: "/uploads/sponsor-uxpa.svg"
+    image-alt: White Bixal Logo
+    website: https://www.bixal.com/
+    aria-label: UXPA DC's Website
   - title: Adobe
-    image: "/uploads/sponsor-adobe.png"
-    image-alt: White Adobe Logo
+    image: "/uploads/sponsor-adobe.svg"
+    image-alt: "White Adobe Logo"
     website: https://www.adobe.com/
-    aria-label: Adobe's Website
+    aria-label: "Adobe's Website"
   sponsor-tier-three:
+  - title: Eaton Hotel
+    image: "/uploads/sponsor-eaton.png"
+    image-alt: White Eaton Hotel Logo
+    website: https://www.eatonworkshop.com/hotel/dc
+    aria-label: UXPA DC's Website
   - title: This Could Be You
     image: "/uploads/sponsor-this-could-be-you.png"
     image-alt: Temporary sponsor logo
