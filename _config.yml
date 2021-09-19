@@ -387,12 +387,6 @@ sponsors:
     image-alt: White Eaton Hotel Logo
     website: https://www.eatonworkshop.com/hotel/dc
     aria-label: Eaton Hotel's Website
-  # - title: This Could Be You
-  #   image: "/uploads/sponsor-this-could-be-you.png"
-  #   image-alt: Temporary sponsor logo
-  #   website: mailto:dcdw@aiga.dc.org
-  #   aria-label: Email us to become a DCDW Sponsor today!
-  #   show-caption: true
   sponsor-tier-four:
   - title: Sponsor Title
     image: "/uploads/sponsor-lions-den.svg"
