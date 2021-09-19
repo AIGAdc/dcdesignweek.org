@@ -377,10 +377,10 @@ sponsors:
     website: https://www.bixal.com/
     aria-label: UXPA DC's Website
   - title: Adobe
-    image: "/uploads/sponsor-adobe.png"
-    image-alt: "White Adobe Logo"
+    image: "/uploads/sponsor-adobe.svg"
+    image-alt: White Adobe Logo
     website: https://www.adobe.com/
-    aria-label: "Adobe's Website"
+    aria-label: Adobe's Website
   sponsor-tier-three:
   - title: Eaton Hotel
     image: "/uploads/sponsor-eaton.png"
