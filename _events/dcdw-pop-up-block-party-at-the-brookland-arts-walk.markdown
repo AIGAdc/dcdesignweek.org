@@ -8,6 +8,9 @@ event-date: 2021-10-08 18:00:00 -04:00
 start-time: 6:00 pm
 end-time: 10:00 pm
 image-alt: Brick building with the word “Brookland” on it.
+status:
+  is-featured-event: true
+  featured-event-message: Featured Event
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
