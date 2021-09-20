@@ -359,36 +359,40 @@ sponsors:
     image: "/uploads/sponsor-fjord.png"
     image-alt: White Fjord logo
     website: https://www.fjordnet.com/
-    aria-label: Website Aria Label
+    aria-label: Fjord's Website
   sponsor-tier-two:
-  - title: Eaton Hotel
-    image: "/uploads/sponsor-eaton.png"
-    image-alt: White Eaton Hotel Logo
-    website: https://www.eatonworkshop.com/hotel/dc
-    aria-label: UXPA DC's Website
   - title: Bixal
     image: "/uploads/sponsor-bixal.svg"
     image-alt: White Bixal Logo
     website: https://www.bixal.com/
     aria-label: UXPA DC's Website
+  - title: Marymount University
+    image: "/uploads/sponsor-marymount.svg"
+    image-alt: White Bixal Logo
+    website: https://marymount.edu/Academics/college-of-business-innovation-leadership-and-technology/school-of-design-and-art/
+    aria-label: Marymount's Website
+  - title: UXPA
+    image: "/uploads/sponsor-uxpa.svg"
+    image-alt: White Bixal Logo
+    website: https://www.uxpadc.org/
+    aria-label: UXPA DC's Website
   - title: Adobe
-    image: "/uploads/sponsor-adobe.png"
+    image: "/uploads/sponsor-dobe-new.png"
     image-alt: White Adobe Logo
     website: https://www.adobe.com/
     aria-label: Adobe's Website
   sponsor-tier-three:
-  - title: This Could Be You
-    image: "/uploads/sponsor-this-could-be-you.png"
-    image-alt: Temporary sponsor logo
-    website: mailto:dcdw@aiga.dc.org
-    aria-label: Email us to become a DCDW Sponsor today!
-    show-caption: true
+  - title: Eaton Hotel
+    image: "/uploads/sponsor-eaton.png"
+    image-alt: White Eaton Hotel Logo
+    website: https://www.eatonworkshop.com/hotel/dc
+    aria-label: Eaton Hotel's Website
   sponsor-tier-four:
   - title: Sponsor Title
     image: "/uploads/sponsor-lions-den.svg"
     image-alt: Logo Alt
     website: https://www.lauren-devera.com/thelionsden
-    aria-label: Website Aria Label
+    aria-label: The Lions Den's Website
 staff:
 - image: "/uploads/headshot_richardbentham.jpg"
   imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut

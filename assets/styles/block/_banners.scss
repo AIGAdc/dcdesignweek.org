@@ -19,7 +19,7 @@
     border: solid 1px var(--black);
     color: var(--black);
     font-family: var(--font-bayard);
-    padding: 8px;
+    padding: 0px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -32,30 +32,15 @@
 .events-single-layout .banner {
     top: 0;
     bottom: unset;
-    border: solid 1px var(--celeste);
+    border: 0;
 }
 
 .banner-inner {
-    display: grid;
-    position: relative;
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: banner 10s linear infinite;
-    animation-play-state: running;
-    grid-template-columns: repeat(4, max-content);
+    text-align: center;
 }
 
-.banner:hover .banner-inner {
-    animation-play-state: paused;
-}
-
-@keyframes banner {
-    0% {
-        transform: translate3d(var(--move-initial), 0, 0);
-    }
-
-    100% {
-        transform: translate3d(var(--move-final), 0, 0);
-    }
+.banner-inner p {
+    font-size: var(--font-size-20);
 }
 
 .banner--beige {
@@ -72,6 +57,7 @@
 
 .banner--purple {
     background-color: var(--purple);
+    border-color: var(--black);
 }
 
 .banner--yellow {

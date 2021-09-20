@@ -59,7 +59,7 @@ platform:
 
 
     ### What COVID precautions are being taken for this event?
-    *Masks are required for visitors at all times while inside the building, regardless of vaccination status.*
+    *Masks are required for visitors at all times while inside the building, regardless of vaccination status*
 
 
     ### COVID-19 is rapidly changing: What happens if in-person events need to be cancelled?
