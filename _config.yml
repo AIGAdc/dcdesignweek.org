@@ -369,13 +369,13 @@ sponsors:
   - title: Marymount University
     image: "/uploads/sponsor-marymount.svg"
     image-alt: White Bixal Logo
-    website: https://www.bixal.com/
+    website: https://marymount.edu/Academics/college-of-business-innovation-leadership-and-technology/school-of-design-and-art/
     aria-label: Marymount's Website
   - title: UXPA
     image: "/uploads/sponsor-uxpa.svg"
     image-alt: White Bixal Logo
-    website: https://www.bixal.com/
-    aria-label: Bixal's Website
+    website: https://www.uxpadc.org/
+    aria-label: UXPA DC's Website
   - title: Adobe
     image: "/uploads/sponsor-dobe-new.png"
     image-alt: White Adobe Logo
@@ -392,7 +392,7 @@ sponsors:
     image: "/uploads/sponsor-lions-den.svg"
     image-alt: Logo Alt
     website: https://www.lauren-devera.com/thelionsden
-    aria-label: Website Aria Label
+    aria-label: The Lions Den's Website
 staff:
 - image: "/uploads/headshot_richardbentham.jpg"
   imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut
