@@ -80,5 +80,6 @@ Having “no plan” of where the business would ultimately take him, Jesse star
 
 The morning will conclude with a fun, hands-on project allowing guests to get their hands on a vintage 1940s Vandercook proofing press and bring home their own letterpress poster.
 
+*Coffee and light snacks will be provided by event sponsor [Lost Sock Roasters](https://lostsockroasters.com/).*
 
 *This event was put together in partnership with [No Plan Press](https://www.noplan.press/).*
