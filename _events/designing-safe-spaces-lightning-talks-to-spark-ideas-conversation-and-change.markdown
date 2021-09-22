@@ -64,3 +64,8 @@ filter-type:
 The term, 'safe spaces,' has become more ubiquitous in recent years - as popularized by its embrace on college campuses, in social justice movements, and in organizational diversity, equity, and inclusion efforts. But what does it REALLY mean? At its base is the notion that all people should feel free and welcome to live, work, and express ideas (and even argue!) without fear of harm, intimidation, or retribution in any environment in which they choose to exist. If only it were that simple! 
 
 Join DC Design Week and Service Design DC for cross-disciplinary lightning talks centered around designers' roles in creating safe spaces. From urban planning to workplace interactions and online communities, designers can (and are) playing key roles in shaping safe spaces. Talks will aim to expand notions about what it means to feel safe; why it's important to create safe spaces (and dismantle harmful ones); and how designers can play crucial roles as change agents in such efforts.
+
+*### About Service Design DC
+[Service Design DC](http://www.servicedesigndc.com), home of the Service Design Network (SDN) DC chapter, is a community of design professionals dedicated to furthering the practice of Service Design in the Washington, DC metro area. We believe that Service Design fuels innovation inspired by people and helps create better customer and citizen experiences.
+
+[Service Design DC Meetup Link ](https://www.meetup.com/ServiceDesignDC/)*

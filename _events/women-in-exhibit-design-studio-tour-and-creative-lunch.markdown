@@ -1,7 +1,7 @@
 ---
 title: 'Women in Exhibit Design: Studio Tour & Creative Lunch'
 date: 2021-09-10 17:42:00 -04:00
-image: "/uploads/Women-in-Exhibit-Design_hero.jpg"
+image: "/uploads/Women-in-Exhibit-Design_HeroBanner_HeroBanner.jpg"
 description: Join this creative lunch conversation about exhibit design and a tour
   of the Home/Brewed exhibit at Heurich House Museum. Hosted by Studio Aorta.
 event-date: 2021-10-08 12:00:00 -04:00

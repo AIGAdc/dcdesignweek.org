@@ -77,3 +77,5 @@ Kicking off the start of DC Design Week 2021, we’re joining forces with SHAOLI
 We’ll also have drink and draw with featuring selected artwork from SHAOLIN JAZZ and DC based artist, designer and muralist, Kelly Towles. 
 
 There will be drinking, there will be music and there will be dancing, you won’t want to miss it!
+
+*Due to capacity limitations, a ticket is required to attend the party even though it is a free event.*
