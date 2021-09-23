@@ -761,9 +761,9 @@ staff:
   role: Marketing Lead
   pronouns: she / her / hers
   number: 1
-  website-url-1:
-  website-label-1:
-  website-aria-label-1:
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
   website-url-2: 
   website-label-2: 
   website-aria-label-2: 

@@ -73,22 +73,9 @@ platform:
     the event through the chat. \n\nYou can find more about joining our virtual events,
     including how to connect, directions to troubleshoot, and information about our
     refund policy in our [FAQs](https://dcdesignweek.org/faqs/).\n\n### How to Prepare\nFor
-    the best experience of our event, we suggest you: 
-    
-    
-    - Use a laptop or desktop computer
-    
-    
-    - Have a good internet connection
-    
-    
-    - Download the latest version of Zoom
-    
-    
-    - Use a headset
-
-
-    - [Create a GitHub account](https://github.com/signup)"
+    the best experience of our event, we suggest you:\n\n- Use a laptop or desktop
+    computer\n\n- Have a good internet connection\n\n- Download the latest version
+    of Zoom\n\n- Use a headset\n\n- [Create a GitHub account](https://github.com/signup)"
 filter-date:
   is-day-7: true
 filter-location:
