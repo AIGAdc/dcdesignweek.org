@@ -393,6 +393,11 @@ sponsors:
     image-alt: Logo Alt
     website: https://www.lauren-devera.com/thelionsden
     aria-label: The Lions Den's Website
+  - title: Sponsor Title
+    image: "/uploads/sponsor-lostsock.png"
+    image-alt: Logo Alt
+    website: https://lostsockroasters.com/
+    aria-label: The Lost Socks' Website
 staff:
 - image: "/uploads/headshot_richardbentham.jpg"
   imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut
@@ -756,12 +761,12 @@ staff:
   role: Marketing Lead
   pronouns: she / her / hers
   number: 1
-  website-url-1: http://www.khanhp.com
-  website-label-1: <i class="fas fa-globe"></i> Website
-  website-aria-label-1: Khanh Pham's Website
+  website-url-1:
+  website-label-1:
+  website-aria-label-1:
   website-url-2: 
-  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
-  website-aria-label-2: Khanh Pham's Instagram
+  website-label-2: 
+  website-aria-label-2: 
   website-url-3: https://www.linkedin.com/in/bkhanhp
   website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
   website-aria-label-3: Khanh Pham's LinkedIn
