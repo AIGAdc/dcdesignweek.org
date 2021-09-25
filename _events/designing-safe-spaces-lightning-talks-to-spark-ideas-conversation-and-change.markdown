@@ -18,20 +18,121 @@ venue:
   name: Zoom
 has-speakers: true
 speakers:
-- name: To Be Announced
-  pronouns: 
-  title: 
+- name: Alla Weinberg
+  pronouns: She/Her
+  title: Work Relationship Expert
+  bio: Alla Weinberg is a work relationship expert helping companies build loving
+    leaders, trusting teams and cultures of safety through training, coaching, and
+    facilitation.
+  website-label: Website
+  website-url: http://www.spokeandwheel.co/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Kelly Benton
+  pronouns: She/Her
+  title: Senior Service Designer
+  bio: 
+  website-label: Website
+  website-url: https://www.kellybenton.design
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Michael J.A. Davis
+  pronouns: He/Him/Y'all
+  title: Head of Equity by Design, Experience Strategy
+  bio: I'm Michael — a full-time father of six (ages 10, 8, 6, 4 and 1 year-old twins…)!
+    On the side... I am an award-winning experience & equity designer committed to
+    the life, love, and liberation of everyday Black and Brown people and minoritized
+    ethnic communities. I am passionate about crafting experiences that serve the
+    most vulnerable, marginalized and historically excluded populations. My unlikely
+    journey as a designer in D&I spaces over the past decade led me to Capital One
+    where I lead the Equity by Design portfolio, focusing on evolving the company's
+    design practice and culture to produce more equitable outcomes in associate and
+    customer experiences.
+  website-label: Website
+  website-url: https://mjadavis.com/about
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Dr. Jazz Walker
+  pronouns: She/Her
+  title: User Researcher
+  bio: 
+  website-label: Website
+  website-url: https://DrJazzWalker.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Eva PenzeyMoog
+  pronouns: She/Her
+  title: Author of Design for Safety, Founder of The Inclusive Safety Project, Principal
+    Designer at 8th Light
+  bio: Eva PenzeyMoog is a principal designer at 8th Light and the author of Design
+    for Safety. Before joining the tech field she worked in the non-profit space and
+    volunteered as a domestic violence educator and rape crisis counselor. At 8th
+    Light she specializes in user experience design as well as education and consulting
+    in the realm of digital safety design. Her work brings together her expertise
+    in domestic violence and technology, helping technologists understand how their
+    creations facilitate interpersonal harm and how to prevent it through intentionally
+    prioritizing the most vulnerable users.
+  website-label: Website
+  website-url: https://www.theinclusivesafetyproject.com/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Phim Her
+  pronouns: She/Her
+  title: Founder, HAWJ Studio / Business Development Strategist, Friendly Design Co
+  bio: Phim Her splits her time between being the founder of HAWJ Studio, a multidisciplinary
+    design, strategy and coaching studio, and doing business development strategy
+    with Friendly Design Co. She was formally a senior product marketing manager at
+    The Washington Post and a senior designer at POLITICO. When she is not writing
+    and designing, she is leading workshops, coaching and connecting creatives in
+    the DC scene. She also recently launched Phim's Chats, a live conversation series
+    featuring introspective interviews with creative leaders, and Room for Us, a community-driven
+    initiative.
+  website-label: Website
+  website-url: https://phimher.com
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Tarek Kouddous
+  pronouns: He/Him
+  title: Founder/Creative Director, Radical Empathy
+  bio: Kouddous is the Founder and Creative Director of Radical Empathy, an art production
+    startup charged with co-creating transformative experiences to vitalize community
+    belonging. Focusing on unconventional spaces across the city, his launch production
+    this summer targets 20 utility box murals in his residential neighborhood Logan
+    Circle, assembling 15 local DMV artists and three community non-profits. Last
+    year, he organized 23 plywood murals amidst social demonstrations. Born and raised
+    in Egypt, Kouddous believes in transforming space into place with diversity of
+    personality and hyper-local harmony of neighborhood and workhood. While his work
+    currently focuses on public design, his conviction is rooted in feature films
+    as his ultimate goal.
+  website-label: Website
+  website-url: http://radicalempathy.org/
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Kate Currie
+  pronouns: She/Her
+  title: Senior Interior Project Designer, Associate, Perkins and Will
   bio: 
   website-label: 
   website-url: 
-  is-tba: true
-- name: 
-  pronouns: 
-  title: 
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
+- name: Naseema Shafi
+  pronouns: She/Her
+  title: Chief Executive Officer, Whitman-Walker Health
   bio: 
   website-label: 
   website-url: 
-  is-tba: true
+  color-background: cinnabar
+  color-text: celeste
+  default-expanded: false
 platform:
   is-in-person: false
   is-remote: true
