@@ -8,7 +8,7 @@ description: Want to have fun while creating games for social good? Join Game Ge
 event-date: 2021-10-02 12:00:00 -04:00
 start-time: 12:00 pm
 end-time: 1:30 pm
-image-alt: "Image that says Game Design and Philanthropy with Game Genius."
+image-alt: Image that says Game Design and Philanthropy with Game Genius.
 status:
   is-featured-home: true
   featured-event-message: Featured Event
