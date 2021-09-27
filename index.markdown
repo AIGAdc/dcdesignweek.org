@@ -28,7 +28,7 @@ makers-button-label: Apply Here
 makers-button-url: https://forms.gle/WeW1QbHHyQeFN8Z9A
 makers-button-is-external-url: true
 makers-button-aria: 
-events-header: Events
+events-header: Featured Events
 events-body: This year, we’re doing even more to foster conversations to challenge,
   and promote the grassroots history of the District, with a focus on the DMV’s unique
   local flavor and its impact.

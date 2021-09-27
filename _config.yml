@@ -32,15 +32,15 @@ defaults:
     description: 
     status:
       is-featured-home: 
-      featured-home-message: This event will standout and appear on the home page
+      featured-home-message:
       is-featured-event: 
-      featured-event-message: This event will standout on the events page
+      featured-event-message:
       is-sold-out: 
-      sold-out-message: This event is now sold out
+      sold-out-message:
       is-limited-supply: 
-      limited-supply-message: The event is running low on tickets
+      limited-supply-message:
       has-occurred: 
-      occurred-message: This event has occurred
+      occurred-message:
     tickets:
       has-member-button: 
       member-button-url: 

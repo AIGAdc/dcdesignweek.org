@@ -1,3 +1,5 @@
+{% if page.url == "/events/" %}
+
 {% if event.status.is-featured-event == true and event.status.featured-event-message %}
 <div class="banner banner-featured banner--purple">
     <div class="banner-inner" aria-hidden="true">
@@ -6,12 +8,14 @@
 </div>
 {% endif %}
 
-{% if event.status.is-featured-home == true and event.status.featured-event-message %}
+{% if event.status.is-featured-home == true %}
+{% if event.status.featured-home-message %}
 <div class="banner banner-featured banner--purple">
     <div class="banner-inner" aria-hidden="true">
-        <p>{{ event.status.featured-event-message }}</p>
+        <p>{{ event.status.featured-home-message }}</p>
     </div>
 </div>
+{% endif %}
 {% endif %}
 
 {% if event.status.is-sold-out == true and event.status.sold-out-message %}
@@ -28,4 +32,6 @@
         <p>{{ event.status.occurred-message }}</p>
     </div>
 </div>
+{% endif %}
+
 {% endif %}
