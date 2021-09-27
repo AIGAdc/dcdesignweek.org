@@ -32,15 +32,15 @@ defaults:
     description: 
     status:
       is-featured-home: 
-      featured-home-message:
+      featured-home-message: 
       is-featured-event: 
-      featured-event-message:
+      featured-event-message: 
       is-sold-out: 
-      sold-out-message:
+      sold-out-message: 
       is-limited-supply: 
-      limited-supply-message:
+      limited-supply-message: 
       has-occurred: 
-      occurred-message:
+      occurred-message: 
     tickets:
       has-member-button: 
       member-button-url: 
