@@ -1,44 +1,44 @@
 {% if page.url == "/" %}
-<section class="[ events ] [ gap-padding-top-1100 gap-padding-bottom-3400 gap-padding-right-700 gap-padding-left-700 md:gap-padding-top-1600 md:gap-padding-bottom-3000 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ texture texture--paper ]" id="events">
+<section class="tear tear-top" aria-hidden="true">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% include textures/rip-A.svg %}
+    </div>
+</section>
+
+<section class="[ events ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="events">
     <div class="[ grid grid--four-column grid--align-center ]">
-        <div class="grid--two-column-span flow-2">
+        <div class="grid--four-column-span flow-2">
             <h2 id="{{ page.events-header | downcase | replace: " ", " -" }}">
                 {{ page.events-header | markdownify }}
             </h2>
-            {% if page.events-body %}
-            <hr class="divider divider--yellow" aria-hidden="true">
-            <div class="wysiwyg">
-                {{ page.events-body | markdownify }}
+        </div>
+
+        <div class="[ grid--four-column-span ]">
+            <div class="grid--four-column-span">
+                <ul class="[ grid grid--four-column mixitup-container ]">
+                    {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
+                    {% for event in sorted %}
+                    {% if event.status.is-featured-home == true %}
+                    {% include card-event.html %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
             </div>
-            {% endif %}
         </div>
-        {% if page.show-events-image == true %}
-        <div class="grid--two-column-span">
-            <figure>
-                <img src="{{ page.events-image }}" alt="{{ page.events-imageAlt }}">
-            </figure>
-        </div>
-        {% endif %}
-
-        {% if page.show-featured-events == true %}
-        <div>
-            <ul class="grid grid--four-column mixitup-container">
-                {% assign sorted = site.events | sort: 'event-date' and 'date-time' %}
-                {% for event in sorted | limit: 4 %}
-                {% if event.status.is-featured-home == true %}
-                {% include card-event.html %}
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
+        
         <div class="gap-margin-top-1000">
             <a class="button button-solid--yellow" href="{{ page.events-button-url }}">
                 {{ page.events-button-label }}
             </a>
         </div>
     </div>
-    {% endif%}
+</section>
+
+<section class="tear tear-bottom" aria-hidden="true">
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% include textures/rip-B.svg %}
     </div>
 </section>
 

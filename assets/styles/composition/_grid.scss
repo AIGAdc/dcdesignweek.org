@@ -100,6 +100,18 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .home-layout .events ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .home-layout .events ul a {
+        color: var(--celeste);
+    }
+
+    .home-layout .events ul a:hover {
+        color: var(--yellow);
+    }
+
     .sponsors ul {
         grid-template-columns: repeat(2, 1fr);
     }
