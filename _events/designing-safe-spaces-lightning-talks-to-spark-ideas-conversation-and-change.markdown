@@ -20,7 +20,7 @@ has-speakers: true
 speakers:
 - name: Alla Weinberg
   pronouns: She/Her
-  title: Work Relationship Expert
+  title: Work Relationship Expert, Spoke & Wheel
   bio: Alla Weinberg is a work relationship expert helping companies build loving
     leaders, trusting teams and cultures of safety through training, coaching, and
     facilitation.
@@ -31,7 +31,7 @@ speakers:
   default-expanded: false
 - name: Kelly Benton
   pronouns: She/Her
-  title: Senior Service Designer
+  title: Senior Service Designer, Code for America
   bio: 
   website-label: Website
   website-url: https://www.kellybenton.design
@@ -40,7 +40,7 @@ speakers:
   default-expanded: false
 - name: Michael J.A. Davis
   pronouns: He/Him/Y'all
-  title: Head of Equity by Design, Experience Strategy
+  title: Head of Equity by Design, Experience Strategy, Capital One
   bio: I'm Michael — a full-time father of six (ages 10, 8, 6, 4 and 1 year-old twins…)!
     On the side... I am an award-winning experience & equity designer committed to
     the life, love, and liberation of everyday Black and Brown people and minoritized
@@ -57,7 +57,7 @@ speakers:
   default-expanded: false
 - name: Dr. Jazz Walker
   pronouns: She/Her
-  title: User Researcher
+  title: User Researcher, Twitter
   bio: 
   website-label: Website
   website-url: https://DrJazzWalker.com
