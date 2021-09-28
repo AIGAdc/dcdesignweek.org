@@ -58,7 +58,15 @@ speakers:
 - name: Dr. Jazz Walker
   pronouns: She/Her
   title: User Researcher, Twitter
-  bio: 
+  bio: Dr. Jazz Walker is a researcher and DEI strategist focused on the intersections
+    of media, culture, and society. The early days of her career began in the fashion
+    industry, where she spent 10-years in various marketing and public relations roles.
+    After years of dealing with the lack of diversity in the fashion industry, Jazz
+    went back to school to earn her Ph.D in Communications, Culture, and Media Studies
+    from Howard University, where she studied the real-world implications of how marketing,
+    race and influencer culture intersect. Dr. Jazz currently works as a UX Researcher
+    at Twitter and continues to consult and adjunct, teaching Communications and UX
+    Design courses.
   website-label: Website
   website-url: https://DrJazzWalker.com
   color-background: cinnabar
@@ -118,7 +126,11 @@ speakers:
 - name: Kate Currie
   pronouns: She/Her
   title: Senior Interior Project Designer, Associate, Perkins and Will
-  bio: 
+  bio: Kate Currie is a Senior Interior Project Designer and Associate at Perkins
+    and Will in Washington, DC. She has experience in each phase of the design process,
+    from visioning and programming to contract documentation and construction administration.
+    Her award-winning portfolio spans a wide range of corporate, healthcare, government,
+    and hospitality interiors projects.
   website-label: 
   website-url: 
   color-background: cinnabar
