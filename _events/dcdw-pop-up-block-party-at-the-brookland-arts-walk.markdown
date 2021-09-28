@@ -14,10 +14,10 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
-  member-button-label: Free — Members
+  member-button-label: 'Register: Free — Members'
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
-  non-member-button-label: Free — Non-members
+  non-member-button-label: 'Register: Free — Non-members'
 venue:
   name: Brookland Arts Walk
   info: |-
