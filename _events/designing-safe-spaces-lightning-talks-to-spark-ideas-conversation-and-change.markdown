@@ -10,8 +10,8 @@ end-time: 8:00 pm
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
-  member-button-label: 'Register: Free'
-  has-non-member-button: false
+  member-button-label: 'Register: Free — Members'
+  has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
   non-member-button-label: 'Register: Free — Non-members'
 venue:
