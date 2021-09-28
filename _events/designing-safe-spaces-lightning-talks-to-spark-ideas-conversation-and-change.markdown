@@ -10,16 +10,16 @@ end-time: 8:00 pm
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
-  member-button-label: Free — Members
-  has-non-member-button: true
+  member-button-label: 'Register: Free'
+  has-non-member-button: false
   non-member-button-url: https://www.eventbrite.com/e/designing-safe-spaces-spark-ideas-conversation-change-tickets-170498652058
-  non-member-button-label: Free — Non-members
+  non-member-button-label: 'Register: Free — Non-members'
 venue:
   name: Zoom
 has-speakers: true
 speakers:
 - name: Alla Weinberg
-  pronouns: She/Her
+  pronouns: she | her
   title: Work Relationship Expert, Spoke & Wheel
   bio: Alla Weinberg is a work relationship expert helping companies build loving
     leaders, trusting teams and cultures of safety through training, coaching, and
@@ -30,7 +30,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Kelly Benton
-  pronouns: She/Her
+  pronouns: she | her
   title: Senior Service Designer, Code for America
   bio: 'A culture-enthusiast who loves getting immersed in the community, Kelly is
     a senior service designer at CFA who enjoys taking on new challenges with a multifaceted
@@ -45,7 +45,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Michael J.A. Davis
-  pronouns: He/Him/Y'all
+  pronouns: he | him | y'all
   title: Head of Equity by Design, Experience Strategy, Capital One
   bio: I'm Michael — a full-time father of six (ages 10, 8, 6, 4 and 1 year-old twins…)!
     On the side... I am an award-winning experience & equity designer committed to
@@ -62,7 +62,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Dr. Jazz Walker
-  pronouns: She/Her
+  pronouns: she | her
   title: User Researcher, Twitter
   bio: Dr. Jazz Walker is a researcher and DEI strategist focused on the intersections
     of media, culture, and society. The early days of her career began in the fashion
@@ -79,7 +79,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Eva PenzeyMoog
-  pronouns: She/Her
+  pronouns: she | her
   title: Author of Design for Safety, Founder of The Inclusive Safety Project, Principal
     Designer at 8th Light
   bio: Eva PenzeyMoog is a principal designer at 8th Light and the author of Design
@@ -96,7 +96,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Phim Her
-  pronouns: She/Her
+  pronouns: she | her
   title: Founder, HAWJ Studio / Business Development Strategist, Friendly Design Co
   bio: Phim Her splits her time between being the founder of HAWJ Studio, a multidisciplinary
     design, strategy and coaching studio, and doing business development strategy
@@ -112,7 +112,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Tarek Kouddous
-  pronouns: He/Him
+  pronouns: he | him
   title: Founder/Creative Director, Radical Empathy
   bio: Kouddous is the Founder and Creative Director of Radical Empathy, an art production
     startup charged with co-creating transformative experiences to vitalize community
@@ -130,7 +130,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Kate Currie
-  pronouns: She/Her
+  pronouns: she | her
   title: Senior Interior Project Designer, Associate, Perkins and Will
   bio: Kate Currie is a Senior Interior Project Designer and Associate at Perkins
     and Will in Washington, DC. She has experience in each phase of the design process,
@@ -143,7 +143,7 @@ speakers:
   color-text: celeste
   default-expanded: false
 - name: Naseema Shafi
-  pronouns: She/Her
+  pronouns: she | her
   title: Chief Executive Officer, Whitman-Walker Health
   bio: In her role as CEO, Naseema Shafi works to implement the strategic vision,
     goals and initiatives of the Board of Directors. She leads and supports the growth
