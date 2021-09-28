@@ -32,7 +32,13 @@ speakers:
 - name: Kelly Benton
   pronouns: She/Her
   title: Senior Service Designer, Code for America
-  bio: 
+  bio: 'A culture-enthusiast who loves getting immersed in the community, Kelly is
+    a senior service designer at CFA who enjoys taking on new challenges with a multifaceted
+    approach. Her focus on inclusive and accessible practices helps to guide her design
+    processes in order to better address underserved needs. She strives to ensure
+    there are equitable considerations at every point throughout the journey through
+    raising the question not only during research, but at the design table: ''Who
+    are we missing?''.'
   website-label: Website
   website-url: https://www.kellybenton.design
   color-background: cinnabar
@@ -139,9 +145,19 @@ speakers:
 - name: Naseema Shafi
   pronouns: She/Her
   title: Chief Executive Officer, Whitman-Walker Health
-  bio: 
-  website-label: 
-  website-url: 
+  bio: In her role as CEO, Naseema Shafi works to implement the strategic vision,
+    goals and initiatives of the Board of Directors. She leads and supports the growth
+    and oversight of the health center with a focus on the provision of high-quality,
+    affirming care that centers the community and maintains the vitality of Whitman-Walker.
+    Prior to her current role, Shafi served as both the Deputy Executive Director
+    and Chief Operating Officer for Whitman-Walker as well as its Director of Compliance,
+    overseeing various matters related to corporate compliance and risk management.
+    Shafi joined Whitman-Walker in 2007. She received her bachelor’s degree from the
+    University of Maryland, College Park and her law degree from the University of
+    Maryland School of Law. She is a member of the Maryland State Bar. In 2016, Shafi
+    was honored as a Minority Business Leader by The Washington Business Journal.
+  website-label: Website
+  website-url: http://www.whitman-walker.org/
   color-background: cinnabar
   color-text: celeste
   default-expanded: false
