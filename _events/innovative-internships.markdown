@@ -21,11 +21,11 @@ image-alt: 'A collage of photos of the speakers, including: Bridget Murphy, a fe
   navy jacket against a white background.'
 tickets:
   has-member-button: true
-  member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D447960%26redirect_source%3Deventbrite_register
-  member-button-label: "$5 — Members"
+  member-button-url: https://www.eventbrite.com/e/innovative-internships-in-person-virtual-options-tickets-171579738617
+  member-button-label: 'Register: Free — Members'
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/innovative-internships-in-person-virtual-options-tickets-171579738617
-  non-member-button-label: "$10 — Non-members"
+  non-member-button-label: 'Register: Free  — Non-members'
 venue:
   name: Zoom &  in-person at Marymount University
   info: "Marymount University:\n1000 North Glebe Road; \n2nd floor; \nArlington, VA
