@@ -14,10 +14,10 @@ status:
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
-  member-button-label: Free — Members
+  member-button-label: 'Register: Free — Members'
   has-non-member-button: true
   non-member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
-  non-member-button-label: Free — Non-members
+  non-member-button-label: 'Register: Free — Non-members'
 venue:
   name: Eaton Hotel
   info: |-

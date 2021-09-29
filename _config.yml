@@ -381,6 +381,16 @@ sponsors:
     image-alt: White Adobe Logo
     website: https://www.adobe.com/
     aria-label: Adobe's Website
+  - title: General Assembly
+    image: "/uploads/sponsor-general-assembly.svg"
+    image-alt: White General Assembly Logo
+    website: https://generalassemb.ly
+    aria-label: General Assembly's Website
+  - title: Fors Marsh Group
+    image: "/uploads/sponsor-fmg.svg"
+    image-alt: White Fors Marsh Group Logo
+    website: https://www.forsmarshgroup.com
+    aria-label: Fors Marsh Group's Website
   sponsor-tier-three:
   - title: Eaton Hotel
     image: "/uploads/sponsor-eaton.png"
