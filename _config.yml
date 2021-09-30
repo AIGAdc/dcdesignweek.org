@@ -408,6 +408,11 @@ sponsors:
     image-alt: Logo Alt
     website: https://lostsockroasters.com/
     aria-label: The Lost Socks' Website
+  - title: Sponsor Title
+    image: "/uploads/sponsor-echo-co.svg"
+    image-alt: Echo Co's Logo
+    website: https://echo.co
+    aria-label: Echo Co's Website
 staff:
 - image: "/uploads/headshot_richardbentham.jpg"
   imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut
