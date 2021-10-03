@@ -11,6 +11,7 @@ image-alt: Photos of people at previous SHAOLIN JAZZ events with text saying "10
 status:
   is-featured-home: false
   is-featured-event: false
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-opening-party-with-shaolin-jazz-tickets-170374175746
