@@ -12,6 +12,7 @@ image-alt: Image that says Game Design and Philanthropy with Game Genius.
 status:
   is-featured-home: true
   featured-event-message: Featured Event
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D447801%26redirect_source%3Deventbrite_register
