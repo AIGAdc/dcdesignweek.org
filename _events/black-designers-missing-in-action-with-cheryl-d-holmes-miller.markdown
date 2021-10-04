@@ -67,7 +67,7 @@ filter-type:
   is-talk-panel: true
 ---
 
-Cheryl D. Holmes Miller is a fourth-generation Washington, DC native and second-generation graduate of DC public schools. As one of the first designers to pioneer the Where Are the Black Designers movement, she is well known in the design industry for her inclusion, diversity, and equity contributions. She is also an AIGA 2021 Expanding Access Medalist and Copper Hewitt 2021 Design Awardee.
+Cheryl D. Holmes Miller is a fourth-generation Washington, DC native and second-generation graduate of DC public schools. As one of the first designers to pioneer the Where Are the Black Designers movement, she is well known in the design industry for her inclusion, diversity, and equity contributions. She is also an AIGA 2021 Expanding Access Medalist and Cooper Hewitt 2021 Design Awardee.
 
 In this keynote, we will explore what events inspired Miller to address the lack of black designers, and consequences thereof. We will also explore: 
 * Whether things have actually changed or if history is repeating itself 
