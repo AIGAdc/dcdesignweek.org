@@ -19,6 +19,8 @@ image-alt: 'A collage of photos of the speakers, including: Bridget Murphy, a fe
   background; and Liga Brige, a female with long blonde hair parted in the middle,
   small stud earrings,and friendly smile. She is wearing a collared white shirt and
   navy jacket against a white background.'
+status:
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/innovative-internships-in-person-virtual-options-tickets-171579738617
