@@ -17,7 +17,7 @@ image-alt: 'Collage of photos including: Dan Banks, a caucasian adult male with 
   adult woman in her 20’s wearing a yellow sweater posing with her head resting on
   her hand, smiling, in front of a yellow backdrop.'
 status:
-  is-featured-home: true
+  is-featured-home: false
   featured-event-message: Featured Event
   has-occurred: true
 tickets:

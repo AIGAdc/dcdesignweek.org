@@ -12,6 +12,7 @@ image-alt: Photo of Rhea Vaflor, a mature, brown skin Filipinx female with mediu
   dark hair who is seated on a stair, wearing a dark blue top and burgundy colored
   jacket, smiling, and looking directly at the camera. while.
 status:
+  is-featured-home: true
   is-limited-supply: true
   limited-supply-message: Limited Tickets Available
 tickets:
