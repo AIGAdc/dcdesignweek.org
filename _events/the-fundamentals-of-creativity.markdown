@@ -10,7 +10,7 @@ end-time: 12:00 pm
 image-alt: "[Emer McPolin] A youngish, Irish female with an up-do, a red lip, a white
   t-shirt and a smile."
 status:
-  is-featured-home: true
+  is-featured-home: false
   featured-event-message: Featured Event
   has-occurred: true
 tickets:

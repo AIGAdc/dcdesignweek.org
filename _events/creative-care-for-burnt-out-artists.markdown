@@ -9,7 +9,7 @@ start-time: 3:00 pm
 end-time: 4:30 pm
 image-alt: Photo collage of legs in socks wearing sneakers.
 status:
-  is-featured-home: true
+  is-featured-home: false
   featured-event-message: Featured Event
   has-occurred: true
 tickets:

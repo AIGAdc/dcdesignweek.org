@@ -9,6 +9,7 @@ start-time: 6:00 pm
 end-time: 10:00 pm
 image-alt: Brick building with the word “Brookland” on it.
 status:
+  is-featured-home: true
   is-featured-event: true
   featured-event-message: Featured Event
 tickets:

@@ -12,6 +12,7 @@ image-alt: Cooper Hewitt National Design Awardee, Design Visionary, AIGA MEDALIS
   within the profession to end the marginalization of BIPOC designers through her
   civil rights activism, industry exposé writing, research rigor, and archival vision.
 status:
+  is-featured-home: true
   is-featured-event: true
   featured-event-message: Featured Event
 tickets:

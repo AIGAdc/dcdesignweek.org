@@ -10,7 +10,7 @@ start-time: 12:00 pm
 end-time: 1:30 pm
 image-alt: Image that says Game Design and Philanthropy with Game Genius.
 status:
-  is-featured-home: true
+  is-featured-home: false
   featured-event-message: Featured Event
   has-occurred: true
 tickets:
