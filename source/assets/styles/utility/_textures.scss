@@ -1,0 +1,98 @@
+.texture {
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: 150%;
+
+    &--paper {
+        background-image: url("/uploads/texture-paper.png");
+    }
+}
+
+// Ripped Paper
+.ripped-paper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: var(--index-8);
+}
+
+.ripped-paper-top {
+    top: -48px;
+}
+
+.ripped-paper-bottom {
+    bottom: -48px;
+}
+
+.ripped-paper-left {
+    left: 96px;
+    bottom: 0;
+    top: 0;
+    right: unset;
+    height: 100vh;
+    position: fixed;
+}
+
+.ripped-paper-right {
+    left: unset;
+    bottom: 0;
+    top: 0;
+    right: 96px;
+    height: 100vh;
+    position: fixed;
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 768px) {
+    .ripped-paper-top {
+        top: -58px;
+    }
+
+    .ripped-paper-bottom {
+        bottom: -58px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .ripped-paper-top {
+        top: -64px;
+    }
+
+    .ripped-paper-bottom {
+        bottom: -64px;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .ripped-paper-top {
+        top: -70px;
+    }
+
+    .ripped-paper-bottom {
+        bottom: -70px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .ripped-paper-top {
+        top: -72px;
+    }
+
+    .ripped-paper-bottom {
+        bottom: -72px;
+    }
+}
+
+@media (prefers-reduced-data: reduce) {
+    .pattern,
+    .ripped-paper {
+        display: none;
+    }
+    .texture {
+        &--paper {
+            background-image: none;
+        }
+    }
+}

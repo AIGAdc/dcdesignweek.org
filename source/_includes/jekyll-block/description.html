@@ -1,0 +1,34 @@
+<section class="[ description ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="description">
+    <div class="[ grid grid--align-start grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
+            <h2>Description</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.content  }}</div>
+
+            {% if page.partners.header %}
+            <h2>{{ page.partners.header }}</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.partners.body  }}</div>
+            {% endif %}
+        </div>
+        <div class="[ grid--one-column-span ] [ flow-2 ]">
+            <div class="flow-2">
+                <h2>Details</h2>
+                <hr class="divider divider--black" aria-hidden="true">
+            </div>
+            <div>
+                <h3>Date & Time</h3>
+                {% comment %}
+                Renders as: Day of Week, Month Date
+                {% endcomment %}
+                <p>{{ page.event-date | date: "%A, %B %d"}}</p>
+                <p>{{ page.start-time }} - {{ page.end-time }}</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>{{ page.venue.name }}</p>
+                <p>{{ page.venue.info }}</p>
+            </div>
+        </div>
+    </div>
+</section>

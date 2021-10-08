@@ -1,0 +1,31 @@
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group fieldset {
+    border: solid 4px var(--black);
+}
+
+.radio-group label {
+    line-height: 32px;
+}
+
+.radio-group input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: var(--celeste);
+    border: 4px solid var(--cinnabar);
+
+    position: relative;
+    top: 8px;
+}
+
+.radio-group input:checked {
+    background-color: var(--black);
+    border: 4px solid var(--cinnabar);
+}

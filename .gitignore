@@ -1,11 +1,7 @@
-.DS_Store
-.jekyll-cache
-.sass-cache
-.vscode
-build
-config.codekit3
 node_modules
-/source/*
-.cache
 public
-.env
+config.codekit3
+.DS_store
+
+# Remove once done with MVP
+_config.yml

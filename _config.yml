@@ -255,23 +255,6 @@ filter-events:
     class: featured
     text-1: Show Featured
 footer:
-  links:
-  - title: Twitter
-    url: https://www.twitter.com/dcdesignweek
-    icon: <i class="fab fa-twitter-square"></i>
-    aria-label: DCDW Twitter
-  - title: Instagram
-    url: https://www.instagram.com/dcdesignweek/
-    icon: <i class="fab fa-instagram-square"></i>
-    aria-label: DCDW Instagram
-  - title: Facebook
-    url: https://www.facebook.com/dcdesignweek/
-    icon: <i class="fab fa-facebook-square"></i>
-    aria-label: DCDW Facebook
-  - title: Github
-    url: https://github.com/AIGAdc/dcdesignweek.org
-    icon: <i class="fab fa-github-square"></i>
-    aria-label: DCDW Github
   contact: designweek@dc.aiga.org
   copyright: "&copy; AIGA DC | 2021 All Rights Reserved."
 makers:
@@ -282,30 +265,6 @@ makers:
     for all your fall shopping needs.
   button-url: "/maker/directory"
   button-label: Explore Local Artists
-navigation-offseason:
-- url: https://2016.dcdesignweek.org
-  label: 2016
-- url: https://2017.dcdesignweek.org
-  label: 2017
-- url: https://2018.dcdesignweek.org
-  label: 2018
-- url: https://2019.dcdesignweek.org
-  label: 2019
-- url: https://2020.dcdesignweek.org
-  label: 2020
-navigation-production:
-- url: "/events/"
-  label: Events
-  aria-label: 
-- url: "/about/"
-  label: About
-  aria-label: 
-- url: "/makers/"
-  label: Makers
-  aria-label: 
-- url: "/faqs/"
-  label: FAQs
-  aria-label: 
 partner:
   header: Partner with Us
   body: 'DC Design Week is 100% volunteer-run, in concert with a consortium of local

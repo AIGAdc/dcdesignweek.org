@@ -1,0 +1,14 @@
+{% comment %}
+Global default set in config.yml -> `conduct`
+{% endcomment %}
+
+<!-- Block: Conduct -->
+<section class="[ conduct ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="conduct">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
+            <h2>{{ site.conduct.header }}</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ site.conduct.body  }}</div>
+        </div>
+    </div>
+</section>

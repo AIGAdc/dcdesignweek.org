@@ -1,0 +1,34 @@
+<section class="section-image-right background-celeste color-black">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        {% 'include textures/rip-B.svg' %}
+    </div>
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.image-right-header | downcase | replace: " ", " -" }}">
+                    {{ page.image-right-header  }}
+                </h2>
+                {% if page.image-right-body %}
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.image-right-body  }}
+                </div>
+                {% endif %}
+                <a class="button button-solid--black" href="{{ page.image-right-button-url }}" {% if page.image-right-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                    {{ page.image-right-button-label }}
+                </a>
+            </div>
+            {% if page.show-image-right-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.image-right-image }}" alt="{{ page.image-right-imageAlt }}">
+                    <figcaption>{{ page.image-right-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        {% 'include textures/rip-A.svg' %}
+    </div>
+</section>

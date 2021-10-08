@@ -1,0 +1,16 @@
+{% if content.image %}
+<li class="[ card card-sponsors ] [ flow-1 ]">
+    <div class="[ card-aside ]">
+        <figure class="[ card-image ]">
+            <a href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+                <img src="{{ content.image }}" alt="{{ content.image-alt }}" />
+            </a>
+            {% if content.show-caption == true %}
+            <a aria-label="{{ content.aria-label }}" href="{{ content.website }}" target="_blank" rel="noopener noferrer">
+                {{ content.aria-label }}
+            </a>
+            {% endif %}
+        </figure>
+    </div>
+</li>
+{% endif %}

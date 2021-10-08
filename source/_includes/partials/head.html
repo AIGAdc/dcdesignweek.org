@@ -1,0 +1,26 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+    {% include "app-min.css" %}
+    {% endset %}
+
+    <!-- feed it through our cssmin filter to minify -->
+    <style type="text/css">
+        {{ css | cssmin | safe }}
+    </style>
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="{{ site.theme-color }}" />
+    <!-- scripts -->
+    <script src="{{ site.asseturl }}scripts/app-min.js"></script>
+    <script src="https://kit.fontawesome.com/2b8780d76f.js" crossorigin="anonymous"></script>
+</head>

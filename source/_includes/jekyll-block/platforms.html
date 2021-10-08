@@ -1,0 +1,33 @@
+{% comment %}
+Siteleaf true/false toggle that allows an editor to control wether to display a platform section that is catered to in-person or remote events.
+{% endcomment %}
+
+{% if page.platform.is-in-person == true %}
+
+<!-- Block: Platform - In-Person -->
+<section class="[ platforms-in-house ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="platforms-in-house">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
+            <h2>{{ page.platform.in-person-header }}</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.platform.in-person-body  }}</div>
+        </div>
+    </div>
+</section>
+
+{% endif %}
+
+{% if page.platform.is-remote == true %}
+
+<!-- Block: Platform - Remote -->
+<section class="[ platforms-remote ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="platforms-remote">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--three-column-span ] [ flow-2 ]">
+            <h2>{{ page.platform.remote-header }}</h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ page.platform.remote-body  }}</div>
+        </div>
+    </div>
+</section>
+
+{% endif %}

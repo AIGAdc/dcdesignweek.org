@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- all of the content related to the HEAD element -->
+    {% include 'partials/head.html' %}
+
+    <body>
+        {% include 'components/site-header.html' %}
+        <main class="{{ page.layout }}-layout" id="main-content">
+            {% block content %}
+            {{ content | safe }}
+            {% endblock %}
+        </main>
+        {% include 'components/site-footer.html' %}
+    </body>
+
+</html>

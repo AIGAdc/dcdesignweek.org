@@ -1,0 +1,36 @@
+<section class="section-image-left background-celeste color-black">
+    {% comment %}
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        {% 'include textures/rip-B.svg' %}
+    </div>
+    {% endcomment %}
+    <div class="container flow-4">
+        <div class="grid grid--align-center grid--four-column">
+            {% if page.show-image-left-image == true %}
+            <div class="grid--two-column-span">
+                <figure>
+                    <img src="{{ page.image-left-image }}" alt="{{ page.image-left-imageAlt }}">
+                    <figcaption>{{ page.image-left-imageAlt }}</figcaption>
+                </figure>
+            </div>
+            {% endif %}
+            <div class="grid--two-column-span flow-2">
+                <h2 id="{{ page.image-left-header | downcase | replace: " ", " -" }}">
+                    {{ page.image-left-header  }}
+                </h2>
+                {% if page.image-left-body %}
+                <hr class="divider divider--black" aria-hidden="true">
+                <div class="wysiwyg">
+                    {{ page.image-left-body  }}
+                </div>
+                {% endif %}
+                <a class="button button-solid--black" href="{{ page.image-left-button-url }}" {% if page.image-left-button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                    {{ page.image-left-button-label }}
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        {% 'include textures/rip-A.svg' %}
+    </div>
+</section>

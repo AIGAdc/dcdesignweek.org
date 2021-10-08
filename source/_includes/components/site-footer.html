@@ -1,0 +1,17 @@
+<footer class="site-footer [ texture texture--paper ]">
+    <a aria-label="Send an email to designweek@dc.aiga.org" href="mailto:{{ site.email }}" target="_top">{{ site.footer.contact }}</a>
+    <ul class="links">
+        {% for link in navigation.links_social %}
+        <li class="link">
+            <a aria-label="{{ link.aria-label }}" class="anchor" href="{{ link.url }}">
+                {{ link.label }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="flow-1">
+        <p>
+            <a aria-label="Learn more about AIGA DC's Mission" href="https://dc.aiga.org/about-us/mission/" rel="noopener nofollow" target="_blank">{{ site.footer.copyright }}</a>
+        </p>
+    </div>
+</footer>

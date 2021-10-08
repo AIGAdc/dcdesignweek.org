@@ -1,0 +1,70 @@
+---
+links_production:
+- url: "/events/"
+  label: Events
+  enabled: true
+  open_external: false
+- url: "/about/"
+  label: About
+  enabled: true
+  open_external: false
+- url: "/makers/"
+  label: Makers
+  enabled: true
+  open_external: false
+- url: "/faqs/"
+  label: FAQs
+  enabled: true
+  open_external: false
+
+links_offseason:
+- url: https://2016.dcdesignweek.org
+  label: 2016
+  enabled: true
+  open_external: true
+- url: https://2017.dcdesignweek.org
+  label: 2017
+  enabled: true
+  open_external: true
+- url: https://2018.dcdesignweek.org
+  label: 2018
+  enabled: true
+  open_external: true
+- url: https://2019.dcdesignweek.org
+  label: 2019
+  enabled: true
+  open_external: true
+- url: https://2020.dcdesignweek.org
+  label: 2020
+  enabled: true
+  open_external: true
+- url: https://2021.dcdesignweek.org
+  label: 2021
+  enabled: true
+  open_external: true
+
+links_social:
+- url: https://www.twitter.com/dcdesignweek
+  label: Twitter
+  icon: <i class="fab fa-twitter-square"></i>
+  aria-label: DCDW Twitter
+  enabled: true
+  open_external: true
+- url: https://www.instagram.com/dcdesignweek/
+  label: Instagram
+  icon: <i class="fab fa-instagram-square"></i>
+  aria-label: DCDW Instagram
+  enabled: true
+  open_external: true
+- url: https://www.facebook.com/dcdesignweek/
+  label: Facebook
+  icon: <i class="fab fa-facebook-square"></i>
+  aria-label: DCDW Facebook
+  enabled: true
+  open_external: true
+- url: https://github.com/AIGAdc/dcdesignweek.org
+  label: Github
+  icon: <i class="fab fa-github-square"></i>
+  aria-label: DCDW Github
+  enabled: true
+  open_external: true

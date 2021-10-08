@@ -1,0 +1,16 @@
+<section class="proposals background-color-dcdw-2021-celeste text-color-black" id="proposals">
+    <div class="container">
+        <h2>
+            {{ site.proposals.header }}
+        </h2>
+        <hr class="divider divider--black">
+        <div class="wysiwyg">
+            {{ site.proposals.body  }}
+        </div>
+        {% if site.proposals.button-label %}
+        <a class="button button__solid--cinnabar" href="{{ site.proposals.button-url }}" rel="noopener nofollow" target="_blank">
+            {{ site.proposals.button-label }}
+        </a>
+        {% endif %}
+    </div>
+</section>

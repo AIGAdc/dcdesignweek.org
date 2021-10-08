@@ -1,0 +1,87 @@
+{% comment %}
+{% if page.url == "/faqs/" %}
+
+<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ] [ texture texture--paper ] [ flow-3 ]" id="faqs">
+    <div class="[ grid grid--align-start grid--four-column ]">
+        <ul class="grid--three-column-span flow-4">
+            {% for question in page.questions %}
+            <li class="mambo-accordion">
+                <h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">{{ question.question }}</h2>
+                <div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg flow-2" data-houdini-group="faq" id="{{ question.trigger }}">
+                    {{ question.answer  }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="grid--one-column-span faq-contact">
+            <div class="flow-2">
+                <h2>Contact</h2>
+                <hr class="divider divider--black" aria-hidden="true">
+                <div>
+                    <p class="font-weight-bold">General Questions</p>
+                    <p>Email:</p> <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+                </div>
+                <div>
+                    <p class="font-weight-bold gap-margin-top-200">Accessibility Questions</p>
+                    <p>Email:</p> <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1, /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon', /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon', /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>', /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
+    });
+</script>
+
+{% elsif page.layout == "events" or "events-single" %}
+
+{% comment %}
+Global default set in config.yml -> `faqs`
+{% endcomment %}
+
+<!-- Block: FAQs -->
+<section class="tear tear-top">
+    <div class="ripped-paper ripped-paper-top" style="fill: var(--black);">
+        <!-- top rip -->
+        {% 'include textures/rip-A.svg' %}
+    </div>
+</section>
+
+<section class="[ faqs ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-black color-dcdw-2021-celeste ]" id="faqs">
+    <div class="[ grid grid--align-center grid--four-column ]">
+        <div class="[ grid--two-column-span ] [ flow-2 ]">
+            <h2 id="{{ site.faqs.header | downcase | replace: " ", " -" }}">{{ site.faqs.header }}</h2>
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div class="wysiwyg flow-2">{{ site.faqs.body  }}</div>
+            <a class="button button-solid--yellow" href="{{ site.faqs.button-url }}" {% if site.faqs.button-is-external-url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ site.faqs.button-label }}
+            </a>
+        </div>
+        {% if site.faqs.show-faqs-image == true %}
+        <div class="[ grid--two-column-span ]">
+            <figure>
+                <img src="{{ site.faqs.image }}" alt="{{ site.faqs.imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<section class="tear tear-bottom">
+    <div class="ripped-paper ripped-paper-bottom" style="fill: var(--black);">
+        <!-- bottom rip -->
+        {% 'include textures/rip-B.svg' %}
+    </div>
+</section>
+
+{% endif %}
+{% endcomment %}

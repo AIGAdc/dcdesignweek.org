@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+:root {
+    /* SECTION - animations */
+    --timing-default: 100ms;
+
+    /* SECTION - colors */
+    // AIGA DC/DCDW Brand Colors
+    --brand-aiga-dc: #297b76;
+
+    // DCDW Past Colors
+    --dcdw-2016: #0000ff;
+    --dcdw-2017: #3e07d0;
+    --dcdw-2018: #297b76;
+    --dcdw-2019: #fb7eb8;
+    --dcdw-2020: #4ae725;
+
+    // DCDW 2021 Colors
+    --beige: #d1d1c5;
+    --black: #000;
+    --celeste: #ecece5;
+    --cinnabar: #ec1001;
+    --dark-gray: #1f1f1e;
+    --purple: #ac7aff;
+    --yellow: #ff0;
+
+    /* SECTION - depth */
+    --index-1: 100;
+    --index-2: 200;
+    --index-3: 300;
+    --index-4: 400;
+    --index-5: 500;
+    --index-6: 600;
+    --index-7: 700;
+    --index-8: 800;
+    --index-9: 900;
+    --index-10: 1000;
+
+    /* SECTION - spacing */
+    --space-4: 0.25rem; // 4px
+    --space-8: 0.5rem; // 8px
+    --space-16: 1rem; // 16px
+    --space-20: 1.25rem; // 20px
+    --space-24: 1.5rem; // 24px
+    --space-32: 2rem; // 32px
+    --space-40: 2.5rem; // 40px
+    --space-48: 3rem; // 48px
+    --space-56: 3.5rem; // 56px
+    --space-64: 4rem; // 64px
+    --space-72: 4.5rem; // 72px
+    --space-80: 5rem; // 80px
+    --space-88: 5.5rem; // 88px
+    --space-96: 6rem; // 96px
+    --space-104: 6.5rem; // 104px
+    --space-112: 7rem; // 112px
+    --space-120: 7.5rem; // 120px
+    --space-128: 8rem; // 128px
+    --space-136: 8.5rem; // 136px
+    --space-144: 9rem; // 144px
+    --space-152: 9.5rem; //152px
+    --space-160: 10rem; //160px
+    --space-168: 10.5rem; //168px
+    --space-176: 11rem; //176px
+    --space-184: 11.5rem; //184px
+    --space-192: 12rem; //192px
+    --space-200: 12.5rem; //200px
+
+    /* SECTION - typography */
+    --font-bayard: "Bayard Regular", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --font-size-4: 0.25rem; // 4px
+    --font-size-8: 0.5rem; // 8px
+    --font-size-16: 1rem; // 16px
+    --font-size-20: 1.25rem; // 20px
+    --font-size-24: 1.5rem; // 24px
+    --font-size-32: 2rem; // 32px
+    --font-size-40: 2.5rem; // 40px
+    --font-size-48: 3rem; // 48px
+    --font-size-56: 3.5rem; // 56px
+    --font-size-64: 4rem; // 64px
+    --font-size-72: 4.5rem; // 72px
+    --font-size-80: 5rem; // 80px
+    --font-size-88: 5.5rem; // 88px
+    --font-size-96: 6rem; // 96px
+    --font-size-104: 6.5rem; // 104px
+    --font-size-112: 7rem; // 112px
+    --font-size-120: 7.5rem; // 120px
+    --font-size-128: 8rem; // 128px
+    --font-size-136: 8.5rem; // 136px
+    --font-size-144: 9rem; // 144px
+    --font-size-152: 9.5rem; //152px
+    --font-size-160: 10rem; //160px
+    --font-size-168: 10.5rem; //168px
+    --font-size-176: 11rem; //176px
+    --font-size-184: 11.5rem; //184px
+    --font-size-192: 12rem; //192px
+    --font-size-200: 12.5rem; //200px
+}
