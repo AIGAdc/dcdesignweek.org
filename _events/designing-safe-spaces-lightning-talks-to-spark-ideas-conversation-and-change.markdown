@@ -4,6 +4,8 @@ date: 2021-09-10 18:43:00 -04:00
 image: "/uploads/DesignSafeSpaces_HeroBanner%20copy.png.jpg"
 description: Join DCDW, in partnership with Service Design DC, for a cross-disciplinary
   series of lightning talks around designing safe spaces.
+status:
+  has-occurred: true
 event-date: 2021-10-05 18:30:00 -04:00
 start-time: 6:30 pm
 end-time: 8:00 pm
