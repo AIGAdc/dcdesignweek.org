@@ -14,6 +14,8 @@ image-alt: 'Collage of photos showing: a young, Asian-American woman wearing a s
   a dark shadow on a light gray backdrop. A youthful white woman with wavy, light
   blond hair wearing red lipstick and a silver nose piercing smiles cheerfully, in
   a black, long sleeve turtleneck top.'
+status:
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://fontevacustomer-1638354c123-1641d839835.force.com/services/oauth2/authorize?client_id=3MVG9nthuDc9owbcOq7_07W.HriOQQPWTbMkrpOla.ajDQlTHf4_uby_mhwylcX.mJBU2O2SppTiZMS0J_HJd&response_type=code&redirect_uri=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/&state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D447798%26redirect_source%3Deventbrite_register
