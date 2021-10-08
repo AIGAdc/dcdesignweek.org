@@ -6,3 +6,6 @@ build
 config.codekit3
 node_modules
 /source/*
+.cache
+public
+.env

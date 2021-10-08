@@ -1,5 +1,0 @@
-// @codekit-append  "houdini.min.js"
-// @codekit-append  "houdini.polyfills.min.js"
-// @codekit-append  "mixitup.min.js"
-// @codekit-append  "mixitup-multifilter.min.js"
-// @codekit-append  "modals.min.js"
