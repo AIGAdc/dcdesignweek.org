@@ -1,0 +1,30 @@
+<section>
+    <div>
+        <div>
+            <h2>
+                {{ photographer_header }}
+            </h2>
+
+            {% if photographer_body %}
+            <hr class="divider divider--yellow" aria-hidden="true">
+            <div>
+                {{ photographer_body  }}
+            </div>
+            {% endif %}
+
+            {% if photographer_button_label %}
+            <a class="button button-solid--yellow" href="{{ photographer_button_url }}" {% if photographer_button_is_external_url==true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ photographer_button_label }}
+            </a>
+            {% endif %}
+        </div>
+        
+        {% if show_photographer_image == true %}
+        <div>
+            <figure>
+                <img alt="{{ photographer_imageAlt }}" src="{{ photographer_image }}">
+            </figure>
+        </div>
+        {% endif %}
+    </div>
+</section>

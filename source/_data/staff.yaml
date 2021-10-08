@@ -1,0 +1,417 @@
+---
+members:
+- image: "/assets/images/headshot_richardbentham.jpg"
+  imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut with a fade and rounder face.
+  name: Richard Bentham
+  role: Executive Director
+  pronouns: he / him / his
+  number: 1
+  website-url-1: http://rbentham.com/about
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Richard Bentham's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: 
+  website-url-3: https://www.linkedin.com/in/richard-bentham-4921a439/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Richard Bentham's LinkedIn
+- image: "/assets/images/headshot_arianarodriguezgitler.jpg"
+  imageAlt: A smiling young Latina woman with wavy dark brown hair.
+  name: Ariana Rodriguez-Gitler
+  role: Deputy Executive Director
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Ariana Rodriguez-Gitler's Website
+  website-url-2: https://www.instagram.com/rgariana/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Ariana Rodriguez-Gitler's Instagram
+  website-url-3: https://www.linkedin.com/in/arianarg/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Ariana Rodriguez-Gitler's LinkedIn
+- image: "/assets/images/headshot_joegreeley.jpg"
+  imageAlt: A white man with brown hair and glasses with a blue sweater vest and red
+    tie.
+  name: Joe Greeley
+  role: Board Liasion
+  pronouns: he / him / his
+  number: 2
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Joe Greeley's Website
+  website-url-2: https://www.instagram.com/jgreeleyjr/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Joe Greeley's Instagram
+  website-url-3: https://www.linkedin.com/in/joe-greeley-7677798/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Joe Greeley's LinkedIn
+- image: "/assets/images/headshot_dannibaker.jpg"
+  imageAlt: A young, African American woman with a short tapered fade, wearing large
+    framed glasses and smiling.
+  name: Danni Baker
+  role: Program Director
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Danni Baker's Website
+  website-url-2: https://www.instagram.com/visionarydanni5/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Danni Baker's Instagram
+  website-url-3: https://www.linkedin.com/in/dannibaker/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Danni Baker's LinkedIn
+- image: "/assets/images/headshot_elizaduquette.jpg"
+  imageAlt: A young white woman with blonde hair with great posture :) and a black
+    jumpsuit laughing towards the camera.
+  name: Eliza Duquette
+  role: Program Director
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.elizaduquette.design/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Eliza Duquette's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Eliza Duquette's Instagram
+  website-url-3: https://www.linkedin.com/in/elizaduquette/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Eliza Duquette's LinkedIn
+- image: "/assets/images/headshot_daviddunston.jpg"
+  imageAlt: A young Black American man with a haircut known as the low-cut Caesar
+    wearing a white t-shirt and double-breasted black blazer smiling
+  name: David Dunston
+  role: Communications Director
+  pronouns: he / him / his
+  number: 2
+  website-url-1: http://davdun.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: David Dunston's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: David Dunston's Instagram
+  website-url-3: https://www.linkedin.com/in/daviddunston/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: David Dunston's LinkedIn
+- image: "/assets/images/headshot_cynthiakim.jpg"
+  imageAlt: A young, smiling, Korean-American woman with big hoop earrings.
+  name: Cynthia Kim
+  role: Deputy Communications Director
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Cynthia Kim's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Cynthia Kim's Instagram
+  website-url-3: https://www.linkedin.com/in/cynthia-kim/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Cynthia Kim's LinkedIn
+- image: "/assets/images/headshot_radhikabhatt.jpg"
+  imageAlt: 
+  name: Radhika Bhatt
+  role: Partnerships Director
+  pronouns: she / her / hers
+  number: 2
+  website-url-1: http://www.radhikabhatt.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Radhika Bhatt's Website
+  website-url-2: https://twitter.com/superbhatt
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Radhika Bhatt's Instagram
+  website-url-3: https://www.linkedin.com/in/radhika-bhatt/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Radhika Bhatt's LinkedIn
+- image: "/assets/images/headshot_claireblaustein.jpg"
+  imageAlt: A young African American man with an afro and wearing glasses, pictured
+    in front of a wall with a pink glow, looking away from the camera.
+  name: Claire Blaustein
+  role: AIGA DC President
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Claire Blaustein's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Claire Blaustein's Instagram
+  website-url-3: 
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Claire Blaustein's LinkedIn
+- image: "/assets/images/headshot_benabraham.jpg"
+  imageAlt: 
+  name: Ben Abraham
+  role: Community-Curated Events Manager
+  pronouns: he / him / his
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Ben Abraham's Website
+  website-url-2: https://www.instagram.com/benlenciagaaa
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Ben Abraham's Instagram
+  website-url-3: https://www.linkedin.com/in/ben-abraham
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Ben Abraham's LinkedIn
+- image: "/assets/images/headshot_sydneyadams.jpg"
+  imageAlt: A young, African American woman wearing a cute pink blazer, pictured in
+    front of a baby pink background, smiling at the camera.
+  name: Sydney Adams
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Sydney Adams' Website
+  website-url-2: https://www.instagram.com/sydadams211/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Sydney Adams' Instagram
+  website-url-3: https://www.linkedin.com/in/sydney-adams/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Sydney Adams' LinkedIn
+- image: "/assets/images/headshot_janessaarrington.jpg"
+  imageAlt: A young, African-American woman with cornrows, smiling into the camera
+    and wearing glasses.
+  name: Janessa Arrington
+  role: Keynote Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Janessa Arrington's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Janessa Arrington's Instagram
+  website-url-3: https://www.linkedin.com/in/janessa-arrington/?trk=people_directory
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Janessa Arrington's LinkedIn
+- image: "/assets/images/headshot_kojoboateng.jpg"
+  imageAlt: A Black man with a shaved head who is smiling.
+  name: Kojo Boateng
+  role: Kickoff Event Lead
+  pronouns: he / him / his
+  number: 1
+  website-url-1: http://kojoboateng.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Kojo Boateng's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Kojo Boateng's Instagram
+  website-url-3: https://www.linkedin.com/in/kojoboateng/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Kojo Boateng's LinkedIn
+- image: "/assets/images/headshot_jelenabudjevac.jpg"
+  imageAlt: 
+  name: Jelena Budjevac
+  role: Copywriter
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jelena Budjevac's Website
+  website-url-2: https://www.instagram.com/mllebonvivant/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jelena Budjevac's Instagram
+  website-url-3: https://www.linkedin.com/in/jelenabudjevac/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jelena Budjevac's LinkedIn
+- image: "/assets/images/headshot_caracampbell.jpg"
+  imageAlt: An African American woman with afro puffs, smiling at the camera.
+  name: Cara Campbell
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: https://www.caracampbell.design
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Cara Campbell's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Cara Campbell's Instagram
+  website-url-3: https://www.linkedin.com/in/cara-campbell56
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Cara Campbell's LinkedIn
+- image: "/assets/images/headshot_bennethchukwu.jpg"
+  imageAlt: A young, African-American male with long black dreads and wearing a pink
+    graphic t-shirt and glasses, smiling into the camera.
+  name: Benneth Chukwu
+  role: Designer
+  pronouns: he / him / his
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Benneth Chukwu's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Benneth Chukwu's Instagram
+  website-url-3: https://www.linkedin.com/in/benneth-chukwu/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Benneth Chukwu's LinkedIn
+- image: "/assets/images/headshot_elaineheinzman.jpg"
+  imageAlt: 
+  name: Elaine Heinzman
+  role: Community-Curated Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://elaineheinzman.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Elaine Heinzman's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Elaine Heinzman's Instagram
+  website-url-3: http://linkedin.com/in/elaineheinzman
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Elaine Heinzman's LinkedIn
+- image: "/assets/images/headshot_jessicajosey.jpg"
+  imageAlt: 
+  name: Jessica Josey
+  role: Social Media Lead
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: http://www.jessicajosey.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jessica Josey's Website
+  website-url-2: https://www.instagram.com/jes.josey/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jessica Josey's Instagram
+  website-url-3: https://www.linkedin.com/in/jessica-josey
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jessica Josey's LinkedIn
+- image: "/assets/images/headshot_joshkim.jpg"
+  imageAlt: 
+  name: Josh Kim
+  role: Accessibility Lead
+  pronouns: he / him / his
+  number: 3
+  website-url-1: http://www.joshkimux.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Josh Kim's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Josh Kim's Instagram
+  website-url-3: https://www.linkedin.com/in/joshkimux/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Josh Kim's LinkedIn
+- image: "/assets/images/headshot_nicolemckinney.jpg"
+  imageAlt: 
+  name: Nicole McKinney
+  role: Keynote Event Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://nicolewmckinney.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Nicole McKinney's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Nicole McKinney's Instagram
+  website-url-3: https://www.linkedin.com/in/mckinney-nicole/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Nicole McKinney's LinkedIn
+- image: "/assets/images/headshot_johannaostrich.jpg"
+  imageAlt: A woman with short curly hair, glasses, and fabulous earrings.
+  name: Johanna Ostrich
+  role: Pop-Up Event Lead
+  pronouns: she / her / hers
+  number: 4
+  website-url-1: http://johannaostrich.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Johanna Ostrich's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Johanna Ostrich's Instagram
+  website-url-3: https://www.linkedin.com/in/johannaostrich/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Johanna Ostrich's LinkedIn
+- image: "/assets/images/headshot_jenapersico.jpg"
+  imageAlt: A smiling woman wearing a shirt patterned with hot air balloons, sitting
+    in front of a purple wall.
+  name: Jena Persico
+  role: Pop-Up Event Lead
+  pronouns: she / her
+  number: 3
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Jena Persico's Website
+  website-url-2: https://www.instagram.com/alpacayoursuitcase
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Jena Persico's Instagram
+  website-url-3: http://www.linkedin.com/in/jena-p-6051ab30
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Jena Persico's LinkedIn
+- image: "/assets/images/headshot_khanhpham.jpg"
+  imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces
+    who’s smiling and looking directly into the camera
+  name: Khanh Pham
+  role: Marketing Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: 
+  website-aria-label-1: 
+  website-url-2: 
+  website-label-2: 
+  website-aria-label-2: 
+  website-url-3: https://www.linkedin.com/in/bkhanhp
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Khanh Pham's LinkedIn
+- image: "/assets/images/headshot_kristinrafael.jpg"
+  imageAlt: 
+  name: Kristin Rafael
+  role: Design Lead
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: http://krafael.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Kristin Rafael's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Kristin Rafael's Instagram
+  website-url-3: http://linkedin.com/in/kristin-rafael-a2552985
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Kristin Rafael's LinkedIn
+- image: "/assets/images/headshot_marcusrelacion.jpg"
+  imageAlt: 
+  name: Marcus Relacion
+  role: Web Developer
+  pronouns: he / him / his
+  number: 4
+  website-url-1: https://www.marcusrelacion.com
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Marcus Relacion's Website
+  website-url-2: https://www.instagram.com/marcusrelacion/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Marcus Relacion's Instagram
+  website-url-3: https://www.linkedin.com/in/marcusrelacion/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Marcus Relacion's LinkedIn
+- image: "/assets/images/headshot_silviascript.jpg"
+  imageAlt: A young, smiling, South American indigenous woman with long black hair.
+  name: Silvia Script
+  role: Web Lead
+  pronouns: she / her / hers
+  number: 3
+  website-url-1: http://silviascript.com/
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Silvia Script's Website
+  website-url-2: 
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Silvia Script's Instagram
+  website-url-3: https://www.linkedin.com/in/silscript/
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Silvia Script's LinkedIn
+- image: "/assets/images/headshot_chelseawilson.jpg"
+  imageAlt: 
+  name: Chelsea Wilson
+  role: Web Designer
+  pronouns: she / her / hers
+  number: 1
+  website-url-1: 
+  website-label-1: <i class="fas fa-globe"></i> Website
+  website-aria-label-1: Chelsea Wilson's Website
+  website-url-2: https://www.instagram.com/yxxko.jpg/
+  website-label-2: <i class="fab fa-instagram-square"></i> Instagram
+  website-aria-label-2: Chelsea Wilson's Instagram
+  website-url-3: https://www.linkedin.com/in/chelsea-wilson-6a8702101
+  website-label-3: <i class="fab fa-linkedin"></i> LinkedIn
+  website-aria-label-3: Chelsea Wilson's LinkedIn

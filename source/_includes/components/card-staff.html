@@ -1,0 +1,43 @@
+<li>
+    <div>
+        <figure>
+            <img alt="{{ member.imageAlt }}" src="{{ member.image }}" />
+        </figure>
+    </div>
+    <div>
+        {% if member.name %}
+        <h3>
+            {{ member.name }}
+        </h3>
+        {% endif %}
+        {% if member.role %}
+        <p>
+            {{ member.role }}
+        </p>
+        {% endif %}
+        {% if member.pronouns %}
+        <p>
+            {{ member.pronouns }}
+        </p>
+        {% endif %}
+    </div>
+    <div>
+        <div>
+            {% if member.website-url-1 %}
+            <a aria-label="{{ member.website-aria-label-1 }}" class="" href="{{ member.website-url-1 }}" rel="noopener noreferrer" target="_blank">
+                {{ member.website-label-1 }}
+            </a>
+            {% endif %}
+            {% if member.website-url-2 %}
+            <a aria-label="{{ member.website-aria-label-2 }}" class="" href="{{ member.website-url-2 }}" rel="noopener noreferrer" target="_blank">
+                {{ member.website-label-2 }}
+            </a>
+            {% endif %}
+            {% if member.website-url-3 %}
+            <a aria-label="{{ member.website-aria-label-3 }}" class="" href="{{ member.website-url-3 }}" rel="noopener noreferrer" target="_blank">
+                {{ member.website-label-3 }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</li>

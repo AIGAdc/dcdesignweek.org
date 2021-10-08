@@ -1,0 +1,37 @@
+<section>
+    <div>
+        <figure>
+            <img src="/assets/images/ornament-purple-sticker-and-tape.png" alt>
+        </figure>
+    </div>
+
+    <div>
+        <div>
+            <h2>
+                {{ staff_header }}
+            </h2>
+            {% if staff_body %}
+            <hr aria-hidden="true" class="divider divider--black">
+            <div>
+                {{ staff_body }}
+            </div>
+            {% endif %}
+        </div>
+        {% if show_staff_image == true %}
+        <div>
+            <figure>
+                <img alt="{{ staff_imageAlt }}" src="{{ staff_image }}">
+                <figcaption>
+                    {{ staff_imageAlt }}
+                </figcaption>
+            </figure>
+        </div>
+        {% endif %}
+    </div>
+
+    <ul>
+        {% for member in staff.members %}
+            {% include 'components/card-staff.html' %}
+        {% endfor %}
+    </ul>
+</section>

@@ -80,13 +80,7 @@ a:focus {
 }
 
 body {
-    // border-left: solid 16px var(--celeste);
-    // border-right: solid 16px var(--celeste);
-    background-color: var(--beige);
-    background-image: url("/uploads/brick.png");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: repeat-y;;
+    background-color: var(--white);
     color: var(--black);
     font-family: var(--font-poppins);
     font-size: var(--font-size-16);
@@ -110,10 +104,6 @@ figure {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
             "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
-}
-
-main {
-    background-color: var(--black);
 }
 
 h1,
@@ -142,6 +132,10 @@ legend,
 ul {
     margin: 0;
     padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 section {
