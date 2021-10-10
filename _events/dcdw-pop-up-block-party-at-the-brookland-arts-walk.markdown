@@ -12,6 +12,7 @@ status:
   is-featured-home: true
   is-featured-event: true
   featured-event-message: Featured Event
+  has-occurred: true
 tickets:
   has-member-button: true
   member-button-url: https://www.eventbrite.com/e/dcdw-pop-up-block-party-at-the-brookland-arts-walk-tickets-170371339262
