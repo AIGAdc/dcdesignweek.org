@@ -14,17 +14,17 @@ hero:
   image: "/assets/images/image-about-hero.png"
   imageAlt: Collage made up of a yellow abstract shape, and transparent tape flanking
     a photograph of a blurred Metro train in motion.
-ghostnote-header: Ghost Note Agency
-ghostnote-body: Ghost Note is a creative agency born + based in the District of Columbia.
+ghostnote_header: Ghost Note Agency
+ghostnote_body: Ghost Note is a creative agency born + based in the District of Columbia.
   We believe that when good people come together they create truly great things.
-show-ghostnote-image: true
-ghostnote-image: "/assets/images/image-ghost.png"
-ghostnote-imageAlt: Collage made up of yellow and red abstract shapes, transparent
+show_ghostnote_image: true
+ghostnote_image: "/assets/images/image-ghost.png"
+ghostnote_imageAlt: Collage made up of yellow and red abstract shapes, transparent
   tape and a sticker that says 2019, flanking a black abstract shape with the Ghost
   Note Agency logo.
-ghostnote-button-label: Ghostnote's Website
-ghostnote-button-url: https://www.ghostnoteagency.com/
-ghostnote-button-is-external-url: true
+ghostnote_button_label: Ghostnote's Website
+ghostnote_button_url: https://www.ghostnoteagency.com/
+ghostnote_button_is_external_url: true
 hyperlocal-header: '2021: Hyperlocal: Grown locally. Inspire Globally.'
 hyperlocal-body: We aspire to foster conversations that will challenge, excite, and
   promote change. We want to lean into the call and response nature of design and

@@ -1,0 +1,23 @@
+<section>
+    <div>
+        {% if show_ghostnote_image == true %}
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ ghostnote_image }}" alt="{{ ghostnote_imageAlt }}">
+            </figure>
+        </div>
+        {% endif %}
+        <div>
+            <h2>
+                {{ ghostnote_header  }}
+            </h2>
+            <hr class="divider divider--black" aria-hidden="true">
+            <div>
+                {{ ghostnote_body  }}
+            </div>
+            <a aria-label="{{ ghostnote_button_aria }}" class="button button-solid--black" href="{{ ghostnote_button_url }}" {% if ghostnote-button-is-external-url == true %} rel="noopener nofollow" target="_blank" {% endif %}>
+                {{ ghostnote_button_label }}
+            </a>
+        </div>
+    </div>
+</section>
