@@ -1,37 +1,30 @@
 <section>
+    {% for details in staff.details %}
     <div>
-        <figure>
-            <img src="/assets/images/ornament-purple-sticker-and-tape.png" alt>
-        </figure>
+        <h2>
+            {{ details.staff_header }}
+        </h2>
+        <hr aria-hidden="true" class="divider divider--black">
+        <div>
+            {{ details.staff_body }}
+        </div>
     </div>
 
+    {% if details.show_staff_image == true %}
     <div>
-        <div>
-            <h2>
-                {{ staff_header }}
-            </h2>
-            {% if staff_body %}
-            <hr aria-hidden="true" class="divider divider--black">
-            <div>
-                {{ staff_body }}
-            </div>
-            {% endif %}
-        </div>
-        {% if show_staff_image == true %}
-        <div>
-            <figure>
-                <img alt="{{ staff_imageAlt }}" src="{{ staff_image }}">
-                <figcaption>
-                    {{ staff_imageAlt }}
-                </figcaption>
-            </figure>
-        </div>
-        {% endif %}
+        <figure>
+            <img alt="{{ details.staff_image_alt }}" src="{{ details.staff_image }}">
+            <figcaption>
+                {{ details.staff_image_alt }}
+            </figcaption>
+        </figure>
     </div>
+    {% endif %}
+    {% endfor %}
 
     <ul>
         {% for member in staff.members %}
-            {% include 'components/card-staff.html' %}
+        {% include 'components/card-staff.html' %}
         {% endfor %}
     </ul>
 </section>

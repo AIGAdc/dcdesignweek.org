@@ -1,4 +1,10 @@
 ---
+details:
+- staff_header: DCDW 2021 Committee
+  staff_body: "DC Design Week is planned by a committee of volunteers who help plan each event, do all the outreach, and more. We’re so grateful for their contributions."
+  show_staff_image: true
+  staff_image: https://www.pcgamesn.com/wp-content/uploads/2019/02/Overwatch-Baptiste-Abilities.jpg
+  staff_image_alt: Please provide image alt text
 members:
 - image: "/assets/images/headshot_richardbentham.jpg"
   imageAlt: A young Afro-Caribbean American man with glasses, smiling, short haircut with a fade and rounder face.

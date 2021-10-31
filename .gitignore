@@ -1,7 +1,10 @@
+.jekyll-cache
 node_modules
 public
 config.codekit3
 .DS_store
+
+build
 
 # Remove once done with MVP
 _config.yml

@@ -1,1 +1,26 @@
-Hero
+<section>
+    <div>
+        <div>
+            <span id="skip-to-content">
+                <h1>{{ hero_header }}</h1>
+            </span>
+            <div>
+                {{ hero_subheader }}
+            </div>
+            <a 
+            class="button button-solid--black" 
+            href="{{ hero_button_url }}" 
+            {% if hero_button_external==true %} 
+            rel="noopener nofollow" target="_blank" 
+            {% endif %}
+            >
+                {{ hero_button_label }}
+            </a>
+        </div>
+        <div class="grid--two-column-span">
+            <figure>
+                <img src="{{ hero_image }}" alt="{{ hero_imageAlt }}">
+            </figure>
+        </div>
+    </div>
+</section>
